@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Volleyball Activities - Heartique Nexus</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0; padding: 0;
+      background: #f0f4f8;
+      color: #2e3e4e;
+    }
+    .container {
+      max-width: 700px;
+      margin: 1rem auto;
+      padding: 1rem 1.2rem;
+      background: white;
+      border-radius: 6px;
+      box-shadow: 0 1px 6px rgba(0,0,0,0.1);
+    }
+    header {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    header h1 {
+      color: #1565c0;
+      margin: 0 0 0.5rem 0;
+      font-weight: 700;
+      font-size: 1.5rem;
+    }
+    nav {
+      margin-bottom: 1rem;
+      display: flex;
+      justify-content: space-between;
+    }
+    nav button {
+      background: #1565c0;
+      color: white;
+      border: none;
+      padding: 0.35rem 0.75rem;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 0.85rem;
+      transition: background 0.3s ease;
+    }
+    nav button:hover {
+      background: #0d3c75;
+    }
+    section {
+      margin-bottom: 1rem;
+    }
+    section h2 {
+      color: #1565c0;
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+    }
+    ul li {
+      background: #bbdefb;
+      border-radius: 6px;
+      padding: 0.35rem 0.6rem;
+      flex: 1 1 calc(50% - 0.8rem);
+      box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+      cursor: pointer;
+      font-size: 0.9rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      user-select: none;
+      transition: background 0.25s ease;
+    }
+    ul li:hover {
+      background-color: #90caf9;
+    }
+    ul li button.delete-btn {
+      background: #d32f2f;
+      border: none;
+      color: white;
+      border-radius: 4px;
+      padding: 0.25rem 0.5rem;
+      cursor: pointer;
+      font-size: 0.75rem;
+      margin-left: 0.6rem;
+      flex-shrink: 0;
+      transition: background 0.3s ease;
+    }
+    ul li button.delete-btn:hover {
+      background: #9a0007;
+    }
+    #likeSection {
+      background: #c8e6c9;
+      border-left: 6px solid #2e7d32;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      margin-bottom: 1rem;
+      font-size: 0.9rem;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+    #likeSection input[type="text"] {
+      flex-grow: 1;
+      padding: 0.35rem 0.5rem;
+      font-size: 0.9rem;
+      border: 1px solid #2e7d32;
+      border-radius: 4px;
+    }
+    #likeBtn {
+      background: #2e7d32;
+      border: none;
+      color: white;
+      border-radius: 4px;
+      padding: 0.6rem 1rem;
+      cursor: pointer;
+      font-size: 1.2rem;
+      transition: background 0.3s ease;
+    }
+    #likeBtn:hover {
+      background: #1b4d1b;
+    }
+    #likedByList {
+      margin-top: 0.5rem;
+      font-size: 0.85rem;
+      color: #1b4d1b;
+    }
+    textarea {
+      width: 100%;
+      min-height: 80px;
+      resize: vertical;
+      padding: 0.5rem;
+      font-size: 0.85rem;
+      border-radius: 4px;
+      border: 1px solid #2e7d32;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    #notepadSection {
+      margin-top: 1rem;
+    }
+    #notepadSection label {
+      display: block;
+      margin-bottom: 0.3rem;
+      font-weight: 600;
+      color: #1565c0;
+      font-size: 1rem;
+    }
+    #saveNotesBtn {
+      margin-top: 0.5rem;
+      background: #1565c0;
+      color: white;
+      border: none;
+      padding: 0.4rem 1rem;
+      font-size: 0.9rem;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    #saveNotesBtn:hover {
+      background: #0d3c75;
+    }
+    textarea::-webkit-scrollbar {
+      width: 8px;
+    }
+    textarea::-webkit-scrollbar-thumb {
+      background-color: #2e7d32;
+      border-radius: 4px;
+    }
+    @media (max-width: 480px) {
+      ul li {
+        flex: 1 1 100%;
+      }
+      nav {
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+      nav button {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Volleyball Activities</h1>
+      <nav>
+        <button onclick="goBack()">← Back</button>
+        <button onclick="logout()">Logout</button>
+      </nav>
+    </header>
+
+    <section>
+      <h2>Notes</h2>
+      <ul class="notes-list" id="notesList"></ul>
+      <input type="text" id="newNoteInput" placeholder="Add new note and press Enter" />
+    </section>
+
+    <section>
+      <h2>Video Links</h2>
+      <ul class="video-list" id="videoList"></ul>
+      <input type="text" id="newVideoInput" placeholder="Add new video URL and press Enter" />
+    </section>
+
+    <section>
+      <h2>Best Volleyball Players Panel of the Year</h2>
+      <ul class="players-list" id="playersList"></ul>
+      <input type="text" id="newPlayerInput" placeholder="Add best volleyball player name and press Enter" />
+    </section>
+
+    <section id="likeSection">
+      <input type="text" id="likeInput" placeholder="Type your name to show you like volleyball" />
+      <button id="likeBtn" title="Show you like volleyball!">🏐❤️</button>
+    </section>
+    <div id="likedByList"></div>
+
+    <section id="notepadSection">
+      <label for="notepad">Contact Peer Student - Notes / Messages:</label>
+      <textarea id="notepad" placeholder="Write your notes or messages here..."></textarea>
+      <button id="saveNotesBtn">Save Notes</button>
+    </section>
+  </div>
+
+  <script>
+    // Navigation
+    function goBack() {
+      window.history.back();
+    }
+    function logout() {
+      localStorage.removeItem('loggedInUser');
+      window.location.href = 'login.html';
+    }
+
+    // Create list items with delete
+    function createListItem(text, listElement, storageKey) {
+      const li = document.createElement('li');
+      li.textContent = text;
+
+      const delBtn = document.createElement('button');
+      delBtn.textContent = 'x';
+      delBtn.classList.add('delete-btn');
+      delBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        listElement.removeChild(li);
+        let items = JSON.parse(localStorage.getItem(storageKey)) || [];
+        items = items.filter(item => item !== text);
+        localStorage.setItem(storageKey, JSON.stringify(items));
+      });
+
+      li.appendChild(delBtn);
+      listElement.appendChild(li);
+    }
+
+    // Load and render lists
+    function loadList(storageKey, listElement) {
+      const items = JSON.parse(localStorage.getItem(storageKey)) || [];
+      listElement.innerHTML = '';
+      items.forEach(item => createListItem(item, listElement, storageKey));
+    }
+
+    // Setup input to add items on Enter
+    function setupInput(storageKey, inputId, listElement) {
+      const input = document.getElementById(inputId);
+      input.addEventListener('keypress', (e) => {
+        if(e.key === 'Enter' && input.value.trim() !== '') {
+          let items = JSON.parse(localStorage.getItem(storageKey)) || [];
+          const val = input.value.trim();
+          if (!items.includes(val)) {
+            items.push(val);
+            localStorage.setItem(storageKey, JSON.stringify(items));
+            createListItem(val, listElement, storageKey);
+          }
+          input.value = '';
+        }
+      });
+    }
+
+    // Initialize Notes
+    const notesList = document.getElementById('notesList');
+    loadList('volleyballNotes', notesList);
+    setupInput('volleyballNotes', 'newNoteInput', notesList);
+
+    // Initialize Videos
+    const videoList = document.getElementById('videoList');
+    loadList('volleyballVideos', videoList);
+    setupInput('volleyballVideos', 'newVideoInput', videoList);
+
+    // Initialize Players
+    const playersList = document.getElementById('playersList');
+    loadList('volleyballPlayers', playersList);
+    setupInput('volleyballPlayers', 'newPlayerInput', playersList);
+
+    // Likes section
+    const likeInput = document.getElementById('likeInput');
+    const likeBtn = document.getElementById('likeBtn');
+    const likedByList = document.getElementById('likedByList');
+
+    function loadLikes() {
+      const likes = JSON.parse(localStorage.getItem('volleyballLikes')) || [];
+      if(likes.length === 0) {
+        likedByList.textContent = 'No one has shown they like volleyball yet.';
+      } else {
+        likedByList.textContent = 'Fans: ' + likes.join(', ');
+      }
+    }
+
+    likeBtn.addEventListener('click', () => {
+      const name = likeInput.value.trim();
+      if(name) {
+        let likes = JSON.parse(localStorage.getItem('volleyballLikes')) || [];
+        if(!likes.includes(name)) {
+          likes.push(name);
+          localStorage.setItem('volleyballLikes', JSON.stringify(likes));
+          loadLikes();
+          likeInput.value = '';
+        } else {
+          alert('You already showed you like volleyball!');
+        }
+      }
+    });
+
+    loadLikes();
+
+    // Notepad section for peer contact notes
+    const notepad = document.getElementById('notepad');
+    const saveNotesBtn = document.getElementById('saveNotesBtn');
+
+    // Load saved notes
+    notepad.value = localStorage.getItem('volleyballPeerNotes') || '';
+
+    saveNotesBtn.addEventListener('click', () => {
+      localStorage.setItem('volleyballPeerNotes', notepad.value);
+      alert('Notes saved!');
+    });
+  </script>
+</body>
+</html>

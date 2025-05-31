@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Athletes Activities - Heartique Nexus</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0; padding: 0;
+      background: #f4f6f8;
+      color: #333;
+    }
+    .container {
+      max-width: 700px;
+      margin: 1rem auto;
+      padding: 1rem;
+      background: white;
+      border-radius: 6px;
+      box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+    }
+    header {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    header h1 {
+      color: #00695c;
+      margin: 0 0 0.5rem 0;
+      font-weight: 700;
+      font-size: 1.5rem;
+    }
+    nav {
+      margin-bottom: 1rem;
+      display: flex;
+      justify-content: space-between;
+    }
+    nav button {
+      background: #00695c;
+      color: white;
+      border: none;
+      padding: 0.3rem 0.7rem;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 0.85rem;
+      transition: background 0.3s ease;
+    }
+    nav button:hover {
+      background: #004d40;
+    }
+    section {
+      margin-bottom: 1rem;
+    }
+    section h2 {
+      color: #00695c;
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.3rem;
+    }
+    ul li {
+      background: #c8e6c9;
+      border-radius: 6px;
+      padding: 0.3rem 0.5rem;
+      flex: 1 1 calc(50% - 0.6rem);
+      box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
+      cursor: pointer;
+      font-size: 0.85rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      user-select: none;
+      transition: background 0.2s ease;
+    }
+    ul li:hover {
+      background-color: #a5d6a7;
+    }
+    ul li button.delete-btn {
+      background: #d32f2f;
+      border: none;
+      color: white;
+      border-radius: 4px;
+      padding: 0.2rem 0.5rem;
+      cursor: pointer;
+      font-size: 0.75rem;
+      margin-left: 0.5rem;
+      flex-shrink: 0;
+      transition: background 0.3s ease;
+    }
+    ul li button.delete-btn:hover {
+      background: #9a0007;
+    }
+    #likeSection {
+      background: #dcedc8;
+      border-left: 6px solid #689f38;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      margin-bottom: 1rem;
+      font-size: 0.9rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    #likeSection input[type="text"] {
+      flex-grow: 1;
+      padding: 0.3rem 0.5rem;
+      font-size: 0.9rem;
+      border: 1px solid #689f38;
+      border-radius: 4px;
+    }
+    #likeBtn {
+      background: #689f38;
+      border: none;
+      color: white;
+      border-radius: 4px;
+      padding: 0.6rem 1rem;
+      cursor: pointer;
+      font-size: 1.2rem;
+      transition: background 0.3s ease;
+    }
+    #likeBtn:hover {
+      background: #4a7c2a;
+    }
+    #likedByList {
+      margin-top: 0.5rem;
+      font-size: 0.85rem;
+      color: #2e7d32;
+    }
+    textarea {
+      width: 100%;
+      min-height: 80px;
+      resize: vertical;
+      padding: 0.5rem;
+      font-size: 0.85rem;
+      border-radius: 4px;
+      border: 1px solid #689f38;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    #notepadSection {
+      margin-top: 1rem;
+    }
+    #notepadSection label {
+      display: block;
+      margin-bottom: 0.3rem;
+      font-weight: 600;
+      color: #00695c;
+      font-size: 1rem;
+    }
+    #saveNotesBtn {
+      margin-top: 0.5rem;
+      background: #00695c;
+      color: white;
+      border: none;
+      padding: 0.4rem 1rem;
+      font-size: 0.9rem;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    #saveNotesBtn:hover {
+      background: #004d40;
+    }
+    /* Scrollbar for textarea */
+    textarea::-webkit-scrollbar {
+      width: 8px;
+    }
+    textarea::-webkit-scrollbar-thumb {
+      background-color: #689f38;
+      border-radius: 4px;
+    }
+    /* Responsive adjustments */
+    @media (max-width: 480px) {
+      ul li {
+        flex: 1 1 100%;
+      }
+      nav {
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+      nav button {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Athletes Activities</h1>
+      <nav>
+        <button onclick="goBack()">← Back</button>
+        <button onclick="logout()">Logout</button>
+      </nav>
+    </header>
+
+    <section>
+      <h2>Notes</h2>
+      <ul class="notes-list" id="notesList"></ul>
+      <input type="text" id="newNoteInput" placeholder="Add new note and press Enter" />
+    </section>
+
+    <section>
+      <h2>Video Links</h2>
+      <ul class="video-list" id="videoList"></ul>
+      <input type="text" id="newVideoInput" placeholder="Add new video URL and press Enter" />
+    </section>
+
+    <section>
+      <h2>Best Athletes Panel of the Year</h2>
+      <ul class="players-list" id="playersList"></ul>
+      <input type="text" id="newPlayerInput" placeholder="Add best athlete name and press Enter" />
+    </section>
+
+    <section id="likeSection">
+      <input type="text" id="likeInput" placeholder="Type your name to show you like athletes" />
+      <button id="likeBtn" title="Show you like athletes!">❤️</button>
+    </section>
+    <div id="likedByList"></div>
+
+    <section id="notepadSection">
+      <label for="notepad">Contact Peer Student - Notes / Messages:</label>
+      <textarea id="notepad" placeholder="Write your notes or messages here..."></textarea>
+      <button id="saveNotesBtn">Save Notes</button>
+    </section>
+  </div>
+
+  <script>
+    // Back and logout
+    function goBack() {
+      window.history.back();
+    }
+    function logout() {
+      localStorage.removeItem('loggedInUser');
+      window.location.href = 'login.html';
+    }
+
+    // Utility to create list items with delete button
+    function createListItem(text, listElement, storageKey) {
+      const li = document.createElement('li');
+      li.textContent = text;
+
+      const delBtn = document.createElement('button');
+      delBtn.textContent = 'x';
+      delBtn.classList.add('delete-btn');
+      delBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        listElement.removeChild(li);
+        let items = JSON.parse(localStorage.getItem(storageKey)) || [];
+        items = items.filter(item => item !== text);
+        localStorage.setItem(storageKey, JSON.stringify(items));
+      });
+
+      li.appendChild(delBtn);
+      listElement.appendChild(li);
+    }
+
+    // Load and render lists
+    function loadList(storageKey, listElement) {
+      const items = JSON.parse(localStorage.getItem(storageKey)) || [];
+      listElement.innerHTML = '';
+      items.forEach(item => createListItem(item, listElement, storageKey));
+    }
+
+    // Setup input to add items on Enter
+    function setupInput(storageKey, inputId, listElement) {
+      const input = document.getElementById(inputId);
+      input.addEventListener('keypress', (e) => {
+        if(e.key === 'Enter' && input.value.trim() !== '') {
+          let items = JSON.parse(localStorage.getItem(storageKey)) || [];
+          const val = input.value.trim();
+          if (!items.includes(val)) {
+            items.push(val);
+            localStorage.setItem(storageKey, JSON.stringify(items));
+            createListItem(val, listElement, storageKey);
+          }
+          input.value = '';
+        }
+      });
+    }
+
+    // Initialize Notes
+    const notesList = document.getElementById('notesList');
+    loadList('athletesNotes', notesList);
+    setupInput('athletesNotes', 'newNoteInput', notesList);
+
+    // Initialize Videos
+    const videoList = document.getElementById('videoList');
+    loadList('athletesVideos', videoList);
+    setupInput('athletesVideos', 'newVideoInput', videoList);
+
+    // Initialize Players
+    const playersList = document.getElementById('playersList');
+    loadList('athletesPlayers', playersList);
+    setupInput('athletesPlayers', 'newPlayerInput', playersList);
+
+    // Likes section
+    const likeInput = document.getElementById('likeInput');
+    const likeBtn = document.getElementById('likeBtn');
+    const likedByList = document.getElementById('likedByList');
+
+    function loadLikes() {
+      const likes = JSON.parse(localStorage.getItem('athletesLikes')) || [];
+      if(likes.length === 0) {
+        likedByList.textContent = 'No one has shown they like athletes yet.';
+      } else {
+        likedByList.textContent = 'Fans: ' + likes.join(', ');
+      }
+    }
+
+    likeBtn.addEventListener('click', () => {
+      const name = likeInput.value.trim();
+      if(name) {
+        let likes = JSON.parse(localStorage.getItem('athletesLikes')) || [];
+        if(!likes.includes(name)) {
+          likes.push(name);
+          localStorage.setItem('athletesLikes', JSON.stringify(likes));
+          loadLikes();
+          likeInput.value = '';
+        } else {
+          alert('You already showed you like athletes!');
+        }
+      }
+    });
+
+    loadLikes();
+
+    // Notepad section for peer contact notes
+    const notepad = document.getElementById('notepad');
+    const saveNotesBtn = document.getElementById('saveNotesBtn');
+
+    // Load saved notes
+    notepad.value = localStorage.getItem('athletesPeerNotes') || '';
+
+    saveNotesBtn.addEventListener('click', () => {
+      localStorage.setItem('athletesPeerNotes', notepad.value);
+      alert('Notes saved!');
+    });
+  </script>
+</body>
+</html>

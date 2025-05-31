@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Register - Heartique Nexus</title>
+  <style>
+    :root{
+      --primary:#2980b9;
+      --primary-dark:#1c5980;
+      --bg:#f4f6f8;
+    }
+    *{box-sizing:border-box;margin:0;padding:0;font-family:Arial,Helvetica,sans-serif}
+    body{
+      background:var(--bg);
+      height:100vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+    }
+    .card{
+      width:340px;
+      background:#fff;
+      padding:2rem;
+      border-radius:8px;
+      box-shadow:0 4px 12px rgba(0,0,0,.1);
+    }
+    h2{text-align:center;margin-bottom:1rem;color:#2c3e50}
+    label{display:block;margin:.6rem 0 .25rem;font-weight:600;color:#34495e}
+    input,select{
+      width:100%;
+      padding:.55rem .6rem;
+      border:1px solid #ccc;
+      border-radius:4px;
+      margin-bottom:1rem;
+      font-size:1rem;
+    }
+    input:focus,select:focus{outline:2px solid var(--primary)}
+    button{
+      width:100%;
+      padding:.65rem;
+      border:none;
+      border-radius:4px;
+      background:var(--primary);
+      color:#fff;
+      font-weight:700;
+      cursor:pointer;
+      transition:.25s;
+    }
+    button:hover{background:var(--primary-dark)}
+    p{text-align:center;margin-top:.5rem;color:#7f8c8d;font-size:.9rem}
+    a{color:var(--primary);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .error{
+      background:#ffdad8;
+      color:#c62828;
+      padding:.6rem;
+      border-left:4px solid #c62828;
+      border-radius:4px;
+      margin-bottom:1rem;
+      display:none;
+      font-size:.9rem;
+    }
+    .success{
+      background:#d1f9d1;
+      color:#2e7d32;
+      padding:.6rem;
+      border-left:4px solid #2e7d32;
+      border-radius:4px;
+      margin-bottom:1rem;
+      display:none;
+      font-size:.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h2>Create Account</h2>
+
+    <div id="errorBox" class="error"></div>
+    <div id="successBox" class="success"></div>
+
+    <form id="registerForm" autocomplete="off">
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="example@domain.com" required>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" placeholder="Min 6 characters" required minlength="6">
+
+      <label for="role">Role</label>
+      <select id="role" required>
+        <option value="">Select role</option>
+        <option value="creator">Creator</option>
+        <option value="tutor">Tutor</option>
+        <option value="student">Student</option>
+      </select>
+
+      <button type="submit">Register</button>
+    </form>
+
+    <p>Already have an account? <a href="login.html">Login here</a></p>
+  </div>
+
+  <script>
+    /* ---------- helper functions ---------- */
+    const getUsers = () =>
+      JSON.parse(localStorage.getItem('users') || '[]');
+
+    const saveUsers = users =>
+      localStorage.setItem('users', JSON.stringify(users));
+
+    const showMsg = (box, msg) => {
+      box.textContent = msg;
+      box.style.display = 'block';
+    };
+    const hideMsg = box => (box.style.display = 'none');
+
+    /* ---------- registration logic ---------- */
+    const form       = document.getElementById('registerForm');
+    const errorBox   = document.getElementById('errorBox');
+    const successBox = document.getElementById('successBox');
+
+    form.addEventListener('submit', e=>{
+      e.preventDefault();
+      hideMsg(errorBox); hideMsg(successBox);
+
+      const email    = document.getElementById('email').value.trim().toLowerCase();
+      const password = document.getElementById('password').value.trim();
+      const role     = document.getElementById('role').value;
+
+      /* front-end validation */
+      if(!email || !password || !role){
+        showMsg(errorBox,'Please fill in all fields.');
+        return;
+      }
+      if(password.length < 6){
+        showMsg(errorBox,'Password must be at least 6 characters.');
+        return;
+      }
+      /* email regex (simple) */
+      const emailPattern=/^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if(!emailPattern.test(email)){
+        showMsg(errorBox,'Please enter a valid email address.');
+        return;
+      }
+
+      let users = getUsers();
+      if(users.some(u=>u.email===email)){
+        showMsg(errorBox,'An account with this email already exists.');
+        return;
+      }
+
+      /* save new user */
+      users.push({email,password,role});
+      saveUsers(users);
+
+      showMsg(successBox,'Account created! Redirecting to login…');
+      setTimeout(()=>window.location.href='login.html',1200);
+    });
+  </script>
+</body>
+</html>

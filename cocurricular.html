@@ -1,0 +1,171 @@
+<section id="coCurricularActivities">
+  <h2>Co-Curricular Activities</h2>
+
+  <!-- Template for one category: Football -->
+  <div class="activity-category" id="footballCategory">
+    <h3>⚽ Football</h3>
+
+    <!-- Checklist -->
+    <div class="checklist-section">
+      <h4>Who loves Football? (Checklist)</h4>
+      <input type="text" id="footballChecklistInput" placeholder="Add player/fan name" />
+      <button onclick="addChecklistItem('football')">Add</button>
+      <ul id="footballChecklistList"></ul>
+    </div>
+
+    <!-- Contacts Note Pad -->
+    <div class="contacts-section">
+      <h4>Contacts</h4>
+      <input type="text" id="footballContactName" placeholder="Name" />
+      <input type="email" id="footballContactEmail" placeholder="Email" />
+      <button onclick="addContact('football')">Add Contact</button>
+      <ul id="footballContactsList"></ul>
+    </div>
+  </div>
+
+  <!-- You can add more categories here, example: Athletics -->
+  <div class="activity-category" id="athleticsCategory">
+    <h3>🏃 Athletics</h3>
+    <div class="checklist-section">
+      <h4>Who loves Athletics? (Checklist)</h4>
+      <input type="text" id="athleticsChecklistInput" placeholder="Add athlete/fan name" />
+      <button onclick="addChecklistItem('athletics')">Add</button>
+      <ul id="athleticsChecklistList"></ul>
+    </div>
+    <div class="contacts-section">
+      <h4>Contacts</h4>
+      <input type="text" id="athleticsContactName" placeholder="Name" />
+      <input type="email" id="athleticsContactEmail" placeholder="Email" />
+      <button onclick="addContact('athletics')">Add Contact</button>
+      <ul id="athleticsContactsList"></ul>
+    </div>
+  </div>
+
+  <!-- Add other categories as needed (volleyball, basketball, tennis, etc.) -->
+
+</section>
+
+<script>
+  // Get logged in user for key prefix; fallback to 'guest'
+  const loggedInUser = localStorage.getItem('loggedInUser') || 'guest';
+  const prefix = loggedInUser + '_coCurricular_';
+
+  // Add checklist item for category
+  function addChecklistItem(category) {
+    const input = document.getElementById(`${category}ChecklistInput`);
+    const val = input.value.trim();
+    if (!val) return alert('Please enter a name');
+    const key = prefix + category + '_checklist';
+    let list = JSON.parse(localStorage.getItem(key) || '[]');
+    list.push(val);
+    localStorage.setItem(key, JSON.stringify(list));
+    input.value = '';
+    loadChecklist(category);
+  }
+
+  // Load checklist items for category
+  function loadChecklist(category) {
+    const key = prefix + category + '_checklist';
+    const list = JSON.parse(localStorage.getItem(key) || '[]');
+    const ul = document.getElementById(`${category}ChecklistList`);
+    ul.innerHTML = '';
+    list.forEach((item, idx) => {
+      const li = document.createElement('li');
+      li.textContent = item;
+      const btn = document.createElement('button');
+      btn.textContent = 'Delete';
+      btn.onclick = () => {
+        list.splice(idx, 1);
+        localStorage.setItem(key, JSON.stringify(list));
+        loadChecklist(category);
+      };
+      li.appendChild(btn);
+      ul.appendChild(li);
+    });
+  }
+
+  // Add contact for category
+  function addContact(category) {
+    const nameInput = document.getElementById(`${category}ContactName`);
+    const emailInput = document.getElementById(`${category}ContactEmail`);
+    const name = nameInput.value.trim();
+    const email = emailInput.value.trim();
+    if (!name || !email) return alert('Fill in both name and email');
+    const key = prefix + category + '_contacts';
+    let contacts = JSON.parse(localStorage.getItem(key) || '[]');
+    contacts.push({ name, email });
+    localStorage.setItem(key, JSON.stringify(contacts));
+    nameInput.value = '';
+    emailInput.value = '';
+    loadContacts(category);
+  }
+
+  // Load contacts for category
+  function loadContacts(category) {
+    const key = prefix + category + '_contacts';
+    const contacts = JSON.parse(localStorage.getItem(key) || '[]');
+    const ul = document.getElementById(`${category}ContactsList`);
+    ul.innerHTML = '';
+    contacts.forEach((c, idx) => {
+      const li = document.createElement('li');
+      li.innerHTML = `<strong>${c.name}</strong> (${c.email}) `;
+      const btn = document.createElement('button');
+      btn.textContent = 'Delete';
+      btn.onclick = () => {
+        contacts.splice(idx, 1);
+        localStorage.setItem(key, JSON.stringify(contacts));
+        loadContacts(category);
+      };
+      li.appendChild(btn);
+      ul.appendChild(li);
+    });
+  }
+
+  // List of categories you want to load
+  const categories = ['football', 'athletics', 'volleyball', 'basketball', 'tennis', 'tabletennis', 'taekwondo', 'chess', 'drama', 'art', 'swimming'];
+
+  // Initialize all categories checklist and contacts
+  categories.forEach(cat => {
+    loadChecklist(cat);
+    loadContacts(cat);
+  });
+</script>
+
+<style>
+  #coCurricularActivities { margin: 20px; }
+  .activity-category {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #fafafa;
+  }
+  input[type="text"], input[type="email"] {
+    margin: 5px 5px 5px 0;
+    padding: 5px;
+    width: 200px;
+  }
+  button {
+    margin-left: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 0;
+  }
+  ul li {
+    margin-bottom: 5px;
+  }
+  ul li button {
+    margin-left: 10px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  ul li button:hover {
+    background-color: #c0392b;
+  }
+</style>

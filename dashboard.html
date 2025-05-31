@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>
+    const savedTheme = localStorage.getItem("theme");
+    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    const theme = savedTheme || (prefersDark ? "dark" : "light");
+    document.documentElement.setAttribute("data-theme", theme);
+  </script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Heartique Nexus Dashboard</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0; padding: 0; background: #f4f6f8; color: #333;
+    }
+    header {
+      background: #004a99;
+      color: white;
+      padding: 1rem 1.5rem;
+      text-align: center;
+      position: relative;
+    }
+    header h1 {
+      margin: 0;
+      font-weight: 700;
+    }
+    #logoutBtn {
+      position: absolute;
+      top: 1rem;
+      right: 1.5rem;
+      background: #e53935;
+      color: white;
+      border: none;
+      padding: 0.4rem 1rem;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+    main {
+      max-width: 1000px;
+      margin: 1rem auto;
+      padding: 1rem;
+    }
+    .welcome-msg {
+      background: #e8f0fe;
+      border-left: 6px solid #004a99;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 4px;
+    }
+    .welcome-msg p {
+      font-size: 1.1rem;
+    }
+    .contact {
+      font-size: 0.9rem;
+      margin-top: 0.5rem;
+      color: #555;
+    }
+    #searchBar {
+      width: 100%;
+      padding: 0.7rem 1rem;
+      font-size: 1rem;
+      margin-bottom: 1rem;
+      border: 2px solid #004a99;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    section {
+      background: white;
+      padding: 1rem 1.5rem;
+      margin-bottom: 1rem;
+      border-radius: 6px;
+      box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+    }
+    section h2 {
+      margin-top: 0;
+      color: #004a99;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    ul li {
+      padding: 0.7rem 1rem;
+      background: #e3e8ff;
+      border-radius: 6px;
+      cursor: pointer;
+      flex: 1 1 calc(33.333% - 1rem);
+      text-align: center;
+      box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
+      transition: background 0.2s ease;
+    }
+    ul li:hover {
+      background-color: #d6e0ff;
+    }
+    .tracker {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .tracker-item {
+      flex: 1 1 120px;
+      background: #e3e8ff;
+      border-radius: 6px;
+      padding: 0.7rem;
+      text-align: center;
+      cursor: pointer;
+      user-select: none;
+      box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
+    }
+    .tracker-item.strong {
+      background: #d4f5d4;
+      border: 2px solid #4caf50;
+      color: #2e7d32;
+    }
+    .tracker-item.fair {
+      background: #fff7d1;
+      border: 2px solid #fbc02d;
+      color: #f57f17;
+    }
+    .tracker-item.weak {
+      background: #ffd6d6;
+      border: 2px solid #e53935;
+      color: #b71c1c;
+    }
+    .tracker-item:hover {
+      opacity: 0.8;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      padding: 1rem;
+      color: #666;
+    }
+    @media (max-width: 600px) {
+      ul li {
+        flex: 1 1 100%;
+      }
+      .tracker {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Heartique Nexus Portal</h1>
+    <button id="logoutBtn">Logout</button>
+  </header>
+  <main>
+    <div class="welcome-msg">
+      <p>Hello, <span id="userNameDisplay">Student</span>! 👋 Welcome to your personalized study portal.</p>
+      <p>This portal helps you easily access PTS notes, Block 1-6 notes, past revision papers, and co-curricular activities focusing on Kenyan sports. Track your progress and strengthen your weak areas!</p>
+      <p class="contact">Contact: <a href="mailto:brianmuthomi851@gmail.com">brianmuthomi851@gmail.com</a></p>
+    </div>
+    <input type="text" id="searchBar" placeholder="Search notes, papers, and activities..." />
+
+    <section>
+      <h2>PTS & Block Notes</h2>
+      <ul id="notesList">
+        <li onclick="location.href='pts.html'">PTS Revision Notes</li>
+        <li onclick="location.href='block1.html'">Block 1 Notes</li>
+        <li onclick="location.href='block2.html'">Block 2 Notes</li>
+        <li onclick="location.href='block3.html'">Block 3 Notes</li>
+        <li onclick="location.href='block4.html'">Block 4 Notes</li>
+        <li onclick="location.href='block5.html'">Block 5 Notes</li>
+        <li onclick="location.href='block6.html'">Block 6 Notes</li>
+     
+      </ul>
+    </section>
+
+    <section>
+      <h2>Past Revision Papers</h2>
+      <ul id="pastPapersList">
+        
+        <li onclick="location.href='pts-papers.html'">PTS Revision Papers</li>
+        <li onclick="location.href='block1-papers.html'">Block 1 Past Papers</li>
+        <li onclick="location.href='block2-papers.html'">Block 2 Past Papers</li>
+        <li onclick="location.href='block3-papers.html'">Block 3 Past Papers</li>
+        <li onclick="location.href='block4-papers.html'">Block 4 Past Papers</li>
+        <li onclick="location.href='block5-papers.html'">Block 5 Past Papers</li>
+        <li onclick="location.href='block6-papers.html'">Block 6 Past Papers</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Co-curricular Activities</h2>
+      <ul id="activitiesList">
+        <li onclick="location.href='football.html'">Football</li>
+        <li onclick="location.href='athletics.html'">Athletics</li>
+        <li onclick="location.href='volleyball.html'">Volleyball</li>
+        <li onclick="location.href='basketball.html'">Basketball</li>
+       
+        
+        <li onclick="location.href='chess.html'">Chess</li>
+        
+
+      </ul>
+    </section>
+
+    <section>
+      <h2>Your Understanding Tracker</h2>
+      <p>Click on a unit to cycle through <strong>Strong → Fair → Weak</strong> to track how well you understand it. Your choices are saved locally.</p>
+      <div class="tracker" id="trackerContainer"></div>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 Heartique Nexus Nurses Alliance
+  </footer>
+
+  <script>
+    const userNameDisplay = document.getElementById('userNameDisplay');
+    const storedUser = localStorage.getItem('username');
+    userNameDisplay.textContent = storedUser ? storedUser : 'Student';
+
+    const trackerUnits = ["PTS Notes", "Block 1 Notes", "Block 2 Notes", "Block 3 Notes", "Block 4 Notes", "Block 5 Notes", "Block 6 Notes"];
+    const trackerContainer = document.getElementById('trackerContainer');
+
+    function getUnderstanding(unit) {
+      return localStorage.getItem('understanding-' + unit) || 'fair';
+    }
+
+    function saveUnderstanding(unit, state) {
+      localStorage.setItem('understanding-' + unit, state);
+    }
+
+    function cycleState(current) {
+      if (current === 'fair') return 'strong';
+      if (current === 'strong') return 'weak';
+      return 'fair';
+    }
+
+    function createTrackerItem(unit) {
+      const div = document.createElement('div');
+      div.classList.add('tracker-item');
+      const currentState = getUnderstanding(unit);
+      div.classList.add(currentState);
+      div.textContent = unit;
+      div.addEventListener('click', () => {
+        let newState = cycleState(getUnderstanding(unit));
+        saveUnderstanding(unit, newState);
+        div.classList.remove('strong', 'fair', 'weak');
+        div.classList.add(newState);
+      });
+      return div;
+    }
+
+    trackerUnits.forEach(unit => {
+      trackerContainer.appendChild(createTrackerItem(unit));
+    });
+
+    const searchBar = document.getElementById('searchBar');
+    searchBar.addEventListener('input', () => {
+      const query = searchBar.value.toLowerCase();
+      ['notesList', 'pastPapersList', 'activitiesList'].forEach(ulId => {
+        const ul = document.getElementById(ulId);
+        Array.from(ul.children).forEach(li => {
+          li.style.display = li.textContent.toLowerCase().includes(query) ? '' : 'none';
+        });
+      });
+    });
+
+    document.getElementById('logoutBtn').addEventListener('click', () => {
+      localStorage.removeItem('loggedInUser');
+      window.location.href = 'login.html';
+    });
+  </script>
+</body>
+</html>

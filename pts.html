@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Heartique Nexus Dashboard</title>
+<style>
+  body { font-family: Arial, sans-serif; max-width: 900px; margin: auto; padding: 1em; background:#f9f9f9; }
+  h2 { color: #2c3e50; margin-top: 1.5em; }
+  section { background: #fff; border-radius: 8px; padding: 1em 1.5em; margin-bottom: 1.5em; box-shadow: 0 2px 6px rgb(0 0 0 / 0.1);}
+  ul { list-style-type: none; padding-left: 0; }
+  li { margin-bottom: 0.5em; }
+  button { margin-left: 0.5em; }
+  input[type=text], input[type=email], input[type=file], input[type=password], input[type=url] {
+    padding: 0.4em; margin-right: 0.5em; border-radius: 4px; border: 1px solid #ccc; width: 220px;
+  }
+  iframe, video { border: 1px solid #ccc; border-radius: 4px; }
+  .admin-only { color: #c0392b; font-weight: bold; }
+  .pts-notes {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #2980b9;
+    margin-bottom: 0.8em;
+    border-left: 4px solid #2980b9;
+    padding-left: 0.5em;
+  }
+  a.external-link {
+    color: #2980b9;
+    text-decoration: underline;
+  }
+</style>
+</head>
+<body>
+    <
+  <button onclick="history.back()" style="margin: 10px; padding: 6px 12px; border: none; background: #ddd; border-radius: 5px; cursor: pointer;">← Back</button>
+  <h2 style="background:#007BFF;color:white;padding:10px;text-align:center;">PTS NOTES: Study & Resources Dashboard</h2>
+
+
+<!-- PTS NOTES label for current position -->
+<div class="pts-notes">PTS NOTES: Study & Resources Dashboard</div>
+
+<!-- Study Tips -->
+<section id="studyTipsSection">
+  <h2>📋 Study Tips</h2>
+  <ul id="studyTipsList">
+    <li>Set specific study goals every day.</li>
+    <li>Use active recall and spaced repetition.</li>
+    <li>Take regular breaks to avoid burnout.</li>
+    <li>Practice past papers under timed conditions.</li>
+  </ul>
+</section>
+
+<!-- Notes Upload & Library -->
+<section id="notesSection">
+  <h2>✅ Notes Upload & Library</h2>
+  <input type="file" id="notesUpload" multiple />
+  <button id="uploadNotesBtn">Upload Notes</button>
+  <ul id="uploadedNotesList" aria-live="polite"></ul>
+</section>
+
+<!-- Videos & Links Section -->
+<section id="videosLinksSection">
+  <h2>🎥 Videos & Links for Learners</h2>
+  <p>Add helpful videos or resource links here to guide your learning.</p>
+  
+  <form id="addVideoLinkForm" style="margin-bottom:1em;">
+    <input type="url" id="videoLinkInput" placeholder="Video or Link URL" required />
+    <input type="text" id="videoLinkDesc" placeholder="Description (e.g., 'Heart Anatomy Video')" required />
+    <button type="submit">Add Video/Link</button>
+  </form>
+
+  <ul id="videosLinksList" aria-live="polite"></ul>
+</section>
+
+<!-- Contacts Section -->
+<section id="contactsSection">
+  <h2>📺 Peer Contacts</h2>
+  <input type="text" id="contactName" placeholder="Name" />
+  <input type="email" id="contactEmail" placeholder="Email" />
+  <button id="addContactBtn">Add Contact</button>
+  <ul id="contactsList" aria-live="polite"></ul>
+</section>
+
+<!-- Understanding Tracker -->
+<section id="understandingTrackerSection">
+  <h2>📊 Understanding Tracker</h2>
+  <p><a href="#trackerContainer">Go to Tracker</a></p>
+</section>
+
+<!-- Placeholder Tracker -->
+<section id="trackerContainer" style="background:#e3f2fd; padding:1em; border-radius:6px;">
+  <h3>Understanding Tracker (Demo)</h3>
+  <p><strong>Strong Topics:</strong> Anatomy, Physiology</p>
+  <p><strong>Fair Topics:</strong> Pathology</p>
+  <p><strong>Weak Topics:</strong> Pharmacology</p>
+</section>
+
+<!-- Admin Upload Area -->
+<section id="adminUploadSection">
+  <h2 class="admin-only">📂 Admin Upload Area (Password protected)</h2>
+  <input type="password" id="adminPass" placeholder="Enter admin password" />
+  <input type="file" id="adminUploadFile" multiple disabled />
+  <button id="adminUploadBtn" disabled>Upload as Admin</button>
+  <ul id="adminUploadedList" aria-live="polite"></ul>
+</section>
+
+<!-- Quiz/Test Generation -->
+<section id="quizSection">
+  <h2>🧪 Quiz/Test Generator</h2>
+  <p>This feature will auto-generate quizzes from your notes.</p>
+  <button id="generateQuizBtn" disabled>Generate Quiz (Coming Soon)</button>
+</section>
+
+<script>
+  // Notes Upload/View/Download/Delete
+  const notesUpload = document.getElementById('notesUpload');
+  const uploadNotesBtn = document.getElementById('uploadNotesBtn');
+  const uploadedNotesList = document.getElementById('uploadedNotesList');
+
+  function loadUploadedNotes() {
+    const notes = JSON.parse(localStorage.getItem('uploadedNotes') || '[]');
+    uploadedNotesList.innerHTML = '';
+    notes.forEach((note, idx) => {
+      const li = document.createElement('li');
+      li.innerHTML = `
+        <strong>${note.name}</strong> 
+        <button onclick="viewNote(${idx})" aria-label="View ${note.name}">View</button>
+        <a href="${note.data}" download="${note.name}" aria-label="Download ${note.name}">Download</a>
+        <button onclick="deleteNote(${idx})" aria-label="Delete ${note.name}">Delete</button>
+      `;
+      uploadedNotesList.appendChild(li);
+    });
+  }
+  function viewNote(idx) {
+    const notes = JSON.parse(localStorage.getItem('uploadedNotes') || '[]');
+    const note = notes[idx];
+    if (note.name.endsWith('.pdf')) {
+      const w = window.open('');
+      w.document.write(`<iframe src="${note.data}" style="width:100vw; height:100vh;" frameborder="0"></iframe>`);
+    } else if (note.name.match(/\.(mp4|webm|ogg)$/)) {
+      const w = window.open('');
+      w.document.write(`<video controls autoplay style="width:100vw; height:100vh;"><source src="${note.data}"></video>`);
+    } else {
+      alert('Preview not supported for this file type');
+    }
+  }
+  function deleteNote(idx) {
+    if (!confirm('Are you sure you want to delete this note?')) return;
+    let notes = JSON.parse(localStorage.getItem('uploadedNotes') || '[]');
+    notes.splice(idx, 1);
+    localStorage.setItem('uploadedNotes', JSON.stringify(notes));
+    loadUploadedNotes();
+  }
+  uploadNotesBtn.addEventListener('click', () => {
+    const files = notesUpload.files;
+    if (files.length === 0) return alert('Select files first');
+    
+    const readerPromises = Array.from(files).map(file => new Promise((res, rej) => {
+      const reader = new FileReader();
+      reader.onload = e => res({ name: file.name, data: e.target.result });
+      reader.onerror = rej;
+      reader.readAsDataURL(file);
+    }));
+
+    Promise.all(readerPromises).then(results => {
+      let notes = JSON.parse(localStorage.getItem('uploadedNotes') || '[]');
+      notes = notes.concat(results);
+      localStorage.setItem('uploadedNotes', JSON.stringify(notes));
+      loadUploadedNotes();
+      notesUpload.value = ''; // reset input
+    }).catch(() => alert('Failed to read files'));
+  });
+  loadUploadedNotes();
+
+  // Videos & Links Section
+  const addVideoLinkForm = document.getElementById('addVideoLinkForm');
+  const videoLinkInput = document.getElementById('videoLinkInput');
+  const videoLinkDesc = document.getElementById('videoLinkDesc');
+  const videosLinksList = document.getElementById('videosLinksList');
+
+  function loadVideosLinks() {
+    const vids = JSON.parse(localStorage.getItem('videosLinks') || '[]');
+    videosLinksList.innerHTML = '';
+    vids.forEach((v, idx) => {
+      const li = document.createElement('li');
+      li.innerHTML = `<a href="${v.url}" target="_blank" rel="noopener" class="external-link">${v.desc}</a>
+                      <button onclick="deleteVideoLink(${idx})" aria-label="Delete video link ${v.desc}">Delete</button>`;
+      videosLinksList.appendChild(li);
+    });
+  }
+  function deleteVideoLink(idx) {
+    if (!confirm('Delete this video/link?')) return;
+    let vids = JSON.parse(localStorage.getItem('videosLinks') || '[]');
+    vids.splice(idx, 1);
+    localStorage.setItem('videosLinks', JSON.stringify(vids));
+    loadVideosLinks();
+  }
+  addVideoLinkForm.addEventListener('submit', e => {
+    e.preventDefault();
+    const url = videoLinkInput.value.trim();
+    const desc = videoLinkDesc.value.trim();
+    if (!url || !desc) return alert('Please enter URL and description');
+    let vids = JSON.parse(localStorage.getItem('videosLinks') || '[]');
+    vids.push({ url, desc });
+    localStorage.setItem('videosLinks', JSON.stringify(vids));
+    loadVideosLinks();
+    videoLinkInput.value = '';
+    videoLinkDesc.value = '';
+  });
+  loadVideosLinks();
+
+  // Contacts Section
+  const contactName = document.getElementById('contactName');
+  const contactEmail = document.getElementById('contactEmail');
+  const addContactBtn = document.getElementById('addContactBtn');
+  const contactsList = document.getElementById('contactsList');
+
+  function loadContacts() {
+    const contacts = JSON.parse(localStorage.getItem('contacts') || '[]');
+    contactsList.innerHTML = '';
+    contacts.forEach((c, idx) => {
+      const li = document.createElement('li');
+      li.textContent = `${c.name} - ${c.email}`;
+      const delBtn = document.createElement('button');
+      delBtn.textContent = 'Delete';
+      delBtn.setAttribute('aria-label', `Delete contact ${c.name}`);
+      delBtn.onclick = () => {
+        if(confirm('Delete this contact?')) {
+          let cs = JSON.parse(localStorage.getItem('contacts') || '[]');
+          cs.splice(idx, 1);
+          localStorage.setItem('contacts', JSON.stringify(cs));
+          loadContacts();
+        }
+      };
+      li.appendChild(delBtn);
+      contactsList.appendChild(li);
+    });
+  }
+  addContactBtn.addEventListener('click', () => {
+    const name = contactName.value.trim();
+    const email = contactEmail.value.trim();
+    if (!name || !email) return alert('Enter name and email');
+    if (!email.includes('@')) return alert('Enter valid email');
+    let contacts = JSON.parse(localStorage.getItem('contacts') || '[]');
+    contacts.push({ name, email });
+    localStorage.setItem('contacts', JSON.stringify(contacts));
+    loadContacts();
+    contactName.value = '';
+    contactEmail.value = '';
+  });
+  loadContacts();
+
+  // Admin Upload Section - password protected
+  const adminPassInput = document.getElementById('adminPass');
+  const adminUploadFile = document.getElementById('adminUploadFile');
+  const adminUploadBtn = document.getElementById('adminUploadBtn');
+  const adminUploadedList = document.getElementById('adminUploadedList');
+
+  const ADMIN_PASSWORD = 'heartique123'; // example password, change as needed
+
+  adminPassInput.addEventListener('input', () => {
+    if (adminPassInput.value === ADMIN_PASSWORD) {
+      adminUploadFile.disabled = false;
+      adminUploadBtn.disabled = false;
+    } else {
+      adminUploadFile.disabled = true;
+      adminUploadBtn.disabled = true;
+    }
+  });
+
+  function loadAdminUploads() {
+    const files = JSON.parse(localStorage.getItem('adminUploads') || '[]');
+    adminUploadedList.innerHTML = '';
+    files.forEach((f, idx) => {
+      const li = document.createElement('li');
+      li.innerHTML = `<strong>${f.name}</strong> 
+        <a href="${f.data}" download="${f.name}" aria-label="Download admin file ${f.name}">Download</a>
+        <button onclick="deleteAdminUpload(${idx})" aria-label="Delete admin file ${f.name}">Delete</button>`;
+      adminUploadedList.appendChild(li);
+    });
+  }
+  window.deleteAdminUpload = function(idx) {
+    if (!confirm('Delete this admin file?')) return;
+    let files = JSON.parse(localStorage.getItem('adminUploads') || '[]');
+    files.splice(idx, 1);
+    localStorage.setItem('adminUploads', JSON.stringify(files));
+    loadAdminUploads();
+  };
+
+  adminUploadBtn.addEventListener('click', () => {
+    const files = adminUploadFile.files;
+    if (files.length === 0) return alert('Select files first');
+    const readerPromises = Array.from(files).map(file => new Promise((res, rej) => {
+      const reader = new FileReader();
+      reader.onload = e => res({ name: file.name, data: e.target.result });
+      reader.onerror = rej;
+      reader.readAsDataURL(file);
+    }));
+    Promise.all(readerPromises).then(results => {
+      let filesStored = JSON.parse(localStorage.getItem('adminUploads') || '[]');
+      filesStored = filesStored.concat(results);
+      localStorage.setItem('adminUploads', JSON.stringify(filesStored));
+      loadAdminUploads();
+      adminUploadFile.value = '';
+    }).catch(() => alert('Failed to read files'));
+  });
+  loadAdminUploads();
+
+</script>
+
+</body>
+</html>

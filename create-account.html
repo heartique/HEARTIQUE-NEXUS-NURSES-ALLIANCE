@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Create Account | Heartique Nexus</title>
+  <link rel="stylesheet" href="styles_with_darkmode.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>📝 Create Account</h1>
+    <form id="registerForm">
+      <select id="role" required>
+        <option value="" disabled selected>Select Role</option>
+        <option value="creator">Creator</option>
+        <option value="tutor">Tutor</option>
+        <option value="student">Student</option>
+      </select>
+      <input type="text" id="fullName" placeholder="Full Name" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="password" id="password" placeholder="Password" required />
+      <input type="password" id="confirmPassword" placeholder="Confirm Password" required />
+      <button type="submit" class="btn">Create Account</button>
+    </form>
+
+    <div class="link-group">
+      <a href="login.html">Already have an account?</a>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("registerForm").addEventListener("submit", function (e) {
+      e.preventDefault();
+
+      const fullName = document.getElementById("fullName").value.trim();
+      const email = document.getElementById("email").value.trim().toLowerCase();
+      const password = document.getElementById("password").value;
+      const confirmPassword = document.getElementById("confirmPassword").value;
+      const role = document.getElementById("role").value;
+
+      if (password !== confirmPassword) {
+        alert("Passwords do not match.");
+        return;
+      }
+
+      let users = JSON.parse(localStorage.getItem("users") || "[]");
+
+      if (users.some(u => u.email === email)) {
+        alert("An account with this email already exists.");
+        return;
+      }
+
+      users.push({ fullName, email, password, role });
+      localStorage.setItem("users", JSON.stringify(users));
+      localStorage.setItem("loggedInUser", JSON.stringify({ email, role }));
+
+      alert("Account created and logged in successfully!");
+      window.location.href = "dashboard.html"; // Redirect to a page after login
+    });
+  </script>
+</body>
+</html>
