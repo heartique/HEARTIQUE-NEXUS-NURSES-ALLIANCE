@@ -188,7 +188,3 @@ body.dark-mode .btn:hover {
 .floating-back-button:hover {
   background-color: #45a049;
 }
-body {
-  background: url('images/numberonebackground.jpg') no-repeat center center fixed;
-  background-size: cover;
-}
