@@ -10,63 +10,107 @@
       background: #f2f6f9;
       margin: 0;
       padding: 0;
+      color: #333;
+    }
+
+    header {
+      background-color: #4caf50;
+      color: white;
+      padding: 2rem 1rem;
       text-align: center;
     }
-    header {
-      background: #4caf50;
-      color: white;
+
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
       padding: 2rem;
-    }
-    section {
-      margin: 2rem;
-      max-width: 800px;
-      margin-left: auto;
-      margin-right: auto;
       background: #fff;
-      padding: 2rem;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
     }
-    a.button {
+
+    h1, h2 {
+      color: #2c3e50;
+    }
+
+    p {
+      line-height: 1.6;
+      font-size: 1.1rem;
+    }
+
+    .button {
       display: inline-block;
-      padding: 1rem 2rem;
+      padding: 0.8rem 1.5rem;
       margin-top: 1rem;
-      background: #4caf50;
+      background-color: #4caf50;
       color: white;
       text-decoration: none;
-      border-radius: 8px;
+      border-radius: 6px;
       font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+    @media (max-width: 600px) {
+      main {
+        margin: 1rem;
+        padding: 1.5rem;
+      }
+
+      .button {
+        width: 100%;
+        box-sizing: border-box;
+      }
     }
   </style>
 </head>
 <body>
+
   <header>
     <h1>📚 Nursing Nexus Alliance Portal</h1>
     <p>Block 1 Revision Resources</p>
   </header>
 
-  <section>
-    <p>
-      Welcome to the official resource portal for Nursing Nexus Alliance. This platform is designed to provide
-      easy access to organized documents, professional nursing materials, and project resources. Whether you are
-      a student, researcher, or professional, you'll find valuable tools to support your journey in nursing and healthcare.
-    </p>
+  <main>
+    <section>
+      <h2>📖 Welcome</h2>
+      <p>
+        Welcome to the Nursing Nexus Alliance learning portal. This space is dedicated to making it easier
+        for you to access updated and organized nursing academic resources. We aim to support learners,
+        professionals, and researchers with quality materials tailored to Block 1 revision needs.
+      </p>
+    </section>
 
-    <h2>📁 Access Documents</h2>
-    <p>Click below to open the resource folder with updated documents and references:</p>
-    <a class="button" href="https://drive.google.com/drive/folders/1GKBzioZBj42WjdlFO2L_GOzt-wboIqQ8?usp=sharing" target="_blank">Open Resource Folder</a>
-  </section>
+    <section>
+      <h2>📁 Access Documents</h2>
+      <p>Click below to open the shared folder on Google Drive:</p>
+      <a class="button" href="https://drive.google.com/drive/folders/1GKBzioZBj42WjdlFO2L_GOzt-wboIqQ8?usp=sharing" target="_blank">Open Resource Folder</a>
+    </section>
 
-  <section>
-    <h2>📬 Contact Information</h2>
-    <p><strong>Phone:</strong> 0102702271</p>
-    <p><strong>Email:</strong> <a href="mailto:nursingnexusalliance@gmail.com">nursingnexusalliance@gmail.com</a></p>
-  </section>
+    <section>
+      <h2>📬 Contact Information</h2>
+      <p><strong>Phone:</strong> 0102702271</p>
+      <p><strong>Email:</strong> <a href="mailto:nursingnexusalliance@gmail.com">nursingnexusalliance@gmail.com</a></p>
+    </section>
 
-  <section>
-    <h2>📝 Feedback & Instructions</h2>
-    <p>Have questions, suggestions, or need help navigating the portal? Please feel free to reach out using the contact info above. All documents are regularly updated. Make sure to refresh the folder if you don't see the latest changes.</p>
-    <p>If you'd like to contribute documents or request resources, send an email with the subject line <em>“Portal Request - Nursing Nexus”</em>.</p>
-  </section>
+    <section>
+      <h2>📝 Feedback & Instructions</h2>
+      <p>If you have suggestions, questions, or want to request additional resources, feel free to contact us through the details above.</p>
+      <p>✅ Documents are updated regularly.  
+         <br>🔄 Always refresh the Drive folder to see the latest content.  
+         <br>📩 To contribute or request materials, email with the subject: <em>“Portal Request - Nursing Nexus”</em>.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Nursing Nexus Alliance. All rights reserved.
+  </footer>
+
 </body>
 </html>
