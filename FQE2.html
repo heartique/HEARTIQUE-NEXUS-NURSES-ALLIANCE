@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FQE Paper 2 Revision Portal</title>
+  <style>
+    :root {
+      --primary-color: #4caf50;
+      --bg-dark: #1e1e1e;
+      --text-dark: #333;
+      --text-light: #fff;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url('https://raw.githubusercontent.com/heartique/HEARTIQUE-NEXUS-NURSES-ALLIANCE/main/background1.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      color: var(--text-dark);
+      transition: background 0.3s, color 0.3s;
+    }
+
+    body.dark {
+      background: var(--bg-dark);
+      color: var(--text-light);
+    }
+
+    header {
+      background-color: var(--primary-color);
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: rgba(255, 255, 255, 0.92);
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    }
+
+    body.dark main {
+      background: #333;
+    }
+
+    h1, h2 {
+      color: #2c3e50;
+    }
+
+    body.dark h1, body.dark h2 {
+      color: #ddd;
+    }
+
+    p {
+      line-height: 1.6;
+      font-size: 1.1rem;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 0.8rem 1.5rem;
+      margin-top: 1rem;
+      background-color: var(--primary-color);
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+    .floating-back-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: var(--primary-color);
+      color: white;
+      padding: 0.8rem 1.2rem;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+      transition: background-color 0.3s;
+      z-index: 1000;
+    }
+
+    .floating-back-button:hover {
+      background-color: #388e3c;
+    }
+
+    .quote-box, .tips-box {
+      background: #e8f5e9;
+      padding: 1rem;
+      margin-top: 1.5rem;
+      border-left: 6px solid var(--primary-color);
+      border-radius: 6px;
+    }
+
+    body.dark .quote-box, body.dark .tips-box {
+      background: #2a2a2a;
+      border-left-color: #81c784;
+    }
+
+    .theme-toggle {
+      position: fixed;
+      top: 15px;
+      right: 20px;
+      background: #eee;
+      padding: 0.5rem 1rem;
+      border-radius: 20px;
+      cursor: pointer;
+      font-size: 0.9rem;
+      z-index: 1001;
+    }
+
+    body.dark .theme-toggle {
+      background: #555;
+      color: white;
+    }
+
+    ol {
+      margin-left: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="theme-toggle" onclick="toggleTheme()">🌙 Toggle Theme</div>
+
+  <header>
+    <h1>📘 FQE Paper 2 Revision Portal</h1>
+    <p>Powered by Nursing Nexus Alliance</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>🎉 Welcome</h2>
+      <p>This is your organized revision hub for Final Qualifying Exam (FQE) Paper 2. Everything here is crafted to help you revise smarter and pass confidently.</p>
+    </section>
+
+    <section class="quote-box" id="quoteBox">
+      <strong>💬 Quote of the Session:</strong>
+      <p id="quoteText">Loading quote...</p>
+    </section>
+
+    <section class="tips-box" id="tipsBox">
+      <strong>📌 Study Tip:</strong>
+      <p id="tipText">Loading tip...</p>
+    </section>
+
+    <section>
+      <h2>📁 Access Revision Materials</h2>
+      <p>All your FQE Paper 2 resources are available in a Google Drive folder. Here’s how to access them:</p>
+      <ol>
+        <li>Click the button below to open the folder in a new tab.</li>
+        <li>Look through documents organized by subject or keyword.</li>
+        <li>Preview or download files directly.</li>
+      </ol>
+      <p><strong>Tip:</strong> Use the Drive’s search bar to filter topics fast (e.g., “leadership”, “maternal care”, “ethical practice”).</p>
+      <a class="button" href="https://drive.google.com/drive/folders/19WgBI49erjqIY1o-bByGR880WZ2phtMV?usp=sharing" target="_blank">Open FQE Paper 2 Drive</a>
+    </section>
+
+    <section>
+      <h2>📬 Contact & Support</h2>
+      <p><strong>Phone:</strong> 0102702271</p>
+      <p><strong>Email:</strong> <a href="mailto:nursingnexusalliance@gmail.com">nursingnexusalliance@gmail.com</a></p>
+    </section>
+
+    <section>
+      <h2>📝 Tips & Instructions</h2>
+      <p>
+        ✅ Resources are updated weekly.<br>
+        🔄 Always refresh the folder when you revisit.<br>
+        📩 For questions, email with subject: <em>“FQE Paper 2 Request”</em>.
+      </p>
+    </section>
+
+    <p style="text-align:center; margin-top: 2rem;">
+      🔙 <a href="index.html">Go back to the Main Portal</a>
+    </p>
+  </main>
+
+  <footer>
+    &copy; 2025 Nursing Nexus Alliance. All rights reserved.
+  </footer>
+
+  <a href="index.html" class="floating-back-button">⬅️ Home</a>
+
+  <script>
+    function toggleTheme() {
+      document.body.classList.toggle('dark');
+      localStorage.setItem('theme', document.body.classList.contains('dark') ? 'dark' : 'light');
+    }
+
+    window.onload = () => {
+      const savedTheme = localStorage.getItem('theme');
+      if (savedTheme === 'dark') document.body.classList.add('dark');
+    }
+
+    const quotes = [
+      "The pain you feel today will be the strength you use tomorrow.",
+      "Nurses are born with care — and shaped by exams like this.",
+      "Courage doesn’t always roar. Sometimes it whispers: try again tomorrow.",
+      "You don’t have to be perfect. Just prepared.",
+      "Stay steady — passing is just a few papers away."
+    ];
+    document.getElementById("quoteText").innerText = quotes[Math.floor(Math.random() * quotes.length)];
+
+    const tips = [
+      "⏰ Study in 45-min focus sessions with 10-min breaks.",
+      "🎯 Do one mock test every two days.",
+      "📋 Organize your revision around past paper topics.",
+      "📚 Mix revision with discussion — it sticks better.",
+      "💡 Use color-coded notes for speed revision."
+    ];
+    let tipIndex = 0;
+    function rotateTip() {
+      document.getElementById("tipText").innerText = tips[tipIndex];
+      tipIndex = (tipIndex + 1) % tips.length;
+    }
+    rotateTip();
+    setInterval(rotateTip, 8000);
+  </script>
+
+</body>
+</html>
