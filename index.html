@@ -144,26 +144,31 @@
       color: #666;
     }
     @media (max-width: 600px) {
+      .main-nck-paper {
+  background: linear-gradient(145deg, #ff9800, #f44336);
+  color: #fff;
+  font-weight: 900;
+  font-size: 1.2rem;
+  border-radius: 16px;
+  border: 3px solid #ff5722;
+  box-shadow: 0 0 15px rgba(255, 87, 34, 0.6);
+  text-align: center;
+  flex: 1 1 100%;
+  padding: 1.2rem 1rem;
+  transition: all 0.3s ease;
+}
+
+.main-nck-paper:hover {
+  background: linear-gradient(145deg, #ff7043, #e53935);
+  transform: scale(1.03);
+  box-shadow: 0 0 20px rgba(255, 87, 34, 0.9);
+}
+
       ul li {
         flex: 1 1 100%;
       }
       .tracker {
         flex-direction: column;
-      }
-      .main-nck {
-      background: linear-gradient(135deg, #ff9800, #ff5722);
-      color: white;
-      font-weight: bold;
-      border-radius: 12px;
-      border: 2px solid #e65100;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-      transition: transform 0.2s ease, background 0.3s ease;
-    }
-
-    .main-nck:hover {
-      background: linear-gradient(135deg, #ff7043, #f4511e);
-      transform: scale(1.03);
-    }
     }
   </style>
 </head>
@@ -205,12 +210,9 @@
       <li onclick="location.href='block4-revision.html'">📚 Block 4 Revision Portal</li>
         <li onclick="location.href='block5-revision.html'">📚 Block 5 Revision Portal</li>
         <li onclick="location.href='block6-revision.html'">📚 Block 6 Revision Portal</li>
-        
-  <!-- Highlighted main items -->
-  <li class="main-nck" onclick="location.href='nck-paper1.html'">⭐ NCK Paper 1 Revision Papers</li>
-  <li class="main-nck" onclick="location.href='nck-paper2.html'">⭐ NCK Paper 2 Revision Papers</li>
-
-  <!-- other items -->
+        !-- 🌟 SPECIAL MAIN NCK LINKS -->
+  <li class="main-nck-paper" onclick="location.href='nck-paper1.html'">✨ <strong>NCK Paper 1 Revision Papers</strong></li>
+  <li class="main-nck-paper" onclick="location.href='nck-paper2.html'">✨ <strong>NCK Paper 2 Revision Papers</strong></li>
       </ul>
     </section>
 
