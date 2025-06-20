@@ -266,11 +266,14 @@
 
 <style>
   .tracker-item {
-    background: #fff;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.07);
-    padding: 20px;
-    margin-bottom: 20px;
+         font-family: Arial, sans-serif;
+  background-image: url('https://raw.githubusercontent.com/heartique/HEARTIQUE-NEXUS-NURSES-ALLIANCE/main/background4.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  color: #333;
   }
 
   .stars {
@@ -318,23 +321,6 @@
       star.classList.toggle("filled", idx < rating);
     });
   }
-</script>
-
-    const searchBar = document.getElementById('searchBar');
-    searchBar.addEventListener('input', () => {
-      const query = searchBar.value.toLowerCase();
-      ['notesList', 'pastPapersList', 'activitiesList'].forEach(ulId => {
-        const ul = document.getElementById(ulId);
-        Array.from(ul.children).forEach(li => {
-          li.style.display = li.textContent.toLowerCase().includes(query) ? '' : 'none';
-        });
-      });
-    });
-
-    document.getElementById('logoutBtn').addEventListener('click', () => {
-      localStorage.removeItem('loggedInUser');
-      window.location.href = 'login.html';
-    });
   </script>
 </body>
 </html>
