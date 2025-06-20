@@ -97,6 +97,23 @@
       font-size: 1rem;
       box-sizing: border-box;
     }
+    .progress-section {
+  margin-top: 1rem;
+  background: #f3e5f5;
+  padding: 0.7rem;
+  border-radius: 6px;
+  border: 1px solid #ce93d8;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.7rem;
+  font-size: 0.95rem;
+}
+.progress-display {
+  font-weight: bold;
+  color: #4a148c;
+}
+
   </style>
 </head>
 <body>
@@ -119,6 +136,14 @@
       <div class="drive-link">
         📂 <a href="https://drive.google.com/drive/folders/1gJ5nFtFaZ2P-Ok1on1AYlGVSGspyZilw?usp=sharing" target="_blank">Access Full Course Notes Here</a>
       </div>
+      <div class="progress-section">
+  <label><input type="checkbox" class="progress-check" /> 1</label>
+  <label><input type="checkbox" class="progress-check" /> 2</label>
+  <label><input type="checkbox" class="progress-check" /> 3</label>
+  <label><input type="checkbox" class="progress-check" /> 4</label>
+  <label><input type="checkbox" class="progress-check" /> 5</label>
+  <div class="progress-display">Progress: 0%</div>
+</div>
     </div>
 
     <div class="item">Immunization Assessment</div>
@@ -255,6 +280,29 @@
   </div>
 
   <script>
+    // Progress checkboxes
+document.querySelectorAll(".details").forEach((section, index) => {
+  const checkboxes = section.querySelectorAll(".progress-check");
+  const display = section.querySelector(".progress-display");
+
+  checkboxes.forEach((box, i) => {
+    const saved = localStorage.getItem(`objective-progress-${index}-${i}`);
+    if (saved === "true") box.checked = true;
+  });
+
+  const updateProgress = () => {
+    const total = checkboxes.length;
+    const checked = [...checkboxes].filter(cb => cb.checked).length;
+    const percent = Math.round((checked / total) * 100);
+    if (display) display.textContent = `Progress: ${percent}%`;
+    checkboxes.forEach((box, i) => {
+      localStorage.setItem(`objective-progress-${index}-${i}`, box.checked);
+    });
+  };
+
+  checkboxes.forEach(cb => cb.addEventListener("change", updateProgress));
+  updateProgress();
+});
     // Toggle details
     document.querySelectorAll(".item").forEach(item => {
       item.addEventListener("click", () => {
