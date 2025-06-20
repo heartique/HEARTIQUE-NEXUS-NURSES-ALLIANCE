@@ -5,6 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Nursing Objectives & Expectations</title>
   <style>
+    #backToTopBtn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #6a1b9a;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  z-index: 100;
+  display: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+#backToTopBtn:hover {
+  background-color: #4a148c;
+}
     body {
        ont-family: Arial, sans-serif;
         background-image: url('https://raw.githubusercontent.com/heartique/HEARTIQUE-NEXUS-NURSES-ALLIANCE/main/background4.jpg');
@@ -117,6 +136,7 @@
 
   </style>
 </head>
+  <button id="backToTopBtn" title="Back to Top">⬆️ Back to Top</button>
 <body>
 
   <h1>🎯 Nursing College Objectives & Expectations</h1>
@@ -393,6 +413,16 @@
   </div>
 
   <script>
+    // Back to Top Button Logic
+const backToTopBtn = document.getElementById("backToTopBtn");
+
+window.onscroll = function () {
+  backToTopBtn.style.display = window.scrollY > 400 ? "block" : "none";
+};
+
+backToTopBtn.onclick = function () {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+};
     // Progress checkboxes
 document.querySelectorAll(".details").forEach((section, index) => {
   const checkboxes = section.querySelectorAll(".progress-check");
