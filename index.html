@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="manifest" href="manifest.json" />
-<meta name="theme-color" content="#4A90E2" />
   <script>
     const savedTheme = localStorage.getItem("theme");
     const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
@@ -174,19 +172,6 @@
     }
   </style>
 </head>
-   <script>
-  if ('serviceWorker' in navigator) {
-    window.addEventListener('load', function () {
-      navigator.serviceWorker.register('service-worker.js')
-        .then(function (registration) {
-          console.log('✅ Service Worker registered with scope:', registration.scope);
-        })
-        .catch(function (error) {
-          console.log('❌ Service Worker registration failed:', error);
-        });
-    });
-  }
-</script>
 <body>
   <header>
     <h1>Welcome to Heartique Nexus Portal</h1>
