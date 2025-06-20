@@ -13,19 +13,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Heartique Nexus Dashboard</title>
   <style>
-    <script>
-  if ('serviceWorker' in navigator) {
-    window.addEventListener('load', function () {
-      navigator.serviceWorker.register('service-worker.js')
-        .then(function (registration) {
-          console.log('✅ Service Worker registered with scope:', registration.scope);
-        })
-        .catch(function (error) {
-          console.log('❌ Service Worker registration failed:', error);
-        });
-    });
-  }
-</script>
     body {
      font-family: Arial, sans-serif;
   background-image: url('https://raw.githubusercontent.com/heartique/HEARTIQUE-NEXUS-NURSES-ALLIANCE/main/background4.jpg');
@@ -187,6 +174,19 @@
     }
   </style>
 </head>
+   <script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function () {
+      navigator.serviceWorker.register('service-worker.js')
+        .then(function (registration) {
+          console.log('✅ Service Worker registered with scope:', registration.scope);
+        })
+        .catch(function (error) {
+          console.log('❌ Service Worker registration failed:', error);
+        });
+    });
+  }
+</script>
 <body>
   <header>
     <h1>Welcome to Heartique Nexus Portal</h1>
