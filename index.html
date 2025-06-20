@@ -222,6 +222,16 @@
     <li class="main-objective-tab" onclick="location.href='objectives.html'">📘 Nursing Study Objectives</li>
   </ul>
 </section>
+        <section>
+  <h2>📚 Very Important Books & Materials</h2>
+  <ul id="vipBooksList">
+    <li class="main-vip-books" onclick="location.href='essentials.html'">📘 Core Nursing Essentials</li>
+    <li class="main-vip-books" onclick="location.href='pharmacology-book.html'">💊 Pharmacology Master Guide</li>
+    <li class="main-vip-books" onclick="location.href='anatomy-diagrams.html'">🧠 Anatomy & Physiology Diagrams</li>
+    <li class="main-vip-books" onclick="location.href='clinical-manual.html'">🩺 Clinical Procedures Manual</li>
+    <li class="main-vip-books" onclick="location.href='exam-secrets.html'">🔐 NCK Exam Secrets & Hacks</li>
+  </ul>
+</section>
       </ul>
     </section>
 
@@ -291,6 +301,24 @@
 </section>
 
 <style>
+  .main-vip-books {
+  background: linear-gradient(135deg, #0d47a1, #1565c0);
+  color: #fff;
+  font-weight: 900;
+  font-size: 1.1rem;
+  border-radius: 16px;
+  border: 3px solid #90caf9;
+  box-shadow: 0 0 15px rgba(21, 101, 192, 0.4);
+  text-align: center;
+  flex: 1 1 100%;
+  padding: 1.5rem 1rem;
+  transition: all 0.3s ease;
+}
+.main-vip-books:hover {
+  background: linear-gradient(135deg, #1976d2, #1e88e5);
+  transform: scale(1.04);
+  box-shadow: 0 0 20px rgba(21, 101, 192, 0.7);
+}
   .main-objective-tab {
   background: linear-gradient(135deg, #4a148c, #880e4f);
   color: #fff;
