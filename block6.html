@@ -1,316 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Heartique Nexus – Block 6 Notes</title>
-<style>
-  body { font-family: Arial, sans-serif; max-width: 900px; margin: auto; padding: 1em; background:#f9f9f9; }
-  h2  { color:#2c3e50; margin-top:1.5em; }
-  section { background:#fff; border-radius:8px; padding:1em 1.5em; margin-bottom:1.5em; box-shadow:0 2px 6px rgb(0 0 0 / 0.1);}
-  ul { list-style-type:none; padding-left:0; }
-  li { margin-bottom:0.5em; }
-  button { margin-left:0.5em; }
-  input[type=text],input[type=email],input[type=file],input[type=password],input[type=url]{
-    padding:0.4em; margin-right:0.5em; border-radius:4px; border:1px solid #ccc; width:220px;
-  }
-  iframe,video{ border:1px solid #ccc; border-radius:4px; }
-  .admin-only{ color:#c0392b; font-weight:bold; }
-  .block6-heading{
-    font-weight:bold; font-size:1.1em; color:#2980b9;
-    margin-bottom:0.8em; border-left:4px solid #2980b9; padding-left:0.5em;
-  }
-  a.external-link{ color:#2980b9; text-decoration:underline; }
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BLOCK 6 NOTES: Study Dashboard</title>
+  <style>
+    :root {
+      --primary-color: #007BFF;
+      --secondary-color: #2980b9;
+      --text-dark: #333;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url('https://raw.githubusercontent.com/heartique/HEARTIQUE-NEXUS-NURSES-ALLIANCE/main/background2.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      color: var(--text-dark);
+    }
+
+    .overlay {
+      background: none;
+      min-height: 100vh;
+      padding: 2rem;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: auto;
+    }
+
+    header {
+      text-align: center;
+      background-color: var(--primary-color);
+      color: white;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+
+    .section {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      margin-top: 2rem;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+    }
+
+    h2 {
+      margin-top: 0;
+      color: var(--secondary-color);
+    }
+
+    ul {
+      padding-left: 1.2rem;
+      margin: 0.5rem 0;
+    }
+
+    .button {
+      background-color: var(--primary-color);
+      color: white;
+      padding: 0.8rem 1.5rem;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 6px;
+      display: inline-block;
+      margin-top: 1rem;
+    }
+
+    .coming-soon {
+      font-style: italic;
+      color: #888;
+    }
+
+    .contact p {
+      margin: 0.3rem 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    .back-button {
+      display: inline-block;
+      margin-bottom: 1.2rem;
+      background-color: #ccc;
+      padding: 0.4rem 1rem;
+      border-radius: 6px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    @media (max-width: 600px) {
+      .overlay {
+        padding: 1rem;
+      }
+    }
+  </style>
 </head>
 <body>
+  <div class="overlay">
+    <div class="container">
 
-<!-- Back to dashboard -->
-<button onclick="history.back()"
-        style="margin:10px;padding:6px 12px;border:none;background:#ddd;border-radius:5px;cursor:pointer;">
-  ← Back
-</button>
+      <a class="back-button" href="index.html">← Back to Main Portal</a>
 
-<!-- Banner -->
-<h2 style="background:#007BFF;color:white;padding:10px;text-align:center;">BLOCK 6 NOTES: Study & Resources Dashboard</h2>
+      <header>
+        <h1>BLOCK 6 NOTES: Study & Resources Dashboard</h1>
+        <p>Organize, revise, and conquer Block 6 content effectively.</p>
+      </header>
 
-<!-- Section label -->
-<div class="block6-heading">BLOCK 6 NOTES: Study & Resources Dashboard</div>
+      <!-- Study Tips -->
+      <div class="section">
+        <h2>📋 Block 6 Study Tips</h2>
+        <ul>
+          <li>📆 Plan your weekly revision for all Block 6 subjects.</li>
+          <li>🗒️ Turn lectures into brief 1-page summaries.</li>
+          <li>🧠 Sketch out topics using diagrams or charts.</li>
+          <li>✅ Reinforce topics by attempting sample quizzes.</li>
+        </ul>
+      </div>
 
-<!-- Study Tips -->
-<section id="studyTipsSection">
-  <h2>📋 Study Tips</h2>
-  <ul id="studyTipsList">
-    <li>Create a weekly timetable for Block 6 subjects.</li>
-    <li>Summarize each lecture into a one-page outline.</li>
-    <li>Use diagrams or mind-maps for complex topics.</li>
-    <li>Practice end-of-topic quizzes to reinforce learning.</li>
-  </ul>
-</section>
+      <!-- Google Drive Link -->
+      <div class="section">
+        <h2>📁 Block 6 Notes Folder</h2>
+        <p>Access organized notes and materials for Block 6 through the shared Drive:</p>
+        <a class="button" href="https://drive.google.com/drive/folders/1IrXERSh4M3H6XeL43eoujOJvKHYAIPgQ?usp=sharing" target="_blank">📂 Open Block 6 Drive Folder</a>
+      </div>
 
-<!-- Notes Upload & Library -->
-<section id="notesSection">
-  <h2>✅ Notes Upload & Library</h2>
-  <input type="file" id="notesUpload" multiple />
-  <button id="uploadNotesBtn">Upload Notes</button>
-  <ul id="uploadedNotesList" aria-live="polite"></ul>
-</section>
+      <!-- Videos & Links -->
+      <div class="section">
+        <h2>🎥 Videos & Learning Links</h2>
+        <p class="coming-soon">Helpful learning resources will be added here soon.</p>
+      </div>
 
-<!-- Videos & Links Section -->
-<section id="videosLinksSection">
-  <h2>🎥 Videos & Links for Learners</h2>
-  <p>Add helpful videos or resource links here to guide your learning.</p>
-  <form id="addVideoLinkForm" style="margin-bottom:1em;">
-    <input type="url"  id="videoLinkInput" placeholder="Video or Link URL" required />
-    <input type="text" id="videoLinkDesc"  placeholder="Description (e.g., 'Block 6 Overview')" required />
-    <button type="submit">Add Video/Link</button>
-  </form>
-  <ul id="videosLinksList" aria-live="polite"></ul>
-</section>
+      <!-- Contact Info -->
+      <div class="section contact">
+        <h2>📞 Contact & Support</h2>
+        <p><strong>Phone:</strong> 0717517371</p>
+        <p><strong>Email:</strong> <a href="mailto:brianmuthomi851@gmail.com">brianmuthomi851@gmail.com</a></p>
+        <p>For any Block 6 updates or submissions, feel free to reach out.</p>
+      </div>
 
-<!-- Contacts Section -->
-<section id="contactsSection">
-  <h2>📺 Peer Contacts</h2>
-  <input type="text"  id="contactName"  placeholder="Name" />
-  <input type="email" id="contactEmail" placeholder="Email" />
-  <button id="addContactBtn">Add Contact</button>
-  <ul id="contactsList" aria-live="polite"></ul>
-</section>
+      <footer>
+        &copy; 2025 Heartique Nexus – Block 6 | Managed by Brian Muthomi 🩺
+      </footer>
 
-<!-- Understanding Tracker -->
-<section id="understandingTrackerSection">
-  <h2>📊 Understanding Tracker</h2>
-  <p><a href="#trackerContainer">Go to Tracker</a></p>
-</section>
-
-<!-- Placeholder Tracker -->
-<section id="trackerContainer" style="background:#e3f2fd; padding:1em; border-radius:6px;">
-  <h3>Understanding Tracker (Demo)</h3>
-  <p><strong>Strong Topics:</strong> Topic X, Topic Y</p>
-  <p><strong>Fair Topics:</strong> Topic Z</p>
-  <p><strong>Weak Topics:</strong> Topic W</p>
-</section>
-
-<!-- Admin Upload Area -->
-<section id="adminUploadSection">
-  <h2 class="admin-only">📂 Admin Upload Area (Password protected)</h2>
-  <input type="password" id="adminPass"       placeholder="Enter admin password" />
-  <input type="file"      id="adminUploadFile" multiple disabled />
-  <button id="adminUploadBtn" disabled>Upload as Admin</button>
-  <ul id="adminUploadedList" aria-live="polite"></ul>
-</section>
-
-<!-- Quiz/Test Generation -->
-<section id="quizSection">
-  <h2>🧪 Quiz/Test Generator</h2>
-  <p>This feature will auto-generate quizzes from your notes.</p>
-  <button id="generateQuizBtn" disabled>Generate Quiz (Coming Soon)</button>
-</section>
-
-<script>
-/* ---------- LOCAL STORAGE KEY PREFIX FOR BLOCK 6 ---------- */
-const NS   = 'block6_';
-const KEYS = {
-  notes:      NS + 'uploadedNotes',
-  vids:       NS + 'videosLinks',
-  contacts:   NS + 'contacts',
-  adminFiles: NS + 'adminUploads'
-};
-
-/* ---------- NOTES UPLOAD ---------- */
-const notesUpload       = document.getElementById('notesUpload');
-const uploadNotesBtn    = document.getElementById('uploadNotesBtn');
-const uploadedNotesList = document.getElementById('uploadedNotesList');
-
-function loadUploadedNotes(){
-  const notes = JSON.parse(localStorage.getItem(KEYS.notes) || '[]');
-  uploadedNotesList.innerHTML='';
-  notes.forEach((note,idx)=>{
-    const li=document.createElement('li');
-    li.innerHTML=`<strong>${note.name}</strong>
-      <button onclick="viewNote(${idx})">View</button>
-      <a href="${note.data}" download="${note.name}">Download</a>
-      <button onclick="deleteNote(${idx})">Delete</button>`;
-    uploadedNotesList.appendChild(li);
-  });
-}
-
-function viewNote(idx){
-  const notes = JSON.parse(localStorage.getItem(KEYS.notes) || '[]');
-  const note  = notes[idx];
-  const w = window.open('');
-  const backBtn = `<button onclick="window.close()" 
-                     style="position:absolute;top:10px;left:10px;padding:8px;background:#ddd;border:none;border-radius:5px;cursor:pointer;">
-                     ← Back / Close</button>`;
-  if (note.name.endsWith('.pdf')){
-    w.document.write(`${backBtn}<iframe src="${note.data}" style="width:100vw;height:100vh;" frameborder="0"></iframe>`);
-  }else if(note.name.match(/\.(mp4|webm|ogg)$/)){
-    w.document.write(`${backBtn}<video controls autoplay style="width:100vw;height:100vh;"><source src="${note.data}"></video>`);
-  }else{
-    w.document.write(`${backBtn}<p style="padding:1em;">Preview not supported for this file type. Download it instead.</p>`);
-  }
-}
-
-function deleteNote(idx){
-  if(!confirm('Delete this note?'))return;
-  let notes = JSON.parse(localStorage.getItem(KEYS.notes)||'[]');
-  notes.splice(idx,1);
-  localStorage.setItem(KEYS.notes,JSON.stringify(notes));
-  loadUploadedNotes();
-}
-
-uploadNotesBtn.addEventListener('click',()=>{
-  const files = notesUpload.files;
-  if(!files.length)return alert('Select files first');
-  const tasks=[...files].map(f=>new Promise((res,rej)=>{
-    const r=new FileReader();
-    r.onload=e=>res({name:f.name,data:e.target.result});
-    r.onerror=rej;
-    r.readAsDataURL(f);
-  }));
-  Promise.all(tasks).then(arr=>{
-    const combined = JSON.parse(localStorage.getItem(KEYS.notes)||'[]').concat(arr);
-    localStorage.setItem(KEYS.notes,JSON.stringify(combined));
-    loadUploadedNotes(); notesUpload.value='';
-  });
-});
-loadUploadedNotes();
-
-/* ---------- VIDEOS & LINKS ---------- */
-const addVideoLinkForm=document.getElementById('addVideoLinkForm');
-const videoLinkInput  =document.getElementById('videoLinkInput');
-const videoLinkDesc   =document.getElementById('videoLinkDesc');
-const videosLinksList =document.getElementById('videosLinksList');
-
-function loadVideosLinks(){
-  const vids = JSON.parse(localStorage.getItem(KEYS.vids)||'[]');
-  videosLinksList.innerHTML='';
-  vids.forEach((vid,idx)=>{
-    const li=document.createElement('li');
-    li.innerHTML=`<a class="external-link" href="${vid.url}" target="_blank" rel="noopener">${vid.desc}</a>
-      <button onclick="deleteVideoLink(${idx})">Delete</button>`;
-    videosLinksList.appendChild(li);
-  });
-}
-
-function deleteVideoLink(idx){
-  if(!confirm('Delete this video/link?'))return;
-  let vids = JSON.parse(localStorage.getItem(KEYS.vids)||'[]');
-  vids.splice(idx,1);
-  localStorage.setItem(KEYS.vids,JSON.stringify(vids));
-  loadVideosLinks();
-}
-
-addVideoLinkForm.addEventListener('submit',e=>{
-  e.preventDefault();
-  const url  = videoLinkInput.value.trim();
-  const desc = videoLinkDesc.value.trim();
-  if(!url || !desc)return alert('Fill URL and description');
-  let vids = JSON.parse(localStorage.getItem(KEYS.vids)||'[]');
-  vids.push({url,desc});
-  localStorage.setItem(KEYS.vids,JSON.stringify(vids));
-  loadVideosLinks();
-  videoLinkInput.value=''; videoLinkDesc.value='';
-});
-loadVideosLinks();
-
-/* ---------- CONTACTS ---------- */
-const contactNameInput  = document.getElementById('contactName');
-const contactEmailInput = document.getElementById('contactEmail');
-const addContactBtn     = document.getElementById('addContactBtn');
-const contactsList      = document.getElementById('contactsList');
-
-function loadContacts(){
-  const contacts = JSON.parse(localStorage.getItem(KEYS.contacts)||'[]');
-  contactsList.innerHTML='';
-  contacts.forEach((c,i)=>{
-    const li = document.createElement('li');
-    li.innerHTML = `<strong>${c.name}</strong> (${c.email})
-      <button onclick="deleteContact(${i})">Delete</button>`;
-    contactsList.appendChild(li);
-  });
-}
-function deleteContact(idx){
-  if(!confirm('Delete this contact?'))return;
-  let contacts = JSON.parse(localStorage.getItem(KEYS.contacts)||'[]');
-  contacts.splice(idx,1);
-  localStorage.setItem(KEYS.contacts,JSON.stringify(contacts));
-  loadContacts();
-}
-addContactBtn.addEventListener('click',()=>{
-  const name = contactNameInput.value.trim();
-  const email= contactEmailInput.value.trim();
-  if(!name || !email)return alert('Fill name and email');
-  let contacts = JSON.parse(localStorage.getItem(KEYS.contacts)||'[]');
-  contacts.push({name,email});
-  localStorage.setItem(KEYS.contacts,JSON.stringify(contacts));
-  loadContacts();
-  contactNameInput.value=''; contactEmailInput.value='';
-});
-loadContacts();
-
-/* ---------- ADMIN UPLOAD ---------- */
-const adminPassInput      = document.getElementById('adminPass');
-const adminUploadFile     = document.getElementById('adminUploadFile');
-const adminUploadBtn      = document.getElementById('adminUploadBtn');
-const adminUploadedList   = document.getElementById('adminUploadedList');
-const ADMIN_PASSWORD      = 'block6admin123'; // set your password here
-
-function loadAdminUploads(){
-  const files = JSON.parse(localStorage.getItem(KEYS.adminFiles)||'[]');
-  adminUploadedList.innerHTML='';
-  files.forEach((file,idx)=>{
-    const li=document.createElement('li');
-    li.innerHTML=`<strong>${file.name}</strong>
-      <a href="${file.data}" download="${file.name}">Download</a>
-      <button onclick="deleteAdminUpload(${idx})">Delete</button>`;
-    adminUploadedList.appendChild(li);
-  });
-}
-
-function deleteAdminUpload(idx){
-  if(!confirm('Delete this admin upload?'))return;
-  let files = JSON.parse(localStorage.getItem(KEYS.adminFiles)||'[]');
-  files.splice(idx,1);
-  localStorage.setItem(KEYS.adminFiles,JSON.stringify(files));
-  loadAdminUploads();
-}
-
-adminPassInput.addEventListener('input',()=>{
-  const val = adminPassInput.value;
-  const enabled = val === ADMIN_PASSWORD;
-  adminUploadFile.disabled = !enabled;
-  adminUploadBtn.disabled = !enabled;
-});
-
-adminUploadBtn.addEventListener('click',()=>{
-  if(adminPassInput.value !== ADMIN_PASSWORD){
-    alert('Incorrect admin password');
-    return;
-  }
-  const files = adminUploadFile.files;
-  if(!files.length) return alert('Select files to upload');
-  const tasks=[...files].map(f=>new Promise((res,rej)=>{
-    const r=new FileReader();
-    r.onload=e=>res({name:f.name,data:e.target.result});
-    r.onerror=rej;
-    r.readAsDataURL(f);
-  }));
-  Promise.all(tasks).then(arr=>{
-    const combined = JSON.parse(localStorage.getItem(KEYS.adminFiles)||'[]').concat(arr);
-    localStorage.setItem(KEYS.adminFiles,JSON.stringify(combined));
-    loadAdminUploads();
-    adminUploadFile.value='';
-  });
-});
-loadAdminUploads();
-
-/* ---------- QUIZ GENERATOR (PLACEHOLDER) ---------- */
-const generateQuizBtn = document.getElementById('generateQuizBtn');
-generateQuizBtn.addEventListener('click',()=>{
-  alert('Quiz generation coming soon!');
-});
-</script>
-
+    </div>
+  </div>
 </body>
 </html>
