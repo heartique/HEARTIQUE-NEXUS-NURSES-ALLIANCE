@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NCK Paper 2 Revision Portal</title>
+  <style>
+    :root {
+      --primary-color: #4caf50;
+      --bg-dark: #1e1e1e;
+      --text-dark: #333;
+      --text-light: #fff;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url('https://raw.githubusercontent.com/heartique/HEARTIQUE-NEXUS-NURSES-ALLIANCE/main/background1.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      color: var(--text-dark);
+      transition: background 0.3s, color 0.3s;
+    }
+
+    body.dark {
+      background: var(--bg-dark);
+      color: var(--text-light);
+    }
+
+    header {
+      background-color: var(--primary-color);
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: rgba(255, 255, 255, 0.92);
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    }
+
+    body.dark main {
+      background: #333;
+    }
+
+    h1, h2 {
+      color: #2c3e50;
+    }
+
+    body.dark h1, body.dark h2 {
+      color: #ddd;
+    }
+
+    p {
+      line-height: 1.6;
+      font-size: 1.1rem;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 0.8rem 1.5rem;
+      margin-top: 1rem;
+      background-color: var(--primary-color);
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+    .floating-back-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: var(--primary-color);
+      color: white;
+      padding: 0.8rem 1.2rem;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+      transition: background-color 0.3s;
+      z-index: 1000;
+    }
+
+    .floating-back-button:hover {
+      background-color: #388e3c;
+    }
+
+    .quote-box, .tips-box {
+      background: #e8f5e9;
+      padding: 1rem;
+      margin-top: 1.5rem;
+      border-left: 6px solid var(--primary-color);
+      border-radius: 6px;
+    }
+
+    body.dark .quote-box, body.dark .tips-box {
+      background: #2a2a2a;
+      border-left-color: #81c784;
+    }
+
+    .theme-toggle {
+      position: fixed;
+      top: 15px;
+      right: 20px;
+      background: #eee;
+      padding: 0.5rem 1rem;
+      border-radius: 20px;
+      cursor: pointer;
+      font-size: 0.9rem;
+      z-index: 1001;
+    }
+
+    body.dark .theme-toggle {
+      background: #555;
+      color: white;
+    }
+
+    ol {
+      margin-left: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="theme-toggle" onclick="toggleTheme()">🌙 Toggle Theme</div>
+
+  <header>
+    <h1>🧠 NCK Paper 2 Revision Portal</h1>
+    <p>Powered by Nursing Nexus Alliance</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>🎉 Welcome</h2>
+      <p>Welcome to your dedicated NCK Paper 2 revision hub. Find all the documents you need for success — quick to access, simple to navigate, and always available.</p>
+    </section>
+
+    <section class="quote-box" id="quoteBox">
+      <strong>💬 Quote of the Session:</strong>
+      <p id="quoteText">Loading quote...</p>
+    </section>
+
+    <section class="tips-box" id="tipsBox">
+      <strong>📌 Study Tip:</strong>
+      <p id="tipText">Loading tip...</p>
+    </section>
+
+    <section>
+      <h2>📁 Access Revision Materials</h2>
+      <p>All Paper 2 resources are stored in a shared Google Drive folder. Follow these simple steps to get started:</p>
+      <ol>
+        <li>Click the button below to open the folder in a new tab.</li>
+        <li>Browse the listed files by topic (e.g., Mental Health, Community Health, etc.).</li>
+        <li>Click any document to preview or download.</li>
+      </ol>
+      <p><strong>Tip:</strong> Use the search bar in Google Drive to quickly find a topic or keyword like “family planning” or “mental disorders”.</p>
+      <a class="button" href="https://drive.google.com/drive/folders/15M6o8Dy6sUBvU2Tf-kFv0tNIqd6nvZiA?usp=sharing" target="_blank">Open NCK Paper 2 Drive</a>
+    </section>
+
+    <section>
+      <h2>📬 Contact & Support</h2>
+      <p><strong>Phone:</strong> 0102702271</p>
+      <p><strong>Email:</strong> <a href="mailto:nursingnexusalliance@gmail.com">nursingnexusalliance@gmail.com</a></p>
+    </section>
+
+    <section>
+      <h2>📝 Tips & Instructions</h2>
+      <p>
+        ✅ Drive content is updated regularly.<br>
+        🔄 Refresh the folder view often.<br>
+        📩 Email your specific requests with the subject: <em>“NCK Paper 2 Request”</em>.
+      </p>
+    </section>
+
+    <p style="text-align:center; margin-top: 2rem;">
+      🔙 <a href="index.html">Go back to the Main Portal</a>
+    </p>
+  </main>
+
+  <footer>
+    &copy; 2025 Nursing Nexus Alliance. All rights reserved.
+  </footer>
+
+  <a href="index.html" class="floating-back-button">⬅️ Home</a>
+
+  <script>
+    function toggleTheme() {
+      document.body.classList.toggle('dark');
+      localStorage.setItem('theme', document.body.classList.contains('dark') ? 'dark' : 'light');
+    }
+
+    window.onload = () => {
+      const savedTheme = localStorage.getItem('theme');
+      if (savedTheme === 'dark') document.body.classList.add('dark');
+    }
+
+    const quotes = [
+      "Nursing is not for the faint-hearted — it's for the strong, the passionate, and the prepared.",
+      "You’re closer to your goal today than you were yesterday.",
+      "The harder you study now, the easier the exam will be.",
+      "Stay focused. You’ve got this!",
+      "Progress is progress, no matter how small."
+    ];
+    document.getElementById("quoteText").innerText = quotes[Math.floor(Math.random() * quotes.length)];
+
+    const tips = [
+      "⏰ Make a specific timetable just for Paper 2 topics.",
+      "📖 Focus on areas you find hard first — not last.",
+      "🎯 Review past questions and connect them to theory.",
+      "📚 Create a mind map after every major topic.",
+      "📝 Don't just read — write summaries to reinforce."
+    ];
+    let tipIndex = 0;
+    function rotateTip() {
+      document.getElementById("tipText").innerText = tips[tipIndex];
+      tipIndex = (tipIndex + 1) % tips.length;
+    }
+    rotateTip();
+    setInterval(rotateTip, 8000);
+  </script>
+
+</body>
+</html>
