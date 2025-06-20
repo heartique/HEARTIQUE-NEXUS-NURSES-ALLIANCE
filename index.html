@@ -224,64 +224,101 @@
         <li onclick="location.href='athletics.html'">Athletics</li>
         <li onclick="location.href='volleyball.html'">Volleyball</li>
         <li onclick="location.href='basketball.html'">Basketball</li>
-       
-        
+
         <li onclick="location.href='chess.html'">Chess</li>
         
-
       </ul>
     </section>
+  <section id="understandingTracker" style="margin: 40px auto; max-width: 800px; font-family: Arial, sans-serif;">
+  <h2 style="text-align: center;">⭐ Understanding Tracker</h2>
+  <p style="text-align: center; margin-bottom: 30px;">Rate your understanding of each topic or block below:</p>
 
-    <section>
-      <h2>Your Understanding Tracker</h2>
-      <p>Click on a unit to cycle through <strong>Strong → Fair → Weak</strong> to track how well you understand it. Your choices are saved locally.</p>
-      <div class="tracker" id="trackerContainer"></div>
-    </section>
-  </main>
-  <footer>
-    &copy; 2025 Heartique Nexus Nurses Alliance
-  </footer>
+  <div class="tracker-item">
+    <h3>PTS (Professional Training Skills)</h3>
+    <div class="stars" data-topic="PTS"></div>
+  </div>
 
-  <script>
-    const userNameDisplay = document.getElementById('userNameDisplay');
-    const storedUser = localStorage.getItem('username');
-    userNameDisplay.textContent = storedUser ? storedUser : 'Student';
+  <div class="tracker-item">
+    <h3>Block 1</h3>
+    <div class="stars" data-topic="Block 1"></div>
+  </div>
 
-    const trackerUnits = ["PTS Notes", "Block 1 Notes", "Block 2 Notes", "Block 3 Notes", "Block 4 Notes", "Block 5 Notes", "Block 6 Notes"];
-    const trackerContainer = document.getElementById('trackerContainer');
+  <div class="tracker-item">
+    <h3>Block 2</h3>
+    <div class="stars" data-topic="Block 2"></div>
+  </div>
 
-    function getUnderstanding(unit) {
-      return localStorage.getItem('understanding-' + unit) || 'fair';
-    }
+  <div class="tracker-item">
+    <h3>Block 3</h3>
+    <div class="stars" data-topic="Block 3"></div>
+  </div>
 
-    function saveUnderstanding(unit, state) {
-      localStorage.setItem('understanding-' + unit, state);
-    }
+  <div class="tracker-item">
+    <h3>Block 4</h3>
+    <div class="stars" data-topic="Block 4"></div>
+  </div>
 
-    function cycleState(current) {
-      if (current === 'fair') return 'strong';
-      if (current === 'strong') return 'weak';
-      return 'fair';
-    }
+  <div class="tracker-item">
+    <h3>Block 5</h3>
+    <div class="stars" data-topic="Block 5"></div>
+  </div>
+</section>
 
-    function createTrackerItem(unit) {
-      const div = document.createElement('div');
-      div.classList.add('tracker-item');
-      const currentState = getUnderstanding(unit);
-      div.classList.add(currentState);
-      div.textContent = unit;
-      div.addEventListener('click', () => {
-        let newState = cycleState(getUnderstanding(unit));
-        saveUnderstanding(unit, newState);
-        div.classList.remove('strong', 'fair', 'weak');
-        div.classList.add(newState);
+<style>
+  .tracker-item {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.07);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .stars {
+    font-size: 24px;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+  }
+
+  .star {
+    color: #ccc;
+    transition: color 0.2s ease;
+  }
+
+  .star.filled {
+    color: #ffc107;
+  }
+</style>
+
+<script>
+  const topics = document.querySelectorAll(".stars");
+
+  topics.forEach(starBlock => {
+    const topicKey = starBlock.getAttribute("data-topic");
+    const savedRating = localStorage.getItem("rating-" + topicKey) || 0;
+
+    for (let i = 1; i <= 5; i++) {
+      const star = document.createElement("span");
+      star.classList.add("star");
+      star.innerHTML = "★";
+      if (i <= savedRating) star.classList.add("filled");
+
+      star.addEventListener("click", () => {
+        localStorage.setItem("rating-" + topicKey, i);
+        updateStars(starBlock, i);
       });
-      return div;
-    }
 
-    trackerUnits.forEach(unit => {
-      trackerContainer.appendChild(createTrackerItem(unit));
+      starBlock.appendChild(star);
+    }
+  });
+
+  function updateStars(container, rating) {
+    const stars = container.querySelectorAll(".star");
+    stars.forEach((star, idx) => {
+      star.classList.toggle("filled", idx < rating);
     });
+  }
+</script>
 
     const searchBar = document.getElementById('searchBar');
     searchBar.addEventListener('input', () => {
