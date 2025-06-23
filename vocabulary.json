@@ -8,5 +8,9 @@
   { "term": "Erythropoietin", "definition": "A hormone produced by the kidneys that stimulates red blood cell production in the bone marrow" },
   { "term": "Erythropoiesis", "definition": "The process by which new red blood cells are produced in the bone marrow" },
   { "term": "Teratogenicity", "definition": "The ability of a substance to cause birth defects or abnormalities in a developing fetus" },
-  { "term": "Tinnitus", "definition": "The perception of ringing or buzzing noise in the ears without an external sound source" }
+  { "term": "Tinnitus", "definition": "The perception of ringing or buzzing noise in the ears without an external sound source" },
+  { "term": "Hyperkalemia", "definition": "A condition in which there is a higher than normal level of potassium in the blood" },
+  { "term": "Hypernatremia", "definition": "An elevated concentration of sodium in the blood, often due to dehydration or other imbalances" },
+  { "term": "Hypokalemia", "definition": "A condition where the level of potassium in the blood is lower than normal" },
+  { "term": "Hyponatremia", "definition": "A condition where the sodium level in the blood is abnormally low, leading to potential swelling of cells" }
 ]
