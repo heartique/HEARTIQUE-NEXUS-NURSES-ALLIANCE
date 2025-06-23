@@ -176,18 +176,23 @@
       .tracker {
         flex-direction: column;
     }
-      #floatingNurse {
+     #floatingNurse {
   position: fixed;
   bottom: 20px;
   right: 20px;
   width: 120px;
+  max-width: 30vw;
+  height: auto;
   z-index: 1000;
   animation: float 3s ease-in-out infinite;
 }
+
 @keyframes float {
   0%   { transform: translateY(0); }
   50%  { transform: translateY(-20px); }
   100% { transform: translateY(0); }
+}
+
 }
   </style>
 </head>
