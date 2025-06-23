@@ -176,23 +176,21 @@
       .tracker {
         flex-direction: column;
     }
-     #floatingNurse {
+    #floatingNurse {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  width: 120px;
-  max-width: 30vw;
+  width: 90px;
   height: auto;
-  z-index: 1000;
-  animation: float 3s ease-in-out infinite;
+  z-index: 999;
+  animation: floatNurse 3s ease-in-out infinite;
 }
 
-@keyframes float {
+@keyframes floatNurse {
   0%   { transform: translateY(0); }
-  50%  { transform: translateY(-20px); }
+  50%  { transform: translateY(-15px); }
   100% { transform: translateY(0); }
 }
-
 }
   </style>
 </head>
@@ -209,9 +207,6 @@
   <header>
     <h1>Welcome to Heartique Nexus Portal</h1>
   </header>
-  <img src="https://github.com/heartique/HEARTIQUE-NEXUS-NURSES-ALLIANCE/blob/main/floating1.jpg" 
-     id="floatingNurse" 
-     alt="Student Nurse" />
   <main>
     <div class="welcome-msg">
       <p>Hello there! I am <strong>Nexus</strong>, your friendly guide on this incredible journey. 👋</p>
@@ -482,5 +477,8 @@ Let’s grow together and be the difference the world needs.</p>
     noResultsMessage.style.display = totalVisible === 0 ? "block" : "none";
   });
 </script>
+      <img src="https://cdn-icons-png.flaticon.com/512/3784/3784184.png"
+     id="floatingNurse"
+     alt="Floating Nurse Icon" />
 </body>
 </html>
