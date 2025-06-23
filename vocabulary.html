@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vocabulary</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 2rem;
+      background-color: #f2faff;
+      color: #222;
+    }
+
+    h1 {
+      text-align: center;
+      color: #004a99;
+      margin-bottom: 1rem;
+    }
+
+    /* 🔮 Word of the Day */
+    .word-of-day {
+      max-width: 600px;
+      margin: 0 auto 2rem auto;
+      background: #fff8dc;
+      padding: 20px;
+      border-left: 6px solid #ffa500;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+
+    .word-of-day h2 {
+      margin: 0 0 6px;
+      font-size: 1.3rem;
+      color: #e67300;
+    }
+
+    .word-of-day .definition {
+      color: #333;
+    }
+
+    /* 🔍 Search */
+    #searchInput {
+      padding: 10px 16px;
+      width: 80%;
+      max-width: 500px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1rem;
+      margin: 0 auto 2rem;
+      display: block;
+    }
+
+    /* 📚 Vocabulary Items */
+    .vocab-list {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .vocab-item {
+      background: white;
+      margin: 12px 0;
+      padding: 16px;
+      border-left: 6px solid #004a99;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+      transition: transform 0.2s ease;
+    }
+
+    .vocab-item:hover {
+      transform: scale(1.01);
+    }
+
+    .term {
+      font-weight: bold;
+      font-size: 1.1rem;
+      color: #004a99;
+    }
+
+    .definition {
+      margin-top: 6px;
+      color: #444;
+    }
+
+    /* 🔙 Back */
+    .back-link {
+      display: block;
+      margin: 2rem auto;
+      text-align: center;
+      color: #004a99;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .back-link:hover {
+      text-decoration: underline;
+    }
+
+    .loading {
+      text-align: center;
+      font-style: italic;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <h1>📘 Most Used Vocabulary</h1>
+
+  <!-- 🔮 Word of the Day -->
+  <div id="word-of-day" class="word-of-day" style="display:none;">
+    <h2>🔮 Word of the Day: <span id="daily-term"></span></h2>
+    <div class="definition" id="daily-definition"></div>
+  </div>
+
+  <!-- 🔍 Search Box -->
+  <input type="text" id="searchInput" placeholder="Search a word..."/>
+
+  <!-- 📚 Vocabulary List -->
+  <div id="vocab-list" class="vocab-list loading">Loading vocabulary...</div>
+
+  <!-- 🔙 Back Link -->
+  <a href="index.html" class="back-link">⬅ Back to Home</a>
+
+  <script>
+    let allVocabulary = [];
+
+    fetch('vocabulary.json')
+      .then(response => response.json())
+      .then(data => {
+        allVocabulary = data;
+        document.getElementById('vocab-list').classList.remove('loading');
+        renderVocabulary(data);
+        showWordOfTheDay(data);
+      })
+      .catch(err => {
+        document.getElementById('vocab-list').innerHTML = "⚠️ Failed to load vocabulary.";
+        console.error('Error loading vocabulary:', err);
+      });
+
+    function renderVocabulary(list) {
+      const container = document.getElementById('vocab-list');
+      container.innerHTML = '';
+      if (list.length === 0) {
+        container.innerHTML = "<p style='text-align:center;color:#666;'>No matching words found.</p>";
+        return;
+      }
+
+      list.forEach(item => {
+        const div = document.createElement('div');
+        div.className = 'vocab-item';
+        div.innerHTML = `
+          <div class="term">${item.term}</div>
+          <div class="definition">${item.definition}</div>
+        `;
+        container.appendChild(div);
+      });
+    }
+
+    function showWordOfTheDay(data) {
+      const today = new Date();
+      const index = today.getDate() % data.length;
+      const word = data[index];
+
+      document.getElementById('daily-term').textContent = word.term;
+      document.getElementById('daily-definition').textContent = word.definition;
+      document.getElementById('word-of-day').style.display = 'block';
+    }
+
+    document.getElementById('searchInput').addEventListener('input', function () {
+      const query = this.value.toLowerCase();
+      const filtered = allVocabulary.filter(item =>
+        item.term.toLowerCase().includes(query) ||
+        item.definition.toLowerCase().includes(query)
+      );
+      renderVocabulary(filtered);
+    });
+  </script>
+</body>
+</html>
