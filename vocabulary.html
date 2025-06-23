@@ -18,7 +18,6 @@
       margin-bottom: 1rem;
     }
 
-    /* 🔮 Word of the Day */
     .word-of-day {
       max-width: 600px;
       margin: 0 auto 2rem auto;
@@ -39,7 +38,6 @@
       color: #333;
     }
 
-    /* 🔍 Search */
     #searchInput {
       padding: 10px 16px;
       width: 80%;
@@ -51,7 +49,6 @@
       display: block;
     }
 
-    /* 📚 Vocabulary Items */
     .vocab-list {
       max-width: 800px;
       margin: 0 auto;
@@ -82,7 +79,6 @@
       color: #444;
     }
 
-    /* 🔙 Back */
     .back-link {
       display: block;
       margin: 2rem auto;
@@ -106,35 +102,36 @@
 <body>
   <h1>📘 Most Used Vocabulary</h1>
 
-  <!-- 🔮 Word of the Day -->
   <div id="word-of-day" class="word-of-day" style="display:none;">
     <h2>🔮 Word of the Day: <span id="daily-term"></span></h2>
     <div class="definition" id="daily-definition"></div>
   </div>
 
-  <!-- 🔍 Search Box -->
-  <input type="text" id="searchInput" placeholder="Search a word..."/>
+  <input type="text" id="searchInput" placeholder="Search a word..." />
 
-  <!-- 📚 Vocabulary List -->
   <div id="vocab-list" class="vocab-list loading">Loading vocabulary...</div>
 
-  <!-- 🔙 Back Link -->
   <a href="index.html" class="back-link">⬅ Back to Home</a>
 
   <script>
     let allVocabulary = [];
 
-    fetch('vocabulary.json')
-      .then(response => response.json())
+    fetch('./vocabulary.json')
+      .then(res => {
+        if (!res.ok) {
+          throw new Error('File not found or inaccessible');
+        }
+        return res.json();
+      })
       .then(data => {
         allVocabulary = data;
-        document.getElementById('vocab-list').classList.remove('loading');
         renderVocabulary(data);
         showWordOfTheDay(data);
+        document.getElementById('vocab-list').classList.remove('loading');
       })
-      .catch(err => {
-        document.getElementById('vocab-list').innerHTML = "⚠️ Failed to load vocabulary.";
-        console.error('Error loading vocabulary:', err);
+      .catch(error => {
+        console.error('Fetch error:', error);
+        document.getElementById('vocab-list').innerHTML = "⚠️ Could not load vocabulary.";
       });
 
     function renderVocabulary(list) {
@@ -157,10 +154,10 @@
     }
 
     function showWordOfTheDay(data) {
+      if (data.length === 0) return;
       const today = new Date();
       const index = today.getDate() % data.length;
       const word = data[index];
-
       document.getElementById('daily-term').textContent = word.term;
       document.getElementById('daily-definition').textContent = word.definition;
       document.getElementById('word-of-day').style.display = 'block';
