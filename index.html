@@ -389,42 +389,56 @@ Let’s grow together and be the difference the world needs.</p>
     color: #ccc;
     transition: color 0.2s ease;
   }
-
   .star.filled {
     color: #ffc107;
   }
- .tab {
-  display: block;
-  width: fit-content;
-  padding: 20px 28px;
-  margin: 40px auto;
-  border-radius: 20px;
-  background-color: #2ecc71; /* 🍀 vibrant green */
+.tab-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background-color: #2ecc71; /* Green box */
   color: white;
-  font-weight: 700;
-  font-size: 1.2rem;
   text-decoration: none;
-  box-shadow: 0 10px 20px rgba(46, 204, 113, 0.5), 0 0 25px #2ecc71;
-  transform: translateY(0);
+  padding: 24px 28px;
+  border-radius: 18px;
+  box-shadow: 0 12px 25px rgba(46, 204, 113, 0.4), 0 0 20px #2ecc71;
   transition: all 0.3s ease;
-  text-align: center;
-  position: relative;
+  transform: translateY(0);
+  max-width: 600px;
+  margin: 40px auto;
 }
 
-.tab:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 15px 30px rgba(46, 204, 113, 0.7), 0 0 35px #2ecc71;
+.tab-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 40px rgba(46, 204, 113, 0.6), 0 0 30px #2ecc71;
 }
 
-.tab span {
-  display: block;
-  font-size: 0.85rem;
-  color: #eaffea;
-  margin-top: 6px;
-  font-weight: 400;
+.tab-icon {
+  font-size: 2.5rem;
+}
+
+.tab-content h2 {
+  margin: 0;
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.tab-content p {
+  margin: 6px 0 10px;
+  font-size: 0.95rem;
+  color: #f0fff5;
+}
+
+.badge {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  display: inline-block;
 }
 </style>
-
 <script>
   const topics = document.querySelectorAll(".stars");
 
