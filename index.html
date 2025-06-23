@@ -425,5 +425,38 @@ Let’s grow together and be the difference the world needs.</p>
     });
   });
 </script>
+      <script>
+  const searchInput = document.getElementById("searchBar");
+
+  // Create a 'no results' message and hide it initially
+  const noResultsMessage = document.createElement("p");
+  noResultsMessage.id = "noResultsMessage";
+  noResultsMessage.textContent = "🔍 No matching content found.";
+  noResultsMessage.style.textAlign = "center";
+  noResultsMessage.style.color = "#b71c1c";
+  noResultsMessage.style.fontWeight = "bold";
+  noResultsMessage.style.display = "none";
+  searchInput.insertAdjacentElement("afterend", noResultsMessage);
+
+  searchInput.addEventListener("input", function () {
+    const query = this.value.toLowerCase();
+    const allLists = document.querySelectorAll("ul");
+    let totalVisible = 0;
+
+    allLists.forEach((list) => {
+      const items = list.querySelectorAll("li");
+
+      items.forEach((item) => {
+        const text = item.textContent.toLowerCase();
+        const match = text.includes(query);
+        item.style.display = match ? "block" : "none";
+        if (match) totalVisible++;
+      });
+    });
+
+    // Show or hide the no results message
+    noResultsMessage.style.display = totalVisible === 0 ? "block" : "none";
+  });
+</script>
 </body>
 </html>
