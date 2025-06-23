@@ -234,11 +234,12 @@ Let’s grow together and be the difference the world needs.</p>
         <li onclick="location.href='block4.html'">Block 4 Notes</li>
         <li onclick="location.href='block5.html'">Block 5 Notes</li>
         <li onclick="location.href='block6.html'">Block 6 Notes</li>
-        <a href="vocabulary.html" class="tab-card">
+  <a href="vocabulary.html" class="tab-card animated">
   <div class="tab-icon">📘</div>
   <div class="tab-content">
     <h2>Vocabulary</h2>
     <p>Most-used nursing & medical terms all in one place.</p>
+    <span class="badge">500+ words inside</span>
   </div>
 </a>
      <section>
@@ -392,7 +393,7 @@ Let’s grow together and be the difference the world needs.</p>
   .star.filled {
     color: #ffc107;
   }
-  .tab-card {
+ .tab-card {
   display: flex;
   align-items: center;
   background: #ffffff;
@@ -402,31 +403,52 @@ Let’s grow together and be the difference the world needs.</p>
   margin: 20px 0;
   text-decoration: none;
   color: #222;
-  transition: all 0.2s ease;
   border-left: 6px solid #004a99;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
 }
 
 .tab-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
-  background-color: #f0f8ff;
+  transform: scale(1.03);
+  box-shadow: 0 0 20px rgba(0, 115, 255, 0.25);
+  background: linear-gradient(145deg, #ffffff, #f2faff);
 }
 
 .tab-icon {
-  font-size: 36px;
+  font-size: 40px;
   margin-right: 16px;
+  animation: float 3s ease-in-out infinite;
 }
 
 .tab-content h2 {
-  margin: 0 0 4px 0;
-  font-size: 1.3em;
+  margin: 0;
+  font-size: 1.4em;
   color: #004a99;
 }
 
 .tab-content p {
-  margin: 0;
+  margin: 4px 0;
   font-size: 0.95em;
-  color: #333;
+  color: #444;
+}
+
+.badge {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 4px 10px;
+  background-color: #004a99;
+  color: #fff;
+  font-size: 0.8em;
+  border-radius: 20px;
+  font-weight: bold;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-4px); }
+  100% { transform: translateY(0px); }
 }
 </style>
 
