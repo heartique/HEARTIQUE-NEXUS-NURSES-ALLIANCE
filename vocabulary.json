@@ -4,47 +4,14 @@
   { "term": "Intervention", "definition": "Action taken to improve a health condition" },
   { "term": "Prognosis", "definition": "Forecast of the likely outcome of a disease" },
   { "term": "Pathology", "definition": "Study of the causes and effects of diseases" }
-  [
-  {
-    "term": "Hypoxia",
-    "definition": "A condition in which the body or a region of the body is deprived of adequate oxygen supply."
-  },
-  {
-    "term": "Hypoxemia",
-    "definition": "A below-normal level of oxygen in the blood, specifically in the arteries."
-  },
-  {
-    "term": "Tachycardia",
-    "definition": "An abnormally rapid heart rate, usually over 100 beats per minute in adults."
-  },
-  {
-    "term": "Bradycardia",
-    "definition": "A slower than normal heart rate, typically below 60 beats per minute in adults."
-  },
-  {
-    "term": "Polycythemia",
-    "definition": "A condition characterized by an increased number of red blood cells in the bloodstream."
-  },
-  {
-    "term": "Dyspnea",
-    "definition": "Difficult or labored breathing; also referred to as shortness of breath."
-  },
-  {
-    "term": "Erythropoietin",
-    "definition": "A hormone produced by the kidneys that stimulates red blood cell production in the bone marrow."
-  },
-  {
-    "term": "Erythropoiesis",
-    "definition": "The process by which new red blood cells are produced in the bone marrow."
-  },
-  {
-    "term": "Teratogenicity",
-    "definition": "The ability of a substance to cause birth defects or abnormalities in a developing fetus."
-  },
-  {
-    "term": "Tinnitus",
-    "definition": "The perception of ringing or buzzing noise in the ears without an external sound source."
-  }
-]
-
+  { "term": "Hypoxia", "definition": "A condition in which the body or a region of the body is deprived of adequate oxygen supply" },
+  { "term": "Hypoxemia", "definition": "A below-normal level of oxygen in the blood, specifically in the arteries" },
+  { "term": "Tachycardia", "definition": "An abnormally rapid heart rate, usually over 100 beats per minute in adults" },
+  { "term": "Bradycardia", "definition": "A slower than normal heart rate, typically below 60 beats per minute in adults" },
+  { "term": "Polycythemia", "definition": "A condition characterized by an increased number of red blood cells in the bloodstream" },
+  { "term": "Dyspnea", "definition": "Difficult or labored breathing; also referred to as shortness of breath" },
+  { "term": "Erythropoietin", "definition": "A hormone produced by the kidneys that stimulates red blood cell production in the bone marrow" },
+  { "term": "Erythropoiesis", "definition": "The process by which new red blood cells are produced in the bone marrow" },
+  { "term": "Teratogenicity", "definition": "The ability of a substance to cause birth defects or abnormalities in a developing fetus" },
+  { "term": "Tinnitus", "definition": "The perception of ringing or buzzing noise in the ears without an external sound source" }
 ]
