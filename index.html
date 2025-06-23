@@ -239,7 +239,7 @@ Let’s grow together and be the difference the world needs.</p>
   <div class="tab-content">
     <h2>Vocabulary</h2>
     <p>Most-used nursing & medical terms all in one place.</p>
-    <span class="badge">500+ words inside</span>
+    <span id="vocab-count" class="badge">Loading...</span>
   </div>
 </a>
      <section>
@@ -544,6 +544,16 @@ Let’s grow together and be the difference the world needs.</p>
 </script>
 <img src="https://cdn-icons-png.flaticon.com/512/9473/9473911.png"
      id="floatingNurse"
-     alt="Floating Nurse" />
+     alt="Floating Nurse" /><script>
+  fetch('vocabulary.json')
+    .then(res => res.json())
+    .then(data => {
+      const count = data.length;
+      document.getElementById("vocab-count").innerText = `${count} words inside`;
+    })
+    .catch(() => {
+      document.getElementById("vocab-count").innerText = `Vocabulary`;
+    });
+</script>      
 </body>
 </html>
