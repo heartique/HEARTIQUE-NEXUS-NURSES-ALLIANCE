@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Vocabulary</title>
   <style>
     body {
@@ -102,13 +102,16 @@
 <body>
   <h1>📘 Most Used Vocabulary</h1>
 
+  <!-- Word of the Day -->
   <div id="word-of-day" class="word-of-day" style="display:none;">
     <h2>🔮 Word of the Day: <span id="daily-term"></span></h2>
     <div class="definition" id="daily-definition"></div>
   </div>
 
+  <!-- Search -->
   <input type="text" id="searchInput" placeholder="Search a word..." />
 
+  <!-- Vocabulary List -->
   <div id="vocab-list" class="vocab-list loading">Loading vocabulary...</div>
 
   <a href="index.html" class="back-link">⬅ Back to Home</a>
@@ -116,12 +119,12 @@
   <script>
     let allVocabulary = [];
 
-    fetch('./vocabulary.json')
-      .then(res => {
-        if (!res.ok) {
-          throw new Error('File not found or inaccessible');
+    fetch('vocabulary.json')  // ✔ Make sure this file is in the same folder
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('File not found or server error');
         }
-        return res.json();
+        return response.json();
       })
       .then(data => {
         allVocabulary = data;
@@ -174,3 +177,4 @@
   </script>
 </body>
 </html>
+
