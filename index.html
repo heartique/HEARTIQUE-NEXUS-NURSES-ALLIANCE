@@ -234,6 +234,13 @@ Let’s grow together and be the difference the world needs.</p>
         <li onclick="location.href='block4.html'">Block 4 Notes</li>
         <li onclick="location.href='block5.html'">Block 5 Notes</li>
         <li onclick="location.href='block6.html'">Block 6 Notes</li>
+        <a href="vocabulary.html" class="tab-card">
+  <div class="tab-icon">📘</div>
+  <div class="tab-content">
+    <h2>Vocabulary</h2>
+    <p>Most-used nursing & medical terms all in one place.</p>
+  </div>
+</a>
      <section>
   <h2>🎯 Core Objectives for Nursing Students</h2>
   <ul id="objectivesList">
@@ -385,6 +392,42 @@ Let’s grow together and be the difference the world needs.</p>
   .star.filled {
     color: #ffc107;
   }
+  .tab-card {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 16px;
+  margin: 20px 0;
+  text-decoration: none;
+  color: #222;
+  transition: all 0.2s ease;
+  border-left: 6px solid #004a99;
+}
+
+.tab-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+  background-color: #f0f8ff;
+}
+
+.tab-icon {
+  font-size: 36px;
+  margin-right: 16px;
+}
+
+.tab-content h2 {
+  margin: 0 0 4px 0;
+  font-size: 1.3em;
+  color: #004a99;
+}
+
+.tab-content p {
+  margin: 0;
+  font-size: 0.95em;
+  color: #333;
+}
 </style>
 
 <script>
