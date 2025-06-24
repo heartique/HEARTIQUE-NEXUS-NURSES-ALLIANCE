@@ -1,0 +1,14 @@
+[
+  {
+    "question": "A diet that would be appropriate for a patient with Addison disease is:",
+    "options": {
+      "A": "High sodium",
+      "B": "Low carbohydrate",
+      "C": "High potassium",
+      "D": "Low protein"
+    },
+    "answer": "A",
+    "explanation": "Addison's disease is primary adrenal insufficiency, meaning the adrenal glands do not produce enough cortisol and, crucially, aldosterone. Aldosterone's main function is to tell the kidneys to retain sodium (and water) and excrete potassium. In Addison's disease, the lack of aldosterone leads to excessive loss of sodium in the urine (hyponatremia) and retention of potassium (hyperkalemia). Therefore, the appropriate diet includes liberal sodium intake to compensate for these urinary losses.",
+    "additional": "Why B, C, and D are incorrect:\nB: A normal carbohydrate intake is needed. The lack of cortisol can cause hypoglycemia, so adequate carbohydrates are important.\nC: The patient is already at high risk for hyperkalemia, so a diet high in potassium would be dangerous.\nD: There is no need for protein restriction.\n\nAdditional Possible Content to be Tested Next:\n- Signs of Addison's Disease: Hypotension, fatigue, weight loss, hypoglycemia, hyperkalemia, hyponatremia, and hyperpigmentation of the skin (\"bronze\" skin).\n- Addisonian Crisis: A life-threatening emergency caused by acute adrenal insufficiency.\n  - Triggers: Stress, infection, surgery, or sudden withdrawal of steroid medication.\n  - Signs: Severe hypotension, tachycardia, dehydration, hypoglycemia, shock.\n  - Treatment: Immediate IV administration of hydrocortisone, saline, and dextrose (D5NS).\n- Pharmacologic Treatment: Lifelong hormone replacement therapy with glucocorticoids (e.g., hydrocortisone, prednisone) and mineralocorticoids (fludrocortisone)."
+  }
+]
