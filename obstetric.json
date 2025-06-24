@@ -1,0 +1,50 @@
+[
+  {
+    "question": "A client with significant flail chest has arterial blood gases (ABGs) that reveal a PaO2 of 68 and a PaCO2 of 51. Two hours ago the PaO2 was 82 and the PaCO2 was 44. Based on these changes the nurse obtains which of the following items?",
+    "options": {
+      "A": "Intubation tray",
+      "B": "Chest tube insertion set",
+      "C": "Portable chest x-ray machine",
+      "D": "Injectable lidocaine (Xylocaine)"
+    },
+    "answer": "A",
+    "explanation": "Flail chest severely impairs respiratory mechanics. The ABGs show worsening hypoxemia (PaO2 dropped from 82 to 68) and developing hypercapnia (PaCO2 rose from 44 to 51), indicating ventilatory failure. This patient is no longer adequately oxygenating or ventilating and likely requires mechanical ventilation. The nurse must be prepared for intubation.",
+    "additional": "B: Chest tube insertion is used for pneumothorax or hemothorax but not the priority in respiratory failure without signs of lung collapse.\nC: X-ray confirms diagnoses but does not address the immediate need for ventilatory support.\nD: Lidocaine is unrelated to managing flail chest or respiratory failure.\n\nManagement of flail chest includes stabilizing the chest wall, positive pressure ventilation, pain management, and sometimes surgical fixation. Intubation is indicated in acute decompensation."
+  },
+  {
+    "question": "A client is admitted to the medical unit with a diagnosis of gastritis. The client tells the nurse that there is a burning feeling in the epigastric area. In this situation which of the following would be the most appropriate nursing action?",
+    "options": {
+      "A": "Encourage the client to drink a glass of milk",
+      "B": "Administer an antacid as ordered",
+      "C": "Teach the client relaxation techniques to practice",
+      "D": "Offer the client a snack of crackers and juice"
+    },
+    "answer": "B",
+    "explanation": "Gastritis causes burning epigastric pain due to gastric acid irritation. Antacids neutralize acid and provide rapid relief. Administering a prescribed antacid is the most effective immediate nursing action.",
+    "additional": "A: Milk may cause rebound acid secretion and is not a reliable remedy.\nC: Relaxation may help stress-related symptoms but does not address acid irritation directly.\nD: Food may briefly buffer acid but may also increase secretion.\n\nCauses of gastritis include H. pylori, NSAIDs, alcohol, and stress. Educate clients on dietary modifications and other medications like PPIs or H2 blockers."
+  },
+  {
+    "question": "A client involved in a house fire is experiencing respiratory distress, and an inhalation injury is suspected. The nurse monitors which of the following for the presence of carbon monoxide poisoning?",
+    "options": {
+      "A": "Pulse oximetry",
+      "B": "Urine myoglobin",
+      "C": "Sputum carbon levels",
+      "D": "Serum carboxyhemoglobin levels"
+    },
+    "answer": "D",
+    "explanation": "Serum carboxyhemoglobin level is the definitive test for carbon monoxide poisoning. Standard pulse oximetry is unreliable because it cannot distinguish between oxyhemoglobin and carboxyhemoglobin.",
+    "additional": "A: Pulse oximetry falsely reads normal in CO poisoning.\nB: Urine myoglobin indicates muscle injury, not CO exposure.\nC: Carbon levels in sputum are not a valid or standard measure.\n\nCO poisoning presents with headache, confusion, cherry-red skin (late sign). Treatment includes 100% oxygen or hyperbaric oxygen."
+  },
+  {
+    "question": "A client who is unresponsive and pulseless and who has a possible neck injury is brought into the emergency department after a motor vehicle crash. Which is the best maneuvre to open the client's airway?",
+    "options": {
+      "A": "Insert an oropharyngeal airway",
+      "B": "Tilt the head and lift the chin",
+      "C": "Place in the recovery position",
+      "D": "Jaw thrust maneuver"
+    },
+    "answer": "D",
+    "explanation": "The jaw-thrust maneuver is used to open the airway of an unresponsive patient with a suspected cervical spine injury. It avoids neck movement, reducing the risk of spinal cord damage.",
+    "additional": "A: An oropharyngeal airway helps keep an open airway but does not open it initially.\nB: Head-tilt/chin-lift moves the cervical spine and is contraindicated in spinal trauma.\nC: Recovery position is inappropriate for unresponsive, pulseless patients.\n\nSpinal precautions are critical in trauma. Airway management comes before C-spine stabilization only if ventilation is compromised."
+  }
+]
