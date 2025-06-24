@@ -8,7 +8,7 @@
       "D": "Fever, shivering and restlessness"
     },
     "answer": "C",
-    "explanation": "Older adults may not develop a fever or elevated WBC count due to a blunted immune response. A sudden change in mental status is often the earliest and most reliable sign of infection in the elderly."
+    "explanation": "The immune response in older adults is often blunted. They may not mount a classic febrile (fever) response or have a significantly elevated white blood cell count. One of the earliest and most common signs of an underlying infection (like a UTI or pneumonia) in an elderly person is a change in their baseline mental status. This can manifest as new-onset or worsening confusion, delirium, agitation, or lethargy.\n\nWhile other signs can occur, they are less reliable than a mental status change. Fever, shivering, and severe signs are part of the classic inflammatory response, which is often diminished in the elderly. Relying on them can lead to a missed or delayed diagnosis.\n\nAtypical Presentation of Illness in the Elderly: Understanding that elderly patients may present with non-specific symptoms for serious conditions (e.g., confusion for infection, silent MI, weakness for dehydration).\n\nDelirium vs. Dementia:\n- Delirium: Acute onset, fluctuating course, caused by an underlying medical condition (like infection, medication, or electrolyte imbalance), and is often reversible.\n- Dementia: Gradual onset, progressive, chronic, and generally irreversible.\n\nCommon Infections in the Elderly: Urinary tract infections (UTIs) and pneumonia are leading causes of morbidity and mortality."
   },
   {
     "question": "The appropriate nursing intervention for a client with a diagnosis of ineffective airway clearance is:-",
@@ -19,7 +19,7 @@
       "D": "Maintaining adequate hydration and providing increased humidity."
     },
     "answer": "D",
-    "explanation": "Hydration and humidified air help loosen and mobilize respiratory secretions, making them easier to expectorate. This directly addresses the nursing diagnosis by improving airway clearance."
+    "explanation": "The nursing diagnosis 'Ineffective Airway Clearance' means the client is unable to clear secretions or obstructions from the respiratory tract to maintain a clear airway. The most effective non-invasive nursing intervention to address this is to thin the secretions so they are easier to cough up and expectorate. Adequate hydration (e.g., encouraging oral fluids) and humidification of inspired air are the primary ways to achieve this.\n\nWithholding pain medication: Inadequate pain control can lead to shallow breathing and a weak cough, which would worsen airway clearance.\n\nAdministering cough suppressants (antitussives): This is contraindicated. The goal is to facilitate a productive cough to clear the airway, not suppress it.\n\nAdministering antibiotics: This treats the underlying infection (if present) but does not directly address the mechanical problem of clearing existing secretions from the airway. It is a medical intervention, not an independent nursing action focused on the diagnosis itself.\n\nOther Interventions for Airway Clearance:\n- Positioning: High-Fowler's or semi-Fowler's position to facilitate lung expansion.\n- Coughing and Deep Breathing Exercises: Encouraging the client to turn, cough, and deep breathe (TCDB).\n- Chest Physiotherapy (CPT): Percussion and vibration to loosen secretions.\n- Suctioning: Oropharyngeal or nasotracheal suctioning if the client is unable to cough effectively."
   },
   {
     "question": "The care of a patient with a pressure ulcer includes:-",
@@ -30,7 +30,7 @@
       "D": "Having the patient sit on a doughnut type of device."
     },
     "answer": "C",
-    "explanation": "A puff sheet helps reduce shear forces when repositioning the patient, which is crucial in preventing further skin damage. Avoiding drag across sheets protects fragile tissues and supports ulcer healing."
+    "explanation": "A major cause of pressure injuries is shearing force, which occurs when skin layers slide over one another, stretching and damaging blood vessels. This often happens when a patient slides down in bed. Using a lift or 'puff' sheet with two caregivers to lift and reposition the patient, rather than pulling or dragging them, is a critical intervention to prevent shear and friction.\n\nProviding a cardiac bed: A cardiac bed is a chair-like position used for patients with heart failure to ease breathing; it is not a primary intervention for pressure ulcers.\n\nMassaging reddened areas: This is an outdated and harmful practice. Massaging a non-blanchable reddened area (a Stage 1 pressure injury) can further damage the fragile underlying capillaries and tissue.\n\nUsing a doughnut device: These are contraindicated. Doughnut-type devices can actually cause pressure injuries by creating a circle of pressure that impairs circulation to the tissue inside the ring.\n\nRisk Factors for Pressure Injuries: Immobility, impaired sensation, poor nutrition, moisture (incontinence), and shear/friction.\n\nBraden Scale: A tool used to assess a patient's risk for developing pressure injuries.\n\nStaging of Pressure Injuries:\n- Stage 1: Non-blanchable erythema of intact skin.\n- Stage 2: Partial-thickness skin loss with exposed dermis.\n- Stage 3: Full-thickness skin loss (fat visible).\n- Stage 4: Full-thickness skin and tissue loss (muscle, bone, or tendon visible).\n- Unstageable: Obscured full-thickness loss (covered by slough or eschar).\n- Deep Tissue Injury (DTI): Persistent, non-blanchable deep red, maroon, or purple discoloration.\n\nPressure-Relieving Surfaces: Specialty mattresses and bed overlays.\n\nNutritional Support: Ensuring adequate protein, calories, and hydration to promote wound healing."
   },
   {
     "question": "Following surgery for a perforated appendix with localized peritonitis, the nurse should place the patient in",
@@ -41,7 +41,8 @@
       "D": "Semi-Fowler's position"
     },
     "answer": "D",
-    "explanation": "Semi-Fowler's position allows infected peritoneal fluid to drain downward into the pelvis by gravity, minimizing the risk of it spreading upward to the diaphragm. It also supports lung expansion and reduces strain on the abdominal incision."
+    "explanation": "Peritonitis is the inflammation of the peritoneum, the membrane lining the abdominal cavity. After surgery for a perforated appendix, there is infectious fluid (pus) within the abdomen. Placing the patient in a Semi-Fowler's position (head of the bed elevated 30–45 degrees) utilizes gravity to help localize the drainage of this purulent material into the lower abdomen (pelvis). This helps prevent the fluid from spreading upwards towards the diaphragm, where it could cause a subphrenic abscess and respiratory complications. It also promotes easier breathing and reduces tension on the abdominal incision.\n\nTrendelenburg position would cause fluid to move upward toward the diaphragm — contraindicated. Dorsal recumbent allows fluid to spread freely. Sim's position does not assist in isolating intra-abdominal fluid.",
+    "additional": "Signs of Peritonitis: Rebound tenderness, board-like abdominal rigidity, fever, tachycardia, and paralytic ileus.\n\nPost-operative Care for Peritonitis:\n- NG Tube: Often placed to decompress the stomach.\n- IV Fluids and Antibiotics: To manage dehydration and sepsis.\n- Wound Care: Monitoring for infection and promoting healing.\n- Pain Management: Encourages mobility and deep breathing."
   },
   {
     "question": "Following spinal cord injury, the patient is encouraged to take fluids mainly to prevent:-",
@@ -52,7 +53,8 @@
       "D": "Fluid and electrolyte imbalance"
     },
     "answer": "A",
-    "explanation": "Spinal cord injury often leads to neurogenic bladder and urinary retention, which increase the risk of infection. Encouraging high fluid intake helps flush the urinary system and prevent bacterial colonization."
+    "explanation": "While high fluid intake helps with hydration and skin health, the most direct and primary reason in spinal cord injury (SCI) patients is to prevent urinary tract infections (UTIs). SCI often results in neurogenic bladder, leading to urinary retention and catheterization — both increase the risk of UTIs. Fluids help flush the bladder and dilute urine, reducing bacterial colonization.\n\nDehydration and electrolyte imbalance are general benefits of fluid intake, but not the focused priority. Skin breakdown prevention focuses more on mobility and pressure relief.",
+    "additional": "Types of Neurogenic Bladder: Spastic (reflex) vs. Flaccid (atonic).\n\nBladder Management: Intermittent catheterization, indwelling catheters, Crede's maneuver.\n\nSpinal Shock: Temporary flaccid paralysis, hypotension, bradycardia.\n\nAutonomic Dysreflexia (for injuries above T6): Severe headache, hypertension, bradycardia — triggered by bladder distention, fecal impaction, tight clothes.\nNursing action: Sit patient up and eliminate the trigger."
   },
   {
     "question": "When performing postural drainage for the lower lobes of lung, the nurse positions the patient in:-",
@@ -63,7 +65,8 @@
       "D": "Lateral position with the head elevated at 30 to 45 degrees"
     },
     "answer": "None",
-    "explanation": "None of the listed positions are appropriate for draining the lower lobes of the lungs. The correct position is Trendelenburg, where the head is lower than the chest to facilitate gravity-assisted drainage."
+    "explanation": "None of the provided answers are correct. The goal of postural drainage is to use gravity to assist drainage of secretions from specific lung segments. For the lower lobes, this requires the head to be lower than the chest — achieved through Trendelenburg position. None of the listed options place the patient in proper position for lower lobe drainage.\n\nSitting up/Fowler's position drains upper lobes. Reverse Trendelenburg is opposite to what’s needed. Dorsal and lateral head-elevated positions also do not facilitate lower lobe drainage.",
+    "additional": "Correct Positioning for Lower Lobes: Trendelenburg position with patient prone, supine, or lateral based on segment targeted.\n\nOther Lobe Positions:\n- Upper Lobes (Apical): Sitting upright.\n- Upper Lobes (Anterior): Supine.\n- Upper Lobes (Posterior): Sitting leaning forward.\n\nChest Physiotherapy:\n- Combine with percussion and vibration.\n- Best before meals or 1–2 hours after.\n\nContraindications: Increased ICP, unstable cardiac status, recent surgery."
   },
   {
     "question": "In thrombophlebitis a sign that indicates possible thrombus formation is:-",
@@ -74,7 +77,8 @@
       "D": "Brudzinski's sign"
     },
     "answer": "A",
-    "explanation": "Homan's sign involves dorsiflexion of the foot causing calf pain, suggesting a possible deep vein thrombosis. Although historically used, it is now considered an unreliable indicator and should not replace proper imaging diagnostics."
+    "explanation": "Thrombophlebitis refers to inflammation of a vein with associated thrombus formation. Homan’s sign — pain in the calf on dorsiflexion of the foot — was historically used to identify deep vein thrombosis (DVT). While commonly taught, it is no longer a reliable or recommended diagnostic tool due to low sensitivity and specificity.\n\nKernig’s and Brudzinski’s signs are used in diagnosing meningitis. Hegar’s sign indicates early pregnancy (softening of the uterus).",
+    "additional": "Homan’s Sign Limitations: Not reliable, not recommended for modern practice.\n\nVirchow’s Triad (DVT risk factors):\n- Stasis\n- Endothelial injury\n- Hypercoagulability\n\nSigns of DVT: Unilateral leg swelling, redness, pain, and warmth.\n\nDiagnostic Gold Standard: Doppler ultrasound.\n\nDVT Complication: Pulmonary embolism (PE).\n\nPrevention: Early ambulation, compression stockings, anticoagulants (e.g., heparin)."
   },
   {
     "question": "To evaluate a patient's apical heart rate, the nurse places the stethoscope on:-",
@@ -85,7 +89,8 @@
       "D": "Left side at midclavicular line, between 3rd and 4th intercostal space"
     },
     "answer": "B",
-    "explanation": "The apical heart rate is best heard at the point of maximal impulse (PMI), located at the 5th intercostal space, midclavicular line on the left. This site aligns with the apex of the heart where the left ventricle contacts the chest wall."
+    "explanation": "The apical pulse is best heard at the point of maximal impulse (PMI), located at the 5th intercostal space along the left midclavicular line. This is where the contraction of the left ventricle is most prominent. It is the most accurate location for assessing heart rate and rhythm, particularly when there are irregularities or the patient is on cardiac medications.\n\nOther positions listed do not correspond to the correct anatomical location of the apical impulse and may result in inaccurate assessments.",
+    "additional": "When to take an Apical Pulse: In cases of irregular rhythms, suspected pulse deficit, or while administering cardiac meds (e.g., digoxin).\n\nPulse Deficit: Difference between apical and radial pulse rates; may indicate atrial fibrillation or premature beats.\n\nAuscultation Sites (Mnemonic: APE To Man):\n- Aortic: 2nd ICS, right sternal border\n- Pulmonic: 2nd ICS, left sternal border\n- Erb's Point: 3rd ICS, left sternal border\n- Tricuspid: 4th ICS, left sternal border\n- Mitral (Apical): 5th ICS, left MCL"
   },
   {
     "question": "The denominator in Snellen's visual acuity grading measures the:-",
@@ -96,7 +101,8 @@
       "D": "Distance at which the patient is from the chart"
     },
     "answer": "A",
-    "explanation": "The denominator in the Snellen fraction represents the distance at which a person with normal vision could read the same line. A value like 20/40 means the patient can read at 20 feet what a person with normal vision could read at 40 feet."
+    "explanation": "In a Snellen visual acuity score (e.g., 20/40), the denominator represents the distance at which a person with normal vision could read the line of letters the patient can read. So, 20/40 means the patient can see at 20 feet what a person with normal vision can see at 40 feet.\n\nWhile the options in this question are poorly worded and two are duplicates, option A is the closest in intent.",
+    "additional": "Snellen Test Procedure: Patient stands 20 feet away, covers one eye, and reads the smallest visible line.\n\nVisual Impairments:\n- Myopia: Nearsightedness (difficulty seeing distant objects).\n- Hyperopia: Farsightedness (difficulty seeing near objects).\n- Presbyopia: Age-related farsightedness.\n\nLegal Blindness: 20/200 or worse with corrective lenses or a visual field of 20 degrees or less."
   },
   {
     "question": "You are completing the history of a patient who is scheduled for surgery. What health history increases the risk for surgery for the patient?",
@@ -107,18 +113,68 @@
       "D": "Hypothyroidism"
     },
     "answer": "C",
-    "explanation": "Street drug abuse complicates anesthesia management and increases the risk of withdrawal and poor post-operative outcomes. It may also interfere with pain control and increase unpredictable reactions to medications."
+    "explanation": "Substance abuse can significantly impact surgical outcomes. It affects the metabolism of anesthetics and pain medications, increases the risk of complications like cardiac instability, and withdrawal symptoms post-operatively. These risks make it one of the most concerning preoperative findings.",
+    "additional": "Pre-operative Priorities:\n- Review all medications and allergies.\n- Assess comorbid conditions (cardiac, respiratory).\n- Ensure NPO status is followed.\n- Confirm informed consent is signed.\n\nSubstance Use History: May require anesthesia modification, closer monitoring, or post-op detox management."
   },
   {
-    "question": "Pre-operative care of a client with ruptured appendix include the following except:-",
+    "question": "Pre-operative care of a client with ruptured appendix includes the following except:-",
     "options": {
-      "A": "A diet of clear fluids",
-      "B": "An enema to prepare bowel for surgery",
-      "C": "Administering intravenous antibiotics",
-      "D": "Give solid food"
+      "A": "A diet of clear fluids.",
+      "B": "An enema to prepare bowel for surgery.",
+      "C": "Administering intravenous antibiotics.",
+      "D": "Give solid food."
     },
     "answer": "B",
-    "explanation": "Enemas are contraindicated in cases of ruptured appendix due to the risk of spreading infection further within the abdominal cavity. The bowel must not be stimulated to avoid worsening peritonitis."
+    "explanation": "For a ruptured appendix, the patient is at high risk of peritonitis and sepsis. They should be kept NPO and receive IV fluids and antibiotics. Enemas or bowel stimulation are contraindicated as they may worsen the infection by promoting spread of the infected material.",
+    "additional": "Contraindicated in Ruptured Appendix:\n- Oral intake (even clear fluids)\n- Enemas or laxatives\n\nAppropriate Interventions:\n- NPO\n- IV fluids to maintain perfusion\n- Broad-spectrum antibiotics\n- Pain management\n- Surgery preparation checklist"
+  },
+  {
+    "question": "The client with chronic renal failure who is scheduled for hemodialysis this morning is due to receive a daily dose of enalapril. The nurse plans to administer this medication:",
+    "options": {
+      "A": "During dialysis",
+      "B": "Just before dialysis",
+      "C": "The day after dialysis",
+      "D": "Upon return from dialysis"
+    },
+    "answer": "D",
+    "explanation": "Enalapril, an antihypertensive ACE inhibitor, can potentiate hypotension when combined with the fluid shifts of hemodialysis. Administering it after dialysis ensures the patient's blood pressure is stable and the medication is not removed during the session. This timing helps avoid dangerous drops in BP.",
+    "additional": "Hold antihypertensives before dialysis unless ordered otherwise.\n\nPost-Dialysis Priorities:\n- Monitor vital signs (especially hypotension).\n- Assess AV access for bleeding or infection.\n- Evaluate for disequilibrium syndrome.\n- Compare pre- and post-weight to assess fluid removal."
+  },
+  {
+    "question": "The statement that shows that a client understands a diagnosis of HIV positive is:-",
+    "options": {
+      "A": "I became infected by donating blood",
+      "B": "Being HIV positive means that I have AIDS",
+      "C": "Since I am only HIV positive, I cannot infect others",
+      "D": "Because I am HIV positive, I have the virus that causes AIDS"
+    },
+    "answer": "D",
+    "explanation": "This reflects a correct understanding of the distinction between HIV and AIDS. HIV is the virus that, over time, can lead to AIDS if untreated. The other statements demonstrate misconceptions about transmission and disease progression.",
+    "additional": "Modes of Transmission:\n- Sexual contact, shared needles, blood transfusion (rare today), mother-to-child.\n\nHIV vs AIDS:\n- HIV: Virus that weakens the immune system.\n- AIDS: Final stage with CD4 <200 or opportunistic infections.\n\nImportance of ART (antiretroviral therapy):\n- Suppresses viral replication.\n- Prevents progression and transmission.\n\nTeaching:\n- Emphasize medication adherence and safe behaviors."
+  },
+  {
+    "question": "When communicating with a client whose hearing is diminished, the nurse should speak:",
+    "options": {
+      "A": "Loudly",
+      "B": "In a normal tone",
+      "C": "Slowly",
+      "D": "Directly into the impaired ear"
+    },
+    "answer": "B",
+    "explanation": "Shouting may distort sounds and make understanding harder. Speaking in a clear, normal tone while facing the patient helps with both verbal understanding and lip reading. Reducing background noise is also key.",
+    "additional": "Communication Strategies:\n- Face the client directly at eye level.\n- Speak clearly, without shouting.\n- Use gestures and written instructions as needed.\n- Ensure hearing aids are working properly.\n\nHearing Loss Types:\n- Conductive (outer/middle ear)\n- Sensorineural (inner ear/nerve damage)"
+  },
+  {
+    "question": "A client is admitted to the cardiac intensive care unit after coronary artery bypass graft surgery. The nurse notes that in the first hour after admission, the mediastinal chest tube drainage was 75ml. During the second hour, the drainage had dropped to 5ml. The nurse interprets that:",
+    "options": {
+      "A": "This is normal",
+      "B": "The tube may be occluded",
+      "C": "The lung has fully expanded",
+      "D": "The client needs to cough and deep breathe"
+    },
+    "answer": "B",
+    "explanation": "A sudden drop in chest tube output, especially after heavy initial drainage, suggests possible blockage. An occlusion can lead to accumulation of blood around the heart, potentially causing cardiac tamponade — a medical emergency.",
+    "additional": "Post-CABG Monitoring:\n- Normal early drainage: 50–100 mL/hr.\n- Sudden decrease or cessation = suspect clot/occlusion.\n\nCardiac Tamponade Signs:\n- Beck’s Triad: Hypotension, JVD, muffled heart sounds.\n- Pulsus paradoxus.\n\nChest Tube Care:\n- Ensure no kinks or clots.\n- Never strip tubing unless ordered.\n- Notify provider immediately if output suddenly decreases."
   },
   {
     "question": "Pre-operative care of a client with ruptured appendix include the following except:-",
