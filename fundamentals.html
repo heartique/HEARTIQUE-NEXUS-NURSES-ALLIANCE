@@ -154,11 +154,19 @@
                 const result = document.createElement('p');
 
                 if (key === q.answer) {
-                  result.innerHTML = `<span class="correct">✅ Correct!</span> ${q.explanation}`;
-                  score++;
-                } else {
-                  result.innerHTML = `<span class="wrong">❌ Wrong!</span> Correct answer is ${q.answer}) ${q.options[q.answer]}. ${q.explanation}`;
-                }
+                  if (key === q.answer) {
+  result.innerHTML = `<span class="correct">✅ Correct!</span> ${q.explanation}`;
+  score++;
+} else {
+  result.innerHTML = `<span class="wrong">❌ Wrong!</span> Correct answer is ${q.answer}) ${q.options[q.answer]}. ${q.explanation}`;
+}
+
+// Show additional info if present
+if (q.additional) {
+  const extra = document.createElement('p');
+  extra.innerHTML = `<em>📌 ${q.additional}</em>`;
+  result.appendChild(extra);
+}
 
                 div.appendChild(result);
                 questionsCompleted++;
