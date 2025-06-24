@@ -1,0 +1,26 @@
+[
+  {
+    "question": "The nurse plans care for a client diagnosed with end-stage renal disease (ESRD). Which findings does the nurse does not expect to find in the client's medical record?",
+    "options": {
+      "A": "Edema",
+      "B": "Anemia",
+      "C": "Hypotension",
+      "D": "Hypocalcemia"
+    },
+    "answer": "C",
+    "explanation": "Patients with ESRD are unable to excrete sodium and water effectively. This leads to chronic fluid volume excess, which is a primary cause of hypertension. Therefore, hypotension would not be an expected finding unless the patient was experiencing a separate acute event like sepsis or hemorrhage.",
+    "additional": "Why A, B, and D are incorrect:\nA. Edema: Caused by fluid volume excess.\nB. Anemia: In ESRD, erythropoietin production ceases, leading to chronic anemia.\nD. Hypocalcemia: Due to failure to activate Vitamin D, which reduces calcium absorption.\n\nAdditional Possible Content to be Tested Next:\n- Hyperkalemia: Due to decreased excretion of potassium.\n- Hyperphosphatemia: Due to decreased excretion of phosphate.\n- Metabolic Acidosis: Inability to excrete hydrogen ions.\n- Uremia: Accumulation of nitrogenous waste causing pruritus, nausea, encephalopathy."
+  },
+  {
+    "question": "An anxious client presents to the emergency room seeking treatment for a laceration of the finger. The client's vital signs are pulse 106, blood pressure 158/88 mmHg, and respirations 28 breaths per minute. After cleansing the injury and reassuring the client, the nurse rechecks vital signs and notes a pulse of 82, BP 130/80 mmHg, and respirations 20 breaths per minute. The nurse determines that the change in vital signs is caused by:",
+    "options": {
+      "A": "Cooling effects of the cleansing agent",
+      "B": "Clients adaptation to the air conditioning",
+      "C": "Early clinical indicators of shock",
+      "D": "Fall in sympathetic nervous system discharge"
+    },
+    "answer": "D",
+    "explanation": "The initial vital signs (tachycardia, hypertension, tachypnea) are typical of sympathetic nervous system activation in response to stress or pain. Cleansing and reassurance lowered anxiety, which reduced the stimulus for this response. As a result, sympathetic discharge decreased and parasympathetic tone was restored, leading to normalization of the client's vital signs.",
+    "additional": "Why A, B, and C are incorrect:\nA & B: Environmental effects like cooling or air conditioning would not produce rapid, system-wide changes in vitals.\nC: Shock involves worsening vital signs such as increasing tachycardia and falling blood pressure. This client’s vitals improved.\n\nAdditional Possible Content to be Tested Next:\n- Sympathetic Nervous System: Triggers fight-or-flight, increases HR, BP, RR.\n- Parasympathetic Nervous System: Calms the body, lowers HR and RR, enhances digestion.\n- Nursing Techniques for Anxiety Reduction: Reassurance, calm communication, deep breathing, and environment control."
+  }
+]
