@@ -416,5 +416,258 @@
     },
     "answer": "A",
     "explanation": "Question 305: Immunological Memory\n\nDuring a primary immune response, some activated B-cells and T-cells do not become short-lived effector cells (like plasma cells or cytotoxic T-cells). Instead, they become long-lived memory cells.\n\nPhysiology: Upon a second encounter with the same antigen, these memory cells are more numerous and more easily activated than the original naive cells. They undergo rapid clonal expansion (proliferation), quickly generating a massive population of plasma cells that produce a high-affinity antibody response. This secondary response is much faster, stronger, and longer-lasting than the primary response."
+  },
+  {
+    "question": "A patient with a severe fungal infection demonstrates impaired neutrophil function. Which of the following cellular processes is most likely to be affected in this patient?",
+    "options": {
+      "A": "Phagocytosis",
+      "B": "Antibody production",
+      "C": "Cytokine secretion",
+      "D": "Mast cell degranulation"
+    },
+    "answer": "A",
+    "explanation": "Understood. Continuing with the Immunology section.\n\nQuestion 306: Neutrophil Function\n\nNeutrophils are professional phagocytes. Their primary function is to engulf and destroy pathogens, especially bacteria and fungi. They follow chemical signals to the site of infection (chemotaxis), adhere to the pathogen, ingest it into a vesicle called a phagosome, and then destroy it using enzymes and reactive oxygen species. Impaired neutrophil function directly translates to impaired phagocytosis.\n\nUnit Expansion Summary: Key Functions of Immune Cells (Recap)\n\nPhagocytosis: Neutrophils, Macrophages.\nAntibody Production: B-cells differentiate into Plasma Cells.\nCytokine Secretion: Many cells, but especially Helper T-cells (to coordinate) and Macrophages (to inflame).\nMast Cell Degranulation: Releases histamine for allergic responses."
+  },
+  {
+    "question": "Which of the following statements accurately describes the role of natural killer (NK) cells in the immune response?",
+    "options": {
+      "A": "NK cells directly kill virus-infected cells and tumor cells.",
+      "B": "NK cells produce antibodies against pathogens.",
+      "C": "NK cells present antigens to T cells to initiate adaptive immunity.",
+      "D": "NK cells release cytokines to recruit other immune cells to the site of infection."
+    },
+    "answer": "A",
+    "explanation": "Question 307: Natural Killer (NK) Cells\n\nNK cells are a type of cytotoxic lymphocyte that is part of the innate immune system. Unlike cytotoxic T-cells (which are adaptive), NK cells do not need prior sensitization to an antigen. They are constantly \"patrolling\" and are programmed to recognize and kill cells that are missing a \"self\" marker (MHC class I molecules), a common feature of many virus-infected cells and tumor cells. They kill their targets by releasing proteins (perforin and granzymes) that induce apoptosis (programmed cell death)."
+  },
+  {
+    "question": "Which of the following cytokines is primarily responsible for promoting differentiation of naïve T cells into Th1 cells and enhancing cell-mediated immune responses?",
+    "options": {
+      "A": "Interleukin-2 (IL-2)",
+      "B": "Interleukin-4 (IL-4)",
+      "C": "Interferon-gamma (IFN-γ)",
+      "D": "Tumor necrosis factor-alpha (TNF-α)"
+    },
+    "answer": "C",
+    "explanation": "Question 308: Th1 Differentiation\n\nThe differentiation of a naive helper T-cell into a specific subtype (like Th1, Th2, Th17) is determined by the cytokine environment. IFN-γ is the hallmark cytokine of the Th1 response. The Th1 pathway is crucial for cell-mediated immunity—activating macrophages and cytotoxic T-cells to fight intracellular pathogens like viruses and certain bacteria.\n\nUnit Expansion Summary: Helper T-Cell Subsets\n\nTh1 Cells: Driven by IL-12 and IFN-γ. Fight intracellular pathogens. Secrete IFN-γ.\nTh2 Cells: Driven by IL-4. Fight extracellular parasites (like worms) and are involved in allergies (activating B-cells to make IgE). Secrete IL-4, IL-5, IL-13.\nTh17 Cells: Driven by TGF-β and IL-6. Fight extracellular bacteria and fungi, particularly at mucosal surfaces.\nTregs (Regulatory T-cells): Suppress the immune response."
+  },
+  {
+    "question": "A patient presents with symptoms of severe allergies, including difficulty breathing, hives, and swelling. Which of the following cells is primarily responsible for mediating these allergic responses?",
+    "options": {
+      "A": "Eosinophils",
+      "B": "Basophils",
+      "C": "Mast cells",
+      "D": "Neutrophils"
+    },
+    "answer": "C",
+    "explanation": "Question 309: Allergic Response\n\nThe Type I hypersensitivity reaction (classic allergy) is mediated by mast cells (found in tissues) and basophils (found in blood).\n\nPhysiology of Allergy:\n\nSensitization: On first exposure to an allergen, B-cells are stimulated (by Th2 cells) to produce IgE antibodies. This IgE then attaches to the surface of mast cells.\n\nActivation: On a subsequent exposure, the allergen binds directly to the IgE on the mast cell surface.\n\nDegranulation: This binding triggers the mast cell to rapidly release its granules, which contain potent inflammatory mediators like histamine. Histamine causes vasodilation (redness), increased vascular permeability (swelling/hives), and smooth muscle contraction (bronchoconstriction/difficulty breathing)."
+  },
+  {
+    "question": "Which of the following immunoglobulin classes is primarily involved in providing passive immunity to newborn infants through breast milk?",
+    "options": {
+      "A": "IgA",
+      "B": "IgG",
+      "C": "IgE",
+      "D": "IgM"
+    },
+    "answer": "A",
+    "explanation": "Question 310: Passive Immunity via Breast Milk\n\nImmunoglobulin A (IgA) is the primary antibody found in mucosal secretions, including tears, saliva, and, most importantly, breast milk (specifically, colostrum). This is a form of natural passive immunity. The IgA from the mother's milk coats the infant's gastrointestinal tract, neutralizing pathogens and preventing them from invading the newborn's tissues while their own immune system is still developing.\n\nUnit Expansion Summary: Immunoglobulin (Antibody) Classes\n\nIgG (Greatest quantity): Main antibody in the secondary response. Crosses the placenta, providing passive immunity to the fetus.\nIgA (Secretory): Found in secretions (mucus, saliva, tears, breast milk).\nIgM (Mega): The first antibody produced in the primary response. It's a large pentamer, excellent at activating complement.\nIgE (Allergy): Binds to mast cells and basophils, mediating allergic reactions. Important in fighting parasitic worms.\nIgD (Don't know): Found on the surface of B-cells; acts as a B-cell receptor."
+  },
+  {
+    "question": "Which of the following cell types is primarily responsible for the production of antibodies during the humoral immune response?",
+    "options": {
+      "A": "Plasma cells",
+      "B": "T helper cells (Th cells)",
+      "C": "Memory B cells",
+      "D": "Macrophages"
+    },
+    "answer": "A",
+    "explanation": "Plasma cells are the terminally differentiated form of B-lymphocytes. They are often referred to as the antibody factories of the immune system. When a B-cell encounters its specific antigen and receives help from a T helper cell, it undergoes clonal expansion. Most of the resulting clones differentiate into plasma cells, which produce large amounts of antibodies tailored to the specific antigen."
+  },
+  {
+    "question": "A patient with a suspected autoimmune disorder exhibits antibodies directed against self-antigens, leading to tissue damage and inflammation. Which of the following mechanisms is primarily responsible for the development of autoimmune diseases?",
+    "options": {
+      "A": "Loss of self-tolerance",
+      "B": "Failure of innate immunity",
+      "C": "Defective T cell activation",
+      "D": "Impaired phagocytosis"
+    },
+    "answer": "A",
+    "explanation": "Self-tolerance is the immune system's ability to avoid attacking the body's own tissues. This is developed during the maturation of B-cells and T-cells in the bone marrow and thymus, respectively. If this process fails, autoreactive cells may survive and attack self-tissues, leading to autoimmune disease. This breakdown of tolerance is the hallmark of autoimmunity."
+  },
+  {
+    "question": "Which of the following statements accurately describes the role of dendritic cells in the immune response?",
+    "options": {
+      "A": "Dendritic cells directly kill infected cells and tumor cells.",
+      "B": "Dendritic cells produce antibodies against pathogens.",
+      "C": "Dendritic cells activate naïve T cells and initiate adaptive immune responses.",
+      "D": "Dendritic cells release histamine and other inflammatory mediators."
+    },
+    "answer": "C",
+    "explanation": "Dendritic cells are considered the most powerful professional antigen-presenting cells (APCs). They reside in peripheral tissues where they capture antigens from pathogens. Once activated, they migrate to lymph nodes and present these antigens on MHC molecules to naïve T-cells. This antigen presentation is the critical first step in initiating the adaptive immune response."
+  },
+  {
+    "question": "Which of the following cell types is primarily responsible for secreting pro-inflammatory cytokines such as interleukin-1 (IL-1) and tumor necrosis factor-alpha (TNF-α) during the acute phase response?",
+    "options": {
+      "A": "Macrophages",
+      "B": "T lymphocytes",
+      "C": "B lymphocytes",
+      "D": "Natural killer (NK) cells"
+    },
+    "answer": "A",
+    "explanation": "Macrophages are innate immune cells that act as the body’s early defenders. When they detect pathogens, they secrete key cytokines like IL-1 and TNF-α. These cytokines promote inflammation, increase blood vessel permeability, and help recruit other immune cells. They also stimulate the liver to produce acute-phase proteins and contribute to fever during infection."
+  },
+  {
+    "question": "Which of the following immune cells is primarily responsible for coordinating and regulating immune responses by producing cytokines that direct the activities of other immune cells?",
+    "options": {
+      "A": "T helper cells (Th cells)",
+      "B": "Cytotoxic T cells (CTLs)",
+      "C": "B cells",
+      "D": "Natural killer (NK) cells"
+    },
+    "answer": "A",
+    "explanation": "T helper cells, also known as CD4+ T-cells, are the primary coordinators of the adaptive immune response. Once activated by an antigen-presenting cell, they release cytokines that help activate B-cells, stimulate cytotoxic T-cell proliferation, and enhance macrophage function. Loss of T helper cells leads to severe immunodeficiency, as seen in advanced HIV infection."
+  },
+  {
+    "question": "Which of the following mechanisms is responsible for the generation of diversity in the antigen-binding sites of immunoglobulins?",
+    "options": {
+      "A": "Somatic hypermutation",
+      "B": "Gene rearrangement",
+      "C": "Isotype switching",
+      "D": "Clonal expansion"
+    },
+    "answer": "B",
+    "explanation": "Gene rearrangement is the primary mechanism that generates the initial diversity in immunoglobulin antigen-binding sites. This process, also called V(D)J recombination, occurs in immature B-cells in the bone marrow. It randomly combines variable (V), diversity (D), and joining (J) gene segments to form unique antigen receptor genes. This allows the immune system to generate billions of antibody variants from a limited number of genes."
+  },
+  {
+    "question": "Which of the following statements accurately describes the role of major histocompatibility complex (MHC) molecules in antigen presentation?",
+    "options": {
+      "A": "MHC class I molecules present exogenous antigens to CD4+ T cells.",
+      "B": "MHC class I molecules present endogenous antigens to CD8+ T cells.",
+      "C": "MHC class II molecules present endogenous antigens to CD4+ T cells.",
+      "D": "MHC class II molecules present exogenous antigens to CD8+ T cells."
+    },
+    "answer": "B",
+    "explanation": "MHC class I molecules are found on all nucleated cells and present endogenous antigens. These are typically proteins made within the cell, such as viral proteins during an infection. These are presented to CD8+ cytotoxic T-cells, which can then kill the infected cell. In contrast, MHC class II molecules are found on professional antigen-presenting cells and present exogenous antigens to CD4+ helper T-cells."
+  },
+  {
+    "question": "Which of the following statements accurately describes the process of opsonization during the immune response?",
+    "options": {
+      "A": "Opsonins facilitate the lysis of target cells by forming membrane attack complexes.",
+      "B": "Opsonins promote the phagocytosis of pathogens by coating them with proteins.",
+      "C": "Opsonins neutralize toxins produced by pathogens.",
+      "D": "Opsonins stimulate the release of histamine from mast cells."
+    },
+    "answer": "B",
+    "explanation": "Opsonization is the process by which pathogens are coated with molecules called opsonins. This coating makes them more recognizable and easier to engulf by phagocytes like neutrophils and macrophages. The main opsonins include IgG antibodies and the complement protein C3b. These tags act like 'eat me' signals to phagocytic cells."
+  },
+  {
+    "question": "Which of the following terms refers to the process by which antibodies coat the surface of pathogens, marking them for destruction by phagocytes or complement proteins?",
+    "options": {
+      "A": "Opsonization",
+      "B": "Neutralization",
+      "C": "Agglutination",
+      "D": "Precipitation"
+    },
+    "answer": "A",
+    "explanation": "Opsonization is the correct term for antibody-mediated tagging of pathogens. Antibodies bind to the surface of the pathogen, enhancing its visibility to immune cells. Phagocytes recognize the Fc region of the bound antibodies and engulf the pathogen. This is a crucial mechanism for the immune system to efficiently eliminate extracellular microbes."
+  },
+  {
+    "question": "Which of the following cellular receptors is responsible for recognizing pathogen-associated molecular patterns (PAMPs) and initiating innate immune responses?",
+    "options": {
+      "A": "Toll-like receptors (TLRs)",
+      "B": "B cell receptors (BCRs)",
+      "C": "T cell receptors (TCRs)",
+      "D": "Fc receptors"
+    },
+    "answer": "A",
+    "explanation": "Toll-like receptors (TLRs) are part of the innate immune system's early-warning system. They recognize conserved molecular patterns found only in microbes, called PAMPs. Examples include LPS on gram-negative bacteria or viral RNA. Once a TLR binds to a PAMP, it triggers intracellular signaling that results in cytokine production and inflammation. This sets the stage for both innate and adaptive immune responses."
+  },
+  {
+    "question": "A patient presents with polyuria, polydipsia, and polyphagia. Laboratory tests reveal hyperglycemia and glycosuria. Which endocrine disorder is most likely responsible for these symptoms?",
+    "options": {
+      "A": "Hyperthyroidism",
+      "B": "Hypothyroidism",
+      "C": "Diabetes mellitus",
+      "D": "Cushing's syndrome"
+    },
+    "answer": "C",
+    "explanation": "This triad of symptoms is the hallmark of diabetes mellitus. It is caused by high blood glucose levels due to insulin deficiency or resistance. Polyuria occurs because glucose spills into the urine, drawing water with it. This leads to dehydration, causing polydipsia (thirst). Since cells cannot access glucose properly, the body signals hunger (polyphagia) despite the hyperglycemia."
+  },
+  {
+    "question": "A patient presents with weight gain, cold intolerance, bradycardia, and constipation. Laboratory tests reveal elevated TSH and decreased free T4. Which endocrine disorder is most likely responsible for these symptoms?",
+    "options": {
+      "A": "Hyperthyroidism",
+      "B": "Hypothyroidism",
+      "C": "Diabetes mellitus",
+      "D": "Addison's disease"
+    },
+    "answer": "B",
+    "explanation": "This is classic primary hypothyroidism. The thyroid gland fails to produce enough T4, resulting in a slow metabolic rate. The pituitary compensates by increasing TSH production. Common symptoms include fatigue, cold intolerance, slow heart rate, weight gain, and constipation. Hashimoto's thyroiditis is the most common cause."
+  },
+  {
+    "question": "A patient presents with weight loss, heat intolerance, palpitations, and exophthalmos. Lab results show suppressed TSH and elevated free T4. What is the most likely endocrine disorder?",
+    "options": {
+      "A": "Hyperthyroidism",
+      "B": "Hypothyroidism",
+      "C": "Diabetes mellitus",
+      "D": "Addison's disease"
+    },
+    "answer": "A",
+    "explanation": "This describes primary hyperthyroidism, most often caused by Graves' disease. Excess T4 leads to a high metabolic rate, which suppresses TSH. Exophthalmos is a unique sign of Graves’ disease due to autoimmune inflammation of orbital tissues. Symptoms reflect a hypermetabolic state."
+  },
+  {
+    "question": "A patient presents with central obesity, moon face, buffalo hump, and purple striae. Lab tests show elevated cortisol levels. What is the most likely diagnosis?",
+    "options": {
+      "A": "Hyperthyroidism",
+      "B": "Hypothyroidism",
+      "C": "Diabetes mellitus",
+      "D": "Cushing's syndrome"
+    },
+    "answer": "D",
+    "explanation": "Cushing’s syndrome results from prolonged exposure to excess cortisol. Cortisol increases blood glucose and redistributes fat to the face, neck, and trunk. It also weakens skin structure, leading to purple striae. High cortisol can result from exogenous steroids or tumors producing ACTH or cortisol."
+  },
+  {
+    "question": "A patient presents with fatigue, weakness, constipation, and darkened skin. Lab results show low cortisol and high ACTH. What is the most likely diagnosis?",
+    "options": {
+      "A": "Hyperthyroidism",
+      "B": "Hypothyroidism",
+      "C": "Diabetes mellitus",
+      "D": "Addison's disease"
+    },
+    "answer": "D",
+    "explanation": "Addison’s disease is primary adrenal insufficiency. The adrenal glands can't produce cortisol. Low cortisol leads to fatigue, hypotension, and GI symptoms. High ACTH (from the pituitary trying to compensate) also increases MSH production, causing hyperpigmentation of the skin."
+  },
+  {
+    "question": "A patient presents with delayed puberty, short stature, and a childlike appearance. Labs show low GH and low IGF-1. What is the most likely diagnosis?",
+    "options": {
+      "A": "Hyperthyroidism",
+      "B": "Hypothyroidism",
+      "C": "Diabetes mellitus",
+      "D": "Growth hormone deficiency"
+    },
+    "answer": "D",
+    "explanation": "Growth hormone deficiency causes reduced stimulation of IGF-1, which is essential for linear growth. GH and IGF-1 promote bone and cartilage development. A deficiency results in short stature, delayed puberty, and increased fat with a cherubic appearance."
+  },
+  {
+    "question": "A patient presents with excessive thirst and passes large amounts of dilute urine. Lab tests show hypernatremia and high serum osmolality. What is the most likely diagnosis?",
+    "options": {
+      "A": "Hyperthyroidism",
+      "B": "Hypothyroidism",
+      "C": "Diabetes mellitus",
+      "D": "Diabetes insipidus"
+    },
+    "answer": "D",
+    "explanation": "Diabetes insipidus is due to a lack of or resistance to ADH. Without ADH, the kidneys can’t reabsorb water, resulting in large amounts of dilute urine. This water loss leads to concentrated blood (high serum osmolality and sodium), causing intense thirst."
+  },
+  {
+    "question": "During the postpartum assessment, a new mother reports experiencing mild cramping and uterine contractions while breastfeeding. What physiological process is responsible for these symptoms?",
+    "options": {
+      "A": "Prolactin release",
+      "B": "Oxytocin release",
+      "C": "Estrogen surge",
+      "D": "Progesterone withdrawal"
+    },
+    "answer": "B",
+    "explanation": "These postpartum cramps, known as 'afterpains,' are caused by oxytocin release. When the baby suckles, sensory nerves in the nipple send signals to the hypothalamus. This leads to the release of oxytocin from the posterior pituitary. Oxytocin has two effects: it causes milk ejection (the let-down reflex), and it stimulates uterine muscle contraction. These contractions reduce bleeding and help the uterus return to its pre-pregnancy size."
   }
 ]
