@@ -218,7 +218,69 @@
     },
     "answer": "A",
     "explanation": "Reed-Sternberg cells are large abnormal lymphocytes with a characteristic 'owl’s eye' appearance found in Hodgkin’s lymphoma. Their presence is key in confirming the diagnosis and distinguishing it from other lymphomas."
+  },
+  {
+    "question": "Continuous bladder irrigation post trans urethral resection of the prostate mainly to:-",
+    "options": {
+      "A": "Decrease bleeding",
+      "B": "Reduce clot formation",
+      "C": "Enhance healing",
+      "D": "Increase urine output"
+    },
+    "answer": "B",
+    "explanation": "Continuous Bladder Irrigation (CBI) is primarily performed after TURP to prevent clot formation. The raw surgical site can bleed, and blood clots may obstruct the catheter, causing bladder distention and complications. By continuously flushing the bladder with normal saline, CBI helps maintain a clear urine flow and prevents obstruction.",
+    "additional": "Why A, C, and D are incorrect:\n- A: While CBI helps manage bleeding consequences, it doesn't directly reduce bleeding. Traction on the catheter is used for that purpose.\n- C: CBI doesn’t directly influence the tissue healing process.\n- D: The total output seen in the catheter includes irrigant and urine, but the body’s natural urine output from the kidneys isn’t increased.\n\nNursing Care for CBI:\n- Monitor the color of bladder output. Bright red may indicate bleeding; pink is expected; clear suggests minimal bleeding.\n- Adjust the flow rate to maintain pink, clot-free drainage.\n- Monitor for signs of obstruction like decreased output, suprapubic fullness, or spasms.\n- To calculate true urine output: Subtract the total irrigant volume from the total catheter drainage volume."
+  },
+  {
+    "question": "A child with acute glomerulonephritis will likely present with:-",
+    "options": {
+      "A": "Low blood urea nitrogen (BUN) and hypotension",
+      "B": "Red-brown urine and Hypertension",
+      "C": "Low urinary specific gravity and hematuria",
+      "D": "Polyuria and high urinary specific gravity"
+    },
+    "answer": "B",
+    "explanation": "In acute glomerulonephritis, particularly post-streptococcal, the glomeruli become inflamed. This leads to hematuria (blood in urine), which appears red-brown or cola-colored. Inflammation reduces GFR, leading to sodium and fluid retention and consequently hypertension.",
+    "additional": "Why A, C, and D are incorrect:\n- A: BUN is elevated in glomerulonephritis, not low. Hypotension is uncommon.\n- C: While hematuria is correct, specific gravity is usually high due to fluid retention, not low.\n- D: Polyuria is not typical. Oliguria (low urine output) is more likely.\n\nClassic Triad of Glomerulonephritis:\n- Hematuria (cola-colored urine)\n- Edema (often periorbital)\n- Hypertension\n\nDiagnostic Findings:\n- Elevated BUN and creatinine\n- Positive ASO titer (antistreptolysin-O) suggesting recent strep infection\n\nNursing Management:\n- Monitor blood pressure frequently.\n- Record intake/output and daily weights.\n- Enforce sodium and fluid restrictions.\n- Administer prescribed antihypertensives and diuretics."
+  },
+  {
+    "question": "A patient with Parkinson's disease usually has a gait that is:-",
+    "options": {
+      "A": "Shuffling and propulsive.",
+      "B": "Unsteady and staggering.",
+      "C": "Broad-based and waddling.",
+      "D": "Staggering and walking on toes"
+    },
+    "answer": "A",
+    "explanation": "In Parkinson’s disease, gait changes are due to bradykinesia, rigidity, and postural instability. The patient’s steps become short, and they barely lift their feet off the ground — this is called a shuffling gait. Because of their stooped posture and forward-leaning center of gravity, their walking becomes propulsive or festinating. They appear to be trying to catch up with their own body.",
+    "additional": "Why B, C, and D are incorrect:\n- B & D: Staggering gaits suggest cerebellar ataxia or intoxication.\n- C: Broad-based or waddling gaits are linked with cerebellar issues or muscular dystrophies.\n\nAdditional Points:\n- Freezing of gait may occur where the patient’s feet feel glued to the floor.\n- Encourage use of visual cues (like stepping over lines).\n- Remove fall hazards in the environment.\n- Refer to physical therapy for gait training and safety."
+  },
+  {
+    "question": "Glycolytic pathway is located in the:",
+    "options": {
+      "A": "Nucleus",
+      "B": "Mitochondria",
+      "C": "Microsome",
+      "D": "Cytosol"
+    },
+    "answer": "D",
+    "explanation": "Glycolysis, the first step in glucose metabolism, occurs in the cytosol of the cell. This anaerobic process converts glucose into pyruvate and generates a small amount of ATP without requiring oxygen.",
+    "additional": "Why A, B, and C are incorrect:\n- A: The nucleus is involved in DNA and gene regulation, not metabolism.\n- B: Mitochondria host the Krebs cycle and electron transport chain, not glycolysis.\n- C: Microsomes are fragments of the endoplasmic reticulum and not involved in glycolysis.\n\nCellular Respiration Summary:\n- Glycolysis (cytosol): Glucose → Pyruvate\n- Krebs Cycle (mitochondrial matrix): Pyruvate → NADH, FADH2, ATP\n- Electron Transport Chain (inner mitochondrial membrane): Produces bulk of ATP\n- Anaerobic conditions lead to pyruvate → lactic acid in human cells."
+  },
+  {
+    "question": "Hypokalemia causes:",
+    "options": {
+      "A": "Hyperpolarization of the cell membrane",
+      "B": "Decrease in membrane potential",
+      "C": "Increase in sodium flow into the cell",
+      "D": "Stimulation of the electrogenic pump"
+    },
+    "answer": "A",
+    "explanation": "When extracellular potassium levels are low, the gradient for potassium efflux increases. More potassium exits the cell, making the inside of the cell membrane more negative than normal. This is called hyperpolarization, and it makes neurons and muscles less likely to fire action potentials.",
+    "additional": "Why B, C, and D are incorrect:\n- B: A decreased membrane potential means depolarization, which is the opposite of hyperpolarization.\n- C: Hypokalemia does not directly increase sodium influx.\n- D: The Na+/K+ ATPase pump maintains gradients but is not stimulated by low K+ levels alone.\n\nClinical Context:\n- Symptoms: Muscle weakness, cramps, ileus, arrhythmias.\n- ECG: Flattened T-waves, U-wave presence, ST depression.\n- Causes: Diuretics, diarrhea, vomiting.\n- Nursing Care: Potassium is given diluted, slowly via infusion pump — never IV push. Monitor for IV irritation or phlebitis."
   }
 ]
+
+
 
 
