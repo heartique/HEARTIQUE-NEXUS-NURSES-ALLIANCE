@@ -46,6 +46,43 @@
     "answer": "D",
     "explanation": "The nurse must assess the AV fistula regularly to ensure it remains patent. Palpating for a thrill and auscultating for a bruit every 4 hours helps identify thrombosis early, which can prevent access failure. This is a vital safety intervention in clients undergoing hemodialysis.",
     "additional": "Why A, B, and C are incorrect:\n- A & B: Never use the fistula arm for BP, IVs, or blood draws. This risks clotting or damaging the access.\n- C: Clamps should never be attached to an AV fistula dressing as this can interfere with flow.\n\nMore on AV Access:\n- Fistula: Direct connection of an artery and vein. Preferred for long-term use.\n- Graft: Synthetic tube between artery and vein. Used when veins are unsuitable.\n\nPatient Education:\n- Avoid tight clothing or jewelry on the access arm.\n- Don’t sleep on the access arm.\n- Report absence of thrill, redness, or pain immediately.\n- No BP, IVs, or blood draws on the access side."
+  },
+  {
+    "question": "The nurse is caring for a client with a spinal cord injury who has spinal shock. The nurse performs an assessment on the client, knowing that which assessment will provide the best information about recovery from spinal shock?",
+    "options": {
+      "A": "Reflexes",
+      "B": "Pulse rate",
+      "C": "Temperature",
+      "D": "Blood Pressure"
+    },
+    "answer": "A",
+    "explanation": "Spinal shock involves the temporary loss of reflexes, motor function, and sensation below the level of injury. The return of reflexes signals resolution of spinal shock.",
+    "additional": "Why B, C, and D are incorrect:\n- These reflect autonomic function and are more related to neurogenic shock.\n- Recovery from spinal shock specifically depends on neurologic return, with reflexes being the most reliable measure.\n\nSpinal vs. Neurogenic Shock:\n- Spinal: Flaccid paralysis, absent reflexes.\n- Neurogenic: Hypotension, bradycardia due to loss of sympathetic tone.\n\nBulbocavernosus Reflex:\n- First to return, tested by squeezing the glans/clitoris and observing for anal sphincter contraction."
+  },
+  {
+    "question": "A patient complains of substernal chest pain, the ECG shows changes with elevated cardiac troponin. What is the next step the nurse should do?",
+    "options": {
+      "A": "Giving oxygen",
+      "B": "Confirming suspected diagnosis first",
+      "C": "Giving pain medication",
+      "D": "Keep patient in a calm environment."
+    },
+    "answer": "A",
+    "explanation": "Substernal pain + ECG changes + high troponin indicates acute MI. The nurse's immediate action should be to increase oxygen delivery to ischemic heart tissue.",
+    "additional": "Why B, C, D are incorrect:\n- B: Confirmation delays urgent care. Clinical signs already justify MI management.\n- C: Morphine is used, but oxygen takes priority.\n- D: Calming is helpful but not first-line.\n\nMONA Mnemonic:\n- M: Morphine (later)\n- O: Oxygen (first if SpO2 < 94%)\n- N: Nitroglycerin (relieves pain, improves flow)\n- A: Aspirin (antiplatelet, reduces clotting)\n\nCardiac Markers:\n- Troponin: Rises in 3-6 hrs, highly specific.\n- CK-MB: Rises earlier but normalizes sooner.\n\nMI Types:\n- STEMI: Complete blockage, ST elevation.\n- NSTEMI: Partial blockage, no ST elevation."
+  },
+  {
+    "question": "A patient who had aortic aneurysm comes with severe chest pain, anxious and diaphoretic. The patient is at risk of:",
+    "options": {
+      "A": "septic shock.",
+      "B": "Anaphylactic shock.",
+      "C": "Cardiogenic shock.",
+      "D": "Hypovolemic shock."
+    },
+    "answer": "D",
+    "explanation": "An aortic aneurysm rupture leads to rapid blood loss into the body cavities, causing hypovolemic shock. Symptoms include chest/back pain, anxiety, diaphoresis, and hypotension.",
+    "additional": "Why D is correct:\n- Rupture = massive hemorrhage = loss of circulating volume = hypovolemic shock.\n- C is possible in tamponade but not as immediate.\n\nWhy A and B are wrong:\n- A: Septic shock = infection-related.\n- B: Anaphylaxis = allergic reaction.\n\nAdditional Signs of Rupture:\n- Sudden, tearing chest/abdominal pain.\n- Shock signs: low BP, high HR.\n- Possible unequal limb BPs (if dissection affects branches).\n\nManagement:\n- Emergency surgery.\n- Control BP (gentle lowering) to reduce further tearing.\n- Rapid fluid and blood resuscitation.\n- Priority: get to OR quickly."
   }
 ]
+
 
