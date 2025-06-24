@@ -1,0 +1,7 @@
+{
+  "question": "What is the APGAR score?",
+  "options": { "A": "Scale to assess growth", "B": "Vital sign range", "C": "Newborn health score", "D": "Feeding scale" },
+  "answer": "C",
+  "explanation": "The APGAR score evaluates a newborn’s health at 1 and 5 minutes after birth.",
+  "additional": "It includes Appearance, Pulse, Grimace, Activity, and Respiration."
+}
