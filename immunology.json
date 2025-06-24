@@ -1,0 +1,86 @@
+[
+  {
+    "question": "Abnormal laboratory findings seen in patients with HIV/AIDS include the following except:-",
+    "options": {
+      "A": "Decrease in the number of T-Helper cells.",
+      "B": "Elevated serum globulin levels.",
+      "C": "Leukopaenia.",
+      "D": "Depressed serum globulins and T helper cells."
+    },
+    "answer": "D",
+    "explanation": "This statement contains a contradiction. While HIV/AIDS does cause a profound decrease in T-helper cells (also known as CD4 cells), it typically causes hypergammaglobulinemia, which means an ELEVATED level of serum globulins, not a depressed level. The immune system, though dysfunctional, is in a state of chronic activation and produces large amounts of non-specific antibodies. Therefore, the combination of \"depressed serum globulins\" makes this statement the exception.",
+    "additional": "A. Decrease in the number of T-Helper cells: This is the hallmark of HIV infection. The virus specifically targets and destroys CD4+ T-helper cells, leading to immunodeficiency.\nB. Elevated serum globulin levels: As explained above, polyclonal activation of B-cells leads to hypergammaglobulinemia.\nC. Leukopaenia: This means a low white blood cell count. Since T-helper cells are a type of leukocyte (white blood cell), their destruction leads to an overall decrease in the white blood cell count, specifically lymphopenia.\n\nViral Load: Measures the number of HIV copies in the blood. The goal of Antiretroviral Therapy (ART) is to achieve an \"undetectable\" viral load.\n\nU=U (Undetectable = Untransmittable): A person with a sustained undetectable viral load cannot sexually transmit HIV to others.\n\nOpportunistic Infections: Infections that occur more frequently or are more severe in people with weakened immune systems. Key examples for AIDS include Pneumocystis jirovecii pneumonia (PCP), Kaposi's sarcoma, and cytomegalovirus (CMV) retinitis.\n\nART (Antiretroviral Therapy): Patient education on the critical importance of lifelong adherence to medication to prevent viral replication and drug resistance."
+  },
+  {
+    "question": "The early symptoms of periodontitis include:-",
+    "options": {
+      "A": "Decay and damage to the pulp.",
+      "B": "Cavities that extend to the pulp.",
+      "C": "Bleeding red gums and halitosis.",
+      "D": "Sensitivity and smooth surface decay"
+    },
+    "answer": "C",
+    "explanation": "Periodontitis is an inflammatory disease of the supporting structures of the teeth (the gums and bone). It is almost always preceded by gingivitis, which is inflammation of the gums. The early signs of gingivitis are red, swollen, tender gums that bleed easily during brushing or flossing. Halitosis (bad breath) is also a common sign due to bacterial activity. If gingivitis is not treated, it can progress to periodontitis.",
+    "additional": "A, B, and D describe dental caries (cavities), which is a different disease process involving the demineralization and decay of the tooth structure itself, not the supporting tissues.\n\nGingivitis vs. Periodontitis:\nGingivitis: Reversible inflammation of the gums.\nPeriodontitis: Irreversible destruction of the periodontal ligament and alveolar bone, leading to the formation of \"pockets\" around the teeth and eventual tooth loss.\n\nRisk Factors: Poor oral hygiene, smoking, diabetes, and genetic predisposition.\n\nPrevention: Regular brushing, flossing, and professional dental cleanings."
+  },
+  {
+    "question": "The main function of the thymus gland is the:-",
+    "options": {
+      "A": "Maturation and differentiation of T-cells.",
+      "B": "Production and proliferation of B-cells.",
+      "C": "Stimulation and production of thyroid hormone",
+      "D": "Stimulation and dissemination of red blood cells"
+    },
+    "answer": "A",
+    "explanation": "The thymus is a primary lymphoid organ. Immature lymphocytes called thymocytes migrate from the bone marrow to the thymus. Within the thymus, they undergo a rigorous maturation and selection process to become functional, mature T-lymphocytes (T-cells). This \"education\" ensures that T-cells can recognize foreign antigens but do not react against the body's own cells (self-tolerance).",
+    "additional": "B: B-cells are produced and mature in the bone marrow.\nC: Thyroid hormone is produced by the thyroid gland under the stimulation of TSH from the pituitary.\nD: Red blood cells are produced in the bone marrow under the stimulation of erythropoietin from the kidneys.\n\nPrimary vs. Secondary Lymphoid Organs:\nPrimary: Where lymphocytes are made and mature (Bone marrow and Thymus).\nSecondary: Where mature lymphocytes are activated to fight infection (Lymph nodes, spleen, tonsils).\n\nCell-Mediated vs. Humoral Immunity:\nCell-Mediated Immunity: Driven by T-cells (e.g., helper T-cells, cytotoxic T-cells). Primarily fights intracellular pathogens like viruses and cancer cells.\nHumoral Immunity: Driven by B-cells and the antibodies they produce. Primarily fights extracellular pathogens like bacteria."
+  },
+  {
+    "question": "Corneal infections are difficult to treat due to the fact that",
+    "options": {
+      "A": "The surface area of the cornea is small.",
+      "B": "Causative organisms cannot be recovered.",
+      "C": "Corneal infections are not easily diagnosed.",
+      "D": "The cornea is avascular organ"
+    },
+    "answer": "D",
+    "explanation": "The cornea is avascular, meaning it has no blood vessels. It receives its oxygen and nutrients from the tears on its outer surface and the aqueous humor on its inner surface. This lack of a direct blood supply makes it very difficult for systemic medications (like oral or IV antibiotics) to reach the cornea in therapeutic concentrations. It also means that immune cells, which travel in the bloodstream, have limited access to the site of infection. Treatment typically relies on frequent, intensive application of topical antibiotic eye drops.",
+    "additional": "A: The surface area is irrelevant to the difficulty of treatment.\nB: Causative organisms can often be recovered for culture through a corneal scraping.\nC: Corneal infections (keratitis) are usually easily diagnosed based on symptoms (pain, redness, blurred vision) and examination with a slit lamp.\n\nKeratitis: The medical term for inflammation or infection of the cornea.\n\nCauses of Keratitis: Bacteria, viruses (especially Herpes Simplex), fungi, and parasites (e.g., Acanthamoeba in contact lens wearers).\n\nCorneal Abrasion: A scratch on the cornea. It is very painful but usually heals quickly if it does not become infected.\n\nPatient Education for Contact Lens Wearers: Emphasize strict hygiene, avoiding sleeping in contacts, and never using tap water to clean lenses or cases, as this is a major risk factor for Acanthamoeba keratitis."
+  },
+  {
+    "question": "The immunological reaction to chemicals in cosmetics or poison ivy is category",
+    "options": {
+      "A": "Allergic/anaphylactic reaction.",
+      "B": "Cytotoxic reaction.",
+      "C": "Immuno complex mediated reaction.",
+      "D": "Delayed type hypersensitivity"
+    },
+    "answer": "D",
+    "explanation": "The reaction to poison ivy or chemicals in cosmetics is a classic example of allergic contact dermatitis, which is a Type IV or Delayed-Type Hypersensitivity (DTH) reaction. Unlike immediate allergic reactions, this response is not mediated by antibodies. Instead, it is a cell-mediated response driven by T-cells. It takes 24 to 72 hours for the symptoms (redness, itching, vesicles) to develop after exposure, hence the term 'delayed.'",
+    "additional": "A. Allergic/anaphylactic reaction: This is a Type I reaction. It is immediate (minutes), mediated by IgE antibodies, and involves mast cell degranulation (e.g., hay fever, food allergies, bee stings, anaphylaxis).\n\nB. Cytotoxic reaction: This is a Type II reaction, where IgG or IgM antibodies bind to antigens on the surface of a person's own cells, leading to their destruction (e.g., autoimmune hemolytic anemia, transfusion reactions).\n\nC. Immuno complex mediated reaction: This is a Type III reaction, where antigen-antibody complexes are formed in the blood and deposited in tissues (like kidneys and joints), causing inflammation (e.g., post-streptococcal glomerulonephritis, lupus).\n\nGell and Coombs Classification: Be able to identify the type (I, II, III, IV), the immune reactant (IgE, IgG/IgM, Immune Complexes, T-cells), and a classic example for each of the four hypersensitivity types.\n\nPatch Testing: The diagnostic test used to identify the specific allergen causing allergic contact dermatitis."
+  },
+  {
+    "question": "The emergence of Multi Drug Resistance Tuberculosis(MDR-TB) cases is a result of:-",
+    "options": {
+      "A": "Unscrupulous use and high cost of acquiring anti TB drugs.",
+      "B": "Limited knowledge on proper nutrition by the patients.",
+      "C": "Non adherence to stipulated treatment by the clients.",
+      "D": "Mutation of the tubercle bacilli."
+    },
+    "answer": "C",
+    "explanation": "The single most important factor driving the development of MDR-TB is non-adherence (or non-compliance) with the prescribed treatment regimen. Standard TB treatment involves multiple drugs taken for a long duration (typically 6 months or more). When patients stop taking their medications too soon, miss doses, or take them irregularly, the weaker TB bacteria are killed off, but the few naturally more resistant bacilli survive and multiply. This creates a population of bacteria that is resistant to the most effective first-line drugs.",
+    "additional": "A: While high cost can be a reason for non-adherence, it's the non-adherence itself that is the direct cause of resistance.\n\nB: Poor nutrition is a risk factor for progressing from latent to active TB, but it does not cause drug resistance.\n\nD: While drug resistance is fundamentally due to bacterial mutation, the selection and amplification of these mutant strains on a large scale is driven by the selective pressure of incomplete or inadequate treatment. Therefore, non-adherence is the root cause from a public health and clinical perspective.\n\nFirst-Line TB Drugs (RIPE):\nRifampin (causes red-orange body fluids)\nIsoniazid (INH) (can cause peripheral neuropathy, prevented with Vitamin B6; hepatotoxicity)\nPyrazinamide\nEthambutol (can cause optic neuritis; requires vision screening)\n\nDOTS (Directly Observed Therapy, Short-course): The WHO-recommended strategy to ensure adherence, where a healthcare worker watches the patient swallow every dose of medication.\n\nLatent vs. Active TB:\nLatent TB: The person is infected, but the bacteria are dormant. They are asymptomatic, not infectious, have a positive TST/IGRA, and a normal chest x-ray.\nActive TB: The bacteria are multiplying. The person is symptomatic (cough, fever, night sweats, weight loss), infectious, and has an abnormal chest x-ray.\n\nInfection Control for Active TB: Airborne precautions, including a private negative-pressure room and use of N95 masks by healthcare staff."
+  },
+  {
+    "question": "The infective stage of malaria is:",
+    "options": {
+      "A": "Hypnozoite.",
+      "B": "Merozoite.",
+      "C": "Sporozoite.",
+      "D": "Gamatocyte"
+    },
+    "answer": "C",
+    "explanation": "The malaria life cycle is complex. The sporozoite is the stage of the Plasmodium parasite that is present in the salivary glands of an infected Anopheles mosquito. When the mosquito bites a human, it injects the sporozoites into the bloodstream. These sporozoites then travel to the liver, initiating the human stage of the infection. Therefore, the sporozoite is the infective stage for humans.",
+    "additional": "A. Hypnozoite: A dormant stage of the parasite that can remain in the liver for years (in P. vivax and P. ovale species), causing relapses.\n\nB. Merozoite: The stage that is released from the liver cells and then repeatedly invades red blood cells, causing the clinical symptoms of malaria (fever, chills).\n\nD. Gametocyte: The sexual stage of the parasite, which is taken up by a mosquito when it bites an infected human. The gametocytes are the infective stage for the mosquito.\n\nClinical Manifestations of Malaria: Classic cycles of fever, chills, and sweats that correspond to the synchronized rupture of infected red blood cells.\n\nDiagnosis: Microscopic examination of a blood smear (thick and thin smears) to identify the parasites.\n\nTreatment: Antimalarial drugs like chloroquine, artemisinin-based combination therapies (ACTs), and primaquine (to eradicate hypnozoites).\n\nPrevention (The ABCs of Malaria Prevention):\nAwareness of risk\nBite prevention (using insect repellent, mosquito nets)\nChemoprophylaxis (taking antimalarial pills)\nDiagnosis and treatment promptly"
+  }
+]
