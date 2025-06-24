@@ -2,12 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Anatomy & Physiology Quiz</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       background: #fffdf2;
       padding: 20px;
+      margin: 0;
       line-height: 1.6;
     }
     h1, h2 {
@@ -20,16 +22,15 @@
       margin-bottom: 20px;
       color: #555;
     }
-    .question-box {
-      background: #fff8d1;
-      padding: 15px;
+    .top-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
       margin-bottom: 20px;
-      border-radius: 10px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      flex-wrap: wrap;
     }
-    button {
-      margin: 5px 0;
-      padding: 8px 12px;
+    .btn {
+      padding: 10px 16px;
       font-size: 16px;
       cursor: pointer;
       border: none;
@@ -37,8 +38,15 @@
       border-radius: 6px;
       transition: 0.2s ease;
     }
-    button:hover {
+    .btn:hover {
       background-color: #f1b800;
+    }
+    .question-box {
+      background: #fff8d1;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
     .correct { color: green; font-weight: bold; }
     .wrong { color: red; font-weight: bold; }
@@ -58,6 +66,14 @@
       text-align: center;
       border-radius: 8px;
     }
+    @media (max-width: 600px) {
+      body {
+        padding: 15px;
+      }
+      .btn {
+        width: 100%;
+      }
+    }
   </style>
 </head>
 <body>
@@ -65,18 +81,23 @@
   <h1>🩺 Anatomy & Physiology Quiz</h1>
   <div class="quote">"The body achieves what the mind believes." 💡</div>
 
-  <div id="quiz-container"></div>
+  <div class="top-buttons">
+    <a href="quiz.html"><button class="btn">🏠 Home</button></a>
+    <button class="btn" onclick="showFinalResult()">📊 Get My Score Now</button>
+  </div>
 
+  <div id="quiz-container"></div>
   <div class="final-result" id="result"></div>
 
   <div class="contact">
-    <p>📩 Like this format? Contact us at <strong>nursingnexus@email.com</strong></p>
+    <p>📩 Like this format? Contact us at <strong>nursingnexusalliance@gmail.com</strong></p>
     <p>💡 Got more content? Let us help you bring it to life here!</p>
   </div>
 
   <script>
     let score = 0;
     let total = 0;
+    let questionsCompleted = 0;
 
     fetch('anatomy.json')
       .then(res => res.json())
@@ -91,6 +112,7 @@
 
           Object.entries(q.options).forEach(([key, value]) => {
             const btn = document.createElement('button');
+            btn.className = 'btn';
             btn.textContent = `${key}) ${value}`;
             btn.onclick = () => {
               div.querySelectorAll('button').forEach(b => b.disabled = true);
@@ -104,7 +126,11 @@
               }
 
               div.appendChild(result);
-              if (index === data.length - 1) showFinalResult();
+              questionsCompleted++;
+
+              if (questionsCompleted === total) {
+                showFinalResult();
+              }
             };
             div.appendChild(btn);
             div.appendChild(document.createElement('br'));
@@ -115,7 +141,7 @@
       });
 
     function showFinalResult() {
-      const percent = Math.round((score / total) * 100);
+      const percent = total ? Math.round((score / total) * 100) : 0;
       let reaction = "";
 
       if (percent >= 90) reaction = "🌟 Excellent!";
