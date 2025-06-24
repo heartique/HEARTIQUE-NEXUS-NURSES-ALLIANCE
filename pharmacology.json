@@ -53,5 +53,647 @@
     },
     "answer": "C",
     "explanation": "An INR > 5 is dangerous. The dose should be held and the provider notified."
+  },
+  {
+    "question": "A patient with chronic obstructive pulmonary disease (COPD) is prescribed albuterol (salbutamol) inhaler as a rescue medication. Which of the following best describes the pharmacological action of albuterol?",
+    "options": {
+      "A": "Anticholinergic",
+      "B": "Beta-adrenergic agonist",
+      "C": "Corticosteroid",
+      "D": "Methylxanthine"
+    },
+    "answer": "B",
+    "explanation": "Albuterol is a short-acting beta-2 adrenergic agonist (SABA). It relaxes bronchial smooth muscles, causing bronchodilation and rapid relief from bronchospasm."
+  },
+  {
+    "question": "A patient with a history of congestive heart failure is prescribed furosemide. Which electrolyte imbalance is the patient at risk for developing with furosemide therapy?",
+    "options": {
+      "A": "Hyperkalemia",
+      "B": "Hypokalemia",
+      "C": "Hyponatremia",
+      "D": "Hypernatremia"
+    },
+    "answer": "B",
+    "explanation": "Furosemide is a loop diuretic that blocks the reabsorption of sodium, chloride, and potassium in the nephron. This causes significant potassium loss in urine, increasing the risk for hypokalemia."
+  },
+  {
+    "question": "A patient with hypertension is prescribed an angiotensin-converting enzyme (ACE) inhibitor. Which adverse effect is most commonly associated with ACE inhibitors?",
+    "options": {
+      "A": "Hyperkalemia",
+      "B": "Hypokalemia",
+      "C": "Dry cough",
+      "D": "Bradycardia"
+    },
+    "answer": "C",
+    "explanation": "ACE inhibitors increase bradykinin levels, which can irritate the lungs. This results in a persistent dry cough, the most common side effect of these drugs."
+  },
+  {
+    "question": "A patient with a history of rheumatoid arthritis is prescribed methotrexate. Which laboratory parameter should be monitored closely during methotrexate therapy?",
+    "options": {
+      "A": "Serum sodium",
+      "B": "Serum creatinine",
+      "C": "Liver function tests",
+      "D": "White blood cell count"
+    },
+    "answer": "C",
+    "explanation": "Methotrexate can cause liver toxicity with long-term use. Therefore, liver function tests (AST, ALT) must be monitored regularly."
+  },
+  {
+    "question": "A patient with a history of coronary artery disease is prescribed aspirin for secondary prevention. Which adverse effect is a potential concern with long-term aspirin therapy?",
+    "options": {
+      "A": "Thrombocytopenia",
+      "B": "Gastrointestinal bleeding",
+      "C": "Hypercholesterolemia",
+      "D": "Hypertension"
+    },
+    "answer": "B",
+    "explanation": "Aspirin inhibits COX-1, reducing protective prostaglandins in the stomach lining. This increases the risk of gastrointestinal irritation and bleeding."
+  },
+  {
+    "question": "A patient with a history of heart failure is prescribed spironolactone. Which electrolyte imbalance is the patient at risk for developing with spironolactone therapy?",
+    "options": {
+      "A": "Hypernatremia",
+      "B": "Hyperkalemia",
+      "C": "Hypokalemia",
+      "D": "Hyponatremia"
+    },
+    "answer": "B",
+    "explanation": "Spironolactone blocks aldosterone, leading to potassium retention. This increases the risk of hyperkalemia, especially in patients with kidney disease or on ACE inhibitors."
+  },
+  {
+    "question": "A patient with chronic obstructive pulmonary disease (COPD) is prescribed oxygen therapy to maintain adequate oxygenation. Which assessment finding indicates the need for adjustment of oxygen therapy?",
+    "options": {
+      "A": "Decreased respiratory rate",
+      "B": "Oxygen saturation (SpO2) of 92%",
+      "C": "Pink, warm, and dry skin",
+      "D": "Decreased dyspnea and fatigue"
+    },
+    "answer": "A",
+    "explanation": "In COPD patients with chronic CO2 retention, the respiratory drive can become oxygen-dependent. Excess oxygen can suppress this drive and dangerously slow breathing."
+  },
+  {
+    "question": "A patient with a history of deep vein thrombosis (DVT) is prescribed warfarin therapy. Which laboratory test is used to monitor the therapeutic effect of warfarin?",
+    "options": {
+      "A": "Activated partial thromboplastin time (aPTT)",
+      "B": "International normalized ratio (INR)",
+      "C": "Platelet count",
+      "D": "D-dimer"
+    },
+    "answer": "B",
+    "explanation": "Warfarin affects clotting factors measured by prothrombin time (PT), which is standardized as INR. The INR ensures consistent monitoring of warfarin’s effectiveness across different labs."
+  },
+  {
+    "question": "A patient with a history of type 2 diabetes mellitus is prescribed metformin therapy. Which adverse effect is associated with metformin use and requires immediate medical attention?",
+    "options": {
+      "A": "Hypoglycemia",
+      "B": "Lactic acidosis",
+      "C": "Hyperkalemia",
+      "D": "Peripheral neuropathy"
+    },
+    "answer": "B",
+    "explanation": "Metformin can impair lactic acid clearance, especially in renal impairment, leading to lactic acidosis. This condition is rare but potentially fatal and requires urgent care."
+  },
+  {
+    "question": "A patient with a history of asthma is prescribed an inhaled corticosteroid. Which adverse effect is associated with long-term use of inhaled corticosteroids?",
+    "options": {
+      "A": "Oral thrush",
+      "B": "Hypertension",
+      "C": "Hyperglycemia",
+      "D": "Osteoporosis"
+    },
+    "answer": "A",
+    "explanation": "Inhaled corticosteroids suppress local immunity in the mouth and throat. This allows fungal overgrowth, leading to oral thrush, especially if the patient doesn't rinse after use."
+  },
+  {
+    "question": "A patient with heart failure is prescribed digoxin. Which electrolyte imbalance increases the risk of digoxin toxicity?",
+    "options": {
+      "A": "Hyperkalemia",
+      "C": "Hypokalemia",
+      "D": "Hyponatremia"
+    },
+    "answer": "C",
+    "explanation": "Hypokalemia allows more digoxin to bind to cardiac receptors, increasing its effect. This raises the risk of toxicity, including arrhythmias and vision changes."
+  },
+  {
+    "question": "A patient with chronic kidney disease is prescribed calcium carbonate as a phosphate binder. Which instruction should the nurse provide to the patient regarding calcium carbonate administration?",
+    "options": {
+      "A": "Take with meals",
+      "B": "Take on an empty stomach",
+      "C": "Take with a full glass of water",
+      "D": "Crush tablets before administration"
+    },
+    "answer": "A",
+    "explanation": "Calcium carbonate binds dietary phosphate in the gut to reduce absorption. It must be taken with meals to be present when phosphate enters the digestive system."
+  },
+  {
+    "question": "A patient with a history of angina pectoris is prescribed nitroglycerin sublingual tablets for chest pain relief. Which instruction should the nurse provide to the patient regarding nitroglycerin administration?",
+    "options": {
+      "A": "Swallow the tablet whole with water.",
+      "B": "Chew the tablet before swallowing.",
+      "C": "Place the tablet under the tongue until it dissolves.",
+      "D": "Apply the tablet to the skin over the chest area."
+    },
+    "answer": "C",
+    "explanation": "Sublingual nitroglycerin allows rapid absorption through capillaries under the tongue. This bypasses liver metabolism and provides fast relief for angina."
+  },
+  {
+    "question": "A patient with a history of chronic obstructive pulmonary disease (COPD) is prescribed ipratropium bromide inhaler. Which instruction should the nurse provide to the patient regarding ipratropium inhaler use?",
+    "options": {
+      "A": "Shake the inhaler before each use.",
+      "B": "Inhale deeply and rapidly through the mouthpiece.",
+      "C": "Hold breath for 10 seconds after inhalation.",
+      "D": "Rinse mouth after each use."
+    },
+    "answer": "C",
+    "explanation": "Holding the breath allows medication particles to settle in the lungs. This increases drug effectiveness by enhancing bronchial deposition."
+  },
+  {
+    "question": "A patient with a history of heart failure is prescribed carvedilol. Which parameter should the nurse monitor closely during carvedilol therapy?",
+    "options": {
+      "A": "Blood glucose levels",
+      "B": "Serum potassium levels",
+      "C": "Blood pressure",
+      "D": "Liver function tests"
+    },
+    "answer": "C",
+    "explanation": "Carvedilol lowers blood pressure through beta and alpha blockade. Monitoring for hypotension is essential, especially after dose adjustments."
+  },
+  {
+    "question": "A patient with a history of peptic ulcer disease is prescribed proton pump inhibitors (PPIs) for ulcer healing. Which information is important for the nurse to include in patient education about PPI therapy?",
+    "options": {
+      "A": "PPIs should be taken on an empty stomach.",
+      "B": "PPIs should be discontinued once symptoms resolve.",
+      "C": "PPIs may increase the risk of gastrointestinal bleeding.",
+      "D": "PPIs should be taken with antacids for optimal effect."
+    },
+    "answer": "A",
+    "explanation": "Taking PPIs before meals allows drug absorption before proton pumps activate. This timing ensures maximum acid suppression during meals."
+  },
+  {
+    "question": "A patient with a history of type 2 diabetes mellitus is prescribed insulin glargine (Lantus) once daily. Which statement indicates understanding of insulin glargine administration?",
+    "options": {
+      "A": "I will inject insulin glargine 30 minutes before meals.",
+      "B": "I will shake the insulin vial vigorously before drawing the dose.",
+      "C": "I will rotate injection sites within the same body region.",
+      "D": "I will administer insulin glargine with a rapid-acting insulin."
+    },
+    "answer": "C",
+    "explanation": "Rotating sites helps prevent lipohypertrophy and ensures consistent absorption. Insulin glargine provides steady basal insulin and should not be mixed with other insulins."
+  },
+  {
+    "question": "A patient with a history of heart failure is prescribed digoxin. Which assessment finding indicates a potential adverse effect of digoxin therapy?",
+    "options": {
+      "A": "Bradycardia",
+      "B": "Hypotension",
+      "C": "Hyperkalemia",
+      "D": "Confusion"
+    },
+    "answer": "A",
+    "explanation": "Digoxin slows the heart by increasing vagal tone on the SA node. This can lead to bradycardia, especially at higher or toxic doses."
+  },
+  {
+    "question": "A patient with a history of coronary artery disease is prescribed aspirin for antiplatelet therapy. Which information is important for the nurse to include in patient education about aspirin therapy?",
+    "options": {
+      "A": "Take aspirin with a full glass of milk to minimize gastrointestinal upset.",
+      "B": "Avoid using nonsteroidal anti-inflammatory drugs (NSAIDs) while taking aspirin.",
+      "C": "Discontinue aspirin therapy if you develop a fever.",
+      "D": "Take aspirin on an empty stomach for better absorption."
+    },
+    "answer": "B",
+    "explanation": "Aspirin and NSAIDs both inhibit COX enzymes, increasing the risk of gastrointestinal bleeding when used together. NSAIDs can also interfere with aspirin’s antiplatelet effect, reducing its heart protection."
+  },
+  {
+    "question": "A patient with a history of stroke is prescribed clopidogrel (Plavix) for secondary prevention of thrombotic events. Which laboratory test should the nurse monitor closely during clopidogrel therapy?",
+    "options": {
+      "A": "Prothrombin time (PT)",
+      "B": "Activated partial thromboplastin time (aPTT)",
+      "C": "Platelet count",
+      "D": "International normalized ratio (INR)"
+    },
+    "answer": "C",
+    "explanation": "Clopidogrel reduces platelet aggregation and carries a risk of thrombocytopenia. Monitoring the platelet count helps detect this serious side effect early."
+  },
+  {
+    "question": "A patient with a history of chronic kidney disease is prescribed erythropoietin-stimulating agents (ESAs) for anemia management. Which parameter should the nurse monitor closely during ESA therapy?",
+    "options": {
+      "A": "Serum potassium levels",
+      "B": "Hemoglobin levels",
+      "C": "Serum creatinine levels",
+      "D": "White blood cell count"
+    },
+    "answer": "B",
+    "explanation": "ESA therapy aims to increase red blood cell production, and hemoglobin is the key marker of this effect. Monitoring ensures the dose remains safe and effective."
+  },
+  {
+    "question": "A patient with a history of chronic obstructive pulmonary disease (COPD) is prescribed prednisone for an acute exacerbation. Which instruction is important for the nurse to include in patient education about prednisone therapy?",
+    "options": {
+      "A": "Take prednisone with antacids to minimize gastrointestinal upset.",
+      "B": "Avoid abruptly stopping prednisone therapy.",
+      "C": "Increase your intake of potassium-rich foods while taking prednisone.",
+      "D": "Prednisone may cause weight loss, so monitor your weight regularly."
+    },
+    "answer": "B",
+    "explanation": "Suddenly stopping prednisone can trigger adrenal crisis due to suppressed cortisol production. The dose must be tapered gradually under medical supervision."
+  },
+  {
+    "question": "A patient with a history of deep vein thrombosis (DVT) is prescribed warfarin therapy. Which instruction is essential for the nurse to include in patient education about warfarin therapy?",
+    "options": {
+      "A": "Limit your intake of green leafy vegetables.",
+      "B": "Avoid activities that may increase your risk of bleeding.",
+      "C": "Take warfarin with antacids for stomach protection.",
+      "D": "Stop warfarin if you miss a dose."
+    },
+    "answer": "B",
+    "explanation": "Warfarin increases bleeding risk, so safety precautions like avoiding contact sports are critical. Patients must also report any signs of bleeding immediately."
+  },
+  {
+    "question": "A patient with a history of chronic obstructive pulmonary disease (COPD) is prescribed tiotropium (Spiriva) inhaler. Which instruction should the nurse include in patient education about tiotropium inhaler use?",
+    "options": {
+      "A": "Use the inhaler only when you experience symptoms.",
+      "B": "Rinse your mouth with water after each use.",
+      "C": "Exhale forcefully before inhaling the medication.",
+      "D": "Store the inhaler in the refrigerator between uses."
+    },
+    "answer": "B",
+    "explanation": "Tiotropium can cause dry mouth, and rinsing helps reduce this discomfort. Though not as essential as for corticosteroids, this improves patient comfort and adherence."
+  },
+  {
+    "question": "A patient with a history of myocardial infarction is prescribed atorvastatin for lipid-lowering therapy. Which parameter should the nurse monitor closely during atorvastatin therapy?",
+    "options": {
+      "A": "Serum potassium levels",
+      "B": "Liver function tests",
+      "C": "Blood glucose levels",
+      "D": "Serum sodium levels"
+    },
+    "answer": "B",
+    "explanation": "Atorvastatin can cause liver injury, so liver function tests (LFTs) like ALT and AST must be monitored regularly. It may also cause muscle damage, so creatine kinase (CK) should be checked if muscle pain occurs."
+  },
+  {
+    "question": "A patient with a history of heart failure is prescribed lisinopril for blood pressure management. Which adverse effect is most commonly associated with lisinopril therapy?",
+    "options": {
+      "A": "Hyperkalemia",
+      "B": "Hypertension",
+      "C": "Dry cough",
+      "D": "Bradycardia"
+    },
+    "answer": "C",
+    "explanation": "Lisinopril can lead to a dry, persistent cough due to bradykinin accumulation in the lungs. If this occurs, the patient is often switched to an ARB like losartan, which does not affect bradykinin."
+  },
+  {
+    "question": "A patient with a history of peptic ulcer disease is prescribed famotidine (Pepcid) for gastric acid suppression. Which instruction should the nurse include in patient education about famotidine therapy?",
+    "options": {
+      "A": "Take famotidine on an empty stomach.",
+      "B": "Avoid taking antacids while on famotidine therapy.",
+      "C": "Increase your intake of spicy foods while taking famotidine.",
+      "D": "Notify your healthcare provider if you develop black, tarry stools."
+    },
+    "answer": "D",
+    "explanation": "Black, tarry stools may indicate upper GI bleeding and require immediate medical attention. Famotidine reduces stomach acid but does not guarantee ulcer healing, so symptoms like melena must be reported."
+  },
+  {
+    "question": "A patient with a history of chronic kidney disease is prescribed phosphate binders. Which instruction should the nurse include in patient education about phosphate binder therapy?",
+    "options": {
+      "A": "Take phosphate binders with meals.",
+      "B": "Avoid taking phosphate binders with calcium supplements.",
+      "C": "Increase your intake of foods high in phosphorus.",
+      "D": "Take phosphate binders on an empty stomach."
+    },
+    "answer": "A",
+    "explanation": "Phosphate binders must be taken with meals to bind phosphate in the digestive tract. This prevents absorption of dietary phosphate and helps manage serum phosphate levels."
+  },
+  {
+    "question": "A patient with a history of heart failure is prescribed a beta-blocker. Which assessment finding indicates a therapeutic effect of beta-blocker therapy?",
+    "options": {
+      "A": "Decreased heart rate",
+      "B": "Increased blood pressure",
+      "C": "Elevated respiratory rate",
+      "D": "Worsening dyspnea"
+    },
+    "answer": "A",
+    "explanation": "Beta-blockers reduce heart rate, which decreases myocardial oxygen demand and improves cardiac efficiency. This is a desired effect in heart failure management to help the heart pump more effectively."
+  },
+  {
+    "question": "A patient is prescribed a beta-blocker for the management of hypertension. Which adverse effect should the nurse monitor closely in the patient?",
+    "options": {
+      "A": "Bradycardia",
+      "B": "Hyperglycemia",
+      "C": "Hypertension",
+      "D": "Tachycardia"
+    },
+    "answer": "A",
+    "explanation": "Beta-blockers reduce heart rate and contractility by blocking beta-1 adrenergic receptors. If the heart rate drops too much, bradycardia can occur, leading to symptoms like dizziness or fainting."
+  },
+  {
+    "question": "A patient is prescribed an angiotensin-converting enzyme (ACE) inhibitor for heart failure. Which laboratory parameter should the nurse monitor closely during ACE inhibitor therapy?",
+    "options": {
+      "A": "Serum potassium levels",
+      "B": "Serum sodium levels",
+      "C": "Blood glucose levels",
+      "D": "Serum creatinine levels"
+    },
+    "answer": "A",
+    "explanation": "ACE inhibitors decrease aldosterone, which reduces potassium excretion and can lead to hyperkalemia. This potassium buildup increases the risk of cardiac arrhythmias and must be closely monitored."
+  },
+  {
+    "question": "A patient is prescribed an opioid analgesic for postoperative pain management. Which nursing intervention is essential for preventing respiratory depression in the patient?",
+    "options": {
+      "A": "Administering naloxone prophylactically",
+      "B": "Monitoring oxygen saturation with pulse oximetry",
+      "C": "Encouraging deep breathing exercises",
+      "D": "Administering bronchodilators as needed"
+    },
+    "answer": "B",
+    "explanation": "Opioids can suppress the brain's respiratory drive by acting on the brainstem. Monitoring oxygen saturation and respiratory rate helps detect early signs of respiratory depression."
+  },
+  {
+    "question": "A patient is prescribed a loop diuretic for the management of heart failure. Which electrolyte imbalance is most commonly associated with loop diuretic therapy?",
+    "options": {
+      "A": "Hyponatremia",
+      "B": "Hypokalemia",
+      "C": "Hyperkalemia",
+      "D": "Hypocalcemia"
+    },
+    "answer": "B",
+    "explanation": "Loop diuretics increase urinary loss of potassium along with sodium and chloride. Hypokalemia is the most frequent adverse effect and can cause arrhythmias or muscle weakness."
+  },
+  {
+    "question": "A patient is prescribed a proton pump inhibitor (PPI) for the treatment of gastroesophageal reflux disease (GERD). Which instruction should the nurse include in patient education about PPI therapy?",
+    "options": {
+      "A": "Take the medication with antacids for enhanced effectiveness.",
+      "B": "Avoid consuming citrus fruits while on PPI therapy.",
+      "C": "Take the medication 30 minutes before meals.",
+      "D": "Report any signs of gastrointestinal bleeding promptly."
+    },
+    "answer": "C",
+    "explanation": "PPIs are most effective when taken 30 to 60 minutes before meals to coincide with peak proton pump activity. This timing enhances acid suppression and symptom relief in GERD."
+  },
+  {
+    "question": "A patient is prescribed a calcium channel blocker for the management of hypertension. Which adverse effect should the nurse monitor closely in the patient?",
+    "options": {
+      "A": "Hypoglycemia",
+      "B": "Peripheral edema",
+      "C": "Hypokalemia",
+      "D": "Tachycardia"
+    },
+    "answer": "B",
+    "explanation": "Calcium channel blockers like amlodipine cause arterial vasodilation by blocking calcium channels in vascular smooth muscle. This leads to an increase in capillary pressure and fluid leakage into tissues, resulting in peripheral edema, especially in the lower extremities."
+  },
+  {
+    "question": "A patient is prescribed a selective serotonin reuptake inhibitor (SSRI) for the treatment of depression. Which adverse effect should the nurse monitor closely in the patient?",
+    "options": {
+      "A": "Bradycardia",
+      "B": "Hypotension",
+      "C": "Hypernatremia",
+      "D": "Suicidal ideation"
+    },
+    "answer": "D",
+    "explanation": "SSRIs increase serotonin levels to help improve mood, but they may initially raise energy before mood improves. This can increase the risk of suicidal thoughts or behavior, especially in young people during the first few weeks of treatment."
+  },
+  {
+    "question": "A patient is prescribed a statin medication for lipid-lowering therapy. Which adverse effect should the nurse monitor closely in the patient?",
+    "options": {
+      "A": "Muscle pain or weakness",
+      "B": "Dry cough",
+      "C": "Hypertension",
+      "D": "Hyperkalemia"
+    },
+    "answer": "A",
+    "explanation": "Statins can cause myopathy, presenting as unexplained muscle pain, soreness, or weakness. In rare cases, this can progress to rhabdomyolysis, a serious condition that can lead to kidney damage."
+  },
+  {
+    "question": "A patient is prescribed a benzodiazepine for the management of anxiety. Which instruction should the nurse include in patient education about benzodiazepine therapy?",
+    "options": {
+      "A": "Take the medication with grapefruit juice for enhanced absorption.",
+      "B": "Avoid consuming alcohol while on benzodiazepine therapy.",
+      "C": "Take the medication on an empty stomach for better effectiveness.",
+      "D": "Discontinue the medication abruptly if you experience side effects."
+    },
+    "answer": "B",
+    "explanation": "Benzodiazepines and alcohol both depress the central nervous system and can dangerously enhance each other's effects. This can lead to profound sedation, respiratory depression, or coma if combined."
+  },
+  {
+    "question": "A patient is prescribed a nonsteroidal anti-inflammatory drug (NSAID) for the management of pain. Which adverse effect should the nurse monitor closely in the patient?",
+    "options": {
+      "A": "Hypotension",
+      "B": "Hyperkalemia",
+      "C": "Gastrointestinal bleeding",
+      "D": "Hyperglycemia"
+    },
+    "answer": "C",
+    "explanation": "NSAIDs inhibit COX-1, which reduces protective prostaglandins in the stomach lining. This increases the risk of gastritis, ulcers, and gastrointestinal bleeding, especially with prolonged use."
+  },
+  {
+    "question": "A patient is prescribed a loop diuretic for the management of edema. Which electrolyte imbalance is most commonly associated with loop diuretic therapy?",
+    "options": {
+      "A": "Hyponatremia",
+      "B": "Hypomagnesemia",
+      "C": "Hyperkalemia",
+      "D": "Hypocalcemia"
+    },
+    "answer": "B",
+    "explanation": "Loop diuretics inhibit the Na-K-2Cl cotransporter in the thick ascending limb of the Loop of Henle. This disrupts the reabsorption of magnesium and calcium, causing increased urinary losses and leading to hypomagnesemia."
+  },
+  {
+    "question": "A patient is prescribed an anticoagulant for the prevention of venous thromboembolism (VTE). Which laboratory parameter should the nurse monitor closely during anticoagulant therapy?",
+    "options": {
+      "A": "Platelet count",
+      "B": "International normalized ratio (INR)",
+      "C": "Serum sodium levels",
+      "D": "Blood urea nitrogen (BUN)"
+    },
+    "answer": "B",
+    "explanation": "Warfarin, a common anticoagulant, is monitored using the INR test to ensure effective and safe anticoagulation. The goal is to maintain an INR between 2.0 and 3.0 to reduce clotting risk while minimizing bleeding complications."
+  },
+  {
+    "question": "A patient is prescribed a beta-adrenergic agonist for the management of asthma. Which adverse effect should the nurse monitor closely in the patient?",
+    "options": {
+      "A": "Hypotension",
+      "B": "Hyperkalemia",
+      "C": "Tachycardia",
+      "D": "Hypoglycemia"
+    },
+    "answer": "C",
+    "explanation": "Beta-adrenergic agonists like albuterol can also stimulate Beta-1 receptors in the heart. This causes tachycardia and palpitations, especially at higher doses or during nebulizer use."
+  },
+  {
+    "question": "A patient is prescribed a proton pump inhibitor (PPI) for the treatment of peptic ulcer disease. Which adverse effect should the nurse monitor closely in the patient?",
+    "options": {
+      "A": "Constipation",
+      "B": "Hypokalemia",
+      "C": "Diarrhea",
+      "D": "Clostridium difficile infection"
+    },
+    "answer": "D",
+    "explanation": "PPIs significantly reduce stomach acid, which weakens the body’s defense against harmful gut bacteria. This increases the risk of infections such as Clostridium difficile, especially with long-term use."
+  },
+  {
+    "question": "A patient is prescribed an antipsychotic medication for the management of schizophrenia. Which adverse effect should the nurse monitor closely in the patient?",
+    "options": {
+      "A": "Hypertension",
+      "B": "Hypoglycemia",
+      "C": "Extrapyramidal symptoms",
+      "D": "Hypercalcemia"
+    },
+    "answer": "C",
+    "explanation": "Antipsychotics, especially typical ones like haloperidol, can block dopamine in motor pathways. This can cause extrapyramidal symptoms such as dystonia, akathisia, and tardive dyskinesia."
+  },
+  {
+    "question": "A patient is prescribed a tricyclic antidepressant for the management of depression. Which adverse effect should the nurse monitor closely in the patient?",
+    "options": {
+      "A": "Hypertension",
+      "B": "Hypotension",
+      "C": "Hypernatremia",
+      "D": "Hyperkalemia"
+    },
+    "answer": "B",
+    "explanation": "Tricyclic antidepressants (TCAs) block alpha-1 receptors, leading to vasodilation and orthostatic hypotension. This can increase the risk of falls, especially in elderly patients."
+  },
+  {
+    "question": "A patient is prescribed a selective serotonin reuptake inhibitor (SSRI) for the treatment of depression. Which adverse effect should the nurse monitor closely in the patient?",
+    "options": {
+      "A": "Bradycardia",
+      "B": "Hyperkalemia",
+      "C": "Hyponatremia",
+      "D": "Hypertension"
+    },
+    "answer": "C",
+    "explanation": "SSRIs can trigger SIADH, causing the body to retain excess water. This leads to dilutional hyponatremia, which can result in confusion, seizures, or coma."
+  },
+  {
+    "question": "A patient is prescribed a nonsteroidal anti-inflammatory drug (NSAID) for the management of osteoarthritis. Which adverse effect should the nurse monitor closely in the patient?",
+    "options": {
+      "A": "Hypoglycemia",
+      "B": "Hyperkalemia",
+      "C": "Gastrointestinal bleeding",
+      "D": "Hypertension"
+    },
+    "answer": "C",
+    "explanation": "NSAIDs inhibit prostaglandins that protect the stomach lining, increasing the risk of GI ulcers. Chronic use may lead to gastrointestinal bleeding, especially in older adults."
+  },
+  {
+    "question": "A patient is prescribed a benzodiazepine for the management of insomnia. Which adverse effect should the nurse monitor closely in the patient?",
+    "options": {
+      "A": "Hypotension",
+      "B": "Hyperglycemia",
+      "C": "Daytime drowsiness",
+      "D": "Bradycardia"
+    },
+    "answer": "A",
+    "explanation": "Benzodiazepines depress the central nervous system and reduce sympathetic tone. This can cause hypotension, especially in older adults or when used with other sedatives."
+  },
+  {
+    "question": "A patient is prescribed a beta-blocker for the management of migraine headaches. Which adverse effect should the nurse monitor closely in the patient?",
+    "options": {
+      "A": "Hypertension",
+      "B": "Bradycardia",
+      "C": "Hyperglycemia",
+      "D": "Constipation"
+    },
+    "answer": "B",
+    "explanation": "Beta-blockers slow the heart rate by blocking beta-1 receptors in the heart. This effect can become problematic if the heart rate drops too low, leading to fatigue or dizziness."
+  },
+  {
+    "question": "A patient is prescribed a proton pump inhibitor (PPI) for the treatment of gastroesophageal reflux disease (GERD). Which adverse effect should the nurse monitor closely in the patient?",
+    "options": {
+      "A": "Hypoglycemia",
+      "B": "Hyperkalemia",
+      "C": "Clostridium difficile infection",
+      "D": "Osteoporosis"
+    },
+    "answer": "D",
+    "explanation": "Long-term PPI use can impair calcium absorption due to reduced stomach acid. This can decrease bone mineral density and increase the risk of osteoporosis-related fractures."
+  },
+  {
+    "question": "A patient is prescribed an antipsychotic medication for the management of bipolar disorder. Which adverse effect should the nurse monitor closely in the patient?",
+    "options": {
+      "A": "Hypertension",
+      "B": "Hyperglycemia",
+      "C": "Hypotension",
+      "D": "Hypernatremia"
+    },
+    "answer": "B",
+    "explanation": "Atypical antipsychotics can lead to metabolic syndrome, including insulin resistance and hyperglycemia. Patients may develop new-onset diabetes and require blood glucose monitoring."
+  },
+  {
+    "question": "A patient is prescribed an opioid analgesic for the management of acute pain. Which adverse effect should the nurse monitor closely in the patient?",
+    "options": {
+      "A": "Hypertension",
+      "B": "Hypoglycemia",
+      "C": "Respiratory depression",
+      "D": "Hyperkalemia"
+    },
+    "answer": "C",
+    "explanation": "Opioids depress the brain's respiratory centers, reducing breathing rate and depth. This makes respiratory depression a life-threatening complication requiring close monitoring."
+  },
+  {
+    "question": "A patient is prescribed a loop diuretic for the management of heart failure. Which electrolyte imbalance is most commonly associated with loop diuretic therapy?",
+    "options": {
+      "A": "Hypercalcemia",
+      "B": "Hypokalemia",
+      "C": "Hypernatremia",
+      "D": "Hypomagnesemia"
+    },
+    "answer": "B",
+    "explanation": "Loop diuretics increase renal excretion of potassium, causing hypokalemia. This can result in muscle weakness and cardiac arrhythmias if uncorrected."
+  },
+  {
+    "question": "A patient is prescribed an angiotensin-converting enzyme (ACE) inhibitor for the management of hypertension. Which adverse effect should the nurse monitor closely in the patient?",
+    "options": {
+      "A": "Hyperkalemia",
+      "B": "Hypoglycemia",
+      "C": "Hypercalcemia",
+      "D": "Hypotension"
+    },
+    "answer": "D",
+    "explanation": "ACE inhibitors reduce the formation of angiotensin II, leading to vasodilation and reduced blood pressure. A significant drop in blood pressure may cause dizziness or fainting."
+  },
+  {
+    "question": "A patient with chronic obstructive pulmonary disease (COPD) presents with increased dyspnea, wheezing, and productive cough. Which of the following medications is most appropriate for bronchodilation and symptom relief in this patient?",
+    "options": {
+      "A": "Albuterol (salbutamol)",
+      "B": "Diphenhydramine (Benadryl)",
+      "C": "Montelukast (Singulair)",
+      "D": "Prednisone"
+    },
+    "answer": "A",
+    "explanation": "Albuterol is a short-acting beta-2 agonist (SABA) that provides rapid bronchodilation. It is the first-line medication for relieving acute COPD symptoms like wheezing and dyspnea."
+  },
+  [
+  {
+    "question": "A patient with asthma experiences nocturnal cough, wheezing, and chest tightness several times per week. Which of the following medications is most appropriate for long-term control of asthma symptoms and prevention of exacerbations?",
+    "options": {
+      "A": "Fluticasone/salmeterol (Advair)",
+      "B": "Albuterol (salbutamol)",
+      "C": "Ipratropium bromide (Atrovent)",
+      "D": "Prednisone"
+    },
+    "answer": "A",
+    "explanation": "Fluticasone/salmeterol (Advair) is a combination inhaler with an inhaled corticosteroid and a long-acting beta-2 agonist. It is used daily to control persistent asthma symptoms and reduce the risk of exacerbations."
+  },
+  {
+    "question": "A patient with chronic kidney disease presents with progressively worsening anemia and elevated serum phosphate levels. Which medication is commonly prescribed to reduce serum phosphate levels in patients with chronic kidney disease?",
+    "options": {
+      "A": "Epoetin alfa",
+      "B": "Cinacalcet",
+      "C": "Sevelamer",
+      "D": "Allopurinol"
+    },
+    "answer": "C",
+    "explanation": "Sevelamer is a phosphate binder that prevents the absorption of dietary phosphate in the gastrointestinal tract. It is commonly used in patients with chronic kidney disease to manage hyperphosphatemia."
+  },
+  {
+    "question": "Which of the following medications is commonly used for the management of overactive bladder (OAB) symptoms such as urinary urgency and frequency?",
+    "options": {
+      "A": "Furosemide",
+      "B": "Oxybutynin",
+      "C": "Spironolactone",
+      "D": "Finasteride"
+    },
+    "answer": "B",
+    "explanation": "Oxybutynin is an anticholinergic medication that relaxes the detrusor muscle of the bladder. This reduces involuntary contractions and helps manage symptoms of urgency and frequency in overactive bladder."
   }
 ]
+
+
+
+
