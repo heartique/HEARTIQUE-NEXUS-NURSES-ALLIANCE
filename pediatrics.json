@@ -1,7 +1,99 @@
-{
-  "question": "What is the APGAR score?",
-  "options": { "A": "Scale to assess growth", "B": "Vital sign range", "C": "Newborn health score", "D": "Feeding scale" },
-  "answer": "C",
-  "explanation": "The APGAR score evaluates a newborn’s health at 1 and 5 minutes after birth.",
-  "additional": "It includes Appearance, Pulse, Grimace, Activity, and Respiration."
-}
+[
+  {
+    "question": "Toxoplasmosis in a newborn is mostly acquired through:-",
+    "options": {
+      "A": "Contact with maternal genito urinary secretions.",
+      "B": "Nosocomial transfer from the environment at birth.",
+      "C": "Contaminated water and test feeds given to the newborn.",
+      "D": "The placenta before birth of the baby"
+    },
+    "answer": "D",
+    "explanation": "Toxoplasmosis is caused by the parasite Toxoplasma gondii. When a pregnant woman acquires a primary infection (e.g., from undercooked meat or contact with infected cat feces), the parasite can cross the placenta and infect the fetus.",
+    "additional": "This is known as congenital toxoplasmosis, and the transmission is transplacental.\n\nTORCH Infections:\n- Toxoplasmosis\n- Other (e.g., Syphilis, Varicella-Zoster, Parvovirus B19)\n- Rubella\n- Cytomegalovirus (CMV)\n- Herpes Simplex Virus (HSV)\n\nClassic Triad of Congenital Toxoplasmosis:\n- Chorioretinitis\n- Hydrocephalus\n- Intracranial calcifications\n\nPrevention:\n- Avoid undercooked meat\n- Avoid handling cat litter during pregnancy"
+  },
+  {
+    "question": "The increased advocacy for non-antibiotic management of infantile diarrhoea is a result of scientific evidence that:-",
+    "options": {
+      "A": "Most infections are related to gastrointestinal irritation",
+      "B": "Viral agents are a leading cause of those infections.",
+      "C": "Teething problems are associated with the diarrhoea.",
+      "D": "Contamination of food in preparation and handling results in the infection."
+    },
+    "answer": "B",
+    "explanation": "Most cases of acute gastroenteritis in infants are caused by viruses, especially Rotavirus and Norovirus. Antibiotics are ineffective against viruses.",
+    "additional": "Unnecessary antibiotic use contributes to resistance and disrupts normal gut flora.\n\nManagement:\n- Oral Rehydration Therapy (ORT) with ORS\n\nSigns of Dehydration:\n- Early: Tachycardia, decreased urine output\n- Moderate: Sunken fontanelle, dry mucosa, poor turgor\n- Severe: Lethargy, absent tears, mottled skin, hypotension\n\nWhen to Seek Care:\n- Bloody stool, high fever, moderate/severe dehydration\n\nPrevention:\n- Rotavirus vaccine (routine childhood immunization)"
+  },
+  {
+    "question": "Deficiency of folic acid in the first trimester of pregnancy is associated with the development of:-",
+    "options": {
+      "A": "Phocomelia.",
+      "B": "Spina bifida.",
+      "C": "Cleft lip and palate.",
+      "D": "Hydrocephalus"
+    },
+    "answer": "B",
+    "explanation": "Folic acid is essential for neural tube closure during early embryonic development. Deficiency can result in Neural Tube Defects (NTDs), especially spina bifida.",
+    "additional": "The neural tube closes by day 28 post-conception—often before pregnancy is confirmed.\n\nOther NTDs:\n- Anencephaly\n\nNot Related:\n- A. Phocomelia – linked to thalidomide, not folic acid\n- C. Cleft lip/palate – multifactorial cause\n- D. Hydrocephalus – may occur secondarily with spina bifida, not the primary defect\n\nFolic Acid Recommendations:\n- 400 mcg daily for all women of childbearing age\n\nTypes of Spina Bifida:\n- Occulta: Mild, no protrusion\n- Meningocele: Meninges protrude\n- Myelomeningocele: Spinal cord and nerves protrude\n\nNursing Care:\n- Position infant prone\n- Cover sac with sterile, saline-moistened dressing"
+  },
+  {
+    "question": "An infant's immune system can effectively respond to immune threats during the first month of birth because",
+    "options": {
+      "A": "Limited antibodies are produced by the infant's colonic bacteria.",
+      "B": "Antibodies are passively received from the mother through the placenta and breast milk.",
+      "C": "Exposure to pathogens during this period is limited.",
+      "D": "Limited antibodies are produced by the foetal thymus gland in the first months of gestation"
+    },
+    "answer": "B",
+    "explanation": "This describes passive immunity. An infant's own immune system is immature at birth. They are protected for the first several months of life by antibodies they received from their mother. IgG antibodies are small enough to cross the placenta during gestation. After birth, IgA antibodies are transferred to the infant through breast milk (especially the colostrum), providing protection against respiratory and gastrointestinal infections. This maternal protection is crucial while the infant's immune system develops and they begin to receive vaccinations.",
+    "additional": "A: Colonic bacteria are part of the gut microbiome and play a role in immunity, but they do not produce antibodies.\nC: Exposure to pathogens is certainly not limited after birth; the infant is immediately exposed to a world of microbes.\nD: The thymus gland is where T-cells mature; it does not produce antibodies (B-cells do). Furthermore, the fetal immune system produces very few antibodies on its own.\n\nActive vs. Passive Immunity:\nActive: The body produces its own antibodies in response to an infection (natural active) or a vaccine (artificial active). It is long-lasting.\nPassive: Antibodies are received from an outside source (e.g., mother to baby, or an injection of immunoglobulin). It is immediate but temporary.\n\nTypes of Immunoglobulins:\nIgG: Most abundant, crosses the placenta.\nIgA: Found in secretions (tears, saliva, breast milk).\nIgM: The first antibody produced in response to a new infection.\nIgE: Involved in allergic reactions."
+  },
+  {
+    "question": "The use of toothpaste in very young children is not recommended because:-",
+    "options": {
+      "A": "The fluid nature of their diet minimizes the risk of dental carries",
+      "B": "They do not like the taste",
+      "C": "Swallowing the paste predisposes to fluorosis.",
+      "D": "The teeth are still developing"
+    },
+    "answer": "C",
+    "explanation": "Fluoride is very effective at preventing dental caries (cavities), but excessive ingestion during the period of tooth enamel formation (up to about age 8) can cause dental fluorosis. This condition causes changes in the appearance of tooth enamel, ranging from faint white streaks to more severe brown staining and pitting. Since very young children have not yet mastered the ability to spit effectively, they tend to swallow toothpaste. Using a non-fluoridated toothpaste or only a tiny smear (the size of a grain of rice) of fluoridated toothpaste minimizes this risk.",
+    "additional": "A: The fluid/soft nature of an infant's diet does not minimize the risk of caries, especially once sugars are introduced. \"Baby bottle tooth decay\" is a significant problem.\nB: While some children may not like the taste, this is not the primary medical reason for the recommendation.\nD: The fact that teeth are developing is precisely why fluorosis is a risk, but it's the swallowing of excess fluoride that is the direct cause.\n\nDental Care Recommendations for Children:\n- Begin cleaning gums with a soft cloth even before teeth erupt.\n- Use a rice-sized smear of fluoridated toothpaste from the first tooth until age 3.\n- Use a pea-sized amount from age 3 to 6.\n- First dental visit should be by age 1 or within 6 months of the first tooth erupting.\n\nPrevention of Early Childhood Caries:\n- Avoid putting a baby to bed with a bottle of milk or juice.\n- Do not use a bottle as a pacifier."
+  },
+  {
+    "question": "Diagnosis of twin pregnancy during inspection of the abdomen becomes apparent when:-",
+    "options": {
+      "A": "The abdominal length appears longer than normal.",
+      "B": "Linear nigra appears darker and longer than normal.",
+      "C": "The uterus/abdomen may look broad or round",
+      "D": "When foetal movements are fewer than normal."
+    },
+    "answer": "C",
+    "explanation": "A uterus containing two fetuses will be larger and more stretched than one containing a single fetus. This can make the abdomen appear unusually broad or round for the gestational age. However, the most reliable clinical measurement is fundal height.",
+    "additional": "A: \"Abdominal length\" is a vague and non-standard term.\nB: Linea nigra is a hormonal change and its appearance is not a reliable indicator of twins.\nD: One would expect more fetal movements, not fewer, with two fetuses.\n\nFundal Height: This is the measurement from the pubic symphysis to the top of the uterine fundus. In a singleton pregnancy, the fundal height in centimeters roughly corresponds to the weeks of gestation (e.g., at 24 weeks, the fundal height should be about 24 cm). In a twin pregnancy, the fundal height will be significantly greater than expected for the dates. This discrepancy is the key clinical finding that suggests a multiple gestation.\n\nConfirmation of Multiple Gestation: Ultrasound is the definitive method for diagnosing a twin pregnancy.\n\nComplications of Multiple Gestation: Increased risk of preterm labor, pre-eclampsia, gestational diabetes, and anemia for the mother. Increased risk of low birth weight and prematurity for the fetuses.\n\nTypes of Twins:\n- Dizygotic (Fraternal): Two separate eggs fertilized by two separate sperm.\n- Monozygotic (Identical): One fertilized egg splits into two."
+  },
+  {
+    "question": "The most common indication for caesercian section in a primigravida is:-",
+    "options": {
+      "A": "Intrauterine growth retardation.",
+      "B": "Cephalopelvic disproportion.",
+      "C": "Multiple pregnancy",
+      "D": "Pregnancy induced hypertension"
+    },
+    "answer": "B",
+    "explanation": "A primigravida is a woman pregnant for the first time. The adequacy of her pelvis for a vaginal delivery is untested. Cephalopelvic disproportion (CPD) is a mismatch between the size of the fetal head (\"cephalo\") and the size of the maternal pelvis. This is a common reason for a \"failure to progress\" during labor, where the cervix fails to dilate or the fetus fails to descend despite adequate contractions, ultimately necessitating a C-section.",
+    "additional": "A: IUGR may require early delivery, but a trial of labor is often attempted first if the fetus is not in distress.\nC: A multiple pregnancy is a common indication, but CPD is more frequent overall when considering all first-time mothers.\nD: PIH or pre-eclampsia may require a C-section, especially if severe or if induction of labor fails, but it is not the most common indication.\n\nThe \"3 Ps\" of Labor:\n- Passenger (the fetus: size, presentation, position)\n- Passage (the pelvis)\n- Powers (uterine contractions)\n\nCPD represents a problem with the relationship between the Passenger and the Passage.\n\nOther Major Indications for C-Section: Fetal distress, breech presentation, placenta previa, previous classical C-section.\n\nVBAC (Vaginal Birth After Cesarean): The criteria and risks associated with attempting a vaginal delivery after a prior C-section."
+  },
+  {
+    "question": "Oxytocin is synthesized by:-",
+    "options": {
+      "A": "Hypothalamus",
+      "B": "Adenohypophysis",
+      "C": "Neurohypophysis",
+      "D": "Thyroid gland"
+    },
+    "answer": "A",
+    "explanation": "This is a key point in neuroendocrinology. The hormones of the posterior pituitary (Oxytocin and Antidiuretic Hormone/ADH) are synthesized (produced) in the cell bodies of neurons located within the hypothalamus. They are then transported down the axons of these neurons to the posterior pituitary, where they are stored and released into the bloodstream.",
+    "additional": "C: Neurohypophysis is the anatomical name for the posterior pituitary. It stores and releases oxytocin but does not synthesize it.\nB: Adenohypophysis is the anterior pituitary, responsible for synthesizing hormones like TSH, ACTH, GH, LH, FSH, and prolactin.\nD: The thyroid gland produces thyroid hormones (T3 and T4), not oxytocin.\n\nFunctions of Oxytocin:\n- Stimulates uterine contractions during labor.\n- Stimulates the milk let-down reflex during breastfeeding.\n- Plays a role in social bonding.\n\nPitocin: The synthetic form of oxytocin used to induce or augment labor.\n\nHormones of the Anterior Pituitary: Know the hormones and their target organs/functions.\n\nFeedback Loops: Hormones from target glands (like cortisol or thyroid hormone) provide negative feedback to the hypothalamus and pituitary."
+  }
+]
+
