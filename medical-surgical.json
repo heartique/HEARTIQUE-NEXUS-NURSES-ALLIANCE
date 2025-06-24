@@ -1042,6 +1042,72 @@
     },
     "answer": "B",
     "explanation": "The main goal of CPR is to restore blood flow and oxygen to vital organs. This buys time until definitive treatment can restart the heart. \nPain relief and reversing causes are important but secondary during active CPR."
+  },
+  {
+    "question": "The following are features of parkinsonism except:",
+    "options": {
+      "A": "Cog wheel rigidity.",
+      "B": "Shuffling gait.",
+      "C": "Mask like face.",
+      "D": "Wide based gait."
+    },
+    "answer": "D",
+    "explanation": "A wide-based gait is not typical of parkinsonism; it is more characteristic of cerebellar ataxia. Parkinsonism usually presents with a narrow, shuffling gait, along with rigidity and reduced facial expression."
+  },
+  {
+    "question": "The aura stage of a tonic-clonic seizure is characterized by:",
+    "options": {
+      "A": "Visual disturbance-tingling sensations, change in mood.",
+      "B": "Jerky movements and contractions.",
+      "C": "Tonic contractions, temporary cessation of breathing.",
+      "D": "Audible cry, tonic Contractions, lasts for 3 to 4 seconds."
+    },
+    "answer": "A",
+    "explanation": "The aura stage involves early warning signs like visual changes, tingling, or mood shifts, indicating focal brain activity. Jerky movements and tonic contractions describe the actual seizure phase (ictal phase), not the aura."
+  },
+  {
+    "question": "The finding that is a characteristic of a client with Guillain-Barre syndrome is:",
+    "options": {
+      "A": "Symmetric paralysis.",
+      "B": "Tachycardia.",
+      "C": "Increased peristalsis.",
+      "D": "Amnesia."
+    },
+    "answer": "A",
+    "explanation": "Guillain-Barré Syndrome typically causes ascending, symmetric muscle weakness and paralysis. Cognitive functions remain intact, and symptoms like amnesia or increased peristalsis are not typical."
+  },
+  {
+    "question": "Which of the following signs is a sign of meningitis?",
+    "options": {
+      "A": "Homan's sign",
+      "B": "Kernig's sign",
+      "C": "Hegar's sign",
+      "D": "Brudzinski's sign"
+    },
+    "answer": "B",
+    "explanation": "Kernig's sign involves leg resistance and pain when extending the knee from a flexed hip and is a classic indicator of meningeal irritation. Brudzinski’s sign is also valid for meningitis, but Kernig's is often emphasized in exams."
+  },
+  {
+    "question": "What is the commonest presentation of renal cancer?",
+    "options": {
+      "A": "Painless hematuria.",
+      "B": "Painful hematuria.",
+      "C": "Abdominal mass.",
+      "D": "Flank pains."
+    },
+    "answer": "A",
+    "explanation": "Painless hematuria is the most frequent initial symptom of renal cancer and often prompts further investigation. The classic triad also includes flank pain and a mass, but all three together are rare."
+  },
+  {
+    "question": "The first appropriate nursing intervention to a newly admitted client with urine specific gravity of 1.040 is to:",
+    "options": {
+      "A": "Restrict oral fluids.",
+      "B": "Encourage liquid diet.",
+      "C": "Administer IV fluids.",
+      "D": "Continue with normal prescribed care."
+    },
+    "answer": "B",
+    "explanation": "A specific gravity of 1.040 indicates concentrated urine, often due to dehydration. Encouraging a liquid diet is a non-invasive first-line approach to rehydrate the patient."
   }
 ]
 
