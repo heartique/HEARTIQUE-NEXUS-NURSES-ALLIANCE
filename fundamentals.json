@@ -386,6 +386,55 @@
     "answer": "A",
     "explanation": "You should NEVER restrain a client during a seizure. The muscle contractions during a tonic-clonic seizure are extremely powerful. Attempting to restrain the client's movements can lead to musculoskeletal injuries, such as fractures or dislocations, for the patient, and can also cause injury to the nurse.",
     "additional": "Why B, C, and D are incorrect (because they are correct actions to take):\nB & C: The priority during a seizure is patient safety and maintaining a patent airway. Turning the client to the side (recovery position) helps prevent the tongue from occluding the airway and allows saliva or vomit to drain out of the mouth, reducing the risk of aspiration.\nD. Loosen any restrictive clothing: Loosening clothing around the neck (like a tie or tight collar) helps to ensure it does not interfere with breathing.\n\nAdditional Possible Content to be Tested Next:\nSeizure Precautions:\n- For a patient at high risk for seizures, the nurse should have oxygen and suction equipment ready at the bedside and ensure the bed has padded side rails.\n\nObservation and Documentation During a Seizure:\n- Time of onset and duration.\n- Description of movements (e.g., unilateral vs. bilateral, tonic vs. clonic).\n- Any incontinence.\n- Patient's condition after the seizure (post-ictal state)."
+  },
+  [
+  {
+    "question": "A client is experiencing symptoms of fluid overload. The first step in management before Specific therapy is:",
+    "options": {
+      "A": "Measure urine output on an hourly basis",
+      "B": "Measure intravenous and oral fluid intake",
+      "C": "Elevate the client's head to at least 45 degrees",
+      "D": "Administer oxygen at 4L per minute by nasal cannula"
+    },
+    "answer": "C",
+    "explanation": "Fluid overload can lead to pulmonary edema, causing shortness of breath. The immediate priority is to improve the patient's oxygenation. Elevating the head of the bed to 45 degrees uses gravity to shift fluid to the lung bases. This increases gas exchange surface area and improves breathing.",
+    "additional": "Why A, B, and D are incorrect:\n- A & B: Measuring input/output is important for long-term monitoring but not for immediate relief.\n- D: Oxygen is appropriate but requires an order and does not relieve mechanical fluid overload as quickly as positioning.\n\nAdditional Content:\n- Signs of hypervolemia: JVD, crackles, edema, weight gain.\n- Lab: Low hematocrit, BUN, serum osmolality (hemodilution).\n- Treatment: Diuretics, sodium/fluid restriction.\n- Nursing: Daily weights, respiratory checks, skin care."
+  },
+  {
+    "question": "A patient with spinal cord injury develops spinal shock. The most likely intravenous (IV) fluid to be prescribed would be:",
+    "options": {
+      "A": "Dextran",
+      "B": "Normal saline.",
+      "C": "5% Dextrose",
+      "D": "5% Dextrose in normal saline."
+    },
+    "answer": "B",
+    "explanation": "Spinal shock involves hypotension due to vasodilation. The goal is to expand blood volume. Normal saline is isotonic and remains in the vasculature, making it ideal for initial resuscitation. It helps restore BP and perfusion quickly.",
+    "additional": "Why A, C, and D are incorrect:\n- A: Dextran is a colloid, but crystalloids like NS are first-line for shock.\n- C: D5W turns into free water and doesn’t stay intravascular.\n- D: D5NS is hypertonic and not used for first-line resuscitation.\n\nAdditional Content:\n- Fluids: Isotonic (NS, LR), Hypotonic (0.45% NS), Hypertonic (3% Saline, D5NS).\n- Spinal vs. Neurogenic Shock: Spinal is neurologic loss; neurogenic is hemodynamic collapse (hypotension, bradycardia)."
+  },
+  {
+    "question": "A client with an extremity burn injury has undergone fasciotomy to treat compartment syndrome of the leg. The nurse prepares to provide which type of wound care to the fasciotomy site?",
+    "options": {
+      "A": "Dry sterile dressings",
+      "B": "Hydrocolloid dressings",
+      "C": "Wet sterile saline dressings",
+      "D": "Half strength Betadine dressings"
+    },
+    "answer": "C",
+    "explanation": "Fasciotomy wounds are left open to relieve pressure and promote healing. Wet-to-moist saline dressings keep the site clean and moist, support granulation, and allow gentle debridement. This prevents tissue damage and promotes healing.",
+    "additional": "Why A, B, and D are incorrect:\n- A: Dry dressings stick and disrupt healing tissue.\n- B: Hydrocolloids are for clean wounds with minimal drainage.\n- D: Betadine is cytotoxic and impairs granulation tissue.\n\nAdditional Content:\n- Compartment Syndrome Causes: Burns, crush injuries.\n- 6 Ps: Pain, Pallor, Pulselessness, Paresthesia, Paralysis, Poikilothermia.\n- Wound Care: Match dressing to wound status (necrotic vs. granulating).\n- Debridement types: Surgical, mechanical, enzymatic, autolytic."
+  },
+  {
+    "question": "An adult client has undergone a lumbar puncture to obtain cerebrospinal fluid (CSF) for analysis. Which of the following is not supposed to be found in CSF.",
+    "options": {
+      "A": "Protein",
+      "B": "Glucose",
+      "C": "Red blood cells",
+      "D": "White blood cells"
+    },
+    "answer": "C",
+    "explanation": "Normal CSF is clear, colorless, and mostly acellular. Red blood cells are not normally present. Their presence suggests either bleeding (e.g., subarachnoid hemorrhage) or a traumatic tap during the procedure. Protein, glucose, and few WBCs are normal.",
+    "additional": "Additional Content:\n- Post-LP Care: Lie flat to prevent headache, encourage fluids, observe site.\n- CSF Findings:\n  - Bacterial Meningitis: Cloudy, high protein, low glucose, high neutrophils.\n  - Viral Meningitis: Clear, normal glucose, high lymphocytes.\n- A traumatic tap is the most common cause of RBCs in CSF after LP."
   }
 ]
 
