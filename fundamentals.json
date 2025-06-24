@@ -302,8 +302,93 @@
     "answer": "A",
     "explanation": "Serous drainage is a normal finding in the early stages of wound healing. It is clear, watery, and pale yellow fluid, indicating the inflammatory response is progressing normally. The incision site should also have well-approximated edges with minimal surrounding redness.",
     "additional": "Why B, C, and D are incorrect:\n- B: Red, hard skin (induration and significant erythema) can indicate infection.\n- C: Warmth and tenderness around the site are signs of infection.\n- D: Purulent drainage (thick yellow, green, or tan fluid) is a definitive sign of infection.\n\nTypes of Wound Drainage:\n- Serous: Clear, watery fluid (normal).\n- Sanguineous: Bright red, indicates bleeding.\n- Serosanguineous: Pale red, watery mixture of blood and serum.\n- Purulent: Thick, opaque, and indicates infection.\n\nSigns of Wound Infection (REEDA Mnemonic):\n- Redness\n- Edema\n- Ecchymosis\n- Drainage\n- Approximation (poor edge closure suggests infection)\n\nComplications:\n- Dehiscence: Separation of wound edges.\n- Evisceration: Protrusion of internal organs. Requires immediate action—cover with sterile, saline-soaked dressing and notify the surgical team."
+  },
+  {
+    "question": "Proper care of feet for a patient who has diabetes mellitus includes:",
+    "options": {
+      "A": "Not soaking feet.",
+      "B": "Applying moisturizing lotion to feet and between toes.",
+      "C": "Always seeking a podiatrist to cut toe",
+      "D": "Avoiding washing feet with soap"
+    },
+    "answer": "A",
+    "explanation": "Soaking the feet can dry out the skin by stripping it of its natural oils. Dry skin is more prone to cracking, which can create a portal of entry for infection. Additionally, for a patient with diabetic neuropathy, prolonged soaking can lead to maceration (softening and breakdown of the skin), increasing infection risk. Therefore, diabetics should wash their feet daily with soap and warm water but should not soak them.",
+    "additional": "Why B, C, and D are incorrect:\nB: Applying moisturizing lotion is correct, but it should not be applied between the toes. Moisture trapped between the toes can promote the growth of fungus.\nC: While seeing a podiatrist for nail care is the safest option, the word \"always\" makes this a very strict statement. The standard teaching is that patients should cut their toenails straight across and file the edges, but if they have poor vision, thick nails, or neuropathy, they must see a podiatrist. A is a more universally applicable rule.\nD: Feet should be washed daily with a mild soap and warm water.\n\nAdditional Possible Content to be Tested Next:\n- Inspect feet daily for any cuts, blisters, redness, or swelling.\n- Wash feet daily with mild soap and warm water; test water temperature with elbow first.\n- Dry feet thoroughly, especially between the toes.\n- Wear clean, soft socks (cotton or wool).\n- Wear well-fitting, supportive shoes; never go barefoot.\n- Break in new shoes slowly.\n- Pathophysiology of Diabetic Foot Ulcers: A combination of neuropathy (loss of protective sensation), peripheral artery disease (impaired blood flow and healing), and immunodeficiency (impaired ability to fight infection)."
+  },
+  {
+    "question": "The most appropriate position to place a patient who has undergone supratentorial craniotomy is:",
+    "options": {
+      "A": "Sidelying",
+      "B": "Supine",
+      "C": "Semi-fowler's",
+      "D": "Dorsal recumbent"
+    },
+    "answer": "C",
+    "explanation": "A supratentorial craniotomy is surgery performed on the cerebrum, above the tentorium cerebelli. After this surgery, a primary goal is to prevent or manage increased intracranial pressure (ICP). Placing the patient in a Semi-Fowler's position, with the head of the bed elevated 30-45 degrees, is crucial. This position promotes venous drainage from the head via the jugular veins, thereby helping to lower ICP. The head should also be kept in a neutral, midline position to avoid kinking the jugular veins.",
+    "additional": "Why A, B, and D are incorrect:\nLying flat (supine or dorsal recumbent) or on the side without head elevation would impede venous drainage and could increase ICP.\n\nAdditional Possible Content to be Tested Next:\n- Positioning for Infratentorial Craniotomy: After surgery on the cerebellum or brainstem, the patient is often kept flat or with only slight elevation (10-15 degrees), and neck flexion should be avoided.\n- Signs of Increased ICP:\n  - Early: Change in LOC, headache, pupillary changes.\n  - Late (Cushing's Triad): Bradycardia, widened pulse pressure, irregular respirations.\n- Other Nursing Interventions: Maintain quiet environment, space out activities, avoid Valsalva maneuvers, maintain normothermia."
+  },
+  {
+    "question": "The major mechanism involved in neurogenic shock is:",
+    "options": {
+      "A": "Allergic reaction",
+      "B": "Cardiac pump failure",
+      "C": "Vasodilation",
+      "D": "Septicemia"
+    },
+    "answer": "C",
+    "explanation": "Neurogenic shock is a type of distributive shock that results from a loss or disruption of sympathetic nervous system tone, most commonly due to a spinal cord injury at T6 or above. The sympathetic nervous system is responsible for maintaining vascular tone. When this tone is lost, it leads to massive, widespread vasodilation. The blood vessels become 'too big' for the volume of blood, causing a relative hypovolemia. This results in a dramatic drop in blood pressure and pooling of blood in the peripheral vessels.",
+    "additional": "Why A, B, and D are incorrect:\nA: An allergic reaction causes anaphylactic shock.\nB: Cardiac pump failure causes cardiogenic shock.\nD: Septicemia causes septic shock.\n\nAdditional Possible Content to be Tested Next:\n- Classic Signs: Hypotension and bradycardia (a key distinguishing feature from other shock types).\n- In other forms of shock, tachycardia is a compensatory response. In neurogenic shock, sympathetic innervation to the heart is lost.\n- Skin may initially be warm and dry due to peripheral vasodilation.\n- Treatment: Use vasopressors (e.g., norepinephrine), atropine for bradycardia, and cautious fluid administration."
+  },
+  {
+    "question": "A safety measure applicable to a client who has cranial nerve II impairment is to:",
+    "options": {
+      "A": "Test the temperature of the client's bath water to prevent chilling or burns",
+      "B": "Speak clearly while directly facing the client",
+      "C": "Remove any obstacles from the client's path of ambulation.",
+      "D": "Provide semisolid food"
+    },
+    "answer": "C",
+    "explanation": "Cranial Nerve II is the Optic Nerve, which is responsible for the sense of vision. Impairment of this nerve leads to partial or complete vision loss. The most important safety measure for a visually impaired client is to maintain a safe, predictable environment and prevent falls or injuries. Removing obstacles like throw rugs, furniture, and clutter from walking paths is a critical intervention.",
+    "additional": "Why A, B, and D are incorrect:\nA: This is appropriate for clients with impaired sensation (e.g., peripheral neuropathy).\nB: This is appropriate for hearing impairment (Cranial Nerve VIII - Vestibulocochlear).\nD: This is for dysphagia (swallowing issues) related to CN IX, X, or XII.\n\nAdditional Possible Content to be Tested Next:\nKnow the 12 Cranial Nerves and Functions (Mnemonic: Oh Oh Oh To Touch And Feel Very Good Velvet, Such Heaven):\nI: Olfactory (Smell)\nII: Optic (Vision)\nIII: Oculomotor (Eye movement, pupil constriction)\nIV: Trochlear (Eye movement)\nV: Trigeminal (Facial sensation, chewing)\nVI: Abducens (Eye movement)\nVII: Facial (Facial expression, taste)\nVIII: Vestibulocochlear (Hearing, balance)\nIX: Glossopharyngeal (Swallowing, taste, gag reflex)\nX: Vagus (Swallowing, speaking, parasympathetic control)\nXI: Accessory (Shoulder shrug, head turning)\nXII: Hypoglossal (Tongue movement)"
+  },
+  {
+    "question": "Laryngo-trachea bronchitis is characterized by a cough that is:",
+    "options": {
+      "A": "Moist",
+      "B": "Barky",
+      "C": "Muffled",
+      "D": "Wheezy"
+    },
+    "answer": "B",
+    "explanation": "Laryngotracheobronchitis, commonly known as croup, is a viral infection of the upper airway that causes inflammation and swelling in the larynx (voice box) and trachea (windpipe). This narrowing of the subglottic airway (the area just below the vocal cords) results in the classic, hallmark sign of a hoarse, \"barking seal\" cough. This is often accompanied by inspiratory stridor (a high-pitched sound on inhalation).",
+    "additional": "Why A, C, and D are incorrect:\nA. Moist: A moist or productive cough suggests inflammation and fluid in the lower airways, as seen in pneumonia or bronchitis.\nC. Muffled: A muffled, \"hot potato\" voice is a classic sign of epiglottitis, a bacterial infection of the epiglottis which is a different and more life-threatening condition.\nD. Wheezy: Wheezing is a high-pitched whistling sound on exhalation, caused by narrowing of the lower airways (bronchioles), and is the hallmark of asthma or bronchiolitis.\n\nAdditional Possible Content to be Tested Next:\nCroup vs. Epiglottitis:\n- Croup: Viral, slow onset, low-grade fever, barking cough, hoarse voice, no drooling.\n- Epiglottitis: Bacterial (HiB), rapid onset, high fever, muffled voice, drooling, and tripod positioning. Epiglottitis is a medical emergency.\n\nNursing Management of Croup:\n- Maintain a calm environment (crying worsens airway obstruction).\n- Administer cool, humidified air.\n- Administer medications as ordered: nebulized epinephrine (to reduce swelling) and oral or IM corticosteroids (to reduce inflammation)."
+  },
+  {
+    "question": "A client with a spinal cord injury is at risk of developing footdrop. The nurse should use which of the following as the effective preventative measure?",
+    "options": {
+      "A": "Foot board",
+      "B": "Heel protectors",
+      "C": "Posterior splints",
+      "D": "Pneumatic boots"
+    },
+    "answer": "A",
+    "explanation": "Foot drop is the inability to lift the front part of the foot (dorsiflexion) due to weakness or paralysis of the muscles. In an immobile patient, the foot naturally falls into plantar flexion (toes pointing down). If left in this position, the Achilles tendon can shorten and a contracture can develop, making the foot drop permanent. A foot board, high-top sneakers, or padded splints are used to keep the foot in a neutral, dorsiflexed position, preventing this contracture.",
+    "additional": "Why B, C, and D are incorrect:\nB. Heel protectors: These are used to \"float\" the heels off the mattress to prevent pressure injuries on the heel, but they do not prevent foot drop.\nC. Posterior splints: While a type of splint can be used, \"foot board\" is the classic and most direct answer for this specific problem.\nD. Pneumatic boots (SCDs): Sequential compression devices are used to prevent deep vein thrombosis (DVT), not foot drop.\n\nAdditional Possible Content to be Tested Next:\nContractures: The shortening and hardening of muscles, tendons, or other tissue, often leading to deformity and rigidity of joints.\n\nNursing Interventions to Prevent Contractures:\n- Performing active and passive range-of-motion (ROM) exercises.\n- Proper positioning and use of splints or supportive devices.\n- Encouraging mobility as much as possible.\n\nOther Complications of Immobility: Pressure injuries, DVT, pneumonia, constipation, and muscle atrophy."
+  },
+  {
+    "question": "A client begins to experience a tonic clonic seizure. The nurse should take which of the following actions except?",
+    "options": {
+      "A": "Restrain the client",
+      "B": "Turn the client to the side",
+      "C": "Maintain the client's airway",
+      "D": "Loosen any restrictive clothing that the client is wearing"
+    },
+    "answer": "A",
+    "explanation": "You should NEVER restrain a client during a seizure. The muscle contractions during a tonic-clonic seizure are extremely powerful. Attempting to restrain the client's movements can lead to musculoskeletal injuries, such as fractures or dislocations, for the patient, and can also cause injury to the nurse.",
+    "additional": "Why B, C, and D are incorrect (because they are correct actions to take):\nB & C: The priority during a seizure is patient safety and maintaining a patent airway. Turning the client to the side (recovery position) helps prevent the tongue from occluding the airway and allows saliva or vomit to drain out of the mouth, reducing the risk of aspiration.\nD. Loosen any restrictive clothing: Loosening clothing around the neck (like a tie or tight collar) helps to ensure it does not interfere with breathing.\n\nAdditional Possible Content to be Tested Next:\nSeizure Precautions:\n- For a patient at high risk for seizures, the nurse should have oxygen and suction equipment ready at the bedside and ensure the bed has padded side rails.\n\nObservation and Documentation During a Seizure:\n- Time of onset and duration.\n- Description of movements (e.g., unilateral vs. bilateral, tonic vs. clonic).\n- Any incontinence.\n- Patient's condition after the seizure (post-ictal state)."
   }
 ]
+
 
 
 
