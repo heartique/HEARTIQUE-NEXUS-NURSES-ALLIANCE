@@ -278,7 +278,32 @@
     "answer": "A",
     "explanation": "During gastric lavage, the safest position is the left lateral with the head down (Trendelenburg). This positioning helps pool fluid in the greater curvature of the stomach, reducing the risk of pushing toxins into the small intestine. It also minimizes the risk of aspiration in case the patient vomits.",
     "additional": "B: Elevating the patient increases the risk of aspiration.\nC: Gravity drainage is part of the process, but positioning is the key safety intervention.\nD: A 50cc syringe is used for instillation, but not the priority action.\n\nGastric Lavage Indications: Used for life-threatening ingestions, ideally within 1 hour.\nContraindications: Ingestion of corrosives or hydrocarbons, unprotected airway.\nProcedure: Insert large-bore orogastric tube, instill normal saline in small aliquots, aspirate repeatedly until clear.\nActivated Charcoal: May be given afterward to absorb residual toxin."
+  },
+  {
+    "question": "The body mass index (BMI) of a person 1.6m tall and weight 65kg is:-",
+    "options": {
+      "A": "22.4",
+      "B": "24.6",
+      "C": "25.4",
+      "D": "40.6"
+    },
+    "answer": "C",
+    "explanation": "The BMI is calculated using the formula: weight (kg) / [height (m)]². In this case: 1.6 × 1.6 = 2.56. Then 65 / 2.56 = 25.39, which rounds to 25.4. This places the individual in the 'Overweight' BMI category.",
+    "additional": "Why A, B, and D are incorrect: These are incorrect due to mathematical miscalculations.\n\nBMI Categories:\n- < 18.5: Underweight\n- 18.5 - 24.9: Normal weight\n- 25.0 - 29.9: Overweight\n- 30.0 - 34.9: Obesity Class I\n- 35.0 - 39.9: Obesity Class II\n- ≥ 40.0: Obesity Class III (Morbid Obesity)\n\nLimitations of BMI:\nBMI does not differentiate fat from muscle mass. For example, muscular athletes may have high BMIs but low body fat. Also, it doesn’t reflect fat distribution, which is critical for assessing health risk.\n\nAdditional Tools:\nWaist circumference is important for identifying central (abdominal) obesity—a key risk factor for heart disease and type 2 diabetes."
+  },
+  {
+    "question": "When assessing a patient's surgical incision for signs of infection, a normal finding would be:-",
+    "options": {
+      "A": "Serous drainage",
+      "B": "Red hard skin",
+      "C": "Warm tender skin",
+      "D": "Purulent drainage"
+    },
+    "answer": "A",
+    "explanation": "Serous drainage is a normal finding in the early stages of wound healing. It is clear, watery, and pale yellow fluid, indicating the inflammatory response is progressing normally. The incision site should also have well-approximated edges with minimal surrounding redness.",
+    "additional": "Why B, C, and D are incorrect:\n- B: Red, hard skin (induration and significant erythema) can indicate infection.\n- C: Warmth and tenderness around the site are signs of infection.\n- D: Purulent drainage (thick yellow, green, or tan fluid) is a definitive sign of infection.\n\nTypes of Wound Drainage:\n- Serous: Clear, watery fluid (normal).\n- Sanguineous: Bright red, indicates bleeding.\n- Serosanguineous: Pale red, watery mixture of blood and serum.\n- Purulent: Thick, opaque, and indicates infection.\n\nSigns of Wound Infection (REEDA Mnemonic):\n- Redness\n- Edema\n- Ecchymosis\n- Drainage\n- Approximation (poor edge closure suggests infection)\n\nComplications:\n- Dehiscence: Separation of wound edges.\n- Evisceration: Protrusion of internal organs. Requires immediate action—cover with sterile, saline-soaked dressing and notify the surgical team."
   }
 ]
+
 
 
