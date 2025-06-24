@@ -825,6 +825,31 @@
     "answer": "C",
     "explanation": "Sterilization works primarily by denaturing proteins in microorganisms. Heat-based methods like autoclaving cause irreversible damage to proteins and enzymes, killing all forms of microbial life, including spores.",
     "additional": "A, B, D: These are secondary effects of protein denaturation. The root cause of microbial death is destruction of critical proteins.\n\nSterilization vs. Disinfection:\n- Sterilization kills all microbes including spores.\n- Disinfection removes most pathogens but not spores.\n\nSterilization Methods:\n- Autoclaving (moist heat), dry heat, ethylene oxide gas, radiation.\nMedical vs. Surgical Asepsis:\n- Medical: Reduces microbes (e.g., hand hygiene).\n- Surgical: Removes all microbes using sterile techniques."
+  },
+  {
+    "question": "The antidote for heparin sulfate is called:",
+    "options": {
+      "A": "Vitamin K",
+      "B": "Potassium chloride",
+      "C": "Protamine sulfate",
+      "D": "Aminocaproic acid"
+    },
+    "answer": "C",
+    "explanation": "As previously explained, protamine sulfate is a positively charged protein that binds to the negatively charged heparin molecule, forming an inactive complex and neutralizing its anticoagulant effect.",
+    "additional": null
+  },
+  {
+    "question": "To prevent lipodystrophy, a client on insulin therapy is advised to.",
+    "options": {
+      "A": "Cleanse the skin with alcohol before each injection",
+      "B": "Aspirate for blood prior to injecting the insulin",
+      "C": "Rotate the sites of injection",
+      "D": "Administer the insulin at a 350 angle."
+    },
+    "answer": "C",
+    "explanation": "Lipodystrophy refers to changes in the subcutaneous fat at injection sites. It can manifest as either lipohypertrophy (a buildup of fat, creating a spongy lump) or lipoatrophy (a loss of fat, creating a dent). It is caused by repeatedly injecting insulin into the exact same spot. This can interfere with insulin absorption, leading to poor glycemic control. The most important intervention to prevent this is to systematically rotate injection sites.",
+    "additional": "Why A, B, and D are incorrect:\nA: Cleansing the skin is important for infection control but does not prevent lipodystrophy.\nB: Aspiration is no longer recommended for subcutaneous injections like insulin.\nD: The angle for a subcutaneous injection is either 45 or 90 degrees, depending on the amount of subcutaneous fat. 350 degrees is not an angle.\n\nAdditional Possible Content to be Tested Next:\n- Insulin Injection Sites: Abdomen (most common, fastest absorption), back of the upper arms, outer thighs, and buttocks.\n- Site Rotation Plan: Instruct the patient to use one anatomical area (e.g., the abdomen) for a week, rotating sites within that area about one inch apart, before moving to a new anatomical area (e.g., the thigh). This provides more consistent absorption than randomly jumping between different body parts for each injection.\n- Types of Insulin: Rapid-acting (Lispro), Short-acting (Regular), Intermediate-acting (NPH), and Long-acting (Glargine, Detemir). Know their onset, peak, and duration."
   }
 ]
+
 
