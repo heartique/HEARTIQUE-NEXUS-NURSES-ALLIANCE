@@ -1,0 +1,179 @@
+[
+  {
+    "question": "When monitoring for infection in an elderly client, a nurse would expect",
+    "options": {
+      "A": "More severe signs of infection.",
+      "B": "Shaking, chills but no fever.",
+      "C": "Changes in mental status.",
+      "D": "Fever, shivering and restlessness"
+    },
+    "answer": "C",
+    "explanation": "Older adults may not develop a fever or elevated WBC count due to a blunted immune response. A sudden change in mental status is often the earliest and most reliable sign of infection in the elderly."
+  },
+  {
+    "question": "The appropriate nursing intervention for a client with a diagnosis of ineffective airway clearance is:-",
+    "options": {
+      "A": "Withholding pain medication.",
+      "B": "Administering cough suppressants every 4-6 hours.",
+      "C": "Administering antibiotics as prescribed.",
+      "D": "Maintaining adequate hydration and providing increased humidity."
+    },
+    "answer": "D",
+    "explanation": "Hydration and humidified air help loosen and mobilize respiratory secretions, making them easier to expectorate. This directly addresses the nursing diagnosis by improving airway clearance."
+  },
+  {
+    "question": "The care of a patient with a pressure ulcer includes:-",
+    "options": {
+      "A": "Providing a cardiac bed.",
+      "B": "Massaging reddened areas of patient's skin.",
+      "C": "Use of a puff sheet when moving client up in bed.",
+      "D": "Having the patient sit on a doughnut type of device."
+    },
+    "answer": "C",
+    "explanation": "A puff sheet helps reduce shear forces when repositioning the patient, which is crucial in preventing further skin damage. Avoiding drag across sheets protects fragile tissues and supports ulcer healing."
+  },
+  {
+    "question": "Following surgery for a perforated appendix with localized peritonitis, the nurse should place the patient in",
+    "options": {
+      "A": "Trendelenburg position",
+      "B": "Dorsal recumbent position",
+      "C": "Sim's position",
+      "D": "Semi-Fowler's position"
+    },
+    "answer": "D",
+    "explanation": "Semi-Fowler's position allows infected peritoneal fluid to drain downward into the pelvis by gravity, minimizing the risk of it spreading upward to the diaphragm. It also supports lung expansion and reduces strain on the abdominal incision."
+  },
+  {
+    "question": "Following spinal cord injury, the patient is encouraged to take fluids mainly to prevent:-",
+    "options": {
+      "A": "Urinary tract infection",
+      "B": "Dehydration",
+      "C": "Skin breakdown",
+      "D": "Fluid and electrolyte imbalance"
+    },
+    "answer": "A",
+    "explanation": "Spinal cord injury often leads to neurogenic bladder and urinary retention, which increase the risk of infection. Encouraging high fluid intake helps flush the urinary system and prevent bacterial colonization."
+  },
+  {
+    "question": "When performing postural drainage for the lower lobes of lung, the nurse positions the patient in:-",
+    "options": {
+      "A": "Sitting up/Fowler's position..",
+      "B": "Reverse Trendelenberg position.",
+      "C": "Dorsal position with a pillow supporting the waist.",
+      "D": "Lateral position with the head elevated at 30 to 45 degrees"
+    },
+    "answer": "None",
+    "explanation": "None of the listed positions are appropriate for draining the lower lobes of the lungs. The correct position is Trendelenburg, where the head is lower than the chest to facilitate gravity-assisted drainage."
+  },
+  {
+    "question": "In thrombophlebitis a sign that indicates possible thrombus formation is:-",
+    "options": {
+      "A": "Homan's sign",
+      "B": "Kernig's sign",
+      "C": "Hegar's sign",
+      "D": "Brudzinski's sign"
+    },
+    "answer": "A",
+    "explanation": "Homan's sign involves dorsiflexion of the foot causing calf pain, suggesting a possible deep vein thrombosis. Although historically used, it is now considered an unreliable indicator and should not replace proper imaging diagnostics."
+  },
+  {
+    "question": "To evaluate a patient's apical heart rate, the nurse places the stethoscope on:-",
+    "options": {
+      "A": "Right side at midclavicular line, fourth intercostal space",
+      "B": "Left side at midclavicular line, fifth intercostal space",
+      "C": "The sternum directly over the heart",
+      "D": "Left side at midclavicular line, between 3rd and 4th intercostal space"
+    },
+    "answer": "B",
+    "explanation": "The apical heart rate is best heard at the point of maximal impulse (PMI), located at the 5th intercostal space, midclavicular line on the left. This site aligns with the apex of the heart where the left ventricle contacts the chest wall."
+  },
+  {
+    "question": "The denominator in Snellen's visual acuity grading measures the:-",
+    "options": {
+      "A": "Normal person's visual acuity",
+      "B": "Size of letters read",
+      "C": "Distance at which the patient is from the chart",
+      "D": "Distance at which the patient is from the chart"
+    },
+    "answer": "A",
+    "explanation": "The denominator in the Snellen fraction represents the distance at which a person with normal vision could read the same line. A value like 20/40 means the patient can read at 20 feet what a person with normal vision could read at 40 feet."
+  },
+  {
+    "question": "You are completing the history of a patient who is scheduled for surgery. What health history increases the risk for surgery for the patient?",
+    "options": {
+      "A": "Urinary tract infections",
+      "B": "History of being involved in an accident.",
+      "C": "Abuse of street drugs",
+      "D": "Hypothyroidism"
+    },
+    "answer": "C",
+    "explanation": "Street drug abuse complicates anesthesia management and increases the risk of withdrawal and poor post-operative outcomes. It may also interfere with pain control and increase unpredictable reactions to medications."
+  },
+  {
+    "question": "Pre-operative care of a client with ruptured appendix include the following except:-",
+    "options": {
+      "A": "A diet of clear fluids",
+      "B": "An enema to prepare bowel for surgery",
+      "C": "Administering intravenous antibiotics",
+      "D": "Give solid food"
+    },
+    "answer": "B",
+    "explanation": "Enemas are contraindicated in cases of ruptured appendix due to the risk of spreading infection further within the abdominal cavity. The bowel must not be stimulated to avoid worsening peritonitis."
+  },
+  {
+    "question": "Pre-operative care of a client with ruptured appendix include the following except:-",
+    "options": {
+      "A": "A diet of clear fluids",
+      "B": "Analgesics to control pain",
+      "C": "Administering intravenous antibiotics",
+      "D": "Intravenous fluids"
+    },
+    "answer": "A",
+    "explanation": "A client with a ruptured appendix must remain NPO to prevent aspiration under general anesthesia. Giving even clear fluids is contraindicated before emergency surgery."
+  },
+  {
+    "question": "The client with chronic renal failure who is scheduled for hemodialysis this morning is due to receive a daily dose of enalapril. The nurse plans to administer this medication:",
+    "options": {
+      "A": "During dialysis",
+      "B": "Just before dialysis",
+      "C": "The day after dialysis",
+      "D": "Upon return from dialysis"
+    },
+    "answer": "D",
+    "explanation": "Enalapril is an antihypertensive medication, and dialysis removes fluids that can cause blood pressure to drop. Giving the drug after dialysis allows for a safe administration based on post-procedure vitals and prevents intra-dialytic hypotension."
+  },
+  {
+    "question": "The statement that shows that a client understands a diagnosis of HIV positive is:-",
+    "options": {
+      "A": "I became infected by donating blood",
+      "B": "Being HIV positive means that I have AIDS",
+      "C": "Since I am only HIV positive, I cannot infect others",
+      "D": "Because I am HIV positive, I have the virus that causes AIDS"
+    },
+    "answer": "D",
+    "explanation": "HIV is the virus that causes AIDS when left untreated and allowed to weaken the immune system. Understanding this link shows accurate knowledge about disease progression and transmission risk."
+  },
+  {
+    "question": "When communicating with a client whose hearing is diminished, the nurse should speak:",
+    "options": {
+      "A": "Loudly",
+      "B": "In a normal tone",
+      "C": "Slowly",
+      "D": "Directly into the impaired ear"
+    },
+    "answer": "B",
+    "explanation": "Speaking in a normal tone and clearly facing the patient enhances comprehension without distorting words. Loudness can actually reduce clarity, especially in those with sensorineural loss."
+  },
+  {
+    "question": "A client is admitted to the cardiac intensive care unit after coronary artery bypass graft surgery. The nurse notes that in the first hour after admission, the mediastinal chest tube drainage was 75ml. During the second hour, the drainage had dropped to 5ml. The nurse interprets that:",
+    "options": {
+      "A": "This is normal",
+      "B": "The tube may be occluded",
+      "C": "The lung has fully expanded",
+      "D": "The client needs to cough and deep breathe"
+    },
+    "answer": "B",
+    "explanation": "A sudden drop in drainage volume after cardiac surgery may signal tube obstruction, likely by clotting. This could lead to cardiac tamponade, requiring immediate assessment and intervention."
+  }
+]
+
