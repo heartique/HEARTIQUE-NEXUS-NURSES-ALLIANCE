@@ -278,8 +278,22 @@
     "answer": "A",
     "explanation": "When extracellular potassium levels are low, the gradient for potassium efflux increases. More potassium exits the cell, making the inside of the cell membrane more negative than normal. This is called hyperpolarization, and it makes neurons and muscles less likely to fire action potentials.",
     "additional": "Why B, C, and D are incorrect:\n- B: A decreased membrane potential means depolarization, which is the opposite of hyperpolarization.\n- C: Hypokalemia does not directly increase sodium influx.\n- D: The Na+/K+ ATPase pump maintains gradients but is not stimulated by low K+ levels alone.\n\nClinical Context:\n- Symptoms: Muscle weakness, cramps, ileus, arrhythmias.\n- ECG: Flattened T-waves, U-wave presence, ST depression.\n- Causes: Diuretics, diarrhea, vomiting.\n- Nursing Care: Potassium is given diluted, slowly via infusion pump — never IV push. Monitor for IV irritation or phlebitis."
+  },
+  [
+  {
+    "question": "A patient's arterial blood gas analysis results are as follows: pH-7.31 PCO2 - 49mmHg HCO3-26mEq/L These values indicate:-",
+    "options": {
+      "A": "Uncompensated respiratory acidosis.",
+      "B": "Compensated respiratory acidosis.",
+      "C": "Uncompensated metabolic acidosis.",
+      "D": "Compensated metabolic acidosis."
+    },
+    "answer": "A",
+    "explanation": "Let's break down the ABG interpretation using the ROME (Respiratory Opposite, Metabolic Equal) method.\n- Look at the pH: 7.31. The normal range is 7.35-7.45. A pH below 7.35 is acidosis.\n- Look at the PaCO2: 49 mmHg. The normal range is 35-45 mmHg. A PaCO2 above 45 indicates respiratory acidosis. (The pH is down, the PaCO2 is up → Opposite → Respiratory).\n- Look at the HCO3: 26 mEq/L. The normal range is 22-26 mEq/L. The bicarbonate level is within the normal range.\nConclusion: The patient has respiratory acidosis. Since the HCO3 (the metabolic component) has not changed to correct the pH, the condition is uncompensated.",
+    "additional": "Why B, C, and D are incorrect:\n- B: For it to be compensated, the HCO3 would have to be elevated (>26) as the kidneys try to retain bicarbonate to buffer the acid.\n- C & D: This is not a metabolic problem because the primary change matching the pH is in the PaCO2, not the HCO3.\n\nAdditional Possible Content to be Tested Next:\n- Practice ABG Interpretation: Be able to identify all four primary acid-base imbalances (respiratory/metabolic acidosis/alkalosis) and determine if they are uncompensated, partially compensated, or fully compensated.\n- Partially Compensated: All three values (pH, PaCO2, HCO3) are abnormal.\n- Fully Compensated: The pH has returned to the normal range, but the PaCO2 and HCO3 are both abnormal, indicating the body has successfully corrected the pH.\n- Causes of Respiratory Acidosis: Hypoventilation from conditions like COPD, drug overdose (opioids, benzodiazepines), or neuromuscular disease."
   }
 ]
+
 
 
 
