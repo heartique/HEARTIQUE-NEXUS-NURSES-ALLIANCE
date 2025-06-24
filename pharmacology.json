@@ -690,9 +690,103 @@
     },
     "answer": "B",
     "explanation": "Oxybutynin is an anticholinergic medication that relaxes the detrusor muscle of the bladder. This reduces involuntary contractions and helps manage symptoms of urgency and frequency in overactive bladder."
-  }
-]
-
-
-
-
+  },
+  {
+    "question": "Malignant hyperthermia is an adverse effect of:-",
+    "options": {
+      "A": "Atracurium.",
+      "B": "Cisatracurium.",
+      "C": "Suxamethonium.",
+      "D": "Sodium thiopentone."
+    },
+    "answer": "C",
+    "explanation": "Malignant Hyperthermia (MH) is a rare, life-threatening, inherited pharmacogenetic disorder of skeletal muscle that is triggered in susceptible individuals by exposure to specific anesthetic agents. The classic triggers are all volatile anesthetic gases (e.g., halothane, isoflurane) and the depolarizing neuromuscular blocker suxamethonium (succinylcholine). MH causes a hypermetabolic state with sustained muscle contraction, leading to a rapid rise in body temperature, tachycardia, acidosis, and muscle breakdown (rhabdomyolysis).\n\nAtracurium and Cisatracurium are non-depolarizing neuromuscular blockers and are considered safe to use in patients susceptible to MH. Sodium thiopentone is an ultra-short-acting barbiturate used for induction of anesthesia. It is not a trigger for MH.\n\nSigns of Malignant Hyperthermia: The earliest sign is often an unexpected rise in end-tidal CO2. Other signs include tachycardia, muscle rigidity (especially masseter/jaw rigidity), and a rapid rise in temperature (which is often a late sign).\n\nEmergency Treatment:\n- Immediately stop the triggering anesthetic agent.\n- Hyperventilate the patient with 100% oxygen.\n- Administer the antidote: Dantrolene sodium.\n- Initiate cooling measures (e.g., cool IV fluids, cooling blankets).\n- Treat acidosis and electrolyte imbalances (especially hyperkalemia from muscle breakdown)."
+  },
+  {
+    "question": "A drug whose prolonged use causes body image disturbance related to facial features is",
+    "options": {
+      "A": "Diazepam",
+      "B": "Carbamezapine",
+      "C": "Calcium supplements",
+      "D": "Phenytoin"
+    },
+    "answer": "D",
+    "explanation": "Phenytoin (brand name Dilantin) is an anticonvulsant medication. One of its well-known, long-term side effects is gingival hyperplasia, an overgrowth of the gum tissue that can be significant and alter appearance. It can also cause a coarsening of facial features and hirsutism (excessive hair growth), which contribute to body image disturbances.\n\nDiazepam is a benzodiazepine; primary side effects are sedation and dizziness. Carbamazepine is another anticonvulsant; common side effects include dizziness, drowsiness, and a risk of agranulocytosis. Calcium supplements can cause constipation and hypercalcemia if taken in excess.\n\nOther Side Effects of Phenytoin:\n- CNS effects: Nystagmus (often an early sign of toxicity), ataxia, slurred speech, confusion.\n- Dermatologic: A rash that can progress to Stevens-Johnson Syndrome (SJS).\n- Hematologic: Anemia.\n\nTherapeutic Drug Monitoring: Phenytoin has a narrow therapeutic range (typically 10-20 mcg/mL). Blood levels must be monitored to ensure efficacy and prevent toxicity.\n\nPatient Education: Emphasize the importance of meticulous oral hygiene (frequent brushing and flossing) to minimize gingival hyperplasia."
+  },
+  {
+    "question": "An example of essential amino acids is:-",
+    "options": {
+      "A": "Aspartate",
+      "B": "Tyrosine",
+      "C": "Methionine",
+      "D": "Serine"
+    },
+    "answer": "C",
+    "explanation": "Essential amino acids are those that the human body cannot synthesize on its own and therefore must be obtained from the diet. There are nine essential amino acids. Methionine is one of them.\n\nAspartate, Tyrosine, and Serine are all non-essential amino acids, meaning the body can synthesize them from other compounds. Tyrosine is considered 'conditionally essential,' meaning it becomes essential if its precursor, phenylalanine (which is essential), is deficient.\n\nThe 9 Essential Amino Acids (Mnemonic: PVT TIM HALL):\n- Phenylalanine\n- Valine\n- Threonine\n- Tryptophan\n- Isoleucine\n- Methionine\n- Histidine\n- Arginine (sometimes considered semi-essential)\n- Leucine\n- Lysine\n\nComplete vs. Incomplete Proteins:\n- Complete proteins (e.g., from meat, dairy, eggs, soy) contain all nine essential amino acids.\n- Incomplete proteins (e.g., from most plants like beans, grains, nuts) are missing one or more essential amino acids."
+  },
+  {
+    "question": "The medication of choice of treatment of status epilepticus in infants and children is:-",
+    "options": {
+      "A": "Phenobarbital sodium.",
+      "B": "Clonazepam.",
+      "C": "Phenytoin.",
+      "D": "Ethosuximide"
+    },
+    "answer": "B",
+    "explanation": "Status epilepticus is a neurological emergency. The first-line treatment for actively seizing patients (both adults and children) is a fast-acting intravenous benzodiazepine. Clonazepam, lorazepam, and diazepam are all members of this class. They work by enhancing the effect of the inhibitory neurotransmitter GABA, which rapidly suppresses seizure activity. Lorazepam is often preferred due to its longer duration of action.\n\nPhenobarbital and Phenytoin are longer-acting anticonvulsants. They are considered second-line agents, typically administered after a benzodiazepine has been given to stop the acute seizure, in order to prevent recurrence. Ethosuximide is a specific medication used almost exclusively for treating absence seizures ('petit mal') and is not effective for tonic-clonic status epilepticus.\n\nNursing Priorities in Status Epilepticus:\n- Airway: Maintain a patent airway (positioning, suction as needed).\n- Safety: Protect the patient from injury.\n- IV access: Establish IV access for medication administration.\n- Monitoring: Monitor vital signs and glucose levels (seizures are metabolically demanding and can cause hypoglycemia).\n\nRoutes of Administration: If IV access cannot be obtained quickly, benzodiazepines can be given via other routes, such as intranasal, buccal, or rectal (e.g., rectal diazepam gel)."
+  },
+  {
+    "question": "When teaching a patient who has asthma on the use a metered-dose inhaler, the nurse will instruct the patient to:-",
+    "options": {
+      "A": "Hold the breath briefly after inhaling the medication.",
+      "B": "Inhale the medication quickly.",
+      "C": "Inhale the medication through the nose.",
+      "D": "Deliver-two sprays per breath"
+    },
+    "answer": "A",
+    "explanation": "Holding the breath for 5–10 seconds after a full, slow inhalation is a critical step. This allows the medication to settle deep within the airways. It prevents it from being immediately exhaled. A quick inhalation (B) causes the drug to deposit in the throat, not lungs. Inhalers are for oral use, not nasal (C). If two sprays are ordered, they must be spaced apart. Delivering them in one breath (D) reduces the second puff's effectiveness.\n\nFull MDI Technique: Shake the inhaler. Breathe out fully. Place the mouthpiece in the mouth and seal lips. Press the canister while breathing in slowly. Hold breath for 5–10 seconds. Then exhale slowly. Use of a Spacer: Recommended for children or uncoordinated patients. Improves delivery and reduces side effects. Cleaning the Inhaler: Prevents blockage. Rinsing the Mouth: Prevents oral thrush after inhaled corticosteroids."
+  },
+  {
+    "question": "An acute asthmatic attack is treated with a:",
+    "options": {
+      "A": "Corticosteroid",
+      "B": "Mast cell stabilizer",
+      "C": "Beta-2 receptor agonist",
+      "D": "Leukotriene modifier"
+    },
+    "answer": "C",
+    "explanation": "Beta-2 agonists like albuterol are fast-acting bronchodilators. They relax airway muscles quickly. This relieves acute bronchospasm. Corticosteroids (A) reduce inflammation but act slowly. Mast cell stabilizers (B) are preventive, not for emergencies. Leukotriene modifiers (D) are also long-term control medications.\n\nSABA vs. LABA: SABA (e.g., albuterol) acts quickly for rescue. LABA (e.g., salmeterol) is used for long-term control with corticosteroids. Anticholinergics: Ipratropium may be combined with SABA during severe attacks. Patient Education: Distinguish between 'reliever' and 'controller' meds. Overuse of rescue inhalers means poor control and needs reevaluation."
+  },
+  {
+    "question": "The instruction a nurse should give the patient on self-administration of eardrops is:-",
+    "options": {
+      "A": "Apply ear medications by use of cotton tipped applicator.",
+      "B": "Pack ears with cotton buds after administering medication.",
+      "C": "Use cool solutions other than warm solutions.",
+      "D": "Tilt the head so that the ear for medication is upmost before application."
+    },
+    "answer": "D",
+    "explanation": "Tilting the head ensures the medication flows down into the canal. It helps reach the target area. Cotton swabs (A) should not go into the ear canal. They risk injury or impaction. Cotton balls (B) may be used briefly but should not be tightly packed. Cool solutions (C) may trigger dizziness or vertigo.\n\nTechnique for Straightening the Ear Canal: For adults and children over 3 years, pull the pinna up and back. For children under 3, pull it down and back. Post-Administration: Stay side-lying for a few minutes. Massage the tragus gently. This helps distribute the medication evenly."
+  },
+  {
+    "question": "The preferred site for Z-Track technique of intramuscular injection is:-",
+    "options": {
+      "A": "Deltoid muscles.",
+      "B": "Ventrogluteal muscles.",
+      "C": "Dorsogluteal muscles.",
+      "D": "Vastus lateralis"
+    },
+    "answer": "B",
+    "explanation": "The ventrogluteal site is deep, away from major nerves and vessels. It is ideal for irritating or large-volume injections. The deltoid (A) is small and only for non-irritating medications. Dorsogluteal (C) is avoided due to sciatic nerve risk. Vastus lateralis (D) is preferred for infants, not adults.\n\nZ-Track Method Procedure: Displace skin laterally by 1–1.5 inches. Inject the needle at a 90-degree angle. Inject the drug slowly. Wait 10 seconds before removing the needle. Release the skin to seal the medication inside. Landmarking the Site: Hand on greater trochanter, index on anterior iliac spine, middle finger on iliac crest. Inject in the 'V' between those fingers."
+  },
+  {
+    "question": "Which is the antidote for paracetamol overdose.",
+    "options": {
+      "A": "Acetylcysteine",
+      "B": "Protamine sulphate.",
+      "C": "Frozen plasma.",
+      "D": "Flumazenil."
+    },
+    "answer": "A",
+    "explanation": "Paracetamol overdose leads to accumulation of toxic metabolite NAPQI. Normally, glutathione neutralizes NAPQI. In overdose, glutathione is depleted. Acetylcysteine replenishes glutathione. It detoxifies NAPQI and protects the liver. It is best given within 8 hours of overdose. Protamine (B) reverses heparin. Frozen plasma (C) replaces clotting factors but is not a specific antidote. Flumazenil (D) reverses benzodiazepines.\n\nCommon Antidotes to Know: Opioids: Naloxone. Warfarin: Vitamin K. Digoxin: Digoxin immune Fab. Magnesium Sulfate: Calcium gluconate. Iron: Deferoxamine. Lead: Succimer or dimercaprol. Early treatment is crucial in toxicity management. Always check timing and dose."
+  },
