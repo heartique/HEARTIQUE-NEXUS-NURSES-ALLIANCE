@@ -1,0 +1,224 @@
+[
+  {
+    "question": "Oedema occurs in a patient with albuminuria because of:",
+    "options": {
+      "A": "Fall in tissue hydrostatic pressure",
+      "B": "Rise in tissue colloid oncotic pressure",
+      "C": "Rise in plasma hydrostatic pressure",
+      "D": "Fall in colloid oncotic pressure"
+    },
+    "answer": "D",
+    "explanation": "Albuminuria causes a drop in plasma proteins, especially albumin, which reduces the plasma colloid oncotic pressure. This allows fluid to shift into tissues, causing edema."
+  },
+  {
+    "question": "The main indication for hemodialysis in a patient with chronic renal failure is:",
+    "options": {
+      "A": "Hyperkalemia.",
+      "B": "Hypertension.",
+      "C": "Ascitis.",
+      "D": "Acidosis."
+    },
+    "answer": "A",
+    "explanation": "Hyperkalemia is the most immediate life-threatening complication of chronic renal failure, due to its potential to cause fatal arrhythmias. Hemodialysis is the fastest way to reduce dangerously high potassium levels."
+  },
+  {
+    "question": "A nephrostomy drainage is usually inserted in the:",
+    "options": {
+      "A": "Urinary bladder.",
+      "B": "Ureters of both kidneys",
+      "C": "Nephrons",
+      "D": "Renal pelvis"
+    },
+    "answer": "D",
+    "explanation": "A nephrostomy tube is inserted directly into the renal pelvis to allow urine drainage when the ureter is blocked. It bypasses the normal pathway and drains urine externally through the back."
+  },
+  {
+    "question": "Transurethral incision of the prostate is indicated in management of:",
+    "options": {
+      "A": "Cancer of the prostate",
+      "B": "Initial stages of benign prostatic hypertrophy",
+      "C": "Painful benign prostatic hypertrophy causing complete urinary obstruction",
+      "D": "Benign prostatic hypertrophy causing complete urinary obstruction"
+    },
+    "answer": "B",
+    "explanation": "Transurethral incision of the prostate (TUIP) is used for men with smaller prostates and mild-to-moderate symptoms of BPH. It involves making small cuts to relieve pressure without removing tissue."
+  },
+  {
+    "question": "A compensatory mechanism to maintain normal cardiac function is:",
+    "options": {
+      "A": "Increased sympathetic nervous system response, causing increased heart rate.",
+      "B": "Reduced stroke volume and arterial dilatation.",
+      "C": "Myocardial relaxation and arterial vasoconstriction.",
+      "D": "Decreased sympathetic nervous system response."
+    },
+    "answer": "A",
+    "explanation": "When cardiac output drops, the sympathetic nervous system increases heart rate and contractility to restore perfusion. This compensatory mechanism temporarily maintains circulation until the underlying issue is addressed."
+  },
+  {
+    "question": "Oedema occurs in a patient with albuminuria because of:",
+    "options": {
+      "A": "Fall in tissue hydrostatic pressure",
+      "B": "Rise in tissue colloid oncotic pressure",
+      "C": "Rise in plasma hydrostatic pressure",
+      "D": "Fall in colloid oncotic pressure"
+    },
+    "answer": "D",
+    "explanation": "Albuminuria causes a drop in plasma albumin, leading to reduced colloid oncotic pressure that normally pulls fluid into the vessels. This shift allows fluid to leak into the tissues, resulting in edema."
+  },
+  {
+    "question": "The main indication for hemodialysis in a patient with chronic renal failure is:",
+    "options": {
+      "A": "Hyperkalemia.",
+      "B": "Hypertension.",
+      "C": "Ascitis.",
+      "D": "Acidosis."
+    },
+    "answer": "A",
+    "explanation": "Severe hyperkalemia is an emergency due to the risk of life-threatening cardiac arrhythmias like ventricular fibrillation. Hemodialysis rapidly removes excess potassium and stabilizes the patient."
+  },
+  {
+    "question": "A nephrostomy drainage is usually inserted in the:",
+    "options": {
+      "A": "Urinary bladder.",
+      "B": "Ureters of both kidneys",
+      "C": "Nephrons",
+      "D": "Renal pelvis"
+    },
+    "answer": "D",
+    "explanation": "A nephrostomy tube is placed through the back into the renal pelvis to drain urine when the ureter is blocked. It bypasses lower urinary tract obstructions to protect kidney function."
+  },
+  {
+    "question": "Transurethral incision of the prostate is indicated in management of:",
+    "options": {
+      "A": "Cancer of the prostate",
+      "B": "Initial stages of benign prostatic hypertrophy",
+      "C": "Painful benign prostatic hypertrophy causing complete urinary obstruction",
+      "D": "Benign prostatic hypertrophy causing complete urinary obstruction"
+    },
+    "answer": "B",
+    "explanation": "TUIP is a minimally invasive procedure best suited for early stages of BPH with smaller prostate size and moderate symptoms. It involves making small cuts to relieve obstruction without removing tissue."
+  },
+  {
+    "question": "A compensatory mechanisms to maintain normal cardiac function is:",
+    "options": {
+      "A": "Increased sympathetic nervous system response, causing increased heart rate.",
+      "B": "Reduced stroke volume and arterial dilatation.",
+      "C": "Myocardial relaxation and arterial vasoconstriction.",
+      "D": "Decreased sympathetic nervous system response."
+    },
+    "answer": "A",
+    "explanation": "When cardiac output drops, the body activates the sympathetic nervous system to increase heart rate and contractility. This compensatory response helps maintain blood flow to vital organs."
+  },
+  {
+    "question": "Clinical manifestations of hypoparathyroidism include:",
+    "options": {
+      "A": "Hyperphosphatemia, hypopophosphatemia.",
+      "B": "Tetany, hypophosphatemia.",
+      "C": "Laryngeal spasm, bronchospasm.",
+      "D": "Hypercalcuria, photophobia."
+    },
+    "answer": "C",
+    "explanation": "Hypoparathyroidism causes low calcium levels, leading to neuromuscular irritability. Severe symptoms like laryngeal and bronchospasm can occur, making airway obstruction a life-threatening emergency."
+  },
+  {
+    "question": "A patient has diabetes insipidus, the most appropriate nursing diagnosis is:",
+    "options": {
+      "A": "Body image disturbance related to fluid retention",
+      "B": "Alteration in thought process related to decreased endocrine function",
+      "C": "Activity intolerance related to frequent micturition",
+      "D": "Fluid imbalance less than the body requirement related to polyuria."
+    },
+    "answer": "D",
+    "explanation": "Diabetes insipidus causes excessive loss of water through dilute urine due to lack or resistance to ADH. This results in dehydration and fluid imbalance, making fluid deficit the primary nursing concern."
+  },
+  {
+    "question": "Excessive secretion of adrenocorticotropic hormone (ACTH) causes:",
+    "options": {
+      "A": "Myxedema",
+      "B": "Thyrotoxicosis",
+      "C": "Cushing disease",
+      "D": "Addison disease"
+    },
+    "answer": "C",
+    "explanation": "Cushing disease is caused by a pituitary adenoma producing excess ACTH, leading to high cortisol levels. This causes characteristic features like moon face, central obesity, and hyperglycemia."
+  },
+  {
+    "question": "In colorectal cancer:",
+    "options": {
+      "A": "The adenomatous polyp is not a primary factor.",
+      "B": "High intake of vegetables is a predisposing factor.",
+      "C": "Spread is not through the lymphatic and circulatory system.",
+      "D": "Occurrence is very common among communities that feed on refined foods."
+    },
+    "answer": "D",
+    "explanation": "A diet rich in refined foods and low in fiber is strongly associated with a higher risk of colorectal cancer. It prolongs contact of the mucosa with carcinogens by slowing bowel transit time."
+  },
+  {
+    "question": "The most therapeutic diet for a patient with hepatic cirrhosis should be:",
+    "options": {
+      "A": "Low sodium, low protein, high calorie and vitamins.",
+      "B": "Low carbohydrates, high fat, high protein and vitamins",
+      "C": "High sodium, high carbohydrates, moderate fat and high vitamins",
+      "D": "Low protein, low saturated fat, low carbohydrates, high vitamins"
+    },
+    "answer": "A",
+    "explanation": "Cirrhosis patients need a low sodium diet to manage fluid retention and limited protein to reduce ammonia buildup. High calories and vitamins prevent malnutrition and support liver function."
+  },
+  {
+    "question": "The cycle in which bile salts and other substances excreted by the liver are absorbed by the intestinal mucosa and returned to the liver via the portal circulation is:",
+    "options": {
+      "A": "Extra corporeal circulation.",
+      "B": "Enterohepatic circulation.",
+      "C": "Colesteral circulation.",
+      "D": "Mesenteric circulation."
+    },
+    "answer": "B",
+    "explanation": "Enterohepatic circulation describes the recycling of bile salts from the intestine back to the liver via the portal vein. This helps in fat digestion and cholesterol regulation."
+  },
+  {
+    "question": "Complications of asthma are:",
+    "options": {
+      "A": "Haemothorax, emphysema",
+      "B": "Chronic Bronchitis, emphysema",
+      "C": "Left Sided heart failure, ruptured bleb",
+      "D": "Pulmonary hyptension, acute bronchitis"
+    },
+    "answer": "B",
+    "explanation": "Chronic, poorly controlled asthma can cause airway remodeling leading to COPD features like chronic bronchitis and emphysema. This overlap is known as Asthma-COPD Overlap Syndrome (ACOS)."
+  },
+  {
+    "question": "A hospitalized client is dyspneic and has been diagnosed with a left tension pneumothorax...Which of the following indicates that the pneumothorax is worsening?",
+    "options": {
+      "A": "Hypertension",
+      "B": "Flat neck veins",
+      "C": "Pain with respiration",
+      "D": "Tracheal deviation to the right."
+    },
+    "answer": "D",
+    "explanation": "In tension pneumothorax, air buildup shifts the mediastinum and trachea to the opposite side. Tracheal deviation to the right signals worsening pressure on the left side."
+  },
+  {
+    "question": "An example of a malignant neoplasm is:-",
+    "options": {
+      "A": "Angioma",
+      "B": "Leiomyoma",
+      "C": "Melanoma",
+      "D": "Sebaceous cyst"
+    },
+    "answer": "C",
+    "explanation": "Melanoma is a cancer of melanocytes and is highly malignant, known for its rapid spread. While many tumors end in '-oma,' melanoma is one of the few that is actually malignant."
+  },
+  {
+    "question": "Red-sternberg cell is a pathologic hallmark essential in diagnosis of:-",
+    "options": {
+      "A": "Hodgkin's disease",
+      "B": "Acute myeloid leukemia",
+      "C": "Chronic lymphocytic leukemia",
+      "D": "Non Hodgkin's disease"
+    },
+    "answer": "A",
+    "explanation": "Reed-Sternberg cells are large abnormal lymphocytes with a characteristic 'owl’s eye' appearance found in Hodgkin’s lymphoma. Their presence is key in confirming the diagnosis and distinguishing it from other lymphomas."
+  }
+]
+
+
