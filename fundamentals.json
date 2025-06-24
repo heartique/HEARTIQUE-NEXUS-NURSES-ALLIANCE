@@ -230,6 +230,55 @@
     },
     "answer": "B",
     "explanation": "A sudden drop in drainage volume after cardiac surgery may signal tube obstruction, likely by clotting. This could lead to cardiac tamponade, requiring immediate assessment and intervention."
+  },
+  {
+    "question": "The main aim of escarotomy in treatment of full thickness burns is to:-",
+    "options": {
+      "A": "Improve oxygenation of the burnt tissues.",
+      "B": "Remove dead tissue",
+      "C": "Allow underlying viable tissues to expand.",
+      "D": "Reduce pain."
+    },
+    "answer": "C",
+    "explanation": "A full-thickness burn creates a tough, leathery, non-elastic layer of dead tissue called eschar. When this eschar is circumferential, it acts like a tourniquet. As the underlying tissue swells, the eschar constricts it, cutting off blood flow or restricting breathing. An escharotomy is a surgical incision made through the eschar to relieve this pressure and allow the tissues to expand.",
+    "additional": "A: While restoring blood flow will improve oxygenation, the direct aim is expansion.\nB: Escharotomy is an incision, not the removal of eschar. Debridement is the removal of dead tissue.\nD: Full-thickness burns destroy nerves, so the area may be painless. The goal is to save tissue, not pain relief.\n\nRule of Nines: Quick TBSA estimation method.\nPhases of Burn Management: Emergent/Resuscitative, Acute, Rehabilitative.\nFluid Resuscitation: Parkland Formula = 4 mL × kg × %TBSA.\nCompartment Syndrome: Prevented by escharotomy. Signs = pain, pallor, pulselessness, paresthesia, paralysis."
+  },
+  {
+    "question": "Characteristics of 3rd degree burns include:",
+    "options": {
+      "A": "Erythema and pain.",
+      "B": "Chilling and dry wounds.",
+      "C": "Healing by scaling, painless wounds",
+      "D": "Black appearance, painless wounds"
+    },
+    "answer": "D",
+    "explanation": "A 3rd-degree burn is full-thickness, destroying the epidermis and dermis. The wound may appear waxy white, leathery, or black (charred). Because nerve endings are destroyed, the area is typically painless.",
+    "additional": "A: Pain and redness = 1st or 2nd-degree burns.\nB: Chilling can occur, but 'dry wounds' is nonspecific.\nC: 'Healing by scaling' is unclear; D is more accurate.\n\nBurn Depths:\n1st Degree: Red, painful, no blisters.\n2nd Degree: Blisters, red, very painful.\n3rd Degree: Full-thickness, dry/leathery/black, painless.\n4th Degree: Involves fat, muscle, bone."
+  },
+  {
+    "question": "In simple Mastectomy:-",
+    "options": {
+      "A": "Pectoralis major muscle and the entire breast is excised.",
+      "B": "Axillary lymph nodes and pectoralis major muscles are left intact.",
+      "C": "Underlying chest muscles and chain of internal mammary lymph nodes are removed",
+      "D": "Entire breast and axillary lymph nodes are removed"
+    },
+    "answer": "B",
+    "explanation": "A simple mastectomy involves removing all breast tissue, including nipple and areola. The pectoralis major muscle and axillary lymph nodes are preserved.",
+    "additional": "A & C: Describes radical mastectomy (includes muscle and nodes removal).\nD: Describes modified radical mastectomy (breast + axillary nodes).\n\nPost-Mastectomy Nursing Care:\n- Avoid IVs/BPs in affected arm to prevent lymphedema.\n- Drain Care: Monitor JP drains.\n- Psychosocial: Support for body image and coping.\n- Breast Cancer Screening: Regular mammograms.\n- Sentinel Node Biopsy: Identifies first nodes to avoid full dissection."
+  },
+  {
+    "question": "When performing gastric lavage, the nurse should:-",
+    "options": {
+      "A": "Place the patient in the left lateral position.",
+      "B": "Elevate patient in bed so as to drain the lower part of the stomach.",
+      "C": "Allow lavage solution, to drain from the stomach by gravity.",
+      "D": "Use a 50cc syringe to push the lavage solution into the stomach."
+    },
+    "answer": "A",
+    "explanation": "During gastric lavage, the safest position is the left lateral with the head down (Trendelenburg). This positioning helps pool fluid in the greater curvature of the stomach, reducing the risk of pushing toxins into the small intestine. It also minimizes the risk of aspiration in case the patient vomits.",
+    "additional": "B: Elevating the patient increases the risk of aspiration.\nC: Gravity drainage is part of the process, but positioning is the key safety intervention.\nD: A 50cc syringe is used for instillation, but not the priority action.\n\nGastric Lavage Indications: Used for life-threatening ingestions, ideally within 1 hour.\nContraindications: Ingestion of corrosives or hydrocarbons, unprotected airway.\nProcedure: Insert large-bore orogastric tube, instill normal saline in small aliquots, aspirate repeatedly until clear.\nActivated Charcoal: May be given afterward to absorb residual toxin."
   }
 ]
+
 
