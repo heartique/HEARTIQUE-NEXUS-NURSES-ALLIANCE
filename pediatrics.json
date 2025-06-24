@@ -94,6 +94,31 @@
     "answer": "A",
     "explanation": "This is a key point in neuroendocrinology. The hormones of the posterior pituitary (Oxytocin and Antidiuretic Hormone/ADH) are synthesized (produced) in the cell bodies of neurons located within the hypothalamus. They are then transported down the axons of these neurons to the posterior pituitary, where they are stored and released into the bloodstream.",
     "additional": "C: Neurohypophysis is the anatomical name for the posterior pituitary. It stores and releases oxytocin but does not synthesize it.\nB: Adenohypophysis is the anterior pituitary, responsible for synthesizing hormones like TSH, ACTH, GH, LH, FSH, and prolactin.\nD: The thyroid gland produces thyroid hormones (T3 and T4), not oxytocin.\n\nFunctions of Oxytocin:\n- Stimulates uterine contractions during labor.\n- Stimulates the milk let-down reflex during breastfeeding.\n- Plays a role in social bonding.\n\nPitocin: The synthetic form of oxytocin used to induce or augment labor.\n\nHormones of the Anterior Pituitary: Know the hormones and their target organs/functions.\n\nFeedback Loops: Hormones from target glands (like cortisol or thyroid hormone) provide negative feedback to the hypothalamus and pituitary."
+  },
+  {
+    "question": "Loperamide is indicated for treatment of:-",
+    "options": {
+      "A": "Abdominal pain",
+      "B": "Vomiting",
+      "C": "Diarrhea",
+      "D": "Constipation"
+    },
+    "answer": "C",
+    "explanation": "Loperamide is an antidiarrheal medication that slows intestinal movement by acting on opioid receptors in the gut. This allows more time for water absorption in the colon, making stools firmer and reducing their frequency. It is especially effective in treating non-infectious diarrhea.",
+    "additional": "Why A, B, and D are incorrect:\n- A: Loperamide is not a painkiller; it may only relieve cramping if diarrhea is present.\n- B: It has no effect on vomiting; it's not an antiemetic.\n- D: It is contraindicated in constipation because it slows bowel movements further.\n\nOther Key Points:\n- Avoid use in infections like C. difficile or E. coli O157:H7.\n- Priority in diarrhea treatment: oral rehydration and electrolyte replacement.\n- Other antidiarrheals include bismuth subsalicylate and adsorbents like kaolin-pectin."
+  },
+  {
+    "question": "A patient is to receive a 500mls infusion of 0.9% sodium chloride to run over 5 hours. The drop factor of the IV giving set is 15. The infusion will be set to flow at:",
+    "options": {
+      "A": "20 drops/minute",
+      "B": "25 drops/minute",
+      "C": "30 drops/minute",
+      "D": "35 drops/minute"
+    },
+    "answer": "B",
+    "explanation": "Using the formula: (Volume × Drop Factor) / Time = Rate in drops/min,\nwe get: (500 mL × 15 gtt/mL) ÷ 300 minutes = 7500 ÷ 300 = 25 gtt/min.\nThis means the drip rate should be set at 25 drops per minute to ensure accurate delivery over 5 hours.",
+    "additional": "Why A, C, and D are incorrect:\n- A, C, and D result from incorrect calculations.\n\nRelated Concepts:\n- Infusion pump: For mL/hr → 500 mL ÷ 5 hrs = 100 mL/hr.\n- Drop sets:\n  - Macrodrip (10–20 gtt/mL): For faster infusions.\n  - Microdrip (60 gtt/mL): For pediatrics or precise control (in which case mL/hr = gtt/min).\n- Always round drip rates to the nearest whole number unless instructed otherwise."
   }
 ]
+
 
