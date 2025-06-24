@@ -1,0 +1,26 @@
+[
+  {
+    "question": "A client is being brought into the emergency department after suffering a head injury. The first action by the nurse is to determine the client's:",
+    "options": {
+      "A": "Level of consciousness",
+      "B": "Pulse and Blood Pressure",
+      "C": "Respiratory rate and depth",
+      "D": "Ability to move extremities"
+    },
+    "answer": "A",
+    "explanation": "In the initial assessment of a patient with a head injury, the highest priority is the neurological exam. The level of consciousness (LOC) is the single most important and sensitive indicator of neurological status and any changes in it. A decrease in LOC is the earliest sign of increased intracranial pressure (ICP). Assessing LOC using tools like the Glasgow Coma Scale (GCS) establishes a critical baseline against which all future changes can be measured.",
+    "additional": "Why B, C, and D are incorrect:\nB & C: Changes in vital signs, especially those in Cushing's Triad, are often late signs of increased ICP. Respiratory patterns matter, but LOC changes are more immediate.\nD: Assessing motor function is important, but LOC takes precedence as the earliest indicator.\n\nAdditional Possible Content to be Tested Next:\n- Glasgow Coma Scale (GCS): Know the components (Eye Opening, Verbal Response, Motor Response) and scoring (3–15). A score ≤8 usually indicates severe injury.\n- Types of Head Injuries: Concussion, contusion, epidural hematoma, subdural hematoma.\n- Signs of Basilar Skull Fracture: Battle’s Sign (bruising behind the ear), Raccoon Eyes (periorbital ecchymosis)."
+  },
+  {
+    "question": "The nurse evaluates a client following treatment for carbon monoxide poisoning. The nurse would document that the treatment was effective if which of the following were present?",
+    "options": {
+      "A": "The client is sleeping soundly",
+      "B": "The client is awake and talking",
+      "C": "The heart monitor shows sinus tachycardia",
+      "D": "Carboxyhemoglobin levels are less than 5%"
+    },
+    "answer": "D",
+    "explanation": "Carbon monoxide (CO) binds to hemoglobin with an affinity over 200 times that of oxygen, forming carboxyhemoglobin (COHb). This prevents hemoglobin from carrying oxygen, causing tissue hypoxia. The most definitive measure of both poisoning severity and treatment effectiveness is the serum carboxyhemoglobin level. Effective treatment (with 100% oxygen or hyperbaric oxygen) reduces this level to <5% for non-smokers.",
+    "additional": "Why A, B, and C are incorrect:\nA & B: Being awake or sleeping does not confirm the COHb level has normalized. Clinical improvement may not reflect biochemical recovery.\nC: Sinus tachycardia is a sign of hypoxia during poisoning, not an indication of recovery.\n\nAdditional Possible Content to be Tested Next:\n- CO Poisoning Symptoms: Headache, dizziness, nausea, confusion. Cherry-red skin is rare and a late sign.\n- Pulse Oximetry Limitation: Standard pulse oximeters cannot detect COHb. A co-oximeter is needed.\n- Treatment: 100% oxygen via non-rebreather mask. Hyperbaric oxygen for severe poisoning."
+  }
+]
