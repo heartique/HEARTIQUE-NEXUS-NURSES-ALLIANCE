@@ -1,8 +1,8 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Medical Surgical Nursing Quiz</title>
   <style>
     body {
@@ -32,7 +32,7 @@
       margin-bottom: 20px;
       flex-wrap: wrap;
     }
-    .btn {
+    .btn, .tab-btn {
       padding: 10px 16px;
       font-size: 16px;
       cursor: pointer;
@@ -41,8 +41,12 @@
       border-radius: 6px;
       transition: 0.2s ease;
     }
-    .btn:hover {
+    .btn:hover, .tab-btn:hover {
       background-color: #f1b800;
+    }
+    .tab-btn.active {
+      background-color: #f1b800;
+      font-weight: bold;
     }
     .question-box {
       background: #fff8d1;
@@ -73,7 +77,7 @@
       body {
         padding: 15px;
       }
-      .btn {
+      .btn, .tab-btn {
         width: 100%;
       }
     }
@@ -89,6 +93,7 @@
     <button class="btn" onclick="showFinalResult()">📊 Get My Score Now</button>
   </div>
 
+  <div id="quiz-tabs" class="top-buttons"></div>
   <div id="quiz-container"></div>
   <div class="final-result" id="result"></div>
 
@@ -98,59 +103,85 @@
   </div>
 
   <script>
-    let score = 0;
-    let total = 0;
-    let questionsCompleted = 0;
+    const fileList = [
+      { name: "Part 1", file: "medical-surgical.json" },
+      { name: "Part 2", file: "medical-surgical1.json" },
+      { name: "Part 3", file: "medical-surgical2.json" },
+      { name: "Part 4", file: "medical-surgical3.json" },
+      { name: "Part 5", file: "medical-surgical4.json" },
+      { name: "Part 6", file: "medical-surgical5.json" }
+    ];
 
-    fetch('medical-surgical.json')
-      .then(res => res.json())
-      .then(data => {
-        const container = document.getElementById('quiz-container');
+    const tabsDiv = document.getElementById('quiz-tabs');
+    const container = document.getElementById('quiz-container');
+    const resultDiv = document.getElementById('result');
 
-        data.forEach((q, index) => {
-          total++;
-          const div = document.createElement('div');
-          div.className = 'question-box';
-          div.innerHTML = `<strong>Q${index + 1}: ${q.question}</strong><br><br>`;
+    fileList.forEach((item, i) => {
+      const btn = document.createElement('button');
+      btn.className = 'tab-btn';
+      btn.textContent = item.name;
+      btn.onclick = () => loadQuiz(item.file, btn);
+      tabsDiv.appendChild(btn);
+      if (i === 0) btn.click(); // load first part automatically
+    });
 
-          Object.entries(q.options).forEach(([key, value]) => {
-            const btn = document.createElement('button');
-            btn.className = 'btn';
-            btn.textContent = `${key}) ${value}`;
-            btn.onclick = () => {
-              div.querySelectorAll('button').forEach(b => b.disabled = true);
-              const result = document.createElement('p');
+    function loadQuiz(file, activeBtn) {
+      container.innerHTML = '';
+      resultDiv.innerHTML = '';
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      activeBtn.classList.add('active');
 
-              if (key === q.answer) {
-                result.innerHTML = `<span class="correct">✅ Correct!</span> ${q.explanation}`;
-                score++;
-              } else {
-                result.innerHTML = `<span class="wrong">❌ Wrong!</span> Correct answer is ${q.answer}) ${q.options[q.answer]}. ${q.explanation}`;
-              }
+      let score = 0;
+      let total = 0;
+      let questionsCompleted = 0;
 
-              div.appendChild(result);
-              questionsCompleted++;
+      fetch(file)
+        .then(res => res.json())
+        .then(data => {
+          total = data.length;
 
-              if (questionsCompleted === total) {
-                showFinalResult();
-              }
-            };
-            div.appendChild(btn);
-            div.appendChild(document.createElement('br'));
+          data.forEach((q, index) => {
+            const div = document.createElement('div');
+            div.className = 'question-box';
+            div.innerHTML = `<strong>Q${index + 1}: ${q.question}</strong><br><br>`;
+
+            Object.entries(q.options).forEach(([key, value]) => {
+              const btn = document.createElement('button');
+              btn.className = 'btn';
+              btn.textContent = `${key}) ${value}`;
+              btn.onclick = () => {
+                div.querySelectorAll('button').forEach(b => b.disabled = true);
+                const result = document.createElement('p');
+
+                if (key === q.answer) {
+                  result.innerHTML = `<span class="correct">✅ Correct!</span> ${q.explanation}`;
+                  score++;
+                } else {
+                  result.innerHTML = `<span class="wrong">❌ Wrong!</span> Correct answer is ${q.answer}) ${q.options[q.answer]}. ${q.explanation}`;
+                }
+
+                div.appendChild(result);
+                questionsCompleted++;
+                if (questionsCompleted === total) showFinalResult(score, total);
+              };
+              div.appendChild(btn);
+              div.appendChild(document.createElement('br'));
+            });
+
+            container.appendChild(div);
           });
-
-          container.appendChild(div);
+        })
+        .catch(() => {
+          container.innerHTML = `<p style="color:red;text-align:center;">⚠️ Couldn't load ${file}</p>`;
         });
-      });
+    }
 
-    function showFinalResult() {
+    function showFinalResult(score = 0, total = 0) {
       const percent = total ? Math.round((score / total) * 100) : 0;
-      let reaction = "";
-
-      if (percent >= 90) reaction = "🌟 Excellent!";
-      else if (percent >= 70) reaction = "🙂 Fair effort!";
-      else if (percent >= 50) reaction = "😐 Needs more review.";
-      else reaction = "😢 Keep going—you got this!";
+      let reaction = percent >= 90 ? "🌟 Excellent!" :
+                     percent >= 70 ? "🙂 Fair effort!" :
+                     percent >= 50 ? "😐 Needs more review." :
+                                     "😢 Keep going—you got this!";
 
       document.getElementById('result').innerHTML =
         `You got <strong>${score}</strong> out of <strong>${total}</strong> (${percent}%)<br><div class="reaction">${reaction}</div>`;
