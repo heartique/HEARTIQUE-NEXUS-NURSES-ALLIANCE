@@ -31,5 +31,41 @@
     },
     "answer": "B",
     "explanation": "The pancreas produces insulin to regulate blood sugar."
+  },
+  [
+  {
+    "question": "Classic hemophilia (type A) results from severe deficiency of clotting factor:",
+    "options": {
+      "A": "VIII",
+      "B": "IX",
+      "C": "XI",
+      "D": "VII"
+    },
+    "answer": "A",
+    "explanation": "✅ Correct Answer: A) VIII\n\n🧠 Rationale:\nHemophilia A is caused by a deficiency of clotting Factor VIII, essential in the intrinsic pathway of the coagulation cascade. Without it, the blood cannot form stable clots.\n\n🧬 Anatomy & Physiology + Pathophysiology:\n- Hemostasis includes primary (platelet plug) and secondary (clotting factors) stages.\n- Factor VIII is crucial for secondary hemostasis.\n- Without it, patients bleed longer and bruise easily.\n\n🏥 Clinical Scenario:\nA 9-year-old boy with Hemophilia A presents with a swollen elbow after falling off a bike. As a nurse:\n- Assess for hemarthrosis (joint bleeding).\n- Administer prescribed IV Factor VIII.\n- Apply RICE (Rest, Ice, Compression, Elevation).\n- Avoid NSAIDs; use paracetamol.\n- Monitor vitals and reassure the mother."
+  },
+  {
+    "question": "The non-functioning kidney is not removed during a transplant because it:",
+    "options": {
+      "A": "Minimizes surgical site infections",
+      "B": "Prevents haemorrhage",
+      "C": "Reduces the rate of donor kidney rejection",
+      "D": "Provides structural support for the transplanted kidney"
+    },
+    "answer": "A",
+    "explanation": "✅ Correct Answer: A) Minimizes surgical site infections\n\n🧠 Rationale:\nRemoving native kidneys increases infection risk, bleeding, and surgical time. Therefore, unless necessary, they are left in place.\n\n🧬 Anatomy & Physiology + Pathophysiology:\n- Kidneys are retroperitoneal and difficult to access surgically.\n- Transplanted kidneys are placed in the iliac fossa (lower abdomen).\n- This allows easier access to iliac vessels and bladder.\n\n🏥 Clinical Scenario:\nMr. Kamau asks why his new kidney incision is in the lower belly, not the back.\nAs a nurse:\n- Explain: The transplant is placed in the iliac fossa for safety.\n- Reassure: The old kidneys were left in place to avoid extra surgery.\n- Reinforce: His new kidney is functioning well, as shown by his urine output."
+  },
+  {
+    "question": "The preferred site for Z-track technique of intramuscular injection is:",
+    "options": {
+      "A": "Deltoid muscles",
+      "B": "Ventrogluteal muscles",
+      "C": "Dorsogluteal muscles",
+      "D": "Vastus lateralis"
+    },
+    "answer": "B",
+    "explanation": "✅ Correct Answer: B) Ventrogluteal muscles\n\n🧠 Rationale:\nThe ventrogluteal site is the safest and most effective for deep IM injections using the Z-track technique because it's away from major nerves and blood vessels.\n\n🧬 Anatomy & Physiology + Pathophysiology:\n- The gluteus medius/minimus muscles in this area allow deep absorption.\n- It avoids the sciatic nerve (risk in dorsogluteal site).\n- Used for medications like iron dextran that stain or irritate.\n\n🏥 Clinical Scenario:\nA pregnant woman is prescribed iron dextran via IM injection. A student suggests the dorsogluteal site.\nAs a nurse:\n- Correct: That site risks damaging the sciatic nerve.\n- Teach: Ventrogluteal is preferred — it’s deeper and safer.\n- Demonstrate the landmark technique (greater trochanter & iliac crest).\n- Explain Z-track method: Pull skin aside, inject, then release to trap the medication in muscle."
   }
+]
+
 ]
