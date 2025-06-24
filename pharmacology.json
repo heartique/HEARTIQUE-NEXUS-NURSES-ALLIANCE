@@ -801,5 +801,30 @@
   "answer": "C",
   "explanation": "Protamine sulfate is a basic, positively charged protein that binds to the acidic, negatively charged heparin, forming a stable inactive complex. This neutralizes heparin's anticoagulant effects and is the standard treatment for heparin overdose.",
   "additional": "Incorrect Options:\n- A. Vitamin K is used for reversing warfarin toxicity.\n- B. Potassium chloride corrects hypokalemia; it is not an antidote.\n- D. Aminocaproic acid is an antifibrinolytic used for bleeding due to thrombolytics, not heparin.\n\nMonitoring Anticoagulants:\n- Heparin: Use aPTT; therapeutic range is 1.5–2.5× normal.\n- Warfarin: Use PT/INR; goal INR usually 2.0–3.0.\n- LMWH (e.g., enoxaparin): No routine aPTT needed; protamine is only partially effective.\n- DOACs (e.g., apixaban, dabigatran): Have specific reversal agents like Andexanet alfa or Idarucizumab."
- }
+ },
+  {
+    "question": "Risk factors of osteoporosis include:-",
+    "options": {
+      "A": "Lack of vitamin D in diet, high estrogen levels in women",
+      "B": "Too much xposure to the sun, low testosterone",
+      "C": "Increase in age, late menopause",
+      "D": "Excessive alcohol consumption, early menopause"
+    },
+    "answer": "D",
+    "explanation": "Excessive alcohol interferes with calcium absorption and osteoblast activity, weakening bones. Early menopause reduces estrogen levels earlier in life, accelerating bone loss since estrogen helps protect bone density.",
+    "additional": "A: High estrogen is protective, not a risk.\nB: Sun exposure helps produce vitamin D; low testosterone is a risk but excess sun is not.\nC: Increased age is a risk, but late menopause is protective due to prolonged estrogen exposure.\n\nOther Risk Factors: Female sex, low calcium intake, smoking, long-term corticosteroids, sedentary lifestyle.\nDiagnosis: DEXA scan measures bone density.\nTreatment: Bisphosphonates like alendronate reduce bone resorption.\nPrevention: Weight-bearing exercise, adequate vitamin D and calcium, avoid smoking and alcohol."
+  },
+  {
+    "question": "Sterilization process kills microorganisms by:-",
+    "options": {
+      "A": "Altering cell metabolism",
+      "B": "Altering cell reproductive ability",
+      "C": "Denaturing cell protein",
+      "D": "Disrupting cell respiration"
+    },
+    "answer": "C",
+    "explanation": "Sterilization works primarily by denaturing proteins in microorganisms. Heat-based methods like autoclaving cause irreversible damage to proteins and enzymes, killing all forms of microbial life, including spores.",
+    "additional": "A, B, D: These are secondary effects of protein denaturation. The root cause of microbial death is destruction of critical proteins.\n\nSterilization vs. Disinfection:\n- Sterilization kills all microbes including spores.\n- Disinfection removes most pathogens but not spores.\n\nSterilization Methods:\n- Autoclaving (moist heat), dry heat, ethylene oxide gas, radiation.\nMedical vs. Surgical Asepsis:\n- Medical: Reduces microbes (e.g., hand hygiene).\n- Surgical: Removes all microbes using sterile techniques."
+  }
 ]
+
