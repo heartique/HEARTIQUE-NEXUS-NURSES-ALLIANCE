@@ -20,5 +20,1029 @@
     },
     "answer": "A",
     "explanation": "Homan's sign indicates pain in the calf during dorsiflexion, a possible sign of DVT."
+  },
+  {
+    "question": "A patient with a history of chronic obstructive pulmonary disease (COPD) is experiencing respiratory distress. Which nursing intervention is the priority for managing the patient's respiratory status?",
+    "options": {
+      "A": "Administering bronchodilators",
+      "B": "Positioning the patient in high Fowler's position",
+      "C": "Performing chest physiotherapy",
+      "D": "Administering oxygen therapy"
+    },
+    "answer": "B",
+    "explanation": "In respiratory distress, positioning the patient upright (high Fowler's) is a fast, non-invasive intervention that improves breathing by reducing diaphragmatic pressure. It should be done immediately to enhance lung expansion while preparing for additional interventions like bronchodilators or oxygen."
+  },
+  {
+    "question": "A patient post-thyroidectomy develops signs of hypocalcemia, including tingling around the mouth and muscle cramps. Which action should the nurse take first?",
+    "options": {
+      "A": "Administer oral calcium supplements",
+      "B": "Notify the healthcare provider",
+      "C": "Assess the patient's calcium level",
+      "D": "Encourage increased intake of dairy products"
+    },
+    "answer": "B",
+    "explanation": "Post-thyroidectomy hypocalcemia can cause life-threatening complications like laryngospasm and arrhythmias. Notifying the provider ensures urgent IV calcium administration and a stat calcium level check, which are critical to patient safety."
+  },
+  {
+    "question": "A patient with a history of heart failure presents with dependent edema in the lower extremities. Which nursing action is most appropriate for managing the patient's edema?",
+    "options": {
+      "A": "Applying compression stockings",
+      "B": "Elevating the legs above heart level",
+      "C": "Administering diuretics as prescribed",
+      "D": "Encouraging increased fluid intake"
+    },
+    "answer": "B",
+    "explanation": "Elevating the legs above heart level promotes venous return and reduces dependent edema by using gravity. It is a simple, effective, and immediate nursing intervention that helps improve fluid balance in heart failure."
+  },
+  {
+    "question": "A patient with a history of diabetes mellitus is admitted with a foot ulcer. Which nursing intervention is essential for preventing infection in the foot ulcer?",
+    "options": {
+      "A": "Applying topical antibiotics",
+      "B": "Performing daily wound debridement",
+      "C": "Keeping the ulcer covered with a sterile dressing",
+      "D": "Administering oral antibiotics prophylactically"
+    },
+    "answer": "C",
+    "explanation": "A sterile dressing protects the wound from environmental contaminants, reducing infection risk. Diabetic patients are more susceptible to infection due to poor circulation and high blood sugar, so maintaining wound coverage is essential."
+  },
+  {
+    "question": "A patient with a history of cirrhosis is at risk for developing hepatic encephalopathy. Which nursing intervention is most effective in preventing and managing hepatic encephalopathy?",
+    "options": {
+      "A": "Administering lactulose as prescribed",
+      "B": "Restricting dietary protein intake",
+      "C": "Monitoring serum ammonia levels",
+      "D": "Encouraging increased fluid intake"
+    },
+    "answer": "A",
+    "explanation": "Lactulose traps ammonia in the colon as ammonium and promotes its excretion through stool. This directly lowers serum ammonia levels and helps prevent or manage hepatic encephalopathy."
+  },
+  {
+    "question": "A patient with a history of stroke is at risk for impaired skin integrity due to immobility. Which nursing intervention is most effective in preventing pressure ulcers in this patient?",
+    "options": {
+      "A": "Turning and repositioning the patient every 2 hours",
+      "B": "Massaging bony prominences regularly",
+      "C": "Applying heating pads to areas of erythema",
+      "D": "Using a pressure-reducing mattress"
+    },
+    "answer": "A",
+    "explanation": "Turning the patient every 2 hours relieves pressure on skin and underlying tissues, helping maintain blood flow. This is the most direct and proven intervention to prevent pressure injuries in immobile patients."
+  },
+  {
+    "question": "A patient with a history of chronic kidney disease is prescribed a low-phosphorus diet. Which dietary choice indicates understanding of the prescribed diet?",
+    "options": {
+      "A": "Grilled chicken breast",
+      "B": "Cheese omelet",
+      "C": "Whole wheat toast with peanut butter",
+      "D": "Spinach salad with almonds"
+    },
+    "answer": "A",
+    "explanation": "Grilled chicken breast is lower in phosphorus compared to dairy, nuts, and whole grains. It is the best option among the listed foods for a low-phosphorus diet."
+  },
+  {
+    "question": "A patient with a history of chronic obstructive pulmonary disease (COPD) is prescribed a metered-dose inhaler (MDI) with a spacer. Which instruction should the nurse include in the demonstration of MDI use?",
+    "options": {
+      "A": "Inhale slowly and deeply while pressing the canister",
+      "B": "Exhale completely before inhaling the medication",
+      "C": "Shake the inhaler vigorously before each puff",
+      "D": "Hold the breath for 10 seconds after inhaling the medication"
+    },
+    "answer": "D",
+    "explanation": "Holding the breath after inhaling allows the medication to settle in the lungs and enhances its effectiveness. This is a key step in ensuring proper drug delivery during MDI use."
+  },
+  {
+    "question": "A patient with a history of chronic kidney disease is prescribed a low-protein diet. Which dietary choice indicates understanding of the prescribed diet?",
+    "options": {
+      "A": "Grilled salmon",
+      "B": "Lentil soup",
+      "C": "Beef stew",
+      "D": "Chicken Caesar salad"
+    },
+    "answer": "D",
+    "explanation": "A Chicken Caesar salad allows for controlled protein intake since the salad is mostly vegetables with a small portion of lean protein. This makes it suitable for a low-protein diet when portioned appropriately."
+  },
+  {
+    "question": "A patient with a history of stroke is prescribed aspirin and clopidogrel for dual antiplatelet therapy. Which nursing intervention is essential for preventing bleeding complications in this patient?",
+    "options": {
+      "A": "Administering proton pump inhibitors (PPIs) concomitantly",
+      "B": "Encouraging increased fluid intake",
+      "C": "Monitoring for signs of thrombocytopenia",
+      "D": "Providing education on fall prevention measures"
+    },
+    "answer": "D",
+    "explanation": "Fall prevention education helps reduce the risk of traumatic bleeding, especially in patients with impaired mobility and on antiplatelet therapy. This proactive measure is essential in stroke recovery care."
+  },
+  {
+    "question": "A patient with a history of coronary artery disease is scheduled for coronary artery bypass graft (CABG) surgery. Which preoperative nursing intervention is essential for preparing the patient for surgery?",
+    "options": {
+      "A": "Administering aspirin to prevent thrombosis",
+      "B": "Providing education about postoperative pain management",
+      "C": "Assisting the patient with deep breathing and coughing exercises",
+      "D": "Obtaining informed consent for the surgical procedure"
+    },
+    "answer": "D",
+    "explanation": "Obtaining informed consent is a legal and ethical requirement that must be completed before any surgical procedure. The nurse ensures the form is signed, verifies patient understanding, and confirms it is documented before proceeding."
+  },
+  {
+    "question": "A patient presents with a rash characterized by erythematous papules and vesicles arranged in a linear distribution. Which of the following conditions is most likely responsible for this presentation?",
+    "options": {
+      "A": "Psoriasis",
+      "B": "Contact dermatitis",
+      "C": "Scabies",
+      "D": "Atopic dermatitis"
+    },
+    "answer": "B",
+    "explanation": "A linear distribution of vesicles suggests direct contact with an external allergen. This pattern is characteristic of allergic contact dermatitis, especially from plants like poison ivy."
+  },
+  {
+    "question": "A patient presents with pruritic, erythematous patches with silvery scales on the elbows, knees, and scalp. Which of the following conditions is most likely responsible for this presentation?",
+    "options": {
+      "A": "Eczema",
+      "B": "Psoriasis",
+      "C": "Pityriasis rosea",
+      "D": "Seborrheic dermatitis"
+    },
+    "answer": "B",
+    "explanation": "Plaque psoriasis presents with thick, silvery scales and red plaques on extensor surfaces. The well-demarcated lesions and classic locations confirm the diagnosis."
+  },
+  {
+    "question": "A patient presents with a pruritic rash with linear streaks and small, fluid-filled blisters. The patient reports recent exposure to poison ivy while gardening. Which of the following conditions is most likely responsible for this presentation?",
+    "options": {
+      "A": "Pemphigus vulgaris",
+      "B": "Allergic contact dermatitis",
+      "C": "Bullous pemphigoid",
+      "D": "Herpes zoster (shingles)"
+    },
+    "answer": "B",
+    "explanation": "The history of poison ivy exposure and linear vesicles point to allergic contact dermatitis. This is a repeat presentation of the pattern seen in contact with urushiol oil."
+  },
+  {
+    "question": "A patient presents with multiple, flesh-colored, dome-shaped papules with a central umbilication on the face. Which of the following conditions is most likely responsible for this presentation?",
+    "options": {
+      "A": "Molluscum contagiosum",
+      "B": "Acne vulgaris",
+      "C": "Sebaceous hyperplasia",
+      "D": "Basal cell carcinoma"
+    },
+    "answer": "A",
+    "explanation": "Molluscum contagiosum presents with dome-shaped, flesh-colored papules with central umbilication. This viral infection is caused by a poxvirus and is common in children."
+  },
+  {
+    "question": "A patient presents with well-demarcated, erythematous plaques with silvery scales on the trunk and extensor surfaces of the limbs. The patient reports a family history of similar skin lesions. Which of the following conditions is most likely responsible for this presentation?",
+    "options": {
+      "A": "Pityriasis rosea",
+      "B": "Psoriasis",
+      "C": "Erythema multiforme",
+      "D": "Lichen planus"
+    },
+    "answer": "B",
+    "explanation": "The distribution and appearance of the lesions are classic for plaque psoriasis. A family history reinforces the genetic predisposition of this condition."
+  },
+  {
+    "question": "A patient presents with a pruritic, annular rash with central clearing and a raised, scaly border. The lesions have a tendency to spread outward in a centrifugal pattern. Which of the following conditions is most likely responsible for this presentation?",
+    "options": {
+      "A": "Tinea corporis (ringworm)",
+      "B": "Nummular eczema",
+      "C": "Pityriasis rosea",
+      "D": "Erythema migrans (Lyme disease rash)"
+    },
+    "answer": "A",
+    "explanation": "The description of an annular lesion with central clearing and a scaly border is diagnostic of tinea corporis. This fungal infection is commonly called ringworm and spreads outward from the center."
+  },
+  {
+    "question": "A patient presents with a painful, vesicular rash in a dermatomal distribution on the left thorax. The patient reports a history of chickenpox during childhood. Which of the following conditions is most likely responsible for this presentation?",
+    "options": {
+      "A": "Herpes simplex virus infection",
+      "B": "Herpes zoster (shingles)",
+      "C": "Varicella (chickenpox)",
+      "D": "Impetigo"
+    },
+    "answer": "B",
+    "explanation": "The presentation of painful vesicles along a single dermatome without crossing the midline is classic for shingles. It results from reactivation of the varicella-zoster virus dormant since childhood chickenpox."
+  },
+  {
+    "question": "A patient presents with grouped vesicles on an erythematous base, affecting the lips and perioral region. The patient reports a history of similar episodes triggered by sunlight exposure and stress. Which of the following conditions is most likely responsible for this presentation?",
+    "options": {
+      "A": "Herpes simplex labialis (cold sores)",
+      "B": "Perioral dermatitis",
+      "C": "Angular cheilitis",
+      "D": "Allergic contact dermatitis"
+    },
+    "answer": "A",
+    "explanation": "Grouped vesicles on a red base, often recurring and triggered by stress or sun, point to herpes labialis. This is most commonly caused by HSV-1 and is known as cold sores."
+  },
+  {
+    "question": "A patient presents with a target-like rash with concentric erythematous rings and central clearing on the trunk and extremities. The patient reports recent exposure to a new medication. Which of the following conditions is most likely responsible for this presentation?",
+    "options": {
+      "A": "Erythema multiforme",
+      "B": "Pityriasis rosea",
+      "C": "Urticaria (hives)",
+      "D": "Seborrheic dermatitis"
+    },
+    "answer": "A",
+    "explanation": "Target lesions with three zones—dusky center, pale ring, and red outer rim—are hallmark of erythema multiforme. It's often triggered by infections or new medications such as sulfa drugs and anticonvulsants."
+  },
+  {
+    "question": "A patient presents with multiple grouped vesicles on an erythematous base, affecting the genital area. The patient reports a history of similar lesions in the past, occurring during periods of stress. Which of the following conditions is most likely responsible for this presentation?",
+    "options": {
+      "A": "Herpes simplex genitalis",
+      "B": "Genital warts (condyloma acuminata)",
+      "C": "Syphilis (chancre)",
+      "D": "Molluscum contagiosum"
+    },
+    "answer": "A",
+    "explanation": "Grouped vesicles on a red base, triggered by stress and recurring, indicate herpes simplex genitalis. This is typically caused by HSV-2 but may also be due to HSV-1."
+  },
+  {
+    "question": "A patient presents with intensely pruritic, linear burrows on the web spaces of the hands and wrists. The patient reports a history of close contact with an individual diagnosed with a similar condition. Which of the following conditions is most likely responsible for this presentation?",
+    "options": {
+      "A": "Scabies",
+      "B": "Pediculosis (lice infestation)",
+      "C": "Tinea corporis (ringworm)",
+      "D": "Contact dermatitis"
+    },
+    "answer": "A",
+    "explanation": "Scabies presents with intense itching, especially at night, and linear burrows in typical areas like the web spaces. It spreads through close contact and is caused by the Sarcoptes scabiei mite."
+  },
+  {
+    "question": "A patient presents with well-demarcated, hypopigmented macules with fine scaling, affecting the trunk and proximal extremities. The patient reports a history of sun exposure and outdoor activities. Which of the following conditions is most likely responsible for this presentation?",
+    "options": {
+      "A": "Tinea versicolor",
+      "B": "Vitiligo",
+      "C": "Pityriasis rosea",
+      "D": "Seborrheic keratosis"
+    },
+    "answer": "A",
+    "explanation": "Tinea versicolor causes hypopigmented patches with fine scaling due to Malassezia yeast overgrowth. The spots become more noticeable after sun exposure because affected skin fails to tan."
+  },
+  {
+    "question": "A patient presents with a pruritic, eczematous rash with erythematous papules, vesicles, and excoriations on the flexural surfaces of the elbows and knees. The patient reports a personal history of asthma and hay fever. Which of the following conditions is most likely responsible for this presentation?",
+    "options": {
+      "A": "Atopic dermatitis",
+      "B": "Contact dermatitis",
+      "C": "Seborrheic dermatitis",
+      "D": "Nummular eczema"
+    },
+    "answer": "A",
+    "explanation": "Atopic dermatitis features intense itching and rash on flexural surfaces, often accompanied by personal or family history of atopic conditions. The classic 'atopic triad' includes asthma, allergic rhinitis, and eczema."
+  },
+  {
+    "question": "A patient presents with a well-demarcated, hyperpigmented patch with irregular borders and asymmetric color distribution on the face. The lesion has increased in size over the past few months. Which of the following conditions is most concerning for this presentation?",
+    "options": {
+      "A": "Melanocytic nevus (mole)",
+      "B": "Lentigo simplex",
+      "C": "Seborrheic keratosis",
+      "D": "Melanoma"
+    },
+    "answer": "D",
+    "explanation": "Irregular borders, asymmetry, color variation, and growth over time are red flags for melanoma. These are the classic 'ABCDE' warning signs of malignant melanoma."
+  },
+  {
+    "question": "A patient presents with multiple, dome-shaped, translucent papules with central umbilication on the face and trunk. The lesions are asymptomatic and have been gradually increasing in number. Which of the following conditions is most likely responsible for this presentation?",
+    "options": {
+      "A": "Basal cell carcinoma",
+      "B": "Molluscum contagiosum",
+      "C": "Sebaceous hyperplasia",
+      "D": "Keratoacanthoma"
+    },
+    "answer": "A",
+    "explanation": "Basal cell carcinoma typically appears as pearly or translucent papules, often with central ulceration or bleeding. Its slow progression and sun-exposed location on the face make it the most likely diagnosis here."
+  },
+  {
+    "question": "A patient presents with a pruritic, erythematous rash with edematous plaques and vesicles on the hands and fingers. The patient reports a history of exposure to detergents and frequent hand washing. Which of the following conditions is most likely responsible for this presentation?",
+    "options": {
+      "A": "Atopic dermatitis",
+      "B": "Contact dermatitis",
+      "C": "Psoriasis",
+      "D": "Pityriasis rosea"
+    },
+    "answer": "B",
+    "explanation": "Contact dermatitis is triggered by exposure to irritants like detergents and frequent hand washing. It presents with localized redness, swelling, itching, and sometimes blistering."
+  },
+  {
+    "question": "A patient presents with multiple, flesh-colored, papular lesions with a central dell on the face and trunk. The lesions have a tendency to bleed upon minor trauma and have been increasing in number over time. Which of the following conditions is most likely responsible for this presentation?",
+    "options": {
+      "A": "Basal cell carcinoma",
+      "B": "Squamous cell carcinoma",
+      "C": "Seborrheic keratosis",
+      "D": "Actinic keratosis"
+    },
+    "answer": "A",
+    "explanation": "Basal cell carcinoma commonly presents with lesions that bleed easily, have rolled edges, and show central ulceration. Its slow growth and frequent appearance on sun-exposed areas are key diagnostic clues."
+  },
+  {
+    "question": "A patient presents with a pruritic, annular rash with fine scaling and central clearing, affecting the trunk and proximal extremities. The patient reports recent exposure to a new soap and laundry detergent. Which of the following conditions is most likely responsible for this presentation?",
+    "options": {
+      "A": "Tinea corporis (ringworm)",
+      "B": "Nummular eczema",
+      "C": "Pityriasis rosea",
+      "D": "Lichen planus"
+    },
+    "answer": "B",
+    "explanation": "Nummular eczema presents with coin-shaped, itchy, scaly patches that may have central clearing. The history of exposure to new irritants supports a diagnosis of contact-induced eczema rather than fungal infection."
+  },
+  {
+    "question": "A patient presents with multiple, hyperpigmented, velvety plaques in flexural areas such as the axillae and neck. The lesions are associated with obesity and insulin resistance. Which of the following conditions is most likely responsible for this presentation?",
+    "options": {
+      "A": "Acanthosis nigricans",
+      "B": "Seborrheic keratosis",
+      "C": "Dermatofibroma",
+      "D": "Epidermal nevus"
+    },
+    "answer": "A",
+    "explanation": "Acanthosis nigricans is characterized by dark, velvety skin thickening in body folds. It is strongly linked to insulin resistance and is often seen in patients with obesity or diabetes."
+  },
+  {
+    "question": "A patient presents with a painful, vesicular rash following a linear pattern on the left forearm. The patient reports a history of gardening without gloves. Which of the following conditions is most likely responsible for this presentation?",
+    "options": {
+      "A": "Allergic contact dermatitis",
+      "B": "Herpes simplex virus infection",
+      "C": "Scabies",
+      "D": "Poison ivy dermatitis"
+    },
+    "answer": "D",
+    "explanation": "The linear vesicular rash after gardening is classic for poison ivy dermatitis, caused by urushiol oil exposure. While this is technically allergic contact dermatitis, 'poison ivy dermatitis' is the most specific and accurate diagnosis."
+  },
+  {
+    "question": "A patient presents with unilateral nasal congestion, facial pain, and purulent nasal discharge. Upon examination, tenderness is noted over the affected sinus. Which of the following conditions is most likely responsible for this presentation?",
+    "options": {
+      "A": "Allergic rhinitis",
+      "B": "Acute sinusitis",
+      "C": "Nasal polyps",
+      "D": "Deviated nasal septum"
+    },
+    "answer": "B",
+    "explanation": "Acute sinusitis presents with facial pain, unilateral nasal congestion, purulent discharge, and sinus tenderness. These features distinguish it from allergic rhinitis, which is typically bilateral and clear."
+  },
+  {
+    "question": "A patient presents with hoarseness, dysphonia, and occasional throat pain. Direct laryngoscopy reveals vocal cord nodules. Which of the following interventions is most appropriate for managing this condition?",
+    "options": {
+      "A": "Vocal cord polypectomy",
+      "B": "Vocal cord injection with corticosteroids",
+      "C": "Voice therapy and vocal hygiene education",
+      "D": "Partial laryngectomy"
+    },
+    "answer": "C",
+    "explanation": "Vocal cord nodules result from chronic voice overuse and are treated conservatively. Voice therapy and vocal hygiene education are the first-line treatments to prevent recurrence."
+  },
+  {
+    "question": "A patient presents with recurrent episodes of vertigo, nausea, and nystagmus, often triggered by head movements. Dix-Hallpike maneuver elicits positional vertigo and rotary nystagmus. Which of the following conditions is most likely responsible for this presentation?",
+    "options": {
+      "A": "Ménière's disease",
+      "B": "Benign paroxysmal positional vertigo (BPPV)",
+      "C": "Vestibular neuritis",
+      "D": "Labyrinthitis"
+    },
+    "answer": "B",
+    "explanation": "BPPV causes brief, recurrent vertigo triggered by positional changes due to loose crystals in the inner ear. The Dix-Hallpike test confirms the diagnosis by reproducing symptoms and eye movements."
+  },
+  {
+    "question": "A patient presents with severe sore throat, fever, and enlarged tonsils with exudate. Rapid antigen testing confirms group A beta-hemolytic Streptococcus (GAS) infection. Which of the following medications is the first-line treatment for this condition?",
+    "options": {
+      "A": "Amoxicillin",
+      "B": "Azithromycin",
+      "C": "Cephalexin",
+      "D": "Clindamycin"
+    },
+    "answer": "A",
+    "explanation": "Amoxicillin is the first-line antibiotic for treating group A strep pharyngitis. It helps relieve symptoms and prevents serious complications like rheumatic fever."
+  },
+  {
+    "question": "A patient presents with sudden onset of severe, unilateral ear pain, diminished hearing, and purulent otorrhea. Otoscopic examination reveals a bulging, erythematous tympanic membrane with obscured landmarks. Which of the following conditions is most likely responsible for this presentation?",
+    "options": {
+      "A": "Otitis externa",
+      "B": "Acute otitis media",
+      "C": "Mastoiditis",
+      "D": "Chronic suppurative otitis media"
+    },
+    "answer": "B",
+    "explanation": "A bulging, red tympanic membrane with pus behind it is a hallmark of acute otitis media. The discharge suggests the eardrum has perforated due to increased pressure."
+  },
+  {
+    "question": "A patient presents with a painless, gradually enlarging mass in the left neck, anterior to the sternocleidomastoid muscle. Fine-needle aspiration cytology reveals thyroid follicular cells. Which of the following conditions is most likely responsible for this presentation?",
+    "options": {
+      "A": "Thyroglossal duct cyst",
+      "B": "Lymphadenopathy",
+      "C": "Thyroid adenoma",
+      "D": "Thyroid carcinoma"
+    },
+    "answer": "D",
+    "explanation": "The presence of thyroid follicular cells in a lateral neck mass suggests metastasis from thyroid cancer. This makes thyroid carcinoma the most likely diagnosis."
+  },
+  {
+    "question": "A patient presents with recurrent episodes of epistaxis, particularly after blowing the nose or during dry weather. Anterior rhinoscopy reveals a friable, vascular lesion in Little's area. Which of the following interventions is most appropriate for managing this condition?",
+    "options": {
+      "A": "Nasal packing with anterior nasal tampons",
+      "B": "Application of silver nitrate cautery",
+      "C": "Endoscopic cauterization of the sphenopalatine artery",
+      "D": "Surgical excision of the nasal polyp"
+    },
+    "answer": "B",
+    "explanation": "Silver nitrate cautery is the first-line treatment for anterior nosebleeds originating from Little’s area. It is effective for small, visible bleeding vessels."
+  },
+  {
+    "question": "A patient presents with progressive hearing loss, tinnitus, and vertigo. Audiometric testing reveals sensorineural hearing loss with a 'carrot-shaped' configuration. Which of the following conditions is most likely responsible for this presentation?",
+    "options": {
+      "A": "Presbycusis",
+      "B": "Noise-induced hearing loss",
+      "C": "Ménière's disease",
+      "D": "Acoustic neuroma"
+    },
+    "answer": "C",
+    "explanation": "Ménière’s disease presents with vertigo, tinnitus, and fluctuating low-frequency hearing loss. The triad of symptoms is key to diagnosis, despite audiogram variations."
+  },
+  {
+    "question": "A patient presents with a palpable, non-tender mass in the right neck, just below the angle of the mandible. Ultrasound imaging demonstrates a well-defined, hypoechoic lesion with cystic components. Which of the following conditions is most likely responsible for this presentation?",
+    "options": {
+      "A": "Branchial cleft cyst",
+      "B": "Thyroglossal duct cyst",
+      "C": "Lymphadenopathy",
+      "D": "Parotid gland tumor"
+    },
+    "answer": "A",
+    "explanation": "Branchial cleft cysts appear as painless, cystic neck masses located laterally near the mandible. Their characteristic location and cystic nature help differentiate them from other masses."
+  },
+  {
+    "question": "A patient presents with a sudden onset of severe vertigo, nausea, vomiting, and nystagmus. The patient reports a recent upper respiratory tract infection. Which of the following conditions is most likely responsible for this presentation?",
+    "options": {
+      "A": "Vestibular neuritis",
+      "B": "Benign paroxysmal positional vertigo (BPPV)",
+      "C": "Ménière's disease",
+      "D": "Acoustic neuroma"
+    },
+    "answer": "A",
+    "explanation": "Vestibular neuritis causes sudden, prolonged vertigo following a viral illness. Hearing is usually preserved, which helps differentiate it from labyrinthitis."
+  },
+  {
+    "question": "A patient presents with a small, painless, well-defined nodule on the lateral aspect of the neck, just above the clavicle. Fine-needle aspiration cytology reveals clusters of polygonal cells with abundant granular cytoplasm. Which of the following conditions is most likely responsible for this presentation?",
+    "options": {
+      "A": "Thyroglossal duct cyst",
+      "B": "Branchial cleft cyst",
+      "C": "Lymphadenopathy",
+      "D": "Parathyroid adenoma"
+    },
+    "answer": "D",
+    "explanation": "The FNA findings of polygonal cells with granular cytoplasm are consistent with chief cells from a parathyroid adenoma. This is a common cause of primary hyperparathyroidism, even if the location is ectopic."
+  },
+  {
+    "question": "A patient presents with chronic nasal congestion, hyposmia, and anosmia. Nasal endoscopy reveals polypoid masses obstructing the nasal cavity and sinuses. Which of the following conditions is most likely responsible for this presentation?",
+    "options": {
+      "A": "Allergic rhinitis",
+      "B": "Chronic sinusitis",
+      "C": "Nasal polyps",
+      "D": "Deviated nasal septum"
+    },
+    "answer": "C",
+    "explanation": "Polypoid masses seen on nasal endoscopy are diagnostic for nasal polyps. These are benign growths that commonly cause congestion and loss of smell."
+  },
+  {
+    "question": "A patient presents with a unilateral, painless enlargement of the thyroid gland. Fine-needle aspiration cytology reveals numerous microfollicles and psammoma bodies. Which of the following conditions is most likely responsible for this presentation?",
+    "options": {
+      "A": "Thyroglossal duct cyst",
+      "B": "Hashimoto's thyroiditis",
+      "C": "Thyroid adenoma",
+      "D": "Papillary thyroid carcinoma"
+    },
+    "answer": "D",
+    "explanation": "Psammoma bodies are a hallmark of papillary thyroid carcinoma. This is the most common thyroid cancer and usually presents as a painless nodule."
+  },
+  {
+    "question": "A patient presents with recurrent episodes of throat pain, odynophagia, and fever. Physical examination reveals tonsillar enlargement with yellow-white exudates and tender cervical lymphadenopathy. Which of the following organisms is most likely responsible for this presentation?",
+    "options": {
+      "A": "Streptococcus pneumoniae",
+      "B": "Haemophilus influenzae",
+      "C": "Group A beta-hemolytic Streptococcus (GAS)",
+      "D": "Epstein-Barr virus (EBV)"
+    },
+    "answer": "C",
+    "explanation": "The symptoms and findings match classic strep throat caused by Group A Streptococcus. This includes tonsillar exudates, fever, and tender anterior cervical nodes."
+  },
+  {
+    "question": "A patient presents with a sensation of fullness and pressure in the left ear, along with hearing loss and occasional tinnitus. Otoscopic examination reveals a retracted tympanic membrane with decreased mobility on pneumatic otoscopy. Which of the following conditions is most likely responsible for this presentation?",
+    "options": {
+      "A": "Acute otitis media",
+      "B": "Otitis externa",
+      "C": "Serous otitis media (otitis media with effusion)",
+      "D": "Cholesteatoma"
+    },
+    "answer": "C",
+    "explanation": "Serous otitis media is fluid in the middle ear without infection. It causes eardrum retraction, fullness, and hearing loss due to Eustachian tube dysfunction."
+  },
+  {
+    "question": "A patient presents with recurrent episodes of sudden, severe vertigo lasting hours, accompanied by nausea, vomiting, and nystagmus. Vestibular function tests demonstrate unilateral weakness. Which of the following conditions is most likely responsible for this presentation?",
+    "options": {
+      "A": "Vestibular neuritis",
+      "B": "Benign paroxysmal positional vertigo (BPPV)",
+      "C": "Ménière's disease",
+      "D": "Acoustic neuroma"
+    },
+    "answer": "C",
+    "explanation": "Ménière's disease causes episodic vertigo lasting hours, often with nausea and unilateral weakness. The episodes are spontaneous and recurrent. This distinguishes it from vestibular neuritis and BPPV."
+  },
+  {
+    "question": "A patient presents with a sensation of a foreign body stuck in the throat, difficulty swallowing, and odynophagia. Flexible laryngoscopy reveals a submucosal mass arising from the posterior pharyngeal wall. Which of the following conditions is most likely responsible for this presentation?",
+    "options": {
+      "A": "Zenker's diverticulum",
+      "B": "Laryngopharyngeal reflux (LPR)",
+      "C": "Hypopharyngeal carcinoma",
+      "D": "Tonsillar hypertrophy"
+    },
+    "answer": "A",
+    "explanation": "Zenker’s diverticulum is a posterior pharyngeal outpouching. It causes dysphagia, globus sensation, regurgitation, and sometimes halitosis. A submucosal mass is typical on laryngoscopy."
+  },
+  {
+    "question": "A patient presents with recurrent episodes of postnasal drip, chronic cough, and halitosis. Nasal endoscopy reveals a foul-smelling, yellowish discharge draining from the middle meatus. Which of the following conditions is most likely responsible for this presentation?",
+    "options": {
+      "A": "Chronic rhinosinusitis with nasal polyps",
+      "B": "Chronic rhinosinusitis",
+      "C": "Nasal vestibulitis",
+      "D": "Adenoid hypertrophy"
+    },
+    "answer": "B",
+    "explanation": "Chronic rhinosinusitis is defined by symptoms lasting over 12 weeks. Postnasal drip, foul drainage, and middle meatus findings support the diagnosis even without polyps."
+  },
+  {
+    "question": "A patient presents with unilateral facial paralysis, inability to close the eye on the affected side, and loss of taste sensation on the anterior two-thirds of the tongue. Which of the following conditions is most likely responsible for this presentation?",
+    "options": {
+      "A": "Bell's palsy",
+      "B": "Ramsay Hunt syndrome",
+      "C": "Glossopharyngeal neuralgia",
+      "D": "Acoustic neuroma"
+    },
+    "answer": "A",
+    "explanation": "Bell’s palsy causes acute, complete facial paralysis on one side. CN VII involvement explains facial weakness and taste loss. No rash means Ramsay Hunt is less likely."
+  },
+  {
+    "question": "A patient presents with a painless neck mass. Fine-needle aspiration reveals clear cytoplasm in thyroid follicular cells. Which of the following conditions is most likely responsible?",
+    "options": {
+      "A": "Lymphadenopathy",
+      "B": "Thyroid adenoma",
+      "C": "Papillary thyroid carcinoma",
+      "D": "Parathyroid carcinoma"
+    },
+    "answer": "C",
+    "explanation": "This is a variant of thyroid carcinoma. Clear cytoplasm and metastasis to lymph nodes suggest papillary carcinoma, the most common thyroid cancer."
+  },
+  {
+    "question": "A patient presents with vertigo and nausea following a recent upper respiratory infection. There is no hearing loss. Which of the following is the most likely diagnosis?",
+    "options": {
+      "A": "Ménière’s disease",
+      "B": "Vestibular neuritis",
+      "C": "BPPV",
+      "D": "Labyrinthitis"
+    },
+    "answer": "B",
+    "explanation": "Vestibular neuritis causes constant vertigo for days, triggered by viral illness. Lack of hearing loss helps differentiate it from labyrinthitis."
+  },
+  {
+    "question": "A patient presents with a lateral neck mass. FNA reveals polygonal cells with granular cytoplasm. Which condition is most likely responsible?",
+    "options": {
+      "A": "Branchial cleft cyst",
+      "B": "Thyroid adenoma",
+      "C": "Lymph node hyperplasia",
+      "D": "Parathyroid adenoma"
+    },
+    "answer": "D",
+    "explanation": "Polygonal cells with granular cytoplasm indicate parathyroid origin. This is classic for a parathyroid adenoma, even in an ectopic location."
+  },
+  {
+    "question": "A patient reports chronic nasal congestion and anosmia. Endoscopy reveals polypoid masses. What is the most likely diagnosis?",
+    "options": {
+      "A": "Chronic sinusitis",
+      "B": "Nasal polyps",
+      "C": "Adenoid hypertrophy",
+      "D": "Allergic rhinitis"
+    },
+    "answer": "B",
+    "explanation": "Polypoid masses in the nasal cavity are nasal polyps. These cause nasal obstruction and loss of smell, often associated with allergies and asthma."
+  },
+  {
+    "question": "A patient complains of left ear fullness and muffled hearing. Otoscopy shows a retracted tympanic membrane and reduced mobility. What is the diagnosis?",
+    "options": {
+      "A": "Acute otitis media",
+      "B": "Otitis externa",
+      "C": "Cholesteatoma",
+      "D": "Serous otitis media"
+    },
+    "answer": "D",
+    "explanation": "Serous otitis media involves non-infected fluid buildup behind the tympanic membrane. Retraction and reduced mobility are key findings."
+  },
+  {
+    "question": "A patient presents with multiple episodes of vertigo lasting several hours. They also report tinnitus and hearing loss. What is the most likely diagnosis?",
+    "options": {
+      "A": "Vestibular neuritis",
+      "B": "Ménière’s disease",
+      "C": "BPPV",
+      "D": "Acoustic neuroma"
+    },
+    "answer": "B",
+    "explanation": "Ménière’s disease causes episodes of vertigo lasting hours, with hearing loss and tinnitus. It is due to endolymphatic hydrops."
+  },
+  {
+    "question": "A patient presents with sudden-onset, painless vision loss in the right eye. Fundoscopic examination reveals a cherry-red spot at the macula and attenuated retinal vessels. Which of the following conditions is most likely responsible for this presentation?",
+    "options": {
+      "A": "Central retinal artery occlusion",
+      "B": "Central retinal vein occlusion",
+      "C": "Retinal detachment",
+      "D": "Acute angle-closure glaucoma"
+    },
+    "answer": "A",
+    "explanation": "Central retinal artery occlusion causes sudden, painless, and profound monocular vision loss. Fundoscopy shows a pale retina with a cherry-red macula due to preserved choroidal circulation."
+  },
+  {
+    "question": "A patient presents with gradual, painless visual field loss in both eyes, particularly in the peripheral vision. Tonometry reveals elevated intraocular pressure (IOP). Which of the following conditions is most likely responsible for this presentation?",
+    "options": {
+      "A": "Open-angle glaucoma",
+      "B": "Closed-angle glaucoma",
+      "C": "Age-related macular degeneration",
+      "D": "Diabetic retinopathy"
+    },
+    "answer": "A",
+    "explanation": "Open-angle glaucoma is characterized by slow, painless loss of peripheral vision due to optic nerve damage from chronically elevated IOP. The drainage angle is open but functionally impaired."
+  },
+  {
+    "question": "A patient presents with redness, pain, and photophobia in the left eye. Slit-lamp examination reveals ciliary injection, corneal edema, and a mid-dilated pupil with fixed reaction to light. Which of the following conditions is most likely responsible for this presentation?",
+    "options": {
+      "A": "Anterior uveitis",
+      "B": "Acute angle-closure glaucoma",
+      "C": "Endophthalmitis",
+      "D": "Corneal abrasion"
+    },
+    "answer": "B",
+    "explanation": "Acute angle-closure glaucoma presents with sudden eye pain, redness, blurry vision, and nausea. The steamy cornea and fixed mid-dilated pupil are classic. It is an ophthalmologic emergency due to rapid IOP rise."
+  },
+  {
+    "question": "A patient presents with sudden-onset, severe eye pain, headache, nausea, and vomiting. On examination, the affected eye appears red, with a steamy cornea and mid-dilated, non-reactive pupil. Which of the following conditions is most likely responsible for this presentation?",
+    "options": {
+      "A": "Acute angle-closure glaucoma",
+      "B": "Central retinal artery occlusion",
+      "C": "Optic neuritis",
+      "D": "Corneal ulcer"
+    },
+    "answer": "A",
+    "explanation": "This is a repeat of acute angle-closure glaucoma. Sudden eye pain, headache, nausea, and the steamy cornea with a mid-dilated pupil are hallmarks. Immediate treatment is required to prevent vision loss."
+  },
+  {
+    "question": "A patient presents with a yellowish-white spot on the cornea, surrounded by a ring of inflammation. Slit-lamp examination reveals branching, filamentous opacities extending from the corneal lesion. Which of the following conditions is most likely responsible for this presentation?",
+    "options": {
+      "A": "Herpes simplex keratitis",
+      "B": "Bacterial keratitis",
+      "C": "Fungal keratitis",
+      "D": "Acanthamoeba keratitis"
+    },
+    "answer": "C",
+    "explanation": "Fungal keratitis is classically associated with trauma involving plant material. The ulcer has feathery margins and branching filaments. This differs from herpes keratitis, which has dendritic ulcers."
+  },
+  {
+    "question": "Which of the following dental conditions is characterized by the irreversible demineralization of the enamel and dentin, leading to cavitation and destruction of tooth structure?",
+    "options": {
+      "A": "Gingivitis",
+      "B": "Dental caries",
+      "C": "Periodontitis",
+      "D": "Dental abscess"
+    },
+    "answer": "B",
+    "explanation": "Dental caries involve acid-mediated breakdown of tooth enamel and dentin caused by bacteria like Streptococcus mutans. This leads to cavitation and irreversible tooth structure loss."
+  },
+  {
+    "question": "Which of the following is a common oral manifestation of celiac disease characterized by enamel defects with horizontal or vertical grooves on the teeth?",
+    "options": {
+      "A": "Dental caries",
+      "B": "Enamel hypoplasia",
+      "C": "Periodontal disease",
+      "D": "Oral candidiasis"
+    },
+    "answer": "B",
+    "explanation": "Enamel hypoplasia results from poor enamel development, often due to nutritional deficiencies like those in celiac disease. It presents as grooves, pits, or discoloration in developing teeth."
+  },
+  {
+    "question": "Which of the following dental conditions is characterized by inflammation of the gingival tissues surrounding the teeth, often caused by poor oral hygiene?",
+    "options": {
+      "A": "Dental caries",
+      "B": "Periodontitis",
+      "C": "Dental abscess",
+      "D": "Gingivitis"
+    },
+    "answer": "D",
+    "explanation": "Gingivitis is reversible gum inflammation caused by bacterial plaque accumulation. It manifests as redness, swelling, and bleeding of the gums."
+  },
+  {
+    "question": "Which of the following dental conditions is characterized by a localized collection of pus resulting from a bacterial infection of the tooth pulp?",
+    "options": {
+      "A": "Dental caries",
+      "B": "Periodontitis",
+      "C": "Dental abscess",
+      "D": "Oral candidiasis"
+    },
+    "answer": "C",
+    "explanation": "Dental abscess, specifically a periapical abscess, forms when pulp infection extends through the root tip, resulting in pus accumulation in surrounding bone and soft tissue."
+  },
+  {
+    "question": "Which of the following dental conditions is characterized by inflammation and infection of the soft tissues surrounding the apex of a tooth root?",
+    "options": {
+      "A": "Gingivitis",
+      "B": "Periodontitis",
+      "C": "Dental abscess",
+      "D": "Oral candidiasis"
+    },
+    "answer": "C",
+    "explanation": "This defines a periapical abscess — an infection located at the tip (apex) of the tooth root, usually secondary to deep dental caries or trauma."
+  },
+  {
+    "question": "Which of the following dental conditions is characterized by inflammation and bleeding of the gingival tissues, often caused by bacterial plaque accumulation?",
+    "options": {
+      "A": "Dental caries",
+      "B": "Gingivitis",
+      "C": "Periodontitis"
+    },
+    "answer": "B",
+    "explanation": "Gingivitis is the earliest and reversible stage of gum disease, presenting with bleeding gums and inflammation due to poor oral hygiene."
+  },
+  {
+    "question": "Which of the following dental conditions is characterized by inflammation and destruction of the supporting structures of the teeth, including the gingiva, periodontal ligament, and alveolar bone?",
+    "options": {
+      "A": "Dental caries",
+      "B": "Gingivitis",
+      "C": "Periodontitis",
+      "D": "Dental abscess"
+    },
+    "answer": "C",
+    "explanation": "Periodontitis is an irreversible inflammatory condition affecting deep tooth-supporting structures. It leads to attachment loss, bone resorption, and tooth mobility."
+  },
+  {
+    "question": "A patient with a suspected spinal injury is found unconscious. Which of the following actions should be taken first?",
+    "options": {
+      "A": "Move the patient to a flat surface",
+      "B": "Perform a jaw thrust maneuver",
+      "C": "Apply a cervical collar",
+      "D": "Check for responsiveness"
+    },
+    "answer": "B",
+    "explanation": "In a trauma case where the patient is unconscious, airway comes first. A jaw thrust maneuver is the safest way to open the airway without moving the cervical spine. This minimizes the risk of worsening a potential spinal injury."
+  },
+  {
+    "question": "During CPR, which of the following actions should be performed immediately after activating the emergency response system?",
+    "options": {
+      "A": "Start chest compressions",
+      "B": "Check for breathing",
+      "C": "Perform abdominal thrusts",
+      "D": "Assess pulse"
+    },
+    "answer": "A",
+    "explanation": "According to AHA guidelines, CPR now follows the C-A-B sequence. This prioritizes chest compressions to circulate blood to the brain and heart. Chest compressions should begin as soon as help is on the way."
+  },
+  {
+    "question": "You encounter a conscious adult choking on a piece of food. The person is coughing forcefully but unable to speak or breathe effectively. What is the most appropriate action?",
+    "options": {
+      "A": "Encourage continued coughing",
+      "B": "Perform abdominal thrusts (Heimlich maneuver)",
+      "C": "Deliver back blows",
+      "D": "Administer rescue breaths"
+    },
+    "answer": "B",
+    "explanation": "This is a case of severe airway obstruction. The person cannot breathe or speak, so immediate intervention is required. Abdominal thrusts (Heimlich) are the recommended technique to expel the obstruction."
+  },
+  {
+    "question": "Which of the following actions is recommended for controlling severe external bleeding from an extremity?",
+    "options": {
+      "A": "Applying a tourniquet proximal to the injury site",
+      "B": "Elevating the extremity above the level of the heart",
+      "C": "Applying direct pressure with a sterile dressing",
+      "D": "Removing any impaled objects"
+    },
+    "answer": "C",
+    "explanation": "Direct pressure is the first and most effective method for controlling bleeding. It promotes clot formation. Tourniquets are used only if bleeding is uncontrollable. Impaled objects should never be removed in the field."
+  },
+  {
+    "question": "What is the appropriate ratio of chest compressions to rescue breaths for adult CPR?",
+    "options": {
+      "A": "15 compressions: 2 breaths",
+      "B": "30 compressions: 2 breaths",
+      "C": "30 compressions: 1 breath",
+      "D": "15 compressions: 1 breath"
+    },
+    "answer": "B",
+    "explanation": "The standard adult CPR ratio is 30 compressions to 2 breaths, whether performed by a single or two-person team. This ensures a balance between circulation and oxygenation while minimizing interruptions."
+  },
+  {
+    "question": "What is the first step in the management of a chemical splash to the eyes?",
+    "options": {
+      "A": "Irrigate the eyes with clean water",
+      "B": "Instill antibiotic eye drops",
+      "C": "Cover both eyes with a sterile dressing",
+      "D": "Assess visual acuity"
+    },
+    "answer": "A",
+    "explanation": "Immediate irrigation is the top priority in a chemical eye injury. Flushing the eyes with water or saline helps dilute and remove the chemical to prevent further tissue damage. All other steps are secondary."
+  },
+  {
+    "question": "Which of the following actions should be taken first when encountering a person experiencing an allergic reaction with signs of respiratory distress?",
+    "options": {
+      "A": "Administer an epinephrine auto-injector",
+      "B": "Position the person comfortably",
+      "C": "Monitor vital signs",
+      "D": "Assess the severity of the reaction"
+    },
+    "answer": "A",
+    "explanation": "Epinephrine is the life-saving first-line treatment for anaphylaxis. It reverses airway swelling, bronchodilates, and improves blood pressure. Administering it without delay is critical for survival."
+  },
+  {
+    "question": "What is the primary purpose of splinting a fractured extremity in the pre-hospital setting?",
+    "options": {
+      "A": "Immobilization to prevent further injury",
+      "B": "Pain relief during transport",
+      "C": "Reduction of swelling",
+      "D": "Stabilization of the fracture site"
+    },
+    "answer": "A",
+    "explanation": "The main goal of splinting is immobilization, which prevents the fractured bone from causing further damage to surrounding tissues. Pain relief and swelling reduction are secondary benefits."
+  },
+  {
+    "question": "Which of the following signs is indicative of shock in a trauma patient?",
+    "options": {
+      "A": "Increased heart rate",
+      "B": "Hypertension",
+      "C": "Rapid capillary refill",
+      "D": "Hyperthermia"
+    },
+    "answer": "A",
+    "explanation": "Tachycardia is an early and reliable sign of shock. It reflects the body’s attempt to compensate for low perfusion by increasing cardiac output. Other signs like hypotension and delayed capillary refill may follow."
+  },
+  {
+    "question": "What is the appropriate sequence of steps in the assessment of a conscious trauma patient?",
+    "options": {
+      "A": "Airway, breathing, circulation, disability, exposure (ABCDE)",
+      "B": "Circulation, airway, breathing, disability, exposure (CABDE)",
+      "C": "Breathing, airway, circulation, disability, exposure (BACDE)",
+      "D": "Exposure, disability, circulation, airway, breathing (EDCAB)"
+    },
+    "answer": "A",
+    "explanation": "The ABCDE sequence is the standard trauma assessment. It prioritizes life-saving interventions in order—starting with securing the airway, supporting breathing, and managing circulation before neurologic and exposure checks."
+  },
+  {
+    "question": "In a conscious trauma patient with a suspected head injury, which of the following actions is appropriate?",
+    "options": {
+      "A": "Applying direct pressure to the wound",
+      "B": "Administering aspirin for pain relief",
+      "C": "Maintaining cervical spine immobilization",
+      "D": "Assessing pupil reaction to light"
+    },
+    "answer": "C",
+    "explanation": "Cervical spine immobilization is essential to prevent spinal cord damage. In head trauma, always assume a concurrent neck injury. This prevents any movement that could worsen or cause paralysis."
+  },
+  {
+    "question": "Which of the following actions is indicated in the management of a patient with an open chest wound (sucking chest wound)?",
+    "options": {
+      "A": "Applying a sterile dressing and occlusive dressing",
+      "B": "Administering supplemental oxygen",
+      "C": "Providing reassurance and emotional support",
+      "D": "Elevating the patient's legs to improve venous return"
+    },
+    "answer": "A",
+    "explanation": "An occlusive dressing taped on three sides seals the wound on inhalation and lets air escape on exhalation. This prevents a life-threatening tension pneumothorax."
+  },
+  {
+    "question": "What is the recommended position for a conscious patient experiencing an acute asthma exacerbation?",
+    "options": {
+      "A": "High-Fowler's position",
+      "B": "Supine position with legs elevated",
+      "C": "Left lateral recumbent position",
+      "D": "Semi-Fowler's position"
+    },
+    "answer": "A",
+    "explanation": "The upright (High-Fowler’s) position improves lung expansion and reduces work of breathing. It uses gravity to aid diaphragmatic movement and helps airflow."
+  },
+  {
+    "question": "Which of the following actions is appropriate when managing a patient with a suspected heat stroke?",
+    "options": {
+      "A": "Administering warm intravenous fluids",
+      "B": "Applying ice packs to the patient's skin",
+      "C": "Encouraging the patient to drink cold water rapidly",
+      "D": "Removing the patient from the hot environment and cooling the body"
+    },
+    "answer": "D",
+    "explanation": "Immediate cooling by removing the patient from the heat source is life-saving. This includes taking off clothing and using evaporative or ice-based cooling methods."
+  },
+  {
+    "question": "Which of the following interventions is appropriate for managing a conscious patient with a severe nosebleed (epistaxis)?",
+    "options": {
+      "A": "Tilting the head back",
+      "B": "Pinching the soft part of the nose",
+      "C": "Packing the nose with cotton gauze",
+      "D": "Applying direct pressure to the forehead"
+    },
+    "answer": "B",
+    "explanation": "Leaning forward and pinching the soft part of the nose helps compress blood vessels in Kiesselbach’s plexus. This reduces bleeding and prevents blood from entering the airway."
+  },
+  {
+    "question": "Which of the following actions is recommended for managing a patient with a suspected snakebite?",
+    "options": {
+      "A": "Applying a tourniquet proximal to the bite site",
+      "B": "Immobilizing the affected limb at the level of the heart",
+      "C": "Making an incision over the bite site to facilitate venom extraction",
+      "D": "Transporting the patient to a medical facility for antivenom administration"
+    },
+    "answer": "D",
+    "explanation": "Rapid transport for antivenom is the priority. Antivenom is the only definitive treatment for significant envenomation. \nOther actions like cutting, suctioning, or applying tourniquets can worsen injury and are not recommended."
+  },
+  {
+    "question": "What is the primary purpose of a cervical collar in the management of trauma patients?",
+    "options": {
+      "A": "Maintaining spinal alignment",
+      "B": "Immobilizing the cervical spine",
+      "C": "Providing comfort and support",
+      "D": "Facilitating airway management"
+    },
+    "answer": "B",
+    "explanation": "A cervical collar prevents neck movement. It restricts motion to prevent further spinal cord injury in trauma patients with suspected neck injury. \nIt must be used with full spinal precautions for effective immobilization."
+  },
+  {
+    "question": "Which of the following actions is appropriate for managing a conscious patient with a foreign object lodged in the eye?",
+    "options": {
+      "A": "Attempting to remove the object with tweezers",
+      "B": "Rinsing the eye with sterile saline solution",
+      "C": "Applying pressure to the eyelid to dislodge the object",
+      "D": "Placing a bandage over the affected eye"
+    },
+    "answer": "D",
+    "explanation": "Do not remove an embedded object from the eye. Cover the affected eye to prevent further injury and movement. \nAlso patch the unaffected eye to minimize sympathetic eye movement during transport."
+  },
+  {
+    "question": "Which of the following interventions is recommended for managing a patient with a suspected opioid overdose?",
+    "options": {
+      "A": "Administering naloxone intravenously",
+      "B": "Providing respiratory support with bag-valve-mask ventilation",
+      "C": "Encouraging the patient to drink fluids rapidly",
+      "D": "Administering benzodiazepines for sedation"
+    },
+    "answer": "B",
+    "explanation": "Opioid overdose leads to respiratory arrest. Immediate support with bag-valve-mask is critical to oxygenate the patient. \nNaloxone should follow but may not act fast enough to prevent hypoxia without ventilation."
+  },
+  {
+    "question": "What is the appropriate management for a conscious patient experiencing a seizure?",
+    "options": {
+      "A": "Restrain the patient to prevent injury",
+      "B": "Place the patient in a supine position",
+      "C": "Protect the patient from injury, clear the area, and monitor the duration of the seizure",
+      "D": "Administer antiepileptic medication immediately"
+    },
+    "answer": "C",
+    "explanation": "Do not restrain or force anything into the mouth. Just clear the area, cushion the head, and observe. \nNote the duration and nature of the seizure for further medical management."
+  },
+  {
+    "question": "Which of the following actions is appropriate for managing a conscious patient with a suspected heat cramp?",
+    "options": {
+      "A": "Massaging the affected muscles vigorously",
+      "B": "Applying cold packs to the affected area",
+      "C": "Providing oral rehydration with electrolyte solutions",
+      "D": "Encouraging the patient to continue strenuous activity"
+    },
+    "answer": "C",
+    "explanation": "Heat cramps are caused by electrolyte and fluid loss. The primary treatment is oral rehydration with electrolyte solutions. \nVigorous massage and continued activity can worsen symptoms or lead to heat exhaustion."
+  },
+  {
+    "question": "What is the appropriate initial management for a conscious patient experiencing a syncopal episode (fainting)?",
+    "options": {
+      "A": "Elevating the legs above the level of the heart",
+      "B": "Administering intravenous fluids rapidly",
+      "C": "Providing reassurance and assisting the patient to a lying position",
+      "D": "Administering oxygen via nasal cannula"
+    },
+    "answer": "C",
+    "explanation": "Help the patient lie down safely to restore cerebral perfusion. Reassurance reduces anxiety and supports recovery. \nLeg elevation can follow once the patient is safely lying down, but position and safety come first."
+  },
+  {
+    "question": "Which of the following actions is appropriate for managing a conscious patient with a dislocated shoulder?",
+    "options": {
+      "A": "Attempting to reduce the dislocation by pulling on the affected arm",
+      "B": "Applying a splint to immobilize the arm in the dislocated position",
+      "C": "Providing analgesia and applying ice packs to the affected shoulder",
+      "D": "Administering intravenous fluids to prevent dehydration"
+    },
+    "answer": "C",
+    "explanation": "Do not attempt to reduce the shoulder unless trained. The priority is comfort and immobilization. \nApply ice to reduce swelling and provide pain relief while arranging for medical care."
+  },
+  {
+    "question": "Which of the following actions is appropriate for managing a conscious patient with a suspected stroke?",
+    "options": {
+      "A": "Administering aspirin immediately",
+      "B": "Placing the patient in a supine position",
+      "C": "Encouraging the patient to eat and drink",
+      "D": "Activating emergency medical services (EMS) for rapid transport to a stroke center"
+    },
+    "answer": "D",
+    "explanation": "Time is critical in stroke care. Rapid transport to a stroke center enables prompt CT imaging and treatment. \nDo not give aspirin unless hemorrhagic stroke is ruled out. Avoid food or drink due to aspiration risk."
+  },
+  {
+    "question": "What is the primary goal of cardiopulmonary resuscitation (CPR) in a cardiac arrest situation?",
+    "options": {
+      "A": "Reversing the underlying cause of cardiac arrest",
+      "B": "Restoring spontaneous circulation and oxygenation",
+      "C": "Providing pain relief and comfort to the patient",
+      "D": "Preventing further complications such as organ failure"
+    },
+    "answer": "B",
+    "explanation": "The main goal of CPR is to restore blood flow and oxygen to vital organs. This buys time until definitive treatment can restart the heart. \nPain relief and reversing causes are important but secondary during active CPR."
   }
 ]
+
+
