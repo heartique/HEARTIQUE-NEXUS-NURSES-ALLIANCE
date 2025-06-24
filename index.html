@@ -276,6 +276,13 @@ Let’s grow together and be the difference the world needs.</p>
          <li class="main-FQE-paper" onclick="location.href='FQE2.html'">✨ <strong> FQE Paper 2 Revision Papers</strong></li>
          <li class="main-nck-paper" onclick="location.href='nck-paper1.html'">✨ <strong>NCK Paper 1 Revision Papers</strong></li>
   <li class="main-nck-paper" onclick="location.href='nck-paper2.html'">✨ <strong>NCK Paper 2 Revision Papers</strong></li>
+        <a href="quiz-app/index.html" class="tab-card quiz-tab animated">
+  <div class="tab-icon">📝</div>
+  <div class="tab-content">
+    <h2>Quiz App</h2>
+    <p>Test your knowledge with instant feedback & scores.</p>
+  </div>
+</a>
       </ul>
     </section>
 
@@ -437,6 +444,47 @@ Let’s grow together and be the difference the world needs.</p>
   font-size: 0.75rem;
   font-weight: bold;
   display: inline-block;
+}
+  .tab-card {
+  display: block;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 16px;
+  margin: 12px 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  color: #333;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tab-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.tab-icon {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.tab-content h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.tab-content p {
+  margin: 5px 0 0;
+  font-size: 14px;
+}
+
+/* 🔥 Custom yellow style just for Quiz tab */
+.quiz-tab {
+  background-color: #fff8dc; /* light yellow */
+  border-left: 6px solid #f6c90e;
+}
+
+.quiz-tab:hover {
+  background-color: #fff4b8;
 }
 </style>
 <script>
