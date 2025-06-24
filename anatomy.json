@@ -1,0 +1,35 @@
+[
+  {
+    "question": "What is the basic functional unit of the kidney?",
+    "options": {
+      "A": "Neuron",
+      "B": "Nephron",
+      "C": "Alveolus",
+      "D": "Glomerulus"
+    },
+    "answer": "B",
+    "explanation": "The nephron is the basic filtering unit of the kidney."
+  },
+  {
+    "question": "Which part of the brain controls balance and coordination?",
+    "options": {
+      "A": "Cerebrum",
+      "B": "Thalamus",
+      "C": "Cerebellum",
+      "D": "Medulla"
+    },
+    "answer": "C",
+    "explanation": "The cerebellum is responsible for balance and coordination."
+  },
+  {
+    "question": "Which organ is responsible for producing insulin?",
+    "options": {
+      "A": "Liver",
+      "B": "Pancreas",
+      "C": "Gallbladder",
+      "D": "Kidney"
+    },
+    "answer": "B",
+    "explanation": "The pancreas produces insulin to regulate blood sugar."
+  }
+]
