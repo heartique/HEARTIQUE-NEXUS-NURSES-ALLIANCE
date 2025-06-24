@@ -82,5 +82,17 @@
     "answer": "C",
     "explanation": "The malaria life cycle is complex. The sporozoite is the stage of the Plasmodium parasite that is present in the salivary glands of an infected Anopheles mosquito. When the mosquito bites a human, it injects the sporozoites into the bloodstream. These sporozoites then travel to the liver, initiating the human stage of the infection. Therefore, the sporozoite is the infective stage for humans.",
     "additional": "A. Hypnozoite: A dormant stage of the parasite that can remain in the liver for years (in P. vivax and P. ovale species), causing relapses.\n\nB. Merozoite: The stage that is released from the liver cells and then repeatedly invades red blood cells, causing the clinical symptoms of malaria (fever, chills).\n\nD. Gametocyte: The sexual stage of the parasite, which is taken up by a mosquito when it bites an infected human. The gametocytes are the infective stage for the mosquito.\n\nClinical Manifestations of Malaria: Classic cycles of fever, chills, and sweats that correspond to the synchronized rupture of infected red blood cells.\n\nDiagnosis: Microscopic examination of a blood smear (thick and thin smears) to identify the parasites.\n\nTreatment: Antimalarial drugs like chloroquine, artemisinin-based combination therapies (ACTs), and primaquine (to eradicate hypnozoites).\n\nPrevention (The ABCs of Malaria Prevention):\nAwareness of risk\nBite prevention (using insect repellent, mosquito nets)\nChemoprophylaxis (taking antimalarial pills)\nDiagnosis and treatment promptly"
+  },
+  {
+    "question": "Which of the following vaccine is contraindicated in symptomatic HIV infection",
+    "options": {
+      "A": "BCG",
+      "B": "DPT",
+      "C": "Pertusis",
+      "D": "Influenza virus vaccine."
+    },
+    "answer": "A",
+    "explanation": "The BCG (Bacillus Calmette-Guérin) vaccine is a live attenuated vaccine used to prevent severe tuberculosis in children. Live attenuated vaccines contain weakened forms of pathogens, which can pose serious risks in people with symptomatic HIV/AIDS. In such individuals, the immune system is compromised, and even a weakened microbe may cause severe or disseminated disease. Therefore, BCG is contraindicated in symptomatic HIV infection.",
+    "additional": "Why B, C, and D are incorrect:\n- B & C: DPT and Pertussis vaccines are either inactivated or acellular, meaning they do not contain live organisms. They are safe and recommended for people with HIV.\n- D: The injectable influenza vaccine is inactivated and strongly recommended for people with HIV. However, the nasal spray version is live attenuated and **contraindicated** in immunocompromised patients.\n\nLive vs. Inactivated Vaccines:\n- Live Attenuated: MMR, Varicella, Rotavirus, intranasal influenza, BCG. These are generally **contraindicated** in pregnancy and severe immunodeficiency.\n- Inactivated/Subunit: Polio (IPV), Hepatitis A, injectable influenza, DTaP. These are **safe** for immunocompromised patients.\n\nHIV-Specific Considerations:\n- HIV+ individuals should receive all routine inactivated vaccines.\n- Some live vaccines (e.g., MMR, Varicella) may be given **if** the CD4 count is high enough (e.g., >200 cells/mm³), based on WHO and CDC guidelines."
   }
 ]
