@@ -790,3 +790,16 @@
     "answer": "A",
     "explanation": "Paracetamol overdose leads to accumulation of toxic metabolite NAPQI. Normally, glutathione neutralizes NAPQI. In overdose, glutathione is depleted. Acetylcysteine replenishes glutathione. It detoxifies NAPQI and protects the liver. It is best given within 8 hours of overdose. Protamine (B) reverses heparin. Frozen plasma (C) replaces clotting factors but is not a specific antidote. Flumazenil (D) reverses benzodiazepines.\n\nCommon Antidotes to Know: Opioids: Naloxone. Warfarin: Vitamin K. Digoxin: Digoxin immune Fab. Magnesium Sulfate: Calcium gluconate. Iron: Deferoxamine. Lead: Succimer or dimercaprol. Early treatment is crucial in toxicity management. Always check timing and dose."
   },
+{
+  "question": "The antidote for heparin sulfate is called:",
+  "options": {
+    "A": "Vitamin K",
+    "B": "Potassium chloride",
+    "C": "Protamine sulfate",
+    "D": "Aminocaproic acid"
+  },
+  "answer": "C",
+  "explanation": "Protamine sulfate is a basic, positively charged protein that binds to the acidic, negatively charged heparin, forming a stable inactive complex. This neutralizes heparin's anticoagulant effects and is the standard treatment for heparin overdose.",
+  "additional": "Incorrect Options:\n- A. Vitamin K is used for reversing warfarin toxicity.\n- B. Potassium chloride corrects hypokalemia; it is not an antidote.\n- D. Aminocaproic acid is an antifibrinolytic used for bleeding due to thrombolytics, not heparin.\n\nMonitoring Anticoagulants:\n- Heparin: Use aPTT; therapeutic range is 1.5–2.5× normal.\n- Warfarin: Use PT/INR; goal INR usually 2.0–3.0.\n- LMWH (e.g., enoxaparin): No routine aPTT needed; protamine is only partially effective.\n- DOACs (e.g., apixaban, dabigatran): Have specific reversal agents like Andexanet alfa or Idarucizumab."
+}
+]
