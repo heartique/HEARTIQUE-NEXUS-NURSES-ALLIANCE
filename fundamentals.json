@@ -387,7 +387,6 @@
     "explanation": "You should NEVER restrain a client during a seizure. The muscle contractions during a tonic-clonic seizure are extremely powerful. Attempting to restrain the client's movements can lead to musculoskeletal injuries, such as fractures or dislocations, for the patient, and can also cause injury to the nurse.",
     "additional": "Why B, C, and D are incorrect (because they are correct actions to take):\nB & C: The priority during a seizure is patient safety and maintaining a patent airway. Turning the client to the side (recovery position) helps prevent the tongue from occluding the airway and allows saliva or vomit to drain out of the mouth, reducing the risk of aspiration.\nD. Loosen any restrictive clothing: Loosening clothing around the neck (like a tie or tight collar) helps to ensure it does not interfere with breathing.\n\nAdditional Possible Content to be Tested Next:\nSeizure Precautions:\n- For a patient at high risk for seizures, the nurse should have oxygen and suction equipment ready at the bedside and ensure the bed has padded side rails.\n\nObservation and Documentation During a Seizure:\n- Time of onset and duration.\n- Description of movements (e.g., unilateral vs. bilateral, tonic vs. clonic).\n- Any incontinence.\n- Patient's condition after the seizure (post-ictal state)."
   },
-  [
   {
     "question": "A client is experiencing symptoms of fluid overload. The first step in management before Specific therapy is:",
     "options": {
@@ -435,8 +434,21 @@
     "answer": "C",
     "explanation": "Normal CSF is clear, colorless, and mostly acellular. Red blood cells are not normally present. Their presence suggests either bleeding (e.g., subarachnoid hemorrhage) or a traumatic tap during the procedure. Protein, glucose, and few WBCs are normal.",
     "additional": "Additional Content:\n- Post-LP Care: Lie flat to prevent headache, encourage fluids, observe site.\n- CSF Findings:\n  - Bacterial Meningitis: Cloudy, high protein, low glucose, high neutrophils.\n  - Viral Meningitis: Clear, normal glucose, high lymphocytes.\n- A traumatic tap is the most common cause of RBCs in CSF after LP."
+  },
+  {
+    "question": "A client is admitted to the cardiac intensive care unit after coronary artery bypass graft surgery. The nurse notes that in the first hour after admission, the mediastinal chest tube drainage was 75ml. During the second hour, the drainage had dropped to 5ml. The nurse interprets that:",
+    "options": {
+      "A": "This is normal",
+      "B": "The tube may be occluded",
+      "C": "The lung has fully expanded",
+      "D": "The client needs to cough and deep breathe"
+    },
+    "answer": "B",
+    "explanation": "A sudden and significant drop in chest tube drainage—especially after recent cardiac surgery—is not normal and should not be ignored. It most likely indicates that the chest tube is occluded.",
+    "additional": "This situation can lead to life-threatening complications like cardiac tamponade. Blood or fluid buildup in the pericardial space can compress the heart, impairing its ability to pump effectively. \n\nImmediate nursing actions include:\n- Assess the patient for signs of tamponade (e.g., hypotension, muffled heart sounds, JVD).\n- Inspect the chest tube and drainage system for kinks, clots, or dislodgement.\n- Notify the cardiac surgeon or medical team urgently."
   }
 ]
+
 
 
 
