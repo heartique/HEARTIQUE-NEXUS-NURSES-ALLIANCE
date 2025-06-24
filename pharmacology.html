@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pharmacology Quiz</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+background-image: url('https://raw.githubusercontent.com/heartique/HEARTIQUE-NEXUS-NURSES-ALLIANCE/main/background6.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      padding: 20px;
+      margin: 0;
+      line-height: 1.6;
+    }
+    h1, h2 {
+      text-align: center;
+      color: #333;
+    }
+    .quote {
+      text-align: center;
+      font-style: italic;
+      margin-bottom: 20px;
+      color: #555;
+    }
+    .top-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+    .btn {
+      padding: 10px 16px;
+      font-size: 16px;
+      cursor: pointer;
+      border: none;
+      background-color: #f6c90e;
+      border-radius: 6px;
+      transition: 0.2s ease;
+    }
+    .btn:hover {
+      background-color: #f1b800;
+    }
+    .question-box {
+      background: #fff8d1;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .correct { color: green; font-weight: bold; }
+    .wrong { color: red; font-weight: bold; }
+    .final-result {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 18px;
+    }
+    .reaction {
+      font-size: 22px;
+      margin-top: 10px;
+    }
+    .contact {
+      margin-top: 40px;
+      background: #eef;
+      padding: 15px;
+      text-align: center;
+      border-radius: 8px;
+    }
+    @media (max-width: 600px) {
+      body {
+        padding: 15px;
+      }
+      .btn {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>💊 Pharmacology Quiz</h1>
+  <div class="quote">"Safe medication practice starts with strong knowledge." 💡</div>
+
+  <div class="top-buttons">
+    <a href="quiz.html"><button class="btn">🏠 Home</button></a>
+    <button class="btn" onclick="showFinalResult()">📊 Get My Score Now</button>
+  </div>
+
+  <div id="quiz-container"></div>
+  <div class="final-result" id="result"></div>
+
+  <div class="contact">
+    <p>📩 Like this format? Contact <strong>nursingnexusalliance@gmail.com</strong></p>
+    <p>📞 <strong>0717517371</strong> | 🧠 <strong>Brian Muthomi</strong></p>
+    <p>💡 Got more content? Let us help you bring it to life here!</p>
+  </div>
+
+  <script>
+    let score = 0;
+    let total = 0;
+    let questionsCompleted = 0;
+
+    fetch('pharmacology.json')
+      .then(res => res.json())
+      .then(data => {
+        const container = document.getElementById('quiz-container');
+
+        data.forEach((q, index) => {
+          total++;
+          const div = document.createElement('div');
+          div.className = 'question-box';
+          div.innerHTML = `<strong>Q${index + 1}: ${q.question}</strong><br><br>`;
+
+          Object.entries(q.options).forEach(([key, value]) => {
+            const btn = document.createElement('button');
+            btn.className = 'btn';
+            btn.textContent = `${key}) ${value}`;
+            btn.onclick = () => {
+              div.querySelectorAll('button').forEach(b => b.disabled = true);
+              const result = document.createElement('p');
+
+              if (key === q.answer) {
+                result.innerHTML = `<span class="correct">✅ Correct!</span> ${q.explanation}`;
+                score++;
+              } else {
+                result.innerHTML = `<span class="wrong">❌ Wrong!</span> Correct answer is ${q.answer}) ${q.options[q.answer]}. ${q.explanation}`;
+              }
+
+              div.appendChild(result);
+              questionsCompleted++;
+
+              if (questionsCompleted === total) {
+                showFinalResult();
+              }
+            };
+            div.appendChild(btn);
+            div.appendChild(document.createElement('br'));
+          });
+
+          container.appendChild(div);
+        });
+      });
+
+    function showFinalResult() {
+      const percent = total ? Math.round((score / total) * 100) : 0;
+      let reaction = "";
+
+      if (percent >= 90) reaction = "🌟 Excellent!";
+      else if (percent >= 70) reaction = "🙂 Fair effort!";
+      else if (percent >= 50) reaction = "😐 Needs more review.";
+      else reaction = "😢 Keep going—you got this!";
+
+      document.getElementById('result').innerHTML =
+        `You got <strong>${score}</strong> out of <strong>${total}</strong> (${percent}%)<br><div class="reaction">${reaction}</div>`;
+    }
+  </script>
+
+</body>
+</html>
