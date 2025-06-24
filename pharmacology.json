@@ -1,0 +1,57 @@
+[
+  {
+    "question": "A patient is prescribed gentamicin. What is the priority nursing assessment?",
+    "options": {
+      "A": "Respiratory rate",
+      "B": "Urine output and creatinine",
+      "C": "Abdominal girth",
+      "D": "Blood glucose level"
+    },
+    "answer": "B",
+    "explanation": "Gentamicin is nephrotoxic, so monitoring urine output and creatinine is critical."
+  },
+  {
+    "question": "A patient asks why a sublingual medication must be placed under the tongue. What is the best explanation?",
+    "options": {
+      "A": "It tastes better under the tongue.",
+      "B": "It works faster when absorbed by the stomach.",
+      "C": "It avoids first-pass metabolism and acts quickly.",
+      "D": "It keeps your throat moist."
+    },
+    "answer": "C",
+    "explanation": "Sublingual meds bypass the liver and enter circulation quickly, giving rapid action."
+  },
+  {
+    "question": "Which situation requires withholding a scheduled dose of digoxin?",
+    "options": {
+      "A": "Apical heart rate of 72 bpm",
+      "B": "Serum potassium of 4.0 mmol/L",
+      "C": "Apical heart rate of 56 bpm",
+      "D": "BP of 130/80 mmHg"
+    },
+    "answer": "C",
+    "explanation": "Digoxin should be held if apical HR is below 60 bpm due to risk of bradycardia."
+  },
+  {
+    "question": "A nurse gives a wrong dose of insulin and realizes the error. What is the first action?",
+    "options": {
+      "A": "Notify the physician",
+      "B": "Monitor the patient for hypoglycemia",
+      "C": "Inform the nursing supervisor",
+      "D": "Document the error"
+    },
+    "answer": "B",
+    "explanation": "The first priority is patient safety — monitor for signs of hypoglycemia immediately."
+  },
+  {
+    "question": "A patient on warfarin has an INR of 5.2. What is the most appropriate nursing action?",
+    "options": {
+      "A": "Continue the current dose",
+      "B": "Encourage the intake of leafy vegetables",
+      "C": "Hold the dose and notify the provider",
+      "D": "Administer an extra dose"
+    },
+    "answer": "C",
+    "explanation": "An INR > 5 is dangerous. The dose should be held and the provider notified."
+  }
+]
