@@ -57,6 +57,14 @@
     }
     .correct { color: green; font-weight: bold; }
     .wrong { color: red; font-weight: bold; }
+    .additional {
+      background: #e0f7ff;
+      padding: 10px;
+      border-radius: 6px;
+      margin-top: 10px;
+      font-style: italic;
+      color: #003c59;
+    }
     .final-result {
       text-align: center;
       margin-top: 30px;
@@ -151,13 +159,20 @@
               btn.textContent = `${key}) ${value}`;
               btn.onclick = () => {
                 div.querySelectorAll('button').forEach(b => b.disabled = true);
-                const result = document.createElement('p');
+                const result = document.createElement('div');
 
                 if (key === q.answer) {
-                  result.innerHTML = `<span class="correct">✅ Correct!</span> ${q.explanation}`;
+                  result.innerHTML = `<p class="correct">✅ Correct!</p><p>${q.explanation}</p>`;
                   score++;
                 } else {
-                  result.innerHTML = `<span class="wrong">❌ Wrong!</span> Correct answer is ${q.answer}) ${q.options[q.answer]}. ${q.explanation}`;
+                  result.innerHTML = `<p class="wrong">❌ Wrong!</p><p>Correct answer is ${q.answer}) ${q.options[q.answer]}. ${q.explanation}</p>`;
+                }
+
+                if (q.additional) {
+                  const extra = document.createElement('div');
+                  extra.className = 'additional';
+                  extra.textContent = `📌 ${q.additional}`;
+                  result.appendChild(extra);
                 }
 
                 div.appendChild(result);
