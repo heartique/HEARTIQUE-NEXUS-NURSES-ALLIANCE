@@ -22,5 +22,30 @@
     "answer": "D",
     "explanation": "Carbon monoxide (CO) binds to hemoglobin with an affinity over 200 times that of oxygen, forming carboxyhemoglobin (COHb). This prevents hemoglobin from carrying oxygen, causing tissue hypoxia. The most definitive measure of both poisoning severity and treatment effectiveness is the serum carboxyhemoglobin level. Effective treatment (with 100% oxygen or hyperbaric oxygen) reduces this level to <5% for non-smokers.",
     "additional": "Why A, B, and C are incorrect:\nA & B: Being awake or sleeping does not confirm the COHb level has normalized. Clinical improvement may not reflect biochemical recovery.\nC: Sinus tachycardia is a sign of hypoxia during poisoning, not an indication of recovery.\n\nAdditional Possible Content to be Tested Next:\n- CO Poisoning Symptoms: Headache, dizziness, nausea, confusion. Cherry-red skin is rare and a late sign.\n- Pulse Oximetry Limitation: Standard pulse oximeters cannot detect COHb. A co-oximeter is needed.\n- Treatment: 100% oxygen via non-rebreather mask. Hyperbaric oxygen for severe poisoning."
+  },
+  {
+    "question": "The nurse is planning care for a client with a T3 spinal cord injury. The nurse includes which intervention in the plan to prevent autonomic dysreflexia (hyperreflexia)?",
+    "options": {
+      "A": "Administer dexamethasone (Decadron) as per the physician's prescription",
+      "B": "Assist the client to develop a daily bowel routine to prevent constipation",
+      "C": "Teach the client that this condition is relatively minor with few symptoms",
+      "D": "Assess vital signs and observe for hypotension, tachycardia, and tachypnea"
+    },
+    "answer": "B",
+    "explanation": "Autonomic Dysreflexia (AD) is a medical emergency that occurs in clients with spinal cord injuries at T6 or above. It is caused by a noxious stimulus below the injury, leading to excessive sympathetic discharge. The most common triggers are a full bladder or bowel. Preventing constipation through a daily bowel routine removes one of the major triggers, making this a critical preventive nursing intervention.",
+    "additional": "Why A, C, and D are incorrect:\n- A: Dexamethasone reduces inflammation but does not prevent AD.\n- C: This is dangerous misinformation. AD is life-threatening, not minor.\n- D: These are not the correct signs of AD. AD presents with severe hypertension, headache, and reflex bradycardia.\n\nAdditional Content:\n- Other AD Triggers: Bladder distention, tight clothing, pressure injuries.\n- Emergency Management:\n  • Sit patient upright to reduce BP.\n  • Loosen clothing.\n  • Locate/remove trigger (check bladder/bowel).\n  • Administer antihypertensives if needed."
+  },
+  {
+    "question": "A client admitted to the hospital for repair of an unruptured cerebral aneurysm. Which assessment finding would be noted first if the aneurysm ruptures?",
+    "options": {
+      "A": "Widened pulse pressure",
+      "B": "Unilateral motor weakness",
+      "C": "Unilateral slowing of pupil response",
+      "D": "A decline in the level of consciousness"
+    },
+    "answer": "D",
+    "explanation": "A ruptured cerebral aneurysm causes bleeding into the subarachnoid space (subarachnoid hemorrhage), which leads to a rapid rise in intracranial pressure. The earliest and most sensitive indicator of increased ICP is a change in level of consciousness. This may begin as confusion or lethargy and quickly progress to coma. Patients also report a sudden, severe headache — often described as the worst of their life.",
+    "additional": "Why A, B, and C are incorrect:\n- A: Widened pulse pressure is part of Cushing’s triad, a late sign.\n- B & C: These are focal neurologic signs that may occur later. LOC changes first.\n\nAdditional Content:\n- SAH Signs: Thunderclap headache, nuchal rigidity, nausea/vomiting, photophobia.\n- Aneurysm Precautions:\n  • Maintain stable BP.\n  • Prevent straining and stress.\n  • Quiet environment, limited stimuli.\n  • Stool softeners to prevent Valsalva effect during bowel movement."
   }
 ]
+
