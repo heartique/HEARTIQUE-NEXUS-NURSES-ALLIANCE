@@ -22,5 +22,30 @@
     "answer": "D",
     "explanation": "The initial vital signs (tachycardia, hypertension, tachypnea) are typical of sympathetic nervous system activation in response to stress or pain. Cleansing and reassurance lowered anxiety, which reduced the stimulus for this response. As a result, sympathetic discharge decreased and parasympathetic tone was restored, leading to normalization of the client's vital signs.",
     "additional": "Why A, B, and C are incorrect:\nA & B: Environmental effects like cooling or air conditioning would not produce rapid, system-wide changes in vitals.\nC: Shock involves worsening vital signs such as increasing tachycardia and falling blood pressure. This client’s vitals improved.\n\nAdditional Possible Content to be Tested Next:\n- Sympathetic Nervous System: Triggers fight-or-flight, increases HR, BP, RR.\n- Parasympathetic Nervous System: Calms the body, lowers HR and RR, enhances digestion.\n- Nursing Techniques for Anxiety Reduction: Reassurance, calm communication, deep breathing, and environment control."
+  },
+  {
+    "question": "A client in renal failure is at risk for hyperkalemia. The following parameters point to hyperkalemia except.",
+    "options": {
+      "A": "Tall peaked T waves",
+      "B": "Flattened P waves",
+      "C": "Prominent U wave on EKG",
+      "D": "Widened QRS"
+    },
+    "answer": "C",
+    "explanation": "A prominent U wave is the hallmark EKG finding of hypokalemia, not hyperkalemia. This makes it the correct 'except' answer in the context of hyperkalemia-related changes.",
+    "additional": "Why A, B, and D are incorrect:\n- A: Tall peaked T waves are the earliest sign of hyperkalemia.\n- B & D: As potassium increases, P waves flatten and may disappear, and the QRS complex widens.\n\nIf left untreated, these changes progress to a sine wave pattern that precedes cardiac arrest.\n\nMore on Hyperkalemia:\n- Causes: Renal failure, potassium-sparing diuretics, ACE inhibitors, tissue damage (e.g., rhabdomyolysis).\n- Symptoms: Muscle weakness, flaccid paralysis, cardiac arrhythmias.\n- Emergency Treatment (Mnemonic: C BIG K DiE):\n  • Calcium gluconate to stabilize the cardiac membrane.\n  • Beta-agonist or bicarbonate to shift K+ intracellularly.\n  • Insulin and glucose to drive K+ into cells.\n  • Kayexalate or diuretics to remove K+.\n  • Dialysis for definitive treatment."
+  },
+  {
+    "question": "A client has an arteriovenous (AV) fistula in place in the right upper extremity for hemodialysis treatments. When planning care for this client, which of the following measures should the nurse implement to promote client safety?",
+    "options": {
+      "A": "Take blood pressures only on the right arm to ensure accuracy",
+      "B": "Use the fistula for all venipunctures and intravenous infusions",
+      "C": "Ensure that small clamps are attached to the AV fistula dressing",
+      "D": "Assess the fistula for the presence of a bruit and thrill every 4 hours"
+    },
+    "answer": "D",
+    "explanation": "The nurse must assess the AV fistula regularly to ensure it remains patent. Palpating for a thrill and auscultating for a bruit every 4 hours helps identify thrombosis early, which can prevent access failure. This is a vital safety intervention in clients undergoing hemodialysis.",
+    "additional": "Why A, B, and C are incorrect:\n- A & B: Never use the fistula arm for BP, IVs, or blood draws. This risks clotting or damaging the access.\n- C: Clamps should never be attached to an AV fistula dressing as this can interfere with flow.\n\nMore on AV Access:\n- Fistula: Direct connection of an artery and vein. Preferred for long-term use.\n- Graft: Synthetic tube between artery and vein. Used when veins are unsuitable.\n\nPatient Education:\n- Avoid tight clothing or jewelry on the access arm.\n- Don’t sleep on the access arm.\n- Report absence of thrill, redness, or pain immediately.\n- No BP, IVs, or blood draws on the access side."
   }
 ]
+
