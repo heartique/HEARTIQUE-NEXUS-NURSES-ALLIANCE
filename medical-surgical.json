@@ -1,0 +1,24 @@
+[
+  {
+    "question": "What is the most common cause of peptic ulcer disease?",
+    "options": {
+      "A": "Stress",
+      "B": "H. pylori infection",
+      "C": "Spicy food",
+      "D": "NSAIDs"
+    },
+    "answer": "B",
+    "explanation": "H. pylori is the leading cause of most peptic ulcers worldwide."
+  },
+  {
+    "question": "Which sign is associated with deep vein thrombosis?",
+    "options": {
+      "A": "Positive Homan's sign",
+      "B": "Kernig's sign",
+      "C": "Chvostek's sign",
+      "D": "Babinski sign"
+    },
+    "answer": "A",
+    "explanation": "Homan's sign indicates pain in the calf during dorsiflexion, a possible sign of DVT."
+  }
+]
