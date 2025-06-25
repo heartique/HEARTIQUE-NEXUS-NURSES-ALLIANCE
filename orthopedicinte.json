@@ -70,5 +70,54 @@
     "answer": "A",
     "explanation": "Rationale for Correct Answer (A): This option lists the three core principles of proper body mechanics designed to protect the lower back (lumbar spine). Bending at knee and hips: When lifting an object from the floor, one should bend at the knees and hips (squatting), using the strong muscles of the legs to lift, while keeping the back straight. Bending at the waist puts all the strain directly on the lumbar spine. Standing straight: Maintaining good posture with the spine in neutral alignment reduces strain. Carrying objects close to the body: Holding an object close to your center of gravity reduces the lever arm effect and decreases the force exerted on the spine.",
     "additional": "Analysis of Incorrect Options: (B) & (D) Both include \"bending at the waist,\" which is the primary action to AVOID as it is the leading cause of low back strain. (C) \"Carrying objects farther from the body\" is incorrect and increases the strain on the back. Principles of Good Body Mechanics: Use a wide base of support. Bend at the knees, not the waist. Keep your back straight. Carry objects close to your body. Avoid twisting your spine; pivot with your feet instead. Push or pull objects rather than lifting them when possible. Patient Education for Low Back Pain: Besides body mechanics, teaching includes proper sleeping positions (on the side with a pillow between the knees, or on the back with a pillow under the knees to maintain lumbar curvature) and core strengthening exercises. Textbook Reference: Brunner & Suddarth's Textbook of Medical-Surgical Nursing, 14th Ed., Chapter 40: Management of Patients With Musculoskeletal Disorders. See the section on \"Low Back Pain.\""
+  },
+  {
+    "question": "Neurovascular assessment of the lower limb post-cast application involves observation of,",
+    "options": {
+      "A": "Color, sensation and pulses",
+      "B": "Level of consciousness, limb symmetry and muscular strength",
+      "C": "Capillary refill, sensation and muscle power",
+      "D": "Color, warmth and muscle power"
+    },
+    "answer": "C",
+    "explanation": "Background: After a cast is applied, a critical nursing responsibility is to perform frequent neurovascular assessments to detect signs of complications like compartment syndrome, nerve damage, or circulatory impairment. This assessment is often remembered by the mnemonic \"The 6 P's\".\n\n(C) Why it's correct: This option lists three key components of a neurovascular check.\n\nCapillary Refill: A measure of peripheral perfusion. It should be brisk (< 3 seconds).\n\nSensation: Assesses nerve function. The patient should be able to feel light touch. Paresthesia (numbness and tingling) is a key early sign of compartment syndrome.\n\nMuscle Power (Motor Function): Assesses nerve function. The patient should be able to move the digits (toes in this case) distal to the cast.\n\n(A) Why it's incorrect: While color and sensation are correct, checking pulses distal to the cast is essential. However, \"pulses\" may be difficult or impossible to palpate through a cast. Capillary refill is a more accessible perfusion check. Option (C) is more comprehensive.\n\n(B) Why it's incorrect: Level of consciousness and limb symmetry are part of a general or neurological assessment, not a specific neurovascular check of the affected limb.\n\n(D) Why it's incorrect: This is a good answer, but (C) is slightly better because \"sensation\" is a more specific neurological term than \"warmth\" (which is a vascular sign) and is a critical component for detecting nerve compression.",
+    "additional": "The 6 P's of Neurovascular Assessment (for Compartment Syndrome):\n\nPain: Out of proportion to the injury, unrelieved by analgesics. This is the earliest and most important sign.\n\nParesthesia: Numbness and tingling.\n\nPallor: Pale, cool skin.\n\nParalysis: Inability to move the digits (late sign).\n\nPulselessness: Diminished or absent distal pulses (very late, ominous sign).\n\nPoikilothermia: The limb takes on the temperature of the environment (cool to the touch). (Sometimes Pressure is used as the 6th P).\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 62 (Nursing Management: Musculoskeletal Trauma and Orthopedic Surgery). See the section on \"Nursing Assessment\" for fractures and casts."
+  },
+  {
+    "question": "Buck's traction is,",
+    "options": {
+      "A": "A form of skin traction and is often used to relieve muscle spasms.",
+      "B": "A form of skeletal traction for compound fractures.",
+      "C": "Only used in correction of hip and femur fractures.",
+      "D": "Always contra-indicated in obese patients."
+    },
+    "answer": "A",
+    "explanation": "(A) Why it's correct: Buck's traction is the most common type of skin traction. The traction force is applied directly to the skin using boots, slings, or adhesive strips. It is a temporary measure used for several reasons:\n\nTo immobilize a fracture (e.g., hip or femur) before surgery.\n\nTo reduce painful muscle spasms, which is a primary indication.\n\nTo correct minor deformities.\nThe weights used are light (typically 5-10 lbs or 2.3-4.5 kg) to avoid damaging the skin.\n\n(B) Why it's incorrect: Buck's traction is skin traction, not skeletal traction. Skeletal traction involves inserting pins, wires, or tongs directly into the bone, allowing for much heavier weights and longer-term application. It is used for more severe or complex fractures, including compound (open) fractures.\n\n(C) Why it's incorrect: While it is most commonly used for hip and femur fractures, it is not only used for them. It can be applied for other lower extremity issues.\n\n(D) Why it's incorrect: While obesity can make skin traction more challenging due to the amount of soft tissue, it is not an absolute contraindication. The integrity of the skin is the main concern.",
+    "additional": "Nursing Care for Traction:\n\nWeights must hang freely and not rest on the floor or bed.\n\nRopes should be in the pulley grooves and not frayed.\n\nMaintain proper body alignment.\n\nPerform frequent skin and neurovascular assessments.\n\nFor skin traction, check for any irritation or breakdown under the boot/straps.\n\nFor skeletal traction, perform pin site care as ordered to prevent infection (osteomyelitis).\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 62 (Nursing Management: Musculoskeletal Trauma and Orthopedic Surgery). See the section on \"Fracture Immobilization: Traction.\""
+  },
+  {
+    "question": "A patient with a sprained ankle should be advised to avoid;",
+    "options": {
+      "A": "Resting the foot",
+      "B": "Applying a heating pad",
+      "C": "Applying an elastic compression bandage",
+      "D": "Elevating the ankle on a pillow while sitting or lying down"
+    },
+    "answer": "B",
+    "explanation": "Background: The immediate management of a soft tissue injury like a sprain is aimed at reducing swelling, pain, and inflammation. The acronym RICE is used for this.\n\n(B) Why it's correct: In the first 24-48 hours after an acute injury, heat should be avoided. Applying a heating pad causes vasodilation, which will increase blood flow to the area, worsening the swelling, inflammation, and pain. Heat is appropriate after the initial inflammatory phase (e.g., after 48-72 hours) to promote circulation and healing.\n\n(A), (C), and (D) Why they are incorrect: These are all correct components of the RICE mnemonic and are advised actions.\n\n(A) Resting the foot: Rest prevents further injury.\n\n(C) Applying an elastic compression bandage: Compression helps to limit swelling.\n\n(D) Elevating the ankle: Elevation (above the level of the heart) uses gravity to help drain excess fluid and reduce swelling.\n\nThe \"I\" in RICE stands for Ice, which causes vasoconstriction and is the appropriate thermal therapy in the acute phase.",
+    "additional": "RICE Acronym for Sprains/Strains:\n\nRest\n\nIce (apply for 20 minutes at a time, several times a day for the first 48 hours)\n\nCompression\n\nElevation\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 62 (Nursing Management: Musculoskeletal Trauma and Orthopedic Surgery). See the section on \"Sprains and Strains.\""
+  },
+  {
+    "question": "Risk for osteoporosis is greatest in;",
+    "options": {
+      "A": "A 36-year-old man who has asthma",
+      "B": "A 70-year-old man who consumes alcohol",
+      "C": "A sedentary 65-year-old woman who smokes cigarette",
+      "D": "A 25-year-old woman who jogs"
+    },
+    "answer": "C",
+    "explanation": "Background: Osteoporosis is a disease characterized by low bone mass and deterioration of bone tissue, leading to fragile bones and an increased risk of fractures.\n\n(C) Why it's correct: This option combines multiple major risk factors for osteoporosis:\n\nAge: Bone loss accelerates after age 50-60.\n\nGender/Menopause: She is a woman and, at 65, is postmenopausal. The decline in estrogen after menopause is the single greatest risk factor for osteoporosis in women.\n\nSedentary Lifestyle: Lack of weight-bearing exercise leads to bone demineralization.\n\nSmoking: Tobacco use is directly toxic to osteoblasts (bone-building cells) and is a significant risk factor.\n\n(A) Why it's incorrect: A 36-year-old man is at low risk. (However, long-term use of corticosteroids for asthma could increase his risk later in life).\n\n(B) Why it's incorrect: While advanced age and excessive alcohol consumption are risk factors, being female and postmenopausal (as in option C) confers a much higher risk.\n\n(D) Why it's incorrect: A 25-year-old woman is at peak bone mass. Jogging is a weight-bearing exercise that builds bone density and is protective against osteoporosis.",
+    "additional": "Other Risk Factors for Osteoporosis:\n\nCaucasian or Asian ethnicity.\n\nFamily history.\n\nLow calcium and Vitamin D intake.\n\nLong-term use of corticosteroids.\n\nCertain endocrine disorders (e.g., hyperthyroidism).\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 63 (Nursing Management: Musculoskeletal Problems). See the section on \"Osteoporosis\" and the table of risk factors."
   }
 ]
+
