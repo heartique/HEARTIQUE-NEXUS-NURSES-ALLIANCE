@@ -1,0 +1,74 @@
+[
+  {
+    "question": "Treatment of megaloblastic anemia includes:",
+    "options": {
+      "A": "a) Chemotherapy, radiotherapy, hydration",
+      "B": "b) Oxygen therapy, hydration and iron supplements",
+      "C": "c) Blood transfusion, iron supplements, splenectomy",
+      "D": "d) Oxygen therapy, folate supplements, Alcohol restriction"
+    },
+    "answer": "D",
+    "explanation": "Rationale for Correct Answer (D): Megaloblastic anemia is caused by a deficiency of either Vitamin B12 or Folic Acid (Folate). The treatment must address the underlying deficiency and manage the symptoms of anemia.\n\nFolate supplements: This directly treats folic acid deficiency, which is a primary cause of megaloblastic anemia.\n\nAlcohol restriction: Chronic alcohol use is a major cause of folic acid deficiency. Alcohol interferes with the absorption and metabolism of folate. Therefore, restricting alcohol is a key part of the treatment plan.\n\nOxygen therapy: Anemia is a state of reduced oxygen-carrying capacity of the blood. If the anemia is severe and the patient is symptomatic (e.g., dyspneic, tachycardic), supplemental oxygen may be needed to treat the tissue hypoxia.\n\nAnalysis of Incorrect Options:\n\n(A) Chemotherapy and radiotherapy are treatments for cancer, not nutritional anemia.\n\n(B) & (C) Iron supplements are the treatment for iron-deficiency anemia, which is a microcytic anemia, not a megaloblastic (macrocytic) anemia. Giving iron to a patient with megaloblastic anemia will not correct the problem. Splenectomy is a treatment for certain hemolytic anemias or hypersplenism, not nutritional deficiencies.",
+    "additional": "Types of Anemia:\n\nMicrocytic (small RBCs): Iron deficiency. Treat with iron.\n\nNormocytic (normal size RBCs): Anemia of chronic disease, acute blood loss. Treat the underlying cause.\n\nMacrocytic/Megaloblastic (large RBCs): Vitamin B12 or Folate deficiency. Treat with B12 or folate.\n\nTreatment for B12 Deficiency: Treatment is with B12 supplements, which can be given orally, intranasally, or, in the case of pernicious anemia (lack of intrinsic factor), by IM injection.\n\nNursing Care for Anemia: The priority is managing fatigue and preventing hypoxia. Interventions include pacing activities, ensuring adequate rest, and monitoring for shortness of breath or tachycardia on exertion.\n\nTextbook Reference: Brunner & Suddarth's Textbook of Medical-Surgical Nursing, 14th Ed., Chapter 32: Management of Patients With Hematologic Neoplasms. See the sections on \"Folic Acid Deficiency\" and \"Vitamin B12 Deficiency.\""
+  },
+  {
+    "question": "The vitamin required for normal production of RBCs is:",
+    "options": {
+      "A": "calcium",
+      "B": "vitamin A",
+      "C": "folic",
+      "D": "vitamin K"
+    },
+    "answer": "C",
+    "explanation": "Rationale for Correct Answer (C): As discussed previously, Folic acid (Folate), along with Vitamin B12, is essential for the synthesis of DNA. This process is required for any rapidly dividing cells, including the hematopoietic stem cells in the bone marrow that produce red blood cells (RBCs). Without adequate folic acid or B12, the cells cannot mature properly, leading to megaloblastic anemia.\n\nAnalysis of Incorrect Options:\n\n(A) Calcium is crucial for bone health and muscle/nerve function but not directly for RBC production.\n\n(B) Vitamin A is important for vision, immune function, and cell growth, but it is not a primary requirement for erythropoiesis (RBC production).\n\n(D) Vitamin K is essential for the synthesis of clotting factors in the liver. Its deficiency leads to a bleeding tendency, not anemia.",
+    "additional": "Key Nutrients for Erythropoiesis:\n\nIron: The central component of the heme molecule in hemoglobin, which carries oxygen.\n\nVitamin B12: Required for DNA synthesis.\n\nFolic Acid: Required for DNA synthesis.\n\nProtein: Provides the amino acids for the globin chains in hemoglobin.\n\nErythropoietin (EPO): This is the hormone, produced by the kidneys, that stimulates the bone marrow to produce RBCs. Patients with chronic kidney disease often have anemia because their kidneys cannot produce enough EPO. They are treated with synthetic EPO (e.g., epoetin alfa).\n\nTextbook Reference: Brunner & Suddarth's Textbook of Medical-Surgical Nursing, 14th Ed., Chapter 30: Assessment of Hematologic Function and Treatment Modalities. See the section on \"Red Blood Cells.\""
+  },
+  {
+    "question": "Increased concentration of red blood cells due to excessive production of erythropoietin is referred to as:",
+    "options": {
+      "A": "primary polycythemia",
+      "B": "leukopenia",
+      "C": "secondary polycythemia",
+      "D": "agranulocytosis"
+    },
+    "answer": "C",
+    "explanation": "Rationale for Correct Answer (C): Polycythemia is a condition characterized by an abnormally high concentration of red blood cells (an elevated hematocrit). It is divided into two main types:\n\nPrimary Polycythemia (Polycythemia Vera): This is a rare cancer of the bone marrow. The problem is in the bone marrow itself, which produces too many RBCs (and often too many WBCs and platelets as well) independently of erythropoietin (EPO). In polycythemia vera, EPO levels are actually low due to negative feedback.\n\nSecondary Polycythemia: This is an increase in RBCs that occurs in response to an underlying condition that causes excessive production of erythropoietin (EPO). The bone marrow is healthy but is being overstimulated by high levels of EPO. The most common cause of this is chronic hypoxia (e.g., from living at high altitude, severe COPD, or cyanotic heart disease). The body senses the low oxygen levels and signals the kidneys to produce more EPO to make more RBCs to carry more oxygen.\n\nAnalysis of Incorrect Options:\n\n(A) Primary polycythemia is caused by a bone marrow problem, not by excess EPO.\n\n(B) Leukopenia is a low white blood cell count.\n\n(D) Agranulocytosis is a severe deficiency of granulocytes, a type of white blood cell.",
+    "additional": "Complications of Polycythemia: The main problem is hyperviscosity (thick blood). This increases the risk of thrombosis (blood clots), leading to stroke, MI, or DVT/PE.\n\nClinical Manifestations: Patients often have a ruddy (reddish) complexion, headache, dizziness, and may complain of pruritus (itching), especially after a warm bath.\n\nTreatment:\n\nSecondary Polycythemia: Treat the underlying cause (e.g., manage the COPD).\n\nPolycythemia Vera: The mainstay of treatment is therapeutic phlebotomy (removing blood) to reduce the hematocrit. Low-dose aspirin may be used to prevent clotting.\n\nTextbook Reference: Brunner & Suddarth's Textbook of Medical-Surgical Nursing, 14th Ed., Chapter 32: Management of Patients With Hematologic Neoplasms. See the section on \"Polycythemia.\""
+  },
+  {
+    "question": "The main long-term complication following radical mastectomy is",
+    "options": {
+      "A": "Phantom pain",
+      "B": "Tingling and numbness",
+      "C": "Lymphoedema",
+      "D": "Paralysis"
+    },
+    "answer": "C",
+    "explanation": "Rationale for Correct Answer (C): A radical mastectomy is an extensive surgery involving the removal of the breast, underlying pectoral muscles, and a large number of axillary (armpit) lymph nodes. The lymphatic system is responsible for draining excess interstitial fluid from the tissues. When a significant number of axillary lymph nodes and channels are removed or damaged by surgery and/or radiation, the lymphatic drainage from the arm on that side is permanently impaired. This leads to a chronic, progressive accumulation of protein-rich fluid in the limb, a condition known as lymphedema. It causes swelling, heaviness, pain, and puts the patient at a high risk for infection (cellulitis) in the affected arm. This is the most common and significant long-term complication.\n\nAnalysis of Incorrect Options:\n\n(A) Phantom breast pain/sensation can occur but is less common and less physically debilitating than lymphedema.\n\n(B) Tingling and numbness can occur due to nerve damage during surgery but often improve over time. Lymphedema is typically progressive.\n\n(D) Paralysis of the arm is not an expected complication unless there is catastrophic damage to the brachial plexus, which is very rare.",
+    "additional": "Lymphedema Prevention and Management (LIFELONG PRECAUTIONS): Patient education is critical.\n\nAVOID on the affected arm:\n\nBlood pressure measurements\nInjections (IVs, blood draws)\nTight clothing or jewelry\nInjury (cuts, burns, insect bites)\n\nENCOURAGE:\n\nMeticulous skin care and use of moisturizer.\nUse of an electric razor for shaving.\nWearing gloves for gardening/washing dishes.\nSeeking immediate treatment for any signs of infection.\n\nManagement: Compression sleeves/bandaging, manual lymphatic drainage (massage), and specialized exercises.\n\nHow NCK Might Test This: They will give a scenario of a post-mastectomy patient and ask to identify a correct or incorrect action. For example, \"Which action by the student nurse requires intervention when caring for a client post-right radical mastectomy?\" (Answer: \"The student prepares to take the blood pressure on the right arm.\")\n\nTextbook Reference: Brunner & Suddarth's Textbook of Medical-Surgical Nursing, 14th Ed., Chapter 48: Assessment and Management of Patients With Breast Disorders. See the section on \"Potential Complications\" of surgical management."
+  },
+  {
+    "question": "Haemophilia A results from deficiency of factor:",
+    "options": {
+      "A": "VII",
+      "B": "IX",
+      "C": "VIII",
+      "D": "V"
+    },
+    "answer": "C",
+    "explanation": "Rationale for Correct Answer (C): Hemophilia is a group of inherited bleeding disorders caused by a deficiency in a specific clotting factor.\n\nHemophilia A is the most common type (~80% of cases) and is caused by a deficiency of Factor VIII. It is also known as \"classic hemophilia.\"\n\nHemophilia B is caused by a deficiency of Factor IX. It is also known as \"Christmas disease.\"\n\nBoth are X-linked recessive disorders, meaning they primarily affect males.\n\nAnalysis of Incorrect Options:\n\n(A) Factor VII deficiency is a rare bleeding disorder, but it is not Hemophilia A or B.\n\n(B) Factor IX deficiency is Hemophilia B.\n\n(D) Factor V deficiency is another rare bleeding disorder. Factor V Leiden is a hypercoagulable state (increased clotting), not a bleeding disorder.",
+    "additional": "Clinical Manifestations: The hallmark of hemophilia is bleeding, particularly into joints (hemarthrosis) and muscles. This can lead to pain, swelling, and, over time, chronic joint damage and arthritis.\n\nLab Findings:\n\nProlonged aPTT (activated partial thromboplastin time), because factors VIII and IX are part of the intrinsic coagulation pathway, which is measured by aPTT.\n\nNormal prothrombin time (PT).\n\nNormal platelet count.\n\nTreatment: The primary treatment is factor replacement therapy, where the deficient clotting factor (recombinant Factor VIII or IX) is infused intravenously.\n\nNursing Management:\n\nAdminister factor replacement as ordered.\n\nDuring an acute bleed, apply pressure and use RICE (Rest, Ice, Compression, Elevation).\n\nPatient education is crucial: avoid aspirin and other NSAIDs, use soft-bristled toothbrushes, wear protective gear during activities, and know when to seek emergency care.\n\nTextbook Reference: Brunner & Suddarth's Textbook of Medical-Surgical Nursing, 14th Ed., Chapter 32: Management of Patients With Hematologic Neoplasms. See the section on \"Hemophilia.\""
+  },
+  {
+    "question": "In sickle cell anaemia patients,",
+    "options": {
+      "A": "The structure of haemoglobin molecule is not affected.",
+      "B": "Prophylactic administration of folic acid and pneumococcal vaccine is recommended",
+      "C": "Administration of IV fluids & immediate blood transfusion are encouraged during sickle cell crisis situations",
+      "D": "The treatment of choice includes administration of penicillins & NSAIDs"
+    },
+    "answer": "B",
+    "explanation": "Rationale for Correct Answer (B):\n\nFolic Acid: Sickle cell anemia is a chronic hemolytic anemia, meaning red blood cells are destroyed at a high rate. The bone marrow works overtime to produce new RBCs to compensate. This rapid cell turnover consumes large amounts of folic acid. Therefore, prophylactic folic acid is given to support erythropoiesis and prevent a secondary megaloblastic anemia.\n\nPneumococcal Vaccine: Patients with sickle cell disease have functional asplenia (the spleen is present but does not work properly due to repeated sickling and infarction). The spleen is vital for clearing encapsulated bacteria, especially Streptococcus pneumoniae. This puts patients at extremely high risk for life-threatening sepsis from this organism. Therefore, prophylactic penicillin (in young children) and routine pneumococcal vaccination are critical preventative measures.\n\nAnalysis of Incorrect Options:\n\n(A) The structure of the hemoglobin molecule is the problem. A genetic mutation causes an abnormal hemoglobin, Hemoglobin S (HbS), to be produced. This is the core defect of the disease.\n\n(C) IV fluids are essential during a crisis, but immediate blood transfusion is not the standard for an uncomplicated vaso-occlusive crisis (pain crisis). Transfusions are reserved for specific severe complications like acute chest syndrome, stroke, or severe anemia.\n\n(D) Penicillin is used prophylactically in children, not as a general treatment of choice. NSAIDs can be used for mild pain, but the pain of a severe vaso-occlusive crisis is excruciating and requires potent opioid analgesics (like morphine or hydromorphone).",
+    "additional": "Sickle Cell Crisis (Vaso-Occlusive Crisis): This is the hallmark of the disease. When exposed to triggers like dehydration, hypoxia, infection, or cold, the HbS molecules polymerize, causing the RBCs to deform into a rigid \"sickle\" shape. These sickled cells clump together and block small blood vessels, leading to tissue ischemia and severe pain.\n\nManagement of a Pain Crisis (HOP to it!):\n\nHydration: Aggressive IV fluids to reduce blood viscosity and improve perfusion.\n\nOxygenation: Administer oxygen to treat hypoxia, a common trigger and result of the crisis.\n\nPain Control: Aggressive pain management with opioids is a priority.\n\nTextbook Reference: Brunner & Suddarth's Textbook of Medical-Surgical Nursing, 14th Ed., Chapter 32: Management of Patients With Hematologic Neoplasms. See the section on \"Sickle Cell Anemia.\""
+  }
+]
