@@ -178,8 +178,6 @@
     }
 }
   </style>
-   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
-<script src="supabase.js"></script>
 </head>
   <script>
   if ('serviceWorker' in navigator) {
@@ -191,17 +189,6 @@
   }
 </script>
 <body>
-  <script>
-  // Redirect to login if not authenticated
-  async function checkAuth() {
-    const { data: { session } } = await supabase.auth.getSession()
-    if (!session) {
-      window.location.href = "login.html"
-    }
-  }
-
-  checkAuth()
-</script>
   <header>
     <h1>Welcome to Heartique Nexus Portal</h1>
   </header>
