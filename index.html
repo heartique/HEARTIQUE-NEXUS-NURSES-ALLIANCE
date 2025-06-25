@@ -531,6 +531,31 @@ Let’s grow together and be the difference the world needs.</p>
     .catch(() => {
       document.getElementById("vocab-count").innerText = `Vocabulary`;
     });
-</script>   
+</script>  
+      <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+<script>
+  const supabase = window.supabase.createClient(
+    'https://gbqgtnukoucxagswqspx.supabase.co',
+    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdicWd0bnVrb3VjeGFnc3dxc3B4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTA4ODcwNTAsImV4cCI6MjA2NjQ2MzA1MH0.uHqKZ-KnW1sv7CSD37D6dh1qYfSLMznud947DEZI93Q'
+  );
+
+  // ✅ Redirect to login if not logged in
+  supabase.auth.getSession().then(({ data: { session } }) => {
+    if (!session) {
+      window.location.href = 'login.html';
+    }
+  });
+
+  // ✅ Add Logout functionality
+  const logoutBtn = document.createElement("button");
+  logoutBtn.id = "logoutBtn";
+  logoutBtn.textContent = "Logout";
+  logoutBtn.onclick = async () => {
+    await supabase.auth.signOut();
+    window.location.href = "login.html";
+  };
+  document.querySelector("header").appendChild(logoutBtn);
+</script>
+
 </body>
 </html>
