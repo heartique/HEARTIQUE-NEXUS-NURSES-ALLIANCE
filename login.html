@@ -1,36 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Login</title>
+  <meta charset="UTF-8" />
+  <title>Login or Sign Up</title>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
-  <script src="supabase.js"></script>
+  <script>
+    const supabase = window.supabase.createClient(
+      'https://gbqgtnukoucxagswqspx.supabase.co',
+      'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdicWd0bnVrb3VjeGFnc3dxc3B4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTA4ODcwNTAsImV4cCI6MjA2NjQ2MzA1MH0.uHqKZ-KnW1sv7CSD37D6dh1qYfSLMznud947DEZI93Q'
+    );
+  </script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #eef4fa;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+    h2 {
+      color: #004a99;
+    }
+    input {
+      padding: 10px;
+      margin: 8px 0;
+      width: 250px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      padding: 10px 20px;
+      margin-top: 10px;
+      background-color: #004a99;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #003366;
+    }
+    .link {
+      margin-top: 12px;
+      font-size: 0.9rem;
+      color: #004a99;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+    .info {
+      font-size: 0.8rem;
+      color: #777;
+      margin-top: 8px;
+    }
+  </style>
 </head>
 <body>
-  <h2>Login</h2>
-  <input id="email" placeholder="Email" type="email" />
-  <input id="password" placeholder="Password" type="password" />
-  <button id="loginBtn">Login</button>
+  <h2 id="formTitle">Login</h2>
+  <input type="email" id="email" placeholder="Email" />
+  <input type="password" id="password" placeholder="Password" />
+  <button id="actionBtn" onclick="handleAction()">Login</button>
+
+  <div class="link" onclick="toggleMode()">Don't have an account? Create one</div>
+  <div class="link" onclick="forgotPassword()">Forgot password?</div>
+
+  <p class="info">Forgot email? <a href="mailto:nursingnexusalliance@gmail.com">Contact support</a>.</p>
 
   <script>
-    document.getElementById("loginBtn").addEventListener("click", async () => {
-  const email = document.getElementById("email").value;
-  const password = document.getElementById("password").value;
+    let isSignup = false;
 
-  const { error } = await supabase.auth.signInWithPassword({ email, password });
-
-  if (error) {
-    alert("Login failed: " + error.message);
-  } else {
-    // Wait for Supabase to store the session
-    const { data: { session } } = await supabase.auth.getSession();
-    if (session) {
-      window.location.href = "index.html";
-    } else {
-      alert("Login succeeded but session not established yet.");
+    function toggleMode() {
+      isSignup = !isSignup;
+      document.getElementById("formTitle").innerText = isSignup ? "Create Account" : "Login";
+      document.getElementById("actionBtn").innerText = isSignup ? "Sign Up" : "Login";
+      document.querySelectorAll(".link")[0].innerText = isSignup
+        ? "Already have an account? Login"
+        : "Don't have an account? Create one";
     }
-  }
-});
+
+    async function handleAction() {
+      const email = document.getElementById("email").value;
+      const password = document.getElementById("password").value;
+
+      if (!email || !password) {
+        alert("Fill in both email and password.");
+        return;
+      }
+
+      if (isSignup) {
+        const { error } = await supabase.auth.signUp({ email, password });
+        if (error) {
+          alert("Signup failed: " + error.message);
+        } else {
+          alert("Account created! Please check your email and then log in.");
+          toggleMode();
+        }
+      } else {
+        const { error } = await supabase.auth.signInWithPassword({ email, password });
+        if (error) {
+          alert("Login failed: " + error.message);
+        } else {
+          window.location.href = "index.html";
+        }
+      }
+    }
+
+    async function forgotPassword() {
+      const email = document.getElementById("email").value;
+      if (!email) {
+        alert("Enter your email to receive reset link.");
+        return;
+      }
+
+      const { error } = await supabase.auth.resetPasswordForEmail(email, {
+        redirectTo: "https://your-site.github.io/update-password.html"  // UPDATE THIS
+      });
+
+      if (error) {
+        alert("Reset failed: " + error.message);
+      } else {
+        alert("Password reset link sent to your email.");
+      }
+    }
+
+    window.onload = async () => {
+      const { data: { session } } = await supabase.auth.getSession();
+      if (session) {
+        window.location.href = "index.html";
+      }
+    };
   </script>
 </body>
 </html>
