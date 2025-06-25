@@ -10,5 +10,153 @@
     "answer": "A",
     "explanation": "Addison's disease is primary adrenal insufficiency, meaning the adrenal glands do not produce enough cortisol and, crucially, aldosterone. Aldosterone's main function is to tell the kidneys to retain sodium (and water) and excrete potassium. In Addison's disease, the lack of aldosterone leads to excessive loss of sodium in the urine (hyponatremia) and retention of potassium (hyperkalemia). Therefore, the appropriate diet includes liberal sodium intake to compensate for these urinary losses.",
     "additional": "Why B, C, and D are incorrect:\nB: A normal carbohydrate intake is needed. The lack of cortisol can cause hypoglycemia, so adequate carbohydrates are important.\nC: The patient is already at high risk for hyperkalemia, so a diet high in potassium would be dangerous.\nD: There is no need for protein restriction.\n\nAdditional Possible Content to be Tested Next:\n- Signs of Addison's Disease: Hypotension, fatigue, weight loss, hypoglycemia, hyperkalemia, hyponatremia, and hyperpigmentation of the skin (\"bronze\" skin).\n- Addisonian Crisis: A life-threatening emergency caused by acute adrenal insufficiency.\n  - Triggers: Stress, infection, surgery, or sudden withdrawal of steroid medication.\n  - Signs: Severe hypotension, tachycardia, dehydration, hypoglycemia, shock.\n  - Treatment: Immediate IV administration of hydrocortisone, saline, and dextrose (D5NS).\n- Pharmacologic Treatment: Lifelong hormone replacement therapy with glucocorticoids (e.g., hydrocortisone, prednisone) and mineralocorticoids (fludrocortisone)."
+  },
+  {
+    "question": "The characteristics of a “Cushingoid” appearance in Cushing’s disease include:",
+    "options": {
+      "A": "Hypotension, Kussmauls’ breathing, hunchback & diaphoresis",
+      "B": "Moon face, buffalo hump, central obesity & thin musculature",
+      "C": "Mood swings, slow wound healing, hypertension & tunnel vision",
+      "D": "Flushing, brittle skin, abdominal pain and encephalopathy"
+    },
+    "answer": "B",
+    "explanation": "Cushing’s disease involves excessive cortisol, which redistributes fat and breaks down protein. Moon face, buffalo hump, and central obesity result from fat redistribution. Cortisol causes muscle wasting, resulting in thin extremities.",
+    "additional": "Other signs: purple striae, fragile skin, osteoporosis, hyperglycemia, hypertension, mood changes. Cushing’s disease (pituitary tumor) vs. Cushing’s syndrome (general cortisol excess). Reference: Brunner & Suddarth's, 14th Ed., Chapter 42."
+  },
+  {
+    "question": "The risk for macrovascular complications in diabetes mellitus may be reduced by:",
+    "options": {
+      "A": "Lowering BP, avoiding nephrotoxic substances & reducing strenuous exercises.",
+      "B": "Weight reduction, reducing fat/triglyceride levels, quitting smoking.",
+      "C": "Foot care, early diagnosis of retinal detachment & daily U/Es checkups.",
+      "D": "High fibre diet, low fat diet & prompt treatment of systemic infections"
+    },
+    "answer": "B",
+    "explanation": "Macrovascular complications are large vessel diseases (CAD, stroke, PVD) accelerated by atherosclerosis. Reducing cardiovascular risks—weight, lipids, and smoking—lowers this risk.",
+    "additional": "Microvascular = eyes, kidneys, nerves. Prevention = glycemic control, BP, lipid management. Reference: Brunner & Suddarth's, 14th Ed., Chapter 41."
+  },
+  {
+    "question": "The following is a mineralocorticoid:",
+    "options": {
+      "A": "Cortisol",
+      "B": "Adrenal corticotropic hormone",
+      "C": "Aldosterone",
+      "D": "Epinephrine"
+    },
+    "answer": "C",
+    "explanation": "Aldosterone is the main mineralocorticoid produced by the adrenal cortex. It increases sodium reabsorption and potassium excretion in the kidneys, regulating blood pressure and volume.",
+    "additional": "RAAS controls aldosterone. ACTH stimulates adrenal cortex but isn’t a hormone itself. Epinephrine comes from the adrenal medulla. Reference: Brunner & Suddarth's, 14th Ed., Chapter 42."
+  },
+  {
+    "question": "The predilection of HIV for certain cells in the immune system results in",
+    "options": {
+      "A": "More T4 lymphocytes and general lymphocytopenia",
+      "B": "Fewer activated B-cells and hypogammaglobulinemia",
+      "C": "Increased response in cutaneous hypersensitivity",
+      "D": "Susceptibility to opportunistic infection and neoplasm"
+    },
+    "answer": "D",
+    "explanation": "HIV targets CD4+ T-helper lymphocytes, weakening immune function. Their destruction results in profound immunodeficiency and progression to AIDS, which causes susceptibility to infections and cancers.",
+    "additional": "Stage 3 (AIDS) is diagnosed when CD4 count is < 200 or when opportunistic illness occurs. Opportunistic infections: PCP, candidiasis, CMV. Neoplasms: Kaposi’s sarcoma, lymphoma. Treatment is ART. Reference: Brunner & Suddarth's, 14th Ed., Chapter 36."
+  },
+  {
+    "question": "Chvostek’s sign is used for diagnosis of:",
+    "options": {
+      "A": "Hypercalcemia resulting from hyperparathyroidism.",
+      "B": "Hypercalcemia resulting from hyperpituitarism.",
+      "C": "Hypocalcemia resulting from hypoparathyroidism.",
+      "D": "Hypocalcemia resulting from hypothyroidism."
+    },
+    "answer": "C",
+    "explanation": "Chvostek’s sign indicates neuromuscular excitability due to hypocalcemia. It is elicited by tapping the facial nerve, producing twitching. Hypoparathyroidism causes hypocalcemia by reducing PTH.",
+    "additional": "Causes: post-thyroidectomy, vitamin D deficiency. Other signs: Trousseau’s sign, tetany, spasms. Treatment: calcium gluconate. Remember 'CATS' symptoms. Reference: Brunner & Suddarth's, 14th Ed., Chapter 42."
+  },
+  {
+    "question": "The commonest cause of toxic goitre (Grave’s disease) is:",
+    "options": {
+      "A": "Pituitary tumours",
+      "B": "Benign thyroid",
+      "C": "Lack of iodine in the diet",
+      "D": "Immunoglobulins reaction"
+    },
+    "answer": "D",
+    "explanation": "Graves’ disease is an autoimmune disorder where Thyroid-Stimulating Immunoglobulins (TSI) mimic TSH and overstimulate the thyroid gland, causing hyperthyroidism and goitre.",
+    "additional": "Classic triad: hyperthyroidism, exophthalmos, pretibial myxedema. Diagnosis: ↑T3/T4, ↓TSH, presence of TSI. Reference: Brunner & Suddarth's, 14th Ed., Chapter 42."
+  },
+  [
+  {
+    "question": "Parathyroid hormone maintains fluid and electrolyte balance by",
+    "options": {
+      "A": "Promoting absorption of calcium from the intestines",
+      "B": "Inhibiting release of calcium from the bone",
+      "C": "Increasing the excretion of phosphate ions by the kidneys",
+      "D": "Acting on the renal tubules to retain water and to decrease urinary output"
+    },
+    "answer": "C",
+    "explanation": "PTH increases phosphate excretion in the kidneys. This is a direct renal effect and helps raise serum calcium by preventing calcium-phosphate binding. It also increases calcium reabsorption and bone resorption, but its intestinal effect is indirect through Vitamin D activation.",
+    "additional": "Option A is indirect via calcitriol. Option B is false; PTH stimulates bone resorption. Option D describes ADH, not PTH. Reference: Brunner & Suddarth's, 14th Ed., Chapter 42."
+  },
+  {
+    "question": "Following thyroidectomy, the nurse suspects damage or removal of parathyroid gland when the patient develops:",
+    "options": {
+      "A": "Muscle weakness and weight loss",
+      "B": "Hyperthermia and severe tachycardia",
+      "C": "Hypertension and difficulty in swallowing",
+      "D": "Laryngeal stridor and tingling in the hands and feet"
+    },
+    "answer": "D",
+    "explanation": "Accidental removal or damage to the parathyroid glands during thyroidectomy can cause hypocalcemia. Early signs include paresthesia and dangerous signs like laryngeal stridor due to muscle spasm.",
+    "additional": "Other signs: Chvostek’s, Trousseau’s, spasms. Treatment: IV calcium gluconate. Always monitor post-op calcium and airway. Reference: Brunner & Suddarth's, 14th Ed., Chapter 42."
+  },
+  {
+    "question": "The main causes of Diabetic keto-acidosis are;",
+    "options": {
+      "A": "Infection, physical trauma, self-medication",
+      "B": "Decreased dose of insulin, an illness, missed dose of insulin",
+      "C": "Sepsis, renal disease, liver failure",
+      "D": "Increased dose of insulin, starvation, use of expired insulin"
+    },
+    "answer": "B",
+    "explanation": "DKA results from insulin deficiency, most commonly due to missed or reduced insulin or physiological stress like illness. Without insulin, the body breaks down fat, forming ketones, causing acidosis.",
+    "additional": "Key triad: Hyperglycemia, ketosis, acidosis. Symptoms: dehydration, Kussmaul breathing, fruity breath. Treatment: fluids, IV insulin, potassium correction. Reference: Brunner & Suddarth's, 14th Ed., Chapter 41."
+  },
+  {
+    "question": "Parathyroid hormone maintains fluid and electrolyte balance by",
+    "options": {
+      "A": "Promoting absorption of calcium from the intestines",
+      "B": "Inhibiting release of calcium from the bone",
+      "C": "Increasing the excretion of phosphate ions by the kidneys",
+      "D": "Acting on the renal tubules to retain water and to decrease urinary output"
+    },
+    "answer": "C",
+    "explanation": "PTH increases phosphate excretion in the kidneys. This is a direct renal effect and helps raise serum calcium by preventing calcium-phosphate binding. It also increases calcium reabsorption and bone resorption, but its intestinal effect is indirect through Vitamin D activation.",
+    "additional": "Option A is indirect via calcitriol. Option B is false; PTH stimulates bone resorption. Option D describes ADH, not PTH. Reference: Brunner & Suddarth's, 14th Ed., Chapter 42."
+  },
+  {
+    "question": "Following thyroidectomy, the nurse suspects damage or removal of parathyroid gland when the patient develops:",
+    "options": {
+      "A": "Muscle weakness and weight loss",
+      "B": "Hyperthermia and severe tachycardia",
+      "C": "Hypertension and difficulty in swallowing",
+      "D": "Laryngeal stridor and tingling in the hands and feet"
+    },
+    "answer": "D",
+    "explanation": "Accidental removal or damage to the parathyroid glands during thyroidectomy can cause hypocalcemia. Early signs include paresthesia and dangerous signs like laryngeal stridor due to muscle spasm.",
+    "additional": "Other signs: Chvostek’s, Trousseau’s, spasms. Treatment: IV calcium gluconate. Always monitor post-op calcium and airway. Reference: Brunner & Suddarth's, 14th Ed., Chapter 42."
+  },
+  {
+    "question": "The main causes of Diabetic keto-acidosis are;",
+    "options": {
+      "A": "Infection, physical trauma, self-medication",
+      "B": "Decreased dose of insulin, an illness, missed dose of insulin",
+      "C": "Sepsis, renal disease, liver failure",
+      "D": "Increased dose of insulin, starvation, use of expired insulin"
+    },
+    "answer": "B",
+    "explanation": "DKA results from insulin deficiency, most commonly due to missed or reduced insulin or physiological stress like illness. Without insulin, the body breaks down fat, forming ketones, causing acidosis.",
+    "additional": "Key triad: Hyperglycemia, ketosis, acidosis. Symptoms: dehydration, Kussmaul breathing, fruity breath. Treatment: fluids, IV insulin, potassium correction. Reference: Brunner & Suddarth's, 14th Ed., Chapter 41."
   }
 ]
+
+
+
