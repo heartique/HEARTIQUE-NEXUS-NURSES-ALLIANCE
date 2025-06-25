@@ -1,4 +1,4 @@
-SOO THIS MY INDEX ,,<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <script>
@@ -431,6 +431,19 @@ Let’s grow together and be the difference the world needs.</p>
   display: inline-block;
 }
 </style>
+      <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+<script src="supabase.js"></script>
+<script>
+  // Redirect to login if not authenticated
+  async function checkAuth() {
+    const { data: { session } } = await supabase.auth.getSession()
+    if (!session) {
+      window.location.href = "login.html"
+    }
+  }
+
+  checkAuth()
+</script>
 <script>
   const topics = document.querySelectorAll(".stars");
 
