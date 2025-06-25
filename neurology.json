@@ -46,6 +46,614 @@
     "answer": "D",
     "explanation": "A ruptured cerebral aneurysm causes bleeding into the subarachnoid space (subarachnoid hemorrhage), which leads to a rapid rise in intracranial pressure. The earliest and most sensitive indicator of increased ICP is a change in level of consciousness. This may begin as confusion or lethargy and quickly progress to coma. Patients also report a sudden, severe headache — often described as the worst of their life.",
     "additional": "Why A, B, and C are incorrect:\n- A: Widened pulse pressure is part of Cushing’s triad, a late sign.\n- B & C: These are focal neurologic signs that may occur later. LOC changes first.\n\nAdditional Content:\n- SAH Signs: Thunderclap headache, nuchal rigidity, nausea/vomiting, photophobia.\n- Aneurysm Precautions:\n  • Maintain stable BP.\n  • Prevent straining and stress.\n  • Quiet environment, limited stimuli.\n  • Stool softeners to prevent Valsalva effect during bowel movement."
+  },
+  {
+    "question": "The following technique should be avoided when changing a hemiparalysis client's position in bed:",
+    "options": {
+      "A": "Sliding the client to move her up in bed",
+      "B": "Rolling the client onto her side",
+      "C": "Lifting the client when moving her up in bed",
+      "D": "Having the client lift herself off the bed using a trapeze"
+    },
+    "answer": "A",
+    "explanation": "Sliding the client across bed linens causes shearing force and friction, which are especially dangerous in patients with paralysis or stroke due to fragile skin. Friction abrades the skin surface, and shearing tears blood vessels in deeper tissue layers. This can cause pressure injuries or deep tissue damage.",
+    "additional": "Rolling with a draw sheet is correct. Lifting is ideal to prevent friction. Using a trapeze (with the unaffected arm) promotes independence and reduces skin trauma. Pressure injury prevention includes frequent repositioning, pressure-relieving surfaces, and proper support of affected limbs. Reference: Brunner & Suddarth, 14th Ed., Ch. 10 & 62."
+  },
+  {
+    "question": "Neurovascular assessment of the lower limb post-cast application involves observation of:",
+    "options": {
+      "A": "Color, sensation and pulses",
+      "B": "Level of consciousness, limb symmetry and muscular strength",
+      "C": "Capillary refill, sensation and muscle power",
+      "D": "Color, warmth and muscle power"
+    },
+    "answer": "C",
+    "explanation": "Capillary refill checks circulation (<3 seconds is normal). Sensation assesses nerve integrity—watch for tingling, numbness, or loss of feeling. Muscle power checks motor function—can the patient move their toes? These are all essential after applying a cast to detect compartment syndrome or nerve compromise.",
+    "additional": "6 Ps: Pain, Pallor, Pulselessness, Paresthesia, Paralysis, Poikilothermia. Unrelieved pain is the earliest sign of compartment syndrome. NCK may ask what to report immediately (e.g., 'pain unrelieved by morphine'). Reference: Brunner & Suddarth, 14th Ed., Ch. 39."
+  },
+  {
+    "question": "The priority indicator of increasing intracranial pressure is:",
+    "options": {
+      "A": "Unequal pupil size",
+      "B": "Decreasing systolic pressure",
+      "C": "Tachycardia",
+      "D": "Decreasing body temperature"
+    },
+    "answer": "A",
+    "explanation": "Among the given options, unequal pupil size is the best indicator of increasing ICP due to cranial nerve III compression. It reflects direct neurologic deterioration. However, the true earliest sign of IICP is a change in level of consciousness (LOC), which is not listed here.",
+    "additional": "Bradycardia and increased systolic pressure (Cushing's triad) are late signs. Hypothermia is not associated with IICP—hyperthermia is more common. NCK may ask for earliest vs. most ominous signs. Reference: Brunner & Suddarth, 14th Ed., Ch. 61."
+  },
+  {
+    "question": "The frontal lobe of the brain is:",
+    "options": {
+      "A": "The primary receptive area for vision",
+      "B": "Mainly responsible for auditory sensation and coordination",
+      "C": "Centre for respiratory and vasomotor activity",
+      "D": "Responsible for abstract thinking, judgment and emotions"
+    },
+    "answer": "D",
+    "explanation": "The frontal lobe controls higher-order thinking like judgment, abstract reasoning, and emotion regulation. It also includes the motor cortex and Broca's area for speech. It plays a crucial role in personality and behavior.",
+    "additional": "Option A is incorrect—the occipital lobe handles vision. Option B—auditory sensation is temporal lobe; coordination is cerebellum. Option C describes brainstem functions. NCK often tests brain lobe roles. Reference: Brunner & Suddarth, Ch. 60."
+  },
+  {
+    "question": "A client has just undergone spinal fusion after experiencing herniation of a lumbar disk. The nurse would avoid which intervention to maintain client safety after this procedure?",
+    "options": {
+      "A": "Use the overhead trapeze.",
+      "B": "Keep the head of the bed flat.",
+      "C": "Place pillows under the length of the legs.",
+      "D": "Use logrolling technique for repositioning."
+    },
+    "answer": "C",
+    "explanation": "Pillows under the legs can cause hip flexion and compress popliteal veins, increasing the risk of DVT and misaligning the spine. Maintaining neutral spine alignment is the top priority after spinal surgery.",
+    "additional": "Logrolling (D) prevents twisting. Trapeze (A) allows safe movement. Flat bed (B) avoids spinal flexion. 'BLT' rule: No Bending, Lifting, Twisting. Reference: Brunner & Suddarth, Ch. 63."
+  },
+  {
+    "question": "Post intracranial surgery a patient requires strict temperature regulation mainly to:",
+    "options": {
+      "A": "Detect infection",
+      "B": "Prevent increased metabolic demand",
+      "C": "Prevent hypothermia",
+      "D": "Enhance cerebral perfusion"
+    },
+    "answer": "B",
+    "explanation": "The injured brain cannot handle increased demand. Fever raises metabolic rate, increasing oxygen/glucose needs. This leads to ischemia if cerebral blood flow can't keep up, causing further injury.",
+    "additional": "Detecting infection (A) is important but not the main reason for *control*. Hypothermia (C) is rare post-surgery. Perfusion (D) is affected secondarily. Key is to prevent the metabolic-ICP spiral. Reference: Brunner & Suddarth, Ch. 61."
+  },
+  {
+    "question": "Management of a patient during a seizure include:",
+    "options": {
+      "A": "Restricting the jerking movements to prevent injury",
+      "B": "Inserting an oral airway to protect the tongue",
+      "C": "Putting pillows and raising the side rails if the patient is in bed",
+      "D": "Removing pillows and raising the side rails if the patient is in bed."
+    },
+    "answer": "C",
+    "explanation": "During a seizure, the priority is safety. Raising side rails and padding the area prevents injury. Placing pillows protects the head from striking the bed or rail.",
+    "additional": "NEVER restrain movements (A) or insert objects in the mouth (B). Removing pillows (D) is incorrect unless they block the airway. Turn the patient to the side, observe duration and behavior, and document post-seizure. Reference: Brunner & Suddarth, Ch. 63."
+  },
+  {
+    "question": "When a nurse is monitoring a patient for cerebrospinal fluid (CSF) leak he/she should observe for:",
+    "options": {
+      "A": "Halo sign.",
+      "B": "Babinski reflex.",
+      "C": "Iliopsoas sign.",
+      "D": "Blumberg sign."
+    },
+    "answer": "A",
+    "explanation": "The Halo sign is a ring-like yellowish fluid pattern surrounding blood, indicating CSF leakage. This may appear on gauze from nasal or ear discharge after trauma or surgery.",
+    "additional": "Babinski (B) tests CNS damage. Iliopsoas (C) and Blumberg (D) test for appendicitis/peritonitis. Monitor for meningitis, avoid packing or blocking drainage, and test drainage for glucose. Reference: Brunner & Suddarth, Ch. 61."
+  },
+  {
+    "question": "Fractures of the base of the skull will manifest with",
+    "options": {
+      "A": "Hemorrhage from the nose, the pharynx or the ears",
+      "B": "Cerebrospinal fluid leakage from the ears",
+      "C": "Bloody spinal fluid",
+      "D": "Persistent localized pain on swelling"
+    },
+    "answer": "B",
+    "explanation": "CSF otorrhea (leak from the ears) is a hallmark sign of a basilar skull fracture due to a tear in the dura. Test fluid for glucose or halo effect.",
+    "additional": "Hemorrhage (A) may occur but isn’t specific. Bloody CSF (C) is found via lumbar puncture, which is contraindicated in increased ICP. Pain/swelling (D) is nonspecific. Look for Battle’s sign, Raccoon eyes, and CSF leak. Reference: Brunner & Suddarth, Ch. 61."
+  },
+  {
+    "question": "Which cranial nerve is involved when the patient presents with facial pain, diminished corneal reflex and chewing dysfunction:",
+    "options": {
+      "A": "III",
+      "B": "IV",
+      "C": "V",
+      "D": "VI"
+    },
+    "answer": "C",
+    "explanation": "Cranial Nerve V (Trigeminal) has both sensory and motor functions. It is responsible for facial sensation, the corneal reflex, and chewing movements. Dysfunction leads to pain, reflex loss, and chewing issues.",
+    "additional": "CN V has three sensory branches and motor control over mastication. CNs III, IV, and VI control eye movement only. Corneal reflex involves CN V (sensory) and CN VII (motor). Mnemonics: 'Oh Oh Oh To Touch And Feel Very Good Velvet, AH Heaven' and 'Some Say Marry Money...'. Reference: Brunner & Suddarth, Ch. 60."
+  },
+  {
+    "question": "The nurse administers mannitol to the client with increased intracranial pressure. Which parameter needs close monitoring?",
+    "options": {
+      "A": "Muscle relaxation",
+      "B": "Intake and output",
+      "C": "Widening of the pulse pressure",
+      "D": "Pupil dilation"
+    },
+    "answer": "B",
+    "explanation": "Mannitol is an osmotic diuretic that draws fluid out of the brain and into circulation. It leads to diuresis, so fluid balance must be monitored closely.",
+    "additional": "Monitor for dehydration, electrolyte loss, rebound ICP, and pulmonary edema. Always use an in-line filter. Crackles in the lungs, rising osmolality, or low output are red flags. Reference: Brunner & Suddarth, Ch. 61."
+  },
+  {
+    "question": "Which activity should the nurse encourage the client to avoid when there is a risk for increased intracranial pressure (ICP)?",
+    "options": {
+      "A": "Deep breathing",
+      "B": "Coughing",
+      "C": "Turning",
+      "D": "Passive range of motion (ROM) exercises"
+    },
+    "answer": "B",
+    "explanation": "Coughing increases intrathoracic pressure, which impedes cerebral venous return and raises ICP. It should be minimized in patients at risk.",
+    "additional": "Avoid straining, vomiting, sneezing. Maintain head neutral and HOB at 30°. Avoid clustering care. Deep breathing and ROM are safe. Suctioning raises ICP—do only when necessary. Reference: Brunner & Suddarth, Ch. 61."
+  },
+  {
+    "question": "For a client who is experiencing expressive aphasia, which nursing intervention is most helpful in promoting communication?",
+    "options": {
+      "A": "Speaking loudly",
+      "B": "Using a picture board",
+      "C": "Writing directions so client can read them",
+      "D": "Speaking in short sentences"
+    },
+    "answer": "B",
+    "explanation": "Expressive aphasia affects the ability to speak or write, but comprehension remains intact. A picture board allows the patient to express needs nonverbally, reducing frustration.",
+    "additional": "Loud speech is not useful since hearing is intact. Writing is often impaired. Short sentences help receptive aphasia. Picture boards are ideal for expressive aphasia. Know the differences between Broca’s (expressive), Wernicke’s (receptive), and global aphasia. Reference: Brunner & Suddarth, Ch. 62."
+  },
+  {
+    "question": "The nurse is assessing the motor and sensory function of an unconscious client. The nurse should use which technique to test the client’s peripheral response to pain?",
+    "options": {
+      "A": "Sternal rub",
+      "B": "Nail bed pressure",
+      "C": "Pressure on the orbital rim",
+      "D": "Squeezing of the sternocleidomastoid muscle"
+    },
+    "answer": "B",
+    "explanation": "Nail bed pressure is a peripheral pain stimulus used to assess spinal cord or limb nerve function. A limb-specific response helps localize injury.",
+    "additional": "Sternal rub, orbital pressure, and SCM squeeze are central stimuli. Nail bed pressure is for limb-specific testing. Always document stimulus and response clearly. Reference: Brunner & Suddarth, Ch. 60."
+  },
+  {
+    "question": "The nurse is evaluating the neurological signs of a client in spinal shock following spinal cord injury. Which observation indicates that spinal shock persists?",
+    "options": {
+      "A": "Hyperreflexia",
+      "B": "Positive reflexes",
+      "C": "Flaccid paralysis",
+      "D": "Reflex emptying of the bladder"
+    },
+    "answer": "C",
+    "explanation": "Flaccid paralysis indicates the spinal cord is still in shock. Reflexes and tone are absent. The condition is temporary and resolves when reflexes return.",
+    "additional": "Hyperreflexia, reflex bladder emptying, and positive reflexes all indicate spinal shock is resolving. Know the difference between spinal shock and neurogenic shock. Reference: Brunner & Suddarth, Ch. 61."
+  },
+  {
+    "question": "The nurse has instructed the family of a client with stroke (brain attack) who has homonymous hemianopsia about measures to help the client overcome the deficit. Which statement suggests that the family understands the measures to use when caring for the client?",
+    "options": {
+      "A": "We need to discourage him from wearing eyeglasses.",
+      "B": "We need to place objects in his impaired field of vision.",
+      "C": "We need to approach him from the impaired field of vision.",
+      "D": "We need to remind him to turn his head to scan the lost visual field."
+    },
+    "answer": "D",
+    "explanation": "Homonymous hemianopsia is the loss of half of the visual field in both eyes. Teaching the patient to turn their head to scan the missing field compensates for the visual loss and reduces safety risks.",
+    "additional": "Placing objects or approaching from the impaired side can increase neglect and lead to injury. Encourage scanning behavior instead. Eyeglasses are unrelated to the neurological visual deficit. Reference: Brunner & Suddarth, Ch. 62."
+  },
+  {
+    "question": "The nurse is teaching a client with myasthenia gravis about the prevention of myasthenic and cholinergic crisis. Which client activity suggests that teaching is most effective?",
+    "options": {
+      "A": "Taking medications as scheduled",
+      "B": "Eating large, well-balanced meals",
+      "C": "Doing muscle-strengthening exercises",
+      "D": "Doing all chores early in the day while less fatigued"
+    },
+    "answer": "A",
+    "explanation": "Taking anticholinesterase medications on a strict schedule helps maintain therapeutic blood levels and prevents myasthenic or cholinergic crises. Medication timing is key.",
+    "additional": "Large meals fatigue the patient. Strenuous exercise worsens weakness. Doing chores early helps conserve energy, but it does not directly prevent crises. Reference: Brunner & Suddarth, Ch. 63."
+  },
+  {
+    "question": "The nurse has given suggestions to a client with trigeminal neuralgia about strategies to minimize episodes of pain. The nurse determines that the client needs further teaching if the client makes which statement?",
+    "options": {
+      "A": "I will wash my face with cotton pads.",
+      "B": "I’ll have to start chewing on my unaffected side.",
+      "C": "I should not rinse my mouth if toothbrushing is painful.",
+      "D": "I should rinse my mouth if toothbrushing is painful."
+    },
+    "answer": "C",
+    "explanation": "Oral hygiene must still be maintained in trigeminal neuralgia, even if brushing is painful. Rinsing with lukewarm mouthwash is a safe alternative and should not be avoided.",
+    "additional": "Soft cotton for washing and chewing on the unaffected side help prevent triggering pain. Option D is correct behavior. Reference: Brunner & Suddarth, Ch. 63."
+  },
+  {
+    "question": "The client is admitted to the hospital with a diagnosis of Guillain-Barré syndrome. Which past medical history finding makes the client most at risk for this disease?",
+    "options": {
+      "A": "Meningitis or encephalitis during the last 5 years",
+      "B": "Seizures or trauma to the brain within the last year",
+      "C": "Back injury or trauma to the spinal cord during the last 2 years",
+      "D": "Respiratory or gastrointestinal infection during the previous month"
+    },
+    "answer": "D",
+    "explanation": "Guillain-Barré syndrome (GBS) often follows a respiratory or gastrointestinal infection. In about two-thirds of cases, this type of infection is reported within 1 to 3 weeks before symptoms appear.",
+    "additional": "The most common trigger is Campylobacter jejuni. GBS causes ascending paralysis and can lead to respiratory failure if not monitored. Options A–C involve central nervous system disorders or trauma, which are not typical triggers of GBS. Reference: Brunner & Suddarth, Ch. 63."
+  },
+  {
+    "question": "A client has a neurological deficit involving the limbic system. On assessment, which finding is specific to this type of deficit?",
+    "options": {
+      "A": "Is disoriented to person, place, and time",
+      "B": "Affect is flat, with periods of emotional lability",
+      "C": "Cannot recall what was eaten for breakfast today",
+      "D": "Demonstrates inability to add and subtract; does not know who is the president of the United States"
+    },
+    "answer": "B",
+    "explanation": "The limbic system controls emotion and mood. A flat affect and emotional lability are hallmark signs of dysfunction in this area of the brain.",
+    "additional": "The amygdala and hippocampus are key structures. Disorientation and poor memory may be broader cortical issues. Acalculia and general knowledge deficits are linked to parietal and frontal lobe dysfunction. Reference: Brunner & Suddarth, Ch. 60."
+  },
+  {
+    "question": "The nurse is evaluating the status of a client who had a craniotomy 3 days ago. Which assessment finding would indicate that the client is developing meningitis as a complication of surgery?",
+    "options": {
+      "A": "A negative Kernig’s sign",
+      "B": "Absence of nuchal rigidity",
+      "C": "A positive Brudzinski’s sign",
+      "D": "A Glasgow Coma Scale score of 15"
+    },
+    "answer": "C",
+    "explanation": "A positive Brudzinski’s sign—when neck flexion causes involuntary hip and knee flexion—is a classic indicator of meningeal irritation, suggesting possible meningitis.",
+    "additional": "Other signs include fever, photophobia, headache, and nuchal rigidity. A GCS of 15 indicates normal neurologic function. Diagnosis is confirmed via lumbar puncture. Reference: Brunner & Suddarth, Ch. 63."
+  },
+  {
+    "question": "The nurse is admitting a client with Guillain-Barré syndrome to the nursing unit. The client has ascending paralysis to the level of the waist. Knowing the complications of the disorder, the nurse should bring which most essential items into the client’s room?",
+    "options": {
+      "A": "Nebulizer and pulse oximeter",
+      "B": "Blood pressure cuff and flashlight",
+      "C": "Flashlight and incentive spirometer",
+      "D": "Electrocardiographic monitoring electrodes and intubation tray"
+    },
+    "answer": "D",
+    "explanation": "The two most life-threatening complications of Guillain-Barré Syndrome (GBS) are respiratory failure and cardiac dysrhythmias (due to autonomic dysfunction).",
+    "additional": "An intubation tray prepares for airway collapse from muscle paralysis. ECG electrodes allow for continuous cardiac monitoring in case of autonomic dysfunction. Other options, while supportive, are not the priority during the acute phase of ascending paralysis. Reference: Brunner & Suddarth, Ch. 63."
+  },
+  {
+    "question": "A male client is having a lumbar puncture performed. The nurse would plan to place the client in which position?",
+    "options": {
+      "A": "Side lying with pillow under the hip",
+      "B": "Prone, with a pillow under the abdomen",
+      "C": "Prone, in slight Trendelenburg position",
+      "D": "Side-lying with legs pulled up and bent down onto chest"
+    },
+    "answer": "D",
+    "explanation": "The standard position for lumbar puncture is the side-lying fetal position. Pulling the knees to the chest and chin to the chest curves the spine, opening intervertebral spaces.",
+    "additional": "This posture facilitates safe and accurate access to the subarachnoid space. Other positions are either ineffective (A), obstructive (B), or completely incorrect for an LP (C). Reference: Brunner & Suddarth, Ch. 60."
+  },
+  {
+    "question": "The nurse is positioning the female client with increased intracranial pressure. Which of the following positions would the nurse avoid?",
+    "options": {
+      "A": "Head midline",
+      "B": "Head turned to the side",
+      "C": "Neck in neutral position",
+      "D": "Head of bed elevated 30 to 45 degrees"
+    },
+    "answer": "B",
+    "explanation": "Turning the head compresses jugular veins, reducing venous drainage from the brain and increasing ICP. The head must be midline and neutral.",
+    "additional": "Positioning with HOB elevated to 30° and no hip flexion ensures optimal venous return from the brain and avoids raising ICP. Reference: Brunner & Suddarth, Ch. 61."
+  },
+  {
+    "question": "The nurse is caring for the male client who begins to experience seizure activity while in bed. Which of the following actions by the nurse would be contraindicated?",
+    "options": {
+      "A": "Loosening restrictive clothing",
+      "B": "Restraining the client’s limbs",
+      "C": "Removing the pillow and raising padded side rails",
+      "D": "Positioning the client to side, if possible, with the head flexed forward"
+    },
+    "answer": "B",
+    "explanation": "This is the most clearly and universally contraindicated action during a seizure. The tonic-clonic movements are powerful and involuntary. Attempting to restrain or hold the client down works against these strong muscle contractions and can lead to serious musculoskeletal injury, such as sprains, dislocations, or even fractures. The guiding principle is to protect the client from injury, not to stop the seizure movements.",
+    "additional": "Loosening restrictive clothing (A) is correct for airway safety. Option C is confusing—removing a pillow can be wrong unless it's blocking the airway, while raising padded rails is a good action. Option D has a flaw: turning to the side is good, but flexing the head forward could obstruct the airway. Option B is the only universally wrong action. Do NOT restrain during seizures. Reference: Brunner & Suddarth, Ch. 63."
+  },
+  {
+    "question": "The nurse is assigned to care for a female client with complete right-sided hemiparesis. The nurse plans care knowing that this condition:",
+    "options": {
+      "A": "the client has complete bilateral paralysis of arms and legs",
+      "B": "the client has weakness on the right side of the body including the face and tongue",
+      "C": "the client has lost the ability to move the right arm but is able to walk independently",
+      "D": "the client has lost the ability to move the left arm but is able to walk independently"
+    },
+    "answer": "B",
+    "explanation": "Right-sided hemiparesis means weakness (not complete paralysis) on the right side of the body. It typically affects the arm, leg, face, and tongue. This is most often the result of a stroke on the opposite (left) cerebral hemisphere.",
+    "additional": "Option A describes quadriplegia. Option C implies 'plegia' and underestimates leg involvement. Option D conflicts with 'right-sided' weakness. Remember: 'Hemi' = one side, 'paresis' = weakness, 'plegia' = paralysis. Also, contralateral brain control is key in stroke signs. Reference: Brunner & Suddarth, Ch. 62."
+  },
+  {
+    "question": "A female client has experienced an episode of myasthenic crisis. The nurse would assess whether the client has precipitating factors such as:",
+    "options": {
+      "A": "getting too little exercise",
+      "B": "taking excess medication - (will cause cholinergic crisis instead)",
+      "C": "omitting doses of medication",
+      "D": "increasing intake of fatty foods"
+    },
+    "answer": "C",
+    "explanation": "A myasthenic crisis is an exacerbation of myasthenia gravis characterized by severe muscle weakness that can lead to respiratory failure. It is caused by insufficient anticholinesterase medication, most commonly due to omitted or missed doses.",
+    "additional": "Option A is not a trigger. Option B describes cholinergic crisis. Option D is irrelevant. Other known triggers of myasthenic crisis include infection (especially respiratory), surgery, emotional stress, and certain medications. Airway management is always the top priority. Reference: Brunner & Suddarth, Ch. 63."
+  },
+  {
+    "question": "A male client has an impairment of cranial nerve II. Specific to this impairment, the nurse would plan to do which of the following to ensure client safety?",
+    "options": {
+      "A": "Speak loudly to the client",
+      "B": "Test the temperature of the shower water",
+      "C": "Check the temperature of the food on the delivery tray",
+      "D": "Provide a clear path for ambulation without obstacles"
+    },
+    "answer": "D",
+    "explanation": "Cranial Nerve II is the Optic Nerve, which is responsible for vision. A patient with impairment of this nerve will have some degree of visual deficit, ranging from blurred vision to visual field loss to complete blindness. The greatest risk for a person with a visual impairment is injury from falls or bumping into objects. Therefore, the most important safety intervention is to ensure the environment is safe and predictable by providing a clear, uncluttered path for ambulation.",
+    "additional": "Speaking loudly (A) is for CN VIII hearing deficits. Testing temperature of water or food (B and C) relates to sensory deficits or peripheral neuropathy. Safety tips for vision loss include using clock face orientation, consistent layout, good lighting, and guided ambulation. Visual acuity is tested with a Snellen chart. Reference: Brunner & Suddarth, Ch. 64 and Ch. 60."
+  },
+  {
+    "question": "A male client is having a tonic-clonic seizure. What should the nurse do first?",
+    "options": {
+      "A": "Elevate the head of the bed",
+      "B": "Restrain the client’s arms and legs",
+      "C": "Place a tongue blade in the client’s mouth",
+      "D": "Take measures to prevent injury"
+    },
+    "answer": "D",
+    "explanation": "This option represents the overarching principle of seizure management. Patient safety is the absolute first priority. All initial actions are aimed at protecting the client from harm. This includes protecting the head, clearing the area of hazards, and preventing falls. The other options are either specific actions that fall under this umbrella or are contraindicated. 'Take measures to prevent injury' is the most comprehensive and correct initial goal.",
+    "additional": "A: HOB elevation is not helpful during seizures. B: Restraint is contraindicated. C: Inserting anything into the mouth is dangerous. For 'first' actions, think safety and airway. Reference: Brunner & Suddarth, Ch. 63."
+  },
+  {
+    "question": "The nurse is teaching the female client with myasthenia gravis about the prevention of myasthenic and cholinergic crises. The nurse tells the client that this is most effectively done by:",
+    "options": {
+      "A": "Eating large, well-balanced meals",
+      "B": "Doing muscle -strengthening exercises",
+      "C": "Doing all chores early in the day while less fatigued",
+      "D": "Taking medications on time to maintain therapeutic blood levels"
+    },
+    "answer": "D",
+    "explanation": "This question is a repeat of Type 3, Q9, emphasizing a critical concept. Both myasthenic and cholinergic crises are directly related to the level of anticholinesterase medication in the body. Myasthenic Crisis = Too little medication. Cholinergic Crisis = Too much medication. The only way to prevent these dangerous fluctuations is to maintain a stable, therapeutic drug level. This is achieved by strict adherence to the medication schedule—taking the correct dose at the prescribed time, every time. This is the most effective preventative strategy.",
+    "additional": "A: Large meals are not recommended. B: Overexertion worsens symptoms. C: Energy conservation is good, but not the direct method to prevent crises. Key education: strict medication timing and early detection of crises. Reference: Brunner & Suddarth, Ch. 63. Crisis comparison table included in source."
+  },
+  {
+    "question": "The neurons of the motor pathway control:",
+    "options": {
+      "A": "Stress reaction",
+      "B": "Organs and glands",
+      "C": "Involuntary muscles",
+      "D": "Voluntary muscles"
+    },
+    "answer": "D",
+    "explanation": "The nervous system is broadly divided into motor (efferent) pathways and sensory (afferent) pathways. The motor pathways are further divided. The term 'motor pathway' in this context most commonly refers to the somatic nervous system, which is responsible for carrying signals from the brain and spinal cord to the skeletal muscles. These are the muscles we have conscious control over, hence they are voluntary muscles. This pathway allows for all purposeful movement, from walking to writing.",
+    "additional": "B and C describe autonomic nervous system (ANS) functions. A stress reaction is mediated by the sympathetic nervous system and endocrine system. The motor division of the PNS includes somatic (voluntary) and autonomic (involuntary) systems. Reference: Brunner & Suddarth's Textbook of Medical-Surgical Nursing, 14th Ed., Chapter 60."
+  },
+  {
+    "question": "The area of the brain which is involved in the understanding of meaning is:",
+    "options": {
+      "A": "Broca’s area",
+      "B": "Association areas",
+      "C": "Wernicke area",
+      "D": "Motor speech area"
+    },
+    "answer": "C",
+    "explanation": "Wernicke's area, located in the posterior part of the temporal lobe (usually on the left side), is the primary center for language comprehension. It is responsible for interpreting and understanding the meaning of both spoken and written language. Damage to this area results in receptive aphasia, where the person can hear the words or see the text but cannot make sense of their meaning.",
+    "additional": "Broca's area (A, D) is responsible for speech production, not comprehension. Association areas (B) are involved in integration and cognition but not specifically language understanding. Wernicke’s = comprehension. Broca’s = expression. Reference: Brunner & Suddarth’s, Ch. 62, 'Aphasia' section."
+  },
+  {
+    "question": "Parkinson’s disease, is caused by the degeneration of neurons in an area of the brain called the:",
+    "options": {
+      "A": "Substantia nigra",
+      "B": "Basal ganglia",
+      "C": "Cerebellum",
+      "D": "Corpus callosum"
+    },
+    "answer": "A",
+    "explanation": "Parkinson's disease is a neurodegenerative disorder primarily caused by the death of dopamine-producing (dopaminergic) neurons in a specific part of the midbrain called the substantia nigra. Dopamine is a crucial neurotransmitter that helps to regulate movement. The loss of dopamine disrupts the normal balance with acetylcholine in the basal ganglia, leading to the classic motor symptoms of Parkinson's.",
+    "additional": "Basal ganglia (B) is broader; substantia nigra (A) is the exact site. Cerebellum (C) controls coordination; corpus callosum (D) connects hemispheres. TRAP symptoms: Tremor, Rigidity, Akinesia/Bradykinesia, Postural Instability. First-line drug: Levodopa-carbidopa. Reference: Brunner & Suddarth’s, Ch. 64, 'Parkinson’s Disease' section."
+  },
+  {
+    "question": "The division of the nervous system which controls the involuntary muscles, organs, and glands is:",
+    "options": {
+      "A": "Somatic nervous system",
+      "B": "Autonomic nervous system",
+      "C": "Central nervous system",
+      "D": "The motor pathway of the CNS"
+    },
+    "answer": "B",
+    "explanation": "This question is a direct test of the definition of the divisions of the nervous system. The Autonomic Nervous System (ANS) is the part of the peripheral nervous system that operates without conscious control. It regulates visceral functions essential for life, such as heart rate, digestion, respiratory rate, and glandular secretion, by controlling involuntary muscles (smooth muscle in organs and blood vessels, cardiac muscle) and glands.",
+    "additional": "The Somatic nervous system (A) controls voluntary skeletal muscles. The CNS (C) is the main processing center, not the specific controller of involuntary structures. Option D is too broad—both the somatic and autonomic systems are motor pathways. The ANS has two branches: Sympathetic (fight or flight) and Parasympathetic (rest and digest). Reference: Brunner & Suddarth, 14th Ed., Chapter 60, 'Autonomic Nervous System'."
+  },
+  {
+    "question": "Parasympathetic system is also called",
+    "options": {
+      "A": "Fight or flight system",
+      "B": "Eat-drink and rest system",
+      "C": "Autonomic nervous system",
+      "D": "Somatic nervous system"
+    },
+    "answer": "B",
+    "explanation": "This question asks for the common functional name for the parasympathetic nervous system. Its role is to conserve energy and manage bodily functions during times of rest and recovery. This includes stimulating digestion ('eat-drink'), slowing the heart rate ('rest'), and other non-emergency functions. The phrase 'rest and digest' is the most common mnemonic, and 'eat-drink and rest' conveys the same principle.",
+    "additional": "Fight or flight (A) = Sympathetic. Autonomic nervous system (C) includes both parasympathetic and sympathetic. Somatic nervous system (D) controls voluntary skeletal muscles. Mnemonics: Parasympathetic = 'D' Division (Digestion, Diuresis, Defecation); Sympathetic = 'E' Division (Exercise, Emergency, Excitement). Reference: Brunner & Suddarth, 14th Ed., Chapter 60, 'Parasympathetic Nervous System'."
+  },
+  {
+    "question": "A condition, causing the affected person to be unable to understand or comprehend the language (poor comprehension) with intact repetition (fluent output) is termed as:",
+    "options": {
+      "A": "Broca’s aphasia",
+      "B": "Global aphasia",
+      "C": "Wernicke’s aphasia",
+      "D": "Conduction aphasia"
+    },
+    "answer": "C",
+    "explanation": "The defining characteristic of Wernicke's aphasia is a profound deficit in language comprehension. The patient cannot understand what is being said to them or what they are reading. This is why it's also called receptive aphasia. Although their speech is fluent (fluent output), it is often nonsensical and filled with errors ('word salad') because they cannot comprehend their own output to self-correct.",
+    "additional": "The phrase 'intact repetition' is misleading—Wernicke's typically includes poor repetition. Conduction aphasia = fluent speech + good comprehension + poor repetition. Broca's = poor expression, good comprehension. Global = everything impaired. NCK may describe a patient who speaks fluently but nonsensically and cannot follow commands—that’s Wernicke’s aphasia. Reference: Brunner & Suddarth, 14th Ed., Chapter 62, Table 62-4, 'Types of Aphasia'."
+  },
+  {
+    "question": "A client is unconscious following a tonic-clonic seizure. What should the nurse do FIRST?",
+    "options": {
+      "A": "Place the client in a side-lying position",
+      "B": "Check the pulse",
+      "C": "Administer Valium",
+      "D": "Place a tongue blade in the mouth (Never do this! Places client in danger!)"
+    },
+    "answer": "A",
+    "explanation": "The period immediately following a seizure is called the postictal phase. During this time, the client is often unconscious or very drowsy, and their gag reflex may be impaired. The absolute priority is to maintain a patent airway and prevent aspiration of saliva, vomit, or other secretions. Placing the client in a side-lying (recovery) position allows secretions to drain out of the mouth by gravity instead of pooling in the back of the throat and being aspirated into the lungs. This is a critical safety measure based on the ABCs (Airway, Breathing, Circulation).",
+    "additional": "Checking the pulse (B) is important for circulation but comes after airway protection. Administering Valium (C) is for active seizures, not the postictal phase. Placing a tongue blade (D) is dangerous and contraindicated. Postictal care involves airway management, neurologic checks, reorientation, comfort, and safety. Reference: Brunner & Suddarth's, 14th Ed., Chapter 63: 'Nursing Management After a Seizure'."
+  },
+  {
+    "question": "The nurse enters the room as the client is beginning to have a tonic-clonic seizure. What action should the nurse implement first?",
+    "options": {
+      "A": "Determine if the client is incontinent of urine or stool.",
+      "B": "Provide the client with privacy during the seizure.",
+      "C": "Note the first thing the client does in the seizure.",
+      "D": "Assess the size of the client’s pupils."
+    },
+    "answer": "C",
+    "explanation": "While ensuring safety is the top action, this question presents a list of assessments or observations. The initial manifestation of a seizure (where it starts and how it progresses) provides critical diagnostic clues about the location of the seizure's origin in the brain (the seizure focus). This is vital information for the neurologist. Therefore, the nurse's first observational act should be to note the time of onset and exactly what happened first (e.g., 'head turned to the left,' 'eyes deviated to the right,' 'jerking began in the right hand').",
+    "additional": "Incontinence (A) and pupil size (D) are noted later. Privacy (B) is not the priority over critical clinical observations. Observation of the initial manifestation is vital for diagnosis. When questions ask for the first *action*, safety is key. When they ask for the first *observation*, it’s about diagnostic value. Reference: Brunner & Suddarth's, 14th Ed., Chapter 63: 'Nursing Management During a Seizure'."
+  },
+  {
+    "question": "The nurse is teaching a class on the prevention of cerebrovascular accidents. Which of the following risk factors should the nurse identify as the most important factor contributing to a stroke?",
+    "options": {
+      "A": "Sedentary lifestyle",
+      "B": "Smoking",
+      "C": "Obesity",
+      "D": "Hypertension"
+    },
+    "answer": "D",
+    "explanation": "While all the options listed are significant modifiable risk factors for stroke, hypertension (high blood pressure) is considered the single most important and controllable risk factor. Chronic, uncontrolled hypertension damages the lining of cerebral arteries, making them weak and prone to rupture (hemorrhagic stroke) or promoting the development of atherosclerosis, which can lead to blockage (ischemic stroke). Adequately controlling blood pressure can reduce the risk of stroke by up to 50%.",
+    "additional": "Sedentary lifestyle, smoking, and obesity all contribute to stroke risk but often through worsening hypertension. Other key modifiable risks: A-fib (cardioembolic stroke risk), diabetes, hyperlipidemia. NCK may test the most important overall risk factor (hypertension), or give a scenario (e.g., uncontrolled A-fib) and ask for stroke risk. Reference: Brunner & Suddarth's, 14th Ed., Chapter 62: 'Risk Factors' for ischemic stroke."
+  },
+  {
+    "question": "The nurse is assessing a 37-year-old client diagnosed with multiple sclerosis. Which of the following symptoms would the nurse expect to find?",
+    "options": {
+      "A": "Flaccid muscles",
+      "B": "Tremors at rest",
+      "C": "Absent deep tendon reflexes",
+      "D": "Vision changes"
+    },
+    "answer": "D",
+    "explanation": "Multiple Sclerosis (MS) is an autoimmune disease where the body attacks the myelin sheath of nerves in the central nervous system (CNS). The optic nerve is part of the CNS and is very commonly one of the first and most frequently affected areas in MS. Inflammation of the optic nerve (optic neuritis) causes symptoms like blurred vision, double vision (diplopia), pain with eye movement, or central visual field defects (scotoma). Vision changes are a classic and often initial manifestation of MS.",
+    "additional": "Flaccid muscles and absent reflexes are signs of lower motor neuron diseases, not MS. Tremors at rest are typical of Parkinson’s, not MS. MS features intention tremors, spasticity, sensory issues, and fatigue. Reference: Brunner & Suddarth's, 14th Ed., Chapter 63: 'Multiple Sclerosis'."
+  },
+  {
+    "question": "If a male client experienced a cerebrovascular accident (CVA) that damaged the hypothalamus, the nurse would anticipate that the client has problems with:",
+    "options": {
+      "A": "Thinking and reasoning",
+      "B": "Body temperature control",
+      "C": "Balance and equilibrium",
+      "D": "Visual acuity"
+    },
+    "answer": "B",
+    "explanation": "The hypothalamus is the brain's primary regulatory center for the autonomic nervous system and the endocrine system. It acts as the body's thermostat. One of its most critical functions is maintaining thermoregulation (body temperature control). Damage to the hypothalamus can lead to problems with either hyperthermia or hypothermia because the body’s ability to respond to temperature changes is impaired.",
+    "additional": "Thinking is controlled by the frontal lobe (A), balance by the cerebellum and vestibular system (C), and vision by the occipital lobe (D). Hypothalamic functions include temperature, hunger, thirst, fluid balance, and circadian rhythm. Reference: Brunner & Suddarth's, 14th Ed., Chapter 60: 'The Diencephalon'."
+  },
+  {
+    "question": "During recovery from a cerebrovascular accident (CVA), a female client is given nothing by mouth, to help prevent aspiration. To determine when the client is ready for a liquid diet, the nurse assesses the client’s swallowing ability once each shift. This assessment evaluates:",
+    "options": {
+      "A": "Cranial nerves III and V",
+      "B": "Cranial nerves IX and X",
+      "C": "Cranial nerves I and II",
+      "D": "Cranial nerves VI and VIII"
+    },
+    "answer": "B",
+    "explanation": "A safe and coordinated swallow is a complex process involving several cranial nerves, but the most important ones for the pharyngeal phase of swallowing are IX and X. CN IX (Glossopharyngeal) triggers the gag and swallow reflex. CN X (Vagus) moves the pharynx and larynx to prevent aspiration. Damage can lead to dysphagia, a major risk for aspiration.",
+    "additional": "CN III is for eye movement, CN V for chewing (oral phase), CN I for smell, CN II for vision, CN VI for eye movement, and CN VIII for balance. Reference: Brunner & Suddarth's, 14th Ed., Chapter 62: 'Preventing Aspiration'."
+  },
+  {
+    "question": "After striking his head on a tree while falling from a ladder, a young man age 18 is admitted to the emergency department. He’s unconscious and his pupils are nonreactive. Which intervention would be the most dangerous for the client?",
+    "options": {
+      "A": "Perform lumbar puncture",
+      "B": "Elevate the head of his bed",
+      "C": "Give him a barbiturate",
+      "D": "Place him on mechanical ventilation"
+    },
+    "answer": "A",
+    "explanation": "The patient's signs (unconsciousness, nonreactive pupils) are classic indicators of severely increased intracranial pressure (ICP). A lumbar puncture (LP) is absolutely contraindicated in a patient with high ICP. Performing an LP can create a pressure gradient that causes brain herniation through the foramen magnum. This is rapidly fatal due to compression of brainstem centers for breathing and heartbeat.",
+    "additional": "Elevating the head (B) and mechanical ventilation (D) are therapeutic. Barbiturates (C) can reduce ICP. Always scan for high ICP before LP. Reference: Brunner & Suddarth's, 14th Ed., Chapter 60 & 61: 'Neurologic Function' and 'Management of IICP'."
+  },
+  {
+    "question": "A male client is admitted with a cervical spine injury sustained during a diving accident. When planning this client’s care, the nurse should assign highest priority to which nursing diagnosis?",
+    "options": {
+      "A": "Disturbed sensory perception (tactile)",
+      "B": "Self-care deficit: dressing /grooming",
+      "C": "Impaired physical mobility",
+      "D": "Ineffective breathing pattern"
+    },
+    "answer": "D",
+    "explanation": "According to Maslow's hierarchy of needs and the ABCs (Airway, Breathing, Circulation), maintaining a patent airway and adequate breathing is always the highest priority. A cervical spine injury, particularly high cervical (C1-C4), may impair the phrenic nerve (C3-C5) and paralyze the diaphragm. This makes 'Ineffective breathing pattern' the most urgent concern.",
+    "additional": "Other diagnoses are valid but not life-threatening. Respiratory compromise from high cervical injury can cause respiratory arrest. Reference: Brunner & Suddarth's, 14th Ed., Chapter 61."
+  },
+  {
+    "question": "Demyelination is defined as:",
+    "options": {
+      "A": "Loss of an axon in a neuron",
+      "B": "Loss of dendrites in a neuron",
+      "C": "Loss of protective sheath surrounding neurons",
+      "D": "Loss of connective tissue between neurons"
+    },
+    "answer": "C",
+    "explanation": "The myelin sheath is a fatty insulating layer that wraps around axons, promoting fast and efficient nerve impulse conduction. Demyelination refers to the damage or loss of this protective sheath, disrupting nerve signals.",
+    "additional": "Axonal loss is a different pathology. MS and GBS are classic demyelinating disorders. Reference: Brunner & Suddarth's, 14th Ed., Chapters 60 & 63."
+  },
+  {
+    "question": "Failure of muscle coordination, including unsteady movements and staggering walk, due to disorders in the cerebellum is called?",
+    "options": {
+      "A": "Anoxia",
+      "B": "Dyslexia",
+      "C": "Paraplegia",
+      "D": "Ataxia"
+    },
+    "answer": "D",
+    "explanation": "Ataxia is the hallmark of cerebellar dysfunction. It refers to the lack of voluntary coordination of muscle movements, leading to staggering, jerky movements and unsteady gait.",
+    "additional": "Other signs: dysdiadochokinesia, positive Romberg, poor balance. Reference: Brunner & Suddarth's, 14th Ed., Chapter 60."
+  },
+  {
+    "question": "Which part of the brain regulates heartbeat, breathing and other vital functions?",
+    "options": {
+      "A": "Grey matter",
+      "B": "Brain stem",
+      "C": "Occipital lobe",
+      "D": "White matter"
+    },
+    "answer": "B",
+    "explanation": "The brainstem—especially the medulla oblongata—controls heartbeat, respiration, blood pressure, and reflexes like coughing and sneezing. It is the body's vital function center.",
+    "additional": "Damage to the brainstem is often fatal. Reference: Brunner & Suddarth's, 14th Ed., Chapter 60: 'The Brainstem'."
+  },
+  {
+    "question": "Common complications of spinal cord injury include each of the following EXCEPT?",
+    "options": {
+      "A": "Pressure sores",
+      "B": "Deep vein thrombosis",
+      "C": "Diarrhoea",
+      "D": "Urinary Tract infections"
+    },
+    "answer": "C",
+    "explanation": "Spinal cord injury often leads to paralytic ileus and neurogenic bowel—resulting in constipation, not diarrhea. Diarrhea is not a typical complication.",
+    "additional": "Common complications: DVT, pressure sores, pneumonia, UTI, autonomic dysreflexia. Reference: Brunner & Suddarth's, 14th Ed., Chapter 61."
+  },
+  {
+    "question": "Broca’s area is located in the",
+    "options": {
+      "A": "Brain stem",
+      "B": "Frontal lobe",
+      "C": "Parietal lobe",
+      "D": "Temporal lobe"
+    },
+    "answer": "B",
+    "explanation": "Broca’s area is the motor speech area that controls verbal expression. Located in the posterior inferior frontal lobe (usually left hemisphere), damage causes expressive aphasia (can’t speak fluently).",
+    "additional": "Mnemonic: Broca = Broken speech = Frontal lobe. Reference: Brunner & Suddarth's, 14th Ed., Chapter 60."
+  },
+  {
+    "question": "Wernicke area is located in the",
+    "options": {
+      "A": "Brain stem",
+      "B": "Parietal lobe",
+      "C": "Temporal lobe",
+      "D": "Frontal lobe"
+    },
+    "answer": "C",
+    "explanation": "Wernicke’s area is in the temporal lobe and is responsible for language comprehension. Damage causes receptive aphasia—fluent but nonsensical speech and impaired understanding.",
+    "additional": "Mnemonic: Wernicke = Weird words = Temporal lobe. Reference: Brunner & Suddarth's, 14th Ed., Chapter 60."
   }
 ]
+
+
+
+
+
+
+
+
 
