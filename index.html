@@ -539,5 +539,34 @@ Let’s grow together and be the difference the world needs.</p>
     'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdicWd0bnVrb3VjeGFnc3dxc3B4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTA4ODcwNTAsImV4cCI6MjA2NjQ2MzA1MH0.uHqKZ-KnW1sv7CSD37D6dh1qYfSLMznud947DEZI93Q'
   );
 </script>
+      <script>
+  document.addEventListener("DOMContentLoaded", async () => {
+    const { data: { session } } = await supabase.auth.getSession();
+    if (!session) {
+      window.location.href = "login.html";
+    }
+  });
+</script>
+      <script>
+  const logoutBtn = document.getElementById("logoutBtn");
+  if (logoutBtn) {
+    logoutBtn.addEventListener("click", async () => {
+      await supabase.auth.signOut();
+      window.location.href = "login.html";
+    });
+  }
+</script>
+<script>
+  document.addEventListener("DOMContentLoaded", async () => {
+    const { data: { session } } = await supabase.auth.getSession();
+    if (session) {
+      const userEmail = session.user.email;
+      const welcomeElement = document.querySelector("header h1");
+      if (welcomeElement) {
+        welcomeElement.innerHTML += `<br><small style="font-size:0.8rem;">Logged in as <strong>${userEmail}</strong></small>`;
+      }
+    }
+  });
+</script>
 </body>
 </html>
