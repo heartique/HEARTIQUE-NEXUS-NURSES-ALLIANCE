@@ -1,0 +1,74 @@
+[
+  {
+    "question": "A client with a cataract would most likely complain of,",
+    "options": {
+      "A": "Halos and rainbows around lights",
+      "B": "Eye pain and irritation that worsens at night",
+      "C": "Blurred and hazy vision",
+      "D": "Eye strain and headache when doing close work"
+    },
+    "answer": "C",
+    "explanation": "Rationale for Correct Answer (C): A cataract is a clouding or opacification of the eye's natural crystalline lens. The lens works to focus light onto the retina. When it becomes cloudy, light is scattered and cannot be focused clearly. This results in a gradual, painless loss of vision that patients often describe as looking through a 'hazy,' 'foggy,' or 'blurry' window. Colors may also seem faded or yellowed. This is the hallmark symptom.",
+    "additional": "Analysis of Incorrect Options: (A) Seeing halos around lights is the classic symptom of acute angle-closure glaucoma, which is caused by a sudden increase in intraocular pressure (IOP). This is a medical emergency. (B) Cataracts are painless. Eye pain and irritation are not characteristic symptoms. Pain is a red flag for other conditions like glaucoma, uveitis, or corneal abrasion. (D) Eye strain and headache with close work are symptoms of presbyopia (age-related difficulty with near vision) or uncorrected refractive errors.\n\nRisk Factors for Cataracts: The primary risk factor is advancing age. Other factors include diabetes, smoking, long-term corticosteroid use, and excessive sun exposure.\n\nTreatment: There are no eye drops or medications that cure cataracts. The only effective treatment is surgical removal of the cloudy lens, which is then replaced with a clear, artificial intraocular lens (IOL).\n\nPost-operative Care: Avoid activities that increase IOP (bending, straining, lifting heavy objects). Wear an eye shield, especially at night, to prevent accidental injury. Administer prescribed eye drops (antibiotic and anti-inflammatory) as taught. Report signs of complications, such as severe pain, a sharp decline in vision, or purulent discharge.\n\nTextbook Reference: Brunner & Suddarth's Textbook of Medical-Surgical Nursing, 14th Ed., Chapter 54: Management of Patients With Eye and Vision Disorders. See the section on \"Cataracts.\""
+  },
+  {
+    "question": "Open angle glaucoma is mainly treated using,",
+    "options": {
+      "A": "Proton pump inhibitors, quinolones and glycosides",
+      "B": "Antibiotics, osmotic diuretics and haematinics",
+      "C": "Miotics, Carbonic anhydrase inhibitors and epinephrine",
+      "D": "Stool softeners, anti-hypertensives and Miotics"
+    },
+    "answer": "C",
+    "explanation": "Rationale for Correct Answer (C): Primary Open-Angle Glaucoma (POAG) is a chronic, progressive optic neuropathy characterized by increased intraocular pressure (IOP) and gradual loss of peripheral vision. The goal of treatment is to lower IOP to prevent further damage to the optic nerve. This is achieved with eye drops that either decrease the production of aqueous humor or increase its outflow.\n\nMiotics (e.g., Pilocarpine): These drugs constrict the pupil (miosis), which pulls the iris away from the trabecular meshwork, increasing the outflow of aqueous humor.\n\nCarbonic Anhydrase Inhibitors (e.g., dorzolamide, acetazolamide): These drugs decrease the production of aqueous humor.\n\nEpinephrine/Adrenergic Agonists: These drugs have a dual mechanism, both increasing outflow and slightly decreasing production.",
+    "additional": "Note: While epinephrine is less common now, the other two drug classes are mainstays, making this the best option. Prostaglandin analogs are now the most common first-line treatment.\n\nAnalysis of Incorrect Options: (A), (B), & (D) contain drug classes that have no role in treating glaucoma. Proton pump inhibitors are for gastric acid. Antibiotics are for infection. Stool softeners are for constipation.\n\nModern Glaucoma Drug Classes:\n\nProstaglandin Analogs (e.g., latanoprost): Often first-line. They significantly increase aqueous humor outflow. A common side effect is a permanent change in iris color.\n\nBeta-Blockers (e.g., timolol): Very common. They decrease the production of aqueous humor. Use with caution in patients with asthma or bradycardia as they can be absorbed systemically.\n\nOpen-Angle vs. Angle-Closure Glaucoma:\n\nOpen-Angle: Chronic, painless, gradual loss of peripheral vision (\"tunnel vision\"). The drainage angle is open, but the trabecular meshwork is clogged.\n\nAngle-Closure: Acute, sudden, painful vision loss with halos around lights, nausea, and vomiting. The drainage angle is physically blocked by the iris. This is a medical emergency.\n\nPatient Education: Lifelong compliance with eye drop medication is essential to prevent blindness. Teach the patient how to instill drops correctly, including using punctal occlusion (pressing on the inner corner of the eye) to prevent systemic absorption.\n\nTextbook Reference: Brunner & Suddarth's Textbook of Medical-Surgical Nursing, 14th Ed., Chapter 54: Management of Patients With Eye and Vision Disorders. See the section on \"Glaucoma.\""
+  },
+  {
+    "question": "Conductive hearing loss can be caused by:",
+    "options": {
+      "A": "Ototoxic medication, otitis externa",
+      "B": "Presbycusis, ototoxic medication",
+      "C": "Meniere’s disease, otosclerosis",
+      "D": "Otosclerosis, tympanic membrane retraction"
+    },
+    "answer": "D",
+    "explanation": "Rationale for Correct Answer (D): Hearing loss is categorized into two main types: conductive and sensorineural.\n\nConductive Hearing Loss: Caused by any problem in the outer or middle ear that interferes with the physical conduction of sound waves to the inner ear.\n\nOtosclerosis: An abnormal growth of bone in the middle ear that \"fixes\" the stapes bone in place, preventing it from vibrating and transmitting sound.\n\nTympanic Membrane Retraction: The eardrum is pulled inward, often due to chronic negative pressure from eustachian tube dysfunction. This stiffens the eardrum and prevents it from vibrating properly.",
+    "additional": "Other causes include impacted cerumen (earwax), otitis externa (swelling of the ear canal), and otitis media (fluid in the middle ear).\n\nSensorineural Hearing Loss: Caused by damage to the inner ear (cochlea) or the auditory nerve (CN VIII).\n\nAnalysis of Incorrect Options:\n\n(A) Otitis externa causes conductive loss, but ototoxic medication (like gentamicin, furosemide, aspirin) damages the hair cells in the cochlea, causing sensorineural loss.\n\n(B) Presbycusis (age-related hearing loss) and ototoxic medication both cause sensorineural hearing loss.\n\n(C) Meniere's disease is a disorder of the inner ear that causes fluctuating sensorineural hearing loss, vertigo, and tinnitus. Otosclerosis causes conductive loss. This option mixes the two types.\n\nDifferentiating Conductive vs. Sensorineural Loss: This is done with tuning fork tests.\n\nRinne Test: Compares air conduction (AC) to bone conduction (BC). Normal: AC > BC. In conductive loss, BC > AC.\n\nWeber Test: Place a tuning fork on the midline of the head. Normal: sound is equal in both ears. In conductive loss, sound lateralizes to the bad ear. In sensorineural loss, sound lateralizes to the good ear.\n\nTreatment: Conductive hearing loss can often be corrected medically or surgically (e.g., removing wax, stapedectomy for otosclerosis). Sensorineural hearing loss is usually permanent and is managed with hearing aids or cochlear implants.\n\nTextbook Reference: Brunner & Suddarth's Textbook of Medical-Surgical Nursing, 14th Ed., Chapter 55: Assessment and Management of Patients With Hearing and Balance Disorders. See the section on \"Hearing Loss.\""
+  },
+  {
+    "question": "The vascular coat of eye ball that lies between the sclera and retina is",
+    "options": {
+      "A": "Uvea",
+      "B": "Iris",
+      "C": "Ciliary body",
+      "D": "Choroid"
+    },
+    "answer": "D",
+    "explanation": "Rationale for Correct Answer (D): The wall of the eyeball is composed of three layers or \"coats.\"\n\nOutermost Layer (Fibrous Tunic): The tough, white, protective sclera and the transparent anterior cornea.\n\nInnermost Layer (Neural Tunic): The light-sensitive retina.\n\nMiddle Layer (Vascular Tunic or Uvea): This layer lies between the sclera and the retina. It is rich in blood vessels that supply nutrients to the retina. The choroid is the posterior part of this vascular layer. It is a dark, pigmented membrane that nourishes the retina and absorbs stray light.",
+    "additional": "Analysis of Incorrect Options:\n\n(A) The Uvea is the name for the entire middle vascular layer. The uvea itself consists of three parts: the choroid (posteriorly), and the ciliary body and iris (anteriorly). So, while the choroid is part of the uvea, \"choroid\" is the specific name for the part that lies between the sclera and retina. It is the most precise answer.\n\n(B) The Iris is the colored part of the eye at the front that controls the size of the pupil.\n\n(C) The Ciliary body is also at the front of the eye. It produces aqueous humor and contains the ciliary muscle, which controls the shape of the lens for focusing (accommodation).\n\nAnatomy of the Eye: Be familiar with the main structures and their functions.\n\nCornea: Transparent outer layer, does most of the light refraction.\n\nLens: Fine-tunes focus for near/far vision (accommodation).\n\nRetina: Contains photoreceptors (rods and cones) that detect light.\n\nOptic Nerve (CN II): Transmits visual information from the retina to the brain.\n\nAqueous Humor: Fluid in the anterior chamber; its pressure is IOP.\n\nVitreous Humor: Gel-like substance that fills the posterior cavity, maintaining the shape of the eyeball.\n\nTextbook Reference: Brunner & Suddarth's Textbook of Medical-Surgical Nursing, 14th Ed., Chapter 54: Assessment and Management of Patients With Eye and Vision Disorders. See the section on \"Anatomy and Physiology of the Eye.\""
+  },
+  {
+    "question": "The early signs of cancer of the posterior nasal space include;",
+    "options": {
+      "A": "Proptosis, hearing loss",
+      "B": "Hearing loss, double vision",
+      "C": "Purulent nasal discharge, aphonia",
+      "D": "Anosmia, proptosis"
+    },
+    "answer": "B",
+    "explanation": "Rationale for Correct Answer (B): Cancer of the posterior nasal space (nasopharyngeal carcinoma) often presents with subtle or non-specific symptoms initially, frequently related to the invasion of nearby structures.\n\nHearing Loss: The Eustachian tube, which connects the middle ear to the nasopharynx to equalize pressure, opens into the lateral wall of the nasopharynx. A tumor in this location can easily block the Eustachian tube, causing fluid to accumulate in the middle ear (serous otitis media) and resulting in a conductive hearing loss. This is often one of the earliest signs.\n\nDouble Vision (Diplopia): The nasopharynx is located just below the base of the skull. A tumor can invade upward and affect the cranial nerves that control eye movement (CN III, IV, VI) as they pass through the cavernous sinus, leading to diplopia.",
+    "additional": "Analysis of Incorrect Options:\n\n(A) & (D) Proptosis (bulging of the eye) and anosmia (loss of smell) would be more characteristic of tumors in the nasal cavity or sinuses, not the posterior nasopharynx.\n\n(C) Purulent nasal discharge is a sign of infection (sinusitis). Aphonia (loss of voice) is related to the larynx/vocal cords, which is located much lower than the nasopharynx.\n\nOther Signs: A persistent lump in the neck (from metastatic spread to cervical lymph nodes) is another very common presenting sign. Nasal obstruction, nosebleeds (epistaxis), and headache can also occur.\n\nRisk Factors: Strongly associated with Epstein-Barr Virus (EBV) infection, particularly in people of Southern Chinese descent.\n\nTextbook Reference: This is a highly specialized topic. It would be found in Brunner & Suddarth's Textbook of Medical-Surgical Nursing, 14th Ed., within Chapter 23: Management of Patients With Chest and Lower Respiratory Tract Disorders, under the section for cancers of the nose and sinuses."
+  },
+  {
+    "question": "A client complains of decreasing peripheral vision and halos around lights. These manifestations are characteristics of;",
+    "options": {
+      "A": "Retinal detachment",
+      "B": "Open-angle glaucoma",
+      "C": "Cataract",
+      "D": "Macular degeneration"
+    },
+    "answer": "B",
+    "explanation": "Rationale for Correct Answer (B):\n\nDecreasing peripheral vision: This is the hallmark symptom of open-angle glaucoma. The increased intraocular pressure causes progressive damage to the optic nerve fibers. The peripheral nerve fibers are typically affected first, leading to a slow, painless loss of the outer visual field, often described as \"tunnel vision\" in the late stages.\n\nHalos around lights: This symptom is caused by corneal edema resulting from high IOP. While it is the classic sign of acute angle-closure glaucoma, it can also occur in patients with open-angle glaucoma if the pressure becomes significantly elevated. Given the combination, glaucoma is the best fit.",
+    "additional": "Analysis of Incorrect Options:\n\n(A) Retinal detachment typically presents with a sudden onset of floaters, flashes of light (photopsia), and a \"curtain\" or \"shadow\" coming across the field of vision. It is not a gradual loss of peripheral vision.\n\n(C) A cataract causes painless, blurry, or hazy vision, like looking through a fog. It does not cause peripheral vision loss or halos.\n\n(D) Macular degeneration affects the macula, which is the center of the retina responsible for sharp, central vision. Therefore, its classic symptom is a loss of central vision (e.g., a blurry or dark spot in the middle of what you are looking at), not peripheral vision.\n\nTextbook Reference: Brunner & Suddarth's Textbook of Medical-Surgical Nursing, 14th Ed., Chapter 54: Management of Patients With Eye and Vision Disorders. See the sections on \"Glaucoma,\" \"Cataract,\" and \"Retinal Detachment.\""
+  }
+]
