@@ -14,16 +14,23 @@
 
   <script>
     document.getElementById("loginBtn").addEventListener("click", async () => {
-      const email = document.getElementById("email").value
-      const password = document.getElementById("password").value
+  const email = document.getElementById("email").value;
+  const password = document.getElementById("password").value;
 
-      const { error } = await supabase.auth.signInWithPassword({ email, password })
+  const { error } = await supabase.auth.signInWithPassword({ email, password });
 
-      if (error) {
-        alert("Login failed: " + error.message)
-      } else {
-        // Redirect to home page after login
-        window.location.href = "index.html"
+  if (error) {
+    alert("Login failed: " + error.message);
+  } else {
+    // Wait for Supabase to store the session
+    const { data: { session } } = await supabase.auth.getSession();
+    if (session) {
+      window.location.href = "index.html";
+    } else {
+      alert("Login succeeded but session not established yet.");
+    }
+  }
+});
       }
     })
   </script>
