@@ -274,6 +274,150 @@
     "answer": "A",
     "explanation": "Korotkoff sounds are classified into five phases: Phase I (Tapping) is the systolic pressure; Phase II (Swishing) is softer as flow resumes; Phase III (Knocking) is louder and clearer; Phase IV (Muffling) indicates near-diastolic pressure; and Phase V (Silence) marks diastolic pressure.",
     "additional": "Incorrect sequences confuse the standardized phases. Be aware of the auscultatory gap, a silence between Phase II and III in hypertensive patients. Proper BP technique includes correct cuff size, resting 5 minutes prior, arm at heart level, and slow deflation (2–3 mmHg/s). NCK might test order of sounds or ask for technique flaws. Reference: Brunner & Suddarth, 14th Ed., Ch. 25."
+  },
+  {
+    "question": "A nurse is caring for a client admitted 2 days ago with myocardial infarction. Upon assessment the nurse notes a new systolic murmur at the cardiac apex. The nurse should assess the client for which of the following conditions?",
+    "options": {
+      "A": "Ventricular aneurysm",
+      "B": "Acute pericarditis",
+      "C": "Papillary muscle dysfunction",
+      "D": "Pulmonary embolism"
+    },
+    "answer": "C",
+    "explanation": "(C) Why it's correct: A new systolic murmur appearing acutely after a myocardial infarction (MI) is a classic sign of papillary muscle rupture or dysfunction. The papillary muscles are attached to the mitral valve leaflets. An MI can cut off blood supply to these muscles, causing them to rupture. This leads to acute, severe mitral regurgitation (blood flowing backward from the left ventricle to the left atrium during systole). This regurgitation creates a loud, \"whooshing\" systolic murmur best heard at the cardiac apex (the location of the mitral valve). This is a life-threatening medical emergency that can lead to rapid pulmonary edema and cardiogenic shock.",
+    "additional": "Other MI Complications: Dysrhythmias (especially ventricular fibrillation), cardiogenic shock, heart failure, and Dressler's syndrome (a late-onset pericarditis).\n\nHeart Sounds: Know the locations for auscultation: Aortic (2nd ICS, right sternal border), Pulmonic (2nd ICS, left sternal border), Erb's Point (3rd ICS, left sternal border), Tricuspid (4th ICS, left sternal border), and Mitral/Apex (5th ICS, midclavicular line).\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 33 (Coronary Artery Disease and Acute Coronary Syndrome). See the section on \"Complications of Myocardial Infarction.\""
+  },
+  {
+    "question": "Which one of the following is an uncontrollable risk factor that has been linked to development of coronary artery disease (CAD)?",
+    "options": {
+      "A": "Exercise",
+      "B": "Obesity",
+      "C": "Stress",
+      "D": "Heredity"
+    },
+    "answer": "D",
+    "explanation": "(D) Why it's correct: Risk factors for disease are categorized as either modifiable (controllable) or non-modifiable (uncontrollable). Heredity (genetics) and family history are non-modifiable. A person cannot change their genetic predisposition to diseases like CAD. Other non-modifiable risk factors include increasing age, gender (men are at higher risk until women reach menopause), and ethnicity.",
+    "additional": "Primary vs. Secondary Prevention: Primary prevention involves managing modifiable risk factors to prevent the disease from ever occurring. Secondary prevention involves managing the disease after it has been diagnosed to prevent complications (e.g., giving aspirin after an MI).\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 33 (Coronary Artery Disease and Acute Coronary Syndrome). See the table on \"Risk Factors for Coronary Artery Disease.\""
+  },
+  {
+    "question": "The primary reason for administering digoxin (Lanoxin) to a patient is to,",
+    "options": {
+      "A": "Relax the walls of the heart's arteries.",
+      "B": "Improve the strength of the heartbeat.",
+      "C": "Prevent irregularities in ventricular contractions.",
+      "D": "Decrease inflammation of the heart wall."
+    },
+    "answer": "B",
+    "explanation": "(B) Why it's correct: Digoxin is a cardiac glycoside with a primary positive inotropic effect. \"Inotropy\" refers to the force of muscular contraction. Therefore, digoxin increases the force and strength of the heartbeat, improving cardiac output. This makes it useful in treating heart failure. It also has a negative chronotropic effect, meaning it slows the heart rate, which is useful in managing atrial fibrillation with a rapid ventricular response.",
+    "additional": "Digoxin Toxicity: This is a major and frequently tested topic. Key signs include:\n\nGI: Nausea, vomiting, anorexia (often the earliest signs).\n\nNeurological: Fatigue, confusion.\n\nVisual: Blurred vision, and classic yellow-green halos or distortion.\n\nCardiac: Bradycardia (HR < 60 bpm), heart blocks, and other arrhythmias.\n\nNursing Considerations: Always check the apical pulse for a full minute before administering digoxin. Hold the dose and notify the provider if the heart rate is below 60 bpm. Monitor potassium levels, as hypokalemia (low potassium) increases the risk of digoxin toxicity.\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 34 (Heart Failure). See the section on \"Drug Therapy.\""
+  },
+  {
+    "question": "The priority nursing diagnosis for a patient with heart failure and pulmonary oedema is,",
+    "options": {
+      "A": "Risk for infection related to stasis of alveolar secretions",
+      "B": "Impaired skin integrity related to pressure",
+      "C": "Activity intolerance related to pump failure",
+      "D": "Constipation related to immobility"
+    },
+    "answer": "C",
+    "explanation": "(C) Why it's correct: Heart failure is fundamentally a \"pump failure.\" The heart cannot pump enough blood to meet the body's metabolic demands. This leads to decreased cardiac output and poor perfusion to tissues, including muscles. The hallmark symptoms are fatigue, weakness, and dyspnea on exertion. These directly relate to the patient's inability to tolerate activity. In the context of pulmonary edema (fluid in the lungs), oxygenation is also impaired, further worsening activity intolerance. This diagnosis addresses the core pathophysiologic problem.",
+    "additional": "Maslow's Hierarchy of Needs & ABCs: In prioritizing nursing diagnoses, always consider Airway, Breathing, and Circulation (ABCs) first. Impaired Gas Exchange and Decreased Cardiac Output would be top priorities. Activity Intolerance is directly linked to these.\n\nLeft-sided vs. Right-sided Heart Failure:\n\nLeft: \"L for Lungs.\" Symptoms are primarily respiratory (crackles, dyspnea, orthopnea, cough, pulmonary edema).\n\nRight: \"R for Rest of the body.\" Symptoms are systemic (peripheral edema, jugular vein distention (JVD), ascites, hepatomegaly).\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 34 (Heart Failure). See the section on \"Nursing Process: Heart Failure.\""
+  },
+  {
+    "question": "The most common preventable cause of valvular heart disease is:",
+    "options": {
+      "A": "Congenital disease acquired intrauterine",
+      "B": "Calcium deposits and thrombus formation",
+      "C": "Marfan's syndrome",
+      "D": "Beta-hemolytic streptococcal infection"
+    },
+    "answer": "D",
+    "explanation": "(D) Why it's correct: Untreated or inadequately treated pharyngitis (\"strep throat\") caused by Group A beta-hemolytic streptococcus can lead to acute rheumatic fever. Rheumatic fever is an inflammatory disease that can cause permanent damage to the heart valves, a condition known as rheumatic heart disease. This is a major cause of mitral and aortic valve stenosis and regurgitation worldwide. Because strep throat can be effectively treated with antibiotics, this form of valvular disease is considered preventable.",
+    "additional": "Valve Disorders:\n\nStenosis: The valve is stiff and does not open fully, obstructing blood flow.\n\nRegurgitation (or Insufficiency): The valve is incompetent and does not close fully, allowing blood to leak backward.\n\nPrompt treatment of streptococcal pharyngitis with penicillin or amoxicillin is the key to preventing rheumatic fever.\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 36 (Inflammatory and Structural Heart Disorders). See sections on \"Rheumatic Fever and Heart Disease\" and \"Valvular Heart Disease.\""
+  },
+  {
+    "question": "In acute heart failure with pulmonary edema, morphine is administered in small doses to,",
+    "options": {
+      "A": "Promote excretion of sodium and water by kidneys",
+      "B": "Relieve hypoxemia and dyspnea",
+      "C": "Delay release of calcium from intracellular reservoirs",
+      "D": "Reduce peripheral resistance & venous return"
+    },
+    "answer": "D",
+    "explanation": "(D) Why it's correct: Morphine is a cornerstone in the initial management of acute cardiogenic pulmonary edema for two main reasons:\n\nVenodilation: It dilates the peripheral veins, which causes blood to pool in the periphery. This decreases the amount of blood returning to the already overwhelmed heart (reduces preload).\n\nArterial Dilation: It causes mild arterial dilation, which reduces the resistance the heart has to pump against (reduces afterload).\nBy reducing both preload and afterload, morphine decreases the workload of the heart and helps alleviate the fluid backup into the lungs.",
+    "additional": "Preload and Afterload: These are fundamental concepts in cardiology.\n\nPreload: The volume of blood in the ventricles at the end of diastole (just before contraction). It's the stretch on the muscle. Think of it as the \"load\" coming to the heart.\n\nAfterload: The resistance the left ventricle must overcome to circulate blood. It's the pressure in the aorta and systemic circulation. Think of it as the \"load\" the heart has to push against.\n\nMnemonic for Acute Pulmonary Edema Management (LMNOP):\n\nLasix (furosemide) - to diurese the patient.\n\nMorphine - to reduce preload/afterload and anxiety.\n\nNitrates (nitroglycerin) - for vasodilation.\n\nOxygen - to treat hypoxemia.\n\nPosition (upright with legs dangling) - to reduce preload by gravity.\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 34 (Heart Failure). See the section on \"Collaborative Care: Acute Decompensated Heart Failure.\""
+  },
+  {
+    "question": "The purpose of monitoring central venous (CVP) for the critically ill patients is to,",
+    "options": {
+      "A": "Help assess the functioning of left side of the heart",
+      "B": "Monitor fluid replacement therapy",
+      "C": "Estimate the levels of pulmonary pressures in the critically ill",
+      "D": "Help assess functioning of the mitral and tricuspid valves"
+    },
+    "answer": "B",
+    "explanation": "(B) Why it's correct: Central Venous Pressure (CVP) is a measurement of the pressure in the vena cava, near the right atrium. It directly reflects the volume of blood returning to the heart and the ability of the right side of the heart to pump that blood. Therefore, CVP is an excellent indicator of the patient's fluid volume status (or preload of the right ventricle).\n\nA low CVP (e.g., <2 mmHg) suggests hypovolemia (dehydration, blood loss).\n\nA high CVP (e.g., >8 mmHg) suggests hypervolemia (fluid overload) or right-sided heart failure.\nIt is crucial for guiding fluid resuscitation in critically ill patients to avoid both under- and over-hydration.",
+    "additional": "Normal CVP: 2-8 mmHg.\n\nPhlebostatic Axis: To get an accurate CVP reading, the transducer must be leveled at the phlebostatic axis (4th intercostal space, midaxillary line), which approximates the level of the right atrium.\n\nCVP vs. PA Catheter: Know the difference. CVP is a simpler measure of right-sided preload/fluid status. A PA catheter is more invasive and provides detailed information about both right and left-sided heart pressures and cardiac output.\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 65 (Critical Care). See the section on \"Hemodynamic Monitoring\" and the table comparing different monitoring types."
+  },
+  {
+    "question": "The patient with Angina pectoris is being discharged home with nitroglycerine tablets which of the following instructions does the nurse include in the teaching?",
+    "options": {
+      "A": "\"when the chest begins, place the tablet under the tongue. if it continues take another tablet in 5 minutes.\"",
+      "B": "\"place the tablet under the tongue, if the pain is not relieved in 15 minutes go to hospital”",
+      "C": "\"continue your activity and if the pain does not go away in 10 minutes, begin taking the nitroglycerine tabs for 15 minutes then go and lie\"",
+      "D": "\"Place the nitroglycerine tab under the tongue every 5 minutes for 3 doses. Go to hospital if the pain is unrelieved\""
+    },
+    "answer": "D",
+    "explanation": "(D) Why it's correct: This option includes all the critical components of patient education for sublingual nitroglycerin (NTG) for an acute anginal attack. The standard protocol is:\n\nSit down and rest immediately.\n\nPlace one tablet under the tongue. Do not swallow.\n\nIf pain is not relieved in 5 minutes, call emergency services (e.g., 911).\n\nWhile waiting for help, take a second tablet.\n\nIf pain persists after another 5 minutes, take a third tablet.\nDo not exceed 3 tablets in 15 minutes. The instruction to \"Go to hospital\" or call for help is crucial because chest pain unrelieved by NTG may be a myocardial infarction.",
+    "additional": "Nitroglycerin Storage and Handling:\n\nKeep in the original dark, airtight container to protect from light and moisture.\n\nReplace the supply every 6 months as it loses potency.\n\nThe patient should feel a tingling or fizzing sensation under the tongue, indicating it is potent.\n\nCommon side effects include a severe headache, dizziness, and flushing due to vasodilation.\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 33 (Coronary Artery Disease and Acute Coronary Syndrome). See the patient teaching table for Nitroglycerin."
+  },
+  {
+    "question": "Sympathetic stimulation of the cardiovascular system causes:",
+    "options": {
+      "A": "Increased heart rate and constriction of coronary arteries",
+      "B": "Constriction of GIT secretory gland vessels with increased flow of digestive juices",
+      "C": "Increased peripheral resistance and dilatation of coronary arteries",
+      "D": "Increased force of heart contraction & reduced peripheral resistance."
+    },
+    "answer": "C",
+    "explanation": "(C) Why it's correct: This is a nuanced but important physiological point. The sympathetic nervous system (SNS) is the \"fight or flight\" system.\n\nIt releases catecholamines (epinephrine, norepinephrine) which act on adrenergic receptors.\n\nThis causes widespread vasoconstriction of most peripheral arterioles (e.g., in the skin, GI tract, kidneys), which increases systemic vascular resistance (SVR), or peripheral resistance, thus raising blood pressure.\n\nHowever, the body has a protective mechanism. The SNS causes vasodilation of the arteries supplying the heart (coronary arteries) and skeletal muscles to ensure these vital organs get more blood and oxygen during times of stress.",
+    "additional": "Adrenergic Receptors:\n\nAlpha-1: Located in peripheral blood vessels. Stimulation causes vasoconstriction.\n\nBeta-1: Located in the heart. Stimulation increases heart rate, contractility, and conduction speed. (Mnemonic: You have 1 heart).\n\nBeta-2: Located in the bronchioles of the lungs and coronary/skeletal muscle arteries. Stimulation causes vasodilation and bronchodilation. (Mnemonic: You have 2 lungs).\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 31 (Structures and Functions of the Cardiovascular System). See the section on \"Regulation of the Cardiovascular System.\""
+  },
+  {
+    "question": "In Fallot's tetralogy there is",
+    "options": {
+      "A": "Pulmonary artery stenosis, ventricular septal defect, aortic misplacement & right ventricular hypertrophy.",
+      "B": "Coarctation of the aorta, patent ductus arteriosus, aortic stenosis and ventricular septal defect.",
+      "C": "Ventricular hypertrophy, coarctation of the aorta, atrial septal defect and Blue babies' syndrome",
+      "D": "Atrial-ventricular hypertrophy, coarctation of the aorta, ventricular septal defect and pulmonary artery stenosis."
+    },
+    "answer": "A",
+    "explanation": "(A) Why it's correct: Tetralogy of Fallot (TOF) is a complex congenital heart defect defined by a specific set of four structural abnormalities. The term \"tetralogy\" means a group of four. The correct components are:\n\nPulmonary artery stenosis: A narrowing of the pulmonary valve and artery, obstructing blood flow from the right ventricle to the lungs.\n\nVentricular septal defect (VSD): A hole in the wall (septum) between the two ventricles.\n\nOverriding aorta (Aortic misplacement): The aorta is shifted slightly to the right and sits over the VSD, receiving blood from both the right and left ventricles.\n\nRight ventricular hypertrophy: The muscular wall of the right ventricle becomes thickened as it tries to pump blood against the obstruction of the pulmonary stenosis.",
+    "additional": "Mnemonic for Tetralogy of Fallot (PROVe):\n\nPulmonary stenosis\n\nRight ventricular hypertrophy\n\nOverriding aorta\n\nVentricular septal defect\n\nClinical Manifestation: TOF is a cyanotic heart defect (\"blue baby syndrome\"). The degree of cyanosis depends on the severity of the pulmonary stenosis.\n\n\"Tet\" Spells (Hypercyanotic Spells): These are episodes of profound cyanosis and hypoxia, often triggered by crying or feeding. The classic intervention is to place the infant in a knee-chest position, which increases systemic vascular resistance, shunting more blood to the pulmonary artery.\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 36 (Inflammatory and Structural Heart Disorders). While primarily an adult textbook, it often includes sections on congenital defects that persist into adulthood. A dedicated pediatric nursing textbook would cover this in greater detail."
+  },
+  {
+    "question": "In class III cardiac disease in pregnancy, patient has:",
+    "options": {
+      "A": "No limitation of physical activity, heart murmur on general examination",
+      "B": "Slight limitation of physical activity, no symptoms when at rest",
+      "C": "Marked limitation of physical activity, slight exertion leads to fatigue, palpitations, dyspnea",
+      "D": "Inability to carry out any physical activity without discomfort, signs of cardiac disease and heart failure even at rest"
+    },
+    "answer": "C",
+    "explanation": "(C) Why it's correct (Class III): This description perfectly matches the definition of NYHA Class III. Patients are comfortable at rest, but less-than-ordinary physical activity (like walking a short distance or dressing) causes significant symptoms like fatigue, palpitations, or dyspnea.",
+    "additional": "Understanding the Other Classes:\n\n(A) Incorrect (Class I): \"No limitation of physical activity\" describes NYHA Class I. The patient has cardiac disease but no resulting symptoms or limitations with ordinary activity.\n\n(B) Incorrect (Class II): \"Slight limitation of physical activity\" describes NYHA Class II. The patient is comfortable at rest, but ordinary physical activity results in symptoms.\n\n(D) Incorrect (Class IV): \"Inability to carry out any physical activity without discomfort... symptoms... even at rest\" describes NYHA Class IV. This is the most severe form, where symptoms of heart failure are present even at rest.\n\nPregnancy and Cardiac Disease: Pregnancy increases cardiac output, heart rate, and blood volume by 30-50%. This places an enormous strain on a compromised heart. Women with Class III or IV cardiac disease are at extremely high risk for decompensation and mortality and require specialized multidisciplinary care. The period of greatest risk is between 28-32 weeks gestation, when the hemodynamic load peaks, and during labor and the immediate postpartum period.\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 34 (Heart Failure). The NYHA classification is a standard table in this chapter. It's also covered in all maternity nursing textbooks in the chapter on high-risk pregnancy."
+  },
+  {
+    "question": "Parathyroid hormone maintains fluid and electrolyte balance by",
+    "options": {
+      "A": "Promoting absorption of calcium from the intestines",
+      "B": "Inhibiting release of calcium from the bone",
+      "C": "Increasing the excretion of phosphate ions by the kidneys",
+      "D": "Acting on the renal tubules to retain water and to decrease urinary output"
+    },
+    "answer": "A",
+    "explanation": "(A) Why it's correct: PTH achieves its goal through three main actions:\n\nBone Resorption: It stimulates osteoclasts to break down bone and release calcium into the bloodstream.\n\nKidney Reabsorption: It increases the reabsorption of calcium in the renal tubules, preventing it from being lost in urine.\n\nIntestinal Absorption: It stimulates the kidneys to activate Vitamin D. Activated Vitamin D is then required for the absorption of dietary calcium from the intestines. So, while the action is indirect, PTH is essential for this process. This option is the most complete description of one of its key roles.",
+    "additional": "Note: While listed in the exam, this question is more accurately classified under Endocrinology, as it deals with hormonal regulation of electrolytes. However, calcium plays a critical role in cardiac muscle contraction, so the concept is relevant.\n\n(B) Why it's incorrect: PTH stimulates the release of calcium from the bone; it does not inhibit it. The hormone that inhibits bone resorption is calcitonin.\n\n(C) Why it's incorrect: While PTH does increase the excretion of phosphate by the kidneys (a reciprocal action to retaining calcium), option (A) describes a more direct and primary function related to increasing overall calcium levels.\n\n(D) Why it's incorrect: The hormone that acts on renal tubules to retain water is Antidiuretic Hormone (ADH). The hormone that acts to retain sodium (and water follows) is Aldosterone. PTH does not have this function.\n\nCalcium and the Heart: Calcium is a critical electrolyte for cardiac muscle depolarization and contraction.\n\nHypocalcemia (low calcium) can lead to decreased cardiac contractility and ECG changes (prolonged QT interval).\n\nHypercalcemia (high calcium) can lead to increased contractility and ECG changes (shortened QT interval).\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 49 (Endocrine Problems). See the section on the \"Parathyroid Glands.\""
   }
 ]
 
