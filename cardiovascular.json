@@ -212,7 +212,8 @@
       "D": "Increased force of heart contraction & reduced peripheral resistance."
     },
     "answer": "C",
-    "explanation": "Sympathetic nervous system stimulation increases peripheral resistance via vasoconstriction of non-essential vessels and dilates coronary arteries to increase myocardial oxygen supply during fight-or-flight."
+    "explanation": "Sympathetic stimulation prepares the body for a fight-or-flight response. It causes vasoconstriction in peripheral arteries, increasing peripheral resistance and blood pressure. It also causes coronary artery dilation to ensure more oxygen is delivered to the heart muscle, which is working harder during this response.",
+    "additional": "Incorrect Options:\n(A) Heart rate increases, but coronary arteries dilate, not constrict.\n(B) SNS decreases GI blood flow and secretions.\n(D) SNS increases contractility but also increases peripheral resistance.\n\nReceptor Summary:\n- Alpha-1: Vasoconstriction (skin, GI, kidneys)\n- Beta-1: ↑ HR, ↑ contractility\n- Beta-2: Bronchodilation, skeletal muscle vasodilation\n\nPharmacology Link: Beta-blockers reduce HR and contractility by blocking Beta-1.\n\nTextbook Reference: Brunner & Suddarth, 14th Ed., Chapter 25"
   },
   {
     "question": "A deteriorating condition for a patient with head injury will be indicated by:",
@@ -223,7 +224,8 @@
       "D": "Oliguria and narrow pulse pressure."
     },
     "answer": "A",
-    "explanation": "Widening pulse pressure and irregular breathing are part of Cushing’s Triad—a sign of increased intracranial pressure and impending brainstem herniation."
+    "explanation": "Widening pulse pressure and irregular respirations are classic signs of Cushing’s Triad, which indicates increased intracranial pressure and possible brainstem herniation.",
+    "additional": "Cushing’s Triad:\n- Hypertension with widening pulse pressure\n- Bradycardia\n- Irregular respirations (e.g., Cheyne-Stokes, ataxic)\n\nIncorrect Options:\n(B) & (D): Narrow pulse pressure occurs in shock, not increased ICP.\n(C) Kussmaul breathing is linked to metabolic acidosis, not head injury.\n\nEarly Signs of ↑ ICP:\n- Altered LOC\n- Headache, pupillary changes\n\nLate Signs:\n- Cushing’s Triad\n- Posturing, fixed/dilated pupils\n\nManagement:\n- Elevate HOB, neutral neck position\n- Administer mannitol/hypertonic saline\n- Avoid straining (e.g., coughing)\n\nTextbook Reference: Brunner & Suddarth, 14th Ed., Chapter 61"
   },
   {
     "question": "Which of the following respiratory patterns indicate increased intracranial pressure in the brain stem?",
@@ -234,7 +236,8 @@
       "D": "Nasal flaring"
     },
     "answer": "A",
-    "explanation": "Slow, irregular respirations such as Cheyne-Stokes or ataxic breathing occur due to brainstem compression and indicate dangerously elevated intracranial pressure."
+    "explanation": "Slow, irregular respirations are a sign of brainstem dysfunction due to increased intracranial pressure. These irregular patterns result from damage to the medullary respiratory centers.",
+    "additional": "Examples of abnormal patterns:\n- Cheyne-Stokes: Cyclical breathing with apnea\n- Ataxic/Biot’s: Irregular rhythm, unpredictable pauses\n\nIncorrect Options:\n(B) Rapid breathing = anxiety, fever\n(C) Asymmetric chest = local lung issue\n(D) Nasal flaring = respiratory distress (e.g., asthma), not ICP\n\nRelated to Cushing’s Triad: Respiratory irregularity is a late sign.\n\nOther Key Neurologic Signs:\n- GCS decrease is often first sign of deterioration\n- Pupillary changes (sluggish → fixed)\n\nTextbook Reference: Brunner & Suddarth, 14th Ed., Chapter 61"
   },
   {
     "question": "A client has signs of increased intracranial pressure (ICP). Which of the following is an early indicator of deterioration in the client’s condition?",
@@ -245,7 +248,8 @@
       "D": "Decrease in level of consciousness"
     },
     "answer": "D",
-    "explanation": "The earliest and most important sign of rising ICP is a change in LOC, such as confusion or lethargy. Late signs include bradycardia, widened pulse pressure, and fixed pupils."
+    "explanation": "The single most important and earliest sign of increasing ICP is a change in the patient's Level of Consciousness (LOC). The cerebral cortex is highly sensitive to changes in pressure and oxygenation. Even subtle changes, such as increased restlessness, new or worsening confusion, disorientation, or increased lethargy, are the first clues that neurologic status is deteriorating.",
+    "additional": "Widening pulse pressure and bradycardia (decreased pulse rate) are part of Cushing's Triad—a late sign of brainstem compression. Dilated fixed pupils indicate late-stage brainstem damage. The Glasgow Coma Scale (GCS) is used to track LOC changes. Early to late signs follow a hierarchy: first LOC change, then pupillary/motor issues, followed by Cushing's Triad and posturing. Reference: Brunner & Suddarth, 14th Ed., Ch. 61, Table 61-2."
   },
   {
     "question": "Cardiac output is equal to:",
@@ -256,7 +260,8 @@
       "D": "Stroke volume × heart rate"
     },
     "answer": "D",
-    "explanation": "Cardiac output (CO) = Stroke Volume (SV) × Heart Rate (HR). It reflects the amount of blood pumped by the heart per minute."
+    "explanation": "This is the fundamental definition of cardiac output (CO). CO is the total volume of blood pumped by the ventricle per minute, typically 4–8 L/min. Stroke Volume (SV) is the amount of blood ejected per beat (~70 mL), and Heart Rate (HR) is the number of beats per minute. CO = SV × HR. For instance, SV = 70 mL and HR = 70 bpm gives CO = 4900 mL/min or 4.9 L/min.",
+    "additional": "Body weight is used in calculating Cardiac Index, not CO. Peripheral resistance is part of BP formula (BP = CO × SVR). NCK may ask about stroke volume components: Preload (volume/stretch), Afterload (resistance), and Contractility (force). Conditions like heart failure, hypovolemia, and hypertension alter these components. Reference: Brunner & Suddarth, 14th Ed., Ch. 25."
   },
   {
     "question": "The Korotkoff sounds heard while measuring blood pressure present in the order of:",
@@ -267,12 +272,8 @@
       "D": "Silence, Tapping, Knocking, Swishing and Muffling"
     },
     "answer": "A",
-    "explanation": "Korotkoff sounds occur in this order: Tapping (systolic), Swishing, Knocking, Muffling, and Silence (diastolic). This sequence is critical in blood pressure measurement."
+    "explanation": "Korotkoff sounds are classified into five phases: Phase I (Tapping) is the systolic pressure; Phase II (Swishing) is softer as flow resumes; Phase III (Knocking) is louder and clearer; Phase IV (Muffling) indicates near-diastolic pressure; and Phase V (Silence) marks diastolic pressure.",
+    "additional": "Incorrect sequences confuse the standardized phases. Be aware of the auscultatory gap, a silence between Phase II and III in hypertensive patients. Proper BP technique includes correct cuff size, resting 5 minutes prior, arm at heart level, and slow deflation (2–3 mmHg/s). NCK might test order of sounds or ask for technique flaws. Reference: Brunner & Suddarth, 14th Ed., Ch. 25."
   }
 ]
-
-
-
-
-
 
