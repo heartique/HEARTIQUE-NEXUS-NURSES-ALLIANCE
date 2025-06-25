@@ -1,18 +1,22 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const tabs = document.querySelectorAll(".unit-tab");
+  document.querySelectorAll(".unit-tab").forEach(tab => {
+    const raw = tab.dataset.json || "";
+    const files = raw.split(",").map(f => f.trim()).filter(f => f);
+    if (files.length === 0) return;
 
-  tabs.forEach(tab => {
-    const jsonFile = tab.dataset.json;
-    if (!jsonFile) return;
-
-    fetch(jsonFile)
-      .then(res => res.json())
-      .then(data => {
-        const count = data.length;
-        tab.textContent += ` (${count} Questions)`;
-      })
-      .catch(() => {
-        tab.textContent += ` (Unavailable)`;
-      });
+    Promise.all(files.map(file =>
+      fetch(file)
+        .then(res => res.json())
+        .catch(() => [])
+    ))
+    .then(results => {
+      const total = results.reduce((sum, arr) =>
+        sum + (Array.isArray(arr) ? arr.length : 0),
+      0);
+      tab.textContent += ` (${total} Questions)`;
+    })
+    .catch(() => {
+      tab.textContent += ` (Unavailable)`;
+    });
   });
 });
