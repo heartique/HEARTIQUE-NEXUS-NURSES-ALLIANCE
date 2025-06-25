@@ -8,18 +8,20 @@
       "D": "Maintain adequate circulating volume"
     },
     "answer": "B",
-    "explanation": "Airway and breathing take priority in trauma. The chest injury may impair ventilation, so maintaining oxygenation is critical to prevent hypoxia."
+    "explanation": "In any trauma situation, especially one involving the chest, the ABCs (Airway, Breathing, Circulation) are the absolute priority. The patient's injury (blunt chest trauma from a steering wheel) puts him at high risk for conditions that severely compromise breathing and oxygenation, such as pneumothorax, hemothorax, flail chest, or pulmonary contusion. Any of these can lead to hypoxia and respiratory failure. Therefore, ensuring adequate oxygenation is the most critical, life-sustaining goal.",
+    "additional": "Reducing anxiety is important but secondary to oxygenation. Chest pain should be treated, but only to support oxygenation. Circulating volume becomes a priority if hemorrhage is suspected. Key trauma conditions: pneumothorax, hemothorax, flail chest, tension pneumothorax. Nursing interventions: Administer high-flow O2, assess breathing, insert chest tube if needed. NCK may test priority symptoms like absent breath sounds or tracheal deviation. Reference: Brunner & Suddarth, 14th Ed., Ch. 23."
   },
   {
     "question": "The following finding is suggestive of a pneumothorax in a patient with chest trauma:",
     "options": {
-      "A": "Absent breath sounds",
-      "B": "Inspiratory wheezing",
-      "C": "Dullness on chest percussion",
-      "D": "Pronounced crackles"
+      "A": "absent breath sounds",
+      "B": "inspiratory wheezing",
+      "C": "dullness on chest percussion",
+      "D": "pronounced crackles"
     },
     "answer": "A",
-    "explanation": "Absent breath sounds over the affected lung are the hallmark of pneumothorax due to lung collapse and air in the pleural space."
+    "explanation": "A pneumothorax is a condition where air accumulates in the pleural space between the lung and the chest wall. This collection of air increases the pressure on the lung, causing it to collapse (partially or fully). When the lung is collapsed, no air is moving in or out of that area. Therefore, when you auscultate over the affected region, you will hear diminished or completely absent breath sounds. This is the classic, hallmark sign of a pneumothorax.",
+    "additional": "Wheezing = narrowed airways (e.g., asthma); dullness = fluid (e.g., hemothorax); crackles = fluid in alveoli (e.g., pneumonia, heart failure). NCK may test matching assessment findings to respiratory diagnoses. Treatment: chest tube insertion. Sound chart: Absent (pneumothorax), Hyperresonance (air), Dullness (fluid), Wheeze (narrowed airway), Crackles (fluid), Rhonchi (secretions), Rub (pleurisy). Reference: Brunner & Suddarth, 14th Ed., Ch. 23."
   },
   {
     "question": "When nursing a patient with chronic obstructive pulmonary disease (COPD), the nurse should:",
@@ -30,7 +32,8 @@
       "D": "Position the patient in dorsal recumbent position to enhance ventilation"
     },
     "answer": "B",
-    "explanation": "Vaccinations prevent respiratory infections that can trigger severe COPD exacerbations. Annual flu and pneumococcal vaccines are essential."
+    "explanation": "Patients with COPD have chronic lung inflammation and damage, making them extremely vulnerable to respiratory infections. An infection like influenza or pneumonia can cause a severe exacerbation of their COPD, leading to respiratory failure, hospitalization, and even death. Therefore, a cornerstone of COPD management and prevention of exacerbations is to strongly recommend and facilitate annual influenza vaccination and pneumococcal vaccination. This is a key public health and preventative nursing intervention.",
+    "additional": "High-flow O2 may suppress the hypoxic drive in CO2-retainers. Bronchodilators are a primary treatment. Dorsal recumbent positioning worsens ventilation; instead, use high Fowler's or tripod position. COPD management: smoking cessation, bronchodilators (LABA, LAMA), corticosteroids, vaccines, pulmonary rehab, oxygen therapy, and breathing techniques like pursed-lip breathing. NCK may test education, safety, and positioning. Reference: Brunner & Suddarth, 14th Ed., Ch. 24."
   },
   {
     "question": "Discharge instructions for a client with chronic respiratory acidosis should include:",
@@ -41,7 +44,8 @@
       "D": "Encouraging participation in activities such as jogging"
     },
     "answer": "C",
-    "explanation": "Chronic respiratory acidosis is caused by CO2 retention due to poor ventilation. Teaching exercises like diaphragmatic and pursed-lip breathing helps improve lung expansion and reduce CO2 levels. This directly improves the patient’s vital capacity."
+    "explanation": "Chronic respiratory acidosis is caused by the retention of carbon dioxide (CO2) due to inadequate ventilation, a hallmark of diseases like COPD. The primary goal of management is to improve ventilation to blow off excess CO2. Exercises designed to strengthen respiratory muscles and improve lung function, such as pursed-lip breathing and diaphragmatic (abdominal) breathing, are crucial components of pulmonary rehabilitation. These exercises help improve the efficiency of breathing, reduce the work of breathing, and can increase vital capacity over time, directly addressing the root cause of the acidosis.",
+    "additional": "Planning increased activity is vague; pacing and bronchodilators are more appropriate. Diet: low-carb but NOT low-protein—protein is critical for respiratory muscles. Jogging is too strenuous. ABGs in compensated chronic respiratory acidosis: near-normal pH, high PaCO2, high HCO3. Education includes breathing techniques, energy conservation, nutrition, hydration. Reference: Brunner & Suddarth, 14th Ed., Ch. 24."
   },
   {
     "question": "During thoracentesis:",
@@ -52,7 +56,8 @@
       "D": "Local anaesthesia is not advisable"
     },
     "answer": "C",
-    "explanation": "Thoracentesis accesses the pleural space, not the peritoneal cavity. In addition to removing fluid, it may also be used to instill medications such as sclerosing agents for pleurodesis. Consent and local anesthesia are always required."
+    "explanation": "A thoracentesis is a procedure to remove fluid or air from the pleural space. While its primary purpose is often diagnostic or therapeutic, it also allows for the instillation of medications such as in pleurodesis. In pleurodesis, a sclerosing agent (like talc or doxycycline) is instilled to cause inflammation and adhesion between the visceral and parietal pleura, obliterating the pleural space to prevent recurrent effusions.",
+    "additional": "Fluid from pleural space, not peritoneal (that's paracentesis). Consent is mandatory due to risks. Local anesthesia is standard to reduce pain. Nurse roles: pre-procedure education/positioning, intra-procedure monitoring, post-procedure assessment (esp. for pneumothorax). Reference: Brunner & Suddarth, 14th Ed., Ch. 23."
   },
   {
     "question": "The carcinogenic risk factors for laryngeal cancers include:",
@@ -63,6 +68,7 @@
       "D": "Asbestos, tobacco, tar products"
     },
     "answer": "D",
-    "explanation": "Tobacco, asbestos, and tar products are major carcinogens for laryngeal cancer. Voice strain and dietary fiber are not significant risk factors. Long-term exposure to industrial chemicals increases the risk further."
+    "explanation": "Laryngeal cancer is strongly linked to inhaled carcinogens that directly damage the cells of the larynx. Tobacco is the leading cause. Asbestos is an occupational carcinogen that significantly increases risk. Tar products from tobacco and industrial exposure also contribute to malignancy.",
+    "additional": "Chronic laryngitis and voice strain do not directly cause cancer. High-fiber diet is protective. Additional risk factors: alcohol (synergistic with smoking), HPV, age >65, male, Black race. First sign: persistent hoarseness >2 weeks. Treatment: chemo, radiation, surgery (laryngectomy). Post-op: airway care is top priority. Reference: Brunner & Suddarth, 14th Ed., Ch. 23."
   }
 ]
