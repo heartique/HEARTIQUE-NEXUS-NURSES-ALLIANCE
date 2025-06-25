@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+SOO THIS MY INDEX ,,<!DOCTYPE html>
 <html lang="en">
 <head>
   <script>
@@ -531,33 +531,6 @@ Let’s grow together and be the difference the world needs.</p>
     .catch(() => {
       document.getElementById("vocab-count").innerText = `Vocabulary`;
     });
-        <script type="module">
-  import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm';
-
-  const supabase = createClient(
-    'https://gbqgtnukoucxagswqspx.supabase.co',
-    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdicWd0bnVrb3VjeGFnc3dxc3B4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTA4ODcwNTAsImV4cCI6MjA2NjQ2MzA1MH0.uHqKZ-KnW1sv7CSD37D6dh1qYfSLMznud947DEZI93Q'
-  );
-
-  const { data: { session } } = await supabase.auth.getSession();
-
-  if (!session) {
-    window.location.href = 'login.html';
-  } else {
-    const welcomeElement = document.querySelector("header h1");
-    if (welcomeElement) {
-      welcomeElement.innerHTML += `<br><small style="font-size:0.8rem;">Logged in as <strong>${session.user.email}</strong></small>`;
-    }
-
-    const logoutBtn = document.getElementById("logoutBtn");
-    if (logoutBtn) {
-      logoutBtn.addEventListener("click", async () => {
-        await supabase.auth.signOut();
-        window.location.href = "login.html";
-      });
-    }
-  }
-</script>
 </script>   
 </body>
 </html>
