@@ -646,9 +646,139 @@
     "answer": "C",
     "explanation": "Wernicke’s area is in the temporal lobe and is responsible for language comprehension. Damage causes receptive aphasia—fluent but nonsensical speech and impaired understanding.",
     "additional": "Mnemonic: Wernicke = Weird words = Temporal lobe. Reference: Brunner & Suddarth's, 14th Ed., Chapter 60."
+  },
+  {
+    "question": "The following technique should be avoided when changing a hemiparalysis clients' position in bed;",
+    "options": {
+      "A": "Sliding the client to move her up in bed",
+      "B": "Rolling the client onto her side",
+      "C": "Lifting the client when moving her up in bed",
+      "D": "Having the client lift herself off the bed using a trapeze"
+    },
+    "answer": "A",
+    "explanation": "(A) Why it's correct: Sliding a client creates shearing forces. A shear injury occurs when the skin remains stationary while the underlying tissues and bones shift. This stretches and tears small blood vessels, leading to tissue ischemia and significantly increasing the risk of pressure ulcer formation. This technique must always be avoided, especially in neurologically impaired patients.\n\n(B) & (C) Why they are incorrect: These are correct and safe techniques. Rolling the client distributes pressure evenly. Lifting the client (using a draw sheet or mechanical lift) completely eliminates friction and shear, making it the ideal method for repositioning.\n\n(D) Why it's incorrect: A trapeze is an excellent tool for a client who has upper body strength on their unaffected side. It allows them to assist in repositioning, which promotes independence, strengthens muscles, and reduces the risk of injury to both the client and the nurse. It should be encouraged if the client is capable.",
+    "additional": "Positioning a Stroke Patient:\n\nSupport the weak/paralyzed limbs with pillows to prevent dependent edema and joint subluxation (especially the shoulder).\n\nWhen turning the patient, turn them onto their unaffected side if possible. If turning onto the affected side is necessary, ensure the arm is positioned correctly to avoid lying directly on the shoulder joint.\n\nUse a footboard or high-top sneakers to prevent foot drop.\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 57 (Stroke). See the section on \"Nursing Management: Stroke\" and \"Musculoskeletal System.\" Also, Chapter 11 on \"Pressure Ulcers.\""
+  },
+  {
+    "question": "The priority indicator of increasing intracranial pressure is,",
+    "options": {
+      "A": "Unequal pupil size",
+      "B": "decreasing systolic pressure",
+      "C": "tachycardia",
+      "D": "decreasing body temperature"
+    },
+    "answer": "A",
+    "explanation": "(A) Unequal pupil size (Anisocoria): This is a very significant sign. It often indicates pressure on cranial nerve III (Oculomotor nerve), which can be an early or late sign depending on the speed and location of the pressure. A fixed and dilated pupil (\"blown pupil\") is a grave, late sign. It is a high-priority indicator.\n\n(B) decreasing systolic pressure: This is the opposite of what happens in Cushing's triad. Systolic pressure increases dramatically. Therefore, this option is incorrect.\n\n(C) tachycardia: This is the opposite of what happens in Cushing's triad. The heart rate decreases (bradycardia). Tachycardia might be seen initially, but the classic late sign is bradycardia.\n\n(D) decreasing body temperature: Increased ICP can disrupt the hypothalamus, leading to changes in temperature, but it most often causes hyperthermia (fever), not a decrease.",
+    "additional": "Conclusion for this question: Given that options (B), (C), and (D) describe the opposite of the classic late signs, (A) Unequal pupil size remains the most plausible correct answer among the choices, as it is a direct and critical indicator of pressure on the brain/cranial nerves. The earliest and most sensitive indicator, change in LOC, is not an option.\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 56 (Intracranial Problems)."
+  },
+  {
+    "question": "(Type 3, Q1) Which of the following respiratory patterns indicate increased intracranial pressure in the brain stem?",
+    "options": {
+      "A": "Slow, irregular respirations",
+      "B": "Rapid, shallow respirations",
+      "C": "Asymmetric chest excursion",
+      "D": "Nasal flaring"
+    },
+    "answer": "A",
+    "explanation": "(A) Why it's correct: As discussed above, slow and irregular respirations are one of the three components of Cushing's Triad. These abnormal patterns (like Cheyne-Stokes, central neurogenic hyperventilation, or ataxic breathing) indicate that the respiratory control center in the brainstem (medulla and pons) is being compressed. This is a very late and life-threatening sign of herniation.\n\n(B), (C), and (D) Why they are incorrect: While these are all signs of respiratory distress, they are not the specific pattern associated with brainstem compression from ICP. Nasal flaring and rapid, shallow breathing are general signs of hypoxia. Asymmetric chest excursion points to a unilateral lung problem like pneumothorax or flail chest."
+  },
+  {
+    "question": "(Type 3, Q2) A client has signs of increased intracranial pressure (ICP). Which of the following is an early indicator of deterioration in the client's condition?",
+    "options": {
+      "A": "Widening pulse pressure",
+      "B": "Decrease in pulse rate",
+      "C": "Dilated fixed pupils",
+      "D": "Decrease in level of consciousness"
+    },
+    "answer": "D",
+    "explanation": "(D) Why it's correct: The earliest and most sensitive indicator of increased ICP is a change in the Level of Consciousness (LOC). The brain is extremely sensitive to changes in pressure and oxygenation. Subtle changes like restlessness, irritability, confusion, or increased drowsiness may be the very first signs that something is wrong, appearing long before any vital sign changes. The Glasgow Coma Scale (GCS) is used to objectively measure LOC.\n\n(A), (B), and (C) Why they are incorrect: These are all LATE signs of increased ICP.\n\nWidening pulse pressure (increasing systolic BP) and decrease in pulse rate (bradycardia) are part of Cushing's triad.\n\nDilated, fixed pupils (\"blown pupils\") indicate severe pressure on cranial nerve III and are a grave sign of impending brain herniation. By the time these signs appear, significant and often irreversible brain damage may have already occurred.",
+    "additional": "Early vs. Late Signs of Increased ICP (Crucial to Memorize):\n\nEARLY: Change in LOC (restlessness, confusion, lethargy), headache, pupillary changes (sluggish reaction), unilateral weakness.\n\nLATE: Cushing's Triad (Hypertension, Bradycardia, Irregular Respirations), projectile vomiting, fixed and dilated pupils, posturing (decorticate/decerebrate).\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 56 (Intracranial Problems). See the table on \"Clinical Manifestations of Increased Intracranial Pressure.\""
+  },
+  {
+    "question": "The frontal lobe of the brain is,",
+    "options": {
+      "A": "The primary receptive area for vision",
+      "B": "Mainly responsible for auditory sensation and coordination",
+      "C": "Centre for respiratory and vasomotor activity",
+      "D": "Responsible for abstract thinking, judgment and emotions"
+    },
+    "answer": "D",
+    "explanation": "(D) Why it's correct: The frontal lobe is considered the seat of our personality and higher executive functions. It is responsible for complex cognitive skills such as judgment, reasoning, abstract thinking, problem-solving, planning, and regulating emotions and social behavior. It also contains the primary motor cortex (controls voluntary movement) and Broca's area (controls motor speech production).\n(A) Why it's incorrect: The primary receptive area for vision is located in the occipital lobe.\n(B) Why it's incorrect: The area responsible for auditory sensation is in the temporal lobe. The area for coordination of movement is primarily the cerebellum.\n(C) Why it's incorrect: The centers for respiratory and vasomotor (blood pressure) control are located in the brainstem (specifically the medulla oblongata and pons).",
+    "additional": "Major Brain Lobes and Functions (Essential Knowledge):\n\nFrontal: Executive function, personality, motor control (motor cortex), speech production (Broca's area).\nParietal: Sensation (sensory cortex - touch, pain, temperature), spatial awareness, proprioception.\nTemporal: Hearing (auditory cortex), memory, speech comprehension (Wernicke's area).\nOccipital: Vision (visual cortex).\nCerebellum: Balance, coordination, and smooth muscle movement.\nBrainstem: Basic life functions (breathing, heart rate, blood pressure), consciousness.\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 54 (Structures and Functions of the Nervous System). See the figure and table detailing the functions of the major brain parts."
+  },
+  {
+    "question": "Management of a patient during a seizure include;",
+    "options": {
+      "A": "Restricting the jerking movements to prevent injury",
+      "B": "Inserting an oral airway to protect the tongue",
+      "C": "Putting pillows and raising the side rails if the patient is in bed",
+      "D": "Removing pillows and raising the side rails if the patient is in bed."
+    },
+    "answer": "C",
+    "explanation": "Background: The priority during a tonic-clonic (grand mal) seizure is patient safety. The goal is to protect the patient from injury without forcefully restraining them.\n(C) Why it's correct: This option describes key safety measures. Raising the side rails (and padding them, if possible) prevents the patient from falling out of bed. Placing pillows or soft objects around the head protects it from striking a hard surface.\n(A) Why it's incorrect: You should never restrain a patient during a seizure. Forcefully restricting the clonic (jerking) movements can cause musculoskeletal injuries, such as fractures or dislocations. The nurse's role is to guide movements away from danger, not stop them.\n(B) Why it's incorrect: Never insert anything into the patient's mouth during a seizure. This can cause broken teeth, jaw injury, or aspiration. The old advice to insert a \"bite block\" is outdated and dangerous. If the mouth is open, you might be able to place the patient on their side to allow saliva to drain, but do not force the jaw open.\n(D) Why it's incorrect: While raising the side rails is correct, removing the pillows is not. You want to use pillows to protect the head.",
+    "additional": "Nursing Care During a Seizure (Seizure Precautions):\n\nSafety: Ease the patient to the floor if not in bed. Protect the head. Loosen restrictive clothing. Move furniture out of the way. Raise and pad side rails.\nAirway: Position the patient on their side (recovery position) if possible to allow secretions to drain and prevent the tongue from occluding the airway.\nObservation: Note the time the seizure began and how long it lasts. Observe the sequence of movements, the parts of the body involved, and the patient's level of consciousness.\nPost-ictal Phase: After the seizure, the patient may be confused, drowsy, or agitated. Stay with them, reorient them, and perform a neuro assessment.\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 58 (Seizure Disorders and Epilepsy). See the table on \"Emergency Management: Seizures.\""
+  },
+  {
+    "question": "When a nurse is monitoring a patient for cerebrospinal fluid (CSF) leak he/she should observe for:-",
+    "options": {
+      "A": "Halo sign.",
+      "B": "Babinski reflex.",
+      "C": "Iliopsoas sign.",
+      "D": "Blumberg sign."
+    },
+    "answer": "A",
+    "explanation": "(A) Why it's correct: A CSF leak can occur after head trauma (especially a basilar skull fracture) or cranial surgery. CSF may leak from the nose (rhinorrhea) or the ears (otorrhea). Because CSF contains glucose, a simple bedside test is to check the fluid with a dextrostix; however, this can be unreliable as nasal mucus also contains some glucose. The more definitive test is the Halo or Ring sign. To perform this, the nurse lets the fluid drip onto a piece of gauze or a pillowcase. If CSF is present, the blood will coalesce into the center, and a yellowish, pale ring of CSF will form around it, creating a \"halo.\"\n(B) Why it's incorrect: The Babinski reflex (dorsiflexion of the big toe and fanning of other toes when the sole is stroked) is a sign of an upper motor neuron lesion. It is a neurological assessment finding, not a sign of a CSF leak.\n(C) Why it's incorrect: The Iliopsoas sign is a test for appendicitis or irritation of the psoas muscle.\n(D) Why it's incorrect: Blumberg's sign (rebound tenderness) is a test for peritoneal inflammation, often associated with appendicitis.",
+    "additional": "Basilar Skull Fracture Signs:\n\nCSF leak (rhinorrhea, otorrhea).\nBattle's sign: Postauricular (behind the ear) ecchymosis.\nRaccoon eyes: Periorbital (around the eyes) ecchymosis.\n\nManagement of CSF leak: Instruct the patient not to blow their nose, cough, or strain. The head of the bed should be elevated to decrease ICP and reduce the leak. Most leaks heal on their own, but some may require surgical repair.\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 56 (Intracranial Problems). See the section on \"Head Injury\" and \"Basilar Skull Fracture.\""
+  },
+  {
+    "question": "A deteriorating condition for a patient with head injury will be indicated by;",
+    "options": {
+      "A": "Widening pulse pressure and irregular respiratory pattern.",
+      "B": "Narrowing pulse pressure and escalation of discomfort.",
+      "C": "Bradycardia and Kussmaul breathing",
+      "D": "Oliguria and narrow pulse pressure."
+    },
+    "answer": "A",
+    "explanation": "(A) Why it's correct: This option describes two of the three components of Cushing's Triad, which is the classic sign of a deteriorating condition and severely increased intracranial pressure (ICP) in a patient with a head injury. The triad consists of:\n\nWidening pulse pressure: This is the difference between the systolic and diastolic blood pressure. A rising systolic BP with a stable or falling diastolic BP indicates a widening pulse pressure (e.g., 180/80 mmHg has a pulse pressure of 100).\n\nIrregular respiratory pattern: Such as Cheyne-Stokes respirations or ataxic breathing.\n\nBradycardia: A slow, bounding pulse.\nThe presence of these signs indicates brainstem compression and is a neurological emergency.\n\n(B) Why it's incorrect: A narrowing pulse pressure is characteristic of shock or cardiac tamponade, not increasing ICP.\n\n(C) Why it's incorrect: While bradycardia is part of Cushing's triad, Kussmaul breathing (deep, rapid, sighing respirations) is a compensatory mechanism for metabolic acidosis, most commonly seen in Diabetic Ketoacidosis (DKA). It is not a typical respiratory pattern for increased ICP.\n\n(D) Why it's incorrect: Oliguria (low urine output) and a narrow pulse pressure are signs of hypovolemic shock, not increased ICP. In fact, a complication of head injury can be diabetes insipidus, which causes massive polyuria (excessive urine output).",
+    "additional": "Textbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 56 (Intracranial Problems). See the section on \"Clinical Manifestations of Increased Intracranial Pressure.\""
+  },
+  {
+    "question": "The position an unconscious patient should be nursed in is:",
+    "options": {
+      "A": "Recumbent",
+      "B": "Lithotomy",
+      "C": "Prone",
+      "D": "Semi-prone"
+    },
+    "answer": "D",
+    "explanation": "Background: The priority for positioning an unconscious patient is to maintain a patent airway and prevent aspiration of secretions or vomitus.\n\n(D) Why it's correct: The semi-prone position, also known as the recovery position or Sims' position, is the safest choice. In this position, the patient is placed on their side with the top leg flexed. This position uses gravity to allow the tongue to fall forward, preventing it from occluding the airway, and facilitates the drainage of saliva, mucus, or vomitus out of the mouth, preventing aspiration.\n\n(A) Why it's incorrect: Recumbent (or supine, lying flat on the back) is the most dangerous position for an unconscious patient. The tongue can fall back and block the airway, and any secretions will pool in the back of the throat, leading to a high risk of aspiration.\n\n(B) Why it's incorrect: The lithotomy position (lying on the back with legs up in stirrups) is used for gynecological or urological procedures and has no therapeutic benefit for an unconscious patient.\n\n(C) Why it's incorrect: The prone position (lying flat on the stomach) can impair chest expansion and make it difficult to monitor the patient's airway and breathing. While it is used therapeutically for patients with ARDS, the semi-prone position is safer for general care of an unconscious patient.",
+    "additional": "Textbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 55 (Nursing Management: Altered Consciousness). See the section on \"Nursing Interventions: Respiratory System.\""
+  },
+  {
+    "question": "Fractures of the base of the skull will manifest with",
+    "options": {
+      "A": "Hemorrhage from the nose, the pharynx or the ears",
+      "B": "Cerebrospinal fluid leakage from the ears",
+      "C": "Bloody spinal fluid",
+      "D": "Persistent localized pain on swelling"
+    },
+    "answer": "B",
+    "explanation": "(B) Why it's correct: A basilar (or base of skull) fracture involves a break in the bones at the floor of the cranium. These fractures often tear the dura mater, the protective membrane surrounding the brain and spinal cord. This tear allows cerebrospinal fluid (CSF) to leak out. If the fracture is in the anterior fossa, CSF will leak from the nose (rhinorrhea). If the fracture is in the middle fossa, CSF will leak from the ear (otorrhea). This is a hallmark sign.\n\n(A) Why it's incorrect: While hemorrhage can occur, the presence of CSF is the more specific and pathognomonic sign of a dural tear associated with this type of fracture. The drainage is often a mix of blood and CSF.\n\n(C) Why it's incorrect: A lumbar puncture to check for bloody spinal fluid is generally contraindicated in a patient with a significant head injury and suspected increased ICP, as it can precipitate brain herniation. The diagnosis is made based on clinical signs and CT scan.\n\n(D) Why it's incorrect: Pain and swelling are non-specific signs of any fracture and do not specifically indicate a basilar skull fracture. The unique signs are those related to the fracture's location at the base of the brain (CSF leak, cranial nerve deficits, Battle's sign, Raccoon eyes).",
+    "additional": "Key signs of Basilar Skull Fracture:\n\nCSF Otorrhea / Rhinorrhea\n\nBattle's Sign (bruising behind the ear)\n\nRaccoon Eyes (periorbital bruising)\n\nHemotympanum (blood behind the eardrum)\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 56 (Intracranial Problems). See the section on \"Head Injury\" and the table/box on types of skull fractures."
+  },
+  {
+    "question": "Which cranial nerve is involved when the patient presents with facial pain, diminished corneal reflex and chewing dysfunction:",
+    "options": {
+      "A": "III",
+      "B": "IV",
+      "C": "V",
+      "D": "VI"
+    },
+    "answer": "C",
+    "explanation": "Background: This question tests knowledge of cranial nerve functions.\n\n(C) Why it's correct: Cranial Nerve V is the Trigeminal Nerve. It is a mixed nerve with two major functions:\n\nSensory: It provides sensation to the entire face (forehead, cheeks, jaw). Conditions like trigeminal neuralgia cause severe facial pain. The corneal reflex (blinking when the cornea is touched) is mediated by the sensory limb of CN V. A diminished reflex indicates a problem with this nerve.\n\nMotor: It controls the muscles of mastication (chewing), such as the masseter and temporalis muscles. Dysfunction leads to difficulty or weakness in chewing.\nThe triad of facial pain, diminished corneal reflex, and chewing dysfunction points directly to CN V.\n\nFunctions of the Other Nerves Listed:\n\n(A) CN III (Oculomotor): Controls most eye movements, pupil constriction, and eyelid elevation.\n\n(B) CN IV (Trochlear): Controls downward and inward eye movement (superior oblique muscle).\n\n(D) CN VI (Abducens): Controls lateral eye movement (lateral rectus muscle).",
+    "additional": "Mnemonic for Cranial Nerves: \"Oh Oh Oh To Touch And Feel Very Good Velvet, Ah Heaven\"\n\nMnemonic for Function (Sensory, Motor, or Both): \"Some Say Marry Money But My Brother Says Big Brains Matter More\"\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 54 (Structures and Functions of the Nervous System). See the table on \"Cranial Nerves and Functions.\""
   }
 ]
-
 
 
 
