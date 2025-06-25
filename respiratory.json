@@ -1,0 +1,68 @@
+[
+  {
+    "question": "A 21-year-old male client is transported by ambulance to the emergency unit. He complains of severe pain in his right chest where he struck the steering wheel. Which is the primary client goal at this time?",
+    "options": {
+      "A": "Reduce client’s anxiety",
+      "B": "Maintain adequate oxygenation",
+      "C": "Decrease chest pain",
+      "D": "Maintain adequate circulating volume"
+    },
+    "answer": "B",
+    "explanation": "Airway and breathing take priority in trauma. The chest injury may impair ventilation, so maintaining oxygenation is critical to prevent hypoxia."
+  },
+  {
+    "question": "The following finding is suggestive of a pneumothorax in a patient with chest trauma:",
+    "options": {
+      "A": "Absent breath sounds",
+      "B": "Inspiratory wheezing",
+      "C": "Dullness on chest percussion",
+      "D": "Pronounced crackles"
+    },
+    "answer": "A",
+    "explanation": "Absent breath sounds over the affected lung are the hallmark of pneumothorax due to lung collapse and air in the pleural space."
+  },
+  {
+    "question": "When nursing a patient with chronic obstructive pulmonary disease (COPD), the nurse should:",
+    "options": {
+      "A": "Ensure the patient gets high flow rate oxygen at 100%",
+      "B": "Advise the patient to get influenza and pneumococcal vaccines",
+      "C": "Avoid administration of prophylactic bronchodilators",
+      "D": "Position the patient in dorsal recumbent position to enhance ventilation"
+    },
+    "answer": "B",
+    "explanation": "Vaccinations prevent respiratory infections that can trigger severe COPD exacerbations. Annual flu and pneumococcal vaccines are essential."
+  },
+  {
+    "question": "Discharge instructions for a client with chronic respiratory acidosis should include:",
+    "options": {
+      "A": "Discussing how to plan for periods of increased activity",
+      "B": "Teaching about a low protein, low carbohydrate diet",
+      "C": "Demonstrating exercises to increase vital capacity",
+      "D": "Encouraging participation in activities such as jogging"
+    },
+    "answer": "C",
+    "explanation": "Chronic respiratory acidosis is caused by CO2 retention due to poor ventilation. Teaching exercises like diaphragmatic and pursed-lip breathing helps improve lung expansion and reduce CO2 levels. This directly improves the patient’s vital capacity."
+  },
+  {
+    "question": "During thoracentesis:",
+    "options": {
+      "A": "Fluid is aspirated from the peritoneal space",
+      "B": "Consent is not necessary",
+      "C": "Medications can be instilled into the pleural space",
+      "D": "Local anaesthesia is not advisable"
+    },
+    "answer": "C",
+    "explanation": "Thoracentesis accesses the pleural space, not the peritoneal cavity. In addition to removing fluid, it may also be used to instill medications such as sclerosing agents for pleurodesis. Consent and local anesthesia are always required."
+  },
+  {
+    "question": "The carcinogenic risk factors for laryngeal cancers include:",
+    "options": {
+      "A": "Tar products, mustard gas, chronic laryngitis",
+      "B": "Asbestos, chronic laryngitis, voice straining",
+      "C": "Voice straining, high fibre diet, tobacco",
+      "D": "Asbestos, tobacco, tar products"
+    },
+    "answer": "D",
+    "explanation": "Tobacco, asbestos, and tar products are major carcinogens for laryngeal cancer. Voice strain and dietary fiber are not significant risk factors. Long-term exposure to industrial chemicals increases the risk further."
+  }
+]
