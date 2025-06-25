@@ -70,5 +70,66 @@
     "answer": "B",
     "explanation": "Rationale for Correct Answer (B):\n\nDecreasing peripheral vision: This is the hallmark symptom of open-angle glaucoma. The increased intraocular pressure causes progressive damage to the optic nerve fibers. The peripheral nerve fibers are typically affected first, leading to a slow, painless loss of the outer visual field, often described as \"tunnel vision\" in the late stages.\n\nHalos around lights: This symptom is caused by corneal edema resulting from high IOP. While it is the classic sign of acute angle-closure glaucoma, it can also occur in patients with open-angle glaucoma if the pressure becomes significantly elevated. Given the combination, glaucoma is the best fit.",
     "additional": "Analysis of Incorrect Options:\n\n(A) Retinal detachment typically presents with a sudden onset of floaters, flashes of light (photopsia), and a \"curtain\" or \"shadow\" coming across the field of vision. It is not a gradual loss of peripheral vision.\n\n(C) A cataract causes painless, blurry, or hazy vision, like looking through a fog. It does not cause peripheral vision loss or halos.\n\n(D) Macular degeneration affects the macula, which is the center of the retina responsible for sharp, central vision. Therefore, its classic symptom is a loss of central vision (e.g., a blurry or dark spot in the middle of what you are looking at), not peripheral vision.\n\nTextbook Reference: Brunner & Suddarth's Textbook of Medical-Surgical Nursing, 14th Ed., Chapter 54: Management of Patients With Eye and Vision Disorders. See the sections on \"Glaucoma,\" \"Cataract,\" and \"Retinal Detachment.\""
+  },
+  {
+    "question": "A client with a cataract would most likely complain of,",
+    "options": {
+      "A": "Halos and rainbows around lights",
+      "B": "Eye pain and irritation that worsens at night",
+      "C": "Blurred and hazy vision",
+      "D": "Eye strain and headache when doing close work"
+    },
+    "answer": "C",
+    "explanation": "Background: A cataract is an opacity or clouding of the eye's natural lens. The lens is responsible for focusing light onto the retina. When it becomes cloudy, light cannot pass through clearly.\n\n(C) Why it's correct: The classic symptom of a developing cataract is a painless, progressive blurring or hazing of vision. Patients often describe it as looking through a frosty or foggy window. Colors may also appear faded or yellowed, and the patient may complain of decreased night vision and glare.\n\n(A) Why it's incorrect: Seeing halos around lights is the hallmark symptom of acute angle-closure glaucoma. This is caused by a sudden increase in intraocular pressure (IOP).\n\n(B) Why it's incorrect: Cataracts are painless. Eye pain is a red flag for other conditions like glaucoma, uveitis, or corneal abrasion.\n\n(D) Why it's incorrect: Eye strain and headaches with close work are more characteristic of presbyopia (age-related difficulty with near vision) or uncorrected refractive errors.",
+    "additional": "Cataract Surgery: The definitive treatment is surgery to remove the cloudy lens and replace it with a clear artificial intraocular lens (IOL).\n\nPost-op Care: Key instructions include avoiding activities that increase IOP (bending, lifting, straining, coughing), wearing an eye shield (especially at night), and administering prescribed antibiotic and anti-inflammatory eye drops. The patient should report any signs of complications like severe pain, increased redness, or a sudden change in vision.\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 21 (Nursing Assessment: Visual and Auditory Systems) and Chapter 22 (Nursing Management: Visual and Auditory Problems). See section on \"Cataracts.\""
+  },
+  {
+    "question": "After cataract surgery, if a patient complains of nausea, the nurse should,",
+    "options": {
+      "A": "Instruct patient to perform deep breaths until the nausea reduces",
+      "B": "Administer antiemetic to prevent intraocular pressure elevation",
+      "C": "Ensure a vomiting bowl is placed close to the patient as possible",
+      "D": "Reassure the patient that it is a common feeling post general Anaesthesia."
+    },
+    "answer": "B",
+    "explanation": "(B) Why it's correct: Nausea and vomiting are significant concerns after eye surgery. The physical act of vomiting (or retching) dramatically increases intraocular pressure (IOP). An elevation in IOP can put stress on the incision line, cause hemorrhage, or damage the newly placed lens implant. Therefore, preventing vomiting is a high priority. The nurse should promptly administer a prescribed antiemetic to treat the nausea before it leads to vomiting.\n\n(A) & (C) Why they are incorrect: While these are not harmful actions, they do not address the root cause or prevent the dangerous rise in IOP. The goal is to stop the vomiting, not just manage it.\n\n(D) Why it's incorrect: While nausea can be a side effect of anesthesia, simply reassuring the patient is not enough. The physiological risk to the eye is too great to ignore. Active intervention is required.",
+    "additional": "Textbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 22 (Nursing Management: Visual and Auditory Problems). See the section on \"Cataract Surgery: Postoperative Care.\""
+  },
+  {
+    "question": "Conductive hearing loss can be caused by:",
+    "options": {
+      "A": "Ototoxic medication, otitis externa",
+      "B": "Presbycusis, ototoxic medication",
+      "C": "Meniere's disease, otosclerosis",
+      "D": "Otosclerosis, tympanic membrane retraction"
+    },
+    "answer": "D",
+    "explanation": "Background: Hearing loss is categorized as either conductive, sensorineural, or mixed.\n\nConductive: A problem in the outer or middle ear that prevents sound waves from being conducted to the inner ear.\n\nSensorineural: A problem in the inner ear (cochlea) or the auditory nerve (CN VIII).\n\n(D) Why it's correct: This option lists two classic causes of conductive hearing loss.\n\nOtosclerosis: An abnormal growth of bone in the middle ear, which causes the stapes (one of the ossicles) to become fixed and unable to vibrate, thus blocking sound conduction.\n\nTympanic membrane retraction or perforation: A damaged eardrum cannot vibrate effectively to transmit sound to the ossicles.\nOther causes of conductive loss include impacted cerumen (earwax), otitis media (middle ear infection/fluid), and otitis externa (swelling of the ear canal).\n\n(A), (B), and (C) Why they are incorrect: These options mix conductive and sensorineural causes.\n\nOtotoxic medication (e.g., aminoglycoside antibiotics, loop diuretics) and presbycusis (age-related hearing loss) cause sensorineural hearing loss.\n\nMeniere's disease is a disorder of the inner ear that causes vertigo, tinnitus, and sensorineural hearing loss.\n\nOtitis externa causes conductive hearing loss, but it's paired with a sensorineural cause in option (A).",
+    "additional": "Textbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 22 (Nursing Management: Visual and Auditory Problems). See the table comparing types of hearing loss."
+  },
+  {
+    "question": "Treatment of megaloblastic anemia includes;",
+    "options": {
+      "A": "Chemotherapy, radiotherapy, hydration",
+      "B": "Oxygen therapy, hydration and iron supplements",
+      "C": "Blood transfusion, iron supplements, splenectomy",
+      "D": "Oxygen therapy, folate supplements, Alcohol restriction"
+    },
+    "answer": "D",
+    "explanation": "(D) Why it's correct: The treatment for megaloblastic anemia must address the underlying cause (folate or B12 deficiency) and the symptoms.\n\nFolate supplements: If the cause is folic acid deficiency, this is the definitive treatment.\n\nAlcohol restriction: Chronic alcohol abuse is a major cause of folate deficiency because it interferes with folate absorption and metabolism. Restricting alcohol is key to treatment success.\n\nOxygen therapy: Anemia, by definition, is a reduced oxygen-carrying capacity of the blood. If the patient is symptomatic with dyspnea or hypoxia, oxygen therapy is appropriate.\n\n(A) Why it's incorrect: Chemotherapy and radiotherapy are treatments for cancer, not nutritional anemia.\n\n(B) & (C) Why they are incorrect: Iron supplements are used to treat iron-deficiency anemia, which is a microcytic anemia, not megaloblastic anemia. Giving iron for megaloblastic anemia is ineffective. A blood transfusion might be needed if the anemia is severe and life-threatening, but it is not a primary treatment.",
+    "additional": "If the cause is Vitamin B12 deficiency (often due to pernicious anemia, where there is a lack of intrinsic factor), the treatment is lifelong Vitamin B12 injections or high-dose oral B12, as it cannot be absorbed from the diet.\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 30 (Hematologic Problems)."
+  },
+  {
+    "question": "Substances that create colloid osmotic pressure in the capillaries include;",
+    "options": {
+      "A": "Albumin, globulin",
+      "B": "Plasma, potassium",
+      "C": "Globulin, sodium",
+      "D": "Albumin, potassium"
+    },
+    "answer": "A",
+    "explanation": "Background: Colloid osmotic pressure (or oncotic pressure) is a form of osmotic pressure exerted by large protein molecules (colloids) in the blood plasma. These proteins are too large to easily pass through the capillary walls. Their presence creates a \"pulling\" force that holds fluid inside the capillaries and draws fluid back in from the interstitial space.\n\n(A) Why it's correct: Albumin is the most abundant protein in the plasma and is responsible for about 80% of the colloid osmotic pressure. Globulins are the next most common and also contribute to this pressure.\n\n(B), (C), and (D) Why they are incorrect: Potassium and sodium are small electrolytes (crystalloids), not colloids. They move freely across the capillary membrane and contribute to the overall osmotic pressure of the fluid, but not specifically the colloid osmotic pressure that holds fluid within the vessels. Plasma is the fluid medium itself, not the substance creating the pressure.",
+    "additional": "Clinical Relevance: In conditions like liver failure (where albumin production is decreased) or nephrotic syndrome (where albumin is lost in the urine), the colloid osmotic pressure drops. This reduces the \"pulling\" force holding fluid in the vessels, leading to a fluid shift into the interstitial space and causing generalized edema.\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 16 (Fluid, Electrolyte, and Acid-Base Imbalances)."
   }
 ]
+
