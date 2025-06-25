@@ -70,5 +70,115 @@
     "answer": "D",
     "explanation": "Laryngeal cancer is strongly linked to inhaled carcinogens that directly damage the cells of the larynx. Tobacco is the leading cause. Asbestos is an occupational carcinogen that significantly increases risk. Tar products from tobacco and industrial exposure also contribute to malignancy.",
     "additional": "Chronic laryngitis and voice strain do not directly cause cancer. High-fiber diet is protective. Additional risk factors: alcohol (synergistic with smoking), HPV, age >65, male, Black race. First sign: persistent hoarseness >2 weeks. Treatment: chemo, radiation, surgery (laryngectomy). Post-op: airway care is top priority. Reference: Brunner & Suddarth, 14th Ed., Ch. 23."
+  },
+  {
+    "question": "A 21 year old male client is transported by ambulance to the emergency unit. He complains of severe pain in his right chest where he struck the steering wheel. Which is the primary client goal at this time?",
+    "options": {
+      "A": "Reduce client's anxiety",
+      "B": "Maintain adequate oxygenation",
+      "C": "Decrease chest pain",
+      "D": "Maintain adequate circulating volume"
+    },
+    "answer": "B",
+    "explanation": "Background: The patient has sustained significant blunt chest trauma. This mechanism of injury puts him at high risk for life-threatening conditions like pneumothorax, hemothorax, flail chest, and pulmonary contusion, all of which compromise breathing and gas exchange.\n\n(B) Why it's correct: According to the ABCs (Airway, Breathing, Circulation) of emergency care, maintaining a patent airway and ensuring adequate breathing and oxygenation is the highest priority. The severe pain from the injury will cause the patient to splint (take shallow breaths), which can lead to atelectasis and hypoxia. The underlying injury itself (like a pneumothorax) directly impairs oxygenation. Therefore, all initial interventions will be aimed at ensuring the patient is breathing effectively and is well-oxygenated.\n\n(C) Why it's incorrect: While decreasing chest pain is very important (as it helps improve breathing), it is a means to an end. The ultimate goal is adequate oxygenation. Pain management is an intervention to achieve the goal of better breathing.\n\n(A) Why it's incorrect: Reducing anxiety is also important, but it is a psychosocial need that comes after the life-sustaining physiological needs of breathing and circulation are addressed.\n\n(D) Why it's incorrect: Maintaining circulating volume (Circulation) is the 'C' in ABCs. It is also a very high priority. However, in the immediate context of a chest injury where the primary complaint is chest pain and the mechanism affects the lungs, \"Breathing\" and \"Oxygenation\" are typically addressed first, unless there are obvious signs of massive hemorrhage and shock (like hypotension and extreme tachycardia).",
+    "additional": "Signs of Respiratory Distress: Tachypnea (rapid breathing), use of accessory muscles, nasal flaring, cyanosis, paradoxical chest movement (in flail chest), decreased or absent breath sounds, tracheal deviation (in tension pneumothorax).\n\nInitial Interventions: Administer high-flow oxygen, establish IV access, place the patient on a cardiac monitor and pulse oximeter, and prepare for a chest X-ray and potential chest tube insertion.\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 27 (Chest and Lower Respiratory Problems). See the section on \"Chest Trauma and Thoracic Injuries.\""
+  },
+  {
+    "question": "The following finding is suggestive of a pneumothorax in a patient with chest trauma;",
+    "options": {
+      "A": "absent breath sounds",
+      "B": "inspiratory wheezing",
+      "C": "dullness on chest percussion",
+      "D": "pronounced crackles"
+    },
+    "answer": "A",
+    "explanation": "(A) Why it's correct: A pneumothorax is a collection of air in the pleural space, which causes the lung to collapse. Since air is no longer moving in and out of the collapsed portion of the lung, there will be diminished or completely absent breath sounds on auscultation over the affected area. The chest on the affected side will also be hyperresonant to percussion because the pleural space is filled with air.\n\n(B) Why it's incorrect: Wheezing is a high-pitched whistling sound caused by the narrowing of airways. It is a hallmark of asthma and can be seen in COPD or bronchitis, but not typically in a pneumothorax.\n\n(C) Why it's incorrect: Dullness on percussion indicates the presence of fluid or solid tissue. This finding would be expected in a hemothorax (blood in the pleural space), pneumonia (consolidation), or pleural effusion (fluid buildup), but not a pneumothorax.\n\n(D) Why it's incorrect: Crackles (or rales) are clicking or rattling sounds caused by the \"popping open\" of small airways and alveoli collapsed by fluid. They are characteristic of pulmonary edema, pneumonia, and atelectasis.",
+    "additional": "Tension Pneumothorax: This is a life-threatening emergency where air enters the pleural space on inspiration but cannot escape on expiration. The trapped air builds up pressure, collapsing the lung and pushing the mediastinum (heart, great vessels, trachea) to the opposite side. Key signs are severe respiratory distress, hypotension, jugular vein distention (JVD), and tracheal deviation away from the affected side. It requires immediate needle decompression followed by chest tube insertion.\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 27 (Chest and Lower Respiratory Problems). See the section on \"Pneumothorax\" and the table comparing different chest pathologies."
+  },
+  {
+    "question": "When nursing a patient with chronic obstructive pulmonary disease, the nurse should,",
+    "options": {
+      "A": "Ensure the patient gets high flow rate oxygen at 100%",
+      "B": "Advise the patient to get influenza and pneumococcal vaccines",
+      "C": "Avoid administration of prophylactic bronchodilators",
+      "D": "Position the patient in dorsal recumbent position to enhance ventilation"
+    },
+    "answer": "B",
+    "explanation": "(B) Why it's correct: Patients with COPD have compromised lung function and are at extremely high risk for complications from respiratory infections. An infection like influenza or pneumonia can trigger a severe, life-threatening exacerbation. Therefore, a cornerstone of long-term COPD management is prevention, which includes annual flu shots and the pneumococcal vaccine.\n\n(A) Why it's incorrect: This is a classic and dangerous mistake. For a small subset of COPD patients (those who are chronic CO2 retainers), their primary respiratory drive is a low level of oxygen in the blood (hypoxic drive). Administering high-flow oxygen can suppress this drive, leading to respiratory depression and arrest. Therefore, oxygen for these patients is carefully titrated to the lowest effective dose to maintain a target SpO2, typically 88-92%. Note: In an acute emergency, high-flow oxygen is given, but it is quickly titrated down once the patient is stable.\n\n(C) Why it's incorrect: Prophylactic (maintenance) bronchodilators are the mainstay of COPD treatment. Medications like long-acting beta-agonists (LABA) and long-acting musinic antagonists (LAMA) are used daily to keep airways open and prevent exacerbations.\n\n(D) Why it's incorrect: The dorsal recumbent (supine) position is the worst position for a patient with breathing difficulties. It allows the abdominal organs to push up on the diaphragm, decreasing lung expansion. The best position is the upright or tripod position (sitting up and leaning forward with arms supported), which maximizes chest expansion.",
+    "additional": "COPD Management: Key aspects include smoking cessation, bronchodilator therapy, corticosteroid therapy (especially during exacerbations), oxygen therapy, and pulmonary rehabilitation.\n\nPursed-Lip Breathing: Teach patients this technique to prolong exhalation, prevent airway collapse, and help empty trapped air.\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 28 (Obstructive Pulmonary Diseases). See the sections on \"Collaborative Care,\" \"Drug Therapy,\" and \"Patient Teaching.\""
+  },
+  {
+    "question": "In pulmonary embolism (PE),",
+    "options": {
+      "A": "There is a clot formation in the pulmonary vein and or its branches",
+      "B": "There is obstruction of the Pulmonary artery or one of its branches",
+      "C": "Trauma, pregnancy and Valsalva maneuvers are common predisposing factors",
+      "D": "Old age, heart failure and intestinal obstruction clients are more prone"
+    },
+    "answer": "B",
+    "explanation": "(B) Why it's correct: A pulmonary embolism (PE) is, by definition, the blockage of a pulmonary artery or one of its branches. The embolus (blockage) is most often a blood clot (thrombus) that has traveled from a deep vein in the legs or pelvis (deep vein thrombosis or DVT). However, the embolus can also be fat (from a long bone fracture), air (from improper IV line management), amniotic fluid, or septic vegetation. The key location of the obstruction is the pulmonary arterial circulation.\n\n(A) Why it's incorrect: The pulmonary veins carry oxygenated blood from the lungs back to the left atrium. A clot here would be a systemic embolus, not a pulmonary embolus. A PE involves the pulmonary arteries, which carry deoxygenated blood from the right ventricle to the lungs.\n\n(C) Why it's incorrect: While trauma and pregnancy are indeed major risk factors for DVT and subsequent PE, the Valsalva maneuver is not. The Valsalva maneuver (straining against a closed glottis) increases intrathoracic pressure and can cause bradycardia; it is not a primary cause of PE.\n\n(D) Why it's incorrect: While old age and heart failure are risk factors, intestinal obstruction is not a classic predisposing factor for PE. The major risk factors are summarized by Virchow's Triad.",
+    "additional": "Virchow's Triad (The three factors predisposing to DVT/PE):\n\nVenous Stasis: Immobility, prolonged bed rest, long-distance travel, obesity, heart failure.\n\nEndothelial (Vessel Wall) Injury: Trauma, surgery (especially orthopedic), IV catheters.\n\nHypercoagulability: Dehydration, cancer, pregnancy, oral contraceptive use, inherited clotting disorders.\n\nSigns & Symptoms of PE: The classic triad is dyspnea, pleuritic chest pain, and hemoptysis, but this is rarely seen. The most common symptom is unexplained, sudden-onset dyspnea. Other signs include tachycardia, tachypnea, cough, and anxiety. A massive PE can cause hypotension and cardiogenic shock.\n\nDiagnosis: A CT Angiogram (CTA) of the chest is the gold standard diagnostic test.\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 27 (Chest and Lower Respiratory Problems). See the section on \"Pulmonary Embolism.\""
+  },
+  {
+    "question": "Which of the most relevant knowledge about oxygen administration to a client with COPD",
+    "options": {
+      "A": "Oxygen at 1-2L/min is given to maintain the hypoxic stimulus for breathing.",
+      "B": "Hypoxia stimulates the central chemoreceptors in the medulla that makes the client breath.",
+      "C": "Oxygen is administered best using non-rebreathing mask.",
+      "D": "Blood gases are monitored using a pulse oximeter."
+    },
+    "answer": "A",
+    "explanation": "(A) Why it's correct: This statement accurately reflects the principle of the hypoxic drive. In some patients with chronic CO2 retention, the central chemoreceptors become desensitized to high CO2 levels. Their primary stimulus to breathe becomes peripheral chemoreceptors, which are sensitive to hypoxemia (low PaO2). Giving low-flow oxygen (e.g., 1-2 L/min via nasal cannula) can improve oxygenation without \"knocking out\" this hypoxic drive. The goal is to correct the dangerous hypoxemia while preserving the stimulus to breathe.\n\n(B) Why it's incorrect: The central chemoreceptors (in the medulla) are stimulated by high levels of CO2 (or H+ ions) in the cerebrospinal fluid. The peripheral chemoreceptors (in the carotid and aortic bodies) are stimulated by hypoxia. This statement incorrectly links hypoxia to the central chemoreceptors.\n\n(C) Why it's incorrect: A non-rebreathing mask delivers a high concentration of oxygen (FiO2 > 60%). This is generally contraindicated for routine oxygen administration in a patient with COPD due to the risk of suppressing the hypoxic drive. The preferred method for stable COPD patients is a low-flow device like a nasal cannula or a high-flow device that allows for precise, lower FiO2 delivery, such as a Venturi mask.\n\n(D) Why it's incorrect: A pulse oximeter measures oxygen saturation (SpO2), not blood gases. An Arterial Blood Gas (ABG) analysis is the test that measures PaO2, PaCO2, pH, and bicarbonate, providing a complete picture of the patient's gas exchange and acid-base status.",
+    "additional": "Oxygen Delivery Devices:\n\nNasal Cannula: Low flow (1-6 L/min).\n\nSimple Face Mask: Medium flow (6-12 L/min).\n\nNon-rebreather Mask: High concentration (10-15 L/min).\n\nVenturi Mask: Delivers a precise, fixed concentration of oxygen, making it ideal for COPD patients.\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 28 (Obstructive Pulmonary Diseases). See the sections on \"Oxygen Therapy\" and the pathophysiology of the respiratory drive."
+  },
+  {
+    "question": "Discharge instructions for a client with chronic respiratory acidosis should include",
+    "options": {
+      "A": "Discussing how to plan for periods of increased activity",
+      "B": "Teaching about a low protein, low carbohydrate diet",
+      "C": "Demonstrating exercises to increase vital capacity",
+      "D": "Encouraging participation in activities such as jogging"
+    },
+    "answer": "C",
+    "explanation": "(C) Why it's correct: Exercises that increase vital capacity, such as pursed-lip breathing and diaphragmatic (abdominal) breathing, are crucial for patients with chronic respiratory acidosis. These techniques help to slow the respiratory rate, prevent small airway collapse during exhalation, and allow for more complete emptying of the lungs, which improves gas exchange and reduces CO2 retention. Pulmonary rehabilitation programs are centered on these types of exercises.\n\n(A) Why it's incorrect: The goal is not just to plan for activity, but to improve the ability to do the activity. The focus should be on building tolerance through specific breathing and conditioning exercises.\n\n(B) Why it's incorrect: The recommended diet for a patient with severe COPD is often a high-calorie, high-protein diet to prevent malnutrition and muscle wasting. Carbohydrate metabolism produces more CO2 than fat or protein metabolism, so a diet lower in carbohydrates and higher in fat can sometimes be beneficial to reduce the CO2 load, but a low-protein diet is contraindicated.\n\n(D) Why it's incorrect: Jogging is a high-impact, high-intensity aerobic activity that would likely be impossible and dangerous for a client with significant chronic respiratory acidosis and COPD. Exercise should be low-impact and carefully paced, such as walking.",
+    "additional": "Diaphragmatic Breathing: Teach the patient to place one hand on their chest and the other on their abdomen. They should aim to breathe so that the hand on the abdomen rises and falls, while the hand on the chest remains relatively still. This focuses on using the diaphragm effectively instead of the accessory muscles.\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 28 (Obstructive Pulmonary Diseases). See the section on \"Breathing Retraining\" and \"Nutritional Therapy.\""
+  },
+  {
+    "question": "During thoracentesis",
+    "options": {
+      "A": "Fluid is aspirated from the peritoneal space",
+      "B": "Consent is not necessary",
+      "C": "Medications can be instilled into the pleural space",
+      "D": "Local anaesthesia is not advisable"
+    },
+    "answer": "C",
+    "explanation": "(C) Why it's correct: While the primary purpose is usually fluid removal, a thoracentesis also provides a direct route to instill medications into the pleural space. This procedure, known as pleurodesis, involves instilling a sclerosing (scarring) agent like talc or doxycycline. This causes the two layers of the pleura to adhere to each other, obliterating the pleural space and preventing the re-accumulation of fluid or air. This is often done for patients with recurrent malignant pleural effusions or persistent pneumothorax.\n\n(A) Why it's incorrect: The peritoneal space is in the abdomen. A procedure to aspirate fluid from the peritoneal space is called a paracentesis.\n\n(B) Why it's incorrect: A thoracentesis is an invasive procedure that carries risks, including pneumothorax, bleeding, and infection. Therefore, informed consent is absolutely necessary.\n\n(D) Why it's incorrect: The procedure involves inserting a large-bore needle through the skin, subcutaneous tissue, and muscles into the chest cavity. It would be extremely painful without anesthesia. Local anesthesia (like lidocaine) is always used to numb the insertion site.",
+    "additional": "Patient Positioning for Thoracentesis: The patient is typically positioned sitting on the edge of the bed, leaning forward over a bedside table. This position widens the intercostal spaces and allows fluid to accumulate at the base of the lung, making access easier.\n\nPost-Procedure Care: Monitor the patient's vital signs, oxygen saturation, and respiratory status closely for signs of a pneumothorax (a common complication). A post-procedure chest X-ray is often performed to rule this out.\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 27 (Chest and Lower Respiratory Problems). See the section on \"Pleural Effusion\" and \"Thoracentesis.\""
+  },
+  {
+    "question": "The carcinogenic risk factors for laryngeal cancers include:",
+    "options": {
+      "A": "Tar products, mustard gas, chronic laryngitis",
+      "B": "Asbestos, chronic laryngitis, voice straining",
+      "C": "Voice straining, high fibre diet, tobacco",
+      "D": "Asbestos, tobacco, tar products"
+    },
+    "answer": "D",
+    "explanation": "(D) Why it's correct: This option lists three major, well-established carcinogens linked to laryngeal (voice box) cancer.\n\nTobacco: Smoking is the number one risk factor. The risk increases with the number of cigarettes smoked per day and the duration of smoking.\n\nTar products: Tar is a key carcinogenic component of tobacco smoke.\n\nAsbestos: Occupational exposure to asbestos is a known risk factor for laryngeal cancer, as well as lung cancer and mesothelioma.\n\nAlcohol: Excessive alcohol consumption is another major risk factor, and the risk is synergistic with tobacco (the combined risk is much greater than the individual risks).\n\n(A), (B), and (C) Why they are incorrect: These options include factors that are either not primary carcinogens or are less significant.\n\nChronic laryngitis: While chronic inflammation can sometimes predispose to cancer, it is not considered a primary carcinogenic risk factor in the same class as tobacco or asbestos.\n\nVoice straining: This can cause benign vocal cord nodules or polyps but is not a cause of cancer.\n\nHigh fibre diet: A healthy diet, including high fiber, is generally considered protective against many cancers, not a risk factor.",
+    "additional": "Early Signs of Laryngeal Cancer: The most common early symptom is persistent hoarseness that lasts for more than two weeks. Other signs can include a sore throat, a lump in the neck, and difficulty swallowing (dysphagia).\n\nTreatment: Depending on the stage, treatment can include radiation therapy, chemotherapy, and/or surgery. A total laryngectomy (removal of the entire larynx) results in the permanent loss of natural voice and requires the creation of a stoma in the neck for breathing.\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 26 (Upper Respiratory Problems). See the section on \"Head and Neck Cancer.\""
+  },
+  {
+    "question": "The following observations are noted on the patient on underwater seal drainage:",
+    "options": {
+      "A": "Vital signs, patent connections, colour of drainage",
+      "B": "Vital signs, colour of drainage, amount of drainage",
+      "C": "Vital signs, patient understanding of the procedure, amount of drainage",
+      "D": "Vital signs, patient understanding of the procedure, cyanosis"
+    },
+    "answer": "B",
+    "explanation": "(B) Why it's correct: This option lists three of the most critical and direct assessments related to the chest drainage system itself.\n\nVital Signs: Essential for monitoring for complications like hemorrhage (tachycardia, hypotension) or infection (fever).\n\nColour of drainage: Indicates the type of fluid being drained (e.g., serous, serosanguinous, or frank blood). A sudden change to bright red blood indicates active bleeding.\n\nAmount of drainage: This must be measured and recorded regularly (e.g., every hour in the immediate post-op period, then every 4-8 hours). A sudden large increase in drainage (>100-200 mL/hr) can signify hemorrhage.\n\n(A), (C), and (D) Why they are incorrect:\n\n(A) While checking for patent connections is crucial, \"amount\" of drainage is a more fundamental assessment than \"patent connections.\" Amount is a direct patient outcome measurement.\n\n(C) & (D) While assessing patient understanding is an important part of nursing care, it is not a primary physical observation of the drainage system's function or the patient's physiological status. Cyanosis is part of assessing vital signs/respiratory status. The core assessments of the drainage system are amount and character of drainage.",
+    "additional": "Three Chambers of a Chest Drainage Unit:\n\nCollection Chamber: Collects the fluid/blood drainage.\n\nWater-Seal Chamber: Contains sterile water and acts as a one-way valve, allowing air to exit the pleural space but not re-enter. You should see gentle tidaling (fluctuation of the water level with breathing). Continuous bubbling in this chamber indicates an air leak.\n\nSuction Control Chamber: Regulates the amount of negative pressure applied. Gentle, continuous bubbling in this chamber (if wet suction is used) is normal and indicates the suction is working correctly.\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 27 (Chest and Lower Respiratory Problems). See the section on \"Chest Tubes and Pleural Drainage.\""
   }
 ]
+
+
