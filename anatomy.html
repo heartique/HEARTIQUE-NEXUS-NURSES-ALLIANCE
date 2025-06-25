@@ -150,8 +150,9 @@
           total = data.length;
 
           data.forEach((q, index) => {
-          const div = document.createElement('div');
-          div.className = 'question-box question';
+            const div = document.createElement('div');
+            div.className = 'question-box question'; // ✅ ADDITION HERE
+
             div.innerHTML = `<strong>Q${index + 1}: ${q.question}</strong><br><br>`;
 
             Object.entries(q.options).forEach(([key, value]) => {
