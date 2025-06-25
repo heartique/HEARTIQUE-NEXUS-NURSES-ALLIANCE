@@ -94,5 +94,66 @@
     "answer": "A",
     "explanation": "The BCG (Bacillus Calmette-Guérin) vaccine is a live attenuated vaccine used to prevent severe tuberculosis in children. Live attenuated vaccines contain weakened forms of pathogens, which can pose serious risks in people with symptomatic HIV/AIDS. In such individuals, the immune system is compromised, and even a weakened microbe may cause severe or disseminated disease. Therefore, BCG is contraindicated in symptomatic HIV infection.",
     "additional": "Why B, C, and D are incorrect:\n- B & C: DPT and Pertussis vaccines are either inactivated or acellular, meaning they do not contain live organisms. They are safe and recommended for people with HIV.\n- D: The injectable influenza vaccine is inactivated and strongly recommended for people with HIV. However, the nasal spray version is live attenuated and **contraindicated** in immunocompromised patients.\n\nLive vs. Inactivated Vaccines:\n- Live Attenuated: MMR, Varicella, Rotavirus, intranasal influenza, BCG. These are generally **contraindicated** in pregnancy and severe immunodeficiency.\n- Inactivated/Subunit: Polio (IPV), Hepatitis A, injectable influenza, DTaP. These are **safe** for immunocompromised patients.\n\nHIV-Specific Considerations:\n- HIV+ individuals should receive all routine inactivated vaccines.\n- Some live vaccines (e.g., MMR, Varicella) may be given **if** the CD4 count is high enough (e.g., >200 cells/mm³), based on WHO and CDC guidelines."
+  },
+  {
+    "question": "The sensitivity part of a culture & sensitivity test is for the purpose of,",
+    "options": {
+      "A": "Identifying the causative organism for the infection diagnosed",
+      "B": "Identifying the most effective antibiotics against the causative organism",
+      "C": "Identifying the antibiotics that the patient is resistant to",
+      "D": "Testing the concentration of antibiotic required to cure an infection"
+    },
+    "answer": "B",
+    "explanation": "Background: A Culture and Sensitivity (C&S) test is a two-part laboratory test crucial for guiding antibiotic therapy.\n\nCulture: The specimen (e.g., urine, blood, sputum) is placed in a growth medium to see what bacteria or fungus grows. This identifies the causative organism.\n\nSensitivity: Once the organism is grown and identified, it is exposed to various antibiotics on a petri dish. This part of the test determines which antibiotics are effective at killing or inhibiting the growth of that specific organism.\n\n(B) Why it's correct: The sensitivity analysis determines the susceptibility of the cultured organism to a panel of antibiotics. The results guide the physician in choosing the most effective drug to treat the infection. A result of \"S\" means the organism is Sensitive (antibiotic will work), \"I\" means Intermediate, and \"R\" means Resistant.\n\n(A) Why it's incorrect: This describes the culture part of the test, not the sensitivity part.\n\n(C) Why it's incorrect: While the test does identify resistant antibiotics, its primary purpose is to find the ones that are effective. Option (B) is a more encompassing and positive statement of the test's goal.\n\n(D) Why it's incorrect: This describes a more advanced test called a Minimum Inhibitory Concentration (MIC) test, which determines the lowest concentration of an antibiotic needed to inhibit bacterial growth. While related, the general purpose of the sensitivity part of a C&S is simply to identify which drugs are effective.",
+    "additional": "Textbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 11 (Inflammation and Wound Healing). See the section on \"Infection.\" Also mentioned in chapters related to specific infections (e.g., UTI, pneumonia)."
+  },
+  {
+    "question": "The common causative organism for pharyngitis is,",
+    "options": {
+      "A": "Group B, beta hemolytic streptococcus",
+      "B": "Group A, beta hemolytic streptococcus",
+      "C": "Hemophilus influenza",
+      "D": "Staphylococcus aureus"
+    },
+    "answer": "B",
+    "explanation": "(B) Why it's correct: The most common and clinically significant bacterial cause of pharyngitis (\"strep throat\") is Group A beta-hemolytic streptococcus (GABHS), also known as Streptococcus pyogenes. While most cases of pharyngitis are viral, it is crucial to identify and treat GABHS infections with antibiotics (typically penicillin) to prevent serious post-infectious complications.\n\n(A) Why it's incorrect: Group B streptococcus (GBS) is a major cause of neonatal sepsis and meningitis in newborns, who acquire it from the mother's genital tract during birth. It is not a common cause of pharyngitis in adults.\n\n(C) Why it's incorrect: Haemophilus influenzae is a bacterium that can cause otitis media, sinusitis, and pneumonia, but it is not the common cause of pharyngitis.\n\n(D) Why it's incorrect: Staphylococcus aureus is a common cause of skin infections (e.g., boils, cellulitis), pneumonia, and bacteremia, but not typically pharyngitis.",
+    "additional": "Complications of Untreated GABHS Pharyngitis:\n\nRheumatic Fever: An inflammatory disease that can cause permanent damage to the heart valves (rheumatic heart disease).\n\nAcute Glomerulonephritis: An inflammatory kidney disease.\n\nDiagnosis: A rapid antigen detection test (rapid strep test) and/or a throat culture are used for diagnosis.\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 26 (Upper Respiratory Problems). See the section on \"Acute Pharyngitis.\""
+  },
+  {
+    "question": "A patient newly diagnosed with HIV/AIDS who laments, \"I can't believe I got this virus. I am going to die and everyone will know it was due to my behavior. How could I be so stupid?\" is in the stage of:",
+    "options": {
+      "A": "Depression",
+      "B": "Denial",
+      "C": "Acceptance",
+      "D": "Bargaining"
+    },
+    "answer": "B",
+    "explanation": "Background: This question relates to the Kübler-Ross stages of grief, which are often applied to patients coping with a new, life-altering diagnosis. The stages are Denial, Anger, Bargaining, Depression, and Acceptance (DABDA).\n\n(B) Why it's correct: The patient's statement, \"I can't believe I got this virus,\" is the classic verbalization of denial. Denial is a defense mechanism used to reject the reality of a traumatic situation. The feelings of self-blame (\"How could I be so stupid?\") and shock are also characteristic of this initial stage.\n\n(A) Why it's incorrect: While the statement has depressive elements (\"I am going to die\"), the overwhelming theme is shock and disbelief. The depression stage is typically characterized by a deeper, more persistent sadness, withdrawal, and hopelessness after the initial shock and anger have passed.\n\n(C) Why it's incorrect: The patient is clearly not at the stage of acceptance, which involves coming to terms with the diagnosis and moving forward.\n\n(D) Why it's incorrect: Bargaining involves trying to make deals to postpone the inevitable, often with a higher power (e.g., \"If you just let me live to see my daughter graduate, I'll...\"). This is not present in the patient's statement.",
+    "additional": "Textbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 14 (HIV Infection). Also Chapter 9 (Stress and Stress Management) which often discusses coping and grief."
+  },
+  {
+    "question": "The predilection of HIV for certain cells in the immune system results in",
+    "options": {
+      "A": "More T4 lymphocytes and general lymphocytopenia",
+      "B": "Fewer activated B-cells and hypogammaglobulinemia",
+      "C": "Increased response in cutaneous hypersensitivity",
+      "D": "Susceptibility to opportunistic infection and neoplasm"
+    },
+    "answer": "D",
+    "explanation": "(D) Why it's correct: This statement accurately describes the ultimate clinical consequence of HIV infection. HIV has a predilection (preference) for CD4+ T-helper lymphocytes. These cells are the \"conductors\" of the immune orchestra; they are essential for coordinating the entire immune response. As HIV destroys CD4+ cells, the immune system becomes severely compromised. This immunodeficiency leaves the body unable to fight off microbes that would not normally cause illness in a healthy person. This leads to opportunistic infections (like Pneumocystis jirovecii pneumonia, candidiasis) and certain cancers (neoplasms) like Kaposi's sarcoma and lymphoma.\n\n(A) Why it's incorrect: HIV causes a decrease, not an increase, in T4 (CD4) lymphocytes. The destruction of these cells leads to lymphocytopenia (a low lymphocyte count).\n\n(B) Why it's incorrect: While B-cell function is impaired because they don't receive proper signals from the T-helper cells, HIV infection is often characterized by hypergammaglobulinemia (high levels of antibodies) early on, as the B-cells are polyclonally and non-specifically activated in a dysfunctional way.\n\n(C) Why it's incorrect: Cutaneous hypersensitivity (like the response to a TB skin test) is a T-cell mediated response. As T-cells are destroyed, this response is decreased or absent (anergy), not increased.",
+    "additional": "Textbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 14 (HIV Infection). See the section on \"Pathophysiology.\""
+  },
+  {
+    "question": "Glomerulonephritis usually follows:-",
+    "options": {
+      "A": "Staphylococcal infection.",
+      "B": "Gonococcal infection.",
+      "C": "Gonococcal infection.",
+      "D": "Streptococcal infection"
+    },
+    "answer": "D",
+    "explanation": "(D) Why it's correct: Acute poststreptococcal glomerulonephritis (APSGN) is the classic example of glomerulonephritis. It is an immune-mediated disease that develops approximately 1-2 weeks after an infection of the throat or skin with certain nephritogenic strains of Group A beta-hemolytic streptococcus. It is not a direct kidney infection. Rather, antigen-antibody complexes from the strep infection circulate in the blood and get trapped in the glomeruli of the kidneys, causing an inflammatory response that damages the glomerular filtration membrane.\n\n(A) Why it's incorrect: While Staphylococcus can cause some forms of glomerulonephritis, it is not the classic or most common preceding infection.\n\n(B) & (C) Why they are incorrect: Gonococcal infection (gonorrhea) is a sexually transmitted infection and is not associated with causing glomerulonephritis.",
+    "additional": "Clinical Manifestations of APSGN:\n\nEdema: Periorbital (around the eyes) edema is a hallmark, especially in the morning.\n\nHypertension: Due to fluid and sodium retention.\n\nOliguria: Decreased urine output.\n\nHematuria: Blood in the urine, often described as cola-colored or smoky.\n\nProteinuria: Protein in the urine.\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 45 (Nursing Management: Renal and Urologic Problems). See the section on \"Glomerulonephritis.\""
   }
 ]
+
