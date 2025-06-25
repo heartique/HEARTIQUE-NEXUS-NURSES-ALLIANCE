@@ -226,6 +226,54 @@
     "answer": "D",
     "explanation": "Background: Hyperthyroidism is a condition where the thyroid gland is overactive and produces an excessive amount of thyroid hormones (T3 and T4). This speeds up the body's metabolism. The most common cause is Graves' disease, an autoimmune disorder.\n\n(D) Why it's correct: The defining laboratory finding in hyperthyroidism is an elevated level of circulating thyroid hormones (T3 and T4). \"Free\" T3 and T4 refers to the portion of the hormone not bound to protein, which is the biologically active form.\n\n(A) Why it's incorrect: Decreased T3 and T4 levels are characteristic of hypothyroidism.\n\n(B) Why it's incorrect: This involves understanding the HPT axis (Hypothalamus-Pituitary-Thyroid).\n\nHypothalamus releases TRH -> Pituitary releases TSH -> Thyroid releases T3/T4.\n\nT3/T4 exert negative feedback on the hypothalamus and pituitary.\n\nIn primary hyperthyroidism (the problem is in the thyroid itself), the high levels of T3/T4 will suppress the pituitary's release of TSH. TRH from the hypothalamus would also be suppressed. Therefore, you would expect low TSH and low TRH levels.\n\n(C) Why it's incorrect: A Radioactive Iodine Uptake (RAIU) test measures how much iodine the thyroid gland absorbs. In most causes of hyperthyroidism, like Graves' disease, the gland is hyperactive and will show an increased uptake of radioactive iodine. Decreased uptake would be seen in thyroiditis where pre-formed hormone is leaking from an inflamed, non-functioning gland.",
     "additional": "Additional Content for Review:\n\nSigns/Symptoms of Hyperthyroidism (Think \"High Metabolism\"): Weight loss despite increased appetite, tachycardia, palpitations, heat intolerance, nervousness, anxiety, tremor, diarrhea, and exophthalmos (bulging eyes, specific to Graves' disease).\n\nLab Profile of Primary Hyperthyroidism: High T3/T4, Low TSH.\n\nLab Profile of Primary Hypothyroidism: Low T3/T4, High TSH.\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 49 (Endocrine Problems). See the section on \"Hyperthyroidism\" and its diagnostic studies."
+  },
+  {
+    "question": "Chvostek's sign is used for diagnosis of:-",
+    "options": {
+      "A": "Hypercalcemia resulting from hyperparathyroidism.",
+      "B": "Hypercalcemia resulting from hyperpituitarism.",
+      "C": "Hypocalcemia resulting from hypoparathyroidism.",
+      "D": "Hypocalcemia resulting from hypothyroidism."
+    },
+    "answer": "C",
+    "explanation": "Background: Low calcium levels in the blood (hypocalcemia) increase neuromuscular excitability, meaning nerves and muscles become twitchy and prone to spasms. Hypoparathyroidism (underactivity of the parathyroid glands) is a primary cause of hypocalcemia because not enough PTH is produced to maintain calcium levels.\n\n(C) Why it's correct: Chvostek's sign is a classic clinical test for latent tetany associated with hypocalcemia. It is elicited by tapping on the facial nerve (CN VII) just in front of the ear. A positive sign is the twitching of the facial muscles on the same side, such as the corner of the mouth and nose. This directly links the sign to hypocalcemia, which is most commonly caused by hypoparathyroidism.\n\n(A) & (B) Why they are incorrect: Hypercalcemia (high calcium) causes decreased neuromuscular excitability, leading to symptoms like muscle weakness and lethargy, not tetany.\n\n(D) Why it's incorrect: Hypothyroidism (underactive thyroid gland) affects metabolism but does not directly cause hypocalcemia. The parathyroid glands, not the thyroid gland, are the primary regulators of calcium. A common reason these two are linked is that the parathyroid glands can be inadvertently damaged or removed during a thyroidectomy, leading to iatrogenic hypoparathyroidism and subsequent hypocalcemia.",
+    "additional": "Additional Content for Review:\n\nTrousseau's Sign: The other key sign of hypocalcemia. It is elicited by inflating a blood pressure cuff on the arm above the systolic pressure and holding it for 3 minutes. A positive sign is a carpal spasm, where the wrist and metacarpophalangeal joints flex, and the fingers adduct (form a \"claw-like\" hand). Trousseau's sign is considered more specific for hypocalcemia than Chvostek's sign.\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 49 (Endocrine Problems). See the section on \"Hypoparathyroidism.\" Also Chapter 16 (Fluid, Electrolyte, and Acid-Base Imbalances) under \"Calcium Imbalances.\""
+  },
+  {
+    "question": "The commonest cause of toxic goitre (Grave's disease) is: -",
+    "options": {
+      "A": "Pituitary tumours",
+      "B": "Benign thyroid",
+      "C": "Lack of iodine in the diet",
+      "D": "Immunoglobulins reaction"
+    },
+    "answer": "D",
+    "explanation": "(D) Why it's correct: Graves' disease is an autoimmune disorder. The body produces abnormal immunoglobulins (antibodies) called thyroid-stimulating immunoglobulins (TSIs). These antibodies mimic the action of TSH (Thyroid-Stimulating Hormone). They bind to TSH receptors on the thyroid gland and stimulate it to produce and release excessive amounts of T3 and T4, leading to hyperthyroidism. This is a classic example of an \"immunoglobulins reaction.\" \"Toxic goiter\" refers to a goiter (enlarged thyroid) that is overproducing hormone.\n\n(A) Why it's incorrect: A pituitary tumor that secretes excess TSH can cause hyperthyroidism (this is called secondary hyperthyroidism), but it is a much less common cause than Graves' disease.\n\n(B) Why it's incorrect: A \"benign thyroid\" is not a cause. A benign tumor or nodule on the thyroid can be \"toxic\" and overproduce hormone (toxic nodular goiter), but the most common cause of toxic goiter overall is the autoimmune process of Graves' disease.\n\n(C) Why it's incorrect: Lack of iodine in the diet causes hypothyroidism and a non-toxic goiter. The thyroid enlarges (goiter) as it tries to compensate and trap more iodine from the blood, but it cannot produce hormone without the necessary iodine building block.",
+    "additional": "Textbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 49 (Endocrine Problems). See the section on \"Hyperthyroidism\" and the pathophysiology of Graves' disease."
+  },
+  {
+    "question": "Following thyroidectomy, the nurse suspects damage or removal of parathyroid gland when the patient develops:",
+    "options": {
+      "A": "Muscle weakness and weight loss",
+      "B": "Hyperthermia and severe tachycardia",
+      "C": "Hypertension and difficulty in swallowing",
+      "D": "Laryngeal stridor and tingling in the hands and feet"
+    },
+    "answer": "D",
+    "explanation": "Background: The four tiny parathyroid glands are located on the posterior surface of the thyroid gland. During a thyroidectomy, they are at high risk for being accidentally damaged or removed. This leads to hypoparathyroidism and a subsequent drop in serum calcium levels (hypocalcemia).\n\n(D) Why it's correct: This option lists the classic signs of acute, severe hypocalcemia.\n\nTingling in the hands and feet (paresthesia): This is often the earliest symptom of hypocalcemia due to increased nerve excitability.\n\nLaryngeal stridor: This is a high-pitched, harsh sound on inspiration caused by spasm of the laryngeal muscles (laryngospasm). It is a life-threatening sign of severe hypocalcemia (tetany) that can lead to complete airway obstruction. This is a medical emergency.\n\n(A) Why it's incorrect: Muscle weakness and weight loss are non-specific or could be related to hyperthyroidism (pre-op) or hypothyroidism (if thyroid replacement is inadequate post-op), but not acute hypocalcemia.\n\n(B) Why it's incorrect: Hyperthermia and severe tachycardia are signs of a thyroid storm (thyrotoxic crisis), a potential complication before or immediately after surgery if the patient was not adequately prepared. It's caused by a massive release of thyroid hormones, not a lack of parathyroid hormone.\n\n(C) Why it's incorrect: Hypertension is not a sign of hypocalcemia (hypotension can occur). Difficulty swallowing (dysphagia) can be due to post-op swelling or laryngeal nerve damage, but it is not as specific for hypocalcemia as tingling and stridor.",
+    "additional": "Additional Content for Review:\n\nEmergency Care for Hypocalcemia post-thyroidectomy:\n\nAssess for Chvostek's and Trousseau's signs.\n\nEnsure emergency equipment (tracheostomy tray, suction) is at the bedside.\n\nAdminister IV calcium gluconate or calcium chloride as ordered. This must be given slowly to avoid cardiac complications like hypotension and dysrhythmias.\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 49 (Endocrine Problems). See the section on \"Thyroidectomy\" and the table of postoperative complications."
+  },
+  {
+    "question": "Increased concentration of red blood cells due to excessive production of erythropoietin is referred to as:",
+    "options": {
+      "A": "primary polycythemia",
+      "B": "leukopenia",
+      "C": "secondary polycythemia",
+      "D": "agranulocytosis"
+    },
+    "answer": "C",
+    "explanation": "Background: Polycythemia is a condition characterized by an increased number of red blood cells (RBCs), resulting in thick blood (increased viscosity). It is important to distinguish between primary and secondary types.\n\n(C) Why it's correct: Secondary polycythemia is when the excess RBC production is caused by a factor outside of the bone marrow. The most common cause is hypoxia. In response to chronic low oxygen levels, the kidneys produce more erythropoietin (EPO), which then stimulates the bone marrow to make more RBCs as a compensatory mechanism. This is seen in people living at high altitudes or those with chronic lung disease (like COPD). It can also be caused by an EPO-secreting tumor. The key is that the increased RBCs are a response to high EPO levels.\n\n(A) Why it's incorrect: Primary polycythemia (also known as polycythemia vera) is a chronic myeloproliferative disorder (a type of blood cancer). The bone marrow itself is abnormal and produces too many RBCs, WBCs, and platelets, independent of EPO levels. In primary polycythemia, EPO levels are typically low or normal due to negative feedback from the high RBC count.\n\n(B) Why it's incorrect: Leukopenia is a decrease in the number of white blood cells.\n\n(D) Why it's incorrect: Agranulocytosis is a severe form of leukopenia, specifically a critical drop in neutrophils, greatly increasing the risk of infection.",
+    "additional": "Textbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 30 (Hematologic Problems). See the section on \"Polycythemia.\""
   }
 ]
 
