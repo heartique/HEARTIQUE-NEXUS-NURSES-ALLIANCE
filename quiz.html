@@ -65,29 +65,29 @@
       }
     }
     .home-bar {
-      text-align: left;
-      margin-bottom: 15px;
-    }
-    .home-button {
-      display: inline-block;
-      background-color: #f6c90e;
-      color: #000;
-      padding: 10px 14px;
-      border-radius: 8px;
-      font-weight: bold;
-      text-decoration: none;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-      transition: background 0.2s ease;
-    }
-    .home-button:hover {
-      background-color: #f1b800;
-    }
+  text-align: left;
+  margin-bottom: 15px;
+}
+.home-button {
+  display: inline-block;
+  background-color: #f6c90e;
+  color: #000;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  transition: background 0.2s ease;
+}
+.home-button:hover {
+  background-color: #f1b800;
+}
   </style>
 </head>
 <body>
   <div class="home-bar">
-    <a href="index.html" class="home-button">🏠 Back to Home</a>
-  </div>
+  <a href="index.html" class="home-button">🏠 Back to Home</a>
+</div>
   <h1>📝 Nursing Nexus Quiz Papers</h1>
   <p>Select a unit to begin your quiz journey.</p>
 
@@ -95,22 +95,22 @@
   <div class="paper-section">
     <h2>📘 Paper One Units</h2>
     <div class="unit-grid">
-      <a href="anatomy.html" class="unit-tab">Anatomy and Physiology (<span id="anatomy-count">0</span> questions)</a>
-      <a href="medical-surgical.html" class="unit-tab">Medical-Surgical Nursing (<span id="medsurg-count">0</span> questions)</a>
-      <a href="fundamentals.html" class="unit-tab">Fundamentals of Nursing & Patient Care. (<span id="fundamentals-count">0</span> questions)</a>
-      <a href="pharmacology.html" class="unit-tab">Pharmacology (<span id="pharma-count">0</span> questions)</a>
-      <a href="pediatricsn.html" class="unit-tab">Pediatrics & Neonatal Care (MCH) (<span id="pediatrics-count">0</span> questions)</a>
-      <a href="immunology.html" class="unit-tab">Immunology & Infectious Disease (<span id="immuno-count">0</span> questions)</a>
-      <a href="endocrine.html" class="unit-tab">Endocrine # MED-SURG (<span id="endocrine-count">0</span> questions)</a>
-      <a href="neurology.html" class="unit-tab">Neurology # MED-SURG (<span id="neurology-count">0</span> questions)</a>
-      <a href="cardiovascular.html" class="unit-tab">Cardiovasular (CVD) # MED-SURG (<span id="cardio-count">0</span> questions)</a>
-      <a href="respiratory.html" class="unit-tab">Respiratory # MED-SURG (<span id="respiratory-count">0</span> questions)</a>
-      <a href="gastrointestinal.html" class="unit-tab">Gastrointestinal GIT #MED-SURG (<span id="gastro-count">0</span> questions)</a>
-      <a href="obstetric.html" class="unit-tab">Obstetric (<span id="obstetric-count">0</span> questions)</a>
-      <a href="genitourinary.html" class="unit-tab">Genito-Urinary System #MED-SURG (<span id="gu-count">0</span> questions)</a>
-      <a href="oncologyh.html" class="unit-tab">Hematology & Oncology # MED-SURG (<span id="oncology-count">0</span> questions)</a>
-      <a href="orthopedicinte.html" class="unit-tab">Orthopedics &  Integumentary (<span id="ortho-count">0</span> questions)</a>
-      <a href="ent.html" class="unit-tab">s Sensory ENT # MED-SURG (<span id="ent-count">0</span> questions)</a>
+      <a href="anatomy.html" class="unit-tab">Anatomy and Physiology</a>
+      <a href="medical-surgical.html" class="unit-tab">Medical-Surgical Nursing</a>
+      <a href="fundamentals.html" class="unit-tab">Fundamentals of Nursing & Patient Care.</a>
+      <a href="pharmacology.html" class="unit-tab">Pharmacology</a>
+      <a href="pediatricsn.html" class="unit-tab">Pediatrics & Neonatal Care (MCH)</a>
+      <a href="immunology.html" class="unit-tab">Immunology & Infectious Disease</a>
+      <a href="endocrine.html" class="unit-tab">Endocrine # MED-SURG</a>
+      <a href="neurology.html" class="unit-tab">Neurology # MED-SURG</a>
+      <a href="cardiovascular.html" class="unit-tab">Cardiovasular (CVD) # MED-SURG</a>
+      <a href="respiratory.html" class="unit-tab">Respiratory # MED-SURG</a>
+      <a href="gastrointestinal.html" class="unit-tab">Gastrointestinal GIT #MED-SURG</a>
+      <a href="obstetric.html" class="unit-tab">Obstetric</a>
+      <a href="genitourinary.html" class="unit-tab">Genito-Urinary System #MED-SURG</a>
+      <a href="oncologyh.html" class="unit-tab">Hematology & Oncology # MED-SURG </a>
+      <a href="orthopedicinte.html" class="unit-tab">Orthopedics &  Integumentary</a>
+      <a href="ent.html" class="unit-tab">s Sensory ENT # MED-SURG</a>
       <a href="#" class="unit-tab">Oral & Dental Disorders</a>
       <a href="#" class="unit-tab">Gynecology</a>
       <a href="#" class="unit-tab">Theater Nursing</a>
@@ -156,42 +156,6 @@
     Created by <strong>HEARTIQUE</strong> 💡 <br>
     📧 <strong>nursingnexusalliance@gmail.com</strong> | ☎️ <strong>0717517371</strong>
   </div>
-
-  <!-- COUNT SCRIPT -->
-  <script>
-    async function countQuestions(pageUrl, targetId) {
-      try {
-        const res = await fetch(pageUrl);
-        const html = await res.text();
-        const doc = new DOMParser().parseFromString(html, "text/html");
-        const count = doc.querySelectorAll(".question").length;
-        document.getElementById(targetId).textContent = count;
-      } catch (err) {
-        console.warn("Failed to fetch " + pageUrl);
-      }
-    }
-
-    const units = [
-      { page: "anatomy.html", id: "anatomy-count" },
-      { page: "medical-surgical.html", id: "medsurg-count" },
-      { page: "fundamentals.html", id: "fundamentals-count" },
-      { page: "pharmacology.html", id: "pharma-count" },
-      { page: "pediatricsn.html", id: "pediatrics-count" },
-      { page: "immunology.html", id: "immuno-count" },
-      { page: "endocrine.html", id: "endocrine-count" },
-      { page: "neurology.html", id: "neurology-count" },
-      { page: "cardiovascular.html", id: "cardio-count" },
-      { page: "respiratory.html", id: "respiratory-count" },
-      { page: "gastrointestinal.html", id: "gastro-count" },
-      { page: "obstetric.html", id: "obstetric-count" },
-      { page: "genitourinary.html", id: "gu-count" },
-      { page: "oncologyh.html", id: "oncology-count" },
-      { page: "orthopedicinte.html", id: "ortho-count" },
-      { page: "ent.html", id: "ent-count" }
-    ];
-
-    units.forEach(u => countQuestions(u.page, u.id));
-  </script>
 
 </body>
 </html>
