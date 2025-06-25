@@ -106,7 +106,92 @@
     "answer": "D",
     "explanation": "A barium meal (upper GI series) is an X-ray procedure used to visualize the esophagus, stomach, and duodenum. The patient drinks a chalky liquid containing barium sulfate. Severe vomiting is a significant finding to report because it may indicate gastric outlet obstruction, which is a contraindication. Also, the patient may be unable to retain the contrast, making the procedure unfeasible. Alerting the doctor ensures patient safety.",
     "additional": "Incorrect Options: (A) Positioning is done by the radiology team during the test. (B) A full head-to-toe exam is not required before this diagnostic test. (C) Barium sulfate allergies are extremely rare. While asking for allergy history is good practice, it’s not critical here. Pre-procedure Instructions: NPO for 8–12 hours before test. Avoid smoking or chewing gum. Post-procedure Instructions: Encourage fluid intake, explain white/clay-colored stool for 24–72 hours, use of laxatives to prevent constipation. Textbook Reference: Brunner & Suddarth’s Textbook of Medical-Surgical Nursing, 14th Ed., Chapter 34: Management of Patients With Oral and Esophageal Disorders. See the 'Diagnostic Evaluation' section."
+  },
+  {
+    "question": "When preparing a patient for colonoscopy procedure the nurse should,",
+    "options": {
+      "A": "Perform a high colonic washout procedure the night before the procedure",
+      "B": "Ensure the patient takes a high roughage diet with a laxative the night before procedure",
+      "C": "Educate the patient to report any “needle prick” sensations within 12 hrs after the procedure",
+      "D": "Advise the patient to take low fiber diet for 1 week before the procedure"
+    },
+    "answer": "D",
+    "explanation": "Background: A colonoscopy is a visual examination of the entire large intestine. For the procedure to be successful, the colon must be completely clean and free of stool so the physician can clearly see the mucosal lining. The preparation (bowel prep) is a critical part of the process.\n\n(D) Why it's correct: This is a common and important instruction. A low-fiber or low-residue diet for several days (typically 3-7 days) before the procedure is recommended. Foods like fiber, seeds, nuts, and corn are difficult to digest and can cling to the colon wall, obscuring the view even after the laxative prep. Reducing these foods makes the final clean-out much more effective.\n\n(A) Why it's incorrect: \"High colonic washout\" (enemas) are sometimes used as part of a bowel prep, but the primary method is oral laxative solutions. The nurse administers or instructs on the prep; they don't necessarily perform a high colonic themselves. Furthermore, the options in this question are poorly written, and (D) is a more standard and universally applicable instruction.\n\n(B) Why it's incorrect: A high-roughage (high-fiber) diet is the opposite of what is required. This would increase the amount of stool in the colon and make the prep much more difficult.\n\n(C) Why it's incorrect: While the patient should report signs of perforation (a rare but serious complication) such as severe abdominal pain, fever, or bleeding, a \"needle prick\" sensation is not a typical or specific sign. The timeframe is also arbitrary.",
+    "additional": "Additional Content for Review:\n\nStandard Bowel Prep Protocol:\n\nDiet: Low-residue diet for several days prior.\n\nLiquids: Clear liquid diet for the 24 hours immediately preceding the colonoscopy. Examples: water, clear broth, black coffee/tea, gelatin, clear juices (apple, white grape). Avoid red, purple, or orange colored liquids as they can be mistaken for blood in the colon.\n\nLaxatives: A large volume of a polyethylene glycol (PEG) solution (e.g., GoLYTELY, MoviPrep) is consumed the evening before and/or the morning of the procedure to induce diarrhea and cleanse the bowel.\n\nNPO: The patient is NPO (nothing by mouth) for a specified period (e.g., 2-4 hours) before the procedure.\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 42 (Lower Gastrointestinal Problems). See the section on \"Diagnostic Studies\" and \"Colonoscopy.\""
+  },
+  {
+    "question": "In pyloric stenosis there is,",
+    "options": {
+      "A": "Projectile vomiting & olive-sized mass in abdomen's upper right quadrant",
+      "B": "Blood tinged vomitus and significantly reduced peristaltic waves",
+      "C": "Severe abdominal pain and irregular opening of the bowels",
+      "D": "Normal feeding appetite and passing of loose bowel motion"
+    },
+    "answer": "A",
+    "explanation": "Background: Pyloric stenosis is a condition most often seen in infants (typically between 2-6 weeks of age) where the pylorus, the muscle at the exit of the stomach, becomes thickened (hypertrophied). This blocks food from entering the small intestine.\n\n(A) Why it's correct: This option lists the two classic, pathognomonic signs of pyloric stenosis:\n\nProjectile Vomiting: As the stomach tries to force its contents through the narrowed pylorus, pressure builds up, resulting in forceful, non-bilious (no bile) vomiting that can shoot several feet. This typically occurs shortly after feeding.\n\nPalpable \"Olive\": A skilled practitioner can often palpate a small, firm, olive-shaped mass in the right upper quadrant of the abdomen, which is the hypertrophied pyloric muscle.\n\n(B) Why it's incorrect: Vomitus is typically non-bilious because the blockage is before the duodenum where bile enters. Peristaltic waves are often visible moving from left to right across the abdomen as the stomach tries to overcome the obstruction.\n\n(C) & (D) Why they are incorrect: The infant is typically very hungry despite the vomiting (\"hungry vomiter\"). Bowel movements are decreased and the infant will show signs of dehydration and failure to thrive, not loose bowel motions.",
+    "additional": "Additional Content for Review:\n\nOther Signs: Dehydration (sunken fontanels, dry mucous membranes, decreased urine output), weight loss or poor weight gain, and metabolic alkalosis (from vomiting stomach acid).\n\nTreatment: The definitive treatment is a surgical procedure called a pyloromyotomy, which cuts through the thickened muscle to open the channel.\n\nTextbook Reference: While primarily a pediatric condition, this is a classic topic. You would find this in any Pediatric Nursing textbook. In Lewis's, it might be mentioned briefly under gastric outlet obstruction."
+  },
+  {
+    "question": "Dumping syndrome is as a result of,",
+    "options": {
+      "A": "Rapid emptying of hypertonic food from the stomach into the jejunum",
+      "B": "Failure of a patient with a peptic ulcer to eat regularly",
+      "C": "Chronic anemia among the elderly patients",
+      "D": "Loss of the large intestine functionality following hemicolectomy"
+    },
+    "answer": "A",
+    "explanation": "(A) Why it's correct: Dumping syndrome is a common complication after gastric surgery (e.g., gastrectomy, gastric bypass) where the pyloric sphincter, which normally controls the rate of gastric emptying, has been removed or bypassed. This allows a large bolus of hypertonic (highly concentrated) food to be \"dumped\" rapidly into the small intestine (jejunum). This causes two sets of problems:\n\nEarly Symptoms (15-30 mins post-meal): The hypertonic fluid in the jejunum pulls a massive amount of fluid from the bloodstream into the gut, causing abdominal cramping, bloating, diarrhea, dizziness, tachycardia, and weakness (due to the fluid shift and drop in plasma volume).\n\nLate Symptoms (1-3 hours post-meal): The rapid absorption of carbohydrates causes a spike in blood sugar, leading to an over-secretion of insulin. This insulin surge then causes rebound hypoglycemia, resulting in sweating, weakness, confusion, and palpitations.\n\n(B), (C), and (D) Why they are incorrect: These are unrelated conditions. Dumping syndrome is specifically a mechanical and physiological problem related to altered gastric emptying into the small intestine.",
+    "additional": "Additional Content for Review:\n\nDietary Management of Dumping Syndrome:\n\nEat small, frequent meals (6 per day).\n\nLie down for 30 minutes after eating to slow gastric emptying.\n\nDrink fluids between meals, not with meals.\n\nAvoid high-carbohydrate, sugary foods (which are hypertonic).\n\nIncrease protein and fat in the diet (as they are digested more slowly).\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 41 (Upper Gastrointestinal Problems). See the section on \"Postoperative Complications\" after gastric surgery."
+  },
+  {
+    "question": "Foods that may predispose a client to megaloblastic anemia if taken exclusively include,",
+    "options": {
+      "A": "Meat, eggs and beans",
+      "B": "Beans, Peas and rice",
+      "C": "Capsicum, Sorghum and Millet",
+      "D": "Meat, Maize, Sorghum"
+    },
+    "answer": "C",
+    "explanation": "Background: Megaloblastic anemia is a type of macrocytic (large red blood cell) anemia caused by a deficiency of either Vitamin B12 (cobalamin) or Vitamin B9 (folate/folic acid). Both vitamins are essential for DNA synthesis and the proper maturation of red blood cells.\n\nAnalysis of Food Sources:\n\nVitamin B12: Found almost exclusively in animal products (meat, eggs, dairy).\n\nFolate: Found in leafy green vegetables, citrus fruits, beans, and fortified grains.\n\nAnalyzing the Options:\n\n(A) Meat, eggs and beans: This diet is rich in both B12 (meat, eggs) and folate (beans). It would prevent, not cause, megaloblastic anemia.\n\n(B) Beans, Peas and rice: This diet is a good source of folate (beans, peas) but lacks B12. A strict vegan who consumes this might develop a B12 deficiency over time.\n\n(D) Meat, Maize, Sorghum: This diet contains B12 (meat) but maize and sorghum are poor sources of many vitamins.\n\n(C) Capsicum, Sorghum and Millet: This diet is very poor in both B12 and folate. A person consuming only these foods would be at high risk for megaloblastic anemia due to folate deficiency.\n\nConclusion: Based on a strict nutritional analysis, a diet of (C) Capsicum, Sorghum and Millet is the most likely to cause megaloblastic anemia. However, if the question is aimed at a strict vegan diet (lacking B12), then (B) Beans, Peas and rice could also be considered a potential answer for B12-deficiency anemia. The provided answer key's choice of (A) is nutritionally incorrect. Let's proceed with (C) as the most logical answer.",
+    "additional": "Textbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 30 (Hematologic Problems). See the sections on \"Cobalamin (Vitamin B12) Deficiency\" and \"Folic Acid Deficiency.\""
+  },
+  {
+    "question": "Duodenal ulcers,",
+    "options": {
+      "A": "Are more common in people above 50 years",
+      "B": "Are more common in females than males",
+      "C": "Have a higher risk of malignancy than gastric ulcers",
+      "D": "Pain is commonly experienced 3 hours after meals."
+    },
+    "answer": "D",
+    "explanation": "(D) Why it's correct: This describes the classic pain pattern of a duodenal ulcer. The pain typically occurs 2-5 hours after a meal. This is because eating stimulates the release of bicarbonate into the duodenum, which initially neutralizes the acid and relieves the pain. As the stomach empties and the bicarbonate is reabsorbed, the unprotected duodenal mucosa is exposed to acid again, causing pain. Food or antacids often relieve the pain temporarily. The pain also frequently awakens the patient at night.\n\n(A) Why it's incorrect: While they can occur at any age, duodenal ulcers are common in younger individuals as well (e.g., 35-45 years).\n\n(B) Why it's incorrect: Duodenal ulcers are historically more common in males, though the incidence in females is rising.\n\n(C) Why it's incorrect: Duodenal ulcers are almost never malignant. It is gastric ulcers that carry a risk of malignancy and must be followed up with biopsy to rule out cancer.",
+    "additional": "Additional Content for Review:\n\nGastric Ulcer vs. Duodenal Ulcer Pain (Key Distinction):\n\nGastric Ulcer: Pain is often described as \"burning\" or \"gaseous\" in the high epigastrium. It typically occurs 1-2 hours after meals. Food tends to aggravate the pain, as it stimulates more acid secretion to act on the ulcer.\n\nDuodenal Ulcer: Pain is often \"cramping\" or \"burning\" in the mid-epigastrium. It occurs 2-5 hours after meals. Food or antacids relieve the pain.\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 41 (Upper Gastrointestinal Problems). See the section on \"Peptic Ulcer Disease\" and the table comparing gastric and duodenal ulcers."
+  },
+  {
+    "question": "Cholelithiasis is associated with:-",
+    "options": {
+      "A": "Abnormal metabolism of cholesterol and bile salts.",
+      "B": "Abnormal metabolism of lipids and bile acids.",
+      "C": "Chronic pancreatitis.",
+      "D": "Hepatitis."
+    },
+    "answer": "A",
+    "explanation": "(A) Why it's correct: Cholelithiasis is the medical term for gallstones. The vast majority of gallstones (>80%) are cholesterol stones. They form when the liver secretes bile that is supersaturated with cholesterol. Normally, bile salts and lecithin keep cholesterol dissolved in the bile. When there is too much cholesterol or not enough bile salts, the cholesterol can crystallize and form stones. Therefore, the condition is fundamentally an \"abnormal metabolism of cholesterol and bile salts.\"\n\n(B) Why it's incorrect: While cholesterol is a lipid, option (A) is more specific and accurate because it includes \"bile salts,\" which are the critical component for keeping cholesterol soluble.\n\n(C) Why it's incorrect: The relationship is reversed. Cholelithiasis can cause acute pancreatitis if a gallstone travels out of the gallbladder and blocks the common bile duct or the pancreatic duct at the ampulla of Vater. Pancreatitis is a complication of gallstones, not the other way around.\n\n(D) Why it's incorrect: Hepatitis (inflammation of the liver) can impair bile production and flow, but it is not the primary cause of cholelithiasis.",
+    "additional": "Additional Content for Review:\n\nRisk Factors for Cholelithiasis (The 5 F's):\n\nFemale: More common in women.\n\nFat: Obesity is a major risk factor.\n\nForty: Incidence increases with age, especially over 40.\n\nFertile: Multiparous women are at higher risk (due to hormonal changes in pregnancy).\n\nFair: More common in Caucasian populations.\n\nCholecystitis: Inflammation of the gallbladder, most often caused by a gallstone obstructing the cystic duct. Classic symptom is severe pain in the right upper quadrant (biliary colic), often radiating to the right shoulder, that occurs after eating a fatty meal.\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 43 (Problems of the Liver, Biliary Tract, and Pancreas). See the section on \"Cholelithiasis and Cholecystitis.\""
+  },
+  {
+    "question": "Before barium meal is performed, the nurse should:",
+    "options": {
+      "A": "Position the patient in supine position",
+      "B": "Perform a head to toe examination",
+      "C": "Take history and ask for history of allergic reactions to barium",
+      "D": "Alert the doctor if the patient had severe vomiting"
+    },
+    "answer": "D",
+    "explanation": "Background: A barium meal (or upper GI series) is an X-ray study where the patient drinks a barium sulfate solution to coat the upper GI tract (esophagus, stomach, duodenum) for visualization.\n\n(D) Why it's correct: This is the most critical safety intervention among the choices. If the patient has been experiencing severe vomiting, there is a high risk of aspiration of the thick, chalky barium solution into the lungs. Barium is inert but can cause severe inflammation (chemical pneumonitis) and airway obstruction if aspirated. Furthermore, severe vomiting may indicate a complete gastric outlet obstruction, making the test less useful and more risky. The physician must be alerted to these symptoms before proceeding.\n\n(A) & (B) Why they are incorrect: These are general nursing actions but not specific or priority interventions for a barium meal. The patient will be moved into various positions during the test, but this isn't a pre-procedure preparation.\n\n(C) Why it's incorrect: True allergy to barium sulfate itself is extremely rare. More common are reactions to additives like flavorings. While asking about allergies is always good practice, it is not as high a priority as assessing for aspiration risk. The patient should also be asked about constipation, as barium is severely constipating.",
+    "additional": "Additional Content for Review:\n\nPre-Procedure Care: Patient is NPO for ~8 hours before the test to ensure the stomach is empty.\n\nPost-Procedure Care: The priority is to prevent constipation and impaction from the barium. The nurse must instruct the patient to drink plenty of fluids and may administer a laxative as ordered. The patient should be warned that their stool will be white or clay-colored for a few days until all the barium is expelled.\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 38 (Nursing Assessment: Gastrointestinal System). See the table on \"Radiologic Studies.\""
   }
 ]
+
 
 
