@@ -1,0 +1,38 @@
+[
+  {
+    "question": "The MOST common cause of under-5 mortality in developing world is",
+    "options": {
+      "A": "diarrheal disease",
+      "B": "pneumonia",
+      "C": "malaria",
+      "D": "neonatal disease"
+    },
+    "answer": "B",
+    "explanation": "According to major global health organizations like the WHO and UNICEF, pneumonia is consistently the single largest infectious cause of death in children worldwide. It accounts for approximately 14-15% of all deaths of children under 5 years old, killing hundreds of thousands of children each year. It is often called the 'forgotten killer' because it receives less public attention than other diseases. Diarrheal disease, while a major cause of death in children under 5 (the second leading infectious cause), its mortality rates have been significantly reduced through the use of Oral Rehydration Solution (ORS) and improved sanitation. However, pneumonia still causes more deaths. Malaria is a significant cause of child mortality, particularly in Sub-Saharan Africa, but globally, its death toll in children under 5 is lower than that of pneumonia. Neonatal disease is a broad category. Complications related to the neonatal period (the first 28 days of life), such as preterm birth complications, birth asphyxia, and neonatal infections (sepsis), collectively account for the largest proportion of under-5 deaths (over 40%). However, pneumonia is the single most common infectious disease that causes death.",
+    "additional": "Integrated Management of Childhood Illness (IMCI): This is a key WHO/UNICEF strategy to reduce child mortality. It provides a holistic approach to assessing and treating the most common causes of childhood death, including pneumonia, diarrhea, malaria, measles, and malnutrition. A future question might ask you to identify the main components of IMCI or its danger signs (e.g., inability to drink or breastfeed, vomiting everything, convulsions). Pneumonia Symptoms (IMCI context): Be prepared to identify the key signs of pneumonia used in community settings: Cough or difficult breathing. Fast breathing (tachypnea): Know the age-specific respiratory rate cutoffs. Chest indrawing: A sign of severe pneumonia. Prevention of Pneumonia: Key preventive measures include immunization (Hib, PCV, measles), adequate nutrition, exclusive breastfeeding, and reducing indoor air pollution."
+  },
+  {
+    "question": "Which is the primary goal of community health nursing?",
+    "options": {
+      "A": "To support and supplement the efforts of the medical profession in the promotion of health and prevention of",
+      "B": "To enhance the capacity of individuals, families and communities to cope with their health needs",
+      "C": "To increase the productivity of the people by providing them with services that will increase their level of health",
+      "D": "To contribute to national development through promotion of family welfare, focusing particularly on mothers and children"
+    },
+    "answer": "B",
+    "explanation": "The core philosophy of modern community health nursing is empowerment and capacity building. The goal is not just to provide services but to help the community help itself. 'Enhancing capacity' means giving people the knowledge, skills, and resources to identify their own health problems and take collective action to solve them. This promotes self-reliance and sustainability. Option A describes a traditional, subordinate role. While collaboration is key, community nursing is an independent discipline with its own goals, not just a support service for doctors. The focus is the community, not the profession. Option C: While improved health does lead to increased productivity, this is an economic outcome, not the primary nursing goal. Option D: This is a valid, high-level outcome of community health, but it is too broad and not the primary goal of the nursing practice itself.",
+    "additional": "Client in Community Health Nursing: A common question asks to identify the client. The answer is the community as a whole (or specific populations/aggregates within it), not just individuals. Core Functions of Public Health: Be familiar with the three core functions: Assessment: Systematically collecting data on the population, monitoring health status, and making information available. Policy Development: Providing leadership in developing policies that support the health of the population. Assurance: Ensuring that essential community-oriented health services are available. Community as Partner Model: This model emphasizes the active participation of the community in all phases of the nursing process (assessment, diagnosis, planning, implementation, evaluation)."
+  },
+  {
+    "question": "CHN is a community-based practice. Which best explains this statement?",
+    "options": {
+      "A": "The service is provided in the natural environment of people",
+      "B": "The nurse has to conduct community diagnosis to determine nursing needs and problems",
+      "C": "The service are based on the available resources within the community",
+      "D": "Priority setting is based on the magnitude of the health problems identified"
+    },
+    "answer": "B",
+    "explanation": "The term 'community-based' implies that the practice is grounded in the community's specific context. The starting point for all interventions is a thorough community diagnosis (also called community assessment). This process systematically identifies the health status, needs, problems, and resources of the community. Without this, any intervention would be inappropriate and ineffective. Therefore, conducting a community diagnosis is the foundational activity that defines the practice as 'community-based.' Option A: While true (services are often in homes, schools, clinics), this describes the setting, not the entire philosophy of the practice. The practice could be in the community setting but not be truly 'based' on the community's needs if a diagnosis wasn't done. Option C: This is a crucial part of planning, but it's a consequence of the community diagnosis, not the defining explanation of the practice itself. Option D: This is a step within the planning phase that follows the community diagnosis. It is a critical activity but doesn't encompass the whole meaning of 'community-based' as well as (B) does.",
+    "additional": "Community Diagnosis vs. Community-Based: Community-Based: Care is provided in the community setting (e.g., home health). Community-Oriented: The nurse's focus is on the health of the community or population as a whole. Community Health Nursing Practice is both community-based and community-oriented. Components of a Community Assessment: Expect questions on what a nurse assesses. This includes: Demographics: Population size, age, gender, ethnicity. Vital Statistics: Birth rates, death rates, morbidity data. Environment: Physical (geography, housing, water), social (services, government). Health Status: Leading causes of mortality/morbidity. Reference: Community/Public Health Nursing: Promoting the Health of Populations by Nies & McEwen discusses the community assessment process extensively in chapters dedicated to community assessment models and population diagnosis."
+  }
+]
