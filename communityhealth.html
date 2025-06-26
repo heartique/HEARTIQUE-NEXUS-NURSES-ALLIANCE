@@ -203,13 +203,27 @@
         `You got <strong>${score}</strong> out of <strong>${total}</strong> (${percent}%)<br><div class="reaction">${reaction}</div>`;
     }
   </script>
-  <!-- 🌐 Floating Google Search Button with Expandable Box -->
+  <!-- 🌐 Floating Google Search with Label, Animation, Auto-Close -->
 <style>
   #google-search-container {
     position: fixed;
     bottom: 20px;
     right: 20px;
     z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  #google-btn-label {
+    background-color: #f6c90e;
+    color: black;
+    border-radius: 20px;
+    padding: 6px 12px;
+    font-size: 14px;
+    margin-bottom: 6px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
   }
 
   #google-toggle-btn {
@@ -230,23 +244,58 @@
     padding: 10px;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    opacity: 0;
+    transform: scaleY(0.95);
+    transform-origin: top;
+    transition: all 0.3s ease;
+  }
+
+  #google-search-box.active {
+    display: block;
+    opacity: 1;
+    transform: scaleY(1);
   }
 </style>
 
 <div id="google-search-container">
+  <div id="google-btn-label">Search</div>
   <button id="google-toggle-btn" title="Search Google">🔍</button>
   <div id="google-search-box">
-    <script async src="https://cse.google.com/cse.js?cx=f37322f9c2a254bce"></script>
     <div class="gcse-search"></div>
   </div>
 </div>
+
+<!-- Google CSE Script (Load only once globally) -->
+<script async src="https://cse.google.com/cse.js?cx=f37322f9c2a254bce"></script>
 
 <script>
   const toggleBtn = document.getElementById("google-toggle-btn");
   const searchBox = document.getElementById("google-search-box");
 
-  toggleBtn.addEventListener("click", () => {
-    searchBox.style.display = searchBox.style.display === "none" ? "block" : "none";
+  toggleBtn.addEventListener("click", (e) => {
+    e.stopPropagation();
+    const isActive = searchBox.classList.contains("active");
+
+    if (isActive) {
+      searchBox.classList.remove("active");
+      setTimeout(() => {
+        searchBox.style.display = "none";
+      }, 300);
+    } else {
+      searchBox.style.display = "block";
+      setTimeout(() => {
+        searchBox.classList.add("active");
+      }, 10);
+    }
+  });
+
+  document.addEventListener("click", (e) => {
+    if (!searchBox.contains(e.target) && !toggleBtn.contains(e.target)) {
+      searchBox.classList.remove("active");
+      setTimeout(() => {
+        searchBox.style.display = "none";
+      }, 300);
+    }
   });
 </script>
 </body>
