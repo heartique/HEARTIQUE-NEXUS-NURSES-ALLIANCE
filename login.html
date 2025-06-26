@@ -95,7 +95,7 @@
 
     let isLogin = true;
 
-    // Auto-redirect if already logged in
+    // Redirect to home if already logged in
     supabase.auth.getSession().then(({ data: { session } }) => {
       if (session) window.location.href = 'index.html';
     });
@@ -137,7 +137,13 @@
           setTimeout(() => window.location.href = 'index.html', 1500);
         }
       } else {
-        const { data, error } = await supabase.auth.signUp({ email, password });
+        const { data, error } = await supabase.auth.signUp({
+          email,
+          password,
+          options: {
+            emailRedirectTo: 'http://localhost:5500/index.html' // or your live site
+          }
+        });
 
         if (error) {
           if (error.message.includes('already registered')) {
@@ -171,16 +177,6 @@
           btn.disabled = false;
         }
       }, 1000);
-    }
-
-    async function deleteAccount() {
-      const { data: { user } } = await supabase.auth.getUser();
-      if (!user) return alert("You're not logged in.");
-
-      await supabase.from('profiles').delete().eq('id', user.id);
-      alert("This public client can't delete the actual account. Ask admin.");
-
-      // Note: Full deletion requires Supabase Admin API via backend
     }
   </script>
 </body>
