@@ -178,6 +178,13 @@
     }
 }
   </style>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+<script>
+  const supabase = supabase.createClient(
+    'https://gbqgtnukoucxagswqspx.supabase.co',
+    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdicWd0bnVrb3VjeGFnc3dxc3B4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTA4ODcwNTAsImV4cCI6MjA2NjQ2MzA1MH0.uHqKZ-KnW1sv7CSD37D6dh1qYfSLMznud947DEZI93Q'
+  );
+</script>
 </head>
   <script>
   if ('serviceWorker' in navigator) {
@@ -194,7 +201,7 @@
   </header>
   <main>
     <div class="welcome-msg">
-      <p>Hello there! <strong>Nexus</strong>, is your friendly guide on this incredible journey. 👋</p>
+      <p id="welcomeUser">Hello <strong>loading...</strong>, welcome to the Nursing Nexus Portal 👋</p>
 <p>Welcome to the <strong>Nursing Nexus Alliance Portal</strong>  a space specially dedicated to all students of Fidenza School of Nursing. Whether you're just joining college or already on your nursing path, this portal is here to walk with you every step of the way.</p>
 <p>This platform is more than just a collection of resources  it’s a home where students and professionals unite to support each other, grow together, and inspire change through compassion and care. </p>
 <p>What makes this portal stand out is its simple, well-organized structure, giving you instant access to PTS notes, Block 1–6 materials, revision papers, and even co-curricular updates all in one place.
@@ -556,6 +563,31 @@ Let’s grow together and be the difference the world needs.</p>
   };
   document.querySelector("header").appendChild(logoutBtn);
 </script>
+      <script>
+  async function greetUser() {
+    const { data: { session } } = await supabase.auth.getSession();
 
+    if (!session) {
+      document.getElementById("welcomeUser").innerHTML = "👋 Welcome guest! <a href='login.html'>Login here</a>";
+      return;
+    }
+
+    const userId = session.user.id;
+
+    const { data, error } = await supabase
+      .from('profiles')
+      .select('full_name')
+      .eq('id', userId)
+      .single();
+
+    if (error || !data) {
+      document.getElementById("welcomeUser").innerHTML = "👋 Welcome back!";
+    } else {
+      document.getElementById("welcomeUser").innerHTML = `Hello <strong>${data.full_name}</strong>, welcome back to the Nexus Portal 👋`;
+    }
+  }
+
+  greetUser();
+</script>
 </body>
 </html>
