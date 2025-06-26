@@ -203,37 +203,13 @@
         `You got <strong>${score}</strong> out of <strong>${total}</strong> (${percent}%)<br><div class="reaction">${reaction}</div>`;
     }
   </script>
-  <!-- 🌐 Floating Google Search with Label, Animation, Auto-Close -->
+  <!-- 🌐 Floating Google Search Button with Expandable Box -->
 <style>
   #google-search-container {
     position: fixed;
     bottom: 20px;
     right: 20px;
     z-index: 9999;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-  }
-
-  #google-btn-label {
-    background-color: #f6c90e;
-    color: black;
-    border-radius: 20px;
-    padding: 6px 12px;
-    font-size: 16px;
-    margin-bottom: 6px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    font-weight: bold;
-    opacity: 0;
-    transform: translateY(10px);
-    animation: fadeSlideIn 1s ease forwards 1.2s;
-  }
-
-  @keyframes fadeSlideIn {
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
   }
 
   #google-toggle-btn {
@@ -253,50 +229,24 @@
     background: white;
     padding: 10px;
     border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    width: 300px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
   }
 </style>
 
 <div id="google-search-container">
-  <div id="google-btn-label">Search</div>
   <button id="google-toggle-btn" title="Search Google">🔍</button>
   <div id="google-search-box">
-    <div id="google-search-inner"></div>
+    <script async src="https://cse.google.com/cse.js?cx=f37322f9c2a254bce"></script>
+    <div class="gcse-search"></div>
   </div>
 </div>
 
 <script>
   const toggleBtn = document.getElementById("google-toggle-btn");
   const searchBox = document.getElementById("google-search-box");
-  const innerBox = document.getElementById("google-search-inner");
-  const container = document.getElementById("google-search-container");
 
-  let isSearchLoaded = false;
-
-  toggleBtn.addEventListener("click", (e) => {
-    e.stopPropagation();
-
-    if (searchBox.style.display === "block") {
-      searchBox.style.display = "none";
-    } else {
-      searchBox.style.display = "block";
-
-      if (!isSearchLoaded) {
-        const script = document.createElement('script');
-        script.src = "https://cse.google.com/cse.js?cx=f37322f9c2a254bce";
-        script.async = true;
-        innerBox.innerHTML = '<div class="gcse-search"></div>';
-        innerBox.appendChild(script);
-        isSearchLoaded = true;
-      }
-    }
-  });
-
-  document.addEventListener("click", (e) => {
-    if (!container.contains(e.target)) {
-      searchBox.style.display = "none";
-    }
+  toggleBtn.addEventListener("click", () => {
+    searchBox.style.display = searchBox.style.display === "none" ? "block" : "none";
   });
 </script>
 </body>
