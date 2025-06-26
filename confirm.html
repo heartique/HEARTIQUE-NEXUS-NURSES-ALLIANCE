@@ -1,31 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Confirming...</title>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 4rem;
+      background-color: #f5f5f5;
+    }
+    #msg {
+      font-size: 1.2rem;
+      margin-top: 2rem;
+      color: #333;
+    }
+  </style>
 </head>
 <body>
-  <p>Confirming your email, please wait...</p>
+  <h1>🔄 Verifying your account...</h1>
+  <p id="msg">Please wait a moment.</p>
 
   <script>
-    const urlParams = new URLSearchParams(window.location.hash);
-    const access_token = urlParams.get('#access_token') || urlParams.get('access_token');
-
     const supabase = supabase.createClient(
-      "https://gbqgtnukoucxagswqspx.supabase.co",
-      "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdicWd0bnVrb3VjeGFnc3dxc3B4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTA4ODcwNTAsImV4cCI6MjA2NjQ2MzA1MH0.uHqKZ-KnW1sv7CSD37D6dh1qYfSLMznud947DEZI93Q"
+      'https://gbqgtnukoucxagswqspx.supabase.co',
+      'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdicWd0bnVrb3VjeGFnc3dxc3B4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTA4ODcwNTAsImV4cCI6MjA2NjQ2MzA1MH0.uHqKZ-KnW1sv7CSD37D6dh1qYfSLMznud947DEZI93Q'
     );
 
-    async function confirmAndRedirect() {
-      const { data, error } = await supabase.auth.getSession();
-      if (data.session) {
-        window.location.href = "index.html"; // or your real dashboard
+    async function checkSession() {
+      const { data: { session } } = await supabase.auth.getSession();
+
+      if (session) {
+        document.getElementById("msg").textContent = "✅ Email confirmed! Redirecting...";
+        setTimeout(() => {
+          window.location.href = "index.html";
+        }, 2000);
       } else {
-        setTimeout(confirmAndRedirect, 1000); // Retry until session is active
+        document.getElementById("msg").textContent = "⚠️ No active session. Please log in.";
       }
     }
 
-    confirmAndRedirect();
+    checkSession();
   </script>
 </body>
 </html>
