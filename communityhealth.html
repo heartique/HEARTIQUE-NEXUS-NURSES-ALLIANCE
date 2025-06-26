@@ -203,6 +203,84 @@
         `You got <strong>${score}</strong> out of <strong>${total}</strong> (${percent}%)<br><div class="reaction">${reaction}</div>`;
     }
   </script>
+<!-- 🌐 Floating Google Search Button with Label + Auto-Close + Animation -->
+<style>
+  #google-search-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
 
+  #google-btn-label {
+    background-color: #f6c90e;
+    color: black;
+    border-radius: 20px;
+    padding: 6px 12px;
+    font-size: 16px;
+    margin-bottom: 6px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    opacity: 0;
+    transform: translateY(10px);
+    animation: fadeSlideIn 1s ease forwards 1.2s;
+  }
+
+  @keyframes fadeSlideIn {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  #google-toggle-btn {
+    background-color: #f6c90e;
+    color: black;
+    border: none;
+    padding: 12px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  #google-search-box {
+    display: none;
+    margin-top: 10px;
+    background: white;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  }
+</style>
+
+<div id="google-search-container">
+  <div id="google-btn-label">Search</div>
+  <button id="google-toggle-btn" title="Search Google">🔍</button>
+  <div id="google-search-box">
+    <script async src="https://cse.google.com/cse.js?cx=f37322f9c2a254bce"></script>
+    <div class="gcse-search"></div>
+  </div>
+</div>
+
+<script>
+  const toggleBtn = document.getElementById("google-toggle-btn");
+  const searchBox = document.getElementById("google-search-box");
+  const container = document.getElementById("google-search-container");
+
+  toggleBtn.addEventListener("click", (e) => {
+    e.stopPropagation();
+    searchBox.style.display = searchBox.style.display === "block" ? "none" : "block";
+  });
+
+  document.addEventListener("click", function(event) {
+    if (!container.contains(event.target)) {
+      searchBox.style.display = "none";
+    }
+  });
+</script>
 </body>
 </html>
