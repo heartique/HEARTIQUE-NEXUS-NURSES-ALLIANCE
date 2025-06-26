@@ -8,20 +8,20 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: #f9f9f9;
       padding: 2rem;
+      background-color: #f5f5f5;
     }
     .form {
       background: white;
-      max-width: 480px;
+      max-width: 500px;
       margin: auto;
       padding: 2rem;
-      border-radius: 10px;
-      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      box-shadow: 0 0 12px rgba(0,0,0,0.1);
     }
     input, select, button {
       width: 100%;
-      padding: 12px;
+      padding: 0.8rem;
       margin-bottom: 1rem;
       font-size: 1rem;
       border: 1px solid #ccc;
@@ -35,9 +35,13 @@
     }
     #message {
       margin-top: 1rem;
-      text-align: center;
-      font-weight: bold;
       color: green;
+      font-weight: bold;
+      text-align: center;
+    }
+    .switch-link {
+      text-align: center;
+      margin-top: 1rem;
     }
   </style>
 </head>
@@ -56,12 +60,16 @@
     <input type="password" id="password" placeholder="Password" required />
     <button onclick="signUp()">Create Account</button>
     <div id="message"></div>
+
+    <div class="switch-link">
+      Already have an account? <a href="login.html">Login here</a>
+    </div>
   </div>
 
   <script>
     const supabase = supabase.createClient(
       'https://gbqgtnukoucxagswqspx.supabase.co',
-      'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdicWd0bnVrb3VjeGFnc3dxc3B4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTA4ODcwNTAsImV4cCI6MjA2NjQ2MzA1MH0.uHqKZ-KnW1sv7CSD37D6dh1qYfSLMznud947DEZI93Q'
+      'YOUR_SUPABASE_ANON_KEY'
     );
 
     async function signUp() {
@@ -73,19 +81,27 @@
 
       const { data, error } = await supabase.auth.signUp({
         email,
-        password,
-        options: {
-          data: { full_name, gender, class: classYear }
-        }
+        password
       });
 
       if (error) {
-        document.getElementById("message").textContent = "❌ " + error.message;
+        document.getElementById("message").textContent = error.message;
         return;
       }
 
+      const user = data.user;
+
+      await supabase.from('profiles').insert([
+        {
+          id: user.id,
+          full_name,
+          gender,
+          class: classYear
+        }
+      ]);
+
       document.getElementById("message").textContent =
-        "✅ Account created! Please check your email to confirm and activate your account.";
+        "🎉 Account created! Check your email to confirm your registration.";
     }
   </script>
 </body>
