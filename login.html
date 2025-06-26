@@ -79,20 +79,19 @@
 }
  .glow-wrapper {
   position: relative;
-  padding: 4px; /* Reduced from 8px */
+  padding: 4px;
   border-radius: 10px;
   background: conic-gradient(from 0deg, #004a99, #0066cc, #3399ff, #004a99);
   animation: spinGlow 6s linear infinite;
-  box-shadow: 0 0 12px rgba(0, 74, 153, 0.4); /* Slightly reduced blur & opacity */
-}
+  box-shadow: 0 0 12px rgba(0, 74, 153, 0.4);
 }
 
 .glow-wrapper::before {
   content: "";
   position: absolute;
   top: -2px;
-  left: -1px;
-  right: -1px;
+  left: -0.5px;   /* Tighter on the left */
+  right: -0.5px;  /* Tighter on the right */
   bottom: -2px;
   border-radius: 16px;
   background: inherit;
@@ -106,9 +105,7 @@
   }
   100% {
     background: conic-gradient(from 360deg, #004a99, #0066cc, #3399ff, #004a99);
-  }
 }
-
   </style>
 </head>
 <body>
