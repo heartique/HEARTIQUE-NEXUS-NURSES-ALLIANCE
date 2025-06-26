@@ -122,7 +122,7 @@
     async function handleAuth() {
       const email = document.getElementById('email').value.trim();
       const password = document.getElementById('password').value.trim();
-      const full_name = document.getElementById('full_name').value.trim();
+      const full_name = document.getElementById('full_name')?.value.trim();
       const msgEl = document.getElementById('message');
       msgEl.textContent = '';
 
@@ -137,13 +137,7 @@
           setTimeout(() => window.location.href = 'index.html', 1500);
         }
       } else {
-        const { data, error } = await supabase.auth.signUp({
-          email,
-          password,
-          options: {
-            emailRedirectTo: 'http://localhost:5500/index.html' // or your live site
-          }
-        });
+        const { data, error } = await supabase.auth.signUp({ email, password });
 
         if (error) {
           if (error.message.includes('already registered')) {
@@ -152,11 +146,14 @@
           msgEl.style.color = 'red';
           msgEl.textContent = error.message;
         } else {
+          // Save name to database
           await supabase.from('profiles').insert([{ id: data.user.id, full_name }]);
+          // Store name locally
           localStorage.setItem('full_name', full_name);
           msgEl.style.color = 'green';
-          msgEl.textContent = '🎉 Account created! Check your email to confirm.';
+          msgEl.textContent = '✅ Account created and logged in!';
           startCountdown();
+          setTimeout(() => window.location.href = 'index.html', 1500);
         }
       }
     }
@@ -164,13 +161,13 @@
     function startCountdown() {
       const btn = document.getElementById('auth-button');
       const countdown = document.getElementById('countdown');
-      let seconds = 60;
+      let seconds = 5;
       btn.disabled = true;
-      countdown.textContent = `⏳ Wait ${seconds}s before retrying.`;
+      countdown.textContent = `⏳ Wait ${seconds}s...`;
 
       const timer = setInterval(() => {
         seconds--;
-        countdown.textContent = `⏳ Wait ${seconds}s before retrying.`;
+        countdown.textContent = `⏳ Wait ${seconds}s...`;
         if (seconds <= 0) {
           clearInterval(timer);
           countdown.textContent = '';
