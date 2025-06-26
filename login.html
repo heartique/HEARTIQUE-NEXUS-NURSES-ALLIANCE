@@ -14,16 +14,17 @@
       padding: 2rem;
     }
     .form {
-      background-image: url('https://raw.githubusercontent.com/heartique/HEARTIQUE-NEXUS-NURSES-ALLIANCE/main/background4.jpg');
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
-      max-width: 500px;
-      margin: auto;
-      padding: 2rem;
-      border-radius: 8px;
-      box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
-      transition: transform 0.4s ease, opacity 0.3s ease;
+  background-image: url('https://raw.githubusercontent.com/heartique/HEARTIQUE-NEXUS-NURSES-ALLIANCE/main/background4.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 420px; /* Reduce from 500px */
+  width: 100%;
+  margin: auto;
+  padding: 1rem; /* Reduced from 2rem */
+  border-radius: 8px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.4s ease, opacity 0.3s ease;
     }
     .zoom-out {
       transform: scale(0.95);
@@ -77,28 +78,29 @@
     0 0 10px white,
     0 0 20px white;
 }
- .glow-wrapper {
+.glow-wrapper {
   position: relative;
-  padding: 4px;
+  max-width: 440px; /* Limit width of the wrapper too */
+  width: 100%;
+  margin: auto;
+  padding: 2px; /* Tighter glow padding */
   border-radius: 10px;
   background: conic-gradient(from 0deg, #004a99, #0066cc, #3399ff, #004a99);
   animation: spinGlow 6s linear infinite;
-  box-shadow: 0 0 12px rgba(0, 74, 153, 0.4);
+  box-shadow: 0 0 10px rgba(0, 74, 153, 0.3);
 }
-
 .glow-wrapper::before {
   content: "";
   position: absolute;
   top: -2px;
-  left: -0.5px;   /* Tighter on the left */
-  right: -0.5px;  /* Tighter on the right */
+  left: -1px;   /* Tight side space */
+  right: -1px;
   bottom: -2px;
-  border-radius: 16px;
+  border-radius: 12px;
   background: inherit;
-  filter: blur(6px);
+  filter: blur(4px);
   z-index: -1;
 }
-
 @keyframes spinGlow {
   0% {
     background: conic-gradient(from 0deg, #004a99, #0066cc, #3399ff, #004a99);
