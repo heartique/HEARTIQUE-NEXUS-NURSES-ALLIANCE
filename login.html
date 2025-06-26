@@ -77,9 +77,41 @@
     0 0 10px white,
     0 0 20px white;
 }
+    .glow-wrapper {
+  position: relative;
+  padding: 8px;
+  border-radius: 12px;
+  background: conic-gradient(from 0deg, #004a99, #0066cc, #3399ff, #004a99);
+  animation: spinGlow 6s linear infinite;
+  box-shadow: 0 0 20px rgba(0, 74, 153, 0.5);
+}
+
+.glow-wrapper::before {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  right: -4px;
+  bottom: -4px;
+  border-radius: 16px;
+  background: inherit;
+  filter: blur(10px);
+  z-index: -1;
+}
+
+@keyframes spinGlow {
+  0% {
+    background: conic-gradient(from 0deg, #004a99, #0066cc, #3399ff, #004a99);
+  }
+  100% {
+    background: conic-gradient(from 360deg, #004a99, #0066cc, #3399ff, #004a99);
+  }
+}
+
   </style>
 </head>
 <body>
+  <div class="glow-wrapper">
   <div class="form">
     <h2 id="form-title">LOGIN TO HEARTIQUE NEXUS PORTAL</h2>
 
