@@ -18,6 +18,15 @@
       padding: 2rem;
       border-radius: 8px;
       box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+      transition: transform 0.4s ease, opacity 0.3s ease;
+    }
+    .zoom-out {
+      transform: scale(0.95);
+      opacity: 0.7;
+    }
+    .zoom-in {
+      transform: scale(1);
+      opacity: 1;
     }
     input, button {
       width: 100%;
@@ -47,22 +56,37 @@
       text-decoration: underline;
       cursor: pointer;
     }
+    #countdown {
+      color: gray;
+      font-size: 0.9rem;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
   </style>
 </head>
 <body>
+
   <div class="form">
     <h2 id="form-title">Login</h2>
+
     <div id="name-field" style="display: none;">
       <input type="text" id="full_name" placeholder="Full Name" />
     </div>
+
     <input type="email" id="email" placeholder="Email" required />
     <input type="password" id="password" placeholder="Password" required />
+
     <button id="auth-button" onclick="handleAuth()">Login</button>
+    <div id="countdown"></div>
+
     <div id="message"></div>
+
     <div class="toggle">
       <span id="toggle-text">Don't have an account?</span>
       <a onclick="toggleMode()">Create one</a>
     </div>
+
+    <button onclick="deleteAccount()">Delete Account</button>
   </div>
 
   <script>
@@ -73,22 +97,35 @@
 
     let isLogin = true;
 
+    // Auto-redirect if already logged in
+    supabase.auth.getSession().then(({ data: { session } }) => {
+      if (session) window.location.href = 'index.html';
+    });
+
     function toggleMode() {
-      isLogin = !isLogin;
-      document.getElementById('form-title').textContent = isLogin ? 'Login' : 'Create Account';
-      document.getElementById('auth-button').textContent = isLogin ? 'Login' : 'Sign Up';
-      document.getElementById('toggle-text').textContent = isLogin ? "Don't have an account?" : 'Already have an account?';
-      document.querySelector('.toggle a').textContent = isLogin ? 'Create one' : 'Login here';
-      document.getElementById('name-field').style.display = isLogin ? 'none' : 'block';
-      document.getElementById('message').textContent = '';
+      const form = document.querySelector('.form');
+      form.classList.add('zoom-out');
+
+      setTimeout(() => {
+        isLogin = !isLogin;
+        document.getElementById('form-title').textContent = isLogin ? 'Login' : 'Create Account';
+        document.getElementById('auth-button').textContent = isLogin ? 'Login' : 'Sign Up';
+        document.getElementById('toggle-text').textContent = isLogin ? "Don't have an account?" : 'Already have an account?';
+        document.querySelector('.toggle a').textContent = isLogin ? 'Create one' : 'Login here';
+        document.getElementById('name-field').style.display = isLogin ? 'none' : 'block';
+        document.getElementById('message').textContent = '';
+
+        form.classList.remove('zoom-out');
+        form.classList.add('zoom-in');
+        setTimeout(() => form.classList.remove('zoom-in'), 400);
+      }, 200);
     }
 
     async function handleAuth() {
-      const email = document.getElementById('email').value;
-      const password = document.getElementById('password').value;
-      const full_name = document.getElementById('full_name').value;
+      const email = document.getElementById('email').value.trim();
+      const password = document.getElementById('password').value.trim();
+      const full_name = document.getElementById('full_name').value.trim();
       const msgEl = document.getElementById('message');
-
       msgEl.textContent = '';
 
       if (isLogin) {
@@ -105,15 +142,47 @@
         const { data, error } = await supabase.auth.signUp({ email, password });
 
         if (error) {
+          if (error.message.includes('already registered')) {
+            alert('📧 This email is already registered.');
+          }
           msgEl.style.color = 'red';
           msgEl.textContent = error.message;
         } else {
-          // Insert profile with name
           await supabase.from('profiles').insert([{ id: data.user.id, full_name }]);
+          localStorage.setItem('full_name', full_name);
           msgEl.style.color = 'green';
           msgEl.textContent = '🎉 Account created! Check your email to confirm.';
+          startCountdown();
         }
       }
+    }
+
+    function startCountdown() {
+      const btn = document.getElementById('auth-button');
+      const countdown = document.getElementById('countdown');
+      let seconds = 60;
+      btn.disabled = true;
+      countdown.textContent = `⏳ Wait ${seconds}s before retrying.`;
+
+      const timer = setInterval(() => {
+        seconds--;
+        countdown.textContent = `⏳ Wait ${seconds}s before retrying.`;
+        if (seconds <= 0) {
+          clearInterval(timer);
+          countdown.textContent = '';
+          btn.disabled = false;
+        }
+      }, 1000);
+    }
+
+    async function deleteAccount() {
+      const { data: { user } } = await supabase.auth.getUser();
+      if (!user) return alert("You're not logged in.");
+
+      await supabase.from('profiles').delete().eq('id', user.id);
+      alert("This public client can't delete the actual account. Ask admin.");
+
+      // Note: Full deletion requires Supabase Admin API via backend
     }
   </script>
 </body>
