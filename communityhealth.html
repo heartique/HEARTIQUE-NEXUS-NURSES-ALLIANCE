@@ -203,7 +203,7 @@
         `You got <strong>${score}</strong> out of <strong>${total}</strong> (${percent}%)<br><div class="reaction">${reaction}</div>`;
     }
   </script>
-<!-- 🌐 Floating Google Search Button with Label + Auto-Close + Animation -->
+  <!-- 🌐 Google Search Floating Tab (Clickable + Animated + Auto-Close) -->
 <style>
   #google-search-container {
     position: fixed;
@@ -248,12 +248,22 @@
   }
 
   #google-search-box {
-    display: none;
+    visibility: hidden;
+    opacity: 0;
+    max-height: 0;
+    transition: opacity 0.3s ease, max-height 0.3s ease;
+    overflow: hidden;
     margin-top: 10px;
     background: white;
     padding: 10px;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  }
+
+  #google-search-box.visible {
+    visibility: visible;
+    opacity: 1;
+    max-height: 400px;
   }
 </style>
 
@@ -273,12 +283,12 @@
 
   toggleBtn.addEventListener("click", (e) => {
     e.stopPropagation();
-    searchBox.style.display = searchBox.style.display === "block" ? "none" : "block";
+    searchBox.classList.toggle("visible");
   });
 
   document.addEventListener("click", function(event) {
     if (!container.contains(event.target)) {
-      searchBox.style.display = "none";
+      searchBox.classList.remove("visible");
     }
   });
 </script>
