@@ -34,5 +34,42 @@
     "answer": "B",
     "explanation": "The term 'community-based' implies that the practice is grounded in the community's specific context. The starting point for all interventions is a thorough community diagnosis (also called community assessment). This process systematically identifies the health status, needs, problems, and resources of the community. Without this, any intervention would be inappropriate and ineffective. Therefore, conducting a community diagnosis is the foundational activity that defines the practice as 'community-based.' Option A: While true (services are often in homes, schools, clinics), this describes the setting, not the entire philosophy of the practice. The practice could be in the community setting but not be truly 'based' on the community's needs if a diagnosis wasn't done. Option C: This is a crucial part of planning, but it's a consequence of the community diagnosis, not the defining explanation of the practice itself. Option D: This is a step within the planning phase that follows the community diagnosis. It is a critical activity but doesn't encompass the whole meaning of 'community-based' as well as (B) does.",
     "additional": "Community Diagnosis vs. Community-Based: Community-Based: Care is provided in the community setting (e.g., home health). Community-Oriented: The nurse's focus is on the health of the community or population as a whole. Community Health Nursing Practice is both community-based and community-oriented. Components of a Community Assessment: Expect questions on what a nurse assesses. This includes: Demographics: Population size, age, gender, ethnicity. Vital Statistics: Birth rates, death rates, morbidity data. Environment: Physical (geography, housing, water), social (services, government). Health Status: Leading causes of mortality/morbidity. Reference: Community/Public Health Nursing: Promoting the Health of Populations by Nies & McEwen discusses the community assessment process extensively in chapters dedicated to community assessment models and population diagnosis."
+  },
+  {
+    "question": "Population-focused nursing practice requires which of the following processes?",
+    "options": {
+      "A": "Community organizing",
+      "B": "Nursing, process",
+      "C": "Community diagnosis",
+      "D": "Epidemiologic process"
+    },
+    "answer": "C",
+    "explanation": "\"Population-focused\" practice means that the nurse is concerned with the health of an entire population or aggregate, not just individuals. The foundational process for understanding the health status, needs, and resources of that population is the community diagnosis (or community/population assessment). All subsequent actions, like planning and intervention, are based on the findings of this diagnosis. It is the starting point and the most essential requirement for this type of practice. Community organizing is an intervention strategy used to implement plans that arise from the diagnosis. Nursing process is the general framework but community diagnosis is more precise for population focus. Epidemiologic process is part of diagnosis, but not the whole process.",
+    "additional": "Population vs. Aggregate: Population: A collection of individuals who share one or more personal or environmental characteristics (e.g., all residents of Nairobi). Aggregate: A subgroup or subpopulation that has some common characteristics or concerns (e.g., pregnant adolescents in Nairobi). Community health nursing often targets specific aggregates. Population Health: This is a broader concept that includes the outcomes of care, patterns of health determinants, and the policies and interventions that link these two. Population-focused nursing is the practice that aims to improve population health."
+  },
+  {
+    "question": "When the occupational health nurse employs ergonomic principles, she is performing which of her roles?",
+    "options": {
+      "A": "Health care provider",
+      "B": "Health educator",
+      "C": "Health care coordinator",
+      "D": "Environment manager"
+    },
+    "answer": "D",
+    "explanation": "Ergonomics is the science of fitting the workplace conditions and job demands to the capabilities of the working population. It involves modifying the work environment—such as adjusting chair height, providing supportive equipment, or redesigning a workstation—to prevent musculoskeletal injuries. By doing this, the nurse is actively managing the physical work environment to make it safer and healthier. This falls directly under the role of an environment manager. Health care provider involves clinical care after injury. Health educator teaches about ergonomics but does not apply it. Health care coordinator arranges post-injury services.",
+    "additional": "Occupational Health Nursing Roles (AAOHN): The American Association of Occupational Health Nurses outlines several roles. Expect questions on: Clinician/Care Provider: First aid, case management. Case Manager: Coordinating care for injured workers to ensure a timely return to work. Educator: Training on safety, health promotion. Consultant: Advising management on health and safety policies. Researcher: Analyzing data on workplace injuries to identify trends. Hierarchy of Controls: Elimination, Substitution, Engineering Controls (ergonomics), Administrative Controls, Personal Protective Equipment (PPE)."
+  },
+  {
+    "question": "\"Public health services are given free of charge”. Is this statement true or false?",
+    "options": {
+      "A": "The statement is true; it is the responsibility of government to provide haste services",
+      "B": "The statement is false; people pay indirectly for public health services",
+      "C": "The statement may be true or false; depending on the Specific service required",
+      "D": "The statement may be true or false; depending on policies of the government concerned."
+    },
+    "answer": "B",
+    "explanation": "While many public health services are provided without a direct fee at the point of service (e.g., immunizations at a public clinic, water quality monitoring), they are not 'free.' They are funded by the public through taxes (income tax, sales tax, property tax, etc.). This is an indirect payment system. Therefore, the statement that they are 'free of charge' is fundamentally false because the population is paying for them collectively. The typo in option A 'haste' likely means 'health'. Options C and D introduce ambiguity but do not address the core financing truth as clearly as B does.",
+    "additional": "Financing of Health Care: Be aware of different models: Tax-Based System (Beveridge Model): Health care is funded through general taxation (e.g., UK, Canada). Social Health Insurance (Bismarck Model): Funded by employer and employee contributions to 'sickness funds' (e.g., Germany, Japan). National Health Insurance Model: A hybrid system with private-sector providers but payment comes from a government-run insurance program that all citizens pay into (e.g., Taiwan, South Korea). Out-of-Pocket Model: Most common in developing nations where individuals pay for services directly. Universal Health Coverage (UHC): This is a major goal of the WHO. It means that all individuals and communities receive the health services they need without suffering financial hardship. It does not mean services are free, but that mechanisms for financing and delivery are in place to ensure access and affordability."
   }
 ]
+
