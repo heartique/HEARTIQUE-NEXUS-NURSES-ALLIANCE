@@ -77,13 +77,14 @@
     0 0 10px white,
     0 0 20px white;
 }
-    .glow-wrapper {
+ .glow-wrapper {
   position: relative;
-  padding: 8px;
-  border-radius: 12px;
+  padding: 4px; /* Reduced from 8px */
+  border-radius: 10px;
   background: conic-gradient(from 0deg, #004a99, #0066cc, #3399ff, #004a99);
   animation: spinGlow 6s linear infinite;
-  box-shadow: 0 0 20px rgba(0, 74, 153, 0.5);
+  box-shadow: 0 0 12px rgba(0, 74, 153, 0.4); /* Slightly reduced blur & opacity */
+}
 }
 
 .glow-wrapper::before {
@@ -95,7 +96,7 @@
   bottom: -2px;
   border-radius: 16px;
   background: inherit;
-  filter: blur(10px);
+  filter: blur(6px);
   z-index: -1;
 }
 
