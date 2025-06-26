@@ -203,7 +203,7 @@
         `You got <strong>${score}</strong> out of <strong>${total}</strong> (${percent}%)<br><div class="reaction">${reaction}</div>`;
     }
   </script>
-  <!-- 🌐 Google Search Floating Tab (Clickable + Animated + Auto-Close) -->
+  <!-- 🌐 Floating Google Search with Label, Animation, Auto-Close -->
 <style>
   #google-search-container {
     position: fixed;
@@ -248,22 +248,13 @@
   }
 
   #google-search-box {
-    visibility: hidden;
-    opacity: 0;
-    max-height: 0;
-    transition: opacity 0.3s ease, max-height 0.3s ease;
-    overflow: hidden;
+    display: none;
     margin-top: 10px;
     background: white;
     padding: 10px;
     border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-  }
-
-  #google-search-box.visible {
-    visibility: visible;
-    opacity: 1;
-    max-height: 400px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    width: 300px;
   }
 </style>
 
@@ -271,24 +262,40 @@
   <div id="google-btn-label">Search</div>
   <button id="google-toggle-btn" title="Search Google">🔍</button>
   <div id="google-search-box">
-    <script async src="https://cse.google.com/cse.js?cx=f37322f9c2a254bce"></script>
-    <div class="gcse-search"></div>
+    <div id="google-search-inner"></div>
   </div>
 </div>
 
 <script>
   const toggleBtn = document.getElementById("google-toggle-btn");
   const searchBox = document.getElementById("google-search-box");
+  const innerBox = document.getElementById("google-search-inner");
   const container = document.getElementById("google-search-container");
+
+  let isSearchLoaded = false;
 
   toggleBtn.addEventListener("click", (e) => {
     e.stopPropagation();
-    searchBox.classList.toggle("visible");
+
+    if (searchBox.style.display === "block") {
+      searchBox.style.display = "none";
+    } else {
+      searchBox.style.display = "block";
+
+      if (!isSearchLoaded) {
+        const script = document.createElement('script');
+        script.src = "https://cse.google.com/cse.js?cx=f37322f9c2a254bce";
+        script.async = true;
+        innerBox.innerHTML = '<div class="gcse-search"></div>';
+        innerBox.appendChild(script);
+        isSearchLoaded = true;
+      }
+    }
   });
 
-  document.addEventListener("click", function(event) {
-    if (!container.contains(event.target)) {
-      searchBox.classList.remove("visible");
+  document.addEventListener("click", (e) => {
+    if (!container.contains(e.target)) {
+      searchBox.style.display = "none";
     }
   });
 </script>
