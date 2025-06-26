@@ -70,6 +70,54 @@
     "answer": "B",
     "explanation": "While many public health services are provided without a direct fee at the point of service (e.g., immunizations at a public clinic, water quality monitoring), they are not 'free.' They are funded by the public through taxes (income tax, sales tax, property tax, etc.). This is an indirect payment system. Therefore, the statement that they are 'free of charge' is fundamentally false because the population is paying for them collectively. The typo in option A 'haste' likely means 'health'. Options C and D introduce ambiguity but do not address the core financing truth as clearly as B does.",
     "additional": "Financing of Health Care: Be aware of different models: Tax-Based System (Beveridge Model): Health care is funded through general taxation (e.g., UK, Canada). Social Health Insurance (Bismarck Model): Funded by employer and employee contributions to 'sickness funds' (e.g., Germany, Japan). National Health Insurance Model: A hybrid system with private-sector providers but payment comes from a government-run insurance program that all citizens pay into (e.g., Taiwan, South Korea). Out-of-Pocket Model: Most common in developing nations where individuals pay for services directly. Universal Health Coverage (UHC): This is a major goal of the WHO. It means that all individuals and communities receive the health services they need without suffering financial hardship. It does not mean services are free, but that mechanisms for financing and delivery are in place to ensure access and affordability."
+  },
+  {
+    "question": "Level IV Hospital is classified as what level of facility?",
+    "options": {
+      "A": "Primary",
+      "B": "Secondary",
+      "C": "Intermediate",
+      "D": "Tertiary"
+    },
+    "answer": "D",
+    "explanation": "Health care facilities are classified into levels based on the complexity of services they provide. A Level IV hospital (in many classification systems, like the one used in Kenya) represents a tertiary or even quaternary level of care. These are national referral hospitals that offer a wide range of specialized and sub-specialized services, conduct teaching and research, and handle the most complex cases referred from lower-level facilities.",
+    "additional": "Levels of Health Care Delivery: Primary Level - First contact, health promotion, prevention, common illnesses (e.g., dispensaries, health centers). Secondary Level - Specialized care, referral from primary (e.g., sub-county hospitals), general specialists. Tertiary Level - Highly specialized care, referral hospitals, advanced diagnostics, education and research. Note: Kenya classifies Level 4 as sub-county hospitals functioning at secondary level, but in general test context, Tertiary is the best fit for 'Level IV' when interpreting the question based on generic classification models."
+  },
+  {
+    "question": "What is true of primary facilities?",
+    "options": {
+      "A": "They are usually government-run",
+      "B": "Their services are provided on an out-patient basis",
+      "C": "They are training facilities for health professionals",
+      "D": "A community hospital is an example of this level of health facilities"
+    },
+    "answer": "B",
+    "explanation": "The defining characteristic of primary level facilities (like dispensaries and health centers) is that they manage common health problems and provide preventive services primarily on an out-patient basis. They are designed for walk-in care and do not typically have the capacity for complex admissions that require overnight stays, though some larger health centers may have a few observation beds.",
+    "additional": "Why others are incorrect: (A) Not exclusively government-run; private/faith-based exist. (C) Major training happens in secondary/tertiary hospitals. (D) Hospitals usually offer inpatient care, thus not primary. Essential Elements of PHC (acronym ELEMENTS): Education for health, Locally endemic disease control, Expanded program on immunization, Maternal/child health & family planning, Essential drugs, Nutrition promotion, Treatment of common illnesses, Safe water & sanitation."
+  },
+  {
+    "question": "2010 Kenya constitution mandates devolution of basic services from the national government to county government units. Which of the following is the major goal of devolution?",
+    "options": {
+      "A": "To strengthen county government units",
+      "B": "To allow greater autonomy to county government units.",
+      "C": "To empower the people and promote their self-reliance",
+      "D": "To make basic services more accessible to the people"
+    },
+    "answer": "C",
+    "explanation": "While all the options are aspects or outcomes of devolution, the major goal or overarching principle enshrined in the Constitution of Kenya (2010) is the empowerment of the people. Devolution is designed to bring decision-making and resources closer to the people, allowing them to participate in governance, set their own priorities, and hold their leaders accountable. This process enhances self-reliance and fosters local solutions to local problems.",
+    "additional": "Why other options are not best: (A) Strengthening counties is a means, not end. (B) Autonomy is a feature, not goal. (D) Accessibility is a result of empowerment. Also review: Functions of County Gov't in Health: Level 1–4/5, ambulance, PHC. National Gov’t: Referral hospitals, health policy, quality. Public Participation: Constitutional principle – nurses should engage communities."
+  },
+  {
+    "question": "Which level of health facility is the usual point of entry of a client into the health care delivery system?",
+    "options": {
+      "A": "primary",
+      "B": "Secondary",
+      "C": "Intermediate",
+      "D": "Tertiary"
+    },
+    "answer": "A",
+    "explanation": "The primary level is designed to be the 'gatekeeper' or first point of contact for the vast majority of people seeking health care. It is geographically and financially the most accessible level. Here, common conditions are managed, and preventive services are offered. Patients are only referred to higher levels (secondary, tertiary) if their condition requires more specialized care.",
+    "additional": "Why others are incorrect: (B), (C), and (D) are referral levels, meant for cases that primary level can't manage. Using higher levels for simple care is inefficient and costly. Future concept: Referral System – ensures patients receive care at appropriate level. Gatekeeping – primary care prevents system overload and waste by filtering access to more complex care."
   }
 ]
 
