@@ -12,6 +12,7 @@
   <title>Heartique Nexus Dashboard</title>
   <link rel="manifest" href="manifest.json" />
 <meta name="theme-color" content="#004a99" />
+<button onclick="deleteAccount()">🗑️ Delete My Account</button>
 
   <style>
     body {
@@ -556,31 +557,31 @@ Let’s grow together and be the difference the world needs.</p>
   };
   document.querySelector("header").appendChild(logoutBtn);
 </script>
-      <script>
-  async function greetUser() {
-    const { data: { session } } = await supabase.auth.getSession();
-
-    if (!session) {
-      document.getElementById("welcomeUser").innerHTML = "👋 Welcome guest! <a href='login.html'>Login here</a>";
-      return;
-    }
-
-    const userId = session.user.id;
-
-    const { data, error } = await supabase
-      .from('profiles')
-      .select('full_name')
-      .eq('id', userId)
-      .single();
-
-    if (error || !data) {
-      document.getElementById("welcomeUser").innerHTML = "👋 Welcome back!";
-    } else {
-      document.getElementById("welcomeUser").innerHTML = `Hello <strong>${data.full_name}</strong>, welcome back to the Nexus Portal 👋`;
-    }
+   <h1 id="greeting">Welcome!</h1>
+<script>
+  const name = localStorage.getItem('full_name');
+  if (name) {
+    document.getElementById('greeting').textContent = `Welcome, ${name}!`;
   }
+</script>
+      <script>
+  async function deleteAccount() {
+    const confirmDelete = confirm("Are you sure you want to delete your account? This action is permanent.");
+    if (!confirmDelete) return;
 
-  greetUser();
+    const { data: { user } } = await supabase.auth.getUser();
+    if (!user) return alert("You're not logged in.");
+
+    // Delete from your user table (optional)
+    await supabase.from('profiles').delete().eq('id', user.id);
+
+    alert("⚠️ Account deletion from Supabase Auth requires admin access. Contact admin to fully delete your account.");
+    
+    // Optional: Log out after deletion
+    await supabase.auth.signOut();
+    localStorage.removeItem('full_name');
+    window.location.href = 'login.html';
+  }
 </script>
 </body>
 </html>
