@@ -1,115 +1,586 @@
-<!DOCTYPE html>
+i send code tell me where to correct  ,,like location and what to do.<!DOCTYPE html>
 <html lang="en">
 <head>
+  <script>
+    const savedTheme = localStorage.getItem("theme");
+    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    const theme = savedTheme || (prefersDark ? "dark" : "light");
+    document.documentElement.setAttribute("data-theme", theme);
+  </script>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Login to Heartique Nexus</title>
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Heartique Nexus Dashboard</title>
+  <link rel="manifest" href="manifest.json" />
+<meta name="theme-color" content="#004a99" />
+
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f0f4f8;
-      padding: 2rem;
+     font-family: Arial, sans-serif;
+  background-image: url('https://raw.githubusercontent.com/heartique/HEARTIQUE-NEXUS-NURSES-ALLIANCE/main/background4.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  color: #333;
     }
-    .form {
-      max-width: 400px;
-      margin: auto;
-      padding: 2rem;
-      background: white;
-      border-radius: 10px;
-      box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
-    }
-    h2 {
-      text-align: center;
-    }
-    input, button {
-      width: 100%;
-      padding: 0.8rem;
-      margin-bottom: 1rem;
-      font-size: 1rem;
-      border: 1px solid #ccc;
-      border-radius: 6px;
-    }
-    button {
+    header {
       background: #004a99;
       color: white;
-      font-weight: bold;
+      padding: 1rem 1.5rem;
+      text-align: center;
+      position: relative;
+    }
+    <img src="https://github.com/heartique/HEARTIQUE-NEXUS-NURSES-ALLIANCE/blob/main/floating1.svg" 
+     id="floatingNurse" 
+     alt="Student Nurse" />
+    header h1 {
+      margin: 0;
+      font-weight: 700;
+    }
+    #logoutBtn {
+      position: absolute;
+      top: 1rem;
+      right: 1.5rem;
+      background: #e53935;
+      color: white;
+      border: none;
+      padding: 0.4rem 1rem;
+      border-radius: 4px;
       cursor: pointer;
+      font-weight: 600;
     }
-    a {
-      display: block;
-      text-align: center;
+    main {
+      max-width: 1000px;
+      margin: 1rem auto;
+      padding: 1rem;
+    }
+    .welcome-msg {
+      background: #e8f0fe;
+      border-left: 6px solid #004a99;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 4px;
+    }
+    .welcome-msg p {
+      font-size: 1.1rem;
+    }
+    .contact {
+      font-size: 0.9rem;
       margin-top: 0.5rem;
+      color: #555;
+    }
+    #searchBar {
+      width: 100%;
+      padding: 0.7rem 1rem;
+      font-size: 1rem;
+      margin-bottom: 1rem;
+      border: 2px solid #004a99;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    section {
+      background: white;
+      padding: 1rem 1.5rem;
+      margin-bottom: 1rem;
+      border-radius: 6px;
+      box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+    }
+    section h2 {
+      margin-top: 0;
       color: #004a99;
-      text-decoration: none;
     }
-    #message {
-      color: green;
-      font-weight: bold;
+    ul {
+      list-style: none;
+      padding-left: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    ul li {
+      padding: 0.7rem 1rem;
+      background: #e3e8ff;
+      border-radius: 6px;
+      cursor: pointer;
+      flex: 1 1 calc(33.333% - 1rem);
       text-align: center;
+      box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
+      transition: background 0.2s ease;
     }
-    .error {
-      color: red;
+    ul li:hover {
+      background-color: #d6e0ff;
+    }
+    .tracker {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .tracker-item {
+      flex: 1 1 120px;
+      background: #e3e8ff;
+      border-radius: 6px;
+      padding: 0.7rem;
       text-align: center;
+      cursor: pointer;
+      user-select: none;
+      box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
     }
+    .tracker-item.strong {
+      background: #d4f5d4;
+      border: 2px solid #4caf50;
+      color: #2e7d32;
+    }
+    .tracker-item.fair {
+      background: #fff7d1;
+      border: 2px solid #fbc02d;
+      color: #f57f17;
+    }
+    .tracker-item.weak {
+      background: #ffd6d6;
+      border: 2px solid #e53935;
+      color: #b71c1c;
+    }
+    .tracker-item:hover {
+      opacity: 0.8;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      padding: 1rem;
+      color: #666;
+    }
+    @media (max-width: 600px) {
+      .main-nck-paper {
+  background: linear-gradient(135deg, #ff9800, #f44336);
+  color: #fff;
+  font-weight: 900;
+  font-size: 1.4rem;
+  border-radius: 18px;
+  border: 4px solid #ff5722;
+  box-shadow: 0 0 20px rgba(255, 87, 34, 0.4);
+  text-align: center;
+  flex: 1 1 100%;
+  padding: 2rem 1rem;
+    margin-top: 1rem;
+  margin-bottom: 1rem;
+  transition: all 0.3s ease; 
+}
+.main-nck-paper:hover {
+  background: linear-gradient(135deg, #ff7043, #e53935);
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(255, 87, 34, 0.7);
+}
+      ul li {
+        flex: 1 1 100%;
+      }
+      .tracker {
+        flex-direction: column;
+    }
+}
   </style>
 </head>
+  <script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('service-worker.js')
+        .then(reg => console.log('✅ Service Worker registered:', reg.scope))
+        .catch(err => console.log('❌ Service Worker registration failed:', err));
+    });
+  }
+</script>
 <body>
-  <div class="form">
-    <h2>Login</h2>
-    <input type="email" id="email" placeholder="Email" required />
-    <input type="password" id="password" placeholder="Password" required />
-    <button onclick="login()">Login</button>
-    <div id="message"></div>
-    <div class="error" id="errorMessage"></div>
-    <a href="signup.html">Create an account</a>
-    <a href="#" onclick="forgotPassword()">Forgot Password?</a>
+  <header>
+    <h1>Welcome to Heartique Nexus Portal</h1>
+  </header>
+  <main>
+    <div class="welcome-msg">
+      <p id="welcomeUser">Hello <strong>loading...</strong>, welcome to the Nursing Nexus Portal 👋</p>
+<p>Welcome to the <strong>Nursing Nexus Alliance Portal</strong>  a space specially dedicated to all students of Fidenza School of Nursing. Whether you're just joining college or already on your nursing path, this portal is here to walk with you every step of the way.</p>
+<p>This platform is more than just a collection of resources  it’s a home where students and professionals unite to support each other, grow together, and inspire change through compassion and care. </p>
+<p>What makes this portal stand out is its simple, well-organized structure, giving you instant access to PTS notes, Block 1–6 materials, revision papers, and even co-curricular updates all in one place.
+No more running up and down searching for notes or revision content. With just a tap, you can access everything you need anytime, anywhere. The broad collection of information here will help you plan your college life smoothly so you stay ahead and focused on your goals.
+Let’s grow together and be the difference the world needs.</p>
+
+<p class="contact">
+  📧 Contact: <a href="mailto:nursingnexusalliance@gmail.com">nursingnexusalliance@gmail.com</a><br>
+  📞 Phone: <a href="tel:+254717517371">+254 717 517 371</a><br>
+  💬 Join our Community: <a href="https://chat.whatsapp.com/Lad2s4XXx1AA1TtThbMgWV" target="_blank">WhatsApp Group – Nursing Nexus Alliance HQ</a>
+</p>
+
+<input type="text" id="searchBar" placeholder="Search notes, papers, and activities..." />
+</p>
+    <section>
+      <h2>PTS & Block Notes</h2>
+      <ul id="notesList">
+        <li onclick="location.href='pts.html'">PTS Revision Notes</li>
+        <li onclick="location.href='block1.html'">Block 1 Notes</li>
+        <li onclick="location.href='block2.html'">Block 2 Notes</li>
+        <li onclick="location.href='block3.html'">Block 3 Notes</li>
+        <li onclick="location.href='block4.html'">Block 4 Notes</li>
+        <li onclick="location.href='block5.html'">Block 5 Notes</li>
+        <li onclick="location.href='block6.html'">Block 6 Notes</li>
+   </ul>
+      
+  <a href="vocabulary.html" class="tab-card animated">
+  <div class="tab-icon">📘</div>
+  <div class="tab-content">
+    <h2>Vocabulary</h2>
+    <p>Most-used nursing & medical terms all in one place.</p>
+    <span id="vocab-count" class="badge">Loading...</span>
+  </div>
+</a>
+     <section>
+  <h2>🎯 Core Objectives for Nursing Students</h2>
+  <ul id="objectivesList">
+    <li class="main-objective-tab" onclick="location.href='objectives.html'">📘 Nursing Study Objectives</li>
+  </ul>
+</section>
+        <section>
+  <h2>📚 Very Important Books & Materials</h2>
+  <ul id="vipBooksList">
+    <li class="main-vip-books" onclick="location.href='essentials.html'">📘 Core Nursing Essentials</li>
+    <li class="main-vip-books" onclick="location.href='pharmacology-book.html'">💊 Pharmacology Master Guide</li>
+    <li class="main-vip-books" onclick="location.href='anatomy-diagrams.html'">🧠 Anatomy & Physiology Diagrams</li>
+    <li class="main-vip-books" onclick="location.href='clinical-manual.html'">🩺 Clinical Procedures Manual</li>
+    <li class="main-vip-books" onclick="location.href='exam-secrets.html'">🔐 NCK Exam Secrets & Hacks</li>
+  </ul>
+</section>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Past Revision Papers</h2>
+      <ul id="pastPapersList">
+        
+        <li onclick="location.href='pts-revision.html'">📚 PTS Revision Portal</li>
+       <li onclick="location.href='block1-revision.html'">📚 Block 1 Revision Portal</li>
+        <li onclick="location.href='block2-revision.html'">📚 Block 2 Revision Portal</li>
+       <li onclick="location.href='block3-revision.html'">📚 Block 3 Revision Portal</li>
+      <li onclick="location.href='block4-revision.html'">📚 Block 4 Revision Portal</li>
+        <li onclick="location.href='block5-revision.html'">📚 Block 5 Revision Portal</li>
+        <li onclick="location.href='block6-revision.html'">📚 Block 6 Revision Portal</li>
+  <li class="main-FQE-paper" onclick="location.href='FQE1.html'">✨ <strong> FQE Paper 1 Revision Papers</strong></li>
+         <li class="main-FQE-paper" onclick="location.href='FQE2.html'">✨ <strong> FQE Paper 2 Revision Papers</strong></li>
+         <li class="main-nck-paper" onclick="location.href='nck-paper1.html'">✨ <strong>NCK Paper 1 Revision Papers</strong></li>
+  <li class="main-nck-paper" onclick="location.href='nck-paper2.html'">✨ <strong>NCK Paper 2 Revision Papers</strong></li>
+        </ul>
+      
+</a>
+    <a href="quiz.html" class="tab-card quiz-tab animated" style="max-width: 600px; padding: 28px 32px; font-size: 1.2rem;">
+  <div class="tab-icon" style="font-size: 1.8rem;">📝</div>
+  <div class="tab-content">
+    <h2 style="font-size: 1.1rem;">Quiz App</h2>
+    <p style="font-size: 0.85rem;">Test your knowledge with instant feedback & scores.</p>
+  </div>
+</a>
+    </section>
+    <section>
+      <h2>Co-curricular Activities</h2>
+      <ul id="activitiesList">
+        <li onclick="location.href='football.html'">Football</li>
+        <li onclick="location.href='athletics.html'">Athletics</li>
+        <li onclick="location.href='volleyball.html'">Volleyball</li>
+        <li onclick="location.href='basketball.html'">Basketball</li>
+
+        <li onclick="location.href='chess.html'">Chess</li>
+        
+      </ul>
+    </section>
+  <section id="understandingTracker" style="margin: 40px auto; max-width: 800px; font-family: Arial, sans-serif;">
+  <h2 style="text-align: center;">⭐ Understanding Tracker</h2>
+  <p style="text-align: center; margin-bottom: 30px;">Rate your understanding of each topic or block below:</p>
+
+  <div class="tracker-item">
+    <h3>PTS (Professional Training Skills)</h3>
+    <div class="stars" data-topic="PTS"></div>
   </div>
 
-  <script>
-    const supabase = supabase.createClient(
-      'https://gbqgtnukoucxagswqspx.supabase.co',
-      'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdicWd0bnVrb3VjeGFnc3dxc3B4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTA4ODcwNTAsImV4cCI6MjA2NjQ2MzA1MH0.uHqKZ-KnW1sv7CSD37D6dh1qYfSLMznud947DEZI93Q'
-    );
+  <div class="tracker-item">
+    <h3>Block 1</h3>
+    <div class="stars" data-topic="Block 1"></div>
+  </div>
 
-    async function login() {
-      const email = document.getElementById("email").value;
-      const password = document.getElementById("password").value;
-      const messageEl = document.getElementById("message");
-      const errorEl = document.getElementById("errorMessage");
+  <div class="tracker-item">
+    <h3>Block 2</h3>
+    <div class="stars" data-topic="Block 2"></div>
+  </div>
 
-      messageEl.textContent = "";
-      errorEl.textContent = "";
+  <div class="tracker-item">
+    <h3>Block 3</h3>
+    <div class="stars" data-topic="Block 3"></div>
+  </div>
 
-      const { data, error } = await supabase.auth.signInWithPassword({
-        email,
-        password
+  <div class="tracker-item">
+    <h3>Block 4</h3>
+    <div class="stars" data-topic="Block 4"></div>
+  </div>
+
+  <div class="tracker-item">
+    <h3>Block 5</h3>
+    <div class="stars" data-topic="Block 5"></div>
+  </div>
+</section>
+
+<style>
+  .main-vip-books {
+  background: linear-gradient(135deg, #0d47a1, #1565c0);
+  color: #fff;
+  font-weight: 900;
+  font-size: 1.1rem;
+  border-radius: 16px;
+  border: 3px solid #90caf9;
+  box-shadow: 0 0 15px rgba(21, 101, 192, 0.4);
+  text-align: center;
+  flex: 1 1 100%;
+  padding: 1.5rem 1rem;
+  transition: all 0.3s ease;
+}
+.main-vip-books:hover {
+  background: linear-gradient(135deg, #1976d2, #1e88e5);
+  transform: scale(1.04);
+  box-shadow: 0 0 20px rgba(21, 101, 192, 0.7);
+}
+  .main-objective-tab {
+  background: linear-gradient(135deg, #4a148c, #880e4f);
+  color: #fff;
+  font-weight: 900;
+  font-size: 1.4rem;
+  border-radius: 18px;
+  border: 4px solid #ce93d8;
+  box-shadow: 0 0 20px rgba(136, 14, 79, 0.4);
+  text-align: center;
+  flex: 1 1 100%;
+  padding: 2rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  transition: all 0.3s ease;
+}
+
+.main-objective-tab:hover {
+  background: linear-gradient(135deg, #6a1b9a, #ad1457);
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(136, 14, 79, 0.7);
+}
+
+  .tracker-item {
+         font-family: Arial, sans-serif;
+  background-image:#f5f5f5
+  margin: 0;
+  padding: 0;
+  color: #333;
+  }
+
+  .stars {
+    font-size: 24px;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+  }
+
+  .star {
+    color: #ccc;
+    transition: color 0.2s ease;
+  }
+  .star.filled {
+    color: #ffc107;
+  }
+.tab-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background-color: #2ecc71; /* Green box */
+  color: white;
+  text-decoration: none;
+  padding: 24px 28px;
+  border-radius: 18px;
+  box-shadow: 0 12px 25px rgba(46, 204, 113, 0.4), 0 0 20px #2ecc71;
+  transition: all 0.3s ease;
+  transform: translateY(0);
+  max-width: 600px;
+  margin: 40px auto;
+}
+
+.tab-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 40px rgba(46, 204, 113, 0.6), 0 0 30px #2ecc71;
+}
+
+.tab-icon {
+  font-size: 2.5rem;
+}
+
+.tab-content h2 {
+  margin: 0;
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.tab-content p {
+  margin: 6px 0 10px;
+  font-size: 0.95rem;
+  color: #f0fff5;
+}
+
+.badge {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  display: inline-block;
+}
+</style>
+<script>
+  const topics = document.querySelectorAll(".stars");
+
+  topics.forEach(starBlock => {
+    const topicKey = starBlock.getAttribute("data-topic");
+    const savedRating = localStorage.getItem("rating-" + topicKey) || 0;
+
+    for (let i = 1; i <= 5; i++) {
+      const star = document.createElement("span");
+      star.classList.add("star");
+      star.innerHTML = "★";
+      if (i <= savedRating) star.classList.add("filled");
+
+      star.addEventListener("click", () => {
+        localStorage.setItem("rating-" + topicKey, i);
+        updateStars(starBlock, i);
       });
 
-      if (error) {
-        errorEl.textContent = error.message;
-      } else {
-        messageEl.textContent = "🎉 Logged in! Redirecting...";
-        setTimeout(() => {
-          window.location.href = "index.html";
-        }, 1500);
-      }
+      starBlock.appendChild(star);
     }
+  });
 
-    async function forgotPassword() {
-      const email = prompt("Enter your registered email to reset password:");
-      if (!email) return;
-
-      const { error } = await supabase.auth.resetPasswordForEmail(email, {
-        redirectTo: window.location.origin + "/reset-password.html"
-      });
-
-      if (error) {
-        alert("❌ Error: " + error.message);
-      } else {
-        alert("📧 Password reset email sent. Check your inbox.");
-      }
-    }
+  function updateStars(container, rating) {
+    const stars = container.querySelectorAll(".star");
+    stars.forEach((star, idx) => {
+      star.classList.toggle("filled", idx < rating);
+    });
+  }
   </script>
+      <button id="installApp"
+  style="display:none;position:fixed;bottom:20px;right:20px;padding:12px 18px;background:#004a99;color:white;border:none;border-radius:12px;font-weight:bold;box-shadow:0 4px 10px rgba(0,0,0,0.2);z-index:999;">
+  📲 Install Portal
+</button>
+
+<script>
+  let deferredPrompt;
+  const installButton = document.getElementById('installApp');
+
+  window.addEventListener('beforeinstallprompt', (e) => {
+    e.preventDefault();
+    deferredPrompt = e;
+    installButton.style.display = 'block';
+
+    installButton.addEventListener('click', () => {
+      installButton.style.display = 'none';
+      deferredPrompt.prompt();
+      deferredPrompt.userChoice.then((choiceResult) => {
+        if (choiceResult.outcome === 'accepted') {
+          console.log('App installed');
+        } else {
+          console.log('App installation dismissed');
+        }
+        deferredPrompt = null;
+      });
+    });
+  });
+</script>
+      <script>
+  const searchInput = document.getElementById("searchBar");
+
+  // Create a 'no results' message and hide it initially
+  const noResultsMessage = document.createElement("p");
+  noResultsMessage.id = "noResultsMessage";
+  noResultsMessage.textContent = "🔍 No matching content found.";
+  noResultsMessage.style.textAlign = "center";
+  noResultsMessage.style.color = "#b71c1c";
+  noResultsMessage.style.fontWeight = "bold";
+  noResultsMessage.style.display = "none";
+  searchInput.insertAdjacentElement("afterend", noResultsMessage);
+
+  searchInput.addEventListener("input", function () {
+    const query = this.value.toLowerCase();
+    const allLists = document.querySelectorAll("ul");
+    let totalVisible = 0;
+
+    allLists.forEach((list) => {
+      const items = list.querySelectorAll("li");
+
+      items.forEach((item) => {
+        const text = item.textContent.toLowerCase();
+        const match = text.includes(query);
+        item.style.display = match ? "block" : "none";
+        if (match) totalVisible++;
+      });
+    });
+
+    // Show or hide the no results message
+    noResultsMessage.style.display = totalVisible === 0 ? "block" : "none";
+  });
+</script>
+      <script>
+  fetch('vocabulary.json')
+    .then(res => res.json())
+    .then(data => {
+      const count = data.length;
+      document.getElementById("vocab-count").innerText = `${count} words inside`;
+    })
+    .catch(() => {
+      document.getElementById("vocab-count").innerText = `Vocabulary`;
+    });
+</script>  
+      <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+<script>
+  const supabase = window.supabase.createClient(
+    'https://gbqgtnukoucxagswqspx.supabase.co',
+    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdicWd0bnVrb3VjeGFnc3dxc3B4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTA4ODcwNTAsImV4cCI6MjA2NjQ2MzA1MH0.uHqKZ-KnW1sv7CSD37D6dh1qYfSLMznud947DEZI93Q'
+  );
+
+  // ✅ Redirect to login if not logged in
+  supabase.auth.getSession().then(({ data: { session } }) => {
+    if (!session) {
+      window.location.href = 'login.html';
+    }
+  });
+
+  // ✅ Add Logout functionality
+  const logoutBtn = document.createElement("button");
+  logoutBtn.id = "logoutBtn";
+  logoutBtn.textContent = "Logout";
+  logoutBtn.onclick = async () => {
+    await supabase.auth.signOut();
+    window.location.href = "login.html";
+  };
+  document.querySelector("header").appendChild(logoutBtn);
+</script>
+      <script>
+  async function greetUser() {
+    const { data: { session } } = await supabase.auth.getSession();
+
+    if (!session) {
+      document.getElementById("welcomeUser").innerHTML = "👋 Welcome guest! <a href='login.html'>Login here</a>";
+      return;
+    }
+
+    const userId = session.user.id;
+
+    const { data, error } = await supabase
+      .from('profiles')
+      .select('full_name')
+      .eq('id', userId)
+      .single();
+
+    if (error || !data) {
+      document.getElementById("welcomeUser").innerHTML = "👋 Welcome back!";
+    } else {
+      document.getElementById("welcomeUser").innerHTML = `Hello <strong>${data.full_name}</strong>, welcome back to the Nexus Portal 👋`;
+    }
+  }
+
+  greetUser();
+</script>
 </body>
 </html>
