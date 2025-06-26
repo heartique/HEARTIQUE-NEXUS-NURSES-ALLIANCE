@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Create Account</title>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      padding: 2rem;
+    }
+    .form {
+      background: white;
+      max-width: 480px;
+      margin: auto;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    }
+    input, select, button {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 1rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    button {
+      background: #004a99;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    #message {
+      margin-top: 1rem;
+      text-align: center;
+      font-weight: bold;
+      color: green;
+    }
+  </style>
+</head>
+<body>
+  <div class="form">
+    <h2>Create Account</h2>
+    <input type="text" id="full_name" placeholder="Full Name" required />
+    <select id="gender">
+      <option value="">Select Gender</option>
+      <option value="Male">Male</option>
+      <option value="Female">Female</option>
+      <option value="Other">Other</option>
+    </select>
+    <input type="text" id="class" placeholder="Class / Year" required />
+    <input type="email" id="email" placeholder="Email" required />
+    <input type="password" id="password" placeholder="Password" required />
+    <button onclick="signUp()">Create Account</button>
+    <div id="message"></div>
+  </div>
+
+  <script>
+    const supabase = supabase.createClient(
+      'https://gbqgtnukoucxagswqspx.supabase.co',
+      'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdicWd0bnVrb3VjeGFnc3dxc3B4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTA4ODcwNTAsImV4cCI6MjA2NjQ2MzA1MH0.uHqKZ-KnW1sv7CSD37D6dh1qYfSLMznud947DEZI93Q'
+    );
+
+    async function signUp() {
+      const full_name = document.getElementById("full_name").value;
+      const gender = document.getElementById("gender").value;
+      const classYear = document.getElementById("class").value;
+      const email = document.getElementById("email").value;
+      const password = document.getElementById("password").value;
+
+      const { data, error } = await supabase.auth.signUp({
+        email,
+        password,
+        options: {
+          data: { full_name, gender, class: classYear }
+        }
+      });
+
+      if (error) {
+        document.getElementById("message").textContent = "❌ " + error.message;
+        return;
+      }
+
+      document.getElementById("message").textContent =
+        "✅ Account created! Please check your email to confirm and activate your account.";
+    }
+  </script>
+</body>
+</html>
