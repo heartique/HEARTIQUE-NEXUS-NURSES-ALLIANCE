@@ -1,0 +1,114 @@
+{
+  "title": "NCK KRCHN Paper 2 MCQ Analysis 2024",
+  "executive_summary": [
+    "Community & PHC are the Foundation: The overwhelming majority of questions are set within the context of Community Health and Primary Health Care (PHC). You must understand the principles, terminology, and application of these fields.",
+    "The Nurse as a Leader, Educator, and Researcher: The units on Management, Research, and Teaching Methodology are heavily tested. These are not theoretical; they are practical questions about the nurse's role in leading teams, understanding and conducting research, and educating others.",
+    "Key Populations and Programs are Central: A huge number of questions focus on Mothers and Children. This makes Family Planning, Growth & Development, and Immunization (KEPI) critically important units.",
+    "Psychiatry is a Major Clinical Unit: This is the most significant clinical specialty tested in Paper 2, covering disorders, priority interventions, and therapeutic communication."
+  ],
+  "question_distribution": [
+    { "unit": "Community Health & PHC", "questions": 48, "percentage": "24%" },
+    { "unit": "Psychiatry & Mental Health", "questions": 30, "percentage": "15%" },
+    { "unit": "Management", "questions": 24, "percentage": "12%" },
+    { "unit": "Research", "questions": 22, "percentage": "11%" },
+    { "unit": "Communicable Diseases & STIs", "questions": 18, "percentage": "9%" },
+    { "unit": "Immunization", "questions": 16, "percentage": "8%" },
+    { "unit": "Growth & Development", "questions": 14, "percentage": "7%" },
+    { "unit": "Family Planning", "questions": 11, "percentage": "5.5%" },
+    { "unit": "Teaching Methodology", "questions": 10, "percentage": "5%" },
+    { "unit": "Sociology & Community Dynamics", "questions": 7, "percentage": "3.5%" }
+  ],
+  "tiered_revision_plan": {
+    "tier_1_high_yield": [
+      {
+        "unit": "Community Health & PHC",
+        "questions": 48,
+        "focus": [
+          "Core Concepts: Alma Ata Declaration, community participation, health promotion, and levels of prevention (Primary, Secondary, Tertiary)",
+          "Epidemiology: Incidence vs. Prevalence, epidemiological triad (Agent, Host, Environment), surveillance",
+          "Community Diagnosis: Process, purpose, and data sources",
+          "Environmental Health: Water-borne diseases, sanitation"
+        ]
+      },
+      {
+        "unit": "Psychiatry & Mental Health",
+        "questions": 30,
+        "focus": [
+          "Conditions: Schizophrenia, Mood Disorders, Personality Disorders, Alcohol withdrawal",
+          "Interventions: Manic/aggressive management, therapeutic communication, ECT and its effects (e.g. retrograde amnesia)",
+          "Concepts: Defense mechanisms (rationalization, projection), la belle indifference"
+        ]
+      },
+      {
+        "unit": "Management",
+        "questions": 24,
+        "focus": [
+          "Principles: Planning, Organizing, Staffing, Directing, Controlling",
+          "Leadership Styles: Transactional, Charismatic, Servant",
+          "Skills: Delegation (five rights), supervision, conflict resolution, Lewin’s change theory"
+        ]
+      },
+      {
+        "unit": "Research",
+        "questions": 22,
+        "focus": [
+          "Steps: Emphasis on problem identification",
+          "Sampling: Probability (stratified random), Non-probability (convenience, quota, purposive)",
+          "Ethics: Informed consent, confidentiality, Hawthorne effect",
+          "Terminology: Hypothesis vs. null hypothesis, validity vs. reliability, levels of measurement (nominal, ordinal, interval, ratio)"
+        ]
+      }
+    ],
+    "tier_2_medium_yield": [
+      {
+        "unit": "Communicable Diseases & STIs",
+        "questions": 18,
+        "focus": [
+          "Transmission, vectors (Anopheles, Aedes), disease control principles",
+          "Diseases: TB (DOTS), Malaria, HIV/AIDS (clinical staging), STIs"
+        ]
+      },
+      {
+        "unit": "Immunization & KEPI",
+        "questions": 16,
+        "focus": [
+          "Cold Chain: Potency, fridge defrosting",
+          "Vaccine Types: Live attenuated vs. inactivated",
+          "Schedule & Contraindications: KEPI schedule, anaphylaxis"
+        ]
+      },
+      {
+        "unit": "Growth & Development & Family Planning",
+        "questions": 25,
+        "focus": [
+          "G&D: Developmental milestones (e.g. sitting, walking), Erikson’s stages (especially identity vs. role confusion)",
+          "Family Planning: Methods, contraindications, Lactational Amenorrhea Method (LAM)"
+        ]
+      }
+    ],
+    "tier_3_supporting_topics": [
+      {
+        "unit": "Teaching Methodology",
+        "questions": 10,
+        "focus": [
+          "Domains of learning (cognitive, affective, psychomotor)",
+          "Formative vs. Summative assessment"
+        ]
+      },
+      {
+        "unit": "Sociology",
+        "questions": 9,
+        "focus": [
+          "Key terms: culture, ethnocentrism, nuclear vs. extended families"
+        ]
+      }
+    ]
+  },
+  "final_recommendations": [
+    "Think Like a Community Health Nurse: You are a manager, educator, researcher, and advocate — not just a bedside caregiver.",
+    "Master Definitions: Paper 2 focuses heavily on correct terminology. Build a personal glossary for PHC, research, management, and epidemiology.",
+    "Focus on 'Why': Understand the rationale behind each intervention. Don't just memorize — grasp its public health purpose.",
+    "Practice Application: Most questions are scenario-based. Be ready to match theory with action (e.g., identify tertiary prevention in a given scenario)."
+  ],
+  "closing": "You have all the information you need for a highly focused and effective revision period. Stick to this plan, prioritize the high-yield topics, and you will be well-prepared for success. Good luck!"
+}
