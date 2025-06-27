@@ -122,10 +122,10 @@
   {
     "question": "The following is an advantage of close ended questions in a questionnaire:-",
     "option": {
-      "(A) Easy to construct",
-      "(B) Easy to administer",
-      "(C) Responses are limited",
-      "(D) Permit greater depth of response"
+      "A": "Easy to construct",
+      "B": "Easy to administer",
+      "C": "Responses are limited",
+      "D": "Permit greater depth of response"
     },
     "answer": "(B) Easy to administer",
     "explanation": "Why (B) is Correct: Closed-ended questions provide respondents with a pre-set list of answers to choose from (e.g., multiple choice, yes/no, Likert scales). This makes the questionnaire very straightforward and quick for both the respondent to answer and the researcher to administer. More importantly, the data collected is standardized, which makes it very easy to code, enter into a computer, and analyze statistically. This ease of administration and analysis is a primary advantage.\n\nWhy (A), (C), and (D) are Incorrect:\n\n(A) Easy to construct: This is often false. Constructing good, valid, and reliable closed-ended questions and response options can be very difficult and time-consuming. It's much easier to just ask an open-ended question.\n\n(C) Responses are limited: This is a disadvantage, not an advantage. The researcher may miss out on important information or nuances because the respondent cannot express their true opinion if it's not one of the available options.\n\n(D) Permit greater depth of response: This is the primary advantage of open-ended questions, which allow respondents to answer in their own words. Closed-ended questions do the opposite; they limit the depth of the response.",
@@ -134,10 +134,10 @@
   {
     "question": "The best literature in academic terms is a :-",
     "option": {
-      "(A) a) Recent book",
-      "(B) b) Refereed journal article",
-      "(C) c) Conference proceedings",
-      "(D) d) Scientific publication"
+      "A": "Recent book",
+      "B": "Refereed journal article",
+      "C": "Conference proceedings",
+      "D": "Scientific publication"
     },
     "answer": "(B) Refereed journal article",
     "explanation": "Why (B) is Correct: A refereed journal article (also known as a peer-reviewed journal article) is considered the gold standard for academic and scientific literature. The peer-review process means that before an article is published, it is sent to several other independent experts (peers) in the same field for a rigorous evaluation. They critique the methodology, analysis, and conclusions to ensure the research is valid, significant, and original. This process acts as a critical quality filter.\n\nWhy (A), (C), and (D) are Incorrect:\n\n(A) Recent book: While books can be excellent sources, they often do not undergo the same rigorous, blind peer-review process as journal articles. They can also become outdated more quickly than the rapidly published articles in academic journals.\n\n(C) Conference proceedings: These are often preliminary findings or works in progress. They typically undergo a much less stringent review process than a journal article and are not considered as authoritative.\n\n(D) Scientific publication: This is a very general term. A refereed journal article is a type of scientific publication, but so are books, conference proceedings, and even non-peer-reviewed articles. Option (B) is the most specific and highest quality choice.",
@@ -146,10 +146,10 @@
   {
     "question": "'Emic perspective' refers to:",
     "option": {
-      "(A) Outsider's view",
-      "(B) Insider's view",
-      "(C) Etic perspective",
-      "(D) Holistic view"
+      "A": "Outsider's view",
+      "B": "Insider's view",
+      "C": "Etic perspective",
+      "D": "Holistic view"
     },
     "answer": "(B) Insider's view",
     "explanation": "This is a key concept in qualitative research, particularly ethnography. An emic perspective is the perspective of the research participant—the \"insider's\" view. It is the understanding of a culture or experience from within.\n\nAn etic perspective is the perspective of the researcher—the \"outsider's\" view. It is an objective, interpretive understanding from the outside.\n\nThe goal of much qualitative research is to understand and accurately portray the emic perspective.",
@@ -158,15 +158,14 @@
   {
     "question": "Whereas quantitative research tends to bring out a static picture of social life, qualitative research depicts it as",
     "option": {
-      "(A) A. Symmetrical",
-      "(B) B. Statistical",
-      "(C) C. Processual",
-      "(D) D. Proverbial"
+      "A": "Symmetrical",
+      "B": "Statistical",
+      "C": "Processual",
+      "D": "Proverbial"
     },
     "answer": "(C) Processual",
     "explanation": "Quantitative research often provides a \"snapshot\" in time (e.g., a cross-sectional survey). Qualitative research, because it involves in-depth interviews, observation over time, and a focus on lived experience, is better able to capture the dynamic, unfolding, and evolving nature of social life. It depicts life as a process, not a static state.",
     "additional": ""
   }
 ]
-
 
