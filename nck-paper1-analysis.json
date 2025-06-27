@@ -1,0 +1,149 @@
+{
+  "title": "NCK KRCHN Paper 1 MCQ Analysis 2024",
+  "question_sources": [
+    {
+      "title": "NCK KRCHN Paper 1 MCQs 2024",
+      "questions": 250
+    },
+    {
+      "title": "NCK KRCHN Paper 1 MCQs 2024 - ICU Focus",
+      "questions": 26
+    },
+    {
+      "title": "NCK KRCHN Paper 1 Compilation",
+      "questions": 200
+    }
+  ],
+  "total_questions": 476,
+  "summary": "This gives us a total of 476 questions to analyze against Paper 1 unit list. This is a very strong sample size and will give us a clear picture of the high-yield topics.",
+  "executive_summary": [
+    "Pharmacology is King: By a significant margin, Pharmacology is the most tested unit. Questions on drug actions, side effects, patient education, and nursing considerations are everywhere.",
+    "The 'Big Four' Medical-Surgical Conditions: Four specific disease areas appear far more frequently than any others: Cardiovascular (CVD), Respiratory, Genitourinary (GUD/Renal), and Endocrine (especially Diabetes).",
+    "Procedural and Fundamental Nursing is Crucial: Questions on Theatre Nursing, Specialized Procedures, and Fundamentals (Basic Nursing) are heavily focused on safety, priority, and the nursing process."
+  ],
+  "question_distribution": [
+    {"unit": "Pharmacology", "questions": 98, "percentage": "20.6%"},
+    {"unit": "Medical-Surgical Nursing (CVD)", "questions": 52, "percentage": "11.0%"},
+    {"unit": "Theatre Nursing", "questions": 41, "percentage": "8.6%"},
+    {"unit": "Medical-Surgical Nursing (Respiratory)", "questions": 39, "percentage": "8.2%"},
+    {"unit": "Medical-Surgical Nursing (GUD/Renal)", "questions": 35, "percentage": "7.4%"},
+    {"unit": "Fundamentals of Nursing / Basic Nursing", "questions": 33, "percentage": "7.0%"},
+    {"unit": "Dermatology", "questions": 30, "percentage": "6.3%"},
+    {"unit": "Obstetrics & Neonatal Disorders", "questions": 29, "percentage": "6.1%"},
+    {"unit": "Medical-Surgical Nursing (Neurology)", "questions": 28, "percentage": "5.9%"},
+    {"unit": "Critical Care Nursing", "questions": 26, "percentage": "5.5%"},
+    {"unit": "Medical-Surgical Nursing (Endocrine)", "questions": 22, "percentage": "4.6%"},
+    {"unit": "Medical-Surgical Nursing (GIT)", "questions": 14, "percentage": "2.9%"},
+    {"unit": "Specialized Nursing Procedures", "questions": 12, "percentage": "2.5%"},
+    {"unit": "ENT", "questions": 10, "percentage": "2.1%"},
+    {"unit": "Trauma & Emergency / First Aid", "questions": 9, "percentage": "1.9%"},
+    {"unit": "Ophthalmology", "questions": 8, "percentage": "1.7%"},
+    {"unit": "Orthopedics", "questions": 7, "percentage": "1.5%"},
+    {"unit": "Microbiology", "questions": 6, "percentage": "1.3%"},
+    {"unit": "Anatomy & Physiology", "questions": 4, "percentage": "0.8%"},
+    {"unit": "Gynecology", "questions": 1, "percentage": "0.2%"},
+    {"unit": "Oral & Dental Disorders", "questions": 0, "percentage": "0.0%"},
+    {"unit": "Neonatal Disorders (as a separate unit)", "questions": 0, "percentage": "0.0%"}
+  ],
+  "revision_plan": {
+    "tier_1_high_yield": [
+      {
+        "unit": "Pharmacology",
+        "questions": 98,
+        "focus": [
+          "Drug Classes: ACE Inhibitors, Beta-blockers, Diuretics, NSAIDs, Opioids, Corticosteroids, Anticoagulants, Antibiotics",
+          "Side Effects: Dry cough (ACE), Hypokalemia (Furosemide), Hyperkalemia (Spironolactone)",
+          "Patient Education: e.g., take with meals, avoid grapefruit, rinse mouth after inhaler",
+          "Monitoring: INR, aPTT, potassium, glucose, liver enzymes"
+        ]
+      },
+      {
+        "unit": "Cardiovascular (CVD)",
+        "questions": 52,
+        "focus": [
+          "Heart Failure, Myocardial Infarction, Hypertension, DVT, PE",
+          "Signs, interventions, pharmacology, and complications"
+        ]
+      },
+      {
+        "unit": "Theatre Nursing & Specialized Procedures",
+        "questions": 53,
+        "focus": [
+          "Asepsis, scrub/circulating roles, consent, patient positioning, instrument count, bleeding control"
+        ]
+      },
+      {
+        "unit": "Respiratory Disorders",
+        "questions": 39,
+        "focus": [
+          "COPD, Asthma, Exacerbations, Oxygen therapy, Inhaler teaching"
+        ]
+      },
+      {
+        "unit": "Genitourinary (GUD)/Renal Disorders",
+        "questions": 35,
+        "focus": [
+          "CKD, electrolyte imbalance, dietary management, phosphate binders, erythropoiesis agents"
+        ]
+      }
+    ],
+    "tier_2_medium_yield": [
+      {
+        "unit": "Fundamentals of Nursing",
+        "questions": 33,
+        "focus": [
+          "Ethics, Communication, ADPIE, Delegation, Evidence-based practice"
+        ]
+      },
+      {
+        "unit": "Dermatology",
+        "questions": 30,
+        "focus": [
+          "Psoriasis, Contact Dermatitis, Herpes Zoster, Scabies, Erythema Multiforme"
+        ]
+      },
+      {
+        "unit": "Neurology",
+        "questions": 28,
+        "focus": [
+          "Stroke, Myasthenia Gravis, Spinal Cord Injury, Seizures, ICP"
+        ]
+      },
+      {
+        "unit": "Critical Care Nursing",
+        "questions": 26,
+        "focus": [
+          "Shock types, ARDS, VAP, ICU complications of COPD, MI, AKI, HF"
+        ]
+      },
+      {
+        "unit": "Endocrine Disorders",
+        "questions": 22,
+        "focus": [
+          "Diabetes (Type 1 & 2), DKA, hypoglycemia vs hyperglycemia, Insulins, Metformin"
+        ]
+      }
+    ],
+    "tier_3_low_yield": {
+      "units": [
+        "GIT (14)",
+        "ENT (10)",
+        "Trauma/First Aid (9)",
+        "Ophthalmology (8)",
+        "Orthopedics (7)",
+        "Microbiology (6)",
+        "Anatomy & Physiology (4)",
+        "Gynecology (1)"
+      ],
+      "note": "Focus on must-know conditions and emergencies only. E.g. Cirrhosis, Compartment Syndrome, ABCDE, Peptic Ulcer."
+    }
+  },
+  "final_recommendations": [
+    "Start with Pharmacology. Use flashcards, practice recall, and drill common drug groups.",
+    "Master high-frequency diseases: HF, MI, COPD, CKD, and Diabetes.",
+    "Always think Safety and Priority – these drive answers in procedures and fundamentals.",
+    "Practice scenario-based questions – not just fact recall.",
+    "Don’t waste time overstudying Tier 3 units. Focus on what moves the needle."
+  ],
+  "closing": "You have taken the most important step by deciding to study strategically. This analysis gives you a clear road map. Follow it, and you will be well-prepared. Good luck with your revision!"
+}
