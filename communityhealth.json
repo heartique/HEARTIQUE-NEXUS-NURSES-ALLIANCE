@@ -310,8 +310,395 @@
     "answer": "C",
     "explanation": "\"Freedom of choice\" can only be exercised if the choice is an informed one. This principle, often called informed choice, means that clients must receive complete, unbiased, and easy-to-understand information about all available family planning methods—including their benefits, risks, side effects, and effectiveness. This allows the client/couple to make a voluntary decision that is best for them, free from coercion. Providing adequate information is the direct enabler of freedom of choice.",
     "additional": "Why (A), (B), and (D) are Incorrect: (A) Information dissemination about the need...: This promotes the idea of family planning but doesn't facilitate a choice between methods. (B) Support of research...: This helps ensure there are good methods to choose from in the future, but it doesn't illustrate the principle in direct client care. (D) Encouragement of couples to take... as a joint responsibility: This relates to the principle of spousal communication and joint decision-making, which is important but distinct from the principle of providing information so a choice can be made. Future Test Focus & Additional Concepts: Rights-Based Approach to Family Planning: Modern family planning programs are guided by human rights. Key client rights include: Information: To receive full information. Access: To access a full range of methods. Choice: To make a voluntary choice. Safety: To use safe and effective methods. Privacy: To have confidentiality. Dignity: To be treated with respect. Continuity: To have continued access to services."
+  },
+  {
+    "question": "Secondary prevention for malaria includes?",
+    "options": {
+      "A": "Planting of neem or eucalyptus trees",
+      "B": "Residual spraying of insecticides at night",
+      "C": "Determining whether a place is endemic or not",
+      "D": "Growing larva-eating fish in mosquito breeding places"
+    },
+    "answer": "C",
+    "explanation": "This question is quite nuanced. Secondary prevention focuses on early detection and prompt treatment to stop disease progression and transmission. Determining whether a place is endemic (meaning the disease is constantly present in the population) is a form of surveillance and screening at the community level. This information is critical for early case detection efforts. It allows health systems to set up diagnostic facilities and ensure drug availability, which are key components of secondary prevention. It is the foundational step for all other secondary prevention activities for malaria.",
+    "additional": "Why (A), (B), and (D) are Incorrect: (A), (B), and (D): Planting trees to repel mosquitoes, insecticide spraying (vector control), and using larvivorous fish are all classic examples of Primary Prevention. They are aimed at preventing the mosquito bite (and thus the infection) from ever happening. They reduce the risk of the disease occurring in the first place. Clarification on Malaria Prevention Levels: Primary: Vector Control: Insecticide-treated nets (ITNs), indoor residual spraying (IRS), larval control. Chemoprophylaxis: Taking anti-malarial drugs to prevent infection when traveling to an endemic area. Secondary: Early Diagnosis: Using Rapid Diagnostic Tests (RDTs) or microscopy. Prompt and Effective Treatment: Using Artemisinin-based Combination Therapy (ACT). Surveillance: Tracking cases to detect outbreaks early. Tertiary: Managing the complications of severe malaria (e.g., cerebral malaria, renal failure). Future Test Focus & Additional Concepts: Malaria Diagnosis: Be familiar with RDTs and microscopy (thick and thin smears). RDTs detect malaria antigens, while microscopy allows for visualization of the parasite, species identification, and quantification of parasitemia. Malaria Treatment: Know that ACT is the recommended first-line treatment for uncomplicated P. falciparum malaria."
+  },
+  {
+    "question": "A mother brought her 10 month old infant for consultation because of fever which started 4 days prior to consultation. To determine malaria risk, what will you do?",
+    "options": {
+      "A": "Do a tourniquet test",
+      "B": "Ask where the family resides",
+      "C": "Get a specimen for blood smear",
+      "D": "Ask if the fever is present everyday"
+    },
+    "answer": "B",
+    "explanation": "Malaria is a geographically specific disease. Transmission only occurs in areas where the Anopheles mosquito vector is present. Therefore, the very first step in assessing malaria risk is to determine place—specifically, whether the family resides in or has recently traveled to a malaria-endemic zone. This is a fundamental epidemiological question that guides all further diagnostic decisions. If they live in a non-malarious area with no travel history, the likelihood of malaria is extremely low.",
+    "additional": "Why (A), (C), and (D) are Incorrect: (A) Do a tourniquet test: This test is used to assess capillary fragility, primarily for suspected dengue hemorrhagic fever, not malaria. (C) Get a specimen for blood smear: This is a definitive diagnostic test, but it should be done after assessing the risk. You wouldn't test every febrile child for malaria if they live in an area with zero risk. The risk assessment (B) comes first. (D) Ask if the fever is present everyday: While classic malaria fevers can have a cyclical pattern (e.g., every 48 or 72 hours), this is often not the case, especially in young children and with P. falciparum. Fever can be continuous. Therefore, the pattern of fever is not a reliable way to determine risk."
+  },
+  {
+    "question": "A 32 year old client came for consultation at the health center with the chief complaint of fever for a week. Accompanying symptoms were muscle pains and body malaise. A week after the start of fever, the client noted yellowish discoloration of his sclera. History showed that he waded in flood waters about 2 weeks before the onset of symptoms. Based on this history/ which disease condition will you suspect?",
+    "options": {
+      "A": "Hepatitis A",
+      "B": "Hepatitis B",
+      "C": "Tetanus",
+      "D": "Leptospirosis"
+    },
+    "answer": "D",
+    "explanation": "The clinical presentation is classic for Leptospirosis. Key clues are: Exposure History: Wading in flood waters. Floods often contaminate water with the urine of infected animals (especially rodents), which is the primary mode of transmission for the Leptospira bacteria. Incubation Period: The exposure was 2 weeks before symptoms, which fits the typical 5-14 day incubation period for leptospirosis. Symptoms: The initial phase is an abrupt onset of fever, chills, headache, and severe muscle pain (myalgia), especially in the calves and lower back. Icteric Phase (Jaundice): The development of jaundice (\"yellowish discoloration of his sclera\") marks the second, more severe phase of the illness, known as Weil's disease, which can also involve kidney failure and hemorrhage.",
+    "additional": "Why (A), (B), and (C) are Incorrect: (A) Hepatitis A: Transmitted via the fecal-oral route. While it causes jaundice, the prominent feature of severe muscle pain and the specific link to wading in floodwater makes leptospirosis a much stronger suspect. (B) Hepatitis B: Transmitted via blood and body fluids, not flood water. (C) Tetanus: Caused by a bacterium entering a wound, not by wading in water. It presents with muscle spasms (lockjaw), not jaundice. Future Test Focus & Additional Concepts: Zoonotic Diseases: These are diseases transmitted from animals to humans. Be familiar with common examples: Leptospirosis (rodents, livestock), Rabies (dogs, bats), Brucellosis (cows, goats), Anthrax (livestock). Environmental Health: This case highlights the direct link between environmental factors (flooding, sanitation) and infectious disease outbreaks."
+  },
+  {
+    "question": "What is the most effective way of controlling schistosomiasis in an endemic area?",
+    "options": {
+      "A": "Use of molluscicides",
+      "B": "Building of foot bridges",
+      "C": "Proper use of sanitary toilets",
+      "D": "Use of protective footwear, such as rubber boots"
+    },
+    "answer": "C",
+    "explanation": "To control schistosomiasis, you must break its life cycle. The parasite's eggs are shed in the urine (S. haematobium) or feces (S. mansoni) of infected humans. The eggs must reach fresh water to hatch and infect the specific snail intermediate host. The single most effective way to break this cycle is to prevent human waste from contaminating water sources. The proper and consistent use of sanitary toilets achieves this directly. If the eggs never reach the water, the snails cannot be infected, and no new cercariae can be produced to infect other humans.",
+    "additional": "Why (A), (B), and (D) are Incorrect: (A) Use of molluscicides: Killing the snail host can be effective but has significant ecological side effects, is costly, and often needs to be repeated. It's a control measure, but less fundamental than sanitation. (B) Building of foot bridges & (D) Use of protective footwear: These are forms of personal protection that reduce an individual's exposure to contaminated water. They are important but do not stop the contamination of the water in the first place. The community-wide problem persists. Sanitation (C) is the source control measure. Future Test Focus & Additional Concepts: Schistosomiasis Life Cycle: A classic public health topic. Be able to trace the cycle: Human (eggs in feces/urine) -> Water -> Snail (miracidia to cercariae) -> Water -> Human (cercariae penetrate skin). Symptoms of Schistosomiasis: Urinary Schistosomiasis (S. haematobium): Classic sign is hematuria (blood in urine). Can lead to bladder cancer. Intestinal Schistosomiasis (S. mansoni): Abdominal pain, diarrhea, bloody stool. Can lead to liver fibrosis and portal hypertension."
+  },
+  {
+    "question": "In environmental health, water based diseases are:-",
+    "options": {
+      "A": "Due to the presence of an aquatic host",
+      "B": "Caused by vectors that live near aquatic conditions",
+      "C": "Caused by poor quality of water",
+      "D": "Due to inadequate quantities of water"
+    },
+    "answer": "A",
+    "explanation": "This question tests the specific, internationally recognized classification of water-related diseases. Water-based diseases are those in which the pathogen spends part of its life cycle in an intermediate aquatic host (usually a snail or crustacean). The classic example is Schistosomiasis, where the parasite develops within a specific species of freshwater snail before the infective cercariae are released into the water to infect humans. Guinea worm disease (Dracunculiasis) is another example.",
+    "additional": "Understanding the Four Categories of Water-Related Diseases:\n(C) Water-borne diseases: These are caused by ingesting water contaminated with pathogens (e.g., from feces). The water acts as a passive vehicle. Examples: Cholera, Typhoid, Hepatitis A. This corresponds to option (C).\n(D) Water-washed (or Water-scarce) diseases: These result from a lack of sufficient water for personal hygiene (washing hands, bodies, clothes). Examples: Scabies, Trachoma, Louse-borne infections. This corresponds to option (D).\n(A) Water-based diseases: As defined above, require an aquatic intermediate host. Example: Schistosomiasis, Guinea Worm.\n(B) Water-related insect vector diseases: These are caused by insects that breed or bite in or near water. The water is necessary for the vector's life cycle. Examples: Malaria (Anopheles mosquito), Dengue Fever (Aedes mosquito), Yellow Fever (Aedes mosquito). This corresponds to option (B).\n\nFuture Test Focus & Additional Concepts:\nEnvironmental Sanitation Barriers: Expect questions on how to break the chain of infection for fecal-oral diseases. This involves the \"multi-barrier\" approach:\nSource Control: Proper disposal of human waste (sanitary latrines).\nWater Treatment: Protecting water sources and treating water (filtration, chlorination).\nHygiene: Handwashing with soap at critical times (after using the toilet, before preparing food).\nFood Safety (The Five Keys): This WHO initiative is a common topic.\n- Keep clean.\n- Separate raw and cooked food.\n- Cook food thoroughly.\n- Keep food at safe temperatures.\n- Use safe water and raw materials."
+  },
+  {
+    "question": "In determination of disease incidence",
+    "options": {
+      "A": "The total population is considered",
+      "B": "The ability of disease to recur is not considered",
+      "C": "Persons years time at risk is considered",
+      "D": "All the individuals suffering from the diseases are considered"
+    },
+    "answer": "C",
+    "explanation": "Incidence measures the occurrence of new cases of a disease in a population over a specified period. The most precise way to calculate this is using an incidence rate (or incidence density), where the denominator is the person-time at risk. Person-time is the sum of the time that each individual in the population was at risk of developing the disease. For example, if 100 people are followed for 2 years, the total person-time is 200 person-years. This method accurately accounts for people entering or leaving the study at different times. \"Persons years time at risk\" is another way of saying person-time.",
+    "additional": "Why (A), (B), and (D) are Incorrect:\n(A) The total population is considered: This is true for a crude rate, but the denominator for a proper incidence rate is the population at risk, not the total population (e.g., when calculating the incidence of uterine cancer, men are excluded from the denominator).\n(B) The ability of disease to recur is not considered: This is incorrect. Epidemiology has methods to handle recurring events, though it complicates the analysis.\n(D) All the individuals suffering from the diseases are considered: This describes prevalence, which includes all cases (new and pre-existing) at a single point in time. Incidence only counts new cases.\n\nFuture Test Focus & Additional Concepts:\nPrevalence vs. Incidence: This is a guaranteed exam topic.\n- Incidence: Measures risk. Like a video, it shows new cases appearing over time. Used for studying causes (etiology) of disease.\n- Prevalence: Measures burden. Like a snapshot, it shows who has the disease right now. Used for planning health services and allocating resources.\n- Relationship: Prevalence ≈ Incidence × Duration of disease. Diseases with high incidence but short duration (like the common cold) can have low prevalence. Diseases with low incidence but long duration (like hypertension) can have high prevalence.\n\nTypes of Rates:\n- Crude Rate: Based on the total population.\n- Specific Rate: Based on a specific subgroup (e.g., age-specific, sex-specific).\n- Adjusted (Standardized) Rate: A rate that has been statistically modified to remove the effect of a confounding variable (like age), allowing for fair comparison between two different populations."
+  },
+  {
+    "question": "In descriptive epidemiology the important characteristics of study are:-",
+    "options": {
+      "A": "Demographic data",
+      "B": "Mortality rates",
+      "C": "Disease prevalence",
+      "D": "Disease incidence"
+    },
+    "answer": "A",
+    "explanation": "Descriptive epidemiology is focused on describing the distribution of a disease by characterizing it according to Person, Place, and Time.\nPerson: Who is getting the disease? This is described by demographic data such as age, sex, ethnicity, occupation, socioeconomic status, etc.\nPlace: Where is the disease occurring? (Geographic location).\nTime: When is the disease occurring? (Trends over time, seasonality, outbreaks).\nTherefore, demographic data is a cornerstone characteristic of descriptive epidemiology.",
+    "additional": "Why (B), (C), and (D) are Incorrect:\n(B), (C), and (D) are all measures or outcomes that are calculated and described using descriptive epidemiology. They are the \"what\" that is being measured, but \"demographic data\" (A) is the fundamental characteristic used to describe the \"who.\" The rationale provided in the document is also slightly flawed; it should be that descriptive epidemiology uses person, place, and time characteristics (like demographics) to calculate and describe rates like prevalence and incidence.\n\nFuture Test Focus & Additional Concepts:\nDescriptive vs. Analytic Epidemiology:\n- Descriptive: Describes patterns. Answers \"who, what, where, when.\" Generates hypotheses. Study designs: case reports, case series, cross-sectional studies, ecologic studies.\n- Analytic: Tests hypotheses. Answers \"why\" and \"how.\" Examines determinants and causes. Study designs: case-control studies, cohort studies.\n\nEcologic Study: A type of descriptive study where the unit of analysis is the population or group, not the individual. For example, a study comparing salt intake and hypertension rates between different countries.\n\nEcological Fallacy: A major error in epidemiology. It occurs when you wrongly assume that a conclusion from a group-level (ecologic) study applies to individuals. For example, if a country with high salt intake has high blood pressure, it doesn't mean that every individual with high blood pressure in that country has a high salt intake."
+  },
+  {
+    "question": "To effectively combat endemic malaria, health workers should:-",
+    "options": {
+      "A": "Distribute the IT mosquito nets and intensify health education",
+      "B": "Spray larvicides and cut grass",
+      "C": "Give more chemoprophylaxis and treat all cases",
+      "D": "Provide mosquito nets and clear vegetation"
+    },
+    "answer": "A",
+    "explanation": "This is the most comprehensive and effective public health strategy listed. Insecticide-Treated Nets (ITNs) are a cornerstone of malaria prevention (primary prevention). Health education is crucial to ensure that the nets are used correctly and consistently, and to promote early seeking of treatment (secondary prevention). This combination of a key prevention tool with empowerment through education represents the best practice for combating endemic malaria at the community level.",
+    "additional": "Why (B), (C), and (D) are Incorrect:\n(B) Spray larvicides and cut grass: Larviciding can be part of an integrated strategy but is often less effective and harder to implement on a large scale than ITNs. Cutting grass has a minimal effect on the Anopheles mosquito.\n(C) Give more chemoprophylaxis and treat all cases: Mass administration of chemoprophylaxis is not a standard strategy for entire populations in endemic areas due to cost, logistics, and the risk of drug resistance. It's typically reserved for specific high-risk groups (e.g., pregnant women, travelers). Treating cases is vital (secondary prevention), but it needs to be paired with strong primary prevention like ITNs.\n(D) Provide mosquito nets and clear vegetation: Providing nets is good, but without the \"IT\" (insecticide-treated) part and the crucial health education component, their effectiveness is reduced. Clearing vegetation is less effective than targeted vector control methods."
+  },
+  {
+    "question": "The measures that would appropriately improve the health of the elderly include:-",
+    "options": {
+      "A": "Mental health services, STI services",
+      "B": "Immunization, violence prevention programs",
+      "C": "Home safety programs, home based services",
+      "D": "STI services, lead poisoning prevention"
+    },
+    "answer": "C",
+    "explanation": "This option directly addresses two of the most significant health challenges for the elderly population.\n\nHome Safety Programs: Falls are a leading cause of morbidity and mortality in older adults. Programs that assess and modify the home environment (e.g., removing rugs, installing grab bars, improving lighting) are a critical primary prevention strategy.\n\nHome Based Services: As mobility decreases, bringing health and social services to the elderly in their homes is essential for managing chronic diseases, providing support, and maintaining independence. This combination is highly targeted and appropriate for improving the health and quality of life of the elderly.",
+    "additional": "Why (A), (B), and (D) are Incorrect:\n\n(A) and (D) STI services: While sexually transmitted infections can occur at any age, they are not a primary or widespread health concern for the elderly population as a whole compared to issues like falls and chronic disease management.\n\n(B) Immunization, violence prevention programs: Immunizations (e.g., flu, pneumococcal) are very important for the elderly. However, \"violence prevention\" is a very broad term. While elder abuse is a serious issue, home safety from falls (as in C) is a more universal and pressing public health concern for this age group. Option (C) is a stronger, more focused pair of interventions.\n\n(D) Lead poisoning prevention: This is primarily a pediatric health concern, not an issue for the elderly.\n\nFuture Test Focus & Additional Concepts:\n\nGeriatric Syndromes: Be familiar with these common, complex health states in older adults that don't fit into discrete disease categories. They are strong predictors of negative outcomes. The \"Geriatric Giants\" include:\n\n- Immobility\n- Instability (falls)\n- Incontinence (urinary)\n- Impaired intellect/memory (dementia, delirium)\n\nHealthy Aging: This is a key WHO concept. It is defined as \"the process of developing and maintaining the functional ability that enables wellbeing in older age.\" This involves not just preventing disease but also optimizing physical, mental, and social well-being.\n\nPalliative vs. Hospice Care:\n- Palliative Care: Can be given at any stage of a serious illness, alongside curative treatment. Focus is on symptom relief and quality of life.\n- Hospice Care: A type of palliative care provided when curative treatment is no longer an option, typically for individuals with a life expectancy of 6 months or less."
+  },
+  {
+    "question": "Vector borne diseases include:-",
+    "options": {
+      "A": "Plague, Dysentery",
+      "B": "Plague, Rubella",
+      "C": "Rubella, Leishmaniasis",
+      "D": "Plague, Leishmaniasis"
+    },
+    "answer": "D",
+    "explanation": "A vector-borne disease is one transmitted to humans by an arthropod (like an insect or tick).\n\nPlague: Caused by the bacterium Yersinia pestis, it is transmitted by the bite of an infected flea, which is a vector.\n\nLeishmaniasis: A parasitic disease transmitted by the bite of an infected female sandfly, which is a vector.\n\nBoth diseases fit the definition perfectly.",
+    "additional": "Why (A), (B), and (C) are Incorrect:\n\n(A) Dysentery: This is a water-borne/food-borne illness, typically transmitted via the fecal-oral route. It is not vector-borne.\n\n(B) & (C) Rubella: This is a viral illness transmitted from person to person via respiratory droplets. It is not vector-borne.\n\nFuture Test Focus & Additional Concepts:\n\nKnow Your Vectors and Diseases: This is a common area for matching questions.\n\n- Mosquito (Anopheles): Malaria\n- Mosquito (Aedes): Dengue, Yellow Fever, Zika, Chikungunya\n- Mosquito (Culex): West Nile Virus, Japanese Encephalitis\n- Flea: Plague\n- Louse: Epidemic Typhus, Relapsing Fever\n- Tick: Lyme Disease, Rocky Mountain Spotted Fever\n- Tsetse Fly: African Trypanosomiasis (Sleeping Sickness)\n- Sandfly: Leishmaniasis"
+  },
+  {
+    "question": "Notifiable diseases in Kenya include:",
+    "options": {
+      "A": "Plague, measles, poliomyelitis, Tuberculosis",
+      "B": "Anthrax, pneumonia, rabies, cholera",
+      "C": "Poliomyelitis, chicken pox, tuberculosis, measles",
+      "D": "Plague, poliomyelitis, brucellosis, diphtheria"
+    },
+    "answer": "A",
+    "explanation": "This question tests knowledge of specific public health regulations. A notifiable disease is any disease that is required by law to be reported to government authorities. This allows for the collection of data to monitor the disease and provides an early warning of possible outbreaks. All the diseases listed in option (A) are of significant public health importance and are on Kenya's list of notifiable diseases.\n\nPlague, Polio, TB, Measles: These are all high-priority diseases due to their epidemic potential or the existence of control/eradication programs.",
+    "additional": "Why Other Options Are Less Correct: While many diseases in the other options are also notifiable (e.g., Cholera, Anthrax, Rabies, Diphtheria), some are not universally or immediately notifiable in all contexts. For example, pneumonia (B) is too common and broad to be a notifiable condition itself (though specific causative agents might be). Chicken pox (C) is often not notifiable unless it occurs in an outbreak. Option (A) contains a list where every single disease is a top-priority, internationally recognized notifiable condition.\n\nFuture Test Focus & Additional Concepts:\n\nIHR (International Health Regulations): This is a legally binding international agreement to prevent and respond to acute public health risks that can cross borders. A key requirement of IHR is for countries to report certain disease outbreaks and public health events to the WHO.\n\nPHEIC (Public Health Emergency of International Concern): This is an extraordinary event which is determined to constitute a public health risk to other States through the international spread of disease and to potentially require a coordinated international response. Examples include the COVID-19 pandemic, the 2014 Ebola outbreak, and the 2016 Zika virus epidemic."
+  },
+  {
+    "question": "Prevalence rate is defined as the number of:-",
+    "options": {
+      "A": "Old and new cases of a specified disease existing at a given time",
+      "B": "New cases of a diseases in a population over a period of time",
+      "C": "Old cases of a specified diseases existing at a given time",
+      "D": "Deaths from a specified disease or condition at a given time"
+    },
+    "answer": "A",
+    "explanation": "This is the precise definition of prevalence. It is a measure of the total number of existing cases (both newly diagnosed cases and cases that were diagnosed in the past and are still ongoing) in a population at a specific point in time (point prevalence) or over a period of time (period prevalence). It represents the overall burden of a disease in a community.",
+    "additional": "Why (B), (C), and (D) are Incorrect:\n\n(B) New cases... over a period of time: This is the definition of incidence.\n\n(C) Old cases... existing at a given time: This is incomplete. Prevalence includes all existing cases, not just old ones.\n\n(D) Deaths from a specified disease...: This defines a mortality rate or case-fatality rate."
+  },
+  {
+    "question": "The demographic parameters the community health nurse will examine while conducting a community diagnosis include",
+    "options": {
+      "A": "Distribution, morbidity",
+      "B": "Distribution, genetics",
+      "C": "Genetics, morbidity",
+      "D": "Genetics, transport services"
+    },
+    "answer": "A",
+    "explanation": "This question is slightly poorly worded, but it's asking for the components of a community health assessment. Demography is the statistical study of populations. Key demographic parameters include population size, age, sex, and ethnic composition. The distribution of these parameters is fundamental (e.g., where do different age groups live?). Morbidity refers to the rates of disease and illness. This is a critical health status indicator that is examined alongside demographics. Therefore, examining the population's demographic distribution and its morbidity patterns are core activities of a community diagnosis. Genetics: While genetics can influence population health, large-scale genetic profiling is not a standard part of a routine community diagnosis conducted by a nurse. Epidemiology looks at observable characteristics (phenotypes), not genotypes on a mass scale. Transport services: This is a component of the community's infrastructure or social environment, which is assessed, but 'distribution and morbidity' are more direct measures of the population's composition and health status.",
+    "additional": "Comprehensive Community Assessment Components: A community diagnosis is a multi-faceted process. Be prepared for questions on its different parts: People/Demographics: Size, density, age/sex distribution (population pyramid), racial/ethnic groups, vital statistics (birth, death, morbidity, mortality rates). Environment: Physical: Geography, climate, housing, water, sanitation, air quality, food sources. Social: Government structure, economy (employment rates), education system, religious organizations, social networks, transportation, communication systems. Health Services & Social Services: Availability, accessibility, and utilization of hospitals, clinics, social welfare agencies, etc. Data Collection Methods in Community Assessment: Primary Data: Data you collect yourself. Windshield Survey: A systematic observation of the community from a vehicle or on foot. Key Informant Interviews: Interviews with people who have a deep understanding of the community (e.g., leaders, elders, health workers). Focus Groups: Facilitated discussions with small groups of community members. Surveys: Questionnaires distributed to a sample of the population. Secondary Data: Data that already exists. Census data, hospital records, crime statistics, data from government health ministries."
+  },
+  {
+    "question": "Complications of severe malaria include:-",
+    "options": {
+      "A": "a) Acute hypoglycaemia, brain damage",
+      "B": "b) Acute hypoglycaemia, shock",
+      "C": "c) Kidney failure, retinal damage",
+      "D": "d) Kidney failure, joints pain"
+    },
+    "answer": "A",
+    "explanation": "This option lists two of the most critical and defining complications of severe P. falciparum malaria. Brain Damage: This is the outcome of Cerebral Malaria, the most severe neurological complication. It is caused by infected red blood cells adhering to the small blood vessels of the brain, leading to obstruction, inflammation, coma, seizures, and long-term neurological deficits (brain damage). Acute Hypoglycaemia: Severe malaria causes a high metabolic rate and can impair the liver's ability to produce glucose (gluconeogenesis). The parasite itself also consumes glucose. Furthermore, quinine, a drug sometimes used to treat severe malaria, can stimulate insulin release, further lowering blood sugar. Hypoglycemia is a common and life-threatening complication, especially in children and pregnant women. Shock can occur in severe malaria, but 'brain damage' is a more specific and direct neurological outcome. Kidney failure (Blackwater fever) and retinal damage (malarial retinopathy) are known complications, but Cerebral Malaria and hypoglycemia are the most immediate life-threatening complications. Arthralgia (joint pain) is a symptom of uncomplicated malaria, not a defining feature of severe complicated malaria.",
+    "additional": "WHO Criteria for Severe Malaria: Be familiar with the full list, as questions could pick any of these. Neurological: Cerebral malaria (unrousable coma), prostration, seizures. Respiratory: Acute respiratory distress syndrome (ARDS). Circulatory: Shock, circulatory collapse. Renal: Acute kidney injury. Hematological: Severe anemia (Hgb < 5 g/dL), abnormal bleeding. Metabolic: Hypoglycemia (< 2.2 mmol/L), metabolic acidosis. Hepatic: Jaundice, liver dysfunction. Parasitological: Hyperparasitemia (a very high percentage of red blood cells are infected)."
+  },
+  {
+    "question": "One characteristic of the causative organism of cholera is:-",
+    "options": {
+      "A": "A small comma motile organism found in the liver",
+      "B": "A small comma-shaped motile organism found in salty water",
+      "C": "A gram-negative bacillus found in contaminated food, water and milk",
+      "D": "A gram-negative bacillus that spread rapidly"
+    },
+    "answer": "B",
+    "explanation": "This option provides the most precise description of Vibrio cholerae. It is famously described as a comma-shaped bacillus. It is highly motile due to a single polar flagellum. Its natural habitat is aquatic environments, particularly brackish or salty water (estuaries), where it can live attached to shellfish and plankton. This is why cholera outbreaks are common in coastal regions. V. cholerae is a non-invasive bacterium that colonizes the small intestine; it does not invade the bloodstream or infect the liver. While the bacterium is transmitted during an epidemic through contaminated food, water, and milk, its natural reservoir is salty water. Saying 'gram-negative bacillus' is too general. 'Spread rapidly' describes the disease's epidemiology, not the organism itself.",
+    "additional": "Pathophysiology of Cholera: The bacteria produce cholera toxin, which causes epithelial cells in the small intestine to secrete massive amounts of chloride ions into the lumen. Water follows via osmosis, leading to profuse watery diarrhea. 'Rice-Water Stool': This is the pathognomonic sign of cholera—voluminous, painless, watery diarrhea that is flecked with mucus, resembling water in which rice has been washed. Cholera Treatment: The cornerstone of treatment is aggressive rehydration, primarily with Oral Rehydration Solution (ORS). Intravenous fluids are needed for severe dehydration and shock. Antibiotics (like doxycycline or azithromycin) can shorten the duration of diarrhea but are secondary to rehydration. Reference: Medical-Surgical Nursing: Concepts for Interprofessional Collaborative Care by Ignatavicius, Workman, Rebar, & Heimgartner (10th ed.). The chapter on infections of the intestinal tract covers cholera, its pathophysiology, and management."
+  },
+  {
+    "question": "The available methods for purifying water on an individual or domestic scale are:-",
+    "options": {
+      "A": "Super chlorination, filtration, iodine",
+      "B": "Boiling, chemical disinfection, filtration",
+      "C": "Filtration, rapid sand filtration, boiling",
+      "D": "Storage, boiling, biological filtration"
+    },
+    "answer": "B",
+    "explanation": "This option lists the three main categories of household water treatment (HWT). Boiling: Heating water to a rolling boil for 1 minute kills virtually all pathogens (viruses, bacteria, protozoa). It is highly effective but uses a lot of fuel. Chemical Disinfection: Using chemicals like chlorine (in liquid or tablet form) or iodine to kill microbes. Filtration: Using a physical barrier (e.g., ceramic filter, biosand filter) to remove pathogens. Different filters have different levels of effectiveness. These three represent the primary methods available for household-level water purification. Super chlorination: This is a method used for large-scale disinfection of new or repaired water mains, not typically a domestic method. Rapid sand filtration: This is a large-scale, municipal water treatment method used in water treatment plants. Biological filtration occurs within certain filters but is not a standalone method category.",
+    "additional": ""
+  },
+  {
+    "question": "Functions of education institutions include:-",
+    "options": {
+      "A": "a) Social integration, reduction of stress",
+      "B": "b) Secondary socialization, cultural transmission",
+      "C": "c) Social integration maintenance, social order",
+      "D": "d) Innovation, humanitarianism"
+    },
+    "answer": "C",
+    "explanation": "This question is from a sociological perspective, which is integral to understanding community health. Educational institutions have several key functions in society. Social Integration: Schools bring together individuals from diverse backgrounds and teach them to function as members of a cohesive society. Social Order Maintenance: By teaching societal norms, values, laws, and respect for authority, schools play a critical role in maintaining social stability and order. Option (C) combines these two core, universally recognized functions of education. (B) is also correct but less encompassing: Secondary socialization happens in institutions like schools. Cultural transmission is the process of passing on a society's culture. (A) reduction of stress is not a primary function. (D) innovation is linked more to higher education, and humanitarianism is a value, not a structural function.",
+    "additional": "Social Determinants of Health (SDOH): Economic Stability (e.g., poverty, employment), Education Access and Quality (e.g., early education, literacy), Health Care Access, Neighborhood and Built Environment (e.g., crime, housing), Social and Community Context (e.g., discrimination, civic participation)."
+  },
+  {
+    "question": "While calculating infant mortality rate the correct formula is:-",
+    "options": {
+      "A": "IMR= Number of deaths of infants in one year x 100 Number of live births in the previous year",
+      "B": "IMR = Number of deaths of infants in one year x 100 Number of live births in the same year",
+      "C": "IMR = Number of deaths of infants in one year x 1000 Number of births in the same year",
+      "D": "IMR = Number of deaths of infants in one year x 1000 Number of live births in the same year"
+    },
+    "answer": "D",
+    "explanation": "This is the internationally recognized formula. Numerator: Number of deaths of infants under 1 year in a given year. Denominator: Number of live births in the same year (not total births). Multiplier: 1,000 live births. (A) uses the wrong year for live births and the wrong multiplier. (B) uses wrong multiplier (100). (C) incorrectly uses the ambiguous 'births' instead of 'live births'.",
+    "additional": "IMR is a key public health indicator. Related indicators include Perinatal Mortality Rate, Post-neonatal Mortality Rate, and Under-5 Mortality Rate. All reflect health systems, sanitation, maternal care, and socioeconomic conditions."
+  },
+  {
+    "question": "The benefits of school health to a child are:-",
+    "options": {
+      "A": "a) Immunization protection from peer pressure, counseling",
+      "B": "b) Immunization, growth monitoring, emotional care",
+      "C": "c) Health promotion, counseling, maternal support",
+      "D": "d) Treatment of opportunistic infections, follow up care, protection from peer pressure"
+    },
+    "answer": "B",
+    "explanation": "Option B includes the core child-focused benefits: Immunization (e.g., HPV, measles), growth monitoring (early detection of malnutrition), and emotional care (counseling, life skills, support). (A) includes 'peer pressure protection'—an outcome, not a service. (C) includes 'maternal support,' which is not a direct school-based child service. (D) mentions 'opportunistic infections'—more relevant to specialized care like HIV clinics.",
+    "additional": "WHO Health Promoting School Framework: Health education, healthy school environment (sanitary, safe, supportive), and school health services (screening, first aid, immunization). Roles of school nurses: educator, care provider, case manager, counselor, liaison."
+  },
+  {
+    "question": "The well-child care intends to promote the physical and emotional well-being of children. The tasks of each well-child visit include all the following EXCEPT",
+    "options": {
+      "A": "disease detection",
+      "B": "disease prevention",
+      "C": "treatment plans",
+      "D": "health promotion"
+    },
+    "answer": "C",
+    "explanation": "Well-child visits are for healthy children. The focus is prevention, not treatment. Treatment planning is done during sick visits. Health promotion includes anticipatory guidance (what to expect next developmentally). Disease prevention includes immunization. Disease detection includes screening for growth, hearing, vision, and development.",
+    "additional": "Anticipatory Guidance: Examples—4 months (solid food), 9 months (home safety), 4 years (school readiness). Screening Tools: Denver II (motor, social, language), ASQ (parent questionnaires)."
+  },
+  {
+    "question": "Which of the following is the most effective way of prioritizing nursing diagnoses?",
+    "options": {
+      "A": "a. Ensuring that the diagnoses are reimbursable by third-party payers",
+      "B": "b. Determining the degree of community concern about the problem",
+      "C": "c. Comparing the diagnoses with the agency's mission statement",
+      "D": "d. Discussing conclusions with another community health nurse"
+    },
+    "answer": "B",
+    "explanation": "In community health nursing, the principle of community participation is paramount. A health plan is unlikely to succeed if the community does not perceive the identified problem as important or relevant to them. Therefore, the most effective way to prioritize is to align the nurse's professional judgment with the community's own priorities. A problem that is both severe (according to data) and of high concern to the community is a top priority for action, as it will have the necessary motivation and support for a successful intervention. (A) Ensuring reimbursement is administrative, not community-based. (C) The agency’s mission should already reflect community priorities. (D) Peer consultation is good but not a substitute for direct community engagement.",
+    "additional": "Criteria for Prioritizing Community Health Problems include: Magnitude (prevalence), Severity (mortality, disability), Community Concern, and Amenability to Intervention (feasibility). The Nominal Group Technique helps communities rank priorities through group discussion and consensus."
+  },
+  {
+    "question": "Which one of the following is not included in the Elements of Primary Health Care?",
+    "options": {
+      "A": "a. Immunization services",
+      "B": "b. Family planning services",
+      "C": "c. Specialized services",
+      "D": "d. Provision of essential drugs"
+    },
+    "answer": "C",
+    "explanation": "Specialized services (e.g., neurosurgery, transplants) belong to secondary and tertiary care levels. Primary Health Care (PHC) focuses on essential, accessible care for common conditions and preventive services at the community level. (A), (B), and (D) are part of the core 8 PHC elements outlined by WHO.",
+    "additional": "Classic PHC Elements: Education, Endemic disease control, Expanded Immunization, Maternal and Child Health/Family Planning, Essential drugs, Nutrition, Treatment of common illnesses, Safe water and sanitation. Comprehensive PHC (Alma-Ata) vs Selective PHC (GOBI-FFF)."
+  },
+  {
+    "question": "The 'nuclear family' means:",
+    "options": {
+      "A": "a. a group of people sharing living accommodation and meals",
+      "B": "b. a network of relatives extended within or between generations",
+      "C": "c. the new family created when an adult leaves home and gets married",
+      "D": "d. a two generation unit of parents and their children"
+    },
+    "answer": "D",
+    "explanation": "A nuclear family consists of two generations: parents and their dependent children living in one household. This is the basic sociological definition. (A) refers to a household, which could include unrelated persons. (B) describes an extended family. (C) describes family formation, not structure.",
+    "additional": "Other Family Structures: Extended (relatives beyond parents/children), Blended (recombined step-families), Single-parent, Commune. Family Systems Theory: Families are dynamic, interactive systems seeking balance (homeostasis) with both spoken/unspoken rules."
+  },
+  {
+    "question": "The extent to which a community, structure, services or geographic area is likely to be damaged or disrupted by the impact of particular hazard is termed as",
+    "options": {
+      "A": "Capacity",
+      "B": "Vulnerability",
+      "C": "Risk",
+      "D": "Hazard assessment"
+    },
+    "answer": "B",
+    "explanation": "Vulnerability refers to the susceptibility to harm due to a hazard. It depends on community characteristics such as infrastructure quality, preparedness, and social networks. A vulnerable community lacks resilience and is more likely to suffer extensive damage. (A) Capacity is the opposite – it's a strength. (C) Risk is a product of hazard and vulnerability. (D) Hazard assessment is about identifying the threats.",
+    "additional": "Disaster Terms: Hazard = threat; Capacity = strengths/resources; Risk = Hazard x Vulnerability. Disaster Management Cycle: Mitigation (before), Preparedness (before), Response (during), Recovery (after)."
+  },
+  {
+    "question": "The continuous scrutiny of the factors determining the occurrence and distribution of disease is called:",
+    "option": {
+      "A": "Opportunistic infection",
+      "B": "Screening",
+      "C": "Diagnosis",
+      "D": "Surveillance"
+    },
+    "answers": "D",
+    "explanation": "This is the definition of public health surveillance. It is the ongoing, systematic collection, analysis, interpretation, and dissemination of data regarding a health-related event for use in public health action to reduce morbidity and mortality and to improve health. It's not a one-time study but a continuous \"watchfulness\" over disease patterns.",
+    "additional": "Opportunistic infection: This is a type of infection that occurs in an immunocompromised person. It is not a process of scrutiny.\n\nScreening: This is the application of a test to an asymptomatic population to detect disease early. It is a component of surveillance but not the entire continuous process.\n\nDiagnosis: This is the identification of a disease in a single individual. Surveillance looks at disease patterns in the entire population.\n\nTypes of Surveillance:\n\nPassive Surveillance: The routine reporting of diseases by healthcare providers to health authorities. It is the most common type but may be incomplete.\n\nActive Surveillance: The health authority proactively seeks out data by contacting healthcare providers, laboratories, or the public to identify cases. It is more resource-intensive but more accurate. Used during outbreaks.\n\nSentinel Surveillance: A system that monitors trends by collecting data from a few selected sites (sentinel sites) that are representative of the larger population. It's used when high-quality data is needed from a sample.\n\nSyndromic Surveillance: A system that looks for clusters of symptoms (syndromes) rather than confirmed diagnoses to provide an early warning of a potential outbreak (e.g., monitoring pharmacy sales of anti-diarrheal medication)."
+  },
+  {
+    "question": "The village health volunteer in the primary health care should:",
+    "option": {
+      "A": "Be a person from outside the community.",
+      "B": "Be acceptable to some sections of the community",
+      "C": "Have minimum formal education at least up to VIII standard",
+      "D": "Should be able to spare two hours to three hours every week"
+    },
+    "answers": "C",
+    "explanation": "This question relates to the selection criteria for Community Health Volunteers (CHVs) or Village Health Workers (VHWs). While specific requirements vary by country and program, a common criterion is a minimum level of formal education. This ensures the volunteer has the basic literacy and numeracy skills needed to be trained, keep simple records, read health materials, and communicate health messages effectively. A standard like \"up to VIII standard\" (8th grade) is a typical benchmark in many programs.",
+    "additional": "Be a person from outside the community: This is the opposite of the core principle. A CHV must be from the community they serve to have trust, cultural understanding, and long-term commitment.\n\nBe acceptable to some sections...: A CHV needs to be acceptable to the entire community, or at least a broad majority, to be effective. Being acceptable to only \"some sections\" could create division and limit their reach.\n\n...spare two to three hours every week: This is likely an underestimate of the time commitment required for a CHV to be effective. While they are volunteers, the role often requires more significant and flexible time investment. Option (C) is a more foundational selection criterion."
+  },
+  {
+    "question": "The mode of intervention under secondary prevention are:",
+    "option": {
+      "A": "Health promotion (primary prevention)",
+      "B": "Specific protection(primary)",
+      "C": "Early diagnosis and prompt treatment",
+      "D": "Rehabilitation(tertiary prevention)"
+    },
+    "answers": "C",
+    "explanation": "This is the definition of secondary prevention. Its goal is to halt or slow the progression of a disease after it has begun but before it becomes advanced. This is achieved by identifying the disease at its earliest stages (early diagnosis through screening) and providing effective care (prompt treatment).",
+    "additional": "Health promotion & Specific protection: These are the two main modes of primary prevention, which aims to prevent the disease from ever occurring.\n\nRehabilitation: This is the primary mode of tertiary prevention, which aims to reduce the impact of long-term disability from an established disease."
+  },
+  {
+    "question": "The health-belief model is composed of one of the following factors:",
+    "option": {
+      "a": "Psychological factors",
+      "b": "Modifying factors",
+      "c": "Social factors",
+      "d": "Environmental factors"
+    },
+    "answers": "b",
+    "explanation": "The Health Belief Model (HBM) is a psychological model that attempts to explain and predict health behaviors. It has several core components (perceived susceptibility, severity, benefits, barriers, cues to action, and self-efficacy). In addition to these, the model includes a category called Modifying Factors. These are factors that influence an individual's perceptions. They include:\n\nDemographic variables (age, sex, race)\n\nSociopsychological variables (personality, social class, peer pressure)\n\nStructural variables (knowledge about the disease, prior experience with it)\nThese modifying factors indirectly affect health behaviors by influencing the core perceptions.",
+    "additional": "While the HBM is a psychological model and is influenced by social and environmental context, 'Modifying Factors' is a specific, named component within the model's framework. Options a, c, and d are too general.\n\nFuture test focus:\n- Scenario example: \"A man decides not to get the flu shot because he doesn't think he will get the flu.\" (Answer: Perceived Susceptibility).\n- \"A woman starts exercising after her doctor tells her she is at high risk for a heart attack.\" (Answer: Cues to Action).\n\nOther models:\n- Transtheoretical Model (Stages of Change)\n- Theory of Planned Behavior"
+  },
+  {
+    "question": "Teaching breast self-examination falls under which level of disease prevention:",
+    "option": {
+      "a": "Primary",
+      "b": "Secondary",
+      "c": "Tertiary",
+      "d": "Quaternary"
+    },
+    "answers": "b",
+    "explanation": "Breast self-examination (BSE) is a screening technique. The purpose of screening is to detect a disease (in this case, breast cancer) at its earliest possible stage, before symptoms become advanced, in order to improve the outcome of treatment. Screening and early detection are the hallmarks of secondary prevention.",
+    "additional": "a: Primary prevention involves health education or prophylactic actions.\nc: Tertiary prevention includes rehabilitation and managing lymphedema post-mastectomy.\nd: Quaternary prevention is about avoiding over-medicalization. Not relevant here."
+  },
+  {
+    "question": "Which of the following channels of disease transmission is indirect transmission?",
+    "option": {
+      "a": "Droplet infection",
+      "b": "Transplacental",
+      "c": "Unclean hands and fingers",
+      "d": "Bite of animal"
+    },
+    "answers": "c",
+    "explanation": "Disease transmission is categorized as direct or indirect.\n\nUnclean hands and fingers act as an intermediary. A person touches a contaminated surface (like a doorknob) and then touches their mouth, nose, or eyes. The hands are a vehicle for transmission. This is indirect transmission.",
+    "additional": "a: Droplet infection — direct transmission via cough/sneeze (short distance).\nb: Transplacental — direct, from mother to fetus.\nd: Bite of animal — direct.\n\nFuture test concepts:\n- Vehicle-borne (fomites, water, food, blood).\n- Vector-borne (mechanical vs. biological).\n- Airborne (e.g., TB, measles) — different from droplet."
+  },
+  {
+    "question": "The form of immunity provided by B cells through immunoglobulin; IgA, IgD, IgM is best referred to as:-",
+    "option": {
+      "a": "Cellular immunity",
+      "b": "Herd immunity",
+      "c": "Humoral immunity",
+      "d": "Vaccine immunity"
+    },
+    "answers": "c",
+    "explanation": "Humoral immunity involves B lymphocytes (B cells), which mature into plasma cells and produce antibodies (immunoglobulins) that circulate in the blood and lymph to fight extracellular pathogens.",
+    "additional": "a: Cellular immunity involves T cells and intracellular pathogens.\nb: Herd immunity is a population-level concept.\nd: Vaccine immunity refers to *how* immunity is acquired, not what type it is."
+  },
+  {
+    "question": "Which of the following vaccine is live attenuated?",
+    "option": {
+      "a": "Yellow fever",
+      "b": "Rabies",
+      "c": "Diphtheria",
+      "d": "Influenza"
+    },
+    "answers": "a",
+    "explanation": "The Yellow fever vaccine is a classic live attenuated vaccine. It contains a weakened virus that can still replicate to generate a strong immune response.",
+    "additional": "Vaccine types:\n- Live attenuated: MMR, OPV, Varicella, Yellow Fever, BCG\n- Inactivated: Rabies, Hep A, IPV\n- Toxoid: Diphtheria, Tetanus\n- Subunit/recombinant: Hep B, HPV, Pertussis\n\nd: Influenza has both inactivated (common flu shot) and live (nasal spray) forms. 'a' remains the most consistently correct answer."
   }
 ]
+
+
+
 
 
 
