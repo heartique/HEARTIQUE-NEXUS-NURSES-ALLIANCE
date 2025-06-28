@@ -694,8 +694,343 @@
     "answers": "a",
     "explanation": "The Yellow fever vaccine is a classic live attenuated vaccine. It contains a weakened virus that can still replicate to generate a strong immune response.",
     "additional": "Vaccine types:\n- Live attenuated: MMR, OPV, Varicella, Yellow Fever, BCG\n- Inactivated: Rabies, Hep A, IPV\n- Toxoid: Diphtheria, Tetanus\n- Subunit/recombinant: Hep B, HPV, Pertussis\n\nd: Influenza has both inactivated (common flu shot) and live (nasal spray) forms. 'a' remains the most consistently correct answer."
+  },
+  {
+    "question": "Que. 1. The first step in preparation of a health education plan in a community is:-",
+    "option": {
+      "A": "Identifying who will provide support and the kind of support to be provided.",
+      "B": "Assess community needs for health education.",
+      "C": "Specify goals and objectives.",
+      "D": "Identify the target group of health teach."
+    },
+    "answer": "(B) Assess community needs for health education.",
+    "explanation": "Why 'B' is Correct: This question is about the nursing process applied to a community. The nursing process always begins with Assessment. Before you can plan any intervention, you must first understand the problem. A community needs assessment involves systematically collecting data to identify the health problems, needs, strengths, and resources of the community. This ensures that the health education plan is relevant, targeted, and addresses the actual needs of the people, rather than what the nurse perceives their needs to be. This is a foundational principle of community health.\n\nWhy the Other Options are Incorrect:\n\nA, C, and D are all essential steps in the Planning phase, which comes after the Assessment phase.\n\nD. Identify the target group: This is one of the first parts of planning, but it is informed by the initial needs assessment.\n\nC. Specify goals and objectives: Once the need and target group are identified, you set clear, measurable goals for what the education plan will achieve.\n\nA. Identifying who will provide support: This is also part of planning, specifically resource mobilization, which happens after the core plan is formulated.",
+    "additional": "The Nursing Process in the Community:\n\nAssessment: Community needs assessment (collecting data).\nDiagnosis: Analyzing the assessment data to identify community health problems/diagnoses (e.g., \"Increased risk of hypertension among adults in Community X related to poor diet and lack of exercise facilities...\").\nPlanning: Setting goals and objectives, identifying interventions (like a health education plan), and identifying resources.\nImplementation: Putting the plan into action.\nEvaluation: Measuring whether the objectives were met and the impact of the intervention.\n\nMethods of Community Assessment:\n- Windshield Survey\n- Informant Interviews\n- Surveys\n- Focus Groups\n- Analysis of Existing Data"
+  },
+  {
+    "question": "Que. 2. A diagnosis of leprosy is made when one of the following signs is positive except:-",
+    "option": {
+      "A": "Skin patch with loss of sensation .",
+      "B": "Presence of leprosy bacilli.",
+      "C": "General fatigue and loss of appetite.",
+      "D": "One or more enlarged peripheral nerves"
+    },
+    "answer": "(C) General fatigue and loss of appetite.",
+    "explanation": "Why 'C' is Correct: The question asks you to identify the sign that is NOT a cardinal (key) sign for diagnosing leprosy. General fatigue and loss of appetite are non-specific systemic symptoms. They can be present in countless infectious and non-infectious diseases and are not specific enough to be used as a primary diagnostic criterion for leprosy.\n\nWhy the Other Options are Incorrect:\n\nA, B, and D represent the three cardinal signs of leprosy, as defined by the World Health Organization (WHO). A diagnosis of leprosy is confirmed if a person has at least one of these signs:\n\nA. Skin patch with definite loss of sensation: This is a hallmark sign. The skin lesion is typically hypopigmented (lighter than surrounding skin) or reddish, and a key diagnostic test is to check for loss of touch, pain, or temperature sensation within the patch.\n\nD. Thickened or enlarged peripheral nerves: The leprosy bacterium attacks peripheral nerves, causing them to become enlarged and tender to the touch. This nerve damage is what leads to the loss of sensation and muscle weakness.\n\nB. Positive skin smear: A slit-skin smear can be taken from a lesion and examined under a microscope to identify the acid-fast leprosy bacilli (Mycobacterium leprae).",
+    "additional": "Causative Agent: Leprosy (also known as Hansen's disease) is caused by the slow-growing, acid-fast bacillus Mycobacterium leprae.\n\nTransmission: It is transmitted via droplets from the nose and mouth during close and frequent contact with untreated cases. It is not highly contagious.\n\nTreatment: Leprosy is curable with Multidrug Therapy (MDT). The standard regimen includes a combination of drugs like Rifampicin, Dapsone, and Clofazimine. Treatment is long, lasting from 6 to 12 months or more, and is provided for free by the WHO. Early treatment is crucial to prevent permanent disability.\n\nDisability Prevention: A major focus of leprosy control is preventing disabilities like claw hands, foot drop, and blindness, which result from nerve damage. Patient education on self-care (e.g., inspecting hands and feet daily for injuries they cannot feel) is vital."
+  },
+  {
+    "question": "Que. 4. Transmission cycle of schistosomiasis is from:-",
+    "option": {
+      "A": "Man to snail then back to man.",
+      "B": "Water to man then to water then snail.",
+      "C": "Water to snail then back to snail,",
+      "D": "Snail to water then to man."
+    },
+    "answer": "(A) Man to snail then back to man.",
+    "explanation": "Why 'A' is Correct: This option best summarizes the core cycle involving the definitive host (man) and the intermediate host (snail). The detailed cycle is:\n\nAn infected man passes schistosome eggs into freshwater through feces or urine.\nThe eggs hatch in the water, releasing larvae (miracidia).\nThese larvae penetrate a specific freshwater snail (the intermediate host).\nInside the snail, the parasite multiplies and develops into a different larval form (cercariae).\nThe snail releases thousands of these infectious cercariae into the water.\nThese cercariae penetrate the skin of a man who is wading, swimming, or washing in the contaminated water.\nThe cycle repeats.\nOption A, \"Man to snail then back to man,\" captures the essential host-to-host pathway.\n\nWhy the Other Options are Incorrect:\n\nB. Water to man then to water then snail: This sequence is out of order. Man gets infected from water, not the other way around initially.\n\nC. Water to snail then back to snail: This omits the essential human host.\n\nD. Snail to water then to man: This is a part of the cycle but not the complete cycle. It omits the crucial first step of how the snail got infected in the first place (from man). Option A provides the most complete summary of the cyclical nature.",
+    "additional": "Common Name: Schistosomiasis is also known as Bilharzia or \"snail fever.\"\n\nCausative Agent: A parasitic flatworm (trematode) of the genus Schistosoma. Key species are S. haematobium (affects the urinary tract) and S. mansoni (affects the intestines).\n\nKey Clinical Sign:\n- For S. haematobium: Painless terminal hematuria (blood in the urine at the end of urination). This is a classic sign in endemic areas.\n- For S. mansoni: Abdominal pain, diarrhea, and blood in the stool.\n\nDiagnosis: Microscopic identification of eggs in urine or stool.\n\nTreatment: The drug of choice is Praziquantel.\n\nPrevention and Control:\n- Health Education\n- Provision of Safe Water and Sanitation\n- Snail Control (Mollusciciding)\n- Mass Drug Administration (MDA)"
+  },
+  {
+    "question": "Que. 5. The causative organism of scabies is:-",
+    "option": {
+      "A": "Pediculus hiumans capitis.",
+      "B": "Pulex irritans.",
+      "C": "Flea dermatitis,",
+      "D": "Secoptei scabei"
+    },
+    "answer": "(D) Sarcoptes scabiei (corrected spelling).",
+    "explanation": "Why 'D' is Correct: Scabies is an intensely itchy skin infestation caused by the microscopic mite Sarcoptes scabiei. The pregnant female mite burrows into the upper layer of the skin (stratum corneum) where she lives and lays her eggs. The intense itching is primarily due to a hypersensitivity (allergic) reaction to the mite's proteins and feces. The characteristic sign is the burrow, which appears as a short, wavy, thread-like line on the skin.\n\nWhy the Other Options are Incorrect:\n\nA. Pediculus humanus capitis: This is the scientific name for the head louse, which causes pediculosis capitis (head lice infestation).\n\nB. Pulex irritans: This is the human flea. Flea bites cause itchy papules, but fleas live in the environment and jump onto hosts to feed; they do not burrow into the skin like the scabies mite.\n\nC. Flea dermatitis: This is a description of a skin condition (dermatitis caused by fleas), not a causative organism.",
+    "additional": "Transmission: Scabies is spread primarily through prolonged, direct, skin-to-skin contact with an infested person. It can spread easily among family members or in crowded conditions like nursing homes and childcare centers.\n\nClinical Presentation:\n- Intense itching (pruritus), which is characteristically worse at night.\n- A papular rash, often with burrows visible in the webs of fingers, wrists, elbows, axillae, and genital areas.\n\nTreatment:\n- The treatment of choice is a scabicide lotion or cream, most commonly Permethrin 5% cream. It is applied to the entire body from the neck down and left on for 8–14 hours before being washed off.\n\nCrucial Patient Education:\n- It is essential to treat all household members and close contacts at the same time, even if they do not have symptoms, to prevent re-infestation.\n- Bedding, clothing, and towels used by the infested person should be decontaminated by washing in hot water and drying on high heat, or by sealing in a plastic bag for at least 72 hours.\n- Post-Scabies Itch: Itching may persist for 2–4 weeks after successful treatment due to lingering allergic reactions."
+  },
+  {
+    "question": "Que. 6. Vaccine carriers can keep the vaccines cold for a period of:-",
+    "option": {
+      "A": "One week",
+      "B": "Two days",
+      "C": "One day",
+      "D": "Three days."
+    },
+    "answer": "(C) One day.",
+    "explanation": "Why 'C' is Correct: A vaccine carrier is a small, insulated container lined with conditioned ice packs, designed to keep vaccines at the correct temperature (between +2°C and +8°C) for a short period. They are used by healthcare workers for transporting a small quantity of vaccines from the health center to an outreach or immunization session. The standard operational guideline is that they can maintain the cold chain for a session lasting a few hours, up to a maximum of one day (about 8–10 hours of working time). They are not intended for multi-day storage.\n\nWhy the Other Options are Incorrect:\n\nA, B, and D: These timeframes are too long for a standard vaccine carrier. A larger, more robust insulated container known as a cold box can keep vaccines cold for longer periods (e.g., several days), but the question specifically asks about a 'vaccine carrier.'",
+    "additional": "The Cold Chain: A system of storing and transporting vaccines at the recommended temperature from the point of manufacture to the point of use. A break in the cold chain can render vaccines ineffective.\n\nCold Chain Equipment:\n- Refrigerator: For medium-term storage at the health facility.\n- Freezer: For storing vaccines like OPV and freezing ice packs.\n- Cold Box: A large insulated container for vaccine transport for several days.\n- Vaccine Carrier: A small container used for transport during daily outreach sessions.\n\nConditioning of Ice Packs:\n- Ice packs from the freezer must be conditioned until they reach 0°C before use. This prevents freezing sensitive vaccines.\n\nVaccine Vial Monitor (VVM): A label that changes color based on heat exposure.\n- If the inner square is lighter than the outer circle, the vaccine is OK.\n- If the inner square is the same or darker, discard the vaccine."
+  },
+  {
+    "question": "Que. 7. A community is defined as:",
+    "option": {
+      "A": "Groups of people sharing common health problems.",
+      "B": "Individuals and groups living and interacting within certain boundaries.",
+      "C": "Families sharing common cultural beliefs.",
+      "D": "Group of people sharing same boundaries"
+    },
+    "answer": "(B) Individuals and groups living and interacting within certain boundaries.",
+    "explanation": "Why 'B' is Correct: This is the most comprehensive and widely accepted definition of a community in the context of public health. It includes three essential dimensions:\n\n- People: The individuals and groups who are the residents.\n- Place: The geographical boundaries (e.g., a village, a city district).\n- Function/Interaction: The social system, where people interact with one another and with their institutions to meet their collective needs. Option B captures all these elements: 'individuals and groups' (people), 'within certain boundaries' (place), and 'living and interacting' (function).\n\nWhy the Other Options are Incorrect:\n\nA. Groups of people sharing common health problems: This defines a population-at-risk or an aggregate, not an entire community.\n\nC. Families sharing common cultural beliefs: This describes a cultural or ethnic group, not necessarily a geographically or socially interacting unit.\n\nD. Group of people sharing same boundaries: Incomplete. It includes people and place but omits interaction/function.",
+    "additional": "Types of Communities:\n\n- Geopolitical Community: Defined by geographic and political boundaries (e.g., counties, cities).\n- Phenomenological Community (Community of Interest): Defined by shared goals, interests, or beliefs (e.g., diabetic support groups).\n\nCommunity as Client: In community health nursing, the community is the 'client.' Focus is on collective well-being, not just individuals."
+  },
+  {
+    "question": "Que. 8. One of the following is the standard definition of measles:-",
+    "option": {
+      "A": "Diarrhoea, vomiting and a generalised rash.",
+      "B": "History of generalised blotchy rash and history of fever plus either cough or red eyes.",
+      "C": "History of pneumonia, diarrhoea and vomiting, sore throat and hoarse voice and fever.",
+      "D": "History of fever, skin ulcers, tachycardia, difficulty in breathing, diarrhoea and loss of appetite"
+    },
+    "answer": "(B) History of generalised blotchy rash and history of fever plus either cough or red eyes.",
+    "explanation": "Why 'B' is Correct: This is the standard clinical case definition for measles used by the World Health Organization (WHO) for surveillance purposes. It is designed to be sensitive enough for healthcare workers to easily identify and report suspected cases. The definition requires:\n\n- Fever\n- A generalized maculopapular (\"blotchy\") rash\n- And at least one of the 'three C's':\n  - Cough\n  - Coryza (runny nose)\n  - Conjunctivitis (red, watery eyes)\n\nOption B perfectly captures these essential components.\n\nWhy the Other Options are Incorrect:\n\nA: Diarrhoea and vomiting are not defining features; key measles symptoms like cough and conjunctivitis are missing.\nC: Lists complications, not a case definition. Also omits rash.\nD: Includes unrelated symptoms (e.g., skin ulcers), not associated with measles.",
+    "additional": "Causative Agent: Measles (rubeola) is caused by a virus from the Paramyxovirus family.\n\nKoplik’s Spots: Pathognomonic sign of measles — small bluish-white spots inside the mouth.\n\nTransmission: Airborne via respiratory droplets. Highly contagious.\n\nComplications:\n- Otitis media\n- Pneumonia (most common cause of death)\n- Diarrhea\n- Encephalitis\n- Subacute Sclerosing Panencephalitis (SSPE) — rare but fatal.\n\nPrevention: Live-attenuated measles vaccine given in MMR schedule (Measles, Mumps, Rubella)."
+  },
+  {
+    "question": "Que. 9. Mumps is caused by?",
+    "option": {
+      "A": "Adenovirus.",
+      "B": "Varicella Zoster virus.",
+      "C": "ParaMyxovirus",
+      "D": "Rubella virus."
+    },
+    "answer": "(C) ParaMyxovirus.",
+    "explanation": "Why 'C' is Correct: Mumps is an acute viral illness caused by the mumps virus, which belongs to the family Paramyxoviridae (the same family as the measles virus, but a different genus). It is best known for causing painful swelling of the salivary glands.\n\nWhy the Other Options are Incorrect:\n\nA. Adenovirus: Causes common cold, sore throat, and conjunctivitis — not mumps.\n\nB. Varicella Zoster virus: Causes chickenpox and shingles.\n\nD. Rubella virus: Causes German measles — a different illness altogether.",
+    "additional": "Clinical Features of Mumps:\n- Parotitis (painful swelling of salivary glands)\n- Fever, headache, muscle aches, fatigue\n\nComplications:\n- Orchitis (testicular inflammation)\n- Oophoritis, mastitis (in females)\n- Meningitis/encephalitis\n- Pancreatitis\n- Sensorineural deafness (rare)\n\nPrevention: Mumps is prevented by the live-attenuated MMR vaccine."
+  },
+  {
+    "question": "Que. 10. Infant mortality rate is defined is the number of CHILDREN who die:-",
+    "option": {
+      "A": "Before their first birthday per a thousand (1000) live births.",
+      "B": "Within the first two years per 100,000 births.",
+      "C": "Within the first month of birth per 100 live birth.",
+      "D": "Before the first five 3 years of birth per 1000 live births."
+    },
+    "answer": "(A) Before their first birthday per a thousand (1000) live births.",
+    "explanation": "Why 'A' is Correct: This is the standard international definition of the Infant Mortality Rate (IMR). It is a crucial indicator of the overall health of a population. It measures the number of deaths of infants under one year of age in a given year, expressed as a rate per 1,000 live births in that same year. A high IMR suggests unmet health needs and poor environmental and socioeconomic conditions.\n\nWhy the Other Options are Incorrect:\n\nB: Wrong age range and denominator.\nC: Defines Neonatal Mortality Rate (0–28 days), wrong denominator.\nD: Confused and incorrect age range and unclear phrasing.",
+    "additional": "Key Mortality Rates in Maternal and Child Health:\n\n- Infant Mortality Rate (IMR): Deaths < 1 year / 1,000 live births\n- Neonatal Mortality Rate (NMR): Deaths < 28 days / 1,000 live births\n- Post-Neonatal Mortality Rate: Deaths 28 days to < 1 year / 1,000 live births\n- Perinatal Mortality Rate (PMR): Stillbirths + early neonatal deaths (first 7 days) / 1,000 total births\n- Under-5 Mortality Rate: Deaths < 5 years / 1,000 live births\n- Maternal Mortality Ratio (MMR): Maternal deaths per 100,000 live births"
+  },
+  {
+    "question": "Que. 11. During cholera outbreak in an area the most important action for a community nurse to take is to:-",
+    "option": {
+      "A": "Transfer the patient to the next nearest health facility with enough facilities for managing cholera e.g. Lv. fluids and antibiotics,",
+      "B": "Take rectal swabs and send to the nearest facility for analysis and start i.v. fluid administration.",
+      "C": "Organise to get what you need, administer treatment then transfer the patients",
+      "D": "Transfer the very ill patients to the district hospital for further management"
+    },
+    "answer": "(C) Organise to get what you need, administer treatment then transfer the patients.",
+    "explanation": "Why 'C' is Correct: Cholera causes severe, acute watery diarrhea ('rice-water stool') that can lead to profound dehydration, shock, and death within hours if left untreated. The absolute, number-one priority is to stop the dehydration by initiating rehydration therapy immediately. A community nurse's most important action during an outbreak is to set up an immediate treatment point on-site. This involves organizing supplies (Oral Rehydration Salts - ORS, IV fluids, cots) and starting treatment immediately for all affected individuals. Transferring patients only happens after they are stabilized or if they require a higher level of care that cannot be provided on-site. Delaying treatment to transfer an unstable patient is life-threatening.\n\nWhy the Other Options are Incorrect:\n\nA and D: Transferring patients, especially 'the very ill,' before starting rehydration is a critical mistake. The time lost during transport can be fatal. The principle is 'treat first, transfer later.'\n\nB: While rectal swabs are part of outbreak investigation, they are not the priority. Clinical diagnosis is sufficient to start life-saving rehydration. The immediate focus should be hydration — not diagnostics.",
+    "additional": "Causative Agent: Vibrio cholerae.\n\nRehydration Therapy:\n- Plan A: Mild — ORS at home\n- Plan B: Moderate — ORS at facility\n- Plan C: Severe — Immediate IV fluids (e.g., Ringer’s Lactate), then ORS as tolerated\n\nAntibiotics: Doxycycline, Azithromycin — secondary to rehydration\n\nControl Measures:\n- Safe water (chlorination)\n- Sanitation\n- Health education on handwashing\n\nORS: WHO formula replaces fluids and electrolytes, preventing death"
+  },
+  {
+    "question": "Que. 13. The Bacilli Calmette Guerine (BCG) vaccine is administered:-",
+    "option": {
+      "A": "Intradermally on the anterior aspect of the buttocks.",
+      "B": "Intradermally on the outer aspect of the left forearm at the junction of the upper third and middle third of the arm.",
+      "C": "Intramuscularly on the deltoid muscle of the right arm.",
+      "D": "Subcutaneously on the outer aspect of the left forearm at the junction between lower and upper arm."
+    },
+    "answer": "(B) Intradermally on the outer aspect of the left forearm at the junction of the upper third and middle third of the arm.",
+    "explanation": "Why 'B' (and its correction) is Correct: The BCG vaccine is given intradermally (ID). The standard, universally recommended site is over the insertion of the deltoid muscle, typically on the right upper arm. Option B correctly identifies the intradermal route but mislabels the location as 'forearm,' which is inaccurate. However, among the available options, it is the best choice. The essential details are: Route = Intradermal; Site = Right Upper Arm (Deltoid region).\n\nWhy the Other Options are Incorrect:\n\nA: Wrong site. The buttock is not used for BCG.\n\nC: Correct site, wrong route. BCG must not be given intramuscularly.\n\nD: Wrong route (subcutaneous) and unclear location.",
+    "additional": "Purpose: BCG prevents childhood forms of TB (e.g., miliary TB, TB meningitis).\n\nTechnique:\n- ID injection at deltoid region\n- Use 26–27 gauge needle\n- Hold syringe nearly parallel to skin\n- Wheal of ~5mm indicates correct technique\n\nContraindications:\n- Immunosuppression\n- Pregnancy (live-attenuated vaccine)\n\nReaction: Scar forms after healing of papule/ulcer"
+  },
+  {
+    "question": "Que. 14. The dosage of the BCG given to the toddler one year and above one year respectively:",
+    "option": {
+      "A": "0.005 ml for under 1 year and 0.5 ml for over one year old.",
+      "B": "0.001 for the under one year and 0.025 ml for the over one year.",
+      "C": "0.15 ml for the under one year and 0.25 mls for the above one year.",
+      "D": "0.05 ml for the under one year and 0.1 ml for the over one year."
+    },
+    "answer": "(D) 0.05 ml for the under one year and 0.1 ml for the over one year.",
+    "explanation": "Why 'D' is Correct: This is the standard WHO-recommended dosage for the BCG vaccine. For infants under 1 year of age: 0.05 ml. For children 1 year and older: 0.1 ml. The dose is smaller in infants due to thinner skin and smaller surface area.\n\nWhy the Other Options are Incorrect:\n\nA, B, and C: These are incorrect volumes, either far too low or high. BCG is given intradermally, so doses are tiny — large doses can lead to local complications.",
+    "additional": "BCG Vaccine Facts:\n\nReconstitution:\n- Must be used within 6 hours\n- Protect from heat and light\n\nKenya EPI Vaccine Summary:\n- BCG: 0.05ml (<1yr), 0.1ml (>1yr), ID, Right Upper Arm\n- OPV: 2 drops, Oral\n- Pentavalent: 0.5ml, IM, Left Upper Thigh\n- PCV: 0.5ml, IM, Right Upper Thigh\n- Rotavirus: 1.5ml, Oral\n- MR (Measles-Rubella): 0.5ml, SC, Left Upper Arm\n- Td: 0.5ml, IM, Left Upper Arm"
+  },
+  {
+    "question": "Que. 15. The dosage, route and site of administration of measles vaccine is:-",
+    "option": {
+      "A": "0.05 ml, intramuscularly on outer side of the left buttock.",
+      "B": "0.5 ml; Subcutaneosly on the outer side of the right upper arm in the deltoid.",
+      "C": "0.1 ml, subcutaneously on the anterior aspect of the left thigh.",
+      "D": "0.25 ml, intradermally on the deltoid muscle of the upper arm."
+    },
+    "answer": "(B) 0.5 ml; Subcutaneously on the outer side of the right upper arm in the deltoid.",
+    "explanation": "Why 'B' is Correct: This option correctly identifies the three key components for measles vaccine administration:\n\nDosage: The standard dose for the measles or Measles-Rubella (MR) vaccine is 0.5 ml.\n\nRoute: It is given subcutaneously (SC). This means it is injected into the fatty tissue layer just beneath the skin.\n\nSite: The recommended site is the upper arm. While the specific arm (left or right) can vary by national schedule (Kenya's EPI schedule often specifies the Left Upper Arm), the general location is correct. Option B is the best fit among the choices.\n\nWhy the Other Options are Incorrect:\n\nA: The dose (0.05 ml) is wrong (this is for BCG <1yr), the route (IM) is wrong, and the site (buttock) is wrong.\n\nC: The dose (0.1 ml) is wrong (this is for BCG >1yr), and the site (thigh) is incorrect.\n\nD: The dose (0.25 ml) is wrong, and the route (intradermally) is wrong.",
+    "additional": "Subcutaneous Injection Technique:\n- Use a 23–25 gauge needle\n- Pinch a fold of skin\n- Insert at 45° into subcutaneous tissue\n\nVaccine Type: Live-attenuated\n\nReconstitution: Sensitive to heat and light. Discard after 6 hours or end of session.\n\nContraindications: Do not give to pregnant women or severely immunocompromised patients.\n\nWhy 9 months? Maternal antibodies may block the vaccine if given earlier."
+  },
+  {
+    "question": "Que. 16. Causative organism for the whooping cough is:-",
+    "option": {
+      "A": "Bordetella pertussis.",
+      "B": "Haemophillus influenza.",
+      "C": "Sarcoptei scabiei.",
+      "D": "The whooping cough bacteria"
+    },
+    "answer": "(A) Bordetella pertussis.",
+    "explanation": "Why 'A' is Correct: Whooping cough, medically known as Pertussis, is a highly contagious respiratory infection caused by the bacterium Bordetella pertussis.\n\nWhy the Other Options are Incorrect:\n\nB: Haemophilus influenzae type b (Hib) causes meningitis and pneumonia but not pertussis.\n\nC: Sarcoptes scabiei is the mite responsible for scabies.\n\nD: Descriptive but not scientific — lacks binomial nomenclature.",
+    "additional": "Clinical Stages of Pertussis:\n- Catarrhal (1–2 weeks): Cold-like, most contagious\n- Paroxysmal (1–6 weeks): Severe coughing fits with whoop\n- Convalescent (weeks to months): Gradual recovery\n\nComplications:\n- Apnea, pneumonia, encephalopathy, seizures, death (especially in infants)\n\nPrevention:\n- DTP vaccine (part of Pentavalent)\n- Booster: Tdap for adolescents, adults, pregnant women\n\nTreatment:\n- Macrolides: Azithromycin, Erythromycin"
+  },
+  {
+    "question": "Que. 22. Primary prevention of diseases involves the following:-",
+    "option": {
+      "A": "Giving immunization e.g BCG.",
+      "B": "Provision of safe water supply.",
+      "C": "Treating patients as early as possible e.g. when they are still in the pre-clinical stage after infection.",
+      "D": "Ensuring that disability is prevented in those who are sick: to enable them, live a more productive life"
+    },
+    "answer": "(A) Giving immunization e.g BCG.",
+    "explanation": "Why 'A' is Correct: Primary prevention refers to interventions that are implemented before any evidence of disease or injury exists. The goal is to prevent the initial occurrence of the health problem. Immunization is the quintessential example of primary prevention. By giving a vaccine like BCG, we are preventing the child from getting severe tuberculosis in the first place.\n\nWhy 'B' is also correct, but 'A' might be considered \"more correct\" in context: Provision of safe water is also a perfect example of primary prevention on a community-wide level. It prevents the occurrence of waterborne diseases. However, immunization is a direct clinical intervention, making it a strong answer in clinical contexts.\n\nWhy 'C' is Incorrect: Treating patients early after infection falls under secondary prevention.\n\nWhy 'D' is Incorrect: Preventing disability in the sick is tertiary prevention — focused on rehabilitation and limiting complications.",
+    "additional": "Types of Primary Prevention:\n\nSpecific Protection: Targets specific diseases (e.g., BCG, helmets)\n\nHealth Promotion: Improves general wellness (e.g., safe water, health education)\n\nExamples by Prevention Level:\n- Primary: Immunization, clean water, nutrition, smoking cessation\n- Secondary: Screening (e.g., Pap smear), early treatment\n- Tertiary: Rehab post-stroke, diabetic foot care, support groups"
+  },
+  {
+    "question": "Que. 16. One of the advantages of using oral polio vaccine (OPV) instead of inactivated polio vaccine (IPV) in mass campaigns is:-",
+    "option": {
+      "A": "OPV requires a needle for administration, making it more precise.",
+      "B": "OPV is less effective but easier to store.",
+      "C": "OPV induces intestinal immunity and can help interrupt transmission.",
+      "D": "OPV causes more side effects, which indicates better immune response."
+    },
+    "answer": "(C) OPV induces intestinal immunity and can help interrupt transmission.",
+    "explanation": "Why 'C' is Correct: Oral Polio Vaccine (OPV) is a live-attenuated vaccine that not only provides systemic immunity but also stimulates local immunity in the gut. This is important because poliovirus replicates in the intestines. Intestinal immunity helps block replication and shedding of the virus, which is key to halting transmission during outbreaks or in endemic areas.",
+    "additional": "Additional Info:\n- OPV is easier to administer (oral drops), making it suitable for mass campaigns.\n- Rare risk: Vaccine-associated paralytic poliomyelitis (VAPP), especially in immunocompromised individuals.\n\nComparison:\n- OPV: Live, oral, induces mucosal immunity, useful in mass campaigns.\n- IPV: Inactivated, injectable, induces systemic immunity only.\n\nWHO recommends use of both in phased polio eradication strategies."
+  },
+  {
+    "question": "Que. 17. Herd immunity protects which group of people most effectively?",
+    "option": {
+      "A": "Those who are fully vaccinated",
+      "B": "Those who refuse vaccination by choice",
+      "C": "Those who cannot be vaccinated due to medical reasons",
+      "D": "Those living in urban areas"
+    },
+    "answer": "(C) Those who cannot be vaccinated due to medical reasons",
+    "explanation": "Why 'C' is Correct: Herd immunity occurs when a high percentage of a population is immune to a disease, typically through vaccination. This makes the spread of the disease from person to person unlikely, indirectly protecting people who are not immune. This includes infants, pregnant women, and immunocompromised individuals who cannot safely receive some vaccines.",
+    "additional": "Additional Info:\n- The higher the contagiousness of a disease, the higher the coverage needed for herd immunity (e.g., measles requires >95%).\n- Herd immunity does NOT protect those who refuse vaccines by choice as effectively, especially in low-coverage areas.\n- It is a community-level protective mechanism, especially for vulnerable populations."
+  },
+  {
+    "question": "Que. 18. The most appropriate action when conducting a home visit and you find a child with high fever and convulsions is to:-",
+    "option": {
+      "A": "Advise the mother to give antimalarials and monitor the child closely.",
+      "B": "Start oral antibiotics immediately and tell the mother to observe the child.",
+      "C": "Wrap the child in warm blankets and give glucose water.",
+      "D": "Ensure the child is safe, manage fever, and refer urgently to a health facility."
+    },
+    "answer": "(D) Ensure the child is safe, manage fever, and refer urgently to a health facility.",
+    "explanation": "Why 'D' is Correct: High fever with convulsions (likely febrile seizure) is a medical emergency, especially in children. The nurse must ensure the child is safe (protect airway, prevent injury during seizures), initiate fever control (e.g., tepid sponging or paracetamol), and urgently refer to a health facility for further evaluation and treatment. Delay could result in severe outcomes including neurological damage.",
+    "additional": "First Aid for Febrile Seizures:\n- Do not restrain the child or put objects in the mouth.\n- Turn the child to the side to prevent aspiration.\n- Lower the fever: Paracetamol, remove excess clothing, tepid sponging.\n\nReferral: Urgent referral is needed to assess for underlying causes (e.g., meningitis, severe malaria).\n\nNever rely on home remedies or incomplete treatments for convulsions with high fever."
+  },
+  {
+    "question": "Que. 30. Water-washed diseases are common in places with:-",
+    "option": {
+      "A": "Too much running water.",
+      "B": "Lack of water.",
+      "C": "A lot of stagnant water.",
+      "D": "Contaminated water."
+    },
+    "answer": "(B) Lack of water.",
+    "explanation": "Why 'B' is Correct: This question tests your knowledge of the classification of water-related diseases. Water-washed diseases are diseases whose transmission can be prevented by good personal hygiene (e.g., handwashing) and cleanliness. These diseases flourish when there is a scarcity or lack of water, which makes it difficult for people to wash themselves, their clothes, and their utensils. The key factor is the quantity of water available for hygiene, not its quality. Examples include scabies, trachoma, and louse-borne fevers.\n\nWhy the Other Options are Incorrect:\n\nA: Too much running water: This would facilitate hygiene and therefore decrease the incidence of water-washed diseases.\n\nC: A lot of stagnant water: Stagnant water is a breeding ground for vectors like mosquitoes, leading to water-related insect vector diseases (e.g., malaria, dengue fever).\n\nD: Contaminated water: Ingesting contaminated water causes water-borne diseases (e.g., cholera, typhoid, giardiasis). This relates to the quality of the water, not the quantity available for washing.",
+    "additional": "Bradley's Classification of Water-Related Diseases:\n\nWater-Borne Diseases: Cholera, Typhoid. Caused by drinking contaminated water. Prevented by improving water quality.\n\nWater-Washed Diseases: Scabies, Trachoma. Caused by poor hygiene due to lack of water. Prevented by increasing water quantity and promoting hygiene.\n\nWater-Based Diseases: Schistosomiasis. Caused by parasites with aquatic hosts. Prevented by avoiding infested water and snail control.\n\nWater-Related Insect Vector Diseases: Malaria, Dengue. Caused by insects breeding in water. Prevented by vector control."
+  },
+  {
+    "question": "Que. 33. The following activities, if performed by a nurse, are examples of primary prevention:-",
+    "option": {
+      "A": "Giving treatment to an alcoholic patient.",
+      "B": "Giving health education on dangers of smoking to school children!",
+      "C": "Teaching a patient how to use sign language after losing hearing due to accident.",
+      "D": "Weekly checking of blood pressure in a hypertensive patient"
+    },
+    "answer": "(B) Giving health education on dangers of smoking to school children!",
+    "explanation": "Why 'B' is Correct: This is a classic example of primary prevention. The intervention (health education) is aimed at a population (school children) that has not yet started smoking or developed smoking-related diseases. The goal is to prevent the onset of the unhealthy behavior (smoking) and its future consequences (cancer, heart disease).\n\nWhy the Other Options are Incorrect:\n\nA: Treating an alcoholic patient is secondary (if treating withdrawal) or tertiary (if managing chronic complications).\n\nC: Teaching sign language after hearing loss is tertiary prevention (rehabilitation).\n\nD: Weekly BP checks in a hypertensive patient is part of disease monitoring, hence secondary or tertiary prevention.",
+    "additional": "Levels of Prevention:\n\nPrimary: Prevent onset of disease (e.g., immunization, health education).\n\nSecondary: Early detection and prompt treatment (e.g., screening, treating asymptomatic disease).\n\nTertiary: Reduce impact of disease (e.g., rehab, chronic disease management).\n\nThis topic appears repeatedly (Que. 22, 80, 91, 92, 96). Mastery is crucial."
+  },
+  {
+    "question": "Que. 35. In environmental health, water based diseases are:",
+    "option": {
+      "A": "Due to the presence of an aquatic host",
+      "B": "Caused by vectors that leave near aquatic conditions",
+      "C": "Caused by poor quality of water",
+      "D": "Due to inadequate quantities of water"
+    },
+    "answer": "(A) Due to the presence of an aquatic host",
+    "explanation": "Why 'A' is Correct: This option correctly defines water-based diseases. These are infections where the pathogen spends a part of its life cycle in an aquatic intermediate host (usually a snail or other invertebrate). Humans become infected when they come into contact with the water containing the parasite. The classic example is Schistosomiasis (Bilharzia), where the parasite's life cycle involves both humans and specific freshwater snails.\n\nWhy the Other Options are Incorrect:\n\nB: Describes insect vector diseases (e.g., malaria), not water-based diseases.\n\nC: Refers to water-borne diseases caused by drinking contaminated water.\n\nD: Refers to water-washed diseases due to lack of water for hygiene.",
+    "additional": "Examples:\n- Schistosomiasis (Bilharzia): Transmitted through skin contact with water infested with cercariae released by infected snails.\n- Dracunculiasis (Guinea Worm): Transmitted through drinking water with infected copepods.\n\nControl Measures:\n- Snail control (molluscicides)\n- Health education on avoiding unsafe water\n- Water filtration and safe water supply\n\nKnow how to differentiate from water-washed, water-borne, and water-related vector diseases (Bradley's classification)."
+  },
+  {
+    "question": "Que. 39. Anthrax infection as an occupational health hazard is most likely to affect:",
+    "option": {
+      "A": "Horticulture farmers",
+      "B": "Dairy farmers",
+      "C": "Chicken farmers",
+      "D": "Fish farmers"
+    },
+    "answer": "(B) Dairy farmers",
+    "explanation": "Why 'B' is Correct: Anthrax is a zoonotic disease caused by the spore-forming bacterium Bacillus anthracis. The spores can survive in the soil for decades. The disease primarily affects herbivores like cattle, sheep, and goats. Therefore, individuals who work closely with these animals or their products are at the highest occupational risk. Dairy farmers, livestock farmers, veterinarians, and slaughterhouse workers are classic examples. They can contract the disease through one of three routes:\n\nCutaneous (most common): Spores enter a cut or abrasion on the skin, causing a characteristic black eschar.\n\nInhalation: Inhaling spores (e.g., from processing wool or hides), causing a severe and often fatal hemorrhagic mediastinitis.\n\nGastrointestinal: Eating undercooked meat from an infected animal.",
+    "why_others_wrong": "A: Horticulture farmers work with plants and are not at risk for anthrax.\n\nC: Poultry are generally resistant to anthrax.\n\nD: Anthrax does not affect fish; it's a disease of terrestrial mammals.",
+    "additional": "Zoonotic Diseases: A zoonosis is a disease that can be transmitted from animals to humans.\n\nExamples:\n- Brucellosis: From cattle, goats, sheep (via unpasteurized milk).\n- Rabies: From dogs, bats.\n- Avian Influenza: From poultry.\n\nAnthrax as a Bioweapon: Due to spore durability and inhalation form fatality, anthrax is a known bioterrorism threat."
+  },
+  {
+    "question": "Que. 40. The pentavalent vaccine consists of:\ni) Tetanus toxoid and diphtheria vaccines\nii) Pertussis and hepatitis vaccine\niii) hemophilus and pertussis vaccines\niv) Polio and tuberculosis (BCG) vaccines\nv) Measles",
+    "option": {
+      "A": "(i), (ii) and (iii)",
+      "B": "(ii), (iii) and (iv)",
+      "C": "(iii), (iv) and (v)",
+      "D": "(ii), (iii) and (v)"
+    },
+    "answer": "(A) (i), (ii) and (iii)",
+    "explanation": "Why 'A' is Correct: The name 'penta'-valent means it protects against five diseases. Let's break down the components listed in the correct options:\n\n(i): Diphtheria and Tetanus\n(ii): Pertussis and Hepatitis B\n(iii): Haemophilus influenzae type b (Hib)\n\nCombining these gives: Diphtheria, Tetanus, Pertussis, Hepatitis B, and Hib. Options are broken up, so you must piece them together logically. Only A combines all five correct components.",
+    "why_others_wrong": "B, C, D: Include incorrect components like:\n(iv) Polio and BCG: These are separate vaccines.\n(v) Measles: Also separate, not part of Pentavalent.",
+    "additional": "Purpose of Combination Vaccines: Reduce number of injections, improve compliance, simplify logistics.\n\nAdministration:\n- Dose: 0.5 ml\n- Route: Intramuscular (IM)\n- Site: Left upper thigh\n- Schedule: 6, 10, 14 weeks\n\nComponents:\n- DPT: Diphtheria, Pertussis, Tetanus\n- HepB: Hepatitis B\n- Hib: Haemophilus influenzae type b"
+  },
+  {
+    "question": "Que. 41. While giving a health talk on primary prevention during a school health visit, the nurse should focus on:",
+    "option": {
+      "A": "Physical therapy, vaccinations, healthy diet",
+      "B": "Conducive environment, vocational training, early diagnosis",
+      "C": "Regular medical checkup, screening, psychotherapy",
+      "D": "Vaccinations, prophylactic therapy, healthy diet"
+    },
+    "answer": "(D) Vaccinations, prophylactic therapy, healthy diet",
+    "explanation": "Why 'D' is Correct: These are all primary prevention measures:\n\n- Vaccinations: Prevent disease before it starts.\n- Prophylactic therapy: e.g., antimalarials, fluoride.\n- Healthy diet: Health promotion preventing chronic illness.\n\nThese aim to stop health issues before they begin.",
+    "why_others_wrong": "A: Physical therapy is tertiary prevention.\n\nB: Vocational training is tertiary; early diagnosis is secondary.\n\nC: Checkups and screening are secondary; psychotherapy is secondary or tertiary.",
+    "additional": "School Health Programs:\n\nPrimary Prevention:\n- Health education on hygiene, nutrition, drugs, sex ed.\n- Immunizations\n- Ensuring safe environments\n\nSecondary Prevention:\n- Screening (vision, hearing, growth)\n- Identifying disabilities\n- Managing acute conditions\n\nTertiary Prevention:\n- Support for chronic illness (asthma, diabetes)\n- Disability accommodations\n- Rehab and referrals"
+  },
+  {
+    "question": "Que. 42. The primary health care elements covered within the millennium development goals are:",
+    "option": {
+      "A": "Nutrition, safe water supply, maternal child health .",
+      "B": "Maternal child health, health education, local disease control",
+      "C": "HIV/AIDS, mental health, safe water supply",
+      "D": "Treatment of minor ailments, health education, expanded programme on immunization"
+    },
+    "answer": "(A) Nutrition, safe water supply, maternal child health.",
+    "explanation": "Why 'A' is Correct: The Millennium Development Goals (MDGs) had several health-related targets that directly align with core elements of Primary Health Care. Let's analyze the components of option A:\n\nMaternal and Child Health (MCH): This was central to MDG 4 (Reduce Child Mortality) and MDG 5 (Improve Maternal Health).\n\nNutrition: This was a key target under MDG 1 (Eradicate Extreme Poverty and Hunger).\n\nSafe Water Supply: This was a target under MDG 7 (Ensure Environmental Sustainability).\n\nAll three elements in option A were explicitly covered as major targets within the MDGs.",
+    "why_others_wrong": "B: 'Health education' was an underlying strategy, not a specific MDG goal.\n\nC: Mental health was not explicitly addressed in the MDGs, though HIV/AIDS and safe water were included.\n\nD: 'Treatment of minor ailments' was not an MDG target; immunization and education were part of strategies, not top-level goals.",
+    "additional": "The 8 MDGs (2000-2015):\n1. Eradicate extreme poverty and hunger\n2. Achieve universal primary education\n3. Promote gender equality and empower women\n4. Reduce child mortality\n5. Improve maternal health\n6. Combat HIV/AIDS, malaria, and other diseases\n7. Ensure environmental sustainability\n8. Develop a global partnership for development\n\nFrom MDGs to SDGs: The MDGs were replaced by the 17 Sustainable Development Goals (SDGs) in 2015. SDG 3 is 'Good Health and Well-Being.'\n\n8 Elements of Primary Health Care (Alma-Ata Declaration):\n- Education on prevailing health problems\n- Disease control\n- Immunization (EPI)\n- Maternal and child health\n- Essential drugs\n- Nutrition\n- Treatment of common diseases\n- Safe water and sanitation"
+  },
+  {
+    "question": "Que. 43. Pneumococcal conjugate vaccine (PVC 10) protects the child against:-",
+    "option": {
+      "A": "Streptococcus pneumoniae.",
+      "B": "Staphylococcus pneumoniae.",
+      "C": "Streptococcus aureus.",
+      "D": "Staphylococcus aureus"
+    },
+    "answer": "(A) Streptococcus pneumoniae.",
+    "explanation": "Why 'A' is Correct: The Pneumococcal Conjugate Vaccine (PCV) is designed to protect against diseases caused by the bacterium Streptococcus pneumoniae, also known as pneumococcus. The '10' in PCV10 refers to the 10 most common serotypes covered by the vaccine. This bacterium causes pneumonia, meningitis, and sepsis in children.",
+    "why_others_wrong": "B: Staphylococcus pneumoniae is not a real organism — a distractor.\n\nC: Streptococcus aureus does not exist as a scientific name.\n\nD: Staphylococcus aureus causes different diseases (skin infections, MRSA), but PCV does not protect against it.",
+    "additional": "Pneumococcal Disease: Common cause of vaccine-preventable deaths in children. It can also cause otitis media.\n\nVaccine Type: Conjugate — links sugar capsule to a protein to enhance immune response.\n\nKenya EPI Schedule:\n- Vaccine: PCV10\n- Dose: 0.5 ml\n- Route: IM\n- Site: Right thigh\n- Schedule: At 6, 10, and 14 weeks, alongside Pentavalent (in left thigh)"
+  },
+  {
+    "question": "Que. 44. Measles vaccine is administered at:-",
+    "option": {
+      "A": "Birth.",
+      "B": "6 months and repeated at 18 months.",
+      "C": "9 months.",
+      "D": "9 months and 18 months"
+    },
+    "answer": "(D) 9 months and 18 months",
+    "explanation": "Why 'D' is Correct: This reflects the standard two-dose schedule for measles vaccination in Kenya and many other countries:\n\n- First Dose (MCV1): 9 months — after maternal antibodies have declined.\n- Second Dose (MCV2): 18 months — for full population immunity. Some children do not seroconvert after first dose, so the second ensures broader protection.",
+    "why_others_wrong": "A: Birth doses are for BCG and OPV0, not measles.\n\nB: 6 months is too early for routine measles due to maternal antibody interference.\n\nC: 9 months alone is incomplete — the second dose is also essential.",
+    "additional": "Why 9 Months? Maternal antibodies can interfere if given earlier.\n\nMR Vaccine: Measles often given as Measles-Rubella (MR) now.\n\nSupplementary Immunization Activities (SIAs): Mass campaigns used to catch up missed doses and improve coverage, especially in outbreaks."
   }
 ]
+
+
+
+
+
 
 
 
