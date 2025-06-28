@@ -162,7 +162,7 @@
         const normalize = (q) => ({
           question: q.question || q.q || q.title || "Untitled question",
           options: q.options || q.option || q.choices || {},
-          answer: q.answer || q.correct || q.key || "",
+          answer: q.answer || q.answers || q.correct || q.key || "",
           explanation: q.explanation || q.reason || "",
           additional: q.additional || q.notes || q.more || ""
         });
