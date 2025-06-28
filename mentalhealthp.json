@@ -273,8 +273,348 @@
     "answer": "(C) catatonic",
     "explanation": "Why 'C' (Catatonic) is Correct: Catatonia is a state of psychomotor disturbance. The patient's symptoms are classic signs of catatonic stupor:\n\n\"Refuses to move\": This is motor immobility, which can manifest as stupor (no psychomotor activity; not actively relating to the environment) or catalepsy (passive induction of a posture held against gravity).\n\n\"Will not speak\": This is mutism, a common feature of catatonia.\n\n\"Sitting in a chair looking out the window\": This could be an example of posturing, where a person spontaneously maintains a posture against gravity.\n\nWhy the Other Options are Incorrect:\n\nA. paranoid: This type is characterized by active positive symptoms like persecutory delusions and auditory hallucinations, not motor immobility.\n\nB. undifferentiated: This was a \"catch-all\" category for patients who didn't fit other types. The symptoms here are specific enough to point directly to catatonia.\n\nD. residual: This type was used for patients who had a history of schizophrenia but, at the time of evaluation, had no prominent positive symptoms. They might still have lingering negative symptoms (like blunted affect), but not the profound motor disturbances of catatonia.",
     "additional": "Features of Catatonia: It can be a specifier for schizophrenia, bipolar disorder, major depressive disorder, or other medical conditions. Key features include:\n\nStupor: No psychomotor activity.\n\nCatalepsy: Passive induction of a posture.\n\nWaxy Flexibility: Slight, even resistance to positioning by the examiner.\n\nMutism: No, or very little, verbal response.\n\nNegativism: Opposition or no response to instructions or external stimuli.\n\nPosturing: Spontaneous and active maintenance of a posture against gravity.\n\nEcholalia: Mimicking another's speech.\n\nEchopraxia: Mimicking another's movements.\n\nNursing Priorities for Catatonia:\n\nPhysiological Needs: This is the top priority. These patients are at high risk for dehydration, malnutrition, and skin breakdown because they are immobile and may not eat or drink. The nurse may need to assist with all activities of daily living (ADLs).\n\nSafety: Patients can switch from a stuporous state to one of catatonic excitement (purposeless, excessive motor activity), posing a risk to themselves and others.\n\nCommunication: Use simple, direct language and anticipate needs, as the patient will not verbalize them. It's important to remember that although they are not responding, they may be fully aware of their surroundings."
+  },
+  [
+  {
+    "question": "Which of the following physical manifestations would you expect to assess in a client suffering from anorexia nervosa?",
+    "option": {
+      "A": "Tachycardia, hypertension, hyperthermia",
+      "B": "Bradycardia, hypertension, hyperthermia",
+      "C": "Bradycardia, hypotension, hypothermia",
+      "D": "Tachycardia, hypotension, hypothermia"
+    },
+    "answer": "(C) Bradycardia, hypotension, hypothermia",
+    "explanation": "Anorexia nervosa is a state of severe malnutrition and starvation. The body compensates for the lack of energy intake by slowing down all of its metabolic processes to conserve energy. This leads to:\n\nBradycardia: A slow heart rate (the heart doesn't have to work as hard).\n\nHypotension: Low blood pressure due to a decreased blood volume and poor cardiac output.\n\nHypothermia: Low body temperature because the body cannot generate enough heat. The loss of subcutaneous fat also impairs insulation.\n\nThe patient may also present with lanugo, a fine, downy hair that grows on the body as a physiological response to maintain warmth.\n\nWhy (A), (B), and (D) are Incorrect: They all list signs of an increased metabolic state (tachycardia, hypertension, hyperthermia), which is the opposite of what happens in starvation.",
+    "additional": "Anorexia Nervosa vs. Bulimia Nervosa:\n\nAnorexia Nervosa (AN): Characterized by an intense fear of gaining weight, a disturbed body image, and a refusal to maintain a minimally normal body weight (typically BMI < 17.5). Patients are severely underweight.\n\nBulimia Nervosa (BN): Characterized by recurrent episodes of binge eating followed by inappropriate compensatory behaviors (purging) to prevent weight gain, such as self-induced vomiting, misuse of laxatives, or excessive exercise. Patients are typically of normal weight or slightly overweight.\n\nRefeeding Syndrome: This is a life-threatening complication that can occur when a severely malnourished patient (like one with AN) begins to feed again. The sudden shift in electrolytes and fluids can cause severe cardiac, respiratory, and neurological problems. The hallmark is hypophosphatemia (low phosphate). This requires slow, careful refeeding and close monitoring of electrolytes.\n\nCriteria for Hospitalization for Eating Disorders:\n\nSevere dehydration or electrolyte imbalance.\n\nSevere malnutrition (e.g., <75% of ideal body weight).\n\nVital sign instability: bradycardia (<40 bpm), hypotension, hypothermia.\n\nAcute psychiatric risk (e.g., suicidal ideation)."
+  },
+  {
+    "question": "Ms. T. has been diagnosed with agoraphobia. Which behavior would be most characteristic of this disorder?",
+    "option": {
+      "A": "Ms. T. experiences panic anxiety when she encounters snakes.",
+      "B": "Ms. T. refuses to fly in an airplane.",
+      "C": "Ms. T. will not eat in a public place.",
+      "D": "Ms. T. stays in her home for fear of being in a place from which she cannot escape"
+    },
+    "answer": "(D) Ms. T. stays in her home for fear of being in a place from which she cannot escape",
+    "explanation": "This option perfectly describes the core feature of agoraphobia. It is not just a fear of open spaces, but a marked fear or anxiety about situations where escape might be difficult or help might not be available in the event of developing panic-like symptoms. This fear leads to the avoidance of such situations, and in severe cases, the person can become completely housebound.\n\nWhy (A), (B), and (C) are Incorrect:\n\n(A) Fear of snakes: This describes a Specific Phobia, animal type.\n\n(B) Fear of flying: This describes a Specific Phobia, situational type.\n\n(C) Fear of eating in a public place: This is a classic symptom of Social Anxiety Disorder (Social Phobia), where the fear is of being scrutinized or judged by others.",
+    "additional": "Anxiety Disorders Spectrum:\n\nPanic Disorder: Recurrent, unexpected panic attacks (abrupt surges of intense fear) followed by persistent worry about having more attacks.\n\nAgoraphobia: As defined above. It can occur with or without panic disorder.\n\nSocial Anxiety Disorder: Fear of social situations where one might be judged by others.\n\nGeneralized Anxiety Disorder (GAD): Excessive, uncontrollable worry about numerous events or activities, lasting for at least 6 months.\n\nSpecific Phobia: Intense, irrational fear of a specific object or situation (e.g., spiders, heights, injections).\n\nNursing Interventions for Anxiety:\n\nPanic Attack: Stay with the client, provide a calm and quiet environment, use simple words, encourage slow, deep breathing.\n\nPhobias: Do not force the client to confront the phobic object. Explore therapies like systematic desensitization (gradual exposure to the feared object while in a relaxed state) and flooding (intense, prolonged exposure).\n\nGeneral: Teach relaxation techniques, cognitive restructuring (challenging negative thoughts), and encourage physical activity."
+  },
+  {
+    "question": "The physician orders sertraline (Zoloft) 50 mg bid for Margaret, a 68-year-old woman with Major Depression. After 3 days of taking the medication, Margaret says to the nurse, “I don't think this medicine is doing any good. I don't feel a bit better.” What is the most appropriate response by the nurse?",
+    "option": {
+      "A": "Cheer up, Margaret. You have so much to be happy about.",
+      "B": "Sometimes it takes a few weeks for the medicine to bring about an improvement in symptoms.",
+      "C": "I'll report that to the physician, Margaret. Maybe he will order something different.",
+      "D": "Try not to dwell on your symptoms, Margaret. Why don't you join the others down in the dayroom?"
+    },
+    "answer": "(B) \"Sometimes it takes a few weeks for the medicine to bring about an improvement in symptoms.\"",
+    "explanation": "This is a therapeutic and factually accurate response. Selective Serotonin Reuptake Inhibitors (SSRIs) like sertraline have a therapeutic lag time. They do not work immediately. It typically takes 2 to 4 weeks for the patient to begin to feel the mood-lifting effects, although side effects can appear much sooner. This response provides essential patient education, manages expectations, and encourages adherence.\n\nWhy (A), (C), and (D) are Incorrect and Non-Therapeutic:\n\n(A) “Cheer up...”: This is a classic example of a non-therapeutic response called giving platitudes or minimizing the client's feelings. It dismisses her experience and can make her feel unheard.\n\n(C) “I'll report that to the physician...”: This is premature. Three days is not enough time to evaluate the effectiveness of an SSRI. Reporting it now might lead to an unnecessary and early change in medication.\n\n(D) “Try not to dwell...”: This is another non-therapeutic response called giving advice and can sound dismissive. It invalidates her feelings about the medication.",
+    "additional": "SSRI Antidepressants:\n\nMechanism of Action: Selectively block the reuptake of serotonin in the synaptic cleft, increasing the amount of serotonin available.\n\nExamples: Fluoxetine (Prozac), Sertraline (Zoloft), Paroxetine (Paxil), Citalopram (Celexa), Escitalopram (Lexapro).\n\nCommon Side Effects: Nausea, headache, insomnia/drowsiness, sexual dysfunction.\n\nAdverse Effects: Serotonin Syndrome, a potentially life-threatening condition caused by too much serotonin. Symptoms include mental status changes (agitation), autonomic hyperactivity (fever, tachycardia), and neuromuscular abnormalities (tremor, hyperreflexia).\n\nBlack Box Warning: All antidepressants carry a black box warning for an increased risk of suicidal thinking and behavior, especially in children, adolescents, and young adults, particularly during the initial weeks of treatment. This is because the medication may increase energy levels before it improves mood, giving the patient the energy to act on suicidal thoughts."
+  },
+  {
+    "question": "Symptoms of alcohol withdrawal include:",
+    "option": {
+      "A": "euphoria, hyperactivity, and insomnia.",
+      "B": "depression, suicidal ideation, and hypersomnia.",
+      "C": "diaphoresis, nausea and vomiting, and tremors.",
+      "D": "unsteady gait, nystagmus, and profound disorientation."
+    },
+    "answer": "(C) diaphoresis, nausea and vomiting, and tremors.",
+    "explanation": "Alcohol is a central nervous system (CNS) depressant. Chronic use causes the brain to adapt by increasing its level of excitatory neurotransmitters to maintain homeostasis. When alcohol is suddenly withdrawn, the CNS becomes over-excited, leading to the classic symptoms of withdrawal. These include:\n\nAutonomic hyperactivity: Diaphoresis (sweating), tachycardia, hypertension.\n\nGastrointestinal upset: Nausea and vomiting.\n\nNeurological excitation: Tremors (especially a fine tremor of the hands, known as \"the shakes\"), anxiety, insomnia, and potentially seizures.\n\nWhy (A), (B), and (D) are Incorrect:\n\n(A) Euphoria, hyperactivity: These are symptoms of CNS stimulation (e.g., from cocaine or amphetamine intoxication), not alcohol withdrawal.\n\n(B) ...hypersomnia: Alcohol withdrawal causes insomnia due to CNS excitation. Hypersomnia (excessive sleep) is not a feature.\n\n(D) Unsteady gait, nystagmus, profound disorientation: While disorientation can occur, unsteady gait (ataxia) and nystagmus are classic signs of acute alcohol intoxication (being drunk), not withdrawal.",
+    "additional": "Alcohol Withdrawal Delirium (Delirium Tremens - DTs): This is the most severe form of alcohol withdrawal and is a medical emergency.\n\nOnset: Typically occurs 2-3 days after the last drink.\n\nSymptoms: Severe disorientation, visual or tactile hallucinations (e.g., \"seeing bugs on the wall\"), marked tremors, and severe autonomic hyperactivity. Can lead to death if untreated.\n\nManagement of Alcohol Withdrawal:\n\nPharmacotherapy: The gold standard is treatment with benzodiazepines (e.g., Diazepam, Lorazepam, Chlordiazepoxide). These are also CNS depressants and work by substituting for the alcohol to calm the CNS, then are tapered off slowly.\n\nSupportive Care: Monitor vital signs closely using a standardized scale like the CIWA-Ar (Clinical Institute Withdrawal Assessment for Alcohol, Revised). Provide a quiet, well-lit environment to reduce stimuli, and ensure hydration and nutrition (often including Thiamine/Vitamin B1 to prevent Wernicke-Korsakoff syndrome).\n\nWernicke-Korsakoff Syndrome: A serious neurological disorder caused by thiamine deficiency common in chronic alcoholism.\n\nWernicke's Encephalopathy (Acute phase): Triad of ataxia, confusion, and ophthalmoplegia (e.g., nystagmus). It is reversible with thiamine administration.\n\nKorsakoff's Psychosis (Chronic phase): Characterized by severe memory loss (amnesia) and confabulation (making up stories to fill in memory gaps). This phase is often irreversible."
+  },
+  {
+    "question": "Crises occur when an individual:",
+    "option": {
+      "A": "is exposed to a precipitating stressor",
+      "B": "perceives a stressor to be threatening.",
+      "C": "has no support systems.",
+      "D": "experiences a stressor and perceives coping strategies to be ineffective."
+    },
+    "answer": "(D) experiences a stressor and perceives coping strategies to be ineffective.",
+    "explanation": "This is the complete definition of a crisis. A crisis is not just the stressful event itself. It is a state of psychological disequilibrium that occurs when a person faces a problem that they cannot solve using their usual coping mechanisms. The key elements are:\n\nThe presence of a stressful event.\n\nThe individual's perception that their usual coping strategies are not working or are ineffective.\n\nThis leads to a period of disorganization and high anxiety.\n\nWhy (A), (B), and (C) are Incomplete:\n\n(A) ...exposed to a precipitating stressor: Everyone is exposed to stressors daily; not every stressor leads to a crisis.\n\n(B) ...perceives a stressor to be threatening: This causes stress, but a person may still be able to cope with a threatening stressor. A crisis occurs when coping fails.\n\n(C) ...has no support systems: Lack of support is a major risk factor that makes a crisis more likely and more severe, but a person with good support can still experience a crisis if their internal coping skills are overwhelmed.",
+    "additional": "Types of Crises (Caplan's Model):\n\nMaturational/Developmental Crisis: Occurs during normal developmental life transitions where old coping skills are no longer effective (e.g., adolescence, marriage, retirement).\n\nSituational Crisis: Occurs from an external, often unexpected event (e.g., loss of a job, death of a loved one, diagnosis of a serious illness).\n\nAdventitious Crisis (or Crisis of Disaster): Results from an unplanned, accidental event that is not part of everyday life. It is often catastrophic and affects a large number of people (e.g., natural disasters, acts of terrorism, violent crimes).\n\nGoals of Crisis Intervention:\n\nThe primary goal is to restore the individual to their pre-crisis level of functioning or higher. It is time-limited, focused on the \"here and now,\" and very directive.\n\nThe focus is on the immediate problem and helping the client mobilize their resources and develop new coping skills."
+  },
+  {
+    "question": "Mr. J. is a new client on the psychiatric unit. He is 35 years old. Theoretically, in which level of psychosocial development (according to Erikson) would you place Mr. J.?",
+    "option": {
+      "A": "Intimacy vs. isolation",
+      "B": "Generativity vs. self-absorption",
+      "C": "Trust vs. mistrust",
+      "D": "Autonomy vs. shame and doubt"
+    },
+    "answer": "(A) Intimacy vs. isolation",
+    "explanation": "According to Erik Erikson's Stages of Psychosocial Development, the stage for young adulthood (approximately 20-40 years old) is Intimacy vs. Isolation. A 35-year-old like Mr. J. falls squarely in this range. The central task of this stage is to form intimate, loving relationships with other people. Success leads to strong relationships (intimacy), while failure results in loneliness and isolation.\n\nWhy (B), (C), and (D) are Incorrect Stages for this Age:\n\n(B) Generativity vs. Stagnation/Self-absorption: This is the stage of middle adulthood (approx. 40-65 years old). The focus is on creating or nurturing things that will outlast the individual, such as raising children, being productive at work, or contributing to the community.\n\n(C) Trust vs. Mistrust: This is the stage of infancy (birth to 18 months).\n\n(D) Autonomy vs. Shame and Doubt: This is the stage of early childhood (18 months to 3 years).",
+    "additional": "Erikson's Eight Stages of Psychosocial Development: This is a foundational theory in nursing and psychology. Be familiar with all eight stages, their approximate age ranges, and their central conflicts.\n\nTrust vs. Mistrust (Infancy)\n\nAutonomy vs. Shame/Doubt (Toddlerhood)\n\nInitiative vs. Guilt (Preschool)\n\nIndustry vs. Inferiority (School Age)\n\nIdentity vs. Role Confusion (Adolescence)\n\nIntimacy vs. Isolation (Young Adulthood)\n\nGenerativity vs. Stagnation (Middle Adulthood)\n\nEgo Integrity vs. Despair (Late Adulthood)\n\nApplication: Exam questions will often present a client of a certain age with a specific problem and ask you to identify the unresolved psychosocial stage (e.g., \"A 16-year-old is constantly changing their style and friend groups and expresses confusion about their future career.\" This relates to Identity vs. Role Confusion)."
+  },
+  {
+    "question": "The personality disorders where individuals are characteristically sensitive and suspicious include;",
+    "option": {
+      "A": "Histrionic, Borderline and Narcissistic personality disorders",
+      "B": "Paranoid, Schizoid and Schizotypal personality disorders",
+      "C": "Paranoid, avoidant and dependent personality disorders",
+      "D": "Antisocial, Schizoid and affective personality disorders"
+    },
+    "answer": "(B) Paranoid, Schizoid and Schizotypal personality disorders",
+    "explanation": "This question is asking you to identify the personality disorders that belong to Cluster A. The DSM-5 groups the ten personality disorders into three clusters based on descriptive similarities. Cluster A is known as the \"odd or eccentric\" cluster. The common features are social awkwardness and social withdrawal, often driven by distorted thinking.\n\nParanoid PD: Characterized by a pervasive distrust and suspiciousness of others, interpreting their motives as malevolent.\n\nSchizoid PD: Characterized by a profound detachment from social relationships and a restricted range of emotional expression. They are \"loners\" and seem indifferent to praise or criticism.\n\nSchizotypal PD: Characterized by acute discomfort in close relationships, cognitive or perceptual distortions (magical thinking, odd beliefs), and eccentric behavior. They are also often sensitive and suspicious.\n\nThis cluster best fits the description of \"sensitive and suspicious.\"\n\nWhy (A), (C), and (D) are Incorrect:\n\n(A) Cluster B (Dramatic, Emotional, Erratic): Histrionic, Borderline, Narcissistic (and Antisocial). Their core features are dramatic emotionality and erratic behavior, not primarily suspicion.\n\n(C): This mixes clusters. Paranoid is Cluster A, but Avoidant and Dependent are from Cluster C (Anxious, Fearful).\n\n(D): This mixes clusters and includes \"affective personality disorders,\" which is not a standard DSM category.",
+    "additional": "The Three Clusters of Personality Disorders (DSM-5):\n\nCluster A (Odd, Eccentric):\n\nParanoid: Distrust and suspiciousness.\n\nSchizoid: Detachment from social relationships, emotionally cold.\n\nSchizotypal: Eccentric ideas, odd behavior, acute discomfort in relationships.\n\nCluster B (Dramatic, Emotional, Erratic):\n\nAntisocial: Disregard for and violation of the rights of others, lack of remorse.\n\nBorderline (BPD): Instability in relationships, self-image, and affect; marked impulsivity. Splitting (viewing people as all good or all bad) is a key defense mechanism.\n\nHistrionic: Excessive emotionality and attention-seeking.\n\nNarcissistic: Grandiosity, need for admiration, lack of empathy.\n\nCluster C (Anxious, Fearful):\n\nAvoidant: Social inhibition, feelings of inadequacy, hypersensitivity to negative evaluation. They want relationships but are terrified of rejection.\n\nDependent: Submissive and clinging behavior, excessive need to be taken care of.\n\nObsessive-Compulsive (OCPD): Preoccupation with orderliness, perfectionism, and control. (Note: This is different from OCD, which involves true obsessions and compulsions).\n\nNursing Interventions: For Cluster A, the focus is on building trust slowly and being straightforward. For Cluster B, the key is setting firm, consistent boundaries. For Cluster C, the focus is on building self-esteem and assertiveness."
+  },
+  {
+    "question": "A type of schizophrenia characterized by excessive negativism, bizarre body posture, echopraxia and echolalia:-",
+    "option": {
+      "A": "residual",
+      "B": "paranoid",
+      "C": "catatonic",
+      "D": "disorganized"
+    },
+    "answer": "(C) catatonic",
+    "explanation": "This question describes the classic signs of Catatonia...",
+    "additional": "Positive vs. Negative Symptoms of Schizophrenia:..."
+  },
+  {
+    "question": "A 45-year-old man with paranoid schizophrenia is detained under the Mental Health Act. Which of the following is not directly relevant to criteria for detention under the mental health act:-",
+    "option": {
+      "A": "The patient has paranoid schizophrenia",
+      "B": "The patient has threatened to assault his neighbour",
+      "C": "The patient has harmed himself in the past when he was unwell",
+      "D": "The patient refuses to take a depot injection"
+    },
+    "answer": "(D) The patient refuses to take a depot injection",
+    "explanation": "Involuntary commitment (detention) under a mental health act...",
+    "additional": ""
+  },
+  {
+    "question": "A 5-year-old girl is accompanied to the clinic by her mother. The clinical notes state that she has a mild intellectual disability. Which of the following IQ ranges is consistent with a diagnosis of a mild intellectual disability",
+    "option": {
+      "A": "90-99",
+      "B": "70-89",
+      "C": "50-69",
+      "D": "35-49"
+    },
+    "answer": "(C) 50-69",
+    "explanation": "Intellectual Disability... Mild: IQ 50–69...",
+    "additional": "Adaptive Functioning: This is now the key determinant..."
+  },
+  {
+    "question": "You are asked to assess a 19-year-old woman on a medical ward who has taken an overdose of paracetamol tablets. Which of the following is not an indicator of intent:-",
+    "option": {
+      "A": "Taking precautions against discovery",
+      "B": "Notifying a potential helper",
+      "C": "Drinking a volume of alcohol sufficient to impair judgement",
+      "D": "Leaving a suicide note"
+    },
+    "answer": "(B) Notifying a potential helper",
+    "explanation": "The question asks for something that is NOT an indicator...",
+    "additional": "Suicide Risk Assessment (SAD PERSONS scale)..."
+  },
+  {
+    "question": "A 25-year-old woman who is struggling in her job because of her drinking habits tells herself that the problem is her difficult boss. She denies that her drinking has increased in frequency and severity and also blames the commute to work for her problems. What type of defense mechanism:-",
+    "option": {
+      "A": "Splitting",
+      "B": "Projection",
+      "C": "Rationalisation",
+      "D": "Regression"
+    },
+    "answer": "(C) Rationalisation",
+    "explanation": "Rationalization is the ego defense mechanism...",
+    "additional": "Denial: The woman is also using denial..."
+  },
+  {
+    "question": "A 23-year-old man is arrested for exposing his erect penis to two women in a public place. Although he has not done this before, he admits he has had urges to do so over the past few years, which he finds distressing. How best is this behaviour classified",
+    "option": {
+      "A": "Voyeurism",
+      "B": "Sadomasochism",
+      "C": "Frotteurism",
+      "D": "Exhibitionism"
+    },
+    "answer": "(D) Exhibitionism",
+    "explanation": "This scenario describes the core features of Exhibitionistic Disorder...",
+    "additional": "Paraphilic Disorders: A paraphilia is an intense and persistent..."
+  },
+  {
+    "question": "35-year-old businessman enjoys dressing up in his wife's clothes. He says he does so to experience what it feels like to be a woman and it does not cause him sexual arousal. He has no desire to be a woman. What is the correct term to describe his behaviour:-",
+    "option": {
+      "A": "Transsexualism",
+      "B": "Dual-role transvestism",
+      "C": "Fetishism",
+      "D": "Fetishistic transvestism"
+    },
+    "answer": "(B) Dual-role transvestism",
+    "explanation": "Dual-role transvestism is the term used to describe cross-dressing for the purpose of experiencing a temporary identity as a member of the opposite sex, without any sexual excitement or motivation...",
+    "additional": ""
+  },
+  {
+    "question": "A 35-year-old married man is referred to the emergency department for an assessment of his depressive illness. Which of the following would indicate that a hospital admission would be required:-",
+    "option": {
+      "A": "Insomnia",
+      "B": "Anhedonia",
+      "C": "Worthlessness",
+      "D": "Distressing auditory hallucinations"
+    },
+    "answer": "(D) Distressing auditory hallucinations",
+    "explanation": "The decision to hospitalize a patient is based on the immediate risk of harm to self or others...",
+    "additional": "Indications for Inpatient Psychiatric Hospitalization:..."
+  },
+  {
+    "question": "A 75-year-old man presents with prominent neurological signs such as apraxia, gait abnormalities and mild cognitive impairment. He is MOST likely to suffer from:-",
+    "option": {
+      "A": "Alzheimer's Disease",
+      "B": "Dementia",
+      "C": "Delirium",
+      "D": "Parkinsonism"
+    },
+    "answer": "(B) Dementia",
+    "explanation": "Dementia is the correct umbrella term for the syndrome described...",
+    "additional": "Dementia vs. Delirium vs. Depression (The 3 D's of the Elderly):..."
+  },
+  {
+    "question": "A major difference between normal and maladaptive grieving has been identified by which of the following:",
+    "option": {
+      "A": "There are no feelings of depression in normal grieving",
+      "B": "There is no loss of self-esteem in normal grieving.",
+      "C": "Normal grieving lasts no longer than 1 year",
+      "D": "In normal grief, the person does not show anger toward the loss"
+    },
+    "answer": "(B) There is no loss of self-esteem in normal grieving.",
+    "explanation": "This is a key clinical distinction. In normal grief... the fundamental self-esteem remains intact...",
+    "additional": "Kübler-Ross's Five Stages of Grief:\n\nDenial, Anger, Bargaining, Depression, Acceptance"
+  },
+  {
+    "question": "The most common comorbid condition in children with bipolar disorder is: -",
+    "option": {
+      "A": "Schizophrenia.",
+      "B": "Substance disorders",
+      "C": "Oppositional defiant disorder.",
+      "D": "Attention deficit-hyperactivity disorder"
+    },
+    "answer": "(D) Attention deficit-hyperactivity disorder",
+    "explanation": "There is a very high rate of comorbidity between pediatric Bipolar Disorder and ADHD...",
+    "additional": "Pediatric Bipolar Disorder: Often presents with mood cycling and severe irritability..."
+  },
+  {
+    "question": "Which of the following medications might be prescribed for someone with OCD: -",
+    "option": {
+      "A": "Anxiolytic",
+      "B": "Antipsychotic",
+      "C": "Hypnotic",
+      "D": "Mood stabilizers"
+    },
+    "answer": "(A) Anxiolytic",
+    "explanation": "SSRIs are the first-line treatment for OCD. Though SSRIs are antidepressants, in the context of anxiety-related disorders, they function as anxiolytics...",
+    "additional": "OCD: Treated with Exposure and Response Prevention (ERP) and high-dose SSRIs."
+  },
+  {
+    "question": "Which of the following psychiatric disorders is MOST common among patients with bulimia nervosa:-",
+    "option": {
+      "A": "Alcohol use disorder",
+      "B": "Major depressive disorder",
+      "C": "Obsessive compulsive disorder",
+      "D": "Panic disorder"
+    },
+    "answer": "(B) Major depressive disorder",
+    "explanation": "There is an extremely high rate of comorbidity between Bulimia Nervosa (BN) and mood disorders, particularly Major Depressive Disorder (MDD). Many individuals with BN experience significant depressive symptoms, including low self-esteem, feelings of hopelessness, and sadness, which are often intertwined with the binge-purge cycle. The shame and guilt associated with bulimic behaviors can contribute to depression, and underlying depression can trigger binge eating as a form of self-soothing.",
+    "additional": "Why (A), (C), and (D) are Incorrect:\n\nWhile anxiety disorders (like C and D) and substance use disorders (like A) are also highly comorbid with BN, depression is generally recognized as the most common co-occurring condition. The feelings of being out of control, shame, and low self-worth are central to both conditions.\n\nFuture Test Focus & Additional Concepts:\n\nPhysical Complications of Bulimia Nervosa (due to purging):\n\nDental erosion: From stomach acid during vomiting.\n\nSalivary gland enlargement (parotitis): Gives a \"chipmunk cheek\" appearance.\n\nRussell's sign: Calluses or scars on the knuckles from self-induced vomiting.\n\nEsophagitis, esophageal tears (Mallory-Weiss syndrome).\n\nElectrolyte imbalances: Hypokalemia (low potassium) from vomiting or diuretic/laxative abuse is the most dangerous, as it can lead to cardiac arrhythmias and death.\n\nNursing Priorities for Bulimia:\n\nMedical Stabilization: Correcting electrolyte imbalances is the top priority.\n\nNutritional Rehabilitation: Establishing a pattern of regular, non-binge meals.\n\nInterrupting the Binge-Purge Cycle: Often involves monitoring after meals to prevent purging.\n\nPsychotherapy: CBT is highly effective. It focuses on challenging the distorted thoughts about food, weight, and self-worth."
+  },
+  {
+    "question": "Which of the following physical manifestations would you expect to assess in a client suffering from anorexia nervosa:-",
+    "option": {
+      "A": "Tachycardia, hypertension, hyperthermia",
+      "B": "Bradycardia, hypertension, hyperthermia",
+      "C": "Bradycardia, hypotension, hypothermia",
+      "D": "Tachycardia, hypotension, hypothermia"
+    },
+    "answer": "(C) Bradycardia, hypotension, hypothermia",
+    "explanation": "This question is an exact duplicate of Question 1 on Page 3. The rationale remains the same.\n\nWhy (C) is Correct: Anorexia nervosa is a state of starvation, which causes the body to slow down its metabolism to conserve energy. This results in bradycardia (slow heart rate), hypotension (low blood pressure), and hypothermia (low body temperature)."
+  },
+  {
+    "question": "A nurse on the psychiatric unit has the understanding that which of the following would describe a client with \"la belle indifference\":-",
+    "option": {
+      "A": "A client with somatization disorder who is demanding narcotics",
+      "B": "A client with depersonalization disorder who believes he has died",
+      "C": "A client with DID who is threatening suicide",
+      "D": "A client with conversion disorder showing lack of concern for an altered body function"
+    },
+    "answer": "(D) A client with conversion disorder showing lack of concern for an altered body function",
+    "explanation": "\"La belle indifference\" (French for \"the beautiful indifference\") is a classic, though not universal, sign associated with Conversion Disorder (Functional Neurological Symptom Disorder). It refers to a patient's paradoxical and inappropriate lack of concern or emotional reaction to what appears to be a major physical symptom or disability (e.g., being suddenly unable to walk or see). This apparent lack of distress about the symptom is a key diagnostic clue.",
+    "additional": "Why (A), (B), and (C) are Incorrect:\n\n(A) Somatic Symptom Disorder (formerly Somatization Disorder): Patients with this disorder typically have a high level of anxiety and distress about their physical symptoms. They are the opposite of indifferent.\n\n(B) Depersonalization/Derealization Disorder: This involves feelings of detachment from oneself or one's surroundings. A belief that one has died is more characteristic of a psychotic delusion (Cotard's syndrome).\n\n(C) Dissociative Identity Disorder (DID): This involves the presence of two or more distinct personality states. It is not associated with la belle indifference.\n\nFuture Test Focus & Additional Concepts:\n\nSomatic Symptom and Related Disorders:\n\nSomatic Symptom Disorder: One or more distressing somatic symptoms, plus excessive and disproportionate thoughts, feelings, and behaviors related to those symptoms. The focus is on the distress the symptoms cause.\n\nIllness Anxiety Disorder (formerly Hypochondriasis): Preoccupation with having or acquiring a serious illness. Somatic symptoms are not present or are very mild. The focus is on the fear of having a disease.\n\nConversion Disorder: One or more symptoms of altered voluntary motor or sensory function (e.g., paralysis, blindness, seizures) that are incompatible with recognized neurological or medical conditions. Psychological stress is \"converted\" into a physical symptom.\n\nFactitious Disorder (Munchausen Syndrome): The person intentionally falsifies or induces physical or psychological symptoms in order to assume the \"sick role.\" The motivation is internal—a psychological need to be a patient. There is no external incentive.\n\nMalingering: Intentionally faking or exaggerating symptoms for a clear external incentive (e.g., to get out of work, to obtain drugs, to win a lawsuit). Malingering is not a mental disorder."
+  },
+  {
+    "question": "Ms. T. has been diagnosed with agoraphobia. Which behavior would be most characteristic of this disorder:-",
+    "option": {
+      "A": "Ms. T. experiences panic anxiety when she encounters snakes",
+      "B": "Ms. T. refuses to fly in an airplane",
+      "C": "Ms. T. will not eat in a public place",
+      "D": "Ms. T. stays in her home for fear of being in a place from which she cannot escape"
+    },
+    "answer": "(D) Ms. T. stays in her home for fear of being in a place from which she cannot escape",
+    "explanation": "This question is an exact duplicate of Question 2 on Page 3. The rationale remains the same.\n\nWhy (D) is Correct: Agoraphobia is the fear of being in situations where escape might be difficult or help unavailable if panic-like symptoms occur. This fear leads to avoidance of such places (like public transport, open spaces, crowds, or being outside the home alone), and in severe cases, the person becomes housebound."
+  },
+  {
+    "question": "The physician orders sertraline (Zoloft) 50 mg bid for Margaret, a 68-year-old woman with Major Depression. After 3 days of taking the medication, Margaret says to the nurse, “I don't think this medicine is doing any good. I don't feel a bit better.” What is the most appropriate response by the nurse:-",
+    "option": {
+      "A": "“Cheer up, Margaret. You have so much to be happy about.\"",
+      "B": "“Sometimes it takes a few weeks for the medicine to bring about an improvement in symptoms.\"",
+      "C": "“I'll report that to the physician, Margaret. Maybe he will order something different.”",
+      "D": "“Try not to dwell on your symptoms, Margaret. Why don't you join the others down in the dayroom?”"
+    },
+    "answer": "(B) “Sometimes it takes a few weeks for the medicine to bring about an improvement in symptoms.\"",
+    "explanation": "This question is an exact duplicate of Question 3 on Page 4. The rationale remains the same.\n\nWhy (B) is Correct: This is the most therapeutic and educational response. It correctly informs the patient about the therapeutic lag time of SSRI antidepressants, which typically take 2-4 weeks to begin showing efficacy. This manages the patient's expectations and encourages them to continue taking the medication."
+  },
+  {
+    "question": "All the following are parasomniac disorders EXCEPT",
+    "option": {
+      "A": "narcolepsy",
+      "B": "sleepwalking",
+      "C": "sleep terro",
+      "D": "nightmares"
+    },
+    "answer": "(A) narcolepsy",
+    "explanation": "Why (A) is Correct: Narcolepsy is a Dyssomnia, not a Parasomnia.\n\nDyssomnias are disorders characterized by problems with the amount, quality, or timing of sleep. This category includes Insomnia, Hypersomnolence Disorder, and Narcolepsy.\n\nParasomnias are disorders characterized by abnormal behavioral, experiential, or physiological events occurring in association with sleep, specific sleep stages, or sleep-wake transitions.",
+    "additional": "Why (B), (C), and (D) are Parasomnias:\n\n(B) Sleepwalking (Somnambulism): A Non-REM Sleep Arousal Disorder where the person rises from bed and walks about while asleep.\n\n(C) Sleep Terrors: A Non-REM Sleep Arousal Disorder where the person has an abrupt awakening with a panicky scream, intense fear, and autonomic arousal. They are typically unresponsive and have no memory of the event afterward.\n\n(D) Nightmare Disorder: A REM-sleep Parasomnia involving extremely frightening dreams that are well-remembered upon awakening.\n\nFuture Test Focus & Additional Concepts:\n\nNarcolepsy Key Features: Characterized by excessive daytime sleepiness and symptoms caused by REM sleep intruding into wakefulness:\n\nCataplexy: A sudden, brief loss of muscle tone, often triggered by strong emotions like laughter.\n\nHypnagogic Hallucinations: Vivid dream-like hallucinations that occur while falling asleep.\n\nHypnopompic Hallucinations: Vivid dream-like hallucinations that occur while waking up.\n\nSleep Paralysis: A temporary inability to move or speak while falling asleep or waking up.\n\nSleep Terrors vs. Nightmares:\n\nSleep Terrors: Occur during deep NREM sleep (first third of the night), cause intense autonomic arousal (screaming, sweating), person is inconsolable and has amnesia for the event.\n\nNightmares: Occur during REM sleep (last third of the night), less autonomic arousal, person is easily awakened, alert, and can recall the vivid, frightening dream."
+  },
+  {
+    "question": "Clinicians tools needed to recognize early symptoms of mental disorders are called \"Mental Health Action Signs\".All the following are true EXCEPT",
+    "option": {
+      "A": "involvement in many fights, wanting to badly hurt others",
+      "B": "not eating, throwing up, or using laxatives to make yourself lose weigh",
+      "C": "feeling very sad or withdrawn for more than 2 months",
+      "D": "sudden overwhelming fear for no reason"
+    },
+    "answer": "(C) feeling very sad or withdrawn for more than 2 months",
+    "explanation": "Why (C) is Correct: This question refers to a public health campaign about recognizing early warning signs of mental illness. The key time frame for concern is \"more than 2 weeks,\" not \"more than 2 months.\" Feeling sad or withdrawn for just over two weeks is a significant indicator for seeking help for potential depression. Waiting two months is far too long and is not consistent with early recognition guidelines.",
+    "additional": "Why (A), (B), and (D) are Correct Early Warning Signs:\n\n(A) ...involvement in many fights...: This points to problems with anger, impulse control, or potential conduct disorder.\n\n(B) ...not eating, throwing up...: These are classic warning signs for an eating disorder.\n\n(D) ...sudden overwhelming fear for no reason: This is a perfect description of a panic attack."
+  },
+  {
+    "question": "A parents came to your clinic complaining that their 5-year-old boy had attacks of frightening with imagination of a snake crawling over him and he is acting as trying to remove it. You assessed the child and find no acute physical illness and he is cooperative and quite intelligent. Of the following, the MOST appropriate explanation for the child behavior is",
+    "option": {
+      "A": "acute phobic hallucination",
+      "B": "early sign of schizophrenia",
+      "C": "delusional infestation",
+      "D": "night terror E.bipolar disorder night terror E.bipolar disorder v"
+    },
+    "answer": "(A) acute phobic hallucination",
+    "explanation": "Why (A) is Correct: The scenario describes a hallucination, which is a false sensory perception without an external stimulus. Specifically, it is a tactile hallucination (feeling of a snake crawling on him) and likely a visual hallucination as well. The content of the hallucination (a snake) is a common phobic object. In a young, otherwise healthy child, a brief, isolated hallucination, especially one with a frightening phobic content that occurs while awake, can be termed an acute phobic hallucination. This is often transient and not necessarily indicative of a severe underlying psychosis.",
+    "additional": "Why (B), (C), and (D) are Incorrect:\n\n(B) early sign of schizophrenia: Schizophrenia is extremely rare in 5-year-old children. While possible, it is not the most appropriate or likely explanation for this isolated symptom in an otherwise intelligent and cooperative child.\n\n(C) delusional infestation: This is a specific delusional disorder where a person has a fixed, false belief that they are infested with parasites. This is a delusion (a thought disorder), not a hallucination (a perceptual disorder). The child is experiencing a perception, not a fixed belief system.\n\n(D) night terror...: A night terror occurs during sleep, and the child is typically unresponsive and has no memory of the event. This event occurred while the child was awake and aware."
+  },
+  {
+    "question": "Of the following, the MOST common presenting behavior in girls with attention-deficit/hyperactivity disorder (ADHD) is",
+    "option": {
+      "A": "inattentive",
+      "B": "hyperactive",
+      "C": "impulsive",
+      "D": "disruptive"
+    },
+    "answer": "(A) inattentive",
+    "explanation": "Why (A) is Correct: ADHD has three presentations: Predominantly Inattentive, Predominantly Hyperactive-Impulsive, and Combined. While boys with ADHD are more likely to present with hyperactivity and impulsivity, girls are more likely to present with the Predominantly Inattentive type. Their symptoms are often more subtle and less disruptive, such as daydreaming, being disorganized, having trouble following instructions, and being easily distracted. This often leads to under-recognition and delayed diagnosis in girls.",
+    "additional": "Why (B), (C), and (D) are Incorrect:\n\n(B) hyperactive & (C) impulsive: These externalizing behaviors are more characteristic of the presentation in boys.\n\n(D) disruptive: This is a consequence of hyperactive and impulsive behaviors, which are less common as the primary presentation in girls."
   }
 ]
+
+
+
+
+  
+  
 
 
 
