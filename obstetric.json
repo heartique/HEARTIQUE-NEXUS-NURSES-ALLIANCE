@@ -247,7 +247,7 @@
       "C": "Impaired immune system",
       "D": "Increased risk of spontaneous abortions"
     },
-    "answers": "C",
+    "answer": "C",
     "explanation": "Rationale for Correct Answer (C): Zinc is a crucial trace mineral that plays a vital role as a cofactor for hundreds of enzymes in the body. It is particularly important for cell growth, protein synthesis, and immune function. A deficiency in zinc leads to impaired development and function of immune cells, such as T-lymphocytes and natural killer cells. This results in an impaired immune system and increased susceptibility to infections.",
     "additional": "Analysis of Incorrect Options:\n\n(A) While some research has explored links between mineral deficiencies and pre-eclampsia, it is not a primary or established cause. Pre-eclampsia is a complex disorder related to placental development and vascular dysfunction.\n\n(B) Night blindness is the classic sign of Vitamin A deficiency.\n\n(D) While severe maternal malnutrition can increase the risk of miscarriage, and zinc is important for fetal growth, it is not as directly linked to spontaneous abortions as other factors like chromosomal abnormalities or hormonal issues. The link to immune impairment is more direct and well-established.\n\nZinc in Pregnancy: Zinc is also essential for fetal growth and development. Severe deficiency can be associated with low birth weight, preterm birth, and congenital anomalies.\n\nFood Sources of Zinc: The best sources are meat, shellfish (especially oysters), legumes, seeds, nuts, and whole grains.\n\nTextbook Reference: This is a detailed nutrition question. It would be found in a dedicated nutrition text or in Maternity and Women's Health Care, 11th Ed. (Lowdermilk et al.), Chapter 13: Maternal and Fetal Nutrition, under the section on micronutrients."
   },
@@ -259,7 +259,7 @@
       "C": "An abnormal craving for non-food substances of little or no nutritional value",
       "D": "Increased salivation"
     },
-    "answers": "D",
+    "answer": "D",
     "explanation": "Rationale for Correct Answer (D): Ptyalism or ptyalism gravidarum is the medical term for excessive secretion of saliva during pregnancy. It is a relatively common and bothersome discomfort of early pregnancy. The exact cause is unknown, but it is often associated with the nausea and vomiting of pregnancy, as some women may swallow less frequently to avoid triggering nausea, causing the saliva to pool.",
     "additional": "Analysis of Incorrect Options:\n\n(A) Excessive nausea and vomiting is called hyperemesis gravidarum.\n\n(B) Lack of appetite is anorexia.\n\n(C) An abnormal craving for non-food substances is called pica. Common examples include cravings for ice (pagophagia), dirt (geophagia), or clay. Pica is often associated with iron-deficiency anemia.\n\nManagement of Ptyalism: There is no cure, but management focuses on comfort measures.\n\nChewing gum or sucking on hard candies can make swallowing more frequent and manageable.\n\nUsing a mouthwash frequently can help.\n\nMaintaining good oral hygiene is important.\n\nReassure the client that the condition is temporary and usually resolves by the end of the first trimester.\n\nTextbook Reference: Maternity and Women's Health Care, 11th Ed. (Lowdermilk et al.), Chapter 13: Maternal and Fetal Nutrition (Discomforts of Pregnancy section)."
   },
@@ -271,7 +271,7 @@
       "C": "9-14g/dl",
       "D": "11-12g/dl"
     },
-    "answers": "D",
+    "answer": "D",
     "explanation": "Rationale for Correct Answer (D): During pregnancy, there is a significant increase in the mother's plasma volume (by about 40-50%). The red blood cell mass also increases, but not to the same extent. This results in a state of physiologic anemia of pregnancy, or hemodilution. Because of this, the normal values for hemoglobin and hematocrit are lower than in a non-pregnant woman.\n\nA hemoglobin level of 11 g/dL or greater in the first and third trimesters, and 10.5 g/dL or greater in the second trimester (when hemodilution peaks), is generally considered normal.\n\nThe range of 11-12 g/dL accurately reflects this lower-than-usual but still normal range. The other options include values that are either too high or too low to be considered the standard \"normal.\"",
     "additional": "Analysis of Incorrect Options:\n\n(A) 10-15 g/dL is too broad. 10 g/dL is anemic, and 15 g/dL is high for a pregnant woman.\n\n(B) 12-14 g/dL represents a more typical range for a non-pregnant woman.\n\n(C) 9-14 g/dL is too broad. 9 g/dL is definitely anemic.\n\nIron-Deficiency Anemia in Pregnancy: This is the most common type of true anemia in pregnancy. It is caused by the increased demand for iron by the growing fetus and placenta and the expanding maternal blood volume.\n\nManagement: All pregnant women should be screened for anemia. Most are advised to take a daily iron supplement (usually included in prenatal vitamins) to prevent deficiency.\n\nTextbook Reference: Maternity and Women's Health Care, 11th Ed. (Lowdermilk et al.), Chapter 13: Maternal and Fetal Nutrition."
   },
@@ -283,7 +283,7 @@
       "C": "Chorion and amnion",
       "D": "Placenta and Chorion"
     },
-    "answers": "D",
+    "answer": "D",
     "explanation": "Rationale for Correct Answer (D): This question is related to Q3 from this section. The trophoblast is the outer layer of cells of the blastocyst. Its primary role is to facilitate implantation and to develop into the fetal portion of the support structures.\n\nThe trophoblast develops into the chorion, which is the outermost fetal membrane.\n\nThe chorion develops finger-like projections called chorionic villi, which burrow into the uterine wall and become the fetal side of the placenta.",
     "additional": "Analysis of Incorrect Options:\n\n(A) & (B) The fetus develops from the inner cell mass (embryoblast), not the trophoblast.\n\n(C) The chorion develops from the trophoblast, but the amnion (the inner membrane that forms the amniotic sac) develops from the inner cell mass.\n\nSummary of Origins:\n\nTrophoblast -> Chorion -> Placenta\n\nInner Cell Mass (Embryoblast) -> Fetus, Amnion, Yolk Sac\n\nTextbook Reference: Maternity and Women's Health Care, 11th Ed. (Lowdermilk et al.), Chapter 12: Conception and Fetal Development."
   },
@@ -295,7 +295,7 @@
       "C": "28-34 weeks",
       "D": "34-36 weeks"
     },
-    "answers": "C",
+    "answer": "C",
     "explanation": "Rationale for Correct Answer (C): Sulfadoxine-Pyrimethamine (SP) is an antimalarial drug used for Intermittent Preventive Treatment in pregnancy (IPTp) in regions where malaria is endemic. The goal is to prevent maternal malaria, which can cause severe anemia, and placental malaria, which can lead to low birth weight and preterm birth.\n\nThe WHO recommends a schedule of at least three doses during pregnancy.\n\nFirst Dose (IPTp1): Given as early as possible in the second trimester (after quickening, typically around 16 weeks).\n\nSubsequent Doses (IPTp2, IPTp3, etc.): Given at least one month apart at each subsequent scheduled antenatal care visit until the time of delivery.\n\nFollowing this schedule, if the first dose is given around 16-20 weeks, the second dose would fall approximately in the 28-34 week window, making (C) the most plausible answer.",
     "additional": "Analysis of Incorrect Options:\n\n(A) 16-28 weeks is too broad and more representative of the window for the first dose.\n\n(B) 20-30 weeks is also a possible window, but the standard four-week interval from a first dose at 16-20 weeks would place the second dose closer to the range in (C).\n\n(D) 34-36 weeks would be more typical for a third dose.\n\nKey Point: The principle is to start in the second trimester and give subsequent doses at least one month apart.\n\nTextbook Reference: This is a topic specific to public health and tropical medicine in pregnancy. It would be found in guidelines from the WHO or national Ministries of Health rather than a standard US-based maternity textbook."
   },
@@ -307,7 +307,7 @@
       "C": "15-30",
       "D": "20-30"
     },
-    "answers": "B",
+    "answer": "B",
     "explanation": "Rationale for Correct Answer (B): Before the diagnostic criteria for preeclampsia shifted to absolute values (≥140/90), the diagnosis could also be made based on a significant rise in blood pressure over the woman's baseline readings from early pregnancy.\n\nA rise of ≥ 30 mmHg in systolic pressure OR a rise of ≥ 15 mmHg in diastolic pressure over baseline was considered significant.\n\nThe diastolic pressure was considered a more stable and specific indicator because systolic pressure can be more easily influenced by pain, anxiety, or excitement.\n\nTherefore, an increase of 15 mmHg or more in the diastolic pressure was a key warning sign. The range of 15-20 mmHg fits this criterion perfectly.",
     "additional": "Modern Criteria: It is important to know that current guidelines have moved away from the \"rise-over-baseline\" criteria and now use absolute BP values of ≥140 mmHg systolic or ≥90 mmHg diastolic for the diagnosis of hypertension in pregnancy. However, exam questions may still reference the older criteria.\n\nAnalysis of Incorrect Options:\n\n(A) A rise of 10 mmHg is not generally considered significant enough.\n\n(C) & (D) These ranges are too high. A rise of 15 mmHg is the critical threshold.\n\nTextbook Reference: Older editions of maternity textbooks would cover this. Newer editions, like Maternity and Women's Health Care, 11th Ed., Chapter 27, focus on the current ACOG guidelines using absolute values (≥140/90)."
   },
@@ -319,7 +319,7 @@
       "C": "spontaneous loss of pregnancy from between 0 to 16 weeks gestation",
       "D": "loss of pregnancy between 24 to 30weeks"
     },
-    "answers": "C",
+    "answer": "C",
     "explanation": "Rationale for Correct Answer (C): A miscarriage, also known as a spontaneous abortion, is defined as the loss of a pregnancy before 20 weeks of gestation (the point of fetal viability). Miscarriages are further divided into early and late.\n\nEarly Miscarriage: Loss of a pregnancy before 12 weeks of gestation. This accounts for the vast majority of miscarriages.\n\nLate Miscarriage: Loss of a pregnancy between 12 and 20 weeks of gestation.\n\nGiven the options, option (C) is the broadest but most accurate choice that encompasses the period of early miscarriage. The other options describe later pregnancy losses.",
     "additional": "Analysis of Incorrect Options:\n\n(A) & (B) & (D) Pregnancy loss after 20 weeks is defined as an intrauterine fetal death (IUFD) or stillbirth, not a miscarriage. The 24-week mark is often used as a threshold for viability in many healthcare systems.\n\nAdditional Content & Future Test Pointers:\n\nCauses of Miscarriage: The most common cause of early miscarriage (over 50% of cases) is fetal chromosomal abnormalities that are incompatible with life.\n\nTypes of Miscarriage:\n\nThreatened: Vaginal bleeding occurs, but the cervix is closed. Pregnancy may continue.\n\nInevitable: Bleeding and cramping with an open cervix. Loss is certain.\n\nIncomplete: Some, but not all, of the products of conception are expelled.\n\nComplete: All products of conception are expelled.\n\nMissed: The fetus dies in utero but is not expelled.\n\nNursing Care: Focuses on monitoring for hemorrhage, managing pain, and providing emotional and psychological support for the loss.\n\nTextbook Reference: Maternity and Women's Health Care, 11th Ed. (Lowdermilk et al.), Chapter 26: Bleeding in Pregnancy."
   },
@@ -331,7 +331,7 @@
       "C": "1cm dilated",
       "D": "a slit"
     },
-    "answers": "A",
+    "answer": "A",
     "explanation": "Rationale for Correct Answer (A): The \"end of labor\" refers to the period immediately after the delivery of the baby and placenta. During the first stage of labor, the cervix undergoes massive stretching as it effaces (thins) and dilates to 10 cm. Immediately after this process and the passage of the fetus, the cervix does not instantly return to its pre-labor state. Instead, it is edematous (swollen), bruised, and lacks tone, making it feel soft and flabby. It is still open enough to admit several fingers but is no longer a well-defined structure.",
     "additional": "Analysis of Incorrect Options:\n\n(B) & (C) 1 cm and 2 cm dilation describe the cervix during the latent (early) phase of the first stage of labor, not at the end. At the end of labor, it has already been fully dilated (10 cm) and is now collapsing back down.\n\n(D) \"A slit\" describes the appearance of the external os of the cervix in a woman who has had a previous vaginal birth (multiparous), but this describes its state weeks or months after delivery, once healing (involution) is complete. It does not describe the immediate postpartum cervix.\n\nCervical Involution: The cervix rapidly shortens and regains its form in the hours and days following birth. By one week postpartum, it is typically only about 1 cm dilated.\n\nCervical Os Appearance:\n\nNulliparous (no vaginal births): The external os is small and round.\n\nParous/Multiparous (one or more vaginal births): The external os has a more slit-like or irregular shape due to the stretching and small lacerations from delivery.\n\nTextbook Reference: Maternity and Women's Health Care, 11th Ed. (Lowdermilk et al.), Chapter 18: Postpartum Physiologic Changes."
   },
@@ -343,7 +343,7 @@
       "C": "Gentle palpation through vaginal fornices to determine whether posterior or anterior",
       "D": "Complete bed rest and speculum examination on the third day"
     },
-    "answers": "B",
+    "answer": "B",
     "explanation": "Rationale for Correct Answer (B):\n\nPlacenta Previa: The placenta is implanted in the lower uterine segment, partially or completely covering the cervical os. This is a major cause of painless, bright red vaginal bleeding in the third trimester.\n\nIUFD Changes Everything: The primary reason for performing a Cesarean section for placenta previa is to ensure the safety of the fetus and avoid life-threatening hemorrhage for both mother and baby when the cervix dilates. If the fetus has already died (IUFD), the risk to the baby is eliminated. The goal shifts entirely to the safety of the mother.\n\nVaginal Delivery is Preferred: A Cesarean section is major abdominal surgery with risks of hemorrhage, infection, and future pregnancy complications. A vaginal delivery is generally safer for the mother if it can be achieved without catastrophic bleeding. In cases of IUFD with a previa that is not completely covering the os (like a marginal or low-lying previa), a cautious induction of labor with oxytocin (Syntocinon) may be attempted in a setting where emergency C-section is immediately available. This allows for a less invasive delivery for the mother.",
     "additional": "Analysis of Incorrect Options:\n\n(A) An emergency C-section is the management of choice for placenta previa with a living, viable fetus, especially if there is significant bleeding. With an IUFD, it is not the first-line approach unless bleeding is uncontrollable.\n\n(C) Vaginal exams are absolutely contraindicated in a known or suspected placenta previa. Palpating the cervix could disrupt the placenta and cause massive, catastrophic hemorrhage.\n\n(D) A speculum exam may be done to confirm the source of bleeding, but this would be done on admission, not on the third day. Complete bed rest is part of the management, but it is not the definitive plan for delivery.\n\nTypes of Placenta Previa:\n\nComplete/Total: The placenta completely covers the internal cervical os.\n\nPartial: The placenta partially covers the internal os.\n\nMarginal: The edge of the placenta is at the margin of the internal os.\n\nLow-Lying: The placenta is implanted in the lower segment but its edge does not reach the os.\n\nTextbook Reference: Maternity and Women's Health Care, 11th Ed. (Lowdermilk et al.), Chapter 26: Bleeding in Pregnancy."
   },
@@ -355,7 +355,7 @@
     "C": "Active and second stages of labor when membranes are ruptured",
     "D": "Second stage of labour transmitting the force of contraction to the lower pole of the uterus"
   },
-  "answers": "C",
+  "answer": "C",
   "explanation": "Rationale for Correct Answer (C): Fetal axis pressure refers to the force of the uterine contractions being transmitted down the fetus's spine (axis), causing pressure from the presenting part (usually the head) onto the cervix. This pressure is a key mechanism for cervical dilation.\n\nThis process is most efficient and significant during the active phase of labor (when dilation is progressing steadily) and the second stage (pushing).\n\nIt is particularly significant when the membranes are ruptured. With intact membranes, the force of the contraction is distributed more evenly across the \"bag of waters\" (amniotic fluid), which cushions the effect. After the membranes rupture, the fetal head can be applied directly to the cervix, creating a much more effective and focused pressure for dilation and descent.",
   "additional": "Analysis of Incorrect Options:\n\n(A) In the early stages, contractions are less intense and the pressure is less significant. The force is transmitted to the lower uterine segment and cervix, not the upper pole of the fetus.\n\n(B) While it occurs, the pressure is less direct when membranes are intact.\n\n(D) The force is transmitted to the cervix and the lower uterine segment, not the \"lower pole of the uterus\" in this context. The key is the application of the fetal head to the cervix.\n\nPowers, Passage, Passenger: Remember the 3 P's of labor. Fetal axis pressure is a component of the Powers (uterine contractions) acting on the Passenger (fetus) to move through the Passage (pelvis).\n\nAmniotomy: The artificial rupture of membranes (AROM) is often performed to augment or induce labor precisely because it allows for more effective fetal axis pressure and can strengthen contractions.\n\nTextbook Reference: Any standard labor and delivery textbook will cover this principle. In Maternity and Women's Health Care, 11th Ed. (Lowdermilk et al.), see Chapter 16: Labor and Birth Processes, under \"Mechanisms of Labor.\""
 },
@@ -367,7 +367,7 @@
       "C": "Obstructed labour, cord prolapsed, prolonged labour",
       "D": "Maternal distress, prolonged labour, cord presentation"
     },
-    "answers": "B",
+    "answer": "B",
     "explanation": "Rationale for Correct Answer (B): When the membranes rupture (spontaneously or artificially), the most immediate and critical priority is to assess fetal well-being and rule out a prolapsed umbilical cord. Cord Prolapse: This is an obstetric emergency where the umbilical cord slips down below the fetal presenting part after the membranes have ruptured. The presenting part then compresses the cord, cutting off blood flow and oxygen to the fetus. A vaginal exam is performed immediately after rupture of membranes primarily to check for this. The nurse feels for the presenting part and ensures no soft, pulsating cord can be felt alongside or below it. Cord Presentation is when the cord can be felt below the presenting part before the membranes have ruptured. Fetal Distress: The first sign of cord compression is often a change in the fetal heart rate (FHR), typically a severe variable deceleration or a prolonged deceleration or bradycardia. The exam is done to find the cause of the distress.",
     "additional": "Analysis of Incorrect Options:\n\n(A) & (C) Obstructed labor and prolonged labor are diagnoses made over a longer period by observing a lack of progress in dilation or descent. They are not ruled out by a single vaginal exam immediately after membranes rupture.\n\n(D) Maternal distress is assessed by monitoring the mother's vital signs and coping, not by a vaginal exam.\n\nIntervention for Cord Prolapse: Call for help immediately. The examiner must keep their gloved fingers in the vagina and manually lift the fetal presenting part off the cord to relieve compression. Position the mother in an extreme Trendelenburg or knee-chest position. Prepare for an emergency Cesarean section.\n\nTextbook Reference: Maternity and Women's Health Care, 11th Ed., Chapter 17: Labor and Birth Complications, 'Umbilical Cord Prolapse.'"
   },
@@ -379,7 +379,7 @@
       "C": "Zidovudine 300mgs 3 hourly for 12 hours",
       "D": "Zidovudine 2mg/kg body weight within 3 days of delivery"
     },
-    "answers": "B",
+    "answer": "B",
     "explanation": "Rationale for Correct Answer (B): In the past, particularly in resource-limited settings before the widespread availability of combination ART, a simplified and highly effective regimen for PMTCT was a single dose of Nevirapine (NVP) 200 mg given to the mother at the onset of labor. This was followed by a single dose of NVP syrup given to the infant within 72 hours of birth. Nevirapine rapidly crosses the placenta and achieves therapeutic levels in both the mother and fetus, significantly reducing the risk of transmission during delivery.",
     "additional": "Analysis of Incorrect Options:\n\n(A) The standard adult single dose for this purpose was 200 mg, not 300 mg.\n\n(C) Zidovudine (AZT) was also used, often as an IV infusion during labor, but the regimen described is not the standard protocol.\n\n(D) This describes an infant dosing regimen, not a maternal one.\n\nImportant Modern Context: These single-dose or dual-therapy regimens are now considered suboptimal. The current standard of care is for all HIV-positive pregnant women to be on lifelong combination ART. However, exam questions may still test the older single-dose nevirapine protocol as it was a landmark public health intervention.\n\nTextbook Reference: Maternity and Women's Health Care, 11th Ed., Chapter 21: HIV in pregnancy."
   },
@@ -391,7 +391,7 @@
       "C": "Rupture of membranes",
       "D": "Bulging of the perineum"
     },
-    "answers": "C",
+    "answer": "C",
     "explanation": "Rationale for Correct Answer (C): The second stage of labor begins with full cervical dilation (10 cm) and ends with the birth of the baby. Rupture of membranes (ROM) can happen at any point during labor. It can occur before labor even begins (PROM), during the first stage, or during the second stage. Because it is not specific to the second stage, it is not considered a probable sign of the second stage.",
     "additional": "Analysis of Probable Signs of the Second Stage:\n\n(A) Uterine contractions continue and become stronger, more expulsive, and often accompanied by an urge to push.\n\n(B) The defining sign is that the cervix is fully dilated and effaced; no cervix is felt on exam.\n\n(D) Bulging perineum is a classic late sign of fetal descent.\n\nOther Signs: Bloody show, urge to push, vomiting, crowning.\n\nTextbook Reference: Maternity and Women's Health Care, 11th Ed., Chapter 16: Labor and Birth Processes."
   },
@@ -403,7 +403,7 @@
       "C": "Involuntary grunting",
       "D": "Valsalva's maneuver"
     },
-    "answers": "B",
+    "answer": "B",
     "explanation": "Rationale for Correct Answer (B): The second stage of labor is intense and overwhelming. The contractions are powerful, frequent, and are accompanied by immense pressure and an urge to push. Crying out in pain is a common response to this overwhelming experience and can be interpreted as fear of losing control, especially in first-time mothers.",
     "additional": "Analysis of Incorrect Options:\n\n(A) Exhaustion is passive; crying out is an active coping response.\n\n(C) Involuntary grunting occurs during pushing with a closed glottis and is distinct from pain vocalization.\n\n(D) Valsalva’s maneuver is the act of holding one's breath and bearing down — a physical act, not emotional behavior.\n\nNursing Role: Offer reassurance, calm coaching, emotional presence.\n\nTextbook Reference: Maternity and Women's Health Care, 11th Ed., Chapter 16: Labor and Birth Processes."
   }
