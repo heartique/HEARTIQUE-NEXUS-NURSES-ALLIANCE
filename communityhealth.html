@@ -146,15 +146,57 @@
 
       fetch(file)
         .then(res => res.json())
-        .then(data => {
+                .then(data => {
           total = data.length;
+
+          // Normalize all questions to universal structure
+          data = data.map(q => ({
+            question: q.question || q.q || "Untitled question",
+            options: q.options || q.option || q.choices || {},
+            answer: q.answer || q.correct || "",
+            explanation: q.explanation || "",
+            additional: q.additional || ""
+          }));
 
           data.forEach((q, index) => {
             const div = document.createElement('div');
             div.className = 'question-box';
-            div.innerHTML = `<strong>Q${index + 1}: ${q.question}</strong><br><br>`;
+            div.innerHTML = `<strong>Q${index + 1}: ${q.question.replace(/\n/g, "<br>")}</strong><br><br>`;
 
             Object.entries(q.options).forEach(([key, value]) => {
+              const btn = document.createElement('button');
+              btn.className = 'btn';
+              btn.textContent = `${key}) ${value}`;
+              btn.onclick = () => {
+                div.querySelectorAll('button').forEach(b => b.disabled = true);
+                const result = document.createElement('div');
+
+                if (key === q.answer) {
+                  result.innerHTML = `<p class="correct">✅ Correct!</p><p>${q.explanation.replace(/\n/g, "<br>")}</p>`;
+                  score++;
+                } else {
+                  result.innerHTML = `<p class="wrong">❌ Wrong!</p><p>Correct is ${q.answer}) ${q.options[q.answer]}.<br>${q.explanation.replace(/\n/g, "<br>")}</p>`;
+                }
+
+                if (q.additional) {
+                  const extra = document.createElement('div');
+                  extra.className = 'additional';
+                  extra.innerHTML = `📌 ${q.additional.replace(/\n/g, "<br>")}`;
+                  result.appendChild(extra);
+                }
+
+                div.appendChild(result);
+                questionsCompleted++;
+                if (questionsCompleted === total) showFinalResult(score, total);
+              };
+              div.appendChild(btn);
+              div.appendChild(document.createElement('br'));
+            });
+
+            container.appendChild(div);
+          });
+        })
+
               const btn = document.createElement('button');
               btn.className = 'btn';
               btn.textContent = `${key}) ${value}`;
