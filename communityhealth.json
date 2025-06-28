@@ -955,9 +955,8 @@
       "C": "Chicken farmers",
       "D": "Fish farmers"
     },
-    "answer": "(B) Dairy farmers",
-    "explanation": "Why 'B' is Correct: Anthrax is a zoonotic disease caused by the spore-forming bacterium Bacillus anthracis. The spores can survive in the soil for decades. The disease primarily affects herbivores like cattle, sheep, and goats. Therefore, individuals who work closely with these animals or their products are at the highest occupational risk. Dairy farmers, livestock farmers, veterinarians, and slaughterhouse workers are classic examples. They can contract the disease through one of three routes:\n\nCutaneous (most common): Spores enter a cut or abrasion on the skin, causing a characteristic black eschar.\n\nInhalation: Inhaling spores (e.g., from processing wool or hides), causing a severe and often fatal hemorrhagic mediastinitis.\n\nGastrointestinal: Eating undercooked meat from an infected animal.",
-    "why_others_wrong": "A: Horticulture farmers work with plants and are not at risk for anthrax.\n\nC: Poultry are generally resistant to anthrax.\n\nD: Anthrax does not affect fish; it's a disease of terrestrial mammals.",
+    "answer": "B",
+    "explanation": "Why 'B' is Correct: Anthrax is a zoonotic disease caused by the spore-forming bacterium Bacillus anthracis. The spores can survive in the soil for decades. The disease primarily affects herbivores like cattle, sheep, and goats. Therefore, individuals who work closely with these animals or their products are at the highest occupational risk. Dairy farmers, livestock farmers, veterinarians, and slaughterhouse workers are classic examples. They can contract the disease through one of three routes:\n\nCutaneous (most common): Spores enter a cut or abrasion on the skin, causing a characteristic black eschar.\n\nInhalation: Inhaling spores (e.g., from processing wool or hides), causing a severe and often fatal hemorrhagic mediastinitis.\n\nGastrointestinal: Eating undercooked meat from an infected animal.\n\nWhy others are wrong:\nA: Horticulture farmers work with plants and are not at risk for anthrax.\nC: Poultry are generally resistant to anthrax.\nD: Anthrax does not affect fish; it's a disease of terrestrial mammals.",
     "additional": "Zoonotic Diseases: A zoonosis is a disease that can be transmitted from animals to humans.\n\nExamples:\n- Brucellosis: From cattle, goats, sheep (via unpasteurized milk).\n- Rabies: From dogs, bats.\n- Avian Influenza: From poultry.\n\nAnthrax as a Bioweapon: Due to spore durability and inhalation form fatality, anthrax is a known bioterrorism threat."
   },
   {
@@ -968,9 +967,8 @@
       "C": "(iii), (iv) and (v)",
       "D": "(ii), (iii) and (v)"
     },
-    "answer": "(A) (i), (ii) and (iii)",
-    "explanation": "Why 'A' is Correct: The name 'penta'-valent means it protects against five diseases. Let's break down the components listed in the correct options:\n\n(i): Diphtheria and Tetanus\n(ii): Pertussis and Hepatitis B\n(iii): Haemophilus influenzae type b (Hib)\n\nCombining these gives: Diphtheria, Tetanus, Pertussis, Hepatitis B, and Hib. Options are broken up, so you must piece them together logically. Only A combines all five correct components.",
-    "why_others_wrong": "B, C, D: Include incorrect components like:\n(iv) Polio and BCG: These are separate vaccines.\n(v) Measles: Also separate, not part of Pentavalent.",
+    "answer": "A",
+    "explanation": "Why 'A' is Correct: The name 'penta'-valent means it protects against five diseases. Let's break down the components listed in the correct options:\n\n(i): Diphtheria and Tetanus\n(ii): Pertussis and Hepatitis B\n(iii): Haemophilus influenzae type b (Hib)\n\nCombining these gives: Diphtheria, Tetanus, Pertussis, Hepatitis B, and Hib. Options are broken up, so you must piece them together logically. Only A combines all five correct components.\n\nWhy others are wrong:\nB, C, D: Include incorrect components like:\n(iv) Polio and BCG: These are separate vaccines.\n(v) Measles: Also separate, not part of Pentavalent.",
     "additional": "Purpose of Combination Vaccines: Reduce number of injections, improve compliance, simplify logistics.\n\nAdministration:\n- Dose: 0.5 ml\n- Route: Intramuscular (IM)\n- Site: Left upper thigh\n- Schedule: 6, 10, 14 weeks\n\nComponents:\n- DPT: Diphtheria, Pertussis, Tetanus\n- HepB: Hepatitis B\n- Hib: Haemophilus influenzae type b"
   },
   {
@@ -981,9 +979,8 @@
       "C": "Regular medical checkup, screening, psychotherapy",
       "D": "Vaccinations, prophylactic therapy, healthy diet"
     },
-    "answer": "(D) Vaccinations, prophylactic therapy, healthy diet",
-    "explanation": "Why 'D' is Correct: These are all primary prevention measures:\n\n- Vaccinations: Prevent disease before it starts.\n- Prophylactic therapy: e.g., antimalarials, fluoride.\n- Healthy diet: Health promotion preventing chronic illness.\n\nThese aim to stop health issues before they begin.",
-    "why_others_wrong": "A: Physical therapy is tertiary prevention.\n\nB: Vocational training is tertiary; early diagnosis is secondary.\n\nC: Checkups and screening are secondary; psychotherapy is secondary or tertiary.",
+    "answer": "D",
+    "explanation": "Why 'D' is Correct: These are all primary prevention measures:\n\n- Vaccinations: Prevent disease before it starts.\n- Prophylactic therapy: e.g., antimalarials, fluoride.\n- Healthy diet: Health promotion preventing chronic illness.\n\nThese aim to stop health issues before they begin.\n\nWhy others are wrong:\nA: Physical therapy is tertiary prevention.\nB: Vocational training is tertiary; early diagnosis is secondary.\nC: Checkups and screening are secondary; psychotherapy is secondary or tertiary.",
     "additional": "School Health Programs:\n\nPrimary Prevention:\n- Health education on hygiene, nutrition, drugs, sex ed.\n- Immunizations\n- Ensuring safe environments\n\nSecondary Prevention:\n- Screening (vision, hearing, growth)\n- Identifying disabilities\n- Managing acute conditions\n\nTertiary Prevention:\n- Support for chronic illness (asthma, diabetes)\n- Disability accommodations\n- Rehab and referrals"
   },
   {
@@ -994,10 +991,9 @@
       "C": "HIV/AIDS, mental health, safe water supply",
       "D": "Treatment of minor ailments, health education, expanded programme on immunization"
     },
-    "answer": "(A) Nutrition, safe water supply, maternal child health.",
-    "explanation": "Why 'A' is Correct: The Millennium Development Goals (MDGs) had several health-related targets that directly align with core elements of Primary Health Care. Let's analyze the components of option A:\n\nMaternal and Child Health (MCH): This was central to MDG 4 (Reduce Child Mortality) and MDG 5 (Improve Maternal Health).\n\nNutrition: This was a key target under MDG 1 (Eradicate Extreme Poverty and Hunger).\n\nSafe Water Supply: This was a target under MDG 7 (Ensure Environmental Sustainability).\n\nAll three elements in option A were explicitly covered as major targets within the MDGs.",
-    "why_others_wrong": "B: 'Health education' was an underlying strategy, not a specific MDG goal.\n\nC: Mental health was not explicitly addressed in the MDGs, though HIV/AIDS and safe water were included.\n\nD: 'Treatment of minor ailments' was not an MDG target; immunization and education were part of strategies, not top-level goals.",
-    "additional": "The 8 MDGs (2000-2015):\n1. Eradicate extreme poverty and hunger\n2. Achieve universal primary education\n3. Promote gender equality and empower women\n4. Reduce child mortality\n5. Improve maternal health\n6. Combat HIV/AIDS, malaria, and other diseases\n7. Ensure environmental sustainability\n8. Develop a global partnership for development\n\nFrom MDGs to SDGs: The MDGs were replaced by the 17 Sustainable Development Goals (SDGs) in 2015. SDG 3 is 'Good Health and Well-Being.'\n\n8 Elements of Primary Health Care (Alma-Ata Declaration):\n- Education on prevailing health problems\n- Disease control\n- Immunization (EPI)\n- Maternal and child health\n- Essential drugs\n- Nutrition\n- Treatment of common diseases\n- Safe water and sanitation"
+    "answer": "A",
+    "explanation": "Why 'A' is Correct: The Millennium Development Goals (MDGs) had several health-related targets that directly align with core elements of Primary Health Care. Let's analyze the components of option A:\n\nMaternal and Child Health (MCH): This was central to MDG 4 (Reduce Child Mortality) and MDG 5 (Improve Maternal Health).\n\nNutrition: This was a key target under MDG 1 (Eradicate Extreme Poverty and Hunger).\n\nSafe Water Supply: This was a target under MDG 7 (Ensure Environmental Sustainability).\n\nAll three elements in option A were explicitly covered as major targets within the MDGs.\n\nWhy others are wrong:\nB: 'Health education' was an underlying strategy, not a specific MDG goal.\nC: Mental health was not explicitly addressed in the MDGs, though HIV/AIDS and safe water were included.\nD: 'Treatment of minor ailments' was not an MDG target; immunization and education were part of strategies, not top-level goals.",
+    "additional": "The 8 MDGs (2000–2015):\n1. Eradicate extreme poverty and hunger\n2. Achieve universal primary education\n3. Promote gender equality and empower women\n4. Reduce child mortality\n5. Improve maternal health\n6. Combat HIV/AIDS, malaria, and other diseases\n7. Ensure environmental sustainability\n8. Develop a global partnership for development\n\nFrom MDGs to SDGs: The MDGs were replaced by the 17 Sustainable Development Goals (SDGs) in 2015. SDG 3 is 'Good Health and Well-Being.'\n\n8 Elements of Primary Health Care (Alma-Ata Declaration):\n- Education on prevailing health problems\n- Disease control\n- Immunization (EPI)\n- Maternal and child health\n- Essential drugs\n- Nutrition\n- Treatment of common diseases\n- Safe water and sanitation"
   },
   {
     "question": "Que. 43. Pneumococcal conjugate vaccine (PVC 10) protects the child against:-",
@@ -1007,9 +1003,8 @@
       "C": "Streptococcus aureus.",
       "D": "Staphylococcus aureus"
     },
-    "answer": "(A) Streptococcus pneumoniae.",
-    "explanation": "Why 'A' is Correct: The Pneumococcal Conjugate Vaccine (PCV) is designed to protect against diseases caused by the bacterium Streptococcus pneumoniae, also known as pneumococcus. The '10' in PCV10 refers to the 10 most common serotypes covered by the vaccine. This bacterium causes pneumonia, meningitis, and sepsis in children.",
-    "why_others_wrong": "B: Staphylococcus pneumoniae is not a real organism — a distractor.\n\nC: Streptococcus aureus does not exist as a scientific name.\n\nD: Staphylococcus aureus causes different diseases (skin infections, MRSA), but PCV does not protect against it.",
+    "answer": "A",
+    "explanation": "Why 'A' is Correct: The Pneumococcal Conjugate Vaccine (PCV) is designed to protect against diseases caused by the bacterium Streptococcus pneumoniae, also known as pneumococcus. The '10' in PCV10 refers to the 10 most common serotypes covered by the vaccine. This bacterium causes pneumonia, meningitis, and sepsis in children.\n\nWhy others are wrong:\nB: Staphylococcus pneumoniae is not a real organism — a distractor.\nC: Streptococcus aureus does not exist as a scientific name.\nD: Staphylococcus aureus causes different diseases (skin infections, MRSA), but PCV does not protect against it.",
     "additional": "Pneumococcal Disease: Common cause of vaccine-preventable deaths in children. It can also cause otitis media.\n\nVaccine Type: Conjugate — links sugar capsule to a protein to enhance immune response.\n\nKenya EPI Schedule:\n- Vaccine: PCV10\n- Dose: 0.5 ml\n- Route: IM\n- Site: Right thigh\n- Schedule: At 6, 10, and 14 weeks, alongside Pentavalent (in left thigh)"
   },
   {
@@ -1020,12 +1015,12 @@
       "C": "9 months.",
       "D": "9 months and 18 months"
     },
-    "answer": "(D) 9 months and 18 months",
-    "explanation": "Why 'D' is Correct: This reflects the standard two-dose schedule for measles vaccination in Kenya and many other countries:\n\n- First Dose (MCV1): 9 months — after maternal antibodies have declined.\n- Second Dose (MCV2): 18 months — for full population immunity. Some children do not seroconvert after first dose, so the second ensures broader protection.",
-    "why_others_wrong": "A: Birth doses are for BCG and OPV0, not measles.\n\nB: 6 months is too early for routine measles due to maternal antibody interference.\n\nC: 9 months alone is incomplete — the second dose is also essential.",
+    "answer": "D",
+    "explanation": "Why 'D' is Correct: This reflects the standard two-dose schedule for measles vaccination in Kenya and many other countries:\n\n- First Dose (MCV1): 9 months — after maternal antibodies have declined.\n- Second Dose (MCV2): 18 months — for full population immunity. Some children do not seroconvert after first dose, so the second ensures broader protection.\n\nWhy others are wrong:\nA: Birth doses are for BCG and OPV0, not measles.\nB: 6 months is too early for routine measles due to maternal antibody interference.\nC: 9 months alone is incomplete — the second dose is also essential.",
     "additional": "Why 9 Months? Maternal antibodies can interfere if given earlier.\n\nMR Vaccine: Measles often given as Measles-Rubella (MR) now.\n\nSupplementary Immunization Activities (SIAs): Mass campaigns used to catch up missed doses and improve coverage, especially in outbreaks."
   }
 ]
+
 
 
 
