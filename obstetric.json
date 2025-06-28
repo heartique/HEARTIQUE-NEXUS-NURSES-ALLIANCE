@@ -49,380 +49,362 @@
   },
   {
     "question": "Fertilization occurs in one of the following parts of fallopian tube.",
-    "option": [
-      "(A) Infundibulum",
-      "(B) Fimbriae",
-      "(C) Ampulla",
-      "(D) Isthmus"
-    ],
-    "answers": "(C) Ampulla",
-    "explanation": "Rationale for Correct Answer (C): Fertilization, the fusion of a sperm and an ovum, almost always occurs in the ampulla, which is the widest, longest, outer-third portion of the fallopian tube (oviduct). After ovulation, the ovum is swept into the fallopian tube and travels to the ampulla, where it waits to be fertilized. Sperm travel up from the uterus to meet the egg here.\n\nAnalysis of Incorrect Options:\n\n(A) The infundibulum is the funnel-shaped opening of the fallopian tube near the ovary.\n\n(B) The fimbriae are the finger-like projections at the end of the infundibulum that sweep over the ovary to catch the ovulated egg.\n\n(D) The isthmus is the narrow, constricted portion of the fallopian tube that connects to the uterus.",
+    "options": {
+      "A": "Infundibulum",
+      "B": "Fimbriae",
+      "C": "Ampulla",
+      "D": "Isthmus"
+    },
+    "answer": "C",
+    "explanation": "Rationale for Correct Answer (C): Fertilization, the fusion of a sperm and an ovum, almost always occurs in the ampulla, which is the widest, longest, outer-third portion of the fallopian tube (oviduct). After ovulation, the ovum is swept into the fallopian tube and travels to the ampulla, where it waits to be fertilized. Sperm travel up from the uterus to meet the egg here.\n\nAnalysis of Incorrect Options:\n(A) The infundibulum is the funnel-shaped opening of the fallopian tube near the ovary.\n(B) The fimbriae are the finger-like projections at the end of the infundibulum that sweep over the ovary to catch the ovulated egg.\n(D) The isthmus is the narrow, constricted portion of the fallopian tube that connects to the uterus.",
     "additional": "Journey of the Zygote: After fertilization in the ampulla, the resulting zygote begins to divide (cleavage) and travels down the fallopian tube towards the uterus, a journey that takes about 3–4 days. It then floats in the uterus for another 2–3 days before implantation into the uterine wall occurs, approximately 6–10 days after fertilization.\n\nEctopic Pregnancy: If the zygote implants anywhere outside of the uterine cavity, it is an ectopic pregnancy. The most common site for an ectopic pregnancy is the ampulla of the fallopian tube. This is a medical emergency as the growing embryo can rupture the tube, leading to massive internal hemorrhage.\n\nTextbook Reference: Any standard maternity or women's health nursing textbook will cover this. In Maternity and Women's Health Care, 11th Ed. (Lowdermilk et al.), see Chapter 12: Conception and Fetal Development."
   },
   {
     "question": "In the female genital tract the sperms undergo physio-biochemical modification to allow spermovum interaction. This modification is known as:",
-    "option": [
-      "(A) Capacitation",
-      "(B) Transformation",
-      "(C) Reaction",
-      "(D) Activation"
-    ],
-    "answers": "(A) Capacitation",
-    "explanation": "Rationale for Correct Answer (A): Capacitation is the final maturation step for sperm, a series of functional changes that occur within the female reproductive tract. Freshly ejaculated sperm are unable to fertilize an egg. During capacitation, which takes several hours, secretions in the female tract remove certain glycoproteins and cholesterol from the sperm's head (acrosome). This makes the sperm's membrane more fluid and allows it to become hyperactivated (swim faster and more forcefully). This process is essential before the sperm can undergo the acrosome reaction and fertilize the ovum.\n\nAcrosome Reaction: After capacitation, when the sperm reaches the ovum, it undergoes the acrosome reaction. The outer membrane of the sperm's head fuses with the plasma membrane, releasing enzymes that allow the sperm to penetrate the outer layers of the egg.\n\nAnalysis of Incorrect Options:\n\n(B), (C), & (D) are general terms and are not the specific scientific name for this process. \"Transformation\" and \"Activation\" are too vague. \"Reaction\" is also too general, though the acrosome reaction is part of the overall process. Capacitation is the specific preparatory step.",
+    "options": {
+      "A": "Capacitation",
+      "B": "Transformation",
+      "C": "Reaction",
+      "D": "Activation"
+    },
+    "answer": "A",
+    "explanation": "Rationale for Correct Answer (A): Capacitation is the final maturation step for sperm, a series of functional changes that occur within the female reproductive tract. Freshly ejaculated sperm are unable to fertilize an egg. During capacitation, which takes several hours, secretions in the female tract remove certain glycoproteins and cholesterol from the sperm's head (acrosome). This makes the sperm's membrane more fluid and allows it to become hyperactivated (swim faster and more forcefully). This process is essential before the sperm can undergo the acrosome reaction and fertilize the ovum.\n\nAcrosome Reaction: After capacitation, when the sperm reaches the ovum, it undergoes the acrosome reaction. The outer membrane of the sperm's head fuses with the plasma membrane, releasing enzymes that allow the sperm to penetrate the outer layers of the egg.\n\nAnalysis of Incorrect Options:\n(B), (C), & (D) are general terms and are not the specific scientific name for this process. \"Transformation\" and \"Activation\" are too vague. \"Reaction\" is also too general, though the acrosome reaction is part of the overall process. Capacitation is the specific preparatory step.",
     "additional": "Textbook Reference: Maternity and Women's Health Care, 11th Ed. (Lowdermilk et al.), Chapter 12: Conception and Fetal Development."
   },
   {
     "question": "The placenta originates from one of the following parts of the fertilized ovum",
-    "option": [
-      "(A) Inner cell mass",
-      "(B) York sac",
-      "(C) Trophoblast",
-      "(D) Embryoblast"
-    ],
-    "answers": "(C) Trophoblast",
-    "explanation": "Rationale for Correct Answer (C): After fertilization, the zygote divides to form a solid ball of cells called a morula. The morula then develops into a blastocyst, which has two distinct parts:\n\nThe Inner Cell Mass (or Embryoblast): This inner group of cells will develop into the embryo and fetus itself.\n\nThe Trophoblast: This is the outer layer of cells of the blastocyst. The trophoblast is responsible for implantation into the uterine wall and develops into the chorion, which is the fetal portion of the placenta.\n\nAnalysis of Incorrect Options:\n\n(A) & (D) The Inner Cell Mass (also called the Embryoblast) develops into the fetus, not the placenta.\n\n(B) The yolk sac is another extraembryonic membrane that is initially important for transferring nutrients and is the site of early blood cell formation, but it does not form the placenta.",
+    "options": {
+      "A": "Inner cell mass",
+      "B": "York sac",
+      "C": "Trophoblast",
+      "D": "Embryoblast"
+    },
+    "answer": "C",
+    "explanation": "Rationale for Correct Answer (C): After fertilization, the zygote divides to form a solid ball of cells called a morula. The morula then develops into a blastocyst, which has two distinct parts:\n\nThe Inner Cell Mass (or Embryoblast): This inner group of cells will develop into the embryo and fetus itself.\n\nThe Trophoblast: This is the outer layer of cells of the blastocyst. The trophoblast is responsible for implantation into the uterine wall and develops into the chorion, which is the fetal portion of the placenta.\n\nAnalysis of Incorrect Options:\n(A) & (D) The Inner Cell Mass (also called the Embryoblast) develops into the fetus, not the placenta.\n(B) The yolk sac is another extraembryonic membrane that is initially important for transferring nutrients and is the site of early blood cell formation, but it does not form the placenta.",
     "additional": "Placental Function: Remember the key functions of the placenta:\n\nRespiration: Gas exchange (O2 in, CO2 out).\n\nNutrition: Transfers nutrients from mother to fetus.\n\nExcretion: Removes metabolic waste from the fetus.\n\nEndocrine: Produces essential hormones like hCG, progesterone, estrogen, and hPL.\n\nTextbook Reference: Maternity and Women's Health Care, 11th Ed. (Lowdermilk et al.), Chapter 12: Conception and Fetal Development."
   },
   {
     "question": "The following structures in fetal circulation joins the umbilical cord to the inferior vena cava",
-    "option": [
-      "(A) Ductus arteriosus",
-      "(B) Foramen ovale",
-      "(C) Ductus venosus",
-      "(D) Hypogastric arteries"
-    ],
-    "answers": "(C) Ductus venosus",
-    "explanation": "Rationale for Correct Answer (C): Fetal circulation is designed to bypass the fetal lungs and liver, which are not yet functional. There are three key shunts:\n\nDuctus Venosus: Oxygenated blood from the placenta travels up the umbilical vein. The ductus venosus is a shunt that allows about half of this oxygen-rich blood to bypass the fetal liver and flow directly into the inferior vena cava (IVC).\n\nForamen Ovale: A hole between the right and left atria. It allows most of the oxygenated blood entering the right atrium from the IVC to shunt directly to the left atrium, bypassing the non-functioning lungs.\n\nDuctus Arteriosus: A vessel connecting the pulmonary artery to the aorta. It shunts the deoxygenated blood from the right ventricle away from the lungs and into the aorta, to be sent back to the placenta for re-oxygenation.\n\nAnalysis of Incorrect Options:\n\n(A) The ductus arteriosus connects the pulmonary artery to the aorta.\n\n(B) The foramen ovale connects the right and left atria.\n\n(D) The hypogastric arteries are the fetal internal iliac arteries, which give rise to the two umbilical arteries that carry deoxygenated blood away from the fetus to the placenta.",
+    "options": {
+      "A": "Ductus arteriosus",
+      "B": "Foramen ovale",
+      "C": "Ductus venosus",
+      "D": "Hypogastric arteries"
+    },
+    "answer": "C",
+    "explanation": "Rationale for Correct Answer (C): Fetal circulation is designed to bypass the fetal lungs and liver, which are not yet functional. There are three key shunts:\n\nDuctus Venosus: Oxygenated blood from the placenta travels up the umbilical vein. The ductus venosus is a shunt that allows about half of this oxygen-rich blood to bypass the fetal liver and flow directly into the inferior vena cava (IVC).\n\nForamen Ovale: A hole between the right and left atria. It allows most of the oxygenated blood entering the right atrium from the IVC to shunt directly to the left atrium, bypassing the non-functioning lungs.\n\nDuctus Arteriosus: A vessel connecting the pulmonary artery to the aorta. It shunts the deoxygenated blood from the right ventricle away from the lungs and into the aorta, to be sent back to the placenta for re-oxygenation.\n\nAnalysis of Incorrect Options:\n(A) The ductus arteriosus connects the pulmonary artery to the aorta.\n(B) The foramen ovale connects the right and left atria.\n(D) The hypogastric arteries are the fetal internal iliac arteries, which give rise to the two umbilical arteries that carry deoxygenated blood away from the fetus to the placenta.",
     "additional": "Mnemonic: Remember what the vessels carry: The umbilical Vein carries oxygenated blood (like a pulmonary Vein). The umbilical Arteries carry deoxygenated blood (like a pulmonary Artery). There are two arteries and one vein in the umbilical cord.\n\nTextbook Reference: Maternity and Women's Health Care, 11th Ed. (Lowdermilk et al.), Chapter 12: Conception and Fetal Development."
   },
   {
     "question": "Antenatal care of HIV positive client includes:",
-    "option": [
-      "(A) Antiretroviral therapy for life immediately HIV positive status is confirmed",
-      "(B) Sulfadoxine Pyrimethamine(SP)and cotrimoxazole prophylaxis daily until delivery",
-      "(C) Antiretroviral therapy up to postnatal period from the time the CD4 count is established",
-      "(D) Delay administration of Sulfadoxine Pyrimethamine until antiretroviral therapy is started"
-    ],
-    "answers": "(A) Antiretroviral therapy for life immediately HIV positive status is confirmed",
-    "explanation": "Rationale for Correct Answer (A): Current global and national guidelines (including WHO and many national programs) recommend a \"test and treat\" or \"treat all\" strategy. This means that once a person, including a pregnant woman, is diagnosed with HIV, they should be started on lifelong antiretroviral therapy (ART) as soon as possible, regardless of their CD4 count. For a pregnant woman, this has two critical benefits:\n\nMaternal Health: It suppresses the virus, preserving the mother's own immune function and health.\n\nPMTCT: It dramatically reduces the viral load, which is the single most important factor in preventing transmission of the virus to the baby during pregnancy, labor, delivery, and breastfeeding. The goal is to achieve an \"undetectable\" viral load.\n\nAnalysis of Incorrect Options:\n\n(B) Sulfadoxine-Pyrimethamine (SP) is for malaria prophylaxis (Intermittent Preventive Treatment in pregnancy - IPTp), not HIV. Cotrimoxazole (CTX) prophylaxis is given to HIV-positive individuals (including pregnant women) to prevent opportunistic infections like PCP pneumonia, but it is typically started based on the CD4 count (usually <350 or <500) or WHO clinical stage, not automatically for everyone.\n\n(C) ART is recommended for life, not just up to the postnatal period. Stopping ART would lead to viral rebound, disease progression for the mother, and a risk of transmission through breastfeeding.\n\n(D) The administration of SP for malaria and CTX for OI prophylaxis is managed alongside ART; there is no standard rule to delay it until ART is started. They are often given concurrently based on their respective indications.",
+    "options": {
+      "A": "Antiretroviral therapy for life immediately HIV positive status is confirmed",
+      "B": "Sulfadoxine Pyrimethamine(SP)and cotrimoxazole prophylaxis daily until delivery",
+      "C": "Antiretroviral therapy up to postnatal period from the time the CD4 count is established",
+      "D": "Delay administration of Sulfadoxine Pyrimethamine until antiretroviral therapy is started"
+    },
+    "answer": "A",
+    "explanation": "Rationale for Correct Answer (A): Current global and national guidelines (including WHO and many national programs) recommend a \"test and treat\" or \"treat all\" strategy. This means that once a person, including a pregnant woman, is diagnosed with HIV, they should be started on lifelong antiretroviral therapy (ART) as soon as possible, regardless of their CD4 count. For a pregnant woman, this has two critical benefits:\n\nMaternal Health: It suppresses the virus, preserving the mother's own immune function and health.\n\nPMTCT: It dramatically reduces the viral load, which is the single most important factor in preventing transmission of the virus to the baby during pregnancy, labor, delivery, and breastfeeding. The goal is to achieve an \"undetectable\" viral load.\n\nAnalysis of Incorrect Options:\n(B) Sulfadoxine-Pyrimethamine (SP) is for malaria prophylaxis (Intermittent Preventive Treatment in pregnancy - IPTp), not HIV. Cotrimoxazole (CTX) prophylaxis is given to HIV-positive individuals (including pregnant women) to prevent opportunistic infections like PCP pneumonia, but it is typically started based on the CD4 count (usually <350 or <500) or WHO clinical stage, not automatically for everyone.\n\n(C) ART is recommended for life, not just up to the postnatal period. Stopping ART would lead to viral rebound, disease progression for the mother, and a risk of transmission through breastfeeding.\n\n(D) The administration of SP for malaria and CTX for OI prophylaxis is managed alongside ART; there is no standard rule to delay it until ART is started. They are often given concurrently based on their respective indications.",
     "additional": "PMTCT Core Interventions:\n\nRoutine HIV testing for all pregnant women.\n\nLifelong ART for all HIV-positive pregnant and breastfeeding women.\n\nInfant prophylaxis: The newborn will also receive a short course of antiretroviral drugs (e.g., nevirapine or zidovudine) for several weeks after birth as an extra layer of protection.\n\nSafe infant feeding counseling (in settings where safe alternatives are available).\n\nTextbook Reference: Maternity and Women's Health Care, 11th Ed. (Lowdermilk et al.), Chapter 21: The Pregnant Woman With Complications."
   },
   {
     "question": "A client who is pregnant reports nausea and vomiting. The nurse reassures the client that these symptoms will subside by;",
-    "option": [
-      "(A) 6-9 WEEKS",
-      "(B) 10-13 WEEKS",
-      "(C) 14-17 WEEKS",
-      "(D) 18- 22 WEEKS"
-    ],
-    "answers": "(B) 10-13 WEEKS",
-    "explanation": "Rationale for Correct Answer (B): Nausea and vomiting of pregnancy (NVP), often called \"morning sickness,\" is very common in the first trimester. It is thought to be caused by rapidly rising levels of hormones, particularly human chorionic gonadotropin (hCG). hCG levels peak at approximately 9-10 weeks of gestation and then begin to decline. As the hCG levels fall, the symptoms of nausea and vomiting typically begin to subside. For most women, significant relief is felt by the end of the first trimester, around 12 to 14 weeks. Option (B) best captures this time frame.\n\nAnalysis of Incorrect Options:\n\n(A) Symptoms are usually just beginning or are at their peak during this time, not subsiding.\n\n(C) & (D) While a small percentage of women have symptoms that persist longer, for the vast majority, NVP has resolved by the beginning of the second trimester (14 weeks). It would be incorrect to tell a typical client they might have to wait this long.",
+    "options": {
+      "A": "6-9 WEEKS",
+      "B": "10-13 WEEKS",
+      "C": "14-17 WEEKS",
+      "D": "18- 22 WEEKS"
+    },
+    "answer": "B",
+    "explanation": "Rationale for Correct Answer (B): Nausea and vomiting of pregnancy (NVP), often called \"morning sickness,\" is very common in the first trimester. It is thought to be caused by rapidly rising levels of hormones, particularly human chorionic gonadotropin (hCG). hCG levels peak at approximately 9-10 weeks of gestation and then begin to decline. As the hCG levels fall, the symptoms of nausea and vomiting typically begin to subside. For most women, significant relief is felt by the end of the first trimester, around 12 to 14 weeks. Option (B) best captures this time frame.\n\nAnalysis of Incorrect Options:\n(A) Symptoms are usually just beginning or are at their peak during this time, not subsiding.\n(C) & (D) While a small percentage of women have symptoms that persist longer, for the vast majority, NVP has resolved by the beginning of the second trimester (14 weeks). It would be incorrect to tell a typical client they might have to wait this long.",
     "additional": "Management of NVP:\n\nEat small, frequent meals to avoid an empty stomach.\n\nEat crackers or dry toast before getting out of bed in the morning.\n\nAvoid greasy, spicy, or strong-smelling foods.\n\nSip on clear, cold fluids. Ginger (in tea or candies) can be helpful.\n\nVitamin B6 (pyridoxine) and doxylamine (an antihistamine) are safe and effective first-line medications.\n\nHyperemesis Gravidarum: This is a severe, intractable form of NVP that leads to weight loss, dehydration, and electrolyte imbalances. It often requires hospitalization for IV fluids and antiemetics.\n\nTextbook Reference: Maternity and Women's Health Care, 11th Ed. (Lowdermilk et al.), Chapter 13: Maternal and Fetal Nutrition (covers discomforts of pregnancy)."
   },
   {
     "question": "The following type of exercises should be avoided in pregnancy",
-    "option": [
-      "(A) Walking for 30 minutes",
-      "(B) Sexual intercourse",
-      "(C) Aerobic exercise",
-      "(D) Mountain climbing"
-    ],
-    "answers": "(D) Mountain climbing",
-    "explanation": "Rationale for Correct Answer (D): Exercise is generally encouraged during a healthy, low-risk pregnancy. However, certain activities pose significant risks. Mountain climbing (and other high-altitude activities) should be avoided for two main reasons:\n\nRisk of Falls: A fall could cause serious trauma to both the mother and the fetus.\n\nHypoxia: At high altitudes, there is less oxygen in the air. This can lead to maternal hypoxia, which in turn reduces the oxygen supply to the fetus.\n\nOther activities to avoid include contact sports (risk of abdominal trauma), activities with a high risk of falling (like skiing, gymnastics), and scuba diving (risk of decompression sickness for the fetus).\n\nAnalysis of Incorrect Options:\n\n(A) Walking is an excellent, low-impact form of exercise that is highly recommended during pregnancy.\n\n(B) Sexual intercourse is safe throughout a normal, low-risk pregnancy. It is typically only contraindicated in specific situations like unexplained vaginal bleeding, placenta previa, or preterm labor.\n\n(C) Aerobic exercise (like walking, swimming, stationary cycling) is beneficial for cardiovascular health and is recommended for at least 30 minutes on most days of the week, provided the pregnancy is uncomplicated.",
+    "options": {
+      "A": "Walking for 30 minutes",
+      "B": "Sexual intercourse",
+      "C": "Aerobic exercise",
+      "D": "Mountain climbing"
+    },
+    "answer": "D",
+    "explanation": "Rationale for Correct Answer (D): Exercise is generally encouraged during a healthy, low-risk pregnancy. However, certain activities pose significant risks. Mountain climbing (and other high-altitude activities) should be avoided for two main reasons:\n\nRisk of Falls: A fall could cause serious trauma to both the mother and the fetus.\n\nHypoxia: At high altitudes, there is less oxygen in the air. This can lead to maternal hypoxia, which in turn reduces the oxygen supply to the fetus.\n\nOther activities to avoid include contact sports (risk of abdominal trauma), activities with a high risk of falling (like skiing, gymnastics), and scuba diving (risk of decompression sickness for the fetus).\n\nAnalysis of Incorrect Options:\n(A) Walking is an excellent, low-impact form of exercise that is highly recommended during pregnancy.\n(B) Sexual intercourse is safe throughout a normal, low-risk pregnancy. It is typically only contraindicated in specific situations like unexplained vaginal bleeding, placenta previa, or preterm labor.\n(C) Aerobic exercise (like walking, swimming, stationary cycling) is beneficial for cardiovascular health and is recommended for at least 30 minutes on most days of the week, provided the pregnancy is uncomplicated.",
     "additional": "Benefits of Exercise in Pregnancy: Helps with weight management, reduces risk of gestational diabetes, improves mood, and can ease back pain and constipation.\n\nWarning Signs to Stop Exercise: The client should be taught to stop exercising and contact her provider if she experiences vaginal bleeding, dizziness, shortness of breath before exertion, chest pain, or uterine contractions.\n\nTextbook Reference: Maternity and Women's Health Care, 11th Ed. (Lowdermilk et al.), Chapter 14: Assessment of Fetal Well-Being (often includes education on self-care and exercise)."
   },
   {
     "question": "In class III cardiac disease in pregnancy, patient has:",
-    "option": [
-      "(A) No limitation of physical activity, heart murmur on general examination",
-      "(B) Slight limitation of physical activity, no symptoms when at rest",
-      "(C) Marked limitation of physical activity, slight exertion leads to fatigue, palpitations, dyspnea",
-      "(D) Inability to carry out any physical activity without discomfort, signs of cardiac disease and heart failure even at rest"
-    ],
-    "answers": "(C) Marked limitation of physical activity, slight exertion leads to fatigue, palpitations, dyspnea",
-    "explanation": "Rationale for Correct Answer (C): The functional classification of cardiac disease (often from the New York Heart Association - NYHA) is used to categorize the severity of heart disease based on symptoms and physical limitations. Pregnancy places a significant burden on the cardiovascular system, and women with pre-existing heart disease are at high risk.\n\nClass I: No limitation of physical activity. Ordinary activity does not cause undue fatigue, palpitations, or dyspnea.\n\nClass II: Slight limitation of physical activity. Comfortable at rest, but ordinary physical activity results in fatigue, palpitations, or dyspnea.\n\nClass III: Marked limitation of physical activity. Comfortable at rest, but less than ordinary activity (slight exertion) causes fatigue, palpitations, or dyspnea.\n\nClass IV: Inability to carry on any physical activity without discomfort. Symptoms of cardiac insufficiency may be present even at rest.\n\nAnalysis of Incorrect Options:\n\n(A) Describes Class I.\n\n(B) Describes Class II.\n\n(D) Describes Class IV.",
+    "options": {
+      "A": "No limitation of physical activity, heart murmur on general examination",
+      "B": "Slight limitation of physical activity, no symptoms when at rest",
+      "C": "Marked limitation of physical activity, slight exertion leads to fatigue, palpitations, dyspnea",
+      "D": "Inability to carry out any physical activity without discomfort, signs of cardiac disease and heart failure even at rest"
+    },
+    "answer": "C",
+    "explanation": "Rationale for Correct Answer (C): The functional classification of cardiac disease (often from the New York Heart Association - NYHA) is used to categorize the severity of heart disease based on symptoms and physical limitations. Pregnancy places a significant burden on the cardiovascular system, and women with pre-existing heart disease are at high risk.\n\nClass I: No limitation of physical activity. Ordinary activity does not cause undue fatigue, palpitations, or dyspnea.\n\nClass II: Slight limitation of physical activity. Comfortable at rest, but ordinary physical activity results in fatigue, palpitations, or dyspnea.\n\nClass III: Marked limitation of physical activity. Comfortable at rest, but less than ordinary activity (slight exertion) causes fatigue, palpitations, or dyspnea.\n\nClass IV: Inability to carry on any physical activity without discomfort. Symptoms of cardiac insufficiency may be present even at rest.\n\nAnalysis of Incorrect Options:\n(A) Describes Class I.\n(B) Describes Class II.\n(D) Describes Class IV.",
     "additional": "Management of Cardiac Disease in Pregnancy: The goal is to minimize the workload on the heart.\n\nRequires close monitoring by both a cardiologist and an obstetrician.\n\nLimit physical activity and ensure adequate rest periods.\n\nPrevent infection and treat it promptly.\n\nManage nutrition to prevent excessive weight gain and anemia.\n\nLabor and delivery require careful management to reduce strain (e.g., epidural anesthesia, assisted delivery with forceps or vacuum).\n\nPeak Hemodynamic Load: The greatest cardiovascular stress occurs between 28–32 weeks gestation and during the immediate postpartum period. This is when women with cardiac disease are most likely to decompensate.\n\nTextbook Reference: Maternity and Women's Health Care, 11th Ed. (Lowdermilk et al.), Chapter 29: Cardiovascular and Respiratory Disorders in Pregnancy."
   },
   {
     "question": "The following statement is true concerning preeclampsia.",
-    "option": [
-      "(A) Oedema is considered as part of the diagnosis of preeclampsia",
-      "(B) Preeclampsia is primarily hypertension during pregnancy",
-      "(C) The cardinal signs of preeclampsia include oedema and headache",
-      "(D) Preeclampsia is gestational hypertension plus proteinuria"
-    ],
-    "answers": "(D) Preeclampsia is gestational hypertension plus proteinuria",
-    "explanation": "Rationale for Correct Answer (D): The classic definition of preeclampsia is a multisystem disorder of pregnancy characterized by the new onset of hypertension (BP ≥ 140/90 mmHg on two occasions at least 4 hours apart after 20 weeks of gestation) PLUS proteinuria (≥ 300 mg in a 24-hour urine collection, or a protein/creatinine ratio ≥ 0.3, or a dipstick reading of 1+ or more). This combination is the defining diagnostic criterion.\n\nAnalysis of Incorrect Options:\n\n(A) & (C) Edema (swelling) was once part of the \"classic triad\" but is no longer a diagnostic criterion for preeclampsia. Many women have normal pregnancy-related edema. While generalized edema is common in women with preeclampsia, its absence does not rule out the diagnosis. Headache is a symptom of severe preeclampsia, not a cardinal diagnostic sign for all cases.\n\n(B) Hypertension alone, without proteinuria or other signs of end-organ damage, is classified as gestational hypertension. Preeclampsia is more than just hypertension; it is a systemic disease.",
+    "options": {
+      "A": "Oedema is considered as part of the diagnosis of preeclampsia",
+      "B": "Preeclampsia is primarily hypertension during pregnancy",
+      "C": "The cardinal signs of preeclampsia include oedema and headache",
+      "D": "Preeclampsia is gestational hypertension plus proteinuria"
+    },
+    "answer": "D",
+    "explanation": "Rationale for Correct Answer (D): The classic definition of preeclampsia is a multisystem disorder of pregnancy characterized by the new onset of hypertension (BP ≥ 140/90 mmHg on two occasions at least 4 hours apart after 20 weeks of gestation) PLUS proteinuria (≥ 300 mg in a 24-hour urine collection, or a protein/creatinine ratio ≥ 0.3, or a dipstick reading of 1+ or more). This combination is the defining diagnostic criterion.\n\nAnalysis of Incorrect Options:\n(A) & (C) Edema (swelling) was once part of the \"classic triad\" but is no longer a diagnostic criterion for preeclampsia. Many women have normal pregnancy-related edema. While generalized edema is common in women with preeclampsia, its absence does not rule out the diagnosis. Headache is a symptom of severe preeclampsia, not a cardinal diagnostic sign for all cases.\n\n(B) Hypertension alone, without proteinuria or other signs of end-organ damage, is classified as gestational hypertension. Preeclampsia is more than just hypertension; it is a systemic disease.",
     "additional": "Preeclampsia with Severe Features: It is crucial to know the signs that indicate the disease has become severe, as this requires immediate intervention (often delivery). These include:\n\nSevere hypertension (BP ≥ 160/110 mmHg).\nThrombocytopenia (platelets < 100,000).\nImpaired liver function (elevated liver enzymes - AST, ALT).\nSevere persistent right upper quadrant or epigastric pain.\nProgressive renal insufficiency (rising creatinine).\nPulmonary edema.\nNew-onset cerebral or visual disturbances (headache, blurred vision, scotomata).\n\nHELLP Syndrome: A severe variant of preeclampsia: Hemolysis, Elevated Liver enzymes, Low Platelets.\n\nEclampsia: The onset of seizures in a woman with preeclampsia.\n\nTreatment: The only definitive cure for preeclampsia is delivery of the fetus and placenta. Management involves close monitoring and, for severe cases, administration of magnesium sulfate to prevent seizures and antihypertensives to control BP.\n\nTextbook Reference: Maternity and Women's Health Care, 11th Ed. (Lowdermilk et al.), Chapter 27: Hypertensive Disorders in Pregnancy."
   },
   {
     "question": "Effects of gestational diabetes on the fetus include:",
-    "option": [
-      "(A) Congenital malformation, macrosomia",
-      "(B) Fetal hypoglycaemia, congenital anomalies",
-      "(C) Hypocalcemia, fetal hyperglyceamia",
-      "(D) Macrosomia, fetal hypoglycaemia"
-    ],
-    "answers": "(D) Macrosomia, fetal hypoglycaemia",
-    "explanation": "Rationale for Correct Answer (D): Gestational Diabetes Mellitus (GDM) is diabetes that develops during pregnancy.\n\nPathophysiology: The mother has hyperglycemia. Glucose freely crosses the placenta to the fetus, but the mother's insulin does not. The fetal pancreas responds to this high glucose load by producing large amounts of its own insulin (hyperinsulinemia).\n\nMacrosomia: Insulin acts as a powerful growth hormone. The fetal hyperinsulinemia causes the fetus to grow excessively large, particularly by storing extra glucose as fat. This condition is called macrosomia (birth weight > 4000g).\n\nNeonatal Hypoglycemia: After birth, the umbilical cord is cut, and the continuous supply of glucose from the mother abruptly stops. However, the newborn's pancreas is still hyperactive and continues to produce large amounts of insulin. This combination of high insulin and no incoming glucose causes the baby's blood sugar to drop rapidly, leading to neonatal hypoglycemia. This is the most common metabolic complication for an infant of a diabetic mother.\n\nAnalysis of Incorrect Options:\n\n(A) & (B) Congenital malformations (especially cardiac and neural tube defects) are strongly associated with pre-existing diabetes (Type 1 or 2) that is poorly controlled during the first trimester when organogenesis occurs. GDM develops later in pregnancy (usually after 20-24 weeks), after organ formation is complete, so it is not a major cause of congenital anomalies.\n\n(C) Hypocalcemia and polycythemia are also potential neonatal complications, but fetal hyperglycemia is the cause, not the effect on the newborn. The newborn experiences hypoglycemia.",
+    "options": {
+      "A": "Congenital malformation, macrosomia",
+      "B": "Fetal hypoglycaemia, congenital anomalies",
+      "C": "Hypocalcemia, fetal hyperglyceamia",
+      "D": "Macrosomia, fetal hypoglycaemia"
+    },
+    "answer": "D",
+    "explanation": "Rationale for Correct Answer (D): Gestational Diabetes Mellitus (GDM) is diabetes that develops during pregnancy.\n\nPathophysiology: The mother has hyperglycemia. Glucose freely crosses the placenta to the fetus, but the mother's insulin does not. The fetal pancreas responds to this high glucose load by producing large amounts of its own insulin (hyperinsulinemia).\n\nMacrosomia: Insulin acts as a powerful growth hormone. The fetal hyperinsulinemia causes the fetus to grow excessively large, particularly by storing extra glucose as fat. This condition is called macrosomia (birth weight > 4000g).\n\nNeonatal Hypoglycemia: After birth, the umbilical cord is cut, and the continuous supply of glucose from the mother abruptly stops. However, the newborn's pancreas is still hyperactive and continues to produce large amounts of insulin. This combination of high insulin and no incoming glucose causes the baby's blood sugar to drop rapidly, leading to neonatal hypoglycemia. This is the most common metabolic complication for an infant of a diabetic mother.",
     "additional": "Other Risks to the Fetus/Newborn:\n\nBirth trauma (due to macrosomia).\nRespiratory Distress Syndrome (RDS) (high levels of fetal insulin can delay surfactant production).\nHyperbilirubinemia/Jaundice.\n\nScreening for GDM: Typically done between 24 and 28 weeks of gestation with a glucose tolerance test.\n\nManagement: First-line management is diet and exercise. If blood glucose targets are not met, insulin or oral agents like metformin may be started.\n\nTextbook Reference: Maternity and Women's Health Care, 11th Ed. (Lowdermilk et al.), Chapter 28: Endocrine and Metabolic Disorders in Pregnancy."
   },
   {
     "question": "Which of the following sex hormone is produced during throughout the menstrual cycle",
-    "option": [
-      "(A) Follicle stimulating hormone",
-      "(B) Luteinizing hormone",
-      "(C) Estrogen",
-      "(D) Progesterone"
-    ],
-    "answers": "(C) Estrogen",
-    "explanation": "Rationale for Correct Answer (C): Estrogen is present throughout the entire menstrual cycle, though its levels fluctuate significantly.\n\nFollicular Phase (First Half): Estrogen is produced by the developing ovarian follicle under the stimulation of FSH. It is responsible for rebuilding the uterine lining (the proliferative phase).\n\nLuteal Phase (Second Half): After ovulation, the corpus luteum (formed from the ruptured follicle) continues to produce estrogen, along with large amounts of progesterone, to maintain the uterine lining for a potential pregnancy. If no pregnancy occurs, the corpus luteum degenerates, estrogen and progesterone levels fall, and menstruation begins.\n\nAnalysis of Incorrect Options:\n\n(A) FSH is high during the early follicular phase to stimulate follicle growth but is low during the luteal phase.\n\n(B) LH is low throughout most of the cycle, with a dramatic \"LH surge\" in the middle of the cycle that triggers ovulation.\n\n(D) Progesterone levels are very low during the follicular phase and only rise significantly after ovulation, during the luteal phase.",
+    "options": {
+      "A": "Follicle stimulating hormone",
+      "B": "Luteinizing hormone",
+      "C": "Estrogen",
+      "D": "Progesterone"
+    },
+    "answer": "C",
+    "explanation": "Rationale for Correct Answer (C): Estrogen is present throughout the entire menstrual cycle, though its levels fluctuate significantly.\n\nFollicular Phase (First Half): Estrogen is produced by the developing ovarian follicle under the stimulation of FSH. It is responsible for rebuilding the uterine lining (the proliferative phase).\n\nLuteal Phase (Second Half): After ovulation, the corpus luteum (formed from the ruptured follicle) continues to produce estrogen, along with large amounts of progesterone, to maintain the uterine lining for a potential pregnancy. If no pregnancy occurs, the corpus luteum degenerates, estrogen and progesterone levels fall, and menstruation begins.",
     "additional": "Menstrual Cycle Hormonal Profile:\n\nMenstruation: All hormones are low.\nFollicular Phase: Rising FSH -> Rising Estrogen.\nMid-cycle: Estrogen peak -> LH surge -> Ovulation.\nLuteal Phase: Corpus luteum produces high levels of Progesterone and moderate levels of Estrogen.\n\nLate Luteal Phase (No Pregnancy): Corpus luteum dies -> Progesterone and Estrogen fall -> Menstruation.\n\nhCG: If pregnancy occurs, the developing embryo produces hCG, which \"rescues\" the corpus luteum, keeping progesterone and estrogen levels high to maintain the pregnancy.\n\nTextbook Reference: Maternity and Women's Health Care, 11th Ed. (Lowdermilk et al.), Chapter 3: Anatomy and Physiology of the Reproductive Systems."
   },
   {
     "question": "The following hormones are produced by the pituitary gland",
-    "option": [
-      "(A) Follicle stimulating hormone and Luteinizing hormone",
-      "(B) Estrogen and Progesterone",
-      "(C) Follicle stimulating hormone and Estrogen",
-      "(D) Luteinizing hormone and Progesterone"
-    ],
-    "answers": "(A) Follicle stimulating hormone and Luteinizing hormone",
-    "explanation": "Rationale for Correct Answer (A): The anterior pituitary gland is a master endocrine gland that produces several hormones. The two that directly regulate the reproductive cycle (the gonadotropins) are:\n\nFollicle-Stimulating Hormone (FSH): Stimulates the ovarian follicles to grow and produce estrogen in females, and stimulates sperm production in males.\n\nLuteinizing Hormone (LH): Triggers ovulation and stimulates the corpus luteum to produce progesterone in females, and stimulates the testes to produce testosterone in males.\n\nAnalysis of Incorrect Options:\n\n(B) Estrogen and Progesterone are steroid hormones produced primarily by the ovaries (specifically, the follicle and corpus luteum).\n\n(C) & (D) These options incorrectly mix a pituitary hormone with an ovarian hormone.",
+    "options": {
+      "A": "Follicle stimulating hormone and Luteinizing hormone",
+      "B": "Estrogen and Progesterone",
+      "C": "Follicle stimulating hormone and Estrogen",
+      "D": "Luteinizing hormone and Progesterone"
+    },
+    "answer": "A",
+    "explanation": "Rationale for Correct Answer (A): The anterior pituitary gland is a master endocrine gland that produces several hormones. The two that directly regulate the reproductive cycle (the gonadotropins) are:\n\nFollicle-Stimulating Hormone (FSH): Stimulates the ovarian follicles to grow and produce estrogen in females, and stimulates sperm production in males.\n\nLuteinizing Hormone (LH): Triggers ovulation and stimulates the corpus luteum to produce progesterone in females, and stimulates the testes to produce testosterone in males.",
     "additional": "The HPO Axis: The reproductive cycle is controlled by the Hypothalamic-Pituitary-Ovarian (HPO) Axis.\n\nThe Hypothalamus secretes Gonadotropin-Releasing Hormone (GnRH).\nGnRH tells the Anterior Pituitary to secrete FSH and LH.\nFSH and LH act on the Ovaries to cause follicle development, ovulation, and the production of estrogen and progesterone.\n\nThis axis operates on a negative feedback system, similar to the thyroid axis. Oral contraceptive pills work by providing steady levels of estrogen and progestin, which inhibit the pituitary's release of FSH and LH, thus preventing ovulation.\n\nTextbook Reference: Maternity and Women's Health Care, 11th Ed. (Lowdermilk et al.), Chapter 3: Anatomy and Physiology of the Reproductive Systems."
   },
   {
     "question": "Uterovesical pouch is formed when",
-    "option": [
-      "(A) Perimetrium is deflected over the bladder anteriorly",
-      "(B) Perimetrium is deflected over the rectum posteriorly",
-      "(C) Endometrium is deflected over the bladder anteriorly",
-      "(D) Endometrium Is Deflected Over the rectum posteriorly"
-    ],
-    "answers": "(A) Perimetrium is deflected over the bladder anteriorly",
+    "options": {
+      "A": "Perimetrium is deflected over the bladder anteriorly",
+      "B": "Perimetrium is deflected over the rectum posteriorly",
+      "C": "Endometrium is deflected over the bladder anteriorly",
+      "D": "Endometrium Is Deflected Over the rectum posteriorly"
+    },
+    "answer": "A",
     "explanation": "Rationale for Correct Answer (A): This question tests knowledge of female pelvic anatomy. The peritoneum is the serous membrane that lines the abdominal cavity and covers the abdominal organs. As it drapes over the pelvic organs, it forms pouches or folds.\n\nThe perimetrium is the specific name for the part of the peritoneum that covers the outer surface of the uterus.\n\nWhen this perimetrium drapes over the uterus and then reflects forward (anteriorly) over the top of the urinary bladder, it creates a shallow pouch between the two organs. This is called the uterovesical pouch (utero- for uterus, -vesical for bladder).",
-    "additional": "Analysis of Incorrect Options:\n\n(B) When the perimetrium reflects backward (posteriorly) over the rectum, it forms the deep rectouterine pouch, also known as the Pouch of Douglas.\n\n(C) & (D) The endometrium is the inner lining of the uterus, where the embryo implants. It is not involved in forming the external pouches.\n\nClinical Significance: These pouches are clinically important. For example, the Pouch of Douglas is the lowest point in the female pelvic cavity, and fluid (like blood from a ruptured ectopic pregnancy or pus from an infection) can collect there.\n\nTextbook Reference: This is a detailed anatomy question. It would be found in a dedicated anatomy and physiology textbook or a detailed gynecology text. It may be briefly mentioned in Maternity and Women's Health Care, 11th Ed., Chapter 3: Anatomy and Physiology of the Reproductive Systems."
+    "additional": "Clinical Significance: These pouches are clinically important. For example, the Pouch of Douglas is the lowest point in the female pelvic cavity, and fluid (like blood from a ruptured ectopic pregnancy or pus from an infection) can collect there.\n\nTextbook Reference: This is a detailed anatomy question. It would be found in a dedicated anatomy and physiology textbook or a detailed gynecology text. It may be briefly mentioned in Maternity and Women's Health Care, 11th Ed., Chapter 3."
   },
   {
     "question": "The following hormone causes development of new blood vessels to the uterus",
-    "option": [
-      "(A) Eostrogen",
-      "(B) Progesterone",
-      "(C) Luteinizing hormone",
-      "(D) Follicle stimulating hormone"
-    ],
-    "answers": "(A) Eostrogen (Estrogen)",
+    "options": {
+      "A": "Eostrogen",
+      "B": "Progesterone",
+      "C": "Luteinizing hormone",
+      "D": "Follicle stimulating hormone"
+    },
+    "answer": "A",
     "explanation": "Rationale for Correct Answer (A): Estrogen is the primary hormone responsible for the proliferative phase of the menstrual cycle. After menstruation, rising estrogen levels (produced by the growing ovarian follicle) stimulate the regeneration and growth of the endometrium (the inner lining of the uterus). This includes causing the endometrial glands to grow and, crucially, stimulating angiogenesis, which is the formation of new spiral arteries and other blood vessels to supply this thickening lining, preparing it for a potential pregnancy.",
-    "additional": "Analysis of Incorrect Options:\n\n(B) Progesterone, which dominates the second half of the cycle (the luteal phase), is primarily responsible for making the endometrium more vascular and glandular (the \"secretory phase\"). It makes the uterine lining receptive to implantation but does not cause the initial proliferation and blood vessel development in the same way estrogen does. Its main job is to maintain the lining.\n\n(C) & (D) LH and FSH are pituitary hormones that act on the ovary. They do not have a direct effect on the uterine lining or its blood vessels.\n\nHormonal Roles in Uterine Cycle:\n\nEstrogen: \"Builds the house.\" It causes the endometrium to proliferate (thicken) and develop a rich blood supply.\n\nProgesterone: \"Makes the house ready for the baby.\" It makes the endometrium secretory and maintains it, ready for implantation. A drop in progesterone triggers menstruation.\n\nTextbook Reference: Maternity and Women's Health Care, 11th Ed. (Lowdermilk et al.), Chapter 3: Anatomy and Physiology of the Reproductive Systems, focusing on the Endometrial Cycle."
+    "additional": "Hormonal Roles in Uterine Cycle:\n\nEstrogen: \"Builds the house.\" It causes the endometrium to proliferate (thicken) and develop a rich blood supply.\n\nProgesterone: \"Makes the house ready for the baby.\" It makes the endometrium secretory and maintains it, ready for implantation. A drop in progesterone triggers menstruation.\n\nTextbook Reference: Maternity and Women's Health Care, 11th Ed., Chapter 3."
   },
   {
     "question": "Colostrum can be expressed at:",
-    "option": [
-      "(A) 6 weeks gestation",
-      "(B) 12 weeks gestation",
-      "(C) late pregnancy",
-      "(D) 16weeks gestation"
-    ],
-    "answers": "(D) 16 weeks gestation",
+    "options": {
+      "A": "6 weeks gestation",
+      "B": "12 weeks gestation",
+      "C": "late pregnancy",
+      "D": "16weeks gestation"
+    },
+    "answer": "D",
     "explanation": "Rationale for Correct Answer (D): The breasts begin preparing for lactation early in pregnancy under the influence of hormones like estrogen, progesterone, and human placental lactogen (hPL). The alveoli in the breast start producing colostrum, the \"pre-milk,\" as early as the 16th week of gestation. While some women may not notice it or be able to express it until later, its production is underway by the middle of the second trimester. Therefore, 16 weeks is the most accurate timeframe among the choices.",
-    "additional": "Analysis of Incorrect Options:\n\n(A) 6 weeks is too early for colostrum production.\n\n(B) 12 weeks is also generally considered too early for the alveoli to be actively secreting.\n\n(C) \"Late pregnancy\" is also correct, as many women first notice leakage of colostrum in the third trimester. However, the question asks when it can be expressed, implying when production begins. Production starts much earlier, around 16 weeks.\n\nWhat is Colostrum? It is a thick, yellowish fluid that is rich in protein, minerals, and, most importantly, antibodies (especially IgA). It provides the newborn with crucial passive immunity. It has less fat and sugar than mature milk but is perfectly suited for the newborn's first few days of life.\n\nHormonal Control of Lactation:\n\nDuring pregnancy, high levels of progesterone inhibit the full release of milk.\n\nAfter delivery, the placenta is expelled, causing a sharp drop in progesterone levels. This allows the hormone prolactin (from the pituitary) to act on the breast to stimulate milk production.\n\nOxytocin (also from the pituitary) is responsible for the \"let-down\" reflex, which ejects milk from the breast in response to the baby suckling.\n\nTextbook Reference: Maternity and Women's Health Care, 11th Ed. (Lowdermilk et al.), Chapter 4: Physiologic and Psychologic Changes of Pregnancy."
+    "additional": "What is Colostrum? It is a thick, yellowish fluid that is rich in protein, minerals, and, most importantly, antibodies (especially IgA). It provides the newborn with crucial passive immunity.\n\nHormonal Control of Lactation:\n\nDuring pregnancy, high levels of progesterone inhibit the full release of milk.\n\nAfter delivery, the placenta is expelled, causing a sharp drop in progesterone levels. This allows prolactin to stimulate milk production and oxytocin to trigger milk ejection (let-down reflex).\n\nTextbook Reference: Maternity and Women's Health Care, 11th Ed., Chapter 4."
   },
   {
     "question": "Management of nausea and vomiting among pregnant women include:",
-    "option": [
-      "(A) Skipping meals",
-      "(B) Eating small meals frequently",
-      "(C) Avoiding crackers before getting up in the morning",
-      "(D) Encouraging highly seasoned foods"
-    ],
-    "answers": "(B) Eating small meals frequently",
-    "explanation": "Rationale for Correct Answer (B): An empty stomach often worsens nausea. The key dietary strategy for managing nausea and vomiting of pregnancy (NVP) is to keep a small amount of food in the stomach at all times. This is best achieved by eating small, frequent meals (e.g., 5-6 small meals per day) instead of three large ones. This prevents the stomach from becoming either completely empty or overly full, both of which can trigger nausea.",
-    "additional": "Analysis of Incorrect Options:\n\n(A) Skipping meals will lead to an empty stomach and hypoglycemia, which will almost certainly worsen nausea.\n\n(C) Eating crackers or dry toast before getting out of bed is a classic recommendation. The dry carbohydrates help to absorb stomach acid that has accumulated overnight, often preventing a wave of morning nausea. Avoiding them is incorrect advice.\n\n(D) Highly seasoned, spicy, or greasy foods are common triggers for NVP. Bland, simple foods are generally better tolerated.\n\nReview of NVP Management:\n\nDietary: Small, frequent meals; high-protein snacks; dry carbs in the morning; avoid trigger foods (spicy, fatty); separate liquids from solids (don't drink with meals).\n\nLifestyle: Get plenty of rest; acupressure wristbands may help.\n\nSupplements/Meds: Ginger, Vitamin B6, Doxylamine (antihistamine).\n\nTextbook Reference: Maternity and Women's Health Care, 11th Ed. (Lowdermilk et al.), Chapter 13: Maternal and Fetal Nutrition (Discomforts of Pregnancy section)."
+    "options": {
+      "A": "Skipping meals",
+      "B": "Eating small meals frequently",
+      "C": "Avoiding crackers before getting up in the morning",
+      "D": "Encouraging highly seasoned foods"
+    },
+    "answer": "B",
+    "explanation": "Rationale for Correct Answer (B): An empty stomach often worsens nausea. The key dietary strategy for managing nausea and vomiting of pregnancy (NVP) is to keep a small amount of food in the stomach at all times. This is best achieved by eating small, frequent meals (e.g., 5–6 small meals per day) instead of three large ones. This prevents the stomach from becoming either completely empty or overly full, both of which can trigger nausea.",
+    "additional": "Review of NVP Management:\n\nDietary: Small, frequent meals; dry carbs in the morning; avoid spicy/greasy foods.\nLifestyle: Get plenty of rest; acupressure wristbands may help.\nSupplements: Ginger, Vitamin B6, Doxylamine (safe in pregnancy).\n\nTextbook Reference: Maternity and Women's Health Care, 11th Ed., Chapter 13."
   },
   {
     "question": "The following is caused by deficiency of zinc:",
-    "option": [
-      "(A) Pre-eclampsia",
-      "(B) Night blindness",
-      "(C) Impaired immune system",
-      "(D) Increased risk of spontaneous abortions"
-    ],
-    "answers": "(C) Impaired immune system",
+    "option": {
+      "A": "Pre-eclampsia",
+      "B": "Night blindness",
+      "C": "Impaired immune system",
+      "D": "Increased risk of spontaneous abortions"
+    },
+    "answers": "C",
     "explanation": "Rationale for Correct Answer (C): Zinc is a crucial trace mineral that plays a vital role as a cofactor for hundreds of enzymes in the body. It is particularly important for cell growth, protein synthesis, and immune function. A deficiency in zinc leads to impaired development and function of immune cells, such as T-lymphocytes and natural killer cells. This results in an impaired immune system and increased susceptibility to infections.",
     "additional": "Analysis of Incorrect Options:\n\n(A) While some research has explored links between mineral deficiencies and pre-eclampsia, it is not a primary or established cause. Pre-eclampsia is a complex disorder related to placental development and vascular dysfunction.\n\n(B) Night blindness is the classic sign of Vitamin A deficiency.\n\n(D) While severe maternal malnutrition can increase the risk of miscarriage, and zinc is important for fetal growth, it is not as directly linked to spontaneous abortions as other factors like chromosomal abnormalities or hormonal issues. The link to immune impairment is more direct and well-established.\n\nZinc in Pregnancy: Zinc is also essential for fetal growth and development. Severe deficiency can be associated with low birth weight, preterm birth, and congenital anomalies.\n\nFood Sources of Zinc: The best sources are meat, shellfish (especially oysters), legumes, seeds, nuts, and whole grains.\n\nTextbook Reference: This is a detailed nutrition question. It would be found in a dedicated nutrition text or in Maternity and Women's Health Care, 11th Ed. (Lowdermilk et al.), Chapter 13: Maternal and Fetal Nutrition, under the section on micronutrients."
   },
   {
     "question": "Ptyalism refers to:",
-    "option": [
-      "(A) Excessive nausea and vomiting in pregnancy",
-      "(B) Lack of appetite",
-      "(C) An abnormal craving for non-food substances of little or no nutritional value",
-      "(D) Increased salivation"
-    ],
-    "answers": "(D) Increased salivation",
+    "option": {
+      "A": "Excessive nausea and vomiting in pregnancy",
+      "B": "Lack of appetite",
+      "C": "An abnormal craving for non-food substances of little or no nutritional value",
+      "D": "Increased salivation"
+    },
+    "answers": "D",
     "explanation": "Rationale for Correct Answer (D): Ptyalism or ptyalism gravidarum is the medical term for excessive secretion of saliva during pregnancy. It is a relatively common and bothersome discomfort of early pregnancy. The exact cause is unknown, but it is often associated with the nausea and vomiting of pregnancy, as some women may swallow less frequently to avoid triggering nausea, causing the saliva to pool.",
     "additional": "Analysis of Incorrect Options:\n\n(A) Excessive nausea and vomiting is called hyperemesis gravidarum.\n\n(B) Lack of appetite is anorexia.\n\n(C) An abnormal craving for non-food substances is called pica. Common examples include cravings for ice (pagophagia), dirt (geophagia), or clay. Pica is often associated with iron-deficiency anemia.\n\nManagement of Ptyalism: There is no cure, but management focuses on comfort measures.\n\nChewing gum or sucking on hard candies can make swallowing more frequent and manageable.\n\nUsing a mouthwash frequently can help.\n\nMaintaining good oral hygiene is important.\n\nReassure the client that the condition is temporary and usually resolves by the end of the first trimester.\n\nTextbook Reference: Maternity and Women's Health Care, 11th Ed. (Lowdermilk et al.), Chapter 13: Maternal and Fetal Nutrition (Discomforts of Pregnancy section)."
   },
   {
     "question": "The normal level of haemoglobin (Hb) on a pregnant woman is:",
-    "option": [
-      "(A) 10-15g/dl",
-      "(B) 12-14g/dl",
-      "(C) 9-14g/dl",
-      "(D) 11-12g/dl"
-    ],
-    "answers": "(D) 11-12g/dl",
+    "option": {
+      "A": "10-15g/dl",
+      "B": "12-14g/dl",
+      "C": "9-14g/dl",
+      "D": "11-12g/dl"
+    },
+    "answers": "D",
     "explanation": "Rationale for Correct Answer (D): During pregnancy, there is a significant increase in the mother's plasma volume (by about 40-50%). The red blood cell mass also increases, but not to the same extent. This results in a state of physiologic anemia of pregnancy, or hemodilution. Because of this, the normal values for hemoglobin and hematocrit are lower than in a non-pregnant woman.\n\nA hemoglobin level of 11 g/dL or greater in the first and third trimesters, and 10.5 g/dL or greater in the second trimester (when hemodilution peaks), is generally considered normal.\n\nThe range of 11-12 g/dL accurately reflects this lower-than-usual but still normal range. The other options include values that are either too high or too low to be considered the standard \"normal.\"",
     "additional": "Analysis of Incorrect Options:\n\n(A) 10-15 g/dL is too broad. 10 g/dL is anemic, and 15 g/dL is high for a pregnant woman.\n\n(B) 12-14 g/dL represents a more typical range for a non-pregnant woman.\n\n(C) 9-14 g/dL is too broad. 9 g/dL is definitely anemic.\n\nIron-Deficiency Anemia in Pregnancy: This is the most common type of true anemia in pregnancy. It is caused by the increased demand for iron by the growing fetus and placenta and the expanding maternal blood volume.\n\nManagement: All pregnant women should be screened for anemia. Most are advised to take a daily iron supplement (usually included in prenatal vitamins) to prevent deficiency.\n\nTextbook Reference: Maternity and Women's Health Care, 11th Ed. (Lowdermilk et al.), Chapter 13: Maternal and Fetal Nutrition."
   },
   {
     "question": "The trophoblast cells of the developing zygote form the:",
-    "option": [
-      "(A) Fetus and amnion.",
-      "(B) Placenta and fetus.",
-      "(C) Chorion and amnion",
-      "(D) Placenta and Chorion"
-    ],
-    "answers": "(D) Placenta and Chorion",
+    "option": {
+      "A": "Fetus and amnion.",
+      "B": "Placenta and fetus.",
+      "C": "Chorion and amnion",
+      "D": "Placenta and Chorion"
+    },
+    "answers": "D",
     "explanation": "Rationale for Correct Answer (D): This question is related to Q3 from this section. The trophoblast is the outer layer of cells of the blastocyst. Its primary role is to facilitate implantation and to develop into the fetal portion of the support structures.\n\nThe trophoblast develops into the chorion, which is the outermost fetal membrane.\n\nThe chorion develops finger-like projections called chorionic villi, which burrow into the uterine wall and become the fetal side of the placenta.",
     "additional": "Analysis of Incorrect Options:\n\n(A) & (B) The fetus develops from the inner cell mass (embryoblast), not the trophoblast.\n\n(C) The chorion develops from the trophoblast, but the amnion (the inner membrane that forms the amniotic sac) develops from the inner cell mass.\n\nSummary of Origins:\n\nTrophoblast -> Chorion -> Placenta\n\nInner Cell Mass (Embryoblast) -> Fetus, Amnion, Yolk Sac\n\nTextbook Reference: Maternity and Women's Health Care, 11th Ed. (Lowdermilk et al.), Chapter 12: Conception and Fetal Development."
   },
   {
     "question": "In focused antenatal care, the second dose of sulfadoxine pyrimethamine(SP) is administered at gestation of:",
-    "option": [
-      "(A) 16-28 weeks",
-      "(B) 20-30 weeks",
-      "(C) 28-34 weeks",
-      "(D) 34-36 weeks"
-    ],
-    "answers": "(C) 28-34 weeks",
+    "option": {
+      "A": "16-28 weeks",
+      "B": "20-30 weeks",
+      "C": "28-34 weeks",
+      "D": "34-36 weeks"
+    },
+    "answers": "C",
     "explanation": "Rationale for Correct Answer (C): Sulfadoxine-Pyrimethamine (SP) is an antimalarial drug used for Intermittent Preventive Treatment in pregnancy (IPTp) in regions where malaria is endemic. The goal is to prevent maternal malaria, which can cause severe anemia, and placental malaria, which can lead to low birth weight and preterm birth.\n\nThe WHO recommends a schedule of at least three doses during pregnancy.\n\nFirst Dose (IPTp1): Given as early as possible in the second trimester (after quickening, typically around 16 weeks).\n\nSubsequent Doses (IPTp2, IPTp3, etc.): Given at least one month apart at each subsequent scheduled antenatal care visit until the time of delivery.\n\nFollowing this schedule, if the first dose is given around 16-20 weeks, the second dose would fall approximately in the 28-34 week window, making (C) the most plausible answer.",
     "additional": "Analysis of Incorrect Options:\n\n(A) 16-28 weeks is too broad and more representative of the window for the first dose.\n\n(B) 20-30 weeks is also a possible window, but the standard four-week interval from a first dose at 16-20 weeks would place the second dose closer to the range in (C).\n\n(D) 34-36 weeks would be more typical for a third dose.\n\nKey Point: The principle is to start in the second trimester and give subsequent doses at least one month apart.\n\nTextbook Reference: This is a topic specific to public health and tropical medicine in pregnancy. It would be found in guidelines from the WHO or national Ministries of Health rather than a standard US-based maternity textbook."
   },
   {
     "question": "The diastolic pressure is usually not affected by excitement, its increase therefore is more significant in assessment of pregnant women for pre-eclampsia. The range of change in mmHg is:",
-    "option": [
-      "(A) 10-15",
-      "(B) 15-20",
-      "(C) 15-30",
-      "(D) 20-30"
-    ],
-    "answers": "(B) 15-20",
+    "option": {
+      "A": "10-15",
+      "B": "15-20",
+      "C": "15-30",
+      "D": "20-30"
+    },
+    "answers": "B",
     "explanation": "Rationale for Correct Answer (B): Before the diagnostic criteria for preeclampsia shifted to absolute values (≥140/90), the diagnosis could also be made based on a significant rise in blood pressure over the woman's baseline readings from early pregnancy.\n\nA rise of ≥ 30 mmHg in systolic pressure OR a rise of ≥ 15 mmHg in diastolic pressure over baseline was considered significant.\n\nThe diastolic pressure was considered a more stable and specific indicator because systolic pressure can be more easily influenced by pain, anxiety, or excitement.\n\nTherefore, an increase of 15 mmHg or more in the diastolic pressure was a key warning sign. The range of 15-20 mmHg fits this criterion perfectly.",
     "additional": "Modern Criteria: It is important to know that current guidelines have moved away from the \"rise-over-baseline\" criteria and now use absolute BP values of ≥140 mmHg systolic or ≥90 mmHg diastolic for the diagnosis of hypertension in pregnancy. However, exam questions may still reference the older criteria.\n\nAnalysis of Incorrect Options:\n\n(A) A rise of 10 mmHg is not generally considered significant enough.\n\n(C) & (D) These ranges are too high. A rise of 15 mmHg is the critical threshold.\n\nTextbook Reference: Older editions of maternity textbooks would cover this. Newer editions, like Maternity and Women's Health Care, 11th Ed., Chapter 27, focus on the current ACOG guidelines using absolute values (≥140/90)."
   },
   {
     "question": "Early miscarriage refers to;",
-    "option": [
-      "(A) loss of pregnancy spontaneously in between 16-24 weeks",
-      "(B) spontaneous loss of pregnancy from between 16-30 weeks gestation",
-      "(C) spontaneous loss of pregnancy from between 0 to 16 weeks gestation",
-      "(D) loss of pregnancy between 24 to 30weeks"
-    ],
-    "answers": "(C) spontaneous loss of pregnancy from between 0 to 16 weeks gestation",
+    "option": {
+      "A": "loss of pregnancy spontaneously in between 16-24 weeks",
+      "B": "spontaneous loss of pregnancy from between 16-30 weeks gestation",
+      "C": "spontaneous loss of pregnancy from between 0 to 16 weeks gestation",
+      "D": "loss of pregnancy between 24 to 30weeks"
+    },
+    "answers": "C",
     "explanation": "Rationale for Correct Answer (C): A miscarriage, also known as a spontaneous abortion, is defined as the loss of a pregnancy before 20 weeks of gestation (the point of fetal viability). Miscarriages are further divided into early and late.\n\nEarly Miscarriage: Loss of a pregnancy before 12 weeks of gestation. This accounts for the vast majority of miscarriages.\n\nLate Miscarriage: Loss of a pregnancy between 12 and 20 weeks of gestation.\n\nGiven the options, option (C) is the broadest but most accurate choice that encompasses the period of early miscarriage. The other options describe later pregnancy losses.",
     "additional": "Analysis of Incorrect Options:\n\n(A) & (B) & (D) Pregnancy loss after 20 weeks is defined as an intrauterine fetal death (IUFD) or stillbirth, not a miscarriage. The 24-week mark is often used as a threshold for viability in many healthcare systems.\n\nAdditional Content & Future Test Pointers:\n\nCauses of Miscarriage: The most common cause of early miscarriage (over 50% of cases) is fetal chromosomal abnormalities that are incompatible with life.\n\nTypes of Miscarriage:\n\nThreatened: Vaginal bleeding occurs, but the cervix is closed. Pregnancy may continue.\n\nInevitable: Bleeding and cramping with an open cervix. Loss is certain.\n\nIncomplete: Some, but not all, of the products of conception are expelled.\n\nComplete: All products of conception are expelled.\n\nMissed: The fetus dies in utero but is not expelled.\n\nNursing Care: Focuses on monitoring for hemorrhage, managing pain, and providing emotional and psychological support for the loss.\n\nTextbook Reference: Maternity and Women's Health Care, 11th Ed. (Lowdermilk et al.), Chapter 26: Bleeding in Pregnancy."
   },
   {
     "question": "At the end of labor, the cervix is:",
-    "option": [
-      "(A) soft and flabby",
-      "(B) 2cm dilated",
-      "(C) 1cm dilated",
-      "(D) a slit"
-    ],
-    "answers": "(A) soft and flabby",
+    "option": {
+      "A": "soft and flabby",
+      "B": "2cm dilated",
+      "C": "1cm dilated",
+      "D": "a slit"
+    },
+    "answers": "A",
     "explanation": "Rationale for Correct Answer (A): The \"end of labor\" refers to the period immediately after the delivery of the baby and placenta. During the first stage of labor, the cervix undergoes massive stretching as it effaces (thins) and dilates to 10 cm. Immediately after this process and the passage of the fetus, the cervix does not instantly return to its pre-labor state. Instead, it is edematous (swollen), bruised, and lacks tone, making it feel soft and flabby. It is still open enough to admit several fingers but is no longer a well-defined structure.",
     "additional": "Analysis of Incorrect Options:\n\n(B) & (C) 1 cm and 2 cm dilation describe the cervix during the latent (early) phase of the first stage of labor, not at the end. At the end of labor, it has already been fully dilated (10 cm) and is now collapsing back down.\n\n(D) \"A slit\" describes the appearance of the external os of the cervix in a woman who has had a previous vaginal birth (multiparous), but this describes its state weeks or months after delivery, once healing (involution) is complete. It does not describe the immediate postpartum cervix.\n\nCervical Involution: The cervix rapidly shortens and regains its form in the hours and days following birth. By one week postpartum, it is typically only about 1 cm dilated.\n\nCervical Os Appearance:\n\nNulliparous (no vaginal births): The external os is small and round.\n\nParous/Multiparous (one or more vaginal births): The external os has a more slit-like or irregular shape due to the stretching and small lacerations from delivery.\n\nTextbook Reference: Maternity and Women's Health Care, 11th Ed. (Lowdermilk et al.), Chapter 18: Postpartum Physiologic Changes."
   },
   {
     "question": "The management of placenta praevia type three when the fetus has died in utero includes:",
-    "option": [
-      "(A) A. Preparation of women for emergency c-section",
-      "(B) B. Induction of labour by use of syntocinon",
-      "(C) C. Gentle palpation through vaginal fornices to determine whether posterior or anterior",
-      "(D) D. Complete bed rest and speculum examination on the third day"
-    ],
-    "answers": "(B) Induction of labour by use of syntocinon",
+    "option": {
+      "A": "Preparation of women for emergency c-section",
+      "B": "Induction of labour by use of syntocinon",
+      "C": "Gentle palpation through vaginal fornices to determine whether posterior or anterior",
+      "D": "Complete bed rest and speculum examination on the third day"
+    },
+    "answers": "B",
     "explanation": "Rationale for Correct Answer (B):\n\nPlacenta Previa: The placenta is implanted in the lower uterine segment, partially or completely covering the cervical os. This is a major cause of painless, bright red vaginal bleeding in the third trimester.\n\nIUFD Changes Everything: The primary reason for performing a Cesarean section for placenta previa is to ensure the safety of the fetus and avoid life-threatening hemorrhage for both mother and baby when the cervix dilates. If the fetus has already died (IUFD), the risk to the baby is eliminated. The goal shifts entirely to the safety of the mother.\n\nVaginal Delivery is Preferred: A Cesarean section is major abdominal surgery with risks of hemorrhage, infection, and future pregnancy complications. A vaginal delivery is generally safer for the mother if it can be achieved without catastrophic bleeding. In cases of IUFD with a previa that is not completely covering the os (like a marginal or low-lying previa), a cautious induction of labor with oxytocin (Syntocinon) may be attempted in a setting where emergency C-section is immediately available. This allows for a less invasive delivery for the mother.",
     "additional": "Analysis of Incorrect Options:\n\n(A) An emergency C-section is the management of choice for placenta previa with a living, viable fetus, especially if there is significant bleeding. With an IUFD, it is not the first-line approach unless bleeding is uncontrollable.\n\n(C) Vaginal exams are absolutely contraindicated in a known or suspected placenta previa. Palpating the cervix could disrupt the placenta and cause massive, catastrophic hemorrhage.\n\n(D) A speculum exam may be done to confirm the source of bleeding, but this would be done on admission, not on the third day. Complete bed rest is part of the management, but it is not the definitive plan for delivery.\n\nTypes of Placenta Previa:\n\nComplete/Total: The placenta completely covers the internal cervical os.\n\nPartial: The placenta partially covers the internal os.\n\nMarginal: The edge of the placenta is at the margin of the internal os.\n\nLow-Lying: The placenta is implanted in the lower segment but its edge does not reach the os.\n\nTextbook Reference: Maternity and Women's Health Care, 11th Ed. (Lowdermilk et al.), Chapter 26: Bleeding in Pregnancy."
   },
-  {
-    "question": "Fetal axis pressure is a physiological change that is more significant during:",
-    "option": [
-      "(A) Early stages of labor transmitting the force of contraction to the upper pole of fetus",
-      "(B) Second stage of labor when membranes are intact",
-      "(C) Active and second stages of labor when membranes are ruptured",
-      "(D) Second stage of labour transmitting the force of contraction to the lower pole of the uterus"
-    ],
-    "answers": "(C) Active and second stages of labor when membranes are ruptured",
-    "explanation": "Rationale for Correct Answer (C): Fetal axis pressure refers to the force of the uterine contractions being transmitted down the fetus's spine (axis), causing pressure from the presenting part (usually the head) onto the cervix. This pressure is a key mechanism for cervical dilation.\n\nThis process is most efficient and significant during the active phase of labor (when dilation is progressing steadily) and the second stage (pushing).\n\nIt is particularly significant when the membranes are ruptured. With intact membranes, the force of the contraction is distributed more evenly across the \"bag of waters\" (amniotic fluid), which cushions the effect. After the membranes rupture, the fetal head can be applied directly to the cervix, creating a much more effective and focused pressure for dilation and descent.",
-    "additional": "Analysis of Incorrect Options:\n\n(A) In the early stages, contractions are less intense and the pressure is less significant. The force is transmitted to the lower uterine segment and cervix, not the upper pole of the fetus.\n\n(B) While it occurs, the pressure is less direct when membranes are intact.\n\n(D) The force is transmitted to the cervix and the lower uterine segment, not the \"lower pole of the uterus\" in this context. The key is the application of the fetal head to the cervix.\n\nPowers, Passage, Passenger: Remember the 3 P's of labor. Fetal axis pressure is a component of the Powers (uterine contractions) acting on the Passenger (fetus) to move through the Passage (pelvis).\n\nAmniotomy: The artificial rupture of membranes (AROM) is often performed to augment or induce labor precisely because it allows for more effective fetal axis pressure and can strengthen contractions.\n\nTextbook Reference: Any standard labor and delivery textbook will cover this principle. In Maternity and Women's Health Care, 11th Ed. (Lowdermilk et al.), see Chapter 16: Labor and Birth Processes, under \"Mechanisms of Labor.\""
-  },
-  {
-  "question": "The following is a clinical finding of abruptio placentae:",
+ {
+  "question": "Fetal axis pressure is a physiological change that is more significant during:",
   "option": {
-    "(A) Painless vaginal bleeding",
-    "(B) Excessive fetal movement",
-    "(C) Tense tender abdomen",
-    "(D) Uterus relaxed and non-tender"
+    "A": "Early stages of labor transmitting the force of contraction to the upper pole of fetus",
+    "B": "Second stage of labor when membranes are intact",
+    "C": "Active and second stages of labor when membranes are ruptured",
+    "D": "Second stage of labour transmitting the force of contraction to the lower pole of the uterus"
   },
-  "answers": "(C) Tense tender abdomen",
-  "explanation": "Rationale for Correct Answer (C): Abruptio placentae refers to the premature separation of the placenta from the uterine wall, which is a serious obstetric emergency. One of its hallmark signs is a tense, tender, and often rigid abdomen due to uterine muscle irritation and concealed or revealed bleeding.\n\nThe pain is usually sudden, severe, and constant, and the uterus may feel board-like on palpation.",
-  "additional": "Analysis of Incorrect Options:\n\n(A) Painless vaginal bleeding is more typical of placenta previa. In abruptio placentae, the bleeding is usually painful and may be concealed (trapped behind the placenta).\n\n(B) Fetal movement typically decreases with abruption due to fetal distress or demise. Excessive movement is not a sign.\n\n(D) The uterus is not relaxed or non-tender. Instead, it is irritable, painful, and hard.\n\nClinical Findings in Abruptio Placentae:\n- Vaginal bleeding (may be absent if concealed)\n- Abdominal pain\n- Uterine tenderness and rigidity\n- Signs of fetal distress or absent fetal heart tones\n- Signs of maternal shock (depending on severity)\n\nTextbook Reference: Maternity and Women's Health Care, 11th Ed. (Lowdermilk et al.), Chapter 26: Bleeding in Pregnancy."
+  "answers": "C",
+  "explanation": "Rationale for Correct Answer (C): Fetal axis pressure refers to the force of the uterine contractions being transmitted down the fetus's spine (axis), causing pressure from the presenting part (usually the head) onto the cervix. This pressure is a key mechanism for cervical dilation.\n\nThis process is most efficient and significant during the active phase of labor (when dilation is progressing steadily) and the second stage (pushing).\n\nIt is particularly significant when the membranes are ruptured. With intact membranes, the force of the contraction is distributed more evenly across the \"bag of waters\" (amniotic fluid), which cushions the effect. After the membranes rupture, the fetal head can be applied directly to the cervix, creating a much more effective and focused pressure for dilation and descent.",
+  "additional": "Analysis of Incorrect Options:\n\n(A) In the early stages, contractions are less intense and the pressure is less significant. The force is transmitted to the lower uterine segment and cervix, not the upper pole of the fetus.\n\n(B) While it occurs, the pressure is less direct when membranes are intact.\n\n(D) The force is transmitted to the cervix and the lower uterine segment, not the \"lower pole of the uterus\" in this context. The key is the application of the fetal head to the cervix.\n\nPowers, Passage, Passenger: Remember the 3 P's of labor. Fetal axis pressure is a component of the Powers (uterine contractions) acting on the Passenger (fetus) to move through the Passage (pelvis).\n\nAmniotomy: The artificial rupture of membranes (AROM) is often performed to augment or induce labor precisely because it allows for more effective fetal axis pressure and can strengthen contractions.\n\nTextbook Reference: Any standard labor and delivery textbook will cover this principle. In Maternity and Women's Health Care, 11th Ed. (Lowdermilk et al.), see Chapter 16: Labor and Birth Processes, under \"Mechanisms of Labor.\""
 },
 {
-  "question": "If the membranes rupture at cervical dilatation of 8 cm, a vaginal examination performed should rule out:",
+    "question": "If the membranes rupture at cervical dilatation of 8 cm, a vaginal examination performed should rule out:",
     "option": {
-      "(A) Obstructed labour, cord prolapsed, fetal compromise",
-      "(B) Cord prolapsed, cord presentation, fetal distress",
-      "(C) Obstructed labour, cord prolapsed, prolonged labour",
-      "(D) Maternal distress, prolonged labour, cord presentation"
+      "A": "Obstructed labour, cord prolapsed, fetal compromise",
+      "B": "Cord prolapsed, cord presentation, fetal distress",
+      "C": "Obstructed labour, cord prolapsed, prolonged labour",
+      "D": "Maternal distress, prolonged labour, cord presentation"
     },
-    "answers": "(B) Cord prolapsed, cord presentation, fetal distress",
+    "answers": "B",
     "explanation": "Rationale for Correct Answer (B): When the membranes rupture (spontaneously or artificially), the most immediate and critical priority is to assess fetal well-being and rule out a prolapsed umbilical cord. Cord Prolapse: This is an obstetric emergency where the umbilical cord slips down below the fetal presenting part after the membranes have ruptured. The presenting part then compresses the cord, cutting off blood flow and oxygen to the fetus. A vaginal exam is performed immediately after rupture of membranes primarily to check for this. The nurse feels for the presenting part and ensures no soft, pulsating cord can be felt alongside or below it. Cord Presentation is when the cord can be felt below the presenting part before the membranes have ruptured. Fetal Distress: The first sign of cord compression is often a change in the fetal heart rate (FHR), typically a severe variable deceleration or a prolonged deceleration or bradycardia. The exam is done to find the cause of the distress.",
     "additional": "Analysis of Incorrect Options:\n\n(A) & (C) Obstructed labor and prolonged labor are diagnoses made over a longer period by observing a lack of progress in dilation or descent. They are not ruled out by a single vaginal exam immediately after membranes rupture.\n\n(D) Maternal distress is assessed by monitoring the mother's vital signs and coping, not by a vaginal exam.\n\nIntervention for Cord Prolapse: Call for help immediately. The examiner must keep their gloved fingers in the vagina and manually lift the fetal presenting part off the cord to relieve compression. Position the mother in an extreme Trendelenburg or knee-chest position. Prepare for an emergency Cesarean section.\n\nTextbook Reference: Maternity and Women's Health Care, 11th Ed., Chapter 17: Labor and Birth Complications, 'Umbilical Cord Prolapse.'"
   },
   {
     "question": "At primary level of anti-retroviral prophylaxis for PMTCT (Prevention of mother to child transmission), a HIV-positive woman should take:",
     "option": {
-      "(A) Nevirapine 300 mgs at onset of labour",
-      "(B) Nevirapine 200 mgs at onset of labour",
-      "(C) Zidovudine 300mgs 3 hourly for 12 hours",
-      "(D) Zidovudine 2mg/kg body weight within 3 days of delivery"
+      "A": "Nevirapine 300 mgs at onset of labour",
+      "B": "Nevirapine 200 mgs at onset of labour",
+      "C": "Zidovudine 300mgs 3 hourly for 12 hours",
+      "D": "Zidovudine 2mg/kg body weight within 3 days of delivery"
     },
-    "answers": "(B) Nevirapine 200 mgs at onset of labour",
+    "answers": "B",
     "explanation": "Rationale for Correct Answer (B): In the past, particularly in resource-limited settings before the widespread availability of combination ART, a simplified and highly effective regimen for PMTCT was a single dose of Nevirapine (NVP) 200 mg given to the mother at the onset of labor. This was followed by a single dose of NVP syrup given to the infant within 72 hours of birth. Nevirapine rapidly crosses the placenta and achieves therapeutic levels in both the mother and fetus, significantly reducing the risk of transmission during delivery.",
     "additional": "Analysis of Incorrect Options:\n\n(A) The standard adult single dose for this purpose was 200 mg, not 300 mg.\n\n(C) Zidovudine (AZT) was also used, often as an IV infusion during labor, but the regimen described is not the standard protocol.\n\n(D) This describes an infant dosing regimen, not a maternal one.\n\nImportant Modern Context: These single-dose or dual-therapy regimens are now considered suboptimal. The current standard of care is for all HIV-positive pregnant women to be on lifelong combination ART. However, exam questions may still test the older single-dose nevirapine protocol as it was a landmark public health intervention.\n\nTextbook Reference: Maternity and Women's Health Care, 11th Ed., Chapter 21: HIV in pregnancy."
   },
   {
     "question": "Which one of the following is NOT a probable sign of the second stage of labour?",
     "option": {
-      "(A) uterine contractions",
-      "(B) No cervix felt on vaginal examination",
-      "(C) Rupture of membranes",
-      "(D) Bulging of the perineum"
+      "A": "Uterine contractions",
+      "B": "No cervix felt on vaginal examination",
+      "C": "Rupture of membranes",
+      "D": "Bulging of the perineum"
     },
-    "answers": "(C) Rupture of membranes",
+    "answers": "C",
     "explanation": "Rationale for Correct Answer (C): The second stage of labor begins with full cervical dilation (10 cm) and ends with the birth of the baby. Rupture of membranes (ROM) can happen at any point during labor. It can occur before labor even begins (PROM), during the first stage, or during the second stage. Because it is not specific to the second stage, it is not considered a probable sign of the second stage.",
     "additional": "Analysis of Probable Signs of the Second Stage:\n\n(A) Uterine contractions continue and become stronger, more expulsive, and often accompanied by an urge to push.\n\n(B) The defining sign is that the cervix is fully dilated and effaced; no cervix is felt on exam.\n\n(D) Bulging perineum is a classic late sign of fetal descent.\n\nOther Signs: Bloody show, urge to push, vomiting, crowning.\n\nTextbook Reference: Maternity and Women's Health Care, 11th Ed., Chapter 16: Labor and Birth Processes."
   },
   {
     "question": "You are caring for a woman in the second stage of labor. The client is experiencing uterine contractions every 2 minutes and cries out in pain with each contraction. This behaviour is best described as:",
     "option": {
-      "(A) Exhaustion",
-      "(B) Fear of losing control",
-      "(C) Involuntary grunting",
-      "(D) Valsalva's maneuver"
+      "A": "Exhaustion",
+      "B": "Fear of losing control",
+      "C": "Involuntary grunting",
+      "D": "Valsalva's maneuver"
     },
-    "answers": "(B) Fear of losing control",
+    "answers": "B",
     "explanation": "Rationale for Correct Answer (B): The second stage of labor is intense and overwhelming. The contractions are powerful, frequent, and are accompanied by immense pressure and an urge to push. Crying out in pain is a common response to this overwhelming experience and can be interpreted as fear of losing control, especially in first-time mothers.",
     "additional": "Analysis of Incorrect Options:\n\n(A) Exhaustion is passive; crying out is an active coping response.\n\n(C) Involuntary grunting occurs during pushing with a closed glottis and is distinct from pain vocalization.\n\n(D) Valsalva’s maneuver is the act of holding one's breath and bearing down — a physical act, not emotional behavior.\n\nNursing Role: Offer reassurance, calm coaching, emotional presence.\n\nTextbook Reference: Maternity and Women's Health Care, 11th Ed., Chapter 16: Labor and Birth Processes."
   }
 ]
-
-
-
-
-
-
