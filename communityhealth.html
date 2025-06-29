@@ -112,113 +112,8 @@
     <p>💡 Got more content? Let us help you bring it to life here!</p>
   </div>
 
-  <script>
-  const fileList = [
-    { name: "Part 1", file: "communityhealth.json" },
-    { name: "Part 2", file: "communityhealth1.json" },
-    { name: "Part 3", file: "communityhealth2.json" },
-    { name: "Part 4", file: "communityhealth3.json" },
-    { name: "Part 5", file: "communityhealth4.json" },
-    { name: "Part 6", file: "communityhealth5.json" }
-  ];
+  <script src="script.js"></script>
 
-  const tabsDiv = document.getElementById('quiz-tabs');
-  const container = document.getElementById('quiz-container');
-  const resultDiv = document.getElementById('result');
-
-  fileList.forEach((item, i) => {
-    const btn = document.createElement('button');
-    btn.className = 'tab-btn';
-    btn.textContent = item.name;
-    btn.onclick = () => loadQuiz(item.file, btn);
-    tabsDiv.appendChild(btn);
-    if (i === 0) btn.click(); // load first part automatically
-  });
-
-  function loadQuiz(file, activeBtn) {
-    container.innerHTML = '';
-    resultDiv.innerHTML = '';
-    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-    activeBtn.classList.add('active');
-
-    let score = 0;
-    let total = 0;
-    let questionsCompleted = 0;
-
-    fetch(file)
-      .then(res => {
-        if (!res.ok) throw new Error("File not found");
-        return res.json();
-      })
-      .then(data => {
-        total = data.length;
-
-        const normalize = (q) => {
-          const question = q.question || q.q || q.title || q.ques || "Untitled question";
-          const options = q.options || q.option || q.choices || {};
-           const answer = q.answer || q.answers || q.correct || q.key || "";
-          const explanation = q.explanation || q.reason || q.why || "";
-          const additional = q.additional || q.notes || q.more || "";
-
-          return { question, options, answer, explanation, additional };
-        };
-
-        data.forEach((raw, index) => {
-          const q = normalize(raw);
-
-          const div = document.createElement('div');
-          div.className = 'question-box';
-          div.innerHTML = `<strong>Q${index + 1}:</strong><br>${q.question.replace(/\n/g, "<br>")}<br><br>`;
-
-          Object.entries(q.options).forEach(([key, value]) => {
-            const btn = document.createElement('button');
-            btn.className = 'btn';
-            btn.textContent = `${key}) ${value}`;
-            btn.onclick = () => {
-              div.querySelectorAll('button').forEach(b => b.disabled = true);
-              const result = document.createElement('div');
-
-              if (key === q.answer) {
-                result.innerHTML = `<p class="correct">✅ Correct!</p><p>${q.explanation.replace(/\n/g, "<br>")}</p>`;
-                score++;
-              } else {
-                result.innerHTML = `<p class="wrong">❌ Wrong!</p><p>Correct is ${q.answer}) ${q.options[q.answer]}.<br>${q.explanation.replace(/\n/g, "<br>")}</p>`;
-              }
-
-              if (q.additional) {
-                const extra = document.createElement('div');
-                extra.className = 'additional';
-                extra.innerHTML = `📌 ${q.additional.replace(/\n/g, "<br>")}`;
-                result.appendChild(extra);
-              }
-
-              div.appendChild(result);
-              questionsCompleted++;
-              if (questionsCompleted === total) showFinalResult(score, total);
-            };
-            div.appendChild(btn);
-            div.appendChild(document.createElement('br'));
-          });
-
-          container.appendChild(div);
-        });
-      })
-      .catch(() => {
-        container.innerHTML = `<p style="color:red;text-align:center;">⚠️ Couldn't load <strong>${file}</strong>. Make sure it exists and is a valid JSON file.</p>`;
-      });
-  }
-
-  function showFinalResult(score = 0, total = 0) {
-    const percent = total ? Math.round((score / total) * 100) : 0;
-    let reaction = percent >= 90 ? "🌟 Excellent!" :
-                   percent >= 70 ? "🙂 Fair effort!" :
-                   percent >= 50 ? "😐 Needs more review." :
-                                   "😢 Keep going—you got this!";
-
-    document.getElementById('result').innerHTML =
-      `You got <strong>${score}</strong> out of <strong>${total}</strong> (${percent}%)<br><div class="reaction">${reaction}</div>`;
-  }
-</script>
 
  <!-- 🌐 Floating Google Search Button with Responsive Expanding Box -->
 <style>
@@ -322,5 +217,25 @@
     }
   });
 </script>
+  <div id="quiz-controls" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+  <label><input type="checkbox" id="filter-unanswered"> Show only unanswered</label>
+  <button id="reset-progress" style="padding: 4px 10px; background: #e74c3c; color: white; border: none; border-radius: 5px;">🔁 Reset Progress</button>
+</div>
+
+<div id="score-popup" style="
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: #2ecc71;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  display: none;
+  z-index: 999;
+  transition: all 0.5s ease;
+"></div>
+
 </body>
 </html>
