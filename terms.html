@@ -7,7 +7,7 @@
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
-       background-image: url('https://raw.githubusercontent.com/heartique/HEARTIQUE-NEXUS-NURSES-ALLIANCE/main/background6.jpg');
+      background-image: url('https://raw.githubusercontent.com/heartique/HEARTIQUE-NEXUS-NURSES-ALLIANCE/main/background6.jpg');
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -28,6 +28,37 @@
       padding: 1rem;
       border-radius: 8px;
       margin-bottom: 1.5rem;
+    }
+
+    .new-terms-banner {
+      background: #fffae6;
+      border: 1px solid #ffce00;
+      padding: 0.75rem;
+      border-radius: 6px;
+      margin-bottom: 1.2rem;
+      color: #8c6f00;
+      font-weight: 500;
+      box-shadow: 0 0 6px rgba(0,0,0,0.05);
+    }
+
+    #progressContainer {
+      background: #ffffffcc;
+      border-radius: 10px;
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 0 6px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+
+    #pieChart {
+      max-width: 200px;
+      margin: auto;
+    }
+
+    #progressText {
+      margin-top: 0.75rem;
+      color: #7e57c2;
+      font-weight: bold;
     }
 
     #searchInput {
@@ -62,26 +93,6 @@
       margin-top: 0.5rem;
     }
 
-    #progress {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin-top: 2rem;
-    }
-
-    #pieChart {
-      max-width: 200px;
-    }
-
-    .new-terms-banner {
-      background: #fffae6;
-      border: 1px solid #ffce00;
-      padding: 0.75rem;
-      border-radius: 6px;
-      margin-bottom: 1rem;
-      color: #8c6f00;
-    }
-
     .expand-section {
       background: #f3edfc;
       margin-top: 0.4rem;
@@ -105,31 +116,36 @@
     ✨ <strong>New terms have been added since your last visit!</strong>
   </div>
 
+  <!-- Pie Chart & Progress Section -->
+  <div id="progressContainer">
+    <canvas id="pieChart"></canvas>
+    <div id="progressText">Loading progress...</div>
+  </div>
+
   <input type="text" id="searchInput" placeholder="Search term or content...">
 
   <div id="termList"></div>
 
-  <div id="progress">
-    <p id="progressCount">0/0 terms read</p>
-    <canvas id="pieChart"></canvas>
-  </div>
-
   <script>
     const termListEl = document.getElementById("termList");
     const searchInput = document.getElementById("searchInput");
-    const progressCount = document.getElementById("progressCount");
     const pieChartEl = document.getElementById("pieChart");
+    const progressText = document.getElementById("progressText");
     const newTermsBanner = document.getElementById("newTermsBanner");
 
     const STORAGE_KEY = 'read_terms';
     const VERSION_KEY = 'terms_version';
-    const CURRENT_VERSION = 'v2'; // Update this when you add new terms
+    const CURRENT_VERSION = 'v2'; // Change this on new updates
 
     let allTerms = [];
     let readTerms = JSON.parse(localStorage.getItem(STORAGE_KEY)) || [];
 
+    // New terms check
     if (localStorage.getItem(VERSION_KEY) !== CURRENT_VERSION) {
-      newTermsBanner.style.display = "block";
+      setTimeout(() => {
+        newTermsBanner.style.display = "block";
+        alert("🆕 New terms were added to this page!");
+      }, 600);
       localStorage.setItem(VERSION_KEY, CURRENT_VERSION);
     }
 
@@ -142,7 +158,7 @@
       });
 
     function displayTerms(terms) {
-      const html = terms.map((item, index) => {
+      const html = terms.map((item) => {
         const isChecked = readTerms.includes(item.term);
         return `
           <div class="term">
@@ -170,20 +186,23 @@
       updateProgress();
     }
 
+    let chartInstance;
     function updateProgress() {
       const read = readTerms.length;
       const total = allTerms.length;
-      progressCount.textContent = `${read}/${total} terms read`;
-      drawPieChart(read, total - read);
-    }
+      const percentage = total === 0 ? 0 : Math.round((read / total) * 100);
 
-    function drawPieChart(read, unread) {
-      new Chart(pieChartEl, {
+      // Update text
+      progressText.innerHTML = `${percentage}% Read — ${read}/${total} terms completed 💪`;
+
+      // Draw chart
+      if (chartInstance) chartInstance.destroy();
+      chartInstance = new Chart(pieChartEl, {
         type: 'doughnut',
         data: {
           labels: ['Read', 'Unread'],
           datasets: [{
-            data: [read, unread],
+            data: [read, total - read],
             backgroundColor: ['#7e57c2', '#ddd']
           }]
         },
