@@ -188,24 +188,3 @@ body.dark-mode .btn:hover {
 .floating-back-button:hover {
   background-color: #45a049;
 }
-.highlight-correct {
-  background-color: #c8f7c5;
-  border: 2px solid #2ecc71;
-}
-
-.highlight-wrong {
-  background-color: #fbcaca;
-  border: 2px solid #e74c3c;
-}
-
-#progress-counter {
-  font-size: 16px;
-  margin-bottom: 12px;
-}
-
-@keyframes slideFade {
-  0% { opacity: 0; transform: translateY(-20px); }
-  10% { opacity: 1; transform: translateY(0); }
-  90% { opacity: 1; transform: translateY(0); }
-  100% { opacity: 0; transform: translateY(-20px); }
-}
