@@ -103,9 +103,12 @@
   <h1>🌍 Community Health Quiz</h1>
   <div class="quote">"Empowered communities, healthier nations." 🌱</div>
 
+  <!-- Top Controls -->
   <div class="top-buttons">
     <a href="quiz.html"><button class="btn">🏠 Home</button></a>
     <button class="btn" onclick="showFinalResult(globalScore, globalTotal)">📊 Get My Score Now</button>
+    <label style="color:white;"><input type="checkbox" id="filter-unanswered"> Show only unanswered</label>
+    <button id="reset-progress" class="btn" style="background:#e74c3c; color:white;">🔁 Reset Progress</button>
     <div id="inline-score" style="color:white; font-weight:bold;"></div>
   </div>
 
@@ -116,11 +119,6 @@
     <p>📩 Like this format? Contact <strong>nursingnexusalliance@gmail.com</strong></p>
     <p>📞 <strong>0717517371</strong> |  <strong>HEARTIQUE</strong></p>
     <p>💡 Got more content? Let us help you bring it to life here!</p>
-  </div>
-
-  <div id="quiz-controls" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-    <label><input type="checkbox" id="filter-unanswered"> Show only unanswered</label>
-    <button id="reset-progress" style="padding: 4px 10px; background: #e74c3c; color: white; border: none; border-radius: 5px;">🔁 Reset Progress</button>
   </div>
 
   <div id="score-popup"></div>
@@ -135,9 +133,8 @@
       { name: "Part 6", file: "communityhealth5.json" }
     ];
 
-    let globalScore = parseInt(localStorage.getItem('globalScore')) || 0;
-    let globalTotal = parseInt(localStorage.getItem('globalTotal')) || 0;
-    document.getElementById('inline-score').innerHTML = `You got <strong>${globalScore}</strong> / <strong>${globalTotal}</strong>`;
+    let globalScore = 0;
+    let globalTotal = 0;
 
     const tabsDiv = document.getElementById('quiz-tabs');
     const container = document.getElementById('quiz-container');
@@ -170,6 +167,7 @@
 
       fetch(file).then(res => res.json()).then(data => {
         total = data.length;
+        globalTotal = total;
 
         data.forEach((q, i) => {
           const question = q.question || q.q || q.title || q.ques || "Untitled";
@@ -195,6 +193,8 @@
             const btn = document.createElement('button');
             btn.className = 'btn';
             btn.textContent = `${key}) ${value}`;
+            if (savedProgress[qid]) btn.disabled = true;
+
             btn.onclick = () => {
               div.querySelectorAll('button').forEach(b => b.disabled = true);
               const result = document.createElement('div');
@@ -211,23 +211,25 @@
               savedProgress[qid] = { selected: key };
               localStorage.setItem(`progress_${file}`, JSON.stringify(savedProgress));
 
-              globalScore++;
-              globalTotal++;
-              localStorage.setItem('globalScore', globalScore);
-              localStorage.setItem('globalTotal', globalTotal);
-              document.getElementById('inline-score').innerHTML = `You got <strong>${globalScore}</strong> / <strong>${globalTotal}</strong>`;
+              globalScore = score;
+              window.lastScoreData = { score, total };
             };
             div.appendChild(btn);
             div.appendChild(document.createElement('br'));
           }
           container.appendChild(div);
         });
+
+        globalScore = score;
       });
     }
 
     function showFinalResult(score = 0, total = 0) {
       const percent = total ? Math.round((score / total) * 100) : 0;
-      const reaction = percent >= 90 ? "🌟 Excellent!" : percent >= 70 ? "🙂 Fair effort!" : percent >= 50 ? "😐 Needs more review." : "😢 Keep going—you got this!";
+      const reaction = percent >= 90 ? "🌟 Excellent!" :
+                       percent >= 70 ? "🙂 Fair effort!" :
+                       percent >= 50 ? "😐 Needs more review." :
+                                       "😢 Keep going—you got this!";
       const scoreMsg = `You got <strong>${score}</strong> out of <strong>${total}</strong> (${percent}%)`;
       document.getElementById('inline-score').innerHTML = `${scoreMsg} <span class="reaction">${reaction}</span>`;
     }
