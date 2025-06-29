@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Terms & Tricks</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f9f8ff;
+      color: #333;
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    header {
+      text-align: center;
+      color: #7e57c2;
+    }
+
+    #intro {
+      background-color: #efe4fc;
+      border-left: 5px solid #7e57c2;
+      padding: 1rem;
+      border-radius: 8px;
+      margin-bottom: 1.5rem;
+    }
+
+    #searchInput {
+      width: 100%;
+      padding: 0.8rem;
+      margin: 1rem 0;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 1rem;
+    }
+
+    .term {
+      background: #fff;
+      padding: 1rem;
+      margin: 1rem 0;
+      border-left: 5px solid #7e57c2;
+      border-radius: 8px;
+      box-shadow: 0 0 6px rgba(0,0,0,0.05);
+    }
+
+    .term h3 {
+      margin: 0 0 0.5rem;
+      color: #7e57c2;
+    }
+
+    .term p {
+      margin: 0.25rem 0;
+      color: #444;
+    }
+
+    .checkbox {
+      margin-top: 0.5rem;
+    }
+
+    #progress {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 2rem;
+    }
+
+    #pieChart {
+      max-width: 200px;
+    }
+
+    .new-terms-banner {
+      background: #fffae6;
+      border: 1px solid #ffce00;
+      padding: 0.75rem;
+      border-radius: 6px;
+      margin-bottom: 1rem;
+      color: #8c6f00;
+    }
+
+    .expand-section {
+      background: #f3edfc;
+      margin-top: 0.4rem;
+      padding: 0.5rem;
+      border-radius: 6px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>📘 Terms & Tricks</h1>
+  </header>
+
+  <div id="intro">
+    <p>Welcome to your personal nursing companion! Each term here is more than a definition — it’s a quick learning moment crafted just for you. Tick off what you've read, track your progress, and return anytime. 💜</p>
+  </div>
+
+  <div id="newTermsBanner" class="new-terms-banner" style="display: none;">
+    ✨ <strong>New terms have been added since your last visit!</strong>
+  </div>
+
+  <input type="text" id="searchInput" placeholder="Search term or content...">
+
+  <div id="termList"></div>
+
+  <div id="progress">
+    <p id="progressCount">0/0 terms read</p>
+    <canvas id="pieChart"></canvas>
+  </div>
+
+  <script>
+    const termListEl = document.getElementById("termList");
+    const searchInput = document.getElementById("searchInput");
+    const progressCount = document.getElementById("progressCount");
+    const pieChartEl = document.getElementById("pieChart");
+    const newTermsBanner = document.getElementById("newTermsBanner");
+
+    const STORAGE_KEY = 'read_terms';
+    const VERSION_KEY = 'terms_version';
+    const CURRENT_VERSION = 'v2'; // Update this when you add new terms
+
+    let allTerms = [];
+    let readTerms = JSON.parse(localStorage.getItem(STORAGE_KEY)) || [];
+
+    if (localStorage.getItem(VERSION_KEY) !== CURRENT_VERSION) {
+      newTermsBanner.style.display = "block";
+      localStorage.setItem(VERSION_KEY, CURRENT_VERSION);
+    }
+
+    fetch('terms.json')
+      .then(res => res.json())
+      .then(data => {
+        allTerms = data;
+        displayTerms(data);
+        updateProgress();
+      });
+
+    function displayTerms(terms) {
+      const html = terms.map((item, index) => {
+        const isChecked = readTerms.includes(item.term);
+        return `
+          <div class="term">
+            <h3>${item.term}</h3>
+            <p><strong>Explanation:</strong> ${item.explanation}</p>
+            ${item.expanded ? `<div class="expand-section"><strong>Expanded:</strong> ${item.expanded}</div>` : ''}
+            ${item.additional ? `<div class="expand-section"><strong>Additional:</strong> ${item.additional}</div>` : ''}
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" onchange="toggleRead('${item.term}')" ${isChecked ? 'checked' : ''} />
+                Mark as Read
+              </label>
+            </div>
+          </div>
+        `;
+      }).join('');
+      termListEl.innerHTML = html;
+    }
+
+    function toggleRead(term) {
+      const index = readTerms.indexOf(term);
+      if (index === -1) readTerms.push(term);
+      else readTerms.splice(index, 1);
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(readTerms));
+      updateProgress();
+    }
+
+    function updateProgress() {
+      const read = readTerms.length;
+      const total = allTerms.length;
+      progressCount.textContent = `${read}/${total} terms read`;
+      drawPieChart(read, total - read);
+    }
+
+    function drawPieChart(read, unread) {
+      new Chart(pieChartEl, {
+        type: 'doughnut',
+        data: {
+          labels: ['Read', 'Unread'],
+          datasets: [{
+            data: [read, unread],
+            backgroundColor: ['#7e57c2', '#ddd']
+          }]
+        },
+        options: {
+          responsive: true,
+          plugins: {
+            legend: { display: false }
+          },
+          cutout: '70%'
+        }
+      });
+    }
+
+    searchInput.addEventListener('input', () => {
+      const query = searchInput.value.toLowerCase();
+      const filtered = allTerms.filter(item =>
+        item.term.toLowerCase().includes(query) ||
+        item.explanation.toLowerCase().includes(query) ||
+        (item.expanded || '').toLowerCase().includes(query) ||
+        (item.additional || '').toLowerCase().includes(query)
+      );
+      displayTerms(filtered);
+    });
+  </script>
+</body>
+</html>
