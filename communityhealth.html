@@ -1,4 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Community Health Quiz</title>
+  <style>
+    .highlight-correct {
+      background-color: #c8f7c5;
+      border: 2px solid #2ecc71;
+    }
 
+    .highlight-wrong {
+      background-color: #fbcaca;
+      border: 2px solid #e74c3c;
+    }
+
+    #progress-counter {
+      font-size: 16px;
+      margin-bottom: 12px;
+    }
+
+    @keyframes slideFade {
+      0% { opacity: 0; transform: translateY(-20px); }
+      10% { opacity: 1; transform: translateY(0); }
+      90% { opacity: 1; transform: translateY(0); }
+      100% { opacity: 0; transform: translateY(-20px); }
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('https://raw.githubusercontent.com/heartique/HEARTIQUE-NEXUS-NURSES-ALLIANCE/main/background6.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      padding: 20px;
+      margin: 0;
+      line-height: 1.6;
+    }
+
+    h1, h2 {
+      text-align: center;
+      color: white;
+    }
+
+    .quote {
+      text-align: center;
+      font-style: italic;
+      margin-bottom: 20px;
+      color: white;
+    }
+
+    .top-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+
+    .btn, .tab-btn {
+      padding: 10px 16px;
+      font-size: 16px;
+      cursor: pointer;
+      border: none;
+      background-color: #f6c90e;
+      border-radius: 6px;
+      transition: 0.2s ease;
+    }
+
+    .btn:hover, .tab-btn:hover {
+      background-color: #f1b800;
+    }
+
+    .tab-btn.active {
+      background-color: #f1b800;
+      font-weight: bold;
+    }
+
+    .question-box {
+      background: #fff8d1;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .correct { color: green; font-weight: bold; }
+    .wrong { color: red; font-weight: bold; }
+
+    .additional {
+      background: #e0f7ff;
+      padding: 10px;
+      border-radius: 6px;
+      margin-top: 10px;
+      font-style: italic;
+      color: #003c59;
+    }
+
+    .final-result {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 18px;
+    }
+
+    .reaction {
+      font-size: 22px;
+      margin-top: 10px;
+    }
+
+    .contact {
+      margin-top: 40px;
+      background: #eef;
+      padding: 15px;
+      text-align: center;
+      border-radius: 8px;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 15px;
+      }
+      .btn, .tab-btn {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<h1>🌍 Community Health Quiz</h1>
+<div class="quote">"Empowered communities, healthier nations." 🌱</div>
+
+<div class="top-buttons">
+  <a href="quiz.html"><button class="btn">🏠 Home</button></a>
+  <button class="btn" onclick="showFinalResult()">📊 Get My Score Now</button>
+</div>
+
+<div id="quiz-controls" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+  <label><input type="checkbox" id="filter-unanswered"> Show only unanswered</label>
+  <button id="reset-progress" style="padding: 4px 10px; background: #e74c3c; color: white; border: none; border-radius: 5px;">🔁 Reset Progress</button>
+</div>
+
+<div id="quiz-tabs" class="top-buttons"></div>
+<div id="quiz-container"></div>
+<div class="final-result" id="result"></div>
+
+<div id="score-popup" style="
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: #2ecc71;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  display: none;
+  z-index: 999;
+  transition: all 0.5s ease;
+"></div>
+
+<div class="contact">
+  <p>📩 Like this format? Contact <strong>nursingnexusalliance@gmail.com</strong></p>
+  <p>📞 <strong>0717517371</strong> |  <strong>HEARTIQUE</strong></p>
+  <p>💡 Got more content? Let us help you bring it to life here!</p>
+</div>
+
+<script>
+const fileList = [
+  { name: "Part 1", file: "communityhealth.json" },
+  { name: "Part 2", file: "communityhealth1.json" },
+  { name: "Part 3", file: "communityhealth2.json" },
+  { name: "Part 4", file: "communityhealth3.json" },
+  { name: "Part 5", file: "communityhealth4.json" },
+  { name: "Part 6", file: "communityhealth5.json" }
+];
+
+const tabsDiv = document.getElementById('quiz-tabs');
+const container = document.getElementById('quiz-container');
+const resultDiv = document.getElementById('result');
+
+let allScores = {}; // persistent scores per file
+
+fileList.forEach((item, i) => {
+  const btn = document.createElement('button');
+  btn.className = 'tab-btn';
+  btn.textContent = item.name;
+  btn.onclick = () => {
+    const previousFile = document.querySelector('.tab-btn.active')?.textContent;
+    if (previousFile && allScores[previousFile]) {
+      showScorePopup(previousFile, allScores[previousFile].score, allScores[previousFile].total);
+    }
+    loadQuiz(item.file, btn);
+  };
+  tabsDiv.appendChild(btn);
+  if (i === 0) btn.click();
+});
+
+function loadQuiz(file, activeBtn) {
+  container.innerHTML = '';
+  resultDiv.innerHTML = '';
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  activeBtn.classList.add('active');
+
+  let score = 0;
+  let total = 0;
+  const progressKey = `progress_${file}`;
+  const savedProgress = JSON.parse(localStorage.getItem(progressKey) || '{}');
+  const filterOn = document.getElementById('filter-unanswered')?.checked || false;
+
+  fetch(file)
+    .then(res => res.json())
+    .then(data => {
+      total = data.length;
+
+      const normalize = (q) => {
+        const question = q.question || q.q || q.title || q.ques || "Untitled question";
+        const options = q.options || q.option || q.choices || {};
+        let answer = q.answer || q.answers || q.correct || q.key || "";
+
+        // Normalize answers like "(B) Something" -> "B"
+        const match = typeof answer === 'string' && answer.match(/\(?([A-D])\)?/i);
+        if (match) answer = match[1].toUpperCase();
+
+        const explanation = q.explanation || q.reason || q.why || "";
+        const additional = q.additional || q.notes || q.more || "";
+
+        return { question, options, answer, explanation, additional };
+      };
+
+      const progressCounter = document.createElement('div');
+      progressCounter.id = 'progress-counter';
+      progressCounter.style.textAlign = 'right';
+      progressCounter.style.fontWeight = 'bold';
+      progressCounter.style.marginBottom = '10px';
+      container.appendChild(progressCounter);
+
+      function updateProgressDisplay() {
+        const completed = Object.keys(savedProgress).length;
+        progressCounter.innerHTML = `🧮 Progress: ${completed} / ${total} questions answered`;
+      }
+
+      data.forEach((raw, index) => {
+        const q = normalize(raw);
+        const qid = `Q${index}`;
+
+        if (filterOn && savedProgress[qid]) return;
+
+        const div = document.createElement('div');
+        div.className = 'question-box';
+        div.innerHTML = `<strong>Q${index + 1}:</strong><br>${q.question.replace(/\n/g, "<br>")}<br><br>`;
+
+        Object.entries(q.options).forEach(([key, value]) => {
+          const btn = document.createElement('button');
+          btn.className = 'btn';
+          btn.textContent = `${key}) ${value}`;
+
+          if (savedProgress[qid]) {
+            btn.disabled = true;
+            if (key === savedProgress[qid].selected) {
+              if (key === q.answer) btn.classList.add('highlight-correct');
+              else btn.classList.add('highlight-wrong');
+            }
+            if (key === q.answer) btn.classList.add('highlight-correct');
+          }
+
+          btn.onclick = () => {
+            div.querySelectorAll('button').forEach(b => b.disabled = true);
+            const result = document.createElement('div');
+
+            if (key === q.answer) {
+              result.innerHTML = `<p class="correct">✅ Correct!</p><p>${q.explanation.replace(/\n/g, "<br>")}</p>`;
+              score++;
+              btn.classList.add('highlight-correct');
+            } else {
+              result.innerHTML = `<p class="wrong">❌ Wrong!</p><p>Correct is ${q.answer}) ${q.options[q.answer]}.<br>${q.explanation.replace(/\n/g, "<br>")}</p>`;
+              btn.classList.add('highlight-wrong');
+              div.querySelectorAll('button').forEach(b => {
+                if (b.textContent.startsWith(q.answer + ")")) {
+                  b.classList.add('highlight-correct');
+                }
+              });
+            }
+
+            if (q.additional) {
+              const extra = document.createElement('div');
+              extra.className = 'additional';
+              extra.innerHTML = `📌 ${q.additional.replace(/\n/g, "<br>")}`;
+              result.appendChild(extra);
+            }
+
+            savedProgress[qid] = { selected: key };
+            localStorage.setItem(progressKey, JSON.stringify(savedProgress));
+
+            div.appendChild(result);
+            updateProgressDisplay();
+
+            if (Object.keys(savedProgress).length === total) {
+              showFinalResult(score, total);
+            }
+
+            allScores[activeBtn.textContent] = { score, total };
+          };
+
+          div.appendChild(btn);
+          div.appendChild(document.createElement('br'));
+        });
+
+        container.appendChild(div);
+      });
+
+      updateProgressDisplay();
+      allScores[activeBtn.textContent] = {
+        score: Object.keys(savedProgress).filter(k => savedProgress[k].selected === normalize(data[k.replace('Q', '')]).answer).length,
+        total
+      };
+    })
+    .catch(() => {
+      container.innerHTML = `<p style="color:red;text-align:center;">⚠️ Couldn't load <strong>${file}</strong>. Make sure it exists and is a valid JSON file.</p>`;
+    });
+}
+
+function showFinalResult(score = 0, total = 0) {
+  if (score === 0 && total === 0) {
+    const currentFile = document.querySelector('.tab-btn.active')?.textContent;
+    const saved = allScores[currentFile];
+    if (saved) {
+      score = saved.score;
+      total = saved.total;
+    }
+  }
+  const percent = total ? Math.round((score / total) * 100) : 0;
+  let reaction = percent >= 90 ? "🌟 Excellent!" :
+                 percent >= 70 ? "🙂 Fair effort!" :
+                 percent >= 50 ? "😐 Needs more review." :
+                                 "😢 Keep going—you got this!";
+  document.getElementById('result').innerHTML =
+    `You got <strong>${score}</strong> out of <strong>${total}</strong> (${percent}%)<br><div class="reaction">${reaction}</div>`;
+}
+
+function showScorePopup(name, score, total) {
+  const popup = document.getElementById('score-popup');
+  const percent = total ? Math.round((score / total) * 100) : 0;
+  popup.innerHTML = `🎉 You had ${score} / ${total} on ${name} (${percent}%)`;
+  popup.style.display = 'block';
+  popup.style.animation = 'slideFade 3s ease forwards';
+  setTimeout(() => {
+    popup.style.display = 'none';
+    popup.style.animation = '';
+  }, 3000);
+}
+
+document.getElementById('reset-progress').onclick = () => {
+  const currentFile = document.querySelector('.tab-btn.active').textContent;
+  const match = fileList.find(f => f.name === currentFile);
+  if (match) {
+    localStorage.removeItem(`progress_${match.file}`);
+    alert("Progress cleared! Reloading quiz...");
+    loadQuiz(match.file, document.querySelector('.tab-btn.active'));
+  }
+};
+
+document.getElementById('filter-unanswered').onchange = () => {
+  const currentFile = document.querySelector('.tab-btn.active').textContent;
+  const match = fileList.find(f => f.name === currentFile);
+  if (match) {
+    loadQuiz(match.file, document.querySelector('.tab-btn.active'));
+  }
+};
+</script>
 
  <!-- 🌐 Floating Google Search Button with Responsive Expanding Box -->
 <style>
