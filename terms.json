@@ -40,5 +40,42 @@
     "explanation": "Autoimmune blistering diseases.",
     "expanded": "Pemphigus Vulgaris: Flaccid bullae, easily ruptured, painful erosions, often with oral mucosa involvement, positive Nikolsky sign. Bullous Pemphigoid: Tense bullae, less mucosal involvement, negative Nikolsky sign. Typically older adults.",
     "additional": "Distinguish by flaccid vs. tense bullae and Nikolsky sign. Pemphigus = severe, mucosal. Pemphigoid = milder. NCK-Style Question: An elderly patient in a nursing home develops large, firm, fluid-filled blisters on their abdomen and thighs. The blisters are intact and do not rupture easily with pressure. Oral mucosa is clear. This presentation is most characteristic of... (Answer: Bullous pemphigoid)"
+  },
+  {
+    "term": "Erythema Multiforme",
+    "explanation": "An acute hypersensitivity reaction, often triggered by infections (especially Herpes Simplex) or drugs.",
+    "expanded": "Target lesions or iris lesions are pathognomonic. They look like a bull's-eye with a dusky or blistered center, a pale ring, and a red outer ring.",
+    "additional": "Distinguish it vs. Urticaria (Hives): Urticaria has wheals that are transient (come and go within hours) and change shape. Target lesions are fixed and last for days. Vs. Erythema Migrans (Lyme): Lyme 'bull's-eye' is a single, expanding, flat red ring. Erythema Multiforme has multiple, classic three-ring target lesions. NCK-Style Question: A 19-year-old college student develops an abrupt rash on his hands and feet one week after having a cold sore. The lesions are round, edematous, and have a distinct three-zone appearance resembling a bull's-eye. This is most consistent with... (Answer: Erythema multiforme)"
+  },
+  {
+    "term": "Scabies",
+    "explanation": "An infestation of the skin by the Sarcoptes scabiei mite.",
+    "expanded": "Intense pruritus, characteristically worse at night. Linear burrows: Thin, serpiginous (wavy) lines on the skin where the mite has tunneled. Location: Finger webs, wrists, axillae, groin, belt line. The head is usually spared in adults.",
+    "additional": "Distinguish it vs. Pediculosis (Lice): Scabies is burrows and night-itching. Lice involves finding nits (eggs) on hair shafts or the insects themselves. Vs. Contact Dermatitis: Scabies has burrows and a characteristic distribution/night-itching. The rash of contact dermatitis is directly related to an external substance."
+  },
+  {
+    "term": "Molluscum Contagiosum",
+    "explanation": "A common viral skin infection (poxvirus).",
+    "expanded": "Flesh-colored, dome-shaped papules with central umbilication (a small central pit or dimple). Very common in children and immunocompromised individuals.",
+    "additional": "Distinguish it vs. Acne Vulgaris: Acne involves comedones (blackheads/whiteheads) and inflammatory pustules/cysts, not umbilicated papules. Vs. Basal Cell Carcinoma: BCC can be pearly and sometimes ulcerates centrally, but it's rare in kids and doesn't typically appear as multiple, uniform papules like molluscum."
+  },
+  {
+    "term": "Tinea (Fungal Infections)",
+    "explanation": "Fungal skin infections.",
+    "expanded": "Tinea Corporis (Ringworm): Annular (ring-shaped) plaque with an active, raised, scaly border and central clearing. It's itchy. Tinea Versicolor: Hypo- or hyperpigmented macules (light or dark flat spots), usually on the upper trunk and arms. Not typically itchy. Caused by Malassezia yeast. Buzzword: 'Spaghetti and meatballs' appearance on a KOH prep.",
+    "additional": "Tinea Corporis vs. Nummular Eczema: Both can be round. Tinea has central clearing. Nummular eczema is a solid, 'coin-shaped' plaque that is often weepy/crusted and uniformly inflamed. Tinea Corporis vs. Erythema Migrans (Lyme): Tinea is scaly. The Lyme rash is not scaly. Lyme also has a history of a tick bite."
+  },
+  {
+    "term": "Melanoma vs. Benign Growths",
+    "explanation": "Melanoma is malignant. Key distinction is based on the ABCDEs.",
+    "expanded": "ABCDEs: Asymmetry, Border (irregular), Color (variegated - multiple shades of brown, black, red, blue), Diameter (>6mm, size of a pencil eraser), Evolving (changing in size, shape, or color). Melanocytic Nevus (Mole): Benign. Should be symmetric, have a regular border, uniform color, and be stable. Seborrheic Keratosis: Benign. 'Stuck-on,' waxy, or greasy appearance. Common in older adults. Can be tan, brown, or black.",
+    "additional": "Melanoma often changes, appears asymmetrical, and has color variation. Benign growths are uniform, stable, and predictable in appearance. Look out for evolving lesions."
+  },
+  {
+    "term": "Allergic Rhinitis, Sinusitis, Nasal Polyps",
+    "explanation": "Three different upper respiratory tract conditions with distinct traits.",
+    "expanded": "Allergic Rhinitis: Clear, watery rhinorrhea (runny nose), paroxysmal sneezing, nasal itching, itchy/watery eyes. Often associated with 'allergic shiners' (dark circles under eyes) and a transverse nasal crease. Pale, boggy (swollen) nasal turbinates. Acute Sinusitis: Purulent (thick, yellow/green) nasal discharge, facial pain or pressure that worsens when bending forward, nasal obstruction. Often follows a viral URI. Nasal Polyps: Grape-like growths in the nasal cavity. Cause chronic congestion and decreased sense of smell. Strongly associated with asthma and aspirin sensitivity (Samter's Triad).",
+    "additional": "How to distinguish them: Clear & Itchy = Allergic Rhinitis; Purulent & Painful = Sinusitis; Chronic Congestion & Anosmia (loss of smell) = Consider Polyps."
   }
 ]
+
