@@ -1,0 +1,44 @@
+[
+  {
+    "term": "Psoriasis",
+    "explanation": "A chronic autoimmune condition causing rapid skin cell turnover.",
+    "expanded": "\"Well-demarcated erythematous plaques with a silvery-white scale.\" This is the #1 description. Location: Extensor surfaces (elbows, knees), scalp, sacrum (lower back). Auspitz Sign: Pinpoint bleeding when the scale is scraped off. Koebner Phenomenon: New lesions appear at sites of skin trauma. Nail Pitting: Tiny dents in the fingernails or toenails. Onycholysis (nail lifting) is also common.",
+    "additional": "Distinguish it vs. Atopic Dermatitis (Eczema): Psoriasis is on extensor surfaces with silvery scale and sharp borders. Eczema is on flexural surfaces (creases), ill-defined, and scaly/weepy, not silvery. Vs. Pityriasis Rosea: Psoriasis is chronic. Pityriasis is acute, has a 'herald patch,' and a 'Christmas tree' distribution on the back. Vs. Seborrheic Dermatitis: Seborrheic dermatitis has a greasy, yellow scale and is found in oil-rich areas (scalp, face, chest), not typically elbows/knees. NCK-Style Question: A 45-year-old male presents with a persistent rash on his elbows and scalp for the past several years. Examination reveals well-defined, red plaques covered with a thick, silvery scale. When a scale is removed, pinpoint bleeding is observed. Which diagnosis is most likely? (Answer: Psoriasis)"
+  },
+  {
+    "term": "Atopic Dermatitis (Eczema)",
+    "explanation": "A chronic, pruritic (itchy) inflammatory skin disease. 'Eczema' is a general term for dermatitis, but in questions, it most often refers to atopic dermatitis.",
+    "expanded": "\"The itch that rashes.\" Intense pruritus is the primary symptom. Location: Flexural surfaces (antecubital fossa/inner elbow, popliteal fossa/behind knee), neck, face. In infants, it's often on the cheeks and extensor surfaces. Associated Conditions (The 'Atopic Triad'): Personal or family history of asthma and allergic rhinitis. Appearance: Ill-defined, erythematous patches with scaling, and in acute phases, may be vesicular (tiny blisters) and weepy. Chronic scratching leads to lichenification (thickened, leathery skin).",
+    "additional": "Distinguish it vs. Contact Dermatitis: Atopic is chronic with a classic distribution. Contact dermatitis is acute, linked to a specific exposure, and the rash pattern will match the contact area (e.g., linear for poison ivy, a square under a patch). Vs. Psoriasis: Flexural vs. extensor location is the biggest clue. NCK-Style Question: A 9-year-old child with a history of asthma presents with severe itching, primarily in the creases of his elbows and knees. The skin in these areas is dry, thickened, and has visible scratch marks. The mother reports this has been an ongoing issue. This presentation is most consistent with... (Answer: Atopic dermatitis)"
+  },
+  {
+    "term": "Contact Dermatitis",
+    "explanation": "An inflammatory reaction caused by direct contact with a substance. Can be Allergic (immune response, e.g., poison ivy, nickel) or Irritant (direct damage, e.g., harsh soaps, chemicals).",
+    "expanded": "History of exposure is paramount. The question will give you a clue. Pattern of the rash: The shape and location correspond directly to the exposure. (e.g., rash under a watchband = nickel allergy; linear vesicles on the leg = poison ivy). Well-demarcated borders that match the contact area.",
+    "additional": "Distinguish it vs. Atopic Dermatitis: The key is the history and pattern. Atopic dermatitis follows a classic flexural pattern; contact dermatitis follows the pattern of the object/substance. Vs. Scabies: Scabies has burrows, involves finger webs, and itching is worse at night. Contact dermatitis doesn't burrow. NCK-Style Question: A landscaper presents with an intensely itchy, linear rash with small blisters on his forearms and shins two days after clearing brush. Which condition is the most likely cause? (Answer: Allergic contact dermatitis)"
+  },
+  {
+    "term": "Seborrheic Dermatitis",
+    "explanation": "A very common inflammatory rash affecting areas with a high concentration of sebaceous (oil) glands. Associated with Malassezia yeast.",
+    "expanded": "\"Greasy, yellow, or flaky white scales.\" Location: Scalp (dandruff in adults, \"cradle cap\" in infants), eyebrows, nasolabial folds (lines from nose to mouth), chest, and behind the ears. Often looks \"waxy\" or oily.",
+    "additional": "Distinguish it vs. Psoriasis: Seborrheic has a greasy/yellow scale. Psoriasis has a dry/silvery scale. While both affect the scalp, seborrheic dermatitis is more common on the face and chest. Vs. Atopic Dermatitis: Atopic is primarily itchy and flexural. Seborrheic is greasy and in oil-gland-rich areas. NCK-Style Question: An infant is brought in for a well-child check. The mother is concerned about a thick, yellow, crusty rash on the baby's scalp. The rash is non-pruritic and appears greasy. This condition is known as... (Answer: Seborrheic dermatitis)"
+  },
+  {
+    "term": "Pityriasis Rosea",
+    "explanation": "An acute, self-limiting skin eruption, thought to be viral in origin.",
+    "expanded": "\"Herald Patch\": Begins with a single, larger, oval, pink patch with fine scale, usually on the trunk. This appears 1-2 weeks before the main rash. \"Christmas Tree\" Pattern: The main rash erupts later, consisting of smaller, similar oval patches oriented along skin lines on the back, resembling a drooping pine tree. Usually affects young adults and is self-resolving in 6-8 weeks.",
+    "additional": "Distinguish it vs. Psoriasis: Pityriasis is acute, self-limiting, and has the classic herald patch/Christmas tree pattern. Psoriasis is chronic and on extensor surfaces. Vs. Tinea Corporis (Ringworm): The herald patch can look like ringworm. However, a KOH prep for ringworm would be positive for fungi, and the subsequent \"Christmas tree\" rash confirms pityriasis. Secondary syphilis can also mimic this, so it's a key differential. NCK-Style Question: A 22-year-old female presents with a widespread rash. She notes that it started with a single large, scaly pink spot on her abdomen a week ago. Now she has numerous smaller, oval, pink papules with fine scale distributed along her back in a distinct pattern. What is the most likely diagnosis? (Answer: Pityriasis rosea)"
+  },
+  {
+    "term": "Herpes Viruses (Simplex & Zoster)",
+    "explanation": "Grouped vesicles on an erythematous base. HSV-1 (oral), HSV-2 (genital), Zoster (dermatomal).",
+    "expanded": "Herpes Simplex: Grouped vesicles that rupture and crust. Recurrent. HSV-1: Cold sores; HSV-2: Genital. Herpes Zoster: Reactivation of Varicella-Zoster Virus. Unilateral, dermatomal, painful rash that does not cross the midline. Chickenpox: Vesicles in all stages of healing.",
+    "additional": "Distinguish it vs. Impetigo: Impetigo has a 'honey-colored crust', not grouped vesicles. Vs. Shingles vs. Contact Dermatitis: Shingles follows a dermatome and has neuropathic pain; contact dermatitis does not. Genital Herpes vs. Syphilis: Herpes is multiple, painful; syphilis chancre is a single, painless ulcer. NCK-Style Question: An 80-year-old man presents with a 2-day history of a painful, blistering rash on the right side of his chest that stops abruptly at his sternum. The nurse practitioner notes grouped vesicles on a red base following a clear band-like pattern. What is the most likely diagnosis? (Answer: Herpes zoster (shingles))"
+  },
+  {
+    "term": "Bullous Diseases (Pemphigus vs. Pemphigoid)",
+    "explanation": "Autoimmune blistering diseases.",
+    "expanded": "Pemphigus Vulgaris: Flaccid bullae, easily ruptured, painful erosions, often with oral mucosa involvement, positive Nikolsky sign. Bullous Pemphigoid: Tense bullae, less mucosal involvement, negative Nikolsky sign. Typically older adults.",
+    "additional": "Distinguish by flaccid vs. tense bullae and Nikolsky sign. Pemphigus = severe, mucosal. Pemphigoid = milder. NCK-Style Question: An elderly patient in a nursing home develops large, firm, fluid-filled blisters on their abdomen and thighs. The blisters are intact and do not rupture easily with pressure. Oral mucosa is clear. This presentation is most characteristic of... (Answer: Bullous pemphigoid)"
+  }
+]
