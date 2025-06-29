@@ -76,6 +76,146 @@
     "explanation": "Three different upper respiratory tract conditions with distinct traits.",
     "expanded": "Allergic Rhinitis: Clear, watery rhinorrhea (runny nose), paroxysmal sneezing, nasal itching, itchy/watery eyes. Often associated with 'allergic shiners' (dark circles under eyes) and a transverse nasal crease. Pale, boggy (swollen) nasal turbinates. Acute Sinusitis: Purulent (thick, yellow/green) nasal discharge, facial pain or pressure that worsens when bending forward, nasal obstruction. Often follows a viral URI. Nasal Polyps: Grape-like growths in the nasal cavity. Cause chronic congestion and decreased sense of smell. Strongly associated with asthma and aspirin sensitivity (Samter's Triad).",
     "additional": "How to distinguish them: Clear & Itchy = Allergic Rhinitis; Purulent & Painful = Sinusitis; Chronic Congestion & Anosmia (loss of smell) = Consider Polyps."
+  },
+  {
+    "term": "Acne Vulgaris",
+    "explanation": "Inflammatory disorder of the pilosebaceous unit marked by comedones, papules, pustules, and possibly nodules.",
+    "expanded": "Driven by hormones, excess sebum, P. acnes colonization, and inflammation. Key feature is presence of comedones (blackheads/whiteheads).",
+    "additional": "Found on face, chest, back. Distinguished from Molluscum (umbilicated), Sebaceous Hyperplasia (yellowish, soft papules), and Perioral Dermatitis (monomorphic lesions sparing lip border)."
+  },
+  {
+    "term": "Perioral Dermatitis",
+    "explanation": "Facial rash of uniform papules and pustules, sparing the lip border.",
+    "expanded": "Linked to topical steroid use. Appears around mouth, nose, and sometimes eyes, with no comedones.",
+    "additional": "Distinguished from acne by lip border sparing and lack of polymorphic lesions."
+  },
+  {
+    "term": "Sebaceous Hyperplasia",
+    "explanation": "Benign enlargement of sebaceous glands appearing as yellowish papules with central dell.",
+    "expanded": "Common in older adults with oily skin. Soft with possible surface telangiectasias.",
+    "additional": "Key differential is BCC (pearly, firm, pink) vs. SH (yellow, soft). May mimic molluscum in appearance."
+  },
+  {
+    "term": "Basal Cell Carcinoma (BCC)",
+    "explanation": "Most common skin cancer, slow-growing and rarely metastatic.",
+    "expanded": "Appears as pearly, waxy papule with telangiectasias and possible central ulceration ('rodent ulcer').",
+    "additional": "Occurs in sun-exposed areas. Key differential includes melanoma (pigmented) and sebaceous hyperplasia (yellowish)."
+  },
+  {
+    "term": "Lichen Planus",
+    "explanation": "Inflammatory condition of skin and mucosa with pruritic, purple, flat-topped papules.",
+    "expanded": "Classic features include Wickham’s striae and oral involvement. Affects wrists, ankles, and lumbar region.",
+    "additional": "Distinguished from psoriasis (salmon-pink plaques) and eczema (ill-defined, scaly)."
+  },
+  {
+    "term": "Dermatofibroma",
+    "explanation": "Benign fibrous nodule often on lower legs.",
+    "expanded": "Appears after trauma or insect bite. Firm with brown/pink color and dimple sign when pinched.",
+    "additional": "Dimple sign distinguishes it from nevi or melanoma."
+  },
+  {
+    "term": "Acanthosis Nigricans",
+    "explanation": "Velvety, hyperpigmented thickening of skin in folds.",
+    "expanded": "Commonly linked to insulin resistance (e.g., diabetes, PCOS). Can also be a marker for internal malignancy.",
+    "additional": "Noted on neck, axillae, groin. Clue to systemic disease more than a skin condition."
+  },
+  {
+    "term": "Impetigo",
+    "explanation": "Highly contagious bacterial skin infection, especially in kids.",
+    "expanded": "Characterized by vesicles/pustules that rupture to form honey-colored crusts.",
+    "additional": "Differentiate from herpes (grouped vesicles on red base, recurrent at same site)."
+  },
+  {
+    "term": "Pediculosis (Lice)",
+    "explanation": "Infestation of hair by lice, leading to intense pruritus.",
+    "expanded": "Nits (eggs) seen cemented to hair. Common on scalp, especially posterior neck.",
+    "additional": "Distinguish from scabies (burrows, intense night itching on body/finger webs)."
+  },
+  {
+    "term": "Genital Warts (Condyloma Acuminata)",
+    "explanation": "Warty growths caused by HPV, typically types 6 and 11.",
+    "expanded": "Verrucous, cauliflower-like papules on genital/perianal skin, usually painless.",
+    "additional": "Differentiate from herpes (painful vesicles), syphilis (painless ulcer), and molluscum (umbilicated papules)."
+  },
+  {
+    "term": "Syphilis (Primary Chancre)",
+    "explanation": "Painless, indurated ulcer at site of Treponema pallidum infection.",
+    "expanded": "Clean base, non-tender lymphadenopathy. Heals spontaneously but progresses if untreated.",
+    "additional": "Key is painless nature, unlike herpes or chancroid."
+  },
+  {
+    "term": "Urticaria (Hives)",
+    "explanation": "Transient, itchy wheals due to allergic reaction.",
+    "expanded": "Lesions appear and disappear within hours, often in new locations.",
+    "additional": "Distinguish from erythema multiforme (fixed, target lesions lasting days)."
+  },
+  {
+    "term": "Nummular Eczema",
+    "explanation": "Coin-shaped, itchy plaques of eczema.",
+    "expanded": "Starts with papules/vesicles that merge into scaly, crusted, weeping lesions.",
+    "additional": "Tinea has central clearing and scaly edge. KOH prep helps differentiate."
+  },
+  {
+    "term": "Erythema Migrans",
+    "explanation": "Bull’s-eye rash of early Lyme disease.",
+    "expanded": "Expanding annular red patch after tick bite. Not itchy or painful.",
+    "additional": "Distinguished from tinea (scaly, itchy) and EM (multiple fixed target lesions)."
+  },
+  {
+    "term": "Tinea Versicolor",
+    "explanation": "Superficial fungal infection causing discolored patches.",
+    "expanded": "Caused by Malassezia yeast. Appears as hypopigmented or hyperpigmented macules with fine, evoked scale. Often more visible after sun exposure.",
+    "additional": "Common on trunk, shoulders, and neck. KOH prep shows 'spaghetti and meatballs.' Differentiated from vitiligo (chalk-white, no scale) and pityriasis rosea (herald patch, Christmas tree pattern)."
+  },
+  {
+    "term": "Vitiligo",
+    "explanation": "Autoimmune loss of melanocytes causing total depigmentation.",
+    "expanded": "Characterized by chalk-white macules with sharp borders and no scale. Symmetrical distribution around orifices and joints.",
+    "additional": "Confirmed by Wood’s lamp showing blue-white fluorescence. Distinguished from tinea versicolor by absence of pigment and scale."
+  },
+  {
+    "term": "Seborrheic Keratosis (SK)",
+    "explanation": "Common benign skin growth with no malignant potential.",
+    "expanded": "Appears as 'stuck-on,' waxy, or greasy lesions that are tan to black and rough-surfaced. Nicknamed 'barnacles of aging.'",
+    "additional": "Distinguished from melanoma by superficial, uniform texture and borders. Moles are smooth; SKs are rough and crumbly."
+  },
+  {
+    "term": "Melanocytic Nevus (Mole) & Lentigo Simplex",
+    "explanation": "Benign melanocytic growths: moles (nevus) and flat pigmented spots (lentigo).",
+    "expanded": "Symmetrical, even-colored, well-defined, and stable spots <6 mm. Lentigines are flat and often sun-induced.",
+    "additional": "Key comparison for melanoma. Educate patients to monitor for changes using ABCDE criteria."
+  },
+  {
+    "term": "Melanoma",
+    "explanation": "Malignant tumor of melanocytes; most deadly skin cancer.",
+    "expanded": "Defined by ABCDE: Asymmetry, Border irregularity, Color variation, Diameter >6mm, Evolving features. May present with the 'ugly duckling' sign.",
+    "additional": "Any lesion with these traits should prompt urgent referral and biopsy. High risk with sun exposure history."
+  },
+  {
+    "term": "Angular Cheilitis",
+    "explanation": "Inflammation and fissuring at the corners of the mouth.",
+    "expanded": "Caused by Candida, mechanical irritation, or nutritional deficiencies (iron, B vitamins). Appears as erythema, cracks, and crusting at oral commissures.",
+    "additional": "Distinguished from herpes (grouped vesicles) and perioral dermatitis (around lips but not in corners)."
+  },
+  {
+    "term": "Deviated Nasal Septum",
+    "explanation": "Structural displacement of the nasal septum causing chronic obstruction.",
+    "expanded": "Leads to one-sided nasal blockage, snoring, sinus infections, or nosebleeds. Often congenital or post-trauma.",
+    "additional": "Differs from rhinitis and polyps, which are inflammatory. Septal deviation presents with persistent one-sided obstruction, confirmed via visualization."
+  },
+  {
+    "term": "Epidermal Nevus",
+    "explanation": "Benign congenital lesion due to epidermal overgrowth.",
+    "expanded": "Present from birth or early childhood. Grows with the child and follows Blaschko’s lines. Appears as linear, hyperpigmented, verrucous papules or plaques.",
+    "additional": "Distinguished from SK (onset in older age), lichen planus (acquired, pruritic), and psoriasis (inflammatory, with silvery scale). Non-inflammatory and permanent."
+  },
+  {
+    "term": "Master Summary: Strategic Differentiation Framework",
+    "explanation": "Four-step strategy for analyzing dermatological conditions on exams.",
+    "expanded": "1. WHERE is it? Use distribution clues (e.g., flexures = eczema, dermatomes = shingles). 2. WHAT does it look like? Identify visual buzzwords (e.g., honey crust = impetigo, pearly papule = BCC). 3. HOW does it behave? Assess symptoms and course (e.g., itchy at night = scabies). 4. WHO is affected? Factor in age, history, and context (e.g., obese = acanthosis nigricans, child = molluscum).",
+    "additional": "This framework helps break down complex dermatology questions by using pattern recognition, symptom behavior, and patient context. Learn hallmark buzzwords like: 'coin-shaped = nummular eczema', 'target lesion = EM', 'chalk-white = vitiligo', 'velvety = acanthosis nigricans', 'dimple sign = dermatofibroma', and more."
   }
 ]
+
+
 
