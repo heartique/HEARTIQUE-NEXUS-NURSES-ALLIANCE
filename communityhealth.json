@@ -638,60 +638,60 @@
   {
     "question": "The health-belief model is composed of one of the following factors:",
     "option": {
-      "a": "Psychological factors",
-      "b": "Modifying factors",
-      "c": "Social factors",
-      "d": "Environmental factors"
+      "A": "Psychological factors",
+      "B": "Modifying factors",
+      "C": "Social factors",
+      "D": "Environmental factors"
     },
-    "answers": "b",
+    "answers": "B",
     "explanation": "The Health Belief Model (HBM) is a psychological model that attempts to explain and predict health behaviors. It has several core components (perceived susceptibility, severity, benefits, barriers, cues to action, and self-efficacy). In addition to these, the model includes a category called Modifying Factors. These are factors that influence an individual's perceptions. They include:\n\nDemographic variables (age, sex, race)\n\nSociopsychological variables (personality, social class, peer pressure)\n\nStructural variables (knowledge about the disease, prior experience with it)\nThese modifying factors indirectly affect health behaviors by influencing the core perceptions.",
     "additional": "While the HBM is a psychological model and is influenced by social and environmental context, 'Modifying Factors' is a specific, named component within the model's framework. Options a, c, and d are too general.\n\nFuture test focus:\n- Scenario example: \"A man decides not to get the flu shot because he doesn't think he will get the flu.\" (Answer: Perceived Susceptibility).\n- \"A woman starts exercising after her doctor tells her she is at high risk for a heart attack.\" (Answer: Cues to Action).\n\nOther models:\n- Transtheoretical Model (Stages of Change)\n- Theory of Planned Behavior"
   },
   {
     "question": "Teaching breast self-examination falls under which level of disease prevention:",
     "option": {
-      "a": "Primary",
-      "b": "Secondary",
-      "c": "Tertiary",
-      "d": "Quaternary"
+      "A": "Primary",
+      "B": "Secondary",
+      "C": "Tertiary",
+      "D": "Quaternary"
     },
-    "answers": "b",
+    "answers": "B",
     "explanation": "Breast self-examination (BSE) is a screening technique. The purpose of screening is to detect a disease (in this case, breast cancer) at its earliest possible stage, before symptoms become advanced, in order to improve the outcome of treatment. Screening and early detection are the hallmarks of secondary prevention.",
     "additional": "a: Primary prevention involves health education or prophylactic actions.\nc: Tertiary prevention includes rehabilitation and managing lymphedema post-mastectomy.\nd: Quaternary prevention is about avoiding over-medicalization. Not relevant here."
   },
   {
     "question": "Which of the following channels of disease transmission is indirect transmission?",
     "option": {
-      "a": "Droplet infection",
-      "b": "Transplacental",
-      "c": "Unclean hands and fingers",
-      "d": "Bite of animal"
+      "A": "Droplet infection",
+      "B": "Transplacental",
+      "C": "Unclean hands and fingers",
+      "D": "Bite of animal"
     },
-    "answers": "c",
+    "answers": "C",
     "explanation": "Disease transmission is categorized as direct or indirect.\n\nUnclean hands and fingers act as an intermediary. A person touches a contaminated surface (like a doorknob) and then touches their mouth, nose, or eyes. The hands are a vehicle for transmission. This is indirect transmission.",
     "additional": "a: Droplet infection — direct transmission via cough/sneeze (short distance).\nb: Transplacental — direct, from mother to fetus.\nd: Bite of animal — direct.\n\nFuture test concepts:\n- Vehicle-borne (fomites, water, food, blood).\n- Vector-borne (mechanical vs. biological).\n- Airborne (e.g., TB, measles) — different from droplet."
   },
   {
     "question": "The form of immunity provided by B cells through immunoglobulin; IgA, IgD, IgM is best referred to as:-",
     "option": {
-      "a": "Cellular immunity",
-      "b": "Herd immunity",
-      "c": "Humoral immunity",
-      "d": "Vaccine immunity"
+      "A": "Cellular immunity",
+      "B": "Herd immunity",
+      "C": "Humoral immunity",
+      "D": "Vaccine immunity"
     },
-    "answers": "c",
+    "answers": "C",
     "explanation": "Humoral immunity involves B lymphocytes (B cells), which mature into plasma cells and produce antibodies (immunoglobulins) that circulate in the blood and lymph to fight extracellular pathogens.",
     "additional": "a: Cellular immunity involves T cells and intracellular pathogens.\nb: Herd immunity is a population-level concept.\nd: Vaccine immunity refers to *how* immunity is acquired, not what type it is."
   },
   {
     "question": "Which of the following vaccine is live attenuated?",
     "option": {
-      "a": "Yellow fever",
-      "b": "Rabies",
-      "c": "Diphtheria",
-      "d": "Influenza"
+      "A": "Yellow fever",
+      "B": "Rabies",
+      "C": "Diphtheria",
+      "D": "Influenza"
     },
-    "answers": "a",
+    "answers": "A",
     "explanation": "The Yellow fever vaccine is a classic live attenuated vaccine. It contains a weakened virus that can still replicate to generate a strong immune response.",
     "additional": "Vaccine types:\n- Live attenuated: MMR, OPV, Varicella, Yellow Fever, BCG\n- Inactivated: Rabies, Hep A, IPV\n- Toxoid: Diphtheria, Tetanus\n- Subunit/recombinant: Hep B, HPV, Pertussis\n\nd: Influenza has both inactivated (common flu shot) and live (nasal spray) forms. 'a' remains the most consistently correct answer."
   },
