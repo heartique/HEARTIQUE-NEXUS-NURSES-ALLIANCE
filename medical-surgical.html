@@ -17,7 +17,7 @@
     }
     h1, h2 {
       text-align: center;
-     color: white;
+      color: white;
     }
     .quote {
       text-align: center;
@@ -31,6 +31,7 @@
       gap: 10px;
       margin-bottom: 20px;
       flex-wrap: wrap;
+      align-items: center;
     }
     .btn, .tab-btn {
       padding: 10px 16px;
@@ -65,14 +66,9 @@
       font-style: italic;
       color: #003c59;
     }
-    .final-result {
-      text-align: center;
-      margin-top: 30px;
-      font-size: 18px;
-    }
     .reaction {
-      font-size: 22px;
-      margin-top: 10px;
+      font-size: 18px;
+      margin-left: 10px;
     }
     .contact {
       margin-top: 40px;
@@ -81,34 +77,51 @@
       text-align: center;
       border-radius: 8px;
     }
-    @media (max-width: 600px) {
-      body {
-        padding: 15px;
-      }
-      .btn, .tab-btn {
-        width: 100%;
-      }
+    #score-popup {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: #2ecc71;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 10px;
+      font-weight: bold;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      display: none;
+      z-index: 999;
+      transition: all 0.5s ease;
+    }
+    @keyframes slideFade {
+      0% { opacity: 0; transform: translateY(-20px); }
+      10% { opacity: 1; transform: translateY(0); }
+      90% { opacity: 1; transform: translateY(0); }
+      100% { opacity: 0; transform: translateY(-20px); }
     }
   </style>
 </head>
 <body>
-
   <h1>🩺 Medical Surgical Nursing Quiz</h1>
   <div class="quote">"Nursing is not for the faint-hearted. It’s for the strong, the compassionate, and the brave." 💡</div>
 
+  <!-- Top Controls -->
   <div class="top-buttons">
     <a href="quiz.html"><button class="btn">🏠 Home</button></a>
-    <button class="btn" onclick="showFinalResult()">📊 Get My Score Now</button>
+    <button class="btn" onclick="showFinalResult(globalScore, globalTotal)">📊 Get My Score Now</button>
+    <label style="color:white;"><input type="checkbox" id="filter-unanswered"> Show only unanswered</label>
+    <button id="reset-progress" class="btn" style="background:#e74c3c; color:white;">🔁 Reset Progress</button>
+    <div id="inline-score" style="color:white; font-weight:bold;"></div>
   </div>
 
   <div id="quiz-tabs" class="top-buttons"></div>
   <div id="quiz-container"></div>
-  <div class="final-result" id="result"></div>
 
   <div class="contact">
     <p>📩 Like this format? Contact us at <strong>nursingnexusalliance@gmail.com</strong></p>
+    <p>📞 <strong>0717517371</strong> | ❤️ <strong>HEARTIQUE</strong></p>
     <p>💡 Got more content? Let us help you bring it to life here!</p>
   </div>
+
+  <div id="score-popup"></div>
 
   <script>
     const fileList = [
@@ -120,87 +133,134 @@
       { name: "Part 6", file: "medical-surgical5.json" }
     ];
 
+    let globalScore = 0;
+    let globalTotal = 0;
+
     const tabsDiv = document.getElementById('quiz-tabs');
     const container = document.getElementById('quiz-container');
-    const resultDiv = document.getElementById('result');
 
     fileList.forEach((item, i) => {
       const btn = document.createElement('button');
       btn.className = 'tab-btn';
       btn.textContent = item.name;
-      btn.onclick = () => loadQuiz(item.file, btn);
+      btn.onclick = () => {
+        const prev = document.querySelector('.tab-btn.active')?.textContent;
+        if (prev && window.lastScoreData) {
+          showScorePopup(prev, window.lastScoreData.score, window.lastScoreData.total);
+        }
+        loadQuiz(item.file, btn);
+      };
       tabsDiv.appendChild(btn);
-      if (i === 0) btn.click(); // load first part automatically
+      if (i === 0) btn.click();
     });
 
     function loadQuiz(file, activeBtn) {
       container.innerHTML = '';
-      resultDiv.innerHTML = '';
       document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
       activeBtn.classList.add('active');
 
       let score = 0;
       let total = 0;
-      let questionsCompleted = 0;
+      const savedProgress = JSON.parse(localStorage.getItem(`progress_${file}`) || '{}');
+      const filterOn = document.getElementById('filter-unanswered')?.checked || false;
+      window.lastScoreData = { score: 0, total: 0 };
 
-      fetch(file)
-        .then(res => res.json())
-        .then(data => {
-          total = data.length;
+      fetch(file).then(res => res.json()).then(data => {
+        total = data.length;
+        globalTotal = total;
 
-          data.forEach((q, index) => {
-            const div = document.createElement('div');
-            div.className = 'question-box';
-            div.innerHTML = `<strong>Q${index + 1}: ${q.question}</strong><br><br>`;
+        data.forEach((q, i) => {
+          const question = q.question || q.q || q.title || q.ques || "Untitled";
+          const rawOptions = q.options || q.option || q.choices || {};
+          const options = {};
+          for (const [k, v] of Object.entries(rawOptions)) {
+            options[k.toUpperCase()] = v;
+          }
+          let answer = (q.answer || q.answers || q.correct || q.key || "").toString().match(/[A-D]/i);
+          answer = answer ? answer[0].toUpperCase() : "";
 
-            Object.entries(q.options).forEach(([key, value]) => {
-              const btn = document.createElement('button');
-              btn.className = 'btn';
-              btn.textContent = `${key}) ${value}`;
-              btn.onclick = () => {
-                div.querySelectorAll('button').forEach(b => b.disabled = true);
-                const result = document.createElement('div');
+          const explanation = q.explanation || q.reason || q.why || "";
+          const additional = q.additional || q.notes || q.more || "";
+          const qid = `Q${i}`;
 
-                if (key === q.answer) {
-                  result.innerHTML = `<p class="correct">✅ Correct!</p><p>${q.explanation}</p>`;
-                  score++;
-                } else {
-                  result.innerHTML = `<p class="wrong">❌ Wrong!</p><p>Correct answer is ${q.answer}) ${q.options[q.answer]}. ${q.explanation}</p>`;
-                }
+          if (filterOn && savedProgress[qid]) return;
 
-                if (q.additional) {
-                  const extra = document.createElement('div');
-                  extra.className = 'additional';
-                  extra.textContent = `📌 ${q.additional}`;
-                  result.appendChild(extra);
-                }
+          const div = document.createElement('div');
+          div.className = 'question-box';
+          div.innerHTML = `<strong>Q${i + 1}:</strong><br>${question}<br><br>`;
 
-                div.appendChild(result);
-                questionsCompleted++;
-                if (questionsCompleted === total) showFinalResult(score, total);
-              };
-              div.appendChild(btn);
-              div.appendChild(document.createElement('br'));
-            });
+          for (const [key, value] of Object.entries(options)) {
+            const btn = document.createElement('button');
+            btn.className = 'btn';
+            btn.textContent = `${key}) ${value}`;
+            if (savedProgress[qid]) btn.disabled = true;
 
-            container.appendChild(div);
-          });
-        })
-        .catch(() => {
-          container.innerHTML = `<p style="color:red;text-align:center;">⚠️ Couldn't load ${file}</p>`;
+            btn.onclick = () => {
+              div.querySelectorAll('button').forEach(b => b.disabled = true);
+              const result = document.createElement('div');
+              if (key === answer) {
+                result.innerHTML = `<p class="correct">✅ Correct!</p><p>${explanation}</p>`;
+                score++;
+              } else {
+                result.innerHTML = `<p class="wrong">❌ Wrong!</p><p>Correct answer is ${answer}) ${options[answer] || ''}.<br>${explanation}</p>`;
+              }
+              if (additional) {
+                result.innerHTML += `<div class="additional">📌 ${additional}</div>`;
+              }
+              div.appendChild(result);
+              savedProgress[qid] = { selected: key };
+              localStorage.setItem(`progress_${file}`, JSON.stringify(savedProgress));
+
+              globalScore = score;
+              window.lastScoreData = { score, total };
+            };
+            div.appendChild(btn);
+            div.appendChild(document.createElement('br'));
+          }
+          container.appendChild(div);
         });
+
+        globalScore = score;
+      });
     }
 
     function showFinalResult(score = 0, total = 0) {
       const percent = total ? Math.round((score / total) * 100) : 0;
-      let reaction = percent >= 90 ? "🌟 Excellent!" :
-                     percent >= 70 ? "🙂 Fair effort!" :
-                     percent >= 50 ? "😐 Needs more review." :
-                                     "😢 Keep going—you got this!";
-
-      document.getElementById('result').innerHTML =
-        `You got <strong>${score}</strong> out of <strong>${total}</strong> (${percent}%)<br><div class="reaction">${reaction}</div>`;
+      const reaction = percent >= 90 ? "🌟 Excellent!" :
+                       percent >= 70 ? "🙂 Fair effort!" :
+                       percent >= 50 ? "😐 Needs more review." :
+                                       "😢 Keep going—you got this!";
+      const scoreMsg = `You got <strong>${score}</strong> out of <strong>${total}</strong> (${percent}%)`;
+      document.getElementById('inline-score').innerHTML = `${scoreMsg} <span class="reaction">${reaction}</span>`;
     }
+
+    function showScorePopup(name, score, total) {
+      const popup = document.getElementById('score-popup');
+      const percent = total ? Math.round((score / total) * 100) : 0;
+      popup.innerHTML = `🎉 You had ${score} / ${total} on ${name} (${percent}%)`;
+      popup.style.display = 'block';
+      popup.style.animation = 'slideFade 3s ease forwards';
+      setTimeout(() => {
+        popup.style.display = 'none';
+        popup.style.animation = '';
+      }, 3000);
+    }
+
+    document.getElementById('reset-progress').onclick = () => {
+      const current = document.querySelector('.tab-btn.active').textContent;
+      const match = fileList.find(f => f.name === current);
+      if (match) {
+        localStorage.removeItem(`progress_${match.file}`);
+        alert("Progress cleared! Reloading quiz...");
+        loadQuiz(match.file, document.querySelector('.tab-btn.active'));
+      }
+    };
+
+    document.getElementById('filter-unanswered').onchange = () => {
+      const current = document.querySelector('.tab-btn.active').textContent;
+      const match = fileList.find(f => f.name === current);
+      if (match) loadQuiz(match.file, document.querySelector('.tab-btn.active'));
+    };
   </script>
 <!-- 🌐 Floating Google Search Button with Responsive Expanding Box -->
 <style>
