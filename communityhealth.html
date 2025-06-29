@@ -135,8 +135,9 @@
       { name: "Part 6", file: "communityhealth5.json" }
     ];
 
-    let globalScore = 0;
-    let globalTotal = 0;
+    let globalScore = parseInt(localStorage.getItem('globalScore')) || 0;
+    let globalTotal = parseInt(localStorage.getItem('globalTotal')) || 0;
+    document.getElementById('inline-score').innerHTML = `You got <strong>${globalScore}</strong> / <strong>${globalTotal}</strong>`;
 
     const tabsDiv = document.getElementById('quiz-tabs');
     const container = document.getElementById('quiz-container');
@@ -169,7 +170,6 @@
 
       fetch(file).then(res => res.json()).then(data => {
         total = data.length;
-        globalTotal = total;
 
         data.forEach((q, i) => {
           const question = q.question || q.q || q.title || q.ques || "Untitled";
@@ -201,7 +201,6 @@
               if (key === answer) {
                 result.innerHTML = `<p class="correct">✅ Correct!</p><p>${explanation}</p>`;
                 score++;
-                globalScore = score;
               } else {
                 result.innerHTML = `<p class="wrong">❌ Wrong!</p><p>Correct is ${answer}) ${options[answer] || ''}.<br>${explanation}</p>`;
               }
@@ -211,14 +210,18 @@
               div.appendChild(result);
               savedProgress[qid] = { selected: key };
               localStorage.setItem(`progress_${file}`, JSON.stringify(savedProgress));
+
+              globalScore++;
+              globalTotal++;
+              localStorage.setItem('globalScore', globalScore);
+              localStorage.setItem('globalTotal', globalTotal);
+              document.getElementById('inline-score').innerHTML = `You got <strong>${globalScore}</strong> / <strong>${globalTotal}</strong>`;
             };
             div.appendChild(btn);
             div.appendChild(document.createElement('br'));
           }
           container.appendChild(div);
         });
-
-        globalScore = score;
       });
     }
 
@@ -257,6 +260,7 @@
       if (match) loadQuiz(match.file, document.querySelector('.tab-btn.active'));
     };
   </script>
+
  <!-- 🌐 Floating Google Search Button with Responsive Expanding Box -->
 <style>
   #google-search-container {
