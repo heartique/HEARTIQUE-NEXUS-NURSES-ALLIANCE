@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Terms & Tricks</title>
+  <title>Terms & Tricks - Multi Part</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <style>
     body {
@@ -22,52 +22,43 @@
       color: #ffffff;
     }
 
-    #intro {
+    .tab-bar {
+      display: flex;
+      gap: 10px;
+      margin: 1rem 0;
+      flex-wrap: wrap;
+    }
+
+    .tab-button {
+      background: #7e57c2;
+      color: white;
+      padding: 0.6rem 1.2rem;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+      font-size: 0.95rem;
+      transition: background 0.3s;
+    }
+
+    .tab-button:hover,
+    .tab-button.active {
+      background: #5e3ea4;
+    }
+
+    .tab-content {
+      display: none;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    .section {
       background-color: #efe4fc;
       border-left: 5px solid #7e57c2;
       padding: 1rem;
       border-radius: 8px;
-      margin-bottom: 1.5rem;
-    }
-
-    .new-terms-banner {
-      background: #fffae6;
-      border: 1px solid #ffce00;
-      padding: 0.75rem;
-      border-radius: 6px;
-      margin-bottom: 1.2rem;
-      color: #8c6f00;
-      font-weight: 500;
-      box-shadow: 0 0 6px rgba(0,0,0,0.05);
-    }
-
-    #progressContainer {
-      background: #ffffffcc;
-      border-radius: 10px;
-      padding: 1rem;
-      margin-bottom: 1.5rem;
-      box-shadow: 0 0 6px rgba(0,0,0,0.05);
-      text-align: center;
-    }
-
-    #pieChart {
-      max-width: 200px;
-      margin: auto;
-    }
-
-    #progressText {
-      margin-top: 0.75rem;
-      color: #7e57c2;
-      font-weight: bold;
-    }
-
-    #searchInput {
-      width: 100%;
-      padding: 0.8rem;
       margin: 1rem 0;
-      border-radius: 6px;
-      border: 1px solid #ccc;
-      font-size: 1rem;
     }
 
     .term {
@@ -89,10 +80,6 @@
       color: #444;
     }
 
-    .checkbox {
-      margin-top: 0.5rem;
-    }
-
     .expand-section {
       background: #f3edfc;
       margin-top: 0.4rem;
@@ -100,132 +87,257 @@
       border-radius: 6px;
       font-size: 0.9rem;
     }
+
+    .checkbox {
+      margin-top: 0.5rem;
+    }
+
+    .progress-box {
+      text-align: center;
+      margin: 1rem 0;
+    }
+
+    canvas {
+      max-width: 200px;
+      margin: auto;
+    }
+
+    #searchInput {
+      width: 100%;
+      padding: 0.8rem;
+      margin-bottom: 1rem;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 1rem;
+    }
   </style>
 </head>
 <body>
-
   <header>
-    <h1>📘 TERMS & TRICKS</h1>
+    <h1>📘 TERMS & TRICKS - MULTI PART</h1>
   </header>
 
-  <div id="intro">
-    <p>Welcome to your personal nursing companion! Each term here is more than a definition — it’s a quick learning moment crafted just for you. Tick off what you've read, track your progress, and return anytime. 💜</p>
-  </div>
-
-  <div id="newTermsBanner" class="new-terms-banner" style="display: none;">
-    ✨ <strong>New terms have been added since your last visit!</strong>
-  </div>
-
-  <!-- Pie Chart & Progress Section -->
-  <div id="progressContainer">
-    <canvas id="pieChart"></canvas>
-    <div id="progressText">Loading progress...</div>
-  </div>
-
+  <div class="tab-bar" id="tabBar"></div>
   <input type="text" id="searchInput" placeholder="Search term or content...">
 
-  <div id="termList"></div>
+  <div id="tabContents"></div>
 
   <script>
-    const termListEl = document.getElementById("termList");
+    const termFiles = [
+      { file: 'terms.json', label: '🧠 Part 1' },
+      { file: 'terms1.json', label: '📘 Part 2' },
+      { file: 'terms2.json', label: '📗 Part 3' },
+      { file: 'terms3.json', label: '📙 Part 4' },
+      { file: 'terms4.json', label: '📕 Part 5' },
+      { file: 'terms5.json', label: '📒 Part 6' },
+      { file: 'terms6.json', label: '📓 Part 7' },
+      { file: 'terms7.json', label: '📔 Part 8' },
+    ];
+
+    const tabBar = document.getElementById("tabBar");
+    const tabContents = document.getElementById("tabContents");
     const searchInput = document.getElementById("searchInput");
-    const pieChartEl = document.getElementById("pieChart");
-    const progressText = document.getElementById("progressText");
-    const newTermsBanner = document.getElementById("newTermsBanner");
+    const STORAGE_KEY = 'read_terms_multiparts';
+    let readMap = JSON.parse(localStorage.getItem(STORAGE_KEY)) || {};
+    let allTermsByPart = {};
 
-    const STORAGE_KEY = 'read_terms';
-    const VERSION_KEY = 'terms_version';
-    const CURRENT_VERSION = 'v2'; // Change this on new updates
+    termFiles.forEach((part, index) => {
+      const btn = document.createElement('button');
+      btn.textContent = part.label;
+      btn.classList.add('tab-button');
+      if (index === 0) btn.classList.add('active');
+      btn.onclick = () => switchTab(index);
+      tabBar.appendChild(btn);
 
-    let allTerms = [];
-    let readTerms = JSON.parse(localStorage.getItem(STORAGE_KEY)) || [];
+      const div = document.createElement('div');
+      div.classList.add('tab-content');
+      if (index === 0) div.classList.add('active');
+      div.id = `tab-${index}`;
+      tabContents.appendChild(div);
 
-    // New terms check
-    if (localStorage.getItem(VERSION_KEY) !== CURRENT_VERSION) {
-      setTimeout(() => {
-        newTermsBanner.style.display = "block";
-        alert("🆕 New terms were added to this page!");
-      }, 600);
-      localStorage.setItem(VERSION_KEY, CURRENT_VERSION);
+      fetch(part.file).then(res => res.ok ? res.json() : []).then(data => {
+        allTermsByPart[index] = data;
+        readMap[index] = readMap[index] || [];
+        renderTab(index);
+      });
+    });
+
+    function switchTab(index) {
+      document.querySelectorAll('.tab-button').forEach((btn, i) => {
+        btn.classList.toggle('active', i === index);
+      });
+      document.querySelectorAll('.tab-content').forEach((div, i) => {
+        div.classList.toggle('active', i === index);
+      });
     }
 
-    fetch('terms.json')
-      .then(res => res.json())
-      .then(data => {
-        allTerms = data;
-        displayTerms(data);
-        updateProgress();
+    function renderTab(index) {
+      const terms = allTermsByPart[index];
+      const container = document.getElementById(`tab-${index}`);
+      const readList = readMap[index];
+
+      const filteredTerms = terms.filter(t => {
+        const query = searchInput.value.toLowerCase();
+        return t.term.toLowerCase().includes(query) ||
+          t.explanation.toLowerCase().includes(query) ||
+          (t.expanded || '').toLowerCase().includes(query) ||
+          (t.additional || '').toLowerCase().includes(query);
       });
 
-    function displayTerms(terms) {
-      const html = terms.map((item) => {
-        const isChecked = readTerms.includes(item.term);
+      const termsHtml = filteredTerms.map(term => {
+        const checked = readList.includes(term.term);
         return `
           <div class="term">
-            <h3>${item.term}</h3>
-            <p><strong>Explanation:</strong> ${item.explanation}</p>
-            ${item.expanded ? `<div class="expand-section"><strong>Expanded:</strong> ${item.expanded}</div>` : ''}
-            ${item.additional ? `<div class="expand-section"><strong>Additional:</strong> ${item.additional}</div>` : ''}
+            <h3>${term.term}</h3>
+            <p><strong>Explanation:</strong> ${term.explanation}</p>
+            ${term.expanded ? `<div class="expand-section"><strong>Expanded:</strong> ${term.expanded}</div>` : ''}
+            ${term.additional ? `<div class="expand-section"><strong>Additional:</strong> ${term.additional}</div>` : ''}
             <div class="checkbox">
-              <label>
-                <input type="checkbox" onchange="toggleRead('${item.term}')" ${isChecked ? 'checked' : ''} />
-                Mark as Read
-              </label>
+              <label><input type="checkbox" onchange="toggleRead(${index}, '${term.term}')" ${checked ? 'checked' : ''}/> Mark as Read</label>
             </div>
           </div>
         `;
       }).join('');
-      termListEl.innerHTML = html;
-    }
 
-    function toggleRead(term) {
-      const index = readTerms.indexOf(term);
-      if (index === -1) readTerms.push(term);
-      else readTerms.splice(index, 1);
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(readTerms));
-      updateProgress();
-    }
+      const readCount = readList.length;
+      const total = terms.length;
+      const percent = total ? Math.round((readCount / total) * 100) : 0;
 
-    let chartInstance;
-    function updateProgress() {
-      const read = readTerms.length;
-      const total = allTerms.length;
-      const percentage = total === 0 ? 0 : Math.round((read / total) * 100);
+      container.innerHTML = `
+        <div class="progress-box">
+          <canvas id="chart-${index}"></canvas>
+          <p><strong>${percent}%</strong> Read — ${readCount}/${total}</p>
+        </div>
+        ${termsHtml}
+      `;
 
-      // Update text
-      progressText.innerHTML = `${percentage}% Read — ${read}/${total} terms completed 💪`;
-
-      // Draw chart
-      if (chartInstance) chartInstance.destroy();
-      chartInstance = new Chart(pieChartEl, {
+      new Chart(document.getElementById(`chart-${index}`), {
         type: 'doughnut',
         data: {
           labels: ['Read', 'Unread'],
           datasets: [{
-            data: [read, total - read],
+            data: [readCount, total - readCount],
             backgroundColor: ['#7e57c2', '#ddd']
           }]
         },
-        options: {
-          responsive: true,
-          plugins: {
-            legend: { display: false }
-          },
-          cutout: '70%'
-        }
+        options: { plugins: { legend: { display: false } }, cutout: '70%' }
       });
     }
 
+    function toggleRead(index, term) {
+      const list = readMap[index];
+      const i = list.indexOf(term);
+      if (i === -1) list.push(term);
+      else list.splice(i, 1);
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(readMap));
+      renderTab(index);
+    }
+
     searchInput.addEventListener('input', () => {
-      const query = searchInput.value.toLowerCase();
-      const filtered = allTerms.filter(item =>
-        item.term.toLowerCase().includes(query) ||
-        item.explanation.toLowerCase().includes(query) ||
-        (item.expanded || '').toLowerCase().includes(query) ||
-        (item.additional || '').toLowerCase().includes(query)
-      );
-      displayTerms(filtered);
+      Object.keys(allTermsByPart).forEach(index => renderTab(index));
     });
   </script>
+  <!-- 🌐 Floating Google Search Button with Responsive Expanding Box -->
+<style>
+  #google-search-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  #google-btn-label {
+    background-color: #f6c90e;
+    color: black;
+    border-radius: 20px;
+    padding: 6px 12px;
+    font-size: 14px;
+    margin-bottom: 6px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+  }
+
+  #google-toggle-btn {
+    background-color: #f6c90e;
+    color: black;
+    border: none;
+    padding: 12px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  #google-search-box {
+    display: none;
+    margin-top: 10px;
+    background: white;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    opacity: 0;
+    transform: scaleY(0.95);
+    transform-origin: top;
+    transition: all 0.3s ease;
+    width: 320px;
+    height: 500px;
+    overflow: auto;
+  }
+
+  #google-search-box.active {
+    display: block;
+    opacity: 1;
+    transform: scaleY(1);
+  }
+
+  /* 🔁 Responsive for phones */
+  @media (max-width: 600px) {
+    #google-search-container {
+      right: 10px;
+      left: 10px;
+      align-items: center;
+    }
+
+    #google-search-box {
+      width: 100%;
+      height: 70vh;
+    }
+
+    .gcse-search {
+      width: 100% !important;
+      height: 100% !important;
+    }
+  }
+</style>
+
+<div id="google-search-container">
+  <div id="google-btn-label">Search Google</div>
+  <button id="google-toggle-btn" title="Search Google">🔍</button>
+  <div id="google-search-box">
+    <script async src="https://cse.google.com/cse.js?cx=f37322f9c2a254bce"></script>
+    <div class="gcse-search"></div>
+  </div>
+</div>
+
+<script>
+  const toggleBtn = document.getElementById("google-toggle-btn");
+  const searchBox = document.getElementById("google-search-box");
+
+  // Toggle search box visibility
+  toggleBtn.addEventListener("click", () => {
+    searchBox.classList.toggle("active");
+  });
+
+  // Auto-close when clicking outside
+  document.addEventListener("click", (e) => {
+    const container = document.getElementById("google-search-container");
+    if (!container.contains(e.target)) {
+      searchBox.classList.remove("active");
+    }
+  });
+</script>
 </body>
 </html>
