@@ -5,183 +5,185 @@
   <title>📘 Vocabulary Dashboard</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background-image: url('https://raw.githubusercontent.com/heartique/HEARTIQUE-NEXUS-NURSES-ALLIANCE/main/background6.jpg');
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
-      margin: 0;
-      padding: 2rem;
-      color: #333;
-      max-width: 1000px;
-      margin: auto;
-    }
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-image: url('https://raw.githubusercontent.com/heartique/HEARTIQUE-NEXUS-NURSES-ALLIANCE/main/background6.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 2rem;
+    color: #333;
+    max-width: 1000px;
+    margin: auto;
+  }
 
-    header {
-      text-align: center;
-      color: #ffffff;
-    }
+  header {
+    text-align: center;
+    color: #ffffff;
+  }
 
-    .tab-bar {
-      display: flex;
-      gap: 10px;
-      margin: 1rem 0;
-      flex-wrap: wrap;
-    }
-
-    .tab-button {
-      background: #7e57c2;
-      color: white;
-      padding: 0.6rem 1.2rem;
-      border-radius: 8px;
-      border: none;
-      cursor: pointer;
-      font-size: 0.95rem;
-      transition: background 0.3s;
-    }
-
-    .tab-button:hover,
-    .tab-button.active {
-      background: #5e3ea4;
-    }
-
-    .tab-content {
-      display: none;
-    }
-
-    .tab-content.active {
-      display: block;
-    }
-
-    .word-of-day {
-      background: #fffde7;
-      border-left: 6px solid #fdd835;
-      padding: 1rem;
-      border-radius: 8px;
-      margin-bottom: 1.5rem;
-      box-shadow: 0 0 6px rgba(0,0,0,0.05);
-    }
-
-    .word-of-day h2 {
-      color: #f57f17;
-    }
-
-    #intro {
-      background: #fff3e0;
-      border-left: 6px solid #ff9800;
-      padding: 1rem;
-      border-radius: 8px;
-      margin-bottom: 1.5rem;
-      box-shadow: 0 0 6px rgba(0,0,0,0.05);
-    }
-
-    #searchInput {
-      width: 100%;
-      padding: 0.8rem;
-      margin-bottom: 1.5rem;
-      border-radius: 6px;
-      border: 1px solid #ccc;
-      font-size: 1rem;
-      display: block;
-    }
-
-    .vocab-item {
-      background: white;
-      padding: 1rem;
-      margin: 1rem 0;
-      border-left: 5px solid #4caf50;
-      border-radius: 8px;
-      box-shadow: 0 0 6px rgba(0,0,0,0.05);
-    }
-
-    .term {
-      font-weight: bold;
-      font-size: 1.1rem;
-      color: #2e7d32;
-    }
-
-    .definition {
-      margin-top: 6px;
-      color: #444;
-    }
-
-    .progress-box {
-      text-align: center;
-      margin: 1rem 0;
-    }
-
-    canvas {
-      max-width: 200px;
-      margin: auto;
-    }
-
-    #resetBtn {
-      float: right;
-      background: #e53935;
-      color: white;
-      border: none;
-      padding: 0.5rem 1rem;
-      border-radius: 6px;
-      cursor: pointer;
-      font-size: 0.9rem;
-      margin-left: 10px;
-    }
-
-    #resetBtn:hover {
-      background: #b71c1c;
-    }
-
-    .back-link {
-      display: inline-block;
-      margin-top: 2rem;
-      padding: 0.6rem 1rem;
-      background: #ccc;
-      color: #000;
-      border-radius: 6px;
-      text-decoration: none;
-    }
-
-    #newWordsBanner {
-      display: none;
-      background-color: #ffe082;
-      color: #5d4037;
-      padding: 0.7rem 1rem;
-      border-left: 6px solid #ffb300;
-      border-radius: 6px;
-      margin-bottom: 1rem;
-      font-weight: bold;
-    }
-@media (max-width: 600px) {
-  header h1 {
-    font-size: 1.6rem;
+  .tab-bar {
+    display: flex;
+    gap: 10px;
+    margin: 1rem 0;
+    flex-wrap: wrap;
   }
 
   .tab-button {
-    font-size: 1.3rem;
-    padding: 1rem 1.4rem;
+    background: #7e57c2;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.95rem;
+    transition: background 0.3s;
+  }
+
+  .tab-button:hover,
+  .tab-button.active {
+    background: #5e3ea4;
+  }
+
+  .tab-content {
+    display: none;
+  }
+
+  .tab-content.active {
+    display: block;
+  }
+
+  .word-of-day {
+    background: #fffde7;
+    border-left: 6px solid #fdd835;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 0 6px rgba(0,0,0,0.05);
+  }
+
+  .word-of-day h2 {
+    color: #f57f17;
   }
 
   #intro {
-    padding: 1.2rem;
-  }
-
-  #intro h2 {
-    font-size: 1.5rem;
-  }
-
-  #intro p {
-    font-size: 1.2rem;
-    line-height: 1.6;
+    background: #fff3e0;
+    border-left: 6px solid #ff9800;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 0 6px rgba(0,0,0,0.05);
   }
 
   #searchInput {
-    font-size: 1.2rem;
-    padding: 1rem;
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    display: block;
   }
-}
 
-  </style>
+  .vocab-item {
+    background: white;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-left: 5px solid #4caf50;
+    border-radius: 8px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.05);
+  }
+
+  .term {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #2e7d32;
+  }
+
+  .definition {
+    margin-top: 6px;
+    color: #444;
+  }
+
+  .progress-box {
+    text-align: center;
+    margin: 1rem 0;
+  }
+
+  canvas {
+    max-width: 200px;
+    margin: auto;
+  }
+
+  #resetBtn {
+    float: right;
+    background: #e53935;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-left: 10px;
+  }
+
+  #resetBtn:hover {
+    background: #b71c1c;
+  }
+
+  .back-link {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 0.6rem 1rem;
+    background: #ccc;
+    color: #000;
+    border-radius: 6px;
+    text-decoration: none;
+  }
+
+  #newWordsBanner {
+    display: none;
+    background-color: #ffe082;
+    color: #5d4037;
+    padding: 0.7rem 1rem;
+    border-left: 6px solid #ffb300;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+
+  /* ✅ MOBILE FIXES */
+  @media (max-width: 600px) {
+    header h1 {
+      font-size: 1.6rem;
+    }
+
+    .tab-button {
+      font-size: 1.3rem;
+      padding: 1rem 1.4rem;
+    }
+
+    #intro {
+      padding: 1.2rem;
+    }
+
+    #intro h2 {
+      font-size: 1.5rem;
+    }
+
+    #intro p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+    }
+
+    #searchInput {
+      font-size: 1.2rem;
+      padding: 1rem;
+    }
+  }
+</style>
+
 </head>
 <body>
   <header>
