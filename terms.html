@@ -1,8 +1,8 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Terms & Tricks - Multi Part</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <style>
@@ -17,22 +17,26 @@
       max-width: 1000px;
       margin: auto;
     }
-
     header {
       text-align: center;
       color: #ffffff;
     }
-
+    .quote {
+      text-align: center;
+      font-style: italic;
+      margin-bottom: 20px;
+      color: white;
+    }
     .tab-bar {
       display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
       gap: 10px;
       margin: 1rem 0;
-      flex-wrap: wrap;
     }
-
     .tab-button {
-      background: #7e57c2;
-      color: white;
+      background: #f6c90e;
+      color: #000;
       padding: 0.6rem 1.2rem;
       border-radius: 8px;
       border: none;
@@ -41,61 +45,51 @@
       transition: background 0.3s;
       text-decoration: none;
     }
-
     .tab-button:hover,
     .tab-button.active {
-      background: #5e3ea4;
+      background: #f1b800;
+      font-weight: bold;
     }
-
     .tab-content {
       display: none;
     }
-
     .tab-content.active {
       display: block;
     }
-
     .term {
       background: #fff;
       padding: 1rem;
       margin: 1rem 0;
-      border-left: 5px solid #7e57c2;
+      border-left: 5px solid #f6c90e;
       border-radius: 8px;
       box-shadow: 0 0 6px rgba(0,0,0,0.05);
     }
-
     .term h3 {
       margin: 0 0 0.5rem;
-      color: #7e57c2;
+      color: #f6c90e;
     }
-
     .term p {
       margin: 0.25rem 0;
       color: #444;
     }
-
     .expand-section {
-      background: #f3edfc;
+      background: #fffbe6;
       margin-top: 0.4rem;
       padding: 0.5rem;
       border-radius: 6px;
       font-size: 0.9rem;
     }
-
     .checkbox {
       margin-top: 0.5rem;
     }
-
     .progress-box {
       text-align: center;
       margin: 1rem 0;
     }
-
     canvas {
       max-width: 200px;
       margin: auto;
     }
-
     #searchInput {
       width: 100%;
       padding: 0.8rem;
@@ -104,7 +98,6 @@
       border: 1px solid #ccc;
       font-size: 1rem;
     }
-
     #intro {
       background: #fffde7;
       border-left: 6px solid #fdd835;
@@ -113,7 +106,6 @@
       border-radius: 8px;
       box-shadow: 0 0 6px rgba(0,0,0,0.05);
     }
-
     #newTermsBanner {
       display: none;
       background-color: #ffe082;
@@ -124,9 +116,7 @@
       margin-bottom: 1rem;
       font-weight: bold;
     }
-
     #resetBtn {
-      float: right;
       background: #e53935;
       color: white;
       border: none;
@@ -134,9 +124,7 @@
       border-radius: 6px;
       cursor: pointer;
       font-size: 0.9rem;
-      margin-left: 10px;
     }
-
     #resetBtn:hover {
       background: #b71c1c;
     }
@@ -145,6 +133,7 @@
 <body>
   <header>
     <h1>📘 TERMS & TRICKS - MULTI PART</h1>
+    <div class="quote">"Master each term, conquer every exam." ✨</div>
   </header>
 
   <div class="tab-bar" id="tabBar">
@@ -157,13 +146,10 @@
   <input type="text" id="searchInput" placeholder="Search term or content...">
   <div id="tabContents"></div>
 
-  <!-- Notification Sound -->
   <audio id="notifSound" preload="auto">
-  <source src="https://www.soundjay.com/buttons/sounds/button-10.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-
-
+    <source src="https://www.soundjay.com/buttons/sounds/button-10.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
   <script>
     const termFiles = [
       { file: 'terms.json', label: '🧠 Part 1' },
