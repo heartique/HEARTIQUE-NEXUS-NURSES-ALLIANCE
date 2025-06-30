@@ -122,6 +122,31 @@
       margin-bottom: 1rem;
       font-weight: bold;
     }
+
+    #intro {
+      background: #fffde7;
+      border-left: 6px solid #fdd835;
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 0 6px rgba(0,0,0,0.05);
+    }
+
+    #resetBtn {
+      float: right;
+      background: #e53935;
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.9rem;
+      margin-left: 10px;
+    }
+
+    #resetBtn:hover {
+      background: #b71c1c;
+    }
   </style>
 </head>
 <body>
@@ -131,9 +156,12 @@
 
   <div class="tab-bar" id="tabBar">
     <a href="index.html" class="tab-button" style="background:#ccc; color:#333;">🏠 Back to Home</a>
+    <button id="resetBtn">🧹 Reset Progress</button>
   </div>
 
   <div id="newTermsBanner">🔔 New terms added since your last visit! Scroll to view.</div>
+
+  <div id="intro"></div>
 
   <input type="text" id="searchInput" placeholder="Search term or content...">
   <div id="tabContents"></div>
@@ -153,13 +181,28 @@
     const tabBar = document.getElementById("tabBar");
     const tabContents = document.getElementById("tabContents");
     const searchInput = document.getElementById("searchInput");
+    const newTermsBanner = document.getElementById("newTermsBanner");
+    const introDiv = document.getElementById("intro");
+
     const STORAGE_KEY = 'read_terms_multiparts';
     const SEEN_KEY = 'seen_terms_snapshot';
-    const newTermsBanner = document.getElementById("newTermsBanner");
-
     let readMap = JSON.parse(localStorage.getItem(STORAGE_KEY)) || {};
     let seenSnapshot = JSON.parse(localStorage.getItem(SEEN_KEY)) || {};
     let allTermsByPart = {};
+
+    const username = localStorage.getItem('username') || 'there';
+    introDiv.innerHTML = `
+      <h2>👋 Hi ${username}!</h2>
+      <p>Welcome back to your personal study portal for medical terms and tricks. This page organizes your study material across 8 parts. You can search, mark as read, and track your learning progress visually. We'll alert you if new content is added, and you can reset your reading history anytime. Happy learning!</p>
+    `;
+
+    document.getElementById('resetBtn').addEventListener('click', () => {
+      if (confirm('Are you sure you want to reset all your read progress?')) {
+        localStorage.removeItem(STORAGE_KEY);
+        readMap = {};
+        Object.keys(allTermsByPart).forEach(index => renderTab(index));
+      }
+    });
 
     termFiles.forEach((part, index) => {
       const btn = document.createElement('button');
@@ -195,7 +238,7 @@
 
     function switchTab(index) {
       document.querySelectorAll('.tab-button').forEach((btn, i) => {
-        if (btn.tagName === 'BUTTON') btn.classList.toggle('active', i === index + 1);
+        if (btn.tagName === 'BUTTON') btn.classList.toggle('active', i === index + 2);
       });
       document.querySelectorAll('.tab-content').forEach((div, i) => {
         div.classList.toggle('active', i === index);
@@ -274,6 +317,7 @@
       Object.keys(allTermsByPart).forEach(index => renderTab(index));
     });
   </script>
+
   <!-- 🌐 Floating Google Search Button with Responsive Expanding Box -->
 <style>
   #google-search-container {
