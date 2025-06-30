@@ -304,8 +304,190 @@
     "explanation": "24-year-old male with a single, firm, painless ulcer on penis.",
     "expanded": "1 cm lesion, clean base, hard edge. No pain or vesicles.",
     "additional": "Diagnosis: Syphilis (chancre). Not herpes (painful/multiple), not wart (not verrucous), not molluscum (not dome-shaped)."
+  },
+  {
+    "term": "Scabies",
+    "explanation": "Infestation with Sarcoptes scabiei causing intense nighttime itching.",
+    "expanded": "Presents with linear burrows (thread-like gray lines) often in finger webs, wrists, groin, and beltline. Itching worsens at night.",
+    "additional": "Distinguished by unbearable nocturnal itch and burrows. Head spared in adults. Ask: 'Is there night itching and burrows in finger webs?'"
+  },
+  {
+    "term": "Pediculosis (Lice Infestation)",
+    "explanation": "Infestation of scalp by lice, usually in children.",
+    "expanded": "Intense itching focused on the scalp, especially occiput and behind the ears. Definitive finding: nits (oval white specks) cemented to hair shafts.",
+    "additional": "Distinguished by scalp pruritus and nits firmly stuck to hair. Ask: 'Are nits visible on hair shafts, especially near the scalp?'"
+  },
+  {
+    "term": "Tinea Corporis (Ringworm)",
+    "explanation": "Fungal infection of the body causing ring-shaped lesions.",
+    "expanded": "Annular plaque with central clearing and active, scaly edge. Itchy, spreads outward from center.",
+    "additional": "Key sign is ring-shaped plaque with scaly border and central clearing. Ask: 'Does it look like a ring?'"
+  },
+  {
+    "term": "Contact Dermatitis",
+    "explanation": "Skin inflammation from irritant or allergen exposure.",
+    "expanded": "Rash matches the area of contact with sharp borders. May have vesicles in a linear or geometric pattern.",
+    "additional": "History of new exposure is crucial. Ask: 'Does the rash match an object (plant, metal, lotion)?'"
+  },
+  {
+    "term": "Itching Differential Scenario",
+    "explanation": "7-year-old with itchy scalp and nits behind ears and neck.",
+    "expanded": "White oval specks (nits) cemented on hair shafts. Itching primarily in occiput area. No burrows or body rash.",
+    "additional": "Diagnosis: Pediculosis. Not scabies (wrong location, no burrows), not ringworm (not annular lesion), not contact dermatitis (no exposure pattern)."
+  },
+  {
+    "term": "Atopic Dermatitis",
+    "explanation": "Chronic inflammatory eczema in people with allergies.",
+    "expanded": "Affects flexural surfaces, neck, and face. Associated with asthma/allergies. Lesions are dry, itchy, and lichenified.",
+    "additional": "Ask: 'Is it in skin folds and is there a history of asthma/allergies?'"
+  },
+  {
+    "term": "Contact Dermatitis (Dermatitis Type)",
+    "explanation": "Skin inflammation caused by external contact with an irritant.",
+    "expanded": "Localized rash matching object of exposure. Sharply demarcated and sometimes vesicular.",
+    "additional": "Ask: 'Can I draw a perfect line around it?'"
+  },
+  {
+    "term": "Seborrheic Dermatitis",
+    "explanation": "Greasy, flaky eczema in oily skin areas.",
+    "expanded": "Erythematous patches with greasy or flaky scale on scalp, face, chest. Associated with dandruff or cradle cap.",
+    "additional": "Ask: 'Is it in oily areas and is the scale greasy?'"
+  },
+  {
+    "term": "Nummular Eczema",
+    "explanation": "Coin-shaped form of eczema often on arms and legs.",
+    "expanded": "Round, crusted, weeping plaques that are intensely itchy. No central clearing. Common on shins.",
+    "additional": "Ask: 'Is it a solid, coin-shaped lesion without clearing?'"
+  },
+  {
+    "term": "Dermatitis Differential Scenario",
+    "explanation": "50-year-old man with round, weeping plaques on shins. KOH negative.",
+    "expanded": "Uniformly inflamed 3cm round lesions. Intensely itchy. Negative KOH rules out fungal infection.",
+    "additional": "Diagnosis: Nummular eczema. Not atopic (wrong location), not contact (not from exposure), not seborrheic (wrong area/appearance)."
+  },
+  {
+    "term": "Acanthosis Nigricans",
+    "explanation": "Velvety hyperpigmented plaque often signaling insulin resistance.",
+    "expanded": "Dark, thickened skin in body folds like the neck or axilla. Texture is key feature.",
+    "additional": "Ask: 'Is there a dark, velvety patch in a skin fold?' Common in obesity/diabetes."
+  },
+  {
+    "term": "Seborrheic Keratosis (Lump)",
+    "explanation": "Benign epidermal growth with stuck-on, waxy look.",
+    "expanded": "Warty, greasy, stuck-on plaque. Common in older adults. Verrucous and crumbly surface.",
+    "additional": "Ask: 'Does it look like it can be picked off the skin?'"
+  },
+  {
+    "term": "Dermatofibroma",
+    "explanation": "Benign dermal nodule with dimple sign.",
+    "expanded": "Firm nodule, often on legs, retracts when pinched from the sides (Fitzpatrick sign). Common post-bug bite or trauma.",
+    "additional": "Ask: 'Does it dimple inward when pinched?' This is diagnostic."
+  },
+  {
+    "term": "Epidermal Nevus",
+    "explanation": "Congenital epidermal overgrowth present since birth.",
+    "expanded": "Linear or swirled verrucous papules or plaques following Blaschko’s lines. Present since early life.",
+    "additional": "Ask: 'Has it been there since birth, and is it arranged in a line?'"
+  },
+  {
+    "term": "Benign Lumps Differential Scenario",
+    "explanation": "45-year-old with firm brown nodule on calf that dimples when pinched.",
+    "expanded": "7mm firm lesion with classic dimple sign. No history of childhood lesion or stuck-on texture.",
+    "additional": "Diagnosis: Dermatofibroma. Not SK (wrong feel), not AN (wrong type and location), not nevus (not congenital)."
+  },
+  {
+    "term": "Pemphigus Vulgaris",
+    "explanation": "A life-threatening autoimmune blistering disease targeting intraepidermal connections.",
+    "expanded": "Flaccid bullae that rupture easily, leaving painful erosions. Oral mucosa involved early. Positive Nikolsky sign.",
+    "additional": "Ask: 'Are the blisters flimsy and is the mouth involved?'"
+  },
+  {
+    "term": "Allergic Contact Dermatitis (Blisters)",
+    "explanation": "Blistering reaction to allergens like poison ivy or nickel.",
+    "expanded": "Vesicles or bullae in a specific linear or geometric pattern. Intense itching. Negative Nikolsky sign.",
+    "additional": "Ask: 'Does the pattern of blisters match a contact exposure?'"
+  },
+  {
+    "term": "Bullous Pemphigoid",
+    "explanation": "Less severe autoimmune blistering disorder affecting the dermoepidermal junction.",
+    "expanded": "Tense bullae that stay intact. Negative Nikolsky. Minimal mucosal involvement. Affects older adults.",
+    "additional": "Ask: 'Are the blisters large and hard to pop?'"
+  },
+  {
+    "term": "Herpes Zoster (Shingles)",
+    "explanation": "Reactivation of varicella-zoster virus in a single dermatome.",
+    "expanded": "Grouped vesicles on red base, following a unilateral dermatomal pattern. Preceded by burning pain.",
+    "additional": "Ask: 'Is it one-sided in a nerve distribution and preceded by pain?'"
+  },
+  {
+    "term": "Blister Differential Scenario",
+    "explanation": "82-year-old with tense, intact blisters and no mucosal involvement. Negative Nikolsky.",
+    "expanded": "Firm bullae, negative Nikolsky, no oral erosions. Classic for elderly patients with bullous pemphigoid.",
+    "additional": "Diagnosis: Bullous Pemphigoid. Not pemphigus (flaccid + oral), not contact (no exposure), not zoster (not dermatomal)."
+  },
+  {
+    "term": "Erythema Multiforme",
+    "explanation": "Hypersensitivity reaction, often to HSV or drugs.",
+    "expanded": "Target lesions with three zones (dusky center, pale ring, red outer ring). Often on extremities.",
+    "additional": "Ask: 'Does it look like a bull’s-eye/target lesion?'"
+  },
+  {
+    "term": "Pityriasis Rosea",
+    "explanation": "Self-limiting viral rash, rarely on the face.",
+    "expanded": "Starts with a herald patch, followed by a 'Christmas tree' pattern on the trunk. Pink, scaly patches.",
+    "additional": "Ask: 'Did it start with one patch, then spread in a trunk-centered pattern?'"
+  },
+  {
+    "term": "Urticaria (Hives)",
+    "explanation": "Transient allergic reaction producing wheals.",
+    "expanded": "Itchy, red, raised plaques with central pallor. Migratory: come and go within hours. No scale.",
+    "additional": "Ask: 'Is it migratory and transient?'"
+  },
+  {
+    "term": "Seborrheic Dermatitis (Face)",
+    "explanation": "Chronic inflammation of oil-rich skin areas.",
+    "expanded": "Greasy, flaky yellow or white scale on red base in nasolabial folds, eyebrows, scalp.",
+    "additional": "Ask: 'Is it greasy scale in T-zone areas?'"
+  },
+  {
+    "term": "Facial Rash Scenario",
+    "explanation": "Patient with itchy, red welts that appear and disappear across face, arms, and trunk.",
+    "expanded": "Lesions migrate rapidly, consistent with urticaria. No fixed target or scaly patch.",
+    "additional": "Diagnosis: Urticaria. Not erythema multiforme (no targets), not pityriasis rosea (wrong pattern), not seborrheic (wrong morphology)."
+  },
+  {
+    "term": "Allergic Rhinitis",
+    "explanation": "IgE-mediated hypersensitivity of the nasal mucosa.",
+    "expanded": "Clear rhinorrhea, intense sneezing, nasal and eye itching. Pale, boggy turbinates on exam.",
+    "additional": "Ask: 'Is the discharge clear with sneezing and itching?'"
+  },
+  {
+    "term": "Acute Sinusitis",
+    "explanation": "Bacterial inflammation of paranasal sinuses.",
+    "expanded": "Thick, purulent yellow-green discharge. Facial pain, headache, fever. Worse when bending forward.",
+    "additional": "Ask: 'Is the discharge colored with facial pressure or pain?'"
+  },
+  {
+    "term": "Nasal Polyps",
+    "explanation": "Benign mucosal overgrowths linked to asthma and aspirin sensitivity.",
+    "expanded": "Chronic nasal congestion, anosmia (loss of smell). Pale, glistening masses seen in nostrils.",
+    "additional": "Ask: 'Is the issue chronic stuffiness with poor smell?'"
+  },
+  {
+    "term": "Deviated Nasal Septum",
+    "explanation": "Anatomical obstruction of one side of nasal passage.",
+    "expanded": "Fixed, unilateral blockage without pruritus or discharge. Can cause snoring and recurrent infections.",
+    "additional": "Ask: 'Is the blockage always on one side without sneezing or itching?'"
+  },
+  {
+    "term": "Nasal Complaint Scenario",
+    "explanation": "Patient with seasonal clear discharge, sneezing, itchy eyes, pale boggy turbinates.",
+    "expanded": "Symptoms are bilateral and seasonal. Discharge is clear. Eyes are itchy. Mucosa is pale.",
+    "additional": "Diagnosis: Allergic Rhinitis. Not sinusitis (no purulence or pain), not polyps (no smell loss), not deviated septum (not unilateral or fixed)."
   }
 ]
+
+
 
 
 
