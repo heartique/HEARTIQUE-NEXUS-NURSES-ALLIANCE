@@ -6,9 +6,7 @@
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <style>
     body {
-      body {
       font-family: 'Segoe UI', sans-serif;
-      font-size: 16px;
       background-image: url('https://raw.githubusercontent.com/heartique/HEARTIQUE-NEXUS-NURSES-ALLIANCE/main/background6.jpg');
       background-size: cover;
       background-repeat: no-repeat;
@@ -154,44 +152,26 @@
       margin-bottom: 1rem;
       font-weight: bold;
     }
+
+    /* ✅ Responsive Fixes for Mobile */
     @media (max-width: 600px) {
-  header h1 {
-    font-size: 1.6rem;
-  }
+      header h1 {
+        font-size: 1.5rem;
+      }
 
-  .tab-button {
-    font-size: 1rem;
-    padding: 0.8rem 1rem;
-  }
+      .tab-button {
+        font-size: 1.1rem;
+        padding: 0.75rem 1.2rem;
+      }
 
-  #intro h2 {
-    font-size: 1.3rem;
-  }
+      #intro h2 {
+        font-size: 1.3rem;
+      }
 
-  #intro p {
-    font-size: 1rem;
-  }
-
-  #searchInput {
-    font-size: 1.1rem;
-  }
-
-  .term {
-    font-size: 1.2rem;
-  }
-
-  .definition {
-    font-size: 1rem;
-  }
-
-  .checkbox label {
-    font-size: 0.95rem;
-  }
-
-  .progress-box p {
-    font-size: 0.95rem;
-  }
-}
+      #intro p {
+        font-size: 1rem;
+      }
+    }
   </style>
 </head>
 <body>
@@ -202,18 +182,17 @@
   <div class="tab-bar" id="tabBar">
     <a href="index.html" class="tab-button" style="background:#ccc; color:#333;">🏠 Back to Home</a>
     <button id="resetBtn">🧹 Reset Progress</button>
-  
   </div>
 
   <div id="newWordsBanner">🔔 New words added since your last visit! Scroll to view.</div>
   <div id="intro"></div>
   <input type="text" id="searchInput" placeholder="Search a word..." />
   <div id="tabContents"></div>
-  <audio id="notifSound" preload="auto">
-  <source src="https://www.soundjay.com/buttons/sounds/button-10.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
 
+  <audio id="notifSound" preload="auto">
+    <source src="https://www.soundjay.com/buttons/sounds/button-10.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
 
   <script>
     const vocabFiles = [
@@ -310,7 +289,7 @@
       const filteredTerms = terms.filter(t => {
         const query = searchInput.value.toLowerCase();
         return t.term.toLowerCase().includes(query) ||
-          t.definition.toLowerCase().includes(query);
+               t.definition.toLowerCase().includes(query);
       });
 
       const termsHtml = filteredTerms.map(term => {
