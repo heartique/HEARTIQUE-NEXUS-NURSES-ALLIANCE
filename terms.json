@@ -214,6 +214,96 @@
     "explanation": "Four-step strategy for analyzing dermatological conditions on exams.",
     "expanded": "1. WHERE is it? Use distribution clues (e.g., flexures = eczema, dermatomes = shingles). 2. WHAT does it look like? Identify visual buzzwords (e.g., honey crust = impetigo, pearly papule = BCC). 3. HOW does it behave? Assess symptoms and course (e.g., itchy at night = scabies). 4. WHO is affected? Factor in age, history, and context (e.g., obese = acanthosis nigricans, child = molluscum).",
     "additional": "This framework helps break down complex dermatology questions by using pattern recognition, symptom behavior, and patient context. Learn hallmark buzzwords like: 'coin-shaped = nummular eczema', 'target lesion = EM', 'chalk-white = vitiligo', 'velvety = acanthosis nigricans', 'dimple sign = dermatofibroma', and more."
+  },
+  {
+    "term": "Melanocytic Nevus (Mole)",
+    "explanation": "Benign, uniform mole from melanocyte proliferation.",
+    "expanded": "Symmetrical, smooth borders, one uniform color, typically <6mm, and stable over time. Represents the 'baseline' normal lesion.",
+    "additional": "Distinguished from melanoma by its boring, unchanging nature. Ask: 'Is it symmetrical and stable?'"
+  },
+  {
+    "term": "Lentigo Simplex / Solar Lentigo",
+    "explanation": "Flat, pigmented benign macule due to melanocyte increase.",
+    "expanded": "Light brown, completely flat with regular or scalloped border. Solar lentigines appear in sun-exposed areas in adults.",
+    "additional": "Distinguished by being flat like an ink stain. Lacks the raised, warty texture of SK or changing features of melanoma."
+  },
+  {
+    "term": "Seborrheic Keratosis (SK)",
+    "explanation": "Benign epidermal growth with 'stuck-on' appearance.",
+    "expanded": "Waxy, greasy, verrucous, or crumbly surface. Common in older adults. Tan, brown, or black in color.",
+    "additional": "Ask: 'Does it look like something is sitting on the skin?' Distinct from melanoma which grows within the skin and evolves."
+  },
+  {
+    "term": "Melanoma",
+    "explanation": "Malignant melanocyte tumor with high metastatic risk.",
+    "expanded": "Defined by the ABCDEs: Asymmetry, Border irregularity, Color variation, Diameter >6mm, and Evolution. May include 'ugly duckling' sign.",
+    "additional": "Different from benign lesions due to chaos and change. Urgent referral needed for evolving lesions."
+  },
+  {
+    "term": "Brown Spot Differential Scenario",
+    "explanation": "65-year-old male with evolving, irregular, dark lesion.",
+    "expanded": "Lesion is 8mm, irregular border, dark brown and black, changed over a year. Classic for melanoma.",
+    "additional": "Diagnosis: Melanoma. Not nevus (evolving), not lentigo (multiple colors and change), not SK (lacks stuck-on description)."
+  },
+  {
+    "term": "Tinea Versicolor",
+    "explanation": "Fungal infection causing hypopigmented or hyperpigmented macules.",
+    "expanded": "Common on upper trunk after sun exposure. Fine scale becomes visible with gentle scraping. Lesions do not tan.",
+    "additional": "Distinguished from vitiligo (no scale, complete depigmentation), PR (herald patch, tree pattern), and SK (raised growth)."
+  },
+  {
+    "term": "Vitiligo",
+    "explanation": "Autoimmune loss of melanocytes resulting in depigmented patches.",
+    "expanded": "Chalk-white patches with sharp borders and no scale. Skin texture remains normal.",
+    "additional": "Differentiated by complete pigment loss, no scaling, and Wood's lamp fluorescence. Stable vs inflammatory lesions."
+  },
+  {
+    "term": "Pityriasis Rosea",
+    "explanation": "Self-limiting inflammatory rash with herald patch and 'Christmas tree' spread.",
+    "expanded": "Starts with a large oval herald patch, followed by smaller pink patches with fine collarette scale along skin cleavage lines.",
+    "additional": "Key distinction is the pattern and scale. Not fungal (KOH-negative), and not pigment disorder."
+  },
+  {
+    "term": "Seborrheic Keratosis (Differential)",
+    "explanation": "Benign, stuck-on, waxy growth in adults.",
+    "expanded": "Raised, brown/tan/black plaque with greasy surface. Differentiate from pigment patches by texture and elevation.",
+    "additional": "Included in the patch differential to test recognition of growth vs. discoloration."
+  },
+  {
+    "term": "Discoloration Differential Scenario",
+    "explanation": "Young woman develops flat, light spots after sun exposure.",
+    "expanded": "Scattered, tan macules with fine scale on scratching, on back and chest. Appeared after vacation.",
+    "additional": "Diagnosis: Tinea Versicolor. Not vitiligo (chalk-white, no scale), not PR (no herald patch), not SK (not raised)."
+  },
+  {
+    "term": "Herpes Simplex Genitalis",
+    "explanation": "Painful grouped vesicles on a red base caused by HSV.",
+    "expanded": "Lesions evolve into painful ulcers. Recurrent. Pain is the defining symptom.",
+    "additional": "Distinguish by presence of PAIN and grouped blisters. Not a growth or single ulcer."
+  },
+  {
+    "term": "Genital Warts (Condyloma Acuminata)",
+    "explanation": "HPV-caused painless, verrucous genital papules.",
+    "expanded": "Bumpy, 'cauliflower-like' lesions. Skin-colored or pink. Solid and painless.",
+    "additional": "Key distinction: PAINLESS and warty. Not ulcerated or vesicular."
+  },
+  {
+    "term": "Syphilis (Chancre)",
+    "explanation": "Single, painless, indurated ulcer from Treponema pallidum.",
+    "expanded": "Firm, non-tender ulcer with a clean base. Associated with non-tender lymphadenopathy.",
+    "additional": "Defined by being painless, hard, and solitary. Not recurrent or vesicular."
+  },
+  {
+    "term": "Molluscum Contagiosum (Genital)",
+    "explanation": "Painless dome-shaped papules with central umbilication.",
+    "expanded": "Smooth, flesh-colored lesions. May be sexually transmitted in adults. No ulceration.",
+    "additional": "Central dimple is diagnostic. Not painful, not a vesicle or ulcer."
+  },
+  {
+    "term": "Genital Lesion Differential Scenario",
+    "explanation": "24-year-old male with a single, firm, painless ulcer on penis.",
+    "expanded": "1 cm lesion, clean base, hard edge. No pain or vesicles.",
+    "additional": "Diagnosis: Syphilis (chancre). Not herpes (painful/multiple), not wart (not verrucous), not molluscum (not dome-shaped)."
   }
 ]
 
