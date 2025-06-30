@@ -484,8 +484,105 @@
     "explanation": "Patient with seasonal clear discharge, sneezing, itchy eyes, pale boggy turbinates.",
     "expanded": "Symptoms are bilateral and seasonal. Discharge is clear. Eyes are itchy. Mucosa is pale.",
     "additional": "Diagnosis: Allergic Rhinitis. Not sinusitis (no purulence or pain), not polyps (no smell loss), not deviated septum (not unilateral or fixed)."
+  },
+  {
+    "term": "Conjunctivitis (Pink Eye)",
+    "explanation": "Inflammation of the conjunctiva, the most common cause of red eye.",
+    "expanded": "Viral: Watery discharge, gritty sensation, preauricular lymphadenopathy, spreads between eyes. Bacterial: Purulent yellow-green discharge, eyelids stuck in the morning. Allergic: Intense itching, bilateral watery or stringy discharge, cobblestone papillae.",
+    "additional": "Ask: 'What’s the discharge like—watery or pus? Any itching or gritty sensation? Does it affect both eyes?'"
+  },
+  {
+    "term": "Acute Angle-Closure Glaucoma",
+    "explanation": "A true emergency where the iris blocks fluid drainage, increasing intraocular pressure.",
+    "expanded": "Severe eye pain, headache, nausea/vomiting, halos around lights. Fixed, mid-dilated pupil and a hazy cornea. Eye feels rock hard.",
+    "additional": "Ask: 'Is there severe eye pain, halos, nausea, and a mid-dilated pupil?'"
+  },
+  {
+    "term": "Keratitis / Corneal Ulcer",
+    "explanation": "Inflammation or infection of the cornea, often due to contact lens misuse.",
+    "expanded": "Moderate-severe pain, photophobia, blurred vision, foreign body sensation. Visible white corneal infiltrate. Often from sleeping in contacts.",
+    "additional": "Ask: 'Does the patient wear contacts and have eye pain, photophobia, and a white corneal spot?'"
+  },
+  {
+    "term": "Anterior Uveitis (Iritis)",
+    "explanation": "Inflammation of the iris and/or ciliary body, linked to autoimmune conditions.",
+    "expanded": "Aching pain, photophobia, ciliary flush, and a constricted or irregular pupil. Associated with conditions like sarcoidosis or ankylosing spondylitis.",
+    "additional": "Ask: 'Is there photophobia, ciliary flush, and a constricted or oddly shaped pupil?'"
+  },
+  {
+    "term": "Red Eye Scenario",
+    "explanation": "68-year-old with sudden headache, nausea, eye pain, halos, steamy cornea, fixed pupil.",
+    "expanded": "Classic presentation of acute angle-closure glaucoma triggered in the dark. Severe pain and systemic symptoms confirm urgency.",
+    "additional": "Diagnosis: Acute Angle-Closure Glaucoma"
+  },
+  {
+    "term": "Cataracts",
+    "explanation": "Painless, progressive clouding of the lens, common in aging.",
+    "expanded": "Glare, difficulty with night driving, halos, and loss of color vibrancy. Vision described as 'cloudy' or like a dirty window.",
+    "additional": "Ask: 'Is the vision gradually becoming cloudy with glare, especially at night?'"
+  },
+  {
+    "term": "Primary Open-Angle Glaucoma",
+    "explanation": "Chronic, painless increase in intraocular pressure causing peripheral vision loss.",
+    "expanded": "No symptoms until late stages. Tunnel vision, bumping into things, and insidious visual field loss. Leading cause of preventable blindness.",
+    "additional": "Ask: 'Is the peripheral vision fading, without pain or awareness?'"
+  },
+  {
+    "term": "Macular Degeneration (AMD)",
+    "explanation": "Degeneration of the macula causing central vision loss.",
+    "expanded": "Central vision fades (can't read or recognize faces). Straight lines appear wavy (metamorphopsia). Dry form is gradual; wet is rapid and severe.",
+    "additional": "Ask: 'Is central vision distorted or lost while side vision remains intact?'"
+  },
+  {
+    "term": "Gradual Vision Loss Scenario",
+    "explanation": "80-year-old sees wavy lines, missing letters while reading, intact peripheral vision.",
+    "expanded": "Textbook dry AMD presentation with central vision loss and metamorphopsia. Peripheral field is spared.",
+    "additional": "Diagnosis: Macular Degeneration"
+  },
+  {
+    "term": "Retinal Detachment",
+    "explanation": "Retina separates from its base, often after a tear.",
+    "expanded": "Photopsia (flashes), floaters, then a curtain over vision. Sudden and painless. Risk increased by trauma or myopia.",
+    "additional": "Ask: 'Did it begin with flashes and floaters, then a dark curtain or shadow?'"
+  },
+  {
+    "term": "Central Retinal Artery Occlusion (CRAO)",
+    "explanation": "Acute blockage of the central retinal artery, an ocular emergency.",
+    "expanded": "Sudden, total monocular vision loss. Cherry-red spot on a pale retina on fundoscopy. Often due to embolism.",
+    "additional": "Ask: 'Did vision vanish suddenly without pain? Is there a cherry-red spot on fundoscopy?'"
+  },
+  {
+    "term": "Central Retinal Vein Occlusion (CRVO)",
+    "explanation": "Blockage of the retinal vein, causing hemorrhage and congestion.",
+    "expanded": "Subacute blurry vision. Fundus shows 'blood and thunder' (widespread hemorrhages, venous engorgement, cotton wool spots).",
+    "additional": "Ask: 'Is there blurry vision with a hemorrhagic fundus on exam?'"
+  },
+  {
+    "term": "Sudden Vision Loss Scenario",
+    "explanation": "55-year-old with flashing lights, floaters, followed by curtain-like vision loss.",
+    "expanded": "Photopsia → floaters → curtain is the classic sequence of retinal detachment. Immediate referral needed.",
+    "additional": "Diagnosis: Retinal Detachment"
+  },
+  {
+    "term": "Hordeolum (Stye)",
+    "explanation": "Acute, painful infection of eyelid margin gland.",
+    "expanded": "Tender red bump right on the eyelid edge. Caused by staph. Essentially a small abscess.",
+    "additional": "Ask: 'Is the lump painful and located at the edge of the lid?'"
+  },
+  {
+    "term": "Chalazion",
+    "explanation": "Painless granuloma due to blocked Meibomian gland.",
+    "expanded": "Firm, rubbery nodule within the eyelid, not at the edge. Not infected. Often chronic.",
+    "additional": "Ask: 'Is the lump painless and embedded deeper in the lid, away from the edge?'"
+  },
+  {
+    "term": "Blepharitis",
+    "explanation": "Chronic inflammation of the eyelid margins.",
+    "expanded": "Itching, redness, flaky debris on lashes. Gritty, burning sensation. Eyelids look crusty.",
+    "additional": "Ask: 'Is the entire eyelid margin red and crusted, not just a bump?'"
   }
 ]
+
 
 
 
