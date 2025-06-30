@@ -1,7 +1,8 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Terms & Tricks - Multi Part</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <style>
@@ -54,14 +55,6 @@
       display: block;
     }
 
-    .section {
-      background-color: #efe4fc;
-      border-left: 5px solid #7e57c2;
-      padding: 1rem;
-      border-radius: 8px;
-      margin: 1rem 0;
-    }
-
     .term {
       background: #fff;
       padding: 1rem;
@@ -112,6 +105,15 @@
       font-size: 1rem;
     }
 
+    #intro {
+      background: #fffde7;
+      border-left: 6px solid #fdd835;
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 0 6px rgba(0,0,0,0.05);
+    }
+
     #newTermsBanner {
       display: none;
       background-color: #ffe082;
@@ -121,15 +123,6 @@
       border-radius: 6px;
       margin-bottom: 1rem;
       font-weight: bold;
-    }
-
-    #intro {
-      background: #fffde7;
-      border-left: 6px solid #fdd835;
-      padding: 1rem;
-      margin-bottom: 1.5rem;
-      border-radius: 8px;
-      box-shadow: 0 0 6px rgba(0,0,0,0.05);
     }
 
     #resetBtn {
@@ -160,11 +153,12 @@
   </div>
 
   <div id="newTermsBanner">🔔 New terms added since your last visit! Scroll to view.</div>
-
   <div id="intro"></div>
-
   <input type="text" id="searchInput" placeholder="Search term or content...">
   <div id="tabContents"></div>
+
+  <!-- Notification Sound -->
+  <audio id="notifSound" src="https://notificationsounds.com/storage/sounds/file-sounds-1156-pristine.mp3" preload="auto"></audio>
 
   <script>
     const termFiles = [
@@ -178,23 +172,32 @@
       { file: 'terms7.json', label: '📔 Part 8' },
     ];
 
+    const STORAGE_KEY = 'read_terms_multiparts';
+    const SEEN_KEY = 'seen_terms_snapshot';
     const tabBar = document.getElementById("tabBar");
     const tabContents = document.getElementById("tabContents");
     const searchInput = document.getElementById("searchInput");
     const newTermsBanner = document.getElementById("newTermsBanner");
     const introDiv = document.getElementById("intro");
 
-    const STORAGE_KEY = 'read_terms_multiparts';
-    const SEEN_KEY = 'seen_terms_snapshot';
     let readMap = JSON.parse(localStorage.getItem(STORAGE_KEY)) || {};
     let seenSnapshot = JSON.parse(localStorage.getItem(SEEN_KEY)) || {};
     let allTermsByPart = {};
 
-    const username = localStorage.getItem('username') || 'there';
-    introDiv.innerHTML = `
-      <h2>👋 Hi ${username}!</h2>
-      <p>Welcome back to your personal study portal for medical terms and tricks. This page organizes your study material across 8 parts. You can search, mark as read, and track your learning progress visually. We'll alert you if new content is added, and you can reset your reading history anytime. Happy learning!</p>
-    `;
+    window.addEventListener('DOMContentLoaded', () => {
+      const username = localStorage.getItem('username') || 'there';
+      const hour = new Date().getHours();
+      let greeting = 'Hello';
+
+      if (hour < 12) greeting = 'Good morning';
+      else if (hour < 17) greeting = 'Good afternoon';
+      else greeting = 'Good evening';
+
+      introDiv.innerHTML = `
+        <h2>👋 ${greeting}, ${username}!</h2>
+        <p>Welcome back to your personal study portal. This page helps you explore medical terms organized into 8 parts. Use the search bar, mark terms as read, and track your progress with charts. You'll also get alerts when new terms are added. Happy studying! 🎓</p>
+      `;
+    });
 
     document.getElementById('resetBtn').addEventListener('click', () => {
       if (confirm('Are you sure you want to reset all your read progress?')) {
@@ -228,6 +231,9 @@
         if (newTerms.length > 0) {
           newTermsBanner.style.display = 'block';
           alert(`🔔 ${newTerms.length} new terms added in ${part.label}!`);
+
+          const audio = document.getElementById('notifSound');
+          if (audio) audio.play().catch(() => {});
         }
 
         seenSnapshot[index] = currentTerms;
@@ -317,7 +323,6 @@
       Object.keys(allTermsByPart).forEach(index => renderTab(index));
     });
   </script>
-
   <!-- 🌐 Floating Google Search Button with Responsive Expanding Box -->
 <style>
   #google-search-container {
