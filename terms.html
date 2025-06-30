@@ -38,6 +38,7 @@
       cursor: pointer;
       font-size: 0.95rem;
       transition: background 0.3s;
+      text-decoration: none;
     }
 
     .tab-button:hover,
@@ -110,6 +111,17 @@
       border: 1px solid #ccc;
       font-size: 1rem;
     }
+
+    #newTermsBanner {
+      display: none;
+      background-color: #ffe082;
+      color: #5d4037;
+      padding: 0.7rem 1rem;
+      border-left: 6px solid #ffb300;
+      border-radius: 6px;
+      margin-bottom: 1rem;
+      font-weight: bold;
+    }
   </style>
 </head>
 <body>
@@ -117,9 +129,13 @@
     <h1>📘 TERMS & TRICKS - MULTI PART</h1>
   </header>
 
-  <div class="tab-bar" id="tabBar"></div>
-  <input type="text" id="searchInput" placeholder="Search term or content...">
+  <div class="tab-bar" id="tabBar">
+    <a href="index.html" class="tab-button" style="background:#ccc; color:#333;">🏠 Back to Home</a>
+  </div>
 
+  <div id="newTermsBanner">🔔 New terms added since your last visit! Scroll to view.</div>
+
+  <input type="text" id="searchInput" placeholder="Search term or content...">
   <div id="tabContents"></div>
 
   <script>
@@ -138,7 +154,11 @@
     const tabContents = document.getElementById("tabContents");
     const searchInput = document.getElementById("searchInput");
     const STORAGE_KEY = 'read_terms_multiparts';
+    const SEEN_KEY = 'seen_terms_snapshot';
+    const newTermsBanner = document.getElementById("newTermsBanner");
+
     let readMap = JSON.parse(localStorage.getItem(STORAGE_KEY)) || {};
+    let seenSnapshot = JSON.parse(localStorage.getItem(SEEN_KEY)) || {};
     let allTermsByPart = {};
 
     termFiles.forEach((part, index) => {
@@ -158,13 +178,24 @@
       fetch(part.file).then(res => res.ok ? res.json() : []).then(data => {
         allTermsByPart[index] = data;
         readMap[index] = readMap[index] || [];
+
+        const prevSeen = seenSnapshot[index] || [];
+        const currentTerms = data.map(t => t.term);
+        const newTerms = currentTerms.filter(term => !prevSeen.includes(term));
+        if (newTerms.length > 0) {
+          newTermsBanner.style.display = 'block';
+          alert(`🔔 ${newTerms.length} new terms added in ${part.label}!`);
+        }
+
+        seenSnapshot[index] = currentTerms;
+        localStorage.setItem(SEEN_KEY, JSON.stringify(seenSnapshot));
         renderTab(index);
       });
     });
 
     function switchTab(index) {
       document.querySelectorAll('.tab-button').forEach((btn, i) => {
-        btn.classList.toggle('active', i === index);
+        if (btn.tagName === 'BUTTON') btn.classList.toggle('active', i === index + 1);
       });
       document.querySelectorAll('.tab-content').forEach((div, i) => {
         div.classList.toggle('active', i === index);
@@ -202,11 +233,17 @@
       const readCount = readList.length;
       const total = terms.length;
       const percent = total ? Math.round((readCount / total) * 100) : 0;
+      const message = percent === 100
+        ? '✅ Awesome! You\'ve read all terms...'
+        : percent >= 50
+          ? '💪 Keep going! You\'re more than halfway...'
+          : '📖 Start reading to unlock all insights!';
 
       container.innerHTML = `
         <div class="progress-box">
           <canvas id="chart-${index}"></canvas>
           <p><strong>${percent}%</strong> Read — ${readCount}/${total}</p>
+          <p>${message}</p>
         </div>
         ${termsHtml}
       `;
