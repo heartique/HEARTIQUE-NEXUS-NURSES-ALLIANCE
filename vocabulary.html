@@ -2,205 +2,138 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>📘 Vocabulary Dashboard</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <style>
- * {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Segoe UI', sans-serif;
-  background-image: url('https://raw.githubusercontent.com/heartique/HEARTIQUE-NEXUS-NURSES-ALLIANCE/main/background6.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin: 0;
-  padding: 1rem;
-  color: #333;
-  max-width: 1000px;
-  margin: auto;
-}
-
-header {
-  text-align: center;
-  color: #ffffff;
-}
-
-.tab-bar {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin: 1rem 0;
-  justify-content: center;
-}
-
-.tab-button {
-  background: #7e57c2;
-  color: white;
-  padding: 0.6rem 1.2rem;
-  border-radius: 8px;
-  border: none;
-  cursor: pointer;
-  font-size: 0.95rem;
-  transition: background 0.3s;
-  flex: 1 1 auto;
-  text-align: center;
-}
-
-.tab-button:hover,
-.tab-button.active {
-  background: #5e3ea4;
-}
-
-.tab-content {
-  display: none;
-}
-
-.tab-content.active {
-  display: block;
-}
-
-.word-of-day,
-#intro,
-.vocab-item {
-  background: #fff;
-  border-radius: 8px;
-  padding: 1rem;
-  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
-  margin-bottom: 1rem;
-}
-
-.word-of-day {
-  background: #fffde7;
-  border-left: 6px solid #fdd835;
-}
-
-#intro {
-  background: #fff3e0;
-  border-left: 6px solid #ff9800;
-}
-
-.word-of-day h2 {
-  color: #f57f17;
-}
-
-#searchInput {
-  width: 100%;
-  padding: 0.8rem;
-  margin-bottom: 1.5rem;
-  border-radius: 6px;
-  border: 1px solid #ccc;
-  font-size: 1rem;
-}
-
-.term {
-  font-weight: bold;
-  font-size: 1.1rem;
-  color: #2e7d32;
-}
-
-.definition {
-  margin-top: 6px;
-  color: #444;
-}
-
-.progress-box {
-  text-align: center;
-  margin: 1rem 0;
-}
-
-canvas {
-  max-width: 200px;
-  margin: auto;
-}
-
-#resetBtn {
-  background: #e53935;
-  color: white;
-  border: none;
-  padding: 0.5rem 1rem;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 0.9rem;
-}
-
-#resetBtn:hover {
-  background: #b71c1c;
-}
-
-.back-link {
-  display: inline-block;
-  margin-top: 2rem;
-  padding: 0.6rem 1rem;
-  background: #ccc;
-  color: #000;
-  border-radius: 6px;
-  text-decoration: none;
-}
-
-#newWordsBanner {
-  display: none;
-  background-color: #ffe082;
-  color: #5d4037;
-  padding: 0.7rem 1rem;
-  border-left: 6px solid #ffb300;
-  border-radius: 6px;
-  margin-bottom: 1rem;
-  font-weight: bold;
-}
-
-/* ✅ Responsive design for smaller screens */
-@media (max-width: 600px) {
-  body {
-    padding: 1rem;
-  }
-
-  .tab-button {
-    font-size: 0.85rem;
-    padding: 0.5rem 0.8rem;
-    flex: 1 1 45%;
-  }
-
-  .term {
-    font-size: 1rem;
-  }
-
-  .definition {
-    font-size: 0.95rem;
-  }
-
-  #resetBtn {
-    width: 100%;
-    margin-top: 0.5rem;
-  }
-
-  canvas {
-    max-width: 150px;
-  }
-}
-
-</style>
-
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-image: url('https://raw.githubusercontent.com/heartique/HEARTIQUE-NEXUS-NURSES-ALLIANCE/main/background6.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      padding: 20px;
+      margin: 0;
+      line-height: 1.6;
+      color: #333;
+    }
+    h1, h2 {
+      text-align: center;
+      color: white;
+    }
+    #intro {
+      background: #fff3e0;
+      border-left: 6px solid #ff9800;
+      padding: 1rem;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    #intro h2 {
+      margin: 0 0 10px;
+      font-size: 1.4rem;
+      color: #f57f17;
+    }
+    #intro p {
+      margin: 0;
+      font-size: 1rem;
+      color: #444;
+    }
+    #searchInput {
+      width: 100%;
+      padding: 12px 16px;
+      margin-bottom: 1.5rem;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 1rem;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+      display: block;
+    }
+    .tab-bar {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 20px 0;
+      align-items: center;
+    }
+    .tab-button {
+      padding: 10px 16px;
+      font-size: 16px;
+      cursor: pointer;
+      border: none;
+      background-color: #f6c90e;
+      border-radius: 6px;
+      transition: 0.2s ease;
+      flex: 1 1 auto;
+      text-align: center;
+    }
+    .tab-button:hover {
+      background-color: #f1b800;
+    }
+    .tab-button.active {
+      background-color: #f1b800;
+      font-weight: bold;
+    }
+    .tab-content { display: none; }
+    .tab-content.active { display: block; }
+    .vocab-item {
+      background: white;
+      padding: 1rem;
+      margin: 1rem 0;
+      border-left: 5px solid #4caf50;
+      border-radius: 8px;
+      box-shadow: 0 0 6px rgba(0,0,0,0.05);
+    }
+    .term { font-weight: bold; font-size: 1.1rem; color: #2e7d32; }
+    .definition { margin-top: 6px; color: #444; }
+    .progress-box { text-align: center; margin: 1rem 0; }
+    canvas { max-width: 200px; margin: auto; }
+    #resetBtn {
+      background: #e74c3c;
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.9rem;
+    }
+    #resetBtn:hover { background: #c0392b; }
+    #newWordsBanner {
+      display: none;
+      background-color: #ffe082;
+      color: #5d4037;
+      padding: 0.7rem 1rem;
+      border-left: 6px solid #ffb300;
+      border-radius: 6px;
+      margin-bottom: 1rem;
+      font-weight: bold;
+      text-align: center;
+    }
+    @media (max-width: 600px) {
+      #intro { font-size: 0.95rem; padding: 1rem 0.7rem; }
+      #intro h2 { font-size: 1.2rem; }
+      #searchInput { font-size: 0.95rem; padding: 10px 14px; }
+      .tab-button { width: 100%; }
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>📘 VOCABULARY DASHBOARD</h1>
-  </header>
+  <h1>📘 VOCABULARY DASHBOARD</h1>
+  <div id="intro"></div>
+  <input type="text" id="searchInput" placeholder="Search a word..." />
 
   <div class="tab-bar" id="tabBar">
     <a href="index.html" class="tab-button" style="background:#ccc; color:#333;">🏠 Back to Home</a>
-    <button id="resetBtn">🧹 Reset Progress</button>
+    <button id="resetBtn">🔁 Reset Progress</button>
   </div>
 
   <div id="newWordsBanner">🔔 New words added since your last visit! Scroll to view.</div>
-  <div id="intro"></div>
-  <input type="text" id="searchInput" placeholder="Search a word..." />
   <div id="tabContents"></div>
 
   <audio id="notifSound" preload="auto">
     <source src="https://www.soundjay.com/buttons/sounds/button-10.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
   </audio>
 
   <script>
@@ -240,7 +173,7 @@ canvas {
     });
 
     document.getElementById('resetBtn').addEventListener('click', () => {
-      if (confirm('Are you sure you want to reset all your read progress?')) {
+      if (confirm('Reset all your read progress?')) {
         localStorage.removeItem(STORAGE_KEY);
         readMap = {};
         Object.keys(allWordsByPart).forEach(index => renderTab(index));
@@ -270,7 +203,6 @@ canvas {
         const newWords = currentWords.filter(term => !prevSeen.includes(term));
         if (newWords.length > 0) {
           newWordsBanner.style.display = 'block';
-          alert(`🔔 ${newWords.length} new words added in ${part.label}!`);
           const audio = document.getElementById('notifSound');
           if (audio) audio.play().catch(() => {});
         }
@@ -297,8 +229,7 @@ canvas {
 
       const filteredTerms = terms.filter(t => {
         const query = searchInput.value.toLowerCase();
-        return t.term.toLowerCase().includes(query) ||
-               t.definition.toLowerCase().includes(query);
+        return t.term.toLowerCase().includes(query) || t.definition.toLowerCase().includes(query);
       });
 
       const termsHtml = filteredTerms.map(term => {
@@ -317,11 +248,7 @@ canvas {
       const readCount = readList.length;
       const total = terms.length;
       const percent = total ? Math.round((readCount / total) * 100) : 0;
-      const message = percent === 100
-        ? '✅ Awesome! You\'ve read all words...'
-        : percent >= 50
-          ? '💪 Keep going! You\'re more than halfway...'
-          : '📖 Start reading to unlock all insights!';
+      const message = percent === 100 ? '✅ Awesome! You\'ve read all words...' : percent >= 50 ? '💪 Keep going! You\'re more than halfway...' : '📖 Start reading to unlock all insights!';
 
       container.innerHTML = `
         <div class="progress-box">
