@@ -2,79 +2,103 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Vocabulary</title>
+  <title>📘 Vocabulary Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <style>
     body {
-  font-family: Arial, sans-serif;
-  background-image: url('https://raw.githubusercontent.com/heartique/HEARTIQUE-NEXUS-NURSES-ALLIANCE/main/background4.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin: 0;
-  padding: 0;
-  color: #333;
-    }
-
-    h1 {
-      text-align: center;
-      color: #004a99;
-      margin-bottom: 1rem;
-    }
-
-    .word-of-day {
-      max-width: 600px;
-      margin: 0 auto 2rem auto;
-      background: #fff8dc;
-      padding: 20px;
-      border-left: 6px solid #ffa500;
-      border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-    }
-
-    .word-of-day h2 {
-      margin: 0 0 6px;
-      font-size: 1.3rem;
-      color: #e67300;
-    }
-
-    .word-of-day .definition {
+      font-family: 'Segoe UI', sans-serif;
+      background-image: url('https://raw.githubusercontent.com/heartique/HEARTIQUE-NEXUS-NURSES-ALLIANCE/main/background6.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin: 0;
+      padding: 2rem;
       color: #333;
+      max-width: 1000px;
+      margin: auto;
     }
 
-    #searchInput {
-      padding: 10px 16px;
-      width: 80%;
-      max-width: 500px;
-      border: 1px solid #ccc;
+    header {
+      text-align: center;
+      color: #ffffff;
+    }
+
+    .tab-bar {
+      display: flex;
+      gap: 10px;
+      margin: 1rem 0;
+      flex-wrap: wrap;
+    }
+
+    .tab-button {
+      background: #7e57c2;
+      color: white;
+      padding: 0.6rem 1.2rem;
       border-radius: 8px;
-      font-size: 1rem;
-      margin: 0 auto 2rem;
+      border: none;
+      cursor: pointer;
+      font-size: 0.95rem;
+      transition: background 0.3s;
+    }
+
+    .tab-button:hover,
+    .tab-button.active {
+      background: #5e3ea4;
+    }
+
+    .tab-content {
+      display: none;
+    }
+
+    .tab-content.active {
       display: block;
     }
 
-    .vocab-list {
-      max-width: 800px;
-      margin: 0 auto;
+    .word-of-day {
+      background: #fffde7;
+      border-left: 6px solid #fdd835;
+      padding: 1rem;
+      border-radius: 8px;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 0 6px rgba(0,0,0,0.05);
+    }
+
+    .word-of-day h2 {
+      color: #f57f17;
+    }
+
+    #intro {
+      background: #fff3e0;
+      border-left: 6px solid #ff9800;
+      padding: 1rem;
+      border-radius: 8px;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 0 6px rgba(0,0,0,0.05);
+    }
+
+    #searchInput {
+      width: 100%;
+      padding: 0.8rem;
+      margin-bottom: 1.5rem;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 1rem;
+      display: block;
     }
 
     .vocab-item {
       background: white;
-      margin: 12px 0;
-      padding: 16px;
-      border-left: 6px solid #004a99;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
-      transition: transform 0.2s ease;
-    }
-
-    .vocab-item:hover {
-      transform: scale(1.01);
+      padding: 1rem;
+      margin: 1rem 0;
+      border-left: 5px solid #4caf50;
+      border-radius: 8px;
+      box-shadow: 0 0 6px rgba(0,0,0,0.05);
     }
 
     .term {
       font-weight: bold;
       font-size: 1.1rem;
-      color: #004a99;
+      color: #2e7d32;
     }
 
     .definition {
@@ -82,102 +106,224 @@
       color: #444;
     }
 
-    .back-link {
-      display: block;
-      margin: 2rem auto;
+    .progress-box {
       text-align: center;
-      color: #004a99;
-      font-weight: bold;
+      margin: 1rem 0;
+    }
+
+    canvas {
+      max-width: 200px;
+      margin: auto;
+    }
+
+    #resetBtn {
+      float: right;
+      background: #e53935;
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.9rem;
+      margin-left: 10px;
+    }
+
+    #resetBtn:hover {
+      background: #b71c1c;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-top: 2rem;
+      padding: 0.6rem 1rem;
+      background: #ccc;
+      color: #000;
+      border-radius: 6px;
       text-decoration: none;
     }
 
-    .back-link:hover {
-      text-decoration: underline;
-    }
-
-    .loading {
-      text-align: center;
-      font-style: italic;
-      color: #888;
+    #newWordsBanner {
+      display: none;
+      background-color: #ffe082;
+      color: #5d4037;
+      padding: 0.7rem 1rem;
+      border-left: 6px solid #ffb300;
+      border-radius: 6px;
+      margin-bottom: 1rem;
+      font-weight: bold;
     }
   </style>
 </head>
 <body>
-  <h1>📘 Most Used Vocabulary</h1>
+  <header>
+    <h1>📘 VOCABULARY DASHBOARD</h1>
+  </header>
 
-  <!-- Word of the Day -->
-  <div id="word-of-day" class="word-of-day" style="display:none;">
-    <h2>🔮 Word of the Day: <span id="daily-term"></span></h2>
-    <div class="definition" id="daily-definition"></div>
+  <div class="tab-bar" id="tabBar">
+    <a href="index.html" class="tab-button" style="background:#ccc; color:#333;">🏠 Back to Home</a>
+    <button id="resetBtn">🧹 Reset Progress</button>
   </div>
 
-  <!-- Search -->
+  <div id="newWordsBanner">🔔 New words added since your last visit! Scroll to view.</div>
+  <div id="intro"></div>
   <input type="text" id="searchInput" placeholder="Search a word..." />
-
-  <!-- Vocabulary List -->
-  <div id="vocab-list" class="vocab-list loading">Loading vocabulary...</div>
-
-  <a href="index.html" class="back-link">⬅ Back to Home</a>
+  <div id="tabContents"></div>
+  <audio id="notifSound" src="https://notificationsounds.com/storage/sounds/file-sounds-1156-pristine.mp3" preload="auto"></audio>
 
   <script>
-    let allVocabulary = [];
+    const vocabFiles = [
+      { file: 'vocab.json', label: '📘 Part 1' },
+      { file: 'vocab1.json', label: '📗 Part 2' },
+      { file: 'vocab2.json', label: '📙 Part 3' },
+      { file: 'vocab3.json', label: '📕 Part 4' },
+      { file: 'vocab4.json', label: '📒 Part 5' },
+      { file: 'vocab5.json', label: '📓 Part 6' },
+      { file: 'vocab6.json', label: '📔 Part 7' },
+    ];
 
-    fetch('vocabulary.json')  // ✔ Make sure this file is in the same folder
-      .then(response => {
-        if (!response.ok) {
-          throw new Error('File not found or server error');
-        }
-        return response.json();
-      })
-      .then(data => {
-        allVocabulary = data;
-        renderVocabulary(data);
-        showWordOfTheDay(data);
-        document.getElementById('vocab-list').classList.remove('loading');
-      })
-      .catch(error => {
-        console.error('Fetch error:', error);
-        document.getElementById('vocab-list').innerHTML = "⚠️ Could not load vocabulary.";
-      });
+    const STORAGE_KEY = 'read_vocab_tracker';
+    const SEEN_KEY = 'seen_vocab_snapshot';
+    const tabBar = document.getElementById("tabBar");
+    const tabContents = document.getElementById("tabContents");
+    const searchInput = document.getElementById("searchInput");
+    const newWordsBanner = document.getElementById("newWordsBanner");
+    const introDiv = document.getElementById("intro");
+    let readMap = JSON.parse(localStorage.getItem(STORAGE_KEY)) || {};
+    let seenSnapshot = JSON.parse(localStorage.getItem(SEEN_KEY)) || {};
+    let allWordsByPart = {};
 
-    function renderVocabulary(list) {
-      const container = document.getElementById('vocab-list');
-      container.innerHTML = '';
-      if (list.length === 0) {
-        container.innerHTML = "<p style='text-align:center;color:#666;'>No matching words found.</p>";
-        return;
+    window.addEventListener('DOMContentLoaded', () => {
+      const username = localStorage.getItem('username') || 'friend';
+      const hour = new Date().getHours();
+      let greeting = 'Hello';
+      if (hour < 12) greeting = 'Good morning';
+      else if (hour < 17) greeting = 'Good afternoon';
+      else greeting = 'Good evening';
+
+      introDiv.innerHTML = `
+        <h2>👋 ${greeting}, ${username}!</h2>
+        <p>Welcome to your vocabulary dashboard. Use the search bar to explore useful words from different parts, track your progress, and enjoy your daily language boost! 🎓</p>
+      `;
+    });
+
+    document.getElementById('resetBtn').addEventListener('click', () => {
+      if (confirm('Are you sure you want to reset all your read progress?')) {
+        localStorage.removeItem(STORAGE_KEY);
+        readMap = {};
+        Object.keys(allWordsByPart).forEach(index => renderTab(index));
       }
+    });
 
-      list.forEach(item => {
-        const div = document.createElement('div');
-        div.className = 'vocab-item';
-        div.innerHTML = `
-          <div class="term">${item.term}</div>
-          <div class="definition">${item.definition}</div>
-        `;
-        container.appendChild(div);
+    vocabFiles.forEach((part, index) => {
+      const btn = document.createElement('button');
+      btn.textContent = part.label;
+      btn.classList.add('tab-button');
+      if (index === 0) btn.classList.add('active');
+      btn.onclick = () => switchTab(index);
+      tabBar.appendChild(btn);
+
+      const div = document.createElement('div');
+      div.classList.add('tab-content');
+      if (index === 0) div.classList.add('active');
+      div.id = `tab-${index}`;
+      tabContents.appendChild(div);
+
+      fetch(part.file).then(res => res.ok ? res.json() : []).then(data => {
+        allWordsByPart[index] = data;
+        readMap[index] = readMap[index] || [];
+
+        const prevSeen = seenSnapshot[index] || [];
+        const currentWords = data.map(t => t.term);
+        const newWords = currentWords.filter(term => !prevSeen.includes(term));
+        if (newWords.length > 0) {
+          newWordsBanner.style.display = 'block';
+          alert(`🔔 ${newWords.length} new words added in ${part.label}!`);
+          const audio = document.getElementById('notifSound');
+          if (audio) audio.play().catch(() => {});
+        }
+
+        seenSnapshot[index] = currentWords;
+        localStorage.setItem(SEEN_KEY, JSON.stringify(seenSnapshot));
+        renderTab(index);
+      });
+    });
+
+    function switchTab(index) {
+      document.querySelectorAll('.tab-button').forEach((btn, i) => {
+        if (btn.tagName === 'BUTTON') btn.classList.toggle('active', i === index + 2);
+      });
+      document.querySelectorAll('.tab-content').forEach((div, i) => {
+        div.classList.toggle('active', i === index);
       });
     }
 
-    function showWordOfTheDay(data) {
-      if (data.length === 0) return;
-      const today = new Date();
-      const index = today.getDate() % data.length;
-      const word = data[index];
-      document.getElementById('daily-term').textContent = word.term;
-      document.getElementById('daily-definition').textContent = word.definition;
-      document.getElementById('word-of-day').style.display = 'block';
+    function renderTab(index) {
+      const terms = allWordsByPart[index];
+      const container = document.getElementById(`tab-${index}`);
+      const readList = readMap[index];
+
+      const filteredTerms = terms.filter(t => {
+        const query = searchInput.value.toLowerCase();
+        return t.term.toLowerCase().includes(query) ||
+          t.definition.toLowerCase().includes(query);
+      });
+
+      const termsHtml = filteredTerms.map(term => {
+        const checked = readList.includes(term.term);
+        return `
+          <div class="vocab-item">
+            <div class="term">${term.term}</div>
+            <div class="definition">${term.definition}</div>
+            <div class="checkbox">
+              <label><input type="checkbox" onchange="toggleRead(${index}, '${term.term}')" ${checked ? 'checked' : ''}/> Mark as Read</label>
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      const readCount = readList.length;
+      const total = terms.length;
+      const percent = total ? Math.round((readCount / total) * 100) : 0;
+      const message = percent === 100
+        ? '✅ Awesome! You\'ve read all words...'
+        : percent >= 50
+          ? '💪 Keep going! You\'re more than halfway...'
+          : '📖 Start reading to unlock all insights!';
+
+      container.innerHTML = `
+        <div class="progress-box">
+          <canvas id="chart-${index}"></canvas>
+          <p><strong>${percent}%</strong> Read — ${readCount}/${total}</p>
+          <p>${message}</p>
+        </div>
+        ${termsHtml}
+      `;
+
+      new Chart(document.getElementById(`chart-${index}`), {
+        type: 'doughnut',
+        data: {
+          labels: ['Read', 'Unread'],
+          datasets: [{
+            data: [readCount, total - readCount],
+            backgroundColor: ['#7e57c2', '#ddd']
+          }]
+        },
+        options: { plugins: { legend: { display: false } }, cutout: '70%' }
+      });
     }
 
-    document.getElementById('searchInput').addEventListener('input', function () {
-      const query = this.value.toLowerCase();
-      const filtered = allVocabulary.filter(item =>
-        item.term.toLowerCase().includes(query) ||
-        item.definition.toLowerCase().includes(query)
-      );
-      renderVocabulary(filtered);
+    function toggleRead(index, term) {
+      const list = readMap[index];
+      const i = list.indexOf(term);
+      if (i === -1) list.push(term);
+      else list.splice(i, 1);
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(readMap));
+      renderTab(index);
+    }
+
+    searchInput.addEventListener('input', () => {
+      Object.keys(allWordsByPart).forEach(index => renderTab(index));
     });
   </script>
 </body>
 </html>
-
