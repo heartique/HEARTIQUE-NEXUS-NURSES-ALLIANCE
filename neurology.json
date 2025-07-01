@@ -1485,8 +1485,69 @@
     "answer": "D",
     "explanation": "The frontal lobe is the largest of the four major lobes and is responsible for higher-order cognitive processes.\n\nExecutive Functions: The prefrontal cortex, a large part of the frontal lobe, is central to planning, decision-making, problem-solving, working memory, and social behavior regulation.\n\nPersonality: Damage to the frontal lobe can lead to profound changes in personality, such as disinhibition, apathy, and impaired social judgment.\n\nMotor Function: The primary motor cortex, also in the frontal lobe, controls voluntary movements.\n\nThe other lobes have distinct primary functions:\n\nParietal Lobe: Processes somatosensory information (touch, temperature, pain), spatial awareness, and navigation.\n\nTemporal Lobe: Responsible for auditory processing, memory formation (hippocampus), and understanding language (Wernicke's area).\n\nOccipital Lobe: The primary visual processing center of the brain.",
     "additional": "Phineas Gage: The famous historical case of a railroad worker who survived a severe frontal lobe injury. His case provided early evidence that the frontal lobe is critical for personality and social behavior, as he became impulsive and socially inappropriate after the accident.\n\nFrontal Lobe Syndromes:\n\nDorsolateral Prefrontal Cortex Lesions: Lead to apathy, poor planning, and impaired problem-solving.\n\nOrbitofrontal Cortex Lesions: Lead to disinhibition, emotional lability, and poor impulse control.\n\nBroca's Area: Located in the inferior frontal gyrus of the dominant hemisphere, it is essential for speech production.\n\nRecommended Book: The Man Who Mistook His Wife for a Hat and Other Clinical Tales by Oliver Sacks is a fascinating and accessible collection of case studies that illustrates the profound effects of damage to different parts of the brain, including the frontal lobe."
+  },
+  {
+    "question": "Which of the following is a primary symptom of a stroke?",
+    "options": {
+      "A": "Chest pain",
+      "B": "Sudden numbness or weakness in the face, arm, or leg",
+      "C": "Abdominal pain",
+      "D": "Fever"
+    },
+    "answer": "B",
+    "explanation": "The hallmark sign of a stroke is a sudden neurological deficit, particularly sudden numbness or weakness in the face, arm, or leg, especially on one side of the body. This occurs due to a disruption of blood flow to the brain, either from a clot (ischemic stroke) or bleeding (hemorrhagic stroke), which impairs the function of the affected brain region.\n\n(A) Chest pain is more indicative of myocardial infarction (heart attack), not stroke.\n\n(C) Abdominal pain is not characteristic of stroke and would suggest a gastrointestinal issue.\n\n(D) Fever may occur in infections like meningitis or encephalitis, but not typically in acute stroke.",
+    "additional": "Mnemonic: FAST — Facial drooping, Arm weakness, Speech difficulty, Time to call emergency services.\n\nClinical tip: Rapid recognition and intervention during the golden window (within 3–4.5 hours) can significantly improve stroke outcomes.\n\nReference: Brunner & Suddarth's Textbook of Medical-Surgical Nursing, 14th Edition – Chapter on Cerebrovascular Disorders."
+  },
+  {
+    "question": "Parkinson’s disease is characterized by which of the following motor symptoms?",
+    "options": {
+      "A": "Hyperreflexia",
+      "B": "Tremors at rest",
+      "C": "Muscle spasticity",
+      "D": "Hemiparesis"
+    },
+    "answer": "B",
+    "explanation": "Tremors at rest are one of the cardinal motor symptoms of Parkinson’s disease. These tremors typically begin in the hands and can resemble a 'pill-rolling' motion. Parkinson’s disease is a progressive neurodegenerative disorder resulting from dopamine depletion in the substantia nigra of the basal ganglia.\n\n(A) Hyperreflexia is more common in upper motor neuron lesions, such as stroke or spinal cord injury.\n\n(C) Muscle spasticity is associated with conditions like multiple sclerosis or cerebral palsy, not Parkinson's.\n\n(D) Hemiparesis is a weakness on one side of the body, more commonly seen in stroke rather than Parkinson's.",
+    "additional": "Classic triad of Parkinsonism: Tremor at rest, Rigidity (cogwheel), and Bradykinesia (slowness of movement).\n\nMnemonic: TRAP — Tremor, Rigidity, Akinesia/bradykinesia, Postural instability\n\nReference: Lewis’s Medical-Surgical Nursing, 11th Ed., Chapter on Neurologic Problems – Parkinson’s Disease."
+  },
+  {
+    "question": "The blood-brain barrier (BBB) is most permeable to which of the following substances?",
+    "options": {
+      "A": "Large proteins",
+      "B": "Small, lipid-soluble molecules",
+      "C": "Glucose",
+      "D": "Water"
+    },
+    "answer": "B",
+    "explanation": "The blood-brain barrier is selectively permeable and favors the passage of small, lipid-soluble molecules, such as oxygen, carbon dioxide, alcohol, and anesthetics. These substances can diffuse directly through the endothelial cell membranes.\n\n(A) Large proteins are generally too big to cross the BBB unless the barrier is disrupted (e.g., inflammation).\n\n(C) Glucose is essential for brain function but requires specific transporter proteins (e.g., GLUT1) to cross the BBB.\n\n(D) Water can pass, but its movement is tightly regulated by osmotic gradients and aquaporins, not by free permeability.",
+    "additional": "Clinical significance: Many drugs cannot enter the CNS because of the BBB. This limits treatment options for conditions like brain tumors and infections.\n\nExample: Lipophilic drugs like levodopa can cross, but dopamine itself cannot.\n\nReference: Guyton and Hall Textbook of Medical Physiology, Chapter on Nervous System Physiology."
+  },
+  {
+    "question": "Which of the following is a common symptom of multiple sclerosis (MS)?",
+    "options": {
+      "A": "Visual disturbances",
+      "B": "Sensitivity to light",
+      "C": "Hyperactive reflexes",
+      "D": "Sudden, severe headache"
+    },
+    "answer": "A",
+    "explanation": "Visual disturbances, particularly optic neuritis (painful vision loss in one eye), are often the first presenting symptom of multiple sclerosis. MS is an autoimmune demyelinating disease affecting the central nervous system, where damaged myelin disrupts the transmission of nerve signals.\n\n(B) Sensitivity to light (photophobia) is more commonly associated with meningitis or migraines.\n\n(C) While MS can cause spasticity and reflex changes, hyperactive reflexes alone are nonspecific.\n\n(D) A sudden severe headache might suggest subarachnoid hemorrhage or migraine, not MS.",
+    "additional": "Other common MS symptoms: limb weakness, numbness, fatigue, bladder dysfunction, and ataxia.\n\nMnemonic: MS = Many Symptoms (because it affects multiple areas of CNS).\n\nReference: Brunner & Suddarth’s Textbook of Medical-Surgical Nursing, Chapter on Demyelinating Disorders."
+  },
+  {
+    "question": "Which part of the brain is primarily responsible for balance and coordination?",
+    "options": {
+      "A": "Cerebellum",
+      "B": "Medulla oblongata",
+      "C": "Thalamus",
+      "D": "Hippocampus"
+    },
+    "answer": "A",
+    "explanation": "The cerebellum is responsible for fine motor control, balance, coordination, and posture. It receives input from the vestibular system, spinal cord, and motor cortex to fine-tune motor activity.\n\n(B) The medulla oblongata regulates autonomic functions like heart rate and breathing.\n\n(C) The thalamus acts as a relay station for sensory and motor signals but does not directly control coordination.\n\n(D) The hippocampus is involved in memory formation, not motor function or balance.",
+    "additional": "Clinical clue: Damage to the cerebellum causes ataxia (uncoordinated movements), intention tremor, and difficulty walking.\n\nMnemonic: 'Cerebellum = Coordination center'\n\nReference: Smeltzer & Bare – Medical-Surgical Nursing, Chapter on Neurological Function."
   }
 ]
+
 
 
 
