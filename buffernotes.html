@@ -122,46 +122,46 @@
   <div id="paper1-units" class="unit-grid" style="display: flex;">
     <div class="unit-item">
       <a href="med-surg.html">Medical-Surgical</a>
-      <input type="checkbox" onclick="updateProgress()">
+      <input type="checkbox" data-id="paper1-0">
     </div>
     <div class="unit-item">
       <a href="pharmacology.html">Pharmacology</a>
-      <input type="checkbox" onclick="updateProgress()">
+      <input type="checkbox" data-id="paper1-1">
     </div>
     <div class="unit-item">
       <a href="obstetric.html">Obstetric</a>
-      <input type="checkbox" onclick="updateProgress()">
+      <input type="checkbox" data-id="paper1-2">
     </div>
     <div class="unit-item">
       <a href="psychiatry.html">Psychiatric</a>
-      <input type="checkbox" onclick="updateProgress()">
+      <input type="checkbox" data-id="paper1-3">
     </div>
     <div class="unit-item">
       <a href="critical-care.html">Critical Care</a>
-      <input type="checkbox" onclick="updateProgress()">
+      <input type="checkbox" data-id="paper1-4">
     </div>
   </div>
 
   <div id="paper2-units" class="unit-grid">
     <div class="unit-item">
       <a href="mental-health.html">Mental Health</a>
-      <input type="checkbox" onclick="updateProgress()">
+      <input type="checkbox" data-id="paper2-0">
     </div>
     <div class="unit-item">
       <a href="communicable.html">Communicable Diseases</a>
-      <input type="checkbox" onclick="updateProgress()">
+      <input type="checkbox" data-id="paper2-1">
     </div>
     <div class="unit-item">
       <a href="community-health.html">Community Health</a>
-      <input type="checkbox" onclick="updateProgress()">
+      <input type="checkbox" data-id="paper2-2">
     </div>
     <div class="unit-item">
       <a href="imnc.html">IMNC</a>
-      <input type="checkbox" onclick="updateProgress()">
+      <input type="checkbox" data-id="paper2-3">
     </div>
     <div class="unit-item">
       <a href="leadership.html">Leadership</a>
-      <input type="checkbox" onclick="updateProgress()">
+      <input type="checkbox" data-id="paper2-4">
     </div>
   </div>
 
@@ -171,25 +171,6 @@
   </div>
 
   <script>
-    function showTab(tabId) {
-      const paper1 = document.getElementById('paper1-units');
-      const paper2 = document.getElementById('paper2-units');
-      const tabs = document.querySelectorAll('.tab-buttons button');
-
-      tabs.forEach(btn => btn.classList.remove('active'));
-
-      if (tabId === 'paper1') {
-        paper1.style.display = 'flex';
-        paper2.style.display = 'none';
-        tabs[0].classList.add('active');
-      } else {
-        paper1.style.display = 'none';
-        paper2.style.display = 'flex';
-        tabs[1].classList.add('active');
-      }
-      updateProgress();
-    }
-
     const ctx = document.getElementById('progressChart').getContext('2d');
     let chart = new Chart(ctx, {
       type: 'doughnut',
@@ -213,7 +194,12 @@
       const visible = document.querySelector('.unit-grid[style*="display: flex"]');
       const checkboxes = visible.querySelectorAll('input[type="checkbox"]');
       const total = checkboxes.length;
-      const checked = [...checkboxes].filter(cb => cb.checked).length;
+      let checked = 0;
+
+      checkboxes.forEach(cb => {
+        if (cb.checked) checked++;
+        localStorage.setItem(cb.dataset.id, cb.checked);
+      });
 
       chart.data.datasets[0].data = [checked, total - checked];
       chart.update();
@@ -225,7 +211,36 @@
       else msg.textContent = `📘 You're just getting started: ${percent}% complete.`;
     }
 
-    updateProgress();
+    function restoreCheckboxes() {
+      document.querySelectorAll('input[type="checkbox"]').forEach(cb => {
+        const saved = localStorage.getItem(cb.dataset.id);
+        if (saved === 'true') cb.checked = true;
+      });
+    }
+
+    function showTab(tabId) {
+      const paper1 = document.getElementById('paper1-units');
+      const paper2 = document.getElementById('paper2-units');
+      const tabs = document.querySelectorAll('.tab-buttons button');
+
+      tabs.forEach(btn => btn.classList.remove('active'));
+
+      if (tabId === 'paper1') {
+        paper1.style.display = 'flex';
+        paper2.style.display = 'none';
+        tabs[0].classList.add('active');
+      } else {
+        paper1.style.display = 'none';
+        paper2.style.display = 'flex';
+        tabs[1].classList.add('active');
+      }
+      updateProgress();
+    }
+
+    window.onload = () => {
+      restoreCheckboxes();
+      updateProgress();
+    };
   </script>
 
 </body>
