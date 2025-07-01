@@ -1065,8 +1065,196 @@
     "answer": "B",
     "explanation": "Why (b) is correct: In conversion disorder, reinforcing improvements and ignoring the symptom (paralysis) promotes recovery. Positive reinforcement encourages the patient to focus on progress and minimizes secondary gain (e.g., attention, sympathy).\n\nWhy (a) is incorrect: Excessive empathy focusing on the 'paralysis' may unintentionally reinforce the symptom.\n\nWhy (c) and (d) are incorrect: Rest and sick leave promote the 'sick role,' which contradicts the goal of gradual return to function.",
     "additional": "Pathophysiology: Conversion Disorder (Functional Neurological Symptom Disorder) involves the unconscious transformation of psychological stress into physical symptoms (e.g., paralysis, blindness).\n\nLa Belle Indifférence: A lack of concern for the serious symptom is often seen.\n\nNursing Management:\n- Do not focus on the physical symptom.\n- Encourage self-care and activity.\n- Reinforce improvement, not disability.\n- Address stress through therapy and coping skills training.\n\nBook Recommendation:\n- Varcarolis' Foundations of Psychiatric-Mental Health Nursing"
+  },
+  {
+  "question": "A patient presents with muscle weakness and fatigue. Upon further examination, it is revealed that the patient has decreased acetylcholine receptors at the neuromuscular junction. Which of the following conditions is most likely responsible for this presentation?",
+  "options": {
+    "A": "Myasthenia gravis",
+    "B": "Amyotrophic lateral sclerosis (ALS)",
+    "C": "Guillain-Barre syndrome",
+    "D": "Muscular dystrophy"
+  },
+  "answer": "A",
+  "explanation": "The correct answer is Myasthenia Gravis (MG). This is the classic definition of the disorder's pathophysiology. MG is an autoimmune disease where the body's own immune system produces antibodies that attack, block, or destroy acetylcholine (ACh) receptors on the muscle cell surface. This deficit of ACh receptors prevents the nerve impulse from being effectively transmitted to the muscle, resulting in muscle weakness that characteristically worsens with repetitive use and improves with rest.\n\nAmyotrophic lateral sclerosis (ALS) is a neurodegenerative disease affecting upper and lower motor neurons, not the receptors.\n\nGuillain-Barre syndrome is an autoimmune disorder where the immune system attacks the myelin sheath of peripheral nerves, leading to ascending paralysis.\n\nMuscular dystrophy is a group of genetic diseases that cause progressive weakness and loss of muscle mass due to defective muscle proteins.",
+  "additional": "Key Manifestations of MG: Ptosis (drooping eyelids), diplopia (double vision), dysphagia (difficulty swallowing), dysarthria (slurred speech), and weakness in the limbs. Weakness is typically proximal (closer to the body's core).\n\nDiagnosis: The Tensilon (edrophonium chloride) test, where a short-acting anticholinesterase agent is given IV. A positive test results in a rapid, temporary improvement in muscle strength. Blood tests for acetylcholine receptor antibodies (AChR-Abs) are also definitive.\n\nNursing Priorities & Complications:\n\nMyasthenic Crisis: An acute exacerbation of muscle weakness, often triggered by infection, surgery, or inadequate medication. It can lead to respiratory failure, which is a medical emergency. The priority is maintaining a patent airway and providing respiratory support.\n\nCholinergic Crisis: Caused by an overdose of anticholinesterase medication. Symptoms also include severe muscle weakness, but are accompanied by signs of excessive cholinergic stimulation (SLUDGE: Salivation, Lacrimation, Urination, Diarrhea, GI cramping, Emesis) and bradycardia. The antidote is atropine.\n\nNursing Care: Administering medications (like Pyridostigmine) on a strict schedule, typically 30-60 minutes before meals to improve swallowing. Planning activities to conserve energy, and implementing aspiration precautions are crucial.\n\nREFERENCE BOOK:\n\nLewis's Medical-Surgical Nursing: Assessment and Management of Clinical Problems\n\nBrunner & Suddarth's Textbook of Medical-Surgical Nursing"
+},
+{
+  "question": "Following a severe traumatic brain injury, a patient is experiencing alterations in consciousness characterized by periods of wakefulness but with no meaningful interaction with the environment. Which term best describes this state?",
+  "options": {
+    "A": "Coma",
+    "B": "Vegetative state",
+    "C": "Minimally conscious state",
+    "D": "Locked-in syndrome"
+  },
+  "answer": "B",
+  "explanation": "A vegetative state is precisely defined as a condition of wakefulness without awareness. Patients may have sleep-wake cycles, open their eyes, and make non-purposeful movements, but they show no signs of conscious perception or meaningful interaction with their surroundings.\n\nComa: The patient is completely unresponsive and cannot be aroused. Eyes remain closed, and there are no sleep-wake cycles.\n\nMinimally conscious state: The patient demonstrates inconsistent but reproducible evidence of awareness, such as following simple commands, gesturing, or verbalizing.\n\nLocked-in syndrome: The patient is fully conscious and aware but is quadriplegic and unable to speak. Communication is often possible only through eye movements.",
+  "additional": "Glasgow Coma Scale (GCS): This is the universal standard for assessing the level of consciousness in patients with brain injury. It assesses three areas:\n\nEye Opening (1-4 points)\n\nVerbal Response (1-5 points)\n\nMotor Response (1-6 points)\nA score of 15 is normal, while a score of 3 is the lowest possible. A score of 8 or less typically indicates a coma.\n\nNursing Priorities for Patients with Altered LOC:\n\nAirway, Breathing, Circulation (ABCs): The absolute priority is to maintain a patent airway.\n\nIncreased Intracranial Pressure (ICP): Monitor for signs of rising ICP (e.g., change in LOC, headache, pupillary changes, Cushing's Triad). Interventions include elevating the head of the bed to 30 degrees, maintaining head/neck alignment, and managing stimuli.\n\nSafety: Protecting the patient from injury (e.g., padded side rails).\n\nIntegumentary Care: Frequent repositioning to prevent pressure injuries.\n\nNutrition and Hydration: Providing enteral or parenteral nutrition.\n\nREFERENCE BOOK:\n\nLewis's Medical-Surgical Nursing: Assessment and Management of Clinical Problems"
+},
+{
+  "question": "A patient with a spinal cord injury at the level of T6 presents with hypotension, bradycardia, and diaphoresis following a sudden change in position from supine to sitting. Which condition is the patient most likely experiencing?",
+  "options": {
+    "A": "Autonomic dysreflexia",
+    "B": "Neurogenic shock",
+    "C": "Spinal shock",
+    "D": "Orthostatic hypotension"
+  },
+  "answer": "B",
+  "explanation": "Neurogenic shock is a type of distributive shock resulting from the loss or disruption of sympathetic nervous system tone, which occurs in spinal cord injuries at or above the T6 level. The loss of sympathetic tone leads to massive vasodilation, causing a sharp drop in blood pressure (hypotension), and unopposed vagal (parasympathetic) activity, which causes a slow heart rate (bradycardia). It is the only shock state that presents with bradycardia instead of tachycardia. While the trigger was a position change (suggesting orthostatic hypotension), the combination of hypotension and bradycardia is the classic sign of neurogenic shock in this patient population.\n\nAutonomic Dysreflexia: Occurs in patients with injuries at T6 or above but is characterized by an exaggerated sympathetic response to a noxious stimulus below the level of injury. It presents with severe, pounding headache and extreme hypertension, bradycardia (a reflex response), and flushing/sweating above the level of injury.\n\nSpinal Shock: A temporary condition following a spinal injury characterized by the complete loss of all reflex, motor, and sensory function below the level of the injury. It is not a circulatory shock.\n\nOrthostatic Hypotension: A drop in blood pressure upon standing, but the body's normal response is a compensatory increase in heart rate (tachycardia).",
+  "additional": "Causes of Autonomic Dysreflexia: The most common cause is a distended bladder. Other causes include fecal impaction, tight clothing, or pressure injuries.\n\nNursing Priority for Autonomic Dysreflexia:\n\nSit the patient up immediately (High-Fowler's position) to help lower blood pressure via orthostasis.\n\nIdentify and remove the noxious stimulus: Check for bladder distention (kinked catheter, full bladder), check for bowel impaction, and loosen restrictive clothing.\n\nAdminister antihypertensives if ordered and if the hypertension persists after removing the stimulus.\n\nManagement of Neurogenic Shock: Focuses on restoring sympathetic tone and managing hemodynamics. This involves careful fluid resuscitation and the use of vasopressors (e.g., norepinephrine) to increase blood pressure and atropine to manage severe bradycardia.\n\nREFERENCE BOOK:\n\nBrunner & Suddarth's Textbook of Medical-Surgical Nursing"
+},
+ {
+  "question": "A patient presents with sudden onset of weakness and numbness on one side of the body, along with difficulty speaking and understanding speech. Imaging reveals an acute infarction involving the left middle cerebral artery territory. Which of the following neurological conditions is most likely responsible for these symptoms?",
+  "options": {
+    "A": "Transient ischemic attack (TIA)",
+    "B": "Intracerebral hemorrhage",
+    "C": "Ischemic stroke",
+    "D": "Subarachnoid hemorrhage"
+  },
+  "answer": "C",
+  "explanation": "The presentation of sudden-onset, unilateral neurological deficits (weakness, numbness) and language difficulties (aphasia, dysarthria) is characteristic of a stroke. The imaging finding of an \"acute infarction\" confirms that tissue death has occurred due to a lack of blood supply, which defines an ischemic stroke. The left middle cerebral artery (MCA) is the most common vessel involved in strokes and supplies the areas of the brain responsible for motor/sensory function of the contralateral side and language centers (in most right-handed individuals).\n\nTransient Ischemic Attack (TIA): Presents with the same symptoms as a stroke, but they are temporary and resolve completely, typically within an hour, without evidence of infarction on imaging.\n\nIntracerebral Hemorrhage & Subarachnoid Hemorrhage: These are hemorrhagic strokes (caused by bleeding), not infarction (caused by a blockage). Imaging would show blood, not an infarction.",
+  "additional": "Stroke Recognition: The FAST acronym is a public health tool for recognizing stroke: Face drooping, Arm weakness, Speech difficulty, Time to call emergency services.\n\nTypes of Aphasia (Left MCA Stroke):\n\nBroca's Aphasia (Expressive): Difficulty producing speech; speech is non-fluent and telegraphic. Comprehension is intact.\n\nWernicke's Aphasia (Receptive): Difficulty understanding speech; speech is fluent but nonsensical (\"word salad\").\n\nIschemic Stroke Management:\n\nTime is Brain: The immediate priority is a non-contrast CT scan of the head to rule out hemorrhagic stroke.\n\nThrombolytic Therapy: If it is an ischemic stroke and the patient presents within the therapeutic window (typically 3-4.5 hours from symptom onset), tissue plasminogen activator (tPA) may be administered to dissolve the clot.\n\nThrombectomy: Mechanical removal of a large clot may be an option for certain patients.\n\nNursing Care Post-Stroke: Aspiration precautions, monitoring for complications (hemorrhagic conversion, cerebral edema), promoting mobility, preventing contractures and pressure ulcers, and addressing communication deficits and emotional lability.\n\nREFERENCE BOOK:\n\nLewis's Medical-Surgical Nursing: Assessment and Management of Clinical Problems"
+},
+ {
+  "question": "A patient presents with tremors, rigidity, bradykinesia, and postural instability. On examination, the patient demonstrates a shuffling gait, stooped posture, and a masked facies. Which of the following neurological conditions is most likely responsible for these symptoms?",
+  "options": {
+    "A": "Alzheimer's disease",
+    "B": "Parkinson's disease",
+    "C": "Multiple sclerosis (MS)",
+    "D": "Amyotrophic lateral sclerosis (ALS)"
+  },
+  "answer": "B",
+  "explanation": "The collection of symptoms described are the cardinal signs of Parkinson's disease. The classic mnemonic is TRAP: Tremor (typically a \"pill-rolling\" tremor at rest), Rigidity (cogwheel or lead-pipe), Akinesia/Bradykinesia (absence or slowness of movement), and Postural instability. The shuffling gait, stooped posture, and masked (expressionless) facies are also classic features resulting from the underlying bradykinesia and rigidity. The cause is the degeneration of dopamine-producing neurons in the substantia nigra of the brain.\n\nAlzheimer's disease: Primarily a cognitive disorder characterized by memory loss and impaired judgment.\n\nMultiple sclerosis (MS): An autoimmune demyelinating disease with varied symptoms like visual disturbances, spasticity, fatigue, and sensory changes, often with a relapsing-remitting course.\n\nAmyotrophic lateral sclerosis (ALS): A motor neuron disease causing progressive muscle weakness, atrophy, and spasticity, eventually leading to paralysis.",
+  "additional": "Pharmacologic Management: The mainstay of treatment is dopamine replacement therapy.\n\nLevodopa-carbidopa (Sinemet): Levodopa is converted to dopamine in the brain. Carbidopa prevents the peripheral breakdown of levodopa, allowing more to reach the brain and reducing side effects. A \"wearing-off\" phenomenon can occur over time.\n\nNursing Priorities:\n\nSafety: High risk for falls due to postural instability and shuffling gait.\n\nAspiration Risk: Dysphagia is common. Assess swallowing, modify diet consistency, and teach the \"chin-tuck\" method for swallowing.\n\nMobility: Encourage exercise, use of assistive devices, and physical therapy to maintain function.\n\nNutrition: Provide small, frequent, easy-to-chew meals to combat fatigue and dysphagia. High fiber and fluids to prevent constipation.\n\nPsychosocial: Depression is common. Provide support and screen for mental health issues.\n\nREFERENCE BOOK:\n\nBrunner & Suddarth's Textbook of Medical-Surgical Nursing"
+},
+{
+  "question": "A patient presents with severe headache, photophobia, and neck stiffness. On examination, there is nuchal rigidity and positive Kernig and Brudzinski signs. Which of the following neurological conditions is most likely responsible for these symptoms?",
+  "options": {
+    "A": "Migraine headache",
+    "B": "Cluster headache",
+    "C": "Meningitis",
+    "D": "Subarachnoid hemorrhage"
+  },
+  "answer": "C",
+  "explanation": "This is the classic triad of symptoms for meningitis: fever, severe headache, and nuchal rigidity (neck stiffness). Photophobia (sensitivity to light) is also a very common symptom. The positive Kernig's sign (pain and resistance on extending the knee when the hip is flexed) and Brudzinski's sign (involuntary flexion of the hips and knees when the neck is passively flexed) are classic meningeal signs indicating inflammation of the meninges.\n\nMigraine headache: A severe, often throbbing, unilateral headache, but nuchal rigidity and positive meningeal signs are not characteristic.\n\nCluster headache: A severe, unilateral, periorbital headache associated with autonomic symptoms (lacrimation, rhinorrhea).\n\nSubarachnoid hemorrhage: Can present with a \"thunderclap\" headache and nuchal rigidity due to blood irritating the meninges, but the full constellation of fever and positive Kernig/Brudzinski signs strongly points to meningitis as the most likely diagnosis.",
+  "additional": "Types of Meningitis:\n\nBacterial (Septic): A medical emergency. The CSF will be purulent (cloudy), with high protein, low glucose, and high WBCs (neutrophils).\n\nViral (Aseptic): More common and usually less severe. CSF is clear, with normal or slightly elevated protein, normal glucose, and high WBCs (lymphocytes).\n\nDiagnosis: Lumbar puncture (LP) for cerebrospinal fluid (CSF) analysis is the definitive diagnostic test. Blood cultures should also be drawn.\n\nNursing Priorities for Bacterial Meningitis:\n\nIsolation: Institute droplet precautions immediately upon suspicion to prevent spread.\n\nAntibiotics: Administer broad-spectrum antibiotics promptly after the LP has been performed (or immediately if LP is delayed).\n\nNeurological Monitoring: Frequent neuro checks, monitoring for seizures and increased ICP.\n\nSupportive Care: Maintain a quiet, dim environment to manage headache and photophobia. Administer analgesics and antipyretics.\n\nREFERENCE BOOK:\n\nLewis's Medical-Surgical Nursing: Assessment and Management of Clinical Problems"
+},
+{
+    "question": "In a conscious trauma patient with a suspected head injury, which of the following actions is appropriate?",
+    "options": {
+      "A": "Applying direct pressure to the wound.",
+      "B": "Administering aspirin for pain relief.",
+      "C": "Maintaining cervical spine immobilization.",
+      "D": "Assessing pupil reaction to light."
+    },
+    "answer": "C",
+    "explanation": "The priority in any trauma patient with a suspected head injury is to assume a concurrent cervical spine injury until proven otherwise. Maintaining cervical spine immobilization (using hands-on stabilization, a cervical collar, and a backboard) is the most critical action to prevent further spinal cord damage. While assessing pupils (D) is an important part of the neurological exam, it does not take precedence over preventing a catastrophic secondary injury. Applying direct pressure (A) should be done with caution over a potential skull fracture, and aspirin (B) is contraindicated as it increases bleeding risk.",
+    "additional": "Mechanism of Injury: Always have a high index of suspicion for C-spine injury in patients with:\n\n- Blunt trauma above the clavicle.\n- Falls from a significant height.\n- Motor vehicle accidents.\n- Any significant head injury.\n\nSigns of Basilar Skull Fracture: This is a key assessment. Signs include Battle's sign (bruising behind the ear), Raccoon eyes (periorbital bruising), and CSF leakage from the nose (rhinorrhea) or ears (otorrhea). A \"halo sign\" (a yellowish ring of CSF around a spot of blood on gauze) is indicative of CSF leak.\n\nNeurological Assessment: This is a core nursing skill. It includes:\n\n- Level of Consciousness (LOC)\n- Glasgow Coma Scale (GCS)\n- Pupillary Response: PERRLA\n- Motor Function and posturing\n\nREFERENCE BOOK:\n- ATLS: Advanced Trauma Life Support Student Course Manual\n- Lewis's Medical-Surgical Nursing"
+  },
+  {
+    "question": "What is the appropriate management for a conscious patient experiencing a seizure?",
+    "options": {
+      "A": "Restrain the patient to prevent injury.",
+      "B": "Place the patient in a supine position.",
+      "C": "Protect the patient from injury, clear the area, and monitor the duration of the seizure.",
+      "D": "Administer antiepileptic medication immediately."
+    },
+    "answer": "C",
+    "explanation": "The absolute priority during an active seizure is patient safety. This involves protecting the patient from their environment. You should guide the patient to the floor if standing, move nearby objects away, and place something soft under their head. Restraining the patient (A) is contraindicated as it can cause musculoskeletal injury. Administering medication (D) is not a first aid measure and is typically reserved for prolonged seizures (status epilepticus) in a hospital setting. After the seizure, the patient should be placed in the recovery position (on their side) to maintain a patent airway and prevent aspiration.",
+    "additional": "Seizure Precautions:\n- Oxygen and suction at bedside\n- Maintain IV access\n- Padded side rails\n- Bed in lowest position\n\nPost-Seizure Documentation:\n- Onset time, duration\n- Seizure type and body parts involved\n- LOC\n- Postictal state\n\nStatus Epilepticus:\n- Seizure >5 min or repeated seizures without full recovery in between\n- Emergency: Treat with IV benzodiazepines (e.g., lorazepam)\n\nREFERENCE BOOK:\n- Brunner & Suddarth's Textbook of Medical-Surgical Nursing"
+  },
+  {
+    "question": "A patient presents with sudden-onset severe headache, vomiting, and altered mental status. Imaging reveals a berry-shaped aneurysm at the junction of the anterior communicating artery and anterior cerebral artery. Which of the following neurological conditions is most likely responsible for these symptoms?",
+    "options": {
+      "A": "Ischemic stroke",
+      "B": "Intracerebral hemorrhage",
+      "C": "Subdural hematoma",
+      "D": "Subarachnoid hemorrhage"
+    },
+    "answer": "D",
+    "explanation": "The rupture of a cerebral aneurysm, often called a \"berry\" aneurysm due to its shape, is the most common cause of a non-traumatic subarachnoid hemorrhage (SAH). This condition involves bleeding into the subarachnoid space (the space between the arachnoid and pia mater layers of the meninges). The classic presentation is a sudden, explosive \"thunderclap\" headache, often described as \"the worst headache of my life,\" accompanied by signs of meningeal irritation (nuchal rigidity, photophobia) and increased intracranial pressure (vomiting, altered LOC).",
+    "additional": "Complications:\n- Rebleeding (high risk in first 24 hrs)\n- Cerebral vasospasm (3–14 days post-bleed): Prevented with nimodipine\n- Hydrocephalus: Blood blocks CSF reabsorption\n\nNursing Priorities:\n- Quiet environment\n- Strict BP control\n- Nimodipine administration\n- Frequent neuro checks\n- Seizure precautions\n\nREFERENCE BOOK:\n- Lewis's Medical-Surgical Nursing"
+  },
+  {
+    "question": "A patient presents with sudden-onset unilateral facial droop, arm weakness, and slurred speech. Symptoms began approximately 30 minutes ago but have partially resolved since then. Which of the following neurological conditions is most likely responsible for these symptoms?",
+    "options": {
+      "A": "Transient ischemic attack (TIA)",
+      "B": "Ischemic stroke",
+      "C": "Hemorrhagic stroke",
+      "D": "Intracerebral hemorrhage"
+    },
+    "answer": "A",
+    "explanation": "A transient ischemic attack (TIA) is a temporary episode of neurological dysfunction caused by focal brain ischemia, without acute infarction (tissue death). The symptoms are identical to those of an ischemic stroke but are transient and resolve completely, usually within an hour. The fact that the symptoms have begun to resolve is the key feature that points to a TIA rather than a completed ischemic stroke.",
+    "additional": "TIA = Warning Sign:\n- 1/3 of TIA patients will have a major stroke within a year\n\nPost-TIA Management:\n- Antiplatelets (aspirin, clopidogrel)\n- Statins\n- BP control\n- Lifestyle: Smoking cessation, diet, activity\n\nDiagnostics:\n- Carotid ultrasound\n- Echocardiogram\n- MRI brain\n\nREFERENCE BOOK:\n- Brunner & Suddarth's Textbook of Medical-Surgical Nursing"
+  },
+  {
+    "question": "A patient presents with acute onset of severe vertigo, nausea, vomiting, and nystagmus. Symptoms are worsened with head movement. Which of the following neurological conditions is most likely responsible for these symptoms?",
+    "options": {
+      "A": "Ménière's disease",
+      "B": "Vestibular neuritis",
+      "C": "Benign paroxysmal positional vertigo (BPPV)",
+      "D": "Labyrinthitis"
+    },
+    "answer": "C",
+    "explanation": "BPPV is the most common cause of vertigo. It is characterized by brief (usually <1 minute), recurrent episodes of intense vertigo that are specifically triggered by changes in head position (e.g., rolling over in bed, looking up). It is caused by the displacement of small calcium carbonate crystals (otoconia) into the semicircular canals of the inner ear.",
+    "additional": "Differentials:\n- Vestibular neuritis: persistent vertigo\n- Labyrinthitis: vertigo + hearing loss\n- Ménière’s: vertigo (lasting hours), tinnitus, hearing loss\n\nDiagnosis:\n- Dix-Hallpike maneuver\n\nTreatment:\n- Epley maneuver (canalith repositioning)\n- Fall precautions\n\nREFERENCE BOOK:\n- Lewis's Medical-Surgical Nursing"
+  },
+  {
+    "question": "A patient presents with gradual-onset memory loss, impaired judgment, and personality changes. Over time, the patient develops difficulty with language, motor function, and coordination. Which of the following neurological conditions is most likely responsible for these symptoms?",
+    "options": {
+      "A": "Parkinson's disease",
+      "B": "Alzheimer's disease",
+      "C": "Huntington's disease",
+      "D": "Amyotrophic lateral sclerosis (ALS)"
+    },
+    "answer": "B",
+    "explanation": "Alzheimer's disease is the most common form of dementia. It is a progressive neurodegenerative disorder characterized by a gradual decline in cognitive function, starting with short-term memory loss (amnesia) and progressing to affect language (aphasia), motor skills (apraxia), and recognition (agnosia). Impaired judgment and personality changes are also early features. The description of a slow, progressive decline in multiple cognitive and functional domains is the hallmark of Alzheimer's.",
+    "additional": "Pharmacologic Management:\n- Cholinesterase inhibitors (donepezil, rivastigmine)\n- NMDA receptor antagonists (memantine)\n\nNursing Management:\n- Structured, safe environment\n- Communication: use short, direct sentences; validation therapy\n- Encourage independence in ADLs\n- Caregiver support: education, respite care, referrals\n\nREFERENCE BOOK:\n- Brunner & Suddarth's Textbook of Medical-Surgical Nursing"
+  },
+  {
+    "question": "A patient presents with episodic throbbing headache associated with nausea, vomiting, and sensitivity to light and sound. Symptoms are often preceded by an aura. Which of the following neurological conditions is most likely responsible for these symptoms?",
+    "options": {
+      "A": "Migraine headache",
+      "B": "Cluster headache",
+      "C": "Tension-type headache",
+      "D": "Chronic daily headache"
+    },
+    "answer": "A",
+    "explanation": "This is the classic presentation of a migraine with aura. Key features include a severe, unilateral, throbbing or pulsating headache that is often accompanied by nausea, vomiting, photophobia (sensitivity to light), and phonophobia (sensitivity to sound). An aura is a transient neurological symptom (often visual, like flashing lights or zigzag lines) that precedes or accompanies the headache.",
+    "additional": "Migraine Triggers:\n- Stress, certain foods (chocolate, red wine, aged cheese)\n- Hormonal changes\n- Sleep disturbances\n\nTreatment:\nAbortive:\n- NSAIDs (mild)\n- Triptans (sumatriptan) for moderate-severe\n\nProphylactic:\n- Beta-blockers\n- Anticonvulsants (topiramate)\n- TCAs (amitriptyline)\n\nREFERENCE BOOK:\n- Lewis's Medical-Surgical Nursing"
+  },
+  {
+    "question": "A patient presents with gradual-onset weakness, spasticity, hyperreflexia, and positive Babinski sign. Imaging reveals demyelinating plaques in the white matter of the brain and spinal cord. Which of the following neurological conditions is most likely responsible for these symptoms?",
+    "options": {
+      "A": "Amyotrophic lateral sclerosis (ALS)",
+      "B": "Multiple sclerosis (MS)",
+      "C": "Guillain-Barré syndrome (GBS)",
+      "D": "Myasthenia gravis"
+    },
+    "answer": "B",
+    "explanation": "Multiple sclerosis (MS) is an autoimmune inflammatory disease in which the immune system attacks and damages the myelin sheath of nerve cells in the central nervous system (brain and spinal cord). This demyelination disrupts nerve impulse transmission. The presence of demyelinating plaques on imaging is the pathological hallmark of MS. The clinical signs of spasticity, hyperreflexia, and a positive Babinski sign are classic upper motor neuron (UMN) signs, which are characteristic of MS.",
+    "additional": "Common Symptoms:\n- Fatigue, vision changes, paresthesias, spasticity\n- Cognitive impairment, bladder issues\n\nTreatment:\n- DMTs: Interferon-beta, glatiramer\n- Symptom control: Baclofen (spasticity), rest scheduling (fatigue)\n- Fall precautions, assistive device education\n\nREFERENCE BOOK:\n- Brunner & Suddarth's Textbook of Medical-Surgical Nursing"
+  },
+  {
+    "question": "A patient presents with progressive weakness, muscle atrophy, and fasciculations, primarily involving the upper and lower extremities. Over time, the patient develops dysphagia and dysarthria. Which of the following neurological conditions is most likely responsible for these symptoms?",
+    "options": {
+      "A": "Parkinson's disease",
+      "B": "Guillain-Barré syndrome (GBS)",
+      "C": "Amyotrophic lateral sclerosis (ALS)",
+      "D": "Myasthenia gravis"
+    },
+    "answer": "C",
+    "explanation": "Amyotrophic lateral sclerosis (ALS), also known as Lou Gehrig's disease, is a rapidly progressive and fatal neurodegenerative disease that affects both upper motor neurons (in the brain) and lower motor neurons (in the spinal cord). This leads to a combination of UMN signs (spasticity, hyperreflexia) and LMN signs (muscle weakness, atrophy, and fasciculations - muscle twitching). The disease relentlessly progresses, leading to difficulty speaking (dysarthria), swallowing (dysphagia), and eventually breathing, as the respiratory muscles become paralyzed. Cognitive function typically remains intact.",
+    "additional": "Respiratory Management:\n- Monitor vital capacity\n- Non-invasive or invasive ventilation (BiPAP or tracheostomy)\n\nNutrition:\n- PEG tube for dysphagia\n\nMedications:\n- Riluzole (slows progression modestly)\n\nPalliative Care:\n- Early integration for symptom control and end-of-life planning\n\nREFERENCE BOOK:\n- Lewis's Medical-Surgical Nursing"
   }
 ]
+
+  
+  
+ 
+ 
+  
+  
+
 
 
 
