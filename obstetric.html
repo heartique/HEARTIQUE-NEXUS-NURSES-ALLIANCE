@@ -32,16 +32,6 @@
       margin-bottom: 20px;
       flex-wrap: wrap;
     }
-    .additional {
-  background: #d0f0ff; /* lighter bluish tone */
-  padding: 12px;
-  border-radius: 8px;
-  margin-top: 12px;
-  font-style: italic;
-  color: #004b66;
-  border-left: 4px solid #3399cc;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
-}
     .btn, .tab-btn {
       padding: 10px 16px;
       font-size: 16px;
@@ -67,14 +57,25 @@
     }
     .correct { color: green; font-weight: bold; }
     .wrong { color: red; font-weight: bold; }
-    .final-result {
-      text-align: center;
-      margin-top: 30px;
-      font-size: 18px;
+    .additional {
+      background: #d0f0ff;
+      padding: 12px;
+      border-radius: 8px;
+      margin-top: 12px;
+      font-style: italic;
+      color: #004b66;
+      border-left: 4px solid #3399cc;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.1);
     }
     .reaction {
       font-size: 22px;
       margin-top: 10px;
+    }
+    .final-result {
+      text-align: center;
+      font-size: 18px;
+      margin-top: 30px;
+      color: white;
     }
     .contact {
       margin-top: 40px;
@@ -100,7 +101,9 @@
 
   <div class="top-buttons">
     <a href="quiz.html"><button class="btn">🏠 Home</button></a>
-    <button class="btn" onclick="showFinalResult()">📊 Get My Score Now</button>
+    <button class="btn" onclick="showFinalResult(globalScore, globalTotal)">📊 Get My Score Now</button>
+    <label style="color:white;"><input type="checkbox" id="filter-unanswered"> Show only unanswered</label>
+    <button class="btn" onclick="resetCurrent()">🔁 Reset Progress</button>
   </div>
 
   <div id="quiz-tabs" class="top-buttons"></div>
@@ -112,6 +115,7 @@
     <p>📞 <strong>0717517371</strong> | <strong>HEARTIQUE</strong></p>
     <p>💡 Got more content? Let us help you bring it to life here!</p>
   </div>
+
 <script>
   const fileList = [
     { name: "Part 1", file: "obstetric.json" },
@@ -121,6 +125,10 @@
     { name: "Part 5", file: "obstetric4.json" },
     { name: "Part 6", file: "obstetric5.json" }
   ];
+
+  let currentFile = "";
+  let globalScore = 0;
+  let globalTotal = 0;
 
   const tabsDiv = document.getElementById('quiz-tabs');
   const container = document.getElementById('quiz-container');
@@ -132,53 +140,62 @@
     btn.textContent = item.name;
     btn.onclick = () => loadQuiz(item.file, btn);
     tabsDiv.appendChild(btn);
-    if (i === 0) btn.click(); // Load first part by default
+    if (i === 0) btn.click();
   });
+
+  function normalize(q) {
+    return {
+      question: q.question || q.q || q.title || "Untitled Question",
+      options: q.options || q.option || q.choices || {},
+      answer: q.answer || q.correct || q.key || "",
+      explanation: q.explanation || q.reason || q.why || "",
+      additional: q.additional || q.notes || q.more || ""
+    };
+  }
 
   function loadQuiz(file, activeBtn) {
     container.innerHTML = '';
     resultDiv.innerHTML = '';
+    currentFile = file;
     document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
     activeBtn.classList.add('active');
 
+    const filter = document.getElementById('filter-unanswered').checked;
+    const savedProgress = JSON.parse(localStorage.getItem(`obstetric_${file}`) || '{}');
     let score = 0;
     let total = 0;
-    let questionsCompleted = 0;
+    let completed = 0;
 
     fetch(file)
       .then(res => res.json())
       .then(data => {
         total = data.length;
+        globalTotal = total;
 
-        const normalize = (q) => ({
-          question: q.question || q.q || q.title || "Untitled Question",
-          options: q.options || q.option || q.choices || {},
-          answer: q.answer || q.correct || q.key || "",
-          explanation: q.explanation || q.reason || q.why || "",
-          additional: q.additional || q.notes || q.more || ""
-        });
-
-        data.forEach((raw, index) => {
+        data.forEach((raw, i) => {
           const q = normalize(raw);
+          const qid = `Q${i}`;
+          if (filter && savedProgress[qid]) return;
+
           const div = document.createElement('div');
           div.className = 'question-box';
-          div.innerHTML = `<strong>Q${index + 1}:</strong><br>${q.question.replace(/\n/g, "<br>")}<br><br>`;
+          div.innerHTML = `<strong>Q${i + 1}:</strong><br>${q.question.replace(/\n/g, "<br>")}<br><br>`;
 
-          Object.entries(q.options).forEach(([key, value]) => {
+          Object.entries(q.options).forEach(([key, val]) => {
             const btn = document.createElement('button');
             btn.className = 'btn';
-            btn.textContent = `${key}) ${value}`;
+            btn.textContent = `${key}) ${val}`;
+            if (savedProgress[qid]) btn.disabled = true;
+
             btn.onclick = () => {
               div.querySelectorAll('button').forEach(b => b.disabled = true);
               const result = document.createElement('p');
-
               if (key === q.answer) {
                 result.innerHTML = `<span class="correct">✅ Correct!</span> ${q.explanation.replace(/\n/g, "<br>")}`;
                 score++;
               } else {
                 result.innerHTML = `<span class="wrong">❌ Wrong!</span> Correct is ${q.answer}) ${q.options[q.answer]}.<br>${q.explanation.replace(/\n/g, "<br>")}`;
               }
-
               div.appendChild(result);
 
               if (q.additional) {
@@ -188,8 +205,11 @@
                 div.appendChild(extra);
               }
 
-              questionsCompleted++;
-              if (questionsCompleted === total) showFinalResult(score, total);
+              savedProgress[qid] = { selected: key };
+              localStorage.setItem(`obstetric_${file}`, JSON.stringify(savedProgress));
+
+              completed++;
+              if (completed === total) showFinalResult(score, total);
             };
             div.appendChild(btn);
             div.appendChild(document.createElement('br'));
@@ -197,6 +217,8 @@
 
           container.appendChild(div);
         });
+
+        globalScore = score;
       })
       .catch(() => {
         container.innerHTML = `<p style="color:red;text-align:center;">⚠️ Couldn't load ${file}</p>`;
@@ -205,16 +227,28 @@
 
   function showFinalResult(score = 0, total = 0) {
     const percent = total ? Math.round((score / total) * 100) : 0;
-    let reaction = percent >= 90 ? "🌟 Excellent!" :
-                   percent >= 70 ? "🙂 Fair effort!" :
-                   percent >= 50 ? "😐 Needs more review." :
-                                   "😢 Keep going—you got this!";
+    const reaction = percent >= 90 ? "🌟 Excellent!" :
+                     percent >= 70 ? "🙂 Fair effort!" :
+                     percent >= 50 ? "😐 Needs more review." :
+                                     "😢 Keep going—you got this!";
     resultDiv.innerHTML =
       `You got <strong>${score}</strong> out of <strong>${total}</strong> (${percent}%)<br><div class="reaction">${reaction}</div>`;
   }
+
+  function resetCurrent() {
+    if (currentFile) {
+      localStorage.removeItem(`obstetric_${currentFile}`);
+      alert("Progress cleared! Reloading...");
+      const activeBtn = document.querySelector('.tab-btn.active');
+      if (activeBtn) loadQuiz(currentFile, activeBtn);
+    }
+  }
+
+  document.getElementById('filter-unanswered').onchange = () => {
+    const activeBtn = document.querySelector('.tab-btn.active');
+    if (activeBtn) loadQuiz(currentFile, activeBtn);
+  };
 </script>
-
-
   
 <!-- 🌐 Floating Google Search Button with Responsive Expanding Box -->
 <style>
