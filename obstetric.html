@@ -31,6 +31,7 @@
       gap: 10px;
       margin-bottom: 20px;
       flex-wrap: wrap;
+      align-items: center;
     }
     .btn, .tab-btn {
       padding: 10px 16px;
@@ -69,13 +70,7 @@
     }
     .reaction {
       font-size: 22px;
-      margin-top: 10px;
-    }
-    .final-result {
-      text-align: center;
-      font-size: 18px;
-      margin-top: 30px;
-      color: white;
+      margin-left: 10px;
     }
     .contact {
       margin-top: 40px;
@@ -99,16 +94,17 @@
   <h1>👶 Obstetric Nursing Quiz</h1>
   <div class="quote">"Empowering mothers begins with informed nurses." 💡</div>
 
+  <!-- Top Bar with Buttons and Result -->
   <div class="top-buttons">
     <a href="quiz.html"><button class="btn">🏠 Home</button></a>
     <button class="btn" onclick="showFinalResult(globalScore, globalTotal)">📊 Get My Score Now</button>
     <label style="color:white;"><input type="checkbox" id="filter-unanswered"> Show only unanswered</label>
     <button class="btn" onclick="resetCurrent()">🔁 Reset Progress</button>
+    <div id="result" style="color:white; font-weight:bold;"></div>
   </div>
 
   <div id="quiz-tabs" class="top-buttons"></div>
   <div id="quiz-container"></div>
-  <div class="final-result" id="result"></div>
 
   <div class="contact">
     <p>📩 Like this format? Contact <strong>nursingnexusalliance@gmail.com</strong></p>
@@ -232,7 +228,7 @@
                      percent >= 50 ? "😐 Needs more review." :
                                      "😢 Keep going—you got this!";
     resultDiv.innerHTML =
-      `You got <strong>${score}</strong> out of <strong>${total}</strong> (${percent}%)<br><div class="reaction">${reaction}</div>`;
+      `You got <strong>${score}</strong> out of <strong>${total}</strong> (${percent}%) <span class="reaction">${reaction}</span>`;
   }
 
   function resetCurrent() {
@@ -249,7 +245,6 @@
     if (activeBtn) loadQuiz(currentFile, activeBtn);
   };
 </script>
-  
 <!-- 🌐 Floating Google Search Button with Responsive Expanding Box -->
 <style>
   #google-search-container {
