@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pharmacology Notes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-image: url('https://raw.githubusercontent.com/heartique/HEARTIQUE-NEXUS-NURSES-ALLIANCE/main/background6.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      color: #fff;
+    }
+
+    header {
+      background: rgba(0, 0, 0, 0.7);
+      padding: 20px;
+      text-align: center;
+      font-size: 2em;
+      font-weight: bold;
+      color: #ffffff;
+    }
+
+    .notes-container {
+      max-width: 1000px;
+      margin: 30px auto;
+      background: rgba(255, 255, 255, 0.95);
+      color: #333;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+      overflow: auto;
+    }
+
+    .note {
+      margin-bottom: 25px;
+      padding: 20px;
+      background: #e3f2fd;
+      border-left: 6px solid #0d47a1;
+      border-radius: 10px;
+    }
+
+    .note h3 {
+      margin-top: 0;
+      color: #0d47a1;
+    }
+
+    .note p {
+      line-height: 1.6;
+      white-space: pre-wrap;
+    }
+
+    .note ul {
+      padding-left: 20px;
+      margin: 10px 0;
+    }
+
+    .note strong {
+      display: block;
+      margin: 8px 0;
+      color: #0d47a1;
+    }
+
+    .note h4 {
+      margin: 12px 0 8px;
+      color: #1565c0;
+    }
+
+    .note button {
+      margin-bottom: 12px;
+      background: #0d47a1;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      padding: 6px 12px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .loading {
+      text-align: center;
+      font-size: 1.3em;
+      padding: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>📘 Pharmacology Notes</header>
+
+  <div class="notes-container" id="notes">
+    <div class="loading">⏳ Loading notes from multiple sources...</div>
+  </div>
+
+  <script>
+    const notesContainer = document.getElementById('notes');
+    const maxFiles = 20; // Try loading up to pharmnotes19.json
+
+    function loadJSONFile(index) {
+      const fileName = index === 0 ? 'pharmnotes.json' : `pharmnotes${index}.json`;
+
+      fetch(fileName)
+        .then(response => {
+          if (!response.ok) throw new Error(`File not found: ${fileName}`);
+          return response.json();
+        })
+        .then(data => {
+          data.forEach(note => displayNote(note));
+        })
+        .catch(error => {
+          // Stop on first missing file after index 0
+          if (index === 0) {
+            notesContainer.innerHTML = "<p>No notes found.</p>";
+          }
+        })
+        .finally(() => {
+          document.querySelector('.loading')?.remove();
+        });
+    }
+
+    function displayNote(note) {
+      const noteDiv = document.createElement('div');
+      noteDiv.className = 'note';
+
+      const title = document.createElement('h3');
+      title.textContent = note.title || "Untitled Section";
+
+      const toggleBtn = document.createElement('button');
+      toggleBtn.textContent = "➖ Collapse";
+
+      const contentWrapper = document.createElement('div');
+
+      // Loop through content1 to content20
+      for (let i = 1; i <= 20; i++) {
+        const contentText = note[`content${i}`];
+        if (contentText) {
+          contentWrapper.appendChild(parseFormattedContent(contentText));
+        }
+      }
+
+      // Optional 'content' fallback
+      if (note.content) {
+        contentWrapper.appendChild(parseFormattedContent(note.content));
+      }
+
+      // Collapse / Expand toggle
+      toggleBtn.onclick = () => {
+        const isVisible = contentWrapper.style.display !== "none";
+        contentWrapper.style.display = isVisible ? "none" : "block";
+        toggleBtn.textContent = isVisible ? "➕ Expand" : "➖ Collapse";
+      };
+
+      noteDiv.appendChild(title);
+      noteDiv.appendChild(toggleBtn);
+      noteDiv.appendChild(contentWrapper);
+      notesContainer.appendChild(noteDiv);
+    }
+
+    function parseFormattedContent(text) {
+      const wrapper = document.createElement('div');
+      const lines = text.split('\n');
+
+      lines.forEach(line => {
+        let element;
+
+        if (line.startsWith("###")) {
+          element = document.createElement("h4");
+          element.textContent = line.replace("###", "").trim();
+        } else if (line.startsWith("##")) {
+          element = document.createElement("h3");
+          element.textContent = line.replace("##", "").trim();
+        } else if (/^[-•*]\s+/.test(line)) {
+          if (!wrapper.lastElementChild || wrapper.lastElementChild.tagName !== "UL") {
+            wrapper.appendChild(document.createElement("ul"));
+          }
+          const li = document.createElement("li");
+          li.textContent = line.replace(/^[-•*]\s+/, '');
+          wrapper.lastElementChild.appendChild(li);
+        } else if (line.startsWith("**") && line.endsWith("**")) {
+          element = document.createElement("strong");
+          element.textContent = line.replace(/\*\*/g, "").trim();
+        } else {
+          element = document.createElement("p");
+          element.textContent = line;
+        }
+
+        if (element) wrapper.appendChild(element);
+      });
+
+      return wrapper;
+    }
+
+    // Load all JSON files
+    for (let i = 0; i < maxFiles; i++) {
+      loadJSONFile(i);
+    }
+  </script>
+
+</body>
+</html>
