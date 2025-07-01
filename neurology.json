@@ -933,8 +933,142 @@
     "answer": "B",
     "explanation": "Primitive reflexes, like the Moro reflex, are involuntary motor responses present in newborns that should disappear as the central nervous system matures. Their persistence is a key indicator of a neurological problem.\n\n(b) Brain damage: This is the correct answer. The Moro reflex (the \"startle\" reflex, where the baby throws out its arms and legs and then pulls them in when startled) should integrate and disappear by 4 to 6 months of age. Its persistence beyond this time frame is a \"red flag\" for neurological dysfunction, such as cerebral palsy or other forms of brain damage.\n\n(a) Immaturity: While the reflex is present in premature infants, persistence beyond the 6-month corrected age is abnormal and points to more than just immaturity.\n\n(c) Mental retardation: While children with brain damage may also have cognitive impairments (mental retardation), the persistence of a primitive reflex is a direct sign of a neurological motor control issue, not a cognitive one.\n\n(d) Brachial plexus palsy: A brachial plexus injury (e.g., Erb's palsy) would cause an asymmetric or absent Moro reflex on the affected side, not its persistence bilaterally.",
     "additional": "Other Primitive Reflexes & Integration Times:\n\nRooting Reflex: Disappears by 4 months.\n\nSucking Reflex: Disappears by 4 months (becomes voluntary).\n\nPalmar Grasp: Disappears by 5-6 months.\n\nPlantar Grasp: Disappears by 9-12 months.\n\nAsymmetric Tonic Neck Reflex (ATNR or \"fencing\" reflex): Disappears by 5-7 months.\n\nBabinski Reflex: Disappears by 12-24 months (when the child is walking).\n\nSignificance of Assessment: The assessment of primitive reflexes is a crucial part of the newborn and infant neurological exam. Their absence, asymmetry, or persistence can be the first sign of a serious neurological condition.\n\nPotential Future Questions: Could ask for the normal integration time of another primitive reflex (e.g., Palmar Grasp) or could describe an asymmetric Moro reflex and ask for the likely cause (Brachial plexus injury).\n\nSuggested Reference:\n\nWong's Nursing Care of Infants and Children, 11th Edition. Chapter 5: The Newborn Infant and Family.\n\nHockenberry, M. J., Wilson, D., & Rodgers, C. C. (2018). Wong's Essentials of Pediatric Nursing."
+  },
+  {
+    "question": "Nursing interventions for a patient with increased intracranial pressure (ICP) include:-",
+    "options": {
+      "A": "Positioning with the head slightly elevated and hip flexed.",
+      "B": "Suctioning the patient 2 hourly.",
+      "C": "Routine administration of intravenous (IV) fluids.",
+      "D": "Assessment of neurological functioning and level of consciousness."
+    },
+    "answer": "D",
+    "explanation": "Why (d) is correct: The most critical nursing intervention for a patient with or at risk for increased ICP is continuous and vigilant neurological assessment. This includes monitoring the Level of Consciousness (LOC) using the Glasgow Coma Scale (GCS), checking pupillary response, and assessing motor function. Early detection of changes is key to preventing irreversible brain damage.\n\nWhy (a) is incorrect: While elevating the head of the bed (HOB) to 30 degrees is correct, flexing the hips is contraindicated. Hip flexion increases intra-abdominal pressure, which in turn increases intrathoracic pressure and impedes venous drainage from the brain, thereby increasing ICP.\n\nWhy (b) is incorrect: Suctioning is only performed when necessary (PRN), not on a routine schedule. The act of suctioning can cause coughing and straining, which significantly raises ICP. If required, it must be done quickly (<10–15 seconds) and may involve pre-oxygenation.\n\nWhy (c) is incorrect: IV fluids are administered with extreme caution, often with an infusion pump, to prevent fluid overload, which can worsen cerebral edema and increase ICP. \"Routine\" administration is dangerous; fluids must be strictly monitored and often restricted.",
+    "additional": "Monro-Kellie Doctrine: This principle states that the skull is a rigid box containing three components: brain tissue (80%), blood (10%), and cerebrospinal fluid (CSF) (10%). An increase in one component must be compensated by a decrease in another, or ICP will rise. Normal ICP is 5–15 mmHg.\n\nCushing's Triad: This is a late, ominous sign of very high ICP and indicates pressure on the brainstem. It consists of:\n- Bradycardia (slow heart rate)\n- Widening Pulse Pressure (increasing systolic BP while diastolic BP remains stable or falls)\n- Irregular Respirations (e.g., Cheyne-Stokes)\n\nKey Nursing Management Goals for Increased ICP:\n- Maintain HOB at 30 degrees with the head in a neutral, midline position to promote venous drainage.\n- Avoid activities that cause straining: Valsalva maneuver, coughing, hip flexion.\n- Maintain a quiet, low-stimulus environment.\n- Space out nursing care activities to prevent cumulative effects on ICP.\n- Maintain normothermia (fever increases metabolic demand and ICP).\n- Administer prescribed medications like Mannitol (an osmotic diuretic to pull fluid from brain tissue) and corticosteroids.\n\nBook Recommendation:\nBrunner & Suddarth's Textbook of Medical-Surgical Nursing - The chapters on Management of Patients With Neurologic Dysfunction provide comprehensive detail on this topic."
+  },
+  {
+    "question": "The medication of choice of treatment of status epilepticus in infants and children is:-",
+    "options": {
+      "A": "Phenobarbital sodium.",
+      "B": "Clonazepam.",
+      "C": "Phenytoin.",
+      "D": "Ethosuximide."
+    },
+    "answer": "B",
+    "explanation": "Why (b) is correct: Benzodiazepines (like Clonazepam, Diazepam, Lorazepam) are the first-line drugs for terminating status epilepticus. They work by enhancing the effect of the neurotransmitter GABA, which is the primary inhibitory neurotransmitter in the brain, thus calming excessive electrical activity.\n\nWhy (a) and (c) are incorrect as first-line: Phenobarbital and Phenytoin are powerful anti-epileptic drugs but are considered second-line agents for status epilepticus. They are typically administered as a loading dose after a benzodiazepine has been given to provide longer-term seizure control. They have a slower onset of action than benzodiazepines.\n\nWhy (d) is incorrect: Ethosuximide (Zarontin) is the drug of choice specifically for treating absence (petit mal) seizures, not status epilepticus, which is a neurological emergency involving prolonged or recurrent tonic-clonic seizures.",
+    "additional": "Definition of Status Epilepticus: A single seizure lasting more than 5 minutes, or two or more seizures within a 5-minute period without the person returning to normal between them. It is a medical emergency because it can lead to permanent brain damage or death.\n\nPriority Nursing Management:\n- Maintain a patent airway (ABCs): Position the patient on their side, loosen restrictive clothing. Do not force anything into their mouth.\n- Ensure safety: Protect the patient from injury (pad side rails, remove harmful objects).\n- Administer medication: IV access is crucial for rapid administration of benzodiazepines.\n- Monitor: Continuously monitor vital signs, oxygen saturation, and seizure activity.\n\nPossible Next Test Question: \"What is the priority nursing action for a patient actively experiencing a tonic-clonic seizure?\" The answer will always relate to patient safety and maintaining a patent airway.\n\nBook Recommendation:\nLehne's Pharmacology for Nursing Care - Provides excellent, easy-to-understand explanations of anti-epileptic drug classes and their mechanisms."
+  },
+  {
+    "question": "A patient with Parkinson's disease usually has a gait that is:-",
+    "options": {
+      "A": "Shuffling and propulsive.",
+      "B": "Unsteady and staggering.",
+      "C": "Broad-based and waddling.",
+      "D": "Staggering and walking on toes."
+    },
+    "answer": "A",
+    "explanation": "Why (a) is correct: The classic Parkinsonian gait is characterized by short, shuffling steps (festination) and a forward-leaning posture that makes the person look like they are being pushed or propelled forward (propulsive). They have difficulty initiating and stopping movement.\n\nWhy (b) is incorrect: An unsteady, staggering gait is more characteristic of cerebellar ataxia or acute alcohol intoxication.\n\nWhy (c) is incorrect: A broad-based, waddling gait is often seen in conditions causing muscle weakness in the hips, such as muscular dystrophy.\n\nWhy (d) is incorrect: This does not describe a typical gait pattern for a single neurological condition. Walking on toes can be associated with cerebral palsy or other spastic conditions.",
+    "additional": "Pathophysiology of Parkinson's Disease: A progressive neurodegenerative disorder caused by the loss of dopamine-producing neurons in the substantia nigra of the brain. This leads to an imbalance between dopamine (inhibitory) and acetylcholine (excitary).\n\nCardinal Symptoms (TRAP):\n- Tremor (usually a \"pill-rolling\" tremor at rest)\n- Rigidity (increased muscle tone, \"cogwheel\" rigidity)\n- Akinesia or Bradykinesia (absence or slowness of movement)\n- Postural instability (impaired balance and coordination)\n\nPharmacological Management: The goal is to increase dopamine levels or block the effects of acetylcholine. The cornerstone drug is Levodopa-Carbidopa (Sinemet). Carbidopa prevents the breakdown of Levodopa in the periphery, allowing more to reach the brain.\n\nPossible Next Test Question: \"A nurse is teaching a patient with Parkinson's disease how to manage their risk for falls. Which instruction is most appropriate?\" An appropriate answer would be to encourage the patient to consciously lift their feet with each step and use a wide base of support.\n\nBook Recommendation:\nBrunner & Suddarth's Textbook of Medical-Surgical Nursing - The section on Parkinson's disease is very detailed."
+  },
+  {
+    "question": "Severe form of neurotube defects are usually present in:-",
+    "options": {
+      "A": "Diastematomyelia",
+      "B": "Lipomeningomyelocele",
+      "C": "Meningomyelocele",
+      "D": "Meningocele"
+    },
+    "answer": "C",
+    "explanation": "Why (c) is correct: Meningomyelocele (also known as myelomeningocele) is the most severe form of spina bifida. In this condition, a sac containing not only the meninges (membranes) and cerebrospinal fluid (CSF) but also a portion of the spinal cord and nerve roots protrudes through the opening in the spine. This exposure and abnormal development of the spinal cord lead to significant neurological deficits, such as paralysis and lack of sensation below the level of the lesion.\n\nWhy (d) is incorrect: A Meningocele is less severe. The sac contains meninges and CSF, but the spinal cord and nerve roots remain in their normal position within the spinal canal. Neurological deficits are less common or less severe.\n\nWhy (a) and (b) are incorrect: Diastematomyelia is a congenital disorder where the spinal cord is split, and a lipomeningomyelocele involves fatty tissue (lipoma) with the meningocele. While they are neural tube defects, meningomyelocele is universally considered the most common and severe form leading to major disability.",
+    "additional": "Neural Tube Defects (NTDs): These are birth defects of the brain, spine, or spinal cord that happen in the first month of pregnancy. The two most common are spina bifida and anencephaly.\n\nTypes of Spina Bifida:\n- Spina Bifida Occulta: The mildest form, a hidden defect with no opening on the back. Often asymptomatic.\n- Meningocele: The sac protrudes, but the spinal cord does not.\n- Meningomyelocele: The most severe form, with the spinal cord protruding into the sac.\n\nPrevention: The most significant preventive measure is the maternal intake of folic acid (a B vitamin) before conception and during the first trimester of pregnancy.\n\nPriority Nursing Care (Post-natal for Meningomyelocele):\n- Protect the sac from injury and infection. The infant is positioned prone (on the abdomen).\n- Cover the sac with a sterile, saline-soaked, non-adherent dressing.\n- Monitor for signs of increased ICP (hydrocephalus is a common comorbidity).\n- Perform regular neurologic assessments.\n\nBook Recommendation:\nWong's Nursing Care of Infants and Children - This pediatric textbook provides excellent, in-depth coverage of neural tube defects and their nursing management."
+  },
+  {
+    "question": "With an overdose of barbiturates, death would most likely occur from:-",
+    "options": {
+      "A": "Kidney failure",
+      "B": "Cardiac arrest",
+      "C": "Respiratory depression",
+      "D": "Cerebral haemorrhage"
+    },
+    "answer": "C",
+    "explanation": "Why (c) is correct: Barbiturates are powerful central nervous system (CNS) depressants. Their primary mechanism of action is to enhance the inhibitory effects of the neurotransmitter GABA. In an overdose, this CNS depression becomes profound, suppressing the respiratory center in the brainstem (medulla oblongata). This leads to progressively slower and shallower breathing (bradypnea and hypopnea), culminating in respiratory arrest and death.\n\nWhy (a), (b), and (d) are incorrect: While severe hypoxia from respiratory arrest will ultimately lead to cardiac arrest (b), the initial and direct cause of death is the cessation of breathing. Kidney failure (a) and cerebral hemorrhage (d) are not the primary, direct consequences of a barbiturate overdose.",
+    "additional": "Clinical Use: Barbiturates (e.g., phenobarbital, thiopental) were once widely used as sedatives and hypnotics but have been largely replaced by safer benzodiazepines. They are still used as anticonvulsants and for induction of anesthesia.\n\nOverdose Management: The priority is always Airway, Breathing, Circulation (ABCs). Management includes intubation and mechanical ventilation to support breathing. There is no specific reversal agent (antidote) for barbiturate overdose, unlike opioids (naloxone) or benzodiazepines (flumazenil). Treatment is supportive.\n\nPossible Next Test Question: \"What is the priority nursing intervention for a patient with a suspected benzodiazepine overdose who is unresponsive?\" The answer would be to assess airway and breathing and prepare to administer Flumazenil (Romazicon).\n\nBook Recommendation:\nLehne's Pharmacology for Nursing Care - The chapter on sedative-hypnotics clearly explains the mechanism and dangers of barbiturates."
+  },
+  {
+    "question": "Sally, aged 52, presents with a rapidly progressive weakness of her legs that is moving up the trunk. She also has absent reflexes and no sensory change. This condition is likely to be:",
+    "options": {
+      "A": "Peripheral neuropathy",
+      "B": "Guillain-Barre syndrome",
+      "C": "Myasthenia gravis",
+      "D": "Radiculopathy"
+    },
+    "answer": "B",
+    "explanation": "Why (b) is correct: The classic presentation of Guillain-Barre Syndrome (GBS) is a rapidly ascending, symmetrical paralysis (weakness starting in the feet/legs and moving upwards). Areflexia (absence of reflexes) is another hallmark sign. While sensory changes can occur, the motor weakness is the dominant feature. The condition is an autoimmune attack on the myelin sheath of peripheral nerves, often triggered by a recent viral or bacterial infection.\n\nWhy (a) is incorrect: Peripheral neuropathy is a general term for nerve damage. While it causes weakness, it is typically not as rapidly progressive and ascending as described. A common cause is diabetes, which presents with a \"stocking-glove\" sensory loss first.\n\nWhy (c) is incorrect: Myasthenia gravis is characterized by fluctuating muscle weakness that worsens with activity and improves with rest. It typically affects the muscles of the eyes, face, and swallowing first (descending pattern), not an ascending paralysis from the legs.\n\nWhy (d) is incorrect: Radiculopathy is nerve root compression (e.g., a \"pinched nerve\"), which typically causes pain, numbness, and weakness in the specific distribution of that single nerve root, not a diffuse, symmetrical, ascending paralysis.",
+    "additional": "Medical Emergency: GBS is a medical emergency because the ascending paralysis can reach the diaphragm and intercostal muscles, leading to respiratory failure.\n\nPriority Nursing Management:\n- Frequent and vigilant monitoring of respiratory status (respiratory rate, vital capacity, oxygen saturation).\n- Prepare for potential endotracheal intubation and mechanical ventilation.\n- Supportive care, including preventing complications of immobility (DVT, pressure sores).\n\nTreatment: The main treatments are Plasmapheresis (plasma exchange) or administration of Intravenous Immunoglobulin (IVIg) to remove or neutralize the harmful antibodies attacking the nerves.\n\nBook Recommendation:\nBrunner & Suddarth's Textbook of Medical-Surgical Nursing - Provides a clear, detailed chapter on managing patients with peripheral nerve and neuromuscular disorders like GBS."
+  },
+  {
+    "question": "Mathews, aged 52, has a ruptured vertebral disk with the following symptoms: pain in the midgluteal region, as well as the posterior thigh and calf-to-heel area; paresthesias in the posterior calf and lateral heel, foot, and toes; and difficulty walking on her toes. Which intervertebral disks are involved?",
+    "options": {
+      "A": "L4-L5",
+      "B": "L5-S1",
+      "C": "C5-C6",
+      "D": "C7-T1"
+    },
+    "answer": "B",
+    "explanation": "Why (b) is correct: The symptoms described perfectly match the S1 nerve root dermatome and myotome. The S1 nerve root exits between the L5 and S1 vertebrae.\n\nSensory (Dermatome): The S1 dermatome covers the posterior thigh and leg (calf), and the lateral (outside) aspect of the heel, foot, and toes.\n\nMotor (Myotome): The S1 nerve root controls the muscles responsible for plantar flexion of the foot (pointing the toes down), which is the primary action used when 'walking on your toes.' Difficulty with this action points directly to S1 involvement.\n\nWhy (a) is incorrect: L5 nerve root compression (between L4-L5) typically causes weakness in dorsiflexion (lifting the foot and big toe up, leading to 'foot drop') and sensory changes on the top of the foot and the big toe.\n\nWhy (c) and (d) are incorrect: C5-C6 and C7-T1 are in the cervical spine. Herniations here would cause symptoms in the arms, hands, and fingers, not the legs and feet.",
+    "additional": "Dermatomes: A dermatome is an area of skin that is mainly supplied by a single spinal nerve. Knowing the general dermatome map is crucial for localizing spinal cord or nerve root injuries.\n\nMyotomes: A myotome is the group of muscles that a single spinal nerve root innervates. Testing specific muscle actions helps pinpoint the level of injury.\n\nL4: Extension of the quadriceps (straightening the knee).\nL5: Dorsiflexion of the great toe and foot (foot drop is a key sign).\nS1: Plantar flexion of the great toe and foot (inability to walk on toes).\n\nManagement of Herniated Disc:\n- Conservative: Rest, physical therapy, NSAIDs, muscle relaxants, epidural steroid injections.\n- Surgical: Laminectomy or Discectomy if conservative treatment fails or if there are severe neurological deficits like cauda equina syndrome.\n\nBook Recommendation:\n- Netter's Atlas of Human Anatomy\n- Brunner & Suddarth's Textbook of Medical-Surgical Nursing – Chapter on Musculoskeletal and Articular Disorders"
+  },
+  {
+    "question": "A seizure activity characterized by brief periods of blank staring with no motor movement is known as:",
+    "options": {
+      "A": "Myoclonic",
+      "B": "Tonic",
+      "C": "Generalized",
+      "D": "Absence"
+    },
+    "answer": "D",
+    "explanation": "Why (d) is correct: An absence seizure, formerly known as a petit mal seizure, is precisely characterized by a brief, sudden lapse in consciousness. The person stops all activity and appears to be 'staring into space' or having a 'blank stare.' There is typically no motor activity, or only minor movements like eye blinking or lip-smacking. The episode ends as abruptly as it began, and the person has no memory of the event. They are most common in children.\n\nWhy (a) is incorrect: A myoclonic seizure involves sudden, brief, shock-like jerks of a muscle or group of muscles.\n\nWhy (b) is incorrect: A tonic seizure involves a sudden stiffening of the muscles. The body, arms, or legs become stiff and rigid.\n\nWhy (c) is incorrect: 'Generalized' is a broad category. Absence seizures fall under this category, but 'absence' is the specific name for the described activity.",
+    "additional": "Classification of Seizures:\n- Focal (Partial): Simple (no LOC), Complex (with altered LOC).\n- Generalized: Involves both hemispheres.\n  - Tonic-Clonic (Grand Mal)\n  - Absence (Petit Mal)\n  - Myoclonic\n  - Atonic\n\nDrug of Choice for Absence Seizures: Ethosuximide (Zarontin).\n\nPossible Next Test Question: 'A school nurse observes a child suddenly stop writing, stare blankly for 10 seconds, and then resume their activity as if nothing happened. What is the nurse's priority action?' — Document and refer for neurological evaluation.\n\nBook Recommendation:\n- Wong's Nursing Care of Infants and Children\n- Lewis's Medical-Surgical Nursing"
+  },
+  {
+    "question": "Body dysmorphic disorder is an example of a:",
+    "options": {
+      "A": "Somatoform disorder",
+      "B": "Conversion disorder",
+      "C": "Dissociative disorder",
+      "D": "Personality disorder"
+    },
+    "answer": "A",
+    "explanation": "Why (a) is correct: Body Dysmorphic Disorder (BDD) falls under the umbrella of disorders where a person's mental state manifests as a physical preoccupation. In BDD, the individual has a debilitating preoccupation with a perceived or minor flaw in their physical appearance. This aligns with the older concept of Somatoform Disorders, which involve physical symptoms or concerns without a sufficient medical explanation.\n\nWhy (b) is incorrect: Conversion Disorder is a specific Somatoform Disorder where psychological stress is 'converted' into neurological symptoms (e.g., paralysis, blindness), which is different from BDD.\n\nWhy (c) is incorrect: Dissociative disorders involve memory, identity, or consciousness disruption.\n\nWhy (d) is incorrect: Personality disorders are long-standing patterns of maladaptive behavior (e.g., Antisocial, Borderline), not fixation on appearance.",
+    "additional": "DSM-5 Classification: BDD is now under 'Obsessive-Compulsive and Related Disorders,' reflecting its obsessive thoughts and compulsive behaviors (e.g., mirror checking, skin picking).\n\nKey Features:\n- Preoccupation with perceived appearance flaws\n- Repetitive behaviors or mental acts related to appearance\n- Causes significant distress or functional impairment\n\nBook Recommendation:\n- Varcarolis' Foundations of Psychiatric-Mental Health Nursing: A Clinical Approach"
+  },
+  {
+    "question": "Atypical neuroleptics produce less extra-pyramidal effects because of their reduced effect on:-",
+    "options": {
+      "A": "D5 receptors",
+      "B": "D4 receptors",
+      "C": "D2 receptors",
+      "D": "D3 receptors"
+    },
+    "answer": "C",
+    "explanation": "Why (c) is correct: Extra-Pyramidal Side Effects (EPS), such as dystonia, akathisia, and parkinsonism, are primarily caused by the blockade of Dopamine D2 receptors in the nigrostriatal pathway of the brain. Typical antipsychotics (like Haloperidol) have high D2 affinity, causing more EPS. Atypicals (like Olanzapine, Risperidone) block D2 more transiently and act more on serotonin (5-HT2A), leading to fewer EPS.\n\nWhy (a), (b), and (d) are incorrect: While other dopamine receptors like D3, D4, and D5 exist, they are less central to EPS. D2 antagonism in the nigrostriatal pathway is the main cause of motor side effects.",
+    "additional": "Types of EPS:\n- Acute Dystonia: Painful muscle spasms (e.g., neck twisting).\n- Akathisia: Motor restlessness.\n- Parkinsonism: Tremor, rigidity, slow movement.\n- Tardive Dyskinesia: Irreversible repetitive movements (e.g., lip-smacking).\n\nManagement: Benztropine or Diphenhydramine for acute symptoms.\n\nPossible Test Q: 'A patient on Haloperidol develops neck stiffness and upward eye deviation. What is the priority nursing action?' → Administer PRN anticholinergic (e.g., Benztropine).\n\nBook Recommendation:\n- Stahl's Essential Psychopharmacology\n- Varcarolis' Foundations of Psychiatric-Mental Health Nursing"
+  },
+  {
+    "question": "A nursing intervention for a client diagnosed with conversion disorder which has resulted to the paralysis of lower extremity is:-",
+    "options": {
+      "A": "Be empathetic with them for suffering paralysis.",
+      "B": "Give positive reinforcement for any improvement.",
+      "C": "Advice patient to rest for many hours.",
+      "D": "Advice the client to apply for sick leave from the employer."
+    },
+    "answer": "B",
+    "explanation": "Why (b) is correct: In conversion disorder, reinforcing improvements and ignoring the symptom (paralysis) promotes recovery. Positive reinforcement encourages the patient to focus on progress and minimizes secondary gain (e.g., attention, sympathy).\n\nWhy (a) is incorrect: Excessive empathy focusing on the 'paralysis' may unintentionally reinforce the symptom.\n\nWhy (c) and (d) are incorrect: Rest and sick leave promote the 'sick role,' which contradicts the goal of gradual return to function.",
+    "additional": "Pathophysiology: Conversion Disorder (Functional Neurological Symptom Disorder) involves the unconscious transformation of psychological stress into physical symptoms (e.g., paralysis, blindness).\n\nLa Belle Indifférence: A lack of concern for the serious symptom is often seen.\n\nNursing Management:\n- Do not focus on the physical symptom.\n- Encourage self-care and activity.\n- Reinforce improvement, not disability.\n- Address stress through therapy and coping skills training.\n\nBook Recommendation:\n- Varcarolis' Foundations of Psychiatric-Mental Health Nursing"
   }
 ]
+
+
 
  
  
