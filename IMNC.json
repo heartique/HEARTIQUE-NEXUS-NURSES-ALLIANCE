@@ -1,0 +1,426 @@
+[
+  {
+    "question": "A newborn is diagnosed with a congenital heart defect (CHD). What should the nurse assess for as a common early sign of CHD in newborns?",
+    "options": {
+      "A": "Cyanosis",
+      "B": "Feeding difficulties",
+      "C": "Hypertension",
+      "D": "Bradycardia"
+    },
+    "answer": "B",
+    "explanation": "This question asks for a common early sign of CHD. While severe defects can present with obvious cyanosis at birth, a more subtle and very common early indicator is difficulty with feeding.\n\nFeeding Difficulties: Infants with significant CHD often have poor cardiac output and increased metabolic demand. The act of feeding (sucking, swallowing, and breathing) is strenuous work for a baby. An infant with CHD may:\n- Tire easily during feeds.\n- Take a long time to finish a small amount.\n- Become diaphoretic (sweaty) on the forehead during feeding.\n- Fall asleep mid-feed.\n- Exhibit rapid breathing (tachypnea) or shortness of breath.\nThese feeding issues often lead to poor weight gain or failure to thrive.\n\nCyanosis (A): A classic sign, but it is typically associated with specific types of \"cyanotic\" heart defects (e.g., Tetralogy of Fallot) and may not be the earliest sign in \"acyanotic\" defects (e.g., VSD, ASD).\n\nHypertension (C): High blood pressure is not a typical sign of most CHDs in newborns; in fact, hypotension might be seen in severe obstructive lesions. An exception is Coarctation of the Aorta, which causes high BP in the upper extremities and low BP in the lower extremities.\n\nBradycardia (D): Slow heart rate is uncommon. Tachycardia (fast heart rate) is a much more common compensatory mechanism.",
+    "additional": "1. Acyanotic vs. Cyanotic Defects:\n\nThis is a fundamental way to classify CHDs.\n\nAcyanotic Defects (Pink Babies): Involve a left-to-right shunt of blood (oxygenated blood from the left side of the heart shunts over to the right side). This increases pulmonary blood flow but does not cause cyanosis. They present with signs of congestive heart failure (CHF).\n\nExamples: Ventricular Septal Defect (VSD), Atrial Septal Defect (ASD), Patent Ductus Arteriosus (PDA).\n\nKey Signs: Tachypnea, tachycardia, poor feeding, poor weight gain, diaphoresis, hepatomegaly.\n\nCyanotic Defects (Blue Babies): Involve a right-to-left shunt (deoxygenated blood from the right side shunts to the left side and out to the body). This decreases pulmonary blood flow and causes cyanosis.\n\nExamples: Tetralogy of Fallot (TOF), Transposition of the Great Arteries (TGA).\n\nKey Signs: Cyanosis, clubbing of fingers (in older children), \"tet spells\" (hypercyanotic episodes).\n\nFuture Question Idea: \"A nurse is assessing an infant with a large Ventricular Septal Defect (VSD). Which of the following findings would the nurse most expect?\" (Answer: A loud, harsh murmur at the left sternal border, or signs of heart failure like tachypnea)."
+  },
+  {
+    "question": "A 10-year-old child with type 1 diabetes experiences a hypoglycemic episode at school. What is the nurse's immediate action?",
+    "options": {
+      "A": "Administering glucagon",
+      "B": "Providing the child with a sugary snack",
+      "C": "Waiting for the child to recover on their own",
+      "D": "Calling 911 for emergency assistance"
+    },
+    "answer": "B",
+    "explanation": "This question tests the management of mild to moderate hypoglycemia in a conscious child.\n\nHypoglycemia: Low blood sugar (typically < 70 mg/dL or < 3.9 mmol/L).\n\nImmediate Action for a CONSCIOUS patient: The priority is to raise the blood sugar quickly. The \"Rule of 15\" is the standard protocol:\n- Give 15 grams of a simple, fast-acting carbohydrate.\n- Wait 15 minutes and re-check the blood glucose.\n- If still low, repeat the 15 grams of carbohydrate.\n\nExamples of 15g Fast-Acting Carbs: 1/2 cup (120 mL) of fruit juice or regular soda, 3-4 glucose tablets, or 1 tablespoon of sugar or honey.\n\nAdministering Glucagon (A): This is reserved for a severe hypoglycemic event where the child is unconscious, unable to swallow, or having a seizure. Glucagon is an injectable hormone that stimulates the liver to release stored glucose.\n\nWaiting (C) is dangerous as hypoglycemia can progress to seizure and coma.\n\nCalling 911 (D) is only necessary if the child is unconscious or glucagon is unavailable.",
+    "additional": "1. The \"Rule of 15\" Follow-up:\n\nOnce the blood glucose has returned to a safe level, it is crucial to give the child a complex carbohydrate and a protein snack (e.g., crackers with cheese or peanut butter).\n\nReason: The simple sugar will provide a quick spike in glucose, but it will wear off quickly. The complex carb/protein snack will prevent the blood sugar from dropping again.\n\n2. Signs and Symptoms of Hypoglycemia:\n\nAdrenergic (early signs): Shaking, sweating, tachycardia, anxiety, hunger, pallor.\n\nNeuroglycopenic (late signs, as brain is deprived of glucose): Drowsiness, confusion, irritability, headache, blurred vision, slurred speech, seizure, coma.\n\nFuture Question Idea: \"After treating a conscious child's hypoglycemic episode with fruit juice, what is the nurse's next action once the blood sugar is normal?\" (Answer: Provide a snack of crackers and cheese)."
+  },
+  {
+    "question": "A 7-year-old child is prescribed amoxicillin for a streptococcal throat infection. The nurse should instruct the parents to:",
+    "options": {
+      "A": "Give the antibiotic with milk",
+      "B": "Administer the entire course, even if the child feels better",
+      "C": "Stop the medication if the child develops diarrhea",
+      "D": "Keep the medication for future use"
+    },
+    "answer": "B",
+    "explanation": "This is a critical patient education point for all antibiotic therapy.\n\nCompleting the Course: The full course of antibiotics is necessary to eradicate all the bacteria. Symptoms often improve within a few days as the number of bacteria decreases, but some bacteria remain. Stopping the medication early allows these remaining bacteria to survive and multiply, which can lead to a relapse of the infection or, more dangerously, the development of antibiotic-resistant bacteria.\n\nGiving with milk (A): Generally acceptable for amoxicillin, but not the most critical instruction. Some antibiotics (like tetracyclines) should not be given with dairy.\n\nDiarrhea (C): Mild diarrhea is a common side effect of antibiotics. Parents should be instructed to call the provider if it is severe, but not to stop the medication on their own.\n\nKeeping for future use (D): This is dangerous practice. It encourages self-diagnosis and can lead to using the wrong antibiotic for an illness or using an expired drug.",
+    "additional": "1. Antibiotic Stewardship:\n\nThis is a major global health initiative that nurses play a key role in.\n\nConcept: A coordinated effort to improve the appropriate use of antimicrobials. This includes promoting the selection of the right drug, dose, and duration of therapy.\n\nKey Nursing Roles:\n\n- Educating patients and families on the importance of completing the full course.\n- Teaching the difference between viral and bacterial infections and explaining why antibiotics don't work for viruses (like the common cold).\n- Monitoring for side effects and effectiveness of therapy.\n\nFuture Question Idea: \"A nurse is teaching a parent about a newly prescribed antibiotic for their child's otitis media. Which statement by the parent indicates a need for further teaching?\" (Answer: \"I will stop giving the medicine as soon as my child's fever is gone.\")."
+  },
+  {
+    "question": "A 2-month-old infant is brought to the pediatrician's office for a well-baby checkup. The nurse should assess for developmental milestones, including:",
+    "options": {
+      "A": "Able to roll over from front to back",
+      "B": "Smiling in response to social interaction",
+      "C": "Crawling and pulling up to stand",
+      "D": "Speaking in short sentences"
+    },
+    "answer": "B",
+    "explanation": "This question tests knowledge of age-appropriate developmental milestones.\n\n2 Months:\n\nSocial/Emotional: Begins to develop a social smile. Coos and makes gurgling sounds.\n\nGross Motor: Can hold their head up and begins to push up when lying on tummy.\n\nFine Motor: Follows objects with eyes.\n\nRolling Over (A): Typically occurs around 4-6 months.\n\nCrawling and Pulling to Stand (C): Typically occurs around 8-10 months.\n\nSpeaking in Short Sentences (D): Typically occurs around 18-24 months.",
+    "additional": "1. Key Developmental Milestones (A quick reference):\n\n- 4 Months: Babbles, holds head steady, brings hands to mouth, may roll from tummy to back.\n- 6 Months: Responds to own name, sits without support, rolls over in both directions, starts to eat solid foods.\n- 9 Months: Understands \"no,\" has stranger anxiety, crawls, pulls to stand, has pincer grasp (thumb and index finger).\n- 12 Months (1 Year): Says \"mama\" and \"dada,\" waves \"bye-bye,\" may stand alone or take a few steps, uses cup.\n- 18 Months: Says several single words, points to show what they want, walks alone.\n- 2 Years: Speaks in 2-4 word sentences, follows simple instructions, kicks a ball, starts to run.\n\nFuture Question Idea: \"During a 9-month well-child visit, which of the following findings would be a developmental red flag requiring further evaluation?\"\n\nA) Is not yet walking independently.\nB) Does not respond to their own name.\nC) Cries when parents leave the room.\nD) Cannot yet speak in full sentences.\n\n(Correct Answer: B) Not responding to one's name by 9 months can be a sign of hearing impairment or a developmental disorder like autism. The other options are within the normal range of development."
+  },
+  {
+    "question": "A 15-year-old adolescent reports feeling down, losing interest in hobbies, and having trouble sleeping. What should be the nurse's initial assessment regarding these symptoms?",
+    "options": {
+      "A": "Screen for depression",
+      "B": "Recommend more physical activity",
+      "C": "Assess for substance abuse",
+      "D": "Encourage the adolescent to socialize more"
+    },
+    "answer": "A",
+    "explanation": "The constellation of symptoms presented—low mood (feeling down), anhedonia (losing interest in hobbies), and sleep disturbance—are core signs of depression.\n\nInitial Action: Assessment. Before making recommendations, the nurse must first assess the situation. The most direct and appropriate initial assessment is to screen for depression using a validated tool.\n\nB, C, and D might be part of a treatment plan later, but they are interventions, not assessments. Furthermore, recommending these without a proper assessment is premature. For example, the adolescent's symptoms could be related to substance abuse (C), and simply encouraging them to socialize (D) may not be helpful and could be dismissive of their underlying distress.",
+    "additional": "1. Screening Tools for Adolescent Depression:\n\n- PHQ-9 (Patient Health Questionnaire-9): A commonly used, validated, self-administered questionnaire for screening and monitoring depression. A modified version (PHQ-A) is available for adolescents.\n\n- HEADSS Assessment: A psychosocial screening tool for adolescents that covers Home, Education/Employment, Activities, Drugs/Substances, Sexuality, and Suicide/Depression. This provides a broader context for the adolescent's mental health.\n\n2. Suicide Risk Assessment:\n\nAnytime a nurse screens for depression, they must also screen for suicidality.\n\nThis involves asking direct questions in a non-judgmental way:\n\n\"Have you had thoughts that you would be better off dead or of hurting yourself in some way?\"\n\nIf yes: \"Have you had thoughts about taking your own life?\"\n\nIf yes: \"Have you thought about how you might do this? (Do you have a plan?)\"\n\nFuture Question Idea: \"A 16-year-old scores high on a depression screening tool. What is the nurse's most critical next step?\" (Answer: To assess for suicidal ideation)."
+  },
+  {
+    "question": "A 9-year-old child is prescribed methylphenidate (Ritalin) for attention deficit hyperactivity disorder (ADHD). The nurse should educate the parents about potential side effects, including:",
+    "options": {
+      "A": "Weight gain",
+      "B": "Insomnia",
+      "C": "Decreased appetite",
+      "D": "Bradycardia"
+    },
+    "answer": "C",
+    "explanation": "Methylphenidate (Ritalin) is a central nervous system (CNS) stimulant, which is the most common class of medication used to treat ADHD. As stimulants, they increase the levels of dopamine and norepinephrine in the brain, which helps to improve focus and decrease impulsivity. However, they also have predictable side effects related to their stimulant properties.\n\nDecreased Appetite & Weight Loss (C): This is one of the most common side effects. The medication can suppress hunger, leading to poor intake, especially during the middle of the day. This can result in weight loss or poor weight gain, which is a major concern in growing children.\n\nInsomnia (B): Another very common side effect. The stimulant effect can make it difficult for the child to fall asleep, especially if the medication is taken too late in the day.\n\nWeight Gain (A): The opposite is true. Weight loss is the concern.\n\nBradycardia (D): Stimulants cause an increase in heart rate (tachycardia) and blood pressure, not a decrease.",
+    "additional": "1. Nursing Management of Methylphenidate Side Effects:\n\nAppetite/Weight:\n- Monitor the child's height and weight regularly.\n- Administer the medication with or after a meal (e.g., breakfast) to minimize the impact on appetite.\n- Encourage nutrient-dense foods and high-calorie snacks when the child is hungry (e.g., in the evening after the medication has worn off).\n\nInsomnia:\n- Administer the last dose of the day no later than the early afternoon (e.g., before 4 PM).\n- Establish a consistent, relaxing bedtime routine.\n\nOther Side Effects: Headache, stomachache, irritability.\n\n2. \"Drug Holidays\":\n\nSometimes, a healthcare provider may recommend a \"drug holiday\" (e.g., not taking the medication on weekends or during school breaks).\n\nPurpose: To assess if the medication is still needed and to allow for a \"catch-up\" in growth and weight if appetite suppression is a problem. This should only be done under the direction of the prescribing provider.\n\nFuture Question Idea: \"A parent is concerned that their child on methylphenidate is not eating lunch at school. What is the nurse's best advice?\" (Answer: \"Give the child a large, healthy breakfast before the morning dose and offer a substantial snack or meal in the evening.\")."
+  },
+  {
+    "question": "A 14-year-old adolescent has a suspected diagnosis of bulimia nervosa. What is the primary focus of nursing care for this patient?",
+    "options": {
+      "A": "Monitoring electrolyte levels",
+      "B": "Promoting weight gain",
+      "C": "Addressing distorted body image",
+      "D": "Teaching assertiveness skills"
+    },
+    "answer": "A",
+    "explanation": "This question asks for the primary focus, which in nursing always relates to physiological safety first (Maslow's hierarchy of needs).\n\nBulimia Nervosa: An eating disorder characterized by a cycle of binge eating followed by compensatory behaviors (purging) to prevent weight gain. Purging can include self-induced vomiting, misuse of laxatives or diuretics, or excessive exercise.\n\nPhysiological Instability: The most immediate life-threatening complications of bulimia nervosa are a direct result of purging. Frequent vomiting or laxative/diuretic abuse leads to significant loss of fluids and electrolytes.\n\nMonitoring Electrolyte Levels (A): This is the top priority. Hypokalemia (low potassium) is particularly dangerous and can lead to cardiac arrhythmias and sudden death. Other imbalances include hyponatremia and metabolic alkalosis.\n\nB, C, and D are all very important long-term therapeutic goals, but physiological stability must be established first. Addressing distorted body image (C) is the core psychological issue, but it is not the immediate priority over potential cardiac arrest. Promoting weight gain (B) is more central to the treatment of anorexia nervosa, as patients with bulimia are often of normal weight or slightly overweight.",
+    "additional": "1. Physical Assessment Findings in Bulimia Nervosa:\n\n- Dental Caries/Enamel Erosion: From stomach acid during vomiting.\n- Parotid Gland Enlargement: Swelling of the salivary glands.\n- Russell's Sign: Calluses or scars on the knuckles from inducing vomiting.\n- Esophagitis or esophageal tears.\n- Cardiac Arrhythmias on an ECG due to electrolyte imbalance.\n\n2. Nursing Interventions:\n\n- Establish a structured meal plan: Three meals and two to three snacks per day.\n- Supervise after meals: Monitor the patient for 1–2 hours after eating to prevent purging behaviors.\n- Cognitive Behavioral Therapy (CBT): The leading evidence-based psychotherapy for bulimia.\n- Medication: SSRIs (like fluoxetine) are often effective in reducing the binge-purge cycle.\n\nFuture Question Idea: \"A nurse is reviewing the lab results for a patient newly admitted with bulimia nervosa. Which finding requires immediate reporting to the physician?\" (Answer: A serum potassium level of 2.8 mEq/L)."
+  },
+  {
+    "question": "A 5-year-old child with cystic fibrosis is receiving chest physiotherapy to clear mucus from the airways. The nurse should ensure that the therapy is performed:",
+    "options": {
+      "A": "Immediately before meals",
+      "B": "In the middle of the night",
+      "C": "Immediately after meals",
+      "D": "At least 1 hour before or after meals"
+    },
+    "answer": "D",
+    "explanation": "This question addresses the correct timing for a crucial therapy in cystic fibrosis (CF) management.\n\nCystic Fibrosis (CF): A genetic disorder that causes the production of abnormally thick, sticky mucus, which clogs the lungs and digestive system.\n\nChest Physiotherapy (CPT): A technique (including postural drainage, percussion, and vibration) used to loosen the thick mucus in the lungs, so it can be coughed out.\n\nCorrect Timing: CPT can induce coughing and gagging. Performing it immediately after a meal (C) can cause vomiting and increase the risk of aspiration. Performing it immediately before a meal (A) can leave the child too tired or nauseated to eat. Therefore, the best practice is to schedule CPT for a time that does not interfere with meals, typically at least 1 hour before or 2 hours after eating.",
+    "additional": "1. Comprehensive Management of CF:\nCF requires a multi-faceted treatment plan.\n\nAirway Clearance:\n- CPT\n- High-frequency chest wall oscillation (a vibrating vest).\n- Bronchodilators (e.g., albuterol) are often given before CPT to open the airways.\n- Mucolytics (e.g., dornase alfa/Pulmozyme) are inhaled medications that thin the mucus.\n\nPancreatic Enzyme Replacement:\n- The thick mucus also blocks the pancreatic ducts, preventing digestive enzymes from reaching the intestine. This causes malabsorption of fats and proteins.\n- Patients must take pancreatic enzyme supplements (e.g., Creon, Pancreaze) with every meal and snack to be able to digest food and absorb nutrients.\n\nNutrition:\n- Patients require a high-calorie, high-fat, high-protein diet to meet their increased metabolic needs and overcome malabsorption.\n- Fat-soluble vitamin (A, D, E, K) supplements are necessary.\n\nFuture Question Idea: \"A nurse is administering medications to a child with cystic fibrosis who is about to eat lunch. Which medication must be given at this time?\" (Answer: Pancreatic enzymes)."
+  },
+  {
+    "question": "A 6-month-old infant is due for immunizations. The nurse should know that which vaccine is typically administered at this age to prevent infections?",
+    "options": {
+      "A": "MMR (measles, mumps, and rubella)",
+      "B": "DTP (diphtheria, tetanus, and pertussis)",
+      "C": "Hepatitis B",
+      "D": "HPV (human papillomavirus)"
+    },
+    "answer": "C",
+    "explanation": "EXPLANATION based on Kenyan (KEPI) Schedule:\nAt 6 months, the child is not typically due for a scheduled vaccine. Let's review the schedule around this age:\n\nBirth: BCG, OPV-0, Hep B\n\n6 Weeks: OPV-1, DPT-HepB-Hib 1 (Pentavalent), PCV-10 1, Rota 1\n\n10 Weeks: OPV-2, DPT-HepB-Hib 2 (Pentavalent), PCV-10 2, Rota 2\n\n14 Weeks: OPV-3, DPT-HepB-Hib 3 (Pentavalent), PCV-10 3, IPV\n\n9 Months: Measles-Rubella (MR) 1\n\n18 Months: Measles-Rubella (MR) 2\n\nGiven the options provided in the question:\n\nB) DTP and C) Hepatitis B: Both are part of the Pentavalent vaccine given at 6, 10, and 14 weeks. A 6-month-old might be coming in late for their 14-week shots, making these plausible.\n\nA) MMR: Given at 9 months and 18 months in Kenya (as MR). Not due at 6 months.\n\nD) HPV: Given to older children (around age 10).\n\nThe question is slightly flawed in its timing. However, both DTP and Hep B are key vaccines in the infant series. If we must choose the best fit, the core infant series (DPT, Hep B, Hib, Polio, PCV) is the focus of the first few months of life. The rationale picking C is reasonable as Hep B is part of that series.\n\nNote: In other countries (like the US), a 6-month visit often includes the 3rd dose of DTaP, Hep B, Hib, PCV, and Rotavirus, making the timing more accurate for those schedules.",
+    "additional": ""
+  },
+  {
+    "question": "A 3-year-old child is scheduled for tonsillectomy. The nurse should educate the parents about postoperative care, emphasizing:",
+    "options": {
+      "A": "Providing a diet of solid foods",
+      "B": "Encouraging vigorous physical activity",
+      "C": "Monitoring for frequent nosebleeds",
+      "D": "Avoiding coughing or clearing the throat"
+    },
+    "answer": "D",
+    "explanation": "The primary and most dangerous complication following a tonsillectomy is postoperative hemorrhage (bleeding). The education emphasis must be on preventing this.\n\nAvoiding Coughing/Clearing Throat (D): These actions can dislodge the clot/scab that forms over the surgical site, leading to bleeding. The parents should also be taught to discourage the child from using straws or eating sharp/hard foods for the same reason.\n\nDiet (A): The diet should consist of soft foods and cool liquids. Solid, hard, or scratchy foods (like toast or chips) should be avoided.\n\nActivity (B): The child should be on restricted activity for about 1–2 weeks to prevent an increase in blood pressure that could cause bleeding. Vigorous activity is contraindicated.\n\nNosebleeds (C): While some old blood might be seen from the nose, the primary concern is bleeding from the throat (the surgical site).",
+    "additional": "1. Signs of Postoperative Bleeding after Tonsillectomy:\nThis is a critical assessment skill.\n\n- Frequent Swallowing: This is the most common and often earliest sign. The child is swallowing blood trickling down the back of their throat.\n\n- Throat clearing, restlessness, or vomiting bright red blood.\n\n- Tachycardia and pallor are later signs of significant blood loss.\n\nRisk Periods: Bleeding can occur at any time, but the highest risk is in the first 24 hours post-op and again around 7–10 days post-op when the scab naturally falls off.\n\nFuture Question Idea: \"A nurse is assessing a child 8 hours after a tonsillectomy. Which finding requires immediate intervention?\" (Answer: The child is observed to be swallowing repeatedly)."
+  },
+  {
+    "question": "A nurse is caring for a neonate born to a mother who used heroin during pregnancy. What should the nurse expect to assess in the neonate shortly after birth?",
+    "options": {
+      "A": "Excessive weight gain",
+      "B": "Irritability and poor feeding",
+      "C": "Normal neurodevelopment",
+      "D": "Rapid language development"
+    },
+    "answer": "B",
+    "explanation": "This question addresses Neonatal Abstinence Syndrome (NAS), a group of problems that occur in a newborn who was exposed to addictive opiate drugs while in the mother's womb.\n\nPathophysiology: The infant becomes dependent on the drug along with the mother. After birth, the drug supply is cut off, and the infant undergoes withdrawal.\n\nSigns of Withdrawal (NAS): The symptoms are primarily related to CNS hyper-irritability and gastrointestinal dysfunction. These include:\n\n- Irritability: High-pitched, continuous crying.\n- Poor Feeding: Uncoordinated sucking and swallowing.\n- Sleep disturbances.\n- Hypertonicity/Tremors: Increased muscle tone, jitters.\n- Fever, sweating, and tachypnea.\n- Vomiting and diarrhea.\n\nA, C, and D are incorrect. Infants with NAS often have low birth weight (not excessive weight gain), and the condition represents a significant disruption to normal neurodevelopment.",
+    "additional": "1. Nursing Management of Neonatal Abstinence Syndrome (NAS):\n\nPharmacologic Treatment:\n- Medications like morphine or methadone are used to treat the symptoms in severe withdrawal and are weaned slowly.\n\nNon-Pharmacologic Care (Crucial Nursing Role):\n- Decrease environmental stimuli: Quiet, dimly lit area.\n- Swaddling: Helps reduce tremors and provides comfort.\n- Promote nutrition: Small, frequent feedings.\n- Skin care: Prevent breakdown due to diarrhea or hyperactivity.\n- Promote bonding: Encourage maternal involvement and skin-to-skin contact.\n\nFuture Question Idea: \"What is the priority non-pharmacologic nursing intervention for an infant experiencing Neonatal Abstinence Syndrome?\" (Answer: Swaddling the infant and placing them in a low-stimulus environment)."
+  },
+  {
+    "question": "A 10-year-old child with acute lymphoblastic leukemia (ALL) is undergoing chemotherapy. The nurse should educate the parents about the need to monitor for:",
+    "options": {
+      "A": "Elevated blood pressure",
+      "B": "High fever and neutropenia",
+      "C": "Excessive weight gain",
+      "D": "Increased activity levels"
+    },
+    "answer": "B",
+    "explanation": "This question focuses on the most common and life-threatening side effect of chemotherapy.\n\nChemotherapy: These drugs kill rapidly dividing cells, including bone marrow cells.\n\nMyelosuppression: Leads to neutropenia, anemia, and thrombocytopenia.\n\nNeutropenic Fever: A fever in a neutropenic patient is a medical emergency. Without neutrophils, the child cannot fight infection, and sepsis may develop rapidly.\n\nA, C, and D are not the primary concern. Steroids may cause some of these effects, but infection due to neutropenia is the most immediate danger.",
+    "additional": "1. Infection Prevention in the Neutropenic Child:\n\n- Hand hygiene: Most effective prevention.\n- Protective isolation and private room.\n- Avoid crowds and sick contacts.\n- No live vaccines.\n- Meticulous oral and skin care.\n- Avoid raw fruits/vegetables and fresh flowers.\n\n2. Absolute Neutrophil Count (ANC):\n- Severe neutropenia: ANC < 500 cells/mm³.\n\nFuture Question Idea: \"A child receiving chemotherapy has a temperature of 38.5°C and an ANC of 400 cells/mm³. What is the nurse's priority action?\" (Answer: Initiate broad-spectrum IV antibiotics immediately as per protocol)."
+  },
+  {
+    "question": "A 7-year-old child with asthma is prescribed a long-acting controller medication. The nurse should emphasize to the parents that this medication is intended for:",
+    "options": {
+      "A": "Immediate relief of acute symptoms",
+      "B": "Short-term use only",
+      "C": "Long-term asthma control and prevention",
+      "D": "Treatment of acute exacerbations"
+    },
+    "answer": "C",
+    "explanation": "This question tests the understanding of asthma medications.\n\nController (Preventer) Medications: Taken daily to reduce airway inflammation. NOT for immediate relief.\n\nExamples: Inhaled corticosteroids (fluticasone, budesonide), LABAs like salmeterol.\n\nReliever Medications: For acute symptoms. Examples: Albuterol/salbutamol.\n\nA and D describe rescue meds. B is incorrect as controller meds are for long-term use.",
+    "additional": "1. Patient Education for Inhaled Corticosteroids (ICS):\n\n- Rinse and spit after use to prevent oral candidiasis.\n- Use a spacer with MDI for proper delivery.\n\nFuture Question Idea: \"A nurse is teaching a parent about their child's new prescription for an inhaled corticosteroid (fluticasone). Which instruction is essential to prevent a common side effect?\" (Answer: \"Have your child rinse their mouth after using the inhaler.\")."
+  },
+  {
+    "question": "A 3-month-old infant has an elevated serum lead level. The nurse should recognize this as a potential risk for:",
+    "options": {
+      "A": "Anemia",
+      "B": "Rickets",
+      "C": "Sepsis",
+      "D": "Allergic reactions"
+    },
+    "answer": "A",
+    "explanation": "Lead poisoning has many systemic effects. One of the key effects is on heme synthesis.\n\nLead interferes with enzymes involved in producing heme, resulting in microcytic, hypochromic anemia.\n\nNeurological Impact: Even low levels can lead to irreversible cognitive impairment.\n\nRickets (B): Caused by vitamin D deficiency.\nSepsis (C): Not related to lead.\nAllergic reactions (D): Unrelated.",
+    "additional": "1. Sources of Lead Exposure in Children:\n- Lead-based paint (pre-1978 homes), contaminated soil/water.\n- Traditional remedies, imported toys, parental occupations.\n\n2. Screening & Prevention:\n- Fingerstick capillary test; confirm with venous draw.\n- Primary prevention: Remove lead hazards.\n- Chelation therapy for high levels.\n\nFuture Question Idea: \"A community health nurse is planning a primary prevention program for lead poisoning. Which activity would be most effective?\" (Answer: \"Providing education to families in older homes about the dangers of peeling paint.\")."
+  },
+  {
+    "question": "A 16-year-old adolescent presents to the clinic with irregular menstrual periods and excessive facial hair growth. What condition should the nurse suspect in this patient?",
+    "options": {
+      "A": "Hypothyroidism",
+      "B": "Polycystic ovary syndrome (PCOS)",
+      "C": "Ovarian cancer",
+      "D": "Endometriosis"
+    },
+    "answer": "B",
+    "explanation": "Irregular periods and hirsutism suggest hyperandrogenism, which is classic for PCOS.\n\nPCOS: Characterized by irregular or absent ovulation, signs of high androgens (acne, hirsutism), and polycystic ovaries.\n\nHypothyroidism (A): May cause menstrual issues but not hirsutism.\nOvarian cancer (C): Rare in teens and presents differently.\nEndometriosis (D): Presents with painful menstruation, not hirsutism.",
+    "additional": "1. Long-Term Health Risks of PCOS:\n\n- Insulin resistance → Type 2 diabetes.\n- Dyslipidemia.\n- Cardiovascular disease.\n- Endometrial cancer (due to chronic anovulation).\n\n2. Management:\n\n- Lifestyle modification (diet, exercise) is first-line.\n- Hormonal contraceptives for cycle regulation and hirsutism.\n- Metformin to improve insulin sensitivity and ovulation.\n\nFuture Question Idea: \"A nurse is providing education to an adolescent newly diagnosed with PCOS. The nurse should emphasize that the most effective first-line intervention is:\" (Answer: \"Lifestyle changes, including diet and exercise.\")."
+  },
+  {
+    "question": "A child presents with high fever, difficulty breathing, and a severe cough. During the initial assessment using ETAT, which category should this child be triaged into?",
+    "options": {
+      "A": "Green",
+      "B": "Yellow",
+      "C": "Red",
+      "D": "Blue"
+    },
+    "answer": "C",
+    "explanation": "This question tests the application of the ETAT triage system. The ETAT (Emergency Triage Assessment and Treatment) system is designed to rapidly identify the sickest children who need immediate life-saving interventions.\n\nTriage System: Children are categorized based on the presence of Emergency Signs and Priority Signs.\n\nEmergency Signs (ABC issues): Any child with an emergency sign is triaged as RED (or Priority 1). These are life-threatening conditions requiring immediate treatment. The key emergency signs are:\n- Airway: Obstructed or gasping breathing.\n- Breathing: Severe respiratory distress (e.g., central cyanosis, grunting, severe chest in-drawing).\n- Circulation: Signs of shock (cold hands, capillary refill > 3 seconds, weak/fast pulse).\n- Coma/Convulsions/Confusion: Altered level of consciousness.\n- Severe Dehydration.\n\nThe child in the scenario presents with difficulty breathing and a severe cough, which qualifies as severe respiratory distress, an emergency sign. Therefore, the child must be triaged as RED.",
+    "additional": "1. The Full ETAT Triage System:\n\nRED (Priority 1 / Emergency): Has an Emergency Sign. Needs immediate treatment.\nYELLOW (Priority 2 / Priority): No emergency signs, but has a Priority Sign such as high fever, severe pallor, trauma, lethargy, etc.\nGREEN (Priority 3 / Queue): No emergency or priority signs. Non-urgent.\n\nFuture Question Idea: \"A 4-month-old infant is brought to the clinic with a temperature of 39.5°C but has no signs of respiratory distress or altered consciousness. According to ETAT, this child should be triaged as:\" (Answer: Yellow)."
+  },
+  {
+    "question": "During the ETAT process, what is the primary purpose of assessing the child's breathing?",
+    "options": {
+      "A": "To determine if the child is awake or asleep",
+      "B": "To identify potential fractures",
+      "C": "To assess for any signs of distress",
+      "D": "To determine the respiratory rate and oxygen saturation"
+    },
+    "answer": "D",
+    "explanation": "The primary purpose of the 'B' (Breathing) assessment in the ETAT A-B-C-D approach is to identify life-threatening breathing problems.\n\nAssessing for Distress (C) is the broader goal, but the formal step in ETAT includes quantifying the breathing effort through rate and oxygen saturation. These help determine the presence and severity of hypoxia.\n\nThus, while C captures the purpose generally, D directly refers to the measurable outcomes used to make triage decisions. Measuring respiratory rate and SpO2 supports the identification of respiratory failure and guides oxygen therapy.",
+    "additional": "1. Full ETAT A-B-C-D Approach:\n\nA - Airway: Check for obstruction, position airway, suction if needed.\nB - Breathing: Look for signs of respiratory distress. Check SpO2.\nC - Circulation: Capillary refill, pulse, and extremity temperature.\nD - Disability: Assess consciousness, convulsions, glucose.\n\nFuture Question Idea: \"A child presents with cold hands, a capillary refill of 4 seconds, and a weak, rapid pulse. According to the ETAT protocol, what is the priority intervention?\" (Answer: Administer an intravenous fluid bolus of 20 mL/kg)."
+  },
+  {
+    "question": "A child is brought to the emergency department with lethargy, sunken eyes, and dry mucous membranes. What does this clinical presentation suggest in the context of IMCI?",
+    "options": {
+      "A": "Pneumonia",
+      "B": "Severe dehydration",
+      "C": "Malaria",
+      "D": "Malnutrition"
+    },
+    "answer": "B",
+    "explanation": "The IMCI (Integrated Management of Childhood Illness) guidelines classify dehydration based on clinical signs. The signs in the scenario—lethargy and sunken eyes—are classic indicators of SEVERE dehydration.\n\nIMCI Dehydration Classifications:\n- SEVERE DEHYDRATION (RED): Two or more of: lethargy, sunken eyes, unable to drink, very slow skin pinch.\n- SOME DEHYDRATION (YELLOW): Restlessness, sunken eyes, drinks eagerly, slow skin pinch.\n- NO DEHYDRATION (GREEN): None or only one of the signs.\n\nThis child meets two red criteria — lethargy and sunken eyes — and should receive urgent IV rehydration.",
+    "additional": "1. IMCI Treatment Plans:\n\nPlan C: IV fluids urgently (if not possible, NG tube or refer).\nPlan B: ORS in clinic over 4 hours.\nPlan A: Home care with fluids, continued feeding, and zinc.\n\nFuture Question Idea: \"According to the IMCI chart, a child who is restless, has sunken eyes, and is thirsty should be managed with which treatment plan?\" (Answer: Plan B)."
+  },
+  {
+    "question": "When using the IMCI guidelines, which classification includes children with a general danger sign, cough or difficult breathing, fever, and other symptoms?",
+    "options": {
+      "A": "General danger sign",
+      "B": "Cough or difficult breathing",
+      "C": "Fever",
+      "D": "Other symptoms"
+    },
+    "answer": "D",
+    "explanation": "This is a confusingly phrased question. IMCI guidelines follow a stepwise symptom-based assessment: danger signs, cough/difficulty breathing, diarrhea, fever, then 'other symptoms'.\n\nIf a child presents with multiple symptoms, each is assessed separately under its respective chart. The answer \"D) Other symptoms\" is weakly justifiable if one interprets it as referring to the section in IMCI that follows the major categories, such as malnutrition, ear problems, or HIV.\n\nStill, the question should ideally be rephrased. The provided answer stands for continuity, but clearer IMCI questions should be developed.",
+    "additional": "IMCI begins with assessing:\n1. General danger signs (RED classification immediately if present).\n2. Then proceeds to specific symptoms:\n   - Cough/difficulty breathing\n   - Diarrhea\n   - Fever\n   - Ear problems / malnutrition / immunization status\n\nFuture Question Idea: \"A child with cough and fast breathing but no danger signs is classified as:\" (Answer: Pneumonia)."
+  },
+  {
+    "question": "A child with fast breathing for their age, cough, and chest in-drawing is assessed using IMCI. What is the likely diagnosis based on these symptoms?",
+    "options": {
+      "A": "Pneumonia",
+      "B": "Malaria",
+      "C": "Malnutrition",
+      "D": "Gastroenteritis"
+    },
+    "answer": "A",
+    "explanation": "This question tests IMCI classification for respiratory infections. Chest in-drawing with cough suggests SEVERE PNEUMONIA.\n\nIMCI 'Cough or Difficult Breathing' classification:\n- SEVERE PNEUMONIA (RED): Any general danger sign, chest in-drawing, or stridor in a calm child.\n- PNEUMONIA (YELLOW): Fast breathing without danger signs.\n- COUGH or COLD (GREEN): No signs of pneumonia.\n\nThe child has chest in-drawing, which mandates RED classification as SEVERE PNEUMONIA.",
+    "additional": "1. Chest In-drawing vs. Mild Retractions:\n\nLower chest wall in-drawing = severe distress.\nMild intercostal retractions may occur with cough/cold.\n\nFuture Question Idea: \"A nurse is assessing a 10-month-old infant with a cough. The respiratory rate is 56 breaths/min. There is no chest in-drawing or other danger signs. According to IMCI, this child should be classified as:\" (Answer: Pneumonia)."
+  },
+  {
+    "question": "In ETAT, which vital sign is used to assess the child's level of consciousness and overall condition?",
+    "options": {
+      "A": "Blood pressure",
+      "B": "Heart rate",
+      "C": "Respiratory rate",
+      "D": "Capillary refill time"
+    },
+    "answer": "B",
+    "explanation": "The ETAT protocol uses a combination of signs to assess a child's overall condition. No single vital sign assesses consciousness directly.\n\nLevel of Consciousness: This is the 'D' for Disability in the A-B-C-D approach. It's assessed using the AVPU scale:\n- Alert\n- Responds to Voice\n- Responds to Pain\n- Unresponsive\n\nHeart Rate (B): While not a direct measure of consciousness, an abnormal heart rate (either very fast or very slow) is a critical indicator of the child's overall physiological state. It can be associated with shock or hypoxia, which often affect consciousness. Given the options, heart rate is a vital sign that reflects the severity of the overall condition, which is closely linked to the level of consciousness.",
+    "additional": "A, C, and D are also important in circulation or breathing assessments, but do not directly relate to consciousness.\n\nFuture Question Idea: \"Which component of the AVPU scale indicates the most severe neurological status in a child?\" (Answer: Unresponsive)."
+  },
+  {
+    "question": "When assessing a child using IMCI, what is the primary purpose of examining the child's chest?",
+    "options": {
+      "A": "To check for potential fractures",
+      "B": "To assess for chest pain",
+      "C": "To determine the presence of enlarged lymph nodes",
+      "D": "To evaluate for chest in-drawing and other respiratory signs"
+    },
+    "answer": "D",
+    "explanation": "This question focuses on a specific physical assessment step within the IMCI 'Cough or Difficult Breathing' algorithm.\n\nChest Examination in IMCI: The key signs to look for are:\n- Chest in-drawing: Sign of severe pneumonia.\n- Fast breathing: Count respiratory rate for a full minute.\n- Listen for stridor and wheezing.\n\nA, B, and C are not primary goals in the IMCI chest assessment. The purpose is to detect signs of respiratory distress and classify accordingly.",
+    "additional": "Future Question Idea: \"What respiratory rate is considered fast breathing for a child aged 2–12 months according to IMCI?\" (Answer: ≥50 breaths/min)."
+  },
+  {
+    "question": "In the context of ETAT, what is the first step in assessing a child's airway and breathing?",
+    "options": {
+      "A": "Observe for the child's skin color",
+      "B": "Evaluate the child's level of consciousness",
+      "C": "Assess the child's respiratory rate",
+      "D": "Check for foreign body obstruction"
+    },
+    "answer": "B",
+    "explanation": "Standard life support protocols teach a strict A-B-C sequence. However, in ETAT, the **first step** is to assess if the child is responsive.\n\nInitial Rapid Assessment: Determining responsiveness helps to identify critically ill children immediately.\n\n- B (Evaluate Level of Consciousness): A child who does not respond is likely to have a serious A, B, or C problem.\n\nA, C, and D are steps in the formal airway and breathing assessment, but they come **after** you’ve assessed responsiveness.",
+    "additional": "Future Question Idea: \"What does a child who only responds to pain on the AVPU scale indicate?\" (Answer: Reduced consciousness, serious concern)."
+  },
+  {
+    "question": "A child presents with a history of high-grade fever, irritability, and a stiff neck. In ETAT, what should be the initial action for this child?",
+    "options": {
+      "A": "Administer antipyretics to reduce the fever",
+      "B": "Provide fluids to combat dehydration",
+      "C": "Apply cold compresses to the forehead",
+      "D": "Assess the child's airway, breathing, and circulation"
+    },
+    "answer": "D",
+    "explanation": "This question tests the core emergency principle: **Assess before you act**.\n\nSymptoms like fever, irritability, and stiff neck suggest **meningitis**, a medical emergency. But before diagnosis or treatment:\n\n**Assess A-B-C-D:** A child may be in shock, have airway obstruction, or be seizing. Interventions like fluids or medications must follow stabilization.\n\nGiving antipyretics (A) or fluids (B) before assessment could delay life-saving action.",
+    "additional": "1. Signs of Meningitis:\n- Infants: Fever, high-pitched cry, poor feeding, bulging fontanelle.\n- Older children: Fever, headache, stiff neck, confusion.\n\n2. Management:\n- Stabilize A-B-C-D\n- IV antibiotics (e.g., Ceftriaxone) ASAP\n- Lumbar puncture only if stable\n- Dexamethasone to reduce inflammation\n\nFuture Question Idea: \"A 6-month-old with fever, bulging fontanelle, and high-pitched cry should be evaluated for which condition?\" (Answer: Meningitis)."
+  },
+  {
+    "question": "In ETAT, what is the first step when assessing a child's circulation?",
+    "options": {
+      "A": "Check for capillary refill time",
+      "B": "Assess the child's level of consciousness",
+      "C": "Measure the blood pressure",
+      "D": "Examine for skin color and temperature"
+    },
+    "answer": "D",
+    "explanation": "ETAT teaches that the first circulation check is quick and visual/tactile:\n\nD) **Examine skin color and temperature**:\n- Cold, pale, or cyanotic extremities signal poor perfusion.\n\nA) Capillary refill time follows, along with assessing pulse. \n\nC) Blood pressure is a **late sign** of shock in children.\n\nB) Consciousness level is part of 'Disability,' not 'Circulation.'",
+    "additional": "Types of Shock:\n- **Compensated Shock**: Cold hands, fast pulse, prolonged CRT. BP normal.\n- **Decompensated Shock**: All above signs + hypotension and lethargy.\n\nKey Principle: Recognize shock in the compensated stage.\n\nFuture Question Idea: \"A child has cold hands, CRT of 4 seconds, pulse of 180 bpm, and normal BP. What condition is this?\" (Answer: Compensated shock)."
+  },
+  {
+    "question": "A child with a history of watery diarrhea and vomiting is brought to the emergency department. What should be the initial action when using IMCI for this child?",
+    "options": {
+      "A": "Administer antidiarrheal medication",
+      "B": "Provide oral rehydration therapy",
+      "C": "Perform a chest X-ray",
+      "D": "Apply cold compresses to reduce fever"
+    },
+    "answer": "B",
+    "explanation": "This question assesses the priority management for diarrhea using IMCI.\n\nPrimary Danger of Diarrhea: The main risk is dehydration.\n\nInitial Action: Begin rehydration based on dehydration assessment. If the child can drink and is not severely dehydrated, oral rehydration therapy (ORT) using Oral Rehydration Solution (ORS) is the first-line intervention.\n\nAntidiarrheal Medication (A): Not recommended for children.\n\nChest X-ray (C): Irrelevant.\n\nCold Compresses (D): Not the priority.",
+    "additional": "1. IMCI Plan A – 4 Rules of Home Treatment for Diarrhea:\n- Give Extra Fluids (ORS).\n- Provide Zinc Supplementation (10–14 days).\n- Continue Feeding (don’t stop breastfeeding).\n- Know When to Return (e.g., blood in stool, no improvement).\n\nFuture Question Idea: \"In IMCI, what supplement is essential alongside ORS in treating childhood diarrhea?\" (Answer: Zinc)."
+  },
+  {
+    "question": "In ETAT, what vital sign is used to assess the child's perfusion and circulatory status?",
+    "options": {
+      "A": "Respiratory rate",
+      "B": "Blood pressure",
+      "C": "Heart rate",
+      "D": "Capillary refill time"
+    },
+    "answer": "D",
+    "explanation": "Capillary Refill Time (CRT) is a quick, direct measure of peripheral perfusion.\n\nHow it's done: Press on the nailbed or sternum for 5 seconds, then release. Normal refill time is <3 seconds.\n\nProlonged CRT: Suggests poor perfusion and early shock.\n\nHeart Rate (C): Supports the diagnosis but is less direct.\n\nBlood Pressure (B): Late sign in children.\n\nRespiratory Rate (A): Reflects breathing, not perfusion.",
+    "additional": "Future Question Idea: \"A child has CRT of 4 seconds and cold extremities. What condition is suspected?\" (Answer: Shock)."
+  },
+  {
+    "question": "A child is brought to the health facility with a cough for more than two weeks and a low weight for their age. In IMCI, what classification should this child be placed into?",
+    "options": {
+      "A": "Pneumonia",
+      "B": "Malnutrition",
+      "C": "HIV infection",
+      "D": "Tuberculosis"
+    },
+    "answer": "D",
+    "explanation": "This question tests the IMCI criteria for suspecting Tuberculosis (TB).\n\nKey IMCI TB Triggers:\n- Cough >14 days\n- Poor weight gain or weight loss\n- Fever >14 days\n- TB contact\n\nThe child in the scenario meets two of these: chronic cough and low weight → Strong indication for TB evaluation.\n\nPneumonia (A): Acute.\nMalnutrition (B): Related, but not the primary classification here.\nHIV (C): Increases TB risk, but symptoms point to TB.",
+    "additional": "Future Question Idea: \"Which two signs in a child raise high suspicion for TB in IMCI?\" (Answer: Cough >2 weeks + weight loss/poor gain)."
+  },
+  {
+    "question": "During the ETAT assessment, a child is found to have a weak pulse, altered level of consciousness, and pallor. What immediate action should be taken?",
+    "options": {
+      "A": "Administer antipyretics",
+      "B": "Begin CPR (cardiopulmonary resuscitation)",
+      "C": "Assess the child's respiratory rate",
+      "D": "Provide oral rehydration therapy (ORT)"
+    },
+    "answer": "B",
+    "explanation": "The combination of weak pulse, altered consciousness, and pallor suggests the child may be progressing to cardiac arrest.\n\nIf pulse is absent → Begin CPR.\n\nIf pulse is weak but present → Give IV fluids urgently. However, many exams interpret \"weak pulse\" as a prelude to full arrest.\n\nA) Antipyretics – irrelevant.\nC) Respiratory rate – not first action.\nD) ORT – not helpful in suspected shock/arrest.\n\nAnswer B is acceptable based on assumption of deterioration.",
+    "additional": "Future Question Idea: \"A child is pale, unresponsive, and pulseless. What is the correct action?\" (Answer: Begin CPR)."
+  },
+  {
+    "question": "A child with a history of fever and abdominal pain is brought to the health facility. In IMCI, what classification should this child be placed into?",
+    "options": {
+      "A": "Malaria",
+      "B": "Diarrhea",
+      "C": "Urinary tract infection (UTI)",
+      "D": "Appendicitis"
+    },
+    "answer": "D",
+    "explanation": "IMCI doesn’t directly classify appendicitis, but severe abdominal pain + fever suggests a **very severe febrile illness** → needs urgent referral.\n\nAppendicitis is the most likely serious surgical condition in this context.\n\nMalaria (A): Common but would also involve chills, vomiting, etc.\nDiarrhea (B): Not mentioned.\nUTI (C): Possible, but appendicitis is more consistent with presentation.\n\nIMCI directs urgent referral for such symptoms even if diagnosis isn’t certain.",
+    "additional": "Signs of Appendicitis:\n- Pain migrating to right lower quadrant (RLQ)\n- Fever, vomiting, anorexia\n- Rebound tenderness at McBurney’s point\n\nFuture Question Idea: \"A child with fever, RLQ pain, and vomiting likely has which condition?\" (Answer: Appendicitis)."
+  },
+  {
+    "question": "In ETAT, what is the primary purpose of assessing the child's skin color and temperature?",
+    "options": {
+      "A": "To evaluate the need for antipyretic medication",
+      "B": "To determine if the child is awake or asleep",
+      "C": "To check for potential fractures",
+      "D": "To assess the child's circulatory status"
+    },
+    "answer": "D",
+    "explanation": "This assessment is a fundamental part of evaluating circulation in ETAT.\n\nSkin Color:\n- Pallor: Suggests anemia or poor perfusion.\n- Cyanosis: Suggests poor oxygenation.\n\nSkin Temperature:\n- Cold hands and feet: Sign of poor peripheral perfusion and possible shock.\n\nAntipyretic need (A): Based on core temperature.\nB and C are unrelated.",
+    "additional": null
+  },
+  {
+    "question": "A child presents with a fever, cough, and runny nose. What IMCI classification is most appropriate for this child?",
+    "options": {
+      "A": "Malaria",
+      "B": "Pneumonia",
+      "C": "Cough or cold",
+      "D": "Malnutrition"
+    },
+    "answer": "C",
+    "explanation": "IMCI uses the \"Cough or Difficult Breathing\" chart to classify such symptoms.\n\n- Severe Pneumonia: Danger sign, chest in-drawing, or stridor.\n- Pneumonia: Fast breathing only.\n- Cough or Cold: No danger signs or fast breathing.\n\nThis case has no signs of severe illness. Runny nose points to a viral upper respiratory infection (Cough or Cold).",
+    "additional": "1. Home Care for Cough or Cold:\n- Soothe throat (e.g., honey >1 year, warm fluids).\n- Continue feeding.\n- Watch for fast breathing or inability to drink.\n- Avoid cough syrups and antibiotics.\n\nFuture Question Idea: \"Which home care advice is most appropriate for a child classified with a Cough or Cold?\" (Answer: Continue breastfeeding and monitor for fast breathing)."
+  },
+  {
+    "question": "In ETAT, a child's blood pressure is measured, and the reading is consistently low. What does this indicate in the context of the assessment?",
+    "options": {
+      "A": "Impaired circulation",
+      "B": "Respiratory distress",
+      "C": "Dehydration",
+      "D": "High fever"
+    },
+    "answer": "A",
+    "explanation": "Low blood pressure in children indicates **decompensated shock**, meaning the body can no longer compensate (e.g., via tachycardia or vasoconstriction).\n\n- Impaired Circulation: The direct physiological consequence of low BP.\n- B, C, D: Possible causes but not the actual state indicated by hypotension.",
+    "additional": null
+  },
+  {
+    "question": "When using IMCI, what classification is used for children with a history of fever, irritability, and a bulging fontanelle?",
+    "options": {
+      "A": "Malaria",
+      "B": "Pneumonia",
+      "C": "Meningitis",
+      "D": "Malnutrition"
+    },
+    "answer": "C",
+    "explanation": "These are classic signs of **Meningitis** in infants:\n- Fever\n- Irritability (altered mental status)\n- Bulging fontanelle (raised intracranial pressure)\n\nIMCI Response:\n- RED classification: Very Severe Febrile Disease.\n- Requires urgent antibiotic treatment and hospital referral.\n\nA, B, D: Incorrect for this symptom set.",
+    "additional": null
+  },
+  {
+    "question": "During an ETAT assessment, a child is unresponsive, not breathing, and has no pulse. What immediate action should be taken?",
+    "options": {
+      "A": "Administer antipyretics",
+      "B": "Initiate CPR (cardiopulmonary resuscitation)",
+      "C": "Assess the child's level of consciousness",
+      "D": "Provide oral rehydration therapy (ORT)"
+    },
+    "answer": "B",
+    "explanation": "This child is in **cardiopulmonary arrest**. CPR must be started immediately.\n\n- Do not delay for further assessments.\n- CPR includes chest compressions + rescue breaths.\n\nOther options (A, C, D) are inappropriate in this emergency.",
+    "additional": "1. Pediatric BLS (C-A-B Sequence):\n- C: Compressions first (100–120/min, 1/3 chest depth).\n- A: Open airway (head-tilt, chin-lift).\n- B: Give 2 rescue breaths.\n\nFuture Question Idea: \"What is the correct CPR ratio for a 6-month-old by a single rescuer?\" (Answer: 30:2)."
+  }
+]
+
+
+
+
