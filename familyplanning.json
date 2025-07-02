@@ -1,0 +1,607 @@
+[
+  {
+    "question": "Which of the following is a barrier method of contraception?",
+    "options": {
+      "A": "Birth control pills",
+      "B": "IUD",
+      "C": "Condom",
+      "D": "Depo-Provera"
+    },
+    "answer": "C",
+    "explanation": "Barrier methods of contraception work by creating a physical barrier that prevents sperm from reaching and fertilizing an egg. The male condom is a classic example, as it is a sheath that collects semen. Other examples include the female condom, diaphragm, and cervical cap.\n\nWhy other options are incorrect:\n\nA) Birth control pills: These are a hormonal method that primarily works by preventing ovulation.\n\nB) IUD (Intrauterine Device): This is an intrauterine method. The copper IUD works by creating an inflammatory reaction toxic to sperm, while the hormonal IUD thickens cervical mucus and prevents ovulation.\n\nD) Depo-Provera: This is an injectable hormonal method that prevents ovulation.",
+    "additional": "Dual Protection: Condoms are unique because they are the only contraceptive method that also provides significant protection against Sexually Transmitted Infections (STIs), including HIV. This is known as \"dual protection.\"\n\nEffectiveness: The effectiveness of barrier methods is highly dependent on correct and consistent use with every act of intercourse.\n\nPossible Next Questions: \"Which contraceptive method offers dual protection against pregnancy and STIs?\" \"Name two examples of female-controlled barrier methods.\" (Answer: Female condom, diaphragm).\n\nRecommended Reading:\n\nWorld Health Organization (WHO) - Family Planning: A Global Handbook for Providers.\n\nContraceptive Technology (a widely respected reference book)."
+  },
+  {
+    "question": "Which of the following is a hormonal method of contraception?",
+    "options": {
+      "A": "Condom",
+      "B": "Male sterilization",
+      "C": "Birth control pills",
+      "D": "Copper IUD"
+    },
+    "answer": "C",
+    "explanation": "Hormonal methods of contraception use synthetic versions of hormones (progestin and/or estrogen) to prevent pregnancy. They work by:\n\nPreventing ovulation (the release of an egg from the ovary).\n\nThickening cervical mucus, making it difficult for sperm to enter the uterus.\n\nThinning the uterine lining (endometrium), making it less suitable for implantation.\nBirth control pills are the most well-known example.\n\nWhy other options are incorrect:\n\nA) Condom: This is a barrier method.\n\nB) Male sterilization (Vasectomy): This is a permanent surgical method.\n\nD) Copper IUD: This is a non-hormonal intrauterine method. It works by releasing copper ions, which are spermicidal.",
+    "additional": "Examples of Hormonal Methods:\n\nOral Contraceptive Pills (OCPs) - Combined or Progestin-only.\n\nInjectables (e.g., Depo-Provera).\n\nImplants (e.g., Jadelle, Implanon).\n\nHormonal IUDs (e.g., Mirena).\n\nContraceptive patch.\n\nVaginal ring (e.g., NuvaRing).\n\nPossible Next Questions: \"How does the copper IUD differ from the hormonal IUD?\" \"List three mechanisms of action for combined oral contraceptives.\"\n\nRecommended Reading:\n\nWHO's Medical Eligibility Criteria for Contraceptive Use (MEC)."
+  },
+  {
+    "question": "What is the main mechanism of action for emergency contraception pills?",
+    "options": {
+      "A": "Prevent fertilization of the egg",
+      "B": "Prevent implantation of the fertilized egg",
+      "C": "Stop ovulation",
+      "D": "All of the above"
+    },
+    "answer": "D",
+    "explanation": "Emergency Contraception Pills (ECPs), often called the \"morning-after pill,\" work through multiple mechanisms depending on where a woman is in her menstrual cycle when she takes them. The primary and most effective mechanism is delaying or inhibiting ovulation. If ovulation has already occurred, ECPs can also interfere with fertilization by affecting sperm or ovum function, and they may alter the endometrium to prevent implantation of a fertilized egg.\n\nImportant Note: ECPs are not abortifacients. They do not work if a woman is already pregnant (i.e., after implantation has occurred).",
+    "additional": "Types of ECPs: The most common type contains levonorgestrel. Another type is ulipristal acetate, which is effective for a longer period after unprotected sex. A copper IUD can also be inserted as a highly effective form of emergency contraception.\n\nTimeframe: ECPs are most effective when taken as soon as possible after unprotected intercourse, ideally within 72 hours, but can be used up to 120 hours (5 days).\n\nPossible Next Questions: \"What is the primary mechanism of action for ECPs?\" (Answer: Delaying/inhibiting ovulation). \"Can emergency contraception terminate an existing pregnancy?\" (Answer: No).\n\nRecommended Reading:\n\nWHO Factsheet on Emergency Contraception."
+  },
+  {
+    "question": "Which of the following methods provides long-term contraception but can be reversed?",
+    "options": {
+      "A": "Vasectomy",
+      "B": "Implant",
+      "C": "Condoms",
+      "D": "Birth control pills"
+    },
+    "answer": "B",
+    "explanation": "This question refers to a category of methods known as Long-Acting Reversible Contraceptives (LARCs). These methods provide effective contraception for an extended period (years) without requiring user action. The contraceptive implant is a prime example. It is a small, flexible rod inserted under the skin of the upper arm that releases progestin and is effective for 3-5 years, but fertility returns quickly once it is removed by a healthcare provider.\n\nWhy other options are incorrect:\n\nA) Vasectomy: This is a permanent method.\n\nC) Condoms & D) Birth control pills: These are short-acting methods that require user action with each act of sex or on a daily basis.",
+    "additional": "Examples of LARCs:\n\nContraceptive Implants (e.g., Jadelle, Implanon/Nexplanon).\n\nIntrauterine Devices (IUDs) - both hormonal and copper types.\n\nBenefits of LARCs: They have very high effectiveness rates because they remove the potential for user error (e.g., forgetting a pill). They are highly recommended as a first-line option for many women.\n\nPossible Next Questions: \"Define LARC and provide two examples.\" \"Why are LARCs considered highly effective?\"\n\nRecommended Reading:\n\nAmerican College of Obstetricians and Gynecologists (ACOG) - Practice Bulletin on Long-Acting Reversible Contraception."
+  },
+  {
+    "question": "Which of the following is a permanent method of contraception?",
+    "options": {
+      "A": "Birth control pills",
+      "B": "Condom",
+      "C": "Vasectomy",
+      "D": "NuvaRing"
+    },
+    "answer": "C",
+    "explanation": "Permanent methods of contraception, also known as sterilization, are surgical procedures intended to permanently prevent pregnancy. Vasectomy is the male sterilization procedure where the vas deferens (the tubes that carry sperm) are cut or sealed. Female sterilization is called tubal ligation.\n\nWhy other options are incorrect:\n\nA) Birth control pills, B) Condom, D) NuvaRing: These are all reversible methods of contraception. Fertility is expected to return after discontinuing their use.",
+    "additional": "Counseling: Because sterilization is permanent, comprehensive counseling is essential. Clients must understand the permanency of the procedure, the risks, benefits, and alternatives before making a decision.\n\nFailure Rate: While highly effective, no method is 100%. Both vasectomy and tubal ligation have a very small failure rate. For vasectomy, a man is not considered sterile until follow-up tests confirm there is no sperm in his semen.\n\nPossible Next Questions: \"What is the female equivalent of a vasectomy?\" (Answer: Tubal ligation). \"What is a critical component of counseling for a client considering sterilization?\" (Answer: Understanding its permanency).\n\nRecommended Reading:\n\nEngenderHealth - Counseling for Sterilization: A Reference Guide for Service Providers."
+  },
+  {
+    "question": "Which of the following is NOT a side effect of the birth control pill?",
+    "options": {
+      "A": "Nausea",
+      "B": "Weight gain",
+      "C": "Increased risk of ovarian cancer",
+      "D": "Increased risk of blood clots"
+    },
+    "answer": "C",
+    "explanation": "This question tests knowledge of both the risks and the non-contraceptive benefits of hormonal pills. Combined Oral Contraceptives (COCs) are actually associated with a decreased risk of ovarian and endometrial cancers. This protective effect increases with the duration of use and persists for many years after stopping the pill.\n\nWhy other options are correct side effects:\n\nA) Nausea: A common side effect, especially when first starting the pill, due to the estrogen component.\n\nB) Weight gain: While studies show mixed results, some women do report minor weight gain, often due to fluid retention.\n\nD) Increased risk of blood clots: This is a rare but serious side effect, particularly for smokers and women over 35. The estrogen in COCs can increase the risk of venous thromboembolism (VTE).",
+    "additional": "Non-Contraceptive Benefits of COCs: Besides cancer protection, pills can also lead to:\n\nLighter, more regular menstrual periods.\n\nReduced menstrual cramps (dysmenorrhea).\n\nImprovement in acne.\n\nReduced risk of ectopic pregnancy and pelvic inflammatory disease (PID).\n\nAcronym for Danger Signs (ACHES):\n\nAbdominal pain (severe)\n\nChest pain (severe)\n\nHeadaches (severe)\n\nEye problems (blurred vision)\n\nSevere leg pain\n\nPossible Next Questions: \"List three non-contraceptive benefits of combined oral contraceptives.\" \"What does the acronym ACHES stand for in the context of OCP use?\"\n\nRecommended Reading:\n\nWHO's Medical Eligibility Criteria for Contraceptive Use (MEC)."
+  },
+  {
+    "question": "Which of the following methods does NOT require daily use?",
+    "options": {
+      "A": "Birth control pills",
+      "B": "Birth control patch",
+      "C": "Condom",
+      "D": "IUD"
+    },
+    "answer": "D",
+    "explanation": "This question differentiates between short-acting methods requiring frequent user action and long-acting methods. An Intrauterine Device (IUD) is a \"fit and forget\" method. Once inserted by a healthcare provider, it provides continuous contraception for 3 to 12 years (depending on the type) with no daily, weekly, or monthly action required from the user.\n\nHow other options require frequent use:\n\nA) Birth control pills: Must be taken daily.\n\nB) Birth control patch: Must be changed weekly.\n\nC) Condom: Must be used with every act of intercourse.",
+    "additional": "Method Adherence: Methods that do not require daily user action, like IUDs and implants (LARCs), have much higher \"typical use\" effectiveness rates compared to methods that depend on perfect adherence, like pills or condoms. This is a key counseling point.\n\nPossible Next Questions: \"Why is the typical-use effectiveness of an IUD higher than that of birth control pills?\"\n\nRecommended Reading:\n\nContraceptive Technology, Chapter on Long-Acting Reversible Contraception."
+  },
+  {
+    "question": "Which type of contraceptive is most effective for preventing sexually transmitted infections (STIs)?",
+    "options": {
+      "A": "IUD",
+      "B": "Birth control pills",
+      "C": "Condoms",
+      "D": "Depo-Provera"
+    },
+    "answer": "C",
+    "explanation": "This is a critical public health concept. Only barrier methods provide significant protection against STIs. Condoms (both male and female) work by creating a physical barrier that prevents the exchange of infectious bodily fluids (semen, vaginal fluids) and reduces skin-to-skin contact that can transmit infections like herpes and HPV.\n\nWhy other options are incorrect:\n\nA) IUD, B) Birth control pills, D) Depo-Provera: These are all highly effective at preventing pregnancy but offer no protection against STIs. A person using these methods for contraception still needs to use condoms to prevent STIs if they are at risk.",
+    "additional": "Dual Method Use: The practice of using a highly effective contraceptive method (like an IUD or implant) for pregnancy prevention and a condom for STI prevention is known as \"dual method use.\" This is the gold standard for individuals who want to prevent both pregnancy and STIs.\n\nPossible Next Questions: \"A client on Depo-Provera reports a new sexual partner. What counseling is essential regarding infection prevention?\" (Answer: The need to also use condoms to prevent STIs).\n\nRecommended Reading:\n\nWHO - Sexual and Reproductive Health - Condoms Factsheet."
+  },
+  {
+    "question": "What is the main advantage of the contraceptive implant?",
+    "options": {
+      "A": "It is easy to use daily",
+      "B": "It can be removed if side effects occur",
+      "C": "It provides contraception for up to 3 years",
+      "D": "It is effective immediately"
+    },
+    "answer": "C",
+    "explanation": "The primary advantage and defining feature of the contraceptive implant is its long duration of action. Depending on the type (e.g., Implanon/Nexplanon is for 3 years, Jadelle is for 5 years), it provides highly effective, continuous contraception for several years, freeing the user from needing to remember a daily pill or attend frequent clinic visits.\n\nWhy other options are less accurate:\n\nA) It is easy to use daily: Its advantage is that it does not require daily use.\n\nB) It can be removed: While true that it's reversible, this is a feature of many methods, not its main advantage over others.\n\nD) It is effective immediately: It is only effective immediately if inserted within the first 5 days of the menstrual cycle. Otherwise, a backup method is needed for 7 days.",
+    "additional": "Discreetness: The implant is also very discreet, as it is a small rod placed under the skin of the upper arm, making it invisible to others.\n\nMechanism: It is a progestin-only method that works primarily by inhibiting ovulation and thickening cervical mucus.\n\nPossible Next Questions: \"What is a key benefit of the implant for a woman who has difficulty with adherence to daily pills?\" \"Where is the contraceptive implant inserted?\"\n\nRecommended Reading:\n\nFamily Planning: A Global Handbook for Providers, Chapter on Implants."
+  },
+  {
+    "question": "Which of the following methods must be replaced every month?",
+    "options": {
+      "A": "Birth control pills",
+      "B": "Birth control patch",
+      "C": "IUD",
+      "D": "Depo-Provera injection"
+    },
+    "answer": "B",
+    "explanation": "The contraceptive patch is designed to be used on a monthly cycle. A new patch is applied to the skin once a week for three consecutive weeks, followed by a one-week patch-free interval during which menstruation occurs. Therefore, the user goes through a new set of patches each month.\n\nWhy other options are incorrect:\n\nA) Birth control pills: Replaced daily.\n\nC) IUD: Replaced every 3–12 years.\n\nD) Depo-Provera injection: Replaced every 3 months.",
+    "additional": "How it Works: The patch releases estrogen and progestin through the skin into the bloodstream, working similarly to combined oral contraceptives.\n\nPlacement: It can be placed on the buttock, abdomen, upper outer arm, or upper torso (but not on the breasts). The site should be rotated each week to avoid skin irritation.\n\nPossible Next Questions: \"How often does a user need to change their contraceptive patch?\" \"What hormones are contained in the contraceptive patch?\"\n\nRecommended Reading:\n\nCDC - Contraception - Transdermal Contraceptive Patch."
+  },
+  {
+    "question": "Which of the following methods provides immediate contraception?",
+    "options": {
+      "A": "Birth control pills",
+      "B": "Condom",
+      "C": "IUD",
+      "D": "Birth control patch"
+    },
+    "answer": "C",
+    "explanation": "This question is a bit tricky. Both condoms and IUDs can provide immediate contraception, but the context matters.\n\nCondom (B): A condom is effective for a single act of intercourse immediately upon use.\n\nIUD (C): An IUD provides immediate, continuous contraception from the moment it is inserted by a provider. The copper IUD is effective immediately, regardless of the menstrual cycle. A hormonal IUD is effective immediately if inserted within the first 7 days of the menstrual cycle.\n\nGiven the options, the IUD is the best answer representing a method that provides immediate and long-term protection from the point of application. Condoms are immediate but only for one-time use. Pills and patches have a waiting period.\n\nWhy other options are incorrect:\n\nA) Birth control pills & D) Birth control patch: These methods require a waiting period (typically 7 days) before they are fully effective, unless started on the first day of a menstrual period. A backup method is needed during this time.",
+    "additional": "\"Quick Start\" Method: To improve adherence, many providers use the \"Quick Start\" method, where a woman starts her hormonal method (pill, patch, ring) on the day of her clinic visit, regardless of her cycle, and is advised to use a backup method for the first 7 days.\n\nEmergency Contraception: The immediate effectiveness of the copper IUD is why it can also be used as a form of emergency contraception if inserted within 5 days of unprotected intercourse.\n\nPossible Next Questions: \"Under what condition is a hormonal IUD effective immediately?\" \"Why is a backup method recommended when starting birth control pills mid-cycle?\"\n\nRecommended Reading:\n\nFamily Planning: A Global Handbook for Providers, Chapter on IUDs."
+  },
+  {
+    "question": "What is the most common side effect of Depo-Provera?",
+    "options": {
+      "A": "Weight loss",
+      "B": "Increased risk of ovarian cancer",
+      "C": "Irregular bleeding",
+      "D": "Decreased libido"
+    },
+    "answer": "C",
+    "explanation": "The most frequently reported side effect of the Depo-Provera injection is a change in menstrual bleeding patterns. This can include irregular bleeding, spotting (especially in the first few months), and, over time, amenorrhea (the absence of periods). Many long-term users stop having periods altogether, which can be a desirable side effect for some.\n\nWhy other options are incorrect:\n\nA) Weight loss: Weight gain is a commonly reported side effect, not weight loss.\n\nB) Increased risk of ovarian cancer: Like other progestin-only methods, it may actually offer some protection against endometrial cancer and does not increase ovarian cancer risk.\n\nD) Decreased libido: While some women report changes in libido, it is not considered the most common side effect compared to menstrual changes.",
+    "additional": "Bone Mineral Density: A significant concern with long-term Depo-Provera use is a temporary loss of bone mineral density. This loss is generally reversible after stopping the injection.\n\nReturn to Fertility: There can be a delay in the return to fertility after discontinuing Depo-Provera, sometimes taking up to 10 months or more for a woman to conceive. This is an important counseling point.\n\nPossible Next Questions: \"What is the most common long-term effect of Depo-Provera on menstruation?\" (Answer: Amenorrhea). \"What is a key counseling point regarding fertility for a woman stopping Depo-Provera?\"\n\nRecommended Reading:\n\nWHO Factsheet on Depot-medroxyprogesterone acetate (DMPA)."
+  },
+  {
+    "question": "Which of the following methods involves a device that releases progestin directly into the uterus?",
+    "options": {
+      "A": "Copper IUD",
+      "B": "Birth control pills",
+      "C": "Hormonal IUD",
+      "D": "Male sterilization"
+    },
+    "answer": "C",
+    "explanation": "A hormonal IUD (e.g., Mirena, Kyleena) is a T-shaped plastic device that, once placed in the uterus, slowly releases a small amount of the hormone progestin. This hormone works locally in the uterus to thicken cervical mucus (blocking sperm) and thin the uterine lining. It also may suppress ovulation in some women.\n\nWhy other options are incorrect:\n\nA) Copper IUD: This device is non-hormonal; it releases copper ions.\n\nB) Birth control pills: These release hormones systemically (into the whole body) after being ingested orally, not directly into the uterus.\n\nD) Male sterilization: This is a non-hormonal surgical procedure.",
+    "additional": "Local vs. Systemic Effects: Because the hormonal IUD acts locally, the amount of hormone circulating in the bloodstream is very low compared to pills or injectables. This often results in fewer systemic hormonal side effects.\n\nTherapeutic Use: The hormonal IUD is also an effective treatment for heavy menstrual bleeding (menorrhagia).\n\nPossible Next Questions: \"Explain the primary difference in mechanism between a copper IUD and a hormonal IUD.\"\n\nRecommended Reading:\n\nContraceptive Technology, Chapter on Intrauterine Contraception."
+  },
+  {
+    "question": "Which of the following methods is suitable for women who are breastfeeding?",
+    "options": {
+      "A": "Birth control pills",
+      "B": "Condoms",
+      "C": "Depo-Provera injection",
+      "D": "Copper IUD"
+    },
+    "answer": "C",
+    "explanation": "Progestin-only methods and non-hormonal methods are generally considered safe and suitable for breastfeeding women because they do not affect milk supply.\n\nDepo-Provera (C) is a progestin-only injectable and is a very suitable option.\n\nCondoms (B) and Copper IUDs (D) are non-hormonal and are also excellent choices.\n\nThe question asks for a suitable method. Combined hormonal methods containing estrogen (like most birth control pills, the patch, and the ring) are generally avoided, especially in the first few weeks postpartum, as estrogen can potentially reduce the quantity of breast milk.\n\nWhy A is generally not the first choice:\n\nA) Birth control pills: This option is vague. Combined birth control pills containing estrogen are not recommended. However, the progestin-only pill (POP or mini-pill) is a suitable option for breastfeeding women.\n\nGiven the choices, Depo-Provera is a clearly suitable and widely used hormonal option.",
+    "additional": "Lactational Amenorrhea Method (LAM): A natural, temporary method for breastfeeding mothers. It is highly effective if the mother is (1) exclusively breastfeeding, (2) her period has not returned, and (3) her baby is less than 6 months old.\n\nTiming: Progestin-only methods can typically be started immediately postpartum.\n\nPossible Next Questions: \"Why are combined oral contraceptives generally avoided during breastfeeding?\" \"What are the three criteria for the Lactational Amenorrhea Method (LAM) to be effective?\"\n\nRecommended Reading:\n\nWHO's Medical Eligibility Criteria for Contraceptive Use (MEC), section on Postpartum and Breastfeeding."
+  },
+  {
+    "question": "Which of the following methods has the highest failure rate with typical use?",
+    "options": {
+      "A": "IUD",
+      "B": "Condoms",
+      "C": "Birth control pills",
+      "D": "Depo-Provera injection"
+    },
+    "answer": "B",
+    "explanation": "This question distinguishes between \"perfect use\" and \"typical use\" failure rates.\n\nPerfect Use: How effective the method is when used correctly and consistently every single time.\n\nTypical Use: How effective the method is in the real world, including inconsistencies and errors in use.\n\nCondoms have a large gap between their perfect-use rate (~98%) and their typical-use rate (~87%). This is because \"typical use\" includes instances of not using one every time, putting it on late, or breakage. Methods that are not user-dependent (like IUDs and implants) have typical-use rates that are nearly identical to their perfect-use rates (>99% effective).\n\nTypical Use Failure Rates (Pregnancies per 100 women in 1 year):\n\nIUD/Implant: <1\n\nDepo-Provera: ~6\n\nBirth Control Pill: ~7\n\nCondom: ~13",
+    "additional": "User-Dependent vs. Non-User-Dependent: This is a crucial concept. The most effective methods in the real world are those that remove the burden of action from the user.\n\nFertility Awareness Methods: These methods (like tracking cycles or temperature) have even higher typical-use failure rates, often around 24% or more.\n\nPossible Next Questions: \"Explain the difference between 'perfect use' and 'typical use' effectiveness.\"\n\nRecommended Reading:\n\nCDC - Contraception Effectiveness Factsheet."
+  },
+  {
+    "question": "What is the main disadvantage of the birth control pill?",
+    "options": {
+      "A": "It can cause cancer",
+      "B": "It requires daily use",
+      "C": "It is not effective immediately",
+      "D": "It causes permanent infertility"
+    },
+    "answer": "B",
+    "explanation": "The primary drawback of oral contraceptive pills (OCPs) is the need for strict daily adherence. For the pill to be effective, it must be taken at the same time every day. Forgetting to take pills, or taking them late, significantly increases the risk of contraceptive failure. This user-dependent nature is its main disadvantage compared to long-acting methods.\n\nWhy other options are incorrect:\n\nA) It can cause cancer: This is misleading. COCs decrease the risk of ovarian and endometrial cancer, though they may slightly increase the risk of breast and cervical cancer.\n\nC) It is not effective immediately: While true (unless started on day 1 of the cycle), the need for continuous, perfect daily action is a much greater long-term disadvantage.\n\nD) It causes permanent infertility: This is false. OCPs are a reversible method, and fertility typically returns soon after discontinuation.",
+    "additional": "Adherence Challenges: Life factors such as busy schedules, travel, and changes in routine can make perfect daily adherence difficult for many women, which is why the \"typical use\" effectiveness is lower than the \"perfect use\" effectiveness.\n\nProgestin-Only Pill (POP): The POP has an even stricter time window for adherence (must be taken within the same 3-hour window each day) compared to combined pills.\n\nPossible Next Questions: \"Why is adherence a major challenge for users of oral contraceptives?\" \"Compare the adherence requirements of the pill to the contraceptive implant.\"\n\nRecommended Reading:\n\nContraceptive Technology, Chapter on Oral Contraceptives."
+  },
+  {
+    "question": "What is the main benefit of the NuvaRing?",
+    "options": {
+      "A": "It is inserted annually",
+      "B": "It is a permanent method of contraception",
+      "C": "It is used for 3 weeks at a time",
+      "D": "It does not require any hormonal action"
+    },
+    "answer": "C",
+    "explanation": "The NuvaRing is a combined hormonal contraceptive (containing estrogen and progestin) in the form of a flexible vaginal ring. Its main benefit and unique feature is its convenient dosing schedule. The user inserts it into the vagina where it stays for three weeks, after which it is removed for a one-week \"ring-free\" interval. This avoids the need for daily pill-taking.\n\nWhy other options are incorrect:\n\nA) It is inserted annually: It is used on a monthly cycle, not annually.\n\nB) It is a permanent method: It is a reversible method.\n\nD) It does not require any hormonal action: It is a hormonal method.",
+    "additional": "Mechanism: The hormones are absorbed through the vaginal wall into the bloodstream and work similarly to combined oral pills by preventing ovulation.\n\nConvenience Factor: The key advantage is convenience over daily methods. The user only has to think about their contraception twice a month (insertion and removal).\n\nPossible Next Questions: \"How long is a NuvaRing left in place before being removed?\" \"What type of hormones does the NuvaRing contain?\" (Answer: Estrogen and Progestin).\n\nRecommended Reading:\n\nCDC - Contraception - Contraceptive Ring."
+  },
+  {
+    "question": "Which of the following is true about male sterilization?",
+    "options": {
+      "A": "It is a reversible procedure",
+      "B": "It requires regular checkups after the procedure",
+      "C": "It is a temporary form of contraception",
+      "D": "It can be done without anesthesia"
+    },
+    "answer": "B",
+    "explanation": "After a vasectomy (male sterilization), a man is not immediately sterile. Sperm can remain in the vas deferens \"downstream\" from where the tubes were cut. It can take several weeks and multiple ejaculations (typically around 15-20) to clear all remaining sperm. Therefore, follow-up semen analysis is required (usually around 3 months post-procedure) to confirm that the semen is free of sperm. A backup contraceptive method must be used until sterility is confirmed.\n\nWhy other options are incorrect:\n\nA) It is a reversible procedure: It is considered permanent. While reversal surgery (vasovasostomy) is possible, it is complex, expensive, and not always successful.\n\nC) It is a temporary form: It is a permanent method.\n\nD) It can be done without anesthesia: The procedure is typically done under local anesthesia to numb the scrotum.",
+    "additional": "\"No-Scalpel\" Vasectomy: This is a modern technique that uses a special instrument to puncture the skin of the scrotum rather than making an incision, resulting in less bleeding, a smaller wound, and fewer complications.\n\nEffect on Sexuality: A vasectomy does not affect a man's libido, ability to have an erection, or the volume/appearance of his ejaculate.\n\nPossible Next Questions: \"Why must a man use a backup contraceptive method immediately following a vasectomy?\" \"What is the name of the surgical procedure for male sterilization?\"\n\nRecommended Reading:\n\nAmerican Urological Association (AUA) Guideline on Vasectomy."
+  },
+  {
+    "question": "Which of the following is NOT a benefit of using birth control pills?",
+    "options": {
+      "A": "Regulation of menstrual cycles",
+      "B": "Treatment for acne",
+      "C": "Prevention of sexually transmitted infections",
+      "D": "Reduction of menstrual cramps"
+    },
+    "answer": "C",
+    "explanation": "This is a critical counseling point. Birth control pills are hormonal methods that are highly effective at preventing pregnancy but provide NO protection against STIs, including HIV, chlamydia, gonorrhea, or syphilis. Only barrier methods like condoms can reduce the risk of STI transmission.\n\nWhy other options are correct benefits:\n\nA) Regulation of menstrual cycles: By controlling hormone levels, pills lead to predictable, regular bleeding.\n\nB) Treatment for acne: The hormonal regulation can reduce androgen levels, which helps to control acne.\n\nD) Reduction of menstrual cramps: Pills often lead to lighter periods with less cramping (dysmenorrhea).",
+    "additional": "Public Health Implication: It is vital that users of hormonal contraception understand that they are still at risk for STIs if they have multiple partners or a partner with an unknown STI status. Counseling on dual method use (pill + condom) is essential.\n\nPossible Next Questions: \"A 19-year-old client starts on birth control pills for contraception. What is the most important additional counseling point regarding sexual health?\" (Answer: The need for condoms for STI prevention).\n\nRecommended Reading:\n\nContraceptive Technology, Chapter on Non-contraceptive Benefits and Risks of Contraception."
+  },
+  {
+    "question": "Which of the following contraceptive methods is most suitable for women with a history of blood clots?",
+    "options": {
+      "A": "Birth control pills",
+      "B": "IUD",
+      "C": "Depo-Provera",
+      "D": "Condoms"
+    },
+    "answer": "D",
+    "explanation": "A history of venous thromboembolism (VTE) or blood clots is a serious medical condition. Methods containing estrogen (like most birth control pills, the patch, and the ring) are contraindicated because estrogen increases the risk of clot formation. While progestin-only methods have a lower risk, the safest options are non-hormonal. Condoms are a non-hormonal barrier method and are perfectly safe for a woman with a history of blood clots.\n\nWhy other options are less suitable or contraindicated:\n\nA) Birth control pills (Combined): Contraindicated due to estrogen.\n\nB) IUD: This is vague. A Copper IUD would be a very suitable non-hormonal option. A Hormonal IUD is a progestin-only method and is generally considered safe, but condoms carry zero hormonal risk.\n\nC) Depo-Provera: This is a progestin-only method. While generally safer than combined methods, it still carries hormonal considerations.\n\nBetween the given choices, condoms are the most unequivocally safe and suitable option.",
+    "additional": "WHO Medical Eligibility Criteria (MEC): This is the global standard reference used by providers to determine which contraceptive methods are safe for women with specific medical conditions. A history of VTE is a Category 4 (absolute contraindication) for combined hormonal methods.\n\nBest LARC option: For a woman with a history of VTE who desires a highly effective, long-acting method, the Copper IUD would be the best choice.\n\nPossible Next Questions: \"According to the WHO MEC, what category of risk is a combined oral contraceptive for a woman with a current DVT?\" (Answer: Category 4)."
+  },
+  {
+    "question": "Which of the following is a potential side effect of using an IUD?",
+    "options": {
+      "A": "Weight gain",
+      "B": "Increased risk of ovarian cancer",
+      "C": "Pelvic inflammatory disease",
+      "D": "Decreased libido"
+    },
+    "answer": "C",
+    "explanation": "There is a small increased risk of Pelvic Inflammatory Disease (PID) associated with IUD use, but this risk is primarily concentrated in the first 20 days after insertion. The risk is not from the IUD itself, but rather from the possibility of introducing bacteria from the lower genital tract into the uterus during the insertion procedure. Pre-existing, undiagnosed STIs (like chlamydia or gonorrhea) are a major risk factor. Modern sterile insertion techniques and screening for STIs have made this risk very low.\n\nWhy other options are incorrect:\n\nA) Weight gain: Not a side effect typically associated with either copper or hormonal IUDs.\n\nB) Increased risk of ovarian cancer: Hormonal IUDs may slightly decrease the risk of ovarian and endometrial cancer. Copper IUDs have no effect.\n\nD) Decreased libido: Not a commonly reported side effect.",
+    "additional": "Other Side Effects:\n\nCopper IUD: Can cause heavier, longer, and more painful menstrual periods.\n\nHormonal IUD: Can cause irregular bleeding/spotting initially, but often leads to much lighter periods or amenorrhea. Other side effects can include headaches or mood changes, but these are less common due to the localized hormone action.\n\nPerforation: A rare but serious risk is uterine perforation, where the IUD punctures the uterine wall during insertion.\n\nPossible Next Questions: \"When is the risk of PID highest for an IUD user?\" \"What is the most common side effect of the copper IUD?\"\n\nRecommended Reading:\n\nFamily Planning: A Global Handbook for Providers, Chapter on IUDs, section on side effects and complications."
+  },
+  {
+    "question": "What is the most effective form of contraception for women who do not want to become pregnant but do not want to undergo permanent surgery?",
+    "options": {
+      "A": "Birth control pills",
+      "B": "IUD",
+      "C": "Condom",
+      "D": "Male sterilization"
+    },
+    "answer": "B",
+    "explanation": "This question is asking for the most effective reversible method. The Long-Acting Reversible Contraceptives (LARCs), which include IUDs and implants, are the most effective forms of reversible contraception available. Their \"typical use\" effectiveness rates are over 99%, almost as effective as permanent sterilization, because they remove the possibility of user error.\n\nWhy other options are less effective:\n\nA) Birth control pills & C) Condom: These are less effective in \"typical use\" because they are user-dependent. Forgetting pills or inconsistent condom use leads to higher failure rates.\n\nD) Male sterilization: This is a permanent surgical method, which the question excludes.",
+    "additional": "Tiered Effectiveness Model: Contraceptive methods are often categorized into tiers based on effectiveness:\n\nTier 1 (Most Effective): Implants, IUDs, Sterilization (>99% effective).\n\nTier 2 (Moderately Effective): Injectables, Pills, Patch, Ring (91-94% effective with typical use).\n\nTier 3 (Least Effective): Condoms, Diaphragms, Fertility Awareness Methods (<88% effective with typical use).\n\nPossible Next Questions: \"What does the term LARC stand for?\" \"Why are LARCs more effective in typical use than birth control pills?\"\n\nRecommended Reading:\n\nCDC - Contraception Effectiveness Factsheet."
+  },
+  {
+    "question": "Which contraceptive method involves the injection of a hormone every three months?",
+    "options": {
+      "A": "Birth control pills",
+      "B": "IUD",
+      "C": "Depo-Provera",
+      "D": "Condoms"
+    },
+    "answer": "C",
+    "explanation": "Depo-Provera (DMPA - depot medroxyprogesterone acetate) is an injectable contraceptive. It contains the hormone progestin and is administered as an intramuscular or subcutaneous injection that provides pregnancy protection for three months (13 weeks). The client must return to the clinic every three months for their next injection.\n\nWhy other options are incorrect:\n\nA) Birth control pills: Taken daily.\n\nB) IUD: Inserted for 3-12 years.\n\nD) Condoms: Used with each act of sex.",
+    "additional": "Mechanism: Depo-Provera works primarily by preventing ovulation. It also thickens cervical mucus.\n\nConvenience: It is a convenient method for women who do not want to take a daily pill but are not ready for a long-acting method like an IUD or implant.\n\nPossible Next Questions: \"What is the active hormone in Depo-Provera?\" (Answer: Progestin). \"How often must a client return for a Depo-Provera injection?\"\n\nRecommended Reading:\n\nFamily Planning: A Global Handbook for Providers, Chapter on Progestin-Only Injectables."
+  },
+  {
+    "question": "Which contraceptive method is most effective for women who are unable to remember to take daily pills?",
+    "options": {
+      "A": "Birth control pills",
+      "B": "Condoms",
+      "C": "IUD",
+      "D": "Birth control patch"
+    },
+    "answer": "C",
+    "explanation": "This question directly addresses the issue of user adherence. For a woman who has difficulty remembering a daily task, the best methods are those that are not user-dependent. An IUD is a \"fit and forget\" method. Once inserted, it works continuously for years without any further action required from the user.\n\nWhy other options are less suitable:\n\nA) Birth control pills: The worst option, as they require perfect daily memory.\n\nB) Condoms: Requires remembering to use one every single time before intercourse.\n\nD) Birth control patch: Better than the pill as it only requires weekly action, but still more user-dependent than an IUD.",
+    "additional": "Counseling Importance: When counseling a client, it's essential to discuss their lifestyle and ability to adhere to a method's requirements. Asking questions like, \"How easy or difficult would it be for you to remember to take a pill every day?\" helps guide them to the most suitable method.\n\nThe Implant would also be an equally correct answer if it were an option, as it is also a \"fit and forget\" LARC.\n\nPossible Next Questions: \"A client states she often forgets her daily vitamins. Which contraceptive method would you advise against?\" (Answer: Birth control pills).\n\nRecommended Reading:\n\nContraceptive Technology, Chapter on Contraceptive Counseling."
+  },
+  {
+    "question": "Which of the following contraceptive methods is a barrier method?",
+    "options": {
+      "A": "Birth control pills",
+      "B": "Condoms",
+      "C": "IUD",
+      "D": "Depo-Provera"
+    },
+    "answer": "B",
+    "explanation": "This question is a repeat of Question 1 in this unit, reinforcing a fundamental concept. Barrier methods work by creating a physical block to prevent sperm from entering the uterus. Condoms (male and female) are the most common examples.\n\nWhy other options are incorrect:\n\nA) Birth control pills: Hormonal method.\n\nC) IUD: Intrauterine method (can be hormonal or non-hormonal).\n\nD) Depo-Provera: Hormonal method (injectable).",
+    "additional": "Other Barrier Methods:\n\nDiaphragm: A shallow, dome-shaped cup placed inside the vagina to cover the cervix.\n\nCervical Cap: A smaller cup that fits snugly over the cervix.\n\nSpermicide: A chemical agent that kills sperm, often used in conjunction with other barrier methods.\n\nEffectiveness: All these methods are highly user-dependent and require correct placement before intercourse.\n\nPossible Next Questions: \"Describe how a diaphragm prevents pregnancy.\" \"What is spermicide?\""
+  },
+  {
+    "question": "What is the most common side effect of using the birth control pill?",
+    "options": {
+      "A": "Weight loss",
+      "B": "Nausea",
+      "C": "Increased fertility",
+      "D": "Increased risk of cervical cancer"
+    },
+    "answer": "B",
+    "explanation": "This question is a variation of Question 6, but with different distractors, reinforcing the importance of knowing common side effects. Nausea is one of the most frequently reported side effects when starting combined oral contraceptives (COCs), primarily due to the estrogen component. Other common side effects include breast tenderness, headaches, and breakthrough bleeding (spotting). These effects often subside after the first few cycles of use.\n\nWhy other options are incorrect:\n\nA) Weight loss: Weight gain is a more commonly reported (though not definitively proven in large studies) side effect than weight loss.\n\nC) Increased fertility: The pill works by suppressing fertility; it does not increase it.\n\nD) Increased risk of cervical cancer: While there is a slight association, it is not considered the most common side effect. The risk is relatively small and linked to long-term use, and is also heavily influenced by HPV infection.",
+    "additional": "Managing Nausea: Counseling a client to take the pill with food or at bedtime can often help alleviate nausea.\n\nSide Effect vs. Danger Sign: It's crucial to distinguish between common, manageable side effects (like nausea) and serious danger signs (like the ACHES acronym) that require immediate medical attention.\n\nPossible Next Questions: \"A client complains of nausea after starting OCPs. What advice can a nurse provide?\"\n\nRecommended Reading:\n\nFamily Planning: A Global Handbook for Providers, Chapter on Combined Oral Contraceptives."
+  },
+  {
+    "question": "Which contraceptive method is the only one that provides protection against sexually transmitted infections (STIs)?",
+    "options": {
+      "A": "IUD",
+      "B": "Birth control pills",
+      "C": "Condoms",
+      "D": "Depo-Provera"
+    },
+    "answer": "C",
+    "explanation": "This is a repeat of Question 8, emphasizing an absolutely critical public health message. Condoms (male and female) are the only contraceptive method that provides a physical barrier against the exchange of bodily fluids responsible for transmitting most STIs, including HIV. All other methods listed are designed solely for pregnancy prevention and offer no protection against infections.\n\nCounseling Imperative: Every client interaction involving contraception is an opportunity to discuss STI prevention. It should never be assumed that a client seeking pregnancy prevention is not at risk for STIs.\n\nDual Method Use: The concept of using a highly effective method (like an IUD) for pregnancy prevention plus a condom for STI prevention is the ideal strategy for comprehensive sexual health protection.",
+    "additional": "Effectiveness for STIs: While highly effective, condoms are not 100% protective. They do not cover all areas of skin that could be infected with viruses like HPV or herpes. However, they drastically reduce the risk of transmission for most STIs.\n\nPossible Next Questions: \"Explain the concept of 'dual method use'.\" \"Can a woman using an IUD still contract HIV?\" (Answer: Yes).\n\nRecommended Reading:\n\nWHO Factsheet on Sexually Transmitted Infections (STIs)."
+  },
+  {
+    "question": "What is a potential benefit of the copper IUD?",
+    "options": {
+      "A": "It contains hormones to prevent ovulation",
+      "B": "It is effective for 5 to 10 years",
+      "C": "It requires monthly visits to the doctor",
+      "D": "It has no risk of causing pelvic inflammatory disease"
+    },
+    "answer": "B",
+    "explanation": "The copper IUD is a highly effective, long-acting, non-hormonal method. Its primary benefit is its long duration of action. Most copper IUDs are approved for 10 to 12 years of continuous use, making it one of the most long-lasting reversible methods available.\n\nWhy other options are incorrect:\n\nA) It contains hormones: The copper IUD is explicitly non-hormonal.\n\nC) It requires monthly visits: This is false. It is a \"fit and forget\" method requiring no routine follow-up after the initial post-insertion check.\n\nD) It has no risk of causing PID: This is false. There is a small, transient risk of PID in the first 20 days post-insertion.",
+    "additional": "Mechanism: The copper IUD works by releasing copper ions into the uterus, which creates an inflammatory reaction that is toxic to both sperm and eggs, thereby preventing fertilization.\n\nBenefits for Specific Clients: It is an excellent choice for women who cannot or do not wish to use hormonal methods.\n\nSide Effect Profile: Its main drawback is that it can cause heavier, longer, and more painful periods, especially in the first few months.\n\nPossible Next Questions: \"For which client would a copper IUD be a particularly good choice?\" (Answer: A woman who desires long-term contraception but has contraindications to hormonal methods).\n\nRecommended Reading:\n\nContraceptive Technology, Chapter on Intrauterine Contraception."
+  },
+  {
+    "question": "Which contraceptive method requires a prescription from a healthcare provider?",
+    "options": {
+      "A": "Condoms",
+      "B": "IUD",
+      "C": "Diaphragm",
+      "D": "All of the above"
+    },
+    "answer": "B",
+    "explanation": "An IUD must be inserted into the uterus, a medical procedure that can only be performed by a trained healthcare provider. Therefore, it is a provider-dependent method and requires a \"prescription\" in the sense that a provider must agree to and perform the procedure.\n\nAnalysis of Other Options:\n\nA) Condoms: Are available over-the-counter (OTC) without a prescription.\n\nC) Diaphragm: In many countries, including the US, a diaphragm requires a prescription because it must be fitted by a provider to ensure the correct size. However, in some other regions, it may be available OTC.\n\nD) All of the above: Incorrect because condoms are OTC.",
+    "additional": "Given that an IUD always requires a provider, it is the most definitively correct answer among the choices. The document's answer here is sound, assuming the context that IUDs are not available for self-insertion.\n\nProvider-Dependent Methods: IUDs, implants, and sterilization (male/female) are all provider-dependent.\n\nSelf-Administered Methods: Pills, patches, rings, and condoms are self-administered after the initial consultation/prescription (if required).\n\nPossible Next Questions: \"Categorize the following methods as either provider-dependent or self-administered: Implant, Condom, Vasectomy, Pill.\""
+  },
+  {
+    "question": "Which of the following is a non-hormonal contraceptive option?",
+    "options": {
+      "A": "Birth control pills",
+      "B": "IUD (copper)",
+      "C": "Depo-Provera",
+      "D": "NuvaRing"
+    },
+    "answer": "B",
+    "explanation": "This question reinforces the fundamental distinction between hormonal and non-hormonal methods. The copper IUD is a highly effective contraceptive that works without any hormones. Its contraceptive effect comes from the local inflammatory reaction and spermicidal action of the copper ions it releases.\n\nWhy other options are incorrect:\n\nA) Birth control pills: Hormonal (combined or progestin-only).\n\nC) Depo-Provera: Hormonal (progestin-only).\n\nD) NuvaRing: Hormonal (combined estrogen and progestin).",
+    "additional": "List of Non-Hormonal Methods:\n\nCopper IUD\n\nBarrier Methods (Condoms, Diaphragm, Cervical Cap)\n\nSpermicides\n\nFertility Awareness-Based Methods\n\nLactational Amenorrhea Method (LAM)\n\nPermanent Sterilization (Vasectomy, Tubal Ligation)\n\nPossible Next Questions: \"A client with a history of hormone-sensitive breast cancer requests contraception. Which of the following methods would be safe for her?\" (Answer would be a non-hormonal method like the Copper IUD)."
+  },
+  {
+    "question": "Which contraceptive method is typically used as emergency contraception?",
+    "options": {
+      "A": "IUD",
+      "B": "Birth control pills",
+      "C": "Morning-after pill",
+      "D": "Depo-Provera"
+    },
+    "answer": "C",
+    "explanation": "The term \"morning-after pill\" is the common name for dedicated Emergency Contraception Pills (ECPs). These pills (e.g., Levonorgestrel-based or Ulipristal Acetate) are specifically packaged and marketed for use after unprotected intercourse to prevent pregnancy.\n\nWhy other options are less precise or incorrect:\n\nA) IUD: While a Copper IUD is a highly effective form of emergency contraception, it's a device that must be inserted by a provider and is not a pill.\n\nB) Birth control pills: Regular birth control pills can be used as emergency contraception in a specific high-dose regimen (the Yuzpe method), but this is less effective and has more side effects than dedicated ECPs. It is no longer a first-line recommendation.\n\nD) Depo-Provera: This is a routine contraceptive injection and is not used for emergency contraception.\n\nTherefore, the most accurate and specific answer is the \"morning-after pill.\"",
+    "additional": "Mechanism of Action: ECPs primarily work by delaying or preventing ovulation.\n\nTime Window: Levonorgestrel ECPs are most effective within 72 hours. Ulipristal Acetate ECPs and the Copper IUD are effective up to 120 hours (5 days).\n\nPossible Next Questions: \"What is the most effective method of emergency contraception?\" (Answer: Copper IUD). \"What is the primary mechanism of action of Levonorgestrel ECPs?\"\n\nRecommended Reading:\n\nWHO Factsheet on Emergency Contraception."
+  },
+  {
+    "question": "Which of the following methods has the lowest failure rate when used correctly?",
+    "options": {
+      "A": "Condoms",
+      "B": "Birth control pills",
+      "C": "IUD",
+      "D": "Fertility awareness methods"
+    },
+    "answer": "C",
+    "explanation": "This question asks about the lowest failure rate with \"correct use,\" which is synonymous with \"perfect use.\" Among the options provided, IUDs (both copper and hormonal) have the lowest failure rates. Because they are long-acting and not dependent on user action, their \"perfect use\" and \"typical use\" failure rates are nearly identical and are less than 1 pregnancy per 100 women per year (<1%).\n\nPerfect Use Failure Rates (Approximate):\n\nIUD: <0.8%\n\nBirth Control Pills: ~0.3%\n\nCondoms: ~2%\n\nFertility Awareness Methods: ~1-5% (highly variable)\n\nEven though the perfect use rate of the pill is very low, the IUD is generally considered the most effective reversible method overall because its effectiveness is not compromised by user error. Given the choices, the IUD is the best answer representing the highest level of effectiveness in practice.",
+    "additional": "Most Effective Methods Overall: The absolute most effective methods are the implant (>99.9% effective) and sterilization (>99.5% effective). IUDs are in the same top tier of effectiveness.\n\nPossible Next Questions: \"Why is there a large difference between the 'perfect use' and 'typical use' failure rates for condoms?\"\n\nRecommended Reading:\n\nCDC - Contraception Effectiveness Factsheet."
+  },
+  {
+    "question": "Which of the following is a potential side effect of using the hormonal IUD?",
+    "options": {
+      "A": "Severe menstrual bleeding",
+      "B": "Increased libido",
+      "C": "Decreased risk of ovarian cancer",
+      "D": "Irregular bleeding or spotting"
+    },
+    "answer": "D",
+    "explanation": "A change in bleeding patterns is the most common side effect of the hormonal IUD. In the first 3–6 months after insertion, users often experience irregular bleeding or spotting. Over time, however, the progestin thins the uterine lining, leading to a significant reduction in overall menstrual bleeding and cramping. Many users experience very light periods (oligomenorrhea) or no periods at all (amenorrhea).\n\nWhy other options are incorrect:\n\nA) Severe menstrual bleeding: This is a characteristic side effect of the Copper IUD, not the hormonal IUD.\n\nB) Increased libido: Not a recognized or common side effect.\n\nC) Decreased risk of ovarian cancer: This is a potential benefit, not a side effect.",
+    "additional": "Therapeutic Benefits: The reduction in menstrual bleeding makes the hormonal IUD an excellent treatment for conditions like heavy menstrual bleeding and endometriosis.\n\nCounseling: It is essential to counsel clients that irregular spotting is normal and expected initially, as this knowledge improves satisfaction and continuation of the method.\n\nPossible Next Questions: \"How does the effect of a hormonal IUD on menstrual bleeding differ from that of a copper IUD?\"\n\nRecommended Reading:\n\nContraceptive Technology, Chapter on Intrauterine Contraception."
+  },
+  {
+    "question": "What is the duration of effectiveness for the Depo-Provera injection?",
+    "options": {
+      "A": "1 year",
+      "B": "2 years",
+      "C": "3 months",
+      "D": "5 years"
+    },
+    "answer": "C",
+    "explanation": "The Depo-Provera (DMPA) injection is a short-acting, reversible contraceptive. Each injection provides protection against pregnancy for three months (or 13 weeks). To maintain effectiveness, the user must receive another injection on schedule.\n\nWhy other options are incorrect:\n\n1 year, 2 years, 5 years: These durations are associated with Long-Acting Reversible Contraceptives (LARCs) like the IUD or implant, not the injection. For example, Implanon/Nexplanon lasts 3 years, and the Jadelle implant and copper IUD can last 5 years or more.",
+    "additional": "Grace Period: There is a \"grace period\" for the injection. A woman can receive her next shot up to two weeks early or up to four weeks late and still be protected. This flexibility is important in real-world clinical practice.\n\nPossible Next Questions: \"What is the recommended interval between Depo-Provera injections?\"\n\nRecommended Reading:\n\nFamily Planning: A Global Handbook for Providers, Chapter on Progestin-Only Injectables."
+  },
+  {
+    "question": "Which contraceptive method involves the surgical removal of the fallopian tubes in women?",
+    "options": {
+      "A": "Vasectomy",
+      "B": "Laparotomy",
+      "C": "Tubal ligation",
+      "D": "Birth control pill"
+    },
+    "answer": "C",
+    "explanation": "Tubal ligation is the general term for female sterilization, a permanent method of contraception. The procedure involves surgically blocking, cutting, or sealing the fallopian tubes to prevent eggs from traveling from the ovaries to the uterus, thus preventing fertilization. A salpingectomy (complete removal of the tubes) is now often performed, as it also reduces the risk of ovarian cancer.\n\nWhy other options are incorrect:\n\nA) Vasectomy: This is male sterilization.\n\nB) Laparotomy: This is a general surgical term for an incision into the abdominal cavity; it is an approach that could be used for a tubal ligation, but it is not the method itself.\n\nD) Birth control pill: This is a non-surgical, hormonal method.",
+    "additional": "Surgical Approaches: Tubal ligation can be performed through various methods, including laparoscopy (a minimally invasive \"keyhole\" surgery) or a minilaparotomy (a small abdominal incision), often done postpartum.\n\nPermanence: It is crucial to counsel clients that tubal ligation is intended to be permanent.\n\nPossible Next Questions: \"What is the primary goal of a tubal ligation procedure?\""
+  },
+  {
+    "question": "What is the main function of the contraceptive patch?",
+    "options": {
+      "A": "Prevent ovulation",
+      "B": "Block sperm entry",
+      "C": "Increase fertility",
+      "D": "Prevent menstrual cramps"
+    },
+    "answer": "A",
+    "explanation": "The contraceptive patch is a combined hormonal method that continuously releases estrogen and progestin through the skin. Its primary mechanism of action is the suppression of the mid-cycle surge of Luteinizing Hormone (LH), which in turn prevents ovulation (the release of an egg).\n\nWhy other options are incorrect:\n\nB) Block sperm entry: This is the function of a barrier method like a condom or diaphragm. The patch has a secondary mechanism of thickening cervical mucus, which impedes sperm, but its main function is preventing ovulation.\n\nC) Increase fertility: It is a contraceptive, so it prevents fertility.\n\nD) Prevent menstrual cramps: This is a potential non-contraceptive benefit or positive side effect of the patch, but it is not its main function for contraception.",
+    "additional": "Secondary Mechanisms: Like combined pills, the patch also works by thickening cervical mucus and thinning the endometrium, making it less receptive to implantation.\n\nHormones: The hormones are the same types used in many combined oral contraceptives.\n\nPossible Next Questions: \"How does the contraceptive patch deliver hormones to the body?\" (Answer: Transdermally/through the skin). \"Name two secondary mechanisms of action for the contraceptive patch.\"\n\nRecommended Reading:\n\nContraceptive Technology, Chapter on the Patch and Ring."
+  },
+  {
+    "question": "Which contraceptive method is most effective when used consistently and correctly?",
+    "options": {
+      "A": "Birth control pills",
+      "B": "Male condoms",
+      "C": "Female sterilization",
+      "D": "Fertility awareness methods"
+    },
+    "answer": "C",
+    "explanation": "This question asks for the method with the highest effectiveness, which means the lowest failure rate. Of the options listed, female sterilization (tubal ligation) is the most effective. It is a permanent method with a failure rate of less than 1% (approximately 0.5%, or 5 pregnancies per 1,000 women in the first year).\n\nComparing \"Perfect Use\" Effectiveness:\n\nFemale Sterilization: >99.5% effective.\n\nBirth Control Pills: ~99.7% effective if taken perfectly.\n\nMale Condoms: ~98% effective if used perfectly.\n\nFertility Awareness Methods (FAMs): ~95-99% effective if used perfectly.\n\nWhile the \"perfect use\" rates for pills and FAMs look high, they are very difficult to achieve in real life. Sterilization, once successfully performed, requires no further user action, making its \"perfect use\" and \"typical use\" effectiveness nearly identical and superior to the other options in practice.",
+    "additional": "Top Tier Methods: Remember the tiered effectiveness model. The most effective methods are implants, IUDs, and sterilization. They are all >99% effective in typical use.\n\nPossible Next Questions: \"Which of the following has the lowest typical-use failure rate: the implant or the condom?\" (Answer: The implant).\n\nRecommended Reading:\n\nCDC - Contraception Effectiveness Factsheet."
+  },
+  {
+    "question": "Which of the following is a temporary method of contraception that can be removed when desired?",
+    "options": {
+      "A": "IUD",
+      "B": "Vasectomy",
+      "C": "Birth control pill",
+      "D": "Male condom"
+    },
+    "answer": "A",
+    "explanation": "This question is asking to identify a temporary/reversible method. An IUD is a classic example of a long-acting reversible method. It is placed in the uterus for long-term use but can be removed at any time by a healthcare provider, after which a woman's fertility quickly returns to normal.\n\nAnalysis of Other Options:\n\nB) Vasectomy: This is a permanent method.\n\nC) Birth control pill: This is temporary, but it is stopped rather than \"removed.\"\n\nD) Male condom: This is temporary and is removed after each use, but it's not a method that is \"in place\" for a duration and then removed to restore fertility in the same way an IUD or implant is.\n\nThe phrasing \"removed when desired\" best fits a LARC like an IUD or an implant, which is physically taken out of the body to end its contraceptive effect.",
+    "additional": "Reversibility: A key feature of modern contraception is that most methods are fully reversible, allowing individuals to plan their families and space pregnancies effectively. The only methods not considered easily reversible are male and female sterilization.\n\nPossible Next Questions: \"Name two long-acting reversible contraceptive methods.\" (Answer: IUD and implant)."
+  },
+  {
+    "question": "Which of the following contraceptive methods is a combination of estrogen and progestin?",
+    "options": {
+      "A": "Birth control pill",
+      "B": "Copper IUD",
+      "C": "Condoms",
+      "D": "Depo-Provera"
+    },
+    "answer": "A",
+    "explanation": "This question is testing knowledge of hormonal composition. Most birth control pills are Combined Oral Contraceptives (COCs), meaning they contain both a synthetic estrogen and a progestin. These two hormones work together to prevent pregnancy, primarily by stopping ovulation.\n\nWhy other options are incorrect:\n\nB) Copper IUD: Non-hormonal.\n\nC) Condoms: Non-hormonal barrier method.\n\nD) Depo-Provera: This is a progestin-only method. It does not contain estrogen.",
+    "additional": "Combined Hormonal Contraceptives (CHCs): This category includes the pill, the patch, and the vaginal ring. They all contain both estrogen and progestin.\n\nProgestin-Only Contraceptives (POCs): This category includes the progestin-only pill (mini-pill), the injectable (Depo-Provera), the implant, and the hormonal IUD. These are often suitable for women who cannot take estrogen (e.g., breastfeeding women, those with a history of blood clots).\n\nPossible Next Questions: \"Which of the following is a progestin-only contraceptive method?\" (Answer could be Depo-Provera, implant, etc).\n\nRecommended Reading:\n\nFamily Planning: A Global Handbook for Providers, Chapters on different methods."
+  },
+  {
+    "question": "Which contraceptive method involves the removal of sperm from the semen through surgical procedure?",
+    "options": {
+      "A": "Vasectomy",
+      "B": "Birth control pill",
+      "C": "IUD",
+      "D": "Diaphragm"
+    },
+    "answer": "A",
+    "explanation": "A vasectomy is a permanent surgical procedure for men. It involves cutting, tying, or sealing the vas deferens, which are the tubes that transport sperm from the testes to the urethra. This procedure blocks sperm from mixing with the seminal fluid, so the ejaculate (semen) will no longer contain sperm.\n\nWhy other options are incorrect:\n\nB) Birth control pill: A hormonal method for women.\n\nC) IUD: An intrauterine device for women.\n\nD) Diaphragm: A barrier method for women that covers the cervix.",
+    "additional": "Azoospermia: The goal of a vasectomy is to achieve azoospermia (the absence of sperm in the semen). This must be confirmed with a follow-up semen analysis before the man can be considered sterile.\n\nProcedure: It is a minor surgical procedure, usually taking less than 30 minutes under local anesthesia.\n\nPossible Next Questions: \"What is the anatomical structure that is cut or sealed during a vasectomy?\" (Answer: The vas deferens). \"Is a man considered sterile immediately after a vasectomy?\" (Answer: No)."
+  },
+  {
+    "question": "Which of the following contraceptive methods is effective for up to 5 years?",
+    "options": {
+      "A": "IUD",
+      "B": "Birth control pills",
+      "C": "Condoms",
+      "D": "Male sterilization"
+    },
+    "answer": "A",
+    "explanation": "This question tests knowledge of the duration of effectiveness for different methods. Certain types of IUDs and implants provide protection for 5 years.\n\nIUDs: The Mirena and Kyleena hormonal IUDs are effective for up to 8 years and 5 years, respectively. The Copper IUD is effective for up to 12 years. Therefore, an IUD is an excellent answer.\n\nImplants: The Jadelle implant (a two-rod system) is effective for up to 5 years.\n\nGiven the choices, the IUD is the correct answer.\n\nWhy other options are incorrect:\n\nB) Birth control pills: These are a daily method.\n\nC) Condoms: These are a single-use method.\n\nD) Male sterilization: This is a permanent method, effective for a lifetime. The question implies a reversible method with a specific duration.",
+    "additional": "Specific LARC Durations: It's useful to know the durations for common LARCs:\n\nCopper IUD (ParaGard): 12 years\n\nMirena IUD: 8 years\n\nLiletta IUD: 8 years\n\nKyleena IUD: 5 years\n\nSkyla IUD: 3 years\n\nJadelle Implant: 5 years\n\nImplanon/Nexplanon Implant: 3 years\n\nPossible Next Questions: \"Which LARC method provides the longest duration of protection?\" (Answer: Copper IUD).\n\nRecommended Reading:\n\nFamily Planning: A Global Handbook for Providers, Summary charts on method duration."
+  },
+  {
+    "question": "Which of the following methods prevents pregnancy by altering the cervical mucus and thinning the uterine lining?",
+    "options": {
+      "A": "Male sterilization",
+      "B": "Depo-Provera",
+      "C": "IUD",
+      "D": "Birth control pills"
+    },
+    "answer": "D",
+    "explanation": "This question asks about the mechanisms of action. All progestin-containing hormonal methods work, at least in part, by thickening cervical mucus and thinning the uterine lining (endometrium).\n\nBirth control pills (D) (both combined and progestin-only) do this.\n\nDepo-Provera (B) (progestin-only) also does this.\n\nA hormonal IUD (C) also does this locally.\n\nHowever, the primary mechanism for combined pills and Depo-Provera is inhibiting ovulation. The changes in cervical mucus and the uterine lining are considered secondary mechanisms. For the hormonal IUD, the local effects on mucus and the endometrium are considered primary mechanisms. Given the options, \"Birth control pills\" is a valid answer as it performs these functions, though it's not its only mechanism.",
+    "additional": "Primary vs. Secondary Mechanisms:\n\nCHCs (Pill, Patch, Ring): Primary = Ovulation inhibition. Secondary = Mucus thickening, endometrial thinning.\n\nDepo-Provera/Implant: Primary = Ovulation inhibition. Secondary = Mucus thickening.\n\nHormonal IUD: Primary = Mucus thickening, local endometrial effects. Secondary = Ovulation inhibition (in some cycles).\n\nCopper IUD: Primary = Spermicidal (copper ions).\n\nPossible Next Questions: \"What is the primary mechanism of action for the Depo-Provera injection?\" (Answer: Inhibition of ovulation)."
+  },
+  {
+    "question": "Which of the following contraceptive methods is available over-the-counter?",
+    "options": {
+      "A": "Birth control pills",
+      "B": "IUD",
+      "C": "Condoms",
+      "D": "Diaphragm"
+    },
+    "answer": "C",
+    "explanation": "\"Over-the-counter\" (OTC) means a product can be purchased without a prescription from a healthcare provider. Condoms (both male and female) and spermicides are readily available for purchase in pharmacies and other retail stores without a prescription.\n\nWhy other options are incorrect:\n\nA) Birth control pills: Require a prescription in most countries, including Kenya.\n\nB) IUD: Requires insertion by a trained provider and is therefore a prescription/provider-dependent method.\n\nD) Diaphragm: Requires a fitting and prescription from a provider to ensure the correct size is used.",
+    "additional": "Accessibility: The OTC availability of condoms is a major public health advantage, making them highly accessible for both pregnancy and STI prevention.\n\nEmergency Contraception: In many countries, Levonorgestrel-based emergency contraceptive pills are also available over-the-counter, sometimes with age restrictions.\n\nPossible Next Questions: \"List two contraceptive methods available without a prescription.\""
+  },
+  {
+    "question": "Which of the following is a primary advantage of using the birth control pill?",
+    "options": {
+      "A": "Immediate protection after one dose",
+      "B": "Can be stopped and resumed at any time",
+      "C": "Does not require any medical procedure",
+      "D": "Provides 100% protection against STIs"
+    },
+    "answer": "B",
+    "explanation": "A key advantage of short-acting methods like the pill is user control and rapid reversibility. A woman can decide to stop taking the pills at any point if she desires to become pregnant or switch methods, and fertility typically returns quickly. This flexibility is a primary advantage.\n\nWhy other options are incorrect:\n\nA) Immediate protection after one dose: False. It takes up to 7 days to become effective unless started on day 1 of the cycle.\n\nC) Does not require any medical procedure: True, but this is also true of condoms, patches, etc. The rapid reversibility is a more defining advantage.\n\nD) Provides 100% protection against STIs: False. It provides no STI protection.",
+    "additional": "Comparing Reversibility: While LARCs like IUDs and implants are also reversible, they require a clinic visit and a provider to perform the removal. The pill can simply be discontinued by the user at home.\n\nPossible Next Questions: \"Compare the return to fertility after stopping OCPs versus stopping Depo-Provera.\""
+  },
+  {
+    "question": "Which of the following is a possible side effect of the contraceptive patch?",
+    "options": {
+      "A": "Weight gain",
+      "B": "Irregular bleeding",
+      "C": "Increased risk of heart disease",
+      "D": "All of the above"
+    },
+    "answer": "D",
+    "explanation": "The contraceptive patch is a combined hormonal method, and its side effect profile is very similar to that of combined oral contraceptives.\n\nWeight gain (A) and irregular bleeding (B) are commonly reported side effects.\n\nIncreased risk of heart disease (C), specifically blood clots (VTE), is a rare but serious risk associated with the estrogen component, especially in women with other risk factors like smoking or hypertension.\n\nSince all listed items are potential side effects, \"All of the above\" is the correct answer.",
+    "additional": "Other Side Effects: Skin irritation at the application site is a side effect unique to the patch. Headaches, nausea, and breast tenderness are also possible.\n\nEstrogen Exposure: Some studies suggest that the patch may deliver a higher total dose of estrogen to the body than typical low-dose pills, which could theoretically increase the risk of clots slightly, although the absolute risk remains very low.\n\nPossible Next Questions: \"Name a side effect that is specific to the contraceptive patch and not the pill.\" (Answer: Skin irritation)."
+  },
+  {
+    "question": "Which of the following is NOT a hormonal method of contraception?",
+    "options": {
+      "A": "IUD",
+      "B": "Depo-Provera",
+      "C": "Birth control pills",
+      "D": "Male condom"
+    },
+    "answer": "D",
+    "explanation": "This question requires identifying the method that does not use synthetic hormones to prevent pregnancy. A male condom is a barrier method; it is a latex or polyurethane sheath that physically prevents semen from entering the vagina. It does not involve or release any hormones.\n\nAnalyzing the Other Options:\n\nA) IUD: This is ambiguous. There are hormonal IUDs (which are hormonal) and copper IUDs (which are not). Without specifying which type, it's a less clear answer than the condom.\n\nB) Depo-Provera: This is a progestin-only hormonal injectable.\n\nC) Birth control pills: These are hormonal (either combined or progestin-only).\n\nGiven the choices, the male condom is the only option that is unequivocally non-hormonal in all its forms.",
+    "additional": "Clarification is Key: If faced with an ambiguous option like \"IUD\" in a real exam, look for the most definitively correct or incorrect answer. The male condom fits this perfectly as it has no hormonal component whatsoever.\n\nPossible Next Questions: \"Classify the following as hormonal or non-hormonal: Copper IUD, Mirena IUD, NuvaRing, Diaphragm.\""
+  },
+  {
+    "question": "What is the primary function of the morning-after pill?",
+    "options": {
+      "A": "Prevent fertilization",
+      "B": "Prevent implantation",
+      "C": "Prevent ovulation",
+      "D": "All of the above"
+    },
+    "answer": "D",
+    "explanation": "Emergency Contraception Pills (ECPs) have a multi-faceted mechanism of action that depends on the timing within the menstrual cycle.\n\nTheir main and most effective function is to delay or inhibit ovulation (C). By preventing the release of an egg, there is nothing for sperm to fertilize.\n\nIf ovulation is imminent or has just occurred, they may also work by preventing fertilization (A) by interfering with tubal transport or sperm function.\n\nThey may also prevent implantation (B) of a fertilized egg by altering the uterine lining, though this is considered a less frequent or primary mechanism.\n\nSince all three are possible mechanisms, \"All of the above\" is the most comprehensive answer.",
+    "additional": "Not an Abortifacient: It's critical to remember that ECPs do not interrupt an established pregnancy (one where the fertilized egg has already implanted).\n\nCounseling: A key counseling point is that ECPs are for emergency use and are not as effective as regular contraceptive methods. A client using ECPs should be counseled on starting a regular method.\n\nPossible Next Questions: \"Why should the morning-after pill not be used as a regular form of contraception?\""
+  },
+  {
+    "question": "Which of the following contraceptive methods requires surgical sterilization?",
+    "options": {
+      "A": "Vasectomy",
+      "B": "IUD",
+      "C": "Birth control pill",
+      "D": "Depo-Provera"
+    },
+    "answer": "A",
+    "explanation": "This question asks to identify the surgical sterilization method among the choices. Vasectomy is the surgical procedure for male sterilization. Tubal ligation is the surgical procedure for female sterilization. Both are intended to be permanent.\n\nWhy other options are incorrect:\n\nB) IUD: Requires a medical procedure (insertion) but is not a surgical sterilization. It is reversible.\n\nC) Birth control pill: A hormonal medication, not a surgical procedure.\n\nD) Depo-Provera: An injectable medication, not a surgical procedure.",
+    "additional": "Sterilization as a Method: It is one of the most common contraceptive methods used worldwide, especially by couples who have completed their desired family size.\n\nInformed Consent: The process of obtaining informed consent is paramount before a sterilization procedure, ensuring the client fully understands its permanency, risks, and benefits.\n\nPossible Next Questions: \"What is the term for female sterilization?\" (Answer: Tubal ligation)."
+  },
+  {
+    "question": "What is the primary advantage of the Depo-Provera injection?",
+    "options": {
+      "A": "It provides contraception for one year",
+      "B": "It requires monthly administration",
+      "C": "It does not affect menstrual cycles",
+      "D": "It can be used while breastfeeding"
+    },
+    "answer": "D",
+    "explanation": "Depo-Provera is a progestin-only method. Methods that contain only progestin and no estrogen are considered safe for breastfeeding women as they do not negatively impact the quantity or quality of breast milk. This makes it a very suitable and advantageous option for postpartum women who are breastfeeding and desire effective contraception.\n\nWhy other options are incorrect:\n\nA) It provides contraception for one year: False. It is effective for three months.\n\nB) It requires monthly administration: False. It is administered every three months.\n\nC) It does not affect menstrual cycles: False. It very commonly affects menstrual cycles, often causing irregular bleeding initially and amenorrhea (no periods) with long-term use.",
+    "additional": "Other Progestin-Only Options for Breastfeeding: The implant and the progestin-only pill (mini-pill) are also excellent options for breastfeeding women.\n\nTiming: It can usually be started 6 weeks postpartum in breastfeeding women.\n\nPossible Next Questions: \"Why is Depo-Provera considered a safe contraceptive option for breastfeeding mothers?\""
+  },
+  {
+    "question": "Which contraceptive method may cause a woman to experience amenorrhea (absence of menstruation)?",
+    "options": {
+      "A": "Birth control pills",
+      "B": "Depo-Provera",
+      "C": "Male condom",
+      "D": "IUD"
+    },
+    "answer": "B",
+    "explanation": "Amenorrhea is a well-known and very common side effect of long-term use of the Depo-Provera injection. The progestin in the injection suppresses ovulation and causes significant thinning of the endometrium (uterine lining). With a very thin lining, there is little to no tissue to shed, resulting in the absence of menstrual periods. Approximately 50% of users are amenorrheic after one year of use.\n\nAnalyzing the Other Options:\n\nA) Birth control pills: Typically cause lighter, more regular withdrawal bleeding, not complete amenorrhea, although some low-dose continuous pills can.\n\nC) Male condom: Has no effect on the menstrual cycle.\n\nD) IUD: This is ambiguous. The Hormonal IUD also commonly causes amenorrhea. The Copper IUD typically causes heavier bleeding.\n\nBetween the given choices, Depo-Provera is the method most famously associated with causing amenorrhea.",
+    "additional": "Is Amenorrhea Harmful? The amenorrhea caused by hormonal methods like Depo-Provera or the hormonal IUD is not harmful. It does not mean a woman is in menopause or that blood is \"building up.\" Many women consider it a significant benefit of the method.\n\nPossible Next Questions: \"Explain the physiological reason why Depo-Provera can lead to amenorrhea.\""
+  }
+]
+
+
+
+
+
