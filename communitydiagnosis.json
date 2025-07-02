@@ -1,0 +1,288 @@
+[
+  {
+    "question": "What is the primary goal of a community diagnosis in public health?",
+    "options": {
+      "A": "Ignoring the health needs of the community",
+      "B": "Identifying and understanding the health needs and concerns of a community",
+      "C": "Promoting individual health assessments",
+      "D": "Focusing exclusively on healthcare providers"
+    },
+    "answer": "B",
+    "explanation": "This is a foundational question that defines the entire purpose of the subject.\n\nCommunity Diagnosis: A systematic process of identifying and analyzing the health status, health problems, and underlying determinants of health in a defined population.\n\nPrimary Goal: To get a clear picture of the community's health needs and strengths, which informs planning and interventions. Unlike individual diagnosis, the 'patient' is the whole community.",
+    "additional": "1. The Community as a Client:\n- Focus shifts from individuals to populations.\n- Looks at morbidity, mortality, and determinants of health.\n\n2. Community Diagnosis and the Nursing Process:\n- Assessment: Community Diagnosis.\n- Diagnosis: Prioritized health problems.\n- Planning: CHIP.\n- Implementation: Health programs.\n- Evaluation: Outcome monitoring.\n\nFuture Question Idea: \"The community diagnosis process corresponds to which phase of the nursing process?\" (Answer: Assessment)."
+  },
+  {
+    "question": "In the context of community diagnosis, what is the primary focus of 'data collection'?",
+    "options": {
+      "A": "Disregarding the need for data",
+      "B": "Gathering and analyzing information related to community health and well-being",
+      "C": "Promoting data exclusivity",
+      "D": "Ignoring community input"
+    },
+    "answer": "B",
+    "explanation": "This question defines the central activity of a community diagnosis.\n\nData Collection: The systematic process of gathering relevant information on health status, risks, resources, and social conditions of the population.\n\nPrimary Focus: Build a full picture of the community’s current health landscape using reliable and inclusive sources. Community engagement is key.",
+    "additional": "1. Types of Data Sources:\n- Primary Data: Surveys, interviews, focus groups, observations.\n- Secondary Data: Census, DHIS2, vital statistics, past studies.\n\n2. Importance of Community Input:\n- Provides context, relevance, and empowerment.\n\nFuture Question Idea: \"A community health nurse reviews census and clinic data to learn about the population. What type of data is being used?\" (Answer: Secondary data)."
+  },
+  {
+    "question": "What is the primary purpose of conducting a community health survey?",
+    "options": {
+      "A": "Excluding community members from health assessments",
+      "B": "Gathering information about the health status, needs, and resources of a community",
+      "C": "Promoting unstructured data collection",
+      "D": "Ignoring community engagement"
+    },
+    "answer": "B",
+    "explanation": "This question addresses a key method of primary data collection.\n\nCommunity Health Survey: A structured way to gather information directly from community members using questionnaires.\n\nPurpose: To quantify health behaviors, attitudes, knowledge, access to care, and self-reported status. It enhances participation and gives a voice to the population.",
+    "additional": "1. Data Collected:\n- Health Status: Illness prevalence.\n- Behaviors: Diet, exercise, smoking.\n- Knowledge: About diseases.\n- Perceptions: What they see as top concerns.\n\n2. Methodological Strength:\n- Surveys are standardized, scalable, and analyzable.\n\nFuture Question Idea: \"What is a key advantage of using a community survey in diagnosis?\" (Answer: It directly captures community-reported data on needs and resources.)"
+  },
+  {
+    "question": "In community diagnosis, what does 'qualitative data' refer to?",
+    "options": {
+      "A": "Data exclusively collected from healthcare professionals",
+      "B": "Non-numerical data that provides insights into community perceptions, experiences, and beliefs",
+      "C": "Promoting quantitative data only",
+      "D": "Ignoring the importance of data collection"
+    },
+    "answer": "B",
+    "explanation": "This question distinguishes qualitative from quantitative data.\n\nQualitative Data: Descriptive, narrative information obtained through interviews, focus groups, and observation.\n\nPurpose: To explore people's thoughts, behaviors, and underlying reasons behind community practices. Complements quantitative data by adding depth.",
+    "additional": "1. Examples:\n- Focus group quote: 'We boil water only if we have charcoal.'\n- Key informant: 'The clinic isn’t trusted because the staff are not from this community.'\n\n2. Mixed Methods:\n- Combining qualitative and quantitative data offers a fuller picture.\n\nFuture Question Idea: \"A nurse conducts a focus group on healthcare access. What type of data is being collected?\" (Answer: Qualitative data)."
+  },
+  {
+    "question": "What is the primary goal of conducting a community assessment?",
+    "options": {
+      "A": "Ignoring community health concerns",
+      "B": "Identifying and understanding the strengths, assets, and challenges of a community",
+      "C": "Promoting the isolation of community members",
+      "D": "Focusing exclusively on individual health assessments"
+    },
+    "answer": "B",
+    "explanation": "This question revisits the concept of community diagnosis with a modern lens on empowerment.\n\nCommunity Assessment: A process not only to find problems but also to highlight strengths and resources.\n\nAsset-Based Focus: Shifts the narrative to what’s working—local leaders, existing programs, social capital—which can be built upon for sustainable solutions.",
+    "additional": "1. Strengths-Based Approach:\n- Identifies what the community is already doing well.\n- Builds trust and ownership.\n\n2. Participatory Assessment:\n- Encourages input from the community.\n- Fosters collaboration, not top-down decision-making.\n\nFuture Question Idea: \"Which of the following best reflects an asset-based approach to community assessment?\" (Answer: Identifying active community health volunteers as a strength.)"
+  },
+  {
+    "question": "In community diagnosis, what does 'epidemiological data' focus on?",
+    "options": {
+      "A": "Ignoring data related to diseases",
+      "B": "Data related to the distribution and determinants of health-related states and events in a population",
+      "C": "Promoting non-health-related data",
+      "D": "Disregarding the impact of data on decision-making"
+    },
+    "answer": "B",
+    "explanation": "This question defines the core use of epidemiological data in community diagnosis. Epidemiology studies the distribution and causes of health conditions in populations and applies this understanding to control health issues. Epidemiological data includes morbidity, mortality, and risk factor trends—key tools for identifying and prioritizing health needs.",
+    "additional": "1. Key Epidemiological Rates:\n- Incidence Rate: (New cases / Population at risk) x Constant — measures risk.\n- Prevalence Rate: (Existing cases / Total population) x Constant — measures burden.\n- Infant Mortality Rate (IMR): (Infant deaths / Live births) x 1,000 — reflects community health status.\n\n2. Practical Use:\n- Identifies the most pressing health issues.\n- Guides resource allocation and intervention planning.\n\nFuture Question Idea: \"Which measure is most appropriate for assessing new TB infections in a community over one year?\" (Answer: Incidence rate)."
+  },
+  {
+    "question": "What is the primary objective of 'community mapping' in community diagnosis?",
+    "options": {
+      "A": "Excluding the community from decision-making",
+      "B": "Identifying and visualizing the geographical distribution of health-related resources and issues within a community",
+      "C": "Promoting the disregard of community geography",
+      "D": "Ignoring community input"
+    },
+    "answer": "B",
+    "explanation": "This question explains community mapping as a tool for visualizing data spatially. Mapping reveals resource locations, environmental hazards, service gaps, and risk zones. It helps uncover patterns and enables more targeted interventions.",
+    "additional": "1. Types of Community Maps:\n- Hand-drawn: Created with community input.\n- Digital (GIS): Created with software to overlay health data on geography.\n\n2. Asset Mapping:\n- Focuses on community strengths: people, organizations, infrastructure.\n- Used in the Asset-Based Community Development (ABCD) model.\n\nFuture Question Idea: \"What is the purpose of mapping households with latrines and water points in a village?\" (Answer: To visualize health resources and guide sanitation interventions)."
+  },
+  {
+    "question": "In community diagnosis, what is the primary purpose of 'stakeholder engagement'?",
+    "options": {
+      "A": "Ignoring the importance of community input",
+      "B": "Involving individuals and groups who have a vested interest in the health and well-being of the community",
+      "C": "Promoting exclusive decision-making by professionals",
+      "D": "Disregarding community assets and strengths"
+    },
+    "answer": "B",
+    "explanation": "Stakeholder engagement ensures health initiatives are collaborative and contextually relevant. Stakeholders—community leaders, government officials, NGOs, local professionals—offer insight, resources, and legitimacy. Their inclusion improves buy-in and sustainability of public health programs.",
+    "additional": "1. Stakeholder Examples:\n- Community members, religious leaders, local health workers, NGOs, business owners, teachers.\n\n2. Ladder of Participation:\n- Informing → Consulting → Involving → Collaborating → Empowering (highest).\n\nFuture Question Idea: \"A nurse consults youth leaders and elders while planning a reproductive health campaign. What is this an example of?\" (Answer: Stakeholder engagement)."
+  },
+  {
+    "question": "What is the primary goal of 'community forums' in the context of community diagnosis?",
+    "options": {
+      "A": "Excluding community members from discussions",
+      "B": "Providing opportunities for community members to discuss health concerns, needs, and priorities",
+      "C": "Promoting one-way communication from professionals to the community",
+      "D": "Ignoring community voices"
+    },
+    "answer": "B",
+    "explanation": "Community forums allow for open, participatory discussion between health professionals and the public. They help gather community-defined priorities, concerns, and solutions. This ensures programs are rooted in lived experiences and not just statistics.",
+    "additional": "1. Benefits of Forums:\n- Two-way communication builds trust.\n- Highlights overlooked issues.\n- Increases transparency and ownership.\n\n2. Best Practices:\n- Choose accessible venues and times.\n- Encourage diverse voices (youth, elders, women).\n- Use plain language.\n\nFuture Question Idea: \"Why is it important to include marginalized voices in a community health forum?\" (Answer: To ensure all health concerns are fairly represented and addressed)."
+  },
+  {
+    "question": "In community diagnosis, what does 'secondary data analysis' involve?",
+    "options": {
+      "A": "Collecting new data from community members",
+      "B": "Analyzing existing data sources, such as health records and reports, to inform community health assessments",
+      "C": "Promoting the disregard of existing data",
+      "D": "Ignoring the relevance of data analysis"
+    },
+    "answer": "B",
+    "explanation": "Secondary data analysis involves using data already collected by others—such as government reports, census records, or hospital databases. It is cost-effective, quick to access, and helps establish context for more focused primary data collection.",
+    "additional": "1. Common Sources:\n- DHIS2 (District Health Info System)\n- National census (KNBS)\n- Clinic morbidity reports\n- Research articles\n\n2. Benefits & Limits:\n- Pros: Saves time, offers historical comparisons.\n- Cons: May be outdated, incomplete, or misaligned with current goals.\n\nFuture Question Idea: \"A nurse uses last year's DHIS2 data to understand disease patterns before designing a survey. What type of data is this?\" (Answer: Secondary data)."
+  },
+  {
+    "question": "What is the primary focus of 'community health needs assessment' (CHNA) in community diagnosis?",
+    "options": {
+      "A": "Excluding community input from assessment processes",
+      "B": "Identifying and prioritizing the health needs of a community",
+      "C": "Promoting community isolation",
+      "D": "Ignoring the importance of community voices"
+    },
+    "answer": "B",
+    "explanation": "Community Health Needs Assessment (CHNA) is a systematic process used to identify and analyze community health needs. The key element is not just identifying problems but prioritizing them based on factors such as magnitude, severity, and community readiness. This ensures that the most pressing and solvable issues are addressed first.",
+    "additional": "CHNA Prioritization Criteria:\n- Magnitude: How many people are affected?\n- Severity: How serious is the impact on health?\n- Feasibility: Do we have the resources and capacity to address it?\n- Community Concern: Do people care about the issue?\n\nFuture Question Idea: \"Which step of the CHNA process involves ranking health problems by severity and feasibility of intervention?\" (Answer: Prioritization)"
+  },
+  {
+    "question": "In community diagnosis, what does 'assets-based assessment' primarily emphasize?",
+    "options": {
+      "A": "Promoting the exclusion of community assets",
+      "B": "Identifying and leveraging the strengths and resources within a community",
+      "C": "Ignoring community strengths",
+      "D": "Focusing exclusively on community challenges"
+    },
+    "answer": "B",
+    "explanation": "Assets-based assessment is a strength-centered approach that focuses on what a community has, rather than what it lacks. It empowers communities to take ownership by building on existing resources like people, institutions, networks, and traditions. This contrasts with needs-based approaches that emphasize deficits.",
+    "additional": "Comparison:\nNeeds-Based → Focus: Problems. View: Deficits. Outcome: Dependency.\nAssets-Based → Focus: Strengths. View: Resources. Outcome: Empowerment.\n\nPractical Example:\nInstead of saying 'youth lack opportunities', an assets-based view asks 'what skills, mentors, and spaces already exist that we can build on?'\n\nFuture Question Idea: \"What approach begins with the question: 'What are our community’s strengths?'\" (Answer: Assets-based assessment)"
+  },
+  {
+    "question": "What is the primary goal of a 'community health profile' in community diagnosis?",
+    "options": {
+      "A": "Ignoring the need for community data",
+      "B": "Creating a comprehensive overview of the health status, resources, and challenges within a community",
+      "C": "Promoting community isolation",
+      "D": "Focusing solely on individual health profiles"
+    },
+    "answer": "B",
+    "explanation": "A community health profile is a summary document compiling key findings from a community assessment. It offers a data-driven 'snapshot' of the population's demographics, health conditions, behaviors, and available resources. This profile guides evidence-based planning and decision-making.",
+    "additional": "Typical Contents of a Health Profile:\n- Demographic structure (age, sex, size)\n- Socioeconomic indicators\n- Health status (morbidity, mortality)\n- Risk factors (e.g., tobacco use)\n- Available assets (clinics, water sources)\n\nUse:\n- Shared with stakeholders\n- Guides priority setting and health planning\n\nFuture Question Idea: \"A public health team compiles all data on morbidity, health services, and water access into a community report. This report is a:\" (Answer: Community health profile)"
+  },
+  {
+    "question": "In community diagnosis, what is the primary focus of 'community participation'?",
+    "options": {
+      "A": "Promoting community isolation",
+      "B": "Engaging community members in the assessment and planning of health-related activities",
+      "C": "Ignoring community input",
+      "D": "Focusing exclusively on professional decision-making"
+    },
+    "answer": "B",
+    "explanation": "Community participation emphasizes the active involvement of people in the decisions that affect their health. It builds trust, improves program relevance, and supports sustainability. When communities help identify and solve their own health problems, interventions are more accepted and effective.",
+    "additional": "Key Principle: \"Nothing About Us Without Us\"\n- Ensures affected communities are part of every decision-making stage.\n- Prevents cultural mismatch or rejection of programs.\n\nBenefits:\n- Empowers local people\n- Builds long-term capacity\n- Promotes equity and transparency\n\nFuture Question Idea: \"Why might a well-funded program still fail if it wasn’t co-developed with locals?\" (Answer: Lack of community participation)"
+  },
+  {
+    "question": "What is the primary purpose of 'community engagement' in community diagnosis?",
+    "options": {
+      "A": "Ignoring community involvement",
+      "B": "Involving community members in decision-making, planning, and implementation of health interventions",
+      "C": "Promoting one-way communication from professionals to the community",
+      "D": "Excluding community members from health discussions"
+    },
+    "answer": "B",
+    "explanation": "Community engagement is an inclusive, relationship-driven process that enables community members to influence and co-own health initiatives. It builds mutual trust and accountability. Unlike top-down models, engagement involves collaboration from assessment through implementation.",
+    "additional": "Engagement Spectrum:\n- Informing → Consulting → Involving → Collaborating → Empowering\n\nGoals:\n- Foster ownership and commitment\n- Strengthen local trust and relevance\n- Co-create effective and sustainable solutions\n\nFuture Question Idea: \"A nurse organizes regular community meetings where health plans are co-designed with local leaders. This approach is an example of:\" (Answer: Community engagement)"
+  },
+  {
+    "question": "What is the primary focus of 'community health needs assessment' (CHNA) in community diagnosis?",
+    "options": {
+      "A": "Excluding community input from assessment processes",
+      "B": "Identifying and prioritizing the health needs of a community",
+      "C": "Promoting community isolation",
+      "D": "Ignoring the importance of community voices"
+    },
+    "answer": "B",
+    "explanation": "Community Health Needs Assessment (CHNA) is a systematic approach to identifying and prioritizing the health needs of a population. It helps determine which issues are most critical to address first based on severity, prevalence, and available resources. This is essential for planning evidence-based and resource-efficient public health interventions.",
+    "additional": "1. Prioritization Factors:\n- Magnitude: How many are affected?\n- Seriousness: How severe is the issue?\n- Feasibility: Can the community and health system address it?\n\n2. Community Involvement:\n- CHNAs engage stakeholders and community members, making the data meaningful and grounded in real-world experience.\n\nFuture Question Idea: \"During a CHNA, a nurse ranks the top 5 health issues based on prevalence, severity, and local resources. This step is known as:\" (Answer: Prioritization)."
+  },
+  {
+    "question": "In community diagnosis, what does 'assets-based assessment' primarily emphasize?",
+    "options": {
+      "A": "Promoting the exclusion of community assets",
+      "B": "Identifying and leveraging the strengths and resources within a community",
+      "C": "Ignoring community strengths",
+      "D": "Focusing exclusively on community challenges"
+    },
+    "answer": "B",
+    "explanation": "Assets-based assessment focuses on community strengths rather than weaknesses. It identifies people, groups, organizations, and physical assets that can be mobilized for community health improvement. This empowers communities and promotes sustainable, inside-out development.",
+    "additional": "1. Comparison with Needs-Based Assessment:\n- Needs-Based: Deficit-driven, often led by outsiders, can foster dependency.\n- Assets-Based: Strengths-driven, locally led, fosters empowerment and sustainability.\n\n2. ABCD Approach (Asset-Based Community Development):\n- Focuses on what is strong, not what is wrong.\n\nFuture Question Idea: \"A health worker begins by asking residents about local skills and resources before planning interventions. This reflects which type of assessment?\" (Answer: Assets-based assessment)."
+  },
+  {
+    "question": "What is the primary goal of a 'community health profile' in community diagnosis?",
+    "options": {
+      "A": "Ignoring the need for community data",
+      "B": "Creating a comprehensive overview of the health status, resources, and challenges within a community",
+      "C": "Promoting community isolation",
+      "D": "Focusing solely on individual health profiles"
+    },
+    "answer": "B",
+    "explanation": "A community health profile presents key data about a community's health in one comprehensive, accessible document. It summarizes demographics, health indicators, social determinants, resources, and priority issues—offering a foundation for informed planning and action.",
+    "additional": "1. Typical Contents:\n- Population data (age, sex, size)\n- Health status (morbidity, mortality)\n- Risk factors (e.g., smoking, poor diet)\n- Health resources (clinics, personnel)\n- Identified needs and priorities\n\n2. Use Cases:\n- Presented to policymakers, NGOs, and community groups to guide decision-making.\n\nFuture Question Idea: \"What document summarizes community demographics, health challenges, and available services to guide health planning?\" (Answer: Community health profile)."
+  },
+  {
+    "question": "In community diagnosis, what is the primary focus of 'community participation'?",
+    "options": {
+      "A": "Promoting community isolation",
+      "B": "Engaging community members in the assessment and planning of health-related activities",
+      "C": "Ignoring community input",
+      "D": "Focusing exclusively on professional decision-making"
+    },
+    "answer": "B",
+    "explanation": "Community participation is the active involvement of community members in all stages of health projects. This collaborative approach ensures programs reflect real needs and cultural context, increasing their acceptance and sustainability.",
+    "additional": "1. Levels of Participation:\n- Informing → Consulting → Involving → Collaborating → Empowering\n\n2. Key Principle: \"Nothing About Us Without Us.\"\n- Emphasizes inclusive decision-making.\n\nFuture Question Idea: \"A health project fails due to cultural mismatch and poor acceptance. What was most likely missing?\" (Answer: Community participation)."
+  },
+  {
+    "question": "What is the primary purpose of 'community engagement' in community diagnosis?",
+    "options": {
+      "A": "Ignoring community involvement",
+      "B": "Involving community members in decision-making, planning, and implementation of health interventions",
+      "C": "Promoting one-way communication from professionals to the community",
+      "D": "Excluding community members from health discussions"
+    },
+    "answer": "B",
+    "explanation": "Community engagement involves building trust-based partnerships with community members and leaders, encouraging their active role in public health decisions and actions. It ensures health programs are co-created and co-owned, increasing effectiveness and sustainability.",
+    "additional": "1. Features of Strong Engagement:\n- Mutual respect and shared power\n- Ongoing dialogue, not a one-time event\n\n2. Results:\n- Builds trust\n- Improves program success\n- Strengthens resilience\n\nFuture Question Idea: \"What process includes joint planning and decision-making with community stakeholders?\" (Answer: Community engagement)."
+  },
+  {
+    "question": "What is the primary goal of a \"community health improvement plan\" (CHIP) in community diagnosis?",
+    "options": {
+      "A": "Promoting community disempowerment",
+      "B": "Providing a framework for addressing health priorities and implementing strategies to improve community health",
+      "C": "Ignoring the need for community plans",
+      "D": "Focusing exclusively on individual health plans"
+    },
+    "answer": "B",
+    "explanation": "This question asks about the logical next step after a community diagnosis is completed. The diagnosis identifies the problems; the plan outlines the solutions.\n\nCommunity Health Improvement Plan (CHIP): A long-term, systematic effort to address public health problems based on the results of a community health needs assessment (CHNA). It is an action plan.\n\nPrimary Goal: To provide a clear, written framework that guides the work of the community and its partners. A good CHIP includes:\n\nThe prioritized health issues identified in the CHNA.\n\nSpecific, measurable, achievable, relevant, and time-bound (SMART) goals and objectives.\n\nThe evidence-based strategies and interventions that will be used.\n\nThe roles and responsibilities of different stakeholders.\n\nA timeline for implementation.\n\nA plan for monitoring and evaluation.\n\nIt is the roadmap for moving from assessment to action.",
+    "additional": "ADDITIONAL CONTENT & FUTURE FOCUS (NCK August 2025)\n\n1. The MAPP Model (Mobilizing for Action through Planning and Partnerships):\n\nThis is a well-known strategic planning framework used in public health to develop a CHIP. It is a community-driven process.\n\nKey Phases:\n\nOrganizing for Success and Partnership Development.\n\nVisioning.\n\nConducting the Four MAPP Assessments (Community Themes & Strengths; Local Public Health System; Community Health Status; Forces of Change).\n\nIdentifying Strategic Issues.\n\nFormulating Goals and Strategies.\n\nThe Action Cycle (Plan, Implement, Evaluate).\n\nFuture Question Idea: \"After completing a community diagnosis and prioritizing health needs, what is the next logical step in the public health nursing process?\" (Answer: \"Developing a community health improvement plan (CHIP).\")"
+  },
+  {
+    "question": "In community diagnosis, what is the primary focus of \"health disparities analysis\"?",
+    "options": {
+      "A": "Ignoring health inequalities within a community",
+      "B": "Identifying and analyzing differences in health outcomes and access to healthcare services among different population groups within a community",
+      "C": "Promoting the disregard of health disparities",
+      "D": "Excluding vulnerable populations from analysis"
+    },
+    "answer": "B",
+    "explanation": "This question defines a critical part of a community health assessment: looking for inequality.\n\nHealth Disparities (or Health Inequities): A particular type of health difference that is closely linked with social, economic, and/or environmental disadvantage. Health disparities adversely affect groups of people who have systematically experienced greater obstacles to health based on their racial or ethnic group; religion; socioeconomic status; gender; age; mental health; disability; sexual orientation; or geographic location.\n\nPrimary Focus of Analysis: It's not enough to know the overall health status of a community. A good diagnosis disaggregates the data—it breaks it down by different population subgroups (e.g., by income, by ethnicity, by geographic area) to see if some groups are faring worse than others. This analysis pinpoints where the greatest needs are and where interventions should be targeted to promote health equity.",
+    "additional": "ADDITIONAL CONTENT & FUTURE FOCUS (NCK August 2025)\n\n1. Equity vs. Equality:\nThis is a fundamental concept in public health.\n\nEquality: Giving everyone the same thing. (e.g., giving everyone the same size box to stand on to see over a fence).\n\nEquity: Giving people what they need to achieve the same outcome. (e.g., giving a shorter person a taller box to stand on so they can also see over the fence).\n\nApplication: Health equity means allocating resources and designing interventions to address the specific needs of disadvantaged groups to close the health gap, rather than giving everyone the exact same program.\n\nFuture Question Idea: \"A county health department allocates more mobile clinic resources to a remote, underserved village than to an urban, well-served neighborhood. This action is an example of promoting:\" (Answer: Health equity)."
+  },
+  {
+    "question": "What is the primary objective of \"community engagement in data collection\" in community diagnosis?",
+    "options": {
+      "A": "Excluding community members from data collection processes",
+      "B": "Involving community members in the collection of data related to their health and well-being",
+      "C": "Promoting the exclusion of community perspectives",
+      "D": "Focusing exclusively on professional data collection"
+    },
+    "answer": "B",
+    "explanation": "This question is a rephrasing of the concept from Q231 (\"community-based data collection\"). It emphasizes the participatory nature of modern community health assessment.\n\nCommunity Engagement in Data Collection: This means that the process of gathering information is done with the community, not to the community.\n\nObjective: The goal is to build trust, ensure cultural appropriateness, and gather richer, more accurate data by making community members active partners in the process. It respects their local knowledge and lived experience as a valid and essential form of evidence. This is in direct contrast to a model where only outside professionals collect data."
+  },
+  {
+    "question": "In community diagnosis, what does \"community-based health assessment\" primarily involve?",
+    "options": {
+      "A": "Promoting the disregard of community health",
+      "B": "Conducting health assessments within a community setting, involving community members in the process",
+      "C": "Ignoring community health needs",
+      "D": "Excluding community members from health assessments"
+    },
+    "answer": "B",
+    "explanation": "This question provides a final, overarching summary of the entire topic.\n\nCommunity-Based Health Assessment: This term encapsulates the core principles we have discussed throughout this section. It involves:\n\nCommunity-Based: The assessment takes place in the community, not in a remote office. It is grounded in the local context.\n\nHealth Assessment: It is a systematic process of collecting and analyzing data to understand health status, needs, and assets.\n\nInvolving Community Members: It is a participatory and collaborative process.\n\nThis approach ensures that the resulting diagnosis and subsequent plans are relevant, owned by the community, and ultimately more effective."
+  }
+]
