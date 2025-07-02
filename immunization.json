@@ -1,0 +1,487 @@
+[
+  {
+    "question": "Which of the following vaccines is included in the Kenya Expanded Program on Immunization (KEPI)?",
+    "options": {
+      "A": "BCG",
+      "B": "Influenza",
+      "C": "Shingles",
+      "D": "Chickenpox"
+    },
+    "answer": "A",
+    "explanation": "The provided rationale is correct. The BCG (Bacillus Calmette-Guérin) vaccine is a cornerstone of the KEPI schedule, administered at birth or at first contact with the health system. It is designed to protect against severe forms of Tuberculosis (TB) in young children, specifically TB meningitis and miliary TB.\n\nWhy other options are incorrect:\n\nInfluenza: The flu vaccine is not part of the routine KEPI schedule for all infants. It is often recommended for high-risk populations, including young children, the elderly, and those with chronic illnesses, but it is not a universal vaccine in the program.\n\nShingles (Zoster): This vaccine is for preventing shingles in older adults (typically 50+) who have previously had chickenpox. It is not a pediatric vaccine.\n\nChickenpox (Varicella): While the varicella vaccine is common in other countries, it is not currently included in the routine KEPI schedule in Kenya. It is available in the private sector.",
+    "additional": "Administration: The BCG vaccine is given as a single 0.05 ml intradermal injection into the outer surface of the left upper arm (deltoid region).\n\nBCG Scar: A successful BCG vaccination typically results in a small, raised scar at the injection site, which appears a few weeks to months after vaccination. This scar is often used as a visual marker of vaccination.\n\nPossible Next Questions: You could be asked about the route of administration (intradermal), the specific site (left deltoid), or the primary purpose of the vaccine (prevention of severe childhood TB).\n\nRecommended Reading:\n\nKenya Ministry of Health, Division of Vaccines and Immunization (DVI) - KEPI Training Manuals.\n\nWHO Position Paper on BCG Vaccines."
+  },
+  {
+    "question": "What is the primary goal of KEPI?",
+    "options": {
+      "A": "To reduce the cost of vaccines",
+      "B": "To eradicate all childhood diseases",
+      "C": "To ensure all children receive essential vaccinations",
+      "D": "To promote the use of herbal treatments"
+    },
+    "answer": "C",
+    "explanation": "The primary public health goal of the Kenya Expanded Program on Immunization (KEPI) is to increase immunization coverage and ensure that every child is fully vaccinated against major vaccine-preventable diseases. This directly contributes to reducing child morbidity (illness) and mortality (death).\n\nWhy other options are incorrect:\n\nA) To reduce the cost of vaccines: While cost-effectiveness is an important operational consideration, the primary goal is health outcomes, not just cost reduction.\n\nB) To eradicate all childhood diseases: This is an overly ambitious goal. Eradication is a specific term meaning the permanent global reduction of a disease to zero (e.g., Smallpox). KEPI's goal is the control and prevention of specific diseases, not the eradication of all of them.\n\nD) To promote the use of herbal treatments: This is incorrect. KEPI is a modern, evidence-based public health program focused on conventional vaccines.",
+    "additional": "KEPI Strategies: To achieve its goal, KEPI employs several strategies, including:\n\nStatic immunization sites: At health facilities.\n\nOutreach services: Mobile clinics to reach remote or hard-to-reach populations.\n\nCold Chain Management: A system for storing and transporting vaccines at recommended temperatures.\n\nHealth Education: To inform parents and caregivers about the importance of vaccination.\n\nSurveillance: Monitoring disease outbreaks and adverse events following immunization (AEFI).\n\nPossible Next Questions: A question might focus on a specific KEPI strategy, such as, \"What is the term for the system used to maintain vaccine potency from manufacturer to administration?\" (Answer: Cold Chain).\n\nRecommended Reading:\n\nThe National Policy Guidelines on Immunization, 2013 (Kenya Ministry of Public Health and Sanitation)."
+  },
+  {
+    "question": "Which of the following vaccines is given to infants to prevent Hepatitis B?",
+    "options": {
+      "A": "Rotavirus vaccine",
+      "B": "Hepatitis B vaccine",
+      "C": "Diphtheria, tetanus, and pertussis (DTP) vaccine",
+      "D": "Polio vaccine"
+    },
+    "answer": "B",
+    "explanation": "The Hepatitis B vaccine is specifically designed to prevent infection with the Hepatitis B virus (HBV), a major cause of acute and chronic liver disease, including cirrhosis and liver cancer. Under the KEPI schedule, it is given starting at birth to prevent mother-to-child transmission and as part of a combination vaccine later.\n\nWhy other options are incorrect:\n\nRotavirus vaccine: Prevents severe diarrhea caused by rotavirus.\n\nDTP vaccine: Protects against Diphtheria, Tetanus, and Pertussis (whooping cough).\n\nPolio vaccine: Protects against the poliovirus.",
+    "additional": "Hepatitis B Dosing Schedule (KEPI):\n\nBirth Dose: A monovalent (standalone) Hepatitis B vaccine is given within 24 hours of birth.\n\nCombination Doses: It is then given as part of a pentavalent vaccine (DTP-HepB-Hib) at 6, 10, and 14 weeks.\n\nImportance of the Birth Dose: The birth dose is critical for preventing perinatal (mother-to-child) transmission, which is a common mode of infection and carries a high risk of developing chronic liver disease.\n\nPossible Next Questions: \"Why is the Hepatitis B vaccine administered at birth?\" \"The pentavalent vaccine protects against which five diseases?\"\n\nRecommended Reading:\n\nKEPI Schedule provided by the Kenyan Ministry of Health."
+  },
+  {
+    "question": "At what age should a child receive their first dose of the measles vaccine under KEPI?",
+    "options": {
+      "A": "6 months",
+      "B": "9 months",
+      "C": "12 months",
+      "D": "18 months"
+    },
+    "answer": "B",
+    "explanation": "The KEPI schedule recommends the first dose of the measles vaccine at 9 months of age. This timing is a balance between the waning of maternal antibodies (which can interfere with the vaccine's effectiveness if given too early) and the risk of the infant contracting measles.\n\nWhy other options are incorrect:\n\n6 months: This is generally considered too early, as maternal antibodies are still present in most infants, which could neutralize the vaccine virus and lead to vaccine failure.\n\n12 months: While some countries give the first dose at 12 months, the 9-month schedule is used in regions with a high risk of measles transmission, like Kenya.\n\n18 months: This is the age for the second dose of the measles vaccine in the KEPI schedule.",
+    "additional": "Measles-Rubella (MR) Vaccine: In Kenya, the measles vaccine is often administered as a combined Measles-Rubella (MR) vaccine to protect against both diseases.\n\nSecond Dose: A second dose is crucial for boosting immunity and protecting children who did not respond to the first dose. It is given at 18 months.\n\nPossible Next Questions: \"At what age is the second dose of the MR vaccine given?\" \"Why is the first dose of measles vaccine not given before 9 months of age?\"\n\nRecommended Reading:\n\nKenya National Immunization Schedule."
+  },
+  {
+    "question": "Which vaccine is recommended for children to protect against polio?",
+    "options": {
+      "A": "Rotavirus vaccine",
+      "B": "Oral Polio Vaccine (OPV)",
+      "C": "Hepatitis A vaccine",
+      "D": "Diphtheria vaccine"
+    },
+    "answer": "B",
+    "explanation": "The Oral Polio Vaccine (OPV) is the primary vaccine used in the KEPI program to protect against poliomyelitis, a viral disease that can cause irreversible paralysis. It is a live-attenuated vaccine that is easy to administer.\n\nWhy other options are incorrect:\n\nRotavirus vaccine: Protects against diarrheal disease.\n\nHepatitis A vaccine: Protects against Hepatitis A virus; not part of the routine KEPI schedule.\n\nDiphtheria vaccine: Given as part of the pentavalent (DTP-HepB-Hib) vaccine.",
+    "additional": "Types of Polio Vaccines: Besides OPV, there is also the Inactivated Polio Vaccine (IPV), which is given by injection. Kenya's schedule includes both. IPV provides individual immunity, while OPV provides both individual and community (intestinal) immunity, which helps stop transmission.\n\nKEPI Polio Schedule:\n\nOPV: Given at birth (OPV-0), 6, 10, and 14 weeks.\n\nIPV: A single dose is given at 14 weeks.\n\nPossible Next Questions: \"What is the route of administration for OPV?\" (Answer: Oral). \"Which polio vaccine is administered via injection in the KEPI schedule?\" (Answer: IPV).\n\nRecommended Reading:\n\nGlobal Polio Eradication Initiative (GPEI) resources.\n\nKEPI training materials on polio vaccination."
+  },
+  {
+    "question": "Which of the following diseases does the DTP vaccine prevent?",
+    "options": {
+      "A": "Hepatitis B",
+      "B": "Diphtheria, tetanus, and pertussis",
+      "C": "Measles, mumps, and rubella",
+      "D": "Polio and tuberculosis"
+    },
+    "answer": "B",
+    "explanation": "The DTP vaccine is a combination vaccine that provides protection against three serious bacterial diseases:\n\nDiphtheria: A bacterial infection that can lead to a thick covering in the back of the throat, causing breathing difficulties, heart problems, and nerve damage.\n\nTetanus: Also known as \"lockjaw,\" it is caused by bacteria entering a wound, leading to painful muscle spasms.\n\nPertussis: Commonly known as \"whooping cough,\" it is a highly contagious respiratory infection that causes severe coughing spells.\n\nWhy other options are incorrect:\n\nA) Hepatitis B: This is a separate vaccine, though it is combined with DTP and Hib in the pentavalent vaccine.\n\nC) Measles, mumps, and rubella: These are viral diseases prevented by the MMR or MR vaccine.\n\nD) Polio and tuberculosis: These are prevented by the Polio vaccine (OPV/IPV) and the BCG vaccine, respectively.",
+    "additional": "Pentavalent Vaccine: In the current KEPI schedule, DTP is not given as a standalone vaccine but is part of the pentavalent vaccine. This single injection protects against five diseases: Diphtheria, Tetanus, Pertussis, Hepatitis B, and Haemophilus influenzae type b (Hib).\n\nSchedule: The pentavalent vaccine is administered at 6, 10, and 14 weeks of age.\n\nPossible Next Questions: \"What is the full name of the diseases prevented by the 'P' in DTP?\" (Answer: Pertussis). \"The DTP vaccine is administered as part of which combination vaccine in Kenya?\" (Answer: Pentavalent vaccine).\n\nRecommended Reading:\n\nGavi, the Vaccine Alliance - Information on the pentavalent vaccine.\n\nKEPI schedule and training manuals."
+  },
+  {
+    "question": "What is the recommended age for administering the first dose of the rotavirus vaccine?",
+    "options": {
+      "A": "2 months",
+      "B": "6 months",
+      "C": "1 year",
+      "D": "4 months"
+    },
+    "answer": "A",
+    "explanation": "The correct answer provided in the document (A) reflects a common global schedule, but it's important to note the specific KEPI schedule. The rotavirus vaccine is administered orally to infants to protect against rotavirus, the most common cause of severe diarrheal disease in young children.\n\nKEPI Rotavirus Schedule: The vaccine is given in two doses: the first at 6 weeks and the second at 10 weeks of age. It is administered concurrently with the first and second doses of the pentavalent and PCV vaccines. Therefore, while \"2 months\" is close, the precise KEPI schedule starts at 6 weeks. For exam purposes, the closest correct option provided is often the intended answer.",
+    "additional": "Route of Administration: The rotavirus vaccine is given orally as drops into the infant's mouth.\n\nImportance: Rotavirus infection can lead to severe dehydration, which is a major cause of hospitalization and death in infants and young children in low-resource settings. The vaccine is highly effective at preventing severe cases.\n\nPrecautions: There is a very small risk of intussusception (a condition where the intestine telescopes into itself) associated with the vaccine, which is why there are strict age limits for administration. The first dose should not be given after 15 weeks of age.\n\nPossible Next Questions: \"What is the route of administration for the Rotavirus vaccine?\" (Answer: Oral). \"How many doses of the Rotavirus vaccine are given in the KEPI schedule?\" (Answer: Two doses).\n\nRecommended Reading:\n\nWHO Position Paper on Rotavirus Vaccines.\n\nKenya National Immunization Schedule."
+  },
+  {
+    "question": "What is the primary purpose of immunization in public health?",
+    "options": {
+      "A": "To create herd immunity",
+      "B": "To prevent the spread of non-communicable diseases",
+      "C": "To promote the use of antibiotics",
+      "D": "To ensure lifelong immunity from all diseases"
+    },
+    "answer": "A",
+    "explanation": "The primary purpose of a mass immunization program is to achieve herd immunity (or community immunity). This occurs when a large enough proportion of a population is immune to an infectious disease (through vaccination or prior illness), making its spread from person to person unlikely. This provides indirect protection to vulnerable individuals who cannot be vaccinated (e.g., newborns, immunocompromised people).\n\nWhy other options are incorrect:\n\nB) To prevent non-communicable diseases: Immunization targets infectious (communicable) diseases, not non-communicable ones like diabetes or heart disease (though the HPV vaccine prevents cancer, which is an NCD).\n\nC) To promote the use of antibiotics: Immunization reduces the need for antibiotics by preventing bacterial infections in the first place.\n\nD) To ensure lifelong immunity: While many vaccines provide long-lasting immunity, it is not always lifelong. Some require booster doses.",
+    "additional": "Herd Immunity Threshold: The percentage of the population that needs to be immune to achieve herd immunity varies by disease. For a highly contagious disease like measles, the threshold is very high (around 95%).\n\nIndividual vs. Community Benefit: Vaccination provides a direct benefit to the individual by protecting them from disease, and an indirect benefit to the community through herd immunity.\n\nPossible Next Questions: \"Define herd immunity.\" \"Why is herd immunity important for infants who are too young to be vaccinated?\"\n\nRecommended Reading:\n\nCenters for Disease Control and Prevention (CDC) - Principles of Epidemiology, Lesson 6: Investigating an Outbreak. (This covers concepts like herd immunity)."
+  },
+  {
+    "question": "Which vaccine prevents cervical cancer caused by the human papillomavirus (HPV)?",
+    "options": {
+      "A": "BCG",
+      "B": "Hepatitis B",
+      "C": "HPV vaccine",
+      "D": "Measles vaccine"
+    },
+    "answer": "C",
+    "explanation": "The HPV (Human Papillomavirus) vaccine is designed to protect against infection with the most common types of HPV that cause cervical cancer and other cancers (e.g., anal, oropharyngeal) as well as genital warts. It is a primary prevention strategy against these malignancies.\n\nWhy other options are incorrect:\n\nBCG: Prevents severe forms of TB.\n\nHepatitis B: Prevents liver infection and subsequent liver cancer caused by HBV.\n\nMeasles vaccine: Prevents measles, a viral infection.",
+    "additional": "Target Population in Kenya: The HPV vaccine was introduced into the routine KEPI schedule in 2019, targeting 10-year-old girls. The program has since expanded its strategy to include girls up to 14 years old.\n\nDosing: It is typically administered in a two-dose schedule for this age group, with the doses given 6 months apart.\n\nRationale for Targeting Girls: The primary goal is to prevent cervical cancer, which is one of the leading causes of cancer-related death among women in Kenya. Vaccinating before the onset of sexual activity is most effective.\n\nPossible Next Questions: \"What is the target age group for HPV vaccination in Kenya?\" \"The HPV vaccine protects against which virus?\"\n\nRecommended Reading:\n\nWHO - Human papillomavirus (HPV) and cervical cancer factsheet.\n\nKenyan Ministry of Health guidelines on HPV vaccination."
+  },
+  {
+    "question": "Which vaccine is included in the KEPI schedule to prevent pneumonia in children?",
+    "options": {
+      "A": "Hib vaccine",
+      "B": "Rotavirus vaccine",
+      "C": "Influenza vaccine",
+      "D": "Polio vaccine"
+    },
+    "answer": "A",
+    "explanation": "This question is slightly tricky because two vaccines in the KEPI schedule protect against causes of pneumonia. Both Hib and PCV are correct. However, of the options provided, Hib is the correct choice. The Hib (Haemophilus influenzae type b) vaccine protects against a bacterium that is a major cause of serious invasive diseases, including meningitis and pneumonia, in children under 5.\n\nWhy other options are incorrect:\n\nRotavirus vaccine: Prevents diarrhea.\n\nInfluenza vaccine: Prevents influenza, which can lead to pneumonia, but it's not part of the routine KEPI schedule.\n\nPolio vaccine: Prevents poliomyelitis.",
+    "additional": "Two Key Pneumonia Vaccines in KEPI:\n\nHib vaccine: Administered as part of the pentavalent vaccine at 6, 10, and 14 weeks.\n\nPneumococcal Conjugate Vaccine (PCV10): Protects against Streptococcus pneumoniae, another leading cause of pneumonia and meningitis. It is given at 6, 10, and 14 weeks.\n\nSignificance: The introduction of both Hib and PCV vaccines has dramatically reduced the incidence of severe pneumonia and meningitis in Kenyan children.\n\nPossible Next Questions: \"Which two vaccines in the KEPI schedule are primarily aimed at preventing pneumonia and meningitis?\" (Answer: Hib and PCV). \"At what ages is the PCV vaccine administered?\"\n\nRecommended Reading:\n\nKEPI Training Manuals specifically on Pentavalent and PCV vaccines."
+  },
+  {
+    "question": "What is the primary mode of administration for the polio vaccine in Kenya?",
+    "options": {
+      "A": "Oral",
+      "B": "Intramuscular",
+      "C": "Intradermal",
+      "D": "Subcutaneous"
+    },
+    "answer": "A",
+    "explanation": "The primary mode of administration for the polio vaccine within Kenya's routine immunization and mass campaigns is the Oral Polio Vaccine (OPV). It is administered as drops into the mouth, making it easy to deliver on a large scale without the need for sterile syringes, which is a significant advantage in resource-limited settings.\n\nWhy other options are incorrect:\n\nIntramuscular: This route is used for vaccines like Pentavalent, PCV, and IPV.\n\nIntradermal: This route is specifically used for the BCG vaccine.\n\nSubcutaneous: This route is used for the Measles-Rubella (MR) vaccine.",
+    "additional": "Kenya's Combined Strategy: While OPV is the primary vaccine for population immunity and campaigns, Kenya also uses the Inactivated Polio Vaccine (IPV), which is given via intramuscular injection at 14 weeks. This dual approach provides robust protection. However, OPV is used more frequently (at birth, 6, 10, and 14 weeks).\n\nAdvantages of OPV: It is inexpensive, easy to administer, and provides intestinal immunity, which helps to stop the virus from spreading in the community.\n\nPossible Next Questions: \"Why is OPV preferred for mass immunization campaigns?\" \"Name a vaccine administered via the subcutaneous route in the KEPI schedule.\" (Answer: MR vaccine).\n\nRecommended Reading:\n\nKEPI Training Manuals on vaccine administration routes.\n\nWHO resources on polio eradication strategies."
+  },
+  {
+    "question": "What is the recommended number of doses for the DTP vaccine in the KEPI schedule?",
+    "options": {
+      "A": "2 doses",
+      "B": "3 doses",
+      "C": "4 doses",
+      "D": "5 doses"
+    },
+    "answer": "B",
+    "explanation": "The primary series for the DTP vaccine, which is delivered as part of the pentavalent vaccine (DTP-HepB-Hib) in Kenya, consists of three doses. These are administered at 6, 10, and 14 weeks of age.\n\nWhy other options are incorrect:\n\n2 doses: This would be an incomplete primary series and would not provide adequate protection.\n\n4 or 5 doses: While booster doses of DTP are given in some countries and were previously given in Kenya, the primary infant series as per the current schedule is three doses. (Note: A booster is often given later, around 18 months, but the question refers to the initial schedule).",
+    "additional": "The \"Penta\" Schedule: Remember that the DTP, Hepatitis B, and Hib vaccines are all given concurrently within the pentavalent vaccine. So, the schedule for all of them is 6, 10, and 14 weeks.\n\nImportance of Completing the Series: Each dose builds upon the last to create strong, durable immunity. It is critical for infants to receive all three doses on time to be fully protected.\n\nPossible Next Questions: \"At what specific ages are the three primary doses of the pentavalent vaccine given?\" \"What does 'penta' in pentavalent vaccine refer to?\" (Answer: It protects against five diseases).\n\nRecommended Reading:\n\nThe official Kenya National Immunization Schedule."
+  },
+  {
+    "question": "Which of the following is a contraindication for administering the DTP vaccine?",
+    "options": {
+      "A": "Mild cold",
+      "B": "Fever",
+      "C": "Severe allergic reaction to a previous dose",
+      "D": "Running nose"
+    },
+    "answer": "C",
+    "explanation": "A contraindication is a specific situation in which a drug or vaccine should not be used because it may be harmful to the person. A history of a severe allergic reaction (anaphylaxis) to a previous dose of the vaccine or one of its components is an absolute contraindication for administering another dose.\n\nWhy other options are incorrect:\n\nA mild cold, low-grade fever, or a running nose are considered minor illnesses and are not contraindications. These are false contraindications. Vaccination should proceed as scheduled to avoid missed opportunities.\n\nHigh fever (a precaution, not an absolute contraindication) would warrant delaying the vaccine until the child has recovered, but a history of fever after a previous dose is not a contraindication.",
+    "additional": "Contraindication vs. Precaution:\n\nContraindication: A condition that makes a particular treatment or procedure absolutely inadvisable (e.g., anaphylaxis).\n\nPrecaution: A condition that might increase the risk of a serious adverse reaction or compromise the ability of the vaccine to produce immunity. In such cases, the vaccination might be deferred (e.g., moderate to severe acute illness).\n\nPertussis Component: Historically, neurologic reactions (like seizures) following a DTP dose were a concern, especially with the older whole-cell pertussis component. This is a precaution, and the child's case would be carefully evaluated.\n\nPossible Next Questions: \"Is a mild cough a valid reason to postpone vaccination?\" (Answer: No). \"Define anaphylaxis in the context of immunization.\"\n\nRecommended Reading:\n\nKEPI Guidelines on Contraindications and Precautions for Vaccination."
+  },
+  {
+    "question": "Which of the following diseases is prevented by the yellow fever vaccine?",
+    "options": {
+      "A": "Malaria",
+      "B": "Yellow fever",
+      "C": "Typhoid",
+      "D": "Hepatitis A"
+    },
+    "answer": "B",
+    "explanation": "The yellow fever vaccine provides protection against yellow fever, a viral hemorrhagic disease transmitted by infected mosquitoes (primarily the Aedes aegypti species). The disease gets its name from the jaundice (yellowing of the skin and eyes) that affects some patients.\n\nWhy other options are incorrect:\n\nMalaria: A parasitic disease transmitted by Anopheles mosquitoes. There is a new malaria vaccine (RTS,S), but it is different from the yellow fever vaccine.\n\nTyphoid: A bacterial infection spread through contaminated food and water.\n\nHepatitis A: A viral infection of the liver, also spread through contaminated food and water.",
+    "additional": "Vaccine Type: The yellow fever vaccine is a live-attenuated virus vaccine.\n\nRequirement for Travel: It is often required for entry into certain countries, particularly in sub-Saharan Africa and tropical South America, where the disease is endemic. An International Certificate of Vaccination or Prophylaxis (ICVP) or \"yellow card\" is issued as proof.\n\nKEPI Status: The yellow fever vaccine is not part of the routine KEPI schedule for all of Kenya. It is administered in specific high-risk counties and to individuals traveling to endemic areas.\n\nPossible Next Questions: \"How is yellow fever transmitted?\" \"What is the 'yellow card' used for in international travel?\"\n\nRecommended Reading:\n\nWHO Factsheet on Yellow Fever."
+  },
+  {
+    "question": "At what age is the second dose of the measles vaccine administered according to the KEPI schedule?",
+    "options": {
+      "A": "12 months",
+      "B": "18 months",
+      "C": "2 years",
+      "D": "5 years"
+    },
+    "answer": "B",
+    "explanation": "The KEPI schedule recommends the second dose of the measles-containing vaccine (currently the Measles-Rubella or MR vaccine) at 18 months of age. This dose is crucial for two reasons:\n\nIt provides a second opportunity to develop immunity for the small percentage of children (about 5-15%) who do not respond to the first dose given at 9 months.\n\nIt boosts the immunity of those who did respond, ensuring longer-lasting protection.\n\nWhy other options are incorrect:\n\n12 months: Too soon after the first dose for an optimal booster effect.\n\n2 years / 5 years: Waiting this long would leave children vulnerable to measles for an extended period after their initial immunity might wane.",
+    "additional": "\"Second Opportunity\" Vaccine: The second dose is considered a vital \"second opportunity\" to ensure high levels of population immunity, which is necessary to prevent measles outbreaks.\n\nSchedule Recap:\n\nMR Dose 1: 9 months\n\nMR Dose 2: 18 months\n\nPossible Next Questions: \"What is the primary reason for administering a second dose of the measles vaccine?\" \"Which two diseases does the MR vaccine prevent?\"\n\nRecommended Reading:\n\nThe official Kenya National Immunization Schedule."
+  },
+  {
+    "question": "Which vaccine is recommended to prevent pneumonia caused by Streptococcus pneumoniae?",
+    "options": {
+      "A": "DTP vaccine",
+      "B": "Hib vaccine",
+      "C": "PCV vaccine",
+      "D": "BCG vaccine"
+    },
+    "answer": "C",
+    "explanation": "The Pneumococcal Conjugate Vaccine (PCV) is specifically designed to protect against diseases caused by the bacterium Streptococcus pneumoniae (also known as pneumococcus). This bacterium is a leading cause of severe pneumonia, as well as meningitis and bacteremia (bloodstream infection), especially in young children.\n\nWhy other options are incorrect:\n\nDTP vaccine: Protects against Diphtheria, Tetanus, and Pertussis.\n\nHib vaccine: Protects against Haemophilus influenzae type b, another cause of pneumonia and meningitis, but it is a different bacterium.\n\nBCG vaccine: Protects against severe forms of Tuberculosis.",
+    "additional": "PCV in KEPI: The vaccine used in Kenya's KEPI program is PCV10, which protects against the 10 most common serotypes of Streptococcus pneumoniae in the region.\n\nSchedule: PCV10 is administered via intramuscular injection in three doses at 6, 10, and 14 weeks of age, at the same time as the pentavalent vaccine.\n\nImpact: The introduction of PCV has significantly reduced the burden of pneumococcal disease, a major contributor to childhood mortality.\n\nPossible Next Questions: \"What does PCV stand for?\" (Pneumococcal Conjugate Vaccine). \"Which two bacteria, prevented by KEPI vaccines, are common causes of meningitis?\" (Answer: Haemophilus influenzae type b and Streptococcus pneumoniae).\n\nRecommended Reading:\n\nKEPI Training Manual for Health Workers on the PCV vaccine.\n\nWHO Position Paper on Pneumococcal Vaccines."
+  },
+  {
+    "question": "What is the main reason for the global push to eliminate polio?",
+    "options": {
+      "A": "To eradicate the common cold",
+      "B": "To prevent permanent paralysis and death",
+      "C": "To stop the spread of HIV",
+      "D": "To reduce the cost of healthcare"
+    },
+    "answer": "B",
+    "explanation": "The primary public health imperative driving the global polio eradication effort is the devastating and irreversible nature of the disease. Poliovirus can invade the nervous system and cause acute flaccid paralysis (AFP), a permanent paralysis, in a matter of hours. In some cases, it can be fatal if the breathing muscles are paralyzed. There is no cure for polio; it can only be prevented through vaccination.\n\nWhy other options are incorrect:\n\nA) To eradicate the common cold: The common cold is caused by hundreds of different viruses (like rhinoviruses) and is not the target of the polio campaign.\n\nC) To stop the spread of HIV: HIV is a completely different virus with different modes of transmission and prevention.\n\nD) To reduce the cost of healthcare: While eradicating polio will ultimately save billions in treatment and rehabilitation costs, the main driver is the prevention of human suffering, paralysis, and death.",
+    "additional": "Global Polio Eradication Initiative (GPEI): This public-private partnership, launched in 1988, has reduced the global incidence of polio by over 99%.\n\nWild vs. Vaccine-Derived Polio: The world is on the verge of eradicating wild poliovirus (WPV). However, a challenge remains with circulating vaccine-derived poliovirus (cVDPV), which can emerge in under-immunized populations where the live OPV vaccine is used.\n\nPossible Next Questions: \"What is the primary clinical manifestation of concern in poliomyelitis?\" (Answer: Acute flaccid paralysis). \"Which organization leads the global effort to eradicate polio?\" (Answer: The GPEI, with partners like WHO, Rotary, CDC, UNICEF).\n\nRecommended Reading:\n\nGlobal Polio Eradication Initiative (GPEI) website."
+  },
+  {
+    "question": "Which of the following is an indicator of effective immunization coverage?",
+    "options": {
+      "A": "Increased cases of vaccine-preventable diseases",
+      "B": "High rates of vaccine wastage",
+      "C": "High rates of vaccination among targeted populations",
+      "D": "Decreased public health spending"
+    },
+    "answer": "C",
+    "explanation": "The most direct and important indicator of an effective immunization program is the vaccination coverage rate. This is the percentage of a target population (e.g., children under one year) that has received a specific vaccine or all recommended vaccines. High coverage rates (typically >90%) are necessary to control disease and achieve herd immunity.\n\nWhy other options are incorrect:\n\nA) Increased cases: This would indicate a failure of the immunization program.\n\nB) High rates of vaccine wastage: This indicates inefficiency in the program's logistics and cold chain management. The goal is to keep wastage low.\n\nD) Decreased public health spending: While effective immunization prevents costly disease treatment, the initial investment in the program itself represents significant spending. A decrease in spending could even signal a weakening of the program.",
+    "additional": "Monitoring Coverage: Immunization coverage is monitored at facility, county, and national levels through tools like the District Health Information System (DHIS2) and periodic coverage surveys.\n\nKey Indicators: Common indicators include \"Penta 3 coverage\" (the percentage of children receiving the third dose of the pentavalent vaccine) and \"Fully Immunized Child (FIC)\" status.\n\nPossible Next Questions: \"What does the term 'dropout rate' refer to in immunization?\" (Answer: The percentage of children who start the vaccination schedule but do not complete it).\n\nRecommended Reading:\n\nWHO-UNICEF Estimates of National Immunization Coverage (WUENIC)."
+  },
+  {
+    "question": "Which of the following is a benefit of immunization for the community as a whole?",
+    "options": {
+      "A": "Increased healthcare costs",
+      "B": "Protection of vulnerable individuals who cannot be vaccinated",
+      "C": "Decreased workforce participation",
+      "D": "Increased incidence of vaccine-preventable diseases"
+    },
+    "answer": "B",
+    "explanation": "This question directly relates to the concept of herd immunity. When a high percentage of the community is vaccinated, the spread of contagious diseases is contained. This provides a protective shield for the most vulnerable members who cannot be vaccinated, such as:\n\nInfants too young to receive their first vaccines.\n\nIndividuals with severely weakened immune systems (e.g., from chemotherapy, HIV/AIDS).\n\nPeople with severe allergies to vaccine components.\n\nWhy other options are incorrect:\n\nA) Increased healthcare costs: Immunization decreases long-term healthcare costs by preventing expensive hospitalizations and treatments.\n\nC) Decreased workforce participation: Immunization increases workforce participation by keeping people healthy and able to work.\n\nD) Increased incidence: Immunization decreases the incidence of vaccine-preventable diseases.",
+    "additional": "The Social Contract of Vaccination: Getting vaccinated is not just a personal health choice; it is a civic responsibility. It contributes to a \"social contract\" where individuals protect not only themselves but the entire community.\n\nPossible Next Questions: \"Give an example of a population group that relies on herd immunity for protection.\"\n\nRecommended Reading:\n\nThe World Health Organization (WHO) - \"Immunization, Vaccines and Biologicals\" section."
+  },
+  {
+    "question": "Which vaccine is used to prevent tetanus in infants?",
+    "options": {
+      "A": "Hepatitis B vaccine",
+      "B": "DTP vaccine",
+      "C": "Meningitis vaccine",
+      "D": "Influenza vaccine"
+    },
+    "answer": "B",
+    "explanation": "The DTP vaccine is the correct answer because it contains the tetanus toxoid, which stimulates the body to produce antibodies against the toxin produced by the Clostridium tetani bacteria. This protection is vital for infants. As previously noted, in Kenya, this is delivered via the pentavalent vaccine.\n\nWhy other options are incorrect:\n\nA) Hepatitis B vaccine: Prevents viral hepatitis.\n\nC) Meningitis vaccine: This is a broad term. The Hib and PCV vaccines prevent the most common forms of bacterial meningitis in infants, but not tetanus.\n\nD) Influenza vaccine: Prevents viral influenza.",
+    "additional": "Neonatal Tetanus: Tetanus is particularly dangerous for newborns (neonatal tetanus) if the umbilical stump becomes contaminated, often due to unhygienic birth practices.\n\nMaternal Immunization: To prevent neonatal tetanus, pregnant women are also given the Tetanus-Diphtheria (Td) vaccine. The antibodies pass from the mother to the baby, providing passive immunity at birth until the infant can receive their own DTP doses.\n\nPossible Next Questions: \"How is neonatal tetanus commonly contracted?\" \"Which vaccine is given to pregnant women to prevent neonatal tetanus?\" (Answer: Td vaccine).\n\nRecommended Reading:\n\nKEPI Guidelines on Maternal and Neonatal Tetanus Elimination (MNTE)."
+  },
+  {
+    "question": "At what age is the Hib vaccine first administered under KEPI?",
+    "options": {
+      "A": "6 weeks",
+      "B": "9 months",
+      "C": "1 year",
+      "D": "18 months"
+    },
+    "answer": "A",
+    "explanation": "The Hib (Haemophilus influenzae type b) vaccine is first administered at 6 weeks of age. It is a component of the pentavalent vaccine (DTP-HepB-Hib), which is given in a three-dose series. Therefore, the first dose of Hib coincides with the first dose of DTP and Hepatitis B (post-birth dose).\n\nWhy other options are incorrect:\n\n9 months: This is the age for the first dose of the Measles-Rubella (MR) vaccine.\n\n1 year (12 months): There are no routine KEPI vaccines scheduled at exactly 12 months.\n\n18 months: This is the age for the second dose of the MR vaccine.",
+    "additional": "The Full Hib Schedule: The Hib vaccine is given at 6, 10, and 14 weeks as part of the pentavalent vaccine.\n\nDiseases Prevented by Hib: The Hib bacterium can cause several life-threatening invasive diseases in young children, primarily meningitis (inflammation of the brain and spinal cord lining) and pneumonia. The vaccine has been incredibly successful in reducing the incidence of these conditions.\n\nPossible Next Questions: \"The Hib vaccine is combined with which other vaccines in the KEPI schedule?\" (Answer: DTP and Hepatitis B, in the pentavalent vaccine). \"What are the two main diseases prevented by the Hib vaccine?\" (Answer: Meningitis and pneumonia).\n\nRecommended Reading:\n\nThe official Kenya National Immunization Schedule."
+  },
+  {
+    "question": "Which of the following vaccines is recommended for pregnant women in Kenya to prevent neonatal tetanus?",
+    "options": {
+      "A": "DTP vaccine",
+      "B": "TT (Tetanus Toxoid) vaccine",
+      "C": "Influenza vaccine",
+      "D": "Rotavirus vaccine"
+    },
+    "answer": "B",
+    "explanation": "The vaccine recommended for pregnant women is the Tetanus Toxoid (TT) vaccine, which is often given as a combined Tetanus-Diphtheria (Td) vaccine. The primary goal is to protect the newborn from neonatal tetanus. When the mother is immunized, she develops antibodies against tetanus which are passed to the fetus through the placenta. This provides the baby with passive immunity that protects them from birth until they can start their own primary immunization series.\n\nWhy other options are incorrect:\n\nDTP vaccine: The pertussis component (P) is generally not recommended for routine administration during pregnancy, though this recommendation can change based on specific outbreak situations. Td is the standard.\n\nInfluenza and Rotavirus vaccines: These are not for the prevention of tetanus.",
+    "additional": "Maternal and Neonatal Tetanus Elimination (MNTE): This is a major global health goal. Immunizing pregnant women is the key strategy.\n\nTd Dosing for Pregnant Women:\n\nA woman with an unknown or incomplete vaccination history receives two doses of Td at least four weeks apart during her first pregnancy.\n\nSubsequent doses are given in later pregnancies to boost and extend immunity. A woman who has completed the full series may have lifelong protection.\n\nPossible Next Questions: \"How does vaccinating a pregnant woman with Td protect her newborn?\" (Answer: Through the transfer of maternal antibodies via the placenta).\n\nRecommended Reading:\n\nKEPI Guidelines on Maternal and Neonatal Tetanus Elimination (MNTE)."
+  },
+  {
+    "question": "Which vaccine is given to prevent tuberculosis in Kenya’s immunization program?",
+    "options": {
+      "A": "BCG vaccine",
+      "B": "Polio vaccine",
+      "C": "Hib vaccine",
+      "D": "Pneumococcal vaccine"
+    },
+    "answer": "A",
+    "explanation": "The BCG (Bacillus Calmette-Guérin) vaccine is administered to prevent severe forms of Tuberculosis (TB) in young children. While it does not prevent the initial lung infection with Mycobacterium tuberculosis, it is highly effective at preventing the infection from spreading to other parts of the body, thus preventing life-threatening conditions like TB meningitis and disseminated (miliary) TB.\n\nWhy other options are incorrect:\n\nPolio vaccine (OPV/IPV): Prevents poliomyelitis.\n\nHib vaccine: Prevents diseases caused by Haemophilus influenzae type b.\n\nPneumococcal vaccine (PCV): Prevents diseases caused by Streptococcus pneumoniae.",
+    "additional": "Schedule and Administration: BCG is given once, at birth or at the first contact with a health facility. It is administered via a 0.05 ml intradermal injection in the left upper arm.\n\nUnique Characteristics: It is the only vaccine in the KEPI schedule administered intradermally and is expected to leave a permanent scar.\n\nPossible Next Questions: \"Does the BCG vaccine prevent primary lung infection with TB?\" (Answer: No, it primarily prevents severe, disseminated forms of TB). \"What is the characteristic sign of a successful BCG vaccination?\" (Answer: The BCG scar).\n\nRecommended Reading:\n\nKEPI Training Manual for Health Workers on the BCG vaccine."
+  },
+  {
+    "question": "How often should the DTP vaccine be administered to children under the KEPI schedule?",
+    "options": {
+      "A": "Every 3 years",
+      "B": "Every 5 years",
+      "C": "Three doses at 6, 10, and 14 weeks",
+      "D": "Only once at birth"
+    },
+    "answer": "C",
+    "explanation": "This question directly assesses knowledge of the primary immunization schedule. The DTP vaccine (as part of the pentavalent vaccine) is administered in a three-dose primary series. The correct schedule is at 6 weeks, 10 weeks, and 14 weeks of age.\n\nWhy other options are incorrect:\n\nEvery 3 or 5 years: These timeframes are more typical for adult booster shots (like Td), not the primary infant series.\n\nOnly once at birth: The only vaccines given at birth in the KEPI schedule are BCG, OPV-0, and the Hepatitis B monovalent dose. DTP is not given at birth.",
+    "additional": "Importance of the Schedule Interval: The 4-week interval between doses is crucial for allowing the immune system to mount an effective response to each dose, leading to stronger, long-lasting immunity.\n\nConsistency is Key: The schedule for Pentavalent, PCV, and Rotavirus (doses 1 & 2) are aligned to make clinic visits more efficient for caregivers.\n\nPossible Next Questions: This is a direct recall question, so variations might ask for the schedule of another vaccine like PCV or MR.\n\nRecommended Reading:\n\nThe official Kenya National Immunization Schedule."
+  },
+  {
+    "question": "What is the primary target group for the hepatitis B vaccine in Kenya?",
+    "options": {
+      "A": "Adults over 50 years",
+      "B": "Children at birth",
+      "C": "Pregnant women",
+      "D": "Adolescents aged 15-19 years"
+    },
+    "answer": "B",
+    "explanation": "The primary and most critical target group for the Hepatitis B vaccine is newborns. The vaccine is administered as a monovalent (standalone) dose within 24 hours of birth. This is the most effective strategy to prevent mother-to-child (perinatal) transmission, which is a major route of infection and has a very high likelihood of leading to chronic, lifelong liver disease. All children then continue with the combined doses.\n\nWhy other options are incorrect:\n\nAdults over 50: This group is not a primary target for routine vaccination, though they may be vaccinated if they are at high risk.\n\nPregnant women: They are screened for Hepatitis B, but the vaccine itself is not routinely given during pregnancy. The focus is on protecting the baby immediately after birth.\n\nAdolescents: While catch-up vaccination may be offered, the primary strategy is universal infant immunization.",
+    "additional": "The \"Birth Dose\" Strategy: This is a critical public health intervention. Without it, a baby born to a Hepatitis B-positive mother has a very high chance of becoming chronically infected. The vaccine, when given promptly, is highly effective at preventing this.\n\nPossible Next Questions: \"Why is the first dose of Hepatitis B vaccine known as the 'birth dose'?\" \"What is the primary mode of Hepatitis B transmission that infant vaccination aims to prevent?\" (Answer: Perinatal or mother-to-child transmission).\n\nRecommended Reading:\n\nThe official Kenya National Immunization Schedule."
+  },
+  {
+    "question": "Which of the following vaccines is recommended for children to prevent rubella?",
+    "options": {
+      "A": "Measles, Mumps, and Rubella (MMR) vaccine",
+      "B": "Influenza vaccine",
+      "C": "Polio vaccine",
+      "D": "DTP vaccine"
+    },
+    "answer": "A",
+    "explanation": "The vaccine that prevents rubella (also known as German measles) is the MMR vaccine. In Kenya and many other regions, it is administered as a combined MR (Measles-Rubella) vaccine. Rubella is generally a mild viral illness in children, but it is of major public health concern because if a pregnant woman contracts it, it can lead to severe birth defects known as Congenital Rubella Syndrome (CRS).\n\nWhy other options are incorrect:\n\nInfluenza vaccine: Prevents seasonal flu.\n\nPolio vaccine: Prevents poliomyelitis.\n\nDTP vaccine: Prevents diphtheria, tetanus, and pertussis.",
+    "additional": "Congenital Rubella Syndrome (CRS): This is the primary reason for including rubella in immunization programs. CRS can cause deafness, cataracts, heart defects, intellectual disabilities, and liver and spleen damage in newborns.\n\nKEPI Schedule for MR: The MR vaccine is given in two doses: the first at 9 months and the second at 18 months.\n\nPossible Next Questions: \"What is the most severe consequence of rubella infection during pregnancy?\" (Answer: Congenital Rubella Syndrome). \"The 'R' in the MR vaccine stands for what disease?\" (Answer: Rubella).\n\nRecommended Reading:\n\nWHO Factsheet on Rubella.\n\nKEPI Training Manual on the MR vaccine."
+  },
+  {
+    "question": "At what age should a child receive their first dose of the hepatitis B vaccine under the KEPI schedule?",
+    "options": {
+      "A": "At birth",
+      "B": "6 weeks",
+      "C": "9 months",
+      "D": "1 year"
+    },
+    "answer": "A",
+    "explanation": "This is a critical point in the KEPI schedule. The first dose of the Hepatitis B vaccine is a monovalent (single-antigen) vaccine given at birth, ideally within the first 24 hours of life. This dose is specifically aimed at preventing perinatal (mother-to-child) transmission of the Hepatitis B virus.\n\nWhy other options are incorrect:\n\n6 weeks: This is the age for the second exposure to the Hepatitis B vaccine antigen, but it's part of the combined pentavalent vaccine. The first dose is at birth.\n\n9 months: This is the age for the first MR vaccine dose.\n\n1 year: No routine vaccines are scheduled at this exact age.",
+    "additional": "Full Hepatitis B Schedule Recap:\n\nBirth Dose: Monovalent HepB vaccine (within 24 hours).\n\nPenta 1, 2, 3: Combined DTP-HepB-Hib vaccine at 6, 10, and 14 weeks.\n\nImportance: This schedule ensures early and robust protection against a virus that can cause lifelong liver damage and cancer.\n\nPossible Next Questions: \"What is the recommended time frame for administering the birth dose of the Hepatitis B vaccine?\" (Answer: Within 24 hours of life). \"Is the Hepatitis B vaccine given at 6 weeks a standalone vaccine?\" (Answer: No, it is part of the pentavalent vaccine).\n\nRecommended Reading:\n\nThe official Kenya National Immunization Schedule."
+  },
+  {
+    "question": "Which of the following is a potential side effect of the DTP vaccine?",
+    "options": {
+      "A": "Fever",
+      "B": "Low blood pressure",
+      "C": "Nausea",
+      "D": "Hair loss"
+    },
+    "answer": "A",
+    "explanation": "Common, mild side effects following the DTP (pentavalent) vaccine are expected signs that the body's immune system is responding. These include:\n\nRedness, swelling, or pain at the injection site.\n\nMild to moderate fever.\n\nFussiness or irritability.\n\nWhy other options are incorrect:\n\nLow blood pressure, nausea, and hair loss are not typical side effects of the DTP vaccine. Nausea can be a side effect of some medications but is not common with this vaccine.",
+    "additional": "Managing Side Effects: Parents are usually advised to give paracetamol if the child develops a fever and to apply a cool cloth to the injection site to reduce discomfort. They should seek medical attention if the fever is very high or if the child shows signs of a more severe reaction.\n\nSevere Reactions: While very rare, severe reactions like seizures or anaphylaxis can occur and require immediate medical intervention.\n\nPossible Next Questions: \"What advice would you give a mother whose child has a mild fever after receiving the pentavalent vaccine?\"\n\nRecommended Reading:\n\nKEPI materials for health workers on Adverse Events Following Immunization (AEFI)."
+  },
+  {
+    "question": "Which vaccine is used to protect against meningitis caused by Neisseria meningitidis?",
+    "options": {
+      "A": "Hib vaccine",
+      "B": "Meningococcal vaccine",
+      "C": "Hepatitis B vaccine",
+      "D": "BCG vaccine"
+    },
+    "answer": "B",
+    "explanation": "The Meningococcal vaccine is designed to protect against invasive diseases caused by the bacterium Neisseria meningitidis, a major cause of bacterial meningitis and septicemia (blood poisoning). The disease is often severe and can be fatal.\n\nWhy other options are incorrect:\n\nHib vaccine: Protects against meningitis caused by a different bacterium, Haemophilus influenzae type b.\n\nHepatitis B vaccine: Protects against liver disease.\n\nBCG vaccine: Protects against TB, including TB meningitis, but not meningococcal meningitis.",
+    "additional": "KEPI Status: The meningococcal vaccine is not part of the routine infant immunization schedule in Kenya. It is typically used during outbreaks or for specific high-risk groups and travelers to areas in the \"meningitis belt\" of sub-Saharan Africa. Kenya recently introduced the MenA conjugate vaccine for specific populations.\n\nDifferent Serogroups: There are several serogroups of Neisseria meningitidis (A, B, C, W, Y). Different vaccines target different serogroups.\n\nPossible Next Questions: \"Is the meningococcal vaccine part of the routine KEPI schedule for all infants in Kenya?\" (Answer: No). \"Name three bacteria that can cause meningitis and are preventable by vaccination.\" (Answer: Neisseria meningitidis, Haemophilus influenzae type b, and Streptococcus pneumoniae).\n\nRecommended Reading:\n\nWHO Factsheet on Meningococcal Meningitis."
+  },
+  {
+    "question": "What is the primary method of vaccine delivery in the KEPI program for most vaccines?",
+    "options": {
+      "A": "Oral administration",
+      "B": "Intramuscular injection",
+      "C": "Intradermal injection",
+      "D": "Subcutaneous injection"
+    },
+    "answer": "B",
+    "explanation": "The majority of vaccines in the KEPI schedule are administered via intramuscular (IM) injection. This route allows for good absorption of the vaccine into the muscle tissue, where a rich blood supply helps to stimulate a strong immune response.\n\nVaccines Given via IM Injection:\n\nPentavalent (DTP-HepB-Hib)\n\nPneumococcal Conjugate Vaccine (PCV)\n\nInactivated Polio Vaccine (IPV)\n\nTetanus-Diphtheria (Td) for pregnant women\n\nOther Routes:\n\nOral: OPV, Rotavirus\n\nIntradermal: BCG\n\nSubcutaneous: MR (Measles-Rubella)",
+    "additional": "Injection Sites: For infants, the preferred site for IM injections is the anterolateral aspect of the thigh. For older children and adults, the deltoid muscle of the upper arm is often used.\n\nNeedle Safety: Proper technique, including using a new sterile needle and syringe for each injection and safe disposal into a safety box, is critical.\n\nPossible Next Questions: \"Which KEPI vaccine is administered intradermally?\" (Answer: BCG). \"What is the recommended site for an intramuscular injection in an infant?\" (Answer: Anterolateral thigh)."
+  },
+  {
+    "question": "Which of the following vaccines is given to prevent the infection caused by Streptococcus pneumoniae?",
+    "options": {
+      "A": "Polio vaccine",
+      "B": "Pneumococcal vaccine",
+      "C": "Rotavirus vaccine",
+      "D": "DTP vaccine"
+    },
+    "answer": "B",
+    "explanation": "The Pneumococcal Conjugate Vaccine (PCV) is given to protect against diseases caused by the bacterium Streptococcus pneumoniae. These diseases include pneumonia, meningitis, and bacteremia.\n\nWhy other options are incorrect:\n\nPolio vaccine: Prevents poliomyelitis.\nRotavirus vaccine: Prevents gastroenteritis.\nDTP vaccine: Prevents Diphtheria, Tetanus, and Pertussis.",
+    "additional": "Vaccine Type and Schedule: The PCV10 is used in the KEPI schedule and is administered as an intramuscular injection at 6, 10, and 14 weeks of age.\n\nKey takeaway: Knowing which vaccine prevents which disease is fundamental. Be sure to link Streptococcus pneumoniae with the PCV vaccine.\n\nPossible Next Questions: \"A 10-week-old infant comes to the MCH clinic. According to the KEPI schedule, which three vaccines should they receive?\" (Answer: Pentavalent (IM), PCV (IM), and Rotavirus (Oral)).\n\nRecommended Reading:\nThe official Kenya National Immunization Schedule."
+  },
+  {
+    "question": "Which of the following diseases can be prevented by the yellow fever vaccine?",
+    "options": {
+      "A": "Typhoid",
+      "B": "Yellow fever",
+      "C": "Hepatitis C",
+      "D": "Malaria"
+    },
+    "answer": "B",
+    "explanation": "The yellow fever vaccine provides specific protection against the yellow fever virus. This is a mosquito-borne flavivirus that can cause a severe hemorrhagic fever with a high fatality rate.\n\nWhy other options are incorrect:\n\nTyphoid: A bacterial disease prevented by the Typhoid vaccine.\nHepatitis C: A viral liver disease for which there is currently no vaccine.\nMalaria: A parasitic disease. A malaria vaccine (RTS,S) exists but is separate.",
+    "additional": "Vaccine Characteristics: The yellow fever vaccine is a live-attenuated vaccine that provides long-lasting, often lifelong, immunity with a single dose.\n\nAdministration: It is given as a subcutaneous injection.\n\nGeographic Focus: In Kenya, it is primarily targeted at populations in high-risk western counties and for travelers.\n\nPossible Next Questions: \"Is the Yellow Fever vaccine a live or inactivated vaccine?\" (Answer: Live-attenuated).\n\nRecommended Reading:\nWHO Factsheet on Yellow Fever."
+  },
+  {
+    "question": "Which of the following vaccines is recommended for preventing typhoid fever in Kenya?",
+    "options": {
+      "A": "Hib vaccine",
+      "B": "Polio vaccine",
+      "C": "Typhoid vaccine",
+      "D": "Meningitis vaccine"
+    },
+    "answer": "C",
+    "explanation": "The Typhoid vaccine is used to prevent typhoid fever, a systemic bacterial infection caused by Salmonella Typhi. The disease is spread through the fecal-oral route, typically via contaminated food or water.\n\nWhy other options are incorrect:\n\nHib vaccine: Prevents Haemophilus influenzae type b.\nPolio vaccine: Prevents poliomyelitis.\nMeningitis vaccine: A general term; specific vaccines (Hib, PCV, Meningococcal) prevent specific types of meningitis.",
+    "additional": "KEPI Status: The typhoid vaccine is not part of the routine KEPI schedule for all children. It is recommended for older children and adults in endemic areas, for travelers, and is often used in response to outbreaks.\n\nTypes of Typhoid Vaccines: There are two main types available: an oral live-attenuated vaccine and an injectable polysaccharide vaccine. The newer Typhoid Conjugate Vaccine (TCV) is now recommended by WHO for inclusion in routine programs in endemic countries.\n\nPossible Next Questions: \"How is typhoid fever transmitted?\" (Answer: Through contaminated food and water / fecal-oral route). \"Is the typhoid vaccine part of the routine infant immunization schedule in Kenya?\" (Answer: No).\n\nRecommended Reading:\nWHO Factsheet on Typhoid."
+  },
+  {
+    "question": "What is the purpose of the immunization campaign for polio in Kenya?",
+    "options": {
+      "A": "To eradicate malaria",
+      "B": "To prevent childhood paralysis",
+      "C": "To reduce flu-related complications",
+      "D": "To prevent bacterial infections"
+    },
+    "answer": "B",
+    "explanation": "The purpose is to prevent poliomyelitis, the disease caused by the poliovirus, whose most feared complication is acute flaccid paralysis (AFP). The campaigns aim to rapidly boost population immunity to stop the circulation of the virus and protect children from this irreversible paralysis.\n\nWhy other options are incorrect:\n\nA) Malaria is a different disease.\nC) Influenza vaccine reduces flu complications.\nD) Polio is caused by a virus, not bacteria.",
+    "additional": "Campaign Strategy: Polio campaigns, often called National Immunization Days (NIDs) or Sub-National Immunization Days (SNIDs), use the Oral Polio Vaccine (OPV) and aim to vaccinate every child under the age of five in a specific geographic area over a short period, regardless of their previous vaccination history.\n\nPossible Next Questions: \"What is AFP and which disease is it a hallmark of?\" (Answer: Acute Flaccid Paralysis, Polio).\n\nRecommended Reading:\nGlobal Polio Eradication Initiative (GPEI) resources."
+  },
+  {
+    "question": "At what age is the final dose of the DTP vaccine given according to the KEPI schedule?",
+    "options": {
+      "A": "6 months",
+      "B": "9 months",
+      "C": "12 months",
+      "D": "18 months"
+    },
+    "answer": "D",
+    "explanation": "After the primary series of DTP in infancy (at 6, 10, 14 weeks), a booster dose is required to maintain immunity. A common schedule includes a first booster dose at 18 months. This dose ensures long-term protection against diphtheria, tetanus, and pertussis.\n\nWhy other options are incorrect:\n\n6 months, 9 months, 12 months: These are not standard ages for the DTP booster. The infant primary series ends at 14 weeks.",
+    "additional": "Primary Series vs. Booster:\n\nPrimary Series: Initial doses at 6, 10, and 14 weeks.\nBooster Dose: Given at 18 months to enhance and prolong protection.\n\nImportant Clarification: The final dose of the **infant** series is at 14 weeks. This question refers to the **booster dose**, not the last dose of the primary series.\n\nPossible Next Questions: \"What is the difference between a primary vaccine series and a booster dose?\"\n\nRecommended Reading:\nKenya National Immunization Schedule."
+  },
+  {
+    "question": "Which of the following vaccines helps protect against diarrhea caused by rotavirus?",
+    "options": {
+      "A": "MMR vaccine",
+      "B": "Polio vaccine",
+      "C": "Rotavirus vaccine",
+      "D": "BCG vaccine"
+    },
+    "answer": "C",
+    "explanation": "The Rotavirus vaccine is specifically designed to protect infants and young children from rotavirus, which is the leading cause of severe, dehydrating diarrhea globally.",
+    "additional": "Route of Administration: The rotavirus vaccine is administered orally.\n\nKEPI Schedule: It is given in two doses at 6 and 10 weeks of age.\n\nImpact: Before the vaccine's introduction, rotavirus was a major cause of infant mortality in Kenya due to the severe dehydration it causes. The vaccine has had a significant positive impact on child health.\n\nPossible Next Questions: \"What is the primary illness prevented by the Rotavirus vaccine?\" (Answer: Severe diarrheal disease/gastroenteritis). \"How is the Rotavirus vaccine administered?\" (Answer: Orally).\n\nRecommended Reading:\nWHO Factsheet on Rotavirus."
+  },
+  {
+    "question": "Which vaccine is recommended for preventing neonatal tetanus in mothers under the KEPI program?",
+    "options": {
+      "A": "DTP vaccine",
+      "B": "TT vaccine",
+      "C": "Measles vaccine",
+      "D": "Hepatitis B vaccine"
+    },
+    "answer": "B",
+    "explanation": "The vaccine recommended for pregnant women to prevent tetanus in their newborns is the Tetanus Toxoid (TT) vaccine. It is often administered as the combined Td (Tetanus-Diphtheria) vaccine.",
+    "additional": "Why it works: The mother produces anti-tetanus antibodies, which cross the placenta to the fetus, providing passive immunity at birth.\n\nImportance of Td: Besides protecting the newborn, the Td vaccine also protects the mother herself from contracting tetanus through any injuries sustained during childbirth.\n\nPossible Next Questions: \"Why is the MMR vaccine contraindicated during pregnancy?\" (Answer: It is a live-attenuated vaccine, which poses a theoretical risk to the fetus).\n\nRecommended Reading:\nKEPI Guidelines on Maternal Immunization."
+  },
+  {
+    "question": "What is the age range for children to receive the second dose of the measles vaccine under the KEPI schedule?",
+    "options": {
+      "A": "6 months",
+      "B": "9 months",
+      "C": "12 months",
+      "D": "18 months"
+    },
+    "answer": "D",
+    "explanation": "The second dose of the measles-containing vaccine (MR) is administered at 18 months of age. This dose is critical to ensure high population immunity.",
+    "additional": "Schedule Recap:\nDose 1: 9 months\nDose 2: 18 months\n\nCatch-up Campaigns: Kenya often conducts Supplementary Immunization Activities (SIAs) to vaccinate children who may have missed their doses.\n\nPossible Next Questions: \"A child received their first MR dose at 9 months. When should they return for their second dose?\"\n\nRecommended Reading:\nThe official Kenya National Immunization Schedule."
+  },
+  {
+    "question": "Which of the following is a major benefit of immunization in Kenya?",
+    "options": {
+      "A": "Decreased government spending",
+      "B": "Protection of the population from vaccine-preventable diseases",
+      "C": "Reduced life expectancy",
+      "D": "Increased incidence of communicable diseases"
+    },
+    "answer": "B",
+    "explanation": "The single most important benefit of a national immunization program like KEPI is the protection of the population from vaccine-preventable diseases (VPDs).",
+    "additional": "Immunization directly reduces childhood illness and death, leading to a healthier population.\n\nEconomic Benefits: Healthy children attend school and become productive adults. Parents of healthy children miss less work. Healthcare system burden is reduced.\n\nPossible Next Questions: \"Explain how immunization is a cost-effective public health intervention.\"\n\nRecommended Reading:\nGavi, the Vaccine Alliance - \"The Value of Vaccination\" publications."
+  },
+  {
+    "question": "What is the primary reason the MMR vaccine is combined into a single shot?",
+    "options": {
+      "A": "To reduce the number of injections a child receives",
+      "B": "To make the vaccine cheaper",
+      "C": "To prevent side effects",
+      "D": "To reduce vaccine wastage"
+    },
+    "answer": "A",
+    "explanation": "The primary reason for developing combination vaccines like MMR is to reduce the number of injections a child needs, improving compliance and reducing discomfort.",
+    "additional": "Benefits:\n- Reduced trauma to children\n- Increased parental compliance\n- Improved clinic efficiency\n\nOther Combination Vaccines: Pentavalent combines DTP, HepB, and Hib in a single injection.\n\nPossible Next Questions: \"What are the main advantages of using combination vaccines in an infant immunization program?\"\n\nRecommended Reading:\nKEPI Training Materials on Combination Vaccines"
+  }
+]
+
+
+
+
+
