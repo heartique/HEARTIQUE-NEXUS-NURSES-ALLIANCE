@@ -406,5 +406,798 @@
     "answer": "B",
     "explanation": "Rationale for Correct Answer (B): The second stage of labor is intense and overwhelming. The contractions are powerful, frequent, and are accompanied by immense pressure and an urge to push. Crying out in pain is a common response to this overwhelming experience and can be interpreted as fear of losing control, especially in first-time mothers.",
     "additional": "Analysis of Incorrect Options:\n\n(A) Exhaustion is passive; crying out is an active coping response.\n\n(C) Involuntary grunting occurs during pushing with a closed glottis and is distinct from pain vocalization.\n\n(D) Valsalva’s maneuver is the act of holding one's breath and bearing down — a physical act, not emotional behavior.\n\nNursing Role: Offer reassurance, calm coaching, emotional presence.\n\nTextbook Reference: Maternity and Women's Health Care, 11th Ed., Chapter 16: Labor and Birth Processes."
+  },
+  {
+    "question": "The drug of choice in management of eclampsia is:",
+    "options": {
+      "a": "Phenobarbitone",
+      "b": "Magnesium sulphate",
+      "c": "Calcium gluconate",
+      "d": "Sodium bicarbonate"
+    },
+    "answer": "b",
+    "explanation": "Magnesium sulphate is the first-line anticonvulsant for managing eclamptic seizures. It effectively prevents and controls seizures without major respiratory depression if properly monitored.",
+    "additional": "Pritchard Regimen:\n- Loading dose: 4g IV + 10g IM (5g in each buttock).\n- Maintenance: 5g IM every 4 hours.\n\nMonitor using 'BURP':\n- BP (stable), Urine output (≥30ml/hr), Respiratory rate (≥12-16), Patellar reflexes (present).\n\nToxicity management: Stop MgSO₄ and administer 10ml of 10% Calcium Gluconate IV slowly.\n\nBook: *Williams Obstetrics* for comprehensive coverage of hypertensive disorders in pregnancy."
+  },
+  {
+    "question": "The commonest cause of primary Postpartum Hemorrhage is:",
+    "options": {
+      "a": "Trauma of the genital tract",
+      "b": "Blood coagulation disorder",
+      "c": "Prolonged 3rd stage of labour",
+      "d": "Atony of the uterus"
+    },
+    "answer": "d",
+    "explanation": "Uterine atony accounts for the majority of primary PPH cases due to failure of the uterus to contract, leaving open blood vessels at the placental site.",
+    "additional": "Remember the '4 Ts' of PPH:\n- Tone (Atony) – most common\n- Trauma – lacerations or uterine rupture\n- Tissue – retained placenta\n- Thrombin – clotting disorders\n\nAMTSL (Active Management of the Third Stage of Labour):\n- Administer Oxytocin\n- Controlled cord traction\n- Uterine massage\n\nBook: *Myles Textbook for Midwives* for practical midwifery guidance."
+  },
+  {
+    "question": "The midwife prevents spina bifida antenatally by:",
+    "options": {
+      "a": "Tetanus toxoid",
+      "b": "Folic acid",
+      "c": "Ferrous sulphate",
+      "d": "Albendazole"
+    },
+    "answer": "b",
+    "explanation": "Folic acid supplementation before conception and in early pregnancy significantly reduces the risk of neural tube defects like spina bifida.",
+    "additional": "Dosage:\n- 400 mcg/day for low-risk women\n- 5 mg/day for high-risk women (e.g., NTD history, epilepsy meds)\n\nFood sources: leafy greens, citrus fruits, fortified cereals.\n\nBook: *WHO Antenatal Care Guidelines* for evidence-based prenatal practices."
+  },
+  {
+    "question": "The correct sequence of antenatal abdominal palpation is:",
+    "options": {
+      "a": "Fundal, lateral, pelvic",
+      "b": "Fundal, pelvic, lateral",
+      "c": "Pelvic, lateral, fundal",
+      "d": "Lateral, fundal, pelvic"
+    },
+    "answer": "a",
+    "explanation": "The standard sequence (Leopold’s maneuvers) begins with the fundal grip, followed by lateral, and finally pelvic grip to assess lie, position, and presenting part.",
+    "additional": "Steps:\n1. Fundal Grip – determine part in fundus (lie/presentation)\n2. Lateral Grip – locate fetal back and limbs (position)\n3. Pelvic Grip – check engagement and presenting part\n\nPrerequisites: Empty bladder, relaxed abdomen, warm hands.\n\nBook: *Varney’s Midwifery* for detailed clinical skill procedures."
+  },
+  {
+    "question": "Maximum normal time for second stage of labour in primigravida without anaesthesia is:",
+    "options": {
+      "a": "20 minutes",
+      "b": "60 minutes",
+      "c": "120 minutes",
+      "d": "240 minutes"
+    },
+    "answer": "c",
+    "explanation": "The second stage of labour starts at full cervical dilatation and ends with the birth of the baby. In a primigravida (first-time mother) without anesthesia, the maximum expected normal duration is 2 hours (120 minutes). This allows time for descent and stretching of maternal tissues. Prolonged second stage requires assessment for obstruction or fetal distress.",
+    "additional": "Phases:\n- **Passive Phase**: Full dilatation but no urge to push.\n- **Active Phase**: Strong maternal pushing urge.\n\nInfluencing Factors:\n- **Parity**: Multigravidas usually deliver faster.\n- **Anesthesia**: Epidurals can prolong labour.\n- **Fetal position**: OP or malpositions delay descent.\n- **Maternal posture**: Upright positions aid gravity.\n\nManagement of Prolonged Second Stage:\n- Repositioning, hydration, empty bladder.\n- Oxytocin if contractions are weak.\n- Consider assisted delivery if indicated.\n\nBook: *Myles Textbook for Midwives* – comprehensive labour management."
+  },
+  {
+    "question": "The temporary structure of the fetal circulation which carries pure oxygenated blood is:",
+    "options": {
+      "a": "Ductus arteriosus",
+      "b": "Hypogastric arteries",
+      "c": "Umbilical vein",
+      "d": "Ductus Venosus"
+    },
+    "answer": "c",
+    "explanation": "The umbilical vein carries highly oxygenated blood from the placenta to the fetus. It is the only fetal vessel with nearly pure oxygenated blood, supplying essential oxygen and nutrients to fetal organs before mixing occurs.",
+    "additional": "**Fetal Circulation Highlights:**\n- **Umbilical vein**: Oxygenated blood from placenta.\n- **Ductus venosus**: Shunts blood to IVC, bypassing liver.\n- **Foramen ovale**: Right atrium → left atrium (to bypass lungs).\n- **Ductus arteriosus**: Pulmonary artery → aorta (bypass lungs).\n\n**Postnatal Changes:**\n- First breath closes foramen ovale.\n- Ductus arteriosus and venosus constrict → form ligaments.\n\nBook: *Human Embryology and Developmental Biology by Bruce M. Carlson* – excellent fetal circulation diagrams."
+  },
+  {
+    "question": "Presence of a hole in the membranes on examination of the placenta is indicative of:",
+    "options": {
+      "a": "Velamentous insertion",
+      "b": "Tripartite placenta",
+      "c": "Succenturiate placenta",
+      "d": "Bipartite"
+    },
+    "answer": "c",
+    "explanation": "A succenturiate placenta includes one or more small accessory lobes connected to the main placenta by fetal blood vessels within the membranes. A missing lobe leaves a hole in the membranes post-delivery, posing risk for retained tissue and postpartum hemorrhage.",
+    "additional": "**Differentiating Types:**\n- **Succenturiate**: Separate lobe(s); vessels cross membranes.\n- **Velamentous insertion**: Cord inserts into membranes, not placental disc.\n- **Tripartite/Bipartite**: 3 or 2 lobes of the main placental mass.\n\n**Risks:**\n- Retained lobe → PPH or infection.\n\n**Placental Check Postpartum:**\n- Confirm complete lobes and membranes.\n- Inspect cord insertion.\n- Watch for signs of retained products (bleeding, boggy uterus).\n\nBook: *Pathology of the Human Placenta by Kurt Benirschke* – for deep dive, or *Myles Textbook for Midwives* for practical clinical recognition."
+  },
+  {
+    "question": "Match the terms in column A with the correct statement in column B.\n\nColumn A:\na) Hegar's sign\nb) Chadwick's sign\n\nColumn B:\nI. Is the softening of the cervix and the vagina\nII. Is the softening of the uterine isthmus\nIII. Is the softening of the lower uterine segment\nIV. Is the purple-blue coloration of the vagina, cervix and the vulva\nV. Is the softening of the cervix and the uterine isthmus",
+    "options": {
+      "a": "II/III",
+      "b": "IV"
+    },
+    "answer": {
+      "a": "II",
+      "b": "IV"
+    },
+    "explanation": "Hegar's Sign: Softening of the uterine isthmus (lower uterine segment) detectable between 6-8 weeks by bimanual exam. Chadwick's Sign: Bluish discoloration of vagina, cervix, and vulva due to increased vascularity in early pregnancy (from 6-8 weeks).",
+    "additional": "**Types of Pregnancy Signs:**\n- *Presumptive:* Subjective (e.g., missed periods, nausea, fatigue).\n- *Probable:* Objective but not diagnostic (e.g., Hegar's, Chadwick's, Goodell's signs).\n- *Positive:* Diagnostic (e.g., ultrasound visualization, fetal heart tones, fetal movement felt by examiner).\n\n**Book:** *Varney's Midwifery* – detailed assessment techniques for early pregnancy."
+  },
+  {
+    "question": "Characteristics of cardiac disease Grade IV in pregnancy include:",
+    "options": {
+      "a": "A heart lesion exists but the patient is asymptomatic, leads a normal active life without discomfort or breathlessness.",
+      "b": "Patient experiences breathlessness and exhaustion with moderate to heavy work, has slight limitation of physical activities.",
+      "c": "Heart lesion exists and patient is symptomatic, patient is unable to carry out any light work or exercise.",
+      "d": "Patient experiences breathlessness with any light work or exercise, has marked limitation to physical activities."
+    },
+    "answer": "c",
+    "explanation": "Class IV (NYHA): Patient is symptomatic at rest and unable to carry out even light activity without discomfort. This class has the highest maternal and fetal risk during pregnancy and labor.",
+    "additional": "**NYHA Functional Classification in Pregnancy:**\n- *Class I:* No limitation of activity.\n- *Class II:* Symptoms on moderate exertion.\n- *Class III:* Symptoms with minimal exertion.\n- *Class IV:* Symptoms even at rest.\n\n**Management:**\n- Close antenatal monitoring.\n- Epidural in labor.\n- Assisted delivery to reduce strain.\n- Watch for fluid overload postpartum due to autotransfusion.\n\n**Book:** *High-Risk Pregnancy: Management Options* – comprehensive cardiac and other maternal risk coverage."
+  },
+  {
+    "question": "Some of the causes of delayed second stage of labor include:",
+    "options": {
+      "a": "Shoulder dystocia, precipitate labor",
+      "b": "Uterine fibroids, cord prolapse",
+      "c": "Obstruction in vagina, uterine inertia",
+      "d": "Cord around the neck, precipitate labor"
+    },
+    "answer": "c",
+    "explanation": "Obstruction in the vaginal canal or uterine inertia (poor contractions) are key causes of prolonged second stage. Others listed (e.g., precipitate labor or shoulder dystocia) refer to rapid labor or delivery complications after head delivery, not causes of delay.",
+    "additional": "**True Causes of Delayed Second Stage:**\n- *Obstruction:* CPD, fibroids, vaginal septum, full bladder.\n- *Uterine inertia:* Weak, irregular contractions.\n\n**Important Concept – Shoulder Dystocia:**\n- *Turtle sign:* Head retracts after delivery.\n- *Management:* McRoberts, suprapubic pressure, internal maneuvers.\n- *Do not apply fundal pressure!*\n\n**Book:** *PROMPT Course Manual* – excellent obstetric emergency protocols including shoulder dystocia steps."
+  },
+  {
+    "question": "The antidote for magnesium sulphate:",
+    "options": {
+      "a": "Dantrolene",
+      "b": "Protamine",
+      "c": "Calcium gluconate",
+      "d": "Acetylcysteine"
+    },
+    "answer": "c",
+    "explanation": "Magnesium sulphate toxicity causes respiratory depression and loss of deep tendon reflexes. Calcium gluconate is the specific antidote, acting as a direct magnesium antagonist at neuromuscular junctions to rapidly reverse toxicity.",
+    "additional": "**Signs of Magnesium Toxicity (in order of progression):**\n- Loss of Patellar Reflexes\n- Warmth, flushing\n- Slurred speech, drowsiness\n- Respiratory depression (<12/min)\n- Muscle paralysis\n- Cardiac arrest\n\n**Management:**\n- Stop MgSO₄ immediately\n- Administer 10ml of 10% Calcium Gluconate IV over 3–5 minutes\n- Provide respiratory support\n- Monitor urine output (should be ≥30 ml/hr)\n\n**Book:** *Myles Textbook for Midwives* – Practical guidelines for drug administration, monitoring, and toxicity reversal."
+  },
+  {
+    "question": "Causes of puerperal pyrexia include:",
+    "options": {
+      "a": "Deep venous thrombosis, pulmonary embolism",
+      "b": "Genital tract infection, urinary tract infection",
+      "c": "Urine retention, urinary tract infection",
+      "d": "Deep venous thrombosis, crackle nipples"
+    },
+    "answer": "b",
+    "explanation": "Endometritis and UTIs are the most common causes of puerperal pyrexia. Defined as temperature ≥38°C on any 2 of the first 10 postpartum days (excluding the first 24 hrs). Genital and urinary infections are most directly associated.",
+    "additional": "**Mnemonic – The 7 W's of Postpartum Fever:**\n- **Womb:** Endometritis – most common.\n- **Wind:** Pneumonia or atelectasis.\n- **Water:** UTI – due to stasis or catheter.\n- **Wound:** C-section/incision or episiotomy.\n- **Walk:** DVT – less common but serious.\n- **Weaning:** Mastitis due to cracked nipples.\n- **Wonder Drugs:** Rare, drug-induced fever.\n\n**Book:** *Williams Obstetrics* – Evidence-based management of postpartum infections and complications."
+  },
+  {
+    "question": "In breech presentation the denominator is:",
+    "options": {
+      "a": "Sacrum",
+      "b": "Pubis",
+      "c": "Occiput",
+      "d": "Sinciput"
+    },
+    "answer": "a",
+    "explanation": "In breech presentation, the sacrum is used as the reference point (denominator) for describing fetal position in relation to the maternal pelvis, e.g., Left Sacro-Anterior (LSA), Right Sacro-Posterior (RSP).",
+    "additional": "**Other Presentation Denominators:**\n- *Vertex (cephalic):* Occiput\n- *Face:* Mentum (chin)\n- *Shoulder:* Acromion\n\n**Types of Breech:**\n- *Frank:* Legs extended, hips flexed\n- *Complete:* Hips and knees flexed\n- *Footling:* One or both feet present first\n\n**Management Options:**\n- External Cephalic Version (ECV)\n- Elective Cesarean Section\n- Vaginal Breech Delivery (with strict selection and skilled personnel)\n\n**Book:** *PROMPT Course Manual* – Clear protocols on breech birth and decision-making in high-risk delivery."
+  },
+  {
+    "question": "Artificial rapture of the membrane (ARM) is also called.",
+    "options": {
+      "A": "Amniocentesis",
+      "B": "Amnioticity",
+      "C": "Amniogravidus",
+      "D": "Amniotomy"
+    },
+    "answer": "D",
+    "explanation": "Amniotomy is the correct medical term for the procedure of artificially rupturing the amniotic sac (the \"membranes\" or \"bag of waters\"). This is typically done with a sterile instrument called an amnihook or amnicot during a vaginal examination.\n\na) Amniocentesis: This is a diagnostic procedure where a needle is inserted through the mother's abdomen into the uterus to withdraw a sample of amniotic fluid for genetic testing. It is not for rupturing the membranes to induce or augment labor.\n\nb) Amnioticity: This term refers to the number of amniotic sacs in a multiple pregnancy (e.g., monoamniotic or diamniotic twins).\n\nc) Amniogravidus: This is not a standard medical term.",
+    "additional": "Indications for Amniotomy:\n\nInduction of Labor: To start labor, usually in conjunction with an oxytocin infusion. Rupturing the membranes causes a release of prostaglandins, which can initiate or strengthen contractions.\n\nAugmentation of Labor: To speed up a labor that has slowed down.\n\nTo Apply an Internal Fetal Scalp Electrode (FSE): To allow for direct and more accurate monitoring of the fetal heart rate when external monitoring is unclear.\n\nTo Assess the Color of Amniotic Fluid: To check for meconium staining, which can be a sign of fetal distress.\n\nPrerequisites and Risks:\n\nPrerequisites: The fetal head must be well-engaged and applied to the cervix to prevent the risk of umbilical cord prolapse. The cervix should be ripe and partially dilated.\n\nKey Risk: The most significant risk is umbilical cord prolapse, an obstetric emergency where the umbilical cord slips down in front of the presenting part after the membranes rupture.\n\nOther Risks: Infection (chorioamnionitis), bleeding from vasa previa (if undiagnosed), and changes in the fetal heart rate pattern (variable decelerations due to cord compression).\n\nMidwife's Role during Amniotomy:\n\nExplain the procedure and get consent.\n\nConfirm fetal head is engaged.\n\nMonitor the fetal heart rate (FHR) before, during, and immediately after the procedure to detect cord prolapse. A sudden, severe bradycardia or deep variable decelerations after ARM is highly suspicious of a cord prolapse.\n\nDocument the time, color, and amount of amniotic fluid.\n\nBook Recommendation:\n\nVarney's Midwifery: Provides detailed, step-by-step guidance on clinical procedures, including amniotomy, outlining the indications, contraindications, technique, and necessary nursing/midwifery care."
+  },
+  {
+    "question": "Twenty-four hours after delivery the fundus is:",
+    "options": {
+      "A": "5 cm below the umbilicus",
+      "B": "Slightly below the umbilicus and should be in state of contraction feeling firm",
+      "C": "Midway between the symphysis pubis and the umbilicus",
+      "D": "At the level of the umbilicus"
+    },
+    "answer": "D",
+    "explanation": "Involution is the process by which the uterus returns to its non-pregnant state after birth. This process involves the contraction of the uterine muscle fibers.\n\nImmediately after delivery: The fundus is typically found midway between the umbilicus and the symphysis pubis.\n\nWithin 12 hours: The fundus rises to the level of the umbilicus, or slightly above it.\n\nAt 24 hours postpartum: The fundus is expected to be at or just below the level of the umbilicus. It should be firm, central, and non-tender.\n\nAfter 24 hours: The fundus begins to descend into the pelvis at a rate of approximately 1 cm (or one fingerbreadth) per day. By about day 10-14, it is no longer palpable above the symphysis pubis.",
+    "additional": "Assessing the Fundus: This is a key postpartum nursing/midwifery assessment.\n\nTechnique: Place one hand just above the symphysis pubis to support the lower uterine segment (preventing uterine inversion) while the other hand gently palpates the abdomen to locate the top of the fundus.\n\nDocumentation: The assessment should document:\n\nHeight: In relation to the umbilicus (e.g., \"U-1\" for 1 cm below, \"U+1\" for 1 cm above).\n\nConsistency: Should be firm (like a grapefruit or cricket ball). A soft, \"boggy\" uterus indicates atony and a high risk of PPH.\n\nPosition: Should be midline. A fundus deviated to the side (usually the right) often indicates a full bladder, which displaces the uterus and prevents it from contracting effectively.\n\nSubinvolution: This is the failure of the uterus to return to its non-pregnant state. The most common causes are retained placental fragments and infection (endometritis). It is a major cause of late postpartum hemorrhage.\n\nBook Recommendation:\n\nMyles Textbook for Midwives: Has dedicated chapters on the puerperium (postpartum period) that clearly explain the physiology of involution and the essential midwifery care and assessments required during this time."
+  },
+  {
+    "question": "A direct cause of maternal mortality include",
+    "options": {
+      "A": "Haemorrhage, anaemia",
+      "B": "Anaemia, tuberculosis",
+      "C": "Malaria, tuberculosis",
+      "D": "Haemorrhage, sepsis"
+    },
+    "answer": "D",
+    "explanation": "Maternal deaths are classified as either direct or indirect.\n\nDirect Obstetric Deaths: These are deaths resulting from obstetric complications of the pregnant state (pregnancy, labor, and puerperium), from interventions, omissions, incorrect treatment, or from a chain of events resulting from any of the above.\n\nHaemorrhage (antenatal or postpartum) and puerperal sepsis (infection) are classic examples of direct causes. Other major direct causes include hypertensive disorders (pre-eclampsia/eclampsia) and thromboembolism.\n\nIndirect Obstetric Deaths: These are deaths resulting from previously existing disease or disease that developed during pregnancy and which was not due to direct obstetric causes, but which was aggravated by the physiologic effects of pregnancy.\n\nAnemia, Malaria, and Tuberculosis are considered indirect causes. While pregnancy can worsen these conditions and they can contribute to maternal death, they are not complications of the pregnancy itself. Anemia is often listed as a contributing factor that worsens the outcome of hemorrhage, but the hemorrhage itself is the direct cause.",
+    "additional": "The \"Three Delays\" Model: This model is used to analyze and understand the factors contributing to maternal mortality, particularly in low-resource settings.\n\nDelay in Deciding to Seek Care: Due to factors like lack of knowledge of danger signs, cultural beliefs, or the low status of women.\n\nDelay in Reaching a Health Facility: Due to factors like long distances, lack of transport, or poor roads.\n\nDelay in Receiving Adequate Care at the Facility: Due to factors like lack of skilled staff, unavailability of essential drugs and supplies (e.g., blood, oxytocin), or poor quality of care.\n\nGlobal Leading Causes of Direct Maternal Death (WHO):\n\nSevere bleeding (mostly postpartum hemorrhage)\n\nInfections (usually after childbirth)\n\nHigh blood pressure during pregnancy (pre-eclampsia and eclampsia)\n\nComplications from delivery\n\nUnsafe abortion\n\nBook Recommendation:\n\nWorld Health Organization (WHO) Publications on Maternal Health: The WHO website is an excellent resource for global statistics, definitions, and strategies related to maternal mortality. For a textbook reference, Williams Obstetrics provides a thorough overview of the causes and epidemiology of maternal death."
+  },
+  {
+    "question": "The most common method of delivery of the placenta and the membrane.",
+    "options": {
+      "A": "Fundal pressure application",
+      "B": "Maternal effort method",
+      "C": "Controlled cord traction",
+      "D": "Supra-pubic pressure application"
+    },
+    "answer": "C",
+    "explanation": "Controlled Cord Traction (CCT) is a key component of the Active Management of the Third Stage of Labour (AMTSL), which is the evidence-based, recommended standard of care globally for placental delivery. After signs of placental separation have appeared, CCT involves applying steady, gentle downward traction on the umbilical cord with one hand, while the other hand provides counter-traction by applying upward pressure on the uterine body just above the pubic symphysis (this is called guarding the uterus). This technique facilitates the delivery of the separated placenta and significantly reduces the risk of PPH and uterine inversion.\n\na) Fundal pressure application (Credé maneuver): This involves squeezing or pushing on the uterine fundus. It is an obsolete and dangerous practice. It can cause incomplete placental separation, uterine rupture, and uterine inversion. It should not be used.\n\nb) Maternal effort method (Physiological/Expectant Management): This involves waiting for the mother to push the placenta out with her own effort, usually with gravity assistance. While this is a valid approach (known as physiological third stage), it is not the most common or recommended method in most settings due to a higher risk of PPH compared to AMTSL.\n\nd) Supra-pubic pressure application: This is the counter-traction or \"guarding\" part of CCT, not the method of delivery itself.",
+    "additional": "Active Management of the Third Stage of Labour (AMTSL) - The Full Package: AMTSL is a combination of interventions proven to reduce the risk of postpartum hemorrhage by over 60%.\n\nAdministration of a Uterotonic Drug: Oxytocin 10 IU IM is the drug of choice, given within one minute of the baby's birth.\n\nDelayed Cord Clamping: Waiting 1-3 minutes before clamping the cord is now standard practice within AMTSL.\n\nControlled Cord Traction (CCT): Performed only after a uterotonic has been given and signs of placental separation are present.\n\nUterine Massage: Massaging the fundus after the placenta is delivered to encourage strong contraction.\n\nSigns of Placental Separation: The midwife must confirm these signs before attempting CCT.\n\nA sudden gush of blood from the vagina.\n\nLengthening of the visible part of the umbilical cord.\n\nThe uterus becomes firm, globular, and rises in the abdomen.\n\nThe fundus is firm on palpation.\n\nBook Recommendation:\n\nPROMPT (Practical Obstetric Multi-Professional Training) Course Manual: Provides very clear, skills-based instructions on how to perform AMTSL correctly and safely."
+  },
+  {
+    "question": "In an erect fetal head (not flexed) the presenting diameter are:",
+    "options": {
+      "A": "Occipiata-frontal and biparietal",
+      "B": "Sub occipito-bregmatic and biparietal",
+      "C": "Submento-bregmatic and bi temperol",
+      "D": "Mento-vertical and bi-temperol"
+    },
+    "answer": "A",
+    "explanation": "The presenting diameters change based on the degree of flexion or extension of the fetal head (the attitude).\n\nWell-flexed head (Normal Attitude): The smallest anteroposterior diameter, the suboccipito-bregmatic (SOB) (9.5 cm), presents. The transverse diameter is the biparietal (BPD) (9.5 cm). This is the ideal presentation for delivery. (Option b)\n\nErect/Military Attitude (Deflexed): The head is not flexed or extended. The presenting anteroposterior diameter is the occipito-frontal (OF), which measures about 11.5 cm. This larger diameter can slow down or obstruct labor. The transverse diameter remains the biparietal (BPD) (9.5 cm). (Option a)\n\nBrow Presentation (Partially extended): The largest diameter, the mento-vertical (MV) (13.5 cm), presents. The transverse diameter is the bitemporal (BT) (8.2 cm). Vaginal delivery is impossible with a persistent brow presentation due to the massive MV diameter. (Option d)\n\nFace Presentation (Fully extended): The head is fully extended. The presenting anteroposterior diameter is the submento-bregmatic (SMB) (9.5 cm). The transverse diameter is the bitemporal (BT) (8.2 cm). Vaginal delivery is possible if the chin rotates anteriorly (mento-anterior). (Option c)",
+    "additional": "Understanding Fetal Head Diameters is Crucial: Knowledge of these diameters is fundamental to understanding the mechanics of labor (how the fetus navigates the maternal pelvis). When a larger-than-optimal diameter presents, it can lead to:\n\nCephalopelvic Disproportion (CPD): A mismatch between the size of the fetal head and the maternal pelvis.\n\nProlonged or Obstructed Labor: The head fails to descend and rotate.\n\nNeed for Intervention: Increased likelihood of instrumental delivery or Cesarean section.\n\nAssessing Attitude: The attitude of the head is assessed clinically by vaginal examination, by feeling for the fontanelles and suture lines. For example, in a well-flexed vertex presentation, the posterior fontanelle is easily felt, while the anterior fontanelle is difficult to reach. In a deflexed presentation, the anterior fontanelle is more central and easily felt.\n\nBook Recommendation:\n\nMayes' Midwifery: A Textbook for Midwives: This book has excellent diagrams and clear explanations of the fetal skull, its diameters, and the mechanics of labor."
+  },
+  {
+    "question": "The objective of the first examination of the newborn include:",
+    "options": {
+      "A": "Assess injury, assess maturity, and assess growth",
+      "B": "Assess congenital abnormality, assess injury and assess for breastfeeding",
+      "C": "Assess maturity, assess condition and congenital abnormalities",
+      "D": "Assess injury, assess maturity, and assess congenital abnormalities"
+    },
+    "answer": "D",
+    "explanation": "The initial examination of the newborn, performed right after birth, is a quick but systematic assessment to ensure the baby has transitioned well to extrauterine life and to identify any immediate problems.\n\nd) Assess injury, assess maturity, and assess congenital abnormalities: This is the most comprehensive and accurate answer.\n\nAssess Injury: Checking for birth trauma such as bruising, clavicle fractures, or nerve palsies (e.g., Erb's palsy).\n\nAssess Maturity: A quick assessment of gestational age based on physical characteristics (e.g., skin texture, plantar creases, ear cartilage). This helps identify babies who may be at risk (preterm or post-term).\n\nAssess Congenital Abnormalities: A head-to-toe check for any obvious physical anomalies, such as spina bifida, cleft lip/palate, or extra digits.\n\nb) ...assess for breastfeeding: Assessing for breastfeeding is a crucial part of postpartum care, but it is an assessment of a process/behavior, not a primary objective of the initial physical examination for medical abnormalities.\n\nc) ...assess condition: This is a bit vague. The Apgar score is used to assess the immediate condition, but the full examination goes beyond that. Option (d) is more specific.",
+    "additional": "Components of the Newborn Examination:\n\nApgar Score: Done at 1 and 5 minutes (and later if needed) to assess immediate adaptation. It scores Appearance (color), Pulse (heart rate), Grimace (reflex irritability), Activity (muscle tone), and Respiration.\n\nVital Signs: Temperature, heart rate, and respiratory rate are checked.\n\nMeasurements: Weight, length, and head circumference are taken to assess growth.\n\nSystematic Head-to-Toe Physical Exam:\n\nHead: Check fontanelles, sutures, look for caput succedaneum or cephalhematoma.\n\nFace: Check for symmetry, eyes, ears, nose, and mouth (check palate for intactness).\n\nNeck & Clavicles: Check for webbing, masses, and feel for clavicle integrity.\n\nChest: Observe respiratory effort, listen to heart and breath sounds.\n\nAbdomen: Palpate for masses, check the umbilical cord for three vessels (two arteries, one vein).\n\nGenitalia & Anus: Check for normal anatomy and patency of the anus.\n\nSpine: Palpate along the spine to rule out defects like spina bifida.\n\nExtremities: Check for number of digits, range of motion, and look for hip dysplasia (Barlow and Ortolani maneuvers).\n\nReflexes: Check primitive reflexes like Moro, grasp, and sucking.\n\nBook Recommendation:\n\nPhysical Assessment of the Newborn: A Comprehensive Approach to the Art of Physical Examination by Ellen P. Tappero and Mary Ellen Honeyfield: This is a specialist book that is an excellent, detailed, and photograph-rich guide specifically for this skill."
+  },
+  {
+    "question": "Crowning is best defined as:",
+    "options": {
+      "A": "When the greatest diameter of the fetal head comes through vulva",
+      "B": "When presenting part reaches the pelvis floor",
+      "C": "When the perineum bulges in front of fetal head",
+      "D": "When the head is visible at vulva"
+    },
+    "answer": "A",
+    "explanation": "Crowning is a specific and critical moment during the second stage of labor. It signifies that the widest part of the fetal head (the biparietal diameter) has successfully passed through the pelvic inlet and is now distending the vulval ring to its maximum. At this point, the head no longer recedes back into the vagina between contractions.\n\na) When the greatest diameter of the fetal head comes through vulva: This is the precise definition. The perineum is stretched to its limit, and delivery of the head is imminent.\n\nb) When presenting part reaches the pelvis floor: This happens earlier in the second stage and triggers the active pushing reflex, but it is not crowning.\n\nc) When the perineum bulges in front of fetal head: This is a sign that precedes crowning. The perineum starts to bulge as the head descends, but crowning is the point of maximum distension.\n\nd) When the head is visible at vulva: The head may be visible at the introitus during a contraction and then recede. This is not yet crowning. Crowning is when the head remains visible and fixed at the outlet.",
+    "additional": "Management at Crowning: This is a crucial time for the midwife to guide the mother and protect the perineum to prevent tears.\n\nControl the Speed of Delivery: The head must be delivered slowly and gently. The midwife encourages the mother to stop actively pushing and instead use small pants or puffs (\"pant the baby out\") to allow the perineum to stretch gradually.\n\nPerineal Support/Protection: The midwife may use hands-on techniques (e.g., the Ritgen maneuver or simple guarding) to support the perineum and flex the fetal head, easing it over the perineal body.\n\nEpisiotomy: A decision about whether an episiotomy is needed is often made at this point if there are signs of impending severe tearing or fetal distress.\n\nChecking for Nuchal Cord: As soon as the head is delivered, the midwife must immediately check the baby's neck for the umbilical cord and manage it if present.\n\nBook Recommendation:\n\nVarney's Midwifery: Provides excellent, practical guidance on managing the second stage of labor, with detailed descriptions of crowning and techniques for perineal protection."
+  },
+  {
+    "question": "Risk of HIV transmission from breastfeeding is increased when the mother.",
+    "options": {
+      "A": "Has unprotected sex with an infected partner during puerperium, involved in substance abuse",
+      "B": "Has smoking habit, has STIs and other co-infections",
+      "C": "Has crackle nipple, abscess or other breast problems, has symptoms for HIV related disease.",
+      "D": "Become first infected while pregnant or while she is breast feeding, has vitamin A deficiency."
+    },
+    "answer": "D",
+    "explanation": "This question assesses knowledge of factors that increase the risk of mother-to-child transmission (MTCT) of HIV through breastfeeding.\n\nd) Become first infected while pregnant or while she is breast feeding, has vitamin A deficiency: This is the strongest answer.\n\nAcute/Recent Infection: A mother who acquires HIV during pregnancy or while breastfeeding has an extremely high viral load. This period of acute seroconversion poses the highest risk of transmission to the infant.\n\nVitamin A Deficiency: Is known to be associated with increased viral shedding in breast milk and impaired infant mucosal immunity, thus increasing transmission risk.\n\nc) Has crackle nipple, abscess or other breast problems...: This is also a very significant risk factor. Mastitis, cracked nipples, or a breast abscess increases the risk of transmission because it raises the viral load in the breast milk of the affected breast and may expose the infant to maternal blood.\n\na) and b): These options list general risk factors for acquiring HIV or other health issues but are less direct in increasing the rate of transmission via breast milk than high maternal viral load or breast pathology.\n\nWhy (d) is arguably the \"best\" answer among strong options: A recent maternal infection leads to a systemic, very high viral load in all body fluids, including milk from both breasts, making it a more profound and generalized risk than a localized breast issue.",
+    "additional": "Strategies to Prevent MTCT:\n\nAntiretroviral Therapy (ART): The most critical intervention. Providing effective ART to the mother significantly suppresses her viral load, dramatically reducing the risk of transmission during pregnancy, delivery, and breastfeeding.\n\nInfant Post-Exposure Prophylaxis (PEP): The newborn of an HIV-positive mother receives a course of antiretroviral drugs (e.g., Nevirapine or Zidovudine) for several weeks after birth.\n\nSafer Infant Feeding Choices:\n\nCurrent WHO Guideline: For HIV-positive mothers on effective ART with a suppressed viral load, breastfeeding is recommended for at least 12 months and up to 24 months or more, as the benefits (nutrition, immunity) are considered to outweigh the now very low risk of transmission.\n\nExclusive Breastfeeding: Mixed feeding (giving breast milk plus other foods/liquids) in the first 6 months is discouraged as it can damage the infant's gut lining and increase HIV transmission risk compared to exclusive breastfeeding.\n\nCounseling: Midwives must provide clear, evidence-based counseling to HIV-positive mothers about their infant feeding options, supporting them in their choice.\n\nBook Recommendation:\n\nWorld Health Organization (WHO) Consolidated Guidelines on HIV Prevention, Testing, Treatment, Service Delivery and Monitoring: The definitive source for the latest global recommendations on HIV and MTCT."
+  },
+  {
+    "question": "Quickening",
+    "options": {
+      "A": "Can occurs as early as 16 weeks of gestation",
+      "B": "Is a positive sign of pregnancy",
+      "C": "Refers to pulsation of fornices",
+      "D": "Is caused by increased blood flow to the uterus"
+    },
+    "answer": "A",
+    "explanation": "Quickening is the term used for the mother's first perception of fetal movement.\n\na) Can occurs as early as 16 weeks of gestation: This is correct. The timing varies. In a multigravida (a woman who has been pregnant before), she may recognize the subtle flutters as early as 16 weeks because she knows what to expect. In a primigravida (first-time mother), it is more commonly felt between 18 and 20 weeks, as she may initially mistake the sensation for gas or peristalsis.\n\nb) Is a positive sign of pregnancy: This is incorrect. Quickening is a presumptive sign of pregnancy. While it is caused by the fetus moving, it is a subjective sensation reported by the mother and could theoretically be misinterpreted. A positive sign must be objective and diagnostic (e.g., the examiner feeling the movement).\n\nc) Refers to pulsation of fornices: This describes Osiander's sign, a probable sign of pregnancy where an increased pulsation is felt in the lateral vaginal fornices due to increased uterine artery blood flow.\n\nd) Is caused by increased blood flow to the uterus: This is incorrect. It is caused by the physical movement of the fetus.",
+    "additional": "Importance of Fetal Movements: After quickening, the pattern and frequency of fetal movements become a key indicator of fetal well-being. A mother should be educated to be aware of her baby's normal movement pattern.\n\n\"Count the Kicks\": While formal counting protocols vary, the general advice is that a significant reduction or cessation of fetal movement is a critical danger sign.\n\nManagement of Reduced Fetal Movements (RFM): If a woman reports RFM (after about 24-28 weeks), she should be advised to lie on her left side, concentrate, and count movements for an hour. If she still feels reduced movement, she must contact her midwife or maternity unit immediately.\n\nAssessment for RFM: Includes a Non-Stress Test (NST) using a cardiotocograph (CTG) machine to assess the fetal heart rate pattern and an ultrasound to check amniotic fluid volume and fetal biophysical profile. A perception of reduced movements can sometimes be the first and only sign of fetal compromise.\n\nBook Recommendation:\n\nMyles Textbook for Midwives: Clearly defines all the signs of pregnancy and provides excellent guidance on health education for expectant mothers, including the importance of monitoring fetal movements."
+  },
+  {
+    "question": "The following does not measure labor progress while using a partograph:",
+    "options": {
+      "A": "Cervical dilatation",
+      "B": "Blood pressure",
+      "C": "Contraction",
+      "D": "Descent of the presenting part."
+    },
+    "answer": "B",
+    "explanation": "The partograph is a graphical tool used to monitor the progress of labor and the condition of the mother and fetus. Its primary purpose is to provide an early warning for prolonged or obstructed labor.\n\nThe components that directly measure labor progress are:\n\na) Cervical dilatation: Plotted against time. A crossing of the \"Alert Line\" indicates slow progress that needs attention.\n\nc) Contraction: The frequency, duration, and strength of contractions are charted.\n\nd) Descent of the presenting part: The station of the fetal head (in relation to the ischial spines) is recorded.\n\nb) Blood pressure: This is a vital parameter for monitoring the maternal condition, not the progress of labor itself. Maternal blood pressure, pulse, and temperature are charted on the partograph to detect issues like pre-eclampsia or infection, but they do not measure how the labor is advancing.",
+    "additional": "Components of the WHO Partograph: The partograph has three main sections:\n\nFetal Condition:\n- Fetal Heart Rate (FHR)\n- Amniotic Fluid (color)\n- Moulding of the fetal skull\n\nLabor Progress:\n- Cervical Dilatation (plotted on the graph with Alert and Action lines)\n- Descent of the Head\n- Uterine Contractions (frequency and duration)\n\nMaternal Condition:\n- Maternal Pulse, Blood Pressure, and Temperature\n- Urine (volume, protein, and ketones/acetone)\n- Drugs administered (including oxytocin)\n\nThe Alert and Action Lines:\n\nAlert Line: Starts at 4 cm dilatation and represents the rate of dilatation of the slowest 10% of normal labors (1 cm/hour). If the plotted cervical dilatation crosses this line, it signals that the labor may be prolonged and requires closer observation and assessment by a skilled provider.\n\nAction Line: Drawn 4 hours to the right of the Alert Line. If the dilatation plot crosses this line, it indicates critically slow progress, and a decision regarding intervention (e.g., augmentation, Cesarean section) must be made.\n\nBook Recommendation:\n\nWHO Partograph Manual: The World Health Organization provides detailed manuals and training materials on the correct use of the partograph, which are the global standard."
+  },
+  {
+    "question": "The following are some of the hormone responsible for causing muscles contraction",
+    "options": {
+      "A": "Progesterone, Relaxin",
+      "B": "Prolactin, Oxytocin",
+      "C": "Prostaglandins, Progesterone",
+      "D": "Prostaglandins, Oxytocin"
+    },
+    "answer": "D",
+    "explanation": "This question refers to the hormones that cause uterine muscle (myometrium) contraction during labor.\n\nd) Prostaglandins, Oxytocin: This is the correct combination.\n\nOxytocin: Produced by the posterior pituitary gland, it is the primary hormone responsible for causing strong, rhythmic, and coordinated uterine contractions during labor. It is also used therapeutically to induce or augment labor.\n\nProstaglandins: Produced locally in the uterine decidua and fetal membranes, they play a crucial role in cervical ripening (softening and effacing the cervix) and also stimulate myometrial contractions.\n\na) Progesterone, Relaxin: Progesterone is the \"hormone of pregnancy\" that inhibits uterine contractions and maintains uterine quiescence. Relaxin helps soften ligaments and the cervix but does not cause contractions.\n\nb) Prolactin, Oxytocin: Prolactin is responsible for milk production (lactogenesis), while oxytocin causes milk ejection (the let-down reflex) and uterine contractions. Prolactin itself does not cause uterine contractions.\n\nc) Prostaglandins, Progesterone: This is a contradictory pairing, as prostaglandins stimulate while progesterone inhibits contractions.",
+    "additional": "The Onset of Labor - A Hormonal Shift: The initiation of labor is a complex process believed to be triggered by a shift in the balance of hormones.\n\nProgesterone Withdrawal: Towards the end of pregnancy, the influence of progesterone on the myometrium decreases, removing the \"brake\" on contractions.\n\nEstrogen Dominance: Estrogen levels rise, which increases the number of oxytocin receptors on the myometrium, making the uterus more sensitive to oxytocin.\n\nIncreased Prostaglandin Synthesis: This is stimulated by factors like membrane stretching and is a key trigger for both cervical ripening and the start of contractions.\n\nFerguson Reflex: This is a positive feedback loop that drives labor forward. As the fetal head stretches the cervix and lower uterine segment, nerve impulses are sent to the hypothalamus, triggering the posterior pituitary to release a surge of oxytocin. This oxytocin causes stronger contractions, which pushes the head further down, causing more stretching, and leading to more oxytocin release.\n\nBook Recommendation:\n\nGuyton and Hall Textbook of Medical Physiology: Provides an in-depth, clear explanation of endocrine functions, including the roles of oxytocin and prostaglandins in parturition."
+  },
+  {
+    "question": "Deep transverse arrest occurs when:",
+    "options": {
+      "A": "The presenting dimensions of the flexed head escapes the pelvis",
+      "B": "The head become extended and the face presents",
+      "C": "The head is flexed at the onset of labour",
+      "D": "The occipital diamenter is cought ata anarrow bisponius diameter of the outlet."
+    },
+    "answer": "D",
+    "explanation": "Deep Transverse Arrest (DTA) is a specific type of obstructed labor. It occurs when the fetal head has descended deep into the pelvis but fails to rotate from the transverse position to an anterior position. The sagittal suture of the fetal head is in the transverse diameter of the maternal pelvis at the level of the ischial spines.\n\nd) ...caught at a narrow bispinous diameter...: This captures the mechanism. The biparietal diameter (BPD) of the fetal head (the widest transverse part) gets stuck at the interspinous diameter of the maternal pelvis (the narrowest part of the mid-pelvis). This prevents the necessary internal rotation that would allow the occiput to move to the front (occipito-anterior).\n\na) ...escapes the pelvis: This is the opposite of what happens; the head is arrested within the pelvis.\n\nb) ...head become extended and the face presents: This describes a face presentation, a different malpresentation.\n\nc) ...head is flexed at the onset of labour: This is normal. DTA is a problem of rotation, not initial flexion.",
+    "additional": "Causes of Deep Transverse Arrest:\n\nPelvic Shape (The \"P\" for Passage): An android (male-type) or platypelloid (flat) pelvis has a narrow mid-pelvis, which physically obstructs rotation. Prominent ischial spines are a key feature.\n\nUterine Contractions (The \"P\" for Powers): Inefficient or hypotonic uterine contractions may not be strong enough to drive the rotation of the head against the pelvic floor.\n\nFetal Head Position (The \"P\" for Passenger): A persistent occipito-posterior or occipito-transverse position can lead to DTA if the head is unable to rotate forward.\n\nDiagnosis and Management:\n\nDiagnosis: Made by vaginal examination during the second stage of labor when there is a lack of progress (descent and rotation) despite good contractions. The sagittal suture is found in the transverse position at or below the ischial spines.\n\nManagement: This is a form of obstructed labor that requires intervention.\n\nOxytocin: May be used if contractions are poor and the pelvis is deemed adequate.\n\nManual or Instrumental Rotation: An obstetrician may attempt to rotate the head manually or with forceps (e.g., Kielland's forceps).\n\nCesarean Section: If rotation fails or is not possible, a C-section is required.\n\nBook Recommendation:\n\nMunro Kerr's Operative Obstetrics: A classic and highly respected text on the management of abnormal labor and operative deliveries, with detailed sections on deep transverse arrest."
+  },
+  {
+    "question": "The definition of a perinatal death is:",
+    "options": {
+      "A": "The death of a fetus weighing at least 200grams, (or 22 weeks gestation) plus the number of early neonatal death (up to 7 days)",
+      "B": "The death of a fetus weighing at least 500grams, (or 22 weeks gestation) plus the number of early neonatal death (up to 7 days)",
+      "C": "The death of a fetus weighing at least 500grams ( or 22 weeks gestation) plus the number of early neonatal deaths (up to 5 days)",
+      "D": "The death of a fetus weighing at least 800grams ( or 22 weeks gestation) plus the number of early neonatal deaths (up to 7 days)"
+    },
+    "answer": "B",
+    "explanation": "The perinatal period surrounds the time of birth. A perinatal death is a composite measure that includes both stillbirths (fetal deaths) and early neonatal deaths. The WHO definition is the standard used for international comparison.\n\nb) ...at least 500grams (or 22 weeks gestation)... (up to 7 days): This is the most widely accepted international definition from the WHO.\n\nStillbirth (Fetal Death): The death of a fetus before the complete expulsion from its mother, with a birth weight of 500g or more, or if weight is unavailable, a gestational age of 22 completed weeks or more.\n\nEarly Neonatal Death: The death of a live-born infant within the first 7 completed days of life (i.e., day 0 to day 6).\n\nThe other options use incorrect weight or time cut-offs. The 500g/22 week mark is based on the general threshold for viability. The first 7 days are considered the \"early\" neonatal period, while the full neonatal period extends to 28 days.",
+    "additional": "Key Epidemiological Rates:\n\nPerinatal Mortality Rate (PMR): (Number of stillbirths + Number of early neonatal deaths) / (Total number of births [live births + stillbirths]) x 1000.\n\nStillbirth Rate: Number of fetal deaths (≥500g or ≥22 weeks) / Total births x 1000.\n\nNeonatal Mortality Rate (NMR): Number of deaths in the first 28 days of life / Number of live births x 1000.\n\nCauses of Perinatal Death:\n\nStillbirth: Congenital abnormalities, placental insufficiency, maternal infections, intrapartum complications.\n\nEarly Neonatal Death: Prematurity, birth asphyxia, and severe infections.\n\nBook Recommendation:\n\nWHO Publications or \"Global Health and a New World Order\" by Gideonheimer and Buse."
+  },
+  {
+    "question": "Mauriceau-Smellie-Veit maneuver is used when:",
+    "options": {
+      "A": "The arms are extended",
+      "B": "The arms are flexed",
+      "C": "The head is flexed",
+      "D": "The head is extended"
+    },
+    "answer": "D",
+    "explanation": "The Mauriceau-Smellie-Veit (MSV) maneuver is a classic obstetric procedure used to deliver the 'aftercoming head' in a vaginal breech birth, specifically when the head is not well-flexed. The goal is to maintain flexion and safely deliver the head without causing injury.\n\nd) The head is extended: The MSV maneuver is designed to correct or manage a deflexed or extended head. One hand is placed on the fetal back to provide gentle downward traction, while the index and middle fingers of the other hand are placed over the baby's maxilla (cheekbones) to promote flexion and guide the head out.",
+    "additional": "Steps of the Mauriceau-Smellie-Veit Maneuver:\n\n- Baby's body rests on the forearm.\n- Fingers are placed on malar bones (not in the mouth).\n- Other hand supports shoulders, middle finger on occiput.\n- Downward traction brings suboccipital region under pubic arch.\n- Head is delivered by lifting the body upward.\n\nMisused Maneuvers:\n\n- a) Extended arms: Managed with Lovset's.\n- b) Flexed arms: No special intervention needed.\n- c) Head already flexed: MSV not required.\n\nPreparation:\n\n- Skilled team required\n- Suprapubic pressure and pediatric resuscitation team on standby\n\nBook Recommendation:\n\nMunro Kerr's Operative Obstetrics or Williams Obstetrics."
+  },
+  {
+    "question": "A client in active labor spontaneously ruptures membranes. The nurse should first:",
+    "options": {
+      "A": "Monitor fetal heart rate",
+      "B": "Call the physician",
+      "C": "Check BP and pulse",
+      "D": "Time contraction"
+    },
+    "answer": "A",
+    "explanation": "The number one priority after the rupture of membranes (SROM) is to assess the fetal heart rate.\n\na) Monitor fetal heart rate: This is the correct first action. A sudden change in the FHR, especially bradycardia or decelerations, may indicate umbilical cord prolapse—a life-threatening emergency.\n\nb) Call the physician: Done afterward, if complications are detected.\n\nc) Check BP and pulse: Not an immediate priority unless clinical suspicion of maternal compromise.\n\nd) Time contraction: Important, but not as urgent as checking FHR post-SROM.",
+    "additional": "Full Sequence of Actions After SROM:\n\n1. **Fetal Heart Rate**: Auscultate immediately.\n2. **Document T-A-C-O**:\n   - **Time** of rupture\n   - **Amount** of fluid\n   - **Color** of fluid (clear, meconium, bloody)\n   - **Odor** (foul = infection)\n3. **Assess for Cord Prolapse** if fetal heart changes or unengaged head.\n4. **Perineal Care**: Change pads.\n5. **Continue Monitoring**: Maternal vitals, labor progress, and fetal status.\n\nBook Recommendation:\n\nVarney’s Midwifery: Practical steps and priorities in routine and emergency labor management."
+  },
+  {
+    "question": "Which of the following is an indication for forceps delivery:",
+    "options": {
+      "A": "Cephalopelvic disproportion",
+      "B": "Occipital posterior position",
+      "C": "Breech presentation",
+      "D": "Placenta abruption"
+    },
+    "answer": "B",
+    "explanation": "Forceps delivery is an operative vaginal delivery used to assist in the second stage of labor. A persistent occipito-posterior (OP) position is a common indication, as it may result in prolonged labor or maternal exhaustion. Specific types of forceps can assist in rotating the head to an anterior position and delivering it safely.",
+    "additional": "Key Notes:\n\n- a) Cephalopelvic disproportion: Contraindication for forceps—requires Cesarean.\n- c) Breech: Specialized forceps may be used only for the aftercoming head.\n- d) Placenta abruption: Emergency C-section usually indicated.\n\n**FORCEPS Mnemonic Prerequisites**:\nF - Full dilation\nO - Outlet/low station (+2 or lower)\nR - Ruptured membranes\nC - Cephalic presentation\nE - Engaged head (no CPD)\nP - Pain relief\nS - Surgical backup ready\n\nCommon Indications: Maternal exhaustion, fetal distress, prolonged second stage.\n\nBook Recommendation:\nMunro Kerr's Operative Obstetrics."
+  },
+  {
+    "question": "The term persistent occipito-posterior position indicates that the occiput:",
+    "options": {
+      "A": "Fails to rotate forward",
+      "B": "Escape under the symphysis pubis",
+      "C": "Rotates forward always",
+      "D": "Reaches the pelvic floor first"
+    },
+    "answer": "A",
+    "explanation": "Persistent occipito-posterior (OP) position occurs when the fetal head fails to rotate from the back-facing (posterior) position to the more optimal front-facing (anterior) position during labor. This leads to prolonged, painful labor and often requires intervention.",
+    "additional": "Key Characteristics:\n- Causes prolonged labor and intense back pain ('back labor').\n- Associated with early urge to push and poor descent.\n- Up to 20% may remain in OP until delivery.\n\nManagement:\n- Positioning (hands-and-knees, lunges, etc.)\n- Pain relief\n- Operative delivery if needed (forceps, vacuum, or Cesarean).\n\nBook Recommendation:\nMyles Textbook for Midwives."
+  },
+  {
+    "question": "The immediate action to take when you diagnose cord prolapse on vaginal examination is to:",
+    "options": {
+      "A": "Check pulsation",
+      "B": "Position the mother in knee-chest",
+      "C": "Take patient to theatre",
+      "D": "Call for help"
+    },
+    "answer": "D",
+    "explanation": "Cord prolapse is an obstetric emergency. The **first and most urgent action** is to call for help to activate the emergency team. Management must be immediate and coordinated.",
+    "additional": "Action Sequence:\n1. **Call for help** (immediate priority).\n2. **Manually elevate** presenting part off the cord—do NOT remove the hand.\n3. **Position the mother** in knee-chest or extreme Trendelenburg.\n4. **Check pulsation** (while hand is inside).\n5. **Stop oxytocin**, administer tocolytic if needed.\n6. **Provide oxygen**, prep for emergency C-section.\n\nBook Recommendation:\nPROMPT (Practical Obstetric Multi-Professional Training) Manual."
+  },
+  {
+    "question": "Fetal cause of fetal distress include:",
+    "options": {
+      "A": "Hypotension, cord prolapse, hemorrhage",
+      "B": "Pre-eclampsia, placenta abruption, cord presentation",
+      "C": "Hypotension, pre-eclampsia, hemorrhage",
+      "D": "Cord prolapse, placenta abruption, cord presentation."
+    },
+    "answer": "D",
+    "explanation": "Fetal distress (now more commonly termed 'non-reassuring fetal status') occurs when the fetus does not receive adequate oxygen. The causes can be maternal, placental, or fetal. This question asks for fetal/placental causes. d) Cord prolapse, placenta abruption, cord presentation: This is the best answer as it lists conditions directly related to the cord and placenta, which are the fetus's lifeline.\n\nCord Prolapse/Presentation: The umbilical cord is compressed, cutting off blood flow.\n\nPlacenta Abruption: The placenta detaches prematurely from the uterine wall, reducing the surface area for oxygen exchange.\n\na) Hypotension, cord prolapse, hemorrhage: Maternal hypotension and hemorrhage are maternal causes.\n\nb) Pre-eclampsia is a maternal cause.\n\nc) All are maternal.",
+    "additional": "Signs of Non-Reassuring Fetal Status:\n\n- Abnormal Fetal Heart Rate (FHR): Bradycardia, tachycardia, reduced variability, late/variable decelerations\n- Meconium-Stained Liquor\n- Reduced Fetal Movements\n\nIntrauterine Resuscitation:\n\n- Change maternal position\n- Administer oxygen\n- Increase IV fluids\n- Stop oxytocin\n- Vaginal exam for prolapse\n- Call for medical help\n\nBook Recommendation:\n**Fetal Heart Rate Monitoring** by Julian T. Parer and Teknait T. Tamire"
+  },
+  {
+    "question": "The layer of the uterine wall shed during menstruation is the",
+    "options": {
+      "A": "Perimetrium",
+      "B": "Functional endometrium",
+      "C": "Myometrium",
+      "D": "Basal Endometrium"
+    },
+    "answer": "B",
+    "explanation": "The uterine wall has three layers. The endometrium is the inner lining and is divided into the functional and basal layers. The functional endometrium is the superficial layer that is hormonally responsive and is shed during menstruation if pregnancy does not occur.",
+    "additional": "Uterine Layers:\n- Perimetrium: Outer serous layer\n- Myometrium: Thick muscular middle layer, not shed\n- Functional Endometrium: Sheds monthly\n- Basal Endometrium: Remains to regenerate new lining\n\nMenstrual Cycle Phases:\n- Menstrual Phase: Functional layer sheds\n- Proliferative Phase: Functional layer regrows\n- Secretory Phase: Prepares for implantation\n\nBook Recommendation:\n**Anatomy and Physiology for Midwives** by Jane Coad and Melvyn Dunstall"
+  },
+  {
+    "question": "A woman is one hour postpartum following vaginal delivery. Which of the following action would you take first?",
+    "options": {
+      "A": "Initiate perineal pad count",
+      "B": "Assess the location of the bladder",
+      "C": "Obtain vital signs",
+      "D": "Massage uterine fundus"
+    },
+    "answer": "D",
+    "explanation": "The most common cause of postpartum hemorrhage is uterine atony. The top priority is to assess uterine tone. If soft or boggy, fundal massage is the immediate first action to encourage contraction and minimize bleeding.",
+    "additional": "Fourth Stage Care Priorities:\n\n- Fundus: Assess tone and position\n- Lochia: Check amount, color, odor\n- Bladder: A full bladder can prevent contraction\n- Vital signs: Monitor for signs of shock\n\nMnemonic: BUBBLE-HE\n- Breasts\n- Uterus\n- Bladder\n- Bowels\n- Lochia\n- Episiotomy/perineum\n- Hemorrhoids/Homan's\n- Emotional status\n\nBook Recommendation:\n**Myles Textbook for Midwives** – Chapter: Care in the Puerperium"
+  },
+  {
+    "question": "In a normal delivery with a well flexed head the presenting diameters are;",
+    "options": {
+      "A": "Mentovertical 13.5cm, bitemporal 8.2cm",
+      "B": "Bitemporal 8.2cm,and sub-mentobregmatic 9.5cm",
+      "C": "Bipariental 9.5cm and sub-occipitobregmatic 9.5cm",
+      "D": "Bitemporal 9.5cm and occipitofrontal11.5cm"
+    },
+    "answer": "C",
+    "explanation": "This question tests knowledge of the specific fetal skull diameters that present during an ideal, normal delivery. For a vaginal birth to proceed with the greatest ease, the smallest possible diameters of the fetal head must align with the largest diameters of the maternal pelvis. This is achieved when the fetal head is well-flexed (chin to chest).\n\nc) ...Biparietal 9.5cm and sub-occipitobregmatic 9.5cm: This is the correct answer.\n\nThe Sub-Occipito-Bregmatic (SOB) diameter (9.5 cm) is the anteroposterior diameter that presents when the head is fully flexed. It runs from below the occiput to the center of the anterior fontanelle.\n\nThe Biparietal (BPD) diameter (9.5 cm) is the largest transverse diameter of the fetal skull, running between the two parietal eminences.\n\na) Mentovertical (13.5 cm): This is the largest diameter of the fetal head and presents in a brow presentation, making vaginal delivery impossible.\n\nb) Sub-mentobregmatic (9.5 cm) and Bitemporal (8.2 cm): These are the presenting diameters in a face presentation.\n\nd) Occipitofrontal (11.5 cm): This diameter presents when the head is deflexed (military attitude).",
+    "additional": "Attitude and Presenting Diameters (A Summary):\n\n| Attitude | Presenting AP Diameter | Measurement | Outcome |\n| :--- | :--- | :--- | :--- |\n| Full Flexion | Sub-Occipito-Bregmatic (SOB) | 9.5 cm | Optimal for delivery |\n| Deflexion (Erect) | Occipito-Frontal (OF) | 11.5 cm | Can cause prolonged labor |\n| Partial Extension (Brow)| Mento-Vertical (MV) | 13.5 cm | Obstructed labor, requires C-section|\n| Full Extension (Face) | Sub-Mento-Bregmatic (SMB) | 9.5 cm | Vaginal delivery possible (if mento-anterior)|\n\nBook Recommendation:\n**Mayes' Midwifery: A Textbook for Midwives**: Clear diagrams and explanations of fetal skull diameters and their labor implications."
+  },
+  {
+    "question": "The mechanism of normal labor in sequence include;",
+    "options": {
+      "A": "Descent,Internal rotation of the head „extension of the head „restitution „crowning extension of the head",
+      "B": "Descent, flexion of the head, internal rotation of the head, crowning, extension of the head, restitution",
+      "C": "Flexion of the head, internal rotation of the head, extension of the head, restitution, crowning, extension of the head",
+      "D": "Internal rotation of the head, flexion of the head crowning, external rotation of the head, descent, extension of the head"
+    },
+    "answer": "B",
+    "explanation": "The mechanism of labor, or the cardinal movements, describes the series of passive movements the fetus undertakes to navigate the maternal pelvis. The sequence is critical and logical.\n\nb) ... This option presents the most accurate sequence of events.\n\nDescent: The continuous downward passage of the fetus through the pelvis.\n\nFlexion: The fetal head flexes (chin to chest) as it meets resistance from the pelvic floor, presenting the smaller SOB diameter.\n\nInternal Rotation: The head rotates from a transverse position to an anteroposterior (AP) position to align the longest diameter of the head with the longest diameter of the pelvic outlet.\n\nCrowning/Extension: As the head passes under the pubic arch, it extends. Crowning is the point where the widest diameter distends the vulva, and extension is the movement that allows the head to be born.\n\nRestitution: After the head is born, it rotates back 45 degrees to undo the twist in the neck from internal rotation and align with the shoulders.",
+    "additional": "Full Sequence of Cardinal Movements:\n\n- Engagement\n- Descent\n- Flexion\n- Internal Rotation\n- Extension\n- Restitution\n- External Rotation\n- Expulsion\n\nBook Recommendation:\n**Myles Textbook for Midwives** – Classic visual and descriptive guide to cardinal movements of labor."
+  },
+  {
+    "question": "The midwife will encourage the mother to empty the urinary bladder during first stage of labour mainly to ;",
+    "options": {
+      "A": "Minimize infection",
+      "B": "Avoid bladder rupture during the third stage of labour",
+      "C": "Prevent contamination during second stage of labour",
+      "D": "Avoid complications during second stage and third stage of labour"
+    },
+    "answer": "D",
+    "explanation": "A full bladder during labor can cause significant problems. Encouraging regular voiding is a simple but critical midwifery intervention.\n\nd) Avoid complications during second stage and third stage of labour: This is the most comprehensive and correct answer.\n\nFirst/Second Stage: A full bladder obstructs fetal descent and may prolong labor.\n\nThird Stage/Postpartum: A full bladder can displace the uterus, leading to poor contraction and postpartum hemorrhage (PPH).\n\na) Minimize infection: While valid, it's not the primary labor-related reason.\n\nb) Avoid bladder rupture: Possible but less common.\n\nc) Prevent contamination: Secondary issue, not the main concern.",
+    "additional": "Midwifery Practice:\n\n- Encourage voiding every 2 hours\n- Palpate for bladder distension\n- Check for a deviated uterus\n- Assist or catheterize if needed (especially with epidurals)\n\nBook Recommendation:\n**Varney's Midwifery** – Excellent for step-by-step practical labor care, including bladder management."
+  },
+  {
+    "question": "The layer of the blastocyst that produces human chorionic gonadotropin is:",
+    "options": {
+      "A": "Syncytiotrophoblas",
+      "B": "Cytotrophoblast",
+      "C": "Mesoderm",
+      "D": "Ectoderm"
+    },
+    "answer": "A",
+    "explanation": "This question tests knowledge of early embryonic development and the origin of the key pregnancy hormone, hCG. After fertilization, the zygote develops into a blastocyst. The outer cell mass of the blastocyst is called the trophoblast, which is responsible for implantation and develops into the placenta. The trophoblast differentiates into two layers:\n\na) Syncytiotrophoblast: This is the outer, multi-nucleated layer of the trophoblast that aggressively invades the maternal endometrium. It is the primary site of hormone production, most importantly human Chorionic Gonadotropin (hCG). hCG is the hormone detected in pregnancy tests.\n\nb) Cytotrophoblast: This is the inner, single-celled layer of the trophoblast. It serves as a proliferative layer, with its cells dividing and fusing to form more syncytiotrophoblast.\n\nc) Mesoderm and d) Ectoderm: These, along with the endoderm, are the three primary germ layers that develop from the inner cell mass of the blastocyst. They go on to form all the tissues and organs of the fetus itself, not the placenta or its hormones.",
+    "additional": "Functions of hCG:\n\n- \"Rescues\" the Corpus Luteum: hCG signals the corpus luteum to keep producing progesterone, preventing menstruation and supporting early pregnancy.\n- Basis of Pregnancy Tests: Detectable in blood and urine.\n- Other Roles: Stimulates fetal testosterone, may suppress maternal immune response.\n- hCG Levels: Double every 48–72 hrs, peak at 8–10 weeks, then decline.\n\nBook Recommendation:\n**Langman's Medical Embryology**: A classic embryology text with detailed diagrams and implantation insights."
+  },
+  {
+    "question": "Capacitation of the sperm:",
+    "options": {
+      "A": "Is caused by the zona pellucida",
+      "B": "Is essential for fertilization",
+      "C": "Prevents polyspermy",
+      "D": "Occurs in the male"
+    },
+    "answer": "B",
+    "explanation": "Capacitation is a series of physiological changes that sperm must undergo within the female reproductive tract before they are capable of fertilizing an oocyte (egg).\n\nb) Is essential for fertilization: This is the correct definition. Uncapacitated sperm cannot penetrate the outer layers of the egg. The process involves the removal of certain cholesterol and glycoprotein molecules from the sperm's head, which \"unmasks\" the binding sites and makes the membrane more fluid, preparing it for the acrosome reaction.\n\na) Is caused by the zona pellucida: Incorrect. Capacitation occurs before the sperm meets the zona.\n\nc) Prevents polyspermy: Incorrect. This is done by the cortical reaction in the egg after fertilization.\n\nd) Occurs in the male: Incorrect. It happens post-ejaculation in the female tract.",
+    "additional": "Steps of Fertilization:\n\n- Sperm Transport & Capacitation\n- Penetration of the Corona Radiata\n- Binding & Penetration of Zona Pellucida\n- Acrosome Reaction (enzyme release)\n- Fusion of Membranes\n- Cortical Reaction (blocks polyspermy)\n\nBook Recommendation:\n**Guyton and Hall Textbook of Medical Physiology**: Detailed coverage of fertilization processes, including capacitation."
+  },
+  {
+    "question": "The three components of the cervical exam are:",
+    "options": {
+      "A": "Dilatation, presentation and effacement",
+      "B": "Dilatation, effacement and station",
+      "C": "Station, dilatation and effacement",
+      "D": "Effacement, dilatation and station"
+    },
+    "answer": "B",
+    "explanation": "A vaginal examination during labor is performed to assess progress. The assessment of the cervix and fetal presenting part involves several key components. The three most fundamental are:\n\nDilatation: Opening of the cervix (0–10 cm).\n\nEffacement: Thinning and shortening of the cervix (%).\n\nStation: Position of the presenting part relative to the ischial spines.\n\n0 = at spines, negative = above, positive = below.\n\na) ...presentation...: While presentation is noted during the exam, it’s not a component of the cervical exam specifically.\n\nc) and d) are just reordered versions of b, and thus not wrong in clinical sense—but b is preferred in MCQs.",
+    "additional": "Other Info from Vaginal Exam:\n\n- Cervical Consistency (soft/firm)\n- Cervical Position (posterior/mid/anterior)\n- Status of Membranes (intact/ruptured)\n- Fetal Position via sutures/fontanelles\n\nBishop Score: Combines 5 components to predict successful labor induction.\n\nBook Recommendation:\n**Varney's Midwifery**: Practical, illustrated guide for performing and interpreting vaginal exams."
+  },
+  {
+    "question": "In FANC (Focused Antenatal Care) the activities that should be done during the first visit are:",
+    "options": {
+      "A": "Listen to fetal heart rate sound, give albendazole dose, iron, folate, counsel and educate the mother.",
+      "B": "Take history, give tetanus toxoid, iron and folate, screen for syphilis",
+      "C": "Perform vaginal examination, check fetal presentation, give sulfudoxine pyrimethamine dose, iron and folate",
+      "D": "Give first sulfadoxin pyramethamine dose, iron and folate, check individual birth plan, counsel and educate the mother."
+    },
+    "answer": "B",
+    "explanation": "Focused Antenatal Care (FANC) emphasizes evidence-based interventions to improve outcomes. The first visit is crucial.\n\nTake History: Establishes baseline health and identifies risk.\nTetanus Toxoid: Prevents neonatal tetanus.\nIron/Folate: Prevents anemia and neural tube defects.\nScreen for Syphilis: Prevents congenital infections.\n\nOther options mention SP or Albendazole, which are given later, or examinations not routinely done unless indicated.",
+    "additional": "WHO FANC Visit Schedule:\n- Visit 1 (<16 wks): History, labs, tetanus, iron/folate.\n- Visit 2 (20–24 wks): Fetal growth, complications, 2nd TT, 1st IPTp.\n- Visit 3 (28–32 wks): Follow-up, 2nd IPTp, prep birth plan.\n- Visit 4 (36–40 wks): Confirm fetal position, review birth plan.\n\nCore Principle: Every visit is an opportunity for prevention, detection, and preparation.\n\nBook: WHO Focused Antenatal Care: A Manual for Implementation"
+  },
+  {
+    "question": "Some of the condition that predispose a mother to puerperal psychosis include:",
+    "options": {
+      "A": "Anemia, severe puerperal sepsis, Malaria",
+      "B": "Anaemia, Diabetes, Cardiac disease",
+      "C": "Epilepsy, Diabetes, Anemia",
+      "D": "Severe puerperal sepsis, polyhydromnious"
+    },
+    "answer": "A",
+    "explanation": "Puerperal psychosis is a severe postpartum psychiatric emergency.\n\nAnemia: Can cause cerebral hypoxia and worsen mental state.\nSevere Sepsis: Can lead to delirium and infective psychosis.\nMalaria: Especially cerebral malaria, can cause acute psychosis.\n\nDiabetes, cardiac disease, and epilepsy are significant but less direct causes.\nPolyhydramnios is not a known risk factor.",
+    "additional": "Key Risk Factors:\n- Bipolar/schizophrenia history (strongest predictor)\n- Previous puerperal psychosis\n- Severe stress or infection\n\nClinical Features:\n- Onset within 2 weeks postpartum\n- Hallucinations, delusions, confusion\n- Severe mood swings\n\nRequires emergency psychiatric referral.\n\nBook: Perinatal Mental Health – NICE Guideline (NG192)"
+  },
+  {
+    "question": "A woman in your early pregnancy class asks when she will feel her baby move. You base your response on the knowledge that fetal movements are usually FIRST felt by the mother between:",
+    "options": {
+      "A": "6-10 weeks",
+      "B": "16-18 weeks",
+      "C": "16-20 weeks",
+      "D": "21-24 weeks"
+    },
+    "answer": "C",
+    "explanation": "Quickening, or first fetal movements, are typically felt between 16–20 weeks.\n\nPrimigravidas: Often feel it later (18–20 weeks).\nMultigravidas: May notice it earlier (16–18 weeks).\n\nMovements are not felt at 6–10 weeks despite occurring (only detectable via ultrasound).\n\nFeeling movements after 24 weeks may require assessment.",
+    "additional": "Influencing Factors:\n- Parity: Multigravidas feel earlier\n- Body size: Slim women may feel sooner\n- Placenta: Anterior placenta delays perception\n\nReassure women not to worry before 20 weeks, but investigate if no movements felt by 24 weeks.\n\nBook: Myles Textbook for Midwives"
+  },
+  {
+    "question": "Progress of labour is determined by which of the following:",
+    "options": {
+      "A": "Dilatation and intensity of contractions",
+      "B": "Dilatation and effacement",
+      "C": "Dilatation and descent",
+      "D": "Frequency of the contractions and descent"
+    },
+    "answer": "C",
+    "explanation": "Progress is best assessed by:\n\nDilatation: Indicates cervical opening (first stage).\nDescent: Indicates fetal movement down the birth canal (first and second stage).\n\nContractions drive labor but do not confirm progress unless accompanied by changes in cervix or fetal station.",
+    "additional": "The 3 P's:\n- Powers: Uterine contractions\n- Passenger: Fetal size, position, attitude\n- Passage: Maternal pelvis\n\nProgress is charted using dilatation and descent on a partograph.\n\nBook: Varney’s Midwifery"
+  },
+  {
+    "question": "Presentation is the part of the fetus that is:",
+    "options": {
+      "A": "Relates to right or left side of the maternal pelvis",
+      "B": "Presenting or is the closest in the proximity to the birth canal",
+      "C": "Relates to the long axis of the mother",
+      "D": "First enters the pelvic cavity"
+    },
+    "answer": "D",
+    "explanation": "Presentation = the fetal part that enters the pelvic inlet first.\n\nUsually determined during abdominal or vaginal exam.\n\nCephalic is the most common presentation.\n\nOption A = Position, Option C = Lie, Option B = less precise version of D.",
+    "additional": "Key Definitions:\n- Lie: Fetal spine vs maternal spine (e.g., longitudinal)\n- Presentation: Fetal part at pelvic inlet (e.g., head, breech)\n- Attitude: Flexion/extension of fetal body\n- Position: Denominator relative to maternal pelvis (e.g., LOA)\n\nBook: Myles Textbook for Midwives"
+  },
+  {
+    "question": "The shortest diameter of the female pelvis is:",
+    "options": {
+      "A": "Anatomical conjugate",
+      "B": "Interspisious (Bispisious)",
+      "C": "Sacro-cotyloid dimension",
+      "D": "Obstrtrical conjugate"
+    },
+    "answer": "B",
+    "explanation": "This question tests knowledge of the critical diameters of the maternal pelvis, which determine its capacity for childbirth. The shortest diameter of the entire pelvis is the one that most often limits the passage of the fetus.\n\nb) Interspinous (Bispinous) Diameter: This is the distance between the two ischial spines. It is the narrowest diameter of the mid-pelvis and of the pelvis as a whole, typically measuring around 10.0 to 10.5 cm. This is the diameter where deep transverse arrest can occur if the fetal head fails to rotate.\n\na) Anatomical Conjugate: This is the distance from the sacral promontory to the top of the symphysis pubis (approx. 11.5 cm). It is a diameter of the pelvic inlet.\n\nc) Sacro-cotyloid dimension: This is an oblique diameter of the pelvic inlet, running from the sacroiliac joint to the iliopubic eminence on the opposite side (approx. 12.5 cm).\n\nd) Obstetrical Conjugate: This is the shortest anteroposterior diameter of the pelvic inlet, measured from the sacral promontory to the posterior aspect of the symphysis pubis. It is the most important AP diameter of the inlet and measures approximately 11.0 cm. While it's a critical diameter, it is not the shortest overall compared to the interspinous diameter.",
+    "additional": "The Three Pelvic Planes:\n\nInlet (Superior Strait): The entrance to the true pelvis. The fetal head typically engages in the transverse or oblique diameter of the inlet.\n\nKey Diameters: Transverse (~13.5 cm), Oblique (~12.5 cm), Obstetrical Conjugate (~11.0 cm).\n\nMid-pelvis (Plane of Least Dimensions): The narrowest part of the pelvis, at the level of the ischial spines. This is where internal rotation must be completed.\n\nKey Diameter: Interspinous (~10.0-10.5 cm).\n\nOutlet (Inferior Strait): The exit of the true pelvis.\n\nKey Diameters: Anteroposterior (~12.5-13.5 cm as the coccyx moves back), Transverse (Intertuberous) (~11.0 cm).\n\nPelvic Shapes (Caldwell-Moloy Classification):\n\nGynecoid: The classic \"female\" pelvis, round and spacious. The most favorable for childbirth.\n\nAndroid: The \"male\" pelvis, heart-shaped with a narrow mid-pelvis and prominent spines. Associated with deep transverse arrest.\n\nAnthropoid: Oval-shaped (long AP, short transverse). Favors occipito-posterior delivery.\n\nPlatypelloid: Flat (short AP, wide transverse). Can cause failure to engage.\n\nBook Recommendation:\n\nMayes' Midwifery: A Textbook for Midwives: Contains excellent illustrations and clear descriptions of pelvic anatomy and its obstetric significance."
+  },
+  {
+    "question": "Structures in fetal circulation which carries deoxygenated blood and wastes products from the fetus to the placenta for excretion are:",
+    "options": {
+      "A": "Umbilical ligaments",
+      "B": "Foramen ovale",
+      "C": "Ductus arteriosus",
+      "D": "Umbilical arteries"
+    },
+    "answer": "D",
+    "explanation": "Fetal circulation is essentially the reverse of adult circulation in terms of the umbilical vessels.\n\nd) Umbilical arteries: There are two umbilical arteries. They arise from the fetal internal iliac arteries and carry deoxygenated, waste-laden blood away from the fetus and back to the placenta for re-oxygenation and waste removal.\n\na) Umbilical ligaments: These are the fibrous remnants of the umbilical arteries after birth. They are not part of the active fetal circulation.\n\nb) Foramen ovale: This is a shunt between the right and left atria that allows oxygenated blood from the IVC to bypass the lungs. It carries blood with a relatively high oxygen saturation.\n\nc) Ductus arteriosus: This shunt connects the pulmonary artery to the aorta, also bypassing the lungs. It carries mixed blood (a combination of poorly oxygenated blood from the SVC and more highly oxygenated blood from the IVC). It does not carry purely deoxygenated blood to the placenta.",
+    "additional": "A Simple Way to Remember:\n\nUmbilical Vein (One Vein): Carries Oxygenated blood \"into\" the fetus.\n\nUmbilical Arteries (Two Arteries): Carry deoxygenated blood \"away\" from the fetus.\n\nThe Placenta as the Fetal \"Organ System\": The placenta functions as the fetus's lungs (gas exchange), kidneys (waste excretion), and gut (nutrient absorption) all in one. The umbilical cord is the lifeline connecting the fetus to this vital organ.\n\nChecking the Cord at Birth: It is standard practice to examine the cut end of the umbilical cord to confirm the presence of two arteries and one vein (AVA). The absence of one umbilical artery (a single umbilical artery, or SUA) can be associated with other congenital anomalies, particularly renal, cardiovascular, and gastrointestinal defects.\n\nBook Recommendation:\n\nHuman Embryology and Developmental Biology by Bruce M. Carlson: Offers a comprehensive look at fetal systems, including clear diagrams of the circulatory pathways."
+  },
+  {
+    "question": "In uterine asphyxia is a common complication of:",
+    "options": {
+      "A": "Caesarean section",
+      "B": "Uterine atony",
+      "C": "Obstructed labor",
+      "D": "Hyperemesis gravidarum"
+    },
+    "answer": "C",
+    "explanation": "Intrauterine asphyxia (birth asphyxia) is a condition of impaired gas exchange leading to fetal hypoxia (low oxygen) and acidosis.\n\nc) Obstructed labor: This is a major cause of birth asphyxia. In obstructed labor, the uterus contracts powerfully and often without adequate relaxation against an impassable barrier (e.g., CPD, malpresentation). This leads to several problems that cause asphyxia:\n\nReduced placental blood flow: The prolonged, strong contractions compress the placental blood vessels, reducing oxygen supply.\n\nHead compression: Can cause intracranial pressure and reduce cerebral blood flow.\n\nCord compression: The cord can become trapped and compressed.\n\na) Caesarean section: This is a treatment for conditions that might cause asphyxia (like obstructed labor), not a cause of it.\n\nb) Uterine atony: This is a postpartum problem (failure of the uterus to contract after birth) that causes maternal hemorrhage. It does not cause fetal asphyxia.\n\nd) Hyperemesis gravidarum: This is a condition of severe nausea and vomiting in early pregnancy. While it can cause maternal complications, it is not a direct or common cause of birth asphyxia at term.",
+    "additional": "Other Major Causes of Birth Asphyxia:\n\nPlacental Abruption: Premature separation of the placenta cuts off the oxygen supply.\n\nCord Prolapse: Compression of the umbilical cord.\n\nUterine Rupture: A catastrophic event leading to massive hemorrhage and loss of placental perfusion.\n\nSevere Maternal Hypotension or Hypoxia: Any condition that reduces oxygen delivery to the placenta.\n\nChronic Uteroplacental Insufficiency: Conditions like severe pre-eclampsia or IUGR can lead to a fetus with poor reserves who cannot tolerate the stress of labor.\n\nConsequences of Asphyxia: Can lead to hypoxic-ischemic encephalopathy (HIE), cerebral palsy, organ damage, and neonatal death.\n\nBook Recommendation:\n\nAvery's Diseases of the Newborn: A comprehensive pediatric textbook with excellent sections on the pathophysiology and management of birth asphyxia."
+  },
+  {
+    "question": "Babies born with intrauterine growth retardation are usually prone to:",
+    "options": {
+      "A": "Congenital abnormalities, hyperglycemia",
+      "B": "Neaonatal asphyxia, defects",
+      "C": "Neonatal hyperglycemia, asphyxia",
+      "D": "Neonatal Tatanus, asphyxia"
+    },
+    "answer": "B",
+    "explanation": "b) Neonatal asphyxia, defects: This is the most plausible answer.\n\nNeonatal Asphyxia: IUGR is often caused by chronic placental insufficiency. These babies have depleted glycogen stores and poor physiological reserves, making them unable to tolerate the stress of labor well, leading to asphyxia.\n\nDefects: A significant proportion of IUGR cases (especially symmetric IUGR) are caused by underlying congenital anomalies or chromosomal defects.\n\na) & c) ...hyperglycemia: This is incorrect. IUGR babies have poor glycogen stores and are at very high risk for hypoglycemia (low blood sugar), not hyperglycemia.\n\nd) Neonatal Tetanus: This is an infectious disease caused by Clostridium tetani, related to unhygienic cord care or a non-immunized mother. It is not a direct complication of IUGR.",
+    "additional": "Key Complications of Intrauterine Growth Restriction (IUGR):\n\nPerinatal Asphyxia: As explained above.\n\nHypoglycemia: Poor glycogen reserves mean they cannot maintain blood sugar levels after birth.\n\nHypothermia: They have less brown fat (for heat production) and a larger surface area to body mass ratio, leading to rapid heat loss.\n\nMeconium Aspiration Syndrome: More likely to pass meconium in utero due to chronic stress.\n\nPolycythemia: In response to chronic hypoxia, the fetus may produce excess red blood cells, leading to thick, viscous blood.\n\nFeeding Difficulties: May have a poor suck and require feeding support.\n\nBook Recommendation:\n\nHigh-Risk Pregnancy: Management Options by David K. James et al.: Contains excellent chapters on the diagnosis, management, and neonatal outcomes of IUGR."
+  },
+  {
+    "question": "The signs and symptoms of mild hypothermia in a new born include:",
+    "options": {
+      "A": "Restlessness, increased respiratory rate, hypoglycemia",
+      "B": "Little movements of limbs, hypercalcemia, decreased respiratory rate",
+      "C": "Restlessness, decreased respiratory rate, hypoglycemia",
+      "D": "Little movements of the limbs, dehydration, increased respiratory rate"
+    },
+    "answer": "A",
+    "explanation": "Hypothermia (low body temperature) is a major threat to newborns. When a baby gets cold, it tries to generate heat through non-shivering thermogenesis, which involves metabolizing its brown fat stores. This process consumes a large amount of oxygen and glucose.\n\na) Restlessness, increased respiratory rate, hypoglycemia: This option correctly identifies the key early signs.\n\nIncreased Respiratory Rate (Tachypnea): The baby needs more oxygen to fuel the metabolic process of heat production.\n\nHypoglycemia: The process rapidly depletes the baby's limited glucose stores.\n\nRestlessness/Irritability: An early sign of stress.",
+    "additional": "The \"Cold Chain\": This is a WHO concept describing a series of interlinked procedures to minimize heat loss in a newborn. Key steps include:\n\nWarm delivery room.\nImmediate drying of the baby at birth.\nSkin-to-skin contact with the mother.\nEarly initiation of breastfeeding.\nPostponing bathing.\nAppropriate clothing and bedding.\nWarm transportation if needed.\n\nSigns Progressing from Mild to Severe Hypothermia:\n\nMild: Cool extremities, restlessness, tachypnea.\nModerate: Lethargy, poor feeding, weak cry, apnea and bradycardia spells.\nSevere: Unresponsive, bradycardia, severe respiratory distress, edema, and a high risk of death.\n\nBook Recommendation:\n\nManaging Newborn Problems: A Guide for Doctors, Nurses, and Midwives (WHO): An essential, practical guide for managing common and serious newborn conditions, with a strong focus on thermoregulation."
+  },
+  {
+    "question": "The dose of magnesium sulphate to a pregnant woman with pre eclampsia following fits is:",
+    "options": {
+      "A": "IV 4g loading dose followed by 10g IM slowly then 5g IM every 4 hours for 24 hours",
+      "B": "IV 4mg started slowly followed by 10g IM slowly then 4 g IM every 4 hours for 24 hours",
+      "C": "IV 5 mg start slowly followed by 5mg IM slowly on each buttocks every 4 hours for 24 hours",
+      "D": "IV 4g started slowly followed by 5g IM slowly then 4g IM every 4 hours for 24 hours"
+    },
+    "answer": "A",
+    "explanation": "This question tests the knowledge of a standard dosing regimen for Magnesium Sulphate (MgSO4) in the management of eclampsia (pre-eclampsia with fits). The Pritchard regimen is a well-known combined IV and IM protocol.\n\na) IV 4g loading dose followed by 10g IM... then 5g IM every 4 hours...: This correctly describes the Pritchard regimen.\n\nLoading Dose: An initial 4g IV dose is given slowly to rapidly establish a therapeutic level. This is immediately followed by a deep 10g IM injection (5g into each buttock) to create a depot for sustained release.\n\nMaintenance Dose: A 5g IM injection is given every 4 hours into alternate buttocks to maintain the therapeutic level.\n\nb) & c): These options use mg instead of g, which is a critical dosing error. The doses are in grams.\n\nd): This option has incorrect maintenance doses.",
+    "additional": "Alternative Regimens:\n\nZuspan Regimen (IV only): A 4-6g IV loading dose over 15-20 minutes, followed by a continuous IV infusion of 1-2g per hour. This is common in well-resourced settings as it allows for easier titration and avoids painful IM injections, but it requires a reliable infusion pump.\n\nDhaka Regimen: A modified IV-only regimen used in some low-resource settings.\n\nCrucial Safety Point: Before administering each IM maintenance dose, the midwife MUST check for signs of toxicity: Respiratory rate ≥ 12/min, Urine output ≥ 30ml/hr, and Patellar reflexes present. If any of these are absent, the dose is withheld, and the doctor is notified. The antidote, Calcium Gluconate, must always be available at the bedside.\n\nBook Recommendation:\n\nWilliams Obstetrics: Provides detailed, evidence-based descriptions of various MgSO4 regimens and the management of severe pre-eclampsia and eclampsia."
+  },
+  {
+    "question": "Non pulmonary cause of RDS include:",
+    "options": {
+      "A": "Anemia, congenital heart disease, medication",
+      "B": "Pneumothorax, anemia, upper airway obstruction",
+      "C": "Persistent hypertension of the newborn, medications, chronic neonatal lung disease",
+      "D": "Anemia, chronic neonatal lung disease, pneumothorax"
+    },
+    "answer": "A",
+    "explanation": "Respiratory Distress Syndrome (RDS) is a general term for breathing difficulty in a newborn. While the classic cause is pulmonary (surfactant deficiency in preterm infants), many non-pulmonary conditions can mimic the symptoms. This question asks to identify a group of purely non-pulmonary causes.\n\na) Anemia, congenital heart disease, medication: This is the correct answer.\n\nAnemia (severe): Reduces the oxygen-carrying capacity of the blood, leading to tachypnea (rapid breathing) to compensate.\n\nCongenital Heart Disease (CHD): Certain heart defects can cause increased blood flow to the lungs (pulmonary congestion) or mixing of deoxygenated blood, leading to respiratory distress.\n\nMedication: Maternal medications (e.g., narcotics) can cause respiratory depression in the newborn.\n\nb), c), and d): These options are incorrect because they mix non-pulmonary causes with pulmonary causes. Pneumothorax (collapsed lung), upper airway obstruction, persistent pulmonary hypertension of the newborn (PPHN), and chronic neonatal lung disease are all conditions of the lungs/pulmonary circulation.",
+    "additional": "Differential Diagnosis of RDS in a Newborn: When a baby presents with grunting, flaring, retractions, and tachypnea, the midwife/doctor must consider a wide range of causes:\n\nPulmonary: Surfactant deficiency, Transient Tachypnea of the Newborn (TTN), Meconium Aspiration Syndrome (MAS), pneumonia, pneumothorax.\n\nCardiac: Congenital heart disease.\n\nInfectious: Sepsis.\n\nMetabolic: Hypoglycemia, metabolic acidosis.\n\nNeurological: Birth asphyxia (HIE), maternal drug effect.\n\nHematological: Severe anemia.\n\nInitial Management: While investigating the cause, initial management focuses on supportive care: maintaining temperature (thermoregulation), providing oxygen or respiratory support (like CPAP), and ensuring adequate glucose levels.\n\nBook Recommendation:\n\nAvery's Diseases of the Newborn: The definitive text on neonatology, providing comprehensive chapters on all causes of respiratory distress."
+  },
+  {
+    "question": "Tear of the fourchette is classified as:",
+    "options": {
+      "A": "Second degree",
+      "B": "Third degree",
+      "C": "Fourth degree",
+      "D": "First degree"
+    },
+    "answer": "D",
+    "explanation": "Perineal tears that occur during childbirth are classified into four degrees based on the structures involved.\n\nd) First-degree tear: This is the most superficial type of tear. It involves injury to the perineal skin and/or the vaginal mucosa only. A tear of the fourchette (the thin fold of skin at the posterior junction of the labia minora) falls into this category. There is no involvement of the underlying perineal muscles.\n\na) Second-degree tear: This tear involves the skin, vaginal mucosa, and the muscles of the perineal body, but the anal sphincter remains intact.\n\nb) Third-degree tear: This tear extends through the skin, mucosa, and perineal muscles and involves injury to the anal sphincter complex.\n\nc) Fourth-degree tear: This is the most severe tear. It extends through all the above structures (skin, mucosa, perineal muscles, anal sphincter) and also involves the rectal mucosa.",
+    "additional": "Management of Perineal Tears:\n\nFirst-degree tears: Often do not require suturing if they are not bleeding and the edges are well-approximated. Some small tears may require a few sutures for comfort or hemostasis.\n\nSecond, Third, and Fourth-degree tears: All require careful surgical repair by a trained practitioner to restore anatomy and function.\n\nThird and Fourth-degree tears (Obstetric Anal Sphincter Injuries - OASIS): These are serious injuries that require meticulous repair, often in an operating theatre with good lighting and anesthesia. They are associated with a risk of long-term complications like fecal incontinence and pain. Post-repair care includes prophylactic antibiotics, stool softeners, and specialist physiotherapy follow-up.\n\nBook Recommendation:\n\nMyles Textbook for Midwives: Provides clear descriptions and diagrams of the different degrees of perineal trauma and discusses their management and repair."
+  },
+  {
+    "question": "A procedure used to strengthened labor contraction is called:",
+    "options": {
+      "A": "Induction",
+      "B": "Vacuum extraction",
+      "C": "Caesarean section",
+      "D": "Augmentation"
+    },
+    "answer": "D",
+    "explanation": "This question tests the distinction between starting labor and stimulating a labor that has already started.\n\nd) Augmentation: This is the correct term for the process of stimulating the uterus to increase the frequency, duration, and strength of contractions after labor has already begun spontaneously but is not progressing satisfactorily. The most common methods are amniotomy (ARM) and intravenous oxytocin.\n\na) Induction of Labor (IOL): This refers to the process of artificially initiating uterine contractions to start labor before it has begun on its own.\n\nb) Vacuum extraction: This is a method of operative vaginal delivery to assist in the birth of the baby during the second stage. It does not strengthen contractions.\n\nc) Caesarean section: This is a surgical procedure to deliver the baby through an incision in the abdomen and uterus.",
+    "additional": "Induction vs. Augmentation:\n| Feature | Induction of Labor (IOL) | Augmentation of Labor |\n| :--- | :--- | :--- |\n| Starting Point| Labor has not started. | Labor has started spontaneously. |\n| Goal | To start uterine contractions. | To improve existing contractions.|\n| Cervix | Often unripe and requires ripening agents (e.g., prostaglandins).| Cervix is already dilating, but slowly. |\n| Methods | Prostaglandin gel/pessary, balloon catheter, ARM, oxytocin.| ARM, oxytocin. |\n\nKey Consideration: Augmentation with oxytocin should only be performed after confirming that there is no cephalopelvic disproportion (CPD) or obstruction. Stimulating powerful contractions against an unpassable barrier can lead to uterine rupture.\n\nBook Recommendation:\n\nWilliams Obstetrics: Gives a thorough, evidence-based overview of the indications, methods, and risks associated with both induction and augmentation of labor."
+  },
+  {
+    "question": "The commonest cause of primary Postpartum Hemorrhage is:",
+    "options": {
+      "A": "Trauma of the genital tract",
+      "B": "Blood coagulation disorder",
+      "C": "Prolonged 3rd stage of labour",
+      "D": "Atony of the uterus"
+    },
+    "answer": "D",
+    "explanation": "Primary Postpartum Hemorrhage (PPH) is defined as a blood loss of 500 ml or more from the genital tract within 24 hours of birth. The causes are remembered by the \"4 Ts\".\n\nd) Atony of the uterus (Tone): This is by far the most common cause, accounting for 70-80% of all cases of PPH. It is the failure of the myometrium to contract effectively after the delivery of the placenta, leaving the spiral arteries at the placental site wide open and bleeding freely.\n\na) Trauma of the genital tract (Trauma): This is the second most common cause and includes lacerations of the cervix, vagina, perineum, or uterine rupture.\n\nb) Blood coagulation disorder (Thrombin): Coagulopathies are a much rarer cause of PPH.\n\nc) Prolonged 3rd stage of labour: This is a significant risk factor for PPH. A prolonged third stage often implies that there is a problem with placental separation (retained Tissue) or uterine contraction (Tone), which are the direct causes.",
+    "additional": "Risk Factors for Uterine Atony:\n\nUterine Over-distension: Multiple pregnancy, polyhydramnios, fetal macrosomia.\n\nUterine Muscle Fatigue: Prolonged labor, rapid (precipitate) labor, high parity (grand multiparity).\n\nIntra-amniotic Infection (Chorioamnionitis).\n\nUse of certain medications (e.g., general anesthesia, tocolytics).\n\nManagement of PPH due to Atony:\n\nCall for help (activate PPH protocol).\n\nFundal Massage: The first and most immediate step.\n\nAdminister Uterotonics: Oxytocin, Ergometrine, Carboprost (Hemabate), Misoprostol.\n\nEnsure Empty Bladder: Catheterize if necessary.\n\nSecure IV access and start fluid resuscitation.\n\nBimanual Compression: If drugs and massage fail, the provider can insert a fist into the uterus and compress it against the other hand on the abdomen to manually stop the bleeding.\n\nSurgical Interventions: If conservative measures fail, options include balloon tamponade, uterine artery embolization, or hysterectomy.\n\nBook Recommendation:\n\nMyles Textbook for Midwives: Provides excellent, practical flowcharts and guidance on the prevention and management of PPH."
+  },
+  {
+    "question": "Occult cord prolapse occurs when the umbilical cord lies:",
+    "options": {
+      "A": "In front of the presenting part with fetal membranes still intact",
+      "B": "In front of the presenting part and the fetal membrane is ruptured.",
+      "C": "Alongside but not in front of the presenting part with the membranes intact",
+      "D": "Besides the presenting part with membrane raptured"
+    },
+    "answer": "C",
+    "explanation": "This question differentiates between the different types of cord prolapse.\n\nc) Alongside but not in front... with membranes intact: An occult (or hidden) prolapse is when the umbilical cord is compressed between the presenting part and the uterine wall or pelvic brim. It is not visible or palpable on vaginal examination because it is trapped beside the head. It is often suspected only because of abnormalities on the FHR trace (e.g., severe variable decelerations). The state of the membranes can be intact or ruptured.\n\na) In front of the presenting part... with membranes intact: This is called a cord presentation. The cord can be felt through the intact membranes. This is a precarious situation that often leads to an overt prolapse when the membranes rupture.\n\nb) In front of the presenting part... and the fetal membrane is ruptured: This is an overt cord prolapse, the most common and classic type, where the cord is in the vagina or even outside the introitus. This is a clear emergency.\n\nd) Besides the presenting part with membrane raptured: This could also describe an occult prolapse. However, option (c) is more precise by including \"with membranes intact\" as a possibility, highlighting its \"hidden\" nature.",
+    "additional": "Risk Factors for Cord Prolapse: Any situation that results in a poor fit between the presenting part and the maternal pelvis can lead to cord prolapse.\n\nMalpresentation: Breech, transverse lie, or an unengaged head.\n\nPrematurity or Low Birth Weight: The small fetus does not fill the pelvis well.\n\nPolyhydramnios: The large gush of fluid upon rupture can \"wash\" the cord down.\n\nMultiple Pregnancy: Especially the second twin.\n\nArtificial Rupture of Membranes (ARM) when the head is high.\n\nClinical Picture: The hallmark of a cord prolapse (especially an occult one) is a sudden, profound change in the fetal heart rate pattern, such as a prolonged bradycardia or severe, recurrent variable decelerations, typically occurring just after the rupture of membranes.\n\nBook Recommendation:\n\nPROMPT (Practical Obstetric Multi-Professional Training) Course Manual: Provides clear definitions and emergency management algorithms for all types of cord prolapse."
+  },
+  {
+    "question": "Maternal mortality ratio is defined as:",
+    "options": {
+      "A": "Number of maternal death per 100,000 live births",
+      "B": "Direct and indirect maternal death per 10,000 live births",
+      "C": "Maternal death between 14 – 44 years per 10,000 live births",
+      "D": "Maternal deaths between 14 – 55 years per 1,000 live births"
+    },
+    "answer": "A",
+    "explanation": "This question tests the standard epidemiological definition of the Maternal Mortality Ratio (MMR), a key global health indicator.\n\na) Number of maternal death per 100,000 live births: This is the correct, internationally recognized definition used by the WHO and other health bodies.\n\nMaternal Death: The death of a woman while pregnant or within 42 days of termination of pregnancy, from any cause related to or aggravated by the pregnancy or its management (both direct and indirect causes), but not from accidental or incidental causes.\n\nRatio vs. Rate: It is technically a ratio because the numerator (maternal deaths) is not a subset of the denominator (live births). However, it is often referred to as a \"rate.\"\n\nDenominator: The number of live births is used as a proxy for the total number of pregnant women, as it is the most reliably collected statistic across different countries.\n\nb), c), and d): These options use incorrect denominators (per 10,000 or 1,000) and/or add incorrect age specifications. While maternal deaths occur within a certain age range, the definition of the ratio does not include age limits.",
+    "additional": "Why is the MMR so important? The Maternal Mortality Ratio is considered one of the most sensitive indicators of the overall health of a population and the quality of a country's health care system. A high MMR points to significant failures in providing accessible and effective primary health care, antenatal care, skilled birth attendance, and emergency obstetric care.\n\nSustainable Development Goal (SDG) 3.1: The global goal is to reduce the global maternal mortality ratio to less than 70 per 100,000 live births by 2030.\n\nBook Recommendation:\n\nWorld Health Organization (WHO) website and publications: The most authoritative source for definitions, statistics, and reports on global maternal health indicators like the MMR."
+  },
+  {
+    "question": "Which of the following mother need Anti-D to prevent isoimmunization",
+    "options": {
+      "A": "RH positive mother who delivers a RH negative fetus",
+      "B": "RH negative mother who delivered a RH Positive fetus",
+      "C": "RH positive mother who delivered RH Positive fetus",
+      "D": "RH Negative mother who deliver a RH Negative fetus"
+    },
+    "answer": "B",
+    "explanation": "Rh isoimmunization (or sensitization) is a condition that occurs when an Rh-negative mother is exposed to Rh-positive fetal red blood cells. Her immune system recognizes the RhD antigen on the fetal cells as foreign and produces anti-D antibodies. This first exposure does not harm the current baby, but these antibodies can cross the placenta in a future pregnancy and attack the red blood cells of a subsequent Rh-positive fetus, causing Hemolytic Disease of the Fetus and Newborn (HDFN).\n\nb) RH negative mother who delivered a RH Positive fetus: This is the classic scenario requiring Anti-D. The feto-maternal hemorrhage that occurs during delivery exposes the mother to the baby's Rh-positive blood, triggering an immune response. Anti-D immunoglobulin is given to the mother to \"mop up\" any fetal cells before her immune system can mount a response.\n\na) & c): An Rh-positive mother already has the RhD antigen and will not produce antibodies against it. She never needs Anti-D.\n\nd): If both mother and baby are Rh-negative, there is no foreign antigen, so no immune response will occur.",
+    "additional": "When is Anti-D given?\n\nRoutinely during pregnancy: A dose is given to all non-sensitized Rh-negative mothers at around 28 weeks of gestation (Routine Antenatal Anti-D Prophylaxis, or RAADP).\n\nAfter any potential sensitizing event: This includes miscarriage, abortion, ectopic pregnancy, amniocentesis, vaginal bleeding, or abdominal trauma.\n\nPostpartum: A dose is given within 72 hours of delivering an Rh-positive baby. The baby's blood type is determined from a cord blood sample at birth.\n\nKliehauer-Betke Test: If a large feto-maternal hemorrhage is suspected (e.g., after a placental abruption), this test is performed on the mother's blood to quantify the amount of fetal blood that has entered her circulation. This helps determine if a larger-than-standard dose of Anti-D is required.\n\nBook Recommendation:\n\nMyles Textbook for Midwives: Provides a very clear and practical chapter on blood disorders in pregnancy, including a thorough explanation of Rh isoimmunization and the administration of Anti-D."
+  },
+  {
+    "question": "The immediate action the midwife should take after the delivery of the fetal head in second stage of labor is:",
+    "options": {
+      "A": "Clear the airway",
+      "B": "Check the cord round the neck",
+      "C": "Wait for sign of restitution",
+      "D": "Hold the head by the bi-parietals"
+    },
+    "answer": "B",
+    "explanation": "This question tests priorities during the final moments of birth. As soon as the fetal head is delivered, but before the shoulders are born, the midwife must perform one crucial check.\n\nb) Check the cord round the neck: This is the correct immediate action. A nuchal cord (cord around the neck) is very common. The midwife must slip a finger along the baby's neck to feel for the cord. If it is loose, it can be slipped over the baby's head. If it is tight, it may need to be clamped and cut before the body is delivered to prevent it from snapping or causing asphyxia.\n\na) Clear the airway: Routine suctioning of the mouth and nose is no longer recommended for vigorous newborns. The airway is cleared only if there is an obvious obstruction. Checking for the cord takes precedence.\n\nc) Wait for sign of restitution: Restitution (the natural rotation of the head) will happen next, but you must check for the cord before this movement occurs.\n\nd) Hold the head by the bi-parietals: The midwife guides the head but does not apply traction. This action is part of the delivery of the shoulders, which happens after checking for the cord and waiting for restitution.",
+    "additional": "Sequence of Actions for Delivering the Shoulders:\n\nHead is born and delivers by extension.\n\nIMMEDIATELY check for a nuchal cord and manage it.\n\nWipe the baby's face and clear the airway only if needed.\n\nWait for restitution and external rotation. Do not rush this; allow the shoulders to rotate into the AP diameter of the outlet on their own.\n\nDeliver the shoulders: Place hands on the parietal bones and apply gentle, steady downward traction to deliver the anterior shoulder under the pubic symphysis.\n\nThen, apply gentle upward traction to deliver the posterior shoulder over the perineum.\n\nOnce the shoulders are born, the rest of the body follows easily.\n\nBook Recommendation:\n\nVarney's Midwifery: Offers excellent, practical, step-by-step guidance on the conduct of a normal delivery, including the specific actions and timing for each part of the process."
+  },
+  {
+    "question": "Some of neonatal complications of eclampsia are:",
+    "options": {
+      "A": "Cerebral hemorrhage and pneumonia",
+      "B": "Severe asphyxia and prematurity",
+      "C": "Fracture and soft tissue fractures",
+      "D": "Respiratory distress and hypoglycemia"
+    },
+    "answer": "B",
+    "explanation": "Eclampsia and its precursor, severe pre-eclampsia, are maternal conditions that have profound effects on the fetus due to placental dysfunction.\n\nb) Severe asphyxia and prematurity: This is the most accurate answer.\n\nPrematurity: The only definitive \"cure\" for severe pre-eclampsia/eclampsia is delivery of the baby and placenta. This often means the baby must be delivered preterm, either via induction or C-section, making prematurity a very common complication.\n\nSevere Asphyxia: The condition causes vasospasm and poor perfusion of the placenta (uteroplacental insufficiency). This leads to chronic fetal hypoxia. The eclamptic fit itself causes a profound period of maternal hypoxia and further reduces blood flow, leading to acute asphyxia.\n\na) Cerebral hemorrhage and pneumonia: While asphyxia can lead to cerebral hemorrhage, pneumonia is an infectious complication not directly caused by eclampsia.\n\nc) Fracture...: Fractures are related to traumatic birth, not eclampsia.\n\nd) Respiratory distress and hypoglycemia: These are certainly common complications in these babies, often secondary to prematurity and stress. However, asphyxia and prematurity are the primary, overarching problems that lead to these other issues.",
+    "additional": "Fetal/Neonatal Effects of Severe Pre-eclampsia/Eclampsia:\n\nIntrauterine Growth Restriction (IUGR): Due to chronic uteroplacental insufficiency.\n\nOligohydramnios: Reduced placental perfusion leads to reduced fetal urine output, which is the main source of amniotic fluid.\n\nPlacental Abruption: The risk of abruption is significantly increased.\n\nPerinatal Death: The risk of stillbirth or neonatal death is high due to the combination of IUGR, asphyxia, abruption, and complications of prematurity.\n\nNeonatal Complications (often from prematurity): Respiratory Distress Syndrome (RDS), hypoglycemia, hypothermia, feeding difficulties.\n\nBook Recommendation:\n\nHigh-Risk Pregnancy: Management Options by David K. James et al.: This book provides extensive coverage of hypertensive disorders in pregnancy and their significant impact on both maternal and fetal/neonatal outcomes."
+  },
+  {
+    "question": "The main cause of secondary post-partum hemorrhage is:",
+    "options": {
+      "A": "Retained of products of conception",
+      "B": "Infection",
+      "C": "Retained placenta",
+      "D": "Fibroids"
+    },
+    "answer": "A",
+    "explanation": "Secondary Postpartum Hemorrhage (PPH) is defined as excessive vaginal bleeding occurring between 24 hours and 6 weeks after delivery. The causes are different from primary PPH.\n\na) Retained products of conception (RPOC): This is the most common cause. A small piece of placental tissue or membrane left behind in the uterus acts as a nidus for infection and prevents the uterus from involuting (shrinking) properly. This area of the uterine wall cannot contract down, leading to persistent or sudden heavy bleeding.\n\nb) Infection: This is the second most common cause, known as endometritis. Infection and retained products are very closely linked; retained products often lead to infection, and infection can cause secondary PPH on its own by causing inflammation and erosion of blood vessels. However, the underlying physical cause is often the retained tissue.\n\nc) Retained placenta: This is a cause of primary PPH, not secondary. A whole retained placenta would cause immediate and massive bleeding within the first 24 hours.\n\nd) Fibroids: Submucosal fibroids can interfere with uterine involution and are a risk factor, but they are a much less common cause than retained products or infection.",
+    "additional": "Clinical Presentation of Secondary PPH: The woman may present days or weeks after delivery with a sudden episode of heavy, fresh red bleeding, often accompanied by uterine tenderness and foul-smelling lochia if infection is present.\n\nManagement:\n\nAssess and Resuscitate: Check vital signs, secure IV access, and start fluid resuscitation if the woman is hemodynamically unstable.\n\nAdminister Uterotonics: Oxytocin or ergometrine can be given to try to contract the uterus.\n\nAntibiotics: Broad-spectrum antibiotics are usually started to treat or prevent endometritis.\n\nUltrasound: An ultrasound scan is performed to confirm the presence of retained products of conception.\n\nSurgical Evacuation: The definitive treatment is usually an Evacuation of Retained Products of Conception (ERPC), a surgical procedure to clear the uterine cavity.\n\nBook Recommendation:\n\nMyles Textbook for Midwives: The chapter on postpartum complications covers the causes, signs, and management of both primary and secondary PPH."
+  },
+  {
+    "question": "In an obstructed labour there is:",
+    "options": {
+      "A": "Good descent but poor contractions",
+      "B": "Adequate pelvis with good contractions",
+      "C": "No descent with good contractions",
+      "D": "Slow descent with moderate contractions"
+    },
+    "answer": "C",
+    "explanation": "Obstructed labor is a state where there is no progress of labor (descent or dilatation) despite strong, effective uterine contractions. It is a mechanical problem.\n\nc) No descent with good contractions: This is the classic definition. The \"powers\" (contractions) are good, but the \"passage\" (pelvis) or \"passenger\" (fetus) is creating a blockage. The head simply cannot pass, leading to a complete halt in descent.\n\na) Good descent but poor contractions: This describes inefficient uterine action or hypotonic dysfunction, not obstruction. The problem is with the \"powers,\" not a blockage.\n\nb) Adequate pelvis with good contractions: If both the pelvis and contractions are adequate, labor should progress normally.\n\nd) Slow descent with moderate contractions: This describes slow progress, which may or may not be due to obstruction, but the hallmark of true obstruction is a complete lack of progress.",
+    "additional": "Signs of Obstructed Labor:\n\nMaternal: Exhaustion, dehydration, ketosis, tachycardia. A high temperature may indicate infection.\n\nUterine: Very strong, frequent, and often tetanic contractions. The formation of a Bandl's ring (a pathological retraction ring forming a visible indentation across the abdomen between the upper and lower uterine segments) is a late and ominous sign of impending uterine rupture.\n\nFetal: Signs of fetal distress (abnormal FHR) due to severe and prolonged compression.\n\nVaginal Exam: The cervix is often fully dilated but may become edematous. There is no descent of the head, which is tightly wedged in the pelvis with significant molding and a large caput succedaneum.\n\nManagement: Obstructed labor is an obstetric emergency. The only treatment is to relieve the obstruction by Cesarean section.\n\nBook Recommendation:\n\nWilliams Obstetrics: Provides comprehensive coverage of abnormal labor patterns, including the causes, diagnosis, and management of dystocia and obstructed labor."
+  },
+  {
+    "question": "The drug of choice in management of eclampsia:",
+    "options": {
+      "A": "Phenobarbitone",
+      "B": "Magnesium sulphate",
+      "C": "Calcium gluconate",
+      "D": "Sodium bicarbonate"
+    },
+    "answer": "B",
+    "explanation": "This question is a repeat from our earlier analysis (Question 1 in the first response) and remains one of the most critical pieces of knowledge in midwifery.\n\nb) Magnesium sulphate: It is the anticonvulsant of choice for both the treatment of eclamptic fits and the prevention of seizures in women with severe pre-eclampsia. Its efficacy and superiority over other drugs like diazepam and phenytoin are well-established by major international trials (e.g., the Magpie Trial). It raises the seizure threshold in the brain without causing significant respiratory depression in the mother or baby when dosed correctly.\n\na) Phenobarbitone: An older anticonvulsant that is too sedating for routine use in this context.\n\nc) Calcium gluconate: This is the antidote for magnesium sulphate toxicity, not the treatment for eclampsia.\n\nd) Sodium bicarbonate: Used to treat severe metabolic acidosis, which might result from a prolonged seizure, but it does not treat the underlying cause.",
+    "additional": "Mechanism of Action: While not fully understood, MgSO4 is thought to work by causing cerebral vasodilation (improving blood flow and reducing ischemia), acting as a membrane stabilizer, and blocking the NMDA receptor in the brain, which reduces neuronal excitability.\n\nMidwifery Role: The midwife's role is crucial in the administration and monitoring of MgSO4. This includes:\n\n- Accurate preparation and administration of the loading and maintenance doses.\n- Rigorous monitoring for signs of toxicity (respiratory rate, urine output, patellar reflexes) before every dose.\n- Having the antidote (calcium gluconate) immediately available.\n- Providing holistic care to the critically ill woman and her family.\n\nBook Recommendation:\n\nThe Magpie Trial Collaborative Group publications: Reading the summary of this landmark trial provides the powerful evidence base for the use of magnesium sulphate. For a textbook, High-Risk Pregnancy: Management Options is excellent."
+  },
+  {
+    "question": "In focused antenatal care (FANC) The recommended schedule for the four (4) comprehensive personalized antenatal visit is:",
+    "options": {
+      "A": "1st visit: less than 16 weeks, 2nd visit: 16 – 28 weeks, 3rd visit: 28 – 32 weeks, 4th visit 32 – 40 weeks.",
+      "B": "1st visit: less than 16 weeks, 2nd visit 16 – 24 weeks, 3rd visit: 24 – 34 weeks, 4th visit 34 – 40 weeks",
+      "C": "1st visit: less than 16 weeks, 2nd visit: 16 – 24 weeks, 3rd visit: 24 – 32 weeks, 4th visit 32 – 36 weeks",
+      "D": "1st visit: less than 16 weeks, 2nd visit: 16 – 28 weeks, 3rd visit: 28 – 34 weeks, 4th visit 34 – 36 weeks"
+    },
+    "answer": "A",
+    "explanation": "The original WHO FANC model proposed four goal-oriented visits at specific times to maximize impact.\n\na) ... This schedule is the most representative.\n\n1st visit (<16 weeks): Early screening and prevention.\n\n2nd visit (16–28 weeks): This is a wide window, but a visit around 20–24 weeks is common to check for congenital anomalies (if ultrasound is available) and start malaria prevention (IPTp).\n\n3rd visit (28–32 weeks): A key time to detect complications like pre-eclampsia and anemia, give a second dose of IPTp, and continue birth preparedness.\n\n4th visit (32–40 weeks): A visit around 36–38 weeks is crucial to determine fetal lie and presentation and finalize the birth plan.",
+    "additional": "Evolution of FANC: It's important to note that the WHO updated its recommendations in 2016. The new model recommends a minimum of eight contacts for all pregnant women to improve the quality of care and maternal/fetal outcomes. However, the 4-visit FANC model is still widely practiced and tested, especially in the context of low-resource settings.\n\nBook Recommendation:\n\nWHO recommendations on antenatal care for a positive pregnancy experience (2016): This is the most current global standard and explains the rationale for increasing the number of contacts from four to eight."
+  },
+  {
+    "question": "A danger signs during pregnancy is:",
+    "options": {
+      "A": "Reduced fetal movements",
+      "B": "Labour pains more tha 12hours",
+      "C": "Placenta not delivered within 30 minutes",
+      "D": "Cord, arm or leg prolapse"
+    },
+    "answer": "A",
+    "explanation": "This question asks to identify a danger sign that occurs during the pregnancy period (i.e., antepartum).\n\na) Reduced fetal movements: This is a critical antepartum danger sign. A significant decrease in the baby's movements can be the first or only indication of fetal compromise or impending fetal death due to conditions like placental insufficiency. It requires immediate assessment.\n\nb) Labour pains more tha 12hours: This describes a prolonged first stage of labor, which is an intrapartum (during labor) problem.\n\nc) Placenta not delivered within 30 minutes: This is the definition of a retained placenta, a complication of the third stage of labor (postpartum).\n\nd) Cord, arm or leg prolapse: These are intrapartum emergencies that occur during labor and delivery.",
+    "additional": "Key Antenatal Danger Signs to Teach Every Pregnant Woman:\n\n- Vaginal bleeding\n- Severe headache or blurred vision (signs of pre-eclampsia)\n- Fever and chills (signs of infection)\n- Severe abdominal pain\n- Sudden gush of fluid from the vagina (preterm rupture of membranes)\n- Reduced fetal movements\n\nEmpowerment through Education: A core role of the midwife is to ensure every woman knows these danger signs, knows what they mean, and knows what to do and where to go if they occur. This is a cornerstone of birth preparedness and complication readiness.\n\nBook Recommendation:\n\nMyles Textbook for Midwives: Emphasizes the importance of health education and lists the key danger signs that midwives must teach their clients."
   }
 ]
+
+
+
+
+
+
+
+
+
+
+
+
