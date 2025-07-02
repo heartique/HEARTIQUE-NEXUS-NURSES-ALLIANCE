@@ -718,8 +718,57 @@
     "answer": "B",
     "explanation": "This question focuses on efficiency in vaccine use.\n\nVaccine Wastage: The loss of vaccine doses due to expiration, mishandling, or open vial policies.\n\nMain Causes:\n- Cold chain failure\n- Expired stock\n- Multi-dose vial discard\n- Dropped/damaged vials\n\nGoal: Minimize avoidable wastage through careful planning, stock management, and adherence to safety protocols.",
     "additional": "1. Monitoring Wastage Rate:\n- Formula: [(Doses Used - Doses Administered)/Doses Used] x 100\n- Helps evaluate program efficiency.\n\n2. WHO Multi-Dose Vial Policy (MDVP):\n- Some vials (e.g., Pentavalent) can be used for 28 days.\n- Others (e.g., MR, BCG) must be discarded within 6 hours.\n\nFuture Question Idea: \"A nurse opens a 10-dose vial of MR vaccine and only uses 4 doses. What should she do with the rest?\" (Answer: \"Discard the vial at the end of the session.\")"
+  },
+  {
+    "question": "What is the primary objective of 'immunization advocacy' in the context of immunization programs?",
+    "options": {
+      "A": "Promoting vaccine hesitancy",
+      "B": "Building support for immunization among policymakers, healthcare professionals, and the public",
+      "C": "Ignoring the importance of immunization advocacy",
+      "D": "Focusing exclusively on vaccine delivery"
+    },
+    "answer": "B",
+    "explanation": "This question defines the process of actively promoting and defending the cause of immunization.\n\nImmunization Advocacy: The act of strategically communicating to gain political and social commitment for immunization programs.\n\nPrimary Objective: To build a broad base of support:\n- Policymakers: Secure funding and supportive laws.\n- Healthcare Professionals: Act as vaccination champions.\n- Public & Community Leaders: Foster a culture that values immunization.\n\nAdvocacy builds the environment for vaccine uptake but is distinct from service delivery (D).",
+    "additional": "1. Key Advocacy Messages:\n- Investment: Immunization is cost-effective.\n- Rights-Based: Every child has a right to vaccines.\n- Health Security: Immunization protects against future outbreaks.\n\n2. Advocacy in Practice:\n- Engaging media, religious leaders, and government.\n- Presenting data to county officials or donors.\n\nFuture Question Idea: \"A community health nurse meets with a local county official to present data on the cost-effectiveness of the HPV vaccine to secure funding. This activity is an example of:\" (Answer: Immunization advocacy)."
+  },
+  {
+    "question": "In immunization, what is the primary goal of 'vaccine safety monitoring'?",
+    "options": {
+      "A": "Promoting vaccine safety risks",
+      "B": "Monitoring the safety of vaccines through ongoing surveillance and assessment of adverse events",
+      "C": "Ignoring the importance of vaccine safety monitoring",
+      "D": "Focusing exclusively on vaccine administration"
+    },
+    "answer": "B",
+    "explanation": "This question reinforces the need for ongoing vaccine safety oversight.\n\nVaccine Safety Monitoring: A continuous process during pre- and post-licensure stages of vaccines.\n\nGoal: Ensure continued safety through:\n- Detecting and reporting Adverse Events Following Immunization (AEFIs).\n- Investigating serious or unexpected events.\n- Tracking new or rare side effects.\n- Maintaining public confidence.\n\nA, C, and D misunderstand the broader purpose of surveillance beyond administration.",
+    "additional": "1. Key Systems:\n- Passive Systems: AEFI reporting, VAERS.\n- Active Systems: Surveillance studies like Vaccine Safety Datalink.\n\n2. Importance to the Public:\n- Transparency builds trust.\n- Enables fast response to safety signals.\n\nFuture Question Idea: \"Why is it essential to report mild and severe AEFIs during vaccination campaigns?\" (Answer: To strengthen surveillance and detect early safety signals.)"
+  },
+  {
+    "question": "What is the primary focus of 'vaccine management and distribution' in immunization programs?",
+    "options": {
+      "A": "Promoting vaccine shortage",
+      "B": "Managing the procurement, storage, and distribution of vaccines to ensure their availability and timely delivery to healthcare facilities",
+      "C": "Ignoring the importance of vaccine management and distribution",
+      "D": "Focusing exclusively on vaccine research"
+    },
+    "answer": "B",
+    "explanation": "This question outlines the logistics system that ensures vaccine access.\n\nVaccine Management & Distribution: Encompasses all processes involved in making vaccines available:\n- Procurement: Ordering sufficient quantities.\n- Storage: Maintaining the cold chain.\n- Distribution: Moving vaccines to points of care.\n- Inventory Control: Preventing stockouts and wastage.\n\nIt enables successful immunization service delivery by ensuring readiness at all levels.",
+    "additional": "1. Comparison with Q313:\n- Both cover logistics, but this focuses more on operational execution than planning.\n\n2. Nurse's Role:\n- Accurate recordkeeping.\n- Monitoring stock.\n- Ensuring proper cold chain practices.\n\nFuture Question Idea: \"Which of the following is a core task of a facility nurse in vaccine distribution?\" (Answer: Ensuring cold chain equipment is working and vaccines are correctly stored.)"
+  },
+  {
+    "question": "In the context of immunization, what does 'immunization targets' primarily refer to?",
+    "options": {
+      "A": "Promoting arbitrary immunization goals",
+      "B": "Specific objectives and coverage levels set to achieve optimal vaccine coverage and public health outcomes",
+      "C": "Ignoring the importance of immunization targets",
+      "D": "Focusing exclusively on vaccination schedules"
+    },
+    "answer": "B",
+    "explanation": "This question defines how immunization programs evaluate performance.\n\nImmunization Targets: Clearly defined goals (e.g., achieving 90% coverage for DPT3 nationally) that guide planning, resource allocation, and evaluation.\n\nExamples:\n- Timelines for introducing new vaccines (e.g., HPV).\n- Geographic equity (e.g., 80%+ coverage in every district).\n\nThese goals are evidence-based and linked to disease elimination/control.",
+    "additional": "1. Why Targets Matter:\n- Allow performance monitoring.\n- Help identify gaps.\n- Justify funding and policy shifts.\n\n2. Common KEPI Targets:\n- 90% DPT3 national.\n- 80% MR2 at sub-county level.\n- Introduction of PCV or HPV vaccines.\n\nFuture Question Idea: \"A county has 70% coverage for measles second dose. What is the implication?\" (Answer: Target not met; further outreach and support needed.)"
   }
 ]
+
 
 
 
