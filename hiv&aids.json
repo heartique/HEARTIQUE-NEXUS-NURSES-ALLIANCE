@@ -1,0 +1,283 @@
+[
+  {
+    "question": "How is HIV primarily transmitted from one person to another?",
+    "options": {
+      "A": "Casual contact, such as shaking hands",
+      "B": "Airborne droplets",
+      "C": "Sexual contact, sharing needles, or from mother to child during childbirth or breastfeeding",
+      "D": "Consuming contaminated food or water"
+    },
+    "answer": "C",
+    "explanation": "The correct answer accurately lists the main routes of HIV transmission. The Human Immunodeficiency Virus (HIV) is a bloodborne virus, meaning it is transmitted through contact with specific infected body fluids.\n\nSexual Contact: This is the most common mode of transmission globally. The virus can be passed through vaginal, anal, and, more rarely, oral sex, via infected semen, vaginal fluids, and rectal fluids.\n\nSharing Needles: This refers to percutaneous exposure, primarily among people who inject drugs. Sharing syringes, needles, or other drug injection equipment contaminated with infected blood is a highly efficient mode of transmission.\n\nMother-to-Child Transmission (MTCT): An infected mother can pass the virus to her baby during pregnancy, childbirth (delivery), or through breastfeeding. This is also known as vertical transmission.\n\nThe other options are incorrect because HIV is not transmitted through these routes. The virus is fragile and cannot survive long outside the body. It is not spread through air, water, insects, saliva, tears, sweat, or casual contact like hugging, shaking hands, or sharing toilets.",
+    "additional": "1. Viral Load and Transmission Risk:\nThe concentration of HIV in body fluids is called the viral load. Transmission risk is directly proportional to the viral load of the infected person.\n\nHigh-Risk Fluids: Blood, semen, rectal fluids, vaginal fluids, and breast milk.\n\nFluids NOT for Transmission: Saliva, tears, sweat, urine, and feces do not contain enough of the virus to transmit it, unless visibly contaminated with blood.\n\n2. U=U (Undetectable = Untransmittable):\nThis is a critical, modern concept in HIV prevention and a highly testable topic.\n\nConcept: A person living with HIV who is on effective Antiretroviral Therapy (ART) and achieves and maintains an undetectable viral load (usually <50 copies/mL) cannot sexually transmit the virus to others.\n\nFuture Question Idea: \"A nurse is counseling an HIV-positive patient who has maintained an undetectable viral load for over a year. Which statement is most accurate regarding sexual transmission?\" The answer would revolve around the U=U principle.\n\n3. Prevention of Mother-to-Child Transmission (PMTCT):\nThis is a cornerstone of public health programs in Kenya.\n\nStrategies: Providing ART to the mother throughout pregnancy and delivery, providing a short course of ART to the infant after birth, and counseling on safe infant feeding practices (e.g., exclusive breastfeeding with maternal ART, or exclusive formula feeding).\n\nFuture Question Idea: \"What is the primary intervention to prevent mother-to-child transmission of HIV during delivery?\" (Answer: Administration of ART to the mother).\n\nRecommended Resource:\n\nBook: Kenya National Guidelines for HIV Prevention and Treatment. These guidelines are the standard of care in Kenya and provide detailed information on transmission, prevention, and management."
+  },
+  {
+    "question": "What is the term for the period of time between HIV infection and the development of detectable antibodies in the blood, typically lasting a few weeks to a few months?",
+    "options": {
+      "A": "HIV latency period",
+      "B": "Acute HIV infection",
+      "C": "HIV seroconversion",
+      "D": "HIV remission"
+    },
+    "answer": "C",
+    "explanation": "Seroconversion is the process where the body develops specific antibodies to a pathogen, making them detectable in the blood. In the context of HIV, it marks the end of the \"window period.\"\n\nWindow Period: This is the initial period after infection when the body has not yet produced enough antibodies to be detected by standard antibody tests. A person is highly infectious during this time despite potentially testing negative.\n\nAcute HIV Infection (B): This is the earliest stage of infection, occurring 2-4 weeks after exposure. It's characterized by rapid viral replication and often flu-like symptoms. While it overlaps with the window period, \"seroconversion\" specifically refers to the development of antibodies.\n\nHIV Latency (A): Also known as the asymptomatic or chronic stage, this is a longer period where the virus is less active, and the person may have no symptoms.\n\nHIV Remission (D): This is not a standard term but implies a period where the disease is inactive, which is the goal of ART (viral suppression), not a natural phase.",
+    "additional": "1. Types of HIV Tests and Window Periods:\nUnderstanding different tests is crucial for patient education and accurate diagnosis.\n\nAntibody Tests (3rd Generation): Detect antibodies. Window period is typically 21-84 days (3 weeks to 3 months). Most rapid tests and self-tests are in this category.\n\nAntigen/Antibody Tests (4th Generation): Detect both the p24 antigen (a part of the virus) and HIV antibodies. The p24 antigen appears before antibodies, shortening the window period to 14-21 days (2-3 weeks). These are now common in clinical settings.\n\nNucleic Acid Tests (NAT): Detect the virus's RNA directly. They have the shortest window period, around 7-14 days, but are expensive and usually reserved for high-risk exposures or screening blood donations.\n\n2. Counseling Implications of the Window Period:\n\nFuture Question Idea: \"A client undergoes a rapid HIV antibody test 2 weeks after a potential exposure and the result is negative. What is the most appropriate action for the nurse?\"\n\nA) Reassure the client they are HIV negative.\n\nB) Advise the client to repeat the test in 4-12 weeks.\n\nC) Immediately start the client on PrEP.\n\nD) Order a Nucleic Acid Test (NAT) immediately.\n\n(Correct Answer: B) The nurse must explain the window period and the need for re-testing to confirm the result.\n\nRecommended Resource:\n\nBook: Medical-Surgical Nursing: Assessment and Management of Clinical Problems by Lewis, Heitkemper, Dirksen, O'Brien, and Bucher. The chapter on immunologic disorders provides a thorough overview of HIV pathophysiology and diagnostics."
+  },
+  {
+    "question": "Which of the following fluids can transmit HIV to another person?",
+    "options": {
+      "A": "Tears",
+      "B": "Saliva",
+      "C": "Blood, semen, vaginal fluids, and breast milk",
+      "D": "Urine"
+    },
+    "answer": "C",
+    "explanation": "This question directly tests the knowledge of body fluids with a high enough viral load to cause transmission. As established in Q379, HIV is transmitted through specific body fluids that can enter the bloodstream or cross mucous membranes.\n\nBlood: Carries the highest concentration of the virus.\n\nSemen (and pre-seminal fluid): Contains high levels of the virus.\n\nVaginal Fluids & Rectal Fluids: Contain the virus and are major vehicles for sexual transmission.\n\nBreast Milk: Can transmit the virus from mother to child.\n\nTears, saliva, and urine (A, B, D) are not considered routes for HIV transmission because the concentration of the virus in these fluids is extremely low or non-existent.",
+    "additional": "1. Conditions for Transmission:\nFor transmission to occur, three conditions must be met:\n\nPresence of HIV: The person must be HIV-positive.\n\nSufficient Viral Load: There must be enough virus in the body fluid.\n\nRoute of Entry: The fluid must have a direct route into the bloodstream or mucous membranes (e.g., vagina, rectum, mouth, eyes, or through a break in the skin).\n\n2. Relative Risk of Different Exposures:\nThe risk of transmission varies significantly by the type of exposure. This is a common area for exam questions.\n\nHighest Risk: Receptive anal intercourse, sharing needles for injection drug use, blood transfusion (now extremely rare due to screening).\n\nModerate Risk: Insertive anal intercourse, receptive vaginal intercourse.\n\nLow Risk: Insertive vaginal intercourse, receptive oral sex (risk increases with sores or bleeding gums).\n\nNegligible Risk: Kissing (closed or open-mouth), biting (if no blood is exchanged), contact with saliva/tears/sweat.\n\n3. Occupational vs. Non-Occupational Exposure:\n\nOccupational PEP (oPEP): For healthcare workers exposed to potentially infectious fluids (e.g., needlestick injury).\n\nNon-Occupational PEP (nPEP): For individuals exposed through sexual contact or shared needles outside of a work setting.\n\nFuture Question Idea: \"A nurse sustains a needlestick injury from a patient with a known high HIV viral load. What is the immediate priority action?\" (Answer: Wash the area with soap and water, report the incident, and seek immediate medical evaluation for PEP).\n\nRecommended Resource:\n\nBook: WHO Consolidated Guidelines on HIV Prevention, Testing, Treatment, Service Delivery and Monitoring. This is a global standard and an excellent resource for evidence-based practice."
+  },
+  {
+    "question": "What is the term for a highly effective preventive measure against HIV infection in which individuals at high risk for HIV take a daily pill to reduce the risk of infection?",
+    "options": {
+      "A": "Post-exposure prophylaxis (PEP)",
+      "B": "HIV seroconversion",
+      "C": "Pre-exposure prophylaxis (PrEP)",
+      "D": "HIV latency period"
+    },
+    "answer": "C",
+    "explanation": "This question defines one of the most important biomedical interventions for HIV prevention.\n\nPrEP (Pre-Exposure Prophylaxis): \"Pre\" means before. It is medication taken before potential exposure to HIV to prevent acquisition of the virus. It is intended for HIV-negative individuals who are at substantial ongoing risk. The most common PrEP regimen is a daily oral pill containing Tenofovir and Emtricitabine (TDF/FTC or TAF/FTC).\n\nPEP (Post-Exposure Prophylaxis) (A): \"Post\" means after. This is a 28-day course of ART taken after a potential exposure to HIV to prevent the virus from taking hold. It must be started within 72 hours of exposure.\n\nHIV Seroconversion (B) and Latency (D): These are stages of HIV infection, not preventive measures.",
+    "additional": "1. PrEP Eligibility and Management:\nA nurse's role in PrEP involves assessment, education, and follow-up.\n\nEligibility: Individuals at \"substantial risk,\" including serodiscordant couples (where one partner is HIV+ and the other is HIV-), men who have sex with men (MSM), sex workers, and people who inject drugs.\n\nKey Nursing Actions:\n\nConfirm the client is HIV-negative before starting PrEP.\n\nCounsel on the importance of daily adherence for effectiveness.\n\nEmphasize that PrEP does not protect against other STIs, so condoms are still recommended.\n\nSchedule regular follow-up visits (typically every 3 months) for HIV testing, STI screening, and renal function monitoring (as Tenofovir can affect the kidneys).\n\n2. Newer PrEP Formulations:\nThe field is evolving, and new options are becoming available.\n\nOn-Demand PrEP (or \"2-1-1\"): For MSM, involves taking two pills 2-24 hours before sex, one pill 24 hours after the first dose, and another pill 24 hours later. Not recommended for other populations.\n\nLong-Acting Injectable PrEP: Cabotegravir injections given every two months. This is a newer, highly effective option that overcomes challenges with daily pill adherence.\n\nFuture Question Idea: \"A client interested in PrEP states they are unable to take a pill every day. What is the most appropriate alternative for the nurse to discuss?\" (Answer: Long-acting injectable PrEP).\n\nRecommended Resource:\n\nWHO and Kenyan Ministry of Health guidelines on PrEP. These are essential for understanding local implementation and protocols."
+  },
+  {
+    "question": "Which of the following is a common opportunistic infection in individuals with advanced HIV infection and AIDS?",
+    "options": {
+      "A": "Influenza",
+      "B": "Tuberculosis (TB)",
+      "C": "Stomach flu",
+      "D": "Common cold"
+    },
+    "answer": "B",
+    "explanation": "This question asks to identify a classic opportunistic infection (OI) associated with AIDS. While anyone can get influenza, a cold, or gastroenteritis (\"stomach flu\"), these are not typically classified as OIs that signal severe immunodeficiency.\n\nTuberculosis (TB): HIV and TB are often called a \"co-epidemic\" because they are so intertwined. HIV is the strongest known risk factor for progressing from latent TB infection to active TB disease. In people with AIDS, TB can be more severe, spread beyond the lungs (extrapulmonary TB), and be harder to diagnose and treat.",
+    "additional": "1. The \"Deadly Duo\": HIV/TB Co-infection:\n\nScreening: All people living with HIV should be screened for active TB at every clinical visit. All patients with active TB should be tested for HIV.\n\nThe \"Four I's\" of HIV/TB integration:\n\nIntensified case finding (screening for TB in HIV patients).\n\nIsoniazid preventive therapy (IPT) for HIV patients without active TB.\n\nInfection control for TB in HIV care settings.\n\nIntegrated HIV/TB care (starting ART for co-infected patients).\n\n2. Management of HIV/TB Co-infection:\n\nTiming of ART: For patients with active TB, TB treatment should be started immediately. ART should be started as soon as possible, typically within the first 8 weeks of TB treatment (and within 2 weeks for those with very low CD4 counts <50).\n\nDrug Interactions: There can be significant drug-drug interactions, particularly between the TB drug Rifampicin and certain ART medications (especially Protease Inhibitors and some NNRTIs). Regimens must be chosen carefully. The use of Dolutegravir (an INSTI) has simplified this management.\n\nFuture Question Idea: \"What is the priority for a newly diagnosed patient with both active pulmonary TB and HIV?\" (Answer: Initiate TB treatment immediately).\n\nRecommended Resource:\n\nBook: National Tuberculosis, Leprosy and Lung Disease Program (NTLD-P) Guidelines. This Kenyan resource provides detailed protocols for managing TB and HIV/TB co-infection."
+  },
+  {
+    "question": "Which body fluids are most likely to contain a high concentration of HIV?",
+    "options": {
+      "A": "Saliva",
+      "B": "Urine",
+      "C": "Blood, semen, vaginal fluids, and breast milk",
+      "D": "Tears"
+    },
+    "answer": "C",
+    "explanation": "This is a direct recall question, reinforcing the concepts from Q379 and Q381. The answer correctly identifies the four main body fluids through which HIV is transmitted. These fluids contain a high concentration of the virus (high viral load) and have a direct means of entry into another person's body during specific activities (sex, sharing needles, childbirth, breastfeeding). Saliva, urine, and tears do not contain sufficient virus for transmission.",
+    "additional": "1. Misconceptions and Stigma:\nA key nursing role is to dispel myths about HIV transmission. Misinformation fuels stigma and discrimination.\n\nHIV is NOT spread by:\n\nAir or water.\n\nInsects, including mosquitoes.\n\nSaliva, tears, or sweat (unless visibly mixed with blood).\n\nCasual contact like shaking hands, hugging, or sharing toilets.\n\nSharing food or drinks.\n\n2. Occupational Risk and Standard Precautions:\nFor healthcare workers, the primary risk comes from percutaneous injuries (e.g., needlesticks) with contaminated blood.\n\nStandard Precautions: This is the cornerstone of preventing occupational transmission. It means treating all blood and body fluids from all patients as potentially infectious. This includes:\n\nHand hygiene.\n\nUse of Personal Protective Equipment (PPE) like gloves, gowns, and masks when anticipating exposure.\n\nSafe handling and disposal of sharps.\n\nFuture Question Idea: \"A nurse is about to draw blood from a patient whose HIV status is unknown. Which infection control principle is most important for the nurse to apply?\" (Answer: Standard Precautions)."
+  },
+  {
+    "question": "What is the term for a period of time during which an HIV-infected person may have no symptoms or only mild symptoms?",
+    "options": {
+      "A": "Acute HIV infection",
+      "B": "Asymptomatic HIV infection",
+      "C": "AIDS (Acquired Immunodeficiency Syndrome)",
+      "D": "HIV latency period"
+    },
+    "answer": "B",
+    "explanation": "This question describes the second stage of HIV infection.\n\nAsymptomatic / Latency / Chronic Stage: After the initial acute phase, the virus becomes less active, although it is still replicating at low levels. The immune system is able to keep it in check for a time. This stage can last for many years (an average of 10 years without treatment) during which the person feels and looks healthy. However, they can still transmit the virus to others.\n\nAcute HIV infection (A): This is the symptomatic first stage.\n\nAIDS (C): This is the symptomatic third and final stage.\n\nIn the context of the choices, \"Asymptomatic HIV infection\" is the most precise description. \"HIV latency period\" is also correct and synonymous.",
+    "additional": "1. Viral Set Point:\nAfter the acute phase, the viral load stabilizes at a certain level, known as the viral set point.\n\nA higher viral set point is associated with a faster progression to AIDS.\n\nA lower viral set point is associated with a slower progression.\n\nThe goal of ART is to lower the viral load to undetectable levels, far below the natural set point.\n\n2. The Importance of Early Diagnosis:\nDiagnosing HIV during the asymptomatic stage is crucial.\n\nIt allows for the early initiation of ART, which can prevent the person from ever developing AIDS and allow them to live a long, healthy life.\n\nIt also prevents onward transmission to others.\n\nThis is why routine HIV screening is recommended for all adults and adolescents."
+  },
+  {
+    "question": "What is the term for the medical treatment provided to individuals who may have been recently exposed to HIV to prevent infection?",
+    "options": {
+      "A": "HIV latency period",
+      "B": "Acute HIV infection",
+      "C": "Post-exposure prophylaxis (PEP)",
+      "D": "HIV seroconversion"
+    },
+    "answer": "C",
+    "explanation": "This question defines PEP, the emergency counterpart to PrEP.\n\nPEP (Post-Exposure Prophylaxis): This is a 28-day course of a three-drug ART regimen given to an HIV-negative person after a high-risk exposure.\n\nCritical Time Window: To be effective, PEP must be started as soon as possible, and absolutely within 72 hours of the exposure. The sooner it is started, the more effective it is.\n\nTypes of Exposure: It is used for both occupational exposures (oPEP) for healthcare workers and non-occupational exposures (nPEP) like unprotected sex or sharing needles.\n\nThe other options (A, B, D) are all stages of HIV infection, not treatments.",
+    "additional": "1. PEP Protocol and Nursing Role:\n\nAssessment: The nurse must quickly assess the risk of the exposure (type of fluid, route of entry, source patient's viral load if known) to determine if PEP is warranted.\n\nCounseling: Educate the client on the importance of completing the full 28-day course, potential side effects of the medication, and the need for follow-up HIV testing (at baseline, 6 weeks, and 3 months after exposure).\n\nRisk Reduction: Counsel the client to use condoms and take other precautions to avoid potentially transmitting HIV to others until their final follow-up test is negative.\n\nFuture Question Idea: \"A student comes to the clinic 4 days after an unprotected sexual encounter asking for PEP. What is the nurse's most appropriate response?\" (Answer: Inform the student that they are outside the 72-hour window for PEP to be effective and provide counseling on risk reduction and HIV testing)."
+  },
+  {
+    "question": "Which of the following is a key component of HIV prevention efforts and aims to educate individuals about HIV, promote safer behaviors, and provide access to testing and treatment?",
+    "options": {
+      "A": "HIV criminalization laws",
+      "B": "HIV vaccine development",
+      "C": "HIV stigma",
+      "D": "HIV prevention and education programs"
+    },
+    "answer": "D",
+    "explanation": "This question asks for the umbrella term that covers the core activities of HIV prevention.\n\nHIV prevention and education programs: This is a broad term for initiatives designed to stop the spread of HIV. They are the cornerstone of public health responses and include activities like awareness campaigns, peer education, promoting condom use, providing information on PrEP and PEP, and facilitating access to HIV testing and linkage to care.\n\nHIV criminalization laws (A): These are laws that penalize HIV non-disclosure, exposure, or transmission. They are often controversial and can be a barrier to prevention by discouraging testing.\n\nHIV vaccine development (B): This is a long-term research goal but not a current component of day-to-day prevention programs.\n\nHIV stigma (C): This is a major barrier that prevention programs aim to reduce, not a component of the programs themselves.",
+    "additional": "1. Combination HIV Prevention:\nThis is the modern, evidence-based approach to HIV prevention. It recognizes that no single method is 100% effective and that a combination of strategies is needed.\n\nBiomedical Interventions:\n- Condoms (male and female)\n- Voluntary Medical Male Circumcision (VMMC)\n- PrEP and PEP\n- Treatment as Prevention (TasP), based on the U=U principle\n- PMTCT\n\nBehavioral Interventions:\n- Education on risk reduction (e.g., reducing number of partners)\n- Counseling and testing\n- Adherence support\n\nStructural Interventions:\n- Addressing stigma and discrimination\n- Decriminalizing HIV and key populations\n- Promoting gender equality and empowering women\n- Providing economic support to reduce vulnerability\n\nFuture Question Idea: \"A community health nurse is designing an HIV prevention strategy for young adults. Which approach would be most effective according to current best practices?\" (Answer: A combination prevention approach including biomedical, behavioral, and structural interventions).\n\nRecommended Resource:\n\nUNAIDS (Joint United Nations Programme on HIV/AIDS) publications. They provide excellent overviews of global strategies and the concept of combination prevention."
+  },
+  {
+    "question": "In the context of HIV prevention, what does \"Undetectable = Untransmittable\" (U=U) mean?",
+    "options": {
+      "A": "Individuals with undetectable viral load are not at risk of contracting HIV",
+      "B": "Individuals with HIV should remain isolated from others",
+      "C": "Individuals with HIV should avoid all sexual contact",
+      "D": "Individuals with HIV should use condoms at all times"
+    },
+    "answer": "None",
+    "explanation": "The most accurate interpretation of U=U is that individuals living with HIV who maintain a sustained undetectable viral load cannot transmit the virus to their sexual partners.\n\nOption A is incorrect because U=U refers to transmission, not contraction. A person with an undetectable viral load is still HIV-positive and can still contract other STIs.\n\nCorrect Statement: An individual with a sustained undetectable viral load cannot transmit HIV to their sexual partners.",
+    "additional": "1. Counseling Implications of U=U:\n\n- Reduces Stigma: Empowers patients and reduces self-stigma and fear.\n- Motivates Adherence: It is a powerful incentive for patients to adhere to ART.\n- Improves Quality of Life: Allows for conception and sexual intimacy without fear.\n- Public Health Impact: It is a major prevention tool (Treatment as Prevention - TasP).\n\n2. Key Conditions for U=U:\n\n- Adherence: Taking ART every day.\n- Undetectable Status: The viral load must be confirmed as undetectable by a lab test.\n- Sustained: The viral load must remain undetectable for at least six months.\n\nU=U does NOT:\n- Prevent other STIs.\n- Apply to transmission through sharing needles or breastfeeding (though risk is greatly reduced).\n\nFuture Question Idea: \"A serodiscordant couple, where the male partner is HIV-positive with a sustained undetectable viral load, wish to conceive a child. What is the nurse's most accurate advice regarding HIV transmission risk?\" (Answer: There is no risk of sexual HIV transmission to the female partner)."
+  },
+  {
+    "question": "What is the term for the stage of HIV infection immediately following acute infection and often accompanied by flu-like symptoms?",
+    "options": {
+      "A": "HIV latency period",
+      "B": "Acute HIV infection",
+      "C": "HIV seroconversion",
+      "D": "HIV remission"
+    },
+    "answer": "B",
+    "explanation": "Acute HIV Infection (or Acute Retroviral Syndrome - ARS): This is the body's natural response to the initial HIV infection. It occurs in the first 2-4 weeks. The virus is replicating very rapidly, leading to a very high viral load and a temporary drop in CD4 cells. Many people (up to 80%) experience symptoms that are often mistaken for the flu or mononucleosis.\n\nSymptoms: Fever, rash, sore throat, fatigue, swollen lymph nodes, muscle/joint pain.\n\nHIV latency period (A): The stage that follows the acute infection, which is typically asymptomatic.\n\nHIV seroconversion (C): The development of antibodies, which occurs during the acute phase. It's an event, not a stage.",
+    "additional": "1. Importance of Recognizing Acute HIV Infection (ARS):\n\n- High Infectiousness: The viral load is extremely high during ARS, making this a period of very high transmission risk.\n- Diagnostic Challenge: Standard antibody tests may still be negative. A 4th-generation antigen/antibody test or a NAT (viral load) test is needed for diagnosis.\n- Opportunity for Early Treatment: Starting ART during the acute phase can lead to better long-term immune outcomes and a lower viral set point.\n\nFuture Question Idea: \"A patient presents with fever, rash, and sore throat. They report a new sexual partner 3 weeks ago. A rapid HIV antibody test is negative. What should the nurse suspect?\" (Answer: Acute Retroviral Syndrome, and recommend a 4th-generation or NAT test)."
+  },
+  {
+    "question": "Which of the following is not a common route of HIV transmission?",
+    "options": {
+      "A": "Sharing needles for drug use",
+      "B": "Mother-to-child transmission during childbirth or breastfeeding",
+      "C": "Contact with a person who has HIV through casual contact",
+      "D": "Unprotected sexual intercourse with an HIV-infected partner"
+    },
+    "answer": "C",
+    "explanation": "This question is the inverse of Q379, asking you to identify the incorrect mode of transmission.\n\nA, B, and D are the three primary routes of HIV transmission.\n\nC) Casual Contact: As previously discussed, HIV is a fragile virus that cannot survive outside the body and is not transmitted through day-to-day contact like hugging, shaking hands, sharing cutlery, or using the same toilet. This is a critical point for patient education to combat stigma.",
+    "additional": "SO FAR SOO GOOD YOU, AIN'T SEEING THIS PART SIMPLY BECAUSE QUESTION IS A REPETITION FROM ABOVE DOC😁👌 "
+  },
+  {
+    "question": "What is the term for a condition in which the immune system is significantly weakened, CD4 cell count is very low, and opportunistic infections and certain cancers are likely to occur?",
+    "options": {
+      "A": "Asymptomatic HIV infection",
+      "B": "Acute HIV infection",
+      "C": "AIDS (Acquired Immunodeficiency Syndrome)",
+      "D": "HIV latency period"
+    },
+    "answer": "C",
+    "explanation": "This question is a direct repeat of the concept in Q382. It tests the definition of AIDS. AIDS is the advanced stage of HIV disease, defined clinically by severe immune suppression (CD4 count < 200) and/or the presence of specific opportunistic illnesses. This repetition in the exam paper emphasizes the importance of knowing the clinical definition of AIDS.",
+    "additional": "SO FAR SOO GOOD YOU, AIN'T SEEING THIS PART SIMPLY BECAUSE QUESTION IS A REPETITION FROM ABOVE DOC😁👌 "
+  },
+  {
+    "question": "What is the main route of HIV transmission from mother to child during childbirth or breastfeeding?",
+    "options": {
+      "A": "Inhalation of airborne particles",
+      "B": "Consumption of contaminated food",
+      "C": "Contact with the mother's tears",
+      "D": "Passage of the virus through blood and vaginal fluids"
+    },
+    "answer": "D",
+    "explanation": "This question focuses specifically on the mechanisms of Mother-to-Child Transmission (MTCT).\n\nDuring Pregnancy (In Utero): The virus can cross the placenta.\n\nDuring Labor and Delivery (Intrapartum): This is when the highest risk of transmission occurs. The baby is exposed to the mother's infected blood and vaginal fluids.\n\nDuring Breastfeeding (Postpartum): The virus is present in breast milk and can be transmitted to the infant.\n\nA, B, and C are incorrect as these are not routes for HIV transmission.",
+    "additional": "1. PMTCT (Prevention of Mother-to-Child Transmission) Cascade:\n\n- Step 1: HIV testing for all pregnant women (ideally at the first antenatal visit).\n- Step 2: Immediate initiation of lifelong ART for all pregnant and breastfeeding women living with HIV, regardless of their CD4 count.\n- Step 3: Providing infant prophylaxis (e.g., Nevirapine or Zidovudine) for 6 weeks after birth.\n- Step 4: Counseling on safe infant feeding (exclusive breastfeeding for 6 months while on ART, or exclusive formula if AFASS criteria met).\n- Step 5: Early infant diagnosis (EID) testing for the baby (typically at 6 weeks).\n\nFuture Question Idea: \"A newborn is born to an HIV-positive mother who is on ART. What is the most important intervention for the infant to prevent HIV transmission?\" (Answer: Administration of infant antiretroviral prophylaxis)."
+  },
+  {
+    "question": "Which of the following statements about HIV is true?",
+    "options": {
+      "A": "There is currently a widely available and effective vaccine for HIV prevention.",
+      "B": "HIV is curable with the right combination of medications.",
+      "C": "HIV can be present in the body for years without symptoms.",
+      "D": "HIV can only be transmitted through sexual contact."
+    },
+    "answer": "C",
+    "explanation": "C is TRUE: This refers to the asymptomatic or chronic latency period, which can last for a decade or more without treatment.\n\nA is FALSE: There is no widely available or effective vaccine for HIV yet.\n\nB is FALSE: HIV is treatable but not curable. ART suppresses the virus but doesn't eliminate it.\n\nD is FALSE: HIV can also be transmitted via blood, shared needles, and from mother to child.",
+    "additional": ""
+  },
+  {
+    "question": "What is the term for a small, fingerstick test used for rapid HIV testing that provides results within minutes?",
+    "options": {
+      "A": "Western blot test",
+      "B": "PCR (Polymerase Chain Reaction) test",
+      "C": "Rapid HIV test",
+      "D": "HIV seroconversion"
+    },
+    "answer": "C",
+    "explanation": "Rapid HIV Test: These are simple, immunoassay tests that can be done with a drop of blood or oral fluid and give results in 20–30 minutes. Ideal for point-of-care use.\n\nWestern blot (A) and PCR (B) are lab-based and take longer.\n\nHIV seroconversion (D) is a process, not a test.",
+    "additional": "1. HIV Self-Testing (HIVST):\n- A newer method allowing individuals to test themselves at home.\n- Purpose: Increase uptake of testing, especially for those afraid of stigma.\n- Nurse's Role: Teach correct use, interpretation, and linkage to care.\n\nFuture Question Idea: \"A client reports a positive result from an HIV self-test kit. What is the nurse's priority action?\" (Answer: Provide counseling and perform a confirmatory test according to the national guidelines)."
+  },
+  {
+    "question": "In the context of HIV prevention, what does \"serosorting\" refer to?",
+    "options": {
+      "A": "A method of HIV testing",
+      "B": "A strategy in which HIV-positive individuals only have sexual contact with other HIV-positive individuals",
+      "C": "A type of HIV treatment",
+      "D": "A form of HIV stigma"
+    },
+    "answer": "B",
+    "explanation": "Serosorting is a behavioral strategy where individuals select sexual partners based on concordant HIV status. HIV-positive individuals may choose to only have sex with others who are also HIV-positive to reduce transmission risk.\n\nHowever, it is not foolproof — it does not prevent transmission of drug-resistant HIV strains or other STIs.",
+    "additional": ""
+  },
+  {
+    "question": "What is the term for the stage of HIV infection in which the virus becomes largely dormant, and there are typically no symptoms or physical signs of illness?",
+    "options": {
+      "A": "Acute HIV infection",
+      "B": "HIV seroconversion",
+      "C": "HIV remission",
+      "D": "HIV latency period"
+    },
+    "answer": "D",
+    "explanation": "HIV Latency Period: Also called chronic HIV infection, this stage involves low-level viral replication with no symptoms. It can last for years, especially with ART.\n\nA is incorrect: Acute HIV is the initial stage with flu-like symptoms.\nB is incorrect: Seroconversion is the process of antibody development.\nC is incorrect: HIV remission refers to rare cases where the virus is undetectable without ART.",
+    "additional": ""
+  },
+  {
+    "question": "Which of the following is a key strategy in reducing the transmission of HIV?",
+    "options": {
+      "A": "Isolating individuals with HIV from the general population",
+      "B": "Promoting safe sex practices, needle exchange programs, and access to antiretroviral therapy",
+      "C": "Implementing criminalization laws for individuals with HIV",
+      "D": "Banning travel for individuals with HIV"
+    },
+    "answer": "B",
+    "explanation": "B is CORRECT: This is a cornerstone of public health strategy — using proven interventions to reduce new HIV infections.\n\nA, C, and D are INCORRECT: These reflect stigma-based responses that worsen outcomes and violate human rights.",
+    "additional": "1. Harm Reduction:\n\n- Needle and Syringe Programs (NSPs): Prevent sharing of contaminated needles.\n- Opioid Substitution Therapy: Reduces risky behaviors.\n\nThese approaches are practical and evidence-based, especially for people who inject drugs (PWID).\n\nFuture Question Idea: \"What is the primary goal of providing a needle exchange program for people who inject drugs?\" (Answer: To reduce the transmission of bloodborne viruses like HIV and HCV).\n\nRecommended Resource: Kenya National AIDS and STI Control Programme (NASCOP) publications."
+  },
+  {
+    "question": "Which of the following is a common method of preventing the spread of sexually transmitted infections (STIs)?",
+    "options": {
+      "A": "Avoiding vaccinations",
+      "B": "Practicing safe sex",
+      "C": "Consuming raw seafood",
+      "D": "Sharing needles for drug use"
+    },
+    "answer": "B",
+    "explanation": "Practicing Safe Sex: This includes consistent and correct use of condoms, reducing number of sexual partners, and open communication. It is the most effective general method for preventing STI spread.\n\nA is incorrect: Vaccines like those for HPV and Hepatitis B are essential for STI prevention.\nC is unrelated to STIs.\nD is a major risk for transmitting bloodborne infections, not a preventive measure.",
+    "additional": "1. The 'ABC' of STI Prevention:\n- A: Abstinence\n- B: Be faithful (mutual monogamy)\n- C: Condomise (consistent and correct condom use)\n\n2. Syndromic Management of STIs:\n- In settings where lab tests are limited, providers diagnose and treat based on symptom clusters.\n- Example: A man with urethral discharge is treated for both gonorrhea and chlamydia.\n\nFuture Question Idea: \"A male patient presents with urethral discharge and dysuria. Under syndromic management, what is the appropriate action?\" (Answer: Treat for both gonorrhea and chlamydia).\n\nRecommended Resource: National Guidelines for Management of STIs – Kenya Ministry of Health."
+  },
+  {
+    "question": "What is the primary mode of transmission of the human papillomavirus (HPV), a common sexually transmitted infection?",
+    "options": {
+      "A": "Airborne transmission",
+      "B": "Sexual transmission",
+      "C": "Direct contact with infected bodily fluids",
+      "D": "Consumption of contaminated food"
+    },
+    "answer": "B",
+    "explanation": "Sexual Transmission: HPV is spread through direct skin-to-skin contact during vaginal, anal, or oral sex. It can occur even without visible symptoms.\n\nC is inaccurate: Bodily fluids play a role but the key mechanism is skin-to-skin genital contact.\nA and D are incorrect routes for HPV transmission.",
+    "additional": "1. HPV and Cancer:\n- High-risk strains (e.g., HPV 16, 18) cause cervical and other cancers.\n- Low-risk strains (e.g., HPV 6, 11) cause genital warts but not cancer.\n\n2. HPV Vaccination:\n- Recommended for girls and boys aged 9–14 before sexual debut.\n- Vaccines like Gardasil protect against high-risk and wart-causing strains.\n- Vaccination does not eliminate the need for cervical cancer screening.\n\nFuture Question Idea: \"A nurse is educating a mother about the HPV vaccine for her 10-year-old daughter. Which statement is most accurate?\" (Answer: \"This vaccine is highly effective at preventing the types of HPV that cause most cases of cervical cancer.\")"
+  },
+  {
+    "question": "What is the primary route of transmission for hepatitis B, a bloodborne communicable disease?",
+    "options": {
+      "A": "Airborne transmission",
+      "B": "Sexual transmission",
+      "C": "Injection drug use",
+      "D": "Ingestion of contaminated food"
+    },
+    "answer": "C",
+    "explanation": "Hepatitis B is transmitted through infected blood and body fluids. While both sexual contact (B) and injection drug use (C) are major routes, direct blood-to-blood contact through sharing needles is a highly efficient mode. The virus can survive outside the body for up to 7 days, making contaminated objects a risk factor.\n\nA and D are incorrect: Hepatitis B is not transmitted through air or food.",
+    "additional": "1. Hepatitis B Vaccination:\n- Birth Dose: Given within 24 hours of delivery to prevent perinatal transmission.\n- KEPI Schedule: Followed at 6, 10, and 14 weeks.\n- High-Risk Adults: Vaccination for healthcare workers, people with multiple sexual partners, injection drug users, and household contacts.\n\n2. Chronic Hepatitis B:\n- Infants infected at birth: >90% develop chronic infection.\n- Adults infected: Only 2-6% become chronic.\n- Long-Term Risk: Cirrhosis and hepatocellular carcinoma.\n\nFuture Question Idea: \"What is the primary nursing intervention to prevent perinatal transmission of Hepatitis B?\" (Answer: Administer the Hepatitis B vaccine and HBIG within 24 hours of birth)."
+  },
+  {
+    "question": "What is the primary mode of transmission for the hepatitis A virus, a communicable disease that affects the liver?",
+    "options": {
+      "A": "Airborne transmission",
+      "B": "Sexual transmission",
+      "C": "Consumption of contaminated food or water",
+      "D": "Injection drug use"
+    },
+    "answer": "C",
+    "explanation": "Hepatitis A is transmitted via the fecal-oral route, usually through ingestion of contaminated food or water. It can also be spread by close personal contact, especially in settings with poor sanitation.\n\nUnlike Hepatitis B and C, Hepatitis A does not cause chronic liver disease. The body clears the infection on its own, and the person develops lifelong immunity.",
+    "additional": "1. Prevention of Hepatitis A:\n- Hygiene: Handwashing, safe water, and proper sewage disposal.\n- Vaccination: Recommended for travelers, those with liver disease, and during outbreaks.\n- Food Safety: Cook food thoroughly and avoid raw shellfish.\n\n2. Clinical Phases:\n- Pre-Icteric: Flu-like symptoms (fever, malaise, nausea).\n- Icteric: Jaundice, dark urine, pale stools.\n\nNursing Management: Supportive care — hydration, rest, nutrition. Avoid alcohol and hepatotoxic drugs.\n\nFuture Question Idea: \"A community health nurse is investigating an outbreak of Hepatitis A. What is the most likely source of the outbreak?\" (Answer: A restaurant with poor food handler hygiene)."
+  }
+]
+
+
+
+
+
