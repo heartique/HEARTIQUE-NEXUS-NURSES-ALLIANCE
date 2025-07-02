@@ -1,0 +1,610 @@
+[
+  {
+    "question": "Which of the following is the most effective strategy for controlling the spread of malaria in a community?",
+    "options": {
+      "A": "Encouraging people to sleep under mosquito nets",
+      "B": "Providing free malaria medication to all community members",
+      "C": "Running a public health campaign to educate about malaria",
+      "D": "Introducing genetic modification of mosquitoes to make them infertile"
+    },
+    "answer": "A",
+    "explanation": "The most effective and widely implemented strategy for controlling malaria transmission is the use of Insecticide-Treated Nets (ITNs). The Anopheles mosquito, which transmits malaria, is primarily a night-biting insect. Sleeping under an ITN provides a physical barrier and the insecticide kills or repels mosquitoes, preventing bites and interrupting the transmission cycle.",
+    "additional": "Vector Control: Controlling malaria relies heavily on vector control. Besides ITNs, another key strategy is Indoor Residual Spraying (IRS), where insecticides are sprayed on the interior walls of homes to kill mosquitoes that rest there.\n\nWHO 'Three Pillars': The WHO's global malaria strategy is built on three pillars: (1) ensuring universal access to malaria prevention, diagnosis, and treatment; (2) accelerating efforts towards elimination; and (3) transforming malaria surveillance into a core intervention.\n\nPossible Next Questions: \"What does the acronym ITN stand for?\" \"Name the genus of mosquito responsible for transmitting malaria.\" (Answer: Anopheles)."
+  },
+  {
+    "question": "Which of the following is the main vector for the transmission of dengue fever?",
+    "options": {
+      "A": "Houseflies",
+      "B": "Anopheles mosquitoes",
+      "C": "Aedes mosquitoes",
+      "D": "Ticks"
+    },
+    "answer": "C",
+    "explanation": "Dengue fever is a viral infection transmitted to humans through the bite of infected mosquitoes. The primary vectors are Aedes aegypti and, to a lesser extent, Aedes albopictus mosquitoes. These mosquitoes are distinct from the malaria vector.",
+    "additional": "Aedes Mosquito Characteristics:\n\nBiting time: They are primarily day-biting mosquitoes, with peak activity in the early morning and late afternoon.\n\nBreeding sites: They breed in small collections of clean, standing water in and around homes (e.g., flower pots, discarded tires, water storage containers).\n\nOther diseases: The Aedes aegypti mosquito is also the vector for Zika, Chikungunya, and Yellow Fever.\n\nPossible Next Questions: \"Besides dengue, name another disease transmitted by the Aedes mosquito.\" \"Where do Aedes mosquitoes typically breed?\""
+  },
+  {
+    "question": "Which of the following practices would be most effective in preventing the spread of cholera in a community?",
+    "options": {
+      "A": "Boiling water before drinking",
+      "B": "Hand washing with soap and water",
+      "C": "Administering oral rehydration salts to affected individuals",
+      "D": "Ensuring the availability of clean water and sanitation facilities"
+    },
+    "answer": "D",
+    "explanation": "Cholera is an acute diarrheal illness caused by the bacterium Vibrio cholerae, which is transmitted through the fecal-oral route, primarily via contaminated water and food. Therefore, the most fundamental and effective long-term prevention strategy is addressing the root cause: a lack of access to safe water, sanitation, and hygiene (WASH). This includes providing clean drinking water sources and proper sewage/excreta disposal systems.",
+    "additional": "WASH: This acronym (Water, Sanitation, and Hygiene) is central to preventing many diarrheal and water-borne diseases.\n\nCholera Vaccine: An oral cholera vaccine (OCV) is also an important tool for prevention and control, especially during outbreaks and in high-risk areas.\n\nPossible Next Questions: \"What is the causative agent of cholera?\" (Answer: Vibrio cholerae). \"What does the acronym WASH stand for?\""
+  },
+  {
+    "question": "What is the most important preventive measure for reducing the spread of tuberculosis (TB)?",
+    "options": {
+      "A": "Educating people about the symptoms of TB",
+      "B": "Using antibiotics to treat latent TB infections",
+      "C": "Isolating individuals with active TB in healthcare settings",
+      "D": "Vaccinating all children with the BCG vaccine"
+    },
+    "answer": "C",
+    "explanation": "Tuberculosis is an airborne disease spread through droplets when a person with active pulmonary TB coughs, sneezes, or speaks. The single most effective way to break the chain of transmission is to identify infectious individuals and implement airborne infection control measures, which includes isolating them, especially in congregate settings like hospitals, until they are no longer infectious.",
+    "additional": "Case Finding and Treatment: The core of any TB control program is to 'find, treat, and cure' people with active TB. Promptly starting effective treatment renders a person non-infectious within a few weeks. Isolation is the immediate step upon diagnosis to protect others during this initial period.\n\nInfection Control Hierarchy: In healthcare, this includes administrative controls (policies), environmental controls (e.g., negative pressure rooms, ventilation), and personal respiratory protection (e.g., N95 masks for healthcare workers).\n\nPossible Next Questions: \"How is Tuberculosis transmitted?\" (Answer: Airborne droplets). \"What is the difference between latent TB and active TB?\""
+  },
+  {
+    "question": "Which of the following diseases is most commonly transmitted through direct contact with infected blood or bodily fluids?",
+    "options": {
+      "A": "Hepatitis B",
+      "B": "Malaria",
+      "C": "Tuberculosis",
+      "D": "Influenza"
+    },
+    "answer": "A",
+    "explanation": "Hepatitis B virus (HBV) is a blood-borne pathogen. It is transmitted when blood, semen, or other body fluids from an infected person enter the body of a person who is not infected. Common routes include sexual contact, sharing needles or other drug-injection equipment, and from an infected mother to her baby at birth (perinatal transmission).",
+    "additional": "Other Blood-Borne Diseases: Other major blood-borne diseases include Hepatitis C and HIV.\n\nPrevention: Prevention of Hepatitis B relies on vaccination, screening of blood products, safe injection practices, and practicing safe sex (using condoms).\n\nPossible Next Questions: \"List three modes of transmission for Hepatitis B.\" \"Which three viruses are considered major blood-borne pathogens?\" (Answer: HBV, HCV, HIV)."
+  },
+  {
+    "question": "In a malaria-endemic area, what would be the most effective intervention to reduce mosquito breeding?",
+    "options": {
+      "A": "Spraying insecticides on crops",
+      "B": "Installing fish ponds near residential areas",
+      "C": "Clearing standing water from mosquito breeding sites",
+      "D": "Encouraging the use of mosquito repellent"
+    },
+    "answer": "C",
+    "explanation": "This question focuses on source reduction, a key pillar of vector control. Anopheles mosquitoes, the vectors for malaria, lay their eggs in water. By eliminating or managing standing water (e.g., draining puddles, covering water storage containers, clearing gutters), the larval stage of the mosquito life cycle is disrupted, which reduces the overall mosquito population at its source.",
+    "additional": "Integrated Vector Management (IVM): This is a rational decision-making process for the optimal use of resources for vector control. It includes source reduction, chemical control (like IRS and ITNs), and biological control.\n\nCommunity Participation: Source reduction activities are most successful when they involve active community participation, as many breeding sites are located in and around homes.\n\nPossible Next Questions: \"Define 'source reduction' in the context of vector control.\" \"Give three examples of mosquito breeding sites that can be managed by a community.\""
+  },
+  {
+    "question": "Which of the following is a key characteristic of the Zika virus that makes it a public health concern?",
+    "options": {
+      "A": "It can be transmitted through contaminated food and water",
+      "B": "It causes a high fatality rate among adults",
+      "C": "It can lead to birth defects in infants born to infected mothers",
+      "D": "It has no known preventive measures or treatments"
+    },
+    "answer": "C",
+    "explanation": "The primary reason the Zika virus became a major global public health emergency is its link to severe congenital abnormalities. Infection during pregnancy can cause Congenital Zika Syndrome, the most severe manifestation of which is microcephaly (a condition where a baby's head is much smaller than expected).",
+    "additional": "Other Complications: In adults, Zika virus has also been linked to Guillain-Barré syndrome (GBS), a rare neurological disorder that can cause muscle weakness and paralysis.\n\nVector: The vector is the Aedes mosquito, the same one that transmits dengue and chikungunya.\n\nPossible Next Questions: \"What is the most severe birth defect associated with Zika virus infection during pregnancy?\" \"What is the primary vector for the Zika virus?\""
+  },
+  {
+    "question": "Which of the following is the most common vector for the transmission of Lyme disease?",
+    "options": {
+      "A": "Fleas",
+      "B": "Ticks",
+      "C": "Mice",
+      "D": "Mosquitoes"
+    },
+    "answer": "B",
+    "explanation": "Lyme disease is a bacterial infection caused by Borrelia burgdorferi. It is transmitted to humans through the bite of an infected black-legged tick (also known as a deer tick). Ticks are the primary and most common vector for this disease.",
+    "additional": "Characteristic Symptom: The classic early symptom of Lyme disease is a distinctive 'bull's-eye' rash called erythema migrans.\n\nPrevention: Prevention involves avoiding tick-infested areas (wooded, grassy places), using insect repellent containing DEET, wearing protective clothing, and performing 'tick checks' after being outdoors.\n\nPossible Next Questions: \"What is the name of the characteristic rash associated with Lyme disease?\" \"What is the difference between a vector and a reservoir host?\""
+  },
+  {
+    "question": "Which of the following measures is most important in the management of an Ebola outbreak?",
+    "options": {
+      "A": "Administering a vaccine to all individuals",
+      "B": "Educating the community on hygiene practices",
+      "C": "Isolating individuals with suspected Ebola infections",
+      "D": "Providing antibiotics to those who have been exposed"
+    },
+    "answer": "C",
+    "explanation": "Ebola Virus Disease (EVD) is a severe, often fatal, hemorrhagic fever. It spreads through direct contact with the blood or other bodily fluids of infected people (living or deceased). Therefore, the cornerstone of controlling an outbreak is to break the chain of transmission. This is achieved through rapid case identification, isolation of infected individuals in specialized Ebola Treatment Units (ETUs), and safe burial practices.",
+    "additional": "Contact Tracing: A critical part of Ebola response is contact tracing – identifying everyone who has been in contact with an infected person, monitoring them for symptoms for 21 days (the incubation period), and isolating them immediately if they become sick.\n\nSupportive Care: Treatment for Ebola is primarily supportive, including rehydration with oral or intravenous fluids and managing specific symptoms.\n\nPossible Next Questions: \"How is Ebola virus transmitted?\" \"What is 'contact tracing' in the context of an Ebola outbreak?\""
+  },
+  {
+    "question": "Which of the following is a common method of transmission for the hepatitis C virus (HCV)?",
+    "options": {
+      "A": "Airborne droplets",
+      "B": "Contaminated water",
+      "C": "Blood-to-blood contact",
+      "D": "Sexual contact"
+    },
+    "answer": "C",
+    "explanation": "Hepatitis C is a viral infection that causes liver inflammation and damage. The Hepatitis C virus (HCV) is a blood-borne virus. The most common mode of transmission is through direct blood-to-blood contact. Historically, this occurred through unscreened blood transfusions, but today the most common route globally is the sharing of needles and other equipment used to inject drugs.",
+    "additional": "Chronic Infection: A high percentage of people infected with HCV develop a chronic, long-term infection, which can lead to cirrhosis and liver cancer over many years.\n\nNo Vaccine: Unlike Hepatitis A and B, there is currently no vaccine to prevent Hepatitis C. Prevention relies on avoiding risk behaviors.\n\nTreatment: Highly effective antiviral treatments are now available that can cure more than 95% of people with Hepatitis C infection.\n\nPossible Next Questions: \"What is the most common mode of HCV transmission today?\" \"Is there a vaccine for Hepatitis C?\" (Answer: No)."
+  },
+  {
+    "question": "Which of the following interventions is most effective in preventing the spread of rabies?",
+    "options": {
+      "A": "Giving post-exposure prophylaxis (PEP) to individuals bitten by animals",
+      "B": "Vaccinating pets and domestic animals against rabies",
+      "C": "Providing education on the symptoms of rabies",
+      "D": "Disinfecting surfaces that may be contaminated with the virus"
+    },
+    "answer": "B",
+    "explanation": "Rabies is a viral disease that is almost always fatal once clinical symptoms appear. It is transmitted to humans through the saliva of infected animals, primarily via bites. The most effective, sustainable, and cost-effective public health strategy to prevent human rabies is to control the disease at its source. This means mass vaccination of domestic animals, especially dogs, which are responsible for up to 99% of all human rabies transmissions.",
+    "additional": "PEP Regimen: Rabies PEP consists of a dose of human rabies immune globulin (HRIG) and a series of rabies vaccine injections.\n\n\"One Health\" Approach: Rabies control is a classic example of the \"One Health\" concept, where the health of humans, animals, and the environment are interconnected. Controlling the disease in dogs protects the entire community.\n\nPossible Next Questions: \"What is the primary animal reservoir for human rabies globally?\" (Answer: Dogs). \"What does rabies PEP consist of?\""
+  },
+  {
+    "question": "Which of the following is the most common mode of transmission for the influenza virus?",
+    "options": {
+      "A": "Contact with contaminated surfaces",
+      "B": "Airborne droplets from coughing and sneezing",
+      "C": "Sexual contact",
+      "D": "Blood transfusion"
+    },
+    "answer": "B",
+    "explanation": "The influenza virus primarily spreads from person to person through respiratory droplets that are expelled when an infected person coughs, sneezes, or talks. These droplets can be inhaled by people nearby or can land on their mouths or noses.",
+    "additional": "Prevention: The most effective way to prevent influenza is through annual vaccination. Good hygiene practices like frequent hand washing, covering coughs and sneezes, and avoiding touching one's face are also important.\n\nAerosol vs. Droplet: There is ongoing scientific discussion about the role of smaller aerosol particles (which can hang in the air for longer) in influenza transmission, but large droplet transmission is the most well-established route.\n\nPossible Next Questions: \"What is the single most effective way to prevent seasonal influenza?\" (Answer: Annual vaccination)."
+  },
+  {
+    "question": "Which of the following is the most effective preventive measure for controlling the spread of yellow fever?",
+    "options": {
+      "A": "Installing mosquito screens in homes",
+      "B": "Using insect repellent on exposed skin",
+      "C": "Administering the yellow fever vaccine",
+      "D": "Educating the population on yellow fever symptoms"
+    },
+    "answer": "C",
+    "explanation": "Vaccination is the single most important and effective measure for preventing yellow fever. The yellow fever vaccine is safe, affordable, and a single dose provides highly effective, lifelong protection against the disease for most people. Large-scale vaccination campaigns are the cornerstone of controlling yellow fever in endemic regions.",
+    "additional": "Vector: Yellow fever is transmitted by Aedes and Haemagogus species of mosquitoes.\n\n\"EYE\" Strategy: The global strategy to Eliminate Yellow fever Epidemics (EYE) focuses on protecting at-risk populations through vaccination, preventing international spread, and containing outbreaks rapidly.\n\nPossible Next Questions: \"How many doses of the yellow fever vaccine are required to provide lifelong immunity?\" (Answer: One dose)."
+  },
+  {
+    "question": "Which of the following is the most effective intervention to reduce the risk of contracting schistosomiasis in a community?",
+    "options": {
+      "A": "Providing access to clean drinking water",
+      "B": "Distributing insect repellent to community members",
+      "C": "Educating individuals to avoid contact with contaminated water",
+      "D": "Administering mass deworming treatments to all individuals"
+    },
+    "answer": "C",
+    "explanation": "Schistosomiasis (also known as bilharzia) is a parasitic disease caused by flatworms. The parasitic larvae are released from infected freshwater snails and penetrate the skin of people who are wading, swimming, bathing, or washing in contaminated freshwater. Therefore, the most direct way to prevent infection is to avoid contact with this water. Health education focusing on this behavior is a key intervention.",
+    "additional": "Life Cycle: The disease has a complex life cycle involving humans (definitive host) and specific freshwater snails (intermediate host). Control efforts often target both treating humans and controlling the snail population.\n\nPrevention and Control: The overall strategy includes mass treatment, access to safe water, improved sanitation (to prevent human waste with parasite eggs from contaminating water), snail control, and health education.\n\nPossible Next Questions: \"How does the schistosomiasis parasite enter the human body?\" (Answer: Through skin penetration). \"What is the intermediate host for schistosomiasis?\" (Answer: Freshwater snails)."
+  },
+  {
+    "question": "Which of the following diseases is most commonly transmitted through sexual contact?",
+    "options": {
+      "A": "Hepatitis A",
+      "B": "Hepatitis B",
+      "C": "Hepatitis C",
+      "D": "Hepatitis D"
+    },
+    "answer": "B",
+    "explanation": "Of the hepatitis viruses listed, Hepatitis B (HBV) is the one most efficiently and commonly transmitted through sexual contact, alongside parenteral (blood) exposure. The virus is present in high concentrations in the blood, semen, and vaginal fluids of infected individuals.",
+    "additional": "Prevention: The Hepatitis B vaccine is highly effective at preventing infection. Practicing safe sex, including the use of condoms, also significantly reduces the risk of sexual transmission.\n\nPossible Next Questions: \"Besides sexual contact, what is another major route of transmission for Hepatitis B?\" (Answer: Sharing needles, perinatal transmission). \"Which type of Hepatitis is primarily transmitted through the fecal-oral route?\" (Answer: Hepatitis A)."
+  },
+  {
+    "question": "Which of the following is the most effective method for controlling the spread of the HIV virus?",
+    "options": {
+      "A": "Encouraging individuals to use condoms during sexual activity",
+      "B": "Providing free antiretroviral therapy (ART) to all HIV-positive individuals",
+      "C": "Offering needle exchange programs to individuals at risk",
+      "D": "Running a public health campaign to educate about HIV prevention"
+    },
+    "answer": "A",
+    "explanation": "HIV is most commonly transmitted through sexual contact. The correct and consistent use of condoms provides a highly effective physical barrier that prevents the exchange of infectious bodily fluids during sex. It is a direct, primary prevention method that is effective across all sexually active populations.",
+    "additional": "Combination Prevention: Modern HIV control involves behavioral (condoms), biomedical (ART, PrEP, PEP), and structural interventions.\n\nPrEP: A daily pill for high-risk HIV-negative individuals to prevent infection.\n\nPossible Next Questions: \"What does the 'U=U' principle mean in HIV prevention?\" \"Define 'combination prevention' for HIV.\""
+  },
+  {
+    "question": "Which of the following is the best method to control the spread of African trypanosomiasis (sleeping sickness)?",
+    "options": {
+      "A": "Encouraging people to wear long sleeves and trousers",
+      "B": "Implementing a mass vaccination campaign",
+      "C": "Using insecticide-treated nets to reduce tsetse fly bites",
+      "D": "Treating all individuals with anti-parasitic drugs"
+    },
+    "answer": "C",
+    "explanation": "African trypanosomiasis is caused by parasites transmitted by tsetse fly bites. Vector control, especially through the use of insecticide-treated traps or targets, is the most effective prevention strategy.",
+    "additional": "Vector Characteristics: Tsetse flies are daytime biters.\n\nControl Strategy: Combines vector control, active case screening, and treatment of both humans and animals.\n\nPossible Next Questions: \"What is the vector for African sleeping sickness?\" \"Why is mass vaccination not used for African trypanosomiasis?\""
+  },
+  {
+    "question": "Which of the following is the most important factor in controlling a cholera outbreak in a community?",
+    "options": {
+      "A": "Providing intravenous fluids to affected individuals",
+      "B": "Educating the population on the importance of hygiene",
+      "C": "Administering antibiotics to everyone in the community",
+      "D": "Ensuring access to clean drinking water"
+    },
+    "answer": "D",
+    "explanation": "Cholera is transmitted primarily through contaminated water. The key to halting transmission during an outbreak is ensuring access to clean water, which interrupts the fecal-oral route.",
+    "additional": "Outbreak Response: Includes surveillance, case management, WASH interventions, and use of Oral Cholera Vaccine (OCV).\n\nPossible Next Questions: \"A community reports a sudden increase in cases of acute watery diarrhea. What is the first priority?\" (Answer: Provide clean water)."
+  },
+  {
+    "question": "Which of the following is the primary method for preventing the spread of the hepatitis A virus?",
+    "options": {
+      "A": "Vaccination",
+      "B": "Use of condoms during sexual activity",
+      "C": "Avoiding consumption of contaminated food",
+      "D": "Disinfecting surfaces contaminated with feces"
+    },
+    "answer": "A",
+    "explanation": "Hepatitis A virus is spread via the fecal-oral route. The most reliable and long-term prevention method is vaccination, which provides active immunity.",
+    "additional": "HAV Characteristics: Causes an acute, self-limited illness with no chronic phase.\n\nVaccine Schedule: Two doses, given 6–12 months apart.\n\nPossible Next Questions: \"How is Hepatitis A transmitted?\" \"Does Hepatitis A cause chronic disease?\" (Answer: No)."
+  },
+  {
+    "question": "Which of the following vector-borne diseases is transmitted by the Anopheles mosquito?",
+    "options": {
+      "A": "Zika virus",
+      "B": "Yellow fever",
+      "C": "Malaria",
+      "D": "Dengue fever"
+    },
+    "answer": "C",
+    "explanation": "Malaria is caused by Plasmodium parasites and is transmitted by female Anopheles mosquitoes. These mosquitoes are active at night, making insecticide-treated bed nets especially effective.",
+    "additional": "Vector Identification is Key: Knowing the vector helps determine appropriate control measures.\n\nPossible Next Questions: \"Match the following diseases with their mosquito vector: Malaria – Anopheles; Dengue – Aedes.\""
+  },
+  {
+    "question": "Which of the following is the most common mode of transmission for the chikungunya virus?",
+    "options": {
+      "A": "Airborne droplets",
+      "B": "Sexual contact",
+      "C": "Mosquito bites",
+      "D": "Contaminated water"
+    },
+    "answer": "C",
+    "explanation": "Chikungunya is transmitted by the bite of infected Aedes mosquitoes (Aedes aegypti and Aedes albopictus). It is not airborne or sexually transmitted, nor does it spread through water.",
+    "additional": "Symptoms: Abrupt fever, severe joint pain, rash, and fatigue.\n\nVector: Aedes mosquitoes, active during the daytime and breeding near human dwellings.\n\nPrevention: No vaccine or antiviral treatment exists. Vector control and personal protection are the main methods.\n\nPossible Next Questions: \"What is the hallmark symptom of chikungunya?\" (Answer: Severe joint pain)."
+  },
+  {
+    "question": "What is the most effective method for controlling the spread of tuberculosis (TB) in a healthcare setting?",
+    "options": {
+      "A": "Administering TB vaccines to all patients",
+      "B": "Wearing masks to prevent airborne transmission",
+      "C": "Using antibiotics to treat latent TB infections",
+      "D": "Isolating patients with active TB in a controlled environment"
+    },
+    "answer": "D",
+    "explanation": "In healthcare settings, isolating patients with active TB in properly ventilated or negative-pressure rooms is the most effective way to prevent airborne transmission.",
+    "additional": "Infection Control Hierarchy:\n- Administrative: Identify and isolate cases quickly\n- Environmental: Use Airborne Infection Isolation Rooms (AIIRs)\n- PPE: N95 respirators for healthcare workers\n\nPossible Next Questions: \"Describe features of an AIIR.\""
+  },
+  {
+    "question": "Which of the following diseases is most commonly associated with vector-borne transmission through the bite of infected fleas?",
+    "options": {
+      "A": "Plague",
+      "B": "Malaria",
+      "C": "Yellow fever",
+      "D": "Leishmaniasis"
+    },
+    "answer": "A",
+    "explanation": "Plague is primarily transmitted to humans through the bite of infected fleas that have fed on infected rodents.",
+    "additional": "Types of Plague:\n- Bubonic: Swollen lymph nodes (buboes)\n- Pneumonic: Infectious droplets (only form that spreads human-to-human)\n- Septicemic: Bacteria in the blood\n\nPossible Next Questions: \"What bacteria causes plague?\" (Answer: Yersinia pestis)."
+  },
+  {
+    "question": "Which of the following is the primary mode of transmission for the Zika virus?",
+    "options": {
+      "A": "Contaminated water",
+      "B": "Mosquito bites",
+      "C": "Sexual contact",
+      "D": "Blood transfusion"
+    },
+    "answer": "B",
+    "explanation": "Zika is primarily transmitted through bites from infected Aedes mosquitoes, which also spread dengue and chikungunya.",
+    "additional": "Other Transmission Routes: Sexual contact, vertical transmission (mother to fetus), and rarely via blood transfusion.\n\nComplications: Congenital Zika Syndrome, including microcephaly in infants.\n\nPossible Next Questions: \"What is the main mosquito vector for Zika?\""
+  },
+  {
+    "question": "Which of the following measures is most effective in reducing the transmission of malaria in endemic regions?",
+    "options": {
+      "A": "Promoting the use of mosquito repellent",
+      "B": "Installing air conditioning in homes",
+      "C": "Providing bed nets treated with insecticides",
+      "D": "Drinking antimalarial drugs for prevention"
+    },
+    "answer": "C",
+    "explanation": "Insecticide-Treated Nets (ITNs) are the most effective intervention in endemic regions where Anopheles mosquitoes bite at night.",
+    "additional": "Why ITNs Work: They act as both a physical and chemical barrier against malaria vectors.\n\nLLINs: Long-Lasting Insecticidal Nets last for up to 3 years and are widely distributed in high-risk areas.\n\nPossible Next Questions: \"Why are ITNs more effective than repellents at night?\""
+  },
+  {
+    "question": "Which of the following viruses is most commonly associated with causing acute viral hemorrhagic fever?",
+    "options": {
+      "A": "Hepatitis A",
+      "B": "Marburg virus",
+      "C": "Rhinovirus",
+      "D": "Epstein-Barr virus"
+    },
+    "answer": "B",
+    "explanation": "Marburg virus, a filovirus like Ebola, causes acute viral hemorrhagic fever characterized by fever, vascular damage, and bleeding. It is zoonotic and spreads through contact with infected bodily fluids.",
+    "additional": "Other VHFs include: Ebola, Lassa fever, Crimean-Congo hemorrhagic fever, and dengue.\n\nTransmission: Often zoonotic, with spillover from animals or insects to humans, and then person-to-person through fluids.\n\nPossible Next Questions: \"Name another VHF-causing virus.\" (Answer: Ebola)."
+  },
+  {
+    "question": "Which of the following best describes the vector responsible for transmitting the West Nile virus?",
+    "options": {
+      "A": "Mosquitoes",
+      "B": "Rodents",
+      "C": "Ticks",
+      "D": "Fleas"
+    },
+    "answer": "A",
+    "explanation": "West Nile virus is transmitted by Culex mosquitoes, which become infected by feeding on birds—the natural reservoir. Humans and horses are dead-end hosts.",
+    "additional": "80% of infections are asymptomatic; <1% develop neuroinvasive disease (encephalitis/meningitis).\n\nOther transmission routes include blood transfusions and mother-to-child.\n\nPossible Next Questions: \"What is the reservoir host of West Nile virus?\" (Answer: Birds)."
+  },
+  {
+    "question": "Which of the following is a key characteristic of malaria that makes it a persistent health problem in many regions?",
+    "options": {
+      "A": "It can be transmitted through the air",
+      "B": "The disease is often asymptomatic in its early stages",
+      "C": "The parasite can develop resistance to treatment",
+      "D": "It is easily controlled with proper sanitation"
+    },
+    "answer": "C",
+    "explanation": "Plasmodium species causing malaria have developed resistance to multiple drugs over time, including chloroquine and now artemisinin derivatives, making control efforts more complex.",
+    "additional": "Vector resistance to insecticides further complicates efforts.\n\nPersistence also linked to weak healthcare systems and poverty.\n\nPossible Next Questions: \"What is another major form of resistance that affects malaria control?\" (Answer: Insecticide resistance)."
+  },
+  {
+    "question": "Which of the following is the best approach to prevent the spread of trachoma in endemic areas?",
+    "options": {
+      "A": "Offering free eye surgeries",
+      "B": "Promoting personal hygiene and facial cleanliness",
+      "C": "Administering antibiotics to all community members",
+      "D": "Providing free glasses to those with vision problems"
+    },
+    "answer": "B",
+    "explanation": "Facial cleanliness disrupts the transmission of Chlamydia trachomatis—the bacteria causing trachoma—by preventing eye/nose secretions from being passed between individuals or attracting flies.",
+    "additional": "Part of WHO's SAFE strategy:\nS - Surgery\nA - Antibiotics\nF - Facial cleanliness\nE - Environmental improvement\n\nPossible Next Questions: \"What does SAFE stand for in trachoma control?\""
+  },
+  {
+    "question": "Which of the following vector-borne diseases is associated with the Aedes mosquito species?",
+    "options": {
+      "A": "Malaria",
+      "B": "Yellow fever",
+      "C": "Plague",
+      "D": "Typhus"
+    },
+    "answer": "B",
+    "explanation": "Yellow fever is caused by a flavivirus transmitted by Aedes aegypti mosquitoes. These mosquitoes also spread dengue, Zika, and chikungunya.",
+    "additional": "Aedes mosquitoes bite during the day and breed in small water containers.\n\nPublic health focus: Vector control and vaccination.\n\nPossible Next Questions: \"Name three diseases transmitted by Aedes aegypti.\""
+  },
+  {
+    "question": "Which of the following is a primary risk factor for contracting schistosomiasis?",
+    "options": {
+      "A": "Consuming contaminated food",
+      "B": "Exposure to contaminated freshwater",
+      "C": "Sexual contact with infected individuals",
+      "D": "Breathing in contaminated air"
+    },
+    "answer": "B",
+    "explanation": "Schistosomiasis is caused by parasites whose larvae (cercariae) are released by freshwater snails. Infection occurs when skin contacts contaminated freshwater during activities like swimming, bathing, or farming.",
+    "additional": "Also known as bilharzia or 'snail fever'.\n\nChildren are particularly at risk due to recreational water exposure.\n\nPossible Next Questions: \"What is the common name for schistosomiasis?\" \"Why are children often at high risk for schistosomiasis?\""
+  },
+  {
+    "question": "Which of the following is the primary vector for the transmission of leishmaniasis?",
+    "options": {
+      "A": "Ticks",
+      "B": "Fleas",
+      "C": "Sandflies",
+      "D": "Mosquitoes"
+    },
+    "answer": "C",
+    "explanation": "Leishmaniasis is transmitted through the bite of infected female phlebotomine sandflies. The parasite is Leishmania, and the disease has cutaneous, mucocutaneous, and visceral forms.",
+    "additional": "Visceral leishmaniasis (kala-azar) is the most severe.\n\nReservoirs include dogs, rodents, and humans.\n\nPossible Next Questions: \"What is the most severe form of leishmaniasis commonly known as?\""
+  },
+  {
+    "question": "Which of the following is a common preventive measure for controlling the spread of lymphatic filariasis?",
+    "options": {
+      "A": "Mass drug administration of antifilarial drugs",
+      "B": "Installing mosquito nets in all homes",
+      "C": "Providing vaccinations against filarial worms",
+      "D": "Reducing human contact with infected animals"
+    },
+    "answer": "A",
+    "explanation": "The global strategy to eliminate lymphatic filariasis relies on annual Mass Drug Administration (MDA) to entire at-risk communities to interrupt transmission by reducing microfilariae levels in the blood.",
+    "additional": "Also known as elephantiasis. MDA typically lasts 4–6 years.\n\nMorbidity management focuses on care for those with lymphedema or hydrocele.\n\nPossible Next Questions: \"What does MDA stand for in the context of disease control?\" \"What is the common name for lymphatic filariasis?\""
+  },
+  {
+    "question": "Which of the following interventions is most effective in preventing the spread of the human immunodeficiency virus (HIV)?",
+    "options": {
+      "A": "Universal vaccination",
+      "B": "Safe needle exchange programs",
+      "C": "Administering antibiotics to HIV-positive individuals",
+      "D": "Reducing mosquito populations"
+    },
+    "answer": "B",
+    "explanation": "Needle and syringe exchange programs are a core harm reduction strategy for preventing HIV among people who inject drugs. They reduce transmission by providing sterile equipment and safe disposal.",
+    "additional": "NSPs often link clients to HIV testing, ART, and addiction services.\n\nPossible Next Questions: \"What is the primary goal of a needle and syringe exchange program?\" \"Define 'harm reduction'.\""
+  },
+  {
+    "question": "Which of the following vector-borne diseases is transmitted by the Anopheles mosquito?",
+    "options": {
+      "A": "Malaria",
+      "B": "Zika virus",
+      "C": "Chikungunya",
+      "D": "Yellow fever"
+    },
+    "answer": "A",
+    "explanation": "Malaria is caused by Plasmodium parasites transmitted by female Anopheles mosquitoes, which are night-biting and targeted by insecticide-treated bed nets.",
+    "additional": "Other diseases like Zika, dengue, yellow fever, and chikungunya are transmitted by Aedes mosquitoes (day-biting).\n\nPossible Next Questions: \"How do the biting habits of Anopheles and Aedes mosquitoes differ?\""
+  },
+  {
+    "question": "Which of the following best describes the mode of transmission for the hepatitis D virus (HDV)?",
+    "options": {
+      "A": "Airborne transmission",
+      "B": "Sexual contact",
+      "C": "Blood-to-blood contact, primarily with hepatitis B",
+      "D": "Contaminated water"
+    },
+    "answer": "C",
+    "explanation": "Hepatitis D virus (HDV), also known as the \"delta virus,\" is a unique, incomplete virus that requires the presence of Hepatitis B virus (HBV) to replicate. HDV is transmitted through percutaneous or mucosal contact with infected blood or body fluids.",
+    "additional": "Super-infection (HDV in someone already infected with HBV) leads to more severe disease than co-infection.\n\nPrevention: Hepatitis B vaccination also prevents HDV.\n\nPossible Next Questions: \"Why is the Hepatitis B vaccine also effective in preventing Hepatitis D?\" \"What is the difference between an HDV co-infection and a super-infection?\""
+  },
+  {
+    "question": "Which of the following is the most effective method of controlling the spread of Zika virus?",
+    "options": {
+      "A": "Vaccination of all individuals",
+      "B": "Eliminating mosquito breeding sites",
+      "C": "Administering antivirals to affected individuals",
+      "D": "Isolating infected individuals"
+    },
+    "answer": "B",
+    "explanation": "Zika virus is transmitted primarily by Aedes mosquitoes. The most effective control method is vector control, particularly eliminating breeding sites (small water containers near homes).",
+    "additional": "Source reduction: Buckets, flower pots, tires, drums, etc.\n\nPersonal protection includes repellents, long sleeves, window screens.\n\nPossible Next Questions: \"Why is source reduction a critical strategy for controlling Zika?\""
+  },
+  {
+    "question": "Which of the following diseases can be prevented by ensuring clean water and proper sanitation?",
+    "options": {
+      "A": "Cholera",
+      "B": "Malaria",
+      "C": "Zika virus",
+      "D": "Hepatitis B"
+    },
+    "answer": "A",
+    "explanation": "Cholera is a waterborne bacterial disease spread through the fecal-oral route. Safe water and sanitation (WASH) are key to its prevention.",
+    "additional": "Other fecal-oral diseases: Typhoid, Hepatitis A, Dysentery.\n\nThe 'F-Diagram' shows feces spread via Fluids, Fields, Flies, Fingers to Food.\n\nPossible Next Questions: \"Name two other diseases, besides cholera, that are prevented by WASH interventions.\""
+  },
+  {
+    "question": "Which of the following is the best approach to control the spread of Hantavirus?",
+    "options": {
+      "A": "Reducing rodent populations",
+      "B": "Administering vaccines to at-risk individuals",
+      "C": "Promoting hand washing",
+      "D": "Using mosquito nets in endemic areas"
+    },
+    "answer": "A",
+    "explanation": "Hantavirus is transmitted by inhaling aerosolized particles from rodent urine, feces, or saliva. Reducing rodent populations and exposure is the best preventive strategy.",
+    "additional": "Prevention includes sealing homes, trapping rodents, and disinfecting droppings before sweeping.\n\nHantavirus Pulmonary Syndrome (HPS) is the severe form in humans.\n\nPossible Next Questions: \"How is Hantavirus primarily transmitted to humans?\""
+  },
+  {
+    "question": "Which of the following diseases is most commonly transmitted by the Aedes aegypti mosquito?",
+    "options": {
+      "A": "Malaria",
+      "B": "Zika virus",
+      "C": "Plague",
+      "D": "Tuberculosis"
+    },
+    "answer": "B",
+    "explanation": "Zika virus is transmitted primarily by the Aedes aegypti mosquito. It is one of the four major viruses spread by this vector, alongside dengue, chikungunya, and yellow fever.",
+    "additional": "The 'Big 4' of Aedes aegypti: Zika, Dengue, Chikungunya, Yellow Fever.\n\nPossible Next Questions: \"A patient presents with fever and severe joint pain after traveling to a tropical region. Which mosquito genus is the most likely vector for their illness?\" (Answer: Aedes)"
+  },
+  {
+    "question": "Which of the following is the best preventive measure against leprosy transmission?",
+    "options": {
+      "A": "Wearing protective gloves in healthcare settings",
+      "B": "Administering the BCG vaccine to all children",
+      "C": "Early diagnosis and treatment with multidrug therapy",
+      "D": "Quarantining individuals with active leprosy"
+    },
+    "answer": "C",
+    "explanation": "Leprosy is caused by Mycobacterium leprae. Early diagnosis and treatment with multidrug therapy (MDT) stops disease progression and quickly renders the patient non-infectious, preventing further transmission.",
+    "additional": "MDT includes dapsone, rifampicin, and clofazimine.\n\nStigma is a major barrier to care; quarantining is not necessary and promotes stigma.\n\nPossible Next Questions: \"What does MDT stand for?\" \"Why is isolation of leprosy patients not recommended?\""
+  },
+  {
+    "question": "Which of the following is the primary vector for the transmission of dengue fever?",
+    "options": {
+      "A": "Mosquitoes",
+      "B": "Rodents",
+      "C": "Fleas",
+      "D": "Ticks"
+    },
+    "answer": "A",
+    "explanation": "Dengue fever is transmitted by Aedes aegypti and Aedes albopictus mosquitoes. Knowing key vector-disease associations is essential for public health understanding.",
+    "additional": "Nickname: 'Breakbone fever' due to intense muscle and joint pain.\n\nSevere dengue can lead to plasma leakage, shock, and death.\n\nPossible Next Questions: \"What is a common nickname for dengue fever and why?\""
+  },
+  {
+    "question": "Which of the following is the most common method of transmission for hepatitis C virus (HCV)?",
+    "options": {
+      "A": "Airborne transmission",
+      "B": "Blood-to-blood contact",
+      "C": "Sexual contact",
+      "D": "Contaminated food"
+    },
+    "answer": "B",
+    "explanation": "Hepatitis C is a blood-borne virus, primarily spread through sharing of contaminated needles and syringes among people who inject drugs.",
+    "additional": "HCV is called a 'silent epidemic' because symptoms often appear decades after infection.\n\nOther risks: unscreened blood transfusion, needlestick injuries, maternal transmission.\n\nPossible Next Questions: \"Why is Hepatitis C often referred to as a 'silent epidemic'?\""
+  },
+  {
+    "question": "What is the most effective way to prevent the spread of dengue fever in urban areas?",
+    "options": {
+      "A": "Use of antiviral medications",
+      "B": "Application of insecticides to kill mosquitoes",
+      "C": "Removing standing water where mosquitoes breed",
+      "D": "Providing vaccinations for all residents"
+    },
+    "answer": "C",
+    "explanation": "Source reduction by removing or covering containers of standing water eliminates Aedes mosquito breeding sites and is the most effective long-term prevention method for dengue.",
+    "additional": "Insecticides are temporary; Dengvaxia vaccine has limited application.\n\nCommunity effort is essential for effective control.\n\nPossible Next Questions: \"Why is insecticide fogging considered a temporary solution for dengue control?\""
+  },
+  {
+    "question": "Which of the following is the best approach to prevent the spread of Ebola virus?",
+    "options": {
+      "A": "Isolation of infected individuals",
+      "B": "Mass vaccination campaigns",
+      "C": "Widespread antibiotic treatment",
+      "D": "Drinking filtered water"
+    },
+    "answer": "A",
+    "explanation": "Ebola spreads via direct contact with bodily fluids. Immediate isolation of infected individuals is critical to break the chain of transmission.",
+    "additional": "Core interventions: Surveillance, Isolation, Contact tracing, Safe burial, Community engagement, and Ring vaccination.\n\nPossible Next Questions: \"List the four core interventions for controlling an Ebola outbreak.\""
+  },
+  {
+    "question": "Which of the following is the main cause of the ongoing global polio eradication challenge?",
+    "options": {
+      "A": "Inadequate vaccine coverage",
+      "B": "Poor sanitation",
+      "C": "Lack of government funding",
+      "D": "Vaccine resistance"
+    },
+    "answer": "A",
+    "explanation": "The biggest barrier to polio eradication is the failure to achieve and maintain high vaccine coverage in all communities, especially in conflict zones and among hard-to-reach populations.",
+    "additional": "Wild vs. Vaccine-Derived Poliovirus (cVDPV) both require high immunization rates.\n\nAs of 2023, WPV remains endemic in only Afghanistan and Pakistan.\n\nPossible Next Questions: \"What is the difference between Wild Poliovirus and Vaccine-Derived Poliovirus?\""
+  },
+  {
+    "question": "Which of the following diseases is primarily transmitted through direct contact with an infected person's skin or bodily fluids?",
+    "options": {
+      "A": "Hepatitis A",
+      "B": "Smallpox",
+      "C": "Tuberculosis",
+      "D": "Leprosy"
+    },
+    "answer": "B",
+    "explanation": "Smallpox spreads through direct contact with bodily fluids or contaminated items (fomites) and respiratory droplets from infected individuals. It was highly infectious before eradication.",
+    "additional": "Eradicated in 1980 thanks to a global vaccination campaign and the fact that humans were the only reservoir.\n\nPossible Next Questions: \"Why was it possible to eradicate smallpox?\""
+  },
+  {
+    "question": "What is the key environmental factor that increases the risk of transmission for most vector-borne diseases?",
+    "options": {
+      "A": "Lack of vaccination",
+      "B": "Poor nutrition",
+      "C": "Warm, humid climates",
+      "D": "Poor sanitation"
+    },
+    "answer": "C",
+    "explanation": "Warm, humid environments support the breeding, activity, and lifespan of vectors like mosquitoes, ticks, and sandflies. This makes tropical and subtropical zones hotspots for vector-borne diseases.",
+    "additional": "Climate change is expanding the range of disease vectors, raising the risk in temperate zones.\n\nPossible Next Questions: \"How might climate change affect the global distribution of dengue fever?\""
+  },
+  {
+    "question": "Which of the following is a significant risk factor for the transmission of tuberculosis (TB)?",
+    "options": {
+      "A": "Exposure to contaminated food",
+      "B": "Close contact with an individual with active TB",
+      "C": "Living in a rural environment",
+      "D": "Lack of vaccination"
+    },
+    "answer": "B",
+    "explanation": "TB spreads via airborne droplets, so the highest risk comes from close and prolonged exposure to someone with active pulmonary TB in poorly ventilated spaces.",
+    "additional": "Risk is magnified in prisons, homeless shelters, and crowded urban slums.\n\nPossible Next Questions: \"Which environment poses the highest risk for TB transmission?\""
+  },
+  {
+    "question": "Which of the following diseases is transmitted by the Anopheles mosquito species?",
+    "options": {
+      "A": "Malaria",
+      "B": "Zika",
+      "C": "Chikungunya",
+      "D": "Yellow Fever"
+    },
+    "answer": "A",
+    "explanation": "Malaria is transmitted by the female Anopheles mosquito, which is active at night. The parasite involved is *Plasmodium*.",
+    "additional": "Aedes mosquitoes transmit Zika, Chikungunya, and Yellow Fever.\n\nThis question reinforces a key vector-disease relationship.\n\nThis completes the Communicable and Vector-Borne Diseases unit."
+  }
+]
+
+
+
+
+
+
+
+
