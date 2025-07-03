@@ -212,14 +212,16 @@
 <input type="text" id="searchBar" placeholder="Search notes, papers, and activities..." />
 </p>
     <section>
-      <!-- Noticeboard -->
-<div id="noticeboard" style="background-color: #fff8dc; border-left: 6px solid #ffa500; padding: 12px 20px; margin: 20px 0; font-family: Arial, sans-serif; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
-  <h3 style="margin-top: 0; color: #d2691e;">📢 NOTICEBOARD <span id="newBadge" style="color: red; font-size: 0.9em; display: none;">(New)</span></h3>
-  <ul id="notices" style="margin: 0; padding-left: 20px; color: #333;"></ul>
-</div>
+        <div id="noticeboard">
+    <h3 style="margin-top: 0; color: #d2691e;">
+      📢 Noticeboard <span id="newBadge" style="color: red; font-size: 0.9em; display: none;">(New)</span>
+    </h3>
+    <button id="toggleNotice">Show Notices</button>
+    <ul id="notices"></ul>
+  </div>
 
-<!-- Notification sound -->
-<audio id="notifySound" src="notify.mp3" preload="auto"></audio>
+  <!-- 🔊 Notification Sound -->
+  <audio id="notifySound" src="notify.mp3" preload="auto"></audio>
 
       <h2>PTS & Block Notes</h2>
       <ul id="notesList">
@@ -598,42 +600,48 @@
     window.location.href = 'login.html';
   }
 
-        <script>
-  fetch('notices.json')
-    .then(response => response.json())
-    .then(data => {
-      const list = document.getElementById('notices');
-      const seenNotices = JSON.parse(localStorage.getItem('seenNotices') || '[]');
-      const newNotices = [];
+ <script>
+    const toggleBtn = document.getElementById('toggleNotice');
+    const noticeList = document.getElementById('notices');
 
-      data.forEach(item => {
-        const li = document.createElement('li');
-        li.innerHTML = `<strong>${item.date}:</strong> ${item.message}`;
-        list.appendChild(li);
-
-        if (!seenNotices.includes(item.id)) {
-          newNotices.push(item.id);
-        }
-      });
-
-      // If there are unseen notices, alert and play sound
-      if (newNotices.length > 0) {
-        document.getElementById('newBadge').style.display = 'inline';
-
-        // Play the notification sound
-        const sound = document.getElementById('notifySound');
-        if (sound) sound.play().catch(e => console.warn('Audio autoplay may be blocked:', e));
-
-        alert("📢 New notice available! Check the Noticeboard.");
-        localStorage.setItem('seenNotices', JSON.stringify([...seenNotices, ...newNotices]));
-      }
-    })
-    .catch(error => {
-      console.error("Could not load notices:", error);
-      document.getElementById('notices').innerHTML = "<li>Failed to load notices.</li>";
+    toggleBtn.addEventListener('click', () => {
+      noticeList.classList.toggle('show');
+      toggleBtn.textContent = noticeList.classList.contains('show') ? 'Hide Notices' : 'Show Notices';
     });
-</script>
 
-</script>
+    fetch('notices.json')
+      .then(response => {
+        if (!response.ok) throw new Error("Failed to load JSON");
+        return response.json();
+      })
+      .then(data => {
+        const list = document.getElementById('notices');
+        const seenNotices = JSON.parse(localStorage.getItem('seenNotices') || '[]');
+        const newNotices = [];
+
+        data.forEach(item => {
+          const li = document.createElement('li');
+          li.innerHTML = `<strong>${item.date}:</strong> ${item.message}`;
+          list.appendChild(li);
+
+          if (!seenNotices.includes(item.id)) {
+            newNotices.push(item.id);
+          }
+        });
+
+        if (newNotices.length > 0) {
+          document.getElementById('newBadge').style.display = 'inline';
+          const sound = document.getElementById('notifySound');
+          sound.play().catch(e => console.warn('Audio autoplay may be blocked:', e));
+          alert("📢 New notice available! Check the Noticeboard.");
+          localStorage.setItem('seenNotices', JSON.stringify([...seenNotices, ...newNotices]));
+        }
+      })
+      .catch(error => {
+        console.error("Could not load notices:", error);
+        document.getElementById('notices').innerHTML = "<li>Failed to load notices.</li>";
+      });
+  </script>
+
 </body>
 </html>
