@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Autonomic Nervous System Tree</title>
+  <title>Autonomic Nervous System Flowchart</title>
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
@@ -14,25 +14,28 @@
       align-items: center;
     }
 
-    .tree-container {
+    .flowchart {
       display: flex;
-      gap: 2rem;
+      justify-content: space-around;
       flex-wrap: wrap;
-      justify-content: center;
+      width: 100%;
+      max-width: 1200px;
     }
 
     .branch {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: 100%;
-      max-width: 450px;
+      flex: 1 1 48%;
+      background: #ffffff;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      margin: 1rem;
     }
 
     .branch-title {
+      text-align: center;
       font-weight: bold;
-      color: #2c3e50;
       font-size: 1.2rem;
+      color: #2c3e50;
       margin-bottom: 1rem;
     }
 
@@ -42,7 +45,6 @@
       border-radius: 10px;
       padding: 1rem;
       margin: 1rem 0;
-      width: 100%;
       cursor: pointer;
       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
       transition: background 0.3s ease;
@@ -71,7 +73,12 @@
     .arrow {
       font-size: 2rem;
       color: #3498db;
+      text-align: center;
       margin: -0.5rem 0;
+    }
+
+    .hidden {
+      display: none;
     }
 
     .reset-btn {
@@ -80,140 +87,121 @@
       border: none;
       padding: 0.5rem 1rem;
       border-radius: 5px;
-      margin-top: 2rem;
+      margin-top: 1.5rem;
       cursor: pointer;
       font-size: 1rem;
+      transition: background 0.3s ease;
+    }
+
+    .reset-btn:hover {
+      background: #c0392b;
     }
 
     pre {
       white-space: pre-wrap;
     }
 
-    b {
-      color: #2c3e50;
-    }
+    .bold-blue { color: #2980b9; font-weight: bold; }
+    .bold-green { color: #27ae60; font-weight: bold; }
+    .bold-red { color: #e74c3c; font-weight: bold; }
+    .bold-purple { color: #8e44ad; font-weight: bold; }
   </style>
 </head>
 <body>
+  <h2 class="bold-blue">Autonomic Nervous System (ANS)</h2>
+  <p style="max-width: 800px; text-align: center;">
+    The entire ANS is a balance between two opposing forces:<br/>
+    <span class="bold-red">• Sympathetic Nervous System (SNS)</span>: "Fight or Flight." Spends energy. Think <span class="bold-red">ACCELERATOR</span>.<br/>
+    <span class="bold-green">• Parasympathetic Nervous System (PNS)</span>: "Rest and Digest." Conserves energy. Think <span class="bold-green">BRAKE</span>.<br/>
+    Pharmacology either mimics (<span class="bold-purple">agonist</span>) or blocks (<span class="bold-purple">antagonist</span>) these systems.
+  </p>
 
-  <h2>Autonomic Nervous System (ANS)</h2>
-  <p><b>The entire ANS</b> is a balance between two opposing forces:</p>
-  <p><b style="color:#c0392b">Sympathetic Nervous System (SNS)</b>: "Fight or Flight" — Spends energy. Think ACCELERATOR.</p>
-  <p><b style="color:#27ae60">Parasympathetic Nervous System (PNS)</b>: "Rest and Digest" — Conserves energy. Think BRAKE.</p>
-  <p><b>Pharmacology</b> either mimics (agonist) or blocks (antagonist) these systems.</p>
-
-  <div class="tree-container">
-
-    <div class="branch">
-      <div class="branch-title">Sympathetic System (Part 1)</div>
-
-      <div class="node" onclick="toggleNode(this)">
-        Adrenergic Receptors Overview
-        <div class="details">
-          <pre><b>Alpha-1</b>	Blood Vessels, Bladder Sphincter, Eye	Vasoconstriction, Bladder contraction, Pupil Dilation (Mydriasis)	Increases Blood Pressure, Helps with urinary control
-<b>Alpha-2</b>	Central Nervous System (Brain)	Inhibits Norepinephrine release (acts as a "brake" on the SNS itself)	Lowers Blood Pressure (e.g., Clonidine)
-<b>Beta-1</b>	HEART (You have 1 Heart)	Increases Heart Rate, Contractility, and Conduction	Increases Cardiac Output, Treats Bradycardia/Shock
-<b>Beta-2</b>	LUNGS (You have 2 Lungs), Uterus, Liver	Bronchodilation, Uterine Relaxation, Glycogenolysis (breaks down sugar)	Easier Breathing, Stops preterm labor, Increases blood sugar</pre>
-        </div>
-      </div>
-
-      <div class="node" onclick="toggleNode(this)">
-        Adrenergic Agonists (Sympathomimetics)
-        <div class="details">
-          <pre><b>Epinephrine (Adrenaline):</b> Alpha-1, Beta-1, AND Beta-2
-- Anaphylactic Shock: Reverses low BP + wheezing
-- Cardiac Arrest: Beta-1 "jump-starts" heart
-- Severe Asthma Attack: Beta-2 bronchodilation
-<b>NCK Nursing Alert:</b>
-- High-alert IV drug (requires pump)
-- Cardiac/BP monitoring
-- Side effects: Tachycardia, hypertension, anxiety, hyperglycemia
-
-<b>Norepinephrine (Levophed):</b> Strong Alpha-1, some Beta-1
-- Septic Shock
-<b>NCK Alert:</b> Extravasation → tissue necrosis
-- Monitor IV site
-- Antidote: Phentolamine
-
-<b>Salbutamol (Ventolin):</b> Beta-2
-- Asthma/COPD rescue inhaler
-- Side effects: tremors, tachycardia</pre>
-        </div>
-      </div>
-
-      <div class="node" onclick="toggleNode(this)">
-        Adrenergic Antagonists (Blockers)
-        <div class="details">
-          <pre><b>Beta-Blockers ("-olol"):</b>
-- Propranolol (non-selective), Metoprolol/Atenolol (cardioselective)
-- ↓ HR, BP
-<b>The 4 B’s:</b>
-1. Bradycardia → HOLD if HR < 60
-2. BP (Hypotension) → HOLD if Systolic < 100
-3. Bronchoconstriction → Avoid in asthma
-4. Blood Sugar masking → Warn diabetics
-- Never stop abruptly
-
-<b>Alpha-Blockers ("-zosin"):</b>
-- Prazosin, Doxazosin
-- Vasodilation, ↓ BP, BPH relief
-<b>NCK Alert:</b> First-dose hypotension → take at bedtime, rise slowly</pre>
-        </div>
-      </div>
+  <div class="flowchart">
+    <div class="branch" id="sympatheticBranch">
+      <div class="branch-title bold-red">Part 1: Sympathetic "Fight or Flight"</div>
     </div>
 
-    <div class="branch">
-      <div class="branch-title">Parasympathetic System (Part 2)</div>
-
-      <div class="node" onclick="toggleNode(this)">
-        Cholinergic Agonists (Press Brake / Make Wet)
-        <div class="details">
-          <pre><b>SLUDGE Mnemonic:</b>
-- Salivation
-- Lacrimation
-- Urination
-- Diaphoresis / Diarrhea
-- GI Cramping
-- Emesis
-Also: Bradycardia, Bronchoconstriction, Miosis
-
-<b>Drugs:</b>
-- Bethanechol: urinary retention
-- Pilocarpine: glaucoma
-
-<b>Toxicity:</b> Cholinergic Crisis → Atropine is antidote</pre>
-        </div>
-      </div>
-
-      <div class="node" onclick="toggleNode(this)">
-        Anticholinergics (Block Brake / Make Dry)
-        <div class="details">
-          <pre><b>Mnemonic:</b> "Can't See, Pee, Spit, St..."
-- Atropine: bradycardia, pre-op
-- Ipratropium: COPD bronchodilation
-<b>Effects:</b>
-- Tachycardia
-- Dry mouth, constipation, mydriasis
-<b>Contraindications:</b>
-- Glaucoma
-- BPH</pre>
-        </div>
-      </div>
+    <div class="branch" id="parasympatheticBranch">
+      <div class="branch-title bold-green">Part 2: Parasympathetic "Rest and Digest"</div>
     </div>
-
   </div>
 
-  <button class="reset-btn" onclick="resetAll()">🔄 Reset</button>
+  <button class="reset-btn" onclick="resetFlowchart()">🔄 Reset</button>
 
   <script>
-    function toggleNode(node) {
-      node.classList.toggle('active');
+    function createNode(content, branchId, index) {
+      const branch = document.getElementById(branchId);
+      const node = document.createElement('div');
+      node.className = 'node hidden';
+      node.onclick = () => openStep(branchId, index);
+      node.innerHTML = `<div class="title">${content.title}</div><div class="details">${content.details}</div>`;
+      branch.appendChild(node);
     }
 
-    function resetAll() {
-      document.querySelectorAll('.node').forEach(n => n.classList.remove('active'));
+    const branches = {
+      sympatheticBranch: [],
+      parasympatheticBranch: []
+    };
+
+    function openStep(branchId, index) {
+      const branch = document.getElementById(branchId);
+      const nodes = branch.querySelectorAll('.node');
+      nodes.forEach((node, i) => {
+        node.classList.remove('active');
+        if (i > index) node.classList.add('hidden');
+      });
+      if (nodes[index]) {
+        nodes[index].classList.add('active');
+        if (nodes[index + 1]) nodes[index + 1].classList.remove('hidden');
+      }
     }
+
+    function resetFlowchart() {
+      document.querySelectorAll('.node').forEach((node, i) => {
+        node.classList.remove('active');
+        node.classList.add('hidden');
+      });
+      if (branches.sympatheticBranch.length) openStep('sympatheticBranch', 0);
+      if (branches.parasympatheticBranch.length) openStep('parasympatheticBranch', 0);
+    }
+
+    // Dynamically inject content nodes (JS list would follow)
+    branches.sympatheticBranch.push(
+      { title: "Adrenergic Receptors",
+        details: `<pre><span class="bold-blue">Alpha-1</span>: Vasoconstriction, pupil dilation → ↑ BP, urinary control
+<span class="bold-blue">Alpha-2</span>: Inhibits norepinephrine → ↓ BP (e.g., Clonidine)
+<span class="bold-blue">Beta-1</span>: ↑ HR, Contractility → ↑ Cardiac Output
+<span class="bold-blue">Beta-2</span>: Bronchodilation, relax uterus → easier breathing, ↑ sugar</pre>` },
+      { title: "Adrenergic Agonists (Sympathomimetics)",
+        details: `<pre><span class="bold-blue">Epinephrine</span>: All receptors (A1, B1, B2) → Anaphylaxis, Arrest, Asthma
+<span class="bold-blue">Norepinephrine</span>: A1, some B1 → Septic Shock, risk of extravasation
+<span class="bold-blue">Salbutamol</span>: Selective B2 → Rescue inhaler for asthma/COPD</pre>` },
+      { title: "Adrenergic Antagonists (Blockers)",
+        details: `<pre><span class="bold-blue">Beta-Blockers</span> (-olol): ↓ HR, ↓ BP
+• Propranolol (non-selective), Metoprolol (cardioselective)
+• 4 B's: Bradycardia, BP ↓, Bronchoconstriction, Blood sugar masking
+
+<span class="bold-blue">Alpha-Blockers</span> (-zosin): Vasodilation → ↓ BP, BPH relief
+• NCK Alert: First-dose hypotension → take at bedtime</pre>` }
+    );
+
+    branches.parasympatheticBranch.push(
+      { title: "Cholinergic Agonists - Press Brake / Make Wet",
+        details: `<pre><span class="bold-blue">SLUDGE</span>: Salivation, Lacrimation, Urination, Diaphoresis, GI cramping, Emesis
+• Bradycardia, Bronchoconstriction, Miosis
+• Drugs: <span class="bold-blue">Bethanechol</span> (urinary retention), <span class="bold-blue">Pilocarpine</span> (glaucoma)
+• Toxicity: Cholinergic Crisis → Antidote = <span class="bold-blue">Atropine</span></pre>` },
+      { title: "Anticholinergics - Block Brake / Make Dry",
+        details: `<pre><span class="bold-blue">Drugs</span>: Atropine, Ipratropium
+Mnemonic: "Can't See, Pee, Spit, St..."
+• Effects: Mydriasis, urinary retention, dry mouth, constipation
+• Uses: Atropine for bradycardia, Ipratropium for COPD</pre>` }
+    );
+
+    branches.sympatheticBranch.forEach((data, i) => createNode(data, 'sympatheticBranch', i));
+    branches.parasympatheticBranch.forEach((data, i) => createNode(data, 'parasympatheticBranch', i));
+
+    resetFlowchart();
   </script>
-
 </body>
 </html>
