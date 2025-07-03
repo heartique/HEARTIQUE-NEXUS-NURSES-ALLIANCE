@@ -212,16 +212,17 @@
 <input type="text" id="searchBar" placeholder="Search notes, papers, and activities..." />
 </p>
     <section>
-        <div id="noticeboard">
-    <h3 style="margin-top: 0; color: #d2691e;">
-      📢 Noticeboard <span id="newBadge" style="color: red; font-size: 0.9em; display: none;">(New)</span>
-    </h3>
-    <button id="toggleNotice">Show Notices</button>
-    <ul id="notices"></ul>
-  </div>
+      <!-- 📢 Noticeboard Block (Insert this in your existing HTML where you want it) -->
+<div id="noticeboard" style="background-color: #fff8dc; border-left: 6px solid #ffa500; padding: 12px 20px; margin: 20px 0; font-family: Arial, sans-serif; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+  <h3 style="margin-top: 0; color: #d2691e;">
+    📢 Noticeboard <span id="newBadge" style="color: red; font-size: 0.9em; display: none;">(New)</span>
+  </h3>
+  <button id="toggleNotice">Show Notices</button>
+  <ul id="notices" style="margin: 0; padding-left: 20px; color: #333; display: none; transition: all 0.5s ease-in-out; max-height: 0; overflow: hidden;"></ul>
+</div>
 
-  <!-- 🔊 Notification Sound -->
-  <audio id="notifySound" src="notify.mp3" preload="auto"></audio>
+<!-- 🔊 Notification Sound (place anywhere in <body>) -->
+<audio id="notifySound" src="notify.mp3" preload="auto"></audio>
 
       <h2>PTS & Block Notes</h2>
       <ul id="notesList">
@@ -599,49 +600,56 @@
     localStorage.removeItem('full_name');
     window.location.href = 'login.html';
   }
+</script>
 
- <script>
-    const toggleBtn = document.getElementById('toggleNotice');
-    const noticeList = document.getElementById('notices');
+      <script>
+  const toggleBtn = document.getElementById('toggleNotice');
+  const noticeList = document.getElementById('notices');
 
-    toggleBtn.addEventListener('click', () => {
-      noticeList.classList.toggle('show');
-      toggleBtn.textContent = noticeList.classList.contains('show') ? 'Hide Notices' : 'Show Notices';
-    });
+  toggleBtn.addEventListener('click', () => {
+    noticeList.classList.toggle('show');
+    toggleBtn.textContent = noticeList.classList.contains('show') ? 'Hide Notices' : 'Show Notices';
+    if (noticeList.classList.contains('show')) {
+      noticeList.style.maxHeight = "1000px";
+      noticeList.style.display = "block";
+    } else {
+      noticeList.style.maxHeight = "0";
+      setTimeout(() => { noticeList.style.display = "none"; }, 400);
+    }
+  });
 
-    fetch('notices.json')
-      .then(response => {
-        if (!response.ok) throw new Error("Failed to load JSON");
-        return response.json();
-      })
-      .then(data => {
-        const list = document.getElementById('notices');
-        const seenNotices = JSON.parse(localStorage.getItem('seenNotices') || '[]');
-        const newNotices = [];
+  fetch('notices.json')
+    .then(response => {
+      if (!response.ok) throw new Error("Failed to load JSON");
+      return response.json();
+    })
+    .then(data => {
+      const list = document.getElementById('notices');
+      const seenNotices = JSON.parse(localStorage.getItem('seenNotices') || '[]');
+      const newNotices = [];
 
-        data.forEach(item => {
-          const li = document.createElement('li');
-          li.innerHTML = `<strong>${item.date}:</strong> ${item.message}`;
-          list.appendChild(li);
+      data.forEach(item => {
+        const li = document.createElement('li');
+        li.innerHTML = `<strong>${item.date}:</strong> ${item.message}`;
+        list.appendChild(li);
 
-          if (!seenNotices.includes(item.id)) {
-            newNotices.push(item.id);
-          }
-        });
-
-        if (newNotices.length > 0) {
-          document.getElementById('newBadge').style.display = 'inline';
-          const sound = document.getElementById('notifySound');
-          sound.play().catch(e => console.warn('Audio autoplay may be blocked:', e));
-          alert("📢 New notice available! Check the Noticeboard.");
-          localStorage.setItem('seenNotices', JSON.stringify([...seenNotices, ...newNotices]));
+        if (!seenNotices.includes(item.id)) {
+          newNotices.push(item.id);
         }
-      })
-      .catch(error => {
-        console.error("Could not load notices:", error);
-        document.getElementById('notices').innerHTML = "<li>Failed to load notices.</li>";
       });
-  </script>
 
+      if (newNotices.length > 0) {
+        document.getElementById('newBadge').style.display = 'inline';
+        const sound = document.getElementById('notifySound');
+        sound.play().catch(e => console.warn('Audio autoplay may be blocked:', e));
+        alert("📢 New notice available! Check the Noticeboard.");
+        localStorage.setItem('seenNotices', JSON.stringify([...seenNotices, ...newNotices]));
+      }
+    })
+    .catch(error => {
+      console.error("Could not load notices:", error);
+      document.getElementById('notices').innerHTML = "<li>Failed to load notices.</li>";
+    });
+</script>
 </body>
 </html>
