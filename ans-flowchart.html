@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Autonomic Nervous System Flowchart</title>
+  <title>Autonomic Nervous System Tree</title>
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
@@ -14,12 +14,26 @@
       align-items: center;
     }
 
-    .flowchart {
-      width: 100%;
-      max-width: 800px;
+    .tree-container {
+      display: flex;
+      gap: 2rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .branch {
       display: flex;
       flex-direction: column;
       align-items: center;
+      width: 100%;
+      max-width: 450px;
+    }
+
+    .branch-title {
+      font-weight: bold;
+      color: #2c3e50;
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
     }
 
     .node {
@@ -50,7 +64,7 @@
     }
 
     .node.active .details {
-      max-height: 2000px;
+      max-height: 3000px;
       padding: 1rem 0;
     }
 
@@ -60,224 +74,145 @@
       margin: -0.5rem 0;
     }
 
-    .hidden {
-      display: none;
-    }
-
     .reset-btn {
       background: #e74c3c;
       color: white;
       border: none;
       padding: 0.5rem 1rem;
       border-radius: 5px;
-      margin-top: 1.5rem;
+      margin-top: 2rem;
       cursor: pointer;
       font-size: 1rem;
-      transition: background 0.3s ease;
-    }
-
-    .reset-btn:hover {
-      background: #c0392b;
     }
 
     pre {
       white-space: pre-wrap;
     }
+
+    b {
+      color: #2c3e50;
+    }
   </style>
 </head>
 <body>
 
-  <div class="flowchart">
+  <h2>Autonomic Nervous System (ANS)</h2>
+  <p><b>The entire ANS</b> is a balance between two opposing forces:</p>
+  <p><b style="color:#c0392b">Sympathetic Nervous System (SNS)</b>: "Fight or Flight" — Spends energy. Think ACCELERATOR.</p>
+  <p><b style="color:#27ae60">Parasympathetic Nervous System (PNS)</b>: "Rest and Digest" — Conserves energy. Think BRAKE.</p>
+  <p><b>Pharmacology</b> either mimics (agonist) or blocks (antagonist) these systems.</p>
 
-    <div class="node" onclick="openStep(0)">
-      Autonomic Nervous System (ANS)
-      <div class="details">
-        <pre>
-The entire ANS is a balance between two opposing forces:
-• Sympathetic Nervous System (SNS): "Fight or Flight." Spends energy. Think ACCELERATOR.
-• Parasympathetic Nervous System (PNS): "Rest and Digest." Conserves energy. Think BRAKE.
-Pharmacology either mimics (agonist) or blocks (antagonist) these systems.
-        </pre>
+  <div class="tree-container">
+
+    <div class="branch">
+      <div class="branch-title">Sympathetic System (Part 1)</div>
+
+      <div class="node" onclick="toggleNode(this)">
+        Adrenergic Receptors Overview
+        <div class="details">
+          <pre><b>Alpha-1</b>	Blood Vessels, Bladder Sphincter, Eye	Vasoconstriction, Bladder contraction, Pupil Dilation (Mydriasis)	Increases Blood Pressure, Helps with urinary control
+<b>Alpha-2</b>	Central Nervous System (Brain)	Inhibits Norepinephrine release (acts as a "brake" on the SNS itself)	Lowers Blood Pressure (e.g., Clonidine)
+<b>Beta-1</b>	HEART (You have 1 Heart)	Increases Heart Rate, Contractility, and Conduction	Increases Cardiac Output, Treats Bradycardia/Shock
+<b>Beta-2</b>	LUNGS (You have 2 Lungs), Uterus, Liver	Bronchodilation, Uterine Relaxation, Glycogenolysis (breaks down sugar)	Easier Breathing, Stops preterm labor, Increases blood sugar</pre>
+        </div>
+      </div>
+
+      <div class="node" onclick="toggleNode(this)">
+        Adrenergic Agonists (Sympathomimetics)
+        <div class="details">
+          <pre><b>Epinephrine (Adrenaline):</b> Alpha-1, Beta-1, AND Beta-2
+- Anaphylactic Shock: Reverses low BP + wheezing
+- Cardiac Arrest: Beta-1 "jump-starts" heart
+- Severe Asthma Attack: Beta-2 bronchodilation
+<b>NCK Nursing Alert:</b>
+- High-alert IV drug (requires pump)
+- Cardiac/BP monitoring
+- Side effects: Tachycardia, hypertension, anxiety, hyperglycemia
+
+<b>Norepinephrine (Levophed):</b> Strong Alpha-1, some Beta-1
+- Septic Shock
+<b>NCK Alert:</b> Extravasation → tissue necrosis
+- Monitor IV site
+- Antidote: Phentolamine
+
+<b>Salbutamol (Ventolin):</b> Beta-2
+- Asthma/COPD rescue inhaler
+- Side effects: tremors, tachycardia</pre>
+        </div>
+      </div>
+
+      <div class="node" onclick="toggleNode(this)">
+        Adrenergic Antagonists (Blockers)
+        <div class="details">
+          <pre><b>Beta-Blockers ("-olol"):</b>
+- Propranolol (non-selective), Metoprolol/Atenolol (cardioselective)
+- ↓ HR, BP
+<b>The 4 B’s:</b>
+1. Bradycardia → HOLD if HR < 60
+2. BP (Hypotension) → HOLD if Systolic < 100
+3. Bronchoconstriction → Avoid in asthma
+4. Blood Sugar masking → Warn diabetics
+- Never stop abruptly
+
+<b>Alpha-Blockers ("-zosin"):</b>
+- Prazosin, Doxazosin
+- Vasodilation, ↓ BP, BPH relief
+<b>NCK Alert:</b> First-dose hypotension → take at bedtime, rise slowly</pre>
+        </div>
       </div>
     </div>
 
-    <div class="arrow hidden">⬇️</div>
+    <div class="branch">
+      <div class="branch-title">Parasympathetic System (Part 2)</div>
 
-    <div class="node hidden" onclick="openStep(1)">
-      Part 1: The Sympathetic "Fight or Flight" System (Adrenergic Drugs)
-      <div class="details">
-        <pre>
-The SNS works through Adrenergic Receptors. Knowing these is the key to understanding everything else.
+      <div class="node" onclick="toggleNode(this)">
+        Cholinergic Agonists (Press Brake / Make Wet)
+        <div class="details">
+          <pre><b>SLUDGE Mnemonic:</b>
+- Salivation
+- Lacrimation
+- Urination
+- Diaphoresis / Diarrhea
+- GI Cramping
+- Emesis
+Also: Bradycardia, Bronchoconstriction, Miosis
 
-Receptor   Location                     Action when STIMULATED         Clinical Effect
-Alpha-1    Blood Vessels, Bladder, Eye Vasoconstriction, pupil dilation Raises BP, urinary control
-Alpha-2    CNS (Brain)                 Inhibits norepinephrine        Lowers BP (e.g., Clonidine)
-Beta-1     HEART (1 Heart)             ↑ HR, Contractility, Conduction ↑ Cardiac Output
-Beta-2     LUNGS (2 Lungs), etc.       Bronchodilation, glycogenolysis Breathing, labor stop, ↑ sugar
-        </pre>
+<b>Drugs:</b>
+- Bethanechol: urinary retention
+- Pilocarpine: glaucoma
+
+<b>Toxicity:</b> Cholinergic Crisis → Atropine is antidote</pre>
+        </div>
+      </div>
+
+      <div class="node" onclick="toggleNode(this)">
+        Anticholinergics (Block Brake / Make Dry)
+        <div class="details">
+          <pre><b>Mnemonic:</b> "Can't See, Pee, Spit, St..."
+- Atropine: bradycardia, pre-op
+- Ipratropium: COPD bronchodilation
+<b>Effects:</b>
+- Tachycardia
+- Dry mouth, constipation, mydriasis
+<b>Contraindications:</b>
+- Glaucoma
+- BPH</pre>
+        </div>
       </div>
     </div>
 
-    <div class="arrow hidden">⬇️</div>
-
-    <div class="node hidden" onclick="openStep(2)">
-      Adrenergic Agonists (Sympathomimetics)
-      <div class="details">
-        <pre>
-• Epinephrine (Adrenaline): Hits Alpha-1, Beta-1, and Beta-2
-  Indications:
-    1. Anaphylactic Shock: Raises BP, opens airways
-    2. Cardiac Arrest: Beta-1 jump-starts the heart
-    3. Status Asthmaticus: Strong Beta-2 bronchodilation
-  NCK Alert:
-    - High-alert IV drug, requires pump
-    - Monitor cardiac + BP
-    - Side effects: Tachycardia, hypertension, anxiety
-
-• Norepinephrine (Levophed): Strong Alpha-1, some Beta-1
-  Indication: Septic shock
-  NCK Alert: Risk of extravasation → tissue necrosis
-    - Monitor IV site
-    - Antidote: Phentolamine
-
-• Salbutamol (Ventolin): Selective Beta-2
-  Indication: Asthma, COPD (rescue inhaler)
-  Teaching:
-    - For attacks only
-    - Side effects: tremors, tachycardia
-    - Frequent use = uncontrolled asthma
-        </pre>
-      </div>
-    </div>
-
-    <div class="arrow hidden">⬇️</div>
-
-    <div class="node hidden" onclick="openStep(3)">
-      Adrenergic Antagonists (Blockers)
-      <div class="details">
-        <pre>
-• Beta-Blockers ("-olol"): ↓ HR, BP
-  Propranolol (non-selective), Metoprolol/Atenolol (cardioselective)
-
-  The 4 "B's":
-    1. Bradycardia → HOLD if HR < 60
-    2. BP (Hypotension) → HOLD if Systolic < 100
-    3. Bronchoconstriction → Avoid non-selectives in asthma
-    4. Blood Sugar masking → Warn diabetics
-
-  Teaching: NEVER stop abruptly!
-
-• Alpha-Blockers ("-zosin"): Vasodilation, ↓ BP, prostate/bladder relief
-  NCK Alert: First-dose hypotension
-    - Take first dose at bedtime
-    - Rise slowly
-        </pre>
-      </div>
-    </div>
-
-    <div class="arrow hidden">⬇️</div>
-
-    <div class="node hidden" onclick="openStep(4)">
-      Part 2: Parasympathetic System (Cholinergic Drugs)
-      <div class="details">
-        <pre>
-• Cholinergic Agonists (Press Brake / Make Wet)
-  SLUDGE mnemonic:
-    - Salivation
-    - Lacrimation
-    - Urination
-    - Diarrhea/Diaphoresis
-    - GI Cramping
-    - Emesis
-  Also: Bradycardia, Bronchoconstriction, Miosis
-
-  Drugs:
-    - Bethanechol (urinary retention)
-    - Pilocarpine (glaucoma)
-
-  Toxicity: Cholinergic Crisis
-    - Antidote = Atropine
-
-• Anticholinergics (Block Brake / Make Dry)
-  Drugs: Atropine, Ipratropium
-  Mnemonic: "Can't See, Pee, Spit, St..."
-    - Tachycardia, dry mouth, constipation, mydriasis
-  Indications:
-    - Atropine: Bradycardia, pre-op secretions
-    - Ipratropium: COPD bronchodilation
-        </pre>
-      </div>
-    </div>
-
-    <div class="arrow hidden">⬇️</div>
-
-    <div class="node hidden" onclick="openStep(5)">
-      Test Yourself: NCK-Style Application Questions
-      <div class="details">
-        <pre>
-1. A nurse is preparing to administer Metoprolol. Vitals: BP 110/70, HR 52.
-  a) Administer as ordered
-  b) Recheck BP in 15 min
-  c) HOLD and notify doctor ✅
-  d) Ask if dizzy
-
-2. Asthma patient prescribed Propranolol.
-  a) Use inhaler before Propranolol
-  b) Administer & monitor
-  c) ❗Question the prescription ✅
-  d) Take with water
-
-3. Male on Doxazosin complains of lightheadedness.
-  a) Allergic reaction - stop
-  b) Increase fluids
-  c) ✅ Rise slowly from bed ✅
-  d) Take in morning with food
-        </pre>
-      </div>
-    </div>
-
-    <button class="reset-btn" onclick="resetFlowchart()">🔄 Reset</button>
   </div>
 
+  <button class="reset-btn" onclick="resetAll()">🔄 Reset</button>
+
   <script>
-    const nodes = document.querySelectorAll('.node');
-    const arrows = document.querySelectorAll('.arrow');
-
-    function openStep(index) {
-      nodes.forEach((node, i) => {
-        node.classList.remove('active');
-        if (i > index) {
-          node.classList.add('hidden');
-          if (arrows[i - 1]) arrows[i - 1].classList.add('hidden');
-        }
-      });
-
-      nodes[index].classList.add('active');
-
-      if (nodes[index + 1]) {
-        nodes[index + 1].classList.remove('hidden');
-        if (arrows[index]) arrows[index].classList.remove('hidden');
-      }
+    function toggleNode(node) {
+      node.classList.toggle('active');
     }
 
-    function resetFlowchart() {
-      nodes.forEach((node, i) => {
-        node.classList.remove('active');
-        if (i === 0) {
-          node.classList.remove('hidden');
-        } else {
-          node.classList.add('hidden');
-        }
-      });
-
-      arrows.forEach(arrow => {
-        arrow.classList.add('hidden');
-      });
-
-      openStep(0);
+    function resetAll() {
+      document.querySelectorAll('.node').forEach(n => n.classList.remove('active'));
     }
-
-    resetFlowchart();
   </script>
 
 </body>
