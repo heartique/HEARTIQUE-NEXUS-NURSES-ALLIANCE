@@ -202,8 +202,105 @@
     "answer": "c",
     "explanation": "Correct (c): Total Parenteral Nutrition (TPN) is a complex, high-acuity therapy with two major goals and two major risks that must be monitored closely.\n\nGoal/Monitoring: Nutritional Status. The primary purpose of TPN is to provide nutrition. The best overall indicator of a patient's fluid and nutritional status is their weight. A stable or increasing weight (in a previously malnourished patient) is a key sign of effective therapy.\n\nRisk/Monitoring: Infection. TPN solutions are extremely high in glucose, making them an ideal growth medium for bacteria and fungi. They are administered through a central venous catheter, which provides a direct line into the bloodstream. This creates a very high risk for a central line-associated bloodstream infection (CLABSI). An elevation in temperature is often the first and most critical sign of infection.\nTherefore, monitoring temperature (for infection) and weight (for nutritional/fluid status) are the two most important parameters.",
     "additional": "Deeper Insight: Beyond temperature and weight, there are other critical monitoring parameters for a patient on TPN:\n\nBlood Glucose: TPN contains high concentrations of dextrose. Blood glucose levels must be checked frequently (e.g., every 4-6 hours) to monitor for hyperglycemia. Insulin may be added directly to the TPN bag or administered separately via a sliding scale.\n\nElectrolytes: TPN can cause significant shifts in electrolytes (potassium, phosphate, magnesium, sodium). A daily chemistry panel is essential to monitor for imbalances, especially refeeding syndrome.\n\nFluid Balance: Strict intake and output monitoring is essential.\n\nPossible Next Question (NCK Focus): \"A nurse is initiating a TPN infusion for a malnourished client. To prevent refeeding syndrome, the nurse should anticipate which action?\" The answer would be to start the infusion at a slow rate and increase it gradually over several days. Another potential question: \"What is the priority nursing action if a TPN infusion runs out and a new bag is not yet available from the pharmacy?\" The answer is to hang a bag of 10% Dextrose in Water (D10W) at the same rate to prevent rebound hypoglycemia."
+  },
+  {
+    "question": "A formerly homeless client has been treated for alcoholism. The client's physical examination reveals the client is underweight and malnourished. Which of the following medications prescribed by the physician is intended to manage the client's nutritional status?",
+    "options": {
+      "A": "Folic acid",
+      "B": "Magnesium sulfate",
+      "C": "Methadone",
+      "D": "Sertraline (Zoloft)"
+    },
+    "answer": "A",
+    "explanation": "Chronic alcoholism interferes with the absorption, metabolism, and storage of many essential nutrients. One of the most significant deficiencies is of the B vitamins, particularly thiamine (B1) and folic acid (B9). Folic acid is essential for DNA synthesis and the production of red blood cells. Its deficiency leads to megaloblastic anemia, a condition characterized by large, immature red blood cells, which contributes to weakness and fatigue in malnourished individuals. Therefore, administering folic acid directly addresses a key nutritional deficiency caused by alcoholism.",
+    "additional": "Thiamine (B1) Deficiency: Crucial to prevent Wernicke-Korsakoff syndrome, a serious neurological complication of alcoholism. Thiamine is typically given before any glucose-containing IV fluids, as glucose administration can precipitate or worsen Wernicke's encephalopathy in a thiamine-deficient individual.\n\nOther Deficiencies: Magnesium, zinc, and other B vitamins are also commonly depleted. Magnesium (option b) is often given to prevent seizures during alcohol withdrawal.\n\nDistractor Rationale: Methadone (c) is used for opioid dependence, not alcohol. Sertraline (d) is an SSRI antidepressant.\n\nReference: Lewis's Medical-Surgical Nursing, Chapter 9: Substance Use Disorders."
+  },
+  {
+    "question": "A client is being evaluated in the Emergency Department after suffering severe burns to his torso and upper extremities. The nurse notes edema at the burned areas. Which of the following best describes the underlying cause for this manifestation?",
+    "options": {
+      "A": "Reduced vascular permeability at the site of the burned area",
+      "B": "Decreased osmotic pressure in the burned tissue",
+      "C": "Increased fluids in the extracellular compartment",
+      "D": "Inability of the damaged capillaries to maintain fluids in the cell walls"
+    },
+    "answer": "D",
+    "explanation": "This question tests the pathophysiology of the fluid shift in burns. A major burn injury triggers a massive systemic inflammatory response. Inflammatory mediators (like histamine and prostaglandins) cause a profound increase in capillary permeability. The capillary walls, which normally keep large molecules like albumin inside the blood vessels, become leaky. This allows protein-rich plasma to pour out of the intravascular space and into the surrounding interstitial (extracellular) tissue. This process is best described as the inability of damaged capillaries to maintain fluids within their walls. The resulting fluid shift is what causes massive edema.",
+    "additional": "Pathophysiology Terms:\n\nOption 'a' is the opposite of what happens. Permeability is increased.\n\nOption 'b' is incorrect. As protein leaks into the tissue, the oncotic pressure in the tissue increases, pulling even more fluid out of the vessels.\n\nOption 'c' describes the result (edema is fluid in the extracellular space), not the underlying cause.\n\nBurn Shock: This fluid shift leads to burn shock, a combination of distributive shock (from vasodilation and leaky capillaries) and hypovolemic shock (from loss of plasma volume).\n\nReference: Brunner & Suddarth's Textbook of Medical-Surgical Nursing, Chapter 57: Management of Patients with Burn Injury."
+  },
+  {
+    "question": "During the assessment of the client's abdomen, frequent pulsations are noted. What action by the nurse is indicated?",
+    "options": {
+      "A": "Document the findings as hyperactive bowel sounds.",
+      "B": "Review the client's medical records for signs and symptoms of cirrhosis, as these findings are indicative of ascites.",
+      "C": "Assess the time when the client last voided, as the bladder is apparently full and becoming distended.",
+      "D": "Notify the physician related to potential signs consistent with an aortic aneurysm."
+    },
+    "answer": "D",
+    "explanation": "A prominent, visible pulsation in the central upper abdomen (epigastric area), especially in a thin individual, can be a normal finding of the abdominal aorta. However, frequent, marked, or bounding pulsations are a classic sign of an abdominal aortic aneurysm (AAA). An AAA is a weakened and bulging area in the wall of the aorta. This is a potentially life-threatening condition, as the aneurysm can rupture. The nurse's priority is to recognize this as a critical finding and notify the physician immediately for further diagnostic evaluation (e.g., an abdominal ultrasound). The nurse should not palpate the area, as this could cause the aneurysm to rupture.",
+    "additional": "Other signs of AAA: A bruit (a whooshing sound heard with a stethoscope) over the aneurysm, back or abdominal pain.\n\nRisk Factors for AAA: Male gender, age >65, smoking, hypertension, atherosclerosis, family history.\n\nDistractor Rationale: Pulsations are not related to bowel sounds (a), ascites (b, which causes generalized distention), or a full bladder (c, which causes distention in the suprapubic area).\n\nReference: Lewis's Medical-Surgical Nursing, Chapter 37: Vascular Disorders."
+  },
+  {
+    "question": "The client presents with a diagnosis of acute diverticulitis. During the assessment, which of the following findings will most support this diagnosis?",
+    "options": {
+      "A": "Right lower quadrant pain",
+      "B": "Left lower quadrant pain",
+      "C": "Upper middle abdominal pain",
+      "D": "Back pain and tenderness"
+    },
+    "answer": "B",
+    "explanation": "Diverticula (small outpouchings of the intestinal mucosa) are most common in the sigmoid colon, which is located in the left lower quadrant (LLQ) of the abdomen. When these pouches become inflamed or infected, the condition is called diverticulitis. The classic presenting symptom is acute pain and tenderness in the LLQ.",
+    "additional": "Other Symptoms of Diverticulitis: Fever, nausea, changes in bowel habits (constipation or diarrhea), and an elevated white blood cell count.\n\nManagement of Acute Diverticulitis:\n\nBowel Rest: NPO status, possibly an NG tube.\n\nIV Fluids and IV Antibiotics.\n\nPain management.\n\nAvoid: Laxatives, enemas, and anything that increases intra-abdominal pressure.\n\nDistractor Rationale:\n\nRight lower quadrant (RLQ) pain is classic for appendicitis.\n\nUpper middle (epigastric) pain is associated with gastritis, pancreatitis, or peptic ulcer disease.\n\nReference: Lewis's Medical-Surgical Nursing, Chapter 42: Lower Gastrointestinal Problems."
+  },
+  {
+    "question": "An unconscious client is brought to the Emergency Department. The assessment reveals the client has a scaphoid abdomen. Based upon your knowledge, what information can you make about the client?",
+    "options": {
+      "A": "The client likely has type 2 diabetes mellitus.",
+      "B": "The client likely suffers from Crohn's disease.",
+      "C": "The client is malnourished.",
+      "D": "The client is likely suffering from diverticulosis."
+    },
+    "answer": "C",
+    "explanation": "A scaphoid abdomen is one that is sunken in and has a concave, rather than convex, appearance. This is a sign of a significant lack of subcutaneous fat and muscle, which is a hallmark of severe malnutrition and cachexia (wasting syndrome). While Crohn's disease (b) can lead to malabsorption and malnutrition, the most direct and general conclusion from a scaphoid abdomen is simply malnourishment. The other conditions are not directly associated with this physical finding.",
+    "additional": "Abdominal Contours:\n\nFlat: Normal finding.\n\nRounded: Normal in toddlers, can indicate obesity in adults.\n\nProtuberant: Distended, seen in pregnancy, ascites, obesity.\n\nScaphoid: Sunken, indicates malnourishment.\n\nAssessment of Nutritional Status: In addition to physical appearance, look at albumin/prealbumin levels, total lymphocyte count, and a history of weight loss.\n\nReference: Jarvis, Physical Examination & Health Assessment."
+  },
+  {
+    "question": "The nurse is providing teaching to the client planning to have a small bowel series. Which of the following statements by the client indicates the need for further education?",
+    "options": {
+      "A": "I might experience constipation for a few days after the procedure.",
+      "B": "I will need to increase my fluid intake the first few days after the procedure.",
+      "C": "I might have a laxative prescribed after the procedure.",
+      "D": "The barium will be inserted through my rectum."
+    },
+    "answer": "D",
+    "explanation": "A small bowel series (or small bowel follow-through) involves the client drinking a barium sulfate solution. X-rays are then taken at intervals as the barium moves through the small intestine.\n\nA procedure where barium is inserted through the rectum is a barium enema (or lower GI series), which is used to visualize the large intestine (colon).\n\nThe client's statement in option 'd' confuses a small bowel series with a barium enema, indicating a need for further teaching. Options a, b, and c are all correct statements regarding post-procedure care after ingesting barium, which is known to cause constipation and turn stools white or chalky.",
+    "additional": "Preparation for Barium Studies: Typically requires NPO status for 8 hours before the test and bowel cleansing (for a barium enema).\n\nPost-procedure Care: Increase fluids and take laxatives/stool softeners as prescribed to flush the barium out and prevent a bowel obstruction or impaction. Inform the client that stools will be white for up to 72 hours.\n\nUpper GI Series: The client drinks barium to visualize the esophagus, stomach, and duodenum.\n\nReference: Lewis's Medical-Surgical Nursing, Chapter 38: Assessment of Digestive and Gastrointestinal Function."
+  },
+  {
+    "question": "The physician suspects the presence of an abdominal mass in a client. An abdominal ultrasound is ordered. Which of the following should be included in instructions provided to the client prior to the procedure?",
+    "options": {
+      "A": "Advise the technician if you suspect you are pregnant.",
+      "B": "Drink 1–2 quarts one hour before the procedure.",
+      "C": "Do not eat or drink anything 8–12 hours before the procedure.",
+      "D": "Take a laxative the evening before the procedure."
+    },
+    "answer": "C",
+    "explanation": "Preparation for an abdominal ultrasound (specifically to visualize upper abdominal organs like the gallbladder, liver, spleen, and pancreas) typically requires the client to be NPO (nothing by mouth) for 8 to 12 hours before the test. Food and fluid in the stomach and gas in the bowel can obstruct the sound waves and interfere with the visualization of the abdominal organs, leading to a poor-quality study.",
+    "additional": "Distractor Rationale:\n\nDrinking 1-2 quarts of fluid before a procedure is required for a pelvic ultrasound (to visualize the uterus and ovaries) or a bladder ultrasound. A full bladder acts as an acoustic window.\n\nA laxative (d) would be used for a colonoscopy or barium enema.\n\nAdvising the tech about pregnancy (a) is always prudent, but it's not the primary specific instruction for an abdominal ultrasound.\n\nUltrasound Basics: Uses high-frequency sound waves to create images of organs and structures. It is non-invasive and does not use ionizing radiation.\n\nReference: Lewis's Medical-Surgical Nursing, Chapter 38: Assessment of Digestive and Gastrointestinal Function."
+  },
+  {
+    "question": "During data collection, the client reports concerns with constipation. Which of the following findings could signal a source of the problem being reported?",
+    "options": {
+      "A": "Vicodin (hydrocodone) taken twice daily for a recent back injury",
+      "B": "Acetaminophen used daily for a recent back injury",
+      "C": "Infrequent use of over-the-counter medications to manage insomnia",
+      "D": "The use of oral contraceptives to regulate the menstrual cycle"
+    },
+    "answer": "A",
+    "explanation": "Opioid analgesics, such as hydrocodone (Vicodin), are a very common cause of constipation. Opioids bind to mu-receptors in the gastrointestinal tract, which decreases peristalsis (intestinal muscle contractions), increases water absorption from the stool, and increases sphincter tone. This combination results in hard, dry stool that is difficult to pass. Of the options listed, the daily use of an opioid is the most likely pharmacological cause of the client's new-onset constipation.",
+    "additional": "Other Medications Causing Constipation: Anticholinergics, iron supplements, calcium-channel blockers, and some antidepressants.\n\nNon-pharmacological Causes: Low-fiber diet, inadequate fluid intake, sedentary lifestyle, ignoring the urge to defecate.\n\nManagement of Opioid-Induced Constipation:\n\nProphylactic stimulant laxative (e.g., senna) with a stool softener (e.g., docusate sodium).\n\nIncrease fluid and fiber intake.\n\nEncourage mobility.\n\nReference: Lewis's Medical-Surgical Nursing, Chapter 42: Lower Gastrointestinal Problems."
   }
 ]
+
 
 
 
