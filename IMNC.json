@@ -369,7 +369,7 @@
     },
     "answer": "D",
     "explanation": "This assessment is a fundamental part of evaluating circulation in ETAT.\n\nSkin Color:\n- Pallor: Suggests anemia or poor perfusion.\n- Cyanosis: Suggests poor oxygenation.\n\nSkin Temperature:\n- Cold hands and feet: Sign of poor peripheral perfusion and possible shock.\n\nAntipyretic need (A): Based on core temperature.\nB and C are unrelated.",
-    "additional": null
+    "additional": "NO ADDITINAL EXPLANATION KINDLY REVIST YOUR NOTES,KEEP THAT SMILE.👌😁"
   },
   {
     "question": "A child presents with a fever, cough, and runny nose. What IMCI classification is most appropriate for this child?",
@@ -393,7 +393,7 @@
     },
     "answer": "A",
     "explanation": "Low blood pressure in children indicates **decompensated shock**, meaning the body can no longer compensate (e.g., via tachycardia or vasoconstriction).\n\n- Impaired Circulation: The direct physiological consequence of low BP.\n- B, C, D: Possible causes but not the actual state indicated by hypotension.",
-    "additional": null
+    "additional": "NO ADDITINAL EXPLANATION KINDLY REVIST YOUR NOTES,KEEP THAT SMILE.👌😁"
   },
   {
     "question": "When using IMCI, what classification is used for children with a history of fever, irritability, and a bulging fontanelle?",
@@ -405,7 +405,7 @@
     },
     "answer": "C",
     "explanation": "These are classic signs of **Meningitis** in infants:\n- Fever\n- Irritability (altered mental status)\n- Bulging fontanelle (raised intracranial pressure)\n\nIMCI Response:\n- RED classification: Very Severe Febrile Disease.\n- Requires urgent antibiotic treatment and hospital referral.\n\nA, B, D: Incorrect for this symptom set.",
-    "additional": null
+    "additional": "NO ADDITINAL EXPLANATION KINDLY REVIST YOUR NOTES,KEEP THAT SMILE.👌😁"
   },
   {
     "question": "During an ETAT assessment, a child is unresponsive, not breathing, and has no pulse. What immediate action should be taken?",
@@ -418,8 +418,81 @@
     "answer": "B",
     "explanation": "This child is in **cardiopulmonary arrest**. CPR must be started immediately.\n\n- Do not delay for further assessments.\n- CPR includes chest compressions + rescue breaths.\n\nOther options (A, C, D) are inappropriate in this emergency.",
     "additional": "1. Pediatric BLS (C-A-B Sequence):\n- C: Compressions first (100–120/min, 1/3 chest depth).\n- A: Open airway (head-tilt, chin-lift).\n- B: Give 2 rescue breaths.\n\nFuture Question Idea: \"What is the correct CPR ratio for a 6-month-old by a single rescuer?\" (Answer: 30:2)."
+  },
+  {
+    "question": "The Drug of choice for routine anticonvulsant management of a woman with eclampsia is;",
+    "options": {
+      "A": "Diazepam",
+      "B": "Magnesium sulphate",
+      "C": "Phenytoin",
+      "D": "Hydralazine"
+    },
+    "answer": "B",
+    "explanation": "Magnesium Sulphate (MgSO4) is the universally recognized drug of choice for the prevention and treatment of seizures in women with severe pre-eclampsia and eclampsia. It is more effective than other anticonvulsants like diazepam and phenytoin and is associated with a lower risk of maternal death.\n\nA. Diazepam: A benzodiazepine. It can be used to control seizures if MgSO4 is unavailable but is less effective and has more sedative effects on both mother and baby.\n\nC. Phenytoin: An older anticonvulsant, less effective than MgSO4 for eclampsia.\n\nD. Hydralazine: This is an antihypertensive drug, used to lower dangerously high blood pressure in severe pre-eclampsia/eclampsia, but it has no anticonvulsant properties.",
+    "additional": "Eclampsia: The onset of seizures (convulsions) in a woman with pre-eclampsia. Pre-eclampsia is a pregnancy-specific disorder characterized by hypertension and proteinuria after 20 weeks of gestation.\n\nMagnesium Sulphate Administration (KNOW THIS):\n\nLoading Dose: Typically 4g IV given slowly over 5–10 minutes, followed by 10g IM (5g in each buttock).\n\nMaintenance Dose: 5g IM every 4 hours into alternate buttocks, continuing for 24 hours after the last seizure or delivery.\n\nMonitoring for Toxicity: MgSO4 has a narrow therapeutic window. The nurse must monitor for signs of toxicity:\n- Respiratory rate < 12 breaths/min (first sign of impending toxicity)\n- Loss of patellar reflexes (deep tendon reflexes)\n- Urine output < 30 mL/hour (oliguria)\n\nAntidote: Calcium Gluconate. A 10% solution (10 mL) should always be available at the bedside when administering MgSO4.\n\nBook Tag: MOH Kenya Basic Emergency Obstetric and Newborn Care (BEmONC) Guidelines, Myles Textbook for Midwives."
+  },
+  {
+    "question": "A woman who visits the MCH/FP clinic has a blood pressure of 158/100MmHg, which of the following nursing intervention is most appropriate?",
+    "options": {
+      "A": "Send the patient to the emergency department",
+      "B": "Refer the patient for an electrocardiogram as soon as possible",
+      "C": "Advise the patient to have the BP rechecked in one week",
+      "D": "Encourage the patient to keep a food diary for one month"
+    },
+    "answer": "A",
+    "explanation": "A blood pressure reading of ≥140/90 mmHg in pregnancy is considered hypertension. A reading of ≥160/110 mmHg is classified as severe hypertension. The reading of 158/100 mmHg is very close to the severe range and indicates significant hypertension that could be a sign of severe pre-eclampsia. This is a high-risk condition that can rapidly progress to eclampsia, HELLP syndrome, or stroke. The patient requires immediate, urgent medical evaluation and management at a facility with obstetric and emergency capabilities.\n\nOptions C and D represent dangerously delayed actions.\n\nOption B (ECG) is not the immediate priority; managing the BP and assessing for pre-eclampsia is.",
+    "additional": "Nursing Actions for High BP in MCH Clinic:\n\n- Have the woman rest for 15–30 minutes and recheck the BP.\n- If it remains elevated, perform a urine dipstick test to check for proteinuria.\n- Ask about danger signs of severe pre-eclampsia: severe headache, blurred vision, flashing lights, and epigastric pain.\n- If BP is severely elevated or any danger signs are present, arrange for immediate transfer to a hospital. Do not send the patient home.\n\nHELLP Syndrome: A life-threatening variant of severe pre-eclampsia involving Hemolysis, Elevated Liver enzymes, and Low Platelet count.\n\nBook Tag: MOH BEmONC Guidelines, Standard Midwifery/Obstetrics textbooks."
+  },
+  {
+    "question": "The goal that would be given priority while planning care for a 2-year-old child who has acute gastroenteritis is;",
+    "options": {
+      "A": "Promotion of hydration",
+      "B": "Reduction of lethargy",
+      "C": "Preserving skin integrity",
+      "D": "Maintaining comfort"
+    },
+    "answer": "A",
+    "explanation": "Acute gastroenteritis leads to fluid and electrolyte loss through diarrhea and vomiting. In young children, this can rapidly lead to severe dehydration, hypovolemic shock, and death. Therefore, the absolute number one priority in managing the child is to prevent or treat dehydration. All other goals are secondary to this life-saving intervention.\n\nB (Lethargy) is a symptom of dehydration; treating dehydration will resolve it.\n\nC (Skin integrity) is important (risk of diaper rash) but not a primary life-saving goal.\n\nD (Maintaining comfort) is a valid nursing goal but comes after ensuring physiological stability.",
+    "additional": "IMCI Dehydration Assessment (KNOW THE SIGNS):\n\nNo Dehydration (Plan A): Alert, drinks normally, skin pinch goes back quickly.\n\nSome Dehydration (Plan B): Restless/irritable, drinks eagerly/thirsty, skin pinch goes back slowly.\n\nSevere Dehydration (Plan C): Lethargic/unconscious, drinks poorly/unable to drink, skin pinch goes back very slowly (>2 seconds).\n\nManagement Plans:\n\nPlan A (Home): Give more fluids than usual (ORS, soup, water), continue feeding, give Zinc, and know when to return.\n\nPlan B (Facility): Give a specified amount of ORS over 4 hours under observation.\n\nPlan C (Facility): Requires immediate IV fluid resuscitation (e.g., Ringer's Lactate or Normal Saline).\n\nBook Tag: IMCI Chart Booklet (MOH Kenya)."
+  },
+  {
+    "question": "One of the clinical symptoms a child with marasmus will present with is;",
+    "options": {
+      "A": "Oedema of the legs but not the face",
+      "B": "Good appetite",
+      "C": "Oedema of the face",
+      "D": "No hepatic enlargement"
+    },
+    "answer": "B",
+    "explanation": "This question differentiates between the two major forms of severe acute malnutrition (SAM).\n\nMarasmus is caused by a severe deficiency of all nutrients, especially energy (calories). It is essentially starvation. The child appears as \"skin and bones\" (severe wasting) but is often alert and has a voracious or good appetite. There is no oedema.\n\nKwashiorkor is caused primarily by inadequate protein intake relative to calories. The hallmark sign is bilateral pitting oedema, which typically starts in the feet and legs and can become generalized. These children are often irritable, apathetic, and have a poor appetite. They may also have skin changes (flaky-paint dermatosis), hair changes, and an enlarged fatty liver.",
+    "additional": "Marasmic-Kwashiorkor: A mixed form with features of both (wasting and oedema).\n\nWasting vs. Stunting:\n\nWasting (Low Weight-for-Height): Indicates acute malnutrition.\n\nStunting (Low Height-for-Age): Indicates chronic malnutrition.\n\nManagement of SAM: Involves careful refeeding with therapeutic formulas like F-75 (starter phase) and F-100 (catch-up phase) and managing complications like hypoglycemia, hypothermia, and infection.\n\nBook Tag: IMCI guidelines, WHO Guidelines for Management of Severe Acute Malnutrition."
+  },
+  {
+    "question": "When counselling a family planning client who is HIV positive, it is important to consider;",
+    "options": {
+      "A": "Drug interaction between Hormonal methods and anti-tuberculosis drugs",
+      "B": "The client's current stage of AIDS",
+      "C": "The Client's nutritional status",
+      "D": "[All are relevant, but A is the most critical for contraceptive efficacy]"
+    },
+    "answer": "A",
+    "explanation": "While all the options are relevant to the holistic care of an HIV-positive client, option A highlights a critical pharmacological issue that directly impacts the effectiveness of family planning.\n\nMany Antiretroviral drugs (ARVs), particularly Efavirenz and Nevirapine (NNRTIs), and protease inhibitors, are enzyme inducers.\n\nRifampicin, a cornerstone drug for treating Tuberculosis (which is a common co-infection with HIV), is a very potent enzyme inducer.\n\nThese drugs speed up the metabolism of hormonal contraceptives (pills, implants, injectables) in the liver, reducing their blood levels and leading to a high risk of contraceptive failure. Therefore, this drug-drug interaction is a paramount consideration.",
+    "additional": "Counseling Implications:\n\n- A woman on Efavirenz or Rifampicin-based regimens should be counseled that hormonal methods may not be effective.\n- Dual method protection should be emphasized: Use a reliable method for pregnancy prevention (like an IUD or consistent condom use) AND condoms for STI/HIV prevention.\n- The copper IUD and hormonal IUDs (Mirena) are excellent choices as their effectiveness is not reduced by these drugs. Depot Medroxyprogesterone Acetate (DMPA, the injection) is also considered an acceptable option by WHO.\n\nBook Tag: MOH National Family Planning Guidelines, WHO Medical Eligibility Criteria for Contraceptive Use (MEC)."
+  },
+  {
+    "question": "At the prevention of mother to child transmission of HIV (PMTCT) clinic, the nurse should advise the HIV positive mothers;",
+    "options": {
+      "A": "To breastfeed the children only when taking ART",
+      "B": "To breastfeed their children when if the child is taking prophylaxis",
+      "C": "Not to practice mixed feeding",
+      "D": "To exclusively breastfeed then wean off gradually"
+    },
+    "answer": "C",
+    "explanation": "Mixed feeding (giving an infant breast milk along with other foods or liquids like formula, water, or porridge before 6 months of age) is the most dangerous feeding option in the context of HIV. It is thought to irritate the infant's gut lining, making it more permeable to the virus in the breast milk, thereby significantly increasing the risk of transmission. The WHO and national guidelines are unequivocal: \"Exclusive Breastfeeding\" or \"Exclusive Replacement Feeding.\" You must never mix the two.\n\nA and B are components of safe breastfeeding, but avoiding mixed feeding (C) is the most critical single piece of feeding advice.\n\nD is partially correct (exclusive breastfeeding is key), but the emphasis on avoiding mixed feeding is the most crucial message to prevent transmission.",
+    "additional": "Current PMTCT Infant Feeding Guidelines (WHO Option B+):\n\n- All HIV-positive pregnant and breastfeeding women should be on lifelong Antiretroviral Therapy (ART).\n- With maternal ART, exclusive breastfeeding for the first 6 months is recommended, followed by continued breastfeeding with complementary foods up to 24 months or longer.\n- The infant should also receive ARV prophylaxis (e.g., daily Nevirapine) for at least 6 weeks.\n\nThe core principle is that the benefits of breastfeeding (nutrition, immunity) combined with the protective effect of maternal ART far outweigh the now very low risk of transmission.\n\nBook Tag: MOH National Guidelines for PMTCT of HIV/AIDS."
   }
 ]
+
 
 
 
