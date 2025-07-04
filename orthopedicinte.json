@@ -141,6 +141,55 @@
     "answer": "c",
     "explanation": "Correct (c): A fasciotomy is a surgical incision made through the fascia to relieve pressure and restore circulation in compartment syndrome. This creates a large open wound that is left open to heal by secondary intention or is closed later. The standard of care for these open wounds is to keep the underlying tissue viable and moist to promote healing. This is best achieved with sterile saline-moistened dressings (often called wet-to-damp dressings).\n\nIncorrect (a): A dry sterile dressing would stick to the wound bed, causing pain and trauma to the healing tissue upon removal.\n\nIncorrect (b): Hydrocolloid dressings are occlusive and are used for clean, non-infected, partial-thickness wounds with minimal drainage, not large, open surgical wounds like a fasciotomy.\n\nIncorrect (d): Betadine (povidone-iodine) is cytotoxic, meaning it is toxic to healthy healing cells like fibroblasts. Its use on open wounds is now discouraged as it can impair wound healing. Sterile normal saline is the preferred cleansing and dressing solution.",
     "additional": "Deeper Insight: After a fasciotomy, the two priority nursing assessments for the affected extremity are:\n\nNeurovascular checks: Continue to monitor circulation, sensation, and movement (the 5 P's: Pain, Pallor, Pulselessness, Paresthesia, Paralysis) to ensure the procedure was successful and circulation is restored.\n\nInfection prevention: The large open wound is at high risk for infection. Strict sterile technique during dressing changes is crucial.\n\nPossible Next Question (NCK Focus): \"A nurse is assessing a client with a full-thickness circumferential burn to the arm. Which finding would prompt the nurse to immediately notify the physician?\" The answer would be a weak or absent radial pulse, as this is a key sign of developing compartment syndrome requiring an escharotomy or fasciotomy."
+  },
+  {
+    "question": "The following technique should be avoided when changing a hemiparalysis clients' position in bed;",
+    "options": {
+      "A": "Sliding the client to move her up in bed",
+      "B": "Rolling the client onto her side",
+      "C": "Lifting the client when moving her up in bed",
+      "D": "Having the client lift herself off the bed using a trapeze"
+    },
+    "answer": "A",
+    "explanation": "Sliding creates friction and shear forces that can damage the skin and deep tissues, especially in hemiparalysis patients. Correct techniques include lifting with a draw sheet or allowing the patient to assist with a trapeze.",
+    "additional": "Risks of Sliding: \n- Friction → superficial abrasions\n- Shear → deep tissue injury and pressure ulcers\n\nSafe Techniques:\n- Use a draw sheet and lift\n- Roll patient gently\n- Encourage use of trapeze for repositioning\n\nPrevention Strategies:\n- Reposition every 2 hrs\n- Use pressure-relieving surfaces\n- Maintain skin hygiene\n- Ensure nutritional support\n- Braden Scale for risk assessment\n\nTextbook Reference: Potter & Perry, Chapter 48."
+  },
+  {
+    "question": "Neurovascular assessment of the lower limb post-cast application involves observation of,",
+    "options": {
+      "A": "Color, sensation and pulses",
+      "B": "Level of consciousness, limb symmetry and muscular strength",
+      "C": "Capillary refill, sensation and muscle power",
+      "D": "Color, warmth and muscle power"
+    },
+    "answer": "C",
+    "explanation": "Capillary refill checks circulation, sensation assesses nerve function, and muscle power checks motor ability — covering the essential components of a neurovascular assessment.",
+    "additional": "CSM Mnemonic: Circulation, Sensation, Motion\n\nKey Checks:\n- Capillary refill (<3s)\n- Sensation (tingling, numbness)\n- Motion (move toes/foot)\n\n6 P's to Monitor:\n- Pain, Paresthesia, Pallor, Pulselessness, Paralysis, Poikilothermia\n\nPost-Cast Care:\n- Compare both limbs\n- Assess frequently: q15min initially, then hourly\n- Report abnormal findings\n\nTextbook Reference: Lewis's Med-Surg Nursing, Chapter 62."
+  },
+  {
+    "question": "In positioning a casted leg, the nurse should:",
+    "options": {
+      "A": "Keep the leg in a flat position always",
+      "B": "Elevate the leg for 3 hours then put it flat for 1 hour",
+      "C": "Keep the leg flat for 3 hours then elevate it for 1 hour",
+      "D": "Elevate the leg on pillow continuously for 24 to 48 hours."
+    },
+    "answer": "D",
+    "explanation": "Continuous elevation for 24–48 hours post-cast minimizes edema and reduces risk of complications like compartment syndrome.",
+    "additional": "Goals of Elevation:\n- Reduce swelling\n- Improve venous return\n- Prevent compartment syndrome\n\nOther Cast Care Tips:\n- Use palms when handling wet cast\n- Avoid inserting objects inside cast\n- Ice can help reduce swelling\n- Inspect skin at edges (petal with tape)\n\nTextbook Reference: Brunner & Suddarth, Chapter 40."
+  },
+  {
+    "question": "Buck's traction is,",
+    "options": {
+      "A": "A form of skin traction and is often used to relieve muscle spasms.",
+      "B": "A form of skeletal traction for compound fractures.",
+      "C": "Only used in correction of hip and femur fractures.",
+      "D": "Always contra-indicated in obese patients"
+    },
+    "answer": "A",
+    "explanation": "Buck's traction is a type of skin traction used to immobilize and reduce muscle spasms, typically before surgery for femur or hip fractures.",
+    "additional": "Types of Traction:\n- Skin Traction (e.g., Buck’s): non-invasive, uses lighter weights\n- Skeletal Traction: invasive, heavier force applied to bone via pins\n\nNursing Care:\n- Ensure weights hang freely\n- Maintain proper body alignment\n- Regular neurovascular assessments\n- Prevent skin breakdown (inspect boot/tape)\n- Pin site care (if skeletal)\n\nTextbook Reference: Lewis's Med-Surg Nursing, Chapter 62."
   }
 ]
+
 
