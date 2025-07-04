@@ -97,6 +97,41 @@
     opacity: 0.8;
   }
 }
+    #reload-btn {
+  background: linear-gradient(to right, #0f9d58, #34a853);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 30px;
+  margin: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+#reload-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.3);
+}
+
+#reload-btn::after {
+  content: "";
+  position: absolute;
+  top: 0; left: -100%;
+  width: 100%;
+  height: 100%;
+  background: rgba(255,255,255,0.1);
+  transform: skewX(-45deg);
+  transition: left 0.5s ease;
+}
+
+#reload-btn:hover::after {
+  left: 200%;
+}
   </style>
 </head>
 <body>
