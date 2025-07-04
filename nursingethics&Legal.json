@@ -20,5 +20,29 @@
     "answer": "D",
     "explanation": "Why D is correct: This question uses an analogy to define two core ethical principles.\n\nThe first part, 'The right to determine one's own destiny,' is the definition of Autonomy.\n\nThe second part, 'the duty to benefit or promote the good of others,' is the definition of Beneficence. Beneficence is the principle that obligates healthcare professionals to act for the benefit of their patients, to do good, and to promote their welfare.\n\nWhy the others are incorrect:\n\nA. Nonmaleficence: This is the duty to 'do no harm.' It is about avoiding actions that could cause harm to the patient. While related to beneficence, it is a separate principle focused on avoidance of harm rather than promotion of good.\n\nB. Justice: This refers to the principle of fairness, especially in the distribution of resources and care. It is about treating similar cases similarly.\n\nC. Veracity: This is the principle of truthfulness and honesty in dealing with patients.",
     "additional": "The Core Principles of Biomedical Ethics:\n\n| Principle      | Definition                                      | Nursing Application                                                                                 |\n|---------------|--------------------------------------------------|-----------------------------------------------------------------------------------------------------|\n| Autonomy      | Respect for a person's right to self-determination. | Informed Consent: Ensuring a patient has all the information to make their own decision about treatment. |\n| Beneficence   | The duty to do good and promote the patient's welfare. | Providing a vaccination, educating a patient on healthy habits, providing comfort to a dying patient. |\n| Nonmaleficence| The duty to avoid causing harm ('do no harm').    | Checking for correct medication dosage to avoid an overdose, implementing fall prevention strategies. |\n| Justice       | The duty to be fair and treat like cases alike.  | Allocating resources (like ICU beds or organs for transplant) fairly, providing equal care regardless of patient's background. |\n| Fidelity      | The duty to be faithful to commitments and promises. | Following through on a promise to return with pain medication, maintaining confidentiality.          |\n| Veracity      | The duty to be truthful.                         | Providing honest and complete information to the patient about their condition and treatment, even if the news is bad. |\n\nPOSSIBLE NCK QUESTIONS:\n- A nurse carefully checks the 'five rights' of medication administration before giving a drug. This action primarily upholds which ethical principle? (Answer: Nonmaleficence).\n- When a nurse ensures that a patient fully understands the risks and benefits of a surgical procedure before signing the consent form, the nurse is upholding which ethical principle? (Answer: Autonomy)."
+  },
+  {
+    "question": "According to the occupational health and safety act, an \"occupier\" is defined as:",
+    "options": {
+      "A": "The person or persons in actual occupation of a workplace, whether as owner or not excluding the employer",
+      "B": "Person or persons owning the workplace",
+      "C": "The person or persons in the actual occupation of a workplace excluding employees",
+      "D": "The person or persons in actual occupation of a workplace, whether as the owner or not and includes an employer"
+    },
+    "answer": "B",
+    "explanation": "The provided answer key lists B as the correct choice. However, under the Kenyan Occupational Safety and Health Act (2007), the full legal definition of an 'occupier' is 'the person in actual occupation of a workplace, whether as the owner or not and includes an employer.' This aligns best with Option D, suggesting a possible discrepancy in the answer key.",
+    "additional": "LEGAL DEFINITION:\n- OSHA, 2007 defines an occupier as the person in control of the workplace—this could be the owner, employer, or tenant.\n\nDUTIES OF OCCUPIER:\n- Maintain safe working conditions.\n- Provide training and supervision.\n- Report workplace injuries.\n- Ensure risk assessments and safety audits are performed.\n\nKEY: 'Occupier' = One with workplace control & legal safety responsibilities.\nBOOK: The Occupational Safety and Health Act, 2007 (Republic of Kenya)"
+  },
+  {
+    "question": "Requirements of a surrogate parenthood agreement includes:",
+    "options": {
+      "A": "Termination of pregnancy that would endanger the health of the mother",
+      "B": "Termination of the pregnancy due to the threat to the mother's health",
+      "C": "Consent of the pregnant woman to terminate her pregnancy",
+      "D": "The commissioning parents are not able to give birth to a child and the condition is permanent"
+    },
+    "answer": "D",
+    "explanation": "A legal surrogacy agreement in Kenya requires that the commissioning parents be permanently and irreversibly unable to conceive or carry a child. This medical necessity is foundational to entering a surrogacy arrangement.",
+    "additional": "KEY REQUIREMENTS:\n- Irreversible infertility of commissioning parents\n- Informed consent from surrogate (and her spouse if married)\n- Legal agreement with court oversight\n- Genetic link to at least one commissioning parent\n\nOTHER OPTIONS:\nA–C describe conditions for legal abortion, not requirements for initiating surrogacy.\n\nBOOK: Reproductive Healthcare Act (Kenya) and associated legal frameworks"
   }
 ]
