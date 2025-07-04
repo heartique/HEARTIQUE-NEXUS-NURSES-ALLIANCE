@@ -204,7 +204,7 @@ if (resetBtn) {
   const reloadBtn = document.getElementById("reload-btn");
 if (reloadBtn) {
   reloadBtn.addEventListener("click", () => {
-    location.reload(true); // true = hard reload
+    location.reload(true);
   });
 }
 }
