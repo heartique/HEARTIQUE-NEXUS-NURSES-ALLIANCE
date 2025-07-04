@@ -506,8 +506,57 @@
     "answer": "D",
     "explanation": "The physical environment and seating arrangement can significantly impact the therapeutic relationship. The goal is to create a safe, respectful, and collaborative atmosphere.\n\nd. The counsellor and the counselee sit away from the desk, at an angle, facing each other: This is considered the ideal arrangement. It removes physical barriers (the desk), promotes a sense of equality, and allows for comfortable eye contact and observation of nonverbal cues. The slight angle (about 90 degrees) is less confrontational than sitting directly face-to-face.",
     "additional": "a. ...lying on a couch: This is stereotypical of psychoanalysis and is not a standard counseling arrangement.\n\nb. ...opposite side of the desk: The desk acts as a physical and psychological barrier, creating a power differential (the person behind the desk is \"in charge\") and a more formal, less personal atmosphere.\n\nc. ...sit at one side of the desk: This can feel too close and invade personal space, making the client uncomfortable.\n\nTherapeutic Milieu: The overall environment and interactions within that environment. It should be structured to be safe, secure, and supportive.\n\nProxemics: The study of personal space. The ideal distance for a therapeutic conversation is typically within the personal zone (1.5 to 4 feet).\n\nReference: A textbook on psychiatric nursing or therapeutic communication."
+  },
+  {
+    "question": "The process of immersing used dressing instruments in dilute hibitane solution is known as:-",
+    "options": {
+      "A": "Chemical sterilization.",
+      "B": "Disinfection.",
+      "C": "Decontamination.",
+      "D": "Cold sterilization."
+    },
+    "answer": "C",
+    "explanation": "This question tests the definitions of different levels of microbial control.\n\nSterilization: The process that destroys or eliminates all forms of microbial life, including highly resistant bacterial spores. This is the highest level of microbial killing.\n\nDisinfection: The process that eliminates many or all pathogenic microorganisms, except bacterial spores, on inanimate objects.\n\nDecontamination: The process of making an item safe to handle. It involves removing or neutralizing contaminants (like blood, body fluids, and microorganisms). Soaking used instruments in a chemical solution before cleaning them is a critical first step in the decontamination process to reduce the bioburden and protect the healthcare worker who will be cleaning them.\n\nAnalyzing the Options:\n\n(a, d) Chemical sterilization or \"cold sterilization\" refers to using liquid chemicals (like glutaraldehyde) for a prolonged period (many hours) to achieve true sterilization. Soaking in dilute Hibitane (chlorhexidine) is not strong enough for sterilization.\n\n(b) Disinfection is the result, but \"decontamination\" is the specific term for the initial process of making contaminated items safe for subsequent handling and processing (like cleaning and then sterilization or high-level disinfection).\n\n(c) Decontamination is the most accurate term for this initial safety step.",
+    "additional": "Levels of Disinfection:\n\nHigh-Level Disinfection (HLD): Kills all vegetative microorganisms, mycobacteria, viruses, and fungi, but not necessarily high numbers of bacterial spores. Used for semi-critical items that contact mucous membranes (e.g., endoscopes).\n\nIntermediate-Level Disinfection: Kills mycobacteria, most viruses, and bacteria. Used for non-critical items with visible contamination.\n\nLow-Level Disinfection: Kills most bacteria, some viruses, and some fungi. Used for routine environmental cleaning.\n\nCleaning: The physical removal of foreign material (e.g., dust, soil, organic material like blood). Cleaning must always precede disinfection or sterilization. You cannot disinfect or sterilize a dirty instrument.\n\nTextbook Reference: Potter & Perry's Fundamentals of Nursing, Chapter 28: Infection Prevention and Control."
+  },
+  {
+    "question": "When a midwife closes the curtains, he/she minimizes heat loss by:-",
+    "options": {
+      "A": "Conduction",
+      "B": "Evaporation",
+      "C": "Convection",
+      "D": "Radiation."
+    },
+    "answer": "C",
+    "explanation": "This question tests knowledge of the four mechanisms of heat loss, which is especially important in neonatal care.\n\nMechanisms of Heat Loss:\n\nConduction: Heat loss through direct contact with a colder surface (e.g., placing a baby on a cold scale or cold bed linens).\n\nEvaporation: Heat loss as water turns to vapor from the skin. This is the primary mechanism of heat loss immediately after birth when the baby is wet with amniotic fluid.\n\nConvection: Heat loss to cooler air currents moving over the skin surface (e.g., from an open door, a fan, or an air conditioning vent).\n\nRadiation: Heat loss from the body to cooler solid objects in the environment that are not in direct contact (e.g., a cold wall or window).\n\nAnalyzing the Action: Closing curtains or doors blocks drafts. Drafts are moving air currents. Therefore, closing curtains directly minimizes heat loss by convection.",
+    "additional": "Nursing Interventions to Prevent Heat Loss in Newborns:\n\nEvaporation: Dry the infant thoroughly immediately after birth.\n\nConduction: Place the infant on a pre-warmed surface. Use warm blankets. Place skin-to-skin with the mother.\n\nConvection: Keep the infant out of drafts. Keep the head covered with a cap.\n\nRadiation: Move the crib away from cold outside walls or windows. Use a radiant warmer.\n\nCold Stress: A cascade of physiological events in a newborn caused by trying to maintain body temperature. It leads to increased oxygen consumption, respiratory distress, and hypoglycemia.\n\nTextbook Reference: Leifer, G. (2018). Introduction to Maternity and Pediatric Nursing. Chapter 10: Nursing Care of the Normal Newborn."
+  },
+  {
+    "question": "When a blood pressure (BP) reading is abnormal upon initial assessment, it is best to check the BP,",
+    "options": {
+      "A": "On the other arm",
+      "B": "On both arms sitting and standing",
+      "C": "With the patient standing",
+      "D": "After a 5 min wait"
+    },
+    "answer": "A",
+    "explanation": "An abnormal BP reading requires verification to ensure it is accurate and not an artifact of technique or a limb-specific issue.\n\nVerification Steps:\n\nFirst, ensure proper technique was used (correct cuff size, correct arm position at heart level).\n\nWait a minute or two and re-check the BP in the same arm.\n\nIf it is still abnormal, the next best step is to measure the BP in the opposite arm. This helps to rule out a problem specific to the first arm (e.g., an arterial obstruction) and provides a comparison. A significant difference in BP between arms (>10-15 mmHg) can be a sign of vascular disease.\n\nAnalyzing Other Options:\n\n(b, c) Checking for orthostatic hypotension (sitting and standing) is an important assessment, but it's done to check for a postural drop in BP, not to verify an initial abnormal reading.\n\n(d) Waiting 5 minutes and re-checking is a good practice, but checking the other arm provides more diagnostic information.",
+    "additional": "Proper BP Technique:\n\nCuff Size: The bladder of the cuff should encircle 80% of the arm's circumference. A cuff that is too small will give a falsely high reading. A cuff that is too large will give a falsely low reading.\n\nPatient Position: Patient should be seated comfortably, with feet on the floor (not crossed), and arm supported at heart level. They should rest for 5 minutes before the reading.\n\nContraindications for BP in a specific arm: Avoid taking a BP in an arm with an IV infusion, a fistula or graft for dialysis, or on the side of a mastectomy or lymph node dissection.\n\nTextbook Reference: Potter & Perry's Fundamentals of Nursing, Chapter 30: Vital Signs."
+  },
+  {
+    "question": "After a clients' nasogastric tube has been removed the nurse should,",
+    "options": {
+      "A": "Offer the client liquids to drink",
+      "B": "Provide the client with oral hygiene",
+      "C": "Encourage client to cough and deep breath",
+      "D": "Auscultate the client's bowel sounds"
+    },
+    "answer": "B",
+    "explanation": "A nasogastric (NG) tube is uncomfortable and can cause dryness and irritation to the nares and mouth.\n\nImmediate Post-Removal Care: The most immediate need for the patient after the tube is removed is comfort. The tube's presence often causes a sore throat, dry mouth, and crusting around the nostril.\n\nPriority Action: Providing oral hygiene (e.g., a mouthwash, brushing teeth) and nasal care immediately after removal addresses this discomfort directly and is a primary comfort measure.\n\nAnalyzing Other Options:\n\n(a) Offering liquids is an appropriate next step, but it should only be done if the patient's diet order allows and after their swallowing ability has been assessed if there were any concerns. Oral hygiene is a more immediate comfort priority.\n\n(c) Coughing and deep breathing are important post-operatively to prevent pneumonia but are not specifically related to the removal of an NG tube.\n\n(d) Auscultating bowel sounds should have been done before the decision to remove the tube was made (to ensure the return of GI function). It is not the priority action after removal.",
+    "additional": "NG Tube Removal Procedure:\n\nConfirm the provider's order.\n\nExplain the procedure to the patient.\n\nInstill a small amount of air or water to clear the tube of any gastric contents.\n\nAsk the patient to take a deep breath and hold it (this closes the glottis and prevents aspiration).\n\nQuickly and smoothly withdraw the tube.\n\nImmediately provide oral and nasal care.\n\nDocumentation: Document the time of removal, the amount and character of any drainage in the collection system, and the patient's tolerance of the procedure.\n\nTextbook Reference: Lewis's Medical-Surgical Nursing: Assessment and Management of Clinical Problems, Chapter 39: Nutrition and Specialized Nutrition Support."
   }
 ]
+
 
 
 
