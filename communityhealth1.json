@@ -1,0 +1,134 @@
+[
+  {
+    "question": "Que. 44. Measles vaccine is administered at:-",
+    "option": {
+      "A": "Birth.",
+      "B": "6 months and repeated at 18 months.",
+      "C": "9 months.",
+      "D": "9 months and 18 months"
+    },
+    "answer": "D",
+    "explanation": "Why 'D' is Correct: This reflects the standard two-dose schedule for measles vaccination in Kenya and many other countries:\n\n- First Dose (MCV1): 9 months — after maternal antibodies have declined.\n- Second Dose (MCV2): 18 months — for full population immunity. Some children do not seroconvert after first dose, so the second ensures broader protection.\n\nWhy others are wrong:\nA: Birth doses are for BCG and OPV0, not measles.\nB: 6 months is too early for routine measles due to maternal antibody interference.\nC: 9 months alone is incomplete — the second dose is also essential.",
+    "additional": "Why 9 Months? Maternal antibodies can interfere if given earlier.\n\nMR Vaccine: Measles often given as Measles-Rubella (MR) now.\n\nSupplementary Immunization Activities (SIAs): Mass campaigns used to catch up missed doses and improve coverage, especially in outbreaks."
+  },
+  {
+    "question": "The first step in preparation of a health education plan in a community is;",
+    "options": {
+      "A": "Identifying who will provide support and the kind of support to be provided",
+      "B": "Assess community needs for health education",
+      "C": "Specify goals and objectives",
+      "D": "Identify the target group of health teaching"
+    },
+    "answer": "B",
+    "explanation": "The development of any health plan, including a health education plan, follows the principles of the nursing process. The very first step is always Assessment. Before you can plan what to teach (objectives), who to teach (target group), or what resources you need (support), you must first understand the community's current health status, problems, knowledge gaps, cultural beliefs, and readiness to learn. This is the needs assessment.",
+    "additional": "Steps in Health Education Planning (KNOW THE ORDER):\n\nNeeds Assessment: Identify the health problem and the educational needs.\n\nSetting Goals and Objectives: Define what you aim to achieve. Goals are broad; objectives are SMART (Specific, Measurable, Achievable, Relevant, Time-bound).\n\nIdentifying the Target Group: Who are you teaching? (e.g., mothers, school children, elderly).\n\nSelecting Content and Methods: What will you teach, and how? (e.g., lectures, demonstrations, role-playing).\n\nIdentifying/Securing Resources: What materials, personnel, and support are needed?\n\nImplementation: Carrying out the plan.\n\nEvaluation: Measuring if the objectives were met. Did the community learn? Did their behavior change?\n\nNeeds Assessment Methods: Surveys, interviews with key informants, community forums, focus groups, observation, and analyzing existing health data (e.g., clinic records).\n\nBook Tag: K. Park's Textbook of Preventive and Social Medicine, Allender, Rector & Warner's Community & Public Health Nursing."
+  },
+  {
+    "question": "A community is defined as;",
+    "options": {
+      "A": "Groups of people sharing common health problems",
+      "B": "Individuals and groups living and interacting within certain boundaries",
+      "C": "Families sharing common cultural beliefs",
+      "D": "Groups of people sharing same boundaries"
+    },
+    "answer": "B",
+    "explanation": "This is the most comprehensive and classic definition of a community in the context of public health. It includes three critical dimensions:\n\nPeople: The individuals, groups, and families.\n\nPlace: The geographical boundaries.\n\nFunction/Social System: The interaction among the people, their relationships, and shared institutions.\nOptions A, C, and D are too narrow as they only describe one aspect of a community.",
+    "additional": "Types of Communities:\n\nGeopolitical Community: Defined by geographical or political boundaries (e.g., a village, a district, a city). This is the most traditional type.\n\nPhenomenological Community (or Community of Interest): A group of people who share a common interest, belief, or characteristic, but may not live in the same location (e.g., the community of nurses, a community of people with HIV, an online support group).\n\nCommunity as a Client: In community health nursing, the entire community is considered the \"client\" or \"patient,\" not just the individuals who are sick. The focus is on the health of the whole population.\n\nBook Tag: Foundational chapters of any Community Health Nursing textbook."
+  },
+  {
+    "question": "During cholera outbreak in an area, the most important action for a community nurse to take is to;",
+    "options": {
+      "A": "Transfer the patient to the next nearest health facility with enough facilities for managing cholera e.g IV fluids and antibiotics",
+      "B": "Take rectal swabs and send to the nearest facility for analysis and start IV fluids administration",
+      "C": "Organize to get what you need, administer treatment then transfer the patients",
+      "D": "Transfer the very ill patients to the nearest district hospital"
+    },
+    "answer": "C",
+    "explanation": "In a cholera outbreak, death occurs rapidly from severe dehydration. The absolute priority is to stop deaths by starting rehydration immediately. Option C is the best answer because it encapsulates the immediate, life-saving response: quickly set up an oral rehydration point or a Cholera Treatment Unit (CTU), start giving Oral Rehydration Salts (ORS) and IV fluids to those in shock, and then arrange for the transfer of severe cases if necessary. Delaying treatment to take swabs (B) or to immediately transfer everyone (A, D) can be fatal. The principle is \"treat first, transfer second.\"",
+    "additional": "Cholera:\n\nCausative Agent: Vibrio cholerae.\n\nKey Symptom: Profuse, painless, watery diarrhea, often described as \"rice-water stool\". It can be accompanied by vomiting.\n\nPrimary Danger: Severe dehydration, leading to hypovolemic shock, electrolyte imbalance (hypokalemia), and renal failure.\n\nOutbreak Management Priorities:\n\nCase Management: Prompt rehydration (ORS and IV Ringer's Lactate).\n\nSurveillance: Active case finding and reporting.\n\nWater, Sanitation, and Hygiene (WASH): Ensure safe drinking water (chlorination), promote handwashing with soap, and ensure safe disposal of feces.\n\nHealth Education: Teach the community about how cholera spreads and how to prevent it.\n\nBook Tag: WHO Guidelines on Cholera Outbreak Response, Control of Communicable Diseases Manual."
+  },
+  {
+    "question": "Primary prevention of diseases involves the following;",
+    "options": {
+      "A": "Giving immunization e.g BCG",
+      "B": "Screening for hypertension",
+      "C": "Treating patients as early as possible e.g when they are still in the pre-clinical stage after infection",
+      "D": "Ensuring that disability is prevented in those who are sick, to enable them live a more productive life"
+    },
+    "answer": "A",
+    "explanation": "These two questions test the levels of prevention. It is crucial to be able to differentiate them.\n\nPrimary Prevention: Aims to prevent the disease from ever occurring. It targets healthy individuals to reduce risk factors or increase resistance. Immunization and health education on risk factors (like smoking) are classic examples.\n\nSecondary Prevention: Aims to detect and treat disease at its earliest stage to slow its progression and prevent complications. Screening for hypertension (23B), early treatment (23C), and weekly BP checks for a known hypertensive (34D) fall here.\n\nTertiary Prevention: Aims to reduce the impact of an established disease and prevent long-term complications or disability. It focuses on rehabilitation and improving quality of life. Teaching sign language after hearing loss (34C) and preventing disability (23D) are classic examples.",
+    "additional": "Be able to classify any health activity into these three levels.\n\nPrimary: Diet/exercise education, use of seatbelts, food safety, sanitation.\n\nSecondary: Breast self-exam, Pap smear, blood sugar screening for diabetes, contact tracing.\n\nTertiary: Physical therapy after a stroke, support groups for chronic illness, vocational rehabilitation.\n\nBook Tag: K. Park's Textbook of Preventive and Social Medicine is the definitive resource for this topic."
+  },
+  {
+    "question": "The following activities of performed by a nurse, are examples of primary prevention;",
+    "options": {
+      "A": "Giving treatment to an alcoholic patient",
+      "B": "Giving health education on dangers of smoking to school children",
+      "C": "Teaching a patient how to use sign language after hearing loss due to accident",
+      "D": "Weekly checking of blood pressure of a hypertensive patient"
+    },
+    "answer": "B",
+    "explanation": "See previous explanation (Question 23)",
+    "additional": "Same content applies from previous question regarding levels of prevention."
+  },
+  {
+    "question": "Water washed diseases are common in places with;",
+    "options": {
+      "A": "Too much running water",
+      "B": "Lack of water",
+      "C": "A lack of stagnant water",
+      "D": "Contaminated water"
+    },
+    "answer": "B",
+    "explanation": "This question tests your understanding of the classification of water-related diseases. Water-washed diseases are those whose incidence can be reduced by increasing the quantity of water available for personal hygiene (washing hands, bodies, and clothes). They are caused by a lack of sufficient water.\n\nOption D (Contaminated water) describes water-borne diseases (e.g., cholera, typhoid), which are caused by ingesting water of poor quality.",
+    "additional": "Classification of Water-Related Diseases (Bradley's Classification):\n\nWater-Borne: Ingesting water contaminated with pathogens (e.g., Cholera, Typhoid, Hepatitis A).\n\nWater-Washed: Insufficient water quantity for personal hygiene (e.g., Scabies, Trachoma, Louse-borne infections).\n\nWater-Based: Pathogen spends part of its life cycle in an aquatic intermediate host (e.g., Schistosomiasis, Guinea worm disease).\n\nWater-Related Insect Vectors: Insects that breed in or near water carry the disease (e.g., Malaria [mosquitoes], Dengue [mosquitoes], Onchocerciasis/River Blindness [blackfly]).\n\nBook Tag: K. Park's Textbook of Preventive and Social Medicine, Chapter on Environmental Health."
+  },
+  {
+    "question": "In environmental health, water-based diseases are;",
+    "options": {
+      "A": "Due to the presence of an aquatic host",
+      "B": "Caused by vectors that live near aquatic conditions",
+      "C": "Caused by poor quality of water",
+      "D": "Due to inadequate quantities of water"
+    },
+    "answer": "A",
+    "explanation": "This question directly follows up on the previous one. As defined by Bradley's classification, water-based diseases are those where the pathogen (usually a parasitic worm) has a complex life cycle that involves an essential intermediate host that lives in water. The classic examples are Schistosomiasis (snail host) and Dracunculiasis/Guinea Worm Disease (cyclops copepod host).",
+    "additional": "This reinforces the importance of knowing Bradley's classification (see Q31 above). Be able to provide an example for each category. NCK often tests this by giving a disease and asking for its classification, or giving a classification and asking for an example or definition.\n\nBook Tag: K. Park's Textbook of Preventive and Social Medicine."
+  },
+  {
+    "question": "Anthrax infection as an occupational health hazard is most likely to affect;",
+    "options": {
+      "A": "Horticulture farmers",
+      "B": "Dairy farmers",
+      "C": "Chicken farmers",
+      "D": "Fish farmers"
+    },
+    "answer": "B",
+    "explanation": "Anthrax is a zoonotic disease caused by the spore-forming bacterium Bacillus anthracis. It primarily affects herbivores like cattle, sheep, and goats. Therefore, people who work closely with these animals or their products (hides, wool, meat) are at the highest occupational risk. Dairy farmers work directly with cattle, making them a high-risk group.\n\nPoultry (chickens) and fish are not common reservoirs for anthrax.",
+    "additional": "Forms of Human Anthrax:\n\nCutaneous Anthrax (Most Common): Spores enter through a cut in the skin. Begins as a papule, then a vesicle, then a painless black eschar (scab).\n\nInhalational Anthrax: Spores are inhaled. Highly fatal. Initial symptoms are flu-like, progressing to severe respiratory distress and shock.\n\nGastrointestinal Anthrax: From eating contaminated meat. Rare but severe.\n\nOccupational Health: This is the field concerned with the health and safety of people at work. A nurse's role includes hazard identification, risk assessment, health surveillance, and education on preventive measures (e.g., wearing personal protective equipment - PPE).\n\nBook Tag: Relevant chapters on Zoonotic Diseases and Occupational Health in a Public Health textbook."
+  },
+  {
+    "question": "While giving a health talk on primary prevention during a school health visit, the nurse should focus on;",
+    "options": {
+      "A": "Physical therapy",
+      "B": "Conducive environment, vocational training, early diagnosis",
+      "C": "Regular medical checkup, screening, psychotherapy",
+      "D": "Vaccinations, prophylactic therapy, health diet"
+    },
+    "answer": "D",
+    "explanation": "This is another question on the levels of prevention, framed in a practical scenario. A health talk focused on primary prevention must include topics that stop disease before it starts.\n\nVaccinations: Prime example of specific protection (primary).\n\nProphylactic therapy: E.g., Folic acid for women planning pregnancy to prevent neural tube defects (primary).\n\nHealth diet: A key health promotion activity to prevent chronic diseases (primary).\n\nOptions A, B, and C all contain elements of secondary (early diagnosis, screening) and tertiary (physical therapy, vocational training) prevention.",
+    "additional": "School Health Program Components:\n\nHealthful School Environment (safe water, sanitation, safety).\n\nSchool Health Services (screening, first aid, immunization).\n\nSchool Health Education (curriculum on hygiene, nutrition, etc.).\n\nSchool Nutrition Services.\n\nPhysical Education.\n\nCounseling and Psychological Services.\n\nCommunity and Family Involvement.\n\nBook Tag: A Community Health Nursing textbook covering the School Health Program."
+  },
+  {
+    "question": "The primary health care elements covered within the millennium development goals are;",
+    "options": {
+      "A": "Nutrition, safe water supply, maternal child health",
+      "B": "Maternal child health, health education, local disease control",
+      "C": "HIV/AIDS, mental health, safe water supply",
+      "D": "Treatment of minor ailments, health education, expanded Programme on immunization"
+    },
+    "answer": "A",
+    "explanation": "The Millennium Development Goals (MDGs) were eight international development goals established in 2000. Several of them directly align with the core elements of Primary Health Care (PHC).\n\nMDG 1: Eradicate extreme poverty and hunger (links to Nutrition).\n\nMDG 4: Reduce child mortality (links to Maternal Child Health - MCH).\n\nMDG 5: Improve maternal health (links to MCH).\n\nMDG 6: Combat HIV/AIDS, malaria, and other diseases (links to local disease control).\n\nMDG 7: Ensure environmental sustainability (links to Safe Water Supply and sanitation).\nOption A is the best fit as all three components were major targets of the MDGs.",
+    "additional": "Elements of Primary Health Care (Remember with the mnemonic 'ELEMENTS'):\n\nEducation concerning health problems\n\nLocally endemic disease control\n\nExpanded Program on Immunization (EPI)\n\nMaternal and Child Health (MCH) & Family Planning\n\nEssential drugs provision\n\nNutrition promotion\n\nTreatment of common diseases and injuries\n\nSafe water and sanitation\n\nSustainable Development Goals (SDGs): The MDGs were succeeded by the SDGs in 2015. SDG 3 is \"Ensure healthy lives and promote well-being for all at all ages.\" Know that the SDGs are the current global framework.\n\nBook Tag: K. Park's Textbook of Preventive and Social Medicine."
+  }
+]
