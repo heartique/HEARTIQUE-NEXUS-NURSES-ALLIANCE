@@ -214,7 +214,100 @@
     "answer": "D",
     "explanation": "This question asks for the definition of a role that embodies the principles of health promotion (as seen in Q192).\n\nHealth Promoter: This is a broad term for any professional (like a community health nurse) or lay person (like a CHV) whose work focuses on enabling people to increase control over and improve their health.\n\nPrimary Role: The role is not just to give information, but to empower. This involves a combination of activities:\n\n- Education: Providing skills and knowledge.\n- Advocacy: Speaking up for individuals and communities to create supportive environments and healthy public policies (making C a part of D).\n- Mediation: Helping to reconcile different interests in society in the pursuit of health.\n\nThe overarching goal is to build the capacity of individuals and communities to take charge of their own health, making (D) the most comprehensive and accurate answer.\n\nA and B are incorrect as they describe clinical or administrative roles, not a health promotion role.",
     "additional": "ADDITIONAL CONTENT & FUTURE FOCUS (NCK August 2025)\n\n1. Health Promoter Roles in Practice:\n- Organizing community dialogue sessions\n- Conducting home visits\n- Coordinating with local leaders for sanitation campaigns\n- Advocating for access to clean water and maternal care\n\n2. Characteristics of Effective Health Promoters:\n- Good communication skills\n- Cultural sensitivity\n- Trust and respect in the community\n\nFuture Question Idea: \"Which of the following actions best demonstrates the role of a health promoter?\" (Answer: Facilitating a community workshop on HIV prevention and empowering attendees to create an action plan.)"
+  },
+  {
+    "question": "Perinatal mortality is the number of infants dying within the first month of life per 1000 live births.",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "answer": "B",
+    "explanation": "The statement describes neonatal mortality, not perinatal mortality. Perinatal mortality includes stillbirths (≥28 weeks gestation) and early neonatal deaths (within 7 days), per 1000 total births.",
+    "additional": "KEY DEFINITIONS:\n- Perinatal Mortality: Stillbirths + deaths <7 days\n- Neonatal Mortality: Deaths within 28 days\n- Post-neonatal Mortality: Deaths from 28 days to 1 year\n- Infant Mortality: All deaths under 1 year\n\nFormula: ([Stillbirths] + [Deaths <7 days]) / ([Live births] + [Stillbirths]) × 1000\n\nBOOK REFERENCE: Park’s Textbook of Preventive and Social Medicine"
+  },
+  {
+    "question": "Incidence of a disease can be determined by conducting a cross-sectional survey.",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "answer": "B",
+    "explanation": "Cross-sectional studies measure prevalence (current cases) at a single point in time. Incidence requires follow-up over time, best assessed using cohort (longitudinal) studies.",
+    "additional": "INCIDENCE vs. PREVALENCE:\n- Incidence = New cases over time → Requires follow-up\n- Prevalence = Existing cases at a point → Cross-sectional survey\n\nBathtub Analogy:\n- Water in tub = Prevalence\n- Water from tap = Incidence\n- Drain = Recovery or death\n\nKEY: Cross-sectional = Snapshot = Prevalence.\nBOOK REFERENCE: Gordis Epidemiology by Leon Gordis"
+  },
+  {
+    "question": "In determination of disease incidence:",
+    "options": {
+      "A": "The total population is considered",
+      "B": "The ability of disease to recur is not considered",
+      "C": "Person's years' time at risk is considered",
+      "D": "All the individuals suffering from the disease are considered"
+    },
+    "answer": "D",
+    "explanation": "Incidence requires counting all new cases (D). While person-time (C) is essential in precise incidence rate calculation, identifying new cases is the core concept.",
+    "additional": "TYPES OF INCIDENCE:\n- Cumulative Incidence = New cases / At-risk population\n- Incidence Rate = New cases / Person-time at risk\n\nA: Wrong – Only people at risk are included.\nB: Wrong – Recurrent cases can be included.\nC: Valid for incidence rate, but D is more general.\n\nKEY: Incidence = NEW cases among those at risk.\nBOOK REFERENCE: Gordis Epidemiology"
+  },
+  {
+    "question": "The national vital statistics records would contain:\ni. Marriage and divorce records\nii. School enrollment and drop out records\niii. Crude birth and death records\niv. Employment and non-employment records\nv. Immigration and emigration records",
+    "options": {
+      "A": "i, ii and iii",
+      "B": "ii, iv and v",
+      "C": "i, iii and v",
+      "D": "iii, iv and v"
+    },
+    "answer": "C",
+    "explanation": "Vital statistics include legally registered life events: births, deaths, marriages, divorces, and population movements. Education and employment data are not part of vital stats.",
+    "additional": "VITAL STATISTICS INCLUDE:\n- Births, Deaths\n- Marriages, Divorces\n- Stillbirths\n- Migration (immigration/emigration)\n\nNON-VITAL STATISTICS:\n- School data = Educational\n- Employment = Labor statistics\n\nKEY: Think Life Events = Vital Stats.\nBOOK REFERENCE: Park’s Textbook of Preventive and Social Medicine"
+  },
+  {
+    "question": "Descriptive epidemiology is best described as:",
+    "options": {
+      "A": "Epidemiology of a disease in relation to the entire ecosystem study",
+      "B": "Statistical analysis of epidemiological data in an attempt to establish relationship between causative factors and disease incidence",
+      "C": "Use of mathematical models to explain and examine aspects of epidemiology",
+      "D": "The information about occurrence of a disease without establishing the relationship between cause and effects"
+    },
+    "answer": "D",
+    "explanation": "Descriptive epidemiology focuses on the 'Who, Where, and When' of disease occurrence. It outlines patterns and generates hypotheses but does not establish causation.",
+    "additional": "BRANCHES OF EPIDEMIOLOGY:\n- Descriptive: Describes distribution (Who, Where, When)\n- Analytic: Investigates causes (Why, How)\n- Experimental: Tests interventions\n\nDescriptive Tools: Case reports, cross-sectional studies\n\nKEY: Descriptive = Describe. Analytic = Analyze.\nBOOK REFERENCE: Gordis Epidemiology by Leon Gordis"
+  },
+  {
+    "question": "Vital and democratic statistics that calculates the number of live births during a given year divided by population estimated at mid-year times 1000 is:",
+    "options": {
+      "A": "General fertility rate",
+      "B": "Age specific birth rate",
+      "C": "Crude birth rate",
+      "D": "General infant mortality rate"
+    },
+    "answer": "C",
+    "explanation": "The formula provided defines the Crude Birth Rate (CBR), which includes all live births in a year per 1000 population (not just women of reproductive age).",
+    "additional": "KEY FORMULAS:\n- Crude Birth Rate = (Live births / Mid-year population) × 1000\n- General Fertility Rate = (Live births / Women aged 15–49) × 1000\n- Age-Specific Birth Rate = (Births in age group / Women in that age group) × 1000\n\nKEY: 'Crude' = Includes total population.\nBOOK REFERENCE: Park’s Textbook of Preventive and Social Medicine"
+  },
+  {
+    "question": "The value of the variables that lie in the midline in a data set is:",
+    "options": {
+      "A": "Mean",
+      "B": "Mode",
+      "C": "Median",
+      "D": "Frequency"
+    },
+    "answer": "C",
+    "explanation": "The median is the middle value in an ordered dataset. It's the best measure of central tendency for skewed distributions.",
+    "additional": "CENTRAL TENDENCY:\n- Mean = Average\n- Median = Middle (midline value)\n- Mode = Most frequent\n\nDISTRIBUTION TYPES:\n- Normal: Mean = Median = Mode\n- Skewed Right: Mean > Median > Mode\n- Skewed Left: Mean < Median < Mode\n\nKEY: Median is best for skewed data.\nBOOK REFERENCE: Any standard biostatistics textbook"
+  },
+  {
+    "question": "Sampling distribution where collection of values involves adding up of squares is:",
+    "options": {
+      "A": "Student's t-distribution",
+      "B": "Chi-square (X2) distribution",
+      "C": "Sampling distribution of proportion",
+      "D": ""
+    },
+    "answer": "B",
+    "explanation": "Chi-square distribution is based on summing the squares of standard normal variables. It is used to test for associations in categorical data.",
+    "additional": "CHI-SQUARE OVERVIEW:\n- χ² = Sum of squared deviations\n- Always non-negative\n- Right-skewed distribution\n- Commonly used for: Test of Independence & Goodness-of-fit\n\nEXAMPLE: Testing association between smoking status and lung cancer.\n\nKEY: Chi-square = Categorical + Sum of squares.\nBOOK REFERENCE: Medical Statistics from Scratch by David Bowers"
   }
 ]
+
 
   
