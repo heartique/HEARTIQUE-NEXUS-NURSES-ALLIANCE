@@ -1006,8 +1006,273 @@
     "answer": "A",
     "explanation": "Why 'A' is Correct: The Pneumococcal Conjugate Vaccine (PCV) is designed to protect against diseases caused by the bacterium Streptococcus pneumoniae, also known as pneumococcus. The '10' in PCV10 refers to the 10 most common serotypes covered by the vaccine. This bacterium causes pneumonia, meningitis, and sepsis in children.\n\nWhy others are wrong:\nB: Staphylococcus pneumoniae is not a real organism — a distractor.\nC: Streptococcus aureus does not exist as a scientific name.\nD: Staphylococcus aureus causes different diseases (skin infections, MRSA), but PCV does not protect against it.",
     "additional": "Pneumococcal Disease: Common cause of vaccine-preventable deaths in children. It can also cause otitis media.\n\nVaccine Type: Conjugate — links sugar capsule to a protein to enhance immune response.\n\nKenya EPI Schedule:\n- Vaccine: PCV10\n- Dose: 0.5 ml\n- Route: IM\n- Site: Right thigh\n- Schedule: At 6, 10, and 14 weeks, alongside Pentavalent (in left thigh)"
+  },
+  {
+    "question": "During a cholera outbreak, the best sanitary measures to be adopted will be;",
+    "options": {
+      "A": "Chemoprophylaxis",
+      "B": "Mass vaccination",
+      "C": "Disinfection of stool",
+      "D": "Provision of safe water/chlorination water"
+    },
+    "answer": "D",
+    "explanation": "Why D is correct: Cholera is primarily a waterborne disease caused by the bacterium Vibrio cholerae. The infection spreads rapidly through the ingestion of water or food contaminated with fecal matter from infected individuals. Therefore, the single most effective and critical sanitary measure to control a cholera outbreak is to interrupt this transmission route. Providing a safe water supply (e.g., from boreholes, protected wells) and treating existing water sources (chlorination) is the cornerstone of cholera control.\n\nWhy the others are incorrect:\n\nA. Chemoprophylaxis: The use of antibiotics for widespread prevention is not recommended by WHO for cholera control. It can contribute to antibiotic resistance and does not address the root cause of the outbreak (contaminated water). It's used for close household contacts in some situations but is not the \"best sanitary measure\" for the whole community.\n\nB. Mass vaccination: Oral cholera vaccines (OCV) are an important supplementary tool, especially in endemic areas or humanitarian crises. However, they take time to confer immunity (1-2 weeks after the final dose) and do not replace the immediate need for safe water and sanitation. They are part of a long-term strategy, not the single best immediate sanitary measure.\n\nC. Disinfection of stool: While important, especially in healthcare settings, it is difficult to implement on a community-wide scale. People defecate in many places, and ensuring every stool is disinfected is impractical. The priority is to prevent the pathogen from getting into the water supply in the first place, which is best achieved by providing safe water and promoting proper sanitation (like latrine use).",
+    "additional": "The Multi-pronged Approach to Cholera Control:\nA successful cholera response requires a combination of strategies:\n\nWater, Sanitation, and Hygiene (WASH) - The Priority:\n\nSafe Water: Ensuring access to and use of safe water is paramount.\n\nSanitation: Promoting the use of latrines and safe disposal of feces.\n\nHygiene: Intensive promotion of handwashing with soap, especially after defecation and before handling food.\n\nCase Management:\n\nEarly detection and prompt treatment with Oral Rehydration Therapy (ORT) to prevent deaths from dehydration.\n\nUse of IV fluids for severely dehydrated patients.\n\nAppropriate antibiotic use for severe cases to reduce the duration of illness and shedding of bacteria.\n\nSurveillance:\n\nActive case finding and reporting to monitor the outbreak's spread and guide interventions.\n\nOral Cholera Vaccine (OCV):\n\nUsed as a preventive measure in high-risk areas (\"hotspots\") and as a reactive measure during outbreaks to limit spread.\n\nPOSSIBLE NCK QUESTIONS\n\nThe primary cause of death in a patient with cholera is? (Answer: Dehydration and electrolyte imbalance).\n\nWhich of the following is a key component of the WASH strategy for communicable disease control? (Answer might include handwashing, water treatment, or safe excreta disposal).\n\nA patient presents with profuse, \"rice-water\" stools. Which disease should the nurse suspect first? (Answer: Cholera).\n\nRECOMMENDED BOOK\n\nControl of Communicable Diseases Manual by the American Public Health Association (APHA). It is an authoritative guide on the epidemiology and control of infectious diseases, including cholera."
+  },
+  {
+    "question": "B.C.G vaccine once reconstituted should be used within;",
+    "options": {
+      "A": "6 hours",
+      "B": "9 hours",
+      "C": "12 hours",
+      "D": "24 hours"
+    },
+    "answer": "A",
+    "explanation": "Why A is correct: The Bacillus Calmette-Guérin (BCG) vaccine is a live attenuated vaccine. Once it is reconstituted (mixed from its powder form with the supplied diluent), it becomes unstable and loses its potency quickly, especially when exposed to heat and light. The standard international and Kenyan (KEPI) guideline is to use the reconstituted BCG vaccine within 6 hours or discard it at the end of the immunization session, whichever comes first.\n\nWhy the others are incorrect: Using the vaccine after 6 hours (B, C, D) is unsafe because it may have lost its effectiveness, meaning the child would not be protected against tuberculosis. This is known as a \"missed opportunity\" and gives a false sense of security.",
+    "additional": "The \"Open Vial Policy\" and its Exceptions:\nThe WHO has an \"open vial policy\" which states that some multi-dose liquid vaccines (like Penta, DPT, Td, IPV) can be kept for up to 28 days after opening, provided certain conditions are met (e.g., expiry date not passed, stored at correct temperature, aseptic technique used).\n\nHowever, this policy DOES NOT APPLY to reconstituted vaccines.\n\nVaccines that MUST be discarded after 6 hours or at the end of a session:\n\nBCG\n\nMeasles-Rubella (MR)\n\nYellow Fever\n\nRotavirus (after opening the tube/pouch)\n\nThis rule is due to two main reasons:\n\nLoss of Potency: These live vaccines degrade quickly after being mixed.\n\nRisk of Contamination: They do not contain a preservative, so there is a high risk of bacterial growth in the vial after reconstitution.\n\nPOSSIBLE NCK QUESTIONS\n\nThe open vial policy applies to which of the following vaccines? (Options might include BCG, Measles, and Pentavalent). (Answer: Pentavalent).\n\nWhich of the following actions should a nurse take with a vial of reconstituted MR vaccine at the end of an 8-hour immunization clinic? (Answer: Discard it safely).\n\nWhat is the main reason for discarding reconstituted vaccines after 6 hours? (Answer: Loss of potency and risk of bacterial contamination).\n\nRECOMMENDED BOOK\n\nKenya Ministry of Health (MOH) Immunization Manuals (KEPI guidelines): These are the most specific and authoritative source for national policies on vaccine handling and administration."
+  },
+  {
+    "question": "Measles vaccine is not given before 9 months because;",
+    "options": {
+      "A": "There is risk of adverse effect",
+      "B": "Antibodies from the mother are still protecting the baby",
+      "C": "There is sudden onset of diarrhea",
+      "D": "A mild rash may form"
+    },
+    "answer": "B",
+    "explanation": "Why B is correct: A newborn baby receives passive immunity from their mother in the form of maternal IgG antibodies that cross the placenta. These antibodies, including those against measles, circulate in the infant's blood for the first several months of life. If the measles vaccine (a live attenuated virus) is given during this period (e.g., at 6 months), the maternal antibodies will identify the weakened virus as foreign and neutralize it before the infant's own immune system has a chance to mount a long-lasting active response. This leads to vaccine failure. By 9 months, the level of maternal antibodies has waned sufficiently to allow the vaccine to be effective.\n\nWhy the others are incorrect:\n\nA. There is risk of adverse effect: The risk of adverse effects is not significantly higher before 9 months; the primary issue is lack of efficacy.\n\nC. There is sudden onset of diarrhea: Diarrhea is a possible side effect of many vaccines but is not the specific reason for the 9-month schedule.\n\nD. A mild rash may form: A mild rash is a common and expected reaction to the measles vaccine when it works, indicating an immune response. It is not the reason for delaying administration.",
+    "additional": "The \"Window of Vulnerability\": This is the critical period when maternal antibodies have decreased to a level that is no longer protective, but before the infant has been vaccinated. This is why timing the first dose of measles vaccine is so crucial.\n\nHigh-Risk Situations: In situations of a measles outbreak, an \"early\" dose of the measles vaccine may be given to infants as young as 6 months. However, this dose is considered supplementary, and the child must still receive the two standard doses at 9 and 18 months. The 6-month dose provides short-term protection during the high-risk period.\n\nPOSSIBLE NCK QUESTIONS\n\nThe type of immunity an infant receives from its mother is called? (Answer: Natural Passive Immunity).\n\nDuring a measles outbreak, what is the recommended age for an emergency dose of the vaccine? (Answer: 6 months).\n\nWhy is a second dose of the MR vaccine given at 18 months? (Answer: To provide immunity to the small percentage of children who did not respond to the first dose and to boost the immunity of those who did)."
+  },
+  {
+    "question": "The methods of interrupting transmission of a communicable disease include;",
+    "options": {
+      "A": "Isolation, personal hygiene, immunization, better nutrition",
+      "B": "Environmental hygiene, personal hygiene, vector control, disinfection",
+      "C": "Reservoir control, immunization, vector control, notification",
+      "D": "Notification, isolation, environment hygiene, better nutrition"
+    },
+    "answer": "B",
+    "explanation": "Why B is correct: This question is asking about breaking the Chain of Infection. The options in B directly target different links in this chain to stop a pathogen from spreading.\n\nEnvironmental hygiene (e.g., safe water, sanitation) removes the pathogen from the environment.\n\nPersonal hygiene (e.g., handwashing) blocks the portal of entry/exit.\n\nVector control (e.g., killing mosquitoes) eliminates the mode of transmission.\n\nDisinfection kills the agent on fomites (inanimate objects).\nThese are all direct actions to interrupt the physical spread of an agent.\n\nWhy the others are incorrect: They contain elements that are not direct methods of interrupting transmission.\n\nA & D (Better nutrition): Improved nutrition makes a host less susceptible to severe disease but does not physically stop the pathogen from transmitting from person to person. It strengthens the host, but doesn't break the chain of transmission itself.\n\nC & D (Notification): Disease notification is a surveillance activity. It helps public health officials understand and manage an outbreak, but the act of reporting does not, in itself, stop a germ from spreading. It is a tool for planning the interruption, not the interruption itself.",
+    "additional": "The Chain of Infection: To control a disease, you must break a link in the chain.\n\nInfectious Agent (Pathogen) -> Break link with: Sterilization, disinfection\n\nReservoir (Where it lives) -> Break link with: Reservoir control (e.g., treating infected people, culling sick animals)\n\nPortal of Exit (How it leaves) -> Break link with: Hand hygiene, covering coughs/sneezes\n\nMode of Transmission (How it travels) -> Break link with: Vector control, safe water, hand hygiene, condoms\n\nPortal of Entry (How it enters) -> Break link with: Hand hygiene, use of masks, skin integrity\n\nSusceptible Host -> Break link with: Immunization, good nutrition, health education\n\nOption B provides the best collection of methods targeting these links directly.\n\nPOSSIBLE NCK QUESTIONS\n\nImmunization is a public health measure that aims to break which link in the chain of infection? (Answer: Susceptible Host).\n\nControlling the mosquito population to prevent malaria targets which link in the chain of infection? (Answer: Mode of Transmission)."
+  },
+  {
+    "question": "The monovalent Rota virus vaccine is;",
+    "options": {
+      "A": "A killed/inactivated type of vaccine",
+      "B": "Safely administered orally with injectable polio vaccine",
+      "C": "Given at birth and at 6 weeks",
+      "D": "Aimed at giving passive immunity to the client"
+    },
+    "answer": "B",
+    "explanation": "Why B is correct: The Rotavirus vaccine is an oral vaccine, and the Inactivated Polio Vaccine (IPV) is an injectable vaccine. According to WHO and KEPI guidelines, multiple vaccines can be safely co-administered during the same visit. Administering an oral vaccine (Rota) and an injectable one (like Penta, PCV, or IPV) at the same time is standard, safe, and effective practice. It improves compliance and reduces the number of clinic visits.\n\nWhy the others are incorrect:\n\nA. A killed/inactivated type: The Rotavirus vaccine (both monovalent Rotarix® and pentavalent RotaTeq®) is a live attenuated vaccine. This means it contains a weakened form of the live virus.\n\nC. Given at birth and at 6 weeks: The Rotavirus vaccine schedule starts at 6 weeks, with the second dose at 10 weeks. No dose is given at birth.\n\nD. Aimed at giving passive immunity: Vaccines are designed to stimulate the body's own immune system to produce memory cells and antibodies. This is Active Immunity. Passive immunity is when antibodies are given directly (e.g., from mother to baby or through immunoglobulin injections).",
+    "additional": "Vaccine Type\tMechanism\tExamples\nLive Attenuated\tContains a weakened version of the living virus or bacteria.\tBCG, OPV, Measles (MR), Yellow Fever, Rotavirus\nInactivated (Killed)\tContains a virus or bacteria that has been killed.\tIPV (Inactivated Polio Vaccine), Whole-cell Pertussis\nToxoid\tContains a toxin made by the bacteria that has been inactivated.\tTetanus Toxoid, Diphtheria Toxoid (in Penta/DPT)\nSubunit/Conjugate\tContains only specific pieces of the pathogen (like its protein or sugar).\tHepatitis B, PCV, HPV, Acellular Pertussis\n\nPOSSIBLE NCK QUESTIONS\n\nWhich of the following vaccines is a toxoid? (Options might include BCG, Tetanus, IPV). (Answer: Tetanus).\n\nWhat is the correct schedule for the Rotavirus vaccine in Kenya? (Answer: 6 and 10 weeks).\n\nWhat type of immunity is conferred by vaccination? (Answer: Artificial Active Immunity)."
+  },
+  {
+    "question": "When educating clients on sexually transmitted infections (STIs) prevention and control, the nurse should emphasize on;",
+    "options": {
+      "A": "Contact tracing, treatment compliance, correct use of condoms",
+      "B": "Correct diagnosis, correct use of condoms, counselling on danger signs of STIs",
+      "C": "Contact tracing, early diagnosis, abstinence",
+      "D": "Getting married, counselling on danger signs of STIs, regular screening for STIs"
+    },
+    "answer": "A",
+    "explanation": "Why A is correct: This option provides a comprehensive set of key messages for both prevention (correct use of condoms) and control (treatment compliance, contact tracing).\n\nCorrect use of condoms: A primary prevention method.\n\nTreatment compliance: Prevents the development of drug resistance and ensures the individual is cured, which also stops them from transmitting the infection further (a control measure).\n\nContact tracing (Partner notification): A critical public health control measure to find and treat other infected individuals who may be unaware, thereby breaking the chain of transmission in the community.\n\nWhy the others are incorrect:\n\nB. Correct diagnosis: Diagnosis is the role of the clinician, not a prevention/control message for the client. The client's role is to seek care if they have symptoms.\n\nC. Abstinence: While abstinence is 100% effective, it is only one option. A comprehensive message must include options for sexually active people. Also, \"early diagnosis\" is again a clinical function.\n\nD. Getting married: This is not a public health message. Marriage does not guarantee protection from STIs, as infidelity can occur. \"Regular screening\" is good, but the set of messages in A is more robust for both individual and community-level control.",
+    "additional": "The ABCs of HIV/STI Prevention: This is a well-known public health framework.\n\nA - Abstinence: The only 100% effective method.\n\nB - Be Faithful: To one, uninfected partner.\n\nC - Condomize: Correct and consistent use of condoms.\n\nModern strategies are more comprehensive, including:\n\nTesting and Counselling (HTC/VCT): Knowing one's status.\n\nTreatment as Prevention (TasP): People living with HIV on effective ART with an undetectable viral load cannot transmit the virus sexually (U=U).\n\nPre-Exposure Prophylaxis (PrEP): Medication for high-risk individuals to prevent HIV acquisition.\n\nPost-Exposure Prophylaxis (PEP): Medication taken after a potential exposure.\n\nSyndromic Management of STIs: Treating based on symptoms without waiting for lab confirmation to speed up treatment and reduce transmission.\n\nPOSSIBLE NCK QUESTIONS\n\nSyndromic management of STIs is an example of which level of prevention? (Answer: Secondary Prevention).\n\nA nurse advises a client's partner to come to the clinic for testing after the client was diagnosed with an STI. This process is known as? (Answer: Contact Tracing / Partner Notification)."
+  },
+  {
+    "question": "Primary prevention of diseases involves;",
+    "options": {
+      "A": "Immunization, healthy habits, healthy diet",
+      "B": "Early treatment, immunization, healthy habits",
+      "C": "Regular medical checkup, immunization, early treatment",
+      "D": "Healthy diet, early treatment, immunization"
+    },
+    "answer": "A",
+    "explanation": "Why A is correct: This option lists actions that are all purely within the scope of Primary Prevention. They are all aimed at preventing disease from occurring in the first place.\n\nImmunization: A specific protection measure to prevent infectious diseases.\n\nHealthy habits: (e.g., exercise, avoiding smoking) - a health promotion measure.\n\nHealthy diet: A health promotion measure to prevent chronic diseases like obesity, diabetes, and heart disease.\n\nWhy the others are incorrect: Options B, C, and D all include \"early treatment\". Early treatment of a disease that has already been diagnosed is the hallmark of Secondary Prevention, not primary. Option C also includes \"regular medical checkup,\" which is a form of screening, also a secondary prevention activity.",
+    "additional": "Primary Prevention = PREVENT (e.g., vaccination, education)\n\nSecondary Prevention = SCREEN & TREAT EARLY (e.g., mammogram, blood pressure check, syndromic management)\n\nTertiary Prevention = REHABILITATE (e.g., physiotherapy, support groups)\n\nIt is critical to distinguish between health promotion (general well-being) and specific protection (targeting one disease), both of which fall under Primary Prevention.\n\nHealth Promotion: Healthy diet, exercise, stress management.\n\nSpecific Protection: Immunizations, wearing a helmet, using condoms.\n\nPOSSIBLE NCK QUESTIONS\n\nWhich of the following is an example of specific protection? (Options might include eating a balanced diet, getting a flu shot, regular exercise). (Answer: Getting a flu shot).\n\nTertiary prevention strategies are primarily focused on? (Answer: Limiting disability and rehabilitation)."
+  },
+  {
+    "question": "Primary health care is an important aspect in health care provision. Which of the following statements is a principle of primary health care?",
+    "options": {
+      "A": "Health education",
+      "B": "Treatment of communicable diseases",
+      "C": "Provision participation",
+      "D": "Provision of essential drugs"
+    },
+    "answer": "C",
+    "explanation": "Why C is correct: The question asks for a principle of Primary Health Care (PHC), not a component or element. The Declaration of Alma-Ata (1978) established the core principles of PHC. Community Participation is one of these fundamental principles. It means that individuals, families, and communities should be actively involved in planning, implementing, and evaluating their own healthcare. The typo 'Provision participation' most closely relates to this principle.\n\nWhy the others are incorrect: Options A, B, and D are all components or essential elements of PHC, but they are not the overarching principles that guide it.\n\nA. Health education\n\nB. Treatment of communicable diseases (This is part of 'treatment of common diseases and injuries')\n\nD. Provision of essential drugs\n\nThese are the services provided under PHC, while community participation is how those services should be delivered.",
+    "additional": "It's vital to distinguish between the Principles of PHC and the Elements/Components of PHC.\n\nThe 5 Principles of Primary Health Care:\n- Equitable Distribution: Healthcare should be accessible to all, regardless of geographic, social, or financial status.\n- Community Participation: The community must be involved in its own health decisions.\n- Intersectoral Coordination: Health cannot be achieved by the health sector alone. It requires collaboration with other sectors like education, agriculture (food security), and public works (water, sanitation).\n- Appropriate Technology: Healthcare methods and technologies should be scientifically sound, adaptable to the local context, and acceptable to the community.\n- Focus on Health Promotion and Prevention: Preventing illness is as important as curing it.\n\nThe 8+ Essential Elements/Components of PHC (What is provided):\nE - Education concerning prevailing health problems.\nL - Locally endemic disease control.\nE - Expanded Program on Immunization (EPI).\nM - Maternal and Child Health (MCH) and family planning.\nE - Essential drugs provision.\nN - Nutritional promotion.\nT - Treatment of common diseases and injuries.\nS - Safe water and sanitation.\n\nPOSSIBLE NCK QUESTIONS\n\nCollaboration between the Ministry of Health and the Ministry of Agriculture to improve food security is an example of which PHC principle? (Answer: Intersectoral Coordination).\n\nUsing Oral Rehydration Salts (a simple, affordable, and effective solution) instead of requiring IV therapy for all dehydration cases is an example of which PHC principle? (Answer: Appropriate Technology)."
+  },
+  {
+    "question": "Some of the vehicles of infection don't include;",
+    "options": {
+      "A": "Water",
+      "B": "Milk",
+      "C": "Food",
+      "D": "Mosquitoes"
+    },
+    "answer": "D",
+    "explanation": "Why D is correct: This question tests the difference between a vehicle and a vector in disease transmission.\n\nA Vehicle is an inanimate (non-living) substance or object that carries an infectious agent. Examples include water, food, milk, blood, and fomites (like doorknobs or used needles).\n\nA Vector is a living organism (usually an arthropod like an insect or tick) that transmits an infectious agent from an infected animal or person to another. Mosquitoes are a classic example of a vector.\n\nWhy the others are incorrect: Water (A), Milk (B), and Food (C) are all inanimate substances that can be contaminated and serve as vehicles for transmitting pathogens like Vibrio cholerae, Salmonella, and Brucella.",
+    "additional": "Modes of Disease Transmission:\n\nCategory\tType\tDefinition and Examples\nDirect\tDirect Contact\tPerson-to-person physical contact (e.g., STIs, scabies).\n\tDroplet Spread\tSpread through sneezing, coughing (e.g., influenza, common cold). Short distance (<1 meter).\nIndirect\tVehicle-borne\tVia inanimate objects: Food, Water, Milk, Fomites (e.g., Cholera, Typhoid).\n\tVector-borne\tVia living organisms:\n\t\t- Mechanical: Carries agent on body parts (e.g., fly carrying Shigella on its legs).\n\t\t- Biological: Agent multiplies/develops within the vector (e.g., Plasmodium in a mosquito for malaria).\n\tAirborne\tSpread via droplet nuclei or dust that can remain suspended in the air for long periods (e.g., Tuberculosis, Measles).\n\nPOSSIBLE NCK QUESTIONS\n\nTuberculosis is primarily transmitted via which mode? (Answer: Airborne transmission).\n\nA housefly that lands on feces and then on food, transmitting bacteria, is acting as what? (Answer: A mechanical vector).\n\nAn outbreak of typhoid fever traced back to a contaminated batch of juice is an example of what kind of transmission? (Answer: Vehicle-borne transmission)."
+  },
+  {
+    "question": "Early disease detection by screening is called;",
+    "options": {
+      "A": "Primary prevention",
+      "B": "Secondary prevention",
+      "C": "Tertiary prevention",
+      "D": "Rehabilitation"
+    },
+    "answer": "B",
+    "explanation": "Why B is correct: This is a direct definition question. The core purpose of Secondary Prevention is to halt or slow the progress of a disease in its earliest stages. The main strategies for achieving this are early detection (through screening, case finding) and prompt treatment. Screening aims to identify individuals who have a disease but do not yet have symptoms.\n\nWhy the others are incorrect:\n\nA. Primary prevention: Aims to prevent the disease from ever occurring (e.g., vaccination).\n\nC. Tertiary prevention: Aims to reduce the impact of an established, long-term disease (e.g., rehabilitation).\n\nD. Rehabilitation: This is a key component of tertiary prevention, not a level of prevention itself.",
+    "additional": "Key Examples of Screening (Secondary Prevention):\n\nCancer: Pap smear (cervical), mammography (breast), colonoscopy (colorectal).\nCardiovascular: Blood pressure measurement (hypertension), cholesterol checks (hyperlipidemia).\nInfectious Disease: Tuberculin Skin Test (TST) or IGRA for latent TB, HIV testing.\nMetabolic: Blood glucose testing (diabetes).\nNewborn Screening: Testing newborns for conditions like phenylketonuria (PKU) or congenital hypothyroidism.\n\nA good screening test should be valid (accurate), reliable (consistent), affordable, safe, and acceptable to the population.\n\nPOSSIBLE NCK QUESTIONS\n\nA 'well-baby' clinic that measures a child's weight and height to detect failure to thrive is practicing what level of prevention? (Answer: Secondary Prevention).\n\nAll activities directed at rehabilitation for a stroke patient fall under which level of prevention? (Answer: Tertiary Prevention)."
+  },
+  {
+    "question": "Drug resistant TB is becoming a public health issue in many developing countries. Which of the following is true of drug resistant TB?",
+    "options": {
+      "A": "Extensive drug resistant TB (XDR TB) is also resistant to 3 or more of the 6 classes of second-line drugs",
+      "B": "Multiple Drug Resistance (MDR-TB) is resistant to rifampicin and isoniazid",
+      "C": "MDR-TB is resistant to rifampicin and ethambutol",
+      "D": "MDR-TB is resistant to second-line anti-TB"
+    },
+    "answer": "B",
+    "explanation": "Why B is correct: This is the standard WHO definition. Multidrug-Resistant Tuberculosis (MDR-TB) is a form of TB caused by bacteria that are resistant to at least Isoniazid (H) and Rifampicin (R), the two most powerful, first-line anti-TB drugs.\n\nWhy the others are incorrect:\n\nA. XDR-TB definition is incorrect: Extensively Drug-Resistant TB (XDR-TB) is MDR-TB that is also resistant to any fluoroquinolone AND at least one of three second-line injectable drugs (e.g., amikacin, kanamycin, or capreomycin). The definition given in the option is imprecise.\n\nC. MDR-TB is resistant to rifampicin and ethambutol: This is incorrect. While resistance to rifampicin is a key part, the second mandatory drug for the MDR-TB definition is isoniazid, not ethambutol. Resistance to rifampicin alone is called Rifampicin-Resistant TB (RR-TB) and is treated as MDR-TB.\n\nD. MDR-TB is resistant to second-line anti-TB: This is backward. MDR-TB is defined by its resistance to first-line drugs. Resistance to second-line drugs defines XDR-TB or pre-XDR-TB.",
+    "additional": "Hierarchy of Drug-Resistant TB:\n\nMono-resistance: Resistant to one first-line anti-TB drug.\nPoly-resistance: Resistant to more than one first-line anti-TB drug, but not the combination of isoniazid and rifampicin.\nRifampicin Resistance (RR-TB): Resistant to Rifampicin. Because rifampicin resistance so often co-exists with isoniazid resistance and is a predictor of poor outcomes, RR-TB is managed in the same way as MDR-TB.\nMultidrug Resistance (MDR-TB): Resistant to at least Isoniazid AND Rifampicin.\nPre-Extensively Drug Resistance (Pre-XDR-TB): MDR-TB that is also resistant to any fluoroquinolone.\nExtensively Drug Resistance (XDR-TB): MDR-TB that is also resistant to any fluoroquinolone AND at least one other Group A drug (levofloxacin/moxifloxacin, bedaquiline, and linezolid). (Note: WHO updated definitions in 2021).\n\nMain cause of drug resistance: Improper use of antibiotics in chemotherapy of drug-susceptible TB patients, including poor treatment adherence, incorrect prescriptions, and poor quality drugs.\n\nPOSSIBLE NCK QUESTIONS\n\nWhat is the main driver for the development of drug-resistant TB? (Answer: Poor patient adherence to treatment / Inadequate treatment regimens).\n\nA TB patient's sputum culture shows resistance to Rifampicin only. How should this patient be managed? (Answer: As an MDR-TB case)."
+  },
+  {
+    "question": "Resistance to Isoniazid, Rifampicin and fluoroquinolones in a patient on treatment for tuberculosis is called;",
+    "options": {
+      "A": "XDR",
+      "B": "Treatment failure",
+      "C": "Persistent tuberculosis",
+      "D": "Opportunistic tuberculosis"
+    },
+    "answer": "A",
+    "explanation": "Why A is the best answer: The question describes resistance to:\n\nIsoniazid + Rifampicin (= MDR-TB)\n...PLUS a fluoroquinolone.\nUnder the definitions prevalent for many years and likely tested here, this would be moving into the XDR category. Specifically, this is the definition of Pre-XDR-TB. However, given the options, 'XDR' is the intended umbrella term for this high level of resistance beyond MDR.\n\nWhy the others are incorrect:\n\nB. Treatment failure: This is a clinical outcome, not a type of resistance. Treatment failure is when a patient remains sputum-positive after a certain period of treatment. This resistance pattern would cause treatment failure, but it is not the definition of it.\n\nC. Persistent tuberculosis: This is a descriptive term, not a formal classification of resistance.\n\nD. Opportunistic tuberculosis: This is not a standard term. TB is an opportunistic infection in immunocompromised individuals (like those with HIV), but this doesn't describe a resistance pattern.",
+    "additional": "Old definition of XDR-TB: MDR-TB + resistance to any fluoroquinolone + resistance to at least one second-line injectable.\n\nNew definition (2021) of XDR-TB: MDR/RR-TB + resistance to any fluoroquinolone + resistance to at least one additional Group A drug (bedaquiline or linezolid).\n\nThe condition in the question (MDR-TB + fluoroquinolone resistance) is now officially called Pre-XDR-TB. This is clinically significant because these patients require a much more complex regimen than standard MDR-TB patients but may not yet need the most complex XDR-TB regimens.\n\nPOSSIBLE NCK QUESTIONS\n\nWhat is the definition of 'treatment failure' in a new patient with drug-susceptible TB? (Answer: A patient whose sputum is positive at month 5 or later during treatment).\n\nThe management of drug-resistant TB is primarily guided by what type of testing? (Answer: Drug Susceptibility Testing - DST)."
+  },
+  {
+    "question": "Which one of the following is true concerning the Measles vaccine?",
+    "options": {
+      "A": "Is a toxoid",
+      "B": "May lead to Measles infection in later life",
+      "C": "Is a live attenuated virus",
+      "D": "Is given at the age of 6 months"
+    },
+    "answer": "C",
+    "explanation": "Why C is correct: The measles vaccine (and the combined Measles-Rubella, MR, vaccine) contains a weakened, but still living, form of the measles virus. This 'attenuated' virus is strong enough to stimulate a full, long-lasting immune response from the body but too weak to cause illness in a healthy, immunocompetent person.\n\nWhy the others are incorrect:\n\nA. Is a toxoid: Toxoid vaccines are made from inactivated toxins produced by bacteria (e.g., Tetanus, Diphtheria). Measles is a virus and does not produce a toxin.\n\nB. May lead to Measles infection in later life: False. The vaccine prevents measles. There is no evidence it causes latent infection.\n\nD. Is given at the age of 6 months: In the standard Kenyan schedule, it is given at 9 months. 6-month dosing is only during outbreaks.",
+    "additional": "Vaccine Reactions vs. Disease: A small percentage of children (5–15%) may develop a mild fever and/or a non-infectious rash 7–10 days post-vaccination. This is normal and not measles infection.\n\nContraindications: As a live vaccine, measles vaccine is contraindicated in severely immunocompromised individuals and pregnant women.\n\nPOSSIBLE NCK QUESTIONS\n\nA mother calls the clinic concerned that her child has a fever and rash 1 week after receiving the MR vaccine. What is the most appropriate advice from the nurse? (Answer: Reassure the mother that this is a common and expected reaction, advise on paracetamol, and monitor).\n\nWhich of the following conditions is a true contraindication for the measles vaccine? (Answer: Severe immunodeficiency)."
+  },
+  {
+    "question": "BCG vaccine is contraindicated in HIV-exposed babies",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "answer": "B",
+    "explanation": "Why B is correct: BCG is a live vaccine and can be dangerous for HIV-infected infants, but not all HIV-exposed babies are infected. Kenyan and WHO policy supports BCG vaccination for all clinically well, HIV-exposed neonates. The vaccine is only contraindicated if the infant is symptomatic or confirmed HIV-positive.",
+    "additional": "Risk vs. Benefit: In high-TB settings, benefits outweigh risks. Disseminated BCG disease risk is low compared to TB mortality.\n\nKey Distinction: HIV-Exposed ≠ HIV-Infected.\n\nPOSSIBLE NCK QUESTIONS\n\nAn infant born to an HIV-positive mother appears healthy at birth. What vaccines should be given? (Answer: BCG, OPV-0, and Hepatitis B birth dose).\n\nBCG vaccine is contraindicated in which infant? (Answer: Infant with confirmed symptomatic HIV disease)."
+  },
+  {
+    "question": "A HIV exposed infant should be immediately started on ARV therapy irrespective of clinical staging once PCR test is confirmed positive",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "answer": "A",
+    "explanation": "Why A is correct: According to the Test and Treat strategy, once an infant is confirmed HIV-positive via PCR, ART should begin immediately regardless of clinical status. Early ART drastically reduces mortality and improves outcomes in infants.",
+    "additional": "Diagnosis in Infants: Rapid tests are unreliable in <18 months due to maternal antibodies. Virological testing (PCR) is standard, usually done at 6 weeks.\n\nTreat All Policy: ART is offered immediately after HIV diagnosis for all ages.\n\nPOSSIBLE NCK QUESTIONS\n\nWhy is DNA PCR used to diagnose HIV in infants? (Answer: To avoid false positives from maternal antibodies).\n\nAt what age is the first routine HIV DNA PCR test performed? (Answer: 6 weeks)."
+  },
+  {
+    "question": "The reasons responsible for the occurrence of neonatal sepsis in Kenya include the following except;",
+    "options": {
+      "A": "Poor child health care services",
+      "B": "Poverty leading to non-hospital deliveries",
+      "C": "Poorly developed immune system",
+      "D": "Mother having suffered infection in the last trimester or a few days just before delivery"
+    },
+    "answer": "A",
+    "explanation": "Why A is correct: The question asks for the EXCEPTION. While poor child health care services can worsen outcomes from sepsis, it is a broader systemic issue rather than a direct cause of sepsis itself.\n\nWhy the others are incorrect:\n\nB. Poverty leading to non-hospital deliveries: Leads to unskilled, unhygienic deliveries—direct cause of neonatal sepsis.\n\nC. Poorly developed immune system: Neonates have immature immune systems, making them more susceptible.\n\nD. Maternal infection: Pathogens can be transmitted in utero, during labor, or delivery.",
+    "additional": "Neonatal Sepsis Types:\n\n- Early-onset (<72 hrs): Usually from maternal transmission (GBS, E. coli).\n- Late-onset (>72 hrs): Often nosocomial or community-acquired.\n\nPOSSIBLE NCK QUESTIONS\n\nA newborn develops symptoms 12 hours after birth. What is the likely type of sepsis? (Answer: Early-onset sepsis).\n\nWhat is the most common cause of early-onset neonatal sepsis? (Answer: Group B Streptococcus)."
+  },
+  {
+    "question": "Primary level of prevention is exemplified by;",
+    "options": {
+      "A": "Helping the client resume self-care",
+      "B": "Ensuring the safety of a suicidal client in the institution",
+      "C": "Teaching the client stress management techniques",
+      "D": "Case finding and surveillance in the community in question"
+    },
+    "answer": "C",
+    "explanation": "Why C is correct: Primary prevention aims to prevent the onset of disease or injury before it occurs. Teaching stress management techniques is health promotion, which prevents stress-related disorders such as anxiety and hypertension.\n\nWhy the others are incorrect:\n\nA. Helping the client resume self-care: This is Tertiary Prevention (rehabilitation).\n\nB. Ensuring the safety of a suicidal client: This is Secondary or Tertiary Prevention. It addresses an existing mental health crisis.\n\nD. Case finding and surveillance: These are Secondary Prevention activities focused on early detection.",
+    "additional": "Levels of Prevention Summary:\n\nPrimary: Prevents disease before it occurs (e.g., health education, immunizations).\nSecondary: Detects and treats disease early (e.g., screening, surveillance).\nTertiary: Reduces impact of ongoing illness (e.g., rehabilitation).\n\nPOSSIBLE NCK QUESTIONS:\n\n- A community nurse organizes a blood pressure screening clinic at a market. Which level of prevention? (Answer: Secondary)\n- Providing measles vaccine is what level? (Answer: Primary)\n- Teaching diabetic foot care is what level? (Answer: Tertiary)\n\nRECOMMENDED BOOK:\nPark's Textbook of Preventive and Social Medicine"
+  },
+  {
+    "question": "The freshly prepared oral rehydration solution (ORS) should be used within;",
+    "options": {
+      "A": "12 hours",
+      "B": "24 hours",
+      "C": "36 hours",
+      "D": "48 hours"
+    },
+    "answer": "B",
+    "explanation": "Why B is correct: WHO and UNICEF recommend that once ORS is mixed, it should be used within 24 hours. After that, it may harbor bacteria, especially in warm climates.\n\nWhy others are incorrect:\n\nA. 12 hours is too early to discard—wasteful.\nC & D. 36–48 hours allows bacterial growth and increases risk of infection.",
+    "additional": "Key ORS Facts:\n\n- Composition: Glucose, Sodium Chloride, Potassium Chloride, Trisodium Citrate\n- Function: Rehydrates and restores electrolytes during diarrheal illness\n- Must be mixed with exactly 1L clean water for effectiveness\n\nPOSSIBLE NCK QUESTIONS:\n\n- What role does glucose play in ORS? (Answer: Enhances sodium and water absorption)\n- What is the most important instruction when preparing ORS? (Answer: Use full packet with full 1L of clean water)\n- Which condition is NOT an indication for ORS? (Answer: Burns)\n\nRECOMMENDED BOOK:\nWHO/UNICEF Manuals on Diarrhoeal Disease Control"
+  },
+  {
+    "question": "Control measures of communicable diseases at the individual level include;",
+    "options": {
+      "A": "Controlling vectors, notifying diseases and abstaining from casual sex",
+      "B": "Being faithful to one sexual partner, using pit latrine, increasing immunization",
+      "C": "Using bed nets, completing immunizations, personal hygiene",
+      "D": "Using condoms, notifying diseases, personal hygiene"
+    },
+    "answer": "C",
+    "explanation": "Why C is correct: These are all actions an individual can personally take to prevent communicable diseases. Using bed nets helps prevent malaria, completing immunizations protects against vaccine-preventable diseases, and personal hygiene like handwashing prevents diseases such as cholera or hepatitis A.\n\nWhy the others are incorrect:\n\nA. Controlling vectors and notifying diseases are typically public health or community-level responsibilities, not individual-level.\n\nB. 'Increasing immunization' suggests a community or system-level effort. 'Using pit latrine' is valid but less clearly individual-focused compared to Option C.\n\nD. Notifying diseases is again a system-level measure, while condoms and hygiene are individual, making this option inconsistent.",
+    "additional": "Public Health Intervention Levels:\n\n- Individual: Handwashing, using bed nets, getting vaccinated, personal hygiene.\n- Community: Health education campaigns, vector control programs, public sanitation.\n- Health System: Disease notification, immunization campaigns, surveillance.\n\nPOSSIBLE NCK QUESTIONS:\n- Which is a community-level health intervention? (Answer: Providing mosquito nets to a village)\n- Disease surveillance is at what level? (Answer: Health System)\n- A nurse teaching handwashing is doing what type of intervention? (Answer: Health education promoting individual-level prevention)\n\nRECOMMENDED BOOK:\n*Foundations of Nursing in the Community* by Stanhope & Lancaster."
+  },
+  {
+    "question": "The first step in preparation of a health education plan in a community is;",
+    "options": {
+      "A": "Assess community needs for health education",
+      "B": "Specify goals and objectives",
+      "C": "Identify the target group of health teaching",
+      "D": "Identifying who will provide support and the kind of support to be provided"
+    },
+    "answer": "A",
+    "explanation": "Why A is correct: Assessment is the foundation of the planning process. Without knowing the specific needs, problems, and context of the community, effective goals and strategies cannot be set.\n\nWhy the others are incorrect:\n\nB. Goals and objectives are planned after the needs have been assessed.\n\nC. Identifying the target group is part of the assessment process, but not the first step.\n\nD. Identifying support comes later, during planning and implementation.",
+    "additional": "Steps in Health Education Planning (follows ADPIE model):\n\n1. **Assessment** – Identify health needs, knowledge gaps, and resources.\n2. **Diagnosis** – Prioritize health problems.\n3. **Planning** – Set SMART goals, choose target group, define support/resources.\n4. **Implementation** – Deliver health education sessions.\n5. **Evaluation** – Assess effectiveness (knowledge gain, behavior change).\n\nPOSSIBLE NCK QUESTIONS:\n- What does SMART stand for in health objectives? (Answer: Specific, Measurable, Achievable, Relevant, Time-bound)\n- A nurse uses admission data to identify top issues. What step? (Answer: Needs Assessment)\n- Final step in a health program? (Answer: Evaluation)\n\nRECOMMENDED BOOK:\n*Health Education: A Practical Guide for Health Professionals* by J. O. Adebayo."
+  },
+  {
+    "question": "In the division of vaccines and immunization, the vaccine given at 9 months and 18 months is;",
+    "options": {
+      "A": "Yellow fever",
+      "B": "Measles",
+      "C": "Vitamin A",
+      "D": "Rota virus"
+    },
+    "answer": "B",
+    "explanation": "Why B is correct: Measles-Rubella (MR) vaccine is administered at 9 months (first dose) and again at 18 months (second dose) as per the Kenya Expanded Programme on Immunization (KEPI). This two-dose schedule ensures long-term immunity.\n\nWhy the others are incorrect:\nA. Yellow fever is given once at 9 months in high-risk areas, not repeated at 18 months.\nC. Vitamin A is a supplement, not a vaccine. It is given every 6 months from age 6 months to 5 years.\nD. Rota virus vaccine is given earlier: at 6 and 10 weeks only.",
+    "additional": "Kenya KEPI Schedule Snapshot:\n- **9 months**: Measles-Rubella (MR) 1st dose, Yellow Fever (select areas)\n- **18 months**: Measles-Rubella (MR) 2nd dose, DPT Booster\n\nVaccine components:\n- **Penta**: DPT, HepB, Hib\n- **PCV**: Pneumococcal\n- **IPV**: Injectable Polio\n\nPOSSIBLE NCK QUESTIONS:\n- What are the components of Penta vaccine? (Answer: DPT-HepB-Hib)\n- What is the correct site and route for BCG? (Answer: Left upper arm, intradermal)\n- At what age is IPV given? (Answer: 14 weeks)\n\nRECOMMENDED BOOK:\nKenya MOH Immunization Policy Manuals & Park's Preventive and Social Medicine."
+  },
+  {
+    "question": "Protozoal infection which the gastrointestinal tract is the port of entry is;",
+    "options": {
+      "A": "Anthrax",
+      "B": "Botulism",
+      "C": "Giardiasis",
+      "D": "Taeniasis"
+    },
+    "answer": "C",
+    "explanation": "Why C is correct: Giardiasis is caused by Giardia lamblia, a protozoan parasite. Infection occurs via ingestion of contaminated food or water, entering through the GI tract.\n\nWhy the others are incorrect:\nA. Anthrax is bacterial, and commonly enters via skin (cutaneous) or inhalation.\nB. Botulism is foodborne poisoning by a neurotoxin, not an infection by a protozoa.\nD. Taeniasis is caused by a tapeworm (helminth), not protozoa.",
+    "additional": "Pathogen Classifications:\n- **Protozoa**: Giardia, Plasmodium, Entamoeba\n- **Bacteria**: Bacillus anthracis, Vibrio cholerae\n- **Helminths**: Taenia (tapeworm), Schistosoma\n\nKey concept: Protozoa = unicellular; Helminths = multicellular.\n\nPOSSIBLE NCK QUESTIONS:\n- Amoebic dysentery is caused by? (Answer: Entamoeba histolytica – Protozoa)\n- Which disease is caused by helminths? (Answer: Schistosomiasis)\n- Most common route for GI protozoa? (Answer: Fecal-oral)\n\nRECOMMENDED BOOK:\nJawetz, Melnick & Adelberg's Medical Microbiology."
   }
 ]
+
+
+
+
+
 
 
 
