@@ -118,6 +118,29 @@
     "answer": "C",
     "explanation": "Background: Osteoporosis is a disease characterized by low bone mass and deterioration of bone tissue, leading to fragile bones and an increased risk of fractures.\n\n(C) Why it's correct: This option combines multiple major risk factors for osteoporosis:\n\nAge: Bone loss accelerates after age 50-60.\n\nGender/Menopause: She is a woman and, at 65, is postmenopausal. The decline in estrogen after menopause is the single greatest risk factor for osteoporosis in women.\n\nSedentary Lifestyle: Lack of weight-bearing exercise leads to bone demineralization.\n\nSmoking: Tobacco use is directly toxic to osteoblasts (bone-building cells) and is a significant risk factor.\n\n(A) Why it's incorrect: A 36-year-old man is at low risk. (However, long-term use of corticosteroids for asthma could increase his risk later in life).\n\n(B) Why it's incorrect: While advanced age and excessive alcohol consumption are risk factors, being female and postmenopausal (as in option C) confers a much higher risk.\n\n(D) Why it's incorrect: A 25-year-old woman is at peak bone mass. Jogging is a weight-bearing exercise that builds bone density and is protective against osteoporosis.",
     "additional": "Other Risk Factors for Osteoporosis:\n\nCaucasian or Asian ethnicity.\n\nFamily history.\n\nLow calcium and Vitamin D intake.\n\nLong-term use of corticosteroids.\n\nCertain endocrine disorders (e.g., hyperthyroidism).\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 63 (Nursing Management: Musculoskeletal Problems). See the section on \"Osteoporosis\" and the table of risk factors."
+  },
+  {
+    "question": "Heterograft is;",
+    "options": {
+      "a": "From a cadaver",
+      "b": "From another species",
+      "c": "From a burned client"
+    },
+    "answer": "b",
+    "explanation": "Correct (b): The terminology for skin grafts is specific. A heterograft (also known as a xenograft) is a temporary skin graft taken from a different species. The most common source is a pig (porcine). These grafts are used as a temporary biological dressing to cover large burn wounds, prevent fluid loss, and reduce the risk of infection until the patient's own skin can be used.\n\nIncorrect (a): A graft from a cadaver (another human) is called an allograft or homograft.\n\nIncorrect (c): A graft taken from an unburned area of the same burned client is called an autograft. This is the only type of permanent graft.",
+    "additional": "Deeper Insight: It's important to know the graft terminology:\n\nAutograft: Patient's own skin. Permanent.\n\nAllograft (Homograft): Skin from another human (living or cadaver). Temporary.\n\nHeterograft (Xenograft): Skin from another species (e.g., pig). Temporary.\n\nSynthetic skin substitutes are also used as temporary coverings. The body's immune system will eventually reject allografts and heterografts, which is why they are only temporary solutions.\n\nPossible Next Question (NCK Focus): \"A nurse is caring for a client who has just received an autograft to a burn wound on their leg. Which nursing intervention is a priority for the graft site?\" The answer would be to immobilize the grafted area to allow time for the graft to adhere and develop a new blood supply (revascularization)."
+  },
+  {
+    "question": "A client with an extremity burn injury has undergone a fasciotomy to treat compartment syndrome of the leg. The nurse prepares to provide which type of wound care to the fasciotomy site?",
+    "options": {
+      "a": "Dry sterile dressings",
+      "b": "Hydrocolloid dressings",
+      "c": "Wet sterile saline dressings",
+      "d": "Half strength betadine dressings"
+    },
+    "answer": "c",
+    "explanation": "Correct (c): A fasciotomy is a surgical incision made through the fascia to relieve pressure and restore circulation in compartment syndrome. This creates a large open wound that is left open to heal by secondary intention or is closed later. The standard of care for these open wounds is to keep the underlying tissue viable and moist to promote healing. This is best achieved with sterile saline-moistened dressings (often called wet-to-damp dressings).\n\nIncorrect (a): A dry sterile dressing would stick to the wound bed, causing pain and trauma to the healing tissue upon removal.\n\nIncorrect (b): Hydrocolloid dressings are occlusive and are used for clean, non-infected, partial-thickness wounds with minimal drainage, not large, open surgical wounds like a fasciotomy.\n\nIncorrect (d): Betadine (povidone-iodine) is cytotoxic, meaning it is toxic to healthy healing cells like fibroblasts. Its use on open wounds is now discouraged as it can impair wound healing. Sterile normal saline is the preferred cleansing and dressing solution.",
+    "additional": "Deeper Insight: After a fasciotomy, the two priority nursing assessments for the affected extremity are:\n\nNeurovascular checks: Continue to monitor circulation, sensation, and movement (the 5 P's: Pain, Pallor, Pulselessness, Paresthesia, Paralysis) to ensure the procedure was successful and circulation is restored.\n\nInfection prevention: The large open wound is at high risk for infection. Strict sterile technique during dressing changes is crucial.\n\nPossible Next Question (NCK Focus): \"A nurse is assessing a client with a full-thickness circumferential burn to the arm. Which finding would prompt the nurse to immediately notify the physician?\" The answer would be a weak or absent radial pulse, as this is a key sign of developing compartment syndrome requiring an escharotomy or fasciotomy."
   }
 ]
 
