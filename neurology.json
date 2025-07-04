@@ -1736,8 +1736,33 @@
     "answer": "C",
     "explanation": "Raising the head of the bed to 30° promotes venous drainage and reduces ICP in stroke patients, making it a standard nursing intervention.",
     "additional": "Stroke Overview:\n- Ischemic (87%): clot-related\n- Hemorrhagic (13%): bleeding\n\nFAST Acronym:\n- Face drooping\n- Arm weakness\n- Speech difficulty\n- Time to act\n\nKey Points:\n- (B) is true but (C) is the most actionable nursing measure\n- CT scan first to rule out hemorrhage\n- tPA contraindicated in hemorrhagic stroke\n\nTextbook Reference: Brunner & Suddarth’s, Chapter 67."
+  },
+  {
+    "question": "A patient with increased intracranial pressure will present with.-",
+    "options": {
+      "A": "Tarchycardia, bradycardia, hypotension.",
+      "B": "Reflex vomiting, hypertension, tachycardia.",
+      "C": "Projectile vomiting, tachycardia, hypothermia.",
+      "D": "Hypertension, tachycardia, bradypnoea."
+    },
+    "answer": "D",
+    "explanation": "None of the options are completely correct, but option (D) contains two components (Hypertension, Bradypnea) that are part of Cushing’s Triad. While it mistakenly lists tachycardia instead of bradycardia, it is the best available option.",
+    "additional": "Cushing’s Triad (Classic Late Sign of Increased ICP):\n- Hypertension (widened pulse pressure)\n- Bradycardia (slow bounding pulse)\n- Irregular respirations (bradypnea, Cheyne-Stokes, or ataxic breathing)\n\nEarly Signs of Increased ICP:\n- Change in LOC (restlessness, confusion)\n- Headache (worse in the morning)\n- Pupillary changes (sluggish, unequal, or fixed/dilated)\n- Motor weakness\n\nNursing Interventions:\n- Elevate HOB 30°\n- Head in neutral position\n- Quiet environment, avoid overstimulation\n- Cluster care\n- Administer osmotic/loop diuretics (e.g., Mannitol, Furosemide)\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, Chapter 56."
+  },
+  {
+    "question": "Antiparkinsonian agents act through restoring the natural balance of:-",
+    "options": {
+      "A": "Acetylcholine and dopamine neurotransmitters.",
+      "B": "Serotonin and adrenaline neurotransmitters.",
+      "C": "Dopamine and serotonin neurotransmitters.",
+      "D": "Dopamine and nor-adrenaline neurotransmitters."
+    },
+    "answer": "A",
+    "explanation": "Antiparkinsonian drugs act by restoring the balance between acetylcholine (excitatory) and dopamine (inhibitory) in the basal ganglia. This imbalance causes the classic motor symptoms of Parkinson's disease.",
+    "additional": "Parkinson's Disease Pathophysiology:\n- Loss of dopamine-producing neurons in the substantia nigra\n- Relative excess of acetylcholine due to dopamine depletion\n\nClassic Symptoms (TRAP):\n- Tremor (resting, 'pill-rolling')\n- Rigidity (cogwheel)\n- Akinesia/Bradykinesia (slowed movement)\n- Postural Instability (shuffling gait, fall risk)\n\nKey Medications:\n- Levodopa: Converts to dopamine in the brain\n- Carbidopa: Prevents peripheral breakdown of levodopa\n- Anticholinergics (e.g., Benztropine): Reduce acetylcholine effects\n\nComplication:\n- 'On-Off' phenomenon with long-term levodopa use\n\nTextbook Reference: Brunner & Suddarth's, Chapter 68."
   }
 ]
+
   
 
 
