@@ -306,6 +306,18 @@
     "answer": "B",
     "explanation": "Chi-square distribution is based on summing the squares of standard normal variables. It is used to test for associations in categorical data.",
     "additional": "CHI-SQUARE OVERVIEW:\n- χ² = Sum of squared deviations\n- Always non-negative\n- Right-skewed distribution\n- Commonly used for: Test of Independence & Goodness-of-fit\n\nEXAMPLE: Testing association between smoking status and lung cancer.\n\nKEY: Chi-square = Categorical + Sum of squares.\nBOOK REFERENCE: Medical Statistics from Scratch by David Bowers"
+  },
+  {
+   "question": "136. Simulation is best defined as;",
+    "options": {
+      "a": "Demonstration of procedures in the skills lab",
+      "b": "Using substitute elements to represent the real thing",
+      "c": "Clinical skills teaching at the patient's bedside",
+      "d": "Use of a combination of audio-visual media"
+    },
+    "answer": "b",
+    "explanation": "Simulation is an educational technique that creates a situation or environment to allow people to experience a representation of a real event for the purpose of practice, learning, evaluation, or research.\n\nOption (b) provides the most accurate and broad definition. The \"substitute elements\" could be anything from a simple task trainer (e.g., an arm for IV insertion) to a high-fidelity mannequin that breathes and has vital signs, or even a standardized patient (an actor trained to play the role of a patient). The key is that it represents reality without being reality.\n\nOption (a), Demonstration, is a teaching method, but it is not the definition of simulation itself. A demonstration can be part of a simulation.\n\nOption (c) is clinical teaching, which is real-world practice, the opposite of simulation.\n\nOption (d) describes a teaching strategy but does not define the core concept of simulation.",
+    "additional": "Fidelity in Simulation:\n- Low-fidelity: Static mannequins or task trainers for practicing single skills (e.g., catheterization, suturing).\n- Medium-fidelity: Mannequins with some electronic features like heart and lung sounds.\n- High-fidelity: Computerized, interactive mannequins that respond to interventions, allowing for practice of complex scenarios like cardiac arrest or postpartum hemorrhage.\n\nBenefits of Simulation in Nursing Education:\n- Safe Environment: Allows learners to practice and make mistakes without harming a real patient.\n- Practice with Rare Events: Provides opportunities to manage critical but infrequent events (e.g., malignant hyperthermia).\n- Standardized Learning: Ensures all students have the opportunity to experience a specific clinical situation.\n- Develops teamwork, communication (SBAR), and critical thinking skills."
   }
 ]
 
