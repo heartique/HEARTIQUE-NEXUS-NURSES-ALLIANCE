@@ -1212,20 +1212,44 @@
     "answer": "A",
     "explanation": "Schizophrenia is associated with low motivation, flat affect, and social withdrawal. Heightened confidence is more typical in manic states, not schizophrenia.",
     "additional": "Symptoms of Schizophrenia:\n- Positive: Hallucinations, delusions, disorganized behavior\n- Negative: Apathy, flat affect, social withdrawal\n- Cognitive: Poor attention, memory issues\n\nKEY: A = Manic/Bipolar, not schizophrenia.\n\nBOOK REFERENCE: Kaplan & Sadock’s Synopsis of Psychiatry."
+  },
+  {
+    "question": "During a class for teens, a participant states she frequently “overindulges” in numerous activities, including eating. She questions her likelihood for becoming addicted to alcohol as a result of her “addictive personality.” What information should be provided to the client?",
+    "options": {
+      "A": "There are no data to support the existence of an addictive personality, although individuals who become addicted to substances frequently display an affinity for engaging in risky behaviors.",
+      "B": "It is true the addictive personality does have a greater incidence of becoming addicted to a variety of substances.",
+      "C": "There is no relationship between addiction and personalities who are prone to “overindulgence.”",
+      "D": "The client is not at an advanced enough age to make this determination."
+    },
+    "answer": "A",
+    "explanation": "This question addresses a common misconception about addiction. The concept of a single, defined \"addictive personality\" is a myth and is not supported by scientific research. Addiction is a complex brain disease influenced by genetics, environment, and individual life experiences.\n\na. There are no data to support the existence of an addictive personality, although individuals who become addicted to substances frequently display an affinity for engaging in risky behaviors. This is the most accurate and therapeutic response. It gently debunks the myth while validating the client's concern by acknowledging that certain personality traits (like impulsivity, sensation-seeking, and risk-taking) are correlated with a higher risk for developing substance use disorders.\n\nb. It is true the addictive personality does have a greater incidence... This reinforces a harmful myth.\n\nc. There is no relationship... This is too strong a statement. While there isn't a specific \"personality,\" there are clear relationships between certain personality traits and addiction.\n\nd. The client is not at an advanced enough age... This is dismissive and invalidates the teen's valid question and self-awareness.",
+    "additional": "Risk Factors for Addiction: Genetics/family history, early age of first use, trauma, co-occurring mental health disorders (like depression or anxiety), and environmental factors (like peer pressure or lack of social support).\n\nNeurobiology of Addiction: Involves the brain's reward pathway (dopamine system), which becomes hijacked by the substance, leading to compulsive use despite negative consequences.\n\nReference: A textbook on psychiatric nursing, such as Varcarolis' Foundations of Psychiatric-Mental Health Nursing."
+  },
+  {
+    "question": "During a routine physical, the nurse asks the client about alcohol use. The client denies alcohol use. The client reports having alcoholic parents, and wonders about the likelihood of becoming an alcoholic as well. What response by the nurse is most correct?",
+    "options": {
+      "A": "\"You are right to avoid alcohol use.\"",
+      "B": "\"You will likely become an alcoholic.\"",
+      "C": "\"There are studies that support a genetic link for developing alcoholism.\"",
+      "D": "\"You should be fine to drink.\""
+    },
+    "answer": "C",
+    "explanation": "This question tests the nurse's ability to provide factual, non-judgmental information. The client is asking a direct question based on their family history.\n\nc. \"There are studies that support a genetic link for developing alcoholism.\" This is the most appropriate response. It is a factual, neutral statement that directly answers the client's question and acknowledges the scientific basis for their concern. It opens the door for further education about risk factors and protective factors without making predictions or giving advice.\n\na. \"You are right to avoid alcohol use.\" While abstinence is a protective factor, this response is paternalistic and judgmental.\n\nb. \"You will likely become an alcoholic.\" This is fatalistic, unhelpful, and not necessarily true. Genetics confer risk, not certainty.\n\nd. \"You should be fine to drink.\" This is false reassurance and potentially dangerous advice, as it ignores the client's significant genetic risk factor.",
+    "additional": "Genetics of Alcoholism: Research shows that children of alcoholics are about four times more likely than the general population to develop alcohol problems. This risk is due to a combination of genetic and environmental factors.\n\nProtective Factors: Strong coping skills, positive social support, and making informed choices (like delaying the age of first drink or choosing to abstain) can mitigate genetic risk.\n\nReference: A textbook on psychiatric nursing or addiction."
+  },
+  {
+    "question": "The MAIN immune modulator in the trigger of asthma is?",
+    "options": {
+      "A": "IgA",
+      "B": "IgE",
+      "C": "IgG",
+      "D": "IgD"
+    },
+    "answer": "B",
+    "explanation": "This question tests knowledge of basic immunology related to allergic reactions. Allergic (or atopic) asthma is a Type I hypersensitivity reaction. The key immune modulator in this process is Immunoglobulin E (IgE).\n\nThe process is as follows:\n\nSensitization: On first exposure to an allergen (e.g., pollen, dust mites), the body produces specific IgE antibodies against it.\n\nThese IgE antibodies then attach to the surface of mast cells and basophils in the respiratory tract.\n\nRe-exposure: On subsequent exposure, the allergen binds to the IgE on these cells, causing them to degranulate and release a flood of inflammatory mediators (like histamine, leukotrienes, and prostaglandins).\n\nThese mediators cause bronchoconstriction, airway inflammation, and increased mucus production—the classic asthma attack.",
+    "additional": "Other Immunoglobulins:\n\nIgG: The most abundant antibody; provides long-term immunity against most bacteria and viruses.\n\nIgA: Found in mucous secretions (saliva, tears, breast milk, GI tract); provides local immunity on mucosal surfaces.\n\nIgM: The first antibody produced in response to a new infection.\n\nIgD: Attached to B cells; helps with B cell activation.\n\nAsthma Management: Medications target this inflammatory cascade. Corticosteroids reduce inflammation, and bronchodilators relax the constricted airway muscles.\n\nReference: Lewis's Medical-Surgical Nursing, Chapter 27: Allergic Disorders"
   }
 ]
-
-
-
-
-
-
-
-
-  
-  
-
-
 
 
 
