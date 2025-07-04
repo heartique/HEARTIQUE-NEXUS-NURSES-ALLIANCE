@@ -201,4 +201,10 @@ if (resetBtn) {
       location.reload();
     }, 500);
   });
+  const reloadBtn = document.getElementById("reload-btn");
+if (reloadBtn) {
+  reloadBtn.addEventListener("click", () => {
+    location.reload(true); // true = hard reload
+  });
+}
 }
