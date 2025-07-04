@@ -181,19 +181,23 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }, 1200);
 });
-    // Reset button logic with confirmation
+
+  // Reset button logic with confirmation and sound
   const resetBtn = document.getElementById("reset-btn");
   if (resetBtn) {
     resetBtn.addEventListener("click", () => {
       const confirmReset = confirm("⚠️ This will mark all units as unread and reset your quiz progress.\n\nDo you want to continue?");
       if (!confirmReset) return;
 
+      const sound = new Audio("notify.mp3");
+      sound.play().catch(() => {}); // In case autoplay is blocked
+
       Object.keys(localStorage).forEach(key => {
         if (key.startsWith("qcount_")) {
           localStorage.removeItem(key);
         }
       });
-      location.reload();
+
+      setTimeout(() => location.reload(), 500); // Let sound play before reload
     });
   }
-
