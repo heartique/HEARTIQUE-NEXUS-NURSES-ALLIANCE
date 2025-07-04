@@ -1,0 +1,62 @@
+[
+  {
+    "question": "20. Gram negative bacilli include:-",
+    "options": {
+      "a": "Escherichia coli, salmonella, shigella.",
+      "b": "Salmonella, staphylococcus, streptococcus.",
+      "c": "Shigella, neisseria gonorrhoea, streptococci.",
+      "d": "Clostrichia, esherichia coli, staphylococcus."
+    },
+    "answer": "a",
+    "explanation": "This question tests your ability to classify common bacteria based on their Gram stain reaction (positive or negative) and shape (cocci or bacilli).\n\nGram-negative bacteria do not retain the crystal violet stain and appear pink/red after counterstaining with safranin.\n\nBacilli are rod-shaped bacteria.\n\nOption (a) is correct because E. coli, Salmonella, and Shigella are all classic examples of Gram-negative, rod-shaped bacteria (bacilli).\n\nOption (b) is incorrect because Staphylococcus and Streptococcus are Gram-positive cocci (spherical).\n\nOption (c) is incorrect because Neisseria gonorrhoea is a Gram-negative coccus (specifically, a diplococcus), and Streptococcus is a Gram-positive coccus.\n\nOption (d) is incorrect because Clostridium (misspelled as Clostrichia) is a Gram-positive bacillus, and Staphylococcus is a Gram-positive coccus.",
+    "additional": "High-Yield Classification Table: Create a simple 2x2 table for studying.\n| | Gram-Positive | Gram-Negative |\n| :--- | :--- | :--- |\n| Cocci (Spheres) | Staphylococcus, Streptococcus | Neisseria, Moraxella |\n| Bacilli (Rods) | Clostridium, Bacillus, Listeria | E. coli, Salmonella, Shigella, Pseudomonas, Klebsiella |\n\nClinical Correlation (Very Testable):\n\nE. coli: Most common cause of UTIs and a cause of traveler's diarrhea.\n\nSalmonella typhi: Causes typhoid fever.\n\nShigella: Causes bacillary dysentery (bloody diarrhea).\n\nKey Concept: Gram-negative bacteria have an outer membrane containing Lipopolysaccharide (LPS), also known as endotoxin. When these bacteria are killed, they release endotoxin, which can trigger fever, hypotension, and septic shock. This is a critical concept in managing sepsis."
+  },
+  {
+    "question": "34. The sensitivity part of a culture & sensitivity test is for the purpose of,",
+    "options": {
+      "a": "Identifying the causative organism for the infection diagnosed",
+      "b": "Identifying the most effective antibiotics against the causative organism",
+      "c": "Identifying the antibiotics that the patient is resistant to",
+      "d": "Testing the concentration of antibiotic required to cure an infection"
+    },
+    "answer": "b",
+    "explanation": "A \"Culture & Sensitivity\" (C&S) test has two distinct parts:\n\nCulture: The specimen (e.g., urine, blood, sputum) is placed on a nutrient medium to grow any bacteria present. The bacteria are then isolated and identified. This addresses option (a).\n\nSensitivity (or Susceptibility Testing): Once the organism is identified, it is tested against a panel of different antibiotics to see which ones inhibit its growth. The results show whether the organism is sensitive (S), resistant (R), or intermediate (I) to each antibiotic.\n\nOption (b) accurately describes this primary purpose – to guide the clinician in choosing the best drug to treat the infection.\n\nOption (c) is a part of the process, but the overall goal is to find what works, not just what doesn't. Option (b) is a more complete answer.\n\nOption (d) describes determining the Minimum Inhibitory Concentration (MIC), which is a more advanced form of sensitivity testing, but the fundamental purpose is still to find an effective drug, as stated in (b).",
+    "additional": "Nursing Responsibility: The nurse's crucial role is correct specimen collection. For a C&S test, always remember to:\n\nCollect the specimen before the first dose of antibiotics is administered. If antibiotics have already been started, document this on the lab request form.\n\nUse the correct sterile container and aseptic technique to avoid contamination.\n\nInterpreting the Report:\n\nS (Sensitive/Susceptible): The antibiotic is likely to be effective at standard doses.\n\nR (Resistant): The antibiotic is not effective and should not be used.\n\nI (Intermediate): The antibiotic may be effective at higher doses or if concentrated at the site of infection.\n\nKey Terms to Know:\n\nBroad-spectrum antibiotic: Effective against a wide range of bacteria (both Gram-positive and Gram-negative).\n\nNarrow-spectrum antibiotic: Effective against a limited range of bacteria. These are preferred once the organism is identified to reduce side effects and resistance."
+  },
+  {
+    "question": "48. Microorganisms that have both bacterial and viral characteristics include;",
+    "options": {
+      "a": "Mycoplasma, spirochetes",
+      "b": "Rickettsia, chlamydia",
+      "c": "Plasmodium, mycoplasma",
+      "d": "Spirochetes, chlamydia"
+    },
+    "answer": "b",
+    "explanation": "This question refers to \"atypical\" bacteria that share some properties with viruses, primarily that they are obligate intracellular parasites. This means, like viruses, they cannot replicate on their own and must live inside a host cell.\n\nOption (b) is correct. Rickettsia and Chlamydia are bacteria (they have cell walls, ribosomes, and are susceptible to antibiotics), but they are obligate intracellular parasites, a key viral characteristic.\n\nOption (a) is incorrect. Mycoplasma is a bacterium unique for having no cell wall, and spirochetes are bacteria with a unique spiral shape (e.g., Treponema pallidum which causes syphilis). They are not obligate intracellular parasites.\n\nOption (c) is incorrect. Plasmodium is a protozoan parasite (not a bacterium) that causes malaria.\n\nOption (d) is incorrect for the reasons mentioned above.",
+    "additional": "Diseases Caused by Atypical Bacteria (High-Yield):\n\nChlamydia trachomatis: Causes the most common bacterial STI (chlamydia), trachoma (a leading cause of preventable blindness), and neonatal conjunctivitis/pneumonia.\n\nRickettsia rickettsii: Causes Rocky Mountain spotted fever (transmitted by ticks).\n\nMycoplasma pneumoniae: A common cause of \"atypical pneumonia\" or \"walking pneumonia.\"\n\nNCK Tip: Remember the key differentiating feature:\n\nViruses: Not cells, no metabolism, need host cell to replicate.\n\nTypical Bacteria: Free-living, have all machinery for self-replication.\n\nAtypical Bacteria (Rickettsia/Chlamydia): Are bacteria, but act like viruses by requiring a host cell to replicate."
+  },
+  {
+    "question": "51. The common causative organism for pharyngitis is,",
+    "options": {
+      "a": "Group B, beta hemolytic streptococcus",
+      "b": "Group A, beta hemolytic streptococcus",
+      "c": "Hemophilus influenza",
+      "d": "Staphylococcus aureus"
+    },
+    "answer": "b",
+    "explanation": "The most common and clinically significant bacterial cause of pharyngitis (\"sore throat\") is Streptococcus pyogenes, which is classified as Group A beta-hemolytic streptococcus (GAS).\n\nOption (b) is the correct answer. This is commonly known as \"strep throat.\"\n\nOption (a), Group B streptococcus (S. agalactiae), is a major cause of neonatal sepsis and meningitis, not typically pharyngitis in the general population.\n\nOption (c), Haemophilus influenzae, is a cause of otitis media, sinusitis, and historically, epiglottitis and meningitis (now rare due to the Hib vaccine). It is not a primary cause of pharyngitis.\n\nOption (d), Staphylococcus aureus, is a common cause of skin and soft tissue infections (boils, abscesses), pneumonia, and bacteremia, but not a typical cause of pharyngitis.",
+    "additional": "Why is \"Strep Throat\" so important? The NCK will expect you to know the potential post-streptococcal sequelae (complications that occur after the infection):\n\nAcute Rheumatic Fever: An inflammatory disease affecting the heart (carditis), joints (arthritis), skin, and brain. This can lead to permanent Rheumatic Heart Disease.\n\nPost-Streptococcal Glomerulonephritis (PSGN): Inflammation of the kidney's glomeruli, leading to edema, hypertension, and hematuria.\n\nDiagnosis: Rapid antigen detection test (rapid strep test) and/or throat culture.\n\nTreatment: Penicillin (or amoxicillin) is the drug of choice to treat the infection and, crucially, to prevent rheumatic fever."
+  },
+  {
+    "question": "77. The primary causes of acute otitis media are;-",
+    "options": {
+      "a": "Escherichia coli and proteus spp.",
+      "b": "Streptococcus pneumonia and Haemophilus influenza.",
+      "c": "Staphylococcus aureus and haemophilus influenza.",
+      "d": "Proteus spp. and Streptococcus pneumonea."
+    },
+    "answer": "b",
+    "explanation": "Acute otitis media (AOM), or middle ear infection, is most common in young children. The infection typically follows a viral upper respiratory infection, which causes eustachian tube dysfunction and allows bacteria from the nasopharynx to enter the middle ear.\n\nOption (b) is correct. The three most common bacterial pathogens responsible for AOM are:\n\nStreptococcus pneumoniae (the most common)\n\nHaemophilus influenzae (non-typeable strains, since the Hib vaccine prevents type b)\n\nMoraxella catarrhalis\n\nOptions (a) and (d) are incorrect. E. coli and Proteus spp. are common causes of urinary tract infections, not AOM.\n\nOption (c) is incorrect because Staphylococcus aureus is a less common cause of AOM compared to S. pneumoniae.",
+    "additional": "Risk Factors for AOM:\n\nYoung age (6-24 months)\n\nDaycare attendance\n\nLack of breastfeeding\n\nExposure to tobacco smoke\n\nUse of a pacifier (dummy)\n\nClinical Presentation: The child presents with fever, otalgia (ear pain, often demonstrated by tugging at the ear), irritability, and sometimes fluid draining from the ear (otorrhea) if the tympanic membrane perforates.\n\nPrevention: The pneumococcal conjugate vaccine (PCV) and the Hib vaccine, part of the routine childhood immunization schedule (KEPI), have significantly reduced the incidence of AOM caused by these specific organisms. This is a key public health point for the NCK exam."
+  }
+]
