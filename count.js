@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let soundPlayed = false;
   const notifySound = new Audio("notify.mp3");
 
+  // Global badge at top
   const globalBadge = document.createElement("div");
   globalBadge.id = "global-badge";
   Object.assign(globalBadge.style, {
@@ -22,24 +23,6 @@ document.addEventListener("DOMContentLoaded", () => {
     display: "none"
   });
   document.body.appendChild(globalBadge);
-
-  const showPopup = (message) => {
-    const popup = document.createElement("div");
-    popup.textContent = message;
-    Object.assign(popup.style, {
-      position: "fixed",
-      bottom: "20px",
-      right: "20px",
-      background: "#333",
-      color: "#fff",
-      padding: "12px 20px",
-      borderRadius: "10px",
-      boxShadow: "0 2px 10px rgba(0,0,0,0.3)",
-      zIndex: 9999
-    });
-    document.body.appendChild(popup);
-    setTimeout(() => popup.remove(), 4000);
-  };
 
   const createBadge = (count) => {
     const badge = document.createElement("span");
@@ -62,13 +45,17 @@ document.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll(".unit-tab").forEach(tab => {
     const raw = tab.dataset.json || "";
     const files = raw.split(",").map(f => f.trim()).filter(f => f);
-    if (files.length === 0) return;
+    if (files.length === 0) {
+      console.warn(`⚠️ No JSON data provided for tab:`, tab);
+      tab.textContent += " (No Data)";
+      return;
+    }
 
     Promise.all(files.map(file =>
       fetch(file)
         .then(res => res.json())
         .catch((err) => {
-          console.warn(`Failed to load ${file}`, err);
+          console.warn(`❌ Failed to load ${file}`, err);
           return [];
         })
     ))
@@ -76,7 +63,6 @@ document.addEventListener("DOMContentLoaded", () => {
       const count = results.reduce((sum, arr) =>
         sum + (Array.isArray(arr) ? arr.length : 0), 0);
 
-      // Force all unread flag
       if (localStorage.getItem("forceAllUnread") === "yes") {
         localStorage.removeItem(`qcount_${raw}`);
       }
@@ -96,18 +82,16 @@ document.addEventListener("DOMContentLoaded", () => {
           notifySound.play().catch(() => {});
           soundPlayed = true;
         }
-
-        showPopup(`🆕 ${diff} new question(s) in: ${tab.textContent.trim()}`);
       }
 
+      // ✅ Single click only, no reload
       tab.addEventListener("click", () => {
         localStorage.setItem(`qcount_${raw}`, count);
         const b = tab.querySelector(".unit-badge");
         if (b) b.remove();
-        setTimeout(() => location.reload(), 100);
       });
 
-      // Count paperOne and paperTwo totals
+      // Count Paper 1 & 2
       if (tab.classList.contains("paper-one")) {
         paperOneTotal += count;
         tab.setAttribute('data-counted', 'yes');
@@ -117,7 +101,7 @@ document.addEventListener("DOMContentLoaded", () => {
         tab.setAttribute('data-counted', 'yes');
       }
 
-      // After all units loaded, show accurate totals and badges
+      // Total Badges per Paper
       const paperOneTabs = document.querySelectorAll(".paper-one");
       const paperTwoTabs = document.querySelectorAll(".paper-two");
 
@@ -182,12 +166,10 @@ document.addEventListener("DOMContentLoaded", () => {
           }
         }
       }
-    })
-    .catch(() => {
-      tab.textContent += ` (Unavailable)`;
     });
   });
 
+  // ✅ Show global only once
   setTimeout(() => {
     if (totalNew > 0) {
       globalBadge.style.display = "block";
