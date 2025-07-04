@@ -766,6 +766,102 @@
     "answer": "B",
     "explanation": "This question defines how immunization programs evaluate performance.\n\nImmunization Targets: Clearly defined goals (e.g., achieving 90% coverage for DPT3 nationally) that guide planning, resource allocation, and evaluation.\n\nExamples:\n- Timelines for introducing new vaccines (e.g., HPV).\n- Geographic equity (e.g., 80%+ coverage in every district).\n\nThese goals are evidence-based and linked to disease elimination/control.",
     "additional": "1. Why Targets Matter:\n- Allow performance monitoring.\n- Help identify gaps.\n- Justify funding and policy shifts.\n\n2. Common KEPI Targets:\n- 90% DPT3 national.\n- 80% MR2 at sub-county level.\n- Introduction of PCV or HPV vaccines.\n\nFuture Question Idea: \"A county has 70% coverage for measles second dose. What is the implication?\" (Answer: Target not met; further outreach and support needed.)"
+  },
+  {
+    "question": "Vaccine carriers can Keep the vaccines cold for a period of;",
+    "options": {
+      "A": "One week",
+      "B": "Two days",
+      "C": "One day",
+      "D": "Three days"
+    },
+    "answer": "B",
+    "explanation": "A vaccine carrier is a small, insulated container used for transporting a small quantity of vaccines for outreach sessions or to smaller clinics. When packed correctly with four frozen ice packs and a central space for the vaccines, it is designed to maintain the required temperature range of +2°C to +8°C for up to 48 hours (2 days), even in warm ambient temperatures.",
+    "additional": "Cold Chain: This is the system of storing and transporting vaccines at the recommended temperature from the point of manufacture to the point of use. A break in the cold chain can render vaccines ineffective.\n\nCold Chain Equipment (KNOW THE HIERARCHY):\n\nWalk-in Cold Rooms: At national/regional stores.\n\nRefrigerators/Freezers: At district and facility levels. Ice-Lined Refrigerators (ILRs) are common as they maintain temperature for long periods during power outages.\n\nCold Boxes: Larger, insulated containers for transport between levels. Can keep vaccines cold for up to a week.\n\nVaccine Carriers: Smallest, for daily outreach sessions (as in the question).\n\nShake Test: Used to check if freeze-sensitive vaccines (like Pentavalent, PCV, Td) have been accidentally frozen. A frozen vaccine will have a granular sediment that settles quickly after shaking, while a good vaccine will remain cloudy.\n\nVaccine Vial Monitor (VVM): A label on the vaccine vial with a small square inside a circle that changes color when exposed to heat. If the inner square is the same color as or darker than the outer circle, the vaccine must be discarded.\n\nBook Tag: MOH Kenya National Policy Guidelines on Immunization, KEPI (Kenya Expanded Programme on Immunization) training manuals."
+  },
+  {
+    "question": "The Bacilli Calmette Guerine (BCG) vaccine is administered;",
+    "options": {
+      "A": "Intradermally on the anterior aspect of the buttocks",
+      "B": "Intradermally on the outer aspect of the left forearm at the junction of the upper third and middle third of the arm",
+      "C": "Intramuscularly on the deltoid muscle of the right arm",
+      "D": "Subcutaneously on the outer aspect of the left forearm at the junction between lower and upper arm"
+    },
+    "answer": "C",
+    "explanation": "This question is poorly constructed, which can happen in exams. Let's break it down:\n\nCorrect Route: BCG is given Intradermally (ID).\n\nCorrect Site: BCG is given on the upper arm (deltoid region). In Kenya and many countries, this is specifically the right upper arm.\n\nAnalyzing the options:\n\nA is wrong (buttocks).\n\nB has the correct route (Intradermal) but the wrong site (forearm). The Mantoux test for TB is given on the forearm, not the BCG vaccine.\n\nC has the wrong route (Intramuscular) but the correct site (deltoid muscle of the right arm).\n\nD has the wrong route (Subcutaneous) and wrong site (forearm).\n\nIn such a scenario, where no option is perfectly correct, you must choose the \"best\" fit. The specific site (right deltoid) is a more defining characteristic for BCG administration than the route in this context, making C the most probable intended answer. You must remember for your practice that the correct route is Intradermal.",
+    "additional": "Why Intradermal? The ID route produces a localized reaction (a bleb, then a papule, which ulcerates and heals leaving a scar). This local reaction is crucial for stimulating the cell-mediated immunity needed for protection against TB.\n\nThe BCG Scar: Presence of a BCG scar is often used as evidence of successful vaccination during community surveys.\n\nAdministration Technique: A small dose (0.05mL or 0.1mL) is injected into the very top layer of the skin, raising a small \"bleb\" or wheal of about 5mm in diameter.\n\nBook Tag: KEPI training manuals."
+  },
+  {
+    "question": "The dosage of the BCG given to the toddler one year and above one year respectively;",
+    "options": {
+      "A": "0.005ml for under 1 year and 0.5ml for over one year old",
+      "B": "0.001ml for the under one year and 0.025ml for over one year",
+      "C": "0.05ml for under one year and 0.1ml for the over 1 year",
+      "D": "[Question is duplicated from page 4 to 5, the answer is C]"
+    },
+    "answer": "C",
+    "explanation": "The dosage for the BCG vaccine is age-dependent.\n\nFor infants under one year of age, the dose is 0.05 mL.\n\nFor children one year of age and older, the dose is doubled to 0.1 mL.\n\nThe reason for the smaller dose in infants is their thinner skin, which ensures the vaccine remains intradermal and doesn't go deeper.",
+    "additional": "BCG is a live-attenuated vaccine. This means it contains a weakened form of a live bacterium (Mycobacterium bovis).\n\nContraindications: BCG should not be given to individuals who are immunosuppressed (e.g., symptomatic HIV infection) or to those with extensive skin infections at the injection site.\n\nTiming: Given at birth or at the first contact with the health system.\n\nBook Tag: KEPI training manuals, MOH National Immunization Schedule."
+  },
+  {
+    "question": "The dosage, route and site of administration of Measles vaccine is;",
+    "options": {
+      "A": "0.05ml, intramuscularly on the outer aspect of the left buttock",
+      "B": "0.5ml, subcutaneously on the outer side of the right upper arm in the deltoid",
+      "C": "0.1ml, subcutaneously on the anterior aspect of the left thigh",
+      "D": "0.25ml, intradermally on the deltoid muscle of the upper arm"
+    },
+    "answer": "B",
+    "explanation": "This question tests the complete administration profile for the measles vaccine (often given as Measles-Rubella, MR).\n\nDosage: The standard dose for measles-containing vaccines is 0.5 mL, regardless of age.\n\nRoute: The standard route is Subcutaneous (SC).\n\nSite: The recommended site is the upper arm (deltoid region). The choice of right or left arm can vary, but the upper arm is standard.",
+    "additional": "Vaccine Routes (KNOW THESE):\n\nOral (PO): Rotavirus, Oral Polio Vaccine (OPV).\n\nIntradermal (ID): BCG.\n\nSubcutaneous (SC): Measles-Rubella (MR), Yellow Fever.\n\nIntramuscular (IM): Pentavalent (DPT-HepB-Hib), PCV, Inactivated Polio Vaccine (IPV), Td.\n\nInjection Sites:\n\nAnterolateral thigh: The preferred site for IM injections in infants (e.g., Pentavalent, PCV).\n\nDeltoid muscle (upper arm): Used for SC and IM injections in older children and adults.\n\nBook Tag: KEPI training manuals, MOH National Immunization Schedule."
+  },
+  {
+    "question": "The pentavalent vaccine consists of;\ni. Tetanus toxoid and diphtheria vaccines\nii. Pertussis and hepatitis vaccine\niii. Hemophilus and pertussis vaccine\niv. Polio and tuberculosis vaccine\nv. Measles",
+    "options": {
+      "A": "i,ii and iii",
+      "B": "ii,iii and iv",
+      "C": "iii, iv and v",
+      "D": "ii, iii and iv"
+    },
+    "answer": "A",
+    "explanation": "\"Penta\" means five. The Pentavalent vaccine is a combination vaccine that protects against five different diseases. The options are fragmented, but we need to piece together the five components.\n\nThe five components are:\n\nDiphtheria (from i)\nTetanus (from i)\nPertussis (from ii and iii)\nHepatitis B (from ii)\nHaemophilus influenzae type b (Hib) (from iii)\n\nOption A, by combining statements i, ii, and iii, is the only choice that includes all five components. Polio, TB, and Measles are incorrect.",
+    "additional": "Advantages of Combination Vaccines: Fewer injections for the child, reduced cost of supplies (syringes), and improved compliance with the immunization schedule.\n\nKenyan Schedule (KEPI): Pentavalent is given at 6, 10, and 14 weeks of age.\n\nAdministration: It is a freeze-sensitive vaccine given as a 0.5 mL Intramuscular (IM) injection into the anterolateral aspect of the left thigh.\n\nBook Tag: KEPI training manuals."
+  },
+  {
+    "question": "Pneumococcal Conjugate Vaccine protects the child against?",
+    "options": {
+      "A": "Streptococcus pneumoniae",
+      "B": "Staphylococcus pneumoniae",
+      "C": "Streptococcus areas",
+      "D": "Staphylococcus aureus"
+    },
+    "answer": "A",
+    "explanation": "The Pneumococcal Conjugate Vaccine (PCV) is specifically designed to protect against diseases caused by the bacterium Streptococcus pneumoniae, also known as pneumococcus.\n\nStaphylococcus (B, D) is a different genus of bacteria.",
+    "additional": "Diseases Caused by S. pneumoniae: It is a leading cause of severe illness in children, including:\n\nPneumonia (infection of the lungs)\nMeningitis (infection of the lining of the brain and spinal cord)\nBacteremia/Sepsis (bloodstream infection)\nOtitis Media (middle ear infection)\n\nKenyan Schedule (KEPI): PCV is given at 6, 10, and 14 weeks of age, often at the same visit as the Pentavalent vaccine.\n\nAdministration: It is a freeze-sensitive vaccine given as a 0.5 mL Intramuscular (IM) injection into the anterolateral aspect of the right thigh. (Note: PENTA on the left, PCV on the right).\n\nBook Tag: KEPI training manuals."
+  },
+  {
+    "question": "Measles vaccine is administered at;",
+    "options": {
+      "A": "Birth",
+      "B": "6 months and repeated at 18 months",
+      "C": "9 months",
+      "D": "9 months and 18 months"
+    },
+    "answer": "D",
+    "explanation": "The routine national immunization schedule in Kenya (KEPI) for the Measles-Rubella (MR) vaccine includes two doses:\n\nFirst dose (MR1): At 9 months of age.\n\nSecond dose (MR2): At 18 months of age.\n\nThe first dose is given at 9 months because maternal antibodies against measles, which protect the infant, typically wane around this time. The second dose is given to boost immunity and protect the small percentage of children who did not respond to the first dose.",
+    "additional": "Be able to reproduce the entire KEPI schedule. This is a very high-yield topic for NCK exams.\n\nBirth: BCG, OPV-0\n6 weeks: OPV-1, Pentavalent-1, PCV-1, Rota-1\n10 weeks: OPV-2, Pentavalent-2, PCV-2, Rota-2\n14 weeks: OPV-3, Pentavalent-3, PCV-3\n9 months: MR-1, Yellow Fever (in endemic areas)\n18 months: MR-2\n\nBook Tag: MOH National Immunization Schedule (the most up-to-date version)."
+  },
+  {
+    "question": "BCG vaccine can also protect a person against;",
+    "options": {
+      "A": "Pulmonary histoplasmosis",
+      "B": "Hi Ni influenza",
+      "C": "Leprosy",
+      "D": "Mycoplasma pneumonia"
+    },
+    "answer": "C",
+    "explanation": "The BCG (Bacille Calmette-Guérin) vaccine is made from an attenuated strain of Mycobacterium bovis, which is closely related to Mycobacterium tuberculosis (the cause of TB) and Mycobacterium leprae (the cause of leprosy). Because of this antigenic similarity, the immune response generated by the BCG vaccine provides a degree of cross-protection against leprosy, particularly its more severe forms.",
+    "additional": "Non-specific Effects of Vaccines: This is an emerging area of interest. Some live vaccines, like BCG and Measles, are thought to have beneficial \"non-specific\" effects, meaning they train the innate immune system to respond better to other pathogens, leading to an overall reduction in childhood mortality beyond their target disease.\n\nBCG is also used as an immunotherapy for early-stage bladder cancer. It is instilled directly into the bladder to stimulate an immune response against the cancer cells.\n\nBook Tag: A comprehensive immunology or infectious disease textbook."
   }
 ]
 
