@@ -446,8 +446,69 @@
     "answer": "B",
     "explanation": "A sudden and significant drop in chest tube drainage—especially after recent cardiac surgery—is not normal and should not be ignored. It most likely indicates that the chest tube is occluded.",
     "additional": "This situation can lead to life-threatening complications like cardiac tamponade. Blood or fluid buildup in the pericardial space can compress the heart, impairing its ability to pump effectively. \n\nImmediate nursing actions include:\n- Assess the patient for signs of tamponade (e.g., hypotension, muffled heart sounds, JVD).\n- Inspect the chest tube and drainage system for kinks, clots, or dislodgement.\n- Notify the cardiac surgeon or medical team urgently."
+  },
+  {
+    "question": "During an admission assessment, a nurse asks both physiological and psychosocial questions. The client angrily responds \"I'm here for my heart, not my head problems.\" Which is the nurse's best response?",
+    "options": {
+      "A": "It's just a routine part of our assessment. All clients are asked these same questions.",
+      "B": "Why are you concerned about these types of questions?",
+      "C": "Psychological factors, like excessive stress, have been found to affect medical conditions.",
+      "D": "We can skip these questions, if you like. It isn't imperative that we complete this section."
+    },
+    "answer": "C",
+    "explanation": "This question assesses therapeutic communication and patient education. The client is demonstrating resistance because they do not see the relevance of psychosocial questions to their physical condition. The best response is one that validates their concern while providing a clear rationale.\n\nc. Psychological factors, like excessive stress, have been found to affect medical conditions. This response directly connects the \"head\" (psychological) to the \"heart\" (physiological). It educates the client on the mind-body connection, explaining why the questions are relevant to their cardiac health. This is respectful, therapeutic, and informative.\n\na. It's just a routine part of our assessment... This response is dismissive of the client's feelings and uses a \"because we have to\" justification, which is not therapeutic.\n\nb. Why are you concerned... This can sound confrontational and puts the client on the defensive.\n\nd. We can skip these questions... This is inappropriate. A holistic assessment is a core standard of nursing care and is necessary to develop an effective care plan.",
+    "additional": "Holistic Nursing: An approach to care that considers the whole person—mind, body, and spirit—and their relationship to the environment.\n\nTherapeutic Communication Techniques: Using silence, offering self, providing broad openings, restating, reflecting, and providing information.\n\nNon-Therapeutic Communication Techniques: Asking \"why\" questions, giving advice, providing false reassurance, being defensive, and changing the subject.\n\nReference: A textbook on fundamentals of nursing, such as Potter & Perry, Fundamentals of Nursing."
+  },
+  {
+    "question": "A client has presented with a burn injury. The injury site is pale and waxy with large flat blisters. The client asks questions about the severity of the injury and how long it will take for this injury to heal. Based upon your knowledge, what information should be provided to the client?",
+    "options": {
+      "A": "The wound is a partial-thickness burn, and could take up to two weeks to heal.",
+      "B": "The wound is a superficial burn, and will take up to three weeks to heal.",
+      "C": "The wound is a deep partial-thickness burn, and will take more than three weeks to heal.",
+      "D": "Wound healing is individualized."
+    },
+    "answer": "C",
+    "explanation": "This question requires the nurse to classify a burn based on its appearance.\n\nSuperficial (First-Degree): Red, painful, no blisters (e.g., sunburn).\n\nSuperficial Partial-Thickness (Second-Degree): Red, moist, painful, with intact blisters.\n\nDeep Partial-Thickness (Second-Degree): Pale, waxy, moist or dry, may have large, easily ruptured blisters or no blisters. Sensation to pain and touch may be decreased. These burns take longer to heal (>3 weeks) and are at high risk for scarring and contractures. They often require skin grafting.\n\nFull-Thickness (Third-Degree): Waxy white, leathery, or charred. Dry and inelastic. No pain or sensation because nerve endings are destroyed. Requires skin grafting.",
+    "additional": "The description \"pale and waxy with large flat blisters\" is the classic presentation of a deep partial-thickness burn. These injuries take more than three weeks to heal and often require surgical intervention. Therefore, option 'c' is the most accurate description and prognosis.\n\nBurn Assessment: The \"Rule of Nines\" is used to estimate the Total Body Surface Area (TBSA) of the burn in adults. The Lund-Browder chart is more accurate, especially for children.\n\nBurn Center Referral Criteria: Includes deep partial-thickness burns >10% TBSA, any full-thickness burn, burns to the face, hands, feet, genitalia, perineum, or major joints, and electrical or chemical burns.\n\nReference: Lewis's Medical-Surgical Nursing, Chapter 24: Burns."
+  },
+  {
+    "question": "A nurse is teaching a client about a newly prescribed drug. Which of the following would MOST likely cause a geriatric patient to have difficulty retaining knowledge about prescribed medications?",
+    "options": {
+      "A": "Decreased plasma drug levels",
+      "B": "Sensory deficits",
+      "C": "Lack of family support",
+      "D": "History of Tourette syndrome"
+    },
+    "answer": "B",
+    "explanation": "This question asks for the most likely barrier to learning in a geriatric patient. While multiple factors can affect learning, common age-related changes are a primary consideration.\n\nb. Sensory deficits: Age-related changes in vision (presbyopia, cataracts) and hearing (presbycusis) are very common in the geriatric population. If the client cannot clearly see the educational pamphlets and medication labels or cannot hear the nurse's instructions, their ability to learn and retain the information will be significantly impaired. This is a direct barrier to the educational process itself.",
+    "additional": "a. Decreased plasma drug levels: This relates to pharmacokinetics, not the client's ability to learn.\n\nc. Lack of family support: While family support is important for adherence, its absence doesn't directly cause difficulty in retaining knowledge.\n\nd. History of Tourette syndrome: This is a neurological disorder not typically associated with cognitive decline or learning difficulties in this context.\n\nGerontological Teaching Strategies:\n\nEnsure the client is wearing glasses and hearing aids if needed.\n\nUse large-print materials with high contrast.\n\nSpeak clearly and slowly in a low-pitched voice.\n\nMinimize distractions and present information in a quiet environment.\n\nBreak information into small, manageable chunks.\n\nUse the \"teach-back\" method to confirm understanding.\n\nReference: A textbook on gerontological nursing."
+  },
+  {
+    "question": "All of the following objectives are CRITICAL to the development of patient education programmes EXCEPT:",
+    "options": {
+      "A": "Reduction in the cost of patient care",
+      "B": "Improvement in the standard of health care",
+      "C": "Facilitation of the development of self-care skills",
+      "D": "Encouragement of active participation in planning his care"
+    },
+    "answer": "A",
+    "explanation": "This question asks to identify the option that is not a primary, client-centered goal of patient education.\n\nb. Improvement in the standard of health care: Patient education is a core component of quality healthcare.\n\nc. Facilitation of the development of self-care skills: A primary goal of education is to empower patients to manage their own health conditions.\n\nd. Encouragement of active participation in planning his care: Education enables patients to be informed partners in their care, which is essential for shared decision-making.",
+    "additional": "a. Reduction in the cost of patient care: While effective patient education can lead to better self-management, improved adherence, and fewer complications or hospital readmissions (which in turn reduces healthcare costs), cost reduction is a secondary outcome or by-product, not a primary, critical objective from the perspective of developing the educational program for the patient. The focus of patient education must be on the patient's health, well-being, and ability to self-manage.\n\nDomains of Learning:\n\nCognitive: Knowledge and understanding (the client can state the side effects of a med).\n\nAffective: Attitudes, beliefs, and values (the client expresses willingness to change their diet).\n\nPsychomotor: Physical skills (the client can correctly demonstrate how to self-administer insulin).\n\nAssessing Readiness to Learn: Before teaching, the nurse must assess the client's motivation, physical state (e.g., not in severe pain), and cognitive ability.\n\nReference: A textbook on fundamentals of nursing."
+  },
+  {
+    "question": "Which of the following seating arrangements is MOST appropriate for a counseling session?",
+    "options": {
+      "A": "The counsellor sits at her desk with the counselee lying on a couch",
+      "B": "The counsellor sits at her desk with the counselee on the opposite side of the desk",
+      "C": "The counsellor and the counselee sit at one side of the desk half facing each other",
+      "D": "The counsellor and the counselee sit away from the desk, at an angle, facing each other"
+    },
+    "answer": "D",
+    "explanation": "The physical environment and seating arrangement can significantly impact the therapeutic relationship. The goal is to create a safe, respectful, and collaborative atmosphere.\n\nd. The counsellor and the counselee sit away from the desk, at an angle, facing each other: This is considered the ideal arrangement. It removes physical barriers (the desk), promotes a sense of equality, and allows for comfortable eye contact and observation of nonverbal cues. The slight angle (about 90 degrees) is less confrontational than sitting directly face-to-face.",
+    "additional": "a. ...lying on a couch: This is stereotypical of psychoanalysis and is not a standard counseling arrangement.\n\nb. ...opposite side of the desk: The desk acts as a physical and psychological barrier, creating a power differential (the person behind the desk is \"in charge\") and a more formal, less personal atmosphere.\n\nc. ...sit at one side of the desk: This can feel too close and invade personal space, making the client uncomfortable.\n\nTherapeutic Milieu: The overall environment and interactions within that environment. It should be structured to be safe, secure, and supportive.\n\nProxemics: The study of personal space. The ideal distance for a therapeutic conversation is typically within the personal zone (1.5 to 4 feet).\n\nReference: A textbook on psychiatric nursing or therapeutic communication."
   }
 ]
+
 
 
 
