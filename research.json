@@ -440,8 +440,142 @@
     "answer": "A",
     "explanation": "Multiple researchers using the same tool and getting the same results demonstrates high inter-rater reliability, a key form of reliability.",
     "additional": "RELIABILITY TYPES:\n- Inter-Rater: Agreement among different observers\n- Internal Consistency: Agreement among items in one instrument\n\nKEY: Inter-Rater Reliability = Consistent results from multiple researchers\nBOOK REFERENCE: Polit & Beck, Nursing Research"
+  },
+  {
+    "question": "Which statement should a nurse identify as correct regarding a client's right to refuse treatment?",
+    "options": {
+      "a": "Clients can refuse pharmacological but not psychological treatment.",
+      "b": "Clients can refuse any treatment at any time.",
+      "c": "Clients can refuse only electroconvulsive therapy (ECT).",
+      "d": "Professionals can override treatment refusal by an actively suicidal or homicidal client."
+    },
+    "answer": "d",
+    "explanation": "Professionals may override treatment refusal in emergency situations, such as when a client is actively suicidal or homicidal. This is an exception to the general rule of autonomy, applying the principle of beneficence to prevent harm.",
+    "additional": "Competency/Capacity: Clients must be competent to refuse treatment. If not, a legal guardian or emergency measures may apply. Informed consent must always be voluntary, informed, and from a competent individual.\n\nReference: Nursing Ethics and Legal Issues Textbooks"
+  },
+  {
+    "question": "The primary purpose of nursing research is to:",
+    "options": {
+      "a": "Bring prestige to the discipline.",
+      "b": "Fund nursing education.",
+      "c": "Generate scientific knowledge to guide nursing practice.",
+      "d": "Promote the importance of nursing in society."
+    },
+    "answer": "c",
+    "explanation": "The main purpose of nursing research is to generate scientific evidence that informs and improves nursing practice, forming the basis of evidence-based practice (EBP).",
+    "additional": "EBP: Combines research evidence, clinical expertise, and patient preferences to guide nursing actions.\n\nReference: Polit & Beck – Nursing Research"
+  },
+  {
+    "question": "A research study investigating the benefits of ambulation after cesarean section would be an example of which type of research evidence?",
+    "options": {
+      "a": "Control",
+      "b": "Description",
+      "c": "Explanation",
+      "d": "Prediction"
+    },
+    "answer": "a",
+    "explanation": "This is control-type research because it tests a nursing intervention (ambulation) and its effect on patient outcomes after cesarean section.",
+    "additional": "Control studies ask: 'What happens if we do this?' – they validate effectiveness of nursing interventions.\n\nReference: Polit & Beck – Nursing Research"
+  },
+  {
+    "question": "A research study validates the positive effect that a nursing intervention, patient journaling, has on decreasing spiritual distress during cancer recovery. This would be an example of which type of research evidence?",
+    "options": {
+      "a": "Control",
+      "b": "Description",
+      "c": "Explanation",
+      "d": "Prediction"
+    },
+    "answer": "a",
+    "explanation": "Like the previous question, this study evaluates the effectiveness of an intervention—patient journaling—on a measurable outcome (spiritual distress), which is control-type research.",
+    "additional": "Often uses experimental or quasi-experimental design. Useful in establishing best practices for spiritual care.\n\nReference: Polit & Beck – Nursing Research"
+  },
+  {
+    "question": "A nurse who reads research articles and incorporates research findings into nursing practice would demonstrate which of the following research roles?",
+    "options": {
+      "a": "Collaborator",
+      "b": "Consumer",
+      "c": "Primary investigator",
+      "d": "Producer"
+    },
+    "answer": "b",
+    "explanation": "The nurse is acting as a consumer of research—applying research findings in daily practice, which is a core expectation for bedside nurses.",
+    "additional": "Research roles vary from consumer to producer. Bachelor's level nurses are expected to be consumers; advanced practice nurses may be producers or collaborators.\n\nReference: Nursing Professional Development Textbooks"
+  },
+  {
+    "question": "Florence Nightingale is most noted for which of the following contributions to nursing research?",
+    "options": {
+      "a": "Case study approach to research",
+      "b": "Data collection and analysis",
+      "c": "Framework and model development",
+      "d": "Quasi-experimental study design"
+    },
+    "answer": "b",
+    "explanation": "Nightingale is credited as the first nursing researcher due to her detailed data collection and analysis during the Crimean War, which she used to drive health reforms and improve outcomes.",
+    "additional": "Her use of data visualization (e.g., polar area diagrams) helped convince authorities of the need for sanitary reforms.\n\nReference: Nursing History and Theory Textbooks"
+  },
+  {
+    "question": "Scientific knowledge is generated through:",
+    "options": {
+      "a": "Authorities.",
+      "b": "Borrowing from other disciplines.",
+      "c": "Personal experience.",
+      "d": "Research."
+    },
+    "answer": "d",
+    "explanation": "Scientific knowledge is based on systematic inquiry and evidence — which is the domain of research. Research uses the scientific method to validate facts and draw conclusions.",
+    "additional": "Other sources (authority, experience) offer knowledge but not scientific rigor. Research is foundational for evidence-based practice.\n\nReference: Polit & Beck – Nursing Research"
+  },
+  {
+    "question": "Quantitative and qualitative research approaches are particularly useful in nursing because they:",
+    "options": {
+      "a": "Are easy to implement.",
+      "b": "Are process oriented.",
+      "c": "Provide different views.",
+      "d": "Require few resources."
+    },
+    "answer": "c",
+    "explanation": "Nursing uses both objective and subjective information. Quantitative research gives measurable results; qualitative research explores experiences and meaning. Combined, they offer a holistic view.",
+    "additional": "Mixed-methods studies use both approaches. Together, they improve understanding of clinical and humanistic outcomes.\n\nReference: Polit & Beck – Nursing Research"
+  },
+  {
+    "question": "Patricia Benner (1984) emphasizes the importance of acquiring clinical knowledge and expertise through:",
+    "options": {
+      "a": "Authorities.",
+      "b": "Borrowing from other disciplines.",
+      "c": "Personal experience.",
+      "d": "Research."
+    },
+    "answer": "c",
+    "explanation": "Benner’s model (Novice to Expert) asserts that clinical expertise develops through personal experience in real-life nursing situations, not just through theory or research.",
+    "additional": "Her stages: Novice, Advanced Beginner, Competent, Proficient, and Expert — reflect how intuition and experience shape expertise.\n\nReference: Alligood – Nursing Theorists and Their Work"
+  },
+  {
+    "question": "An example of inductive reasoning is:",
+    "options": {
+      "a": "Going from a single diabetic patient to all diabetic patients.",
+      "b": "Moving from all chronically ill patients to a single chronically ill patient.",
+      "c": "Using a standard nursing care plan to care for a specific patient.",
+      "d": "Using a computerized nursing care plan to care for insulin-dependent diabetic patients."
+    },
+    "answer": "a",
+    "explanation": "Inductive reasoning involves moving from specific observations (a single patient) to forming a general conclusion (all similar patients). It is key in qualitative research.",
+    "additional": "Mnemonic: Inductive moves INTO theory; Deductive moves DOWN to application.\n\nReference: Nursing Research and Critical Thinking Textbooks"
+  },
+  {
+    "question": "Outcomes research in health care is oriented toward establishing:",
+    "options": {
+      "a": "Characteristics and description of nursing phenomena.",
+      "b": "Critical indicators.",
+      "c": "Predictive relationships.",
+      "d": "Quality and effectiveness."
+    },
+    "answer": "d",
+    "explanation": "Outcomes research evaluates the quality and effectiveness of healthcare services. It focuses on real-world impacts like patient outcomes, satisfaction, and functional recovery.",
+    "additional": "Donabedian’s model: Structure, Process, Outcomes — helps measure quality of care.\n\nReference: Nursing Research and Healthcare Quality Textbooks"
   }
 ]
+
+
 
  
   
