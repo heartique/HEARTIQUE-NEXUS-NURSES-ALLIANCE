@@ -284,5 +284,137 @@
     },
     "answer": "B",
     "explanation": "This question provides a final, overarching summary of the entire topic.\n\nCommunity-Based Health Assessment: This term encapsulates the core principles we have discussed throughout this section. It involves:\n\nCommunity-Based: The assessment takes place in the community, not in a remote office. It is grounded in the local context.\n\nHealth Assessment: It is a systematic process of collecting and analyzing data to understand health status, needs, and assets.\n\nInvolving Community Members: It is a participatory and collaborative process.\n\nThis approach ensures that the resulting diagnosis and subsequent plans are relevant, owned by the community, and ultimately more effective."
+  },
+  {
+    "question": "A diagnosis of leprosy is made when one of the following signs is positive;",
+    "options": {
+      "A": "Skin patch with loss of sensation",
+      "B": "Presence of leprosy bacilli",
+      "C": "General fatigue and loss of appetite",
+      "D": "One or more enlarged peripheral nerves"
+    },
+    "answer": "A",
+    "explanation": "The World Health Organization (WHO) bases the diagnosis of leprosy on the presence of at least one of its three cardinal signs. Option A (a skin patch with a definite loss of sensation) is a primary cardinal sign and often the first one detected.\n\nOption B (Presence of leprosy bacilli) is confirmed through a lab test called a slit-skin smear, which supports the diagnosis but is not always required to start treatment, especially in resource-limited settings.\n\nOption C (General fatigue and loss of appetite) are non-specific symptoms that can be present in many illnesses and are not diagnostic for leprosy.\n\nOption D (One or more enlarged peripheral nerves) is another cardinal sign, but the skin lesion with sensory loss is the most classic and frequently identified sign.",
+    "additional": "Causative Agent: Mycobacterium leprae\n\nTransmission: Primarily through respiratory droplets from untreated multibacillary patients.\n\nCardinal Signs:\n- Skin lesion with sensory loss\n- Enlarged peripheral nerves\n- Positive slit-skin smear\n\nTypes:\n- Paucibacillary: 1–5 lesions, 6 months MDT (Rifampicin + Dapsone)\n- Multibacillary: >5 lesions or nerve involvement, 12 months MDT (Rifampicin + Dapsone + Clofazimine)\n\nBook Tag: K. Park’s PSM, Community Health Nursing Textbook"
+  },
+  {
+    "question": "The most common cause of acute diarrheal illness between 6–24 months of age is the;",
+    "options": {
+      "A": "Entamoeba Hystolytica",
+      "B": "[Cut off]",
+      "C": "[Cut off, but likely Rotavirus based on the answer key]",
+      "D": "[Cut off]"
+    },
+    "answer": "C",
+    "explanation": "Rotavirus is the leading cause of severe, dehydrating gastroenteritis (diarrheal illness) in infants and young children worldwide, particularly in the 6–24 month age group. Its prevalence has significantly decreased in countries with routine rotavirus vaccination.\n\nOption A (Entamoeba histolytica) is a protozoan that causes amoebiasis (amoebic dysentery), which is typically characterized by bloody diarrhea and is less common than viral gastroenteritis in this age group.",
+    "additional": "Key Pathogens:\nViral: Rotavirus, Norovirus\nBacterial: ETEC, Shigella, Cholera\nProtozoal: Giardia, Entamoeba\n\nIMCI Management:\n- ORS (Plan A/B/C)\n- Zinc for 10–14 days\n- Continued feeding/breastfeeding\n\nPrevention: Rotavirus vaccine, hygiene, safe water\n\nBook Tag: IMCI Chart Booklet, Nelson Pediatrics"
+  },
+  {
+    "question": "Transmission cycle of Schistosomiasis is from;",
+    "options": {
+      "A": "Man to snail then back to man",
+      "B": "Water to man then to water then to snail",
+      "C": "Water to snail then back to snail",
+      "D": "Snail to water then to man"
+    },
+    "answer": "A",
+    "explanation": "The cycle begins with human feces/urine releasing eggs into freshwater, infecting snails. Parasites then re-enter water and penetrate human skin.\n\nOption B is out of order.\nOption C & D are incomplete.",
+    "additional": "Also called Bilharzia\n\nAgents: Schistosoma haematobium (urinary), S. mansoni (intestinal)\n\nSigns: Terminal hematuria, hepatosplenomegaly\n\nTreatment: Praziquantel\n\nPrevention: Sanitation, snail control, avoiding contaminated water\n\nBook Tag: Manson’s Tropical Diseases, Park PSM"
+  },
+  {
+    "question": "The causative organism of scabies is;",
+    "options": {
+      "A": "Pediculus human capitis",
+      "B": "Pulex irritans",
+      "C": "Flea dermatitis",
+      "D": "Sarcoptes Scabiei"
+    },
+    "answer": "D",
+    "explanation": "Scabies is caused by the mite Sarcoptes scabiei which burrows into the skin, causing intense itching, worse at night.\n\nA – Head lice\nB – Human flea\nC – Condition, not organism",
+    "additional": "Symptoms: Night-time pruritus, rash, burrows in webs of fingers\n\nTransmission: Prolonged skin contact\n\nTreatment: Permethrin, Benzyl Benzoate, Ivermectin; wash clothes/bedding\n\nBook Tag: Dermatology or Med-Surg Textbook"
+  },
+  {
+    "question": "one of the following is the standard definition of Measles;",
+    "options": {
+      "A": "Diarrhea, vomiting and a generalized rash",
+      "B": "History of generalized blotchy rash and fever plus either cough or red eyes",
+      "C": "History of pneumonia, diarrhea and vomiting, sore throat",
+      "D": "History of fever, skin ulcers, Tachycardia, difficulty in breathing, diarrhea and loss of appetite"
+    },
+    "answer": "B",
+    "explanation": "WHO case definition: Fever + maculopapular rash + one of the 3 Cs (Cough, Coryza, Conjunctivitis)",
+    "additional": "Agent: Measles virus (Paramyxovirus)\n\nSigns: Koplik’s spots, rash\n\nComplications: Otitis media, pneumonia, diarrhea, SSPE\n\nTreatment: Supportive, Vitamin A\n\nPrevention: MR vaccine\n\nBook Tag: IMCI Booklet, Nelson Pediatrics"
+  },
+  {
+    "question": "Mumps is caused by;",
+    "options": {
+      "A": "Adenovirus",
+      "B": "Varicella Zoster virus",
+      "C": "Paramyxovirus",
+      "D": "Rubella virus"
+    },
+    "answer": "C",
+    "explanation": "Mumps virus is part of the Paramyxoviridae family. Option C is correct.\n\nA – Common cold, conjunctivitis\nB – Chickenpox/shingles\nD – Rubella (German measles)",
+    "additional": "Symptoms: Parotitis (swollen salivary glands)\n\nComplications: Orchitis, Oophoritis, meningitis, pancreatitis, deafness\n\nPrevention: MMR vaccine\n\nBook Tag: Microbiology or Pediatrics Textbook"
+  },
+  {
+    "question": "The worm whose larvae sometimes pass through the lungs causing temporary cough wheezing is known as;",
+    "options": {
+      "A": "Tapeworm",
+      "B": "Thread worm",
+      "C": "Whip worm",
+      "D": "Hook worm"
+    },
+    "answer": "D",
+    "explanation": "Hookworms and Ascaris pass through lungs during their life cycle. Causes transient cough, wheezing (Loeffler's syndrome).\n\nOption B is incorrect.\nOption D is best match.",
+    "additional": "Hookworm: Causes anemia, ground itch\nAscaris: Malnutrition, obstruction\nPinworm (Threadworm): Perianal itch\n\nTreatment: Albendazole/Mebendazole\n\nBook Tag: Manson’s Tropical Diseases, Park PSM"
+  },
+  {
+    "question": "Causative organism for the whooping cough is;",
+    "options": {
+      "A": "Bordetella pertussis",
+      "B": "Haemphilus influenza",
+      "C": "Sarcoptei Scabiei",
+      "D": "The whooping cough bacteria"
+    },
+    "answer": "A",
+    "explanation": "Pertussis (whooping cough) is caused by Bordetella pertussis, a gram-negative coccobacillus.\n\nD is vague.\nC is scabies",
+    "additional": "Stages:\n- Catarrhal (cold-like, contagious)\n- Paroxysmal (cough + whoop)\n- Convalescent\n\nPrevention: DPT vaccine\nTreatment: Macrolides (Azithro, Erythro)\n\nBook Tag: Pediatrics/Infectious Disease Book"
+  },
+  {
+    "question": "The causal organism for pertussis is a;",
+    "options": {
+      "A": "Virus",
+      "B": "Bacteria",
+      "C": "Protozoa",
+      "D": "Fungus"
+    },
+    "answer": "B",
+    "explanation": "Pertussis is caused by a bacterium — Bordetella pertussis.\nA, C, D are incorrect types.",
+    "additional": "See Question 17 for full details on stages, treatment, complications\n\nPrevention: DPT vaccine\n\nBook Tag: Pediatrics or Immunization Schedules"
+  },
+  {
+    "question": "Gravid females of Enterobius vermicularis migrate to the;",
+    "options": {
+      "A": "Lung and lay eggs around the alveoli",
+      "B": "Perianal region and lay eggs on the skin",
+      "C": "Intestines and lay eggs around the small intestines",
+      "D": "Liver and lay eggs along the portal vein"
+    },
+    "answer": "B",
+    "explanation": "Pinworm females crawl to perianal skin at night to lay eggs, causing intense itching.",
+    "additional": "Name: Enterobiasis/Oxyuriasis\n\nDiagnosis: Tape test\nTransmission: Fecal-oral\nTreatment: Mebendazole or Albendazole (repeat after 2 weeks)\n\nBook Tag: Parasitology or Pediatrics Book"
+  },
+  {
+    "question": "The clinical types of poliomyelitis are;\ni) Flaccid poliomyelitis\nii) Abortive poliomyelitis\niii) Non-abortive poliomyelitis\niv) Paralytic poliomyelitis\nv) Non-paralytic poliomyelitis",
+    "options": {
+      "A": "i,iii and iv",
+      "B": "i,ii and iv",
+      "C": "ii,iv and v",
+      "D": "iii, iv and v"
+    },
+    "answer": "C",
+    "explanation": "Correct types:\n- Abortive: mild, nonspecific symptoms\n- Non-paralytic: CNS signs, no paralysis\n- Paralytic: flaccid, asymmetric paralysis\n\n'i' is not a separate type; 'iii' is not a standard term.",
+    "additional": "Agent: Poliovirus (Enterovirus)\n\nTransmission: Fecal-oral\n\nParalysis: Acute flaccid, asymmetric\n\nVaccines:\n- OPV: Oral, live-attenuated\n- IPV: Injectable, inactivated\n\nSurveillance: All AFP cases in <15yrs\n\nBook Tag: Park PSM, MOH/KEPI Guidelines"
   }
 ]
