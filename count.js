@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", () => {
   let soundPlayed = false;
   const notifySound = new Audio("notify.mp3");
 
-  // Global badge
   const globalBadge = document.createElement("div");
   globalBadge.id = "global-badge";
   Object.assign(globalBadge.style, {
@@ -60,9 +59,6 @@ document.addEventListener("DOMContentLoaded", () => {
     return badge;
   };
 
-  let paperOneNew = 0;
-  let paperTwoNew = 0;
-
   document.querySelectorAll(".unit-tab").forEach(tab => {
     const raw = tab.dataset.json || "";
     const files = raw.split(",").map(f => f.trim()).filter(f => f);
@@ -80,83 +76,18 @@ document.addEventListener("DOMContentLoaded", () => {
       const count = results.reduce((sum, arr) =>
         sum + (Array.isArray(arr) ? arr.length : 0), 0);
 
-      // Append count
-      tab.textContent += ` (${count} Questions)`;
-
-      // Paper One total
-      if (tab.classList.contains("paper-one")) {
-        paperOneTotal += count;
-        const paperOneTabs = document.querySelectorAll(".paper-one");
-        tab.setAttribute('data-counted', 'yes');
-        if (document.querySelectorAll(".paper-one[data-counted]").length === paperOneTabs.length) {
-          const title = document.getElementById("paper-one-title");
-          if (title) {
-            title.textContent = `📘 Paper One Units – Total: ${paperOneTotal} Questions`;
-            if (paperOneNew > 0) {
-              const badge = document.createElement("span");
-              badge.textContent = `🔴 ${paperOneNew} NEW`;
-              Object.assign(badge.style, {
-                marginLeft: "8px",
-                background: "crimson",
-                color: "#fff",
-                padding: "3px 8px",
-                fontSize: "12px",
-                borderRadius: "15px",
-                fontWeight: "bold",
-                animation: "pulse 1s infinite alternate"
-              });
-              title.appendChild(badge);
-            }
-          }
-        }
-      }
-
-      // Paper Two total
-      if (tab.classList.contains("paper-two")) {
-        paperTwoTotal += count;
-        const paperTwoTabs = document.querySelectorAll(".paper-two");
-        tab.setAttribute('data-counted', 'yes');
-        if (document.querySelectorAll(".paper-two[data-counted]").length === paperTwoTabs.length) {
-          const title = document.getElementById("paper-two-title");
-          if (title) {
-            title.textContent = `📘 Paper Two Units – Total: ${paperTwoTotal} Questions`;
-            if (paperTwoNew > 0) {
-              const badge = document.createElement("span");
-              badge.textContent = `🔴 ${paperTwoNew} NEW`;
-              Object.assign(badge.style, {
-                marginLeft: "8px",
-                background: "crimson",
-                color: "#fff",
-                padding: "3px 8px",
-                fontSize: "12px",
-                borderRadius: "15px",
-                fontWeight: "bold",
-                animation: "pulse 1s infinite alternate"
-              });
-              title.appendChild(badge);
-            }
-          }
-        }
-      }
-
-      // ✅ Force all units to show as NEW if flagged
+      // Force all unread flag
       if (localStorage.getItem("forceAllUnread") === "yes") {
         localStorage.removeItem(`qcount_${raw}`);
       }
 
-      // 🔴 NEW DETECTION
+      tab.textContent += ` (${count} Questions)`;
+
       const stored = parseInt(localStorage.getItem(`qcount_${raw}`)) || 0;
       const diff = count - stored;
 
       if (diff > 0) {
         totalNew += diff;
-
-        if (tab.classList.contains("paper-one")) {
-          paperOneNew += diff;
-        }
-        if (tab.classList.contains("paper-two")) {
-          paperTwoNew += diff;
-        }
 
         const badge = createBadge(diff);
         tab.appendChild(badge);
@@ -173,15 +104,90 @@ document.addEventListener("DOMContentLoaded", () => {
         localStorage.setItem(`qcount_${raw}`, count);
         const b = tab.querySelector(".unit-badge");
         if (b) b.remove();
-        setTimeout(() => location.reload(), 100); // refresh to update total
+        setTimeout(() => location.reload(), 100);
       });
+
+      // Count paperOne and paperTwo totals
+      if (tab.classList.contains("paper-one")) {
+        paperOneTotal += count;
+        tab.setAttribute('data-counted', 'yes');
+      }
+      if (tab.classList.contains("paper-two")) {
+        paperTwoTotal += count;
+        tab.setAttribute('data-counted', 'yes');
+      }
+
+      // After all units loaded, show accurate totals and badges
+      const paperOneTabs = document.querySelectorAll(".paper-one");
+      const paperTwoTabs = document.querySelectorAll(".paper-two");
+
+      if (
+        tab.classList.contains("paper-one") &&
+        document.querySelectorAll(".paper-one[data-counted]").length === paperOneTabs.length
+      ) {
+        const title = document.getElementById("paper-one-title");
+        if (title) {
+          title.textContent = `📘 Paper One Units – Total: ${paperOneTotal} Questions`;
+
+          const paperOneNew = Array.from(paperOneTabs).reduce((sum, el) => {
+            const badge = el.querySelector(".unit-badge");
+            return sum + (badge ? parseInt(badge.textContent) || 0 : 0);
+          }, 0);
+
+          if (paperOneNew > 0) {
+            const badge = document.createElement("span");
+            badge.textContent = `🔴 ${paperOneNew} NEW`;
+            Object.assign(badge.style, {
+              marginLeft: "8px",
+              background: "crimson",
+              color: "#fff",
+              padding: "3px 8px",
+              fontSize: "12px",
+              borderRadius: "15px",
+              fontWeight: "bold",
+              animation: "pulse 1s infinite alternate"
+            });
+            title.appendChild(badge);
+          }
+        }
+      }
+
+      if (
+        tab.classList.contains("paper-two") &&
+        document.querySelectorAll(".paper-two[data-counted]").length === paperTwoTabs.length
+      ) {
+        const title = document.getElementById("paper-two-title");
+        if (title) {
+          title.textContent = `📘 Paper Two Units – Total: ${paperTwoTotal} Questions`;
+
+          const paperTwoNew = Array.from(paperTwoTabs).reduce((sum, el) => {
+            const badge = el.querySelector(".unit-badge");
+            return sum + (badge ? parseInt(badge.textContent) || 0 : 0);
+          }, 0);
+
+          if (paperTwoNew > 0) {
+            const badge = document.createElement("span");
+            badge.textContent = `🔴 ${paperTwoNew} NEW`;
+            Object.assign(badge.style, {
+              marginLeft: "8px",
+              background: "crimson",
+              color: "#fff",
+              padding: "3px 8px",
+              fontSize: "12px",
+              borderRadius: "15px",
+              fontWeight: "bold",
+              animation: "pulse 1s infinite alternate"
+            });
+            title.appendChild(badge);
+          }
+        }
+      }
     })
     .catch(() => {
       tab.textContent += ` (Unavailable)`;
     });
   });
 
-  // Show total global badge
   setTimeout(() => {
     if (totalNew > 0) {
       globalBadge.style.display = "block";
@@ -189,11 +195,10 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }, 1200);
 
-  // ✅ Clear flag after reload
   localStorage.removeItem("forceAllUnread");
 });
 
-// ✅ Reset button logic with confirmation and sound
+// ✅ Reset Button Logic
 const resetBtn = document.getElementById("reset-btn");
 if (resetBtn) {
   resetBtn.addEventListener("click", () => {
@@ -201,7 +206,7 @@ if (resetBtn) {
     if (!confirmReset) return;
 
     const sound = new Audio("notify.mp3");
-    sound.play().catch(() => {}); // In case autoplay is blocked
+    sound.play().catch(() => {});
 
     Object.keys(localStorage).forEach(key => {
       if (key.startsWith("qcount_")) {
