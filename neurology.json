@@ -1545,8 +1545,156 @@
     "answer": "A",
     "explanation": "The cerebellum is responsible for fine motor control, balance, coordination, and posture. It receives input from the vestibular system, spinal cord, and motor cortex to fine-tune motor activity.\n\n(B) The medulla oblongata regulates autonomic functions like heart rate and breathing.\n\n(C) The thalamus acts as a relay station for sensory and motor signals but does not directly control coordination.\n\n(D) The hippocampus is involved in memory formation, not motor function or balance.",
     "additional": "Clinical clue: Damage to the cerebellum causes ataxia (uncoordinated movements), intention tremor, and difficulty walking.\n\nMnemonic: 'Cerebellum = Coordination center'\n\nReference: Smeltzer & Bare – Medical-Surgical Nursing, Chapter on Neurological Function."
-  }
+  },
+  {
+    "question": "The most appropriate position to place a patient who has undergone supratentorial craniotomy is;",
+    "options": {
+      "A": "Sidelying",
+      "B": "Supine",
+      "C": "Semi-fowler's",
+      "D": "Dorsal recumbent"
+    },
+    "answer": "C",
+    "explanation": "Correct (c): Semi-Fowler's position (head of bed elevated 30-45 degrees) is crucial after supratentorial (above the tentorium) surgery. This position uses gravity to promote venous drainage from the head, which helps to decrease cerebral edema and prevent an increase in intracranial pressure (ICP). The head should also be kept in a neutral midline position.\n\nIncorrect (a, b, d): Sidelying, supine (flat on back), and dorsal recumbent positions are generally avoided because lying flat increases ICP by impeding venous outflow from the brain. Lying on the operative side is also contraindicated.",
+    "additional": "Deeper Insight: The key principle is managing ICP. Any position or activity that increases intrathoracic or intra-abdominal pressure (like flexing the neck, hips, or knees; or coughing/straining) will increase ICP and must be avoided.\n\nPossible Next Question (NCK Focus): Expect a question contrasting this with positioning for an infratentorial craniotomy (surgery on the brainstem or cerebellum).\n\nInfratentorial Positioning: The patient is usually kept flat or with the head of the bed elevated only slightly (10-15 degrees) and is often positioned side-lying (off the operative site). The goal is to prevent pressure on the surgical site at the brainstem. A large pillow is placed under the head, and the patient must be kept on their side, alternating sides every 2 hours."
+  },
+  {
+    "question": "The major mechanism involved in neurogenic shock is;",
+    "options": {
+      "A": "Allergic reaction",
+      "B": "Cardiac pump failure",
+      "C": "Vasodilation",
+      "D": "Septicemia"
+    },
+    "answer": "C",
+    "explanation": "Correct (c): Neurogenic shock is a type of distributive shock resulting from a spinal cord injury (usually at T6 or above). It causes a sudden loss of sympathetic nervous system signals. This leads to massive, unopposed vasodilation (widening of blood vessels) below the level of injury. Blood pools in the extremities, leading to severe hypotension.\n\nIncorrect (a, b, d): These describe other types of shock:\n\na) Allergic reaction causes Anaphylactic Shock.\n\nb) Cardiac pump failure causes Cardiogenic Shock.\n\nd) Septicemia (widespread infection) causes Septic Shock.",
+    "additional": "Deeper Insight: A hallmark sign that distinguishes neurogenic shock from other forms of shock is bradycardia (slow heart rate) along with hypotension. In other shock states (like hypovolemic or septic), the body compensates with tachycardia (fast heart rate). The loss of sympathetic tone in neurogenic shock prevents this compensatory tachycardia.\n\nPossible Next Question (NCK Focus): \"A client with a C4 spinal cord injury has a blood pressure of 80/50 mmHg and a heart rate of 52 bpm. The nurse recognizes these signs as being consistent with which condition?\" The answer would be neurogenic shock. Another potential question could be to differentiate between neurogenic shock (a hemodynamic problem) and spinal shock (a temporary loss of all reflex activity and sensation below the injury level)."
+  },
+  {
+    "question": "A safety measure applicable to a client who has cranial nerve II impairment is to;",
+    "options": {
+      "A": "Test the temperature of the client's bath water to prevent Chilling and burns",
+      "B": "Speak clearly while directly facing the client.",
+      "C": "Remove any obstacles from the client's path of ambulation",
+      "D": "Provide semi solid foods"
+    },
+    "answer": "C",
+    "explanation": "Correct (c): Cranial Nerve II is the Optic Nerve, responsible for vision. A client with impairment of this nerve has a visual deficit. The priority safety measure is to ensure a clear, hazard-free environment to prevent falls.\n\nIncorrect (a, b, d): These relate to other deficits:\n\na) Testing bath water is for patients with peripheral neuropathy or sensory deficits (loss of temperature sensation).\n\nb) Speaking clearly while facing the client is for hearing impairment (CN VIII - Vestibulocochlear nerve).\n\nd) Providing semi-solid foods is for dysphagia (difficulty swallowing), which involves CN IX (Glossopharyngeal) and X (Vagus).",
+    "additional": "Deeper Insight: Cranial nerve questions are very common. It is vital to know the name, number, and primary function of the 12 cranial nerves.\n\nPossible Next Question (NCK Focus): A question assessing another cranial nerve. For example: \"A nurse asks a patient to smile, frown, and raise their eyebrows. The nurse is assessing which cranial nerve?\" The answer would be CN VII (Facial Nerve). Another common question involves assessing the gag reflex to check CN IX and X before allowing a stroke patient to eat or drink."
+  },
+  {
+    "question": "A client with a spinal cord injury is at risk of developing footdrop. The nurse should use which of the following as the effective preventive measure?",
+    "options": {
+      "A": "Foot board",
+      "B": "Heel protectors",
+      "C": "Posterior splints",
+      "D": "Pneumatic boots"
+    },
+    "answer": "C",
+    "explanation": "Correct (c): Footdrop is the inability to lift the front part of the foot (dorsiflexion) due to nerve weakness or damage. Posterior splints or high-top sneakers are the most effective devices because they maintain the foot in a neutral position (dorsiflexion), preventing the plantar flexion contracture that causes footdrop.\n\nIncorrect (a): A footboard can help prevent plantar flexion, but it is not as effective as a splint and can increase the risk of pressure ulcers on the heels if the patient slides down in bed.\n\nIncorrect (b): Heel protectors are excellent for preventing pressure ulcers on the heels but do not prevent footdrop.\n\nIncorrect (d): Pneumatic boots (sequential compression devices) are used to prevent deep vein thrombosis (DVT), not footdrop.",
+    "additional": "Deeper Insight: Preventing contractures is a key nursing intervention for any immobilized patient. This involves active or passive range-of-motion (ROM) exercises in addition to using supportive devices. For footdrop, the specific goal is to counteract the effects of gravity and stronger plantar flexor muscles.\n\nPossible Next Question (NCK Focus): A question on another complication of immobility in an SCI patient. For example: \"Which intervention is a priority for preventing renal calculi (kidney stones) in a client with a spinal cord injury?\" The answer would involve ensuring adequate fluid intake (2-3 L/day)."
+  },
+  {
+    "question": "A client begins experiencing a tonic clonic seizure. The nurse should take the following actions except;",
+    "options": {
+      "A": "Restrain the patient",
+      "B": "Turn the client to the side",
+      "C": "Loosen any restrictive clothing that the client is wearing"
+    },
+    "answer": "A",
+    "explanation": "Correct (a): The question asks what the nurse should NOT do. Never restrain a patient during a seizure. Restraining them can cause musculoskeletal injuries, such as fractures or sprains, as the patient's muscles are contracting powerfully and involuntarily.\n\nIncorrect (b, c): These are correct and essential safety actions. Turning the client to the side (recovery position) prevents aspiration by allowing saliva and emesis to drain out of the mouth. Loosening restrictive clothing around the neck helps maintain a patent airway.",
+    "additional": "Deeper Insight: Seizure precautions (often called \"seizure pads\") should be implemented for at-risk patients. This includes padding the side rails, having oxygen and suction equipment ready at the bedside, and maintaining IV access. The nurse's role during a seizure is safety and observation. After the seizure (postictal phase), the nurse should assess breathing, vital signs, and neurological status.\n\nPossible Next Question (NCK Focus): \"What is the priority nursing action immediately after a client experiences a tonic-clonic seizure?\" The answer would be to assess the client's breathing and ensure a patent airway."
+  },
+  {
+    "question": "A client is being brought into the emergency department after suffering a head injury. The first action by the nurse is to determine the client's;",
+    "options": {
+      "A": "Level of consciousness",
+      "B": "Pulse and blood pressure",
+      "C": "Respiratory rate and depth",
+      "D": "Ability to move extremities"
+    },
+    "answer": "C",
+    "explanation": "Correct (c): The absolute priority in any emergency, especially with a potential neurological injury, is to assess and maintain a patent airway and adequate breathing (ABC). An altered respiratory pattern can be a sign of severe brain injury and can lead to hypoxia, which worsens secondary brain injury.\n\nIncorrect (a): Assessing Level of Consciousness (using the Glasgow Coma Scale - GCS) is extremely important and is done almost simultaneously (it's the 'D' for Disability in the ABCDE approach), but it comes after ensuring the patient is breathing.\n\nIncorrect (b, d): Assessing circulation (pulse, BP) and motor function are also critical parts of the assessment but follow the initial check of airway and breathing.",
+    "additional": "Deeper Insight: The primary survey in trauma care follows the ABCDE mnemonic:\n\nAirway (with cervical spine protection)\nBreathing and ventilation\nCirculation and hemorrhage control\nDisability (neurological status, typically GCS)\nExposure/Environment (undress the patient, prevent hypothermia)\n\nPossible Next Question (NCK Focus): \"A client with a head injury presents with a widened pulse pressure, bradycardia, and irregular respirations. The nurse recognizes this as what clinical syndrome?\" The answer is Cushing's Triad, a late sign of severely increased ICP."
+  },
+  {
+    "question": "A patient with spinal cord injury develops spinal shock. The most likely intravenous fluid to be prescribed would be;",
+    "options": {
+      "A": "Dextran",
+      "B": "Normal saline",
+      "C": "5% Dextrose",
+      "D": "5% Dextrose in normal saline"
+    },
+    "answer": "B",
+    "explanation": "Correct (b): Spinal shock and the often-accompanying neurogenic shock cause hypotension due to vasodilation. The goal of fluid therapy is to expand the intravascular volume to increase blood pressure. Normal Saline (0.9% NaCl) is an isotonic crystalloid solution, making it the first-line choice for volume resuscitation in shock states. Lactated Ringer's is another appropriate isotonic solution.\n\nIncorrect (a): Dextran is a colloid (volume expander) but is not the first-line choice and has risks like allergic reactions and effects on coagulation. It might be used if crystalloids fail.\n\nIncorrect (c): 5% Dextrose (D5W) is a hypotonic solution once metabolized in the body. It does not stay in the vascular space and is inappropriate for volume resuscitation. It can worsen cerebral edema if a head injury is also present.\n\nIncorrect (d): 5% Dextrose in normal saline is a hypertonic solution. While it provides volume, the added dextrose is not necessary for initial resuscitation and can cause hyperglycemia, which is detrimental in brain-injured patients. The standard is a simple isotonic crystalloid.",
+    "additional": "Deeper Insight: During spinal/neurogenic shock, in addition to IV fluids, vasopressors (like norepinephrine or dopamine) are often required to cause vasoconstriction and raise the blood pressure if fluid resuscitation alone is not sufficient.\n\nPossible Next Question (NCK Focus): \"A nurse is administering norepinephrine to a client in neurogenic shock. Which assessment finding indicates the medication is effective?\" The answer would be An increase in blood pressure."
+  },
+  {
+    "question": "An adult client has undergone a lumbar puncture to obtain cerebrospinal fluid (CSF) for analysis. Which of the following is not supposed to be found in CSF?",
+    "options": {
+      "A": "Protein",
+      "B": "Glucose",
+      "C": "Red blood cells",
+      "D": "White blood cells"
+    },
+    "answer": "C",
+    "explanation": "Correct (c): Normal cerebrospinal fluid (CSF) is clear, colorless, and sterile. The presence of Red Blood Cells (RBCs) is always abnormal. It indicates bleeding into the CSF, which could be from a subarachnoid hemorrhage or a \"traumatic tap\" (bleeding caused by the LP needle itself).\n\nIncorrect (a, b, d): Small, specific amounts of protein, glucose, and a very few white blood cells are normal findings in CSF.\n\nProtein: Normally present in small amounts (15-45 mg/dL). Elevated levels suggest inflammation or infection.\n\nGlucose: Normally about 60-70% of the blood glucose level. Low CSF glucose is a classic sign of bacterial meningitis (bacteria consume the glucose).\n\nWBCs: Normally 0-5 cells/mm³. Elevated WBCs indicate infection or inflammation (meningitis, encephalitis).",
+    "additional": "Deeper Insight: After a lumbar puncture, a key nursing intervention is to have the patient lie flat for several hours to reduce the risk of a post-LP headache, which is caused by CSF leakage from the puncture site. Encouraging fluid intake also helps replenish CSF volume.\n\nPossible Next Question (NCK Focus): \"A client's CSF analysis shows high protein, low glucose, and a high WBC count. The nurse suspects which condition?\" The answer would be Bacterial Meningitis."
+  },
+  {
+    "question": "The nurse is planning care for a client with a T3 spinal cord injury. The nurse includes which intervention in the plan to prevent autonomic dysreflexia (hyperreflexia)?",
+    "options": {
+      "A": "Administer dexamethasone (Decadron) as per the physician's prescription",
+      "B": "Assist the client to develop a daily bowel routine to prevent constipation",
+      "C": "Teach the client that this condition is relatively minor with few symptoms",
+      "D": "Assess vital signs and observe for hypotension, tachycardia"
+    },
+    "answer": "B",
+    "explanation": "Correct (b): Autonomic dysreflexia (AD) is a medical emergency that occurs in patients with SCI at T6 or above. It is triggered by a noxious stimulus below the level of the injury. The most common trigger is a distended bladder, and the second most common is bowel impaction/constipation. Establishing a regular bowel program is a critical preventive measure.\n\nIncorrect (a): Dexamethasone is a corticosteroid used to reduce inflammation/swelling, not to prevent AD.\n\nIncorrect (c): This is dangerous misinformation. AD is a life-threatening condition that can lead to stroke, seizure, or death if not treated promptly.\n\nIncorrect (d): The signs of AD are severe, throbbing headache, profuse sweating above the level of injury, and severe hypertension and bradycardia, not hypotension and tachycardia.",
+    "additional": "Deeper Insight: If a patient with an SCI develops symptoms of AD (sudden severe headache, soaring BP), the nurse's first action is to sit the patient upright (High-Fowler's position). This uses gravity to help lower the blood pressure. The second action is to find and remove the cause (check for bladder distention, check for bowel impaction, loosen tight clothing).\n\nPossible Next Question (NCK Focus): \"A client with a T4 spinal cord injury suddenly complains of a pounding headache and has a blood pressure of 210/110 mmHg. What is the nurse's priority action?\" The answer would be Raise the head of the bed to 90 degrees."
+  },
+  {
+    "question": "A nurse is taking care of a patient with personality changes. Most likely, the patient has experienced injury to the;",
+    "options": {
+      "A": "parietal lobe",
+      "B": "Temporal lobe",
+      "C": "Occipital lobe",
+      "D": "Frontal lobe"
+    },
+    "answer": "D",
+    "explanation": "Correct (d): The frontal lobe is the control center for executive functions, which include personality, behavior, emotions, judgment, problem-solving, and social appropriateness. Injury to the frontal lobe classically results in profound personality changes, disinhibition, apathy, and impaired judgment.\n\nIncorrect (a, b, c): Injury to other lobes causes different deficits:\n\na) Parietal Lobe: Sensation, perception, spatial awareness. Injury can cause neglect of one side of the body.\n\nb) Temporal Lobe: Hearing, memory, language comprehension (Wernicke's area).\n\nc) Occipital Lobe: Vision.",
+    "additional": "Deeper Insight: Remember the key functions of the main brain areas:\n\nFrontal: Think \"front and center\" - personality and planning.\n\nParietal: Think \"parental touch\" - sensation.\n\nTemporal: Think \"tempo\" - hearing and memory.\n\nOccipital: Think \"optic\" - vision.\n\nCerebellum: Balance and coordination.\n\nPossible Next Question (NCK Focus): \"A stroke patient is having difficulty understanding spoken language. The nurse suspects damage to which area of the brain?\" The answer would be Wernicke's area, which is located in the temporal lobe."
+  },
+  {
+    "question": "A patient is on management for Guillain-Barre syndrome. During history taking the nurse should ask for;",
+    "options": {
+      "A": "History of upper respiratory tract infection",
+      "B": "History of trauma",
+      "C": "History of travel to malaria endemic zone",
+      "D": "Any family history of Gullain-Barre"
+    },
+    "answer": "A",
+    "explanation": "Correct (a): Guillain-Barré Syndrome (GBS) is an autoimmune disorder where the body's immune system attacks its own peripheral nerves. It is often preceded by a viral or bacterial infection, most commonly an upper respiratory infection or a gastrointestinal infection (like Campylobacter jejuni), typically 1 to 3 weeks before the onset of neurological symptoms.\n\nIncorrect (b, c, d): These are not the primary triggers for GBS. It is not considered a hereditary disorder, and trauma or travel to a malaria zone are not established risk factors.",
+    "additional": "Deeper Insight: The classic presentation of GBS is ascending paralysis. It typically starts with weakness and tingling in the feet and legs that spreads upwards over hours to days. The most life-threatening complication is when the paralysis ascends to the muscles of respiration (diaphragm and intercostal muscles), leading to respiratory failure. The priority for nursing care is therefore frequent monitoring of respiratory status (rate, depth, oxygen saturation, and vital capacity).\n\nPossible Next Question (NCK Focus): \"What is the priority nursing assessment for a client newly diagnosed with Guillain-Barré syndrome?\" The answer would be monitoring respiratory rate and vital capacity."
+  },
+  {
+  "question": "The nurse is planning care for a client with a T3 spinal cord injury. The nurse includes which intervention in the plan to prevent autonomic dysreflexia (hyperreflexia)?",
+  "options": {
+    "A": "Administer dexamethasone (Decadron) as per the physician's prescription",
+    "B": "Assist the client to develop a daily bowel routine to prevent constipation",
+    "C": "Teach the client that this condition is relatively minor with few symptoms",
+    "D": "Assess vital signs and observe for hypotension, tachycardia"
+  },
+  "answer": "B",
+  "explanation": "Correct (b): Autonomic dysreflexia (AD) is a medical emergency that occurs in patients with SCI at T6 or above. It is triggered by a noxious stimulus below the level of the injury. The most common trigger is a distended bladder, and the second most common is bowel impaction/constipation. Establishing a regular bowel program is a critical preventive measure.\n\nIncorrect (a): Dexamethasone is a corticosteroid used to reduce inflammation/swelling, not to prevent AD.\n\nIncorrect (c): This is dangerous misinformation. AD is a life-threatening condition that can lead to stroke, seizure, or death if not treated promptly.\n\nIncorrect (d): The signs of AD are severe, throbbing headache, profuse sweating above the level of injury, and severe hypertension and bradycardia, not hypotension and tachycardia.",
+  "additional": "Deeper Insight: If a patient with an SCI develops symptoms of AD (sudden severe headache, soaring BP), the nurse's first action is to sit the patient upright (High-Fowler's position). This uses gravity to help lower the blood pressure. The second action is to find and remove the cause (check for bladder distention, check for bowel impaction, loosen tight clothing).\n\nPossible Next Question (NCK Focus): \"A client with a T4 spinal cord injury suddenly complains of a pounding headache and has a blood pressure of 210/110 mmHg. What is the nurse's priority action?\" The answer would be Raise the head of the bed to 90 degrees."
+}
 ]
+
+
+
+
+
 
 
 
