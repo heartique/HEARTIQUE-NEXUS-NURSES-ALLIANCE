@@ -94,6 +94,54 @@
     "answer": "A",
     "explanation": "Medroxyprogesterone (Depo-Provera) is associated with an increased risk of thromboembolic events. A client expressing concern about a past thrombus demonstrates appropriate understanding. Such history is a potential contraindication for its use and warrants further evaluation.",
     "additional": "Contraindications:\n\n- History of thromboembolic events (e.g., DVT, PE).\n\nBlack Box Warning:\n\n- Risk of significant bone mineral density loss with prolonged use (>2 years).\n\nPatient Education:\n\n- Ensure adequate calcium and vitamin D intake.\n- Fertility typically returns after discontinuation.\n- Not affected by meals (given IM).\n\nOther Side Effects:\n\n- Irregular bleeding, weight gain, headache, delayed fertility.\n\nReference: Davis's Drug Guide for Nurses (Medroxyprogesterone)."
+  },
+  {
+    "question": "Reed-Sternberg cell is a pathologic hallmark essential in diagnosis of.-",
+    "options": {
+      "A": "Hodgkin's disease.",
+      "B": "Acute myeloid leukemia.",
+      "C": "Chronic lymphocytic leukemia.",
+      "D": "Non Hodgkin's disease."
+    },
+    "answer": "A",
+    "explanation": "Reed-Sternberg (R-S) cell is the classic diagnostic feature of Hodgkin's lymphoma. It has an 'owl's eye' appearance under the microscope and is found only in this condition.",
+    "additional": "Hodgkin's Lymphoma:\n- Has Reed-Sternberg cells\n- Spreads in an orderly, contiguous fashion\n- Very curable\n\nNon-Hodgkin's Lymphoma:\n- Does NOT have R-S cells\n- More widespread and unpredictable spread\n\n'B' Symptoms:\n- Unexplained fever\n- Drenching night sweats\n- Weight loss >10% in 6 months\n\nStaging (Ann Arbor):\n- I: Single lymph node\n- II: Multiple nodes, same side of diaphragm\n- III: Nodes on both sides\n- IV: Widespread, extranodal involvement\n\nTextbook Reference: Lewis’s Medical-Surgical Nursing, Chapter 30."
+  },
+  {
+    "question": "Nursing interventions for a patient with multiple myeloma include;",
+    "options": {
+      "A": "Providing low calorie diet in small frequent amounts",
+      "B": "Providing plenty of oral fluids",
+      "C": "Catheterization to monitor urine output",
+      "D": "Encouraging weight bearing exercises"
+    },
+    "answer": "B",
+    "explanation": "Hydration is essential in multiple myeloma to reduce calcium levels and flush out Bence-Jones proteins, protecting the kidneys.",
+    "additional": "CRAB Complications:\n- C: Hypercalcemia\n- R: Renal failure\n- A: Anemia\n- B: Bone lesions\n\nWhy Fluids?\n- Prevent renal cast formation\n- Reduce calcium\n\nAvoid Weight-Bearing:\n- Fragile bones → fracture risk\n\nOther Priorities:\n- Pain control\n- Infection prevention\n- Fall prevention\n\nTextbook Reference: Brunner & Suddarth’s, Chapter 31."
+  },
+  {
+    "question": "The form of pre-operative chemotherapy given to shrink a large tumour is referred to as:-",
+    "options": {
+      "A": "Neo-adjuvant chemotherapy.",
+      "B": "Consolidation chemotherapy.",
+      "C": "Induction chemotherapy",
+      "D": "Maintenance chemotherapy."
+    },
+    "answer": "A",
+    "explanation": "Neo-adjuvant chemotherapy is given before surgery to shrink a tumor and make the operation easier or more conservative.",
+    "additional": "Chemotherapy Types:\n- Neo-adjuvant: Before surgery (shrink tumor)\n- Adjuvant: After surgery (kill residual cancer)\n- Induction: To induce remission (leukemia)\n- Consolidation: After remission to solidify it\n- Maintenance: Ongoing low-dose to prevent relapse\n\nCommon Side Effects:\n- Bone marrow suppression (neutropenia, anemia, thrombocytopenia)\n- GI effects (nausea, mucositis)\n- Alopecia\n- Fatigue\n\nTextbook Reference: Lewis’s Medical-Surgical Nursing, Chapter 15."
+  },
+  {
+    "question": "A child with Acute lymphoblastic leukemia has a high risk of infection because;",
+    "options": {
+      "A": "White blood cells are produced in inadequate numbers",
+      "B": "The skin integrity is altered",
+      "C": "There is a down regulation of immune system by catecholamine",
+      "D": "The white blood cells are immature."
+    },
+    "answer": "D",
+    "explanation": "In ALL, the child produces large numbers of non-functional, immature lymphoblasts. These cannot fight infection, causing severe immunocompromise despite elevated WBC count.",
+    "additional": "Other ALL Features:\n- Anemia: ↓ RBCs → fatigue, pallor\n- Thrombocytopenia: ↓ platelets → bleeding\n- Neutropenia: ↑ infection risk\n\nDiagnosis:\n- Bone marrow biopsy: >25% lymphoblasts\n\nNursing Care:\n- Infection prevention (protective isolation, monitor fever)\n- Bleeding precautions\n- Antiemetics for chemo side effects\n- Nutrition, oral care\n\nTextbook Reference: Wong's Nursing Care of Infants and Children, Chapter 28."
   }
 ]
 
