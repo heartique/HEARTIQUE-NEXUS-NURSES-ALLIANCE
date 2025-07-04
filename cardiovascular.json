@@ -478,7 +478,20 @@
     "answer": "d",
     "explanation": "Correct (d): An aortic aneurysm is a weakened, bulging area in the wall of the aorta. Severe chest or back pain (\"ripping\" or \"tearing\" in nature), anxiety, and diaphoresis are classic signs of an aortic dissection or rupture. A rupture leads to massive internal hemorrhage into the thoracic or abdominal cavity. This catastrophic loss of circulating blood volume results in hypovolemic shock.\n\nIncorrect (a, b): Septic shock is caused by infection, and anaphylactic shock is caused by an allergic reaction. These are not related to an aortic aneurysm rupture.\n\nIncorrect (c): Cardiogenic shock is pump failure (the heart muscle itself fails), often due to a massive MI. While dissection can lead to complications that cause pump failure (like cardiac tamponade or MI if the coronary arteries are involved), the primary and most immediate shock state from a rupture is due to blood loss (hypovolemia).",
     "additional": "Deeper Insight: An aortic dissection/rupture is one of the most lethal medical emergencies. The absolute priority is to control blood pressure and heart rate to reduce the force of ejection and shear stress on the aorta. This is typically done with IV beta-blockers (like esmolol or labetalol). The patient will require immediate surgical repair.\n\nPossible Next Question (NCK Focus): \"What is the priority assessment finding in a client with a suspected thoracic aortic aneurysm?\" The answer would be a difference in blood pressure between the right and left arms."
+  },
+  {
+    "question": "When administering Heparin anticoagulant therapy, the nurse needs to monitor the clotting time to make certain that it is within the therapeutic range of",
+    "options": {
+      "A": "One to two times the normal control",
+      "B": "Two to three times the normal control",
+      "C": "3.5 times the normal control",
+      "D": "4.5 times the normal control"
+    },
+    "answer": "A",
+    "explanation": "Heparin therapy is monitored using activated Partial Thromboplastin Time (aPTT). The typical therapeutic goal is an aPTT of 1.5 to 2.5 times the normal value. Among the listed options, 'One to two times' is the most appropriate range, even though it slightly understates the higher end of the therapeutic window.",
+    "additional": "Monitoring:\n- aPTT is the primary lab test for IV Heparin.\n\nTherapeutic Range:\n- 1.5 to 2.5 times the normal control value.\n\nAntidote:\n- Protamine Sulfate.\n\nImportant Concepts:\n- Heparin acts via antithrombin III to inactivate thrombin and factor Xa.\n- LMWHs (e.g., enoxaparin) usually don’t need routine aPTT checks.\n- Watch for Heparin-Induced Thrombocytopenia (HIT), a life-threatening complication.\n\nReference: Davis's Drug Guide for Nurses (for Heparin)."
   }
 ]
 
+  
 
