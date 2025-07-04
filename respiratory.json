@@ -394,7 +394,19 @@
     "answer": "D",
     "explanation": "Hyperventilation leads to decreased CO2 levels (hypocapnia), resulting in respiratory alkalosis and symptoms such as dizziness and tingling. Breathing into a paper bag causes rebreathing of exhaled CO2, increasing blood CO2 levels. This stimulates the respiratory center in the brain, slowing the respiratory rate and helping restore acid-base balance.",
     "additional": "Causes of Hyperventilation: Anxiety, panic attacks, pain, fever, metabolic acidosis (Kussmaul respirations).\n\nSymptoms of Respiratory Alkalosis: Paresthesias, lightheadedness, muscle twitching, confusion.\n\nNote: Paper bag rebreathing is not widely recommended anymore due to risk of hypoxia but remains a correct answer in NCLEX-style scenarios.\n\nReference: Any fundamentals or medical-surgical nursing textbook."
-  }
+  },
+  {
+  "question": "When nursing a patient with chronic obstructive pulmonary disease, the nurse should,",
+  "options": {
+    "A": "Ensure the patient gets high flow rate oxygen at 100%",
+    "B": "Advise the patient to get influenza and pneumococcal vaccines",
+    "C": "Avoid administration of prophylactic bronchodilators",
+    "D": "Position the patient in dorsal recumbent position to enhance ventilation"
+  },
+  "answer": "B",
+  "explanation": "Chronic Obstructive Pulmonary Disease (COPD) is a chronic inflammatory lung disease that causes obstructed airflow from the lungs. Management focuses on slowing disease progression, managing symptoms, and preventing exacerbations.\n\nPreventing Exacerbations: Respiratory infections are the most common cause of acute exacerbations of COPD, which can be life-threatening and lead to a permanent decline in lung function. Therefore, vaccination against common respiratory pathogens is a critical, high-priority intervention. All COPD patients should receive an annual influenza vaccine and the pneumococcal vaccine.\n\nAnalyzing Other Options:\n(a) This is dangerous and potentially fatal. Some patients with chronic CO2 retention rely on a \"hypoxic drive\" to breathe. High-flow oxygen can eliminate this drive, leading to respiratory depression and arrest. Oxygen for COPD patients should be low-flow and titrated carefully to maintain a target SpO2 of 88-92%.\n(c) This is incorrect. Prophylactic (maintenance) bronchodilators, both short-acting (SABA) and long-acting (LABA/LAMA), are the cornerstone of daily COPD management to keep airways open.\n(d) The dorsal recumbent (supine) position is the worst position for someone with breathing difficulty. It allows the abdominal organs to press up on the diaphragm, restricting lung expansion. The best position is an upright, forward-leaning \"tripod\" position or high-Fowler's position.",
+  "additional": "Additional Content & Future Testables:\n\nCOPD Subtypes:\nChronic Bronchitis (\"Blue Bloater\"): Defined by a chronic productive cough. Characterized by bronchial inflammation and mucus hypersecretion. Patients are often cyanotic and edematous.\n\nEmphysema (\"Pink Puffer\"): Defined by the destruction of alveoli. Characterized by dyspnea and barrel chest. Patients often remain well-oxygenated (pink) by using pursed-lip breathing but are very thin.\n\nKey Nursing Interventions for COPD:\nBreathing Techniques: Teach pursed-lip breathing (to prolong exhalation and prevent airway collapse) and diaphragmatic (abdominal) breathing (to strengthen the diaphragm and reduce the work of breathing).\n\nAirway Clearance: Teach effective coughing techniques (huff coughing).\n\nNutrition: Encourage small, frequent, high-calorie, high-protein meals to prevent weight loss and fatigue.\n\nActivity Pacing: Teach patients to pace activities and use supplemental oxygen during exertion if prescribed.\n\nTextbook Reference: Brunner & Suddarth's Textbook of Medical-Surgical Nursing, Chapter 24: Management of Patients With Chronic Obstructive Pulmonary Disease."
+}
 ]
 
 
