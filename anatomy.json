@@ -669,5 +669,91 @@
     },
     "answer": "B",
     "explanation": "These postpartum cramps, known as 'afterpains,' are caused by oxytocin release. When the baby suckles, sensory nerves in the nipple send signals to the hypothalamus. This leads to the release of oxytocin from the posterior pituitary. Oxytocin has two effects: it causes milk ejection (the let-down reflex), and it stimulates uterine muscle contraction. These contractions reduce bleeding and help the uterus return to its pre-pregnancy size."
+  },
+  {
+    "question": "4. Which of the following statements about kidney and pharynx anatomy is TRUE?",
+    "options": {
+      "a": "The left kidney is slightly lower than the right kidney, and the nasopharynx has stratified squamous epithelium.",
+      "b": "The right kidney is slightly lower than the left, and the nasopharynx has ciliated columnar epithelium.",
+      "c": "Both kidneys are at the same level, and the nasopharynx has keratinized squamous epithelium.",
+      "d": "The left kidney is higher, and the nasopharynx has simple cuboidal epithelium."
+    },
+    "answer": "b",
+    "explanation": "The right kidney is slightly lower than the left due to the liver's size. The nasopharynx is lined by ciliated pseudostratified columnar epithelium, not stratified squamous. Option (b) correctly reflects both anatomical facts.",
+    "additional": "Kidneys are retroperitoneal and span T12–L3. The right kidney is lower. Nasopharynx is part of the respiratory tract and has pseudostratified columnar ciliated epithelium. Stratified squamous epithelium lines the oropharynx and areas subject to friction."
+  },
+  {
+    "question": "17. Which of the following is a specific defense mechanism of the immune system?",
+    "options": {
+      "a": "Phagocytosis",
+      "b": "Chemotaxis",
+      "c": "Inflammatory response",
+      "d": "Cell-mediated immunity"
+    },
+    "answer": "d",
+    "explanation": "Phagocytosis, chemotaxis, and inflammation are non-specific (innate) defenses. Cell-mediated immunity involves T-cells (especially CD8+ cytotoxic and CD4+ helper T-cells) and is part of the specific (adaptive) immune response.",
+    "additional": "Adaptive immunity includes humoral (B cells and antibodies) and cell-mediated (T cells). It has memory and specificity. Non-specific immunity includes general defenses like skin, fever, and inflammation."
+  },
+  {
+    "question": "18. The cycle in which bile salts and other substances excreted by the liver are absorbed by the intestinal mucosa and returned to the liver via the portal circulation is:-",
+    "options": {
+      "A": "Extra corporeal circulation.",
+      "B": "Enterohepatic circulation.",
+      "C": "Collateral circulation.",
+      "D": "Mesenteric circulation."
+    },
+    "answer": "B",
+    "explanation": "This question describes a specific physiological pathway.\n\nEntero- refers to the intestines.\n\nHepatic refers to the liver.\nThe enterohepatic circulation is the process where substances, most notably bile salts, are secreted by the liver into the bile, pass into the small intestine, are reabsorbed from the terminal ileum, and travel back to the liver via the hepatic portal vein to be used again. This recycling process is very efficient, conserving the body's pool of bile salts which are essential for fat digestion and absorption.\n\nOption (a), Extracorporeal circulation, means circulation outside the body, such as during hemodialysis or heart-lung bypass surgery.\n\nOption (c), Collateral circulation, refers to alternative circulatory routes that develop when a primary pathway is obstructed, often seen in portal hypertension or coronary artery disease.\n\nOption (d), Mesenteric circulation, is the general term for the blood supply to the intestines (via the superior and inferior mesenteric arteries and veins) but does not describe the specific recycling loop back to the liver.",
+    "additional": "Substances in Enterohepatic Circulation: Besides bile salts, some drugs (e.g., digoxin, morphine) and metabolites (e.g., bilirubin) undergo enterohepatic circulation. This can prolong their half-life in the body.\n\nClinical Significance:\n\nBile Acid Sequestrants (e.g., Cholestyramine): These drugs bind to bile salts in the intestine, preventing their reabsorption. The liver must then use cholesterol from the blood to synthesize new bile salts, thereby lowering blood cholesterol levels.\n\nIleal Resection: If the terminal ileum (where bile salts are reabsorbed) is surgically removed (e.g., in Crohn's disease), enterohepatic circulation is disrupted. This leads to fat malabsorption and steatorrhea (fatty stools)."
+  },
+  {
+    "question": "45. Normal Cerebral spinal fluid;",
+    "options": {
+      "A": "Contain red blood cells and white blood cells",
+      "B": "Tests negative for glucose and protein",
+      "C": "Appears clear and turbid",
+      "D": "Appears slightly cloudy and turbid"
+    },
+    "answer": "None (Flawed question, but teaching point focuses on 'clear and colorless' as normal CSF)",
+    "explanation": "This question has flawed options, but the intended concept points towards a specific answer. The most accurate description of appearance is 'clear and colorless.' However, none of the options are perfect. Let's analyze them to find the 'best' fit or identify the error.\n\nNormal CSF is clear, colorless, and acellular (contains very few cells).\n\nOption (a): False. The presence of red blood cells indicates a traumatic tap or subarachnoid hemorrhage. More than 5 white blood cells/mm³ is abnormal and suggests infection or inflammation.\n\nOption (b): False. Normal CSF does contain glucose (about 2/3 of the blood glucose level) and a small amount of protein. High protein or low glucose is a sign of disease (e.g., bacterial meningitis).\n\nOption (c): Contradictory. A fluid cannot be both clear and turbid (cloudy).\n\nOption (d): False. Cloudy or turbid CSF is a sign of infection due to the presence of WBCs and bacteria.\n\nCorrection & NCK Focus: The question is poorly constructed. A better question would offer 'clear and colorless' as an option. Given the flawed choices, there is no single correct answer. However, if forced to choose what is most abnormal vs. normal, we can deduce the intended lesson. Normal CSF is clear. Turbidity (cloudiness) is always abnormal. Therefore, options (c) and (d) are incorrect. Option (a) and (b) describe abnormal composition. The key takeaway for the NCK is to know the normal characteristics of CSF.",
+    "additional": "CSF Analysis in Disease (Extremely High-Yield):\n| Finding | Normal | Bacterial Meningitis | Viral Meningitis | Subarachnoid Hemorrhage |\n| :--- | :--- | :--- | :--- | :--- |\n| Appearance | Clear, Colorless | Turbid, Cloudy | Clear or slightly cloudy | Bloody, Xanthochromic (yellowish after a few hours) |\n| Opening Pressure | 5-20 cmH₂O | Markedly High | Normal or slightly high | High |\n| WBC Count | 0-5 (lymphocytes) | High (>1000), mostly Neutrophils | High (10-1000), mostly Lymphocytes | High RBCs |\n| Protein | Low (15-45 mg/dL) | High | Normal or slightly high | High (from blood) |\n| Glucose | Normal (~2/3 blood) | Low (bacteria consume it) | Normal | Normal |\n\nLumbar Puncture (LP) Nursing Care:\n\nPre-procedure: Verify consent, have patient void, check for signs of increased ICP (a contraindication).\n\nPositioning: Lateral recumbent (fetal position) or sitting upright leaning over a table. The goal is to open the vertebral spaces.\n\nPost-procedure: Patient lies flat for several hours to prevent a post-LP headache (caused by CSF leakage). Encourage fluid intake. Monitor for headache, signs of infection, or neurological changes."
+  },
+  {
+    "question": "53. The frontal lobe of the brain is,",
+    "options": {
+      "A": "The primary receptive area for vision",
+      "B": "Mainly responsible for auditory sensation and coordination",
+      "C": "Centre for respiratory and vasomotor activity",
+      "D": "Responsible for abstract thinking, judgement and emotions"
+    },
+    "answer": "D",
+    "explanation": "This question tests your knowledge of the functions of the major lobes of the cerebrum.\n\nOption (d) is correct. The frontal lobe, specifically the prefrontal cortex, is considered the center for 'executive functions.' This includes personality, planning, problem-solving, abstract thinking, judgment, social behavior, and emotional control. It also contains the primary motor cortex (for voluntary movement) and Broca's area (for speech production).\n\nOption (a) is incorrect. The primary receptive area for vision is in the occipital lobe.\n\nOption (b) is incorrect. The primary area for auditory (hearing) sensation is in the temporal lobe.\n\nOption (c) is incorrect. The centers for vital functions like respiration and vasomotor activity (blood pressure control) are located in the brainstem (specifically the medulla oblongata and pons).",
+    "additional": "Brain Lobe Functions (Memorize these):\n\nFrontal Lobe: Executive functions, personality, motor control (precentral gyrus), speech production (Broca's area).\n\nParietal Lobe: Sensory perception (postcentral gyrus - touch, pain, temperature), spatial awareness, language comprehension.\n\nTemporal Lobe: Hearing, memory, language comprehension (Wernicke's area).\n\nOccipital Lobe: Vision.\n\nCerebellum: 'Little brain' located at the back. It coordinates voluntary movement, posture, balance, and equilibrium. Damage results in ataxia (uncoordinated, clumsy movements).\n\nBrainstem (Midbrain, Pons, Medulla): Controls vital autonomic functions (breathing, heart rate, blood pressure) and serves as a pathway for nerve tracts."
+  },
+  {
+    "question": "104. Spermatogenesis takes place in the.-",
+    "options": {
+      "A": "Prostate glands.",
+      "B": "Seminal vesicles.",
+      "C": "Epididymis.",
+      "D": "Seminiferous duct."
+    },
+    "answer": "D",
+    "explanation": "Spermatogenesis is the process of producing sperm.\n\nOption (d) is correct. This complex process occurs within the walls of the seminiferous tubules, which are tightly coiled tubes that make up the bulk of the testes.\n\nOption (a), The prostate gland, and (b), the seminal vesicles, are accessory glands. They produce seminal fluid, which mixes with sperm to form semen. They do not produce sperm.\n\nOption (c), The epididymis, is a coiled tube attached to the back of the testis. It is the site of sperm maturation and storage. Sperm become motile and capable of fertilization here, but they are not produced here.",
+    "additional": "The Male Reproductive Pathway (Trace the Sperm):\n\nSeminiferous Tubules (Production)\nEpididymis (Maturation & Storage)\nVas Deferens (Transport)\nEjaculatory Duct (Receives fluid from seminal vesicle)\nNothing (Just a placeholder for the mnemonic)\nUrethra (Passage out of the body)\nPenis\n\nMnemonic: 'SEVEN UP'\n\nHormonal Control:\n\nFSH (Follicle-Stimulating Hormone): Acts on Sertoli cells in the seminiferous tubules to support spermatogenesis.\n\nLH (Luteinizing Hormone): Acts on Leydig cells (located between the tubules) to produce testosterone. Testosterone is essential for spermatogenesis and the development of male secondary sexual characteristics."
+  },
+  {
+    "question": "110. The hormone responsible for rise in temperature immediately after ovulation is:-",
+    "options": {
+      "A": "Oestrogen.",
+      "B": "Luteinizing hormone.",
+      "C": "Follicle stimulating hormone.",
+      "D": "Progesterone."
+    },
+    "answer": "D",
+    "explanation": "The menstrual cycle involves fluctuating hormone levels that cause predictable physiological changes. One such change is a slight, sustained rise in basal body temperature (BBT).\n\nOption (d) is correct. After ovulation, the ruptured follicle develops into the corpus luteum, which begins to produce large amounts of progesterone. Progesterone has a thermogenic (heat-producing) effect, causing the BBT to rise by about 0.2-0.5°C (0.4-1.0°F). This elevated temperature persists until menstruation begins (if fertilization does not occur).\n\nOption (a), Estrogen, dominates the first half of the cycle (the follicular phase) and does not cause a temperature rise.\n\nOption (b), Luteinizing hormone (LH), surges just before ovulation to trigger it, but it is the subsequent rise in progesterone that causes the temperature change.\n\nOption (c), Follicle-stimulating hormone (FSH), stimulates the growth of ovarian follicles at the beginning of the cycle.",
+    "additional": "Basal Body Temperature (BBT) Charting: This method is used in natural family planning. A woman tracks her BBT every morning before getting out of bed. The sustained temperature shift confirms that ovulation has already occurred. It can be used to identify the fertile window in retrospect.\n\nHormonal Profile of Menstrual Cycle:\n\nFollicular Phase (Day 1 to Ovulation): FSH stimulates follicle growth -> Follicles produce Estrogen -> Estrogen builds up the endometrium.\n\nOvulation (~Day 14): High estrogen levels trigger a massive LH surge -> LH surge causes ovulation.\n\nLuteal Phase (Ovulation to Menstruation): Corpus luteum forms -> Produces Progesterone (and some estrogen) -> Progesterone makes the endometrium receptive to implantation and raises BBT.\n\nMenstruation: If no pregnancy, the corpus luteum degenerates -> Progesterone and estrogen levels fall -> Endometrium breaks down and sheds."
   }
 ]
+
+
