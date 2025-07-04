@@ -118,5 +118,139 @@
     "answer": "d",
     "explanation": "Correct (d): An AV fistula is a surgical connection between an artery and a vein, creating a high-flow access point for dialysis. The \"lifeline\" for a dialysis patient is their access site. Assessing its patency is a top priority. A patent, functioning fistula has a bruit (a \"whooshing\" sound heard with a stethoscope) and a thrill (a vibrating or buzzing sensation felt on palpation). The nurse must assess for these at least every 4 hours to ensure the fistula has not clotted.\n\nIncorrect (a): This is dangerous and incorrect. Taking blood pressure on the fistula arm can create pressure high enough to damage or clot the fistula. All blood pressures, IV insertions, and venipunctures must be performed on the non-fistula arm.\n\nIncorrect (b): The fistula is exclusively for hemodialysis access. It should never be used for routine venipuncture or IV infusions, as this can lead to infection or clotting.\n\nIncorrect (c): Clamps are kept at the bedside for emergencies (e.g., if a dialysis catheter disconnects), but they are not attached to the dressing of an AV fistula. Clamping the fistula itself is not done.",
     "additional": "Deeper Insight: The nursing care plan for a client with an AV fistula is often summarized as \"Protect the Lifeline.\" Key patient teaching points include:\n\n- No BP, IVs, or blood draws on the fistula arm.\n- Do not wear tight clothing, jewelry, or watches on the fistula arm.\n- Do not sleep on the fistula arm.\n- Do not carry heavy objects with the fistula arm.\n- Check for the bruit and thrill daily at home.\n\nPossible Next Question (NCK Focus): \"A nurse is assessing the AV fistula of a client and is unable to palpate a thrill. What is the nurse's priority action?\" The answer would be to notify the physician and the dialysis unit immediately, as this indicates a possible thrombosis of the fistula."
+  },
+  {
+    "question": "The client having severe burns over more than half of his body has an indwelling catheter. When evaluating the client's intake and output, which of the following should be taken into consideration?",
+    "options": {
+      "A": "The amount of urine output will be greatest in the first 24 hours after the burn injury.",
+      "B": "The amount of urine will be reduced during the first 8 hours of the burn injury and will then increase as the diuresis begins.",
+      "C": "The amount of urine will be reduced in the first 24-48 hours, and will then increase.",
+      "D": "The amount of urine will be elevated due to the amount of intravenous fluids administered during the initial phases of treatment."
+    },
+    "answer": "C",
+    "explanation": "This question describes the classic fluid shift phases after a major burn.\n\nEmergent (Resuscitative) Phase (First 24-48 hours): A massive inflammatory response causes a dramatic increase in capillary permeability. Fluid, protein, and electrolytes shift from the intravascular space (blood vessels) into the interstitial space, causing severe edema (\"third-spacing\"). This leads to intravascular hypovolemia (low blood volume) and decreased blood flow to the kidneys. The result is oliguria (significantly reduced urine output), even with aggressive IV fluid resuscitation.\n\nDiuretic (Remobilization) Phase (After 48 hours): Capillary membrane integrity is restored. The fluid and electrolytes shift back from the interstitial space into the intravascular space. This increases renal blood flow and leads to a significant increase in urine output (diuresis).\n\nTherefore, the urine output will be reduced for the first 24-48 hours and then increase as the client enters the diuretic phase.",
+    "additional": "Key Priority: The priority during the emergent phase is massive fluid resuscitation to prevent hypovolemic shock and acute kidney injury (AKI).\n\nParkland (Baxter) Formula: A common formula for calculating fluid needs in the first 24 hours: 4 mL of Lactated Ringer's x % TBSA burn x patient weight (kg). Half of the total volume is given in the first 8 hours, and the remaining half over the next 16 hours.\n\nMonitoring Fluid Resuscitation: The single best indicator of adequate fluid resuscitation is urine output. The goal is typically 0.5 to 1 mL/kg/hr (or 30-50 mL/hr for an average adult).\n\nReference: Lewis's Medical-Surgical Nursing, Chapter 24: Burns."
+  },
+  {
+    "question": "The nurse is reviewing the laboratory results of the renal system for a client who experienced a major burn event on 45% of the body 24 hours ago. Which of the following results would the nurse expect to see?\ni. Creatinine clearance reduced\nii. BUN reduced\niii. GFR reduced\niv. Specific gravity elevated",
+    "options": {
+      "A": "i only",
+      "B": "i, ii, iii",
+      "C": "iii and iv",
+      "D": "iv only"
+    },
+    "answer": "C",
+    "explanation": "At 24 hours post-burn, the client is in the emergent phase, characterized by hypovolemia and decreased renal perfusion. This state leads to a prerenal acute kidney injury (AKI).\n\niii. GFR reduced: Glomerular Filtration Rate (GFR) is the primary measure of kidney function. With decreased blood flow to the kidneys, GFR will be reduced.\n\niv. Specific gravity elevated: Due to hypovolemia and the body's attempt to conserve water, the kidneys produce a small amount of highly concentrated urine. This results in an elevated urine specific gravity (>1.030).\n\ni. Creatinine clearance reduced: This is directly related to a reduced GFR. While correct, GFR is the more fundamental measure.\n\nii. BUN reduced: This is incorrect. Blood Urea Nitrogen (BUN) would be elevated due to dehydration (hemoconcentration) and the massive catabolism (breakdown of protein tissue) occurring from the burn injury.\n\nSince option 'b' incorrectly includes \"BUN reduced,\" and option 'c' correctly identifies two of the most prominent signs of prerenal AKI (reduced GFR and concentrated urine), it is the best answer.",
+    "additional": "Other Expected Labs in Emergent Phase:\n\nHyperkalemia: Potassium is released from damaged cells.\n\nHyponatremia: Sodium is trapped in the interstitial fluid (third-spacing).\n\nElevated Hematocrit (Hemoconcentration): Plasma is lost to the interstitial space, making the blood more concentrated.\n\nMetabolic Acidosis: Due to poor tissue perfusion and anaerobic metabolism.\n\nReference: Brunner & Suddarth's Textbook of Medical-Surgical Nursing, Chapter 57: Management of Patients with Burn Injury."
+  },
+  {
+    "question": "A client with several episodes of urinary calculi has been found through analysis to have stones composed of calcium phosphate. The nurse teaches this client to reduce intake of which of the following foods?",
+    "options": {
+      "A": "Flour, milk, and milk products",
+      "B": "Organ meats, sardines, and seafood",
+      "C": "Tomatoes, fruits, and nuts",
+      "D": "Chicken, beef, and ham products"
+    },
+    "answer": "A",
+    "explanation": "The dietary management for kidney stones is based on the composition of the stone. For calcium phosphate stones, the goal is to reduce the intake of both calcium and phosphate.\n\nMilk and milk products (cheese, yogurt, etc.) are the primary dietary sources of calcium. They are also high in phosphate. Therefore, limiting their intake is a key intervention.\n\nOption 'b' (organ meats, sardines) lists foods high in purines, which should be limited for uric acid stones.\n\nOption 'c' (tomatoes, fruits, nuts) can be high in oxalate, which should be limited for calcium oxalate stones.\n\nOption 'd' lists foods high in animal protein, which can increase the risk of several types of stones by increasing urinary excretion of calcium and uric acid, but milk products are the most direct answer for calcium phosphate stones.",
+    "additional": "General dietary advice for all stones: Increase fluid intake (to produce 2-3L of urine/day), limit sodium (high sodium intake increases calcium excretion in urine).\n\nStone Types and Diet:\n\nCalcium Oxalate (most common): Limit spinach, rhubarb, beets, nuts, tea, chocolate, wheat bran.\n\nUric Acid: Limit purines (organ meats, poultry, fish, gravies, red wine).\n\nStruvite (Infection): These are caused by UTIs. The focus is on treating the infection and keeping urine acidic.\n\nReference: Lewis's Medical-Surgical Nursing, Chapter 45: Urinary System Problems."
+  },
+  {
+    "question": "A newly admitted client to the medical-surgical unit is found to have ureteral calculi. The nursing diagnosis having priority is which of the following?",
+    "options": {
+      "A": "Pain, Acute",
+      "B": "Fluid Volume, Deficient",
+      "C": "Knowledge, Deficient",
+      "D": "Skin Integrity, Risk for Impaired"
+    },
+    "answer": "A",
+    "explanation": "The passage of a ureteral calculus (kidney stone in the ureter) causes distention and spasm of the ureter, resulting in renal colic. This is recognized as one of the most severe types of pain a person can experience. While the other nursing diagnoses may be relevant (e.g., deficient fluid volume due to nausea/vomiting from pain), the excruciating pain is the immediate, priority problem that must be addressed. According to Maslow's hierarchy and nursing principles, severe pain is a high-priority physiological need.",
+    "additional": "Pain Management: Opioid analgesics are often required. NSAIDs (like ketorolac) are also very effective as they inhibit prostaglandin synthesis, reducing ureteral spasm.\n\nOther Interventions:\n\nStrain all urine: To retrieve the stone for analysis.\n\nForce fluids: To help flush the stone, unless contraindicated.\n\nAlpha-blockers (e.g., tamsulosin): May be prescribed to relax the ureteral muscles and facilitate stone passage.\n\nReference: Lewis's Medical-Surgical Nursing, Chapter 45: Urinary System Problems."
+  },
+  {
+    "question": "The nurse assessing a client newly admitted to the medical-surgical unit with glomerulonephritis expects to find which of the following classic manifestations of this disorder?",
+    "options": {
+      "A": "Acute flank pain, nausea, and vomiting",
+      "B": "Hematuria, proteinuria, and edema",
+      "C": "Headache, fever, dehydration",
+      "D": "Weight loss, anemia, and fatigue"
+    },
+    "answer": "B",
+    "explanation": "Acute glomerulonephritis is an inflammatory disease of the glomeruli, often following a streptococcal infection. The inflammation damages the glomerular capillary membrane, making it more permeable.\n\nHematuria: Damage allows red blood cells to leak into the urine, often described as cola-colored or rusty.\n\nProteinuria: Damage allows proteins (especially albumin) to leak into the urine.\n\nEdema: The loss of protein (albumin) from the blood reduces oncotic pressure, causing fluid to shift into the interstitial tissues. It typically presents as periorbital (around the eyes) and peripheral edema.\n\nHypertension is also a classic sign due to sodium and water retention.\n\nOption 'a' is more characteristic of pyelonephritis or renal calculi. Option 'c' is non-specific. Option 'd' is more characteristic of chronic renal failure.",
+    "additional": "Cause: Most commonly post-streptococcal glomerulonephritis (APSGN), occurring 1-2 weeks after a strep throat or skin infection.\n\nLabs: Elevated BUN and creatinine, decreased GFR, positive antistreptolysin O (ASO) titer.\n\nManagement: Focuses on treating the underlying cause (antibiotics for strep), managing symptoms (antihypertensives, diuretics), and dietary restrictions (low sodium, low protein).\n\nReference: Brunner & Suddarth's Textbook of Medical-Surgical Nursing, Chapter 46: Management of Patients with Kidney Disorders."
+  },
+  {
+    "question": "The nursing diagnosis established for a client with acute glomerulonephritis is Fluid Volume, Excess related to plasma protein deficit and sodium and water retention. Which of the following assessments provides the most accurate indication of fluid balance for this client?",
+    "options": {
+      "A": "Daily weight",
+      "B": "Intake and output records",
+      "C": "Serum sodium levels",
+      "D": "Vital signs"
+    },
+    "answer": "A",
+    "explanation": "Daily weight is the single most sensitive and accurate indicator of fluid volume status. A weight change of 1 kg is equivalent to a 1-liter fluid gain or loss. While the other options are important components of a fluid status assessment, they are less accurate than daily weight.\n\nIntake and output (I&O) records are useful but prone to error and do not account for insensible fluid losses (e.g., through skin and respiration).\n\nSerum sodium levels can be altered by many factors and may be normal, high, or low in fluid volume excess (e.g., dilutional hyponatremia).\n\nVital signs (specifically blood pressure and heart rate) will change, but these changes are often late signs and can be influenced by other factors.",
+    "additional": "Standard for Daily Weight: Weigh the client at the same time each day (usually before breakfast, after voiding), using the same scale, with the same amount of clothing.\n\nOther signs of Fluid Volume Excess: Pitting edema, crackles in the lungs, shortness of breath, distended neck veins (JVD), hypertension, and tachycardia (bounding pulse).\n\nReference: Fundamentals of Nursing (any standard textbook, such as Potter & Perry or Taylor)."
+  },
+  {
+    "question": "A client returns to the medical-surgical unit following a right nephrectomy, and is receiving oxygen via nasal cannula at a rate of 2 l/minute. The nurse assesses the following: respiratory rate 12/minute, shallow breathing with inadequate lung expansion, and client complaint of shortness of breath. Which nursing intervention has the highest priority at this time?",
+    "options": {
+      "A": "Continue to monitor vital signs and respiratory status.",
+      "B": "Encourage the client to deep-breathe and use an incentive spirometer.",
+      "C": "Increase oxygen flow rate to at least 5 l/minute.",
+      "D": "Position the client with head of bed elevated 15 degrees."
+    },
+    "answer": "B",
+    "explanation": "The assessment findings (shallow breathing, inadequate expansion, SOB) in a post-operative client, especially after an abdominal or flank incision like a nephrectomy, are classic signs of atelectasis (collapse of alveoli). This is caused by pain, anesthesia effects, and splinting of the incision. The highest priority is to treat the underlying cause of the poor gas exchange, which is the collapsed alveoli.\n\nEncouraging deep breathing and incentive spirometry directly addresses this problem by re-expanding the alveoli and improving ventilation.\n\nMonitoring (a) is passive and not an intervention. Increasing O2 (c) is a temporary fix that doesn't solve the ventilation problem. Elevating the HOB to 15 degrees (d) is insufficient; a higher position (Semi-Fowler's or High-Fowler's) would be better, but the primary intervention is to promote lung expansion.",
+    "additional": "Post-op Respiratory Complications: Atelectasis is the most common, and if untreated, can lead to pneumonia.\n\nNursing Care to Prevent Atelectasis: Early ambulation, effective pain management (so the patient is willing to breathe deeply), frequent repositioning, and consistent use of incentive spirometry (e.g., 10 times per hour while awake).\n\nNephrectomy-specific concerns: Risk for hemorrhage (monitor urine output, VS, dressing), paralytic ileus, and infection.\n\nReference: Lewis's Medical-Surgical Nursing, Chapter 19: Surgery."
+  },
+  {
+    "question": "Which of the following laboratory data does the nurse anticipate for the client with chronic renal failure prior to hemodialysis?",
+    "options": {
+      "A": "Increased urine osmolality",
+      "B": "Decreased phosphorus",
+      "C": "Decreased potassium",
+      "D": "Increased creatinine"
+    },
+    "answer": "D",
+    "explanation": "Chronic renal failure (CRF), also known as end-stage renal disease (ESRD), is characterized by the kidneys' inability to perform their essential functions.\n\nd. Increased creatinine: Creatinine is a waste product of muscle metabolism that is normally excreted by the kidneys. In CRF, the kidneys cannot clear it, so serum levels rise significantly. It is a hallmark indicator of renal failure.\n\na. Increased urine osmolality: In late-stage CRF, the kidneys lose their ability to concentrate urine. Urine osmolality would become fixed at a level similar to plasma (isosthenuria), which is a decrease from normal concentrated urine.\n\nb. Decreased phosphorus: The kidneys excrete phosphorus. In CRF, excretion is impaired, leading to hyperphosphatemia (increased phosphorus).\n\nc. Decreased potassium: The kidneys excrete potassium. In CRF, excretion is impaired, leading to hyperkalemia (increased potassium), which is life-threatening.",
+    "additional": "Other expected lab findings in CRF:\n\nElevated BUN\n\nMetabolic Acidosis (kidneys can't excrete H+ ions or regenerate bicarbonate)\n\nHypocalcemia (due to high phosphorus and lack of activated Vitamin D)\n\nAnemia (due to decreased production of erythropoietin)\n\nPurpose of Hemodialysis: To filter waste products (like creatinine, urea), remove excess fluid, and correct electrolyte and acid-base imbalances.\n\nReference: Brunner & Suddarth's Textbook of Medical-Surgical Nursing, Chapter 47: Management of Patients with Chronic Kidney Disease."
+  },
+  {
+    "question": "The nurse administering calcium acetate two tablets p.o. with each meal to the client with chronic renal failure understands the rationale for this treatment as which of the following?",
+    "options": {
+      "A": "Decreases serum creatinine.",
+      "B": "Lowers serum phosphate.",
+      "C": "Neutralizes gastric acid.",
+      "D": "Stimulates appetite."
+    },
+    "answer": "B",
+    "explanation": "Patients with chronic renal failure develop hyperphosphatemia because the kidneys cannot excrete dietary phosphate. Calcium acetate (PhosLo) is a phosphate binder. When taken with meals, the calcium in the medication binds to the phosphate from the food in the GI tract. This forms an insoluble compound (calcium phosphate) that is then excreted in the feces, preventing the phosphate from being absorbed into the bloodstream. This action effectively lowers serum phosphate levels. It does not affect creatinine, act as an antacid in this context, or stimulate appetite.",
+    "additional": "Relationship between Calcium and Phosphorus: They have an inverse relationship. When phosphate levels are high, calcium levels tend to be low.\n\nOther Phosphate Binders: Sevelamer hydrochloride (Renagel) and lanthanum carbonate (Fosrenol) are non-calcium-based phosphate binders, often used to avoid causing hypercalcemia.\n\nImportance of taking with meals: Binders must be present in the GI tract at the same time as the food to be effective.\n\nComplications of Hyperphosphatemia: Leads to renal osteodystrophy (bone disease) and metastatic calcification (calcium-phosphate deposits in soft tissues like blood vessels and the heart).\n\nReference: Davis's Drug Guide for Nurses (for Calcium Acetate)."
+  },
+  {
+    "question": "The nurse notes the presence of a cloudy dialysate return for a client in acute renal failure receiving peritoneal dialysis. Which of the following actions does the nurse initiate after notifying the physician?",
+    "options": {
+      "A": "Culture the dialysate return.",
+      "B": "Chart the cloudy dialysate.",
+      "C": "Measure abdominal girth.",
+      "D": "Slow dialysate instillation."
+    },
+    "answer": "A",
+    "explanation": "Cloudy or opaque dialysate effluent (return) is the earliest and most reliable sign of peritonitis, the most common and serious complication of peritoneal dialysis (PD). The cloudiness is caused by white blood cells and fibrin in the fluid. After notifying the physician of this critical finding, the immediate next step is to obtain a sample of the effluent for culture and sensitivity testing. This will identify the causative organism and guide the appropriate antibiotic therapy. While charting (b) is necessary, it is not the priority action. Measuring girth (c) assesses for fluid retention, and slowing the instillation (d) addresses inflow problems; neither addresses the urgent sign of infection.",
+    "additional": "Other signs of Peritonitis: Abdominal pain/tenderness, fever, nausea/vomiting.\n\nPrevention: Meticulous sterile technique during all PD exchanges is crucial to prevent peritonitis.\n\nTreatment: Antibiotics are typically added directly to the dialysate bags.\n\nPD Catheter Exit Site Infection: Another common complication. Assess the exit site for redness, tenderness, and drainage at every exchange.\n\nReference: Lewis's Medical-Surgical Nursing, Chapter 46: Renal and Urologic Problems."
+  },
+  {
+    "question": "The nurse plans to reinforce dietary teaching for the client in renal failure, emphasizing that protein foods selected should be those that are complete proteins, having high biological value. Which of the following foods will the nurse explain meet this criterion?",
+    "options": {
+      "A": "Eggs",
+      "B": "Legumes",
+      "C": "Nuts",
+      "D": "Vegetables"
+    },
+    "answer": "A",
+    "explanation": "While patients with renal failure are often on a protein-restricted diet to decrease nitrogenous waste, the protein they do consume should be of high biological value (HBV). HBV proteins are \"complete\" proteins, meaning they contain all the essential amino acids the body cannot synthesize on its own. This allows for optimal use by the body for tissue maintenance and repair, producing less urea waste.\n\nHBV protein sources include: Eggs, dairy products, meat, fish, and poultry.\n\nLow biological value (LBV) or \"incomplete\" protein sources lack one or more essential amino acids. These include legumes (beans), nuts, grains, and vegetables.\n\nTherefore, eggs are the correct example of an HBV protein source among the choices.",
+    "additional": "Renal Diet Summary: Typically involves restrictions on protein, sodium, potassium, and phosphorus. Fluid intake is also often restricted.\n\nHigh Potassium Foods to Avoid: Bananas, oranges, potatoes, tomatoes, avocados, salt substitutes.\n\nHigh Phosphorus Foods to Avoid: Dairy, dried beans, peas, nuts, cola, chocolate.\n\nReference: Lewis's Medical-Surgical Nursing, Chapter 46: Renal and Urologic Problems."
   }
 ]
+
+
