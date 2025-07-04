@@ -189,7 +189,19 @@
     "answer": "A",
     "explanation": "Buck's traction is a type of skin traction used to immobilize and reduce muscle spasms, typically before surgery for femur or hip fractures.",
     "additional": "Types of Traction:\n- Skin Traction (e.g., Buck’s): non-invasive, uses lighter weights\n- Skeletal Traction: invasive, heavier force applied to bone via pins\n\nNursing Care:\n- Ensure weights hang freely\n- Maintain proper body alignment\n- Regular neurovascular assessments\n- Prevent skin breakdown (inspect boot/tape)\n- Pin site care (if skeletal)\n\nTextbook Reference: Lewis's Med-Surg Nursing, Chapter 62."
-  }
+  },
+  {
+  "question": "Limb traction helps to,",
+  "options": {
+    "A": "Relieve pain, achieve hemostasis and prevent deep venous thrombosis",
+    "B": "Restore nerves function, maintain bone alignment & correct deformities",
+    "C": "Rest inflamed joints, restore limb and muscle size, prevent contractures",
+    "D": "Promote movement with ease, restore blood flow & reduce embolism"
+  },
+  "answer": "B",
+  "explanation": "This question asks for the primary goals or purposes of applying limb traction.\n\nPrimary Goals of Traction:\nImmobilize a fracture: To prevent further injury to soft tissues.\nReduce a fracture or dislocation: To pull bone fragments back into their proper anatomical position.\nMaintain bone alignment: To hold the fragments in place while healing begins, especially pre-operatively.\nRelieve pain from muscle spasms: The constant, steady pull fatigues the muscles, causing them to relax.\nCorrect or prevent deformities: Used in conditions like scoliosis or to prevent contractures after burns.\n\nAnalyzing the Options:\n(a) It does relieve pain, but it does not \"achieve hemostasis\" (stop bleeding) directly. Immobilization from traction increases the risk of DVT.\n(b) This option contains the most correct primary goals. It is used to maintain bone alignment and correct deformities. While it doesn't \"restore\" nerve function, by relieving pressure on nerves from displaced bone fragments, it can prevent further nerve damage.\n(c) It does rest joints and can help prevent contractures, but it does not \"restore\" limb and muscle size (disuse leads to atrophy).\n(d) It prevents movement, it doesn't promote it. It can compromise blood flow if not applied correctly. It helps prevent DVT, which reduces the risk of pulmonary embolism, but doesn't \"reduce embolism\" directly.",
+  "additional": "Additional Content & Future Testables:\nSee Question 50 for a detailed breakdown of Nursing Care for Patients in Traction.\n\nKey Principles:\nTraction must be continuous, never interrupted.\nWeights must hang freely.\nGood body alignment is essential.\nCounter-traction must be maintained.\nFocus on preventing the hazards of immobility (skin breakdown, DVT, pneumonia, constipation).\n\nTextbook Reference: Brunner & Suddarth's Textbook of Medical-Surgical Nursing, Chapter 40: Management of Patients With Musculoskeletal Trauma."
+}
 ]
 
 
