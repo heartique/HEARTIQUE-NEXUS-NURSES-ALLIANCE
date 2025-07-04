@@ -584,8 +584,69 @@
     "answer": "b",
     "explanation": "The Hawthorne effect is a type of reactivity in which research subjects modify their behavior or performance simply because they are aware of being observed or studied, not because of any specific intervention.\n\nOption (b) perfectly defines this phenomenon. The attention from the researchers becomes a confounding variable that can affect the study's outcomes.\n\nOption (a) refers to researcher incompetence, which is a threat to a study's validity but is not the Hawthorne effect.\n\nOption (c) refers to a breach of confidentiality or protocol, which can contaminate the study.\n\nOption (d) refers to subject attrition or mortality, which is another threat to a study's validity, but is distinct from the Hawthorne effect.",
     "additional": "Origin: The effect is named after a series of studies conducted at the Hawthorne Works factory in the 1920s and 30s. Researchers were studying the effect of lighting on worker productivity. They found that productivity improved not only when lighting was increased but also when it was decreased. They concluded that the workers were responding to the increased attention from the researchers, not the changes in lighting.\n\nControlling for the Hawthorne Effect:\n- In clinical trials, a control group is used. Both the intervention group and the control group receive attention, helping to balance out the effect.\n- Blinding: If subjects don't know whether they are in the control or intervention group (single-blind), or if both subjects and researchers don't know (double-blind), this can reduce bias.\n- Unobtrusive data collection (e.g., reviewing records instead of direct observation)."
+  },
+  {
+    "question": "167. The most appropriate method of studying characteristics of wound healing would be:-",
+    "options": {
+      "A": "Questionnaire.",
+      "B": "Participants observation.",
+      "C": "Pure observation.",
+      "D": "Context analysis."
+    },
+    "answer": "C",
+    "explanation": "The question asks for the best method to study the characteristics of a physical process like wound healing. This involves gathering objective, measurable data about the wound itself.\n\nOption (c) is the best fit. Pure observation (or structured observation) involves systematically watching and recording specific, pre-defined characteristics. A researcher would use a checklist or a rating scale (like the Braden Scale for pressure ulcers or a specific wound assessment tool) to document features like size (length, width, depth), color of the wound bed, amount and type of exudate, and presence of granulation tissue or signs of infection. This is a scientific and objective approach.\n\nOption (a), A questionnaire, is used to gather self-reported data on beliefs, attitudes, or experiences. It is not suitable for assessing the physical state of a wound.\n\nOption (b), Participant observation, is a qualitative method where the researcher becomes part of the group they are studying to understand social dynamics from an insider's perspective. This is completely inappropriate for studying a physiological process.\n\nOption (d), Context analysis (likely meant to be Content Analysis), is a method for systematically analyzing written, verbal, or visual communication messages (e.g., analyzing patient charts for common themes). It doesn't directly assess the wound.",
+    "additional": "Data Collection Methods in Research:\nObservation: Watching and recording behavior or characteristics. Can be structured (quantitative) or unstructured (qualitative).\nSelf-Report: Questionnaires, surveys, and interviews. Gathers subjective data. Prone to social desirability bias.\nPhysiological Measurement: Using instruments to collect biophysical data (e.g., vital signs, lab values, wound measurements). This is the most objective method.\n\nWound Assessment (Clinical Application): The principles of pure observation are used in daily nursing practice. A common mnemonic for wound assessment is \"TIME\":\nTissue Management: Is the tissue viable, necrotic, sloughy?\nInflammation/Infection: Are there signs of infection (redness, warmth, swelling, pain, purulent exudate)?\nMoisture Balance: Is the wound too wet or too dry?\nEdge of Wound: Are the edges advancing, rolled, or undermined?"
+  },
+  {
+    "question": "172. Plagiarism occurs if a researcher.-",
+    "options": {
+      "A": "Quotes the exact words of another author and gives reference.",
+      "B": "Paraphrases a passage of another author and gives no reference.",
+      "C": "Uses an idea or material based directly on the work of another author but gives reference.",
+      "D": "Summarizes a passage by another author and states the publisher."
+    },
+    "answer": "B",
+    "explanation": "Plagiarism is the act of presenting someone else's work, ideas, or words as your own without giving them proper credit.\n\nOption (b) is a classic example of plagiarism. Paraphrasing (restating an idea in your own words) still requires you to cite the original source of the idea. Failure to do so is a serious academic and ethical offense.\n\nOption (a) is not plagiarism. This is called a direct quotation, and it is perfectly acceptable as long as the source is properly referenced.\n\nOption (c) is not plagiarism. This is the essence of academic writing—building upon the ideas of others while giving them full credit through citation.\n\nOption (d) is incomplete. Stating the publisher is not a proper citation. However, the most clear-cut case of plagiarism among the choices is (b).",
+    "additional": "How to Avoid Plagiarism:\nCite Everything: Whenever you use a direct quote, paraphrase an idea, summarize a concept, or use data from another source, you MUST provide a citation.\nUse Quotation Marks: For any direct quote (using the exact words of the original author), enclose the text in quotation marks and provide a citation with a page number.\nReference List: Include a full reference list or bibliography at the end of your work that provides complete details for every source you cited in the text.\n\nCommon Referencing Styles in Nursing:\nAPA (American Psychological Association): Very common in social sciences and nursing.\nVancouver: Common in biomedical journals."
+  },
+  {
+    "question": "179. The examination scores for students are as follows:\n76, 54, 45, 92, 88, 47, 54. The range would be;",
+    "options": {
+      "A": "45",
+      "B": "54",
+      "C": "47",
+      "D": "92"
+    },
+    "answer": "C",
+    "explanation": "This question tests basic descriptive statistics.\n\nThe Range is the simplest measure of variability in a data set. It is calculated by subtracting the lowest value from the highest value.\n\nStep 1: Identify the highest score in the data set. The scores are 76, 54, 45, 92, 88, 47, 54. The highest score is 92.\n\nStep 2: Identify the lowest score in the data set. The lowest score is 45.\n\nStep 3: Calculate the range. Range = Highest Value - Lowest Value.\nRange = 92 - 45 = 47.",
+    "additional": "Measures of Central Tendency:\nMean: The average (sum of all scores divided by the number of scores).\nMedian: The middle value when the data are arranged in order. If there is an even number of scores, it's the average of the two middle values.\nMode: The value that appears most frequently. In this dataset (45, 47, 54, 54, 76, 88, 92), the mode is 54.\n\nMeasures of Variability (Dispersion):\nRange: Simple but sensitive to outliers (extreme values).\nStandard Deviation: The most common measure of variability. It represents the average distance of each score from the mean. A small standard deviation means the data points are clustered closely around the mean; a large standard deviation means they are spread out."
+  },
+  {
+    "question": "180. A sampling method where the researcher picks every nth number is;",
+    "options": {
+      "A": "Snowball sampling",
+      "B": "Stratified sampling",
+      "C": "Systematic sampling",
+      "D": "Purposive sampling"
+    },
+    "answer": "C",
+    "explanation": "This question asks you to identify a specific type of probability sampling.\n\nOption (c) is correct. Systematic sampling involves selecting subjects from a list at a fixed interval (every \"nth\" element) after a random starting point. For example, to select a sample of 100 from a list of 1000 people, you would select every 10th person (1000/100 = 10).\n\nOption (a), Snowball sampling, is a non-probability method used when subjects are hard to find. The researcher finds a few subjects, and then asks them to refer others. It's often used in studies of hidden populations (e.g., drug users).\n\nOption (b), Stratified sampling, is a probability method where the population is first divided into subgroups (strata) based on a shared characteristic (e.g., age, gender). Then, a random sample is drawn from each stratum. This ensures representation from all subgroups.\n\nOption (d), Purposive sampling, is a non-probability method where the researcher hand-picks subjects based on their specific knowledge or characteristics relevant to the study.",
+    "additional": "Two Main Types of Sampling:\nProbability Sampling: Every member of the population has a known (and usually equal) chance of being selected. Allows for generalization of findings to the whole population.\nExamples: Simple Random, Systematic, Stratified, Cluster.\n\nNon-Probability Sampling: Selection is not random. It is based on convenience or the researcher's judgment. Findings cannot be confidently generalized.\nExamples: Convenience, Quota, Purposive, Snowball."
+  },
+  {
+    "question": "188. Ethnography is a branch of;",
+    "options": {
+      "A": "Cultural anthropology",
+      "B": "Physical-biological anthropology",
+      "C": "Archaeological anthropology",
+      "D": "Medical anthropology"
+    },
+    "answer": "A",
+    "explanation": "Ethnography is a qualitative research methodology focused on the in-depth study and description of a culture or a social group from the group's own perspective. The researcher immerses themselves in the culture to understand its shared values, beliefs, and practices.\n\nOption (a) is correct. Ethnography is the primary research method used in cultural anthropology.\n\nOption (b), Physical-biological anthropology, studies human evolution and biological variation.\n\nOption (c), Archaeological anthropology, studies past cultures through their material remains.\n\nOption (d), Medical anthropology, is a subfield that uses anthropological theories (including ethnography) to study health, illness, and healthcare systems across different cultures. While it uses ethnography, ethnography itself is fundamentally a branch of cultural anthropology.",
+    "additional": "Qualitative Research Designs:\nPhenomenology: Focuses on understanding the lived experience of individuals concerning a specific phenomenon (e.g., the lived experience of chronic pain).\nGrounded Theory: Aims to develop a theory that is \"grounded\" in data collected from the field. The goal is to explain a social process.\nEthnography: Aims to describe a culture. The key data collection method is participant observation.\nHistorical Research: Examines past events to understand the present and anticipate the future."
   }
 ]
+  
 
 
 
