@@ -201,10 +201,43 @@ if (resetBtn) {
       location.reload();
     }, 500);
   });
-  const reloadBtn = document.getElementById("reload-btn");
+  // 🎉 RELOAD BUTTON WITH CONFETTI EFFECT
+const reloadBtn = document.getElementById("reload-btn");
 if (reloadBtn) {
   reloadBtn.addEventListener("click", () => {
-    location.reload(true);
+    // Confetti effect
+    const end = Date.now() + 500;
+    const colors = ['#ff595e', '#ffca3a', '#8ac926', '#1982c4', '#6a4c93'];
+
+    (function frame() {
+      confetti({
+        particleCount: 5,
+        angle: 60,
+        spread: 55,
+        origin: { x: 0 },
+        colors: colors
+      });
+      confetti({
+        particleCount: 5,
+        angle: 120,
+        spread: 55,
+        origin: { x: 1 },
+        colors: colors
+      });
+
+      if (Date.now() < end) {
+        requestAnimationFrame(frame);
+      }
+    })();
+
+    // Optional sound
+    const sound = new Audio("notify.mp3");
+    sound.play().catch(() => {});
+
+    // Delay before reload
+    setTimeout(() => {
+      location.reload(true);
+    }, 1200);
   });
 }
 }
