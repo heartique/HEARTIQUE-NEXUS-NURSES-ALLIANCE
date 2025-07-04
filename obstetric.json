@@ -1331,8 +1331,373 @@
     "answer": "d",
     "explanation": "Correct (d): In any patient with a suspected cervical spine (neck) injury, the head-tilt, chin-lift maneuver is contraindicated because it can cause further damage to the spinal cord. The correct and safe method to open the airway in this situation is the jaw-thrust maneuver. This is performed by placing the fingers behind the angles of the lower jaw and moving the jaw forward, which lifts the tongue away from the back of the throat without moving the neck.\n\nIncorrect (a): An oropharyngeal airway (OPA) is an adjunct used to maintain an open airway, but it can only be inserted after the airway has been opened. Also, it should only be used in an unconscious patient with no gag reflex.\n\nIncorrect (b): The head-tilt, chin-lift is the standard maneuver for a patient without a suspected neck injury.\n\nIncorrect (c): The recovery position is for an unresponsive patient who is breathing on their own and has no suspected spinal injury. This patient is pulseless and requires CPR and advanced airway management.",
     "additional": "Deeper Insight: The principle of \"airway with c-spine protection\" is fundamental in trauma care. If a patient requires rescue breaths or advanced airway management (intubation), one provider maintains manual in-line stabilization of the head and neck while another performs the procedure.\n\nPossible Next Question (NCK Focus): \"You are the first on the scene of an accident. The victim is unconscious but breathing. What is your priority action?\" The answer is to stabilize the person's head and neck."
+  },
+  {
+    "question": "The trophoblast cells of the developing zygote form the:-",
+    "options": {
+      "A": "Fetus and amnion",
+      "B": "Placenta and fetus",
+      "C": "Chorion and amnion",
+      "D": "Placenta and chorion"
+    },
+    "answer": "D",
+    "explanation": "The blastocyst, which develops from the zygote, consists of two main parts: the inner cell mass and an outer layer of cells called the trophoblast.\n\nThe inner cell mass develops into the embryo/fetus, the amnion, and the umbilical cord.\n\nThe trophoblast cells are responsible for implantation and develop into the fetal portion of the placenta and the chorion (the outer fetal membrane). Therefore, option (d) is the only correct combination. The other options incorrectly include the fetus or amnion, which arise from the inner cell mass.",
+    "additional": "The trophoblast further differentiates into two layers:\n\nCytotrophoblast (inner layer): This is the cellular layer.\n\nSyncytiotrophoblast (outer layer): This layer invades the uterine wall and produces Human Chorionic Gonadotropin (hCG), the hormone detected in pregnancy tests.\n\nUnderstanding this distinction is crucial as questions about the origin of hCG are common.\n\nBook Reference: Myles Textbook for Midwives is an excellent resource for detailed embryology and fetal development."
+  },
+  {
+    "question": "If Mrs. Cola's menstrual period was on 27.7.08, her expected date of delivery will be:-",
+    "options": {
+      "A": "3.4.09",
+      "B": "4.5.09",
+      "C": "3.5.09",
+      "D": "4.4.09"
+    },
+    "answer": "B",
+    "explanation": "This calculation is done using Naegele's Rule. The rule is to take the first day of the last menstrual period (LMP), add 7 days, subtract 3 months, and add 1 year.\n\nStep 1: Start with LMP: 27th July 2008 (27/07/2008)\n\nStep 2: Add 7 Days to the date: 27 + 7 = 34.\n\nStep 3: Subtract 3 Months from the month: July (month 7) - 3 months = April (month 4).\n\nStep 4: Add 1 Year to the year: 2008 + 1 = 2009.\n\nThis gives us a preliminary date of 34th April 2009. Since April only has 30 days, we must adjust:\n\nSubtract the number of days in April from the calculated day: 34 - 30 = 4.\n\nCarry over 1 month: April (month 4) becomes May (month 5).\n\nThe final Expected Date of Delivery (EDD) is the 4th of May 2009 (4.5.09).",
+    "additional": "Naegele's rule has limitations. It assumes a regular 28-day menstrual cycle with ovulation occurring on day 14. For women with irregular, longer, or shorter cycles, the EDD calculated by this rule can be inaccurate. In clinical practice, an early ultrasound (especially in the first trimester) provides a more accurate dating of the pregnancy.\n\nBook Reference: Williams Obstetrics or Myles Textbook for Midwives both cover the calculation and limitations of Naegele's Rule."
+  },
+  {
+    "question": "In focused antenatal care, the second dose of sulfadoxine pyrimethamine (sp) is administered at gestation of:-",
+    "options": {
+      "A": "16-28 weeks",
+      "B": "20-30 weeks",
+      "C": "28-34 weeks",
+      "D": "34-36 weeks"
+    },
+    "answer": "C",
+    "explanation": "Intermittent Preventive Treatment in pregnancy (IPTp) with SP is a key strategy to prevent malaria in pregnant women in endemic areas. According to the Kenya Ministry of Health and WHO guidelines:\n\nThe first dose (IPTp1) is given in the second trimester, after quickening (fetal movements are felt), usually from 16 weeks onwards.\n\nSubsequent doses (IPTp2, IPTp3, etc.) are given at least one month apart at each scheduled antenatal visit until delivery.\n\nTherefore, the second dose (IPTp2) would logically fall approximately one month after the first. Given that the first dose can be administered up to 24-26 weeks, the range of 28-34 weeks is the most appropriate window for the second dose to be administered effectively.",
+    "additional": "The full FANC/WHO recommendation is for pregnant women in malaria-endemic areas to receive at least three doses of IPTp-SP. This is part of a three-pronged approach to malaria prevention in pregnancy which also includes:\n\nUse of long-lasting insecticidal nets (LLINs).\n\nEffective case management of malaria illness.\n\nIt is a \"missed opportunity\" if a pregnant woman attends a clinic and does not receive her scheduled dose of IPTp-SP without a valid contraindication (e.g., sulfa allergy).\n\nBook Reference: Kenya National Guidelines for the Prevention and Treatment of Malaria."
+  },
+  {
+    "question": "The diastolic pressure is usually not affected by excitement, its increase is therefore more significant in assessment of pregnant women for pre-eclampsia. The range of change in mmHg is:-",
+    "options": {
+      "A": "10-15",
+      "B": "15-20",
+      "C": "15-30",
+      "D": "20-30"
+    },
+    "answer": "B",
+    "explanation": "The diagnosis of Pregnancy-Induced Hypertension (PIH) or pre-eclampsia is based on specific blood pressure criteria. One key criterion is a significant rise from the woman's baseline blood pressure recorded early in pregnancy. A diagnosis is considered if there is:\n\nA rise in systolic pressure of 30 mmHg or more.\n\nA rise in diastolic pressure of 15 mmHg or more.\n\nOr an absolute reading of 140/90 mmHg or higher on two separate occasions.\n\nThe question asks for the significant \"range of change\" in diastolic pressure. A change of 15 mmHg is the clinical threshold. The range 15-20 mmHg accurately reflects this critical diagnostic marker. A rise beyond 20 mmHg would indicate a more severe condition.",
+    "additional": "Diastolic pressure reflects the pressure in the arteries when the heart is at rest and is a better indicator of peripheral vascular resistance, which is a key pathological feature of pre-eclampsia. Systolic pressure can be more labile and easily influenced by anxiety or activity (white coat hypertension). Therefore, a sustained rise in diastolic pressure is a more reliable and ominous sign.\n\nBook Reference: Myles Textbook for Midwives provides clear guidelines on assessing and managing hypertensive disorders in pregnancy."
+  },
+  {
+    "question": "The management of placenta previa type three when the fetus has died in utero includes:-",
+    "options": {
+      "A": "Preparation of woman for emergency caesarian section.",
+      "B": "Induction of labour by use of syntocinon.",
+      "C": "Gentle palpation through vaginal fornices to determine whether posterior or anterior.",
+      "D": "Complete bed rest and speculum examination on third day."
+    },
+    "answer": "B",
+    "explanation": "This question presents a critical decision-making scenario. The key factors are: placenta previa and intrauterine fetal death (IUFD).\n\nWith a live fetus, a major placenta previa (like type III) is an indication for a Caesarean section to avoid fetal hypoxia and maternal hemorrhage during labor.\n\nHowever, with IUFD, there is no fetus to save. The primary goal becomes the safest possible delivery for the mother. A Caesarean section is a major surgery with inherent risks (anesthesia, bleeding, infection, future scar).\n\nTherefore, if the mother is hemodynamically stable, the preferred management is a cautious induction of labor (IOL) with oxytocin (Syntocinon), allowing for a vaginal delivery. This avoids the risks of surgery. The delivery must take place in a facility equipped for immediate C-section and blood transfusion in case of severe hemorrhage.\n\nOption (c) is extremely dangerous and absolutely contraindicated as a vaginal examination can provoke catastrophic bleeding. Option (a) is not the first line of management in IUFD unless there is uncontrollable bleeding.",
+    "additional": "The cardinal rule in any suspected case of antepartum hemorrhage is: DO NOT PERFORM A VAGINAL EXAMINATION until placenta previa has been ruled out by ultrasound. This is one of the most important safety principles in midwifery. Management is always individualized based on gestational age, type of previa, and the status of both mother and fetus.\n\nBook Reference: Williams Obstetrics gives an in-depth discussion on the complex management of placenta previa."
+  },
+  {
+    "question": "The hormonal factor responsible for uterine contractions at onset of labour are:-",
+    "options": {
+      "A": "Increase release of oxytocin progesterone from deciduas at term.",
+      "B": "Formation of oxytocin and estrogen in the fetal circulation.",
+      "C": "Rise of oxytocin and estrogen in the fetal circulation.",
+      "D": "Optimum levels of estrogen and rise of prostaglandins in maternal circulation."
+    },
+    "answer": "D",
+    "explanation": "The onset of labor is a complex process involving multiple factors. A key theory is the progesterone withdrawal/estrogen dominance theory.\n\nThroughout pregnancy, progesterone keeps the uterus quiescent (relaxed).\n\nTowards term, the ratio of estrogen to progesterone shifts. Estrogen levels rise, making the myometrium more sensitive to contractile stimuli and promoting the formation of oxytocin receptors.\n\nCrucially, this rise in estrogen also stimulates the synthesis and release of prostaglandins from the fetal membranes (amnion and chorion) and the uterine decidua.\n\nProstaglandins are potent stimulators of uterine contractions and are also essential for cervical ripening (softening and effacement). While oxytocin is vital for the progression of labor, the initial trigger is strongly linked to the combined effect of estrogen and prostaglandins. Option (d) best captures this critical relationship.",
+    "additional": "The Ferguson Reflex is another key concept. As the fetus descends, the presenting part stretches the cervix and lower uterine segment. This sends nerve impulses to the hypothalamus, triggering the posterior pituitary to release a surge of oxytocin. This oxytocin then causes stronger contractions, leading to more stretching, and thus a positive feedback loop is created, which powerfully drives the active phase of labor.\n\nBook Reference: Myles Textbook for Midwives offers a detailed chapter on the physiology and hormonal control of labor."
+  },
+  {
+    "question": "Fetal axis pressure is a physical change that is more significant during:-",
+    "options": {
+      "A": "Early stages of labour transmitting the force of contraction to ther upper pole of fetus.",
+      "B": "Second stage of labour when membranes are intact.",
+      "C": "Active and second stages of labour when membranes are ruptured.",
+      "D": "Second stage of labour transmitting the force of contraction to the lower pole of the uterus."
+    },
+    "answer": "C",
+    "explanation": "Fetal axis pressure is the force of the fundal uterine contraction being transmitted down the fetal spine to the presenting part (usually the head). This pressure helps in cervical dilatation and fetal descent.\n\nThis mechanism is most effective during the active phase and second stage when contractions are strong and regular.\n\nIts efficiency is significantly increased after the membranes have ruptured. When the forewaters are gone, the well-flexed fetal head can be applied directly and firmly against the cervix, acting as an effective dilating wedge. When membranes are intact, the fluid bag can cushion this pressure. Therefore, the combination of strong contractions (active/second stage) and ruptured membranes makes fetal axis pressure most significant.",
+    "additional": "Factors that can interfere with effective fetal axis pressure include:\n\nMalpresentations: such as a transverse lie, where the force cannot be transmitted to the cervix.\n\nMalpositions: such as an occipito-posterior (OP) position where the head may be deflexed, presenting a larger diameter and distributing pressure less effectively.\n\nCephalopelvic Disproportion (CPD): where the head cannot descend to apply pressure.\n\nBook Reference: Any standard text on labor mechanics, such as Varney's Midwifery or Myles Textbook for Midwives."
+  },
+  {
+    "question": "If membranes rupture at cervical dilation of 8 centimeters, a vaginal examination performed should rule out:-",
+    "options": {
+      "A": "Obstructed labour, cord prolapsed, fetal compromise.",
+      "B": "Cord prolapsed, cord presentation, fetal distress.",
+      "C": "Obstructed labour, cord prolapsed, prolonged labour.",
+      "D": "Maternal distress, prolonged labour, cord presentation."
+    },
+    "answer": "B",
+    "explanation": "Whenever the membranes rupture (spontaneously or artificially), the immediate and most critical risk is an umbilical cord accident.\n\nCord Prolapse: The umbilical cord slips down beside or past the presenting part after the membranes have ruptured. This is a true obstetrical emergency as the presenting part can compress the cord, cutting off oxygen to the fetus.\n\nCord Presentation: The cord is felt below the presenting part before or during rupture of membranes.\nA vaginal examination (VE) is performed immediately after rupture of membranes (especially if the presenting part is high) to feel for the presence of the cord. Concurrently, the fetal heart rate must be auscultated to detect signs of fetal distress (e.g., bradycardia), which would indicate cord compression.",
+    "additional": "Emergency Management of Cord Prolapse:\n\nCall for help immediately.\n\nManually elevate the presenting part off the cord with a sterile gloved hand. Keep your hand in place.\n\nPlace the mother in an exaggerated Sims' or knee-chest position to use gravity to move the fetus away from the pelvis.\n\nAdminister oxygen to the mother.\n\nPrepare for an immediate emergency Caesarean section.\n\nBook Reference: Emergency Obstetric Care (EmOC) Handbook is a vital resource for managing such emergencies."
+  },
+  {
+    "question": "The partograph is an effective tool in management of women in labour, a good progress in the active phase will be:-",
+    "options": {
+      "A": "Cervical dilatation plotted progressively on alert line within 7 hours.",
+      "B": "Uterine contractions increasing in strength form 20-25 seconds within 8 hours.",
+      "C": "Cervical dilation plotted on the action line and progressive descent.",
+      "D": "Cervical dilatation plotted the right of the action line."
+    },
+    "answer": "A",
+    "explanation": "The WHO partograph is used to monitor labor progress.\n\nGood progress is defined as cervical dilatation that is plotted to the left of the alert line.\n\nThe Alert Line represents the minimum expected rate of dilatation (1 cm/hour). Plotting on the alert line means progress is at the slowest acceptable rate and requires closer observation.\n\nThe Action Line is 4 hours to the right of the alert line. Plotting on or to the right of the action line indicates poor progress and requires intervention.\n\nGiven the options, option (a) is the only one that describes a rate of progress that is still considered within normal, albeit slow, limits. Options (c) and (d) clearly indicate poor progress requiring action. Option (b) only describes one aspect (contractions) and the duration mentioned is weak for active labor. Therefore, plotting \"on the alert line\" is the best available answer representing a woman who has not yet crossed into the \"action needed\" zone.",
+    "additional": "The primary purpose of the partograph is the early detection of abnormal labor progress (dystocia), reducing the likelihood of prolonged/obstructed labor and its complications (e.g., uterine rupture, fetal distress, PPH). It is a simple, visual tool that allows any skilled birth attendant to recognize when a referral or intervention is necessary.\n\nBook Reference: The definitive guide is the WHO's manual, Preventing Prolonged Labour: A Practical Guide - The Partograph."
+  },
+  {
+    "question": "At primary level of ant-retroviral prophylaxis for PMTCT (prevention of mother to child transmition), a HIV-positive woman should take:-",
+    "options": {
+      "A": "Nevirapine 300 mgs at onset of labour.",
+      "B": "Nevirapine 200 mgs at onset of labour.",
+      "C": "Zidovudine 300 mgs 3 hourly for 12 hours.",
+      "D": "Zidovudine 2mg/ kilogram body weight within three days of delivery."
+    },
+    "answer": "B",
+    "explanation": "This question refers to the PMTCT guidelines that were in place around 2009. At that time, one of the simplest and most common regimens used at the primary care level (WHO Option A) was single-dose Nevirapine (sdNVP). The standard adult dose was 200mg taken orally by the mother at the onset of labor. This was followed by a single dose of Nevirapine syrup for the infant shortly after birth. Option (d) refers to a neonatal dose, and option (c) is part of a more complex regimen.",
+    "additional": "Additional Content - VERY IMPORTANT UPDATE:\n\nThe single-dose Nevirapine regimen is outdated and no longer recommended due to its lower efficacy and the high risk of developing viral resistance.\n\nCurrent Guideline (WHO Option B+): All pregnant and breastfeeding women who are HIV-positive should be initiated on lifelong combination Antiretroviral Therapy (cART), regardless of their CD4 count or clinical stage. This \"Treat All\" strategy is far more effective at suppressing the mother's viral load, preventing transmission to the baby, and protecting the mother's own health. An exam may test your knowledge of this crucial update.\n\nBook Reference: Kenya National Guidelines for the Prevention of Mother-to-Child Transmission (PMTCT) of HIV. Always refer to the most recent edition."
+  },
+  {
+    "question": "The initial characteristics of rigid cervix in cervical dystocia include:-",
+    "options": {
+      "A": "Thin, tight, unyielding.",
+      "B": "Thick, tight, edematous.",
+      "C": "Long, thick, edematous.",
+      "D": "Thick, edematous, unyielding."
+    },
+    "answer": "D",
+    "explanation": "Cervical dystocia is the failure of the cervix to dilate despite effective uterine contractions. A \"rigid cervix\" describes the physical state of the cervix in this condition.\n\nThick: The cervix fails to efface (thin out). A normal, ripening cervix becomes paper-thin.\n\nEdematous: The cervix becomes swollen and water-logged due to the pressure from the presenting part without the ability to dilate. This pressure obstructs venous return, causing edema.\n\nUnyielding: Despite strong contractions, the cervical os remains tight and does not open.\n\nOption (a) is incorrect because a rigid cervix is thick, not thin. Options (b) and (c) are partially correct but (d) is the most comprehensive description, capturing all three key characteristics: it is thick (not effaced), swollen (edematous), and fails to dilate (unyielding).",
+    "additional": "Causes of cervical dystocia can be:\n\nFunctional: The most common cause, where there is no anatomical reason, but the cervix fails to respond to contractions (often associated with incoordinate uterine action).\n\nOrganic/Structural: This is rare and caused by previous scarring of the cervix from surgery (e.g., cone biopsy), trauma, or infection.\nManagement may involve rest (if due to exhaustion), an epidural to break the pain-tension cycle, or, if progress fails completely, a Caesarean section.\n\nBook Reference: Myles Textbook for Midwives discusses dysfunctional labor, including cervical dystocia."
+  },
+  {
+    "question": "Perineal trauma is common in delivery of face to pubis due to:-",
+    "options": {
+      "A": "Irregular shape of the face as a presenting part.",
+      "B": "Persistent occipito-posterior position when occiput becomes the leading part.",
+      "C": "Large presenting mentovertical diameter.",
+      "D": "Large presenting occipito-frontal and biparietal diameters."
+    },
+    "answer": "C",
+    "explanation": "\"Face to pubis\" delivery is the outcome of a persistent occipito-posterior (OP) position. In a normal delivery, the occiput rotates anteriorly. In a persistent OP, the baby's occiput remains against the mother's sacrum, so the face delivers looking upwards towards the pubic symphysis.\n\nIn this position, the fetal head is often deflexed. As the head crowns, the diameter distending the perineum is the large occipito-frontal diameter (11.5 cm).\n\nHowever, the question points to a specific cause of trauma. As the head is born by extension, the largest diameter that sweeps over the perineum is the mentovertical diameter (13.5 cm), which is the largest diameter of the fetal skull. The strain of this massive diameter passing over the perineum is what causes the high rate of severe perineal tears (3rd and 4th degree).\n\nWhile option (d) mentions the occipito-frontal diameter which is involved, the mentovertical diameter (option c) is the largest and most destructive diameter associated with this type of delivery mechanism, making it the best answer for why trauma is so common.",
+    "additional": "Management of persistent OP position includes:\n\nEncouraging maternal position changes (e.g., all-fours) to promote rotation.\n\nEnsuring adequate hydration and pain relief.\n\nConsidering instrumental delivery (forceps/ventouse) if there is delay or fetal distress.\n\nPerforming a timely and generous episiotomy is often necessary to prevent uncontrolled, severe tearing.\n\nBook Reference: Williams Obstetrics details the mechanisms and management of abnormal labor, including persistent OP positions."
+  },
+  {
+    "question": "After birth, the functional closure of ductus arteriosus takes place within:-",
+    "options": {
+      "A": "1-2 hours.",
+      "B": "2-4 hours",
+      "C": "4-6 hours",
+      "D": "8-10 hours"
+    },
+    "answer": "D",
+    "explanation": "The ductus arteriosus is a fetal blood vessel connecting the pulmonary artery to the aorta, allowing most of the blood from the right ventricle to bypass the non-functioning fetal lungs.\n\nAt birth, when the baby takes its first breath, the lungs inflate, and the pulmonary vascular resistance drops dramatically.\n\nSimultaneously, the oxygen levels (PaO2) in the blood rise. This rise in oxygen is the primary stimulus that causes the smooth muscle in the wall of the ductus arteriosus to constrict.\n\nThis constriction, or functional closure, begins within minutes but is typically completed within 8 to 10 hours after birth in a healthy term infant. Complete anatomical closure (fibrosis) takes several weeks. The question asks for functional closure, making 8-10 hours the most accurate answer.",
+    "additional": "Factors that can delay the closure of the ductus arteriosus include:\n\nHypoxia: Low oxygen levels prevent constriction.\n\nProstaglandins: High levels of prostaglandins keep the ductus open. This is utilized therapeutically in some congenital heart defects where a patent ductus is life-saving, and prostaglandin inhibitors like Indomethacin are used to help close it in premature infants.\nA failure of the ductus to close results in a Patent Ductus Arteriosus (PDA), a common congenital heart defect, especially in preterm infants.\n\nBook Reference: Neonatal-Perinatal Medicine or Avery's Diseases of the Newborn provide excellent detail on neonatal circulatory adaptation."
+  },
+  {
+    "question": "The anti-opioid drug used in resuscitation of the newborn is:-",
+    "options": {
+      "A": "Konakion 0.5 mg intramuscularly.",
+      "B": "Dexamethasone 1-2mg Intravenously.",
+      "C": "Narcan 0.1 mg/kilogram body weight intravenously.",
+      "D": "Naloxone 0.5 mg intravenously."
+    },
+    "answer": "C",
+    "explanation": "This question is about reversing respiratory depression in a newborn caused by opioid administration to the mother during labor (e.g., pethidine).\n\nThe specific antagonist for opioids is Naloxone (brand name: Narcan).\n\nThe correct dose for a newborn is 0.1 mg/kg. This dose can be given via the intravenous (IV), intramuscular (IM), or endotracheal tube (ETT) route. Option (c) provides the correct drug name, dose, and route.\n\nKonakion (Vitamin K) (a) is given to prevent hemorrhagic disease of the newborn.\n\nDexamethasone (b) is a corticosteroid used for various reasons (e.g., lung maturation antepartum) but not for opioid reversal.\n\nNaloxone 0.5 mg (d) is an incorrect dose; newborn doses are always weight-based and are much smaller.",
+    "additional": "Crucial Contraindication: Naloxone should NOT be given to a newborn whose mother is a known or suspected opioid addict. Administering Naloxone in this case can precipitate severe, life-threatening withdrawal seizures in the infant. The primary management for any neonatal respiratory depression, regardless of cause, is always effective ventilation with a bag and mask. Drugs are a secondary consideration.\n\nBook Reference: Textbook of Neonatal Resuscitation (NRP) by the American Academy of Pediatrics."
+  },
+  {
+    "question": "The anti-infective factor that is abundant in human milk but absent in cow's milk is:-",
+    "options": {
+      "A": "Lysozyme.",
+      "B": "Lactoferrin.",
+      "C": "Colostrums.",
+      "D": "Bifidus."
+    },
+    "answer": "A",
+    "explanation": "Human milk is rich in bioactive components that provide passive immunity.\n\nLysozyme is an enzyme that destroys bacteria by breaking down their cell walls. The concentration of lysozyme in human milk is significantly higher (up to 300 times more) than in cow's milk, making it a key distinguishing anti-infective factor.\n\nLactoferrin (b) is also a crucial iron-binding protein that inhibits bacterial growth, but trace amounts are found in cow's milk.\n\nColostrum (c) is the type of milk produced in the first few days, not a specific factor itself, although it is extremely rich in all immune components, especially secretory IgA.\n\nBifidus factor (d) is not a substance itself but a carbohydrate that promotes the growth of beneficial bacteria (Lactobacillus bifidus) in the infant's gut.\n\nGiven the options, Lysozyme is the most accurate answer for a specific anti-infective factor that is abundant in human milk and virtually absent or present in very low quantities in cow's milk.",
+    "additional": "The most important immunoglobulin in human milk is Secretory IgA (sIgA). It is not absorbed systemically but acts locally in the infant's gut, coating the mucosal surfaces to prevent pathogens from attaching and invading. This is why breastfed babies have fewer gastrointestinal and respiratory infections.\n\nBook Reference: Breastfeeding and Human Lactation by Jan Riordan and Karen Wambach."
+  },
+  {
+    "question": "Injury to the fetal scalp due to pressure by girdle of contact is known as:-",
+    "options": {
+      "A": "Cephalhaematoma.",
+      "B": "Pericranial hematoma.",
+      "C": "Subdural oedema.",
+      "D": "Caput succedaneum."
+    },
+    "answer": "D",
+    "explanation": "This question asks to identify a specific type of birth-related scalp injury.\n\nCaput Succedaneum is a diffuse, edematous (swollen) area of the scalp that forms due to pressure from the cervix or vaginal wall (the \"girdle of contact\") during a prolonged or difficult labor. The key features are:\n\nIt is present at birth.\n\nIt consists of soft tissue swelling (edema) and sometimes bruising.\n\nCrucially, it crosses suture lines because the swelling is in the scalp tissue above the periosteum.\n\nIt resolves within a few days.\n\nCephalhaematoma (a) is a collection of blood under the periosteum of a single skull bone. It does not cross suture lines, appears a few hours after birth, and takes weeks or months to resolve.\n\nTherefore, the injury caused by the pressure of the \"girdle of contact\" is the caput succedaneum.",
+    "additional": "It is essential to be able to differentiate between a caput succedaneum and a cephalhaematoma, as this is a classic examination topic.\n\nFeature | Caput Succedaneum | Cephalhaematoma\n--- | --- | ---\nLocation | Scalp tissue (above periosteum) | Between periosteum and skull bone\nBoundaries | Crosses suture lines | Does NOT cross suture lines\nOnset | Present at birth | Appears hours to a day after birth\nConsistency | Soft, pitting edema | Firm, tense, defined edges\nResolution | 1-3 days | Weeks to months\n\nBook Reference: Myles Textbook for Midwives or any neonatal textbook like Avery's Diseases of the Newborn."
+  },
+  {
+    "question": "The peak action of syntocinon administered to prevent post-partum hemorrhage is felt in:-",
+    "options": {
+      "A": "2 ½ minutes.",
+      "B": "2 minutes.",
+      "C": "2 seconds.",
+      "D": "2 ½ seconds."
+    },
+    "answer": "A",
+    "explanation": "This question refers to the use of an oxytocic drug for the Active Management of the Third Stage of Labor (AMTSL). The standard drug is Syntometrine (Oxytocin + Ergometrine) or Oxytocin (Syntocinon) alone.\n\nWhen Oxytocin (Syntocinon) is given intramuscularly (IM), which is the standard route for AMTSL, its onset of action is not immediate.\n\nIt takes approximately 2 to 3 minutes for the drug to be absorbed from the muscle and reach peak concentration in the bloodstream to cause a strong uterine contraction.\n\nTherefore, 2 ½ minutes is the most clinically accurate answer. The options in seconds (c, d) are incorrect and would relate to an intravenous (IV) bolus, which has an almost immediate effect but is not the standard route for routine prevention.",
+    "additional": "AMTSL Steps:\n\n- Administer an oxytocic drug (e.g., 10 IU Oxytocin IM) within one minute of the baby's birth.\n- Perform delayed cord clamping (1-3 minutes).\n- Apply controlled cord traction (CCT) to deliver the placenta while applying counter-traction to the uterus.\n- Massage the uterine fundus after placental delivery.\n\nThis evidence-based practice has been proven to significantly reduce the incidence of primary postpartum hemorrhage (PPH).\n\nBook Reference: WHO recommendations for the prevention and treatment of postpartum haemorrhage."
+  },
+  {
+    "question": "The exogenous causative organisms to puerperal infection include:-",
+    "options": {
+      "A": "Escherichia coli, clostridium welchii.",
+      "B": "Streptococcus faecalis, haemolytic streptococcus.",
+      "C": "Staphylococcus aureus, Escherichia coli.",
+      "D": "Haemolytic streptococcus aureus."
+    },
+    "answer": "C",
+    "explanation": "Puerperal infection is an infection of the genital tract occurring after childbirth. The organisms can be endogenous (from the woman's own flora) or exogenous (introduced from an external source).\n\nExogenous infections are typically caused by a breach in aseptic technique during delivery or postpartum care.\n\nStaphylococcus aureus is a classic exogenous pathogen, commonly found on skin and the hands of healthcare workers, and is a major cause of wound infections and toxic shock syndrome.\n\nEscherichia coli is commonly found in the bowel. While it can be an endogenous cause if it migrates from the rectum, it is also a major exogenous pathogen transmitted via poor hygiene (fecal contamination).\n\nStreptococcus faecalis (Enterococcus) and Clostridium welchii (a) are typically considered endogenous organisms from the gut/vaginal flora. Haemolytic streptococcus (b) can be both, but Staph aureus and E.coli are the most prominent examples of exogenous pathogens.",
+    "additional": "The most important factor in preventing exogenous puerperal infection is strict adherence to asepsis and hand hygiene by all birth attendants. Risk factors include prolonged rupture of membranes, multiple vaginal examinations, operative delivery (forceps, C-section), and retained placental fragments which act as a growth medium for bacteria.\n\nBook Reference: Myles Textbook for Midwives, chapter on Postnatal Complications."
+  },
+  {
+    "question": "Mrs Dodo para 6+0 comes to the postnatal clinic at six weeks and demands for bilateral tubal ligation, the midwife should:-",
+    "options": {
+      "A": "Reassure and encourage her to continue with lactational amenorrhea method.",
+      "B": "Schedule for return date in order to prepare for the procedure.",
+      "C": "Check whether pregnancy tests is negative then provide the demanded method accordingly.",
+      "D": "Take in-depth medico-social history and encourage partner participation."
+    },
+    "answer": "D",
+    "explanation": "This question tests the principles of family planning counseling, particularly for a permanent method like Bilateral Tubal Ligation (BTL).\n\nBTL is irreversible. A client's \"demand\" must be met with thorough, non-judgmental counseling, not immediate action. The midwife's role is to ensure the decision is fully informed and considered.\n\nOption (d) is the most professional and comprehensive first step. An in-depth history is needed to explore her reasons, confirm she understands the permanence, rule out any coercion, assess her social support, and discuss alternatives. Encouraging partner participation is vital for shared decision-making, though the ultimate choice rests with the woman.\n\n(a) is inappropriate as LAM is a temporary method and not a suitable long-term replacement for someone desiring permanence.\n\n(b) and (c) are premature. Scheduling the procedure or simply running a pregnancy test bypasses the essential counseling process.",
+    "additional": "The core principles of counseling for permanent contraception (BRAIDED):\n\n- Benefits of the method.\n- Risks of the method.\n- Alternatives to the method (including long-acting reversible contraceptives - LARCs).\n- Inquiries (opportunity for the client to ask questions).\n- Decision to withdraw at any time.\n- Explanation of the procedure.\n- Documentation of the discussion.\n\nBook Reference: Family Planning: A Global Handbook for Providers (WHO/Johns Hopkins)."
+  },
+  {
+    "question": "In the following statements regarding newborn care and maternal death, identify the correct statements:-",
+    "options": {
+      "A": "Immunization in the newborn should be administered earlier than the time when maternal antibodies diminish and his body defense mechanism mature.",
+      "B": "Maternal death is defined as death of a woman during pregnancy, labour or 42 days after delivery or abortion.",
+      "C": "Immunization in the newborn should be delayed until all maternal antibodies are gone.",
+      "D": "Maternal death includes deaths from unrelated accidental injuries like road traffic accidents during pregnancy."
+    },
+    "answer": "A, B",
+    "explanation": "Statement (a): This is the fundamental principle behind the infant immunization schedule. Vaccines are timed to be given just as the passive immunity received from the mother (maternal antibodies) begins to wane, but before the infant is left completely vulnerable. This provides active immunity as the infant's own immune system is stimulated to produce its own antibodies. For example, the measles vaccine is given at 9 months because maternal antibodies to measles can interfere with the vaccine if given earlier.\n\nStatement (b): This is the standard WHO definition of maternal death. It is formally defined as \"the death of a woman while pregnant or within 42 days of termination of pregnancy, irrespective of the duration and site of the pregnancy, from any cause related to or aggravated by the pregnancy or its management but not from accidental or incidental causes.\" This definition is crucial for accurately calculating the Maternal Mortality Ratio (MMR).",
+    "additional": "A late maternal death is defined as the death of a woman from direct or indirect obstetric causes more than 42 days but less than one year after termination of pregnancy. This is tracked separately but is also an important public health indicator."
+  },
+  {
+    "question": "Fetal causes of early pregnancy loss include:-",
+    "options": {
+      "A": "Structural abnormalities of the genital tract",
+      "B": "Bicornulate uterus and fibroids",
+      "C": "Chromosomal abnormalities of the conceptus",
+      "D": "Infections such as rubella, listeria and Chlamydia"
+    },
+    "answer": "C",
+    "explanation": "The question specifically asks for fetal causes of early pregnancy loss (miscarriage).\n\nChromosomal abnormalities of the conceptus (the developing fetus) are the single most common cause of first-trimester miscarriages, accounting for over 50% of cases. These are genetic errors (e.g., trisomies, monosomies) that occur at conception and are incompatible with life. This is a direct fetal cause.\n\nOptions (a) and (b) describe maternal uterine factors (anatomical problems with the mother's uterus).\n\nOption (d) describes maternal infections that can cross the placenta and affect the fetus. While the fetus is affected, the origin of the problem is maternal.\n\nTherefore, chromosomal abnormalities are the most direct and common fetal cause.",
+    "additional": "Other causes of early pregnancy loss are categorized as:\n\nMaternal Factors:\n- Endocrine: Uncontrolled diabetes, thyroid disease, luteal phase defect.\n- Immunological: Antiphospholipid syndrome (APS), thrombophilias.\n- Anatomical: Uterine septum, submucosal fibroids, incompetent cervix (usually causes second-trimester loss).\n\nPaternal Factors: Chromosomal abnormalities in sperm.\n\nEnvironmental Factors: Exposure to toxins, radiation, heavy smoking or alcohol use.\n\nBook Reference: Williams Obstetrics, chapter on Abortion."
+  },
+  {
+    "question": "The outcome of labor is not dependent on:-",
+    "options": {
+      "A": "Effectiveness of uterine contractions",
+      "B": "Maternal size",
+      "C": "The \"give\" of the pelvic joints",
+      "D": "The degree of moulding of the fetal head"
+    },
+    "answer": "B",
+    "explanation": "This question refers to the \"3 P's\" (and more) that determine the outcome of labor:\n\nPowers: The effectiveness of uterine contractions.\n\nPassage: The size and shape of the maternal pelvis.\n\nPassenger: The size, presentation, position, and mouldability of the fetus.\n\n(a) Effectiveness of uterine contractions (Powers) is crucial.\n\n(c) The \"give\" of the pelvic joints (e.g., sacroiliac joints, symphysis pubis) due to the hormone relaxin allows for a slight increase in pelvic diameter (Passage).\n\n(d) The degree of moulding of the fetal head allows the head to adapt its shape to fit through the pelvis (Passenger).\n\n(b) Maternal size, such as a woman's height or overall body size, is a poor predictor of pelvic capacity. A tall woman can have a small pelvis (android type), and a short woman can have a spacious pelvis (gynecoid type). Therefore, labor outcome is not dependent on overall maternal size but on the specific dimensions of her bony pelvis.",
+    "additional": "The modern framework for labor progress often includes additional \"P's\":\n\n- Psyche: The mother's psychological state, level of fear, anxiety, and support.\n- Position: The mother's position during labor (upright, mobile positions can aid descent).\n\nThe relationship between the fetal head and the maternal pelvis is clinically assessed by evaluating for cephalopelvic disproportion (CPD).\n\nBook Reference: Myles Textbook for Midwives, chapter on The First Stage of Labour."
+  },
+  {
+    "question": "In monitoring fetal well being using the fetal kick chart, you will tell the client to notify you if she counts:-",
+    "options": {
+      "A": "More than 10 movements in 3 hours",
+      "B": "Less than 10 movements in 3 hours",
+      "C": "More than 10 movements per hour",
+      "D": "Less than 10 movements per hour"
+    },
+    "answer": "B",
+    "explanation": "Fetal movement counting (kick charts) is a method for monitoring fetal well-being, particularly in high-risk pregnancies. While various protocols exist, a common and widely taught one is the \"Cardiff Count to 10\" method or variations of it.\n\nThe principle is that a healthy fetus moves regularly. A significant decrease in fetal movement can be an early sign of fetal compromise or hypoxia.\n\nThe woman is instructed to lie on her side and count movements. She should feel at least 10 distinct movements within a specified period, often 2-3 hours.\n\nIf she counts less than 10 movements in that timeframe, it is an alarm sign, and she should contact her healthcare provider immediately for further assessment (e.g., a Non-Stress Test - NST).\n\nTherefore, counting less than 10 movements in 3 hours is the correct instruction for when to seek help.",
+    "additional": "Modern practice is moving away from strict counting protocols towards emphasizing maternal perception of overall fetal movement patterns. The key instruction is now often: \"You should be aware of your baby's movements every day. If you notice the movements have slowed down, stopped, or the pattern has changed, you should contact the maternity unit immediately.\" This subjective approach is considered more effective as every baby has a different pattern.\n\nBook Reference: Any standard antenatal care guideline, such as those from ACOG (American College of Obstetricians and Gynecologists) or RCOG (Royal College of Obstetricians and Gynaecologists)."
+  },
+  {
+    "question": "During discharge, an important advice for the breastfeeding mother is to:-",
+    "options": {
+      "A": "Routinely avoid onions, cabbage and chocolate",
+      "B": "Keep her calcium intake the same as during pregnancy",
+      "C": "Increase her calories over her pregnancy requirements",
+      "D": "Return to her pre-pregnancy intake for proteins but not calories"
+    },
+    "answer": "C",
+    "explanation": "Lactation is an energy-intensive process. Producing milk requires a significant number of calories.\n\nThe recommendation is that a breastfeeding mother should increase her daily caloric intake by approximately 500 kcal above her non-pregnant needs. This is even higher than the extra ~300 kcal recommended during the second and third trimesters of pregnancy.\n\nOption (a) is outdated advice; mothers should eat a balanced diet and only avoid specific foods if they notice they consistently cause problems for their baby (e.g., gassiness).\n\nOption (b) is incorrect; calcium and other nutrient needs remain high or even increase during lactation.\n\nOption (d) is incorrect as both calorie and protein needs are increased during breastfeeding to support milk production and maternal health.",
+    "additional": "A breastfeeding mother's diet should be rich in:\n\n- Fluids: To stay hydrated and support milk volume.\n- Protein: For milk synthesis and maternal tissue repair.\n- Calcium: To ensure the milk has adequate calcium without depleting maternal bone stores.\n- Iron: To replenish stores lost during delivery.\n- DHA (an omega-3 fatty acid): Important for the baby's brain and eye development.\n\nBook Reference: Myles Textbook for Midwives, chapter on The Puerperium and Infant Feeding."
+  },
+  {
+    "question": "The part of the uterus in which a contraction begins is:-",
+    "options": {
+      "A": "Cornua",
+      "B": "Fundus",
+      "C": "Isthmus",
+      "D": "The body or corpus"
+    },
+    "answer": "B",
+    "explanation": "Normal, effective uterine contractions exhibit fundal dominance. This means that each contraction originates in the fundus (the top, dome-shaped part of the uterus), typically near one of the cornua (where the fallopian tubes enter). The wave of contraction then spreads downwards through the body of the uterus towards the cervix.\n\nThe contractions are strongest and last longest in the fundus and become progressively weaker and shorter as they move down the uterus.\n\nThis coordinated pattern ensures that the force is directed downwards to push the fetus through the birth canal, rather than being chaotic or ineffective.\n\nThe fundus is the correct general area where contractions begin. The cornua (a) are the specific \"pacemaker\" points within the fundus. The isthmus (c) is the lower uterine segment, which remains relatively passive and relaxed. The corpus (d) is too general.",
+    "additional": "Incoordinate uterine action occurs when this pattern of fundal dominance is lost. Contractions may originate in the mid-segment or be stronger in the lower part of the uterus, leading to ineffective labor, failure to progress, and maternal/fetal distress.\n\nBook Reference: Physiology in Childbearing by Jean Rankin or Myles Textbook for Midwives."
+  },
+  {
+    "question": "The follicle stimulating hormone and luteinizing hormone are secreted by the:-",
+    "options": {
+      "A": "Ovaries and testes",
+      "B": "Posterior pituitary gland",
+      "C": "Anterior pituitary gland",
+      "D": "Hypothalamus"
+    },
+    "answer": "C",
+    "explanation": "This is a fundamental question of reproductive endocrinology.\n\nThe hypothalamus (d) produces Gonadotropin-Releasing Hormone (GnRH).\n\nGnRH travels to the anterior pituitary gland (c) and stimulates it to produce and release the two gonadotropin hormones: Follicle-Stimulating Hormone (FSH) and Luteinizing Hormone (LH).\n\nFSH and LH then act on the ovaries (a) in females (to stimulate follicle growth and ovulation) and the testes (a) in males (to stimulate spermatogenesis and testosterone production).\n\nThe posterior pituitary gland (b) secretes Oxytocin and Antidiuretic Hormone (ADH), not FSH and LH.\n\nTherefore, the anterior pituitary gland is the correct site of secretion for FSH and LH.",
+    "additional": "This hormonal pathway is known as the Hypothalamic-Pituitary-Gonadal (HPG) Axis. It operates on a negative feedback loop. For example, in females, high levels of estrogen and progesterone produced by the ovaries will inhibit the release of GnRH, FSH, and LH, which is the principle behind hormonal contraception.\n\nBook Reference: Medical Physiology by Guyton and Hall or any standard anatomy and physiology textbook."
+  },
+  {
+    "question": "Uterine contractions are controlled by the:-",
+    "options": {
+      "A": "Central nervous system",
+      "B": "Sympathetic nervous system",
+      "C": "Peripheral nervous system",
+      "D": "Autonomic nervous system"
+    },
+    "answer": "D",
+    "explanation": "Uterine contractions are primarily an involuntary process controlled by hormones (oxytocin, prostaglandins) and the autonomic nervous system.\n\nThe autonomic nervous system (ANS) controls involuntary bodily functions. It has two branches:\n\nSympathetic Nervous System (SNS): Generally associated with the \"fight or flight\" response. High levels of catecholamines (like adrenaline) released during fear or extreme stress can inhibit or cause incoordinate uterine contractions.\n\nParasympathetic Nervous System (PNS): Generally associated with the \"rest and digest\" response. It plays a role in facilitating coordinated uterine activity.\n\nSince both branches of the ANS influence the uterus, the autonomic nervous system (d) is the most comprehensive and correct answer. The CNS (a) and PNS (c) are too broad; the ANS is the specific division of the peripheral nervous system responsible for this involuntary control.",
+    "additional": "This explains the profound impact of the mother's psychological state on labor progress. A calm, supportive, and safe environment promotes parasympathetic activity and oxytocin release, leading to effective contractions. Conversely, a fearful or stressful environment activates the sympathetic nervous system, releasing adrenaline which is an antagonist to oxytocin, potentially slowing or stopping labor.\n\nBook Reference: Myles Textbook for Midwives, chapter on Physiology of Labour."
+  },
+  {
+    "question": "The volume of amniotic fluid after 20 weeks gestation is:-",
+    "options": {
+      "A": "500 to 1000 ml",
+      "B": "350 to 500 ml",
+      "C": "200 to 500 ml",
+      "D": "1000 to 1500 ml"
+    },
+    "answer": "A",
+    "explanation": "The volume of amniotic fluid changes throughout pregnancy.\n\nIt increases steadily from early pregnancy.\n\nAt 20 weeks, the volume is approximately 400-500 ml.\n\nIt continues to increase, reaching a peak volume of approximately 800 to 1000 ml around 34–36 weeks.\n\nAfter this peak, the volume gradually decreases towards term (40 weeks), where it may be around 600–800 ml.\n\nGiven the options, the range 500 to 1000 ml best represents the typical volume in the latter half of pregnancy, starting from 20 weeks and encompassing the peak volume. Options (b) and (c) are too low, and (d) is too high for the average range.",
+    "additional": "Polyhydramnios (or Hydramnios): Excessive amniotic fluid (typically >2000 ml or an Amniotic Fluid Index [AFI] >24 cm). Associated with multiple pregnancy, maternal diabetes, and fetal anomalies (e.g., esophageal atresia).\n\nOligohydramnios: Insufficient amniotic fluid (typically <500 ml or an AFI <5 cm). Associated with fetal renal abnormalities, intrauterine growth restriction (IUGR), and post-term pregnancy. Can lead to fetal lung hypoplasia and cord compression during labor.\n\nBook Reference: Williams Obstetrics, chapter on The Placenta and Fetal Membranes."
+  },
+  {
+    "question": "The ectoderm differentiates to form the:-",
+    "options": {
+      "A": "Cardiovascular system",
+      "B": "Peripheral nervous system",
+      "C": "Respiratory tract",
+      "D": "Connective tissues"
+    },
+    "answer": "B",
+    "explanation": "This question tests knowledge of the three primary germ layers that form during embryogenesis.\n\nEctoderm (Outer Layer): Differentiates into the entire nervous system (central and peripheral), the epidermis (outer layer of skin), hair, nails, and the enamel of teeth.\n\nMesoderm (Middle Layer): Differentiates into the cardiovascular system (a), muscles, bones, connective tissues (d), and the urogenital system.\n\nEndoderm (Inner Layer): Differentiates into the epithelial lining of the respiratory tract (c), the gastrointestinal tract, and associated glands like the liver and pancreas.\n\nTherefore, the peripheral nervous system is the correct derivative of the ectoderm.",
+    "additional": "A simple way to remember the derivatives:\n\nEctoderm = \"Attracto-derm\" – things that make you attractive (skin, hair) and your nervous system (personality, intelligence).\n\nMesoderm = \"Meanso-derm\" – things that allow movement and function (muscles, heart, bones, blood).\n\nEndoderm = \"Endernals\" – the linings of your internal tubes (gut, lungs).\n\nBook Reference: Langman's Medical Embryology is the gold standard for this topic."
+  },
+  {
+    "question": "The hormone that maintains endometrium and stimulates maternal metabolism and development of breast alveoli during pregnancy is:-",
+    "options": {
+      "A": "Human chorionic gonadotrophin",
+      "B": "Human placental lactogen",
+      "C": "Oestrogen",
+      "D": "Progesterone"
+    },
+    "answer": "D",
+    "explanation": "Let's analyze the functions mentioned:\n\nMaintains endometrium: This is the primary role of progesterone. It keeps the uterine lining (decidua) thick, vascular, and stable, preventing menstruation and supporting the implanted embryo.\n\nStimulates maternal metabolism: Both hPL and progesterone play a role here, but progesterone has significant metabolic effects.\n\nDevelopment of breast alveoli: Progesterone is specifically responsible for the development of the milk-producing lobules and alveoli in the breast. Estrogen (c) is responsible for the growth of the ductal system.\n\nhCG (a) is responsible for \"rescuing\" the corpus luteum to continue progesterone production in early pregnancy.\n\nhPL (b), also called human chorionic somatomammotropin (hCS), primarily acts as an insulin antagonist, ensuring a steady supply of glucose to the fetus, and also contributes to breast development.\n\nGiven the combination of maintaining the endometrium and developing the breast alveoli, Progesterone is the most fitting answer.",
+    "additional": "Progesterone is often called the \"hormone of pregnancy\" for its crucial role in maintaining uterine quiescence (preventing contractions) and supporting the endometrial lining.\n\nEstrogen promotes the growth of the uterus and breasts (ducts) and increases blood flow.\n\nThe combination of estrogen and progesterone prepares the breasts for lactation but also inhibits actual milk secretion during pregnancy. The sharp drop in these hormones after delivery of the placenta allows prolactin to initiate lactogenesis.\n\nBook Reference: Myles Textbook for Midwives, chapter on The Endocrinology of Pregnancy."
   }
 ]
+
+
+
+
+
 
 
 
