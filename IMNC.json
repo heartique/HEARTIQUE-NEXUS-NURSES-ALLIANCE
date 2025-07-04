@@ -490,8 +490,70 @@
     "answer": "C",
     "explanation": "Mixed feeding (giving an infant breast milk along with other foods or liquids like formula, water, or porridge before 6 months of age) is the most dangerous feeding option in the context of HIV. It is thought to irritate the infant's gut lining, making it more permeable to the virus in the breast milk, thereby significantly increasing the risk of transmission. The WHO and national guidelines are unequivocal: \"Exclusive Breastfeeding\" or \"Exclusive Replacement Feeding.\" You must never mix the two.\n\nA and B are components of safe breastfeeding, but avoiding mixed feeding (C) is the most critical single piece of feeding advice.\n\nD is partially correct (exclusive breastfeeding is key), but the emphasis on avoiding mixed feeding is the most crucial message to prevent transmission.",
     "additional": "Current PMTCT Infant Feeding Guidelines (WHO Option B+):\n\n- All HIV-positive pregnant and breastfeeding women should be on lifelong Antiretroviral Therapy (ART).\n- With maternal ART, exclusive breastfeeding for the first 6 months is recommended, followed by continued breastfeeding with complementary foods up to 24 months or longer.\n- The infant should also receive ARV prophylaxis (e.g., daily Nevirapine) for at least 6 weeks.\n\nThe core principle is that the benefits of breastfeeding (nutrition, immunity) combined with the protective effect of maternal ART far outweigh the now very low risk of transmission.\n\nBook Tag: MOH National Guidelines for PMTCT of HIV/AIDS."
+  },
+  {
+    "question": "15. The prophylactic drugs given to a term new born at birth are-",
+    "options": {
+      "A": "3% tetracycline eye ointment, vit. K 0.5mg i.m. stat.",
+      "B": "Gentamycin eye drops, vit K. i.m. §tat.",
+      "C": "1% tetracycline eye ointment, vit K, 1 mg i.m. stat.",
+      "D": "Gentamycin eye drop, vit. K 1 mg 1.m. stat."
+    },
+    "answer": "C",
+    "explanation": "This question asks about the standard prophylactic (preventative) medications given to a newborn immediately after birth.\n\nVitamin K: Newborns have a sterile gut and cannot produce their own Vitamin K, which is essential for the synthesis of clotting factors in the liver. To prevent Hemorrhagic Disease of the Newborn (HDN), also known as Vitamin K Deficiency Bleeding (VKDB), a single intramuscular injection of Vitamin K is given. The standard dose for a term infant is 1 mg. A lower dose of 0.5 mg is typically reserved for preterm infants.\n\nEye Prophylaxis: To prevent Ophthalmia Neonatorum, an eye infection that can cause blindness, newborns receive prophylactic eye medication. This is primarily to protect against Neisseria gonorrhoeae and Chlamydia trachomatis acquired from the mother's birth canal. The standard preparations are 1% tetracycline or 0.5% erythromycin eye ointment.\n\nLet's evaluate the options based on these standards:\n\nOption (a): Incorrect dose for Vitamin K (0.5 mg is for preterm) and incorrect concentration for tetracycline.\n\nOption (b): Gentamicin is not the standard prophylactic eye agent.\n\nOption (c): Correct. It lists the standard concentration for tetracycline (1%) and the standard dose for Vitamin K (1 mg) for a term newborn.\n\nOption (d): Gentamicin is incorrect.",
+    "additional": "Parental Consent: Nurses must be aware that parents have the right to refuse these interventions. If they do, it is the nurse's responsibility to educate them on the risks (bleeding, blindness) and to document the refusal clearly in the chart.\n\nOphthalmia Neonatorum:\n\nGonococcal: Very rapid onset (2-5 days), purulent discharge, can cause corneal ulceration and blindness quickly.\n\nChlamydial: Slower onset (5-14 days), watery discharge that becomes purulent. Most common cause today.\n\nHemorrhagic Disease of the Newborn (HDN):\n\nEarly-onset (within 24 hrs): Severe, often in infants of mothers on certain anticonvulsants.\n\nClassic (1-7 days): Bruising, GI bleeds, or bleeding from the umbilicus or injection sites.\n\nLate-onset (2-12 weeks): Most dangerous, often presents as intracranial hemorrhage, common in exclusively breastfed infants who did not receive Vitamin K prophylaxis."
+  },
+  {
+    "question": "31. A baby born of a mother on Anti -TB drugs initial phase should:-",
+    "options": {
+      "A": "Get BCG immediately.",
+      "B": "Get Isoniazid 5 mg/Kg twice daily for 3 months",
+      "C": "Get Isoniazid 5 mg/Kg once daily for 6 months",
+      "D": "Get BCG after three weeks."
+    },
+    "answer": "C",
+    "explanation": "This question addresses the management of an infant born to a mother with active tuberculosis (TB). The infant is at high risk of contracting TB.\n\nThe standard management is to provide prophylaxis to the infant to prevent them from developing active TB disease. The drug of choice is Isoniazid (INH).\n\nBCG Vaccine: The BCG vaccine is a live, attenuated vaccine. It should NOT be given to an infant who may already be infected with TB or is receiving INH prophylaxis, as its efficacy is uncertain in this context and it interferes with the interpretation of the Tuberculin Skin Test (TST) used for monitoring.\n\nOption (c) is the correct regimen according to many international and national guidelines. The infant receives Isoniazid prophylaxis for 6 months. After the 6-month period, the infant is re-evaluated (e.g., with a TST). If the TST is negative and there is no evidence of disease, the INH is stopped. The BCG vaccine can then be given if the TST is negative.\n\nOption (a) and (d): Giving BCG immediately is contraindicated.\n\nOption (b): Incorrect duration and frequency for INH prophylaxis.",
+    "additional": "Management Protocol for Infant of TB Mother:\n\nAt Birth: Thoroughly examine the infant for signs of congenital TB (rare but serious).\n\nStart INH Prophylaxis: Begin Isoniazid (usually 5-10 mg/kg once daily).\n\nDefer BCG: Do not give the BCG vaccine at birth.\n\nBreastfeeding: Breastfeeding is generally encouraged as the risk of transmission through breast milk is minimal, and the mother's drugs are safe. The mother should wear a mask until she is no longer considered infectious.\n\nAfter 6 Months: Perform a Tuberculin Skin Test (TST) on the infant.\n\nIf TST is negative: Stop INH. The infant is considered uninfected. Administer BCG vaccine now.\n\nIf TST is positive: The infant is considered to have latent TB infection (LTBI). Investigate for active disease (e.g., chest X-ray). If no active disease, continue INH for a full course of treatment for LTBI (often 9 months total). If active disease is present, treat with a full multi-drug regimen."
+  },
+  {
+    "question": "32. Caput succedaneum is:-",
+    "options": {
+      "A": "Collection of blood under the periosteum.",
+      "B": "A swelling under the scalp",
+      "C": "Oedema of the Periosteum.",
+      "D": "Congenital abnormality."
+    },
+    "answer": "B",
+    "explanation": "This question asks for the definition of caput succedaneum, a common finding in newborns after a vaginal delivery. It's important to differentiate it from a cephalohematoma.\n\nOption (b) is the most accurate, though general, description. More specifically, a caput succedaneum is edema (swelling) of the soft tissues of the scalp caused by pressure from the cervix or vaginal wall during a prolonged or difficult labor.\n\nOption (a) describes a cephalohematoma. This is a collection of blood between the periosteum (the membrane covering the skull bone) and the skull bone itself. It is caused by the rupture of blood vessels during delivery.\n\nOption (c) is incorrect; the edema is in the scalp tissue above the periosteum, not of the periosteum itself.\n\nOption (d) is incorrect. It is a birth trauma, not a congenital abnormality (a structural defect present from conception).",
+    "additional": "Caput vs. Cephalohematoma (Crucial to differentiate):\n| Feature | Caput Succedaneum | Cephalohematoma |\n| :--- | :--- | :--- |\n| What is it? | Edema (serum/fluid) in the scalp | Blood under the periosteum |\n| Boundaries | Crosses suture lines (diffuse swelling) | Does NOT cross suture lines (limited to one cranial bone) |\n| Feel | Soft, boggy, spongy | Firm, tense, well-defined edges |\n| Present at Birth? | Present at birth | May appear several hours to a day after birth |\n| Resolution | Resolves in a few days | Resolves in weeks to months |\n| Complications | Benign, no treatment needed | Can lead to hyperbilirubinemia (jaundice) as the large amount of blood breaks down. |\n\nNCK Tip: The key distinguishing feature is whether the swelling crosses the suture lines. Caput = Crosses. Cephalohematoma = Contained."
+  },
+  {
+    "question": "80. Complications of measles include:-",
+    "options": {
+      "A": "Deafness, encephalitis,contractures",
+      "B": "Paralysis, rectal prola (prolapse)",
+      "C": "pse, blindness",
+      "D": "Malnutrition, umbilical hernia, deafness",
+      "E": "Blindness, malnutrition, pneumonia"
+    },
+    "answer": "E",
+    "explanation": "Measles (Rubeola) is a highly contagious viral illness that can have severe complications, especially in young children and malnourished individuals.\n\nOption (e) lists three of the most common and serious complications:\n\nPneumonia: The most common cause of death from measles in young children. Can be a primary viral pneumonia or a secondary bacterial pneumonia.\n\nMalnutrition: The virus can cause diarrhea, vomiting, and sores in the mouth (stomatitis), leading to decreased food intake and nutrient loss. The infection itself also depletes Vitamin A stores, worsening the situation.\n\nBlindness: Measles is a leading cause of childhood blindness in developing countries, primarily due to the severe Vitamin A deficiency it induces, leading to xerophthalmia and corneal ulceration.\n\nOption (a): Encephalitis is a known complication, but deafness is more associated with mumps. Contractures are not a direct complication.\n\nOption (b): Paralysis and rectal prolapse are not typical complications.\n\nOption (c): PSE stands for Subacute Sclerosing Panencephalitis, a very rare, fatal, degenerative neurological disease that occurs 7-10 years after a measles infection. While it is the most feared long-term complication, the immediate complications in (e) are more common.\n\nOption (d): Umbilical hernia is not a complication of measles.",
+    "additional": "Other Major Complications of Measles:\n\nOtitis Media: Very common.\n\nDiarrhea and Dehydration: Very common and can be severe.\n\nAcute Encephalitis: Occurs in about 1 in 1,000 cases, can cause permanent brain damage or death.\n\nSubacute Sclerosing Panencephalitis (SSPE): Rare and late-onset.\n\nTreatment and Prevention:\n\nPrevention: The MMR (Measles, Mumps, Rubella) vaccine is highly effective and the cornerstone of prevention. In Kenya, it's given at 9 months and 18 months.\n\nTreatment: There is no specific antiviral drug. Care is supportive (fluids, nutrition). Vitamin A supplementation is a critical part of treatment for all children with measles, as it has been shown to reduce mortality and morbidity (especially eye complications). WHO recommends two doses of Vitamin A, 24 hours apart."
+  },
+  {
+    "question": "103. Neonatal period is defined as the;",
+    "options": {
+      "A": "Period from birth of the baby to 7 days after",
+      "B": "Period from the birth of the baby to 21 days after",
+      "C": "Period from the birth of the baby to 28 days after",
+      "D": "Period from the birth of the baby up to 14 days after"
+    },
+    "answer": "C",
+    "explanation": "This is a standard definition in pediatrics and public health.\n\nThe neonatal period (or newborn period) is defined as the first 28 days of life.\n\nThis period is further subdivided:\n\nEarly neonatal period: The first 7 days of life.\n\nLate neonatal period: From day 7 to day 28.\n\nThis distinction is important because the risk of mortality is highest in the very first days of life.",
+    "additional": "Key Age-Related Definitions in Pediatrics:\n| Term | Definition |\n| :--- | :--- |\n| Neonate | Birth to 28 days |\n| Infant | Birth to 12 months (1 year) |\n| Toddler | 1 to 3 years |\n| Preschooler | 3 to 5 years |\n| School-age child | 6 to 12 years |\n| Adolescent | 12 to 18 years |\n\nMortality Rates:\n\nNeonatal Mortality Rate (NMR): The number of deaths of neonates (0-28 days) per 1,000 live births. It is a key indicator of the quality of obstetric and newborn care.\n\nInfant Mortality Rate (IMR): The number of deaths of infants (0-1 year) per 1,000 live births. It is a broad indicator of a population's overall health."
   }
 ]
+
 
 
 
