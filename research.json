@@ -392,7 +392,56 @@
     "answer": "C",
     "explanation": "Why C is correct: A Type II Error (beta, β) occurs when a researcher fails to reject a null hypothesis that is actually false. It means a real effect is missed — a false negative.\n\nWhy the others are incorrect:\nA. This is a correct decision.\nB. This is a Type I error (false positive).\nD. This also describes a Type II error, but C is the standard null-hypothesis framing.",
     "additional": "Error Summary Table:\nReality: Null is TRUE → Reject null = Type I Error (α)\nReality: Null is FALSE → Fail to reject null = Type II Error (β)\n\nCauses of Type II Error:\n- Small sample size\n- Small effect size\n- Poor measurement tools\n- Alpha set too low (too strict)\n\nPOSSIBLE NCK QUESTIONS:\n- A trial fails to detect that a drug works → Type II Error\n- Best way to reduce Type II Error → Increase sample size\n- Ability to detect true effect = Statistical Power (1 - β)"
+  },
+  {
+    "question": "The term used to describe the 'repeatability' of the measurement tool is:",
+    "options": {
+      "A": "Validity",
+      "B": "Reliability",
+      "C": "The halo effect",
+      "D": "Research matrix"
+    },
+    "answer": "B",
+    "explanation": "Reliability is the consistency or repeatability of a measurement tool—producing the same results under the same conditions repeatedly.",
+    "additional": "TYPES OF RELIABILITY:\n- Test-Retest: Same results over time\n- Inter-Rater: Consistent results between observers\n- Internal Consistency: Consistency among items in a test\n\nReliability ≠ Validity. A test can be reliable but not valid.\n\nKEY: Reliability = Consistency. Validity = Accuracy.\nBOOK REFERENCE: Polit & Beck, Nursing Research"
+  },
+  {
+    "question": "Probability sampling technique includes:",
+    "options": {
+      "A": "Cluster random sampling technique",
+      "B": "Convenience sampling technique",
+      "C": "Judgemental sampling technique",
+      "D": ""
+    },
+    "answer": "A",
+    "explanation": "Cluster sampling is a probability sampling method where population is divided into clusters (e.g., schools, villages), and some clusters are randomly selected.",
+    "additional": "TYPES OF SAMPLING:\n- Probability: Simple random, systematic, stratified, cluster\n- Non-Probability: Convenience, purposive, quota, snowball\n\nKEY: Probability Sampling = Randomization.\nBOOK REFERENCE: Polit & Beck, Nursing Research"
+  },
+  {
+    "question": "The qualitative variables that are ordered are referred to as:",
+    "options": {
+      "A": "Nominal scale",
+      "B": "Ordinal scale",
+      "C": "Internal scale",
+      "D": "Ratio scale"
+    },
+    "answer": "B",
+    "explanation": "Ordinal scale involves ordered categories, such as satisfaction levels or education levels. The intervals between ranks are not equal.",
+    "additional": "SCALE TYPES:\n- Nominal: Labels only (e.g., gender)\n- Ordinal: Rank order (e.g., pain severity)\n- Interval: Equal intervals, no true zero (e.g., temperature)\n- Ratio: Equal intervals + true zero (e.g., weight)\n\nMnemonic: NOIR = Nominal, Ordinal, Interval, Ratio\nBOOK REFERENCE: Any standard research/biostats textbook"
+  },
+  {
+    "question": "When a number of researchers use the same operational definition to measure a variable and achieve the same results, the measure is said to be:",
+    "options": {
+      "A": "Reliable",
+      "B": "Instrumental valid",
+      "C": "Factual",
+      "D": "Internally consistent"
+    },
+    "answer": "A",
+    "explanation": "Multiple researchers using the same tool and getting the same results demonstrates high inter-rater reliability, a key form of reliability.",
+    "additional": "RELIABILITY TYPES:\n- Inter-Rater: Agreement among different observers\n- Internal Consistency: Agreement among items in one instrument\n\nKEY: Inter-Rater Reliability = Consistent results from multiple researchers\nBOOK REFERENCE: Polit & Beck, Nursing Research"
   }
 ]
+
  
   
