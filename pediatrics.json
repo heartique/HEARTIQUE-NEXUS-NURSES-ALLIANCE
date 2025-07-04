@@ -1168,8 +1168,69 @@
     "answer": "b",
     "explanation": "This question asks for the definition of a common finding on a newborn's head.\n\nCaput Succedaneum: It is edema (swelling) of the soft tissues of the fetal scalp caused by pressure from the cervix or vaginal wall during a prolonged or difficult labor. It is essentially a collection of serous fluid under the scalp.",
     "additional": "Characteristics:\n- Soft, spongy, and pits on pressure.\n- Crosses the suture lines of the skull.\n- Often present at birth and resolves on its own within a few days.\n\nAnalyzing the Options:\n(a) A collection of blood under the periosteum is a cephalohematoma.\n(b) 'A swelling under the scalp' is the most correct description.\n(c) The edema is in the scalp tissue, not the periosteum itself.\n(d) It is not a congenital abnormality; it is a benign birth trauma.\n\nCaput vs. Cephalohematoma (Comparison Table):\n| Feature | Caput Succedaneum | Cephalohematoma |\n|--------|-------------------|------------------|\n| Content | Edema (serous fluid) | Blood |\n| Boundaries | Crosses suture lines | Confined to one bone |\n| Onset | Present at birth | Appears hours to days after birth |\n| Resolution | Few days | Weeks to months |\n| Complication | Benign | May cause jaundice |\n\nTextbook Reference: Wong's Nursing Care of Infants and Children, Chapter 10: The Newborn Infant."
+  },
+  {
+    "question": "107. Foetal testes descend into the scrotum between",
+    "options": {
+      "A": "8-12 weeks",
+      "B": "32-36 weeks",
+      "C": "28-32 weeks",
+      "D": "36-40 weeks"
+    },
+    "answer": "B",
+    "explanation": "This question asks about the timing of a key fetal development milestone. The descent of the testes from the abdomen into the scrotum is a process that occurs late in gestation.\n\nThe testes develop near the kidneys in the abdomen. Guided by hormones (including testosterone), they begin a gradual descent.\n\nThey typically pass through the inguinal canal around the 7th month (28 weeks) and arrive in the scrotum during the 8th and 9th months of pregnancy.\n\nOption (b) 32-36 weeks represents this final phase of descent into the scrotum and is the most accurate timeframe among the choices. By 36-40 weeks, the testes should be fully descended in most term male infants.\n\nOption (a) is too early; this is when external genitalia are just beginning to differentiate.\n\nOption (c) is when the process of passing through the inguinal canal is occurring, but descent into the scrotum is not yet complete.\n\nOption (d) is also plausible, but the primary window of descent is slightly earlier, making (b) the best answer for the period between which it happens.",
+    "additional": "Cryptorchidism (Undescended Testes): This is the condition where one or both testes fail to descend into the scrotum by birth.\n\nIt is common in preterm infants because they are born before the descent is complete.\n\nIn many term infants with cryptorchidism, the testes will descend on their own within the first few months of life.\n\nIf the testes have not descended by 6 months of age, surgical correction (orchiopexy) is usually recommended.\n\nWhy is this important? Undescended testes are associated with two major long-term risks:\n\nInfertility: The higher temperature inside the abdomen impairs sperm production.\n\nIncreased risk of testicular cancer later in life.\n\nNursing Role: The nurse is responsible for assessing the newborn male genitalia at birth to confirm the presence of both testes in the scrotum. If they are not palpable, this must be documented and communicated."
+  },
+  {
+    "question": "115. The ratio of chest compressions to inflations during neonatal resuscitation is;",
+    "options": {
+      "A": "15:2",
+      "B": "30:2",
+      "C": "3:1",
+      "D": "3:2"
+    },
+    "answer": "C",
+    "explanation": "This question tests your knowledge of the specific guidelines for neonatal resuscitation, which are different from those for children and adults.\n\nIn newborns, cardiac arrest is almost always a result of respiratory failure and hypoxia (asphyxia). Therefore, the emphasis is on effective ventilation to re-oxygenate the baby.\n\nOption (c) is the correct ratio for neonatal resuscitation. The guidelines call for 3 compressions followed by 1 ventilation. This is a coordinated effort delivered at a rate of 120 events per minute (90 compressions and 30 breaths). The rhythm is often chanted as \"One-and-Two-and-Three-and-Breathe...\"\n\nOption (a) 15:2 is the ratio used for two-rescuer CPR in children and infants (not neonates at birth).\n\nOption (b) 30:2 is the ratio used for single-rescuer CPR in adults, children, and infants.\n\nOption (d) is an incorrect ratio.",
+    "additional": "Key Differences in Neonatal Resuscitation:\n\nFocus: The primary problem is usually ventilation, not cardiac. The first and most important step is to establish effective breathing.\n\nCompression Technique: Use the two-thumb encircling-hand technique for compressions, as it generates better blood pressure.\n\nRatio: The 3:1 ratio prioritizes ventilation more than the 15:2 or 30:2 ratios.\n\nThe Inverted Pyramid of Neonatal Resuscitation: This illustrates the sequence and frequency of interventions.\n\nBasic Steps (Needed by almost all babies): Drying, warming, positioning, suctioning (if needed), stimulation.\n\nPositive Pressure Ventilation (PPV): For babies who are apneic or have a heart rate <100 bpm.\n\nChest Compressions: Indicated if the heart rate remains <60 bpm despite 30 seconds of effective PPV.\n\nMedications (Epinephrine): Rarely needed, used if HR remains <60 bpm despite effective PPV and compressions."
+  },
+  {
+    "question": "116. Which statement is false concerning good breast attachment when breastfeeding.",
+    "options": {
+      "A": "The tongue is forward in the mouth, and may be seen over the bottom gum",
+      "B": "The lower lip is turned outwards",
+      "C": "The chin is not touching the breast",
+      "D": "More areola is visible above the baby's mouth than below it"
+    },
+    "answer": "C",
+    "explanation": "This question asks you to identify the incorrect statement about a good breastfeeding latch. A good latch is crucial for effective milk transfer and preventing nipple pain.\n\nOption (c) is the false statement. For a deep, effective latch, the baby's chin should be pressed firmly into the breast. This helps to draw more of the breast tissue into the mouth and position the nipple correctly. The nose, however, should be clear or just touching the breast.\n\nOption (a) is true. The baby's tongue should be forward and cupped under the areola to help express milk from the ducts.\n\nOption (b) is true. The baby's lips should be flanged outwards, like a fish mouth, not tucked in. This ensures a wide gape.\n\nOption (d) is true. Because the baby's jaw is working on the underside of the breast, the latch is asymmetrical. You should see more of the areola (the dark area around the nipple) above the baby's top lip than below the bottom lip.",
+    "additional": "Signs of a Good Latch (The \"CHINS\" or \"CABA\" mnemonics):\n\nChin touching the breast.\n\nHead tilted back slightly (\"sniffing position\").\n\nIs the mouth wide open?\n\nNose is free.\n\nSound of swallowing is heard (not clicking or smacking).\n\nComfort: It should not be painful for the mother (initial latch-on discomfort is normal, but sustained pain is not).\n\nAreola: More areola visible above than below.\n\nBottom lip is flanged out.\n\nAlignment: Baby's ear, shoulder, and hip are in a straight line (tummy-to-mummy).\n\nSigns of Poor Latch: Nipple pain/damage, clicking sounds, dimpled cheeks, baby seems fussy or unsatisfied after feeds, poor weight gain."
+  },
+  {
+    "question": "117. The light for date baby is defined as:",
+    "options": {
+      "A": "A baby born before 37 weeks of gestation",
+      "B": "Bulk weight is 2,500 g or less regardless of gestational age",
+      "C": "A baby whose birth weight is below tenth centile for gestation",
+      "D": "A baby whose birth weight is below 3000grammes"
+    },
+    "answer": "C",
+    "explanation": "This question tests the definitions used to classify newborn size. It's important to distinguish between size and gestational age.\n\nOption (c) is the correct definition. The terms Small for Gestational Age (SGA), Appropriate for Gestational Age (AGA), and Large for Gestational Age (LGA) are used to classify a baby's weight relative to its gestational age. An SGA baby is one whose birth weight is below the 10th percentile for the number of weeks they were pregnant. \"Light for dates\" is a synonymous term for SGA.\n\nOption (a) defines a preterm infant. This is based on gestational age, not weight. A preterm infant can be SGA, AGA, or even LGA for their age.\n\nOption (b) defines a Low Birth Weight (LBW) infant. This is an absolute weight measurement (<2500g) and does not take gestational age into account. A term baby can be LBW (making them SGA), and a preterm baby can be LBW but still be AGA for their age.\n\nOption (d) is an arbitrary weight cut-off and not a standard definition.",
+    "additional": "Newborn Classification Matrix:\n| | Preterm (<37 wks) | Term (37-41+6 wks) | Post-term (≥42 wks) |\n| :--- | :--- | :--- | :--- |\n| SGA (<10th %ile) | e.g., A 34-weeker weighing 1.5kg | e.g., A 40-weeker weighing 2.4kg | e.g., A 42-weeker weighing 2.7kg |\n| AGA (10th-90th %ile)| e.g., A 34-weeker weighing 2.0kg | e.g., A 40-weeker weighing 3.2kg | e.g., A 42-weeker weighing 3.5kg |\n| LGA (>90th %ile) | e.g., A 34-weeker weighing 2.8kg | e.g., A 40-weeker weighing 4.2kg | e.g., A 42-weeker weighing 4.5kg |\n\nRisks for SGA Infants: Hypoglycemia, hypothermia, polycythemia, perinatal asphyxia.\n\nRisks for LGA Infants: Birth trauma (shoulder dystocia, fractures), hypoglycemia (especially if born to a diabetic mother)."
+  },
+  {
+    "question": "121. Non-organic growth failure (failure to thrive) in a child may be attributed to-",
+    "options": {
+      "A": "A poor mother-child bond of attachment.",
+      "B": "Altered physiology due to improper feeding.",
+      "C": "Congenital disorders of metabolism.",
+      "D": "High incidence of child abuse."
+    },
+    "answer": "A",
+    "explanation": "The question specifies non-organic growth failure. Failure to Thrive (FTT) is a condition where a child's weight is significantly below that of other children of their age. It is classified into two types:\n\nOrganic FTT: Caused by an underlying medical condition (e.g., congenital heart disease, cystic fibrosis, GERD, metabolic disorders).\n\nNon-organic FTT: Occurs in a child with no identified medical cause. It is usually related to psychosocial factors, environmental issues, or problems with the caregiver-child interaction.\n\nOption (a) is the best answer as it describes a core psychosocial reason for non-organic FTT. A poor bond can lead to inadequate feeding, neglect, or a lack of stimulation, all of which contribute to poor growth. This is a classic cause.\n\nOption (b) is tricky. \"Improper feeding\" can be a cause of non-organic FTT (e.g., caregiver mixing formula incorrectly, not feeding enough). However, the phrase \"altered physiology\" suggests an organic cause. Option (a) is a more direct and fundamental cause of the improper feeding itself.\n\nOption (c) describes a clear cause of organic FTT.\n\nOption (d), Child abuse, is a strong contributor to non-organic FTT, often stemming from the same root causes as a poor bond. However, \"a poor mother-child bond\" is a broader and more fundamental concept that encompasses neglectful feeding practices which are the direct mechanism of FTT.",
+    "additional": "Causes of Non-Organic FTT:\n\nPoverty: Inability to afford enough food or formula.\n\nCaregiver Issues: Maternal depression, substance abuse, intellectual disability, lack of knowledge about feeding, stress.\n\nInteractional Problems: Poor bonding, child abuse or neglect.\n\nChild's Temperament: A difficult, irritable baby may be harder to feed.\n\nNursing Management: FTT requires a multidisciplinary approach.\n\nAssessment: Detailed health history, dietary history (observe a feeding session), developmental assessment, physical exam.\n\nIntervention: The primary goal is nutritional rehabilitation (\"catch-up growth\"). This may involve a high-calorie diet and structured feeding schedules.\n\nPsychosocial Support: Support the caregiver, provide education on feeding cues and techniques, address underlying issues like depression, and refer to social services if neglect or abuse is suspected. Hospitalization may be necessary to rule out organic causes and to provide a safe, structured feeding environment."
   }
 ]
+
 
 
 
