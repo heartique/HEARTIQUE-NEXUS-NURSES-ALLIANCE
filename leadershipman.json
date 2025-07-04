@@ -82,6 +82,43 @@
     "answer": "D",
     "explanation": "Why (D) is Correct: This question is slightly flawed, as the standard model is the Five Rights of Delegation. However, among the choices given, (D) contains four of the five correct rights. The five rights are:\n\nRight Task\nRight Circumstance\nRight Person\nRight Direction/Communication\nRight Supervision/Evaluation (which includes feedback)\n\nOption (D) correctly identifies Task, Person, Communication, and Feedback (as part of supervision). The other options contain incorrect elements like \"time.\"",
     "additional": "Future Test Focus & Additional Concepts:\n\nThe Five Rights of Delegation (In Detail):\n\nRight Task: Is this task appropriate to delegate? It should be routine, have a predictable outcome, require minimal problem-solving, and not involve nursing judgment or assessment. You cannot delegate tasks that are part of the nursing process (Assessment, Diagnosis, Planning, Evaluation) or require clinical judgment.\n\nRight Circumstance: Is the patient setting appropriate? Is the patient stable? Are the necessary resources and supervision available?\n\nRight Person: Is this delegate (e.g., a Nursing Assistant, LPN/LVN) competent to perform the task? Does it fall within their scope of practice and job description?\n\nRight Direction/Communication: Did you provide a clear, concise, and complete explanation of the task? This includes the objective, timeline, what to report, and any patient-specific instructions.\n\nRight Supervision/Evaluation: Did you appropriately monitor the delegate, evaluate the outcome of the task, and provide constructive feedback? The delegating nurse retains ultimate accountability for the task.\n\nDelegation Scenarios: The most common exam questions are scenarios. \"Which of the following tasks can the RN delegate to the Unlicensed Assistive Personnel (UAP)?\"\n\nCan Delegate to UAP: Activities of Daily Living (ADLs) like bathing, feeding (a stable patient), positioning, ambulation, taking vital signs (on a stable patient), recording intake and output.\n\nCannot Delegate to UAP: Medication administration, inserting IVs, patient teaching, performing assessments, interpreting data, developing a care plan."
+  },
+  {
+    "question": "The community strategy is key in delivering health care. Identify the services that are not given by the community health workers;",
+    "options": {
+      "A": "Distribution of oral contraceptives",
+      "B": "Giving treatment",
+      "C": "Defaulter tracing",
+      "D": "Health education"
+    },
+    "answer": "B",
+    "explanation": "Why B is correct: CHWs/CHVs are not licensed to diagnose or give curative treatment. Their work is preventive and promotive. Giving treatment (e.g., prescribing medication) is beyond their authorized scope.\n\nWhy the others are incorrect:\nA. Distribution of oral contraceptives is within their scope.\nC. Defaulter tracing is a key CHV responsibility.\nD. Health education is a core CHV function.",
+    "additional": "CHV Roles:\n- Health promotion (education, hygiene talks)\n- Preventive services (contraceptive distribution, mosquito nets)\n- Referral to facilities (malnutrition, danger signs)\n- Defaulter tracing\n- Data collection\n\nPOSSIBLE NCK QUESTIONS:\n- What is the primary role of a CHV? (Answer: Link between community and health facility)\n- A CHV detects a malnourished child. What is the correct action? (Answer: Refer to a facility)"
+  },
+  {
+    "question": "The reasons responsible for the occurrence of neonatal sepsis in Kenya include the following except;",
+    "options": {
+      "A": "Poor child health care services",
+      "B": "Poverty leading to non-hospital deliveries",
+      "C": "Poorly developed immune system",
+      "D": "Mother having suffered infection in the last trimester or a few days just before delivery"
+    },
+    "answer": "A",
+    "explanation": "Why A is correct: The question asks for an exception. Options B, C, and D are direct biological or clinical risk factors for neonatal sepsis. A is a system-level management factor — not a proximate cause, but a contributor.\n\nWhy the others are incorrect:\nB. Non-hospital delivery increases infection risk.\nC. Neonates have underdeveloped immunity.\nD. Maternal infection is a direct risk for neonatal infection.",
+    "additional": "System-Level Interventions (Management):\n- Improve IPC protocols\n- Strengthen referral systems\n- Ensure availability of antibiotics and supplies\n- Promote skilled delivery\n\nPOSSIBLE NCK QUESTIONS:\n- Managerial response to rising neonatal sepsis cases? (Answer: Conduct IPC audit)\n- A quality maternal-child health indicator? (Answer: Skilled birth attendance)"
+  },
+  {
+    "question": "Which management theorist is responsible for the motivation-hygiene theory?",
+    "options": {
+      "A": "Abraham Maslow",
+      "B": "Dale Hawthorne",
+      "C": "Peter Drucker",
+      "D": "Frederick Herzberg"
+    },
+    "answer": "D",
+    "explanation": "Why D is correct: Frederick Herzberg proposed the Motivation-Hygiene Theory (Two-Factor Theory), which states that job satisfaction comes from motivators (e.g., recognition, achievement), while job dissatisfaction comes from lack of hygiene factors (e.g., salary, policies).\n\nWhy the others are incorrect:\nA. Maslow: Hierarchy of Needs.\nB. 'Dale Hawthorne' is a misattribution. Hawthorne studies were done by Elton Mayo.\nC. Drucker: Management by Objectives, not motivation theory.",
+    "additional": "Herzberg's Theory in Nursing:\n- Motivators: Recognition, advancement, responsibility\n- Hygiene factors: Salary, supervision, work conditions\n\nPOSSIBLE NCK QUESTIONS:\n- Which is a hygiene factor? (Answer: Salary)\n- A 'Nurse of the Month' award affects which factor? (Answer: Motivator – Recognition)"
   }
 ]
+
 
