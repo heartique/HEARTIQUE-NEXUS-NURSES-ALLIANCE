@@ -238,8 +238,69 @@
     "answer": "b",
     "explanation": "Progressive discipline is a formal process that managers use to address employee performance or conduct issues. It follows a series of steps that increase in severity.\n\nThe Standard Sequence:\n\nInformal Counseling/Discussion: The manager first discusses the issue with the employee to make them aware of the problem and expectations.\n\nVerbal Warning: If the behavior continues, a formal verbal warning is given. This is usually documented in the manager's notes.\n\nWritten Warning: If the problem persists, a formal written warning is issued and placed in the employee's personnel file.\n\nSuspension: The employee may be suspended from work, usually without pay, for a period of time.\n\nTermination: If there is still no improvement, employment is terminated.\n\nAnalyzing the Options:\n\n(a, c, d) These have the steps in an illogical order. Suspension and interdiction are very serious steps that come much later in the process.\n\n(b) This option most closely follows the correct progressive sequence. It starts with investigation and discussion, then moves to a verbal warning, and then escalates to a formal written warning.",
     "additional": "Due Process: The employee has the right to be informed of the problem, to be heard, and to have their case considered fairly.\n\nDocumentation: It is critical for the manager to document every step of the disciplinary process clearly, objectively, and factually. This is essential for legal protection and to demonstrate that a fair process was followed.\n\nTextbook Reference: Marquis, B. L., & Huston, C. J. (2017). Leadership Roles and Management Functions in Nursing: Theory and Application. Chapter 24: Problem Solving, Decision Making, Critical Thinking, and Creativity."
+  },
+  {
+    "question": "163. The first four steps in the disciplinary process are:-",
+    "options": {
+      "a": "Investigation to find cause, formal written warning and suspension, discussion and brief warning",
+      "b": "Investigation to find cause, discussion and brief warning, strong verbal warning, formal written warning",
+      "c": "Suspension from job, investigation to find the cause, formal written warning, strong verbal warning",
+      "d": "Strong verbal warning, interdiction without pay, discharge with opportunity to appeal, formal written warning"
+    },
+    "answer": "b",
+    "explanation": "The disciplinary process should be progressive, meaning it starts with the least severe action and escalates only if the undesirable behavior continues. It must also be fair and based on evidence.\n\nOption (b) outlines a logical and legally defensible progressive sequence:\n\nInvestigation: The manager must first gather facts to confirm a rule was broken.\n\nDiscussion and Brief Warning (Informal): The first step is often an informal private discussion to make the employee aware of the issue and the rules. This is sometimes called counseling.\n\nStrong Verbal Warning (Formal): If the behavior continues, a formal verbal warning is given and documented in the employee's file.\n\nFormal Written Warning: The next step is a written warning that clearly states the problem, evidence, and consequences of future infractions. The employee is usually asked to sign it.\n\nOption (a) is out of order (suspension is a later step).\nOption (c) starts with suspension, which is a severe step and would not be first.\nOption (d) is also out of order and includes very severe actions like interdiction and discharge early in the sequence.",
+    "additional": "Progressive Discipline Steps (General Order):\n- Informal Counseling / Verbal Admonishment.\n- Formal Verbal Warning.\n- Formal Written Warning.\n- Suspension (with or without pay).\n- Termination (Discharge).\n\nKey Principles of Discipline:\n- \"Hot Stove\" Rule: Discipline should be immediate, consistent, impartial, and come with a warning. Like touching a hot stove, the consequence is swift and predictable for anyone who does it.\n- Documentation: Meticulous documentation is crucial at every step to protect the employee, the manager, and the organization from legal challenges. Document objective facts, dates, times, specific behaviors, and actions taken.\n- Focus on the Behavior, Not the Person: Discipline should address the specific unacceptable action, not the employee's personality."
+  },
+  {
+    "question": "164. In functional nursing:-",
+    "options": {
+      "a": "Each nurse in a unit is assigned one or more nursing tasks for a number of patients or all patients in the ward.",
+      "b": "The nurse is accountable for the total care of one or more patients for the period of her work shift.",
+      "c": "Patients in a unit are divided to various groups under care of certain individual nurses.",
+      "d": "There is comprehensive, continuous, coordinated and individualized nursing care."
+    },
+    "answer": "a",
+    "explanation": "This question asks you to define Functional Nursing, which is a model of care delivery.\n\nOption (a) is the correct definition. In functional nursing, care is broken down into tasks, and each nurse is assigned specific tasks for all patients on the unit. For example, one nurse might do all the medication administration, another might do all the wound dressings, and a nursing assistant might do all the vital signs and baths. It is a task-oriented model.\n\nOption (b) describes Total Patient Care (or Case Method), where one nurse is responsible for all aspects of care for a few patients during their shift.\n\nOption (c) describes Team Nursing, where a team leader (usually an RN) is responsible for a group of patients, but delegates tasks to team members (other RNs, LPNs, assistants) who then provide care to those patients.\n\nOption (d) is the ideal goal of nursing but best describes the outcome of Primary Nursing, where one nurse (the primary nurse) has 24-hour accountability for planning the care of a patient from admission to discharge, even when they are off-duty.",
+    "additional": "Nursing Care Delivery Models:\n| Model | Description | Advantages | Disadvantages |\n| :--- | :--- | :--- | :--- |\n| Functional Nursing | Task-oriented. Each staff member has a specific task. | Very efficient, useful in staff shortages. | Fragmented care, low patient satisfaction, poor communication. |\n| Team Nursing | A team led by an RN cares for a group of patients. | Fosters team collaboration, uses diverse skills. | Requires good team leader, communication can be a challenge. |\n| Total Patient Care | One nurse provides all care for a patient for one shift. | Holistic, continuous care; high patient satisfaction. | Can be costly, requires higher-skilled staff. |\n| Primary Nursing | One RN has 24/7 accountability for a patient's plan of care from admission to discharge. | High nurse & patient satisfaction, professional, coordinated care. | Expensive, requires all-RN staff. |"
+  },
+  {
+    "question": "185. The following theorist related high production to high wages.",
+    "options": {
+      "a": "Henry Fayol",
+      "b": "Max Weber",
+      "c": "McGregor",
+      "d": "Frederick Taylor"
+    },
+    "answer": "d",
+    "explanation": "This question relates to classical management theories.\n\nOption (d) is correct. Frederick Taylor is known as the \"Father of Scientific Management.\" A core principle of his theory was that workers are primarily motivated by money. He advocated for analyzing tasks to find the \"one best way\" to perform them and then offering financial incentives (higher wages) to workers who met or exceeded production targets. This is known as a \"piece-rate\" system.\n\nOption (a), Henry Fayol, developed the \"Five Functions of Management\" (Planning, Organizing, etc.) and the \"14 Principles of Management.\" His focus was on the structure of the organization as a whole.\n\nOption (b), Max Weber, focused on bureaucracy as the ideal organizational structure, emphasizing rules, regulations, and a clear hierarchy.\n\nOption (c), Douglas McGregor, developed Theory X and Theory Y, which are human relations theories about manager's assumptions about employees. Theory X assumes employees are lazy and need to be controlled (similar to Taylor's view), while Theory Y assumes employees are self-motivated and thrive on responsibility.",
+    "additional": "Classical Management Theories (Early 1900s): Focused on efficiency and productivity. Assumed workers were motivated mainly by economic needs.\n- Taylor (Scientific Management): Focus on the task.\n- Fayol (Management Functions): Focus on the manager.\n- Weber (Bureaucracy): Focus on organizational structure.\n\nHuman Relations Theories (1930s–1970s): Shifted focus to the worker's social and psychological needs.\n- Elton Mayo (Hawthorne Studies): Discovered that social factors and being observed (the Hawthorne effect) could be bigger motivators than economic incentives.\n- Maslow (Hierarchy of Needs): People are motivated to fulfill a hierarchy of needs.\n- McGregor (Theory X/Y): Manager's beliefs shape their leadership style."
+  },
+  {
+    "question": "190. The nursing modality in which a nurse is allocated a patient each shift to provide total nursing care is referred to as;",
+    "options": {
+      "a": "Case nursing",
+      "b": "Primary nursing",
+      "c": "Team nursing",
+      "d": "Functional nursing"
+    },
+    "answer": "a",
+    "explanation": "This question is very similar to question 164 but uses slightly different terminology.\n\nOption (a) is the best answer. Case nursing (also known as the Case Method or Total Patient Care) is the oldest model of care delivery. In this model, one nurse is assigned responsibility for the complete care of one or more patients for a single shift.\n\nOption (b), Primary nursing, involves 24-hour accountability from admission to discharge, which is a higher level of responsibility than just for a single shift.\n\nOption (c), Team nursing, involves a group of staff members led by an RN.\n\nOption (d), Functional nursing, is task-based.",
+    "additional": "It is crucial to understand the subtle but important difference between Total Patient Care (Case Method) and Primary Nursing.\n\n- Total Patient Care: Responsibility is confined to the shift. When the nurse goes home, her responsibility ends and is passed to the next nurse.\n\n- Primary Nursing: Responsibility transcends shifts. The primary nurse creates the plan of care, and associate nurses implement that plan when the primary nurse is not on duty. The primary nurse remains accountable for outcomes throughout the patient's stay."
+  },
+  {
+    "question": "150. Primary Health Care activities at the district level are co-ordinated by the.-",
+    "options": {
+      "a": "Medical officer of health.",
+      "b": "District development committee.",
+      "c": "Public health officer.",
+      "d": "District health management team."
+    },
+    "answer": "d",
+    "explanation": "In the Kenyan health system, which is decentralized, health services management at the sub-national level is a key function.\n\nOption (d) is the correct answer. The District Health Management Team (DHMT), now often referred to as the County Health Management Team (CHMT) after devolution, is the multidisciplinary body responsible for planning, coordinating, managing, and monitoring all health activities within the district/county.\n\nOption (a), The Medical Officer of Health (MOH) is typically the head or a senior member of the DHMT/CHMT, but the coordination is a team function, not solely the role of one person.\n\nOption (b), The District Development Committee is a broader governmental body dealing with all aspects of development (roads, water, etc.), not just health.\n\nOption (c), A Public Health Officer is a key member of the DHMT/CHMT, often in charge of environmental health and disease prevention, but they do not coordinate all PHC activities alone.",
+    "additional": "Kenyan Health System Structure:\n\n- **National Level**: Ministry of Health (MOH) – Policy, standards, national strategy.\n- **County Level**: County Department of Health, headed by the County Executive Committee (CEC) Member for Health.\n- **CHMT (County Health Management Team)**: Manages all county health services.\n- **Sub-County Level**: Sub-County Health Management Team (SCHMT).\n- **Community Level**: Community Health Units (CHUs), supported by Community Health Volunteers (CHVs).\n\n**Primary Health Care (PHC)**: Emphasizes accessibility, community participation, prevention, and use of appropriate technology. The DHMT/CHMT is the engine that drives PHC implementation at the local level."
   }
 ]
+
 
 
 
