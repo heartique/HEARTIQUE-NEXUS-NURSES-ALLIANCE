@@ -60,6 +60,9 @@ document.addEventListener("DOMContentLoaded", () => {
     return badge;
   };
 
+  let paperOneNew = 0;
+  let paperTwoNew = 0;
+
   document.querySelectorAll(".unit-tab").forEach(tab => {
     const raw = tab.dataset.json || "";
     const files = raw.split(",").map(f => f.trim()).filter(f => f);
@@ -84,7 +87,24 @@ document.addEventListener("DOMContentLoaded", () => {
         tab.setAttribute('data-counted', 'yes');
         if (document.querySelectorAll(".paper-one[data-counted]").length === paperOneTabs.length) {
           const title = document.getElementById("paper-one-title");
-          if (title) title.textContent += ` – Total: ${paperOneTotal} Questions`;
+          if (title) {
+            title.textContent = `📘 Paper One Units – Total: ${paperOneTotal} Questions`;
+            if (paperOneNew > 0) {
+              const badge = document.createElement("span");
+              badge.textContent = `🔴 ${paperOneNew} NEW`;
+              Object.assign(badge.style, {
+                marginLeft: "8px",
+                background: "crimson",
+                color: "#fff",
+                padding: "3px 8px",
+                fontSize: "12px",
+                borderRadius: "15px",
+                fontWeight: "bold",
+                animation: "pulse 1s infinite alternate"
+              });
+              title.appendChild(badge);
+            }
+          }
         }
       }
 
@@ -95,7 +115,24 @@ document.addEventListener("DOMContentLoaded", () => {
         tab.setAttribute('data-counted', 'yes');
         if (document.querySelectorAll(".paper-two[data-counted]").length === paperTwoTabs.length) {
           const title = document.getElementById("paper-two-title");
-          if (title) title.textContent += ` – Total: ${paperTwoTotal} Questions`;
+          if (title) {
+            title.textContent = `📘 Paper Two Units – Total: ${paperTwoTotal} Questions`;
+            if (paperTwoNew > 0) {
+              const badge = document.createElement("span");
+              badge.textContent = `🔴 ${paperTwoNew} NEW`;
+              Object.assign(badge.style, {
+                marginLeft: "8px",
+                background: "crimson",
+                color: "#fff",
+                padding: "3px 8px",
+                fontSize: "12px",
+                borderRadius: "15px",
+                fontWeight: "bold",
+                animation: "pulse 1s infinite alternate"
+              });
+              title.appendChild(badge);
+            }
+          }
         }
       }
 
@@ -105,6 +142,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
       if (diff > 0) {
         totalNew += diff;
+
+        if (tab.classList.contains("paper-one")) {
+          paperOneNew += diff;
+        }
+        if (tab.classList.contains("paper-two")) {
+          paperTwoNew += diff;
+        }
+
         const badge = createBadge(diff);
         tab.appendChild(badge);
 
@@ -136,3 +181,15 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }, 1200);
 });
+  // Reset button logic
+  const resetBtn = document.getElementById("reset-btn");
+  if (resetBtn) {
+    resetBtn.addEventListener("click", () => {
+      Object.keys(localStorage).forEach(key => {
+        if (key.startsWith("qcount_")) {
+          localStorage.removeItem(key);
+        }
+      });
+      location.reload();
+    });
+  }
