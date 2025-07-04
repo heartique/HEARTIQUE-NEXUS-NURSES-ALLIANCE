@@ -1266,8 +1266,166 @@
     "answer": "C",
     "explanation": "Why C is correct: Giardiasis is caused by Giardia lamblia, a protozoan parasite. Infection occurs via ingestion of contaminated food or water, entering through the GI tract.\n\nWhy the others are incorrect:\nA. Anthrax is bacterial, and commonly enters via skin (cutaneous) or inhalation.\nB. Botulism is foodborne poisoning by a neurotoxin, not an infection by a protozoa.\nD. Taeniasis is caused by a tapeworm (helminth), not protozoa.",
     "additional": "Pathogen Classifications:\n- **Protozoa**: Giardia, Plasmodium, Entamoeba\n- **Bacteria**: Bacillus anthracis, Vibrio cholerae\n- **Helminths**: Taenia (tapeworm), Schistosoma\n\nKey concept: Protozoa = unicellular; Helminths = multicellular.\n\nPOSSIBLE NCK QUESTIONS:\n- Amoebic dysentery is caused by? (Answer: Entamoeba histolytica – Protozoa)\n- Which disease is caused by helminths? (Answer: Schistosomiasis)\n- Most common route for GI protozoa? (Answer: Fecal-oral)\n\nRECOMMENDED BOOK:\nJawetz, Melnick & Adelberg's Medical Microbiology."
+  },
+  {
+    "question": "In Diphtheria, clinical signs and symptoms occur as a result of;",
+    "options": {
+      "A": "Production of toxins and their release into the bloodstream causing damage to the respiratory tract and the heart",
+      "B": "Production of toxins and their release into the bloodstream causing damage to all body systems due to bacteremia",
+      "C": "Production bacteria and their release into the lungs and other tissues cause damage to the abdominal organs",
+      "D": "Production of pus and toxins and their release into the circulation leading to pyemia"
+    },
+    "answer": "A",
+    "explanation": "This answer is correct because the pathophysiology of diphtheria is primarily toxin-mediated. The causative agent, Corynebacterium diphtheriae, produces a potent exotoxin.\n\nLocal Effects: The toxin causes local tissue necrosis in the upper respiratory tract, leading to the formation of a characteristic dense, grey, adherent pseudomembrane over the tonsils and pharynx. This can cause airway obstruction.\n\nSystemic Effects: The toxin is absorbed into the bloodstream and circulates throughout the body, causing severe damage to distant organs. The heart (myocarditis) and the nervous system (neuritis/palsies) are particularly vulnerable.\n\nIncorrect Options:\n\nB is incorrect because while toxins are released, significant bacteremia (bacteria in the blood) is rare. The damage is from the toxin, not widespread bacteria. Also, it doesn't damage \"all\" body systems equally; it has a predilection for the heart and nerves.\n\nC is incorrect because the primary site of infection is the upper respiratory tract, not the lungs, and the main systemic damage is not to abdominal organs.\n\nD is incorrect because diphtheria is not a pyogenic (pus-forming) infection, and pyemia (pus-forming organisms in the blood) is not its characteristic feature.",
+    "additional": "Causative Agent: Corynebacterium diphtheriae, a Gram-positive bacillus.\n\nIncubation Period: 2–5 days.\n\nKey Clinical Sign: A tough, grayish pseudomembrane in the throat that bleeds if attempts are made to remove it. A \"bull neck\" appearance can result from severe cervical adenitis and edema.\n\nComplications to Remember:\n- Myocarditis: Can lead to heart failure and arrhythmias (occurs in week 2–3).\n- Polyneuritis: Affects cranial nerves (e.g., palate paralysis causing nasal regurgitation) and peripheral nerves.\n\nTreatment Priority:\n- Diphtheria Antitoxin (DAT): Must be given immediately on clinical suspicion to neutralize unbound toxin.\n- Antibiotics: Penicillin or Erythromycin to eradicate the bacteria and prevent further toxin production.\n\nPrevention: Active immunization with Diphtheria toxoid, part of the Pentavalent vaccine in the KEPI schedule (given at 6, 10, 14 weeks).\n\nKEY: Remember Diphtheria is a TOXIN-driven disease. The priority is to neutralize the toxin with antitoxin.\n\nBOOK REFERENCE: Park's Textbook of Preventive and Social Medicine or Control of Communicable Diseases Manual (CCDM) by APHA."
+  },
+  {
+    "question": "Brucellosis is transmitted through;",
+    "options": {
+      "A": "Contact with blood or urine of infected animals",
+      "B": "Ingestion of milk or milk products",
+      "C": "Ingestion of meat and meat products",
+      "D": "Contact with domestic animals"
+    },
+    "answer": "B",
+    "explanation": "While all the options are potential routes of transmission, the most common route for the general population is the consumption of unpasteurized milk and dairy products (like cheese) from infected animals (goats, sheep, cows, camels). The bacteria are shed in high concentrations in the milk of infected animals.\n\nIncorrect Options (but still possible routes):\n\nA and C are common routes for occupational exposure (vets, farmers, abattoir workers) through contact with infected tissues, blood, urine, or undercooked meat.\n\nD is too general. It's not just contact, but contact with infectious materials from infected animals.",
+    "additional": "Other Names for Brucellosis: Undulant Fever, Malta Fever, Mediterranean Fever.\n\nCausative Agent: Bacteria of the genus Brucella. The most common species are:\n- B. melitensis (from goats/sheep – most severe in humans)\n- B. abortus (from cattle)\n- B. suis (from pigs)\n\nKey Clinical Features:\n- Undulating Fever: Fever that rises and falls over weeks or months.\n- Profuse night sweats (with a characteristic mousy or wet-hay odor).\n- Arthralgia (joint pain), myalgia (muscle pain), and headache.\n- Hepatosplenomegaly (enlarged liver and spleen).\n\nDiagnosis: Serological tests (e.g., Rose Bengal test, ELISA) and blood cultures.\n\nTreatment: Requires long-term combination antibiotic therapy (e.g., Doxycycline plus Rifampicin for 6 weeks) to prevent relapse.\n\nPrevention:\n- Pasteurization of milk and dairy products.\n- Vaccination of livestock.\n- Use of Personal Protective Equipment (PPE) for high-risk occupations.\n\nKEY: The primary public health message for preventing Brucellosis in the general community is to avoid raw (unpasteurized) milk and its products.\n\nBOOK REFERENCE: Manson's Tropical Diseases."
+  },
+  {
+    "question": "The demographic trends in Kenya indicate that since 1969 to date;",
+    "options": {
+      "A": "The crude birth rate has increased",
+      "B": "The infant mortality rate has increased",
+      "C": "Life expectancy at birth rate has increased",
+      "D": "Total fertility rate has increased"
+    },
+    "answer": "C",
+    "explanation": "This is the correct trend. Despite challenges like HIV/AIDS, overall improvements in healthcare, sanitation, nutrition, and access to education have led to a significant increase in the average number of years a newborn is expected to live. Life expectancy in Kenya has risen from around 50 years in the late 1960s to over 65 years today.\n\nIncorrect Options:\n\nA & D: Both the Crude Birth Rate (CBR) and the Total Fertility Rate (TFR) have shown a significant and steady decline since the 1970s. This is due to increased access to family planning, female education, and urbanization. Kenya had one of the highest fertility rates in the world, but it has fallen dramatically.\n\nB: The Infant Mortality Rate (IMR) has also significantly decreased due to better maternal and child health services, including immunization, nutrition, and management of childhood illnesses.",
+    "additional": "Demographic Definitions:\n\n- Life Expectancy: The average number of years a person is expected to live from birth, assuming current mortality rates continue.\n- Crude Birth Rate (CBR): (Number of live births in a year / Mid-year population) × 1000.\n- Total Fertility Rate (TFR): The average number of children a woman would have in her lifetime if she were to experience the current age-specific fertility rates.\n- Infant Mortality Rate (IMR): (Number of deaths of infants <1 year old in a year / Number of live births in that year) × 1000.\n\nDemographic Transition Model: Kenya is in Stage 2 or early Stage 3 of this model, characterized by falling death rates followed by falling birth rates, leading to population growth that is now beginning to slow down.\n\nKEY: Remember the general positive health trends in Kenya since independence: Life expectancy ↑, IMR ↓, CBR ↓, TFR ↓.\n\nBOOK REFERENCE: Kenya National Bureau of Statistics (KNBS) reports and Kenya Demographic and Health Survey (KDHS) reports are the primary sources for this data. General community health textbooks will cover the concepts."
+  },
+  {
+    "question": "Socialization is defined as;",
+    "options": {
+      "A": "The process of acquiring the culture of the society in which one is born",
+      "B": "Learning the establishments and procedural expectations of an institution",
+      "C": "Acquisition of new skills in the society",
+      "D": "The process of adjusting to a new way of doing things"
+    },
+    "answer": "A",
+    "explanation": "This option provides the most comprehensive and accurate definition of socialization from a sociological and community health perspective. Socialization is the lifelong process through which individuals learn and internalize the values, beliefs, norms, and social skills of their culture to become functioning members of society.\n\nIncorrect Options:\n\nB is a more specific term called organizational socialization or onboarding, which is a type of socialization but not the general definition.\n\nC and D are components of socialization but are not the complete definition. Socialization is broader than just acquiring skills or adjusting; it involves internalizing the entire cultural framework.",
+    "additional": "Types of Socialization:\n\n- Primary Socialization: Occurs during childhood, primarily within the family. It's where the most fundamental cultural learning happens.\n- Secondary Socialization: Occurs outside the home, in institutions like schools, peer groups, and the workplace.\n- Anticipatory Socialization: Preparing for future roles (e.g., nursing student).\n- Resocialization: Discarding old behaviors and adopting new ones (e.g., military training).\n\nAgents of Socialization: Family, school, peer groups, media.\n\nRelevance to Nursing: Understanding socialization helps nurses provide culturally competent care and tailor health education.\n\nKEY: Socialization is the link between an individual and society, shaping their identity and behavior based on cultural norms.\n\nBOOK REFERENCE: Sociology for Nurses or general sociology textbooks like those by Anthony Giddens."
+  },
+  {
+    "question": "While giving a health talk on primary prevention during a school health visit, the nurse should focus on;",
+    "options": {
+      "A": "Physical therapy after injury, vaccinations, healthy diet",
+      "B": "Conducive environment, vocational training, early diagnosis",
+      "C": "Regular medical checkup, screening, psychotherapy",
+      "D": "Vaccinations, prophylactic therapy, healthy diet"
+    },
+    "answer": "D",
+    "explanation": "This option correctly lists activities that fall under Primary Prevention. The goal of primary prevention is to prevent the onset of illness or injury before the disease process begins.\n\nVaccinations: Prime the immune system to prevent specific infectious diseases.\n\nProphylactic Therapy: Measures taken to prevent disease (e.g., fluoride supplements, folic acid).\n\nHealthy Diet: Prevents NCDs like diabetes, obesity, and heart disease.\n\nIncorrect Options:\n\nA includes 'Physical therapy after injury,' which is Tertiary Prevention.\nB includes 'early diagnosis,' which is Secondary Prevention.\nC includes 'screening' and 'psychotherapy,' both Secondary Prevention strategies.",
+    "additional": "Levels of Prevention (Leavell and Clark's Model):\n\n- Primordial: Prevent development of risk factors.\n- Primary: Prevent disease onset in healthy individuals.\n  - Health Promotion: Health education, exercise.\n  - Specific Protection: Immunization, prophylaxis.\n- Secondary: Early detection and treatment (screening).\n- Tertiary: Reduce disability, rehabilitate (physiotherapy).\n\nKEY: Primary = Prevent | Secondary = Screen | Tertiary = Treat/Rehabilitate\n\nBOOK REFERENCE: Foundations of Nursing (Potter & Perry), Community Health Nursing (Allender, Rector & Warner)."
+  },
+  {
+    "question": "In bilharzia, the most clinical sign in an endemic area is;",
+    "options": {
+      "A": "Jaundice",
+      "B": "Hepatomegaly",
+      "C": "Hematuria",
+      "D": "Hemorrhoids"
+    },
+    "answer": "C",
+    "explanation": "Hematuria (blood in urine), especially painless terminal hematuria, is the hallmark of urinary schistosomiasis caused by Schistosoma haematobium. The eggs cause inflammation and bleeding in the bladder wall.\n\nIncorrect Options:\n\nA and B are more common in intestinal schistosomiasis (S. mansoni or japonicum).\nD (Hemorrhoids) is unrelated to schistosomiasis.",
+    "additional": "Other Name: Schistosomiasis.\n\nTransmission: Contact with cercariae from infected freshwater snails.\n\nTypes:\n- Urinary (S. haematobium): Hematuria, bladder cancer risk.\n- Intestinal (S. mansoni/japonicum): Bloody diarrhea, hepatosplenomegaly.\n\nDiagnosis:\n- Eggs in urine or stool (microscopy).\n- Urine dipsticks for microhematuria in endemic areas.\n\nTreatment: Praziquantel.\n\nPrevention: MDA campaigns, snail control, avoiding contaminated water.\n\nKEY: Urinary Schistosomiasis = Hematuria.\n\nBOOK REFERENCE: Manson's Tropical Diseases, Control of Communicable Diseases Manual (CCDM)."
+  },
+  {
+    "question": "The primary health care elements covered within the millennium development goals are;",
+    "options": {
+      "A": "Nutrition, safe water supply, maternal child health",
+      "B": "Maternal child health, health education, local disease control",
+      "C": "HIV/AIDS, mental health, safe water supply",
+      "D": "Treatment of minor ailments, health education, expanded Programme on immunization"
+    },
+    "answer": "A",
+    "explanation": "The Millennium Development Goals (MDGs) included goals on nutrition (Goal 1), maternal and child health (Goals 4 & 5), and safe water (Goal 7). These directly align with PHC priorities.\n\nIncorrect Options:\n\nB and D list valid PHC elements but not those specifically featured in the MDGs.\nC includes mental health, which was notably missing from the MDGs and later included in the SDGs.",
+    "additional": "8 PHC Elements (Alma-Ata):\n- Health education\n- Disease control\n- Immunization (EPI)\n- Maternal and child health\n- Essential drugs\n- Nutrition\n- Common disease treatment\n- Water and sanitation\n\nMDG Focus:\n- Eradicate hunger → Nutrition\n- Reduce child mortality, improve maternal health → MCH\n- Environmental sustainability → Safe water\n\nSDGs (post-2015) expanded to include mental health and NCDs.\n\nKEY: MDGs matched core PHC needs in nutrition, MCH, and safe water.\n\nBOOK REFERENCE: WHO/UN publications, Community Health Nursing textbooks."
+  },
+  {
+    "question": "Demographic trap is best defined as;",
+    "options": {
+      "A": "The period of time in a nation's demographic evolution when the population working group is particularly prominent",
+      "B": "The combination of high fertility and declining mortality resulting in high population",
+      "C": "A period between 20–30 years when fertility rates fall due to significant drop in child and infant mortality rates",
+      "D": "The initial favorable effect of falling fertility rates on age dependency ratio"
+    },
+    "answer": "B",
+    "explanation": "Demographic trap refers to Stage 2 of the Demographic Transition where death rates fall due to improved health, but birth rates remain high, causing a population boom that can strain resources.\n\nIncorrect Options:\n\nA and D describe the Demographic Dividend, not the trap.\nC describes a period that transitions out of the trap but is not the definition of the trap itself.",
+    "additional": "DTM Stages:\n1. High Stationary (High birth & death rates)\n2. Early Expanding (High birth, falling death → Trap)\n3. Late Expanding (Falling birth, continued low death)\n4. Low Stationary (Low birth & death)\n5. Declining (Births < Deaths)\n\nTrap: Rapid growth = stress on jobs, services, infrastructure.\n\nEscape = Educating girls, family planning, better child survival.\n\nKEY: Demographic Trap = High Birth + Low Death → Rapid Population Growth\n\nBOOK REFERENCE: Park’s Preventive and Social Medicine, population studies material."
+  },
+  {
+    "question": "Controlled tipping refers to;",
+    "options": {
+      "A": "Method of refuse disposal where wet and dry refuse is heaped in alternate layers",
+      "B": "A process of gathering rubbish and burning it to control vermin",
+      "C": "A process of depositing refuse into depressions or large holes in the ground",
+      "D": "A fermentation of the refuse for 30-90 days"
+    },
+    "answer": "C",
+    "explanation": "This is the fundamental description of a landfill. 'Controlled tipping' is the British term for what is more commonly known as a sanitary landfill. Waste is layered, compacted, and covered daily to reduce odor, vermin, and pollution.",
+    "additional": "Features of Sanitary Landfill (Controlled Tipping):\n- Site Selection: Away from homes and water sources.\n- Liner System: Clay/plastic base to prevent seepage.\n- Leachate Management: Pipes collect contaminated liquid.\n- Daily Cover: Soil or inert material added daily.\n- Gas Collection: Methane captured for energy or burned.\n\nOther Methods:\n- Incineration: Burning waste at high temperatures.\n- Composting: Biological decomposition of organic waste.\n- Recycling: Reusing processed materials.\n\nKEY: Controlled Tipping = Sanitary Landfill: Layer → Compact → Cover.\n\nBOOK REFERENCE: Park's Textbook of Preventive and Social Medicine."
+  },
+  {
+    "question": "The core principles of primary health care includes;",
+    "options": {
+      "A": "Intersectoral approach to health, efficiency and equity",
+      "B": "Universal accessibility, appropriate technology and community participation",
+      "C": "MCH/FP, appropriate treatment of locally endemic diseases and sanitation",
+      "D": "Universal accessibility, commitment to health equity and intersectoral approach to health"
+    },
+    "answer": "B",
+    "explanation": "Option B captures three distinct principles from the Alma-Ata Declaration: Universal accessibility, Appropriate technology, and Community participation. These are central to the delivery of equitable and people-centered primary health care.",
+    "additional": "5 Core Principles of PHC:\n- Equity: Equal access to care.\n- Community Participation: Involvement in planning and action.\n- Intersectoral Coordination: Health + education + agriculture, etc.\n- Appropriate Technology: Affordable, acceptable, adaptable.\n- Preventive Focus: Health promotion over cure.\n\nKEY: Principles = the 'how' and 'why' of PHC. Elements = the 'what'.\n\nBOOK REFERENCE: WHO Alma-Ata Declaration, Community Health Nursing by Stanhope and Lancaster."
+  },
+  {
+    "question": "Which organism causes chicken pox?",
+    "options": {
+      "A": "Salmonella",
+      "B": "Haemophilus influenzae",
+      "C": "Bordetella pertussis",
+      "D": "Varicella-zoster virus"
+    },
+    "answer": "D",
+    "explanation": "Chickenpox (Varicella) is caused by primary infection with the Varicella-zoster virus (VZV), a herpesvirus. It is characterized by a pleomorphic rash and high contagion through droplets or vesicle contact.",
+    "additional": "Key Facts:\n- Rash: Itchy, centripetal, appears in crops.\n- Pleomorphism: All lesion stages seen at once.\n- Complications: Pneumonia, encephalitis, secondary bacterial infections.\n- Transmission: Droplet and direct contact.\n- Prevention: Varicella vaccine.\n\nReactivation of VZV causes Shingles (Zoster).\n\nKEY: Chickenpox = Varicella = VZV.\n\nBOOK REFERENCE: Nelson Textbook of Pediatrics, infectious disease manuals."
+  },
+  {
+    "question": "Which organism causes whooping cough?",
+    "options": {
+      "A": "Salmonellae",
+      "B": "Haemophilus Influenza",
+      "C": "Bordetella pertussis",
+      "D": "Varicella-zoster"
+    },
+    "answer": "C",
+    "explanation": "Whooping cough (Pertussis) is caused by Bordetella pertussis, a Gram-negative bacterium. It attaches to respiratory cilia and produces toxins, leading to the classic paroxysmal cough with a 'whoop'.",
+    "additional": "Clinical Stages:\n- Catarrhal (1-2 weeks): Cold-like symptoms, highly contagious.\n- Paroxysmal (2-6 weeks): Whooping cough, vomiting.\n- Convalescent: Gradual recovery.\n\nComplications: Pneumonia, apnea (infants), seizures.\n\nDiagnosis: Nasopharyngeal PCR or culture.\nTreatment: Macrolides (Azithromycin, Erythromycin).\n\nPrevention: DPT or Pentavalent vaccine (KEPI).\n\nKEY: Whooping cough = Bordetella pertussis. '100-day cough' in infants.\n\nBOOK REFERENCE: Control of Communicable Diseases Manual (CCDM)."
+  },
+  {
+    "question": "The best approach to introduce the use of pit latrines in the community where the practice is not common is by;",
+    "options": {
+      "A": "Ensuring that the local administrators help by enforcing digging and using them",
+      "B": "Clearing bushes around homesteads where people defecate",
+      "C": "Working with and talking to people on how to use pit latrines",
+      "D": "Asking non-governmental organizations to fund the digging of latrines for homesteads"
+    },
+    "answer": "C",
+    "explanation": "The most effective and sustainable approach is through community participation and health education. Engaging the people and understanding their perceptions leads to behavior change and ownership.",
+    "additional": "Community-Led Total Sanitation (CLTS):\n- No subsidies or enforcement.\n- Uses triggering techniques to evoke behavior change.\n- Empowers people to build with local materials.\n\nWhy A/B/D are wrong:\n- A: Enforcement creates resistance.\n- B: Doesn't address core habit.\n- D: Leads to dependency, poor ownership.\n\nKey Health Messages:\n- Feco-oral transmission of disease.\n- Privacy, safety, and dignity benefits.\n- Importance of handwashing.\n\nKEY: Software before hardware. Change behavior, not just build structures.\n\nBOOK REFERENCE: WHO CLTS Toolkit, Cairncross & Feachem’s Environmental Health Manual."
   }
 ]
+
+
 
 
 
