@@ -181,10 +181,13 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }, 1200);
 });
-  // Reset button logic
+    // Reset button logic with confirmation
   const resetBtn = document.getElementById("reset-btn");
   if (resetBtn) {
     resetBtn.addEventListener("click", () => {
+      const confirmReset = confirm("⚠️ This will mark all units as unread and reset your quiz progress.\n\nDo you want to continue?");
+      if (!confirmReset) return;
+
       Object.keys(localStorage).forEach(key => {
         if (key.startsWith("qcount_")) {
           localStorage.removeItem(key);
@@ -193,3 +196,4 @@ document.addEventListener("DOMContentLoaded", () => {
       location.reload();
     });
   }
+
