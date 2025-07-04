@@ -298,8 +298,81 @@
     "answer": "a",
     "explanation": "Correct (a): Addison's disease is primary adrenal insufficiency, meaning the adrenal glands do not produce enough cortisol and, crucially, aldosterone. Aldosterone's main function is to tell the kidneys to retain sodium (and water) and excrete potassium. In its absence, the body loses large amounts of sodium and retains potassium. Therefore, the appropriate diet for a patient with Addison's disease is high in sodium to compensate for the urinary losses.\n\nIncorrect (b, d): Carbohydrate and protein levels are generally not the primary dietary modification, though a diet with adequate glucose is important to prevent hypoglycemia, which can occur due to cortisol deficiency.\n\nIncorrect (c): A diet high in potassium is contraindicated and dangerous. These patients already have a tendency towards hyperkalemia due to the lack of aldosterone, so they should be taught to avoid high-potassium foods.",
     "additional": "Deeper Insight: The treatment for Addison's disease involves lifelong hormone replacement therapy with glucocorticoids (e.g., hydrocortisone, to replace cortisol) and mineralocorticoids (e.g., fludrocortisone, to replace aldosterone). During times of illness, stress, or surgery (an \"Addisonian crisis\"), the body's need for corticosteroids increases dramatically, and the patient will require higher doses of their medication.\n\nPossible Next Question (NCK Focus): \"A client with Addison's disease is being discharged. What is the most important information to include in the teaching plan?\" The answer would be the importance of never abruptly stopping steroid medication and the need for an emergency steroid injection kit. Another potential question: \"A patient with Addison's disease presents with severe hypotension, vomiting, and confusion. The nurse recognizes these as signs of what life-threatening condition?\" The answer is Addisonian crisis."
+  },
+  {
+    "question": "The client with diabetes mellitus reports having difficulty cutting his toe nails. The nurse assesses the toenails and notes the nails are thick and ingrown. Which of the following recommendations should be provided to the client?",
+    "options": {
+      "A": "Cut the nails straight across with a clipper after the bath.",
+      "B": "Make an appointment with a nail shop for a pedicure.",
+      "C": "Make an appointment with a podiatrist.",
+      "D": "Offer to file the tops of the nails to reduce thickness after cutting."
+    },
+    "answer": "C",
+    "explanation": "Proper foot care is critical for clients with diabetes mellitus due to the risks of neuropathy (loss of sensation) and peripheral vascular disease (impaired circulation), which lead to poor healing and a high risk of infection and amputation. When a client has thick, hard, or ingrown toenails, they should never attempt to cut them themselves. The risk of cutting the skin, causing an injury that may not be felt and will not heal well, is too high.\n\nA podiatrist is a healthcare professional who specializes in foot care. They have the appropriate training and sterile equipment to safely manage complex nail issues in high-risk individuals.\n\nCutting nails after a bath (a), while it softens them, is still risky for the client.\n\nA pedicure at a nail shop (b) is strongly contraindicated due to the risk of infection from non-sterile equipment and the lack of specialized training for diabetic feet.\n\nThe nurse or client should not be filing or cutting these nails (d). This requires a specialist.",
+    "additional": "Standard Diabetic Foot Care Teaching:\n\nInspect feet daily for any cuts, blisters, redness, or swelling. Use a mirror if needed.\n\nWash feet daily with lukewarm water and mild soap; dry thoroughly, especially between the toes.\n\nApply lotion to the tops and bottoms of feet, but not between the toes (to prevent fungal infection).\n\nNever go barefoot. Wear well-fitting, comfortable shoes and clean, dry socks.\n\nFor routine nail care (if nails are not thick/ingrown), cut straight across and file the edges smooth.\n\nReference: Lewis's Medical-Surgical Nursing, Chapter 48: Diabetes Mellitus."
+  },
+  {
+    "question": "The diabetic client reports the presence of corns, and asks for information about preventing the condition. What is the best response by the nurse to the client's inquiry?",
+    "options": {
+      "A": "You will need to make sure that you select shoes that are appropriately fitted.",
+      "B": "You can use corn pads to gradually remove the growths.",
+      "C": "Corns are best treated by shaving them off.",
+      "D": "You can use a mild abrasive soap to scrub the area to remove them."
+    },
+    "answer": "A",
+    "explanation": "Corns and calluses are areas of thickened skin that develop in response to repeated pressure or friction. The primary cause is ill-fitting footwear that rubs or puts pressure on a specific area of the foot. The best response to a question about prevention is to address the root cause. Teaching the client to select shoes that are properly fitted, with a wide toe box and adequate support, is the most important preventative measure.",
+    "additional": "Unsafe Self-Care:\n\nClients with diabetes should never use over-the-counter corn pads or plasters (b), as they contain salicylic acid which can cause a chemical burn on the skin, especially in someone with poor sensation and circulation.\n\nClients should never attempt to cut or shave corns or calluses (c), as this can easily lead to injury and infection.\n\nAbrasive soaps or scrubbing (d) can also damage fragile skin.\n\nProper Management: The client should be advised to see a podiatrist for safe removal of existing corns and for advice on therapeutic footwear.\n\nReference: Brunner & Suddarth's Textbook of Medical-Surgical Nursing, Chapter 43: Assessment and Management of Patients With Diabetes."
+  },
+  {
+    "question": "A client at risk for the development of type 2 diabetes mellitus asks why weight loss will reduce risk of the condition. Which of the following responses by the nurse is most correct?",
+    "options": {
+      "A": "The amount of foods taken in require more insulin to adequately metabolize them, resulting in diabetes.",
+      "B": "Excess body weight impairs the body's release of insulin.",
+      "C": "Thin people are less likely to become diabetic.",
+      "D": "The physical inactivity associated with obesity causes a reduced ability by the body to produce insulin."
+    },
+    "answer": "B",
+    "explanation": "The pathophysiology of Type 2 Diabetes is primarily centered on insulin resistance. In this condition, cells (especially in the liver, muscle, and fat tissue) do not respond effectively to insulin. Excess visceral (abdominal) fat is a major contributor to insulin resistance. Adipose tissue is metabolically active and releases inflammatory substances that interfere with insulin signaling. Over time, the pancreas tries to compensate by producing more and more insulin, but eventually, the beta cells can become exhausted, and insulin production may decrease. Weight loss, particularly of abdominal fat, improves the body's sensitivity to insulin, allowing it to work more effectively and reducing the strain on the pancreas.",
+    "additional": "Correction: A more precise answer would be \"Excess body weight causes your cells to become resistant to insulin, making it harder for your body to use the insulin it produces.\" Option 'b' is the closest and most accurate choice provided. Option 'a' is vague. Option 'c' is a generalization and not an explanation. Option 'd' is partially true (inactivity contributes) but less central than the direct effect of adipose tissue on insulin resistance.\n\nRisk Factors for Type 2 DM: Obesity, sedentary lifestyle, family history, race/ethnicity (higher risk in African Americans, Hispanic Americans, Native Americans, Asian Americans), history of gestational diabetes, hypertension, and high cholesterol.\n\nMetabolic Syndrome: A cluster of conditions (including abdominal obesity, high triglycerides, low HDL, hypertension, and elevated fasting glucose) that significantly increases the risk for Type 2 DM and cardiovascular disease.\n\nReference: Lewis's Medical-Surgical Nursing, Chapter 48: Diabetes Mellitus."
+  },
+  {
+    "question": "A client has been recently diagnosed with type 1 diabetes mellitus. The client is making statements that signal denial of the problem. The client states, \"I am thin and eat all of the time, how can this mean I have diabetes?\" Which of the following responses by the nurse is most appropriate?",
+    "options": {
+      "A": "Thin people are diabetic too.",
+      "B": "Your condition makes it impossible for you to gain weight.",
+      "C": "You are eating large quantities because your condition makes it difficult for your body to obtain energy from the foods taken in.",
+      "D": "Your lab tests indicate the presence of diabetes."
+    },
+    "answer": "C",
+    "explanation": "This response directly addresses the client's confusion and provides a physiological rationale for their symptoms (polyphagia and weight loss), which can help break through the denial. In Type 1 Diabetes, there is an absolute lack of insulin. Without insulin, glucose cannot enter the cells to be used for energy. The body is essentially starving at a cellular level, despite high levels of glucose in the blood. This cellular starvation triggers hunger (polyphagia). At the same time, the body starts breaking down its own fat and muscle for energy, leading to weight loss.",
+    "additional": "Distractor Rationale:\n\nOption 'a' is true but dismissive and non-therapeutic.\n\nOption 'b' is an overstatement and does not explain the \"why.\"\n\nOption 'd' is confrontational (\"You have it because the tests say so\") and closes down communication.\n\nThe 3 P's of Type 1 Diabetes:\n\nPolyuria: Excessive urination (as the body tries to excrete excess glucose).\n\nPolydipsia: Excessive thirst (due to dehydration from polyuria).\n\nPolyphagia: Excessive hunger (due to cellular starvation).\n\nReference: Brunner & Suddarth's Textbook of Medical-Surgical Nursing, Chapter 43: Assessment and Management of Patients With Diabetes."
+  },
+  {
+    "question": "A nurse is acting as a preceptor for a new graduate nurse. One of the patients assigned to their care is a 41-year-old client whose laboratory test results reveal a fasting serum blood glucose level of 125 mg/dL. The graduate nurse asks the nurse what this means. Which of the following statements by the nurse is most correct?",
+    "options": {
+      "A": "These results must be called to the physician.",
+      "B": "This client has diabetes.",
+      "C": "These results are normal.",
+      "D": "The results are consistent with prediabetes."
+    },
+    "answer": "D",
+    "explanation": "This question requires knowledge of the diagnostic criteria for diabetes.\n\nNormal Fasting Glucose: < 100 mg/dL\n\nPrediabetes (Impaired Fasting Glucose): 100 to 125 mg/dL\n\nDiabetes: ≥ 126 mg/dL (on two separate occasions)\n\nA fasting glucose of 125 mg/dL falls squarely in the prediabetes range. This indicates an increased risk for developing type 2 diabetes. While the result should be noted for the physician, it is not an urgent critical value (a). It does not meet the criteria for a diagnosis of diabetes (b), and it is not normal (c). The most accurate interpretation is prediabetes.",
+    "additional": "Other Diagnostic Criteria for Diabetes:\n\nHemoglobin A1c: ≥ 6.5%\n\n2-hour Plasma Glucose: ≥ 200 mg/dL during an oral glucose tolerance test (OGTT).\n\nRandom Plasma Glucose: ≥ 200 mg/dL in a client with classic symptoms of hyperglycemia.\n\nA1c Ranges:\n\nNormal: < 5.7%\n\nPrediabetes: 5.7% to 6.4%\n\nDiabetes: ≥ 6.5%\n\nReference: Lewis's Medical-Surgical Nursing, Chapter 48: Diabetes Mellitus."
+  },
+  {
+    "question": "The nurse notes that a patient who is a vegetarian has an abnormal number of megaloblasts. The nurse suspects a deficiency in",
+    "options": {
+      "A": "Iron",
+      "B": "Zinc",
+      "C": "Vitamin C",
+      "D": "Vitamin B12"
+    },
+    "answer": "D",
+    "explanation": "Megaloblastic anemia is a type of anemia characterized by very large, immature, and dysfunctional red blood cells (megaloblasts) in the bone marrow. It is caused by impaired DNA synthesis, most commonly due to a deficiency in either Vitamin B12 (cobalamin) or Folic Acid (B9).\n\nVitamin B12 is found almost exclusively in animal products (meat, fish, dairy, eggs). Strict vegetarians (vegans) who do not consume any animal products and do not supplement are at very high risk for B12 deficiency.",
+    "additional": "Iron deficiency causes microcytic anemia (small, pale red blood cells), not megaloblastic anemia.\n\nZinc and Vitamin C are not directly involved in causing this type of anemia.\n\nGiven the client is a vegetarian, B12 deficiency is the most likely cause of the megaloblastic anemia.\n\nPernicious Anemia: A specific type of megaloblastic anemia caused by the inability to absorb Vitamin B12 due to a lack of intrinsic factor in the stomach. This is an autoimmune condition.\n\nSymptoms of B12 Deficiency: In addition to anemia symptoms (fatigue, pallor, shortness of breath), B12 deficiency can cause irreversible neurological damage, including paresthesias (tingling/numbness in hands and feet), problems with balance, and cognitive changes.\n\nFolic Acid vs. B12: Folic acid can correct the anemia of B12 deficiency but will not correct the neurological damage. It is crucial to differentiate the two.\n\nReference: Lewis's Medical-Surgical Nursing, Chapter 30: Hematologic Problems."
   }
 ]
+
 
 
 
