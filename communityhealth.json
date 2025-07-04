@@ -1482,11 +1482,308 @@
     "answer": "C",
     "explanation": "The Crude Birth Rate is calculated as (Live Births in Year / Mid-Year Population) x 1000. It's 'crude' because it includes all people, regardless of reproductive ability.",
     "additional": "Vital Rate Formulas:\n- Crude Birth Rate (CBR) = Births ÷ Total Population × 1000\n- General Fertility Rate (GFR) = Births ÷ Women 15-49 × 1000\n- Age-Specific Birth Rate = Births in Age Group ÷ Women in that Age × 1000\n\nKEY: Crude = Total Population; Specific = Group at Risk\n\nBOOK REFERENCE: Park's PSM, Basic Epidemiology guides"
+  },
+  {
+    "question": "An example of a disease that does not pass from human to human is:-",
+    "options": {
+      "A": "Tuberculosis.",
+      "B": "Diphtheria.",
+      "C": "Tetanus.",
+      "D": "Malaria."
+    },
+    "answer": "C",
+    "explanation": "This question differentiates between communicable and non-communicable diseases.\n\nCommunicable Disease: A disease that can be transmitted from one person to another, either directly or indirectly.\n\nNon-Communicable Disease (in an infectious context): An infectious disease that is contracted from a source in the environment, not from another person.",
+    "additional": "Analyzing the Options:\n\n(a) Tuberculosis: Communicable. Spread from person to person via airborne droplets.\n\n(b) Diphtheria: Communicable. Spread from person to person via respiratory droplets.\n\n(c) Tetanus: Non-communicable. It is caused by the spores of the bacterium Clostridium tetani, which are found in soil, dust, and manure. The bacteria enter the body through a puncture wound or cut. A person with tetanus cannot transmit it to another person.\n\n(d) Malaria: Communicable, but indirectly. It is a vector-borne disease, transmitted from human to human via the bite of an infected Anopheles mosquito.\n\nModes of Transmission:\n- Direct Contact: Touching, kissing, sexual contact (e.g., scabies, STIs).\n- Droplet: Spread through large respiratory droplets from coughing, sneezing (e.g., influenza, meningitis). Droplets travel short distances (<1 meter).\n- Airborne: Spread through tiny droplet nuclei that can remain suspended in the air for long periods and travel long distances (e.g., tuberculosis, measles, varicella).\n- Vehicle-borne: Transmitted through a contaminated inanimate object or substance (vehicle), such as food (food-borne), water (water-borne), or blood/body fluids (e.g., salmonella, cholera, hepatitis B).\n- Vector-borne: Transmitted by a living organism (vector), usually an insect or animal (e.g., malaria via mosquitoes, plague via fleas).\n\nTextbook Reference: Stanhope, M., & Lancaster, J. (2016). Public Health Nursing: Population-Centered Health Care in the Community. Chapter 13: Communicable and Infectious Disease Risks."
+  },
+  {
+    "question": "All health care services and activities within the district are monitored and supervised by the district :-",
+    "options": {
+      "A": "Health management team.",
+      "B": "The Nursing Officers.",
+      "C": "Medical Officer of Health.",
+      "D": "Clinical Officer."
+    },
+    "answer": "A",
+    "explanation": "This question pertains to the structure of health service management at the district (or sub-county) level in many health systems, including Kenya's.\n\nDistrict/Sub-County Health Management Team (DHMT/SCHMT): This is a multidisciplinary team responsible for the overall planning, management, coordination, and supervision of all public health services and programs within their designated geographical area. The team is typically led by the Medical Officer of Health (MOH) but includes representatives from nursing, clinical medicine, public health, pharmacy, laboratory services, and administration.\n\nRole of the MOH: The Medical Officer of Health (c) is the head or leader of the DHMT, but the responsibility for monitoring and supervision is a collective function of the entire team. Therefore, \"Health management team\" is the most comprehensive and accurate answer.",
+    "additional": "Role of Others:\n- Nursing Officers (b) and Clinical Officers (d) are crucial members of the team and have supervisory roles within their respective cadres, but the overall responsibility for all services lies with the management team as a whole.\n\nLevels of Health Care in Kenya:\n- Level 1: Community Health Services (Community Health Volunteers - CHVs).\n- Level 2: Dispensaries and Clinics (Primary care, run by nurses/clinical officers).\n- Level 3: Health Centres (Broader services, minor surgery, basic lab).\n- Level 4: Sub-County/District Hospitals (First referral level, comprehensive services).\n- Level 5: County Referral Hospitals (Specialized services).\n- Level 6: National Referral Hospitals (e.g., Kenyatta National Hospital, Moi Teaching and Referral Hospital).\n\nPrimary Health Care (PHC): The foundational concept for community health. Its key principles are community participation, inter-sectoral collaboration, appropriate technology, equity, and a focus on prevention.\n\nTextbook Reference: Kenya Ministry of Health policy documents, such as the Kenya Health Sector Strategic and Investment Plan (KHSSP)."
+  },
+  {
+    "question": "Triaging may best be defined as the process of.-",
+    "options": {
+      "A": "Assessing all incoming casualties, of a disaster.",
+      "B": "Initiating diagnostic measures for casualties of a disaster.",
+      "C": "Determining the urgency of need of care for casualties of a disaster.",
+      "D": "Setting priorities and assigning urgency ratings for casualties of a disaster."
+    },
+    "answer": "D",
+    "explanation": "Triage is a core concept in emergency and disaster management.\n\nDefinition: The word \"triage\" comes from the French verb *trier*, meaning to sort or to select. In a medical context, it is the process of sorting patients based on the severity of their condition to determine the order in which they will be treated.\n\nGoal in a Disaster: In a mass casualty incident (MCI), where the number of casualties overwhelms the available resources, the goal of triage is to do the \"greatest good for the greatest number of people.\" This means prioritizing care for those who are critically injured but have a high chance of survival with immediate intervention.",
+    "additional": "Analyzing the Options:\n\n(a) Assessing is part of the process, but not the full definition.\n\n(b) Initiating diagnostic measures is part of treatment, which comes after triage.\n\n(c) Determining urgency is correct, but (d) is more complete.\n\n(d) This is the most accurate and comprehensive definition. Triage is not just about assessing; it is the active process of setting priorities and formally assigning an urgency rating (e.g., by using a color-coded tag) to each victim.\n\nTriage Categories (e.g., START - Simple Triage and Rapid Treatment):\n- Red (Priority 1 - Immediate): Life-threatening injuries (e.g., airway obstruction, shock, severe bleeding) but have a high probability of survival if treated immediately.\n- Yellow (Priority 2 - Delayed): Serious injuries that require medical attention, but treatment can be delayed for a short time without threatening life or limb (e.g., stable long-bone fractures).\n- Green (Priority 3 - Minor): \"Walking wounded.\" Minor injuries that can wait for treatment or may not require it (e.g., minor cuts, abrasions).\n- Black (Priority 4/0 - Expectant/Deceased): Catastrophic injuries with a low chance of survival even with immediate care, or who are already deceased. In an MCI, resources are diverted from this group.\n\nReverse Triage: Used in specific situations like lightning strikes, where those who appear dead (in respiratory/cardiac arrest) are treated first because they may be salvageable with immediate CPR.\n\nTextbook Reference: Lewis's Medical-Surgical Nursing: Assessment and Management of Clinical Problems, Chapter 68: Emergency, Terrorism, and Disaster Nursing."
+  },
+  {
+    "question": "Currently in Kenya the problems associated with old age are made worse by the:-",
+    "options": {
+      "A": "Early retirement and meager pension.",
+      "B": "Inability to acquire new marketable skills.",
+      "C": "Poor health, poverty and dependency.",
+      "D": "Disintegration of traditional social support systems"
+    },
+    "answer": "D",
+    "explanation": "This question addresses the social determinants of health affecting the elderly population in a changing society.\n\nTraditional Support: In traditional African societies, including in Kenya, the elderly were highly respected and cared for within a strong, multi-generational family and community structure. This provided social, emotional, and economic support.\n\nModern Changes: Urbanization, modernization, and economic pressures have led to the disintegration of these traditional systems. Younger generations often move to cities for work, family units become more nuclear, and community ties can weaken.\n\nImpact: This social shift exacerbates all the other problems of old age. While poor health, poverty, and lack of skills (a, b, c) are significant problems, the loss of the traditional safety net is the overarching social factor that makes the elderly more vulnerable to all of these issues. Without family and community support, an elderly person facing poverty or ill health has far fewer resources to rely on. Therefore, (d) is the most fundamental cause that worsens the other problems.",
+    "additional": "Social Determinants of Health: The conditions in which people are born, grow, live, work, and age. These include factors like socioeconomic status, education, neighborhood and physical environment, employment, social support networks, and access to health care.\n\nHealthy Aging: A public health concept focused on creating environments and opportunities that enable people to be and do what they value throughout their lives. It involves maintaining functional ability, not just the absence of disease.\n\nGovernment & NGO Roles: In response to the breakdown of traditional systems, governments and non-governmental organizations (NGOs) are increasingly involved in providing support for the elderly through social pension schemes (like Kenya's \"Inua Jamii\" program), healthcare initiatives, and community centers.\n\nTextbook Reference: Stanhope, M., & Lancaster, J. (2016). Public Health Nursing: Population-Centered Health Care in the Community. Chapter 20: The Older Adult Population."
+  },
+  {
+    "question": "A major cause of \"missed opportunity\" in the immunization programme is-",
+    "options": {
+      "A": "Failure of the cold chain.",
+      "B": "Use of vaccines that have lost potency.",
+      "C": "High drop-out of immunizable target group.",
+      "D": "Vaccine stock out."
+    },
+    "answer": "C",
+    "explanation": "A \"Missed Opportunity for Vaccination\" (MOV) is defined as any contact with health services by a child (or adult) who is eligible for vaccination, which does not result in the person receiving all the vaccine doses for which they are eligible.",
+    "additional": "Analyzing the Options:\n\n(a, b) Failure of the cold chain and using non-potent vaccines are issues of vaccine quality and lead to vaccine failure, but they are not \"missed opportunities.\"\n\n(d) Vaccine stock-outs are a system failure that causes missed opportunities, but the question asks for a major cause in terms of program performance.\n\n(c) High drop-out is a key programmatic failure that directly represents a missed opportunity. A child who receives the first dose of a multi-dose vaccine (like DTP-HepB-Hib) but fails to return for the second or third dose represents a classic missed opportunity. The child was in the system but did not complete the schedule. This is a major challenge for immunization programs and a primary reason why children remain under-immunized.\n\nStrategies to Reduce MOVs:\n- Screening: Every health worker should screen the immunization status of every child at every visit, regardless of the reason for the visit (e.g., a visit for a cough is an opportunity to vaccinate).\n- Health Education: Educating caregivers on the importance of completing the full vaccination schedule.\n- Reminder/Recall Systems: Using SMS messages or community health volunteers to remind parents when the next dose is due.\n- Reducing Barriers: Ensuring vaccines are available every day (not just on specific \"clinic days\") and minimizing wait times.\n\nReaching Every Child (REC) Strategy: A WHO/UNICEF strategy aimed at improving immunization coverage by focusing on planning, monitoring, community links, supportive supervision, and reaching the hard-to-reach.\n\nTextbook Reference: World Health Organization (WHO) and UNICEF guidelines on immunization."
+  },
+  {
+    "question": "The purpose of a screening test is to:-",
+    "options": {
+      "A": "Diagnose persons with the disease.",
+      "B": "Detect persons with risk factors of sub-clinical disease.",
+      "C": "Check whether a population is at risk of a disease.",
+      "D": "Collect the data for a mass campaign."
+    },
+    "answer": "B",
+    "explanation": "Screening is a core concept of secondary prevention.\n\nPrimary, Secondary, Tertiary Prevention:\n\nPrimary: Prevents the disease from ever occurring (e.g., vaccination, health education).\n\nSecondary: Aims to detect and treat a disease at its earliest stages, before it causes significant symptoms or complications (e.g., screening tests like Pap smears, mammograms).\n\nTertiary: Aims to reduce the impact of an established disease and prevent complications (e.g., rehabilitation after a stroke).",
+    "additional": "Purpose of Screening: Screening tests are applied to a large, apparently healthy population to identify individuals who have an early, unrecognized form of a disease or a pre-clinical condition. The goal is to separate those with a high probability of having the disease from those with a low probability.\n\nAnalyzing the Options:\n\n(a) A screening test does not diagnose. A positive screening test must be followed by a definitive diagnostic test (e.g., a biopsy after an abnormal mammogram).\n\n(b) This is the closest answer. It correctly identifies the goal of detection in the \"sub-clinical\" phase (before symptoms are apparent).\n\n(c) This is the role of an epidemiological study or community assessment, not a screening test itself.\n\n(d) Data collection is a function, but not the primary purpose. The purpose is detection for early intervention.\n\nCriteria for a Good Screening Test:\n- Validity: Measured by:\n  - Sensitivity: The ability to correctly identify those with the disease (true positives).\n  - Specificity: The ability to correctly identify those without the disease (true negatives).\n- Reliability: The ability to produce consistent results on repeat testing.\n\nThe test should also be inexpensive, easy to administer, and acceptable to the population.\n\nCriteria for a Screenable Disease: The disease should be a significant health problem, have a recognizable pre-clinical phase, and have an effective treatment available.\n\nTextbook Reference: Stanhope, M., & Lancaster, J. (2016). Public Health Nursing: Population-Centered Health Care in the Community. Chapter 12: Screening, Outreach, and Surveillance."
+  },
+  {
+    "question": "Herd immunity may be said to exist in a community when.-",
+    "options": {
+      "A": "Both dead and live antigens are used to immunize.",
+      "B": "Vaccination is stopped in a community that has been well vaccinated.",
+      "C": "The incidence of the disease decrease to a very low level.",
+      "D": "A high percentage of people are immune to an infection."
+    },
+    "answer": "D",
+    "explanation": "Herd immunity (or community immunity) is a fundamental concept in the control of communicable diseases.\n\nDefinition: It is a form of indirect protection that occurs when a sufficiently large proportion of a population has become immune to an infection (either through vaccination or previous infection).",
+    "additional": "Mechanism: When a high percentage of the population is immune, it breaks the chain of transmission. The infectious agent is unable to find enough susceptible hosts to sustain its spread. This makes it much less likely that a susceptible individual (e.g., a newborn too young to be vaccinated, or an immunocompromised person) will come into contact with an infected person.\n\nAnalyzing the Options:\n\n(a) This describes types of vaccines, not herd immunity.\n\n(b) Stopping vaccination would destroy herd immunity and lead to a resurgence of the disease.\n\n(c) A decrease in disease incidence is the result or effect of herd immunity, not its definition.\n\n(d) This is the correct definition. The presence of a high percentage of immune individuals is the condition that constitutes herd immunity.\n\nHerd Immunity Threshold: The minimum percentage of the population that needs to be immune to achieve herd immunity. This threshold varies depending on the contagiousness of the disease.\n\n- Measles: ~95%\n- Polio: ~80-85%\n\nImportance: Herd immunity is crucial for protecting the most vulnerable members of society who cannot be vaccinated, such as infants, pregnant women (for some vaccines), and people with weakened immune systems.\n\nTextbook Reference: Centers for Disease Control and Prevention (CDC). Epidemiology and Prevention of Vaccine-Preventable Diseases (The Pink Book)."
+  },
+  {
+    "question": "Emergency hormonal contraception is usually effective following unprotected sex when taken within a period of.-",
+    "options": {
+      "A": "120 hours.",
+      "B": "72 hours.",
+      "C": "24 hours.",
+      "D": "12 hours."
+    },
+    "answer": "A",
+    "explanation": "Emergency Contraception (EC), often called the \"morning-after pill,\" is used to prevent pregnancy after unprotected intercourse or contraceptive failure.",
+    "additional": "Types and Efficacy Windows:\n\n- Levonorgestrel (a progestin): Most common type. Licensed up to 72 hours but may have some effect up to 120 hours.\n- Ulipristal Acetate: Newer, more effective pill. Effective up to 120 hours (5 days).\n- Copper IUD: Most effective form of EC. Can be inserted up to 5 days (120 hours) post-intercourse.\n\nChoosing the Best Answer:\n- Since ulipristal acetate and the copper IUD are effective up to 120 hours, (a) is the most accurate and inclusive answer reflecting current options.\n\nMechanism of Action:\n- Pills: Delay or inhibit ovulation.\n- Copper IUD: Creates an inflammatory uterine environment toxic to sperm and eggs, preventing fertilization.\n\nCounseling Points:\n- EC does not protect against STIs.\n- Not intended as a regular contraceptive method.\n- Menstrual period may be early, on time, or late.\n- If period is more than a week late, pregnancy test is advised.\n\nTextbook Reference: Lowdermilk, D. L., et al. (2016). Maternity & Women's Health Care. Chapter 6: Contraception."
+  },
+  {
+    "question": "Community diagnosis is carried out.-",
+    "options": {
+      "A": "With active participation of members of the community.",
+      "B": "With active participation of the leaders in the community.",
+      "C": "With active participation of health workers only.",
+      "D": "By strictly looking at medical problems."
+    },
+    "answer": "A",
+    "explanation": "Community diagnosis is a comprehensive process of assessing the health status of a community, identifying its health problems and needs, and determining its internal and external resources.\n\nCore Principle of Community Health: A fundamental principle of modern community health and primary health care is community participation. This means that the process is not something done to a community, but something done with them.",
+    "additional": "Why Participation is Key:\n- Ownership: When community members are involved in identifying their own problems, they feel a sense of ownership over the solutions and are more likely to support and participate in health interventions.\n- Accuracy: Community members have invaluable \"insider\" knowledge about their social structures, cultural beliefs, and perceived needs, which leads to a more accurate and relevant diagnosis than one based on outside observation alone.\n- Empowerment: The process empowers the community to take action to improve its own health.\n\nAnalyzing Other Options:\n- (b) Involving leaders is important, but participation should be broad-based.\n- (c) Health workers facilitate the process, but cannot carry it out alone.\n- (d) A true diagnosis includes social, economic, and environmental issues, not just medical problems.\n\nSteps in Community Diagnosis:\n- Defining the community\n- Collecting data (e.g., surveys, FGDs, key informants)\n- Analyzing and interpreting data\n- Prioritizing problems\n- Developing an action plan\n\nPrioritization Criteria:\n- Magnitude, Severity, Feasibility, Community Concern\n\nTextbook Reference: Stanhope, M., & Lancaster, J. (2016). Public Health Nursing: Population-Centered Health Care in the Community. Chapter 11: Community Assessment."
+  },
+  {
+    "question": "Incidence rate-",
+    "options": {
+      "A": "Is used to record protracted diseases.",
+      "B": "Shows the magnitude/burden of disease in the community.",
+      "C": "Is useful for planning and administration of health care services.",
+      "D": "Shows the rate of development of disease in the community."
+    },
+    "answer": "D",
+    "explanation": "This question tests the definition of a key epidemiological measure.\n\nIncidence: Measures the occurrence of new cases of a disease in a specific population over a specific period of time. It tells us about the rate at which people are developing a disease. It is a measure of risk.",
+    "additional": "Formula: Incidence = (Number of new cases) / (Population at risk)\n\nPrevalence: Measures total number of existing cases. Tells about the burden or magnitude of disease in a community.\n\nAnalyzing Options:\n- (a) 'Protracted diseases' is vague and better assessed by prevalence.\n- (b) Definition of prevalence.\n- (c) Not the definition.\n- (d) Correct: incidence reflects the development of disease.\n\nBathtub Analogy:\n- Incidence = water flowing in (new cases)\n- Prevalence = total water in tub (all cases)\n- Drain = recoveries/deaths\n\nRelationship: Prevalence ≈ Incidence × Duration of disease.\n\nAttack Rate: Used during outbreaks = (# of people who got sick) / (Total exposed)\n\nTextbook Reference: Gordis, L. (2014). Epidemiology. Chapter 3: Measuring the Occurrence of Disease: II. Morbidity."
+  },
+  {
+    "question": "After Alma Ata Declaration, three (3) elements of primary health that were added in Kenya are-",
+    "options": {
+      "A": "Mental health, immunization, dental health.",
+      "B": "Mental health, HIV and AIDs, Dental health.",
+      "C": "Mental health, provision of essential drugs, HIV and AIDs.",
+      "D": "Mental health, provision of essential drugs, immunization."
+    },
+    "answer": "C",
+    "explanation": "The 1978 Alma-Ata Declaration outlined eight essential components of Primary Health Care (PHC). As health challenges evolved, countries adapted and added to this list.\n\nOriginal PHC Elements:\n- Health education\n- Disease control\n- Immunization\n- MCH including FP\n- Essential drugs\n- Nutrition\n- Treatment of common illnesses\n- Safe water & sanitation (Mnemonic: ELEMENTS)",
+    "additional": "Kenya’s Additions:\n- Mental health: Recognized as a rising burden.\n- HIV/AIDS: National priority due to its major health impact.\n- Essential drugs: Renewed focus on logistics and supply chains.\n\nAnalyzing Options:\n- (a, d) Immunization was already part of original PHC.\n- (b) Dental health is important but not emphasized nationally.\n- (c) Correct—focus areas formally integrated into Kenya's PHC.\n\nTextbook Reference: Kenya Ministry of Health policy documents on Primary Health Care."
+  },
+  {
+    "question": "Community participation in organization of health services in ascending order includes:-",
+    "options": {
+      "A": "Information, discussion, consultation, full control.",
+      "B": "Consultation, information, discussion, full control.",
+      "C": "Consultation, discussion, information, full control.",
+      "D": "Information, consultation, discussion, full control."
+    },
+    "answer": "D",
+    "explanation": "This question describes a \"ladder\" or continuum of community participation, showing how the level of community involvement can range from passive to active.\n\nCorrect Order: Information → Consultation → Discussion → Full Control",
+    "additional": "Levels of Participation:\n- Information: One-way communication. Community is informed.\n- Consultation: Community is asked for input.\n- Discussion/Collaboration: Joint planning between community and providers.\n- Full Control: Community leads planning and decisions.\n\nAnalyzing Options:\n- (a) Has incorrect order.\n- (b, c) Mix up ascending engagement.\n- (d) Correct ascending flow of participation.\n\nArnstein's Ladder: Model of participation with levels from manipulation to citizen control.\n\nBarriers: Time, education, culture, resistance to power-sharing.\n\nTextbook Reference: Stanhope, M., & Lancaster, J. (2016). Public Health Nursing: Population-Centered Health Care in the Community. Chapter 10: Health Promotion of Communities."
+  },
+  {
+    "question": "The common side effect a nurse should counsel a mother for after giving her child pneumococcal vaccine is:-",
+    "options": {
+      "A": "Unusual crying.",
+      "B": "Loss of appetite.",
+      "C": "Diarrhoea and vomiting.",
+      "D": "Blood clot at the site of injection."
+    },
+    "answer": "A",
+    "explanation": "Unusual crying is one of the most noticeable and common side effects after pneumococcal vaccination. It is a sign of mild systemic reaction, which nurses should counsel parents about during immunization.",
+    "additional": "Why (A) is best:\n- Mild systemic reactions such as irritability and fussiness are frequent.\n- Loss of appetite (B) is also common, but less alarming to parents than persistent crying.\n\nNot (C): Diarrhoea and vomiting are not typical post-PCV effects.\nNot (D): Blood clots are not expected; some bruising can occur.\n\nParent Guidance:\n- Mild fever, irritability, and local pain are expected and self-limiting.\n- Seek help if high fever > 40°C, seizures, or allergic signs occur.\n\nDisease Targeted: Pneumococcal vaccine protects against Streptococcus pneumoniae.\n\nTextbook Reference: CDC. The Pink Book. Chapter 17: Pneumococcal Disease."
+  },
+  {
+    "question": "Vaccine potency can be maintained in the refrigerator by:-",
+    "options": {
+      "A": "Placing vaccines in the corre'tt compartments, defrosting the refrigerator regularly, ensuring the maintenance of idea) temperature of Ob to 8°C.",
+      "B": "Defrosting the refrigerator regularly, packing vaccines with enough space in between to allow circulation of air, opening refrigerator when necessary.",
+      "C": "Avoiding contact of vaccines with evaporator, regulating the thermostat regularly, lining the frozen icepacks in the inner walls of the refrigerator.",
+      "D": "Ensuring the maintenance of ideal temperature of between'-42° to +8°C, lining frozen icepacks in the inner walls of the refrigerator, placing vaccines in the correct compartments."
+    },
+    "answer": "B",
+    "explanation": "Option (B) outlines best practices in cold chain management: regular defrosting, spacing for airflow, and opening only when necessary.",
+    "additional": "Cold Chain Facts:\n- Maintain +2°C to +8°C for most vaccines.\n- Store vaccines on shelves, not in refrigerator doors.\n- Never use frozen icepacks inside fridges — risk freezing sensitive vaccines (DTP, HepB, Hib, etc).\n\nNot (D): -42°C is unsafe and incorrect.\n\nKey Tools:\n- VVMs: indicate heat exposure.\n- Shake test: detects freeze damage in vaccines.\n\nTextbook Reference: WHO. Vaccine Management Handbook."
+  },
+  {
+    "question": "Recommended second line treatment of urethritis in an adult is:-",
+    "options": {
+      "A": "Norfloxacine 800mg stat plus doxcycline 100 mg BD for 7 days.",
+      "B": "Norfloxacine 800mg twice a day for 7 days and spectinomycin 2mg I.M. stat.",
+      "C": "Erthromycin lOOmg BD for 14 days and ceftriaxone 6~2.5mg J.M. stat.",
+      "D": "Spectinomycin 2mg I.M. stat and doxycycline 100 mg B_D for 7 days."
+    },
+    "answer": "D",
+    "explanation": "The correct combination for historical second-line treatment of urethritis was Spectinomycin for gonorrhea and Doxycycline for chlamydia.",
+    "additional": "Why (D):\n- Spectinomycin is effective for gonorrhea (correct dose is 2 grams IM stat).\n- Doxycycline covers chlamydia co-infection.\n\nNot (A, B): Norfloxacin is no longer recommended due to resistance.\nNot (C): Incorrect dosage and combination.\n\nModern CDC Guideline:\n- Ceftriaxone 500 mg IM stat + Doxycycline 100 mg BD × 7 days.\n\nPublic Health Tip:\n- Syndromic STI management treats likely infections together without lab confirmation.\n- Always notify and treat partners.\n\nTextbook Reference: CDC. STI Treatment Guidelines."
+  },
+  {
+    "question": "Methods of food preservation which inhibit multiplication of bacteria include:-",
+    "options": {
+      "A": "Smoking, pasteurization, salting.",
+      "B": "Pasteurization, canning, salting.",
+      "C": "Canning, blanching, drying.",
+      "D": "Drying, freezing, smoking."
+    },
+    "answer": "B",
+    "explanation": "Pasteurization (heat), canning (sterile sealing and heating), and salting (osmotic dehydration) all inhibit bacterial growth effectively.",
+    "additional": "Why (B) is best:\n- Each method targets key bacterial growth factors (heat kills, salt dehydrates, cans are sealed).\n\nNot (C): Blanching is a pre-treatment, not a preservation method.\nNot (D): Freezing inhibits but doesn’t kill bacteria.\n\nMechanisms:\n- Pasteurization: Kills pathogens in liquids.\n- Canning: Destroys organisms + keeps oxygen out.\n- Salting: Inhibits bacteria by removing water.\n\nOther Methods:\n- Pickling: Acidic environment kills microbes.\n- Irradiation: Kills via radiation.\n\nTextbook Reference: Frazier & Westhoff. Food Microbiology."
+  },
+  {
+    "question": "Primary Health Care activities at the district level are co-ordinated by the.-",
+    "options": {
+      "A": "Medical officer of health.",
+      "B": "District development committee.",
+      "C": "Public health officer.",
+      "D": "District health management team."
+    },
+    "answer": "D",
+    "explanation": "Primary Health Care (PHC) coordination is handled by the District Health Management Team (DHMT), a multidisciplinary group overseeing all PHC services within the district.",
+    "additional": "Why (D) is best:\n- The DHMT supervises health facilities, plans services, allocates resources, and leads responses to outbreaks.\n\n(A) MOH is part of DHMT but does not act alone.\n(B) District Development Committee is multi-sectoral, not health-specific.\n(C) Public Health Officer is a DHMT member but not the coordinator.\n\nTextbook Reference: Kenya Ministry of Health policy documents."
+  },
+  {
+    "question": "Activities of pre-visit phase of home visiting include:-",
+    "options": {
+      "A": "Sharing information on reason and purpose of visit with the family, gathering information on the location of the house, assessing the family needs and planning nursing care with them.",
+      "B": "Recording important events about the family, gathering some information on need of visit, introducing oneself to the family.",
+      "C": "Gathering information on the location of the house, gathering some information on need of visit, assembling supplies needed for the visit.",
+      "D": "Investigating community resources, establishing nurse-patient relationship, transferring the client to another nurse for care."
+    },
+    "answer": "C",
+    "explanation": "The pre-visit phase includes planning the visit, reviewing the family's file, assembling supplies, and mapping the visit location.",
+    "additional": "Why (C) is best:\n- Prepares the nurse with information and logistics before visiting the home.\n\n(A, B): Sharing and assessing happen during the in-visit phase.\n(D): Transfer of care and relationship-building are unrelated to pre-visit tasks.\n\nTextbook Reference: Stanhope & Lancaster, Public Health Nursing, Ch. 19."
+  },
+  {
+    "question": "When using the 3 pot system for water purification, the water is considered safe for drinking after standing for?",
+    "options": {
+      "A": "24hrs",
+      "B": "48hrs",
+      "C": "36hrs",
+      "D": "30hrs"
+    },
+    "answer": "B",
+    "explanation": "The 3-pot system relies on 48 hours of sedimentation across three stages to make water safe by reducing turbidity and microbial load.",
+    "additional": "System:\n- Pot 1: Source water — sedimentation.\n- Pot 2: Decanted — further settling.\n- Pot 3: Storage for drinking.\n\nTotal time = 48 hours.\n\nAlternative Household Water Treatments:\n- Boiling, Chlorination, SODIS, Filtration.\n\nTextbook Reference: WHO: Household Water Treatment and Safe Storage."
+  },
+  {
+    "question": "Absorption of iron is enhanced by:",
+    "options": {
+      "A": "Antacids",
+      "B": "Citrus fruits",
+      "C": "Tea and coffee",
+      "D": "Taking iron tablets with meals"
+    },
+    "answer": "B",
+    "explanation": "Vitamin C from citrus fruits enhances non-heme iron absorption by reducing ferric iron (Fe³⁺) to ferrous iron (Fe²⁺), which is more bioavailable.",
+    "additional": "Inhibitors:\n- (A) Antacids neutralize gastric acid and reduce absorption.\n- (C) Tea/coffee contain tannins that inhibit iron uptake.\n- (D) Taking iron with meals can reduce absorption due to competing nutrients.\n\nBest practice: Take iron on empty stomach with citrus.\n\nTextbook Reference: Lewis’s Medical-Surgical Nursing."
+  },
+  {
+    "question": "Green tags in disaster management means;",
+    "options": {
+      "A": "Victims need immediate care.",
+      "B": "Victims can wait up to 3 hrs",
+      "C": "The victims can wait up to 1hr",
+      "D": "Victims are dead"
+    },
+    "answer": "B",
+    "explanation": "Green tags are assigned to patients with minor injuries who can wait for treatment for up to 3 hours during a mass casualty incident.",
+    "additional": "Triage Tag Colors:\n- RED: Immediate care needed.\n- YELLOW: Delayed (up to 1 hour).\n- GREEN: Minor injuries, wait up to 3 hours.\n- BLACK: Deceased or non-survivable.\n\nGreen = “walking wounded.”\n\nTextbook Reference: Lewis’s Medical-Surgical Nursing, Ch. 68."
+  },
+  {
+    "question": "Elements of culture include;",
+    "options": {
+      "A": "Language, status, material life",
+      "B": "Values, beliefs, roles",
+      "C": "Religion, material life, status",
+      "D": "Languages, beliefs, Social interactions"
+    },
+    "answer": "B",
+    "explanation": "This question asks about the core elements that define culture.\n\nCulture is the complex whole of shared patterns of behaviors, beliefs, values, and artifacts that are passed down from one generation to the next and are characteristic of the members of a society.\n\nElements of Culture:\n\nNon-Material Culture: The abstract or intangible human creations of society, which influence people's behavior. This includes:\n- Values: Culturally defined standards of what is good, desirable, or beautiful.\n- Beliefs: Specific ideas that people hold to be true.\n- Norms: The rules and expectations by which a society guides the behavior of its members (including roles).\n- Language: A system of symbols that allows people to communicate.\n\nMaterial Culture: The physical or tangible creations that members of a society make, use, and share (e.g., technology, clothing, art).\n\nAnalyzing the Options:\nOptions (a), (c), and (d) all mix non-material elements (language, beliefs, religion) with social structures (status, social interactions) and material culture.\n\nOption (b) Values, beliefs, roles lists three closely related, core components of non-material culture that form the foundation of a society's worldview and guide behavior. This makes it the most cohesive and conceptually sound answer.",
+    "additional": "Additional Content & Future Testables:\n\nCultural Competence in Nursing: The ability of a nurse to provide care that is respectful of and responsive to the health beliefs, practices, and cultural and linguistic needs of diverse patients. It involves:\n- Cultural Awareness: Being aware of one's own cultural background and biases.\n- Cultural Knowledge: Seeking and obtaining an educational foundation about diverse cultural groups.\n- Cultural Skill: The ability to conduct a cultural assessment and adapt care to be culturally congruent.\n- Cultural Encounter: Directly engaging in cross-cultural interactions.\n\nEthnocentrism: The belief that one's own culture is superior to all others.\n\nCultural Relativism: The practice of viewing a culture by its own standards.\n\nTextbook Reference: Purnell, L. D. (2014). Transcultural Health Care: A Culturally Competent Approach."
+  },
+  {
+    "question": "Examples of cestodes include:-",
+    "options": {
+      "A": "Hymenolepis nana, Taenia Saginata, Diphyllobothrium lata",
+      "B": "Necator americanas, Ankylostoma duodenale, Taenia solium",
+      "C": "Echinococcus granulosus, Brugia malayi, Wuchereria bancrofti",
+      "D": "Ankylostoma duodenale, Loaloa, Onchocerca volvulus"
+    },
+    "answer": "A",
+    "explanation": "This question tests knowledge of parasitology, specifically the classification of helminths (worms).\n\nHelminth Classification:\n\nCestodes (Tapeworms): These are flat, segmented worms. Examples include Taenia species (beef and pork tapeworms), Hymenolepis nana (dwarf tapeworm), Diphyllobothrium latum (fish tapeworm), and Echinococcus granulosus (hydatid tapeworm).\n\nNematodes (Roundworms): These are cylindrical, unsegmented worms. Examples include Ascaris (roundworm), Ancylostoma and Necator (hookworms), Enterobius (pinworm), and the filarial worms like Wuchereria, Brugia, and Loa loa.\n\nTrematodes (Flukes): These are flat, leaf-shaped, unsegmented worms. The most clinically significant are the Schistosoma species (blood flukes).\n\nAnalyzing the Options:\n\n(a) This option correctly lists three different species of cestodes.\n\n(b) Mixes nematodes (Necator, Ancylostoma) with a cestode (Taenia).\n\n(c) Mixes a cestode (Echinococcus) with filarial nematodes (Brugia, Wuchereria).\n\n(d) This option lists only nematodes.",
+    "additional": "Additional Content & Future Testables:\n\nKey Parasitic Diseases:\n- Taeniasis: Infection with adult tapeworms, acquired by eating undercooked, infected beef (T. saginata) or pork (T. solium).\n- Cysticercosis: A serious infection caused by the larval stage of the pork tapeworm, T. solium. Acquired by ingesting the eggs. Can cause seizures when cysts form in the brain (neurocysticercosis).\n- Hookworm: Causes iron-deficiency anemia by sucking blood from the intestinal wall.\n- Schistosomiasis (Bilharzia): A major public health problem. Flukes live in the bloodstream and cause chronic inflammation of the bladder or intestines.\n- Lymphatic Filariasis (Elephantiasis): Caused by Wuchereria bancrofti. Adult worms block lymphatic vessels, leading to severe lymphedema.\n\nTextbook Reference: Centers for Disease Control and Prevention (CDC). Parasites."
+  },
+  {
+    "question": "A disease pandemic is one that:-",
+    "options": {
+      "A": "Few persons acquire over a short period of time",
+      "B": "Is always present in a population",
+      "C": "Occurs occasionally in a population",
+      "D": "Affects many people"
+    },
+    "answer": "D",
+    "explanation": "This question asks for the definition of pandemic, which requires differentiating it from other epidemiological terms.\n\nEpidemiological Terms:\n\nEndemic: The constant presence of a disease or infectious agent within a given geographic area or population group (e.g., malaria is endemic in many parts of sub-Saharan Africa). This relates to option (b).\n\nSporadic: Occurring infrequently and irregularly (e.g., tetanus). This relates to option (c).\n\nEpidemic (or Outbreak): The occurrence of more cases of a disease than expected in a given area or among a specific group of people over a particular period of time.\n\nPandemic: An epidemic that has spread over several countries or continents, usually affecting a large number of people. It is a worldwide or very widespread epidemic.\n\nConclusion: The key features of a pandemic are its widespread geographical distribution and the large number of people affected. Option (d) captures the second of these essential components.",
+    "additional": "Additional Content & Future Testables:\n\nExamples of Pandemics:\n- The 1918 influenza pandemic (\"Spanish Flu\").\n- The HIV/AIDS pandemic.\n- The COVID-19 pandemic.\n\nPandemic Preparedness: Public health activities that focus on planning, surveillance, and building capacity to respond to a potential global outbreak. This includes developing vaccines and treatments, stockpiling supplies, and creating communication strategies.\n\nTextbook Reference: Gordis, L. (2014). Epidemiology. Chapter 1: Introduction."
+  },
+  {
+    "question": "Drug of choice for all Schistosomal species is :-",
+    "options": {
+      "A": "Oxamniquine",
+      "B": "Metrifonate",
+      "C": "Praziquantel",
+      "D": "Niclosamide"
+    },
+    "answer": "C",
+    "explanation": "Schistosomiasis (also known as bilharzia) is a parasitic disease caused by trematode worms (flukes) of the genus Schistosoma.\n\nTreatment: The drug of choice for treating infection with all species of Schistosoma is Praziquantel. It is effective, safe, and administered as a single oral dose (or a few doses over one day), which makes it ideal for mass drug administration (MDA) campaigns in endemic areas.\n\nAnalyzing Other Options:\n\n(a) Oxamniquine is effective, but only against one species, S. mansoni. It is not effective against S. haematobium or S. japonicum.\n\n(b) Metrifonate was used in the past, but only for S. haematobium. It is no longer widely used.\n\n(d) Niclosamide is an anthelmintic drug, but it is used to treat tapeworm (cestode) infections, not schistosomiasis.\n\nConclusion: Praziquantel is the only drug listed that is effective against all common species of Schistosoma, making it the drug of choice.",
+    "additional": "Additional Content & Future Testables:\n\nMajor Schistosoma Species:\n- S. haematobium: Causes urinary schistosomiasis. Associated with painless hematuria and an increased risk of bladder cancer.\n- S. mansoni and S. japonicum: Cause intestinal and hepatic schistosomiasis. Can lead to liver fibrosis, portal hypertension, and ascites.\n\nLife Cycle: The life cycle involves specific freshwater snails as intermediate hosts. Humans become infected when larval forms of the parasite (cercariae), released by the snails, penetrate the skin during contact with infested water.\n\nPrevention and Control:\n- Mass drug administration with praziquantel.\n- Snail control.\n- Improving sanitation to prevent human waste from contaminating water sources.\n- Health education to avoid contact with contaminated water.\n\nTextbook Reference: World Health Organization (WHO). Schistosomiasis Fact Sheet."
   }
 ]
-
-
-
 
 
 
