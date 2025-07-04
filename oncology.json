@@ -142,6 +142,18 @@
     "answer": "D",
     "explanation": "In ALL, the child produces large numbers of non-functional, immature lymphoblasts. These cannot fight infection, causing severe immunocompromise despite elevated WBC count.",
     "additional": "Other ALL Features:\n- Anemia: ↓ RBCs → fatigue, pallor\n- Thrombocytopenia: ↓ platelets → bleeding\n- Neutropenia: ↑ infection risk\n\nDiagnosis:\n- Bone marrow biopsy: >25% lymphoblasts\n\nNursing Care:\n- Infection prevention (protective isolation, monitor fever)\n- Bleeding precautions\n- Antiemetics for chemo side effects\n- Nutrition, oral care\n\nTextbook Reference: Wong's Nursing Care of Infants and Children, Chapter 28."
-  }
+  },
+  {
+  "question": "Treatment of megaloblastic anemia includes;",
+  "options": {
+    "A": "Chemotherapy, radiotherapy, hydration",
+    "B": "Oxygen therapy, hydration and iron supplements",
+    "C": "Blood transfusion, iron supplements, splenectomy",
+    "D": "Oxygen therapy, folate supplements, Alcohol restriction"
+  },
+  "answer": "D",
+  "explanation": "Megaloblastic anemia is a type of macrocytic (large red blood cell) anemia caused by impaired DNA synthesis. The two main causes are deficiency of Vitamin B12 or Folic Acid (Folate).\n\nTreatment Strategy: The treatment is to replace the deficient nutrient.\n\nFolate Supplements: If the cause is folic acid deficiency, folate supplements are given.\n\nAlcohol Restriction: Chronic alcohol use is a major cause of folate deficiency because it interferes with its absorption and metabolism. Therefore, restricting alcohol is a key part of the treatment.\n\nOxygen Therapy: If the anemia is severe enough to cause symptoms of hypoxia (e.g., shortness of breath, dizziness), supplemental oxygen is administered.\n\nAnalyzing Other Options:\n(a) Chemotherapy and radiotherapy are cancer treatments.\n(b, c) Iron supplements are incorrect. Giving iron to a patient with megaloblastic anemia without addressing the underlying B12/folate deficiency is ineffective. This is not an iron deficiency anemia.\n(c) Splenectomy is not a treatment for this type of anemia.",
+  "additional": "Additional Content & Future Testables:\n\nVitamin B12 Deficiency (Pernicious Anemia): This is the other major cause of megaloblastic anemia. It is often due to a lack of intrinsic factor, a substance produced by the stomach that is necessary for B12 absorption in the ileum.\n\nKey Differentiator: Vitamin B12 deficiency, unlike folate deficiency, causes irreversible neurological symptoms (e.g., peripheral neuropathy, paresthesias, balance problems).\n\nTreatment: Because the problem is absorption, oral B12 is ineffective. Treatment requires lifelong intramuscular or subcutaneous injections of Vitamin B12.\n\nSchilling Test: An older, classic diagnostic test used to differentiate between pernicious anemia and other causes of B12 malabsorption.\n\nFood Sources:\nFolate: Leafy green vegetables, legumes, fortified grains.\nVitamin B12: Found almost exclusively in animal products (meat, fish, dairy, eggs). Strict vegans are at risk for deficiency.\n\nTextbook Reference: Brunner & Suddarth's Textbook of Medical-Surgical Nursing, Chapter 32: Management of Patients With Hematologic Neoplasms."
+}
 ]
 
