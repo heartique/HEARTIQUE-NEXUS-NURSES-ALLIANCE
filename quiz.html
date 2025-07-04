@@ -174,5 +174,13 @@
     📧 <strong>nursingnexusalliance@gmail.com</strong> | ☎️ <strong>0717517371</strong>
   </div>
   <script src="count.js" defer></script>
+
+<!-- 🔊 Unlock sound on first user click -->
+<script>
+  window.addEventListener('click', () => {
+    const sound = new Audio("notify.mp3");
+    sound.play().catch(() => {});
+  }, { once: true });
+</script>
 </body>
 </html>
