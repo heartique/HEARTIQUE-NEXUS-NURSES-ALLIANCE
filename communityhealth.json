@@ -1422,8 +1422,69 @@
     "answer": "C",
     "explanation": "The most effective and sustainable approach is through community participation and health education. Engaging the people and understanding their perceptions leads to behavior change and ownership.",
     "additional": "Community-Led Total Sanitation (CLTS):\n- No subsidies or enforcement.\n- Uses triggering techniques to evoke behavior change.\n- Empowers people to build with local materials.\n\nWhy A/B/D are wrong:\n- A: Enforcement creates resistance.\n- B: Doesn't address core habit.\n- D: Leads to dependency, poor ownership.\n\nKey Health Messages:\n- Feco-oral transmission of disease.\n- Privacy, safety, and dignity benefits.\n- Importance of handwashing.\n\nKEY: Software before hardware. Change behavior, not just build structures.\n\nBOOK REFERENCE: WHO CLTS Toolkit, Cairncross & Feachem’s Environmental Health Manual."
+  },
+  {
+    "question": "Pillars of primary health care includes;",
+    "options": {
+      "A": "Social justice, dental health and sustainability of measures",
+      "B": "Preventive health care, participation of inhabitants and intersectoral cooperation",
+      "C": "Technology that matches with the context, community participation, community support mechanism",
+      "D": "Preventive health care, participation of inhabitants and reduction of hunger"
+    },
+    "answer": "C",
+    "explanation": "Option C combines appropriate technology, community participation, and support mechanisms, which together ensure sustainability and local ownership—making it a strong choice aligned with WHO PHC goals.",
+    "additional": "Commonly Recognized PHC Pillars:\n- Community Participation\n- Intersectoral Collaboration\n- Appropriate Technology\n- Equity in Access\n- Prevention & Promotion Focus\n\nOption B is also strong, but C emphasizes sustainability and context-specific solutions. Know how phrasing impacts MCQ answers.\n\nKEY: Pillars support the PHC system. Elements are services. Values like social justice inspire pillars, but aren’t named pillars themselves.\n\nBOOK REFERENCE: WHO PHC Frameworks; Allender, Rector & Warner: Community Health Nursing."
+  },
+  {
+    "question": "The emphasis of community health nursing is;",
+    "options": {
+      "A": "Illness end of the wellness-illness continuum",
+      "B": "Identification and assessment of health problems",
+      "C": "Treatment of health problems",
+      "D": "Preventing health problems and promoting optimum health"
+    },
+    "answer": "D",
+    "explanation": "Community Health Nursing focuses on prevention and health promotion, targeting populations to reduce risks and maintain wellness before illness occurs.",
+    "additional": "CHN Core Philosophies:\n- Population-centered care\n- Primary prevention\n- Environmental health & social determinants\n- Health promotion over curative focus\n\nWellness-Illness Continuum: CHN aims to shift populations toward optimum wellness.\n\nKEY: CHN ≠ Hospital Nursing. Think upstream, proactive care.\n\nBOOK REFERENCE: Nies & McEwen: Community/Public Health Nursing."
+  },
+  {
+    "question": "The elements of primary health care added by the Kenyan government include;",
+    "options": {
+      "A": "Health education, mental health, HIV/AIDS",
+      "B": "Mental health, dental health and HIV/AIDS",
+      "C": "Expanded Programme on immunization, health education and MCH/FP",
+      "D": "Prevention and control of locally endemic diseases, dental health and mental health"
+    },
+    "answer": "B",
+    "explanation": "Kenya added Mental Health, Dental Health, and HIV/AIDS to the original PHC elements to better reflect the country’s disease burden and health priorities.",
+    "additional": "Original 8 Alma-Ata Elements:\n1. Education on health problems\n2. Local disease control\n3. Immunization (EPI)\n4. MCH/FP\n5. Nutrition\n6. Essential drugs\n7. Safe water/sanitation\n8. Treatment of common conditions\n\nKenya's Additions:\n- Mental Health\n- Dental Health\n- HIV/AIDS\n\nKEY: Kenya contextualized PHC to match evolving health needs.\n\nBOOK REFERENCE: Kenya Ministry of Health, KHSSP, Community Health Strategy docs."
+  },
+  {
+    "question": "One of the following is not an element of primary health care",
+    "options": {
+      "A": "Food and nutrition",
+      "B": "Maternal child health and family planning",
+      "C": "Immunization",
+      "D": "Tertiary prevention of illness"
+    },
+    "answer": "D",
+    "explanation": "Tertiary prevention (rehabilitation, disability limitation) is a level of prevention, not an element of PHC. PHC elements focus on primary and secondary prevention.",
+    "additional": "PHC = Early, Basic, Accessible Care\n- Tertiary = Specialized, Hospital-level, Often Late-stage\n\nExamples of PHC Elements:\n- Immunization\n- Nutrition\n- MCH/FP\n- Safe water/sanitation\n\nKEY: Understand prevention levels:\n- Primary: Prevent disease (e.g., vaccines)\n- Secondary: Early detection (e.g., screening)\n- Tertiary: Reduce disability (e.g., rehab)\n\nBOOK REFERENCE: Park’s PSM, Community Health Nursing texts."
+  },
+  {
+    "question": "Vital and demographic statistics that calculates the number of live births during a given year divided by population estimated at mid-year times 1000 is;",
+    "options": {
+      "A": "General fertility rate",
+      "B": "Age specific birth rate",
+      "C": "Crude birth rate",
+      "D": "General infant mortality rate"
+    },
+    "answer": "C",
+    "explanation": "The Crude Birth Rate is calculated as (Live Births in Year / Mid-Year Population) x 1000. It's 'crude' because it includes all people, regardless of reproductive ability.",
+    "additional": "Vital Rate Formulas:\n- Crude Birth Rate (CBR) = Births ÷ Total Population × 1000\n- General Fertility Rate (GFR) = Births ÷ Women 15-49 × 1000\n- Age-Specific Birth Rate = Births in Age Group ÷ Women in that Age × 1000\n\nKEY: Crude = Total Population; Specific = Group at Risk\n\nBOOK REFERENCE: Park's PSM, Basic Epidemiology guides"
   }
 ]
+
 
 
 
