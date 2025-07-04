@@ -607,8 +607,11 @@
   }
 </script>
 <script>
-  const toggleBtn = document.getElementById('toggleNotice');
   const noticeList = document.getElementById('notices');
+  const toggleBtn = document.getElementById('toggleNotice');
+  const toast = document.getElementById("toast");
+  const badge = document.getElementById('newBadge');
+  const notifySound = document.getElementById('notifySound');
 
   toggleBtn.addEventListener('click', () => {
     noticeList.classList.toggle('show');
@@ -616,16 +619,24 @@
     if (noticeList.classList.contains('show')) {
       noticeList.style.maxHeight = "1000px";
       noticeList.style.display = "block";
-      document.getElementById('newBadge').style.display = "none"; // hide badge
+      badge.style.display = "none";
+      // When user reads, mark as seen
+      const allIDs = Array.from(noticeList.querySelectorAll('li')).map(li => li.dataset.id);
+      localStorage.setItem('seenNotices', JSON.stringify(allIDs));
     } else {
       noticeList.style.maxHeight = "0";
       setTimeout(() => { noticeList.style.display = "none"; }, 400);
     }
   });
 
-  function showToast(message) {
-    const toast = document.getElementById("toast");
-    toast.textContent = message;
+  function playSound() {
+    notifySound.play().catch(() => {
+      document.body.addEventListener('click', () => notifySound.play(), { once: true });
+    });
+  }
+
+  function showToast(msg) {
+    toast.textContent = msg;
     toast.style.visibility = "visible";
     toast.className = "show";
     setTimeout(() => {
@@ -634,38 +645,44 @@
     }, 3000);
   }
 
-  function playNotificationSound() {
-    const sound = document.getElementById('notifySound');
-    sound.play().catch(() => {
-      document.body.addEventListener('click', () => sound.play(), { once: true });
-    });
+  function fetchNotices() {
+    fetch('notices.json')
+      .then(res => res.json())
+      .then(data => {
+        const seen = JSON.parse(localStorage.getItem('seenNotices') || '[]');
+        const newOnes = [];
+
+        noticeList.innerHTML = "";
+        data.forEach(item => {
+          const li = document.createElement('li');
+          li.innerHTML = `<strong>${item.date}:</strong> ${item.message}`;
+          li.dataset.id = item.id;
+          noticeList.appendChild(li);
+
+          if (!seen.includes(item.id)) {
+            newOnes.push(item.id);
+          }
+        });
+
+        if (newOnes.length > 0) {
+          badge.style.display = 'inline';
+          playSound();
+          showToast("📢 New notice available!");
+        }
+
+        if (noticeList.classList.contains('show')) {
+          localStorage.setItem('seenNotices', JSON.stringify(data.map(n => n.id)));
+          badge.style.display = "none";
+        }
+      })
+      .catch(err => {
+        console.error("Notice loading error:", err);
+        noticeList.innerHTML = "<li>Failed to load notices.</li>";
+      });
   }
 
-  fetch('notices.json')
-    .then(res => res.json())
-    .then(data => {
-      const list = document.getElementById('notices');
-      const seenNotices = JSON.parse(localStorage.getItem('seenNotices') || '[]');
-      const newNotices = [];
-
-      data.forEach(item => {
-        const li = document.createElement('li');
-        li.innerHTML = `<strong>${item.date}:</strong> ${item.message}`;
-        list.appendChild(li);
-        if (!seenNotices.includes(item.id)) newNotices.push(item.id);
-      });
-
-      if (newNotices.length > 0) {
-        document.getElementById('newBadge').style.display = 'inline';
-        playNotificationSound();
-        showToast("📢 New notice available!");
-        localStorage.setItem('seenNotices', JSON.stringify([...seenNotices, ...newNotices]));
-      }
-    })
-    .catch(err => {
-      console.error("Notice load error:", err);
-      document.getElementById('notices').innerHTML = "<li>Failed to load notices.</li>";
-    });
+  fetchNotices();
+  setInterval(fetchNotices, 10000); // repeat every 10 sec
 </script>
 
   
