@@ -681,6 +681,13 @@
   setInterval(fetchNotices, 10000); // repeat every 10 sec
 </script>
 
+<!-- 🔊 Unlock sound on first user click -->
+<script>
+  window.addEventListener('click', () => {
+    const sound = new Audio("notify.mp3");
+    sound.play().catch(() => {});
+  }, { once: true });
+</script>
   
 </body>
 </html>
