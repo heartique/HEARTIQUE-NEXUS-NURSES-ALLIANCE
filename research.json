@@ -572,6 +572,18 @@
     "answer": "d",
     "explanation": "Outcomes research evaluates the quality and effectiveness of healthcare services. It focuses on real-world impacts like patient outcomes, satisfaction, and functional recovery.",
     "additional": "Donabedian’s model: Structure, Process, Outcomes — helps measure quality of care.\n\nReference: Nursing Research and Healthcare Quality Textbooks"
+  },
+ {
+   "question": "166. The Hawthorne effect is as a result of:-",
+    "options": {
+      "a": "A researcher lacking expertise to analyze data.",
+      "b": "Study subjects being aware they are participating in",
+      "c": "Study tools being disclosed to non study subjects.",
+      "d": "Respondents not completing the interview"
+    },
+    "answer": "b",
+    "explanation": "The Hawthorne effect is a type of reactivity in which research subjects modify their behavior or performance simply because they are aware of being observed or studied, not because of any specific intervention.\n\nOption (b) perfectly defines this phenomenon. The attention from the researchers becomes a confounding variable that can affect the study's outcomes.\n\nOption (a) refers to researcher incompetence, which is a threat to a study's validity but is not the Hawthorne effect.\n\nOption (c) refers to a breach of confidentiality or protocol, which can contaminate the study.\n\nOption (d) refers to subject attrition or mortality, which is another threat to a study's validity, but is distinct from the Hawthorne effect.",
+    "additional": "Origin: The effect is named after a series of studies conducted at the Hawthorne Works factory in the 1920s and 30s. Researchers were studying the effect of lighting on worker productivity. They found that productivity improved not only when lighting was increased but also when it was decreased. They concluded that the workers were responding to the increased attention from the researchers, not the changes in lighting.\n\nControlling for the Hawthorne Effect:\n- In clinical trials, a control group is used. Both the intervention group and the control group receive attention, helping to balance out the effect.\n- Blinding: If subjects don't know whether they are in the control or intervention group (single-blind), or if both subjects and researchers don't know (double-blind), this can reduce bias.\n- Unobtrusive data collection (e.g., reviewing records instead of direct observation)."
   }
 ]
 
