@@ -274,6 +274,30 @@
     "answer": "C",
     "explanation": "Background: Polycythemia is a condition characterized by an increased number of red blood cells (RBCs), resulting in thick blood (increased viscosity). It is important to distinguish between primary and secondary types.\n\n(C) Why it's correct: Secondary polycythemia is when the excess RBC production is caused by a factor outside of the bone marrow. The most common cause is hypoxia. In response to chronic low oxygen levels, the kidneys produce more erythropoietin (EPO), which then stimulates the bone marrow to make more RBCs as a compensatory mechanism. This is seen in people living at high altitudes or those with chronic lung disease (like COPD). It can also be caused by an EPO-secreting tumor. The key is that the increased RBCs are a response to high EPO levels.\n\n(A) Why it's incorrect: Primary polycythemia (also known as polycythemia vera) is a chronic myeloproliferative disorder (a type of blood cancer). The bone marrow itself is abnormal and produces too many RBCs, WBCs, and platelets, independent of EPO levels. In primary polycythemia, EPO levels are typically low or normal due to negative feedback from the high RBC count.\n\n(B) Why it's incorrect: Leukopenia is a decrease in the number of white blood cells.\n\n(D) Why it's incorrect: Agranulocytosis is a severe form of leukopenia, specifically a critical drop in neutrophils, greatly increasing the risk of infection.",
     "additional": "Textbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 30 (Hematologic Problems). See the section on \"Polycythemia.\""
+  },
+  {
+    "question": "To prevent lipodystrophy, a client on insulin is advised to;",
+    "options": {
+      "a": "Cleanse the skin with alcohol",
+      "b": "Aspirate the blood prior to injecting insulin",
+      "c": "Rotate the sites of injection",
+      "d": "Administer the insulin at a 35 degree angle"
+    },
+    "answer": "c",
+    "explanation": "Correct (c): Lipodystrophy is a change in the subcutaneous fat at the site of repeated insulin injections. It can present as either lipohypertrophy (a buildup of fat, creating a lump) or lipoatrophy (a loss of fat, creating a dimple). Both conditions can interfere with the absorption of insulin, leading to erratic blood glucose control. The single most important technique to prevent this is to systematically rotate injection sites within an anatomical area (e.g., the abdomen) and then rotate to a different anatomical area (e.g., the thigh).\n\nIncorrect (a): Cleansing the skin is important for preventing infection but does not prevent lipodystrophy.\n\nIncorrect (b): Aspirating for blood is no longer recommended for subcutaneous injections like insulin, as there are no large blood vessels in the subcutaneous tissue.\n\nIncorrect (d): The angle of injection (45 to 90 degrees) depends on the patient's amount of subcutaneous fat and the length of the needle, but it is not the primary method for preventing lipodystrophy.",
+    "additional": "Deeper Insight: When rotating sites, clients should be taught to use one anatomical area (like the abdomen) for a week, spacing injections about one inch (2.5 cm) apart, before moving to a new area (like the back of the arms). The abdomen is the preferred site because it has the most consistent and rapid absorption rate. A common error is for patients to repeatedly use the same \"favorite\" spot because it becomes less painful, which is precisely what leads to lipohypertrophy.\n\nPossible Next Question (NCK Focus): \"A client with type 1 diabetes who uses the same spot on their thigh for insulin injections complains that their blood sugar has been unpredictably high. The nurse inspects the site and finds a raised, firm area. What is the nurse's best instruction?\" The answer would be \"You need to avoid injecting into this area and rotate your sites to allow the tissue to heal.\""
+  },
+  {
+    "question": "A diet that would be appropriate for a patient with Addison disease is;",
+    "options": {
+      "a": "High sodium",
+      "b": "Low carbohydrate",
+      "c": "High potassium",
+      "d": "Low protein"
+    },
+    "answer": "a",
+    "explanation": "Correct (a): Addison's disease is primary adrenal insufficiency, meaning the adrenal glands do not produce enough cortisol and, crucially, aldosterone. Aldosterone's main function is to tell the kidneys to retain sodium (and water) and excrete potassium. In its absence, the body loses large amounts of sodium and retains potassium. Therefore, the appropriate diet for a patient with Addison's disease is high in sodium to compensate for the urinary losses.\n\nIncorrect (b, d): Carbohydrate and protein levels are generally not the primary dietary modification, though a diet with adequate glucose is important to prevent hypoglycemia, which can occur due to cortisol deficiency.\n\nIncorrect (c): A diet high in potassium is contraindicated and dangerous. These patients already have a tendency towards hyperkalemia due to the lack of aldosterone, so they should be taught to avoid high-potassium foods.",
+    "additional": "Deeper Insight: The treatment for Addison's disease involves lifelong hormone replacement therapy with glucocorticoids (e.g., hydrocortisone, to replace cortisol) and mineralocorticoids (e.g., fludrocortisone, to replace aldosterone). During times of illness, stress, or surgery (an \"Addisonian crisis\"), the body's need for corticosteroids increases dramatically, and the patient will require higher doses of their medication.\n\nPossible Next Question (NCK Focus): \"A client with Addison's disease is being discharged. What is the most important information to include in the teaching plan?\" The answer would be the importance of never abruptly stopping steroid medication and the need for an emergency steroid injection kit. Another potential question: \"A patient with Addison's disease presents with severe hypotension, vomiting, and confusion. The nurse recognizes these as signs of what life-threatening condition?\" The answer is Addisonian crisis."
   }
 ]
 
