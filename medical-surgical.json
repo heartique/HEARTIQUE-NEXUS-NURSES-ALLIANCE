@@ -1108,6 +1108,42 @@
     },
     "answer": "B",
     "explanation": "A specific gravity of 1.040 indicates concentrated urine, often due to dehydration. Encouraging a liquid diet is a non-invasive first-line approach to rehydrate the patient."
+  },
+  {
+    "question": "After surgery, the nurse notes a client is unable to achieve pain relief from the analgesics prescribed. A review of the client's medical records reveals a history of alcohol abuse. What inferences can the nurse make?",
+    "options": {
+      "A": "The client has an unreported addiction to the pain medication being prescribed.",
+      "B": "The client has a history of using this medication at home.",
+      "C": "The client is likely cross-tolerant to the prescribed analgesic.",
+      "D": "The client has a dual diagnosis relating to alcohol and drug addiction."
+    },
+    "answer": "C",
+    "explanation": "Cross-tolerance occurs when chronic use of a substance like alcohol (a CNS depressant) leads to a reduced response to other CNS depressants like opioids. The client's nervous system may have adapted to regular alcohol exposure, making it less responsive to standard opioid doses. This physiological explanation is the most likely cause of poor pain control in this scenario.",
+    "additional": "Implications for Care:\n- Validate the client's pain and advocate for appropriate pain management.\n- Higher or alternative analgesic regimens may be needed.\n- Monitor for alcohol withdrawal symptoms: tremors, anxiety, tachycardia, hypertension, diaphoresis (especially within 6–12 hours post-op).\n\nReference: Lewis's Medical-Surgical Nursing, Chapter 9: Substance Use Disorders."
+  },
+  {
+    "question": "A client is being treated for alcohol dependency. During the treatment, the client reports having been treated and undergone detoxification three times in the past. The client states that this time has been more difficult than the previous detoxification experiences. What information can be provided to the client?",
+    "options": {
+      "A": "Aging can impact the ability of the body to handle detoxification from alcohol and drugs.",
+      "B": "Increased difficulty with alcohol detoxification is likely the result of an addiction to another substance at the same time.",
+      "C": "The dependency might have been greater this time.",
+      "D": "With each subsequent episode, detoxification becomes more difficult."
+    },
+    "answer": "D",
+    "explanation": "The phenomenon known as the 'kindling effect' explains why each episode of alcohol withdrawal can become progressively more severe. Repeated withdrawals sensitize the central nervous system, increasing the risk for more intense symptoms including seizures and delirium tremens (DTs). Educating the client about this effect can validate their experience and promote understanding of why supervised detox is essential.",
+    "additional": "Kindling Effect:\n- Heightens the severity of withdrawal symptoms with each relapse.\n- Emphasizes the importance of consistent, long-term recovery and professional medical management.\n\nReference: Specialty psychiatric or addiction nursing textbook."
+  },
+  {
+    "question": "The client with a history of alcohol abuse is being discharged. The physician has prescribed disulfiram (Antabuse). The client asks about the action of the medication. Which of the following statements by the nurse is most correct?",
+    "options": {
+      "A": "The medication will help curb your craving for alcohol.",
+      "B": "The medication will reduce the anxiety you might experience during this difficult time.",
+      "C": "The medication will prevent seizures and other symptoms of withdrawal.",
+      "D": "The medication will prevent your body from breaking down alcohol."
+    },
+    "answer": "D",
+    "explanation": "Disulfiram inhibits the enzyme aldehyde dehydrogenase, preventing the breakdown of alcohol. If the client consumes alcohol while on disulfiram, acetaldehyde accumulates in the body, leading to a toxic reaction. This creates an aversive physical experience that discourages alcohol use.",
+    "additional": "Disulfiram Reaction Symptoms:\n- Flushing, nausea, vomiting, throbbing headache, sweating, hypotension.\n\nPatient Teaching:\n- Avoid alcohol-containing products (e.g., mouthwash, cooking wine, cough syrup).\n- Reactions can occur up to 2 weeks after the last dose.\n- Disulfiram does not reduce cravings or treat withdrawal symptoms.\n\nReference: Davis's Drug Guide for Nurses (for Disulfiram)."
   }
 ]
 
