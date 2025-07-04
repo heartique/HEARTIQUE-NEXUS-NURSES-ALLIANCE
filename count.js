@@ -68,17 +68,18 @@ document.addEventListener("DOMContentLoaded", () => {
     const files = raw.split(",").map(f => f.trim()).filter(f => f);
     if (files.length === 0) return;
 
-   Promise.all(files.map(file =>
-  fetch(file)
-    .then(res => res.json())
-    .catch(() => [])
-))
-
+    Promise.all(files.map(file =>
+      fetch(file)
+        .then(res => res.json())
+        .catch((err) => {
+          console.warn(`Failed to load ${file}`, err);
+          return [];
+        })
     ))
     .then(results => {
       const count = results.reduce((sum, arr) =>
         sum + (Array.isArray(arr) ? arr.length : 0), 0);
-      
+
       // Append count
       tab.textContent += ` (${count} Questions)`;
 
@@ -138,6 +139,11 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       }
 
+      // ✅ Force all units to show as NEW if flagged
+      if (localStorage.getItem("forceAllUnread") === "yes") {
+        localStorage.removeItem(`qcount_${raw}`);
+      }
+
       // 🔴 NEW DETECTION
       const stored = parseInt(localStorage.getItem(`qcount_${raw}`)) || 0;
       const diff = count - stored;
@@ -182,24 +188,30 @@ document.addEventListener("DOMContentLoaded", () => {
       globalBadge.textContent = `🔔 ${totalNew} new question(s)`;
     }
   }, 1200);
+
+  // ✅ Clear flag after reload
+  localStorage.removeItem("forceAllUnread");
 });
 
-  // Reset button logic with confirmation and sound
-  const resetBtn = document.getElementById("reset-btn");
-  if (resetBtn) {
-    resetBtn.addEventListener("click", () => {
-      const confirmReset = confirm("⚠️ This will mark all units as unread and reset your quiz progress.\n\nDo you want to continue?");
-      if (!confirmReset) return;
+// ✅ Reset button logic with confirmation and sound
+const resetBtn = document.getElementById("reset-btn");
+if (resetBtn) {
+  resetBtn.addEventListener("click", () => {
+    const confirmReset = confirm("⚠️ This will mark all units as unread and reset your quiz progress.\n\nDo you want to continue?");
+    if (!confirmReset) return;
 
-      const sound = new Audio("notify.mp3");
-      sound.play().catch(() => {}); // In case autoplay is blocked
+    const sound = new Audio("notify.mp3");
+    sound.play().catch(() => {}); // In case autoplay is blocked
 
-      Object.keys(localStorage).forEach(key => {
-        if (key.startsWith("qcount_")) {
-          localStorage.removeItem(key);
-        }
-      });
-
-      setTimeout(() => location.reload(), 500); // Let sound play before reload
+    Object.keys(localStorage).forEach(key => {
+      if (key.startsWith("qcount_")) {
+        localStorage.removeItem(key);
+      }
     });
-  }
+
+    setTimeout(() => {
+      localStorage.setItem("forceAllUnread", "yes");
+      location.reload();
+    }, 500);
+  });
+}
