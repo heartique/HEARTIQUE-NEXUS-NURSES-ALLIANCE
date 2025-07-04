@@ -214,8 +214,808 @@
     "answer": "B",
     "explanation": "Most children develop enough muscle strength and coordination to sit without support between 6 and 9 months.",
     "additional": "MILESTONE PROGRESSION:\n- 4–6 months: Sits with support\n- 6–9 months: Sits without support\n- 9 months+: Crawls, pulls to stand\n\nKEY: Sitting unsupported ≈ 6–9 months\nBOOK: Wong’s Nursing Care of Infants and Children"
+  },
+  {
+  "question": "Which of the following should be included when developing a teaching plan to prevent urinary tract infection? Select all that apply.",
+  "options": {
+    "A": "Maintaining adequate fluid intake",
+    "B": "Avoiding urination before and after intercourse",
+    "C": "Emptying bladder with urination",
+    "D": "Wearing underwear made of synthetic material such as nylon",
+    "E": "Keeping urine alkaline by avoiding acidic beverages",
+    "F": "Avoiding bubble baths and tight clothing (Note: This option was present in the first image but cut off in the second. It's a valid point to include in the analysis.)"
+  },
+  "answer": "A, C, F",
+  "explanation": "The goal of UTI prevention is to reduce bacterial entry and colonization of the urinary tract.\n\n(A) Correct: Adequate fluid intake promotes frequent urination, which helps to flush bacteria out of the bladder and urethra before they can multiply.\n\n(B) Incorrect: Urinating before and especially after intercourse is crucial. It helps to flush out any bacteria that may have been introduced into the urethra during sexual activity. Therefore, avoiding urination is incorrect advice.\n\n(C) Correct: Emptying the bladder completely and frequently (every 2-4 hours) prevents urinary stasis. Stagnant urine is an ideal medium for bacterial growth.\n\n(D) Incorrect: Synthetic materials like nylon trap moisture and heat, creating a warm, damp environment that encourages bacterial growth. Cotton underwear is recommended because it is breathable.\n\n(E) Incorrect: The goal is to keep urine acidic, not alkaline. An acidic environment is less hospitable to the growth of most bacteria, particularly E. coli. Cranberry juice (which is acidic) is often recommended to help acidify the urine.\n\n(F) Correct: Bubble baths, harsh soaps, and feminine hygiene sprays can irritate the urethra, making it more susceptible to infection. Tight clothing can trap moisture.",
+  "additional": "Wiping Technique: Always teach female clients to wipe from front to back to prevent transferring fecal bacteria (E. coli is the most common cause of UTIs) to the urethra.\n\nUTI Types & Symptoms:\n\nCystitis (Bladder Infection): Frequency, urgency, dysuria (painful urination), suprapubic pain, cloudy or foul-smelling urine. Fever is less common.\n\nPyelonephritis (Kidney Infection): More severe. Includes cystitis symptoms plus high fever, chills, flank pain, and costovertebral angle (CVA) tenderness. This is a serious condition that can lead to sepsis.\n\nDiagnosis: A urinalysis will show nitrites, leukocyte esterase, and bacteria. A urine culture and sensitivity test identifies the specific organism and the most effective antibiotic.\n\nRecommended Text: Wong's Nursing Care of Infants and Children and Saunders Comprehensive Review for the NCLEX-RN® Examination."
+},
+{
+  "question": "When developing a plan of care for a hospitalized child, nurse Mary knows that children in which age group are most likely to view illness as a punishment for misdeeds?",
+  "options": {
+    "A": "Infancy",
+    "B": "Preschool age",
+    "C": "School age",
+    "D": "Adolescence"
+  },
+  "answer": "B",
+  "explanation": "This question relates to both Piaget's cognitive stages and Kohlberg's moral development stages (provided in your reference material).\n\n(B) Correct: Preschoolers (ages 3-6) are in Piaget's Preoperational Stage of cognitive development. A key characteristic of this stage is magical thinking and egocentrism. They believe their thoughts or actions can cause events, and they struggle to see other perspectives. Therefore, they may believe they got sick because they were \"bad,\" hit their sibling, or had a negative thought. This also aligns with Kohlberg's Preconventional Morality, where actions are judged by their consequences (punishment).\n\n(A) Incorrect: Infants (birth to 1 year) do not have the cognitive ability to understand cause-and-effect in this way or to conceptualize punishment. Their primary fear is separation from caregivers.\n\n(C) Incorrect: School-age children (6-12) are in the Concrete Operational Stage. They begin to think more logically and can understand the germ theory of disease. Their primary fears are loss of control, bodily injury, and death.\n\n(D) Incorrect: Adolescents (12-18) are in the Formal Operational Stage. They can think abstractly and understand the complex pathophysiology of illness. Their primary fears revolve around loss of independence, privacy, and being different from their peers.",
+  "additional": "Hospitalization Stressors by Age:\n\nInfant: Separation anxiety, stranger anxiety.\n\nToddler: Separation anxiety, loss of control, fear of pain/injury.\n\nPreschooler: Fear of mutilation/bodily harm, punishment, loss of initiative. Use simple explanations and bandages to show them their body is \"intact.\"\n\nSchool-Age: Fear of death, disability, loss of control/independence. Give them choices and involve them in their care.\n\nAdolescent: Fear of altered body image, loss of privacy, separation from peer group. Respect their privacy and encourage peer visitation.\n\nRecommended Text: Wong's Nursing Care of Infants and Children; Review Piaget's and Kohlberg's theories."
+},
+{
+  "question": "Which of the following would Nurse Tony suppose to regard as a cardinal manifestation or symptom of digoxin toxicity to his patient Clay diagnosed with heart failure?",
+  "options": {
+    "A": "Headache",
+    "B": "Respiratory distress",
+    "C": "Extreme bradycardia",
+    "D": "Constipation"
+  },
+  "answer": "C",
+  "explanation": "Digoxin is a cardiac glycoside that increases cardiac contractility (positive inotrope) and slows the heart rate (negative chronotrope). Toxicity occurs when the drug level is too high.\n\n(C) Correct: The most significant and earliest sign of digoxin toxicity in infants and young children is a slow heart rate (bradycardia). A nurse must always check the apical pulse for a full minute before administering digoxin. The dose is typically held if the heart rate is below 90-110 bpm for an infant or below 70 bpm for an older child.\n\n(A) Incorrect: While headache can be a symptom, it is nonspecific and not considered a cardinal sign.\n\n(B) Incorrect: Respiratory distress is a symptom of worsening heart failure, which digoxin is meant to treat. It is not a direct sign of toxicity.\n\n(D) Incorrect: Gastrointestinal upset, specifically vomiting, nausea, and anorexia, are common signs of toxicity. Constipation is not.",
+  "additional": "Digoxin Administration Safety:\n\nCheck apical pulse for 1 full minute. Know the hold parameters for different age groups.\n\nMonitor for other signs of toxicity: GI upset (vomiting is a key sign), visual disturbances (yellow/green halos - less common in children).\n\nMonitor serum potassium levels. Hypokalemia (low potassium) potentiates (increases) the effect of digoxin, increasing the risk of toxicity.\n\nAdminister at regular intervals. Do not repeat a dose if the child vomits.\n\nThe antidote for severe toxicity is Digoxin Immune Fab (Digibind).\n\nRecommended Text: Lehne's Pharmacology for Nursing Care."
+},
+{
+  "question": "A physician prescribes an IV solution of 500 ml 0.45% Saline with an incorporation of 20mEq potassium chloride for a child with dehydration. The nurse should check which of the following before administering this IV prescription?",
+  "options": {
+    "A": "Blood pressure",
+    "B": "Height",
+    "C": "Weight",
+    "D": "Urine output"
+  },
+  "answer": "D",
+  "explanation": "This is a critical safety question. Potassium is excreted primarily by the kidneys.\n\n(D) Correct: If a patient has inadequate kidney function (oliguria or anuria), they cannot excrete potassium. Administering IV potassium to a patient who is not producing urine can lead to life-threatening hyperkalemia, which can cause fatal cardiac dysrhythmias. The golden rule is \"No pee, no K!\" The nurse must confirm adequate urine output before hanging any IV fluid containing potassium.\n\n(A, B, C) Incorrect: While blood pressure, height, and weight are all important parts of the overall assessment for a dehydrated child, they do not determine the safety of administering potassium. Urine output is the direct indicator of the renal function needed to excrete the potassium load safely.",
+  "additional": "Potassium IV Safety:\n\nPotassium chloride (KCl) must NEVER be administered via IV push or bolus. It must be diluted in a larger volume of IV fluid and infused slowly over time. IV push KCl is lethal.\n\nAlways use an infusion pump for accuracy.\n\nMonitor the IV site closely, as potassium is irritating to veins and can cause phlebitis or infiltration.\n\nMonitor for signs of hyperkalemia: muscle weakness, cardiac changes on EKG (peaked T waves, wide QRS), and bradycardia.\n\nRecommended Text: Saunders Comprehensive Review for the NCLEX-RN® Examination, \"Fluid and Electrolytes\" chapter."
+},
+{
+  "question": "Molly, with suspected rheumatic fever, is admitted to the pediatric unit. When obtaining the child's history, the nurse considers which information to be most important?",
+  "options": {
+    "A": "A fever that started 3 days ago",
+    "B": "Lack of interest in food",
+    "C": "A recent episode of pharyngitis",
+    "D": "Vomiting for 2 days"
+  },
+  "answer": "C",
+  "explanation": "Rheumatic fever is an inflammatory disease that develops as a delayed sequela to an untreated or inadequately treated Group A streptococcal (GAS) infection, such as strep throat (pharyngitis) or scarlet fever.\n\n(C) Correct: Identifying a recent sore throat (pharyngitis), especially if it was not treated with antibiotics, is the most crucial piece of historical data. This provides the direct link to the likely causative event for rheumatic fever.\n\n(A, B, D) Incorrect: Fever, anorexia, and vomiting are nonspecific symptoms that can be associated with many childhood illnesses. While they are part of the clinical picture of acute rheumatic fever, they are not as diagnostically significant as the preceding strep infection.",
+  "additional": "Jones Criteria for Rheumatic Fever: Diagnosis is made based on the presence of two major criteria or one major and two minor criteria, plus evidence of a preceding GAS infection.\n\nMajor Criteria (JONES): Joints (polyarthritis), O (carditis - looks like a heart), Nodules (subcutaneous), Erythema marginatum (rash), Sydenham chorea (involuntary movements).\n\nMinor Criteria: Fever, arthralgia, elevated ESR/CRP, prolonged PR interval on EKG.\n\nTreatment: Antibiotics (usually penicillin) to eradicate any remaining strep bacteria, and anti-inflammatory agents (aspirin, corticosteroids) to manage the inflammation, especially carditis.\n\nLong-term Care: The biggest concern is rheumatic heart disease, which causes permanent damage to the heart valves. Prophylactic antibiotics may be required for years (or life) to prevent recurrence.\n\nRecommended Text: Wong's Nursing Care of Infants and Children."
+},
+ {
+  "question": "Dustin who was diagnosed with Hirschsprung's disease has a fever and watery explosive diarrhea. Which of the following would Nurse Joyce do first?",
+  "options": {
+    "A": "Administer an antidiarrheal.",
+    "B": "Notify the physician immediately.",
+    "C": "Monitor the child every 30 minutes.",
+    "D": "Nothing. (These findings are common in Hirschsprung's disease.)"
+  },
+  "answer": "B",
+  "explanation": "Hirschsprung's disease is a congenital anomaly where there is an absence of ganglion cells in a segment of the colon, leading to a lack of peristalsis and severe constipation. The key signs in a newborn are failure to pass meconium and abdominal distention.\n\n(B) Correct: The combination of fever, foul-smelling ribbon-like or explosive watery diarrhea, and abdominal distention in a child with Hirschsprung's disease are hallmark signs of enterocolitis, a life-threatening complication. This condition can lead to sepsis and bowel perforation. It requires immediate medical intervention (IV fluids, antibiotics, colonic irrigation). Therefore, notifying the physician is the priority action.\n\n(A) Incorrect: Administering an antidiarrheal is contraindicated as it would worsen the obstruction and the toxic megacolon.\n\n(C) Incorrect: While monitoring is important, it is not the first action. The priority is to report the critical findings to the provider to initiate treatment.\n\n(D) Incorrect: These findings are a sign of a serious complication, not a common or expected part of the disease.",
+  "additional": "Assessment of Hirschsprung's:\n\nNewborn: Failure to pass meconium within 24-48 hours, bilious vomiting, abdominal distention.\n\nInfant/Child: Chronic constipation, ribbon-like, foul-smelling stools, palpable fecal mass, poor weight gain.\n\nDiagnosis: Rectal biopsy is the definitive diagnostic test, showing the absence of ganglion cells.\n\nTreatment: Surgical removal of the aganglionic section of the bowel (pull-through procedure), often requiring a temporary colostomy.\n\nRecommended Text: Wong's Nursing Care of Infants and Children."
+},
+{
+  "question": "Nurse Emma is planning a client education program for sickle cell disease (SCD); What topic should be included in the plan of care?",
+  "options": {
+    "A": "Aerobic exercise to improve oxygenation",
+    "B": "Fluid restraint to 1 qt (1 L)/day",
+    "C": "A high-iron, high-protein diet",
+    "D": "Proper hand washing and infection avoidance"
+  },
+  "answer": "D",
+  "explanation": "The primary goal in managing sickle cell disease is to prevent vaso-occlusive crises (VOCs), where sickled cells clump together and block blood flow, causing severe pain and tissue ischemia.\n\n(D) Correct: Infection is a major trigger for sickling and VOCs. Fever and infection increase the body's metabolic demands and can lead to dehydration, both of which promote sickling. Therefore, meticulous hand hygiene and avoiding people who are sick are critical preventative measures. All routine immunizations are essential.\n\n(A) Incorrect: While mild exercise is okay, strenuous or excessive aerobic exercise can lead to hypoxia and dehydration, which can trigger a crisis.\n\n(B) Incorrect: Hydration is a cornerstone of management. Dehydration makes the blood more viscous and promotes sickling. Clients should be taught to drink plenty of fluids, not restrict them.\n\n(C) Incorrect: Sickle cell anemia is not caused by an iron deficiency. It is a hemolytic anemia. Unless there is a co-existing iron deficiency, supplemental iron is not indicated and can even be harmful, leading to iron overload (hemosiderosis) due to frequent blood transfusions.",
+  "additional": "Triggers for Vaso-Occlusive Crisis (VOC): Remember SHIELD - Stress, Hypoxia, Infection/Illness, Exertion (strenuous), Low temperatures (cold), Dehydration.\n\nManagement of VOC (HOP to it!): Hydration (IV fluids), Oxygenation (if hypoxic), Pain management (often with strong opioids like morphine).\n\nOther treatments: Folic acid supplementation (to help make new RBCs), Hydroxyurea (increases fetal hemoglobin, which doesn't sickle), blood transfusions.\n\nRecommended Text: Saunders Comprehensive Review for the NCLEX-RN® Examination."
+},
+{
+  "question": "A 6-year-old child is scheduled to have a measles, mumps, and rubella (MMR) vaccine. Which of the following routes will you expect the nurse to administer the vaccine?",
+  "options": {
+    "A": "Intramuscularly in the vastus lateralis muscle.",
+    "B": "Intramuscularly in the deltoid muscle.",
+    "C": "Subcutaneously in the gluteal area.",
+    "D": "Subcutaneously in the outer aspect of the upper arm."
+  },
+  "answer": "D",
+  "explanation": "Knowing the correct route and site for vaccine administration is a fundamental nursing skill tested for safety.\n\n(D) Correct: The MMR vaccine is a live attenuated vaccine and is administered via the subcutaneous (Sub-Q) route. For a 6-year-old child, the recommended site is the fatty tissue over the triceps on the outer aspect of the upper arm.\n\n(A) Incorrect: The vastus lateralis is a common intramuscular (IM) site for infants and toddlers. While this is an IM site, the MMR vaccine is Sub-Q.\n\n(B) Incorrect: The deltoid muscle is the preferred IM site for children and adults, but again, MMR is Sub-Q.\n\n(C) Incorrect: The gluteal area is generally avoided for injections in children due to the proximity of the sciatic nerve and inconsistent subcutaneous tissue depth.",
+  "additional": "Common Vaccine Routes:\n\nSubcutaneous (Sub-Q): MMR, Varicella (chickenpox), IPV (can be IM or Sub-Q).\n\nIntramuscular (IM): DTaP, Hib, Hepatitis A & B, HPV, PCV13, Influenza.\n\nLive Vaccines: MMR and Varicella are live vaccines.\n\nContraindications: Pregnancy, severe immunodeficiency (e.g., child with leukemia on chemotherapy).\n\nThey can be given on the same day. If not, they must be separated by at least 28 days.\n\nVaccine Schedule: The MMR vaccine is typically given at 12-15 months and again at 4-6 years.\n\nRecommended Text: CDC Pink Book (Epidemiology and Prevention of Vaccine-Preventable Diseases); Wong's Nursing Care of Infants and Children."
+},
+ {
+  "question": "When a child injures the epiphyseal plate from a fracture, the damage may result in which of the following?",
+  "options": {
+    "A": "Rheumatoid arthritis",
+    "B": "Permanent nerve damage",
+    "C": "Osteomyelitis",
+    "D": "Bone growth disruption"
+  },
+  "answer": "D",
+  "explanation": "The epiphyseal plate, also known as the growth plate, is an area of growing cartilage near the end of the long bones in children and adolescents.\n\n(D) Correct: The epiphyseal plate is the center for longitudinal bone growth. Damage or fracture to this area can disrupt the normal growth process, potentially leading to the bone ending up shorter than the uninjured bone or growing at an angle (limb length discrepancy or deformity). This is a unique and serious concern for pediatric fractures.\n\n(A) Incorrect: Rheumatoid arthritis is a systemic autoimmune disease and is not caused by a traumatic fracture.\n\n(B) Incorrect: While nerve damage can occur with any fracture if a nerve is compressed or severed (a complication called compartment syndrome), it is not the specific outcome related to the epiphyseal plate itself.\n\n(C) Incorrect: Osteomyelitis is a bone infection. It is a risk with open fractures (where the bone breaks the skin) but is not the primary consequence of injury to the growth plate.",
+  "additional": "Fracture Assessment (The 5 P's of Neurovascular Assessment): Pain (unrelieved by analgesia), Pallor, Pulselessness, Paresthesia (numbness/tingling), Paralysis. A change in any of these, especially pain out of proportion to the injury, can signal compartment syndrome, a medical emergency.\n\nCasting Care: Teach parents to check circulation (capillary refill, color, temperature), keep the cast dry, do not stick objects inside the cast (risk of skin breakdown and infection), and elevate the extremity to reduce swelling.\n\nSalter-Harris Classification: This system is used to classify fractures involving the epiphyseal plate, with higher grades indicating a greater risk of growth disturbance.\n\nRecommended Text: Wong's Nursing Care of Infants and Children."
+},
+{
+  "question": "Alice is rushed to the emergency department during an acute, severe prolonged asthma attack and is unresponsive to usual treatment. The condition is referred to as which of the following?",
+  "options": {
+    "A": "Status asthmaticus",
+    "B": "Reactive airway disease",
+    "C": "Intrinsic asthma",
+    "D": "Extrinsic asthma"
+  },
+  "answer": "A",
+  "explanation": "This question tests the ability to recognize a specific medical emergency.\n\n(A) Correct: Status asthmaticus is the medical term for a severe, life-threatening asthma exacerbation that does not respond to standard treatments, such as inhaled bronchodilators (e.g., albuterol). It is a medical emergency that requires aggressive intervention. A key ominous sign is the \"silent chest,\" where wheezing disappears because airflow is so minimal.\n\n(B) Incorrect: Reactive airway disease is a general, often preliminary, term used for young children who wheeze with illnesses but have not yet received a formal diagnosis of asthma.\n\n(C & D) Incorrect: Intrinsic (non-allergic) and extrinsic (allergic) asthma are categories used to describe the triggers of asthma, not a severe, unresponsive attack.",
+  "additional": "Asthma Pathophysiology: A combination of bronchoconstriction, airway inflammation, and increased mucus production.\n\nMedications:\n\nRescue Inhalers (Short-Acting Beta-Agonists - SABA): Albuterol. Used for acute attacks.\n\nController Medications (Long-term): Inhaled corticosteroids (e.g., fluticasone), Long-Acting Beta-Agonists (LABA) (e.g., salmeterol).\n\nPeak Flow Meter: Used to monitor lung function at home. Patients should know their personal best and use a zone system (Green, Yellow, Red) to guide their actions.\n\nSigns of Respiratory Distress: Tachypnea, use of accessory muscles, nasal flaring, retractions (suprasternal, intercostal, subcostal), grunting, cyanosis, and altered mental status.\n\nRecommended Text: Saunders Comprehensive Review for the NCLEX-RN® Examination, \"Respiratory System\" chapter."
+},
+{
+    "question": "A 5-year-old girl Hannah is recently diagnosed with Kawasaki disease. Apart from the identified symptoms of the disease, she may also likely develop which of the following?",
+    "options": {
+      "A": "Sepsis",
+      "B": "Meningitis",
+      "C": "Mitral valve disease",
+      "D": "Aneurysm formation"
+    },
+    "answer": "D",
+    "explanation": "Kawasaki disease is an acute systemic vasculitis (inflammation of blood vessels) of unknown cause. The most serious complication involves the cardiovascular system.\n\n(D) Correct: The inflammation from Kawasaki disease can weaken the walls of the coronary arteries, causing them to bulge and form coronary artery aneurysms. This is the most critical long-term complication and can lead to myocardial infarction (heart attack) or sudden death if left untreated.\n\n(A & B) Incorrect: While Kawasaki disease involves a high fever and systemic inflammation, sepsis and meningitis are not the primary or defining complications. Aseptic meningitis (inflammation without a bacterial cause) can occur, but aneurysm formation is the hallmark risk.\n\n(C) Incorrect: Rheumatic fever is known for causing mitral valve disease. Kawasaki disease's primary target is the coronary arteries, not typically the heart valves.",
+    "additional": "Classic Signs (CRASH and Burn): A helpful mnemonic for the acute phase symptoms:\nConjunctivitis (non-purulent)\nRash (polymorphous, non-blistering)\nAdenopathy (cervical, usually unilateral)\nStrawberry tongue and other oral mucosal changes (red, cracked lips)\nHands and feet (swelling/edema and redness)\nand Burn: High fever lasting 5 days or more that is unresponsive to antibiotics and antipyretics.\n\nTreatment: The primary treatment is a combination of Intravenous Immunoglobulin (IVIG) and high-dose Aspirin.\n\nIVIG: Reduces the inflammation in the blood vessels and significantly lowers the risk of coronary artery aneurysm.\nAspirin: Initially given in high doses for its anti-inflammatory effect, then switched to a low dose for its antiplatelet effect to prevent clot formation in any damaged arteries.\n\nRecommended Text: Wong's Nursing Care of Infants and Children."
+  },
+  {
+    "question": "Which of the following disorders leads to cyanosis from deoxygenated blood entering the systemic arterial circulation?",
+    "options": {
+      "A": "Aortic stenosis (AS)",
+      "B": "Coarctation of aorta",
+      "C": "Patent ductus arteriosus (PDA)",
+      "D": "Tetralogy of Fallot"
+    },
+    "answer": "D",
+    "explanation": "This question asks you to identify a cyanotic congenital heart defect (CHD). Cyanotic defects involve a right-to-left shunt, where deoxygenated (\"blue\") blood from the right side of the heart mixes with oxygenated (\"red\") blood on the left side and is pumped to the body.\n\n(D) Correct: Tetralogy of Fallot (TOF) is the most common cyanotic CHD. Its four defects (VSD, Pulmonic Stenosis, Overriding Aorta, Right Ventricular Hypertrophy) create a pathway for deoxygenated blood from the right ventricle to be shunted directly into the aorta and out to the body, causing cyanosis.\n\n(A, B, C) Incorrect: These are all acyanotic defects. They involve either an obstruction to blood flow (Aortic Stenosis, Coarctation) or a left-to-right shunt where oxygenated blood recirculates to the lungs (PDA). They do not cause deoxygenated blood to enter the systemic circulation.",
+    "additional": "Cyanotic Defects (The \"T\"s): A simple way to remember the main cyanotic defects is that they often start with the letter 'T'.\nTetralogy of Fallot (TOF)\nTruncus Arteriosus\nTransposition of the Great Arteries (TGA)\nTricuspid Atresia\n\n\"Tet Spells\" (Hypercyanotic Spells): A hallmark of TOF. These are episodes of acute cyanosis and hypoxia. The priority nursing intervention is to place the infant in the knee-chest position. This increases systemic vascular resistance, which in turn reduces the right-to-left shunt and forces more blood into the pulmonary artery to be oxygenated.\n\nRecommended Text: HESI Comprehensive Review for the NCLEX-RN Examination."
+  },
+  {
+    "question": "Betty is a 9-year-old girl diagnosed with cystic fibrosis. Which of the following must Nurse Archie keep in mind when developing a care plan for the child?",
+    "options": {
+      "A": "Pulmonary secretions are abnormally thick.",
+      "B": "Elevated levels of potassium are found in sweat.",
+      "C": "CF is an autosomal dominant hereditary disorder.",
+      "D": "Obstruction of the endocrine glands occurs."
+    },
+    "answer": "A",
+    "explanation": "Cystic Fibrosis (CF) is a genetic disorder that affects the transport of chloride across cell membranes, leading to the production of abnormally thick, sticky mucus by exocrine glands.\n\n(A) Correct: This thick mucus is the hallmark of the disease. It clogs the airways, leading to chronic infection, inflammation, and eventual respiratory failure. It also blocks pancreatic and biliary ducts.\n\n(B) Incorrect: The sweat test is the gold standard for diagnosis. It reveals elevated levels of sodium and chloride, not potassium.\n\n(C) Incorrect: CF is an autosomal recessive disorder. This means a child must inherit one defective gene from each parent to have the disease.\n\n(D) Incorrect: CF affects the exocrine glands (mucus-secreting glands), not the endocrine glands (hormone-secreting glands like the thyroid or adrenal glands). The pancreas has both exocrine and endocrine functions; CF primarily affects the exocrine function (digestive enzymes), but the endocrine function (insulin production) can be affected later in the disease, leading to CF-related diabetes.",
+    "additional": "Multisystem Effects of CF:\nRespiratory: Chronic cough, frequent infections, bronchiectasis.\nGastrointestinal: Pancreatic insufficiency leads to malabsorption of fats and proteins. This results in steatorrhea (fatty, foul-smelling stools) and failure to thrive.\nReproductive: Most males are infertile due to blockage of the vas deferens.\n\nManagement Priorities:\nAirway Clearance: Chest physiotherapy (CPT), postural drainage, high-frequency chest wall oscillation vests.\nNutrition: Pancreatic enzyme replacement therapy (PERT) taken with all meals and snacks, a high-calorie, high-protein, high-fat diet, and supplementation with fat-soluble vitamins (A, D, E, K).\n\nRecommended Text: Wong's Nursing Care of Infants and Children."
+  },
+  {
+    "question": "Mr. and Ms. Byers' child failed to pass meconium within the first 24 hours after birth; this may indicate which of the following?",
+    "options": {
+      "A": "Celiac disease",
+      "B": "Intussusception",
+      "C": "Hirschsprung's disease",
+      "D": "Abdominal-wall defect"
+    },
+    "answer": "C",
+    "explanation": "This question identifies a cardinal sign of a specific neonatal condition.\n\n(C) Correct: Hirschsprung's disease (congenital aganglionic megacolon) is characterized by the absence of ganglion nerve cells in a segment of the colon. Without these nerves, peristalsis cannot occur, and stool cannot be propelled forward. This mechanical obstruction leads to the failure to pass the first stool (meconium) within 24-48 hours of birth, along with abdominal distention and bilious vomiting.\n\n(A) Incorrect: Celiac disease is an immune reaction to gluten. Symptoms do not appear until gluten is introduced into the diet, typically after 6 months of age.\n\n(B) Incorrect: Intussusception (telescoping of the bowel) typically occurs in infants between 3 months and 3 years. The classic sign is \"currant jelly\" stools (stools mixed with blood and mucus).\n\n(D) Incorrect: Abdominal-wall defects like gastroschisis or omphalocele would be visually apparent at birth.",
+    "additional": "Definitive Diagnosis: Rectal biopsy is the definitive test to confirm the absence of ganglion cells.\n\nComplication: The most serious complication is enterocolitis, an inflammation of the bowel that can lead to sepsis and death. Signs include fever, explosive watery diarrhea, and worsening abdominal distention. This is a medical emergency.\n\nTreatment: Surgical removal of the aganglionic segment of the bowel.\n\nRecommended Text: Maternal & Child Health Nursing: Care of the Childbearing & Childrearing Family."
+  },
+  {
+    "question": "When educating parents regarding known antecedent infections in acute glomerulonephritis, which of the following should the nurse cover?",
+    "options": {
+      "A": "Scabies",
+      "B": "Impetigo",
+      "C": "Herpes simplex",
+      "D": "Varicella"
+    },
+    "answer": "B",
+    "explanation": "Acute Poststreptococcal Glomerulonephritis (APSGN) is an immune-complex disease that develops after an infection with certain strains of Group A beta-hemolytic streptococcus (GABHS).\n\n(B) Correct: The antecedent GABHS infection can manifest in two main ways: as pharyngitis (strep throat) or as a skin infection, most commonly impetigo. The nurse must educate the parents that either a recent sore throat OR a skin infection could be the preceding event.\n\n(A, C, D) Incorrect: Scabies (a mite infestation), Herpes simplex (a virus), and Varicella (chickenpox, a virus) are not associated with the development of post-streptococcal glomerulonephritis.",
+    "additional": "Key Clinical Manifestations of APSGN: Remember HAD STREP.\nHypertension\nASO (antistreptolysin-O) titer positive\nDecreased GFR (low urine output - oliguria)\nSwelling (edema, especially periorbital)\nTea-colored or cola-colored urine (due to hematuria)\nRecent strep infection\nElevated BUN and creatinine\nProteinuria (mild to moderate)\n\nNursing Priorities: Monitor blood pressure, monitor fluid status (daily weights, strict I&O), and restrict sodium and fluids.\n\nRecommended Text: Saunders Comprehensive Review for the NCLEX-RN® Examination."
+  },
+  {
+    "question": "A child newly diagnosed with diabetes mellitus has been stabilized with insulin injections daily. A nurse prepares a discharge teaching plan regarding the insulin. The teaching plan should reinforce which of the following concepts?",
+    "options": {
+      "A": "Always keep insulin vials refrigerated",
+      "B": "Increase the amount of insulin before exercise",
+      "C": "Ketones in the urine signify a need for less insulin",
+      "D": "Systematically rotate injection sites"
+    },
+    "answer": "D",
+    "explanation": "This is a critical patient safety and education point for long-term insulin therapy.\n\n(D) Correct: Rotating injection sites within one anatomic area (e.g., abdomen, thighs) is essential to prevent lipohypertrophy (a buildup of fat and scar tissue under the skin). If a patient repeatedly injects into the same spot, these fatty lumps can form and will significantly impair insulin absorption, leading to poor glycemic control.\n\n(A) Incorrect: Unopened insulin vials should be refrigerated. However, the vial currently in use can be kept at room temperature for up to 28 days to prevent irritation from injecting cold insulin.\n\n(B) Incorrect: Exercise increases insulin sensitivity and uses up glucose, which can lead to hypoglycemia. Therefore, the child will likely need to decrease their insulin dose or, more commonly, eat an extra carbohydrate snack before exercise.\n\n(C) Incorrect: Ketones in the urine signify that the body is breaking down fat for energy because it doesn't have enough insulin to use glucose. This indicates hyperglycemia and a state of insulin deficiency, meaning more insulin is needed, not less. The presence of ketones is a warning sign for diabetic ketoacidosis (DKA).",
+    "additional": "Sick Day Rules for Diabetes:\nNever stop taking insulin.\nMonitor blood glucose more frequently (e.g., every 3-4 hours).\nCheck urine for ketones with each void.\nMaintain hydration.\nNotify the provider if the child is vomiting, has high glucose levels, or moderate to large ketones.\n\nRecommended Text: Lehne's Pharmacology for Nursing Care."
+  },
+  {
+    "question": "Mr. and Mrs. Andrews' child was diagnosed with Duchenne's muscular dystrophy; which of the following usually is the first indication of the condition?",
+    "options": {
+      "A": "Inability to suck in the newborn",
+      "B": "Lateness in walking in the toddler",
+      "C": "Difficulty running in the preschooler",
+      "D": "Decreasing coordination in the school-age child"
+    },
+    "answer": "C",
+    "explanation": "Duchenne's Muscular Dystrophy (DMD) is an X-linked recessive disorder resulting in progressive muscle weakness.\n\n(C) Correct: While a delay in walking (Option B) can be an early sign, the most classic parental reports that trigger an investigation for DMD are related to motor skills in the preschool years (age 3-5). Parents will notice their child is clumsy, falls frequently, has difficulty climbing stairs, and struggles to run or keep up with peers. This is the most specific and common \"first\" indication.\n\n(B) Correct but less specific: Lateness in walking is a general developmental delay and can be caused by many things. While true for many children with DMD, it's less specific than the subsequent difficulties with more complex motor tasks.\n\n(A) Incorrect: DMD does not typically present with feeding difficulties in the newborn period.\n\n(D) Incorrect: While coordination does decrease, this is part of the ongoing progression of the disease. The first signs appear much earlier.",
+    "additional": "Gower's Sign: This is a hallmark sign of DMD. The child needs to use their hands and arms to \"walk\" up their own body from a squatting or sitting position due to weakness in the proximal muscles of the lower limbs.\n\nPrognosis: DMD is a progressive disease. Loss of ambulation typically occurs by age 12. The disease eventually affects the muscles of respiration and the heart, with death often occurring in early adulthood from respiratory or cardiac failure.\n\nManagement: There is no cure. Care is supportive and focuses on maintaining function for as long as possible (physical therapy, corticosteroids to slow progression), and managing complications.\n\nRecommended Text: Wong's Nursing Care of Infants and Children."
+  },
+  {
+    "question": "Mr. and Mrs. Robertson's son was diagnosed with idiopathic thrombocytopenic purpura. They should be aware that the drug to be avoided is:",
+    "options": {
+      "A": "Acetaminophen",
+      "B": "Aspirin",
+      "C": "Codeine",
+      "D": "Morphine"
+    },
+    "answer": "B",
+    "explanation": "Idiopathic (or Immune) Thrombocytopenic Purpura (ITP) is an autoimmune disorder where the immune system destroys the body's platelets. Platelets are essential for blood clotting.\n\n(B) Correct: The primary problem in ITP is a very low platelet count (thrombocytopenia), which places the child at high risk for bleeding. Aspirin and other NSAIDs (like ibuprofen) inhibit platelet function. Giving an antiplatelet drug to a patient who already has a dangerously low number of platelets would severely compromise their ability to form a clot and could lead to life-threatening hemorrhage. It is absolutely contraindicated.\n\n(A, C, D) Incorrect: Acetaminophen (Tylenol) is the recommended analgesic and antipyretic because it does not affect platelet function. Opioids like codeine and morphine also do not have antiplatelet effects and can be used for severe pain, although the risk of injury from sedation must be considered.",
+    "additional": "Assessment: The hallmark sign is extensive bruising (purpura) and pinpoint hemorrhages (petechiae) without significant trauma.\n\nNursing Management: The priority is safety. Institute bleeding precautions: use a soft-bristled toothbrush, avoid contact sports, avoid constipation (use stool softeners), and avoid any procedures that could cause bleeding (e.g., IM injections).\n\nTreatment: Can include corticosteroids and/or IVIG to suppress the immune system and raise the platelet count. In severe cases, a splenectomy may be considered, as the spleen is the primary site of platelet destruction.\n\nRecommended Text: Saunders Comprehensive Review for the NCLEX-RN® Examination."
+  },
+  {
+    "question": "Which of the following organisms is the most common cause of urinary tract infection (UTI) in children?",
+    "options": {
+      "A": "Klebsiella",
+      "B": "Staphylococcus",
+      "C": "Escherichia coli",
+      "D": "Pseudomonas"
+    },
+    "answer": "C",
+    "explanation": "This is a fundamental microbiology and pathophysiology question.\n\n(C) Correct: Escherichia coli (E. coli) is responsible for approximately 80-90% of all UTIs in children. This bacterium is a normal inhabitant of the gastrointestinal tract. Due to the anatomical proximity of the anus to the urethra, especially in females, bacteria can easily be transferred to the urinary tract, causing infection.\n\n(A, B, D) Incorrect: While other organisms like Klebsiella, Staphylococcus saprophyticus, and Pseudomonas can cause UTIs, they are far less common than E. coli. These are more often associated with complicated UTIs, catheter-associated UTIs, or in patients with structural abnormalities of the urinary tract.",
+    "additional": "Risk Factors for UTI in Children:\nFemale anatomy (shorter urethra).\nUrinary stasis (incomplete bladder emptying).\nVesicoureteral reflux (VUR) - backward flow of urine from the bladder into the ureters.\nPoor hygiene (improper wiping).\n\nTeaching Connection: This reinforces the importance of teaching female children to wipe from front to back to prevent the transfer of E. coli from the rectal area to the urethra.\n\nRecommended Text: Wong's Nursing Care of Infants and Children."
+  },
+  {
+    "question": "When creating a teaching program for the parents of Jessica who is diagnosed with pulmonic stenosis (PS), Nurse Alex would keep in mind that this disorder involves which of the following?",
+    "options": {
+      "A": "A single vessel arising from both ventricles",
+      "B": "Obstruction of blood flow from the left ventricle",
+      "C": "Obstruction of blood flow from the right ventricle",
+      "D": "Return of blood to the heart without entry to the left atrium"
+    },
+    "answer": "C",
+    "explanation": "This question tests your understanding of basic cardiac anatomy and blood flow.\n\n(C) Correct: \"Pulmonic\" refers to the pulmonary valve. \"Stenosis\" means narrowing or obstruction. The pulmonary valve is the \"door\" that blood must pass through to get from the right ventricle to the pulmonary artery and then to the lungs. Therefore, pulmonic stenosis is an obstruction of blood flow from the right ventricle.\n\n(A) Incorrect: A single vessel arising from both ventricles describes Truncus Arteriosus.\n\n(B) Incorrect: Obstruction of blood flow from the left ventricle would be Aortic Stenosis.\n\n(D) Incorrect: This describes an anomalous pulmonary venous return, a different type of CHD.",
+    "additional": "Classification: Pulmonic stenosis is an obstructive congenital heart defect. It is considered acyanotic, although severe stenosis can cause right-to-left shunting through a patent foramen ovale, leading to cyanosis.\n\nAssessment Findings: A loud systolic ejection murmur heard best at the upper left sternal border. The right ventricle has to work harder to push blood past the obstruction, which can lead to right ventricular hypertrophy and signs of right-sided heart failure (hepatomegaly, peripheral edema).\n\nRecommended Text: Maternal & Child Health Nursing: Care of the Childbearing & Childrearing Family."
+  },
+  {
+    "question": "Mrs. Cooper is concerned about her 4-month-old son's unusual condition; which of the following statements made by her would indicate that the child may have cerebral palsy?",
+    "options": {
+      "A": "\"He holds his left leg so stiff that I have a hard time putting on his diapers.\"",
+      "B": "\"My baby won't lift his head up and look at me; he's so floppy.\"",
+      "C": "\"My baby's left hip tilts when I pull him to a standing position.\"",
+      "D": "\"I'm very worried because my baby has not rolled all the way over yet.\""
+    },
+    "answer": "A",
+    "explanation": "Cerebral Palsy (CP) is a group of non-progressive motor function disorders caused by damage to the developing fetal or infant brain. A key feature is abnormal muscle tone and coordination.\n\n(A) Correct: This statement describes hypertonicity or spasticity, which is the most common manifestation of CP. The mother's difficulty in abducting the hips for diapering due to stiffness is a classic early sign of spastic CP. This is the most specific and indicative statement among the choices.\n\n(B) Incorrect but relevant: While hypotonia (\"floppy\") can also be a sign of CP (athetoid or ataxic types), it is less common than spasticity. Furthermore, head lag at 4 months can be a general developmental delay.\n\n(C) Incorrect: This could indicate hip dysplasia, not necessarily CP.\n\n(D) Incorrect: While missing a developmental milestone like rolling over can be concerning and part of the overall picture of CP, it is a nonspecific finding. Many typically developing infants have slight variations in their developmental timeline. The presence of abnormal muscle tone (stiffness) is a much stronger indicator.",
+    "additional": "Key Warning Signs of CP:\n\nPersistent primitive reflexes (e.g., Moro, tonic neck) past 6 months.\nPoor head control after 3 months.\nStiff or rigid limbs (hypertonia).\nFloppy or limp body posture (hypotonia).\nFeeding difficulties (poor suck-swallow coordination).\nScissoring of the legs when held upright.\n\nManagement: The goal is to maximize the child's potential. Management is multidisciplinary and includes physical/occupational/speech therapy, nutritional support, and medications to manage spasticity (e.g., baclofen, diazepam, botulinum toxin A).\n\nRecommended Text: Wong's Nursing Care of Infants and Children."
+  },
+  {
+    "question": "A nurse provides medication instructions to a first-time mother. Which statement made by the mother indicates a need for further instructions?",
+    "options": {
+      "A": "I should mix the medication in the baby food and give it when I feed the child.",
+      "B": "I should administer the oral medication sitting in an upright position and with the head elevated.",
+      "C": "I will give my child a toy after giving the medication.",
+      "D": "I will offer my child a juice drink after swallowing the medication."
+    },
+    "answer": "A",
+    "explanation": "This is a critical medication safety question.\n\n(A) Correct - indicates need for further teaching: Mixing medication in a bottle of formula or a full serving of food is not recommended. If the infant does not finish the entire feeding, they will not receive the full, prescribed dose of the medication. Medication should be given separately, using an oral syringe aimed at the side of the mouth (buccal pocket) to prevent aspiration.\n\n(B) Incorrect - this is a correct statement: Administering medication in an upright position prevents choking and aspiration.\n\n(C) Incorrect - this is a correct statement: Providing a reward or comfort (positive reinforcement) after medication administration is a good technique to improve cooperation.\n\n(D) Incorrect - this is a correct statement: Offering a pleasant-tasting drink (a \"chaser\") after the medication can help wash away an unpleasant taste and encourage the child to swallow the full dose.",
+    "additional": "Medication Administration in Children:\n\nAlways use the appropriate measuring device (oral syringe, calibrated dropper), not a household spoon.\nAim the syringe toward the posterior side of the mouth (cheek pocket) to facilitate swallowing and prevent spitting out.\nNever refer to medicine as \"candy.\"\nAllow the child some control when possible (e.g., \"Do you want to take it with juice or water?\").\n\nRecommended Text: Wong's Nursing Care of Infants and Children, \"Medication Administration\" chapter."
+  },
+  {
+    "question": "Nurse Jeremy is evaluating a client's fluid intake and output record. Fluid intake and urine output should relate in which way?",
+    "options": {
+      "A": "Fluid intake should double the urine output.",
+      "B": "Fluid intake should be approximately equal to the urine output.",
+      "C": "Fluid intake should be half the urine output.",
+      "D": "Fluid intake should be inversely proportional to the urine output."
+    },
+    "answer": "B",
+    "explanation": "This question assesses a fundamental principle of fluid balance. In a state of normal hydration and without other complicating factors, the body strives to maintain homeostasis.\n\n(B) Correct: The principle of fluid balance dictates that what goes in must come out. While not exact, the measurable fluid intake (oral fluids, IV fluids) should be roughly equal to the measurable fluid output (urine). This indicates that the kidneys are functioning properly to maintain balance.\n\n(A & C) Incorrect: A significant discrepancy where intake is double the output suggests fluid retention (risk for edema, heart failure). If output is double the intake, it suggests dehydration.\n\n(D) Incorrect: Intake and output are directly proportional, not inversely. Increased intake generally leads to increased output.",
+    "additional": "Insensible Losses: It's important to remember that total output also includes insensible losses—fluid lost through the skin (perspiration) and the respiratory tract, which are not easily measured but are significant, especially in children and those with fever or tachypnea. Therefore, total intake will always be slightly higher than just urine output to account for these losses. However, for the purpose of comparing measurable intake and output, \"approximately equal\" is the correct concept.\n\nPediatric Considerations: Children have a higher percentage of body water and a higher metabolic rate, making them more susceptible to dehydration. Daily weights are the single most accurate indicator of fluid status.\n\nMinimum Urine Output: For children, the minimum acceptable urine output is 1-2 mL/kg/hr. For infants, it is 2 mL/kg/hr.\n\nRecommended Text: Saunders Comprehensive Review for the NCLEX-RN® Examination, \"Fluid and Electrolytes\" chapter."
+  },
+  {
+    "question": "An infant with a patent ductus arteriosus is admitted to the pediatric unit ward. The nurse anticipates which of the following medications will be given to the infant?",
+    "options": {
+      "A": "Prednisone",
+      "B": "Ibuprofen",
+      "C": "Penicillin",
+      "D": "Albuterol"
+    },
+    "answer": "B",
+    "explanation": "The ductus arteriosus is a fetal blood vessel that connects the pulmonary artery to the aorta, bypassing the lungs. It normally closes shortly after birth. A patent (open) ductus arteriosus (PDA) is an acyanotic heart defect.\n\n(B) Correct: The ductus arteriosus is kept open in utero by prostaglandins. To close a PDA pharmacologically, a prostaglandin inhibitor is used. Ibuprofen and indomethacin are nonsteroidal anti-inflammatory drugs (NSAIDs) that work by inhibiting prostaglandin synthesis, thereby promoting the closure of the ductus. This is the first-line medical treatment for PDA in premature infants.\n\n(A) Incorrect: Prednisone is a corticosteroid and is not used to close a PDA.\n\n(C) Incorrect: Penicillin is an antibiotic and would only be used if there was a concurrent bacterial infection.\n\n(D) Incorrect: Albuterol is a bronchodilator used for asthma.",
+    "additional": "Assessment of PDA: The classic sign is a continuous, machine-like murmur heard best below the left clavicle. The infant may also have a widened pulse pressure and bounding pulses.\n\n\"Keeping it Open\": In certain complex, cyanotic heart defects (e.g., Transposition of the Great Arteries), the PDA is lifesaving because it allows mixing of blood. In these cases, a prostaglandin E1 infusion (e.g., alprostadil) is administered to keep the ductus open until surgical correction can occur. Remember: NSAIDs close it, Prostaglandins keep it open.\n\nRecommended Text: Lehne's Pharmacology for Nursing Care."
+  },
+  {
+    "question": "In growing children, growth hormone deficiency results in short stature and very slow growth rates. Short stature may result from which of the following?",
+    "options": {
+      "A": "Anterior pituitary gland hypofunction",
+      "B": "Posterior pituitary gland hyperfunction",
+      "C": "Parathyroid gland hyperfunction",
+      "D": "Thyroid gland hyperfunction"
+    },
+    "answer": "A",
+    "explanation": "This question requires knowledge of basic endocrinology and the function of the pituitary gland.\n\n(A) Correct: Growth Hormone (GH), also known as somatotropin, is produced and secreted by the anterior pituitary gland. \"Hypofunction\" means the gland is underactive and not producing enough hormone. Therefore, a deficiency of GH is caused by anterior pituitary hypofunction.\n\n(B) Incorrect: The posterior pituitary stores and releases Antidiuretic Hormone (ADH) and Oxytocin. It does not produce GH.\n\n(C) Incorrect: The parathyroid glands regulate calcium and phosphate levels via Parathyroid Hormone (PTH).\n\n(D) Incorrect: The thyroid gland produces thyroid hormones (T3, T4), which regulate metabolism. While severe hypothyroidism can cause poor growth, GH deficiency is a direct result of pituitary dysfunction. Hyperfunction of the thyroid would cause symptoms like weight loss and tachycardia.",
+    "additional": "Anterior Pituitary Hormones (TP-FLAG):\n\nTSH (Thyroid-Stimulating Hormone)\nPRL (Prolactin)\nFSH (Follicle-Stimulating Hormone)\nLH (Luteinizing Hormone)\nACTH (Adrenocorticotropic Hormone)\nGH (Growth Hormone)\n\nGH Deficiency Assessment: Children are typically born with a normal weight and length. The growth failure becomes apparent in the first few years as they fall off the standard growth charts. They often have a \"cherubic\" (immature) face and a chubby body build due to poor fat metabolism.\n\nTreatment: Replacement with subcutaneous injections of recombinant human growth hormone (rhGH), typically given daily at bedtime to mimic the body's natural release cycle.\n\nRecommended Text: Wong's Nursing Care of Infants and Children."
+  },
+  {
+    "question": "A child with Kawasaki disease is admitted to the pediatric ward. Which of the following medications will you expect to be a part of the treatment? Select all that apply.",
+    "options": {
+      "A": "Gamma Globulin",
+      "B": "Warfarin.",
+      "C": "Acetaminophen",
+      "D": "Aspirin",
+      "E": "Atenolol"
+    },
+    "answer": ["A", "D"],
+    "explanation": "This question tests the standard-of-care treatment protocol for Kawasaki disease, which is aimed at reducing systemic and coronary artery inflammation.\n\n(A) Correct: Gamma Globulin, also known as Intravenous Immunoglobulin (IVIG), is a cornerstone of treatment. It is a blood product containing pooled antibodies that helps to reduce the widespread inflammation, especially in the coronary arteries, thereby decreasing the risk of aneurysm formation.\n\n(D) Correct: Aspirin is the second cornerstone of treatment. It is initially given in high doses for its anti-inflammatory effects during the acute, febrile phase. After the fever subsides, the dose is reduced to a low, antiplatelet dose to prevent blood clots from forming in any damaged or aneurysmal coronary arteries.\n\n(B) Incorrect: Warfarin (Coumadin) is a stronger anticoagulant and is not standard first-line therapy. It might be used in rare, severe cases where giant aneurysms have formed, but it is not a routine medication.\n\n(C) Incorrect: While acetaminophen may be used for fever if the child has a contraindication to aspirin (like Reye's syndrome risk with a concurrent viral illness like influenza), it is not part of the primary therapeutic regimen. The anti-inflammatory property of aspirin is crucial.\n\n(E) Incorrect: Atenolol is a beta-blocker used to manage hypertension or tachyarrhythmias. It is not a primary treatment for Kawasaki disease itself but might be used to manage cardiac complications if they arise.",
+    "additional": "IVIG Administration: Monitor the child closely for allergic or infusion reactions (fever, chills, flushing, changes in vital signs). IVIG is a blood product, so follow agency protocol.\n\nAspirin and Reye's Syndrome: This is a unique situation where aspirin is prescribed for a child. It is critical to educate parents about the risk of Reye's syndrome if the child contracts influenza or varicella while on aspirin therapy. The child must receive the annual flu vaccine.\n\nFollow-up: Long-term follow-up with a cardiologist, including echocardiograms, is essential to monitor the coronary arteries for the development of aneurysms.\n\nRecommended Text: Wong's Nursing Care of Infants and Children."
+  },
+  {
+    "question": "Nurse Elena is handling a 7-year-old child who has cystitis. Which of the following would Nurse Elena expect when assessing the child?",
+    "options": {
+      "A": "Dysuria",
+      "B": "Costovertebral tenderness",
+      "C": "Flank pain",
+      "D": "High fever"
+    },
+    "answer": "A",
+    "explanation": "This question requires you to differentiate the symptoms of a lower UTI (cystitis) from an upper UTI (pyelonephritis).\n\n(A) Correct: Cystitis is an infection of the bladder (a lower urinary tract infection). The classic symptoms are localized to the bladder and urethra and include urinary frequency, urgency, and dysuria (pain or burning upon urination). Suprapubic pain may also be present.\n\n(B, C, D) Incorrect: Costovertebral angle (CVA) tenderness, flank pain, and high fever are all classic signs of pyelonephritis, an infection that has ascended from the bladder to the kidneys (an upper urinary tract infection). While a low-grade fever might be present with cystitis, a high fever is characteristic of a more serious kidney infection.",
+    "additional": "UTI Symptoms in Infants: Symptoms can be very nonspecific in infants and young children, including irritability, poor feeding, vomiting, diarrhea, or foul-smelling urine. Unexplained fever in an infant should always prompt consideration of a UTI.\n\nUTI Symptoms in School-Age Children: Symptoms become more classic, like those in adults: dysuria, frequency, urgency, and enuresis (new onset of bedwetting).\n\nDiagnosis: A clean-catch midstream urine sample is preferred. For infants and toddlers who are not toilet-trained, a sterile straight catheterization is the most reliable method for obtaining a specimen for culture.\n\nRecommended Text: Saunders Comprehensive Review for the NCLEX-RN® Examination."
+  },
+  {
+    "question": "Olivia is an adolescent who has a seizure disorder; which of the following would not be a focus of a teaching program?",
+    "options": {
+      "A": "Ability to obtain a driver's license",
+      "B": "Drug and alcohol abuse",
+      "C": "Increased risk of infections",
+      "D": "Peer pressure"
+    },
+    "answer": "C",
+    "explanation": "This question asks you to identify the topic that is least relevant to the psychosocial and safety needs of an adolescent with a seizure disorder.\n\n(C) Correct - this is NOT a focus: A seizure disorder itself does not inherently increase the risk of infections. While some antiepileptic drugs (AEDs) can have rare hematologic side effects, it is not a primary, universal teaching point for all patients with seizures.\n\n(A) Incorrect - this IS a focus: The ability to obtain a driver's license is a major milestone and concern for adolescents. State laws have specific regulations regarding the required seizure-free period before a person can legally drive. This is a critical safety and quality-of-life topic.\n\n(B) Incorrect - this IS a focus: The use of alcohol and illicit drugs can lower the seizure threshold, trigger seizures, and interfere with the effectiveness of AEDs. This is a vital teaching point for this age group.\n\n(D) Incorrect - this IS a focus: Peer pressure related to risk-taking behaviors (like alcohol use), social acceptance, and feeling \"different\" because of the disorder and medication requirements are significant psychosocial stressors that must be addressed.",
+    "additional": "Adolescent Adherence: Adherence to medication regimens is a major challenge in adolescents who want to be like their peers. Teaching should focus on the importance of consistent medication use for seizure control.\n\nSafety Teaching: Teach about safety precautions during activities like swimming (never swim alone), showering (use a shower instead of a bath), and wearing a medical alert bracelet.\n\nAED Side Effects: Common side effects include drowsiness, dizziness, and ataxia. A specific point to remember for NCLEX is that phenytoin (Dilantin) can cause gingival hyperplasia, so meticulous oral hygiene is crucial.\n\nRecommended Text: Wong's Nursing Care of Infants and Children."
+  },
+  {
+    "question": "Which of the following is the most common permanent disability in childhood?",
+    "options": {
+      "A": "Scoliosis",
+      "B": "Muscular dystrophy",
+      "C": "Cerebral palsy",
+      "D": "Developmental dysplasia of the hip (DDH)"
+    },
+    "answer": "C",
+    "explanation": "This question tests your knowledge of the epidemiology of common pediatric conditions.\n\n(C) Correct: Cerebral palsy (CP) is the most common motor disability of childhood. It is a permanent disorder of movement and posture, although the symptoms can be managed to improve function.\n\n(A) Incorrect: Scoliosis is a common condition, but it is often correctable with bracing or surgery and is not typically categorized as a permanent disability in the same way as CP.\n\n(B) Incorrect: While Duchenne's muscular dystrophy is a devastating and progressive permanent disability, it is much rarer than cerebral palsy.\n\n(D) Incorrect: Developmental dysplasia of the hip (DDH), if detected and treated early in infancy (e.g., with a Pavlik harness), usually has an excellent outcome with no permanent disability.",
+    "additional": "Risk Factors for CP: The most significant risk factors are related to prenatal, perinatal, or postnatal brain injury, including prematurity, low birth weight, and neonatal encephalopathy.\n\nTypes of CP:\n\nSpastic (Most Common): Characterized by hypertonia and persistent primitive reflexes.\nDyskinetic/Athetoid: Characterized by involuntary, writhing movements.\nAtaxic: Characterized by problems with balance and coordination.\nMixed: A combination of types.\n\nRecommended Text: Maternal & Child Health Nursing: Care of the Childbearing & Childrearing Family."
+  },
+  {
+    "question": "Steve is diagnosed with celiac disease and experiences celiac crisis secondary to an upper respiratory tract infection; which of the following would Nurse Nancy expect to assess?",
+    "options": {
+      "A": "Lethargy",
+      "B": "Weight gain",
+      "C": "Respiratory distress",
+      "D": "Watery diarrhea"
+    },
+    "answer": "D",
+    "explanation": "Celiac disease is an autoimmune disorder where ingesting gluten leads to damage of the small intestine villi. A celiac crisis is a rare but severe, acute episode of the disease, often triggered by a stressor like an infection, fasting, or large gluten ingestion.\n\n(D) Correct: A celiac crisis is characterized by profuse, watery diarrhea and vomiting. This leads to severe dehydration, metabolic acidosis, and electrolyte imbalances (hypokalemia, hypocalcemia), which can be life-threatening.\n\n(A) Incorrect: While lethargy will result from the dehydration and metabolic disturbances, the profuse diarrhea is the primary causative symptom.\n\n(B) Incorrect: Celiac disease, and especially a celiac crisis, causes severe malabsorption and fluid loss, leading to profound weight loss, not weight gain.\n\n(C) Incorrect: Respiratory distress is not a direct symptom of a celiac crisis. However, severe metabolic acidosis can lead to compensatory rapid breathing (Kussmaul respirations), but the primary problem is gastrointestinal.",
+    "additional": "Celiac Disease Diet (BROW): The lifelong, strict gluten-free diet requires avoiding:\n\nBarley\nRye\nOats (unless certified gluten-free, due to cross-contamination risk)\nWheat\n\nFoods that ARE allowed: Rice, corn, potatoes, soy, and quinoa are safe alternatives.\n\nManagement of Celiac Crisis: Requires immediate hospitalization for aggressive IV fluid and electrolyte replacement.\n\nRecommended Text: Wong's Nursing Care of Infants and Children."
+  },
+  {
+    "question": "In children diagnosed with sickle cell disease (SCD), tissue damage results from which of the following?",
+    "options": {
+      "A": "Air hunger and respiratory alkalosis due to deoxygenated red blood cells.",
+      "B": "Hypersensitivity of the central nervous system (CNS) due to elevated serum bilirubin levels",
+      "C": "A general inflammatory response due to an autoimmune reaction from hypoxia",
+      "D": "Local tissue damage with ischemia and necrosis due to obstructed circulation"
+    },
+    "answer": "D",
+    "explanation": "This question targets the core pathophysiology of a vaso-occlusive crisis (VOC) in sickle cell disease.\n\n(D) Correct: The fundamental problem in SCD is that under conditions of low oxygen, RBCs containing hemoglobin S distort into a rigid, crescent (\"sickle\") shape. These misshapen cells are not flexible and clump together, blocking blood flow in small vessels. This vaso-occlusion prevents oxygen from reaching the tissues downstream, leading to severe pain, ischemia (lack of oxygen), and eventually necrosis (tissue death).\n\n(A) Incorrect: While hypoxia triggers sickling, the resulting tissue damage is from circulatory obstruction, not directly from respiratory alkalosis. A severe crisis can lead to acute chest syndrome, causing respiratory distress and acidosis.\n\n(B) Incorrect: Elevated bilirubin levels (jaundice) occur due to the rapid breakdown (hemolysis) of fragile sickled RBCs, but this is a result of the disease, not the cause of the primary tissue damage. It doesn't cause CNS hypersensitivity.\n\n(C) Incorrect: SCD is a genetic disorder, not an autoimmune reaction. While inflammation is a component of a VOC, the root cause is the physical obstruction by sickled cells.",
+    "additional": "Vaso-Occlusive Crisis (VOC): The most common type of crisis, characterized by severe pain.\n\nSplenic Sequestration Crisis: A life-threatening complication, primarily in young children, where a large number of sickled cells become trapped in the spleen, causing it to enlarge massively. This leads to a rapid drop in hemoglobin and can result in hypovolemic shock.\n\nAplastic Crisis: A temporary cessation of RBC production, often triggered by a viral infection like parvovirus B19.\n\nPriority Management during VOC (HOP): Hydration, Oxygenation, Pain Management.\n\nRecommended Text: Wong's Nursing Care of Infants and Children."
+  },
+  {
+    "question": "Mr. Lopez has a 7-year-old son with growth hormone (GH) deficiency. He shares to the nurse the desire of his son to play ball games. However, his wife feels the child will be in danger since he is smaller than the other children. In planning anticipatory guidance for these parents, the nurse should keep in mind which of the following?",
+    "options": {
+      "A": "The child should be allowed to play because doing so can foster healthy self-esteem.",
+      "B": "The risk for fractures is increased because a GH deficiency results in fragile bones.",
+      "C": "Activity could aggravate insulin sensitivity, causing hyperglycemia.",
+      "D": "Activity would aggravate the child's joints, already over tasked by obesity."
+    },
+    "answer": "A",
+    "explanation": "This question focuses on the psychosocial needs of a child with a chronic condition affecting their growth.\n\n(A) Correct: The primary nursing consideration here is promoting normal development and positive self-image. Children with GH deficiency are physically smaller but have normal intelligence and motor capabilities for their size. Preventing them from participating in age-appropriate activities can lead to social isolation and poor self-esteem. The focus should be on choosing activities appropriate for the child's size and encouraging participation.\n\n(B) Incorrect: While severe, untreated GH deficiency can affect bone mineral density, it does not typically result in \"fragile bones\" to the extent that normal play is contraindicated. The risk of fracture is more related to being a child than the GH deficiency itself.\n\n(C) Incorrect: GH has a counter-regulatory effect on insulin. A deficiency of GH can actually increase insulin sensitivity. Activity further increases insulin sensitivity, which would lead to a risk of hypoglycemia, not hyperglycemia.\n\n(D) Incorrect: Children with GH deficiency tend to have a chubby build but are not typically obese to the point where their joints are over-tasked. The psychosocial benefit of play far outweighs this minimal risk.",
+    "additional": "Promoting Normalcy: A key theme in pediatric nursing is helping children with chronic illness live as normally as possible. This includes school attendance, peer relationships, and participation in activities.\n\nTreatment: Growth hormone replacement is administered via subcutaneous injection. The goal of treatment is not just to increase height but also to improve bone density and body composition (decreasing fat mass, increasing muscle mass).\n\nEmpowerment: Encourage the child to participate in activities where size is less of an advantage, such as swimming, gymnastics, or martial arts, to build confidence.\n\nRecommended Text: Wong's Nursing Care of Infants and Children, \"Endocrine Dysfunction\" chapter."
+  },
+  {
+    "question": "After explaining to the parents about their child's unique psychological needs related to a seizure disorder and possible stressors, which of the following interests uttered by them would indicate further teaching?",
+    "options": {
+      "A": "Feeling different from peers",
+      "B": "Poor self-image",
+      "C": "Cognitive delays",
+      "D": "Dependency"
+    },
+    "answer": "C",
+    "explanation": "This question asks you to identify which statement reflects a misunderstanding of the common psychosocial stressors versus a potential co-morbidity. The question is slightly ambiguous, but the best answer distinguishes between psychological needs/stressors and a pathophysiological outcome.\n\n(C) Correct - indicates need for further teaching: While some children with seizure disorders may have co-existing cognitive delays (often related to the underlying cause of the seizures, not the seizures themselves), it is not a universal psychological need or stressor. Assuming that all children with seizures will have cognitive delays is a misconception that requires correction. The nurse should clarify that intelligence is often normal.\n\n(A, B, D) Incorrect - these are valid concerns: Feeling different, having a poor self-image, and struggling with dependency versus independence are all very common and significant psychosocial stressors for a child with a chronic illness like a seizure disorder. These are appropriate areas of concern for the parents and should be addressed in the teaching plan. The parents' acknowledgment of these shows they have understood the psychological impact of the diagnosis.",
+    "additional": "Focus on the Child: It is crucial to treat the child according to their developmental age, not their physical size or diagnosis.\n\nStigma: The social stigma associated with seizures can be profound. Teaching should include how to explain the condition to teachers, coaches, and friends in a simple, non-frightening way.\n\nParental Overprotection: A common issue is parental anxiety leading to overprotection, which can stifle the child's development of independence and self-confidence.\n\nRecommended Text: Wong's Nursing Care of Infants and Children."
+  },
+  {
+    "question": "In pediatric gastroesophageal reflux disease (GERD), the immaturity of lower esophageal sphincter function is manifested by frequent transient lower esophageal relaxations, which result in retrograde flow of gastric contents into the esophagus. Which statement about the esophagus is true? Select all that apply.",
+    "options": {
+      "A": "It is a cartilaginous tube.",
+      "B": "It has upper and lower sphincters.",
+      "C": "It lies anterior to the trachea.",
+      "D": "It extends from the nasal cavity to the stomach.",
+      "E": "It is a highway for food and drinks to travel along to make it to the stomach."
+    },
+    "answer": ["B", "E"],
+    "explanation": "This question tests basic knowledge of the anatomy and function of the esophagus, framed within the context of GERD.\n\n(B) Correct: The esophagus has two sphincters. The upper esophageal sphincter (UES) prevents air from entering the esophagus during breathing and prevents reflux into the pharynx. The lower esophageal sphincter (LES) is a ring of muscle at the junction of the esophagus and stomach that prevents acidic gastric contents from refluxing back into the esophagus. The dysfunction of the LES is the primary cause of GERD.\n\n(E) Correct: This is the primary function of the esophagus. It is a muscular tube that uses peristalsis to actively propel food and liquid from the pharynx to the stomach.\n\n(A) Incorrect: The esophagus is a muscular tube. The trachea (windpipe) is the cartilaginous tube, with C-shaped rings of cartilage that keep it open for air passage.\n\n(C) Incorrect: The esophagus lies posterior (behind) the trachea.\n\n(D) Incorrect: The esophagus extends from the pharynx (throat) to the stomach.",
+    "additional": "GERD in Infants: It is common for infants to have some degree of reflux (\"spitting up\") due to the immaturity of the LES. It is termed GERD when it causes complications like poor weight gain (failure to thrive), irritability, or respiratory problems (apnea, aspiration).\n\nNursing Management for Infant GERD:\n\nSmall, frequent feedings.\n\nThickening formula with rice cereal (as prescribed).\n\nPositioning: Hold the infant upright for 20-30 minutes after feedings.\n\nAvoid placing in a car seat or swing immediately after feeding, as this can increase intra-abdominal pressure.\n\nRecommended Text: Marieb & Hoehn, Human Anatomy & Physiology."
+  },
+  {
+    "question": "A child with thalassemia was given deferoxamine (Desferal); which of the following should alert the nurse to notify the physician?",
+    "options": {
+      "A": "Decreased hearing",
+      "B": "Hypertension",
+      "C": "Red urine",
+      "D": "Vomiting"
+    },
+    "answer": "A",
+    "explanation": "Thalassemia is a genetic disorder that impairs the body's ability to produce hemoglobin, leading to severe chronic anemia. Treatment requires frequent blood transfusions, which leads to iron overload (hemosiderosis). Deferoxamine (Desferal) is an iron-chelating agent used to bind with excess iron so it can be excreted from the body.\n\n(A) Correct: Deferoxamine has significant potential side effects, including ototoxicity (hearing loss) and ocular toxicity (vision loss). Any report of decreased hearing, tinnitus (ringing in the ears), or changes in vision is a serious adverse effect that must be reported to the physician immediately.\n\n(B) Incorrect: Hypotension, not hypertension, is a more common side effect, especially with rapid IV infusion.\n\n(C) Incorrect: Deferoxamine binds with iron, and the resulting complex (ferrioxamine) is excreted in the urine, turning it a characteristic reddish-orange or pinkish color. This is an expected and therapeutic finding, indicating the medication is working. It is not an adverse effect.\n\n(D) Incorrect: While vomiting can be a side effect, it is not as serious or specific as the neurotoxicity affecting hearing and vision.",
+    "additional": "Deferoxamine Administration: It is typically administered as a slow, subcutaneous infusion overnight using a portable pump, usually 5-7 nights a week.\n\nImportance of Chelation Therapy: Without effective iron chelation, the iron overload from chronic transfusions will cause fatal damage to the heart, liver, and endocrine organs. Adherence to chelation therapy is critical for long-term survival.\n\nOther Chelating Agents: Newer oral iron chelators like deferasirox (Exjade) and deferiprone are also used and may improve patient adherence.\n\nRecommended Text: Lehne's Pharmacology for Nursing Care."
+  },
+  {
+    "question": "Nurse Kathy is assessing infantile reflexes in a 9-month-old baby; which of the following would she identify as normal?",
+    "options": {
+      "A": "Persistent rooting",
+      "B": "Bilateral parachute",
+      "C": "Absent moro reflex",
+      "D": "Unilateral grasp"
+    },
+    "answer": "B",
+    "explanation": "This question tests your knowledge of the developmental timeline for primitive and protective reflexes. Primitive reflexes are present at birth and disappear as the infant's CNS matures, while protective reflexes appear later and persist through life.\n\n(B) Correct: The parachute reflex is a protective reflex. It appears around 7–9 months and persists for life. When the infant is held prone and lowered quickly toward a surface, the arms and legs extend as if to break a fall. A bilateral (both sides) response is normal.\n\n(A) Incorrect: The rooting reflex (infant turns head toward cheek stroking to find a nipple) typically disappears by 4 months. Its persistence can indicate a neurological problem.\n\n(C) Incorrect but related: The Moro reflex (startle reflex) typically disappears by 6 months. Its absence at 9 months is normal. However, the question asks what she would identify as normal, implying a present reflex. The most appropriate answer is the one that should be present at this age.\n\n(D) Incorrect: The palmar grasp reflex (infant grasps an object placed in the palm) disappears by 5–6 months, replaced by voluntary grasp. A grasp reflex at 9 months would be abnormal, and a unilateral (one-sided) response would be particularly concerning for a focal neurological issue like hemiparesis.",
+    "additional": "Key Reflex Timelines:\n\nMoro: Disappears by 6 months.\n\nRooting: Disappears by 4 months.\n\nPalmar Grasp: Disappears by 5–6 months.\n\nTonic Neck (Fencing): Disappears by 5–7 months.\n\nBabinski: The toes fan out when the sole is stroked. This is normal in an infant and disappears around 1 year of age (replaced by the adult plantar reflex where toes curl down).\n\nPersistence of primitive reflexes beyond their expected disappearance age is a key indicator of potential neurological dysfunction, such as Cerebral Palsy.\n\nRecommended Text: Wong's Nursing Care of Infants and Children, \"Growth and Development\" chapter."
+  },
+  {
+    "question": "Baby Melody is a neonate who has a very-low-birth-weight. Nurse Josie carefully monitors inspiratory pressure and oxygen (O₂) concentration to prevent which of the following?",
+    "options": {
+      "A": "Meconium aspiration syndrome",
+      "B": "Bronchopulmonary dysplasia (BPD)",
+      "C": "Respiratory syncytial virus (RSV)",
+      "D": "Respiratory distress syndrome (RDS)"
+    },
+    "answer": "B",
+    "explanation": "This question identifies a major iatrogenic (illness caused by medical treatment) complication of neonatal respiratory support.\n\n(B) Correct: Bronchopulmonary dysplasia (BPD), also known as chronic lung disease of prematurity, is a lung injury that develops in premature infants who require prolonged mechanical ventilation and high concentrations of oxygen to treat conditions like RDS. The high pressure (barotrauma) and high oxygen levels (oxygen toxicity) damage the delicate, developing lung tissue, leading to inflammation and scarring. Careful management of ventilator settings and oxygen is key to prevention.\n\n(A) Incorrect: Meconium aspiration syndrome occurs when a fetus passes meconium in utero and inhales it, causing airway obstruction and chemical pneumonitis. This happens before respiratory support is initiated.\n\n(C) Incorrect: RSV is a viral infection that causes bronchiolitis. It is acquired from the community, not as a result of ventilation.\n\n(D) Incorrect: Respiratory distress syndrome (RDS) is the primary disease being treated with ventilation. It is caused by a deficiency of surfactant in the premature infant's lungs. The treatment for RDS (ventilation and oxygen) is what puts the infant at risk for BPD.",
+    "additional": "Surfactant: Exogenous surfactant administration via an endotracheal tube is a key treatment for RDS and helps reduce the need for aggressive ventilation, thereby decreasing the risk of BPD.\n\nRetinopathy of Prematurity (ROP): Another major complication of high oxygen concentration in premature infants. It causes abnormal blood vessel growth in the retina, which can lead to retinal detachment and blindness.\n\nNursing Care for VLBW Infants: Focuses on thermoregulation (isolette), preventing infection, providing nutrition (often TPN and gavage feedings), and minimizing stimulation to conserve energy.\n\nRecommended Text: Maternal-Newborn Nursing: The Critical Components of Nursing Care."
+  },
+  {
+    "question": "A female child, age 6, is brought to the health clinic for a routine checkup. To assess the child's vision, the nurse should ask:",
+    "options": {
+      "A": "\"Do you have any problems seeing different colors?\"",
+      "B": "\"Do you have trouble seeing at night?\"",
+      "C": "\"Do you have problems with glare?\"",
+      "D": "\"How are you doing in school?\""
+    },
+    "answer": "D",
+    "explanation": "This question is about using developmentally appropriate screening questions. Young children often cannot articulate specific sensory deficits.\n\n(D) Correct: A 6-year-old child may not recognize or be able to describe a vision problem like nearsightedness. However, a vision problem will often manifest as difficulty with schoolwork, such as trouble seeing the board, frequent squinting, sitting too close to the television, or a decline in academic performance. Asking about school performance is an effective, indirect screening question to uncover potential vision (or hearing) issues.\n\n(A, B, C) Incorrect: These are very specific questions that a 6-year-old is unlikely to understand or answer accurately. They are more appropriate for older children or adults. While a color vision test (like Ishihara plates) is part of a comprehensive exam, asking the child directly is not the best initial screening method.",
+    "additional": "Vision Screening Tools for Children:\n\nTumbling E Chart or HOTV Chart: Used for preschool children (ages 3–5) who do not yet know the alphabet. The child points in the direction the \"E\" is facing or identifies the matching letters.\n\nSnellen Chart: Used for school-age children who can identify letters.\n\nAmblyopia (\"Lazy Eye\"): A common cause of vision loss in children where the brain favors one eye over the other. Treatment involves patching the stronger eye to force the weaker eye to work, which is most effective before age 7–8. This is why early vision screening is critical.\n\nStrabismus: Misalignment of the eyes (\"crossed eyes\"). Can lead to amblyopia if not corrected.\n\nRecommended Text: Wong's Nursing Care of Infants and Children."
+  },
+  {
+    "question": "A child diagnosed with intellectual disability (ID) is under the supervision of Nurse Tasha. The nurse is aware that the signs and symptoms of mild ID include which of the following?",
+    "options": {
+      "A": "Few communication skills",
+      "B": "Lateness in walking",
+      "C": "Mental age of a toddler",
+      "D": "Noticeable developmental delays"
+    },
+    "answer": "D",
+    "explanation": "This question asks for the most fitting general description of mild intellectual disability.\n\n(D) Correct: Mild ID is characterized by developmental delays that are noticeable but may not be severe. Children with mild ID are often not identified until they start school and have difficulty with academic tasks. They are considered \"educable\" and can often achieve academic skills up to about a 6th-grade level and can learn to live and work independently or with minimal support. The term \"noticeable developmental delays\" is the best general descriptor.\n\n(A) Incorrect: Few communication skills would be more characteristic of severe or profound ID. Individuals with mild ID typically develop social and communication skills adequate for daily life.\n\n(B) Incorrect: Lateness in walking is a single motor milestone. While it may be present, \"noticeable developmental delays\" is a more comprehensive and accurate description covering multiple domains (cognitive, social, motor).\n\n(C) Incorrect: A mental age of a toddler would correspond to severe ID, not mild.",
+    "additional": "Levels of Intellectual Disability:\n\nMild (IQ 50–70): Largest group (85%). Can achieve 6th-grade level. Can achieve social/vocational skills for self-support.\n\nModerate (IQ 35–50): Can learn to communicate and perform basic self-care. Unlikely to progress past a 2nd-grade level. Can work in sheltered settings.\n\nSevere (IQ 20–35): May learn to speak and perform basic self-care tasks with significant training. Require close supervision.\n\nProfound (IQ <20): Require a highly structured environment with constant aid and supervision.\n\nNursing Focus: Focus on promoting the child's optimal development, encouraging self-care activities, and providing guidance and resources for the family. The approach should be based on the child's developmental age, not their chronological age.\n\nRecommended Text: Wong's Nursing Care of Infants and Children."
+  },
+  {
+    "question": "While Lawrence is being assessed at the clinic, Nurse Rachel observed that the child appears to be small, with an immature face and chubby body build. Her parents stated that their child's rate of growth of all body parts is somewhat slow, but her proportions and intelligence remain normal. As a knowledgeable nurse, you know that the child has a deficiency of which of the following?",
+    "options": {
+      "A": "Antidiuretic hormone (ADH)",
+      "B": "Parathyroid hormone (PTH)",
+      "C": "Growth hormone (GH)",
+      "D": "Melanocyte-stimulating hormone (MSH)"
+    },
+    "answer": "C",
+    "explanation": "The cluster of signs described in the question creates a classic clinical picture.\n\n(C) Correct: The description perfectly matches the signs of Growth Hormone (GH) deficiency (also called hypopituitarism). Key features include:\n\nSlow growth rate: Falling off the growth chart after the first year.\n\nNormal proportions: The child is small, but arms, legs, and trunk are proportional (unlike in dwarfism caused by achondroplasia).\n\nImmature face / \"cherubic\" appearance: A younger-looking face with a prominent forehead.\n\nChubby body build: Due to poor fat metabolism.\n\nNormal intelligence: Cognitive function is not affected.\n\n(A) Incorrect: A deficiency of ADH causes diabetes insipidus, characterized by polyuria (excessive urination) and polydipsia (excessive thirst). It does not affect growth.\n\n(B) Incorrect: PTH regulates calcium levels. A deficiency would cause hypocalcemia (tetany, seizures).\n\n(D) Incorrect: MSH controls skin pigmentation.",
+    "additional": "Diagnosis of GH Deficiency: Diagnosis involves evaluating growth patterns over time, bone age studies (X-ray of the hand/wrist, which will be younger than chronological age), and GH stimulation testing.\n\nTreatment: Subcutaneous injections of recombinant human GH. It is most effective when started early. The nurse plays a key role in teaching the family how to administer the injections and monitoring the child's growth response.\n\nRecommended Text: Wong's Nursing Care of Infants and Children."
+  },
+  {
+    "question": "Which of the following applies to the defect emerging from residual peritoneal fluid confined within the lower segment of the processus vaginalis?",
+    "options": {
+      "A": "Inguinal hernia",
+      "B": "Incarcerated hernia",
+      "C": "Communicating hydrocele",
+      "D": "Noncommunicating hydrocele"
+    },
+    "answer": "D",
+    "explanation": "This question tests your understanding of the embryological development leading to hernias and hydroceles. The processus vaginalis is a tube of peritoneum that descends with the testes into the scrotum and is supposed to close off after birth.\n\n(D) Correct: A noncommunicating hydrocele occurs when the processus vaginalis closes off, but a small amount of peritoneal fluid is trapped around the testicle. The collection of fluid is \"noncommunicating\" because it is sealed off from the abdominal cavity. This type of hydrocele is common in newborns and usually resolves on its own within the first year as the body absorbs the fluid.\n\n(A) Incorrect: An inguinal hernia occurs when the processus vaginalis fails to close, leaving a patent opening through which abdominal contents (like a loop of intestine) can protrude.\n\n(B) Incorrect: An incarcerated hernia is a complication where the herniated tissue becomes trapped and cannot be reduced (pushed back in). This can lead to strangulation (loss of blood supply) and is a surgical emergency.\n\n(C) Incorrect: A communicating hydrocele also results from a patent processus vaginalis. The opening is small enough that only fluid (not intestines) can move back and forth between the abdomen and the scrotum. These hydroceles often fluctuate in size (larger at the end of the day, smaller in the morning).",
+    "additional": "Assessment: A hydrocele presents as a painless, swollen scrotum. The nurse can differentiate it from a hernia by transillumination. When a light is shone through the scrotum, a simple hydrocele will transilluminate (glow), whereas a hernia containing bowel will not.\n\nManagement: Noncommunicating hydroceles are observed and typically self-resolve. Communicating hydroceles that persist beyond one year or are very large often require surgical repair to close the patent processus vaginalis and prevent the potential for a future hernia.\n\nRecommended Text: Wong's Nursing Care of Infants and Children."
+  },
+  {
+    "question": "Which of the following instructions should Nurse Cheryl include in her teaching plan for the parents of Reggie with otitis media?",
+    "options": {
+      "A": "Placing the child in the supine position to bottle-feed",
+      "B": "Giving prescribed amoxicillin (Amoxil) on an empty stomach",
+      "C": "Cleaning the inside of the ear canals with cotton swabs",
+      "D": "Avoiding contact with people who have upper respiratory tract infections"
+    },
+    "answer": "D",
+    "explanation": "Otitis Media (OM) is an inflammation of the middle ear, often following a viral upper respiratory infection (URI). The URI causes inflammation and swelling of the Eustachian tube, leading to fluid buildup and a secondary bacterial infection in the middle ear.\n\n(D) Correct: Since URIs are the primary predisposing factor for OM, teaching parents to minimize the child's exposure to sick individuals (through good hand hygiene and avoidance) is a key preventative measure.\n\n(A) Incorrect: Bottle-feeding a child in a supine (flat on back) position is a major risk factor for OM. It allows formula to pool in the back of the pharynx and reflux up the short, horizontal Eustachian tube of an infant. Infants should be fed in an upright position.\n\n(B) Incorrect: Amoxicillin can cause GI upset and is better tolerated when given with food or milk.\n\n(C) Incorrect: Nothing should be inserted into the ear canal, especially cotton swabs, which can impact cerumen (earwax) or damage the tympanic membrane.",
+    "additional": "Risk Factors for Otitis Media: Age (peak 6–24 months), daycare attendance, secondhand smoke exposure, bottle-feeding while supine, and absence of breastfeeding.\n\nTreatment: Can include observation (\"watchful waiting\") for non-severe cases in older children. Antibiotics, typically amoxicillin, are the first-line treatment for bacterial OM. For recurrent OM, myringotomy (an incision in the eardrum) with tympanostomy tube placement may be necessary to drain fluid and equalize pressure.\n\nPain Management: Acetaminophen or ibuprofen should be recommended for pain and fever.\n\nRecommended Text: Wong's Nursing Care of Infants and Children."
+  },
+  {
+    "question": "The American Association on Mental Deficiency (AAMD), now American Association on Intellectual and Developmental Disabilities (AAIDD) definition of mental retardation emphasizes which of the following?",
+    "options": {
+      "A": "An IQ level that must be below 50",
+      "B": "Cognitive impairment occurring after age 22 years",
+      "C": "Deficits in adaptive behavior with intellectual impairment",
+      "D": "No responsiveness to contact"
+    },
+    "answer": "C",
+    "explanation": "The modern definition of Intellectual Disability (ID) has evolved to be more comprehensive than just an IQ score.\n\n(C) Correct: The current AAIDD definition requires the presence of three criteria:\n\nSignificant limitations in intellectual functioning (reasoning, problem-solving), typically an IQ score of approximately 70–75 or below.\n\nSignificant limitations in adaptive behavior (conceptual, social, and practical skills needed for daily life).\n\nOnset of these deficits during the developmental period (before age 18, now extended to 22 in the DSM-5). This emphasizes that a person's ability to function in their daily environment is just as important as their IQ score in making the diagnosis.\n\n(A) Incorrect: The cutoff is generally around 70–75, not 50. An IQ below 50 would fall into the moderate, severe, or profound categories.\n\n(B) Incorrect: The onset must be before age 18 (or 22). Cognitive impairment that begins after this age would be classified differently (e.g., as dementia or resulting from a traumatic brain injury).\n\n(D) Incorrect: This describes a state of unresponsiveness or coma, not intellectual disability.",
+    "additional": "Adaptive Behavior Domains:\n\nConceptual Skills: Language, reading, writing, money, time, number concepts.\n\nSocial Skills: Interpersonal skills, social responsibility, self-esteem, following rules.\n\nPractical Skills: Activities of daily living (personal care), occupational skills, healthcare, travel/transportation.\n\nNursing Focus: The focus of nursing care is on promoting optimal functioning and independence by assessing and supporting the child's adaptive skills.\n\nRecommended Text: Wong's Nursing Care of Infants and Children."
+  },
+  {
+    "question": "Which of the following tests is most effective in diagnosing hemophilia?",
+    "options": {
+      "A": "Bleeding time",
+      "B": "Complete blood count (CBC)",
+      "C": "Partial thromboplastin time (PTT)",
+      "D": "Platelet count"
+    },
+    "answer": "C",
+    "explanation": "Hemophilia is an X-linked recessive bleeding disorder caused by a deficiency in a specific clotting factor. Hemophilia A is a deficiency of Factor VIII, and Hemophilia B is a deficiency of Factor IX.\n\n(C) Correct: The Partial Thromboplastin Time (PTT) measures the integrity of the intrinsic and common coagulation pathways. Since Factors VIII and IX are part of the intrinsic pathway, a deficiency in either will cause a prolonged PTT. This is the key screening test that points toward a diagnosis of hemophilia.\n\n(A) Incorrect: Bleeding time measures platelet function. Since platelets are normal in hemophilia, the bleeding time will be normal.\n\n(B & D) Incorrect: The platelet count and the rest of the CBC (RBCs, WBCs, hemoglobin) are typically normal in hemophilia. The problem is with the clotting factors, not the blood cells themselves.",
+    "additional": "Lab Profile in Hemophilia:\n\nProlonged PTT\n\nNormal Prothrombin Time (PT)\n\nNormal Platelet Count\n\nNormal Bleeding Time\n\nDefinitive Diagnosis: While a prolonged PTT is the key screening indicator, the definitive diagnosis is made by measuring the specific activity levels of Factor VIII and Factor IX.\n\nManagement: The primary treatment is replacement of the deficient clotting factor (Factor VIII or IX concentrate). The priority of nursing care is the prevention and management of bleeding episodes (hemarthrosis – bleeding into a joint, is common).\n\nRecommended Text: Saunders Comprehensive Review for the NCLEX-RN® Examination."
+  },
+  {
+    "question": "The 6-year-old son of Mr. and Mrs. Peters is admitted to the healthcare facility with the diagnosis of idiopathic hypopituitarism. His height is measured below the third percentile and weight at the 40th percentile. Which of the following would be the first action of his attending nurse?",
+    "options": {
+      "A": "Recommend orthodontic referral for underdeveloped jaw.",
+      "B": "Collaborate with a dietician to assess his caloric needs.",
+      "C": "Provide for a tutor for his precocious intellectual ability.",
+      "D": "Place him in a room with a 2-year-old boy."
+    },
+    "answer": "B",
+    "explanation": "The data provided (height <3rd percentile, weight at 40th percentile) indicates that the child's weight is disproportionately higher than his height, a common finding in GH deficiency due to a tendency toward a chubby build.\n\n(B) Correct: The immediate physiological needs should be addressed. Given the discrepancy between height and weight, assessing the child's nutritional status and caloric needs is a priority. A dietician can help create a plan to provide balanced nutrition that supports potential growth once treatment is initiated, without leading to excessive weight gain. This is the most appropriate \"first\" nursing action focused on the patient's current status.\n\n(A) Incorrect: While an underdeveloped jaw can be a feature of GH deficiency, an orthodontic referral is a long-term management goal, not the first action upon admission.\n\n(C) Incorrect: Hypopituitarism does not cause precocious (advanced) intellectual ability. Intelligence is normal.\n\n(D) Incorrect: It is crucial to treat children according to their chronological and developmental age, not their physical size. Placing a 6-year-old with a 2-year-old would be developmentally inappropriate and would undermine his self-esteem. He needs age-appropriate toys, activities, and social interaction.",
+    "additional": "Assessment Discrepancy: The key to this question is interpreting the growth chart data. Low height with a normal or high weight-to-height ratio is classic for GH deficiency. In contrast, a child with failure to thrive due to malnutrition would have both low height and low weight.\n\nPsychosocial Support: The nurse's role includes fostering the child's self-esteem by emphasizing their strengths and abilities and treating them as the 6-year-old they are.\n\nRecommended Text: Wong's Nursing Care of Infants and Children."
+  },
+  {
+    "question": "The nurse is aware that the most common assessment finding in a child with ulcerative colitis is:",
+    "options": {
+      "A": "Intense abdominal cramps",
+      "B": "Profuse diarrhea",
+      "C": "Anal fissures",
+      "D": "Abdominal distention"
+    },
+    "answer": "B",
+    "explanation": "Ulcerative Colitis (UC) is an inflammatory bowel disease (IBD) characterized by continuous inflammation and ulceration of the mucosa and submucosa, beginning in the rectum and progressing proximally through the colon.\n\n(B) Correct: The inflammation of the colonic mucosa impairs its ability to absorb water and electrolytes and leads to increased motility. This results in the hallmark symptom of UC: profuse, often bloody and mucoid, diarrhea. The severity of the diarrhea directly correlates with the severity of the disease.\n\n(A) Incorrect: While abdominal cramping is a symptom of UC, it is also a primary symptom of Crohn's disease. Profuse, bloody diarrhea is more specific to and universally present in UC.\n\n(C) Incorrect: Anal fissures and fistulas are classic \"transmural\" (through the bowel wall) complications more commonly associated with Crohn's disease, not UC.\n\n(D) Incorrect: Abdominal distention can occur, but it is not as common or characteristic as the severe diarrhea.",
+    "additional": "Ulcerative Colitis vs. Crohn's Disease:\n\nUC: Affects only the colon, starts at the rectum, is a continuous inflammation, and affects only the mucosal layer. Bloody diarrhea is the hallmark.\n\nCrohn's: Can affect any part of the GI tract (mouth to anus), has \"skip lesions\" (areas of healthy tissue between diseased areas), is transmural (affects the entire bowel wall), and is more associated with abdominal pain, weight loss, and fistula formation.\n\nManagement: Treatment for IBD aims to control inflammation and includes 5-aminosalicylates (e.g., sulfasalazine), corticosteroids for acute flare-ups, and immunomodulators/biologics (e.g., infliximab). Nutritional support is critical.\n\nRecommended Text: Wong's Nursing Care of Infants and Children."
+  },
+  {
+    "question": "Hannah, age 12, is 7 months pregnant. When teaching parenting skills to an adolescent, the nurse knows that which teaching strategy is least effective?",
+    "options": {
+      "A": "Providing a one-on-one demonstration and requesting a return demonstration, using a live infant model",
+      "B": "Initiating a teenage parent support group with first and second-time mothers",
+      "C": "Using audiovisual aids that show discussions of feelings and skills"
+    },
+    "answer": "C",
+    "explanation": "This question is about selecting a developmentally appropriate teaching method for an adolescent. Adolescents are in Piaget's Formal Operational Stage, but their thinking can revert to concrete when under stress. They are also highly influenced by peers and need hands-on, relevant learning.\n\n(C) Correct as LEAST effective: While audiovisual aids can be a useful supplement, a passive activity like watching a video about feelings and skills is likely the least effective method when used alone. Adolescents learn best through active participation and social interaction. It lacks the hands-on practice and peer validation that are crucial for this age group.\n\n(A) Incorrect - this is effective: One-on-one demonstration with a model (and especially a live infant) is a highly effective, hands-on method that provides immediate feedback and builds confidence.\n\n(B) Incorrect - this is effective: Peer support groups are extremely effective for adolescents. They provide a safe space to share experiences, learn from others in similar situations, and reduce feelings of isolation. This method leverages the adolescent's strong need for peer connection and validation.",
+    "additional": "Adolescent Cognition: While capable of abstract thought, adolescents are often present-focused and may not fully grasp the long-term consequences of their actions. Teaching should be concrete, practical, and focus on the \"here and now.\"\n\nKey Concerns for Adolescent Parents:\n\nRisk of developmental delays for the infant.\n\nInterruption of the adolescent's own developmental tasks (identity formation, education, career planning).\n\nHigher risk of poverty and social isolation.\n\nNursing Role: The nurse's role is to be non-judgmental, provide concrete parenting skills education, connect the teen with resources (WIC, social services), and encourage continued education.\n\nRecommended Text: Maternal & Child Health Nursing: Care of the Childbearing & Childrearing Family."
+  },
+  {
+    "question": "When assessing a child's cultural background, the nurse in charge should keep in mind that:",
+    "options": {
+      "A": "Heritage dictates a group's shared values",
+      "B": "Physical characteristics mark the child as part of a particular culture",
+      "C": "Cultural background usually has little bearing on a family's health practices",
+      "D": "Behavioral patterns are passed from one generation to the next"
+    },
+    "answer": "D",
+    "explanation": "This question assesses understanding of the core concepts of culture.\n\n(D) Correct: This statement accurately describes a key aspect of culture. Culture is a learned set of beliefs, values, and behaviors that are shared by a group of people and are transmitted from one generation to the next. This includes health beliefs, communication styles, and family roles.\n\n(A) Incorrect: \"Dictates\" is too strong a word. While heritage influences values, it does not rigidly dictate them. Individual variation always exists, and the nurse must avoid stereotyping.\n\n(B) Incorrect: This confuses culture with race. Culture is a learned social construct, while race is often associated with physical characteristics. A person's physical appearance does not determine their cultural identity or beliefs.\n\n(C) Incorrect: This is the opposite of the truth. A family's cultural background has a profound bearing on their health beliefs and practices, including diet, views on illness, use of traditional remedies, and decision-making processes.",
+    "additional": "Cultural Competence in Nursing: Involves respecting patient diversity, performing culturally sensitive assessments, and providing care that is congruent with the patient's cultural beliefs and values.\n\nKey Assessment Areas:\n\nCommunication: Does the family need an interpreter? Are there norms about eye contact or personal space?\n\nFamily Roles: Who is the primary decision-maker?\n\nHealth Beliefs: What do they believe caused the illness?\n\nDietary Practices: Are there any religious or cultural dietary restrictions?\n\nAvoiding Stereotyping: The most important principle is to treat every patient as an individual. Ask open-ended questions to learn about their specific beliefs and practices.\n\nRecommended Text: Giger and Davidhizar's Transcultural Nursing."
+  },
+  {
+    "question": "It is considered as the bluntly rounded portion of the heart.",
+    "options": {
+      "A": "Base",
+      "B": "Pericardium",
+      "C": "Aorta",
+      "D": "Apex"
+    },
+    "answer": "D",
+    "explanation": "This is a straightforward question about the gross anatomy of the heart.\n\n(D) Correct: The apex is the inferior, pointed tip of the heart. It is \"bluntly rounded\" and is formed primarily by the left ventricle. It is clinically significant because this is where the apical pulse, or point of maximal impulse (PMI), is best heard.\n\n(A) Incorrect: The base of the heart is the broad, superior aspect where the great vessels (aorta, pulmonary artery, vena cavae) enter and leave. It is the \"top\" of the heart.\n\n(B) Incorrect: The pericardium is the double-walled sac that encloses the heart, not a portion of the heart muscle itself.\n\n(C) Incorrect: The aorta is the largest artery that exits the left ventricle, carrying oxygenated blood to the body.",
+    "additional": "Location of PMI/Apical Pulse:\n\nIn adults and children over 7: Found at the 5th intercostal space, midclavicular line.\n\nIn infants and young children (under 7): Found at the 4th intercostal space, just lateral to the midclavicular line, because the heart lies more horizontally.\n\nBlood Flow Through the Heart: It is essential to memorize the path of blood flow for the NCLEX.\n\nVena Cava -> Right Atrium -> Tricuspid Valve -> Right Ventricle -> Pulmonic Valve -> Pulmonary Artery -> Lungs -> Pulmonary Veins -> Left Atrium -> Mitral Valve -> Left Ventricle -> Aortic Valve -> Aorta -> Body.\n\nRecommended Text: Marieb & Hoehn, Human Anatomy & Physiology."
+  },
+  {
+    "question": "Scott is a teenager suffering from osteomyelitis; the nurse would expect which of the following symptoms? Select all that apply.",
+    "options": {
+      "A": "Fever",
+      "B": "Irritability",
+      "C": "Pallor",
+      "D": "Tenderness",
+      "E": "Swelling"
+    },
+    "answer": "A, B, D, E",
+    "explanation": "Osteomyelitis is an infection of the bone, which can be acute or chronic. It causes both systemic signs of infection and localized signs of inflammation.\n\n(A) Correct: Fever is a systemic sign of infection as the body mounts an immune response.\n\n(B) Correct: Severe, constant, pulsating pain from the infection and inflammation often leads to significant irritability, especially in children and adolescents who may have difficulty localizing or describing the pain.\n\n(D) Correct: The infected area of the bone will be extremely tender to palpation. The child will often guard the affected limb and refuse to move it (pseudoparalysis).\n\n(E) Correct: Swelling and warmth over the affected bone are localized signs of the inflammatory process.\n\n(C) Incorrect: Pallor (paleness) is not a direct sign of osteomyelitis. In fact, the localized area is more likely to be erythematous (red) due to inflammation. Pallor would be more associated with severe anemia.",
+    "additional": "Causative Organism: Staphylococcus aureus is the most common causative organism of osteomyelitis.\n\nDiagnosis: Diagnosis is made based on clinical signs, elevated inflammatory markers (ESR, CRP), blood cultures, and imaging (X-ray may be normal early on; MRI is more sensitive). Bone biopsy is the definitive diagnostic method.\n\nTreatment: Requires long-term (4-6 weeks) intravenous antibiotic therapy. Surgical debridement may be necessary to remove infected or necrotic bone. The limb is often immobilized to promote comfort and healing.\n\nRecommended Text: Saunders Comprehensive Review for the NCLEX-RN® Examination."
+  },
+  {
+    "question": "A nurse is assessing a 12-month-old infant during a well-child visit. The infant's birth weight was 7 lbs (3.2 kg). The nurse would expect the infant's current weight to be approximately:",
+    "options": {
+      "A": "14 lbs (6.4 kg)",
+      "B": "18 lbs (8.2 kg)",
+      "C": "21 lbs (9.5 kg)",
+      "D": "28 lbs (12.7 kg)"
+    },
+    "answer": "C",
+    "explanation": "This question directly tests the knowledge provided in the reference image and is a standard developmental milestone.\n\n(C) Correct: The reference material states, \"Most babies doubled their weight at... 6 months and tripled at 12 months.\" Therefore, an infant with a birth weight of 7 lbs should weigh approximately 7 lbs x 3 = 21 lbs at their 12-month checkup.\n\n(A) Incorrect: 14 lbs is double the birth weight, which is expected at 5-6 months, not 12 months.\n\n(B) Incorrect: 18 lbs is below the expected tripled birth weight.\n\n(D) Incorrect: 28 lbs would be quadrupling the birth weight, which is typically expected around 24-30 months.",
+    "additional": "Key Growth Milestones:\n\nWeight: Doubles by 5-6 months, triples by 12 months, quadruples by 24-30 months.\n\nLength: Increases by 50% by 12 months. Birth length doubles by age 4.\n\nHead Circumference: At birth, head circumference is 2-3 cm larger than chest circumference. They become equal around 1-2 years of age.\n\nFontanels:\n\nPosterior: Closes by 2-3 months.\n\nAnterior: Closes by 12-18 months. A bulging fontanel can indicate increased intracranial pressure; a sunken fontanel can indicate dehydration.\n\nRecommended Text: Wong's Nursing Care of Infants and Children."
+  },
+  {
+    "question": "A 5-year-old child tells the nurse, \"I was good and didn't cry when I got my shot, so can I have a sticker now?\" The nurse recognizes this behavior as characteristic of which stage of Kohlberg's moral development?",
+    "options": {
+      "A": "Stage 1: Obedience and Punishment",
+      "B": "Stage 2: Individualism and Exchange",
+      "C": "Stage 3: Good Boy-Nice Girl Orientation",
+      "D": "Stage 4: Law and Order Orientation"
+    },
+    "answer": "B",
+    "explanation": "The child's statement demonstrates a clear understanding of a reciprocal relationship, which is the hallmark of Stage 2.\n\n(B) Correct: The reference states that Stage 2 (Individualism and Exchange) is when \"behavior is driven by rewards or have favors returned.\" The child has performed a desired behavior (\"I was good\") with the explicit expectation of receiving a reward (\"can I have a sticker now?\"). This is a classic \"what's in it for me?\" or quid pro quo mindset.\n\n(A) Incorrect: Stage 1 is focused solely on avoiding punishment. The child's motivation is not just avoiding a negative outcome but actively seeking a positive one in return for good behavior.\n\n(C) Incorrect: Stage 3, part of Conventional Morality, is about seeking social approval and conforming to be seen as a \"good boy\" or \"nice girl.\" While related, the child's statement is more transactional and less focused on gaining the nurse's general approval or maintaining a social role. The age (5 years old) also fits perfectly with the Preconventional level (Stage 2: 4-7 years).\n\n(D) Incorrect: Stage 4 is about upholding rules and laws for the good of society, a concept far beyond the cognitive ability of a 5-year-old.",
+    "additional": "Kohlberg's Levels:\n\nPreconventional (Self-Interest): Focus is on avoiding punishment and getting rewards. (Toddler/Preschooler)\n\nConventional (Social Norms): Focus is on gaining approval and following societal laws. (School-Age/Adolescent)\n\nPostconventional (Universal Principles): Focus is on individual rights and universal ethical principles, which may even conflict with laws. (Some Adolescents/Adults)\n\nApplying these theories helps the nurse understand a child's motivation and tailor communication and interventions appropriately.\n\nRecommended Text: Wong's Nursing Care of Infants and Children."
+  },
+  {
+    "question": "The parents of a 9-month-old infant express concern to the nurse that their child is not yet walking. Which response by the nurse is most appropriate?",
+    "options": {
+      "A": "\"Most infants start walking by 9 months, so we should schedule a developmental evaluation.\"",
+      "B": "\"Don't worry, every child develops at their own pace; he will walk when he is ready.\"",
+      "C": "\"Your baby is currently working on skills like crawling and pulling to a stand, which are expected at this age.\"",
+      "D": "\"You should provide a baby walker to help encourage him to start walking sooner.\""
+    },
+    "answer": "C",
+    "explanation": "This question requires the nurse to provide accurate, therapeutic, and educational information based on normal developmental milestones.\n\n(C) Correct: The reference image for 8-9 months lists \"Crawls,\" \"Stands, holding on,\" and \"Begin to stand without help.\" This response correctly identifies the expected milestones for a 9-month-old, reassuring the parents that their child's development is on track while educating them about the typical progression of motor skills.\n\n(A) Incorrect: This provides false information and would cause unnecessary anxiety. The normal range for walking is wide, typically between 12 and 15 months. A 9-month-old is not expected to be walking.\n\n(B) Incorrect: This is false reassurance. While true that children develop at different paces, this response dismisses the parents' concern without providing any specific, educational information.\n\n(D) Incorrect: This is unsafe advice. The American Academy of Pediatrics (AAP) recommends against the use of infant walkers as they do not promote walking, can interfere with normal motor development, and pose a significant safety risk (e.g., falls down stairs).",
+    "additional": "Key Motor Milestones:\n\n4-5 months: Rolls over\n\n6-7 months: Sits with support\n\n8-9 months: Sits securely unsupported, crawls, pulls to stand\n\n10-12 months: Cruises (walks while holding onto furniture), may stand alone or take first steps.\n\nRed Flags: The absence of these milestones at the expected time (or loss of previously acquired milestones) warrants further investigation.\n\nRecommended Text: Wong's Nursing Care of Infants and Children."
+  },
+  {
+    "question": "A 2-year-old child was admitted to the hospital 3 days ago for pneumonia. The parents, who were initially at the bedside, had to leave. The nurse now observes that the child, who was previously crying inconsolably, is now quiet, withdrawn, and apathetic. The nurse interprets this behavior as which phase of separation anxiety?",
+    "options": {
+      "A": "Protest",
+      "B": "Despair",
+      "C": "Detachment",
+      "D": "Adjustment"
+    },
+    "answer": "B",
+    "explanation": "The phases of separation anxiety describe a predictable pattern of behavior in young children separated from their primary caregivers.\n\n(B) Correct: The reference image describes the Despair phase as when the \"child becomes withdrawn, hopeless, and apathetic.\" The child has stopped actively protesting the separation and has entered a state of profound sadness and grief. This can be mistaken for \"settling in,\" but it is actually a sign of deep distress.\n\n(A) Incorrect: The Protest phase occurs first and is characterized by active, loud, inconsolable crying and screaming for the parents. The child in the scenario has moved past this phase.\n\n(C) Incorrect: The Detachment phase occurs after prolonged separation. The child appears to have \"adjusted,\" becomes more interested in the environment, and may even be happy with caregivers. However, this is a coping mechanism. When the parents return, the child may ignore them, which is a sign of resentment and emotional protection.\n\n(D) Incorrect: \"Adjustment\" is not one of the formal phases and can be a misleading term for the despair or detachment phases.",
+    "additional": "Nursing Interventions to Minimize Separation Anxiety:\n\nEncourage parental presence: Rooming-in is the best option.\n\nMaintain routines: Follow the child's home routine for feeding, sleeping, and playing as much as possible.\n\nProvide transitional objects: Encourage parents to leave a favorite toy, blanket, or an item with their scent (e.g., a t-shirt).\n\nAssign a primary nurse: Promote consistency in caregivers.\n\nRecommended Text: Wong's Nursing Care of Infants and Children."
+  },
+  {
+    "question": "A nurse is providing discharge teaching to the parents of a healthy 3-year-old who weighs 35 lbs (15.9 kg). Which statement by the parents indicates an understanding of car seat safety guidelines?",
+    "options": {
+      "A": "\"He is over 2 years old, so we can turn his car seat to face forward now.\"",
+      "B": "\"We will keep him in his rear-facing car seat until he reaches the maximum height or weight limit for the seat.\"",
+      "C": "\"He can ride in a booster seat now since he is 3 years old.\"",
+      "D": "\"As long as he is in the back seat, he can use a regular seat belt.\""
+    },
+    "answer": "B",
+    "explanation": "Current AAP and NHTSA guidelines emphasize maximizing safety by keeping children in each stage of car seat for as long as possible.\n\n(B) Correct: This statement reflects the best practice recommendation. While the minimum age to turn forward-facing may be 2 years, it is safest to keep a child rear-facing until they reach the maximum height or weight limit specified by the car seat manufacturer. Rear-facing seats provide superior protection for the head, neck, and spine in a crash.\n\n(A) Incorrect: While this is the minimum age, it is not the best practice. The parent's statement implies that turning forward is something they should do, rather than something they can do, and ignores the \"best practice\" principle of maxing out the limits.\n\n(C) Incorrect: A booster seat is for older children who have outgrown their forward-facing harness seats. A 3-year-old is too young and small for a booster seat, which requires the child's skeleton to be more mature to handle the forces of a seat belt.\n\n(D) Incorrect: A 3-year-old is far too small for a regular seat belt, which would ride up on their abdomen and neck, causing severe internal and spinal injuries in a crash.",
+    "additional": "Car Seat Progression:\n\nRear-Facing: From birth until they outgrow the seat's height/weight limits (often up to 40-50 lbs).\n\nForward-Facing with Harness: After outgrowing the rear-facing seat, until they outgrow the harness limits (often up to 65 lbs).\n\nBooster Seat: After outgrowing the harness, until the vehicle's seat belt fits properly (typically around 4'9\" tall and 8-12 years old).\n\nSeat Belt: Once the booster is outgrown. All children under 13 should ride in the back seat.\n\nChest Clip Placement: The harness retainer clip (chest clip) should be placed at armpit level. Too low, and the child can be ejected; too high, and it can cause neck injury.\n\nRecommended Text: American Academy of Pediatrics (AAP) HealthyChildren.org website."
+  },
+  {
+    "question": "A nurse is assessing a 12-month-old infant during a well-child visit. The infant's birth weight was 7 lbs (3.2 kg). The nurse would expect the infant's current weight to be approximately:",
+    "options": {
+      "A": "14 lbs (6.4 kg)",
+      "B": "18 lbs (8.2 kg)",
+      "C": "21 lbs (9.5 kg)",
+      "D": "28 lbs (12.7 kg)"
+    },
+    "answer": "C",
+    "explanation": "This question directly tests the knowledge provided in the reference image and is a standard developmental milestone.\n\n(C) Correct: The reference material states, \"Most babies doubled their weight at... 6 months and tripled at 12 months.\" Therefore, an infant with a birth weight of 7 lbs should weigh approximately 7 lbs x 3 = 21 lbs at their 12-month checkup.\n\n(A) Incorrect: 14 lbs is double the birth weight, which is expected at 5-6 months, not 12 months.\n\n(B) Incorrect: 18 lbs is below the expected tripled birth weight.\n\n(D) Incorrect: 28 lbs would be quadrupling the birth weight, which is typically expected around 24-30 months.",
+    "additional": "Key Growth Milestones:\n\nWeight: Doubles by 5-6 months, triples by 12 months, quadruples by 24-30 months.\n\nLength: Increases by 50% by 12 months. Birth length doubles by age 4.\n\nHead Circumference: At birth, head circumference is 2-3 cm larger than chest circumference. They become equal around 1-2 years of age.\n\nFontanels:\n\nPosterior: Closes by 2-3 months.\n\nAnterior: Closes by 12-18 months. A bulging fontanel can indicate increased intracranial pressure; a sunken fontanel can indicate dehydration.\n\nRecommended Text: Wong's Nursing Care of Infants and Children."
+  },
+  {
+    "question": "A 5-year-old child tells the nurse, \"I was good and didn't cry when I got my shot, so can I have a sticker now?\" The nurse recognizes this behavior as characteristic of which stage of Kohlberg's moral development?",
+    "options": {
+      "A": "Stage 1: Obedience and Punishment",
+      "B": "Stage 2: Individualism and Exchange",
+      "C": "Stage 3: Good Boy-Nice Girl Orientation",
+      "D": "Stage 4: Law and Order Orientation"
+    },
+    "answer": "B",
+    "explanation": "The child's statement demonstrates a clear understanding of a reciprocal relationship, which is the hallmark of Stage 2.\n\n(B) Correct: The reference states that Stage 2 (Individualism and Exchange) is when \"behavior is driven by rewards or have favors returned.\" The child has performed a desired behavior (\"I was good\") with the explicit expectation of receiving a reward (\"can I have a sticker now?\"). This is a classic \"what's in it for me?\" or quid pro quo mindset.\n\n(A) Incorrect: Stage 1 is focused solely on avoiding punishment. The child's motivation is not just avoiding a negative outcome but actively seeking a positive one in return for good behavior.\n\n(C) Incorrect: Stage 3, part of Conventional Morality, is about seeking social approval and conforming to be seen as a \"good boy\" or \"nice girl.\" While related, the child's statement is more transactional and less focused on gaining the nurse's general approval or maintaining a social role. The age (5 years old) also fits perfectly with the Preconventional level (Stage 2: 4-7 years).\n\n(D) Incorrect: Stage 4 is about upholding rules and laws for the good of society, a concept far beyond the cognitive ability of a 5-year-old.",
+    "additional": "Kohlberg's Levels:\n\nPreconventional (Self-Interest): Focus is on avoiding punishment and getting rewards. (Toddler/Preschooler)\n\nConventional (Social Norms): Focus is on gaining approval and following societal laws. (School-Age/Adolescent)\n\nPostconventional (Universal Principles): Focus is on individual rights and universal ethical principles, which may even conflict with laws. (Some Adolescents/Adults)\n\nApplying these theories helps the nurse understand a child's motivation and tailor communication and interventions appropriately.\n\nRecommended Text: Wong's Nursing Care of Infants and Children."
+  },
+  {
+    "question": "The parents of a 9-month-old infant express concern to the nurse that their child is not yet walking. Which response by the nurse is most appropriate?",
+    "options": {
+      "A": "\"Most infants start walking by 9 months, so we should schedule a developmental evaluation.\"",
+      "B": "\"Don't worry, every child develops at their own pace; he will walk when he is ready.\"",
+      "C": "\"Your baby is currently working on skills like crawling and pulling to a stand, which are expected at this age.\"",
+      "D": "\"You should provide a baby walker to help encourage him to start walking sooner.\""
+    },
+    "answer": "C",
+    "explanation": "This question requires the nurse to provide accurate, therapeutic, and educational information based on normal developmental milestones.\n\n(C) Correct: The reference image for 8-9 months lists \"Crawls,\" \"Stands, holding on,\" and \"Begin to stand without help.\" This response correctly identifies the expected milestones for a 9-month-old, reassuring the parents that their child's development is on track while educating them about the typical progression of motor skills.\n\n(A) Incorrect: This provides false information and would cause unnecessary anxiety. The normal range for walking is wide, typically between 12 and 15 months. A 9-month-old is not expected to be walking.\n\n(B) Incorrect: This is false reassurance. While true that children develop at different paces, this response dismisses the parents' concern without providing any specific, educational information.\n\n(D) Incorrect: This is unsafe advice. The American Academy of Pediatrics (AAP) recommends against the use of infant walkers as they do not promote walking, can interfere with normal motor development, and pose a significant safety risk (e.g., falls down stairs).",
+    "additional": "Key Motor Milestones:\n\n4-5 months: Rolls over\n\n6-7 months: Sits with support\n\n8-9 months: Sits securely unsupported, crawls, pulls to stand\n\n10-12 months: Cruises (walks while holding onto furniture), may stand alone or take first steps.\n\nRed Flags: The absence of these milestones at the expected time (or loss of previously acquired milestones) warrants further investigation.\n\nRecommended Text: Wong's Nursing Care of Infants and Children."
+  },
+  {
+    "question": "A 2-year-old child was admitted to the hospital 3 days ago for pneumonia. The parents, who were initially at the bedside, had to leave. The nurse now observes that the child, who was previously crying inconsolably, is now quiet, withdrawn, and apathetic. The nurse interprets this behavior as which phase of separation anxiety?",
+    "options": {
+      "A": "Protest",
+      "B": "Despair",
+      "C": "Detachment",
+      "D": "Adjustment"
+    },
+    "answer": "B",
+    "explanation": "The phases of separation anxiety describe a predictable pattern of behavior in young children separated from their primary caregivers.\n\n(B) Correct: The reference image describes the Despair phase as when the \"child becomes withdrawn, hopeless, and apathetic.\" The child has stopped actively protesting the separation and has entered a state of profound sadness and grief. This can be mistaken for \"settling in,\" but it is actually a sign of deep distress.\n\n(A) Incorrect: The Protest phase occurs first and is characterized by active, loud, inconsolable crying and screaming for the parents. The child in the scenario has moved past this phase.\n\n(C) Incorrect: The Detachment phase occurs after prolonged separation. The child appears to have \"adjusted,\" becomes more interested in the environment, and may even be happy with caregivers. However, this is a coping mechanism. When the parents return, the child may ignore them, which is a sign of resentment and emotional protection.\n\n(D) Incorrect: \"Adjustment\" is not one of the formal phases and can be a misleading term for the despair or detachment phases.",
+    "additional": "Nursing Interventions to Minimize Separation Anxiety:\n\nEncourage parental presence: Rooming-in is the best option.\n\nMaintain routines: Follow the child's home routine for feeding, sleeping, and playing as much as possible.\n\nProvide transitional objects: Encourage parents to leave a favorite toy, blanket, or an item with their scent (e.g., a t-shirt).\n\nAssign a primary nurse: Promote consistency in caregivers.\n\nRecommended Text: Wong's Nursing Care of Infants and Children."
+  },
+  {
+    "question": "A nurse is providing discharge teaching to the parents of a healthy 3-year-old who weighs 35 lbs (15.9 kg). Which statement by the parents indicates an understanding of car seat safety guidelines?",
+    "options": {
+      "A": "\"He is over 2 years old, so we can turn his car seat to face forward now.\"",
+      "B": "\"We will keep him in his rear-facing car seat until he reaches the maximum height or weight limit for the seat.\"",
+      "C": "\"He can ride in a booster seat now since he is 3 years old.\"",
+      "D": "\"As long as he is in the back seat, he can use a regular seat belt.\""
+    },
+    "answer": "B",
+    "explanation": "Current AAP and NHTSA guidelines emphasize maximizing safety by keeping children in each stage of car seat for as long as possible.\n\n(B) Correct: This statement reflects the best practice recommendation. While the minimum age to turn forward-facing may be 2 years, it is safest to keep a child rear-facing until they reach the maximum height or weight limit specified by the car seat manufacturer. Rear-facing seats provide superior protection for the head, neck, and spine in a crash.\n\n(A) Incorrect: While this is the minimum age, it is not the best practice. The parent's statement implies that turning forward is something they should do, rather than something they can do, and ignores the \"best practice\" principle of maxing out the limits.\n\n(C) Incorrect: A booster seat is for older children who have outgrown their forward-facing harness seats. A 3-year-old is too young and small for a booster seat, which requires the child's skeleton to be more mature to handle the forces of a seat belt.\n\n(D) Incorrect: A 3-year-old is far too small for a regular seat belt, which would ride up on their abdomen and neck, causing severe internal and spinal injuries in a crash.",
+    "additional": "Car Seat Progression:\n\nRear-Facing: From birth until they outgrow the seat's height/weight limits (often up to 40-50 lbs).\n\nForward-Facing with Harness: After outgrowing the rear-facing seat, until they outgrow the harness limits (often up to 65 lbs).\n\nBooster Seat: After outgrowing the harness, until the vehicle's seat belt fits properly (typically around 4'9\" tall and 8-12 years old).\n\nSeat Belt: Once the booster is outgrown. All children under 13 should ride in the back seat.\n\nChest Clip Placement: The harness retainer clip (chest clip) should be placed at armpit level. Too low, and the child can be ejected; too high, and it can cause neck injury.\n\nRecommended Text: American Academy of Pediatrics (AAP) HealthyChildren.org website."
+  },
+  {
+    "question": "A 4-year-old child is hospitalized for a minor surgical procedure. The child tells the nurse, \"I'm sick because I was mean to my brother.\" The nurse's best response is:",
+    "options": {
+      "A": "\"That's not true. You're here because your body needs the doctor to help it get better.\"",
+      "B": "\"Don't worry, your brother will forgive you when you get home.\"",
+      "C": "\"What did you do that was mean to your brother?\"",
+      "D": "\"Lots of children feel that way, but being sick is not a punishment.\""
+    },
+    "answer": "D",
+    "explanation": "The reference image states that a preschooler \"believes that hospitalization is a punishment for bad actions.\" This is due to their magical thinking and egocentrism. The nurse must address this misconception directly and therapeutically.\n\n(D) Correct: This is the most therapeutic response. It first validates the child's feeling (\"Lots of children feel that way\"), which builds trust and shows the child they are not alone. Then, it gently corrects the misconception (\"but being sick is not a punishment\").\n\n(A) Incorrect: While factually correct, this response is dismissive of the child's feelings. It negates their belief without first acknowledging it, which can shut down communication.\n\n(B) Incorrect: This response reinforces the child's magical thinking by linking their brother's forgiveness to their recovery. It does not address the core misconception that the illness is a punishment.\n\n(C) Incorrect: This explores the \"misdeed\" rather than correcting the faulty logic. It can increase the child's guilt and anxiety.",
+    "additional": "Fears of the Preschooler: The primary fear is bodily mutilation. They do not have a clear concept of body integrity. A small cut or needle stick is perceived as a major injury where their \"insides could leak out.\" Using bandages (\"Band-Aids\") is very important to them as it makes them feel \"whole\" again.\n\nCommunication: Use simple, concrete terms. Avoid using idioms like \"a little stick in the arm\" as they may interpret it literally. Explain procedures immediately before they happen, not far in advance.\n\nRecommended Text: Wong's Nursing Care of Infants and Children."
+  },
+  {
+    "question": "A 14-year-old is hospitalized with a new diagnosis of Type 1 Diabetes. Which nursing intervention best addresses the primary psychosocial needs of this client?",
+    "options": {
+      "A": "Providing detailed written pamphlets about the pathophysiology of diabetes.",
+      "B": "Encouraging the parents to manage all aspects of insulin injections and glucose monitoring.",
+      "C": "Arranging for a visit from a peer who also has Type 1 Diabetes.",
+      "D": "Restricting visitors to immediate family only to allow for rest."
+    },
+    "answer": "C",
+    "explanation": "The reference material for adolescents highlights their \"fear of being different,\" \"concerns with appearance,\" and \"fears of separation from friends.\" Peer relationships are paramount.\n\n(C) Correct: This intervention directly addresses the adolescent's need for peer connection and validation. Meeting another teen who is successfully living with the same condition can dramatically reduce feelings of isolation and fear of being different. It provides hope and a role model. The reference also states to \"Allow visitation from peers if possible\" and \"Encourage interaction with friends.\"\n\n(A) Incorrect: While information is important, simply providing pamphlets is a passive approach that does not address the adolescent's immediate emotional and social needs.\n\n(B) Incorrect: This promotes dependency and loss of control, which is directly opposite to the adolescent's developmental need for independence. The teen should be actively involved in their own care from the beginning.\n\n(D) Incorrect: This isolates the adolescent from their primary support system—their friends. It would increase their feelings of separation and being different.",
+    "additional": "Key Needs of Hospitalized Adolescents:\n\nIndependence & Control: Involve them in decision-making. Give them choices.\n\nPrivacy: Always knock. Keep them covered.\n\nBody Image: Be sensitive to their concerns about scars, appearance, and changes to their body.\n\nPeer Connection: Facilitate contact with friends via phone, video chat, or in-person visits.\n\nRecommended Text: Wong's Nursing Care of Infants and Children."
+  },
+  {
+    "question": "Which of the following should be included when developing a teaching plan to prevent urinary tract infection? Select all that apply.",
+    "options": {
+      "A": "Wearing cotton underwear.",
+      "B": "Avoiding urination before and after intercourse.",
+      "C": "Emptying bladder with urination.",
+      "D": "Wearing underwear made of synthetic material such as nylon.",
+      "E": "Keeping urine alkaline by avoiding acidic beverages."
+    },
+    "answer": "A, C",
+    "explanation": "Option D: 'Wearing underwear made of synthetic material such as nylon' was incorrectly selected by the user.\n\nSynthetic materials like nylon and spandex are occlusive. They trap heat and moisture against the skin, creating a warm, damp environment. This environment is the perfect breeding ground for bacteria, particularly E. coli, which is the most common cause of UTIs. Cotton, in contrast, is a breathable fabric that allows for air circulation, keeping the perineal area drier and reducing the risk of bacterial overgrowth.\n\nOption B is INCORRECT: The correct teaching is to encourage urination, especially immediately after intercourse, to flush bacteria from the urethra.\n\nOption C is CORRECT: Emptying the bladder fully and frequently (not holding it) prevents urinary stasis, which is a major risk factor for bacterial growth.\n\nOption E is INCORRECT: The goal is to keep the urine acidic, not alkaline. An acidic environment is bacteriostatic (inhibits bacterial growth). Many bacteria, including E. coli, thrive in an alkaline environment.",
+    "additional": "Other UTI Prevention Strategies:\n\n- Ensure complete bladder emptying; avoid holding urine.\n- Drink plenty of fluids, especially water. Cranberry juice can help acidify urine.\n- For sexually active females, voiding immediately after intercourse.\n- Avoid bubble baths and harsh soaps that can irritate the urethra.\n- Wipe from front to back.\n\nRecommended Text: Saunders Comprehensive Review for the NCLEX-RN® Examination."
+  },
+  {
+    "question": "Mr. Lopez has a 7-year-old son with growth hormone (GH) deficiency. In planning anticipatory guidance, the nurse should keep in mind which of the following?",
+    "options": {
+      "A": "The child will need to avoid all physical activity due to delayed growth.",
+      "B": "The risk for fractures is increased because a GH deficiency results in fragile bones.",
+      "C": "Participation in sports is encouraged with proper guidance for size-related risks.",
+      "D": "GH therapy will eliminate the need for any psychosocial support."
+    },
+    "answer": "C",
+    "explanation": "Option B was incorrectly selected by the user.\n\nWhile untreated GH deficiency can lead to lower bone mineral density over the long term, it does not cause bones to be so fragile that normal childhood play is contraindicated. The primary risk associated with the child's small stature in sports is musculoskeletal injury from playing with larger, stronger peers, not spontaneous fractures from bone fragility. The most important nursing consideration is the child's psychosocial well-being and development of self-esteem, which is fostered by allowing participation in age-appropriate activities. Restricting activity based on a misunderstood risk of fractures would be detrimental to the child's development.\n\n(C) Correct: Children with GH deficiency should be encouraged to engage in normal peer activities, including sports, with awareness of their size and use of safety measures.",
+    "additional": "Correct Prioritization:\n\nPsychosocial Needs: Promote self-esteem and normalcy (Allow play).\n\nSafety: Guide parents toward sports where size is less of a factor (swimming, martial arts) and ensure proper safety gear is used.\n\nPhysiological Management: Focus on adherence to GH therapy, which will improve bone density and muscle mass over time.\n\nRecommended Text: Wong's Nursing Care of Infants and Children."
+  },
+  {
+    "question": "Which of the following statements about preventing urinary tract infections is correct? Select all that apply.",
+    "options": {
+      "A": "Urinate after intercourse to flush bacteria from the urethra.",
+      "B": "Avoid urinating before and after intercourse.",
+      "C": "Drink plenty of water throughout the day.",
+      "D": "Wearing cotton underwear helps reduce risk.",
+      "E": "Keep urine alkaline to prevent infections."
+    },
+    "answer": "A, C, D",
+    "explanation": "Option B is INCORRECT: The correct teaching is to encourage urination, especially immediately after intercourse, to flush bacteria from the urethra.\n\nOption C is CORRECT: Drinking plenty of fluids, especially water, helps flush the urinary tract and dilute bacteria.\n\nOption D is CORRECT: Cotton is breathable and keeps the perineal area dry, reducing bacterial growth.\n\nOption E is INCORRECT: The goal is to keep the urine acidic, as an acidic environment inhibits bacterial growth. Bacteria such as E. coli thrive in alkaline urine.",
+    "additional": "Key UTI Prevention Measures:\n\n- Urinate after sex.\n- Drink water and acidic fluids like cranberry juice.\n- Wipe front to back.\n- Avoid tight, synthetic clothing.\n\nRecommended Text: Saunders Comprehensive Review for the NCLEX-RN® Examination."
   }
 ]
+
+
+
+
+
+
+  
+  
+ 
+  
+  
+  
+  
+
 
 
 
