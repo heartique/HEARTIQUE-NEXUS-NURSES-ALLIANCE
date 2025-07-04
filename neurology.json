@@ -1688,8 +1688,57 @@
   "answer": "B",
   "explanation": "Correct (b): Autonomic dysreflexia (AD) is a medical emergency that occurs in patients with SCI at T6 or above. It is triggered by a noxious stimulus below the level of the injury. The most common trigger is a distended bladder, and the second most common is bowel impaction/constipation. Establishing a regular bowel program is a critical preventive measure.\n\nIncorrect (a): Dexamethasone is a corticosteroid used to reduce inflammation/swelling, not to prevent AD.\n\nIncorrect (c): This is dangerous misinformation. AD is a life-threatening condition that can lead to stroke, seizure, or death if not treated promptly.\n\nIncorrect (d): The signs of AD are severe, throbbing headache, profuse sweating above the level of injury, and severe hypertension and bradycardia, not hypotension and tachycardia.",
   "additional": "Deeper Insight: If a patient with an SCI develops symptoms of AD (sudden severe headache, soaring BP), the nurse's first action is to sit the patient upright (High-Fowler's position). This uses gravity to help lower the blood pressure. The second action is to find and remove the cause (check for bladder distention, check for bowel impaction, loosen tight clothing).\n\nPossible Next Question (NCK Focus): \"A client with a T4 spinal cord injury suddenly complains of a pounding headache and has a blood pressure of 210/110 mmHg. What is the nurse's priority action?\" The answer would be Raise the head of the bed to 90 degrees."
-}
+},
+{
+    "question": "A late manifestation of compartment syndrome is:-",
+    "options": {
+      "A": "Pallor.",
+      "B": "Paresthesia.",
+      "C": "Pulselessness.",
+      "D": "Pain."
+    },
+    "answer": "C",
+    "explanation": "Pulselessness is a late and ominous sign in compartment syndrome, indicating severe vascular compromise and possible irreversible damage.",
+    "additional": "6 P's of Compartment Syndrome:\n- Early: Pain (out of proportion), Paresthesia\n- Late: Pallor, Poikilothermia, Paralysis, Pulselessness\n\nCauses:\n- Fractures, crush injuries, tight casts/dressings\n\nPriority Nursing Action:\n- Notify HCP immediately\n- Loosen external pressure (e.g., bivalve cast)\n- DO NOT elevate limb above heart\n\nTreatment:\n- Fasciotomy\n\nTextbook Reference: Lewis’s Medical-Surgical Nursing, Chapter 62."
+  },
+  {
+    "question": "The type of seizures which may only affect a finger or hand is ;",
+    "options": {
+      "A": "Petit mal seizure",
+      "B": "Complex partial seizure",
+      "C": "Absent seizure",
+      "D": "Simple partial seizure"
+    },
+    "answer": "D",
+    "explanation": "Simple partial seizures (now called focal onset aware seizures) affect one part of the body without loss of consciousness. A finger or hand twitching is a classic example.",
+    "additional": "Types of Seizures:\n- Simple Partial: Localized, no loss of awareness\n- Complex Partial: Altered consciousness + automatisms\n- Absence (Petit Mal): Brief lapse in awareness, mostly in children\n\nSeizure First Aid:\n- Do not restrain\n- Turn to side, protect head\n- Postictal care: reorient, monitor\n\nStatus Epilepticus:\n- Emergency: ≥5 minutes seizure or no recovery between seizures\n- Treat with IV benzodiazepines\n\nTextbook Reference: Brunner & Suddarth’s, Chapter 66."
+  },
+  {
+    "question": "The frontal lobe of the brain is,",
+    "options": {
+      "A": "The primary receptive area for vision",
+      "B": "Mainly responsible for auditory sensation and coordination",
+      "C": "Centre for respiratory and vasomotor activity",
+      "D": "Responsible for abstract thinking, judgement and emotions"
+    },
+    "answer": "D",
+    "explanation": "The frontal lobe is responsible for executive functions such as planning, judgement, abstract thinking, personality, and voluntary movement.",
+    "additional": "Lobe Functions:\n- Frontal: Thinking, personality, Broca’s (speech), motor\n- Parietal: Touch, temperature, spatial processing\n- Temporal: Hearing, memory, Wernicke’s (language comprehension)\n- Occipital: Vision\n\nAphasia:\n- Broca’s (frontal): Non-fluent speech\n- Wernicke’s (temporal): Fluent but nonsensical speech\n\nTextbook Reference: Lewis’s Medical-Surgical Nursing, Chapter 55."
+  },
+  {
+    "question": "The following is true about stroke:-",
+    "options": {
+      "A": "Obesity is a modifiable risk factor for haemorrhagic stroke.",
+      "B": "Thrombolytic therapy is contra-indicated in haemorrhagic stroke.",
+      "C": "The head of the patient should be raised to 30 degrees.",
+      "D": "Haemorrhagic stroke is more common than ischaemic stroke."
+    },
+    "answer": "C",
+    "explanation": "Raising the head of the bed to 30° promotes venous drainage and reduces ICP in stroke patients, making it a standard nursing intervention.",
+    "additional": "Stroke Overview:\n- Ischemic (87%): clot-related\n- Hemorrhagic (13%): bleeding\n\nFAST Acronym:\n- Face drooping\n- Arm weakness\n- Speech difficulty\n- Time to act\n\nKey Points:\n- (B) is true but (C) is the most actionable nursing measure\n- CT scan first to rule out hemorrhage\n- tPA contraindicated in hemorrhagic stroke\n\nTextbook Reference: Brunner & Suddarth’s, Chapter 67."
+  }
 ]
+  
 
 
 
