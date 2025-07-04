@@ -418,6 +418,67 @@
     "answer": "A",
     "explanation": "(A) Why it's correct: PTH achieves its goal through three main actions:\n\nBone Resorption: It stimulates osteoclasts to break down bone and release calcium into the bloodstream.\n\nKidney Reabsorption: It increases the reabsorption of calcium in the renal tubules, preventing it from being lost in urine.\n\nIntestinal Absorption: It stimulates the kidneys to activate Vitamin D. Activated Vitamin D is then required for the absorption of dietary calcium from the intestines. So, while the action is indirect, PTH is essential for this process. This option is the most complete description of one of its key roles.",
     "additional": "Note: While listed in the exam, this question is more accurately classified under Endocrinology, as it deals with hormonal regulation of electrolytes. However, calcium plays a critical role in cardiac muscle contraction, so the concept is relevant.\n\n(B) Why it's incorrect: PTH stimulates the release of calcium from the bone; it does not inhibit it. The hormone that inhibits bone resorption is calcitonin.\n\n(C) Why it's incorrect: While PTH does increase the excretion of phosphate by the kidneys (a reciprocal action to retaining calcium), option (A) describes a more direct and primary function related to increasing overall calcium levels.\n\n(D) Why it's incorrect: The hormone that acts on renal tubules to retain water is Antidiuretic Hormone (ADH). The hormone that acts to retain sodium (and water follows) is Aldosterone. PTH does not have this function.\n\nCalcium and the Heart: Calcium is a critical electrolyte for cardiac muscle depolarization and contraction.\n\nHypocalcemia (low calcium) can lead to decreased cardiac contractility and ECG changes (prolonged QT interval).\n\nHypercalcemia (high calcium) can lead to increased contractility and ECG changes (shortened QT interval).\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 49 (Endocrine Problems). See the section on the \"Parathyroid Glands.\""
+  },
+  {
+    "question": "A client is experiencing symptoms of fluid overload. The first step in management before specific therapy is;",
+    "options": {
+      "a": "Measure urine output on an hourly basis",
+      "b": "Measure intravenous and oral fluid intake",
+      "c": "Elevate the client's head to at least 45 degrees",
+      "d": "Administer oxygen 4 L per minute by nasal cannula"
+    },
+    "answer": "c",
+    "explanation": "Correct (c): The symptoms of fluid overload (also known as hypervolemia) often include respiratory distress (dyspnea, orthopnea, crackles in the lungs) due to pulmonary edema. Elevating the head of the bed (Semi-Fowler's or High-Fowler's position) is the immediate priority. This action uses gravity to decrease venous return to the heart and allows for maximum lung expansion, which immediately eases the work of breathing and improves oxygenation. This is a rapid, non-invasive intervention that directly addresses the most life-threatening symptom.\n\nIncorrect (a, b): Measuring intake and output is a crucial assessment and monitoring tool, but it does not provide immediate relief. It is part of the ongoing management, not the first step to alleviate acute symptoms.\n\nIncorrect (d): Administering oxygen is also a very important intervention for a hypoxic patient, but positioning the patient to improve their own breathing mechanics is the foundational first step. Often, positioning alone can significantly improve oxygen saturation. The ABCs (Airway, Breathing, Circulation) guide this: positioning opens the airway and improves the mechanics of breathing.",
+    "additional": "Deeper Insight: The signs and symptoms of fluid volume excess include: weight gain, edema (peripheral and pulmonary), distended neck veins (JVD), bounding pulse, hypertension, and shortness of breath with crackles on auscultation. Management includes positioning, oxygen therapy, fluid restriction, and administration of diuretics (like furosemide).\n\nPossible Next Question (NCK Focus): \"A nurse is administering a dose of intravenous furosemide to a client with fluid overload. Which lab value is most important for the nurse to monitor?\" The answer would be serum potassium, as loop diuretics like furosemide cause significant potassium loss."
+  },
+  {
+    "question": "A client in renal failure is at risk for Hyperkalemia. The following parameters point to Hyperkalemia except;",
+    "options": {
+      "a": "Tall peaked T waves",
+      "b": "Flattened P waves",
+      "c": "Prominent U waves on EKG",
+      "d": "Widened QRS"
+    },
+    "answer": "c",
+    "explanation": "Correct (c): The question asks what is NOT a sign of hyperkalemia. Prominent U waves are a classic ECG finding in HYPOkalemia (low potassium), not hyperkalemia.\n\nIncorrect (a, b, d): These are all characteristic ECG changes of HYPERkalemia (high potassium). As potassium levels rise, the typical progression on an ECG is:\n\nTall, peaked T waves (earliest sign).\n\nProlonged PR interval.\n\nFlattened or absent P waves.\n\nWidened QRS complex.\n\nUltimately, the QRS can merge with the T wave to form a sine-wave pattern, which precedes asystole or ventricular fibrillation.",
+    "additional": "Deeper Insight: Hyperkalemia is the most life-threatening electrolyte imbalance because it can cause fatal cardiac arrhythmias. It is a common complication of renal failure because the kidneys are responsible for excreting potassium. Management of severe hyperkalemia includes administering IV calcium gluconate (to stabilize the cardiac membrane), insulin and glucose (to drive potassium into the cells), sodium bicarbonate, and Kayexalate or dialysis (to remove potassium from the body).\n\nPossible Next Question (NCK Focus): \"A client's potassium level is 6.8 mEq/L. The nurse anticipates an order for which medication to be administered first to protect the heart?\" The answer is intravenous calcium gluconate."
+  },
+  {
+    "question": "A client is admitted to the cardiac intensive care unit after coronary artery bypass graft surgery. The nurse notes that in the first hour after admission, the mediastinal chest tube drainage was 75ml. The nurse interprets that;",
+    "options": {
+      "a": "This is normal",
+      "b": "The tube may be occluded",
+      "c": "The lung has fully expanded",
+      "d": "The client needs to cough and deep breath"
+    },
+    "answer": "a",
+    "explanation": "Correct (a): Following cardiac surgery, some bleeding into the mediastinal space is expected. Drainage from a mediastinal chest tube up to 100-150 ml per hour in the first few hours post-op is considered normal. An output of 75 ml in the first hour is well within this expected range.\n\nIncorrect (b): If the tube were occluded, there would be little to no drainage, which would be a cause for concern as it could lead to cardiac tamponade (blood accumulating around the heart and compressing it).\n\nIncorrect (c): A mediastinal tube drains fluid from around the heart, not the pleural space. Therefore, its output is not an indicator of lung expansion. A pleural chest tube would be used for that purpose.\n\nIncorrect (d): While coughing and deep breathing are important post-op interventions to prevent atelectasis, they are not directly related to the interpretation of this specific amount of chest tube drainage.",
+    "additional": "Deeper Insight: The nurse must closely monitor mediastinal tube output. A sudden cessation of previously flowing drainage is a red flag for a clot or occlusion. Conversely, drainage that is excessive (e.g., >200 ml/hr for a few consecutive hours) or suddenly becomes bright red and profuse is a red flag for hemorrhage. Both situations are emergencies requiring immediate physician notification.\n\nPossible Next Question (NCK Focus): \"The mediastinal chest tube of a client who is 4 hours post-CABG suddenly stops draining. The client's blood pressure drops to 85/60 mmHg, heart rate is 130 bpm, and neck veins are distended. The nurse suspects which complication?\" The answer would be cardiac tamponade."
+  },
+  {
+    "question": "A patient complains of substernal chest pain. The ECG shows changes with elevated cardiac troponin. What is the next step the nurse should take;",
+    "options": {
+      "a": "Giving oxygen",
+      "b": "Confirming suspected diagnosis first",
+      "c": "Giving pain medication",
+      "d": "Keep the patient in a calm environment"
+    },
+    "answer": "a",
+    "explanation": "Correct (a): The combination of chest pain, ECG changes, and elevated troponins confirms a myocardial infarction (MI). The immediate goals are to increase myocardial oxygen supply and decrease myocardial oxygen demand. Applying oxygen is a primary step to increase oxygen saturation and supply to the ischemic heart muscle, even if the pulse oximetry reading is >94%, as per many protocols. The standard mnemonic for initial MI care is MONA (Morphine, Oxygen, Nitroglycerin, Aspirin), though the order of application varies. Oxygen is almost always a correct early step.\n\nIncorrect (b): The diagnosis is already strongly suspected, if not confirmed. Waiting for further confirmation delays critical treatment.\n\nIncorrect (c): Giving pain medication (morphine) is also a correct and very high-priority action, as it reduces pain, anxiety, and myocardial oxygen demand. However, ensuring oxygenation (the 'O' in ABC) is often considered the foundational step. In practice, oxygen, aspirin, and nitroglycerin are often given nearly simultaneously.\n\nIncorrect (d): Keeping the patient calm is important but is an outcome of other interventions like providing reassurance and giving morphine. It is not the first, most direct therapeutic action.",
+    "additional": "Deeper Insight: The current evidence-based sequence for MI treatment is often cited as:\n\nAspirin: Chewable aspirin (162-325 mg) is given immediately to inhibit platelet aggregation.\n\nNitroglycerin: Sublingual nitroglycerin is given to dilate coronary arteries and reduce preload, unless the patient is hypotensive or has taken a phosphodiesterase inhibitor (like sildenafil).\n\nOxygen: Applied if the patient is hypoxic (SpO2 < 94%).\n\nMorphine: Given for persistent chest pain not relieved by nitroglycerin.\n\nPossible Next Question (NCK Focus): \"A nurse is preparing to administer sublingual nitroglycerin to a client with chest pain. Which assessment finding would cause the nurse to hold the medication and notify the physician?\" The answer would be a blood pressure of 88/50 mmHg."
+  },
+  {
+    "question": "A client who had aortic aneurysm comes with severe chest pain, anxious and diaphoretic. The patient is at risk of;",
+    "options": {
+      "a": "Septic shock",
+      "b": "Anaphylactic shock",
+      "c": "Cardiogenic shock",
+      "d": "Hypovolemic shock"
+    },
+    "answer": "d",
+    "explanation": "Correct (d): An aortic aneurysm is a weakened, bulging area in the wall of the aorta. Severe chest or back pain (\"ripping\" or \"tearing\" in nature), anxiety, and diaphoresis are classic signs of an aortic dissection or rupture. A rupture leads to massive internal hemorrhage into the thoracic or abdominal cavity. This catastrophic loss of circulating blood volume results in hypovolemic shock.\n\nIncorrect (a, b): Septic shock is caused by infection, and anaphylactic shock is caused by an allergic reaction. These are not related to an aortic aneurysm rupture.\n\nIncorrect (c): Cardiogenic shock is pump failure (the heart muscle itself fails), often due to a massive MI. While dissection can lead to complications that cause pump failure (like cardiac tamponade or MI if the coronary arteries are involved), the primary and most immediate shock state from a rupture is due to blood loss (hypovolemia).",
+    "additional": "Deeper Insight: An aortic dissection/rupture is one of the most lethal medical emergencies. The absolute priority is to control blood pressure and heart rate to reduce the force of ejection and shear stress on the aorta. This is typically done with IV beta-blockers (like esmolol or labetalol). The patient will require immediate surgical repair.\n\nPossible Next Question (NCK Focus): \"What is the priority assessment finding in a client with a suspected thoracic aortic aneurysm?\" The answer would be a difference in blood pressure between the right and left arms."
   }
 ]
+
 
