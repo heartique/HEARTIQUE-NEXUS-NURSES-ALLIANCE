@@ -490,8 +490,94 @@
     "answer": "A",
     "explanation": "Heparin therapy is monitored using activated Partial Thromboplastin Time (aPTT). The typical therapeutic goal is an aPTT of 1.5 to 2.5 times the normal value. Among the listed options, 'One to two times' is the most appropriate range, even though it slightly understates the higher end of the therapeutic window.",
     "additional": "Monitoring:\n- aPTT is the primary lab test for IV Heparin.\n\nTherapeutic Range:\n- 1.5 to 2.5 times the normal control value.\n\nAntidote:\n- Protamine Sulfate.\n\nImportant Concepts:\n- Heparin acts via antithrombin III to inactivate thrombin and factor Xa.\n- LMWHs (e.g., enoxaparin) usually don’t need routine aPTT checks.\n- Watch for Heparin-Induced Thrombocytopenia (HIT), a life-threatening complication.\n\nReference: Davis's Drug Guide for Nurses (for Heparin)."
+  },
+  {
+    "question": "The primary reason for administering digoxin (Lanoxin) to a patient is to,",
+    "options": {
+      "A": "Relax the walls of the heart's arteries.",
+      "B": "Improve the strength of the heart beat.",
+      "C": "Prevent irregularities in ventricular contractions.",
+      "D": "Decrease inflammation of the heart wall."
+    },
+    "answer": "B",
+    "explanation": "Digoxin is a cardiac glycoside, a class of medication with very specific effects on the heart muscle.\n\nPrimary Mechanism (Inotropy): Digoxin's main therapeutic action is its positive inotropic effect. This means it increases the force and velocity of myocardial contraction. It achieves this by inhibiting the Na+/K+-ATPase pump in cardiac cells, which leads to an increase in intracellular calcium. More calcium available to the contractile proteins results in a stronger heartbeat. This is particularly useful in heart failure, where the heart's pumping ability is weakened.\n\nOther Effects (Chronotropy/Dromotropy): Digoxin also has a negative chronotropic (decreases heart rate) and negative dromotropic (slows conduction through the AV node) effect. This is why it's also used to control the ventricular rate in tachyarrhythmias like atrial fibrillation. However, its primary purpose, especially in heart failure, is to improve contractility.",
+    "additional": "Analyzing the Options:\n\n(a) Relaxing arteries is the function of vasodilators (like nitrates or ACE inhibitors).\n\n(c) While it helps control the rate of ventricular contractions in atrial fibrillation, its main role isn't preventing the irregularities themselves. Antiarrhythmics like amiodarone are used for that.\n\n(d) Decreasing inflammation is the function of anti-inflammatory drugs (like NSAIDs or steroids).\n\nDigoxin Toxicity: This is a major and frequently tested concept. Digoxin has a very narrow therapeutic range (typically 0.5-2.0 ng/mL).\n\nSigns & Symptoms: Early signs include GI distress (anorexia, nausea, vomiting). Later signs include neurological issues (fatigue, confusion) and classic visual disturbances (blurred vision, yellow-green halos around lights).\n\nCardiac Signs: Toxicity can cause a wide range of arrhythmias, but the most classic sign is bradycardia.\n\nNursing Implications:\n\nApical Pulse: The nurse must check the patient's apical pulse for a full minute before administering digoxin. The medication is typically held if the heart rate is <60 bpm in an adult.\n\nElectrolytes: Hypokalemia (low potassium) is the most common cause of digoxin toxicity because potassium and digoxin compete for the same binding sites on the Na+/K+-ATPase pump. When potassium is low, more digoxin can bind, increasing its effect. Nurses must monitor potassium levels closely. Hypercalcemia and hypomagnesemia also increase the risk.\n\nAntidote: The antidote for severe digoxin toxicity is Digoxin Immune Fab (Digibind).\n\nTextbook Reference: Lewis's Medical-Surgical Nursing: Assessment and Management of Clinical Problems, Chapter 34: Heart Failure."
+  },
+  {
+    "question": "The priority nursing diagnosis for a patient with heart failure and pulmonary oedema is,",
+    "options": {
+      "A": "Risk for infection related to stasis of alveolar secretions",
+      "B": "Impaired skin integrity related to pressure",
+      "C": "Activity intolerance related to pump failure",
+      "D": "Constipation related to immobility"
+    },
+    "answer": "C",
+    "explanation": "Pulmonary edema is a life-threatening complication of acute decompensated heart failure. The left ventricle is too weak to pump blood forward, causing it to back up into the lungs. This leads to severe dyspnea and hypoxia.\n\nEvaluating the Options:\n\n(a) Risk for infection is a valid concern, as fluid-filled lungs are a breeding ground for bacteria, but it is not the immediate priority over the hemodynamic and oxygenation problems.\n\n(b) Impaired skin integrity is a risk due to edema and immobility, but it is a long-term problem, not the acute priority.\n\n(c) Activity intolerance directly addresses the core problem: the heart (the pump) is failing to meet the body's metabolic demands. This pump failure is the root cause of all the other symptoms, including the pulmonary edema. The extreme fatigue and dyspnea on exertion are manifestations of this profound intolerance.\n\n(d) Constipation is a potential secondary problem but is the lowest priority.",
+    "additional": "Prioritization: In nursing, we use Maslow's hierarchy or the ABCs (Airway, Breathing, Circulation). The patient with pulmonary edema has a critical problem with Breathing and Circulation. Activity intolerance is a direct reflection of the failing circulation (pump failure). Therefore, it is the most relevant and high-priority diagnosis among the choices provided.\n\nHallmark Signs of Pulmonary Edema:\n- Severe dyspnea, tachypnea, and orthopnea (inability to breathe while lying flat).\n- Pink, frothy sputum (classic sign).\n- Crackles (rales) heard on lung auscultation.\n- Anxiety, restlessness, feeling of impending doom.\n\nPriority Nursing Interventions for Pulmonary Edema:\n\nPositioning: Place the patient in a high-Fowler's position with legs dependent (dangling). This helps to decrease venous return to the heart (preload) and allows for maximal lung expansion.\n\nOxygen: Administer high-flow oxygen via a non-rebreather mask.\n\nMedications (L-M-N-O-P):\n- Lasix (Furosemide): A potent loop diuretic to rapidly pull fluid off the lungs.\n- Morphine: A vasodilator that reduces preload and afterload, and also decreases anxiety and the work of breathing.\n- Nitrates (Nitroglycerin): A potent vasodilator to reduce preload.\n- Oxygen.\n- Positioning.\n\nMonitoring: Continuous monitoring of vital signs, oxygen saturation, and urine output (to assess diuretic effectiveness) is crucial.\n\nTextbook Reference: Brunner & Suddarth's Textbook of Medical-Surgical Nursing, Chapter 29: Management of Patients with Heart Failure."
+  },
+  {
+    "question": "The risk for macrovascular complications in diabetes mellitus may be reduced by,",
+    "options": {
+      "A": "Lowering BP, avoiding nephrotoxic substances & reducing strenuous exercises.",
+      "B": "Weight reduction, reducing fat/triglyceride levels, quitting smoking.",
+      "C": "Foot care, early diagnosis of retinal detachment & daily U/Es checkups.",
+      "D": "High fibre diet, low fat diet & prompt treatment of systemic infections"
+    },
+    "answer": "B",
+    "explanation": "This question connects the endocrine system (diabetes) with the cardiovascular system.\n\nMacrovascular Complications: In diabetes, these are diseases of the large blood vessels. They include Coronary Artery Disease (CAD), Peripheral Artery Disease (PAD), and Cerebrovascular Disease (stroke). The underlying pathology is atherosclerosis, which is accelerated by hyperglycemia.\n\nReducing Atherosclerosis Risk: The goal is to manage all known risk factors for atherosclerosis.\n\nWeight reduction: Decreases the overall metabolic burden, improves insulin sensitivity, and helps lower blood pressure.\n\nReducing fat/triglyceride levels: Directly targets dyslipidemia, a key component of plaque formation. This involves dietary changes and often statin medication.\n\nQuitting smoking: Smoking is a major independent risk factor for atherosclerosis. It damages the endothelial lining of blood vessels, promotes vasoconstriction, and increases platelet aggregation.",
+    "additional": "Analyzing Other Options:\n\n(a) Lowering BP is correct, but reducing strenuous exercise is generally incorrect (exercise is beneficial).\n\n(c) Foot care and retinal diagnosis relate to microvascular complications (neuropathy, retinopathy).\n\n(d) A good diet is correct, but this option is less comprehensive and specific to macrovascular risk than option (b). Option (b) lists the \"big three\" modifiable risk factors for atherosclerotic disease.\n\nMicrovascular vs. Macrovascular: Be able to differentiate between them.\n\nMicrovascular: Damage to small vessels. Includes retinopathy (eyes), nephropathy (kidneys), and neuropathy (nerves). Tightly controlling blood glucose is the most important factor in preventing these.\n\nMacrovascular: Damage to large vessels (CAD, PAD, stroke). Prevention requires a multifactorial approach: glucose control, blood pressure control, lipid management, and lifestyle changes (smoking cessation, diet, exercise).\n\nABC's of Diabetes Management:\nA: A1c (measure of glycemic control, goal <7%).\nB: Blood Pressure (goal often <130/80 mmHg).\nC: Cholesterol (LDL goal often <100 mg/dL or 2.6 mmol/L).\n\nPharmacological Interventions: Besides anti-diabetic agents, patients often need an ACE inhibitor or ARB for blood pressure and kidney protection, a statin for cholesterol, and low-dose aspirin for antiplatelet effect.\n\nTextbook Reference: Lewis's Medical-Surgical Nursing: Assessment and Management of Clinical Problems, Chapter 48: Diabetes Mellitus."
+  },
+  {
+    "question": "Hyperkalemia commonly occurs in the following,",
+    "options": {
+      "A": "Burns, pneumonia and congestive cardiac failure.",
+      "B": "Renal failure, crush injuries and burns.",
+      "C": "Digitalis toxicity, DKA and hyperthyroidism.",
+      "D": "Overuse of potassium sparing diuretics, CCF and liver cirrhosis"
+    },
+    "answer": "B",
+    "explanation": "Hyperkalemia is a high serum potassium level (>5.0 mEq/L). It occurs from either increased potassium intake, decreased potassium excretion, or a shift of potassium from inside the cells to the bloodstream.\n\nRenal Failure: The kidneys are the primary route for potassium excretion. In renal failure, the kidneys cannot adequately filter potassium from the blood, leading to its accumulation. This is the most common cause of chronic hyperkalemia.\n\nCrush Injuries & Burns: These conditions cause massive cell destruction (rhabdomyolysis). Potassium is primarily an intracellular ion. When large numbers of cells are damaged, they release their intracellular potassium into the bloodstream, causing acute, severe hyperkalemia.",
+    "additional": "Analyzing Other Options:\n\n(a) CCF can cause hyperkalemia, but usually due to medications (like ACE inhibitors or spironolactone). Pneumonia is not a direct cause.\n\n(c) Digitalis toxicity can cause hyperkalemia, but DKA initially causes a shift of potassium out of cells, leading to hyperkalemia, which is then followed by massive total body potassium loss through the urine. Hyperthyroidism is not a primary cause.\n\n(d) Overuse of potassium-sparing diuretics is a correct cause, but liver cirrhosis is not a direct cause.\n\nECG Changes in Hyperkalemia:\n- Tall, peaked T waves (earliest sign)\n- Prolonged PR interval\n- Loss of P wave\n- Widening of the QRS complex\n- Sine wave pattern, leading to ventricular fibrillation or asystole.\n\nManagement of Hyperkalemia (Emergency) — Mnemonic: C BIG K-Drop:\nC: Calcium Gluconate (IV) — Stabilizes cardiac membrane.\nB: Bicarbonate or Beta-agonists (salbutamol) — Shift K+ into cells.\nI-G: Insulin with Glucose — Drives K+ into cells, prevents hypoglycemia.\nK-Drop: Kayexalate or potassium-excreting diuretics (Furosemide). Dialysis for definitive removal.\n\nTextbook Reference: Brunner & Suddarth's Textbook of Medical-Surgical Nursing, Chapter 13: Fluid and Electrolytes: Balance and Disturbance."
+  },
+  {
+    "question": "Physiological anemia is best defined as;",
+    "options": {
+      "A": "Low haemoglobin as a result of increase in foetal requirements",
+      "B": "Increase in plasma volume greater than the red blood cells",
+      "C": "Haemodilution as a result of fluid retention",
+      "D": "Haemoglobin less than 7g/dl"
+    },
+    "answer": "B",
+    "explanation": "\"Physiological anemia of pregnancy\" is a normal and expected finding during pregnancy, not a true pathological state.\n\nHemodilution: During pregnancy, there are significant cardiovascular adaptations to support the growing fetus.\n\nPlasma Volume: Increases dramatically, by about 40-50%.\n\nRed Blood Cell (RBC) Mass: Also increases, but to a lesser extent, only by about 20-30%.\n\nThe Result: Because the liquid portion of the blood (plasma) increases more than the cell portion (RBCs), the blood becomes more dilute. This results in a lower hemoglobin and hematocrit reading on a complete blood count. It's not that the woman is losing blood or failing to make it; the cells are simply suspended in a larger volume of fluid.",
+    "additional": "Option (c) is also correct but less specific than (b).\n\nTiming: Most pronounced at the beginning of the third trimester (around 32–34 weeks gestation).\n\nDefining Anemia in Pregnancy:\n1st Trimester: Hb < 11 g/dL\n2nd Trimester: Hb < 10.5 g/dL\n3rd Trimester: Hb < 11 g/dL\n\nPurpose of Hemodilution: Decreases blood viscosity, reducing cardiac workload. It also provides a fluid reserve in case of blood loss during delivery.\n\nTextbook Reference: Varney's Midwifery or any standard Obstetrics textbook covering physiological changes in pregnancy."
+  },
+  {
+    "question": "Hypokalemia is a condition characterized by low»",
+    "options": {
+      "A": "Blood calcium level",
+      "B": "Magnesium in the blood.",
+      "C": "Potassium levels in the blood",
+      "D": "Sodium levels in the blood."
+    },
+    "answer": "C",
+    "explanation": "This is a straightforward medical terminology question.\n\nHypo-: Prefix meaning low or below normal.\n-kal-: Root referring to potassium (from its Latin name, kalium).\n-emia: Suffix meaning \"in the blood.\"\n\nPutting it together, Hypokalemia literally means low potassium in the blood (serum K+ < 3.5 mEq/L).",
+    "additional": "Other Options:\n(a) Low calcium is hypocalcemia.\n(b) Low magnesium is hypomagnesemia.\n(d) Low sodium is hyponatremia.\n\nCauses:\n- GI Losses: Diarrhea, vomiting, NG suction.\n- Renal Losses: Diuretics (loop, thiazide), hyperaldosteronism.\n- Inadequate intake (rare alone).\n- Shift into cells: Alkalosis, insulin therapy.\n\nSymptoms:\n- Muscular: Weakness, cramps, fatigue.\n- GI: Constipation, paralytic ileus.\n- Cardiac: Palpitations, arrhythmias.\n\nECG Signs:\n- Flattened or inverted T waves\n- Prominent U wave\n- ST depression\n\nTreatment:\n- Oral K+ for mild cases\n- IV K+ for severe cases. Never push IV potassium! Infuse slowly (max 10 mEq/hr).\n\nTextbook Reference: Brunner & Suddarth's Textbook of Medical-Surgical Nursing, Chapter 13: Fluid and Electrolytes."
+  },
+  {
+    "question": "Absorption of iron is enhanced by:",
+    "options": {
+      "A": "Antacids",
+      "B": "Citrus fruits",
+      "C": "Tea and coffee",
+      "D": "Taking iron tablets with meals"
+    },
+    "answer": "B",
+    "explanation": "Iron absorption from the GI tract is a complex process influenced by several factors.\n\nRole of Acid: Iron is best absorbed in its ferrous (Fe2+) state, and an acidic environment in the stomach helps to keep it in this more soluble form.\n\nVitamin C (ascorbic acid): Reduces ferric iron (Fe3+) to ferrous iron (Fe2+), improving absorption. Citrus fruits are rich in Vitamin C.",
+    "additional": "Inhibitors:\n(a) Antacids: Neutralize stomach acid, reduce iron absorption.\n(c) Tea/Coffee: Contain tannins/polyphenols — inhibit absorption.\n(d) Meals: May reduce absorption due to calcium/phytates. Iron is best taken on an empty stomach but may cause GI upset.\n\nHeme vs. Non-Heme Iron:\n- Heme: Animal products; easily absorbed.\n- Non-Heme: Plant foods; absorption affected by enhancers/inhibitors.\n\nNursing Tips:\n- Take iron with Vitamin C (e.g., orange juice).\n- Avoid milk, tea, coffee at time of dose.\n- Side effects: Black stools (harmless), nausea, constipation.\n- Liquid iron: May stain teeth. Use straw and dilute.\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, Chapter 30: Hematologic Problems."
   }
 ]
+
+
 
   
 
