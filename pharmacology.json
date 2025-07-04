@@ -849,7 +849,56 @@
     "answer": "C",
     "explanation": "Lipodystrophy refers to changes in the subcutaneous fat at injection sites. It can manifest as either lipohypertrophy (a buildup of fat, creating a spongy lump) or lipoatrophy (a loss of fat, creating a dent). It is caused by repeatedly injecting insulin into the exact same spot. This can interfere with insulin absorption, leading to poor glycemic control. The most important intervention to prevent this is to systematically rotate injection sites.",
     "additional": "Why A, B, and D are incorrect:\nA: Cleansing the skin is important for infection control but does not prevent lipodystrophy.\nB: Aspiration is no longer recommended for subcutaneous injections like insulin.\nD: The angle for a subcutaneous injection is either 45 or 90 degrees, depending on the amount of subcutaneous fat. 350 degrees is not an angle.\n\nAdditional Possible Content to be Tested Next:\n- Insulin Injection Sites: Abdomen (most common, fastest absorption), back of the upper arms, outer thighs, and buttocks.\n- Site Rotation Plan: Instruct the patient to use one anatomical area (e.g., the abdomen) for a week, rotating sites within that area about one inch apart, before moving to a new anatomical area (e.g., the thigh). This provides more consistent absorption than randomly jumping between different body parts for each injection.\n- Types of Insulin: Rapid-acting (Lispro), Short-acting (Regular), Intermediate-acting (NPH), and Long-acting (Glargine, Detemir). Know their onset, peak, and duration."
+  },
+  {
+    "question": "The nurse when educating the client on the adverse effects of phenytoin (Dilantin), tells him to report which of the following to the health care provider?",
+    "options": {
+      "A": "Gingival hyperplasia",
+      "B": "Abdominal pain",
+      "C": "Loss of balance",
+      "D": "Irregular heartbeat"
+    },
+    "answer": "A",
+    "explanation": "Phenytoin (Dilantin) is an anticonvulsant medication used to treat seizures. Gingival hyperplasia is a very common and well-known side effect, particularly in long-term use. It must be reported so management strategies like meticulous oral hygiene and regular dental care can be implemented. Severe cases may require a change in medication.",
+    "additional": "Phenytoin Toxicity:\n\n- CNS effects like ataxia (loss of balance), nystagmus, confusion, and slurred speech signal toxicity.\n- Therapeutic range: 10–20 mcg/mL.\n\nOther Adverse Effects:\n\n- Hirsutism, rash (possible Stevens-Johnson Syndrome).\n- Bradycardia and hypotension (especially with IV).\n- Bone marrow suppression.\n\nPatient Teaching:\n\n- Never stop abruptly to avoid seizure recurrence.\n- Practice good oral hygiene.\n\nReference: Davis's Drug Guide for Nurses (Phenytoin)."
+  },
+  {
+    "question": "A client who experiences a transient ischemic attack (TIA) is placed on Warfarin (Coumadin). The laboratory reports MOST likely reflect a drug therapeutic range of?",
+    "options": {
+      "A": "Prothrombin time (PT) 35 seconds, control normal 20 seconds; INR 2",
+      "B": "Partial thromboplastin time (PTT) 30 seconds; control (normal) 30 second",
+      "C": "Prothrombin time (PT) 45 seconds; control (normal) 20 seconds; INR 4",
+      "D": "Partial thromboplastin time (PTT) 52 second; control (normal) 30 second"
+    },
+    "answer": "A",
+    "explanation": "Warfarin therapy is monitored with PT and INR. A therapeutic INR for most indications (like TIA) is 2.0–3.0. A PT of 35 seconds (1.75x normal) with INR 2 reflects therapeutic anticoagulation.\n\nPTT is used for Heparin, not Warfarin.\n\nINR 4 (option C) is supratherapeutic and increases bleeding risk.",
+    "additional": "Warfarin Mechanism: Inhibits Vitamin K-dependent clotting factors (II, VII, IX, X).\n\nAntidote: Vitamin K.\n\nPatient Teaching:\n\n- Keep Vitamin K intake consistent (leafy greens).\n- Use soft-bristle toothbrush, electric razor.\n- Report signs of bleeding.\n\nReference: Davis's Drug Guide for Nurses (Warfarin)."
+  },
+  {
+    "question": "A client found unconscious at home is taken to the emergency room. Physical examination shows cherry red mucous membranes, nail beds and skin. Which of the following is the MOST likely cause of his condition?",
+    "options": {
+      "A": "Spider bite",
+      "B": "Aspirin ingestion",
+      "C": "Hydrocarbon ingestion",
+      "D": "Carbon monoxide poisoning"
+    },
+    "answer": "D",
+    "explanation": "Cherry-red skin and mucous membranes are a hallmark sign of carbon monoxide poisoning. CO binds to hemoglobin with over 200 times the affinity of oxygen, forming carboxyhemoglobin and leading to severe tissue hypoxia.",
+    "additional": "Sources: Faulty furnaces, car exhaust, fires, generators.\n\nSymptoms: Headache, nausea, dizziness → confusion, coma, death.\n\nDiagnosis: COHb levels in blood. Pulse oximetry may show false normal.\n\nTreatment: 100% oxygen via non-rebreather. Hyperbaric oxygen for severe cases.\n\nReference: Lewis's Medical-Surgical Nursing, Chapter 67: Emergency, Terrorism, and Disaster Nursing."
+  },
+  {
+    "question": "A female client is prescribed Spironolactone (Aldactone), 50mg once daily. The nurse comprehends that Spironolactone?",
+    "options": {
+      "A": "Blocks the reabsorption of sodium, thereby increasing urinary output",
+      "B": "Inhibits renal vasoconstriction, which prevents the release of rennin",
+      "C": "Interferes with fluid retention by inhibiting aldosterone",
+      "D": "Prevent the secretion of epinephrine form the adrenal medulla"
+    },
+    "answer": "C",
+    "explanation": "Spironolactone is a potassium-sparing diuretic and aldosterone antagonist. It prevents sodium and water retention while conserving potassium by blocking aldosterone’s action in the distal tubules of the kidney.",
+    "additional": "Major Risk: Hyperkalemia\n\nPatient Teaching:\n\n- Avoid high-potassium foods and salt substitutes.\n- Monitor for muscle weakness, paresthesia, arrhythmias.\n\nCaution: Should not be used with ACE inhibitors or in renal failure.\n\nDistractor Note: Option A better describes loop and thiazide diuretics, not spironolactone.\n\nReference: Davis's Drug Guide for Nurses (Spironolactone)."
   }
 ]
+
 
 
