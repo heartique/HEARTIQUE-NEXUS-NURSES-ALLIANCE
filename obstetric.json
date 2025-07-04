@@ -1187,8 +1187,69 @@
     "answer": "A",
     "explanation": "This question asks to identify a danger sign that occurs during the pregnancy period (i.e., antepartum).\n\na) Reduced fetal movements: This is a critical antepartum danger sign. A significant decrease in the baby's movements can be the first or only indication of fetal compromise or impending fetal death due to conditions like placental insufficiency. It requires immediate assessment.\n\nb) Labour pains more tha 12hours: This describes a prolonged first stage of labor, which is an intrapartum (during labor) problem.\n\nc) Placenta not delivered within 30 minutes: This is the definition of a retained placenta, a complication of the third stage of labor (postpartum).\n\nd) Cord, arm or leg prolapse: These are intrapartum emergencies that occur during labor and delivery.",
     "additional": "Key Antenatal Danger Signs to Teach Every Pregnant Woman:\n\n- Vaginal bleeding\n- Severe headache or blurred vision (signs of pre-eclampsia)\n- Fever and chills (signs of infection)\n- Severe abdominal pain\n- Sudden gush of fluid from the vagina (preterm rupture of membranes)\n- Reduced fetal movements\n\nEmpowerment through Education: A core role of the midwife is to ensure every woman knows these danger signs, knows what they mean, and knows what to do and where to go if they occur. This is a cornerstone of birth preparedness and complication readiness.\n\nBook Recommendation:\n\nMyles Textbook for Midwives: Emphasizes the importance of health education and lists the key danger signs that midwives must teach their clients."
+  },
+  {
+    "question": "Diagnosis of twin pregnancy during inspection of the abdomen becomes apparent when;",
+    "options": {
+      "a": "The abdominal length appears longer than normal",
+      "b": "Linear Nigra appears darker and longer than normal",
+      "c": "The uterus/abdomen may look broad or round",
+      "d": "When foetal movements are fewer than normal"
+    },
+    "answer": "c",
+    "explanation": "Correct (c): In a multiple gestation (twin) pregnancy, the uterus grows larger and faster than in a singleton pregnancy to accommodate the extra fetus, placenta, and amniotic fluid. This results in an abdomen that is significantly larger than expected for the weeks of gestation. Describing it as looking \"broad or round\" is a way of saying it is disproportionately large. The definitive diagnosis, however, is made by ultrasound.\n\nIncorrect (a): \"Abdominal length\" is not a standard obstetric measurement. The key measurement is fundal height.\n\nIncorrect (b): Linea nigra is a dark line that can appear on the abdomen during pregnancy due to hormonal changes. Its presence, darkness, or length is not indicative of a twin pregnancy.\n\nIncorrect (d): Fetal movements in a twin pregnancy are typically more frequent, not fewer, once they are well established.",
+    "additional": "Deeper Insight: The primary clinical sign that raises suspicion for a multiple gestation is a fundal height measurement that is significantly larger than the number of weeks of gestation (e.g., a fundal height of 30 cm at 24 weeks gestation). Other signs include hearing two distinct fetal heartbeats or severe nausea and vomiting (hyperemesis gravidarum) due to higher hCG levels. All multiple gestation pregnancies are considered high-risk.\n\nPossible Next Question (NCK Focus): \"A client at 28 weeks gestation has a fundal height of 34 cm. The nurse should suspect which of the following?\" The answer could be multiple gestation, polyhydramnios (excess amniotic fluid), or a large for gestational age (LGA) fetus."
+  },
+  {
+    "question": "The most common indication for caesarian section in a primigravida is;",
+    "options": {
+      "a": "intrauterine growth retardation.",
+      "b": "cephalopelvic disproportion",
+      "c": "multiple pregnancy",
+      "d": "pregnancy induced hypertension"
+    },
+    "answer": "b",
+    "explanation": "Correct (b): Cephalopelvic Disproportion (CPD) is a situation where the baby's head (cephalo) is too large to fit through the mother's pelvis (pelvic). It is a common reason for a \"failure to progress\" in labor, especially in a primigravida (a woman pregnant for the first time). When the cervix fails to dilate or the baby fails to descend despite adequate contractions, CPD is often the cause, necessitating a cesarean section.\n\nIncorrect (a, c, d): While these can all be indications for a C-section, they are not the most common reason, particularly for a primigravida experiencing a difficult labor.\n\n(a) IUGR may require a C-section if the fetus shows signs of distress, but it doesn't automatically mean a C-section is needed.\n\n(c) Multiple pregnancy often leads to a C-section, but it is less common overall than CPD.\n\n(d) PIH/preeclampsia may require induction of labor or a C-section if the condition becomes severe, but again, it is not the single most frequent indication.",
+    "additional": "Deeper Insight: The most common overall indication for C-sections (including in multiparous women) is now a repeat cesarean section. However, for a first-time mother (primigravida), labor dystocia (difficult labor), which includes failure to progress due to CPD, is the leading cause. Other major indications include fetal distress, breech presentation, and placenta previa.\n\nPossible Next Question (NCK Focus): \"A laboring client has been in the active phase for 8 hours with strong contractions, but her cervical dilation has remained at 5 cm. The nurse recognizes this as a sign of which potential problem?\" The answer would be failure to progress or labor dystocia."
+  },
+  {
+    "question": "A midwife is assessing a mature female neonate born to a 21 year old G3P2 client. Which of the following findings suggests that further evaluation and notification of the physician are necessary;",
+    "options": {
+      "a": "Birth length=53 cm",
+      "b": "Head circumference=35cm",
+      "c": "Birth weight=5kgs",
+      "d": "Chest circumference is 2 cm less than the head circumference"
+    },
+    "answer": "c",
+    "explanation": "Correct (c): A birth weight of 5 kg (5000 grams) is significantly above the normal range. This is known as macrosomia (a newborn who is much larger than average; typically defined as >4000 or >4500 grams). Macrosomia is a significant finding that requires further evaluation. It is often associated with maternal diabetes (gestational or pre-existing) and puts the infant at risk for birth injuries (like shoulder dystocia), hypoglycemia, and respiratory distress after birth. The infant's blood sugar must be monitored closely.\n\nIncorrect (a, b, d): These are all normal findings for a full-term neonate.\n\na) Normal length is 45-55 cm.\n\nb) Normal head circumference is 32-38 cm.\n\nd) It is normal for the chest circumference to be about 2 cm smaller than the head circumference at birth.",
+    "additional": "Deeper Insight: The priority nursing action for a macrosomic infant immediately after birth is to assess for and prevent hypoglycemia. The large infant has high insulin levels in response to high maternal blood glucose during pregnancy. After birth, the glucose supply from the mother is cut off, but the infant's pancreas continues to produce high levels of insulin, which can cause a rapid drop in their blood sugar. Early feeding is crucial.\n\nPossible Next Question (NCK Focus): \"What is the priority nursing assessment for a newborn infant whose mother had poorly controlled gestational diabetes?\" The answer is monitoring for signs of hypoglycemia (e.g., jitteriness, poor feeding, lethargy)."
+  },
+  {
+    "question": "A client at 20 weeks gestation asks the midwife if she will be able to breastfeed her baby after birth. The client has a history of type 2 diabetes, which has been well controlled before and during the pregnancy. The client has a BMI of 34. Which of the following statements by the midwife is the most appropriate;",
+    "options": {
+      "a": "Whether or not you can breastfeed your baby will depend on your blood glucose levels after birth",
+      "b": "Mothers with type 2 diabetes are encouraged to breastfeed their babies after birth. Breastfeeding may also lower your need for insulin",
+      "c": "You may not breastfeed your baby after birth. Insulin can cross into the breast milk and may cause your baby to develop hypoglycemia. Your baby may be nourished with formula milk",
+      "d": "Breastfeeding is encouraged for women with type 2 diabetes. However, you may need to increase your insulin when nursing"
+    },
+    "answer": "b",
+    "explanation": "Correct (b): This statement is the most accurate and therapeutic. Breastfeeding is highly recommended and safe for mothers with type 1 or type 2 diabetes. It provides numerous benefits for the infant (including a reduced risk of developing diabetes later in life) and the mother. The process of lactation uses up glucose, which often decreases the mother's insulin requirements. This is an important teaching point.\n\nIncorrect (a): While blood glucose will be monitored, the ability to breastfeed is not contingent on specific postpartum levels. Breastfeeding is encouraged regardless.\n\nIncorrect (c): This is dangerous misinformation. Insulin is a protein hormone that is broken down in the gut; it does not pass into breast milk in a form that can affect the baby. This statement would create unnecessary fear and discourage a healthy practice.\n\nIncorrect (d): This is the opposite of what usually happens. The mother's insulin needs are more likely to decrease, not increase, due to the energy expended during lactation.",
+    "additional": "Deeper Insight: The midwife should also advise the mother to have a snack readily available before or during breastfeeding to prevent maternal hypoglycemia. Blood glucose should be monitored closely, especially in the early postpartum period, as insulin needs can change rapidly.\n\nPossible Next Question (NCK Focus): \"A postpartum client with Type 1 diabetes who is breastfeeding reports feeling dizzy and shaky. What is the nurse's priority action?\" The answer is to check the client's blood glucose level and provide a carbohydrate snack."
+  },
+  {
+    "question": "You have a patient who had excessive uterine bleeding during the first hour following delivery. You recognise that postpartum hemorrhage is more common in which of the following situations?",
+    "options": {
+      "a": "Vaginal delivery",
+      "b": "Low parity",
+      "c": "Primigravida",
+      "d": "Abruptio Placentae"
+    },
+    "answer": "d",
+    "explanation": "Correct (d): Abruptio placentae (premature separation of the placenta from the uterine wall) is a major risk factor for postpartum hemorrhage (PPH). During the abruption, blood can seep into the uterine muscle (myometrium), creating a \"Couvelaire uterus.\" This prevents the uterus from contracting effectively after delivery, leading to uterine atony, which is the number one cause of PPH. Also, abruption can trigger disseminated intravascular coagulation (DIC), a severe bleeding disorder.\n\nIncorrect (a, b, c): These are associated with a lower risk of PPH.\n\na) While PPH can happen with any delivery, a cesarean section generally carries a higher risk than a spontaneous vaginal delivery.\n\nb, c) High parity (many previous pregnancies, a \"grand multipara\") is a major risk factor because the uterine muscle is overstretched and may not contract well. Low parity and being a primigravida are generally associated with lower risk.",
+    "additional": "Deeper Insight: The most common cause of PPH is uterine atony (a \"boggy,\" non-contracted uterus). Key risk factors for uterine atony include:\n\nUterine overdistention (from multiple gestation, polyhydramnios, macrosomic infant)\n\nProlonged labor or precipitous (very fast) labor\n\nUse of labor induction agents like oxytocin for a long time\n\nHigh parity\n\nUse of general anesthesia\n\nPossible Next Question (NCK Focus): \"Following delivery, the nurse assesses the client's fundus and finds it to be soft and located above the umbilicus. What is the nurse's priority action?\" The answer is to begin massaging the uterine fundus firmly."
   }
 ]
+
 
 
 
