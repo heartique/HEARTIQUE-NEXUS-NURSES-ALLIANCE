@@ -260,5 +260,139 @@
     "answer": "A",
     "explanation": "This is the standard definition of population density in both ecology and demography. It's a measure of how crowded a population is in its geographic space.",
     "additional": "Demography (B): The scientific study of human populations, including their size, structure, distribution, and changes over time.\n\nPopulation Pyramid (C): A graphical illustration that shows the distribution of various age groups in a population, which forms the shape of a pyramid when the population is growing.\n\nPopulation Fecundity (D): The potential reproductive capacity of a population.\n\nPopulation Structure: Be familiar with the shapes of population pyramids and what they signify:\n\nExpansive (triangle shape): High birth rate, high death rate, short life expectancy, young population (typical of many developing countries).\n\nConstrictive (beehive shape): Low birth rate, low death rate, long life expectancy, aging population (typical of developed countries).\n\nStationary (rectangular shape): Birth and death rates are balanced, stable population.\n\nBook Tag: K. Park's Textbook of Preventive and Social Medicine."
+  },
+  {
+    "question": "A data collection method in which the researcher does not interact with the subject(s) being studied is called;",
+    "options": {
+      "A": "Qualitative analysis",
+      "B": "Field research",
+      "C": "Content analysis",
+      "D": "Unobtrusive measure"
+    },
+    "answer": "D",
+    "explanation": "Why D is correct: Unobtrusive measures involve data collection without the subjects being aware they're being studied, minimizing reactivity. Examples include analyzing existing records or observing public behavior without intervention.\n\nWhy the others are incorrect:\nA. Qualitative analysis is a data analysis technique, not a collection method.\nB. Field research involves direct interaction with subjects.\nC. Content analysis is a type of unobtrusive method, but the broader term 'unobtrusive measure' better fits the definition in the question.",
+    "additional": "Types of Unobtrusive Measures:\n- Archival research (e.g., patient records)\n- Content analysis (e.g., social media posts)\n- Physical trace measures (e.g., worn floor tiles)\n- Simple naturalistic observation\n\nPOSSIBLE NCK QUESTIONS:\n- Measuring soap usage after a hygiene campaign = Unobtrusive measure\n- Hawthorne effect = Behavior change due to being observed"
+  },
+  {
+    "question": "The qualitative variables that are unordered are referred to as;",
+    "options": {
+      "A": "Nominal scale",
+      "B": "Ordinal scale",
+      "C": "Interval scale",
+      "D": "Ratio scale"
+    },
+    "answer": "A",
+    "explanation": "Why A is correct: Nominal scales classify data into categories without any order (e.g., blood type, sex, religion).\n\nWhy the others are incorrect:\nB. Ordinal = Categories with logical order (e.g., mild, moderate, severe)\nC. Interval = Numeric data with equal spacing, no true zero (e.g., temperature in °C)\nD. Ratio = Interval scale with true zero (e.g., weight, height)",
+    "additional": "Levels of Measurement (NOIR):\n- Nominal: Categories (e.g., gender)\n- Ordinal: Ranked categories (e.g., satisfaction level)\n- Interval: Numeric with equal spacing (e.g., IQ, °C)\n- Ratio: Interval + true zero (e.g., age, BP)\n\nPOSSIBLE NCK QUESTIONS:\n- Pain scale 1–10 = Ordinal scale\n- Weight in kg = Ratio scale"
+  },
+  {
+    "question": "The value of the variable that occurs with the greatest frequency in a data set is;",
+    "options": {
+      "A": "Mean",
+      "B": "Mode",
+      "C": "Median",
+      "D": "Frequency"
+    },
+    "answer": "B",
+    "explanation": "Why B is correct: Mode is the most frequently occurring value in a dataset.\n\nWhy the others are incorrect:\nA. Mean = Average of values\nC. Median = Middle value in ordered data\nD. Frequency = Count of occurrences, not the value itself",
+    "additional": "Measures of Central Tendency:\n- Mean: Sensitive to outliers\n- Median: Best for skewed data\n- Mode: Good for categorical data\n\nPOSSIBLE NCK QUESTIONS:\n- Dataset: [5, 2, 8, 2, 9, 5, 2] → Mode = 2\n- Most affected by outliers = Mean"
+  },
+  {
+    "question": "In research, a measure of dispersion include;",
+    "options": {
+      "A": "Standard deviation",
+      "B": "Karl Pearson's co-efficient of correlation",
+      "C": "Charles Spearman's co-efficient of correlation",
+      "D": "Cross tabulation"
+    },
+    "answer": "A",
+    "explanation": "Why A is correct: Standard deviation measures the spread of data around the mean, indicating variability.\n\nWhy the others are incorrect:\nB & C. Pearson and Spearman coefficients measure association, not dispersion.\nD. Cross tabulation shows relationships between variables but does not measure spread.",
+    "additional": "Other Measures of Dispersion:\n- Range: Max - Min\n- IQR: 75th percentile - 25th percentile\n- Variance: Average of squared deviations\n\nPOSSIBLE NCK QUESTIONS:\n- Higher SD = More variability\n- Range = Difference between highest and lowest values"
+  },
+  {
+    "question": "When a number of researchers use the same operational definition to measure a variable and achieve the same results, the measure is said to be;",
+    "options": {
+      "A": "Reliable",
+      "B": "Instrumental valid",
+      "C": "Factual",
+      "D": "Internally consistent"
+    },
+    "answer": "A",
+    "explanation": "Why A is correct: Reliability refers to consistency in measurement. If multiple researchers use the same method and get the same results, the method is reliable (specifically, inter-rater reliability).\n\nWhy the others are incorrect:\nB. Validity = Accuracy, not consistency\nC. Factual = General term, not statistical\nD. Internal consistency = Consistency of items within a scale, but not the best match here",
+    "additional": "Reliability Types:\n- Test-retest: Consistency over time\n- Inter-rater: Between observers (described in this question)\n- Internal consistency: Consistency across items (Cronbach’s alpha)\n\nPOSSIBLE NCK QUESTIONS:\n- Consistency between two raters = Inter-rater reliability\n- Concern with accuracy of measurement = Validity"
+  },
+  {
+    "question": "Categories of objectives in the effective domain include;",
+    "options": {
+      "A": "Valuing, communication",
+      "B": "Organization, evaluation",
+      "C": "Internalization, analysis",
+      "D": "Receiving, responding"
+    },
+    "answer": "D",
+    "explanation": "Why D is correct: Receiving and responding are the two simplest levels of the Affective domain in Bloom’s Taxonomy, which addresses emotions and attitudes.\n\nWhy the others are incorrect:\nA. 'Communication' is not a formal level in the Affective domain.\nB. Evaluation is from the Cognitive domain.\nC. Analysis is also from the Cognitive domain, not the Affective domain.",
+    "additional": "Bloom’s Domains:\n- Affective: Receiving, Responding, Valuing, Organization, Characterization\n- Cognitive: Remembering, Understanding, Applying, Analyzing, Evaluating, Creating\n- Psychomotor: Doing and skill-based tasks\n\nPOSSIBLE NCK QUESTIONS:\n- Self-administering insulin = Psychomotor domain\n- Listing steps of a process = Cognitive domain (Knowledge)"
+  },
+  {
+    "question": "Type 1 error in research refers to a situation where the;",
+    "options": {
+      "A": "Alternative hypothesis is rejected when it is false",
+      "B": "Null hypothesis is rejected when it is true",
+      "C": "Null hypothesis is accepted when it is false",
+      "D": "Alternative hypothesis is rejected when it is true"
+    },
+    "answer": "B",
+    "explanation": "Why B is correct: This is the definition of a Type I error—rejecting the null hypothesis when it is actually true (false positive).\n\nWhy the others are incorrect:\nA & D. These describe correct or Type II error scenarios.\nC. Type II error = Failing to reject the null when it is false (false negative).",
+    "additional": "Error Types in Hypothesis Testing:\n- Type I (α): False positive (e.g., a fire alarm without fire)\n- Type II (β): False negative (e.g., no fire alarm during fire)\n\nPOSSIBLE NCK QUESTIONS:\n- Type I error = Rejecting a true null hypothesis\n- Type II error = Failing to reject a false null\n- Alpha level = Probability of Type I error"
+  },
+  {
+    "question": "A sampling technique in which units of observation are selected on the basis of availability is called;",
+    "options": {
+      "A": "Purposive",
+      "B": "Snowball",
+      "C": "Convenience",
+      "D": "Quota"
+    },
+    "answer": "C",
+    "explanation": "Why C is correct: Convenience sampling selects subjects based on accessibility. It is the easiest method but also the least representative.\n\nWhy the others are incorrect:\nA. Purposive = Based on participant's relevance to the research\nB. Snowball = Participant referrals in hidden populations\nD. Quota = Filling set quotas for groups, often non-randomly",
+    "additional": "Sampling Types:\n- Probability: Random, stratified, cluster, systematic\n- Non-probability: Convenience, quota, purposive, snowball\n\nPOSSIBLE NCK QUESTIONS:\n- Major weakness of convenience sampling = Low generalizability\n- Stratified sampling = Ensures subgroup representation"
+  },
+  {
+    "question": "Gender, age, class, religion, type of disease and blood groups are variables measured at;",
+    "options": {
+      "A": "Ratio scale",
+      "B": "Nominal scale",
+      "C": "Interval scale",
+      "D": "Ordinal scale"
+    },
+    "answer": "B",
+    "explanation": "Why B is correct: Most listed variables (gender, religion, blood group) are measured at the nominal level, meaning they are categorical with no order.\n\nWhy the others are incorrect:\nA. Ratio = Includes a true zero (e.g., weight)\nC. Interval = Equal intervals, no true zero (e.g., temperature °C)\nD. Ordinal = Ordered categories (e.g., satisfaction levels)",
+    "additional": "Measurement Scales:\n- Nominal: Categories without order (e.g., sex, disease type)\n- Ordinal: Categories with order (e.g., socioeconomic class)\n- Interval: Equal spacing, no zero (e.g., IQ)\n- Ratio: Numeric, with true zero (e.g., age, BP)\n\nPOSSIBLE NCK QUESTIONS:\n- BMI categories = Ordinal\n- Heart rate = Ratio"
+  },
+  {
+    "question": "The selection of a sample such that every nth (e.g. every 5th) person or element in a sampling frame is selected is known as;",
+    "options": {
+      "A": "Quota sampling",
+      "B": "Simple random sampling",
+      "C": "Systematic sampling",
+      "D": "Snowball sampling"
+    },
+    "answer": "C",
+    "explanation": "Why C is correct: Systematic sampling selects every nth item from a list after choosing a random starting point.\n\nWhy the others are incorrect:\nA. Quota = Filling subgroups with fixed numbers\nB. Simple random = Pure chance without order\nD. Snowball = Referrals in hard-to-reach populations",
+    "additional": "Steps in Systematic Sampling:\n1. Define the population and sampling frame\n2. Calculate sampling interval (e.g., every 10th person)\n3. Randomly select a starting point\n\nPOSSIBLE NCK QUESTIONS:\n- Difference from simple random sampling = Only first element is random\n- Risk = Bias if hidden pattern aligns with interval"
+  },
+  {
+    "question": "Type II error in research refers to a situation where the;",
+    "options": {
+      "A": "Alternative hypothesis is rejected when it is false",
+      "B": "Null hypothesis is rejected when it is true",
+      "C": "Null hypothesis is accepted when it is false",
+      "D": "Alternative hypothesis is rejected when it is true"
+    },
+    "answer": "C",
+    "explanation": "Why C is correct: A Type II Error (beta, β) occurs when a researcher fails to reject a null hypothesis that is actually false. It means a real effect is missed — a false negative.\n\nWhy the others are incorrect:\nA. This is a correct decision.\nB. This is a Type I error (false positive).\nD. This also describes a Type II error, but C is the standard null-hypothesis framing.",
+    "additional": "Error Summary Table:\nReality: Null is TRUE → Reject null = Type I Error (α)\nReality: Null is FALSE → Fail to reject null = Type II Error (β)\n\nCauses of Type II Error:\n- Small sample size\n- Small effect size\n- Poor measurement tools\n- Alpha set too low (too strict)\n\nPOSSIBLE NCK QUESTIONS:\n- A trial fails to detect that a drug works → Type II Error\n- Best way to reduce Type II Error → Increase sample size\n- Ability to detect true effect = Statistical Power (1 - β)"
   }
 ]
+ 
+  
