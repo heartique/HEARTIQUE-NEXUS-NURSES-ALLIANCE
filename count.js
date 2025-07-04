@@ -68,13 +68,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const files = raw.split(",").map(f => f.trim()).filter(f => f);
     if (files.length === 0) return;
 
-    Promise.all(files.map(file =>
+   Promise.all(files.map(file =>
   fetch(file)
     .then(res => res.json())
-    .catch((err) => {
-      console.warn(`Failed to load ${file}`, err);
-      return [];
-    })
+    .catch(() => [])
 ))
 
     ))
