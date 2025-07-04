@@ -322,6 +322,78 @@
     "answer": "a",
     "explanation": "Correct (a): Assuming the system can be reconnected quickly and cleanly, this is the priority to re-establish the negative pressure system. If the old system is contaminated, a new one should be used.\n\nIncorrect (b): Calling the physician is important, but it is not the immediate action. The nurse must intervene first to protect the patient.\n\nIncorrect (c): Clamping a chest tube is dangerous, especially in a patient with a pneumothorax. It can cause air to build up in the pleural space, leading to a recurrent tension pneumothorax. Clamping is only done for very brief periods under specific circumstances (e.g., changing the drainage system).\n\nIncorrect (d): This is false reassurance and delays a critical intervention.",
     "additional": "Deeper Insight: The emergency equipment that should always be at the bedside of a patient with a chest tube includes: two padded clamps, a bottle of sterile water, and a sterile occlusive dressing (e.g., Vaseline gauze).\n\nTube disconnects from system: Place end of tube in sterile water.\n\nTube pulls out of chest: Immediately cover the site with a sterile occlusive dressing, taped on three sides only. This allows air to escape but not enter.\n\nPossible Next Question (NCK Focus): \"A nurse is caring for a patient whose chest tube has accidentally been pulled out of the chest. What is the nurse's immediate action?\" The answer is to cover the insertion site with a sterile dressing taped on three sides."
+  },
+  {
+    "question": "The client says to the nurse, “I always see flashing lights just before my seizure.” Which of the following nursing interventions is PRIORITY for this client immediately following his seizure?",
+    "options": {
+      "A": "Administer oxygen via face mask",
+      "B": "Assess the airway",
+      "C": "Remove any hazards from the area",
+      "D": "Turn to internal position"
+    },
+    "answer": "B",
+    "explanation": "The statement \"I always see flashing lights just before my seizure\" describes an aura, which is a warning sign of an impending seizure. While all the listed actions are part of seizure management, the question asks for the priority intervention immediately following the seizure (in the postictal phase). The nursing priority is always guided by the ABCs: Airway, Breathing, and Circulation.\n\nAssess the airway: Immediately after a tonic-clonic seizure, the client may have a compromised airway due to relaxation of the tongue and jaw muscles or the presence of secretions. Ensuring a patent airway is the absolute first step.",
+    "additional": "Nursing Care During a Seizure:\n\n- Protect the head, loosen restrictive clothing.\n- Do not restrain the client or place anything in their mouth.\n- Clear the surrounding area of hazards.\n- Note the time the seizure began and its characteristics.\n\nNursing Care After a Seizure (Postictal Phase):\n\n- Maintain a patent airway (side-lying position, suctioning if needed).\n- Check vital signs, oxygen saturation, and neurological status.\n- Reorient the client, as they will likely be confused and tired.\n\nReference: Lewis's Medical-Surgical Nursing, Chapter 58: Nervous System Problems."
+  },
+  {
+    "question": "The client is prescribed Ipratropium Bromide (Atrovent) as part of a treatment. The nurse assesses the medication to be effective when there is",
+    "options": {
+      "A": "Increased wheezing",
+      "B": "Decreased wheezing",
+      "C": "Increased sputum production",
+      "D": "Increased frequency of coughing"
+    },
+    "answer": "B",
+    "explanation": "Ipratropium Bromide (Atrovent) is an anticholinergic bronchodilator. It works by blocking acetylcholine receptors in the airways, which leads to relaxation of the smooth muscles around the bronchi and results in bronchodilation (opening of the airways).\n\nWheezing is a high-pitched whistling sound caused by air moving through narrowed airways. Effective bronchodilation will open these narrowed airways, allowing air to move more freely and thus decreasing or eliminating wheezing.",
+    "additional": "Use: Ipratropium is a cornerstone medication for managing Chronic Obstructive Pulmonary Disease (COPD). It is a maintenance (long-term control) medication, not a rescue inhaler for acute attacks.\n\nCombination Therapy: Often combined with a short-acting beta-agonist (SABA) like albuterol (e.g., Combivent Respimat) for enhanced bronchodilation.\n\nSide Effects: Are typically anticholinergic in nature (dry mouth, blurred vision, urinary retention), but systemic effects are minimal with the inhaled route. Caution is advised in patients with glaucoma and prostatic hyperplasia.\n\nReference: Davis's Drug Guide for Nurses (for Ipratropium)."
+  },
+  {
+    "question": "Which of the following best describes emphysema?",
+    "options": {
+      "A": "Enlarge alveolar spaces due to entrapped air",
+      "B": "Chronic upper airway disorder",
+      "C": "A condition mostly caused by smoking",
+      "D": "Mucous accumulation due to decreased cilia activity"
+    },
+    "answer": "A",
+    "explanation": "Emphysema is one of the main conditions under the umbrella of COPD. Its defining characteristic is the destruction of the walls of the alveoli. This destruction leads to the loss of lung elasticity and collapse of small airways during exhalation. As a result, air becomes trapped in the lungs, causing the alveoli to become permanently overinflated and enlarged. This leads to a decrease in the surface area available for gas exchange.",
+    "additional": "\"Pink Puffer\" vs. \"Blue Bloater\":\n\n- Emphysema (\"Pink Puffer\"): Patients often have a reddish complexion and puffing (pursed-lip) breathing. They are often thin with a barrel chest due to air trapping.\n- Chronic Bronchitis (\"Blue Bloater\"): Patients often have cyanosis (bluish skin) from hypoxia and edema from right-sided heart failure (cor pulmonale). They tend to be overweight and have a chronic, productive cough.\n\nAlpha-1 Antitrypsin Deficiency: A genetic cause of emphysema.\n\nReference: Lewis's Medical-Surgical Nursing, Chapter 28: Obstructive Pulmonary Diseases."
+  },
+  {
+    "question": "The lab results for the client reveals the following: pH 7.30, HCO3 30 mEq/L, PCO2 50mm Hg, PaO2 80. The nurse interprets the findings as",
+    "options": {
+      "A": "respiratory acidosis compensating",
+      "B": "respiratory alkalosis compensating",
+      "C": "metabolic acidosis compensating",
+      "D": "metabolic alkalosis compensating"
+    },
+    "answer": "A",
+    "explanation": "This question requires systematic ABG analysis using the ROME (Respiratory Opposite, Metabolic Equal) method.\n\n- pH: 7.30 (low) = Acidosis\n- PaCO2: 50 (high) = Respiratory Acidosis\n- HCO3: 30 (high) = Compensatory Alkalosis\n\nThe PaCO2 and pH are moving in opposite directions (ROME: Respiratory Opposite), confirming respiratory acidosis. The elevated HCO3 shows compensation is underway. Because the pH is still abnormal, it is only partially compensated.",
+    "additional": "Causes of Respiratory Acidosis: Hypoventilation from COPD, asthma, drug overdose, neuromuscular disease.\n\nCompensation Rules:\n\n- Uncompensated: pH abnormal, one other abnormal\n- Partially Compensated: pH abnormal, both PaCO2 and HCO3 abnormal\n- Fully Compensated: pH normal, both PaCO2 and HCO3 abnormal\n\nReference: Any fundamentals or critical care nursing textbook."
+  },
+  {
+    "question": "Which of the following assessments would be MOST appropriate for the nurse to make while the dialysis solution is dwelling within the client's abdomen?",
+    "options": {
+      "A": "Assess for urticaria",
+      "B": "Observe respiratory status",
+      "C": "Check capillary refill time",
+      "D": "Monitor electrolyte"
+    },
+    "answer": "B",
+    "explanation": "During peritoneal dialysis, a large volume of dialysate is instilled into the peritoneal cavity. This increases intra-abdominal pressure and can push the diaphragm upward, potentially restricting lung expansion and causing respiratory distress. Therefore, the most appropriate assessment during the dwell phase is to monitor respiratory status closely.",
+    "additional": "Distractor Rationale:\n\n- Urticaria (a): Would indicate allergic reaction—rare in this setting.\n- Capillary refill (c): Assesses perfusion, not the key concern here.\n- Monitoring electrolytes (d): Requires labs, not a real-time physical assessment.\n\nPhases of Peritoneal Dialysis:\n- Inflow: Instillation of fluid\n- Dwell: Exchange of solutes\n- Drain: Fluid removed\n\nReference: Lewis's Medical-Surgical Nursing, Chapter 46: Renal and Urologic Problems."
+  },
+  {
+    "question": "The nurse asks a patient to breathe into a paper bag in order to correct the problem of hyperventilation. This is done because",
+    "options": {
+      "A": "CO2 content in the blood will be reduced",
+      "B": "This leads to a reduction of oxygen, causing the diaphragm to relax",
+      "C": "It facilitates an increase in the oxygen saturation level of the blood",
+      "D": "It increases CO2 which stimulates the brain and causes depression of the respiratory system"
+    },
+    "answer": "D",
+    "explanation": "Hyperventilation leads to decreased CO2 levels (hypocapnia), resulting in respiratory alkalosis and symptoms such as dizziness and tingling. Breathing into a paper bag causes rebreathing of exhaled CO2, increasing blood CO2 levels. This stimulates the respiratory center in the brain, slowing the respiratory rate and helping restore acid-base balance.",
+    "additional": "Causes of Hyperventilation: Anxiety, panic attacks, pain, fever, metabolic acidosis (Kussmaul respirations).\n\nSymptoms of Respiratory Alkalosis: Paresthesias, lightheadedness, muscle twitching, confusion.\n\nNote: Paper bag rebreathing is not widely recommended anymore due to risk of hypoxia but remains a correct answer in NCLEX-style scenarios.\n\nReference: Any fundamentals or medical-surgical nursing textbook."
   }
 ]
 
