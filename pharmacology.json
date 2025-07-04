@@ -897,8 +897,142 @@
     "answer": "C",
     "explanation": "Spironolactone is a potassium-sparing diuretic and aldosterone antagonist. It prevents sodium and water retention while conserving potassium by blocking aldosterone’s action in the distal tubules of the kidney.",
     "additional": "Major Risk: Hyperkalemia\n\nPatient Teaching:\n\n- Avoid high-potassium foods and salt substitutes.\n- Monitor for muscle weakness, paresthesia, arrhythmias.\n\nCaution: Should not be used with ACE inhibitors or in renal failure.\n\nDistractor Note: Option A better describes loop and thiazide diuretics, not spironolactone.\n\nReference: Davis's Drug Guide for Nurses (Spironolactone)."
+  },
+  {
+    "question": "Nursing intervention for a 9yrs old child with immunosupression include;",
+    "options": {
+      "a": "Informing the guardian about the condition, catheterisation to monitor urine output",
+      "b": "Offering large amount of fresh fruits and vegetables, Nursing the child in isolation",
+      "c": "Encouraging child to perform at optimal level, nursing the child in isolation",
+      "d": "Nursing the child in isolation, catheterisation to monitor urine output"
+    },
+    "answer": "c",
+    "explanation": "A child with immunosuppression (e.g., from chemotherapy, high-dose steroids, or an immunodeficiency disorder) is at extremely high risk for infection.\n\nPriority Nursing Goal: The number one priority is to prevent infection.\n\nIsolation: The primary way to achieve this is by placing the child in protective (or reverse) isolation. This involves measures to protect the patient from pathogens in the environment and from other people. This includes a private room, strict hand hygiene, and limiting visitors (especially those who are sick).\n\nHolistic Care: In addition to preventing infection, it is crucial to address the child's developmental and psychosocial needs. A 9-year-old is in the \"industry vs. inferiority\" stage (Erikson). Being isolated and ill can lead to feelings of inadequacy and boredom.\n\nOptimal Performance: Encouraging the child to perform at their optimal level means providing age-appropriate activities (e.g., schoolwork, games, crafts) that promote a sense of normalcy, accomplishment, and mastery. This is a critical psychosocial intervention.",
+    "additional": "Analyzing Other Options:\n\n(a, d) Catheterization is an invasive procedure that significantly increases the risk of a urinary tract infection. It should be strictly avoided in an immunosuppressed child unless absolutely necessary.\n\n(b) Offering fresh fruits and vegetables is often contraindicated. Raw produce can harbor bacteria (like Pseudomonas) that could cause a serious infection in an immunosuppressed patient. These children are often placed on a neutropenic (or low-microbial) diet, which requires all foods to be thoroughly cooked.\n\nNeutropenic Precautions:\n\n- Strict handwashing is the most important measure.\n- No fresh flowers or plants in the room.\n- No sick visitors.\n- Avoid invasive procedures (rectal temperatures, suppositories, injections) when possible.\n- Monitor for the earliest signs of infection (a low-grade fever in a neutropenic patient is a medical emergency).\n\nTextbook Reference: Wong's Nursing Care of Infants and Children, Chapter 28: The Child with Cancer."
+  },
+  {
+    "question": "The dosage of drugs in primary level ARV prophylaxis for prevention of mother-to-child transmission of the RV is:-",
+    "options": {
+      "a": "Nevirapine (NVO) 200mg to mother at onset of Jabour, infant NVP2mg/kg as soon as possible vithin 72 hours of delivery.",
+      "b": "Nevirapine (NVP) 200mg to mother during labour, infant NVP 2mg/kg immediately after birth plus 4 weeks of AZT 4mg/kg B.D.",
+      "c": "AZT 300mg BD plus NVP 200mg to mother during labour, infant 2mg/kg after birth plus AZT 4mg/kgBD for one week.",
+      "d": "AZT 600mg to mother at onset of labour, infant NVP 2mg/kg immediately after birth."
+    },
+    "answer": "b",
+    "explanation": "This question tests knowledge of historical Prevention of Mother-to-Child Transmission (PMTCT) of HIV regimens.\n\nHistorical Context (WHO Option A/B): Before the universal 'Treat All' recommendation, PMTCT involved providing antiretroviral (ARV) prophylaxis to the mother during pregnancy/labor and to the infant after birth.\n\n- Option A: Mother receives AZT during pregnancy, then a single dose of Nevirapine (NVP) during labor. The infant receives a single dose of NVP after birth.\n- Option B: Mother receives a triple-drug ARV regimen during pregnancy and breastfeeding.",
+    "additional": "Infant Prophylaxis: The infant regimen was based on the mother's viral load and the risk of transmission. A common approach for a higher-risk infant was to give NVP prophylaxis plus AZT prophylaxis for several weeks.\n\nAnalyzing the Options:\n\n(a, d) These describe single-drug prophylaxis, which was an earlier, less effective approach.\n\n(c) This describes a combination therapy for the infant that is only for one week.\n\n(b) This option represents a more robust prophylactic regimen. It includes a single dose of NVP for the mother and a dual-drug prophylaxis (NVP + 4 weeks of AZT) for the infant, which was a valid regimen under the older WHO guidelines for higher-risk situations.\n\nCurrent PMTCT Guidelines (Treat All):\n\n- All pregnant and breastfeeding women living with HIV should initiate and continue lifelong triple-drug antiretroviral therapy (ART), regardless of their CD4 count.\n- The goal is to achieve an undetectable viral load, which is the most effective way to prevent transmission.\n\nInfant Prophylaxis:\n- Low Risk (mother virally suppressed): Infant receives daily NVP or AZT for 6 weeks.\n- High Risk (mother not virally suppressed): Infant receives dual therapy with NVP and AZT for a longer duration.\n\nEarly Infant Diagnosis (EID): Infants born to mothers with HIV are tested for the virus using a virological test (DNA PCR) at 6 weeks of age.\n\nTextbook Reference: World Health Organization (WHO). Consolidated guidelines on the use of antiretroviral drugs for treating and preventing HIV infection."
+  },
+  {
+    "question": "A baby born of a mother on Anti-TB drugs initial phase should:-",
+    "options": {
+      "a": "Get BCG immediately.",
+      "b": "Get Isoniazid 5 mg/Kg twice daily for 3 months",
+      "c": "Get Isoniazid 5 mg/Kg once daily for 6 months",
+      "d": "Get BCG after three weeks."
+    },
+    "answer": "c",
+    "explanation": "This question addresses the management of an infant exposed to tuberculosis (TB) in utero or at birth.\n\nCongenital TB vs. Exposure: If the mother has active TB during pregnancy, there is a risk of transmission to the infant. The infant must be evaluated for congenital TB. However, even if the infant shows no signs of active disease, they are at very high risk of developing it.",
+    "additional": "Prophylaxis: The standard of care is to provide prophylactic therapy to the asymptomatic newborn. The recommended regimen is Isoniazid (INH) given once daily for 6 months.\n\nBCG Vaccine: The BCG vaccine is a live attenuated vaccine. It should not be given to an infant who may have been exposed to TB until they have completed their course of INH prophylaxis. Giving a live vaccine to an infant who might have a latent or early infection could potentially cause disseminated BCG disease. The infant should be re-evaluated after the 6-month course of INH, and if they are disease-free, the BCG can then be administered.\n\nAnalyzing the Options:\n\n(a, d) Giving BCG immediately or at three weeks is contraindicated.\n\n(b) The duration and frequency are incorrect. The standard prophylactic course is 6 months, given once daily.\n\n(c) This correctly states the drug, dose, frequency, and duration of standard INH prophylaxis for an exposed infant.\n\nTextbook Reference: World Health Organization (WHO). Guidance for national tuberculosis programmes on the management of tuberculosis in children."
+  },
+  {
+    "question": "Monochorionic twinning is always characterized by the following;",
+    "options": {
+      "a": "One placenta, one chorion",
+      "b": "One placenta, one amnion",
+      "c": "One chorion, one amnion",
+      "d": "Two amnions, two chorions"
+    },
+    "answer": "a",
+    "explanation": "This question tests the definitions of twin types based on their placental structures.\n\nZygosity: Refers to the genetic origin of twins.\n\n- Dizygotic (Fraternal): Two separate eggs are fertilized by two separate sperm. They are genetically like siblings.\n- Monozygotic (Identical): A single fertilized egg splits into two. They are genetically identical.",
+    "additional": "Chorionicity & Amnionicity:\n\n- Chorion: The outer membrane that forms the fetal side of the placenta.\n- Amnion: The inner membrane that forms the amniotic sac containing the fluid.\n\nMonochorionic Twinning:\n- The prefix 'mono-' means one. Therefore, monochorionic twins share one chorion and thus one placenta.\n- They can have either one shared amnion (monoamniotic) or two separate amnions (diamniotic).\n\nMo/Di: Monochorionic-Diamniotic (one placenta, two sacs) — most common type of identical twins.\nMo/Mo: Monochorionic-Monoamniotic (one placenta, one sac) — very rare and high-risk.\n\nRisks of Monochorionic Twinning:\n- Twin-to-Twin Transfusion Syndrome (TTTS)\n- Selective Intrauterine Growth Restriction (sIUGR)\n- Twin Anemia-Polycythemia Sequence (TAPS)\n\nThese twins require frequent, specialized ultrasound monitoring.\n\nTextbook Reference: Leifer, G. (2018). Introduction to Maternity and Pediatric Nursing. Chapter 5: Fetal Development."
+  },
+  {
+    "question": "Caput succedaneum is:-",
+    "options": {
+      "a": "Collection of blood under the periosteum.",
+      "b": "A swelling under the scalp",
+      "c": "Oedema of the Periosteum.",
+      "d": "Congenital abnormality."
+    },
+    "answer": "b",
+    "explanation": "This question asks for the definition of a common finding on a newborn's head.\n\nCaput Succedaneum: It is edema (swelling) of the soft tissues of the fetal scalp caused by pressure from the cervix or vaginal wall during a prolonged or difficult labor. It is essentially a collection of serous fluid under the scalp.",
+    "additional": "Characteristics:\n- Soft, spongy, and pits on pressure.\n- Crosses the suture lines of the skull.\n- Often present at birth and resolves on its own within a few days.\n\nAnalyzing the Options:\n(a) A collection of blood under the periosteum is a cephalohematoma.\n(b) 'A swelling under the scalp' is the most correct description.\n(c) The edema is in the scalp tissue, not the periosteum itself.\n(d) It is not a congenital abnormality; it is a benign birth trauma.\n\nCaput vs. Cephalohematoma (Comparison Table):\n| Feature | Caput Succedaneum | Cephalohematoma |\n|--------|-------------------|------------------|\n| Content | Edema (serous fluid) | Blood |\n| Boundaries | Crosses suture lines | Confined to one bone |\n| Onset | Present at birth | Appears hours to days after birth |\n| Resolution | Few days | Weeks to months |\n| Complication | Benign | May cause jaundice |\n\nTextbook Reference: Wong's Nursing Care of Infants and Children, Chapter 10: The Newborn Infant."
+  },
+  {
+    "question": "The antidote for heparin is,",
+    "options": {
+      "a": "Vitamin K",
+      "b": "Warfarin (Coumadin)",
+      "c": "Thrombin",
+      "d": "Protamine sulfate"
+    },
+    "answer": "d",
+    "explanation": "This question tests knowledge of specific anticoagulants and their reversal agents.\n\nHeparin: An anticoagulant that works by activating antithrombin III, which then inactivates thrombin and factor Xa, preventing the formation of fibrin clots. It has a rapid onset and a short half-life and is administered parenterally (IV or subcutaneously). Its effect is monitored by the aPTT (activated Partial Thromboplastin Time).\n\nAntidote: In cases of heparin overdose or life-threatening bleeding, the specific antidote is protamine sulfate. Protamine is a positively charged protein that binds tightly to the negatively charged heparin molecule, forming an inactive complex and immediately neutralizing its anticoagulant effect.",
+    "additional": "Analyzing Other Options:\n\n(a) Vitamin K is the antidote for the oral anticoagulant warfarin.\n\n(b) Warfarin is another anticoagulant; it is not an antidote.\n\n(c) Thrombin is a clotting factor; it is not an antidote.\n\nAdditional Content & Future Testables:\n\nWarfarin (Coumadin): Works by inhibiting the synthesis of Vitamin K-dependent clotting factors (II, VII, IX, X). It has a slow onset of action (takes several days). Its effect is monitored by the PT/INR (Prothrombin Time / International Normalized Ratio).\n\nLow Molecular Weight Heparin (LMWH): E.g., enoxaparin, dalteparin. These are fragments of heparin that have a more predictable effect and a longer half-life, allowing for subcutaneous administration without the need for frequent lab monitoring. Protamine sulfate only partially reverses the effect of LMWH.\n\nDirect Oral Anticoagulants (DOACs): A newer class of drugs.\n\nDirect Thrombin Inhibitors: E.g., Dabigatran (antidote: idarucizumab).\n\nFactor Xa Inhibitors: E.g., Rivaroxaban, Apixaban (antidote: andexanet alfa).\n\nTextbook Reference: Katzung, B. G. (2018). Basic & Clinical Pharmacology. Chapter 34: Drugs Used in Disorders of Coagulation."
+  },
+  {
+    "question": "The route that achieves the quickest absorption and effects of a drug is the,",
+    "options": {
+      "a": "Subcutaneous",
+      "b": "Intradermal",
+      "c": "Intramuscular",
+      "d": "Oral"
+    },
+    "answer": "c",
+    "explanation": "This question asks to rank the speed of drug absorption for different routes of administration. Absorption is the process by which a drug enters the systemic circulation.\n\nFactors Affecting Absorption: The primary factor is blood flow to the site of administration. Higher blood flow leads to faster absorption.\n\nRanking the Routes (Fastest to Slowest):\n\nIntravenous (IV): Bypasses absorption completely by delivering the drug directly into the bloodstream. Onset is instantaneous.\n\nIntramuscular (IM): Muscle tissue has a rich blood supply, leading to rapid absorption.\n\nSubcutaneous (Subcut): Adipose (fatty) tissue has a poorer blood supply than muscle, leading to slower, more sustained absorption.\n\nOral (PO): Absorption is variable and generally slower. The drug must pass through the GI tract and undergo first-pass metabolism in the liver before entering systemic circulation.\n\nIntradermal (ID): A very small amount of drug is injected just under the epidermis. Blood supply is minimal, so absorption is very slow. This is ideal for allergy testing or TB skin tests, where a slow, localized reaction is desired.",
+    "additional": "Conclusion: Of the options given, intramuscular provides the fastest absorption.\n\nOther Routes:\n\nInhalation: Very rapid absorption due to the large surface area and rich blood supply of the lungs (e.g., anesthetic gases, asthma inhalers).\n\nSublingual/Buccal: Placed under the tongue or in the cheek. Bypasses the GI tract and first-pass metabolism, leading to rapid absorption directly into the venous circulation (e.g., nitroglycerin).\n\nTopical/Transdermal: Applied to the skin for either local or systemic effects. Absorption is slow and sustained (e.g., nicotine patch, fentanyl patch).\n\nBioavailability: The fraction of an administered drug that reaches the systemic circulation unchanged. By definition, the bioavailability of an IV drug is 100%. Oral drugs have lower bioavailability due to incomplete absorption and first-pass metabolism.\n\nTextbook Reference: Lehne, R. A. (2019). Pharmacology for Nursing Care. Chapter 4: Pharmacokinetics."
+  },
+  {
+    "question": "Hormones involved in lactation are:-",
+    "options": {
+      "a": "Prolactin.and oestrogen",
+      "b": "Homan placental Iactogen and prolactin",
+      "c": "Progesterone and oxytocin.",
+      "d": "Prolactin and oxytocin."
+    },
+    "answer": "d",
+    "explanation": "Lactation (the production and secretion of milk) is controlled by two key hormones from the pituitary gland.\n\nProlactin (for Production):\n\nSecreted by the anterior pituitary.\n\nIts primary role is to stimulate the synthesis and production of milk within the alveolar cells of the breast.\n\nDuring pregnancy, high levels of estrogen and progesterone inhibit prolactin's effect on the breast. After delivery, these levels drop, allowing prolactin to act.\n\nThe infant's suckling at the breast is the main stimulus for continued prolactin release.\n\nOxytocin (for Ejection):\n\nProduced by the hypothalamus and released from the posterior pituitary.\n\nIts primary role is to cause the contraction of the myoepithelial cells surrounding the alveoli in the breast. This contraction squeezes the milk out of the alveoli and into the milk ducts, making it available to the infant. This process is called the milk ejection reflex or \"let-down.\"",
+    "additional": "Conclusion: Prolactin MAKES the milk, and Oxytocin MOVES the milk. Both are essential for successful lactation.\n\nOther Roles of Oxytocin: Oxytocin is also the hormone responsible for causing uterine contractions during labor and after delivery to control postpartum bleeding.\n\nLet-Down Reflex: The release of oxytocin can be triggered not only by the infant's suckling but also by psychological stimuli, such as hearing a baby cry, seeing a picture of the baby, or even just thinking about the baby. It can also be inhibited by stress, pain, or embarrassment.\n\nHuman Placental Lactogen (hPL): (b) This hormone is produced by the placenta during pregnancy and is involved in preparing the breasts for lactation, but it is not directly involved in the process of lactation after birth.\n\nTextbook Reference: Lowdermilk, D. L., et al. (2016). Maternity & Women's Health Care. Chapter 21: Postpartum Physiologic Changes."
+  },
+  {
+    "question": "The drugs used to manage attention deficit hyperactivity disorder (ADHDA) includes,",
+    "options": {
+      "a": "Clonidine and imipramine",
+      "b": "Valium and carbamazepine",
+      "c": "Risperidone and Largactil",
+      "d": "Artane and Chlorpromazine"
+    },
+    "answer": "a",
+    "explanation": "Attention-Deficit/Hyperactivity Disorder (ADHD) is a neurodevelopmental disorder. While the question misspells ADHD, its intent is clear.\n\nFirst-Line Treatment: The most effective and commonly used medications for ADHD are CNS stimulants, such as methylphenidate (Ritalin, Concerta) and amphetamine salts (Adderall). These are not listed as an option.\n\nSecond-Line & Adjunctive Treatments: When stimulants are not effective or are contraindicated, several non-stimulant medications can be used.\n\nAlpha-2 Adrenergic Agonists: Clonidine and guanfacine are approved for treating ADHD. They are particularly useful for managing hyperactivity, impulsivity, and aggression.\n\nTricyclic Antidepressants (TCAs): Imipramine and desipramine have been used off-label to treat ADHD, although they are less common now due to their side effect profile.",
+    "additional": "Analyzing the Options:\n\n(a) This option correctly lists two recognized second-line/adjunctive medications for ADHD.\n\n(b) Valium (diazepam) is a benzodiazepine used for anxiety and would worsen inattention. Carbamazepine is an anticonvulsant/mood stabilizer.\n\n(c) Risperidone (an atypical antipsychotic) and Largactil (chlorpromazine, a typical antipsychotic) are used for severe aggression or comorbid psychotic disorders, not as standard ADHD treatment.\n\n(d) Artane (trihexyphenidyl) is an anticholinergic used to treat Parkinsonism.\n\nAdditional Content & Future Testables:\n\nAtomoxetine (Strattera): A non-stimulant medication (a selective norepinephrine reuptake inhibitor) that is specifically approved for the treatment of ADHD. It is a good option for patients who cannot tolerate stimulants or have a co-occurring substance use disorder.\n\nMechanism of Stimulants in ADHD: It is paradoxical. In individuals with ADHD, stimulants are thought to increase the levels of dopamine and norepinephrine in the prefrontal cortex, which improves focus, attention, and impulse control.\n\nSide Effects of Stimulants: Common side effects include decreased appetite, weight loss, insomnia, and headache. The nurse's role includes monitoring the child's growth (height and weight).\n\nTextbook Reference: Townsend, M. C. (2017). Psychiatric Mental Health Nursing: Concepts of Care in Evidence-Based Practice. Chapter 29: Disorders of Childhood and Adolescence."
+  },
+  {
+    "question": "Deficiency of vitamin B1 (Thiamine) leads to:-",
+    "options": {
+      "a": "Heart failure, abnormal nerve and brain function. emotional disturbances.",
+      "b": "Rupture of red blood cells, muscle spasm, bleeding.",
+      "c": "Night blindness, heart failure, impaired sensory perception.",
+      "d": "Emotional dlsturbarices, rupture-Pf red blood cells, ne.J;.Ve damage."
+    },
+    "answer": "a",
+    "explanation": "Thiamine (Vitamin B1) is a crucial coenzyme in carbohydrate metabolism and is essential for normal nerve and heart function. Deficiency leads to a condition called Beriberi.\n\nTypes of Beriberi:\n\nDry Beriberi: Primarily affects the nervous system. It causes a symmetrical peripheral neuropathy characterized by sensory and motor impairments, especially in the legs (\"abnormal nerve function\").\n\nWet Beriberi: Primarily affects the cardiovascular system. It leads to high-output heart failure, vasodilation, edema, and tachycardia.\n\nCerebral Beriberi (Wernicke-Korsakoff Syndrome): Affects the brain. It is most commonly seen in people with chronic alcoholism.\n\nWernicke's Encephalopathy: An acute, reversible phase with confusion, ataxia (unsteady gait), and ophthalmoplegia (abnormal eye movements).\n\nKorsakoff's Syndrome: A chronic, often irreversible phase with severe memory loss and confabulation (making up stories to fill memory gaps).\n\nConclusion: Option (a) correctly summarizes the key manifestations of thiamine deficiency: cardiovascular effects (heart failure), neurological effects (abnormal nerve and brain function), and psychiatric effects (emotional disturbances, confusion).",
+    "additional": "Risk Factors for Thiamine Deficiency:\n\nChronic Alcoholism: The most common cause in developed countries. Alcohol interferes with thiamine absorption and storage.\n\nMalnutrition / Diets high in polished rice: Polished (white) rice has the thiamine-rich husk removed. This is a common cause in parts of Asia.\n\nChronic Diuretic Use.\n\nTreatment: Administration of thiamine. For Wernicke's encephalopathy, high-dose IV thiamine is given before any glucose is administered. Giving glucose first can precipitate or worsen the encephalopathy by using up the last reserves of thiamine for glucose metabolism.\n\nTextbook Reference: Lewis's Medical-Surgical Nursing: Assessment and Management of Clinical Problems, Chapter 39: Nutrition and Specialized Nutrition Support."
+  },
+  {
+    "question": "Malaria chemoprophylaxis with Mefloquine:-",
+    "options": {
+      "a": "Is started 2-3 days before arrival in endemic area",
+      "b": "Can be given to infants less than 5 kilograms",
+      "c": "Is available as tablets of 274mg",
+      "d": "Can be given concomitantly with quinine"
+    },
+    "answer": "none",
+    "explanation": "This is a poorly constructed question with significant inaccuracies in all options. An analysis is required to understand the flaws.\n\nMefloquine (Lariam): A once-weekly oral medication used for the prevention (prophylaxis) and treatment of malaria.\n\nAnalyzing the Options:\n\n(a) \"Is started 2-3 days before arrival\" - This is incorrect. Mefloquine needs to be started at least 1-2 weeks before travel to an endemic area to ensure therapeutic blood levels are reached and to assess for potential neuropsychiatric side effects before the traveler leaves.\n\n(b) \"Can be given to infants less than 5 kilograms\" - This is incorrect. Mefloquine is generally not recommended for infants weighing less than 5 kg due to a lack of data on safety and dosing.\n\n(c) \"Is available as tablets of 274mg\" - This is incorrect. The standard mefloquine tablet strength is 250 mg.\n\n(d) \"Can be given concomitantly with quinine\" - This is incorrect and dangerous. Mefloquine and quinine should not be used together. Concurrent administration significantly increases the risk of serious adverse effects, including seizures and cardiac arrhythmias (QT prolongation).",
+    "additional": "Conclusion: All the provided options are factually incorrect based on standard medical and pharmaceutical guidelines. There is no correct answer in this question.\n\nMefloquine Prophylaxis Regimen:\n\nStart: 1-2 weeks before travel.\nContinue: Once weekly during the stay.\nEnd: Continue for 4 weeks after leaving the endemic area.\n\nMajor Adverse Effect: Neuropsychiatric side effects are a significant concern. These can range from vivid dreams and anxiety to depression, paranoia, and psychosis. It is contraindicated in people with a history of psychiatric disorders or seizures.\n\nOther Prophylaxis Options:\n\nAtovaquone/Proguanil (Malarone): Taken daily. Started 1-2 days before travel, continued during, and for 7 days after. Well-tolerated.\n\nDoxycycline: Taken daily. Started 1-2 days before travel, continued during, and for 4 weeks after. A common side effect is photosensitivity.\n\nTextbook Reference: Centers for Disease Control and Prevention (CDC). Yellow Book: Health Information for International Travel. Chapter: Malaria."
   }
 ]
+
+
 
 
 
