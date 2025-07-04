@@ -97,41 +97,26 @@
     opacity: 0.8;
   }
 }
-    #reload-btn {
-  background: linear-gradient(to right, #0f9d58, #34a853);
+   #reload-btn {
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
   color: white;
   border: none;
-  padding: 10px 20px;
-  font-size: 15px;
+  padding: 12px 24px;
+  font-size: 16px;
   font-weight: bold;
   border-radius: 30px;
   margin: 10px;
   cursor: pointer;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-  transition: transform 0.2s ease, box-shadow 0.3s ease;
   position: relative;
   overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
 }
 
 #reload-btn:hover {
   transform: scale(1.05);
-  box-shadow: 0 6px 14px rgba(0,0,0,0.3);
-}
-
-#reload-btn::after {
-  content: "";
-  position: absolute;
-  top: 0; left: -100%;
-  width: 100%;
-  height: 100%;
-  background: rgba(255,255,255,0.1);
-  transform: skewX(-45deg);
-  transition: left 0.5s ease;
-}
-
-#reload-btn:hover::after {
-  left: 200%;
-}
+  box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+} 
   </style>
 </head>
 <body>
@@ -141,7 +126,7 @@
   <h1>📝 HEARTIQUE NURSING NEXUS QUIZ PAPERS</h1>
   <p>Select a unit to begin your quiz journey.</p>
  <p>If you have any revision papers you'd love to see added and shared with others, kindly reach out through this number: 0717517371. Your contribution could help many more students. Thank you! ❤️</p>
-<button id="reload-btn">🔁 Reload Page</button>
+<button id="reload-btn">🎉 Reload Page</button>
   <!-- PAPER ONE -->
   <div class="paper-section">
   <h2 id="paper-one-title">📘 Paper One Units</h2>
