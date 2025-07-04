@@ -118,7 +118,80 @@
     "answer": "D",
     "explanation": "Why D is correct: Frederick Herzberg proposed the Motivation-Hygiene Theory (Two-Factor Theory), which states that job satisfaction comes from motivators (e.g., recognition, achievement), while job dissatisfaction comes from lack of hygiene factors (e.g., salary, policies).\n\nWhy the others are incorrect:\nA. Maslow: Hierarchy of Needs.\nB. 'Dale Hawthorne' is a misattribution. Hawthorne studies were done by Elton Mayo.\nC. Drucker: Management by Objectives, not motivation theory.",
     "additional": "Herzberg's Theory in Nursing:\n- Motivators: Recognition, advancement, responsibility\n- Hygiene factors: Salary, supervision, work conditions\n\nPOSSIBLE NCK QUESTIONS:\n- Which is a hygiene factor? (Answer: Salary)\n- A 'Nurse of the Month' award affects which factor? (Answer: Motivator – Recognition)"
+  },
+  {
+    "question": "A nurse is concerned about potential substance abuse by a coworker. Which of the following behaviors warrants further investigation?",
+    "options": {
+      "A": "The nurse in question frequently requests the largest patient care assignment for the shift.",
+      "B": "The nurse in question prefers not to be the \"medication nurse\" on the shift.",
+      "C": "The nurse in question declines to take scheduled breaks.",
+      "D": "The nurse in question frequently wastes medications."
+    },
+    "answer": "D",
+    "explanation": "This question asks for the most significant red flag for drug diversion (theft of medication for personal use).\n\nd. The nurse in question frequently wastes medications. This is a major indicator. A nurse may document that a partial dose of a controlled substance was \"wasted\" (e.g., if a 2mg dose is ordered and the vial contains 4mg), but instead of properly disposing of the remainder, they divert it for themselves. Frequent or excessive wasting, especially without a witness signature as required by policy, is highly suspicious.\n\nOther common signs include volunteering to give pain medications for other nurses' patients, patients complaining of unrelieved pain despite receiving medication, frequent trips to the bathroom or supply closet after handling narcotics, and changes in mood or performance.\n\nDistractor Rationale: The other options are less specific. A nurse requesting a large assignment (a) or declining breaks (c) could be a dedicated employee. Preferring not to be the med nurse (b) is the opposite of a behavior typical of diversion.",
+    "additional": "Nurse's Responsibility: A nurse who suspects a coworker is impaired has a professional and ethical duty to report their concerns to the nurse manager or supervisor. The primary concern is patient safety.\n\nImpaired Nurse Programs: Most states have non-disciplinary programs (e.g., Intervention Projects for Nurses) to help nurses with substance use disorders get treatment and return to safe practice.\n\nReference: A textbook on nursing leadership or professional issues, such as Cherry & Jacob's Contemporary Nursing."
+  },
+  {
+    "question": "During disaster management the nurse establishes the need for immediate emergency measures to save and sustain the lives of survivors. Which phase of the nursing process is this function carried out?",
+    "options": {
+      "A": "Evaluation",
+      "B": "Diagnosing",
+      "C": "Assessment",
+      "D": "Planning"
+    },
+    "answer": "D",
+    "explanation": "This question maps the disaster management cycle to the nursing process.\n\nDisaster Management Cycle: Mitigation, Preparedness, Response, Recovery.\n\nNursing Process: Assessment, Diagnosis, Planning, Implementation, Evaluation (ADPIE).\n\nThe scenario describes establishing the need for measures and determining what needs to be done to save lives. This is the core of Planning.\n\nAssessment would be the initial rapid triage and gathering of information about the situation and casualties.\n\nDiagnosis would be identifying the priority health problems (e.g., \"Risk for Hypovolemic Shock\" for the population).\n\nPlanning is using the assessment data and diagnoses to set goals and determine the specific interventions needed (e.g., \"We will set up a first aid station here; priority is to control bleeding and open airways\").\n\nImplementation would be actually performing those interventions.\n\nEvaluation would be reassessing the situation to see if the plan is working.",
+    "additional": "Disaster Triage (e.g., START/Simple Triage and Rapid Treatment): A method used to quickly sort casualties into categories based on the severity of their injuries.\n\nRed (Immediate): Life-threatening injuries but have a high probability of survival with immediate treatment.\n\nYellow (Delayed): Serious injuries, but treatment can be delayed.\n\nGreen (Minor): \"Walking wounded,\" minor injuries.\n\nBlack (Expectant/Deceased): Catastrophic injuries, unlikely to survive, or deceased.\n\nReference: Lewis's Medical-Surgical Nursing, Chapter 67: Emergency, Terrorism, and Disaster Nursing."
+  },
+  {
+    "question": "After a flood disaster, the nurse's immediate PRIORITY is to\ni. Determine life threatening cases\nii. Document the number of casualties\niii. Assess cardiopulmonary function\niv. Keep channels of communication",
+    "options": {
+      "A": "i, ii and iii",
+      "B": "i, iii and iv",
+      "C": "ii, iii and iv",
+      "D": "i, ii, iii and iv"
+    },
+    "answer": "B",
+    "explanation": "This question asks for the immediate priorities for a nurse responding to a mass casualty incident (MCI) like a flood. The focus must be on direct, life-saving actions and critical functions.\n\ni. Determine life-threatening cases: This is triage, the absolute first step. You must identify who needs immediate help to save lives.\n\niii. Assess cardiopulmonary function: This is the core of the primary survey (ABCDEs) and is integral to identifying life-threatening conditions.\n\niv. Keep channels of communication: In an MCI, communication is critical for coordinating the response, calling for resources, and managing the scene safely. It is a high-level priority.\n\nii. Document the number of casualties: While important for resource management and official records, the act of documenting the total number is a secondary priority to the immediate, hands-on task of finding and treating the living. Triage tagging is part of the initial process, but a formal count comes after the initial life-saving interventions.\n\nTherefore, the combination of determining life-threatening cases (i), assessing cardiopulmonary function (iii), and maintaining communication (iv) represents the most critical immediate priorities.",
+    "additional": "Primary Survey (for individual patients in an emergency): A-Airway, B-Breathing, C-Circulation, D-Disability (neurological status), E-Exposure/Environment.\n\nRole of the Nurse in a Disaster: Can vary from hands-on care and triage to management, coordination, and providing psychological first aid.\n\nReference: A textbook on disaster nursing or emergency nursing."
+  },
+  {
+    "question": "Due to the number of casualties following a mass accident, the nurse manager has to request additional staff. What function of management is the manger utilizing?",
+    "options": {
+      "A": "Planning",
+      "B": "Organizing",
+      "C": "Controlling",
+      "D": "Evaluating"
+    },
+    "answer": "B",
+    "explanation": "This question relates to the classic functions of management.\n\nPlanning: Setting goals and deciding how to achieve them.\n\nOrganizing: Arranging and structuring work, resources, and people to accomplish the organization's goals. This includes determining what tasks need to be done, who is to do them, and how resources (including human resources/staff) are allocated. Requesting additional staff is a core activity of the organizing function.\n\nLeading: Motivating, directing, and otherwise influencing people to work hard to achieve goals.\n\nControlling: Monitoring performance, comparing it with goals, and taking corrective action as needed.\n\nWhen the manager assesses the situation and realizes the current staff level is insufficient, they are engaging in the organizing function by securing the necessary human resources to meet the demand.",
+    "additional": "Delegation: A key skill within the organizing and leading functions. The nurse manager must delegate tasks appropriately to incoming staff based on their scope of practice.\n\nStaffing: Involves planning for, hiring, deploying, and retaining qualified personnel to meet the needs of the patients.\n\nReference: A textbook on nursing leadership and management."
+  },
+  {
+    "question": "The charge nurse assesses the notes of the admitting nurse. Which of the following statements would cause the charge nurse to be most concerned?",
+    "options": {
+      "A": "Place client in high fowler's position",
+      "B": "A line drawn through a sentence and marked error",
+      "C": "Anxiety related to fear of impending doom",
+      "D": "Client produced frothy blood-tinged sputum"
+    },
+    "answer": "D",
+    "explanation": "The charge nurse must be able to identify the most critical clinical finding.\n\nd. Client produced frothy blood-tinged sputum: Pink, frothy sputum is the hallmark sign of acute pulmonary edema, a life-threatening condition where the lungs fill with fluid, often due to severe left-sided heart failure. This indicates a medical emergency requiring immediate intervention.\n\na. Place client in high fowler's position: This is an appropriate intervention for a client with respiratory distress.\n\nb. A line drawn through a sentence and marked error: This is the correct procedure for correcting an error in paper documentation. It is not a clinical concern.\n\nc. Anxiety related to fear of impending doom: A feeling of \"impending doom\" is a serious subjective sign that can accompany life-threatening events like a pulmonary embolism or myocardial infarction. However, the objective finding of pink, frothy sputum (d) is a more definitive and alarming sign of a specific, critical pathophysiology (pulmonary edema). The sputum provides the \"why\" for the feeling of doom.",
+    "additional": "Management of Pulmonary Edema:\n\nAdminister high-flow oxygen.\n\nPlace the client in a high-Fowler's position with legs dangling to decrease venous return.\n\nAdminister rapid-acting diuretics (e.g., furosemide).\n\nAdminister vasodilators (e.g., nitroglycerin) and morphine to decrease preload and afterload.\n\nDocumentation Principles: Documentation must be factual, accurate, complete, current, and organized. Errors should be corrected with a single line through the entry, with the word \"error\" and the nurse's initials.\n\nReference: Lewis's Medical-Surgical Nursing, Chapter 34: Heart Failure."
+  },
+  {
+    "question": "Which of the following leadership styles is BEST, if there is time to make decision?",
+    "options": {
+      "A": "Situational",
+      "B": "Autocratic",
+      "C": "Democratic",
+      "D": "Laissez-faire"
+    },
+    "answer": "C",
+    "explanation": "This question asks for the best leadership style when time is not a critical factor.\n\nDemocratic (or Participative): This style involves the leader including one or more employees in the decision-making process. The leader encourages discussion and feedback. This style builds morale, fosters teamwork, and often leads to better, more creative decisions because it incorporates multiple perspectives. Its main drawback is that it is time-consuming. Therefore, it is the BEST style to use when there is time.\n\nAutocratic (or Authoritarian): The leader makes decisions independently with little or no input from others. This style is fast and efficient, making it the best choice in an emergency or crisis when a decision is needed immediately (e.g., during a cardiac arrest).\n\nLaissez-faire: The leader provides little or no direction and gives the group complete freedom. This style is effective only with a team that is highly mature, experienced, and self-motivated.\n\nSituational: This is a leadership theory, not a single style. It proposes that the most effective leaders adapt their style (e.g., from autocratic to democratic) based on the situation and the maturity level of their followers. While this is an effective overall approach, democratic is the best specific style for the condition given (having time).",
+    "additional": "Transformational Leadership: A style where leaders inspire and motivate followers to achieve extraordinary outcomes and, in the process, develop their own leadership capacity. This is often considered the ideal style in modern healthcare.\n\nTransactional Leadership: A style focused on supervision, organization, and performance; leadership is based on a system of rewards and punishments.\n\nReference: A textbook on nursing leadership and management."
   }
 ]
+
 
 
