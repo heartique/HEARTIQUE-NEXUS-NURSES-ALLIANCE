@@ -178,7 +178,154 @@
     "answer": "B",
     "explanation": "(B) Why it's correct: This option lists three of the most critical and direct assessments related to the chest drainage system itself.\n\nVital Signs: Essential for monitoring for complications like hemorrhage (tachycardia, hypotension) or infection (fever).\n\nColour of drainage: Indicates the type of fluid being drained (e.g., serous, serosanguinous, or frank blood). A sudden change to bright red blood indicates active bleeding.\n\nAmount of drainage: This must be measured and recorded regularly (e.g., every hour in the immediate post-op period, then every 4-8 hours). A sudden large increase in drainage (>100-200 mL/hr) can signify hemorrhage.\n\n(A), (C), and (D) Why they are incorrect:\n\n(A) While checking for patent connections is crucial, \"amount\" of drainage is a more fundamental assessment than \"patent connections.\" Amount is a direct patient outcome measurement.\n\n(C) & (D) While assessing patient understanding is an important part of nursing care, it is not a primary physical observation of the drainage system's function or the patient's physiological status. Cyanosis is part of assessing vital signs/respiratory status. The core assessments of the drainage system are amount and character of drainage.",
     "additional": "Three Chambers of a Chest Drainage Unit:\n\nCollection Chamber: Collects the fluid/blood drainage.\n\nWater-Seal Chamber: Contains sterile water and acts as a one-way valve, allowing air to exit the pleural space but not re-enter. You should see gentle tidaling (fluctuation of the water level with breathing). Continuous bubbling in this chamber indicates an air leak.\n\nSuction Control Chamber: Regulates the amount of negative pressure applied. Gentle, continuous bubbling in this chamber (if wet suction is used) is normal and indicates the suction is working correctly.\n\nTextbook Reference: Lewis's Medical-Surgical Nursing, 11th Ed. - Chapter 27 (Chest and Lower Respiratory Problems). See the section on \"Chest Tubes and Pleural Drainage.\""
+  },
+  {
+    "question": "Laryngo-trachea bronchitis is characterized by a cough that is;",
+    "options": {
+      "a": "Moist",
+      "b": "Barky",
+      "c": "Muffled",
+      "d": "Wheezy"
+    },
+    "answer": "b",
+    "explanation": "Correct (b): Laryngotracheobronchitis, commonly known as croup, is a viral infection that causes inflammation and swelling of the larynx (voice box), trachea (windpipe), and bronchi. This swelling narrows the upper airway and leads to the classic triad of symptoms: a harsh, seal-like barking cough, inspiratory stridor (a high-pitched breathing sound), and hoarseness.\n\nIncorrect (a, c, d):\n\na) A moist or productive cough is typical of lower respiratory infections like pneumonia or bronchitis.\n\nc) A muffled voice (\"hot potato voice\") is more characteristic of epiglottitis, a bacterial infection that is a medical emergency.\n\nd) Wheezing is a high-pitched whistling sound on expiration, caused by narrowed lower airways, and is the hallmark of asthma or bronchiolitis.",
+    "additional": "Deeper Insight: Croup is most common in young children. Management focuses on reducing airway inflammation. For mild cases, cool, humidified air (e.g., from a shower or cool mist humidifier) can be effective. For moderate to severe cases, corticosteroids (like dexamethasone) are used to reduce swelling, and nebulized epinephrine may be used to rapidly decrease airway edema in emergencies.\n\nPossible Next Question (NCK Focus): A question asking to differentiate the signs of croup from epiglottitis. \"A child presents with a high fever, drooling, and is sitting in a tripod position. The nurse should suspect which condition and avoid what action?\" The answer would be epiglottitis, and the nurse should avoid examining the throat with a tongue blade, as it can trigger complete airway obstruction."
+  },
+  {
+    "question": "An acute asthmatic attack is treated with a;",
+    "options": {
+      "a": "Corticosteroids",
+      "b": "Mast cell stabiliser",
+      "c": "Leukotriene modifier",
+      "d": "(Missing option, but context implies a short-acting bronchodilator)"
+    },
+    "answer": "a",
+    "explanation": "First-Line Treatment (SABA - e.g., Albuterol): The immediate priority in an acute asthma attack (exacerbation) is to relieve bronchospasm and open the airways. This is done with a short-acting beta-agonist (SABA), which is a fast-acting bronchodilator. This is the \"rescue\" inhaler.\n\nAdjunctive Treatment (a) Corticosteroids: Systemic corticosteroids (e.g., prednisone, methylprednisolone) are used in moderate to severe exacerbations to decrease airway inflammation. They are not fast-acting but are crucial for resolving the attack and preventing a relapse. Their effect takes hours to begin.\n\nIncorrect (b, c): Mast cell stabilizers (e.g., cromolyn sodium) and leukotriene modifiers (e.g., montelukast) are controller/preventer medications. They are taken daily to prevent asthma attacks from occurring and have no role in treating an acute attack.",
+    "additional": "Deeper Insight: Asthma management is divided into two categories:\n\nReliever/Rescue Meds: For acute symptoms (SABAs, anticholinergics).\n\nController/Preventer Meds: For long-term control (Inhaled corticosteroids, LABAs, leukotriene modifiers, mast cell stabilizers).\n\nPossible Next Question (NCK Focus): \"A client using an albuterol inhaler for an acute asthma attack reports feeling shaky and having a rapid heart rate. What is the nurse's best response?\" The nurse should explain that tachycardia and tremors are common side effects of this medication."
+  },
+  {
+    "question": "The nurse evaluates a client following treatment for carbon monoxide poisoning. The nurse would document that the treatment was effective if which of the following were present?;",
+    "options": {
+      "a": "The client is sleeping soundly",
+      "b": "The client is awake and talking",
+      "c": "The heart monitor shows sinus tachycardia",
+      "d": "Carboxyhemoglobin levels are less than 5%"
+    },
+    "answer": "d",
+    "explanation": "Correct (d): Carbon monoxide (CO) binds to hemoglobin with an affinity >200 times that of oxygen, forming carboxyhemoglobin (COHb). This prevents oxygen from binding and leads to tissue hypoxia. The definitive measure of both the severity of the poisoning and the effectiveness of treatment is the serum carboxyhemoglobin level. A normal level for a non-smoker is <2%; a level <5% indicates that the treatment (usually 100% high-flow oxygen) has been effective in displacing the CO from hemoglobin.\n\nIncorrect (a, b): While being awake and talking is a positive clinical sign, it is subjective. A patient could still have dangerously high COHb levels. Sleeping soundly could be a sign of continued CNS depression from the poisoning.\n\nIncorrect (c): Sinus tachycardia is a compensatory response to hypoxia and may persist for some time. Its presence does not confirm that the underlying cause has been resolved.",
+    "additional": "Deeper Insight: The treatment for CO poisoning is 100% oxygen administered via a non-rebreather mask to shorten the half-life of COHb and accelerate the elimination of CO. In severe cases, hyperbaric oxygen (HBO) therapy may be used. A classic but often subtle sign of CO poisoning is a cherry-red skin color, but this is a late finding and often not present. Pulse oximetry is unreliable in CO poisoning because the pulse oximeter cannot differentiate between oxyhemoglobin and carboxyhemoglobin, giving a falsely high SpO2 reading.\n\nPossible Next Question (NCK Focus): \"A client is admitted from a house fire with suspected carbon monoxide poisoning. Their pulse oximeter reads 99%. What is the nurse's priority action?\" The answer would be to administer 100% oxygen via a non-rebreather mask and draw blood for a carboxyhemoglobin level."
+  },
+  {
+    "question": "A client with significant flail chest has arterial blood gases (ABGs) that reveal a PaO2 was 68 and that PaCO2 was 51. Two hours ago the PaO2 was 82 and the PaCO2 was 44. Based on these changes the nurse obtains which of the following items?",
+    "options": {
+      "a": "Intubation tray",
+      "b": "Chest tube insertion set",
+      "c": "Portable chest X-ray machine",
+      "d": "Injection lidocaine (Xylocaine)"
+    },
+    "answer": "a",
+    "explanation": "Correct (a): These ABG results show worsening acute respiratory failure. The PaO2 has dropped significantly (hypoxemia, normal is 80-100 mmHg), and the PaCO2 has risen (hypercapnia, normal is 35-45 mmHg). This indicates the patient is no longer able to maintain adequate ventilation and oxygenation. Flail chest (multiple adjacent rib fractures) causes paradoxical chest wall movement and severe pain, leading to shallow breathing (hypoventilation). The worsening gas exchange is a clear indication for imminent mechanical ventilation. The nurse must anticipate this and prepare an intubation tray.\n\nIncorrect (b, c, d):\n\nb) A chest tube is for a pneumothorax or hemothorax, which can accompany flail chest, but the immediate problem indicated by the ABGs is ventilatory failure, not a collapsed lung.\n\nc) A chest X-ray is useful, but preparing for airway management is the life-saving priority.\n\nd) Lidocaine is a local anesthetic or antiarrhythmic and is not relevant here. Pain control (e.g., with IV opioids or an epidural) is vital for flail chest but will not reverse this degree of respiratory failure.",
+    "additional": "Deeper Insight: The primary treatment for severe flail chest is to stabilize the chest wall from the inside out using positive pressure ventilation (intubation). This internal \"splinting\" allows the fractures to heal while ensuring adequate gas exchange. Aggressive pain management is also key to allow the patient to breathe as deeply as possible.\n\nPossible Next Question (NCK Focus): \"A nurse observes paradoxical chest wall movement in a trauma client. What is the nurse's priority action?\" The answer is to administer high-flow oxygen and prepare for possible intubation."
+  },
+  {
+    "question": "A hospitalized client is dyspneic and has been diagnosed with a left tension pneumothorax by chest X-ray after insertion of a central venous catheter. Which of the following indicates that the pneumothorax is worsening?",
+    "options": {
+      "a": "Hypertension",
+      "b": "Flat neck veins",
+      "c": "Pain with respiration",
+      "d": "Tracheal deviation to the right"
+    },
+    "answer": "d",
+    "explanation": "Correct (d): A tension pneumothorax is a life-threatening emergency. Air enters the pleural space on inspiration but cannot escape, causing a one-way-valve effect. The pressure builds, completely collapsing the affected lung (the left lung in this case) and pushing the entire mediastinum (heart, great vessels, trachea) to the opposite side. Therefore, tracheal deviation to the right is a classic, late sign of a worsening left tension pneumothorax.\n\nIncorrect (a, b, c):\n\na) The patient will have severe hypotension, not hypertension, due to compression of the great vessels, which impairs venous return to the heart.\n\nb) The patient will have distended neck veins (JVD), not flat neck veins, due to the impaired venous return.\n\nc) Pain with respiration (pleuritic pain) is a symptom of any pneumothorax, not specifically a sign of it worsening into a tension pneumothorax.",
+    "additional": "Deeper Insight: A tension pneumothorax is a clinical diagnosis. One should not wait for an X-ray if the signs are present (severe respiratory distress, hypotension, JVD, unilateral absence of breath sounds, and tracheal deviation). The immediate treatment is needle decompression (inserting a large-bore needle into the 2nd intercostal space, midclavicular line) followed by chest tube insertion.\n\nPossible Next Question (NCK Focus): \"A nurse is assessing a client with a chest tube for a pneumothorax. Which finding requires immediate intervention?\" An answer could be continuous bubbling in the water seal chamber (indicating a persistent air leak) or no tidaling in the water seal chamber when the patient is not on suction (indicating a possible obstruction)."
+  },
+  {
+    "question": "A client involved in a house fire is experiencing respiratory distress, and an inhalation injury is suspected. The nurse monitors which of the following for the presence of monoxide poisoning?",
+    "options": {
+      "a": "Pulse oximetry",
+      "b": "Urine myoglobin",
+      "c": "Sputum carbon levels",
+      "d": "Serum carboxyhemoglobin levels"
+    },
+    "answer": "d",
+    "explanation": "Correct (d): This question is very similar to Q16. The gold standard for diagnosing and monitoring carbon monoxide (CO) poisoning is a direct measurement of the serum carboxyhemoglobin (COHb) level via an arterial or venous blood sample. This test quantifies the percentage of hemoglobin that is saturated with CO instead of oxygen.\n\nIncorrect (a): Pulse oximetry is notoriously unreliable and falsely reassuring in CO poisoning because it cannot distinguish COHb from oxyhemoglobin.\n\nIncorrect (b): Urine myoglobin would be checked for rhabdomyolysis, a complication of severe burns or crush injuries, but not for CO poisoning itself.\n\nIncorrect (c): Sputum may contain soot or carbon particles, which is a strong indicator of an inhalation injury, but it does not quantify the systemic poisoning from CO.",
+    "additional": "Deeper Insight: Any patient from an enclosed-space fire should be assumed to have CO poisoning until proven otherwise. Key signs of inhalation injury (which often co-occurs) include facial burns, singed nasal hairs, hoarseness, and carbonaceous sputum. These patients are at high risk for developing delayed airway edema and should be monitored very closely for at least 24 hours.\n\nPossible Next Question (NCK Focus): \"A patient with an inhalation injury develops increasing hoarseness and difficulty swallowing. What should the nurse anticipate?\" The answer is the need for prophylactic intubation before the airway swells shut completely."
+  },
+  {
+    "question": "During bronchoscopy, a patient experiences vagal response. The nurse should expect the following;",
+    "options": {
+      "a": "Bronchodilation",
+      "b": "Tachycardia",
+      "c": "Bradycardia",
+      "d": "Reduced gastrointestinal secretion"
+    },
+    "answer": "c",
+    "explanation": "Correct (c): A bronchoscopy involves stimulating the airways, which are heavily innervated by the vagus nerve (CN X). Vagal stimulation (a vasovagal response) activates the parasympathetic nervous system. The primary cardiovascular effect of parasympathetic activation is a slowing of the heart rate (bradycardia). Hypotension can also occur.\n\nIncorrect (a, b, d):\n\na) Vagal stimulation causes bronchoconstriction, not bronchodilation.\n\nb) Tachycardia is a result of sympathetic stimulation.\n\nd) Vagal stimulation increases gastrointestinal secretions and motility.",
+    "additional": "Deeper Insight: Because of this risk, patients are continuously monitored (ECG, BP, SpO2) during a bronchoscopy. Atropine, a medication that blocks the vagus nerve and increases heart rate, should be readily available to treat symptomatic bradycardia if it occurs.\n\nPossible Next Question (NCK Focus): \"What is the priority nursing intervention after a client has had a bronchoscopy?\" The answer is to keep the client NPO (nothing by mouth) until the gag reflex has returned to prevent aspiration."
+  },
+  {
+    "question": "A patient with stage IV HIV develops pneumocystis pneumonia. Which is the priority nursing diagnosis for this patient.",
+    "options": {
+      "a": "Impaired oxygenation",
+      "b": "Impaired activity intolerance",
+      "c": "Impaired nutrition",
+      "d": "Impaired immunity"
+    },
+    "answer": "a",
+    "explanation": "Correct (a): Pneumocystis pneumonia (PCP), caused by Pneumocystis jirovecii, is a severe opportunistic infection that causes inflammation and fluid buildup in the alveoli. This directly interferes with the diffusion of gases across the alveolar-capillary membrane. The result is profound hypoxemia. Therefore, using Maslow's hierarchy or the ABCs, Impaired Oxygenation (or Impaired Gas Exchange) is the life-threatening priority.\n\nIncorrect (b, c, d):\n\nb) Activity intolerance is a result of the poor oxygenation and is a secondary problem.\n\nc) Impaired nutrition is a long-term issue in HIV but not the immediate priority during an acute pneumonia.\n\nd) Impaired immunity is the underlying cause of the patient's susceptibility to PCP, but it is not the immediate physiological problem that needs to be addressed. The result of the impaired immunity (the pneumonia and subsequent hypoxemia) is the priority.",
+    "additional": "Deeper Insight: The treatment for PCP is Trimethoprim-Sulfamethoxazole (TMP-SMX, Bactrim). In moderate to severe cases with significant hypoxemia (PaO2 < 70 mmHg), corticosteroids are added to reduce the intense inflammatory response in the lungs, which can improve survival.\n\nPossible Next Question (NCK Focus): \"A nurse is teaching a client with a CD4 count of 150 cells/mm³ about preventing opportunistic infections. Which instruction is most important?\" The answer would be \"You will need to take a medication like TMP-SMX daily to prevent PCP pneumonia.\""
+  },
+  {
+    "question": "The following is a correct advise for a chronic bronchitis patient undergoing teaching of breathing exercise;",
+    "options": {
+      "a": "Exhale through the mouth",
+      "b": "Use diaphragmatic breathing",
+      "c": "Use chest breathing",
+      "d": "Make inhalation longer than exhalation"
+    },
+    "answer": "b",
+    "explanation": "Correct (b): The goal of breathing exercises in patients with Chronic Obstructive Pulmonary Disease (COPD), like chronic bronchitis, is to improve ventilation efficiency and reduce the work of breathing. Diaphragmatic (or abdominal) breathing is the most effective technique. It strengthens the diaphragm, slows the respiratory rate, and reduces the use of accessory muscles, which are inefficient and consume a lot of oxygen.\n\nIncorrect (a, c, d):\n\na) While exhaling through the mouth is part of pursed-lip breathing, this option is less complete than (b).\n\nc) Patients with COPD already overuse their chest/accessory muscles. The goal is to teach them not to use chest breathing.\n\nd) The correct technique is to make exhalation longer than inhalation (typically twice as long). This is the principle of pursed-lip breathing, which helps keep airways open longer and gets trapped air out.",
+    "additional": "Deeper Insight: The two key breathing exercises for COPD are:\n\nPursed-Lip Breathing: Inhale through the nose for 2 counts, then exhale slowly through pursed lips (like whistling) for 4–6 counts. This creates positive back-pressure to prevent airway collapse during exhalation.\n\nDiaphragmatic Breathing: Lie down with one hand on the chest and one on the abdomen. Breathe in so that the hand on the abdomen rises while the hand on the chest stays still. Exhale slowly while the abdomen falls.\n\nPossible Next Question (NCK Focus): \"A nurse is teaching a client with emphysema about pursed-lip breathing. What is the primary purpose of this technique?\" The answer is to prevent airway collapse and prolong exhalation to remove trapped air."
+  },
+  {
+    "question": "A patient's arterial blood gas analysis are as follows: PH is 7.4, partial pressure of CO2 56MmHg, bicarbonate 26.0 meq/l. What is the abnormality present in this patient?",
+    "options": {
+      "a": "Metabolic alkalosis",
+      "b": "Metabolic Acidosis",
+      "c": "Respiratory alkalosis",
+      "d": "Respiratory acidosis"
+    },
+    "answer": "d",
+    "explanation": "Step 1: Analyze the pH. pH = 7.40. This is in the normal range (7.35–7.45). This indicates compensation has occurred. Is it on the acidotic side (7.35–7.40) or alkalotic side (7.40–7.45)? It's right in the middle, but the other values will tell us the primary problem.\n\nStep 2: Analyze the PaCO2. PaCO2 = 56 mmHg. This is high (acidic). The normal range is 35–45 mmHg. A high PaCO2 indicates Respiratory Acidosis.\n\nStep 3: Analyze the HCO3. HCO3 = 26.0 mEq/L. This is on the high end of normal (normal range is 22–26 mEq/L). The kidneys have retained bicarbonate (a base) to buffer the high levels of acid (CO2), bringing the pH back to normal.\n\nConclusion: The primary problem is high CO2 (respiratory acidosis), and the kidneys have compensated by retaining HCO3, resulting in a normal pH. Therefore, this is fully compensated respiratory acidosis.",
+    "additional": "Deeper Insight: This ABG pattern is classic for a patient with chronic COPD. Their bodies have had time to adapt to chronically high CO2 levels by having the kidneys conserve bicarbonate. This is different from an acute respiratory acidosis, where the pH would be low (<7.35) because the kidneys have not had time to compensate.\n\nPossible Next Question (NCK Focus): An ABG interpretation for a different condition. E.g., \"pH 7.30, PaCO2 38, HCO3 18.\" This would be uncompensated metabolic acidosis (common in DKA or renal failure)."
+  },
+  {
+    "question": "Which is the best indicator of response to antituberculous drugs?",
+    "options": {
+      "a": "Negative Sputum after 2 weeks of taking medication",
+      "b": "Negative tuberculin test",
+      "c": "Weight gain with no night sweats",
+      "d": "Improvement of abnormal chest x-ray findings"
+    },
+    "answer": "a",
+    "explanation": "Correct (a): The definitive proof that antituberculous therapy is effective is the eradication of the Mycobacterium tuberculosis bacteria from the body. This is measured by obtaining serial sputum samples for acid-fast bacilli (AFB) smear and culture. A conversion from a positive to a negative sputum culture is the most reliable indicator of a successful bacteriological response. This typically takes several weeks to months, but it is the ultimate goal.\n\nIncorrect (b): A tuberculin skin test (TST or Mantoux test) will remain positive for life once a person is infected. It does not revert to negative after treatment.\n\nIncorrect (c): Improvement in clinical symptoms like fever, night sweats, and weight loss is a very good sign that the treatment is working, but it is not as definitive as microbiological clearance.\n\nIncorrect (d): Chest x-ray findings improve much more slowly and may never return completely to normal, with some scarring often remaining. Therefore, it is not the best indicator for monitoring early treatment response.",
+    "additional": "Deeper Insight: Patients are generally considered non-infectious to others after 2–3 weeks of effective therapy, provided their clinical symptoms are improving and their sputum smears are becoming negative. The full course of treatment for active TB is long, typically 6 months or more, to ensure all bacteria are killed and prevent relapse.\n\nPossible Next Question (NCK Focus): \"A nurse is providing education to a client starting on a multi-drug regimen for active TB that includes rifampin. What information is essential to include?\" The nurse must teach the client that rifampin will turn body fluids (urine, sweat, tears) a harmless orange-red color and can make contact lenses permanently stained."
+  },
+  {
+    "question": "A patient with a tension pneumothorax and chest tube in situ, reports that his chest tube has disconnected from a water seal. The nurse should immediately;",
+    "options": {
+      "a": "Reconnect the tube with under water seal immediately",
+      "b": "Call a physician",
+      "c": "Clamp the chest tube to avoid more air entry",
+      "d": "Inform the patient that there is no problem and call Dr to reinsert a new chest tube"
+    },
+    "answer": "a",
+    "explanation": "Correct (a): Assuming the system can be reconnected quickly and cleanly, this is the priority to re-establish the negative pressure system. If the old system is contaminated, a new one should be used.\n\nIncorrect (b): Calling the physician is important, but it is not the immediate action. The nurse must intervene first to protect the patient.\n\nIncorrect (c): Clamping a chest tube is dangerous, especially in a patient with a pneumothorax. It can cause air to build up in the pleural space, leading to a recurrent tension pneumothorax. Clamping is only done for very brief periods under specific circumstances (e.g., changing the drainage system).\n\nIncorrect (d): This is false reassurance and delays a critical intervention.",
+    "additional": "Deeper Insight: The emergency equipment that should always be at the bedside of a patient with a chest tube includes: two padded clamps, a bottle of sterile water, and a sterile occlusive dressing (e.g., Vaseline gauze).\n\nTube disconnects from system: Place end of tube in sterile water.\n\nTube pulls out of chest: Immediately cover the site with a sterile occlusive dressing, taped on three sides only. This allows air to escape but not enter.\n\nPossible Next Question (NCK Focus): \"A nurse is caring for a patient whose chest tube has accidentally been pulled out of the chest. What is the nurse's immediate action?\" The answer is to cover the insertion site with a sterile dressing taped on three sides."
   }
 ]
+
+
+
 
 
