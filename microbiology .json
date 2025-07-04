@@ -58,5 +58,42 @@
     "answer": "b",
     "explanation": "Acute otitis media (AOM), or middle ear infection, is most common in young children. The infection typically follows a viral upper respiratory infection, which causes eustachian tube dysfunction and allows bacteria from the nasopharynx to enter the middle ear.\n\nOption (b) is correct. The three most common bacterial pathogens responsible for AOM are:\n\nStreptococcus pneumoniae (the most common)\n\nHaemophilus influenzae (non-typeable strains, since the Hib vaccine prevents type b)\n\nMoraxella catarrhalis\n\nOptions (a) and (d) are incorrect. E. coli and Proteus spp. are common causes of urinary tract infections, not AOM.\n\nOption (c) is incorrect because Staphylococcus aureus is a less common cause of AOM compared to S. pneumoniae.",
     "additional": "Risk Factors for AOM:\n\nYoung age (6-24 months)\n\nDaycare attendance\n\nLack of breastfeeding\n\nExposure to tobacco smoke\n\nUse of a pacifier (dummy)\n\nClinical Presentation: The child presents with fever, otalgia (ear pain, often demonstrated by tugging at the ear), irritability, and sometimes fluid draining from the ear (otorrhea) if the tympanic membrane perforates.\n\nPrevention: The pneumococcal conjugate vaccine (PCV) and the Hib vaccine, part of the routine childhood immunization schedule (KEPI), have significantly reduced the incidence of AOM caused by these specific organisms. This is a key public health point for the NCK exam."
+  },
+  {
+    "question": "122. The acid-generating bacterium in our mouth that is the most common cause of tooth decay (dental caries) is the:-",
+    "options": {
+      "a": "Streptococcus viridans.",
+      "b": "Neisseria catarrhalis.",
+      "c": "Streptococcus mutans.",
+      "d": "Staphylococcus aureus."
+    },
+    "answer": "c",
+    "explanation": "This question asks for the specific bacterium primarily responsible for initiating dental caries. The process involves bacteria metabolizing dietary sugars (especially sucrose) into acid, which then demineralizes the tooth enamel.\n\nOption (c) is correct. Streptococcus mutans is the principal etiologic agent of dental caries. It excels at adhering to the tooth surface (forming plaque) and is highly efficient at producing lactic acid from sugar fermentation.\n\nOption (a), Viridans streptococci (a group that includes S. mutans but also other species), are part of the normal oral flora. While they can contribute to plaque, S. mutans is the most cariogenic (cavity-causing) species. This group is also a key cause of infective endocarditis, especially after dental procedures.\n\nOption (b), Neisseria catarrhalis (now more commonly known as Moraxella catarrhalis), is a cause of otitis media and sinusitis, not dental caries.\n\nOption (d), Staphylococcus aureus, is not a primary cause of dental caries. It is associated with skin infections.",
+    "additional": "Pathophysiology of Caries: Remember the four key factors required for caries to develop:\n1. Susceptible Tooth Surface (enamel)\n2. Cariogenic Bacteria (primarily S. mutans)\n3. Fermentable Carbohydrates (sugars)\n4. Time\n\nPrevention (Key Public Health Message):\n- Dietary modification: Reducing the frequency of sugar intake\n- Oral hygiene: Mechanical removal of plaque through brushing and flossing\n- Fluoride: Strengthens tooth enamel, making it more resistant to acid\n\nRelated Condition: Viridans streptococci from the mouth can enter the bloodstream during dental procedures and colonize damaged heart valves, causing subacute bacterial endocarditis. This is why prophylactic antibiotics are sometimes given to high-risk patients before dental work."
+  },
+  {
+    "question": "149. Methods of food preservation which inhibit multiplication of bacteria include:-",
+    "options": {
+      "a": "Smoking, pasteurization, salting.",
+      "b": "Pasteurization, canning, salting.",
+      "c": "Canning, blanching, drying.",
+      "d": "Drying, freezing, smoking."
+    },
+    "answer": "b",
+    "explanation": "The question asks for methods that inhibit bacterial multiplication. This involves creating an environment that is hostile to microbial growth. Let's analyze the options:\n\nPasteurization: Uses heat to kill many pathogenic microbes and reduce the overall number of spoilage organisms.\n\nCanning: Uses high heat under pressure (sterilization) to kill all microbes, including spores, and then seals the food in an airtight container to prevent re-contamination.\n\nSalting (Curing): Creates a hypertonic environment. Through osmosis, water is drawn out of bacterial cells, dehydrating and killing them or inhibiting their growth.\n\nSmoking: Involves both drying and depositing antimicrobial compounds from the smoke onto the food.\n\nDrying (Dehydration): Removes the water necessary for microbial growth.\n\nFreezing: Does not kill most bacteria but stops their multiplication by making water unavailable.\n\nBlanching: A brief immersion in boiling water, primarily used to deactivate enzymes in vegetables before freezing, not as a primary preservation method itself. It kills some surface bacteria but not all.\n\nAll the methods listed in the options are used for food preservation. However, the combination in option (b) is a strong and classic set of methods designed specifically to inhibit or eliminate bacterial multiplication. Options (a), (c), and (d) also contain correct methods, but the question may be looking for the most universally recognized and effective combination for inhibiting growth. Canning, pasteurization, and salting are all designed to either kill bacteria or make the environment osmotically hostile to them.",
+    "additional": "Principles of Food Preservation:\n- Asepsis: Preventing contamination (e.g., sterile packaging)\n- Removal of Microorganisms: Filtration\n- Inhibition of Growth: Low temperature (refrigeration, freezing), reduced water activity (drying, salting, sugaring), use of chemicals (smoking, preservatives)\n- Killing of Microorganisms: Heat (pasteurization, canning, cooking), radiation\n\nClinical Relevance: Understanding these principles is key to preventing foodborne illnesses like botulism (Clostridium botulinum spores can survive boiling but are killed by canning), salmonellosis, and E. coli infections."
+  },
+  {
+    "question": "158. Examples of cestodes include:-",
+    "options": {
+      "a": "Hymenolepis nana, Taenia Saginata, Diphyllobothrium lata",
+      "b": "Necator americanas, Ankylostoma duodenale, Taenia solium",
+      "c": "Echinococcus granulosus, Brugia malayi, Wuchereria bancrofti",
+      "d": "Ankylostoma duodenale, Loaloa, Onchocerca volvulus"
+    },
+    "answer": "a",
+    "explanation": "This question tests your knowledge of helminth (worm) classification. Helminths are divided into two main phyla: Platyhelminthes (flatworms) and Nematoda (roundworms).\n\nPlatyhelminthes (Flatworms) are further divided into:\n- Cestodes (Tapeworms): Segmented, ribbon-like worms. Examples include Taenia, Hymenolepis, Echinococcus, Diphyllobothrium.\n- Trematodes (Flukes): Leaf-shaped, unsegmented worms. Example: Schistosoma.\n\nNematoda (Roundworms): Cylindrical, unsegmented worms. Examples include Ascaris, hookworms (Necator, Ankylostoma), filarial worms (Wuchereria, Brugia, Loa loa).\n\nLet's evaluate the options:\n\nOption (a) is correct. All three—Hymenolepis nana (dwarf tapeworm), Taenia saginata (beef tapeworm), and Diphyllobothrium latum (fish tapeworm)—are cestodes.\n\nOption (b) is incorrect. Necator and Ankylostoma are nematodes (hookworms).\n\nOption (c) is incorrect. Brugia and Wuchereria are nematodes (filarial worms). Echinococcus is a cestode.\n\nOption (d) is incorrect. All three are nematodes.",
+    "additional": "High-Yield Parasite Table:\n| Class | Common Name | Examples | Key Disease/Fact |\n| :--- | :--- | :--- | :--- |\n| Cestodes | Tapeworms | Taenia solium (pork), T. saginata (beef), Diphyllobothrium (fish), Echinococcus (dog) | T. solium can cause cysticercosis (larvae in brain/muscle). Echinococcus causes hydatid cysts. |\n| Trematodes | Flukes | Schistosoma | Schistosomiasis (bilharzia), from snails in freshwater. |\n| Nematodes | Roundworms | Ascaris, Hookworms, Trichuris, Enterobius (pinworm), Filarial worms | Causes malnutrition, anemia (hookworm), perianal itching (pinworm), elephantiasis (Wuchereria). |\n\nDrug of Choice:\n- Praziquantel is the drug of choice for most cestode and trematode infections.\n- Albendazole/Mebendazole are used for most intestinal nematode infections."
   }
 ]
+
