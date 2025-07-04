@@ -70,5 +70,30 @@
     "answer": "B",
     "explanation": "Rationale for Correct Answer (B):\n\nFolic Acid: Sickle cell anemia is a chronic hemolytic anemia, meaning red blood cells are destroyed at a high rate. The bone marrow works overtime to produce new RBCs to compensate. This rapid cell turnover consumes large amounts of folic acid. Therefore, prophylactic folic acid is given to support erythropoiesis and prevent a secondary megaloblastic anemia.\n\nPneumococcal Vaccine: Patients with sickle cell disease have functional asplenia (the spleen is present but does not work properly due to repeated sickling and infarction). The spleen is vital for clearing encapsulated bacteria, especially Streptococcus pneumoniae. This puts patients at extremely high risk for life-threatening sepsis from this organism. Therefore, prophylactic penicillin (in young children) and routine pneumococcal vaccination are critical preventative measures.\n\nAnalysis of Incorrect Options:\n\n(A) The structure of the hemoglobin molecule is the problem. A genetic mutation causes an abnormal hemoglobin, Hemoglobin S (HbS), to be produced. This is the core defect of the disease.\n\n(C) IV fluids are essential during a crisis, but immediate blood transfusion is not the standard for an uncomplicated vaso-occlusive crisis (pain crisis). Transfusions are reserved for specific severe complications like acute chest syndrome, stroke, or severe anemia.\n\n(D) Penicillin is used prophylactically in children, not as a general treatment of choice. NSAIDs can be used for mild pain, but the pain of a severe vaso-occlusive crisis is excruciating and requires potent opioid analgesics (like morphine or hydromorphone).",
     "additional": "Sickle Cell Crisis (Vaso-Occlusive Crisis): This is the hallmark of the disease. When exposed to triggers like dehydration, hypoxia, infection, or cold, the HbS molecules polymerize, causing the RBCs to deform into a rigid \"sickle\" shape. These sickled cells clump together and block small blood vessels, leading to tissue ischemia and severe pain.\n\nManagement of a Pain Crisis (HOP to it!):\n\nHydration: Aggressive IV fluids to reduce blood viscosity and improve perfusion.\n\nOxygenation: Administer oxygen to treat hypoxia, a common trigger and result of the crisis.\n\nPain Control: Aggressive pain management with opioids is a priority.\n\nTextbook Reference: Brunner & Suddarth's Textbook of Medical-Surgical Nursing, 14th Ed., Chapter 32: Management of Patients With Hematologic Neoplasms. See the section on \"Sickle Cell Anemia.\""
+  },
+  {
+    "question": "A 64-year-old client reports feeling weak. The physical assessment notes that the client is slightly pale. The physician diagnoses the client as being mildly anemic. The physician recommends dietary changes. During the counseling session, the client reports frustration, as she feels she regularly eats a balanced diet. What response by the nurse is indicated?",
+    "options": {
+      "A": "You might not be eating as well as you think.",
+      "B": "This happens as you get older.",
+      "C": "As we age, the amount of iron absorbed by your body is decreased.",
+      "D": "Menopause is responsible for these changes."
+    },
+    "answer": "C",
+    "explanation": "The correct response provides a scientific and non-judgmental explanation for the client’s anemia. Aging is associated with decreased gastric acid production, which is essential for dietary iron absorption. This answer helps reduce frustration and opens the door to further education.",
+    "additional": "Iron-Deficiency Anemia:\n\n- Most common anemia worldwide.\n- Causes microcytic, hypochromic red blood cells.\n\nDietary Iron Sources:\n\n- Heme iron (best absorbed): red meat, poultry, fish.\n- Non-heme iron: legumes, leafy greens, iron-fortified cereals.\n\nEnhancing Absorption:\n\n- Vitamin C helps absorb non-heme iron.\n\nInhibitors:\n\n- Calcium, tannins (tea/coffee), phytates (grains).\n\nReference: Lewis's Medical-Surgical Nursing, Chapter 30: Hematologic Problems."
+  },
+  {
+    "question": "The client tells the nurse that her doctor prescribed Medroxyprogesterone acetate (Depo-Provera). Which of the following statements by the client indicates to the nurse that she understands the adverse effects of the drug?",
+    "options": {
+      "A": "I am concerned about the thrombus I had in the past",
+      "B": "I should monitor my blood pressure",
+      "C": "This drug does not cause sterility",
+      "D": "I should take this drug with food"
+    },
+    "answer": "A",
+    "explanation": "Medroxyprogesterone (Depo-Provera) is associated with an increased risk of thromboembolic events. A client expressing concern about a past thrombus demonstrates appropriate understanding. Such history is a potential contraindication for its use and warrants further evaluation.",
+    "additional": "Contraindications:\n\n- History of thromboembolic events (e.g., DVT, PE).\n\nBlack Box Warning:\n\n- Risk of significant bone mineral density loss with prolonged use (>2 years).\n\nPatient Education:\n\n- Ensure adequate calcium and vitamin D intake.\n- Fertility typically returns after discontinuation.\n- Not affected by meals (given IM).\n\nOther Side Effects:\n\n- Irregular bleeding, weight gain, headache, delayed fertility.\n\nReference: Davis's Drug Guide for Nurses (Medroxyprogesterone)."
   }
 ]
+
