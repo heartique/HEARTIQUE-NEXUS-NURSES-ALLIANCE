@@ -250,7 +250,68 @@
     "answer": "A",
     "explanation": "While patients with renal failure are often on a protein-restricted diet to decrease nitrogenous waste, the protein they do consume should be of high biological value (HBV). HBV proteins are \"complete\" proteins, meaning they contain all the essential amino acids the body cannot synthesize on its own. This allows for optimal use by the body for tissue maintenance and repair, producing less urea waste.\n\nHBV protein sources include: Eggs, dairy products, meat, fish, and poultry.\n\nLow biological value (LBV) or \"incomplete\" protein sources lack one or more essential amino acids. These include legumes (beans), nuts, grains, and vegetables.\n\nTherefore, eggs are the correct example of an HBV protein source among the choices.",
     "additional": "Renal Diet Summary: Typically involves restrictions on protein, sodium, potassium, and phosphorus. Fluid intake is also often restricted.\n\nHigh Potassium Foods to Avoid: Bananas, oranges, potatoes, tomatoes, avocados, salt substitutes.\n\nHigh Phosphorus Foods to Avoid: Dairy, dried beans, peas, nuts, cola, chocolate.\n\nReference: Lewis's Medical-Surgical Nursing, Chapter 46: Renal and Urologic Problems."
+  },
+  {
+    "question": "The clinical features for kidney rejection post transplantation includes»",
+    "options": {
+      "A": "Anaemia, anuria, hypotension.",
+      "B": "Hypertension, weight gain, oliguria.",
+      "C": "Tenderness on the area over the transplanted kidney, weight gain, Hypokalemia.",
+      "D": "Hyperuricemia, hyperactivity and polyuria"
+    },
+    "answer": "B",
+    "explanation": "Kidney rejection occurs when the recipient's immune system recognizes the transplanted kidney as foreign and attacks it. This attack causes inflammation and damages the kidney's ability to function.\n\nOliguria: A hallmark sign of a failing kidney is a significant decrease in urine output (less than 400 mL/24h).\n\nFluid Retention: Leads to weight gain and edema due to poor excretion.\n\nHypertension: Result of increased volume and possibly elevated renin levels from the damaged kidney.",
+    "additional": "Analyzing Other Options:\n\n(a) Anemia is more common in chronic kidney failure; hypotension is not typical unless there's shock.\n\n(c) Tenderness and weight gain are consistent, but hypokalemia is incorrect—acute rejection usually causes hyperkalemia.\n\n(d) Polyuria and hyperactivity are not signs of rejection.\n\nTypes of Rejection:\n- Hyperacute: Immediate; organ must be removed.\n- Acute: Days to months; reversible with immunosuppressants.\n- Chronic: Years later; slow fibrosis.\n\nOther signs:\n- Fever\n- Malaise\n- Pain at graft site (iliac fossa)\n- ↑ Creatinine and BUN\n\nTextbook Reference: Brunner & Suddarth's Textbook of Medical-Surgical Nursing, Chapter 54."
+  },
+  {
+    "question": "Insertion of urinary catheter is facilitated by requesting the patient to;",
+    "options": {
+      "A": "Bear down",
+      "B": "Breathe deeply.",
+      "C": "Turn to the side.",
+      "D": "Hold the labia or shaft of penis"
+    },
+    "answer": "A",
+    "explanation": "During catheter insertion, asking the patient to 'bear down' relaxes the external urinary sphincter, facilitating easier catheter passage. It mimics the act of voiding, which helps the pelvic floor muscles relax.",
+    "additional": "Other Options:\n\n(b) Deep breathing helps general relaxation but doesn't directly relax the urinary sphincter.\n\n(c) Turning to the side is unrelated to the insertion technique.\n\n(d) The nurse should handle positioning and maintain sterility—not the patient.\n\nKey Catheter Insertion Practices:\n- Use sterile technique.\n- Proper positioning: Female — dorsal recumbent; Male — supine.\n- Lubricate catheter (esp. in males).\n- Insert until urine flows, then advance 1–2 inches further.\n\nCAUTI Prevention:\n- Use catheters only when necessary.\n- Keep drainage bag below bladder level.\n- Maintain closed system.\n- Daily perineal hygiene.\n- Prompt removal when no longer needed.\n\nTextbook Reference: Potter & Perry’s Fundamentals of Nursing, Chapter 46."
+  },
+  {
+    "question": "The causes of pre-renal failure include,",
+    "options": {
+      "A": "Renal caliculi, benign prostatic hypertrophy and blood clots",
+      "B": "Tubular necrosis, septic shock and hemolytic blood reaction transfusion",
+      "C": "Hemorrhage, burns and dehydration",
+      "D": "Tumours, Trauma and chemical toxicity"
+    },
+    "answer": "C",
+    "explanation": "Pre-renal acute kidney injury (AKI) results from factors that reduce blood flow to the kidneys without directly damaging them. Hemorrhage, burns, and dehydration are classic causes of hypovolemia, leading to decreased renal perfusion.",
+    "additional": "Types of AKI:\n- Pre-renal: Caused by poor perfusion (e.g., hemorrhage, burns, dehydration).\n- Intra-renal: Direct damage (e.g., nephrotoxins, glomerulonephritis).\n- Post-renal: Obstruction (e.g., BPH, stones, clots).\n\nLab Tip: BUN:Creatinine ratio > 20:1 suggests pre-renal cause.\n\nReversible: Pre-renal AKI is often reversible with prompt fluid replacement.\n\nTextbook Reference: Lewis’s Medical-Surgical Nursing, Chapter 46."
+  },
+  {
+    "question": "The primary purpose of administering corticosteroids to a child with nephritic syndrome is to;",
+    "options": {
+      "A": "Increase blood pressure",
+      "B": "Reduce inflammation",
+      "C": "Decrease proteinuria",
+      "D": "Prevent infection"
+    },
+    "answer": "C",
+    "explanation": "Though corticosteroids reduce inflammation (b), their **therapeutic goal** in nephrotic syndrome is to **decrease proteinuria**. The effectiveness of treatment is judged by reduction in urinary protein loss.",
+    "additional": "Nephrotic Syndrome Key Features:\n- Massive proteinuria\n- Hypoalbuminemia\n- Edema\n- Hyperlipidemia\n\nSteroid Use: Mainstay treatment for Minimal Change Disease (most common in children).\n\nNephritic vs Nephrotic Comparison:\n- Nephritic: Hematuria, mild proteinuria, hypertension\n- Nephrotic: Massive proteinuria, edema, low albumin\n\nNursing Care:\n- Monitor weight, I&O, abdominal girth\n- Infection prevention (immunosuppression)\n- Skin care\n- No-salt diet\n\nTextbook Reference: Wong’s Nursing Care of Infants and Children, Chapter 25."
+  },
+  {
+    "question": "The main cause of edema in nephrotic syndrome is;",
+    "options": {
+      "A": "Dilatation of blood capillaries",
+      "B": "Inflammatory processes",
+      "C": "Decreased albumin in blood",
+      "D": "Renal failure"
+    },
+    "answer": "C",
+    "explanation": "Albumin maintains oncotic (pulling) pressure in blood vessels. In nephrotic syndrome, albumin is lost in urine (proteinuria), causing hypoalbuminemia. This reduces oncotic pressure and allows fluid to leak into tissues, resulting in edema.",
+    "additional": "Key Edema Mechanism:\n- ↓ Albumin → ↓ Oncotic pressure → Fluid shifts into interstitial space\n\nOther Facts:\n- Liver compensates by producing more lipids → hyperlipidemia\n- Despite swelling, patients may be intravascularly dehydrated\n- Diuretics must be used cautiously\n\nCompare Edema Causes:\n- Heart Failure: ↑ Hydrostatic pressure\n- Liver Failure: ↓ Albumin + ↑ Portal pressure\n- Nephrotic Syndrome: ↓ Oncotic pressure only\n\nTextbook Reference: Lewis’s Medical-Surgical Nursing, Chapter 45."
   }
 ]
+
 
 
