@@ -69,9 +69,14 @@ document.addEventListener("DOMContentLoaded", () => {
     if (files.length === 0) return;
 
     Promise.all(files.map(file =>
-      fetch(file)
-        .then(res => res.json())
-        .catch(() => [])
+  fetch(file)
+    .then(res => res.json())
+    .catch((err) => {
+      console.warn(`Failed to load ${file}`, err);
+      return [];
+    })
+))
+
     ))
     .then(results => {
       const count = results.reduce((sum, arr) =>
