@@ -12,18 +12,6 @@
     "additional": "STAGES OF ECLAMPTIC SEIZURE:\n\n1. **Premonitory Stage (15–20s)**: Facial twitching, rolling eyes, fixed stare.\n2. **Tonic Stage (15–30s)**: Rigid body, arched back, clenched teeth, apnea, cyanosis.\n3. **Clonic Stage (1–2 mins)**: Jerking limbs, frothing mouth, incontinence, noisy breathing.\n4. **Coma/Post-ictal Stage**: Unconscious, flaccid, confused after waking.\n\nDRUG OF CHOICE: Magnesium Sulphate (MgSO₄)\nANTIDOTE FOR TOXICITY: Calcium Gluconate\nSIGNS OF IMPENDING ECLAMPSIA: Severe headache, visual changes, epigastric pain, hyperreflexia.\nEMERGENCY ACTION: Turn patient to left lateral, protect from injury, oxygenation, MgSO₄ administration.\n\nBOOK: Myles Textbook for Midwives"
   },
   {
-    "question": "Arched back and tightly clenched teeth, are among the features of which stage of eclampsia:",
-    "options": {
-      "a": "Clonic",
-      "b": "Tonic",
-      "c": "Premonitory",
-      "d": "Coma"
-    },
-    "answer": "b",
-    "explanation": "The tonic stage is characterized by intense, sustained muscle contraction. The entire body becomes rigid, causing opisthotonos (arched back) and trismus (clenched jaw). Apnea and cyanosis occur during this stage, which lasts 15–30 seconds.",
-    "additional": "STAGES OF ECLAMPTIC SEIZURE:\n\n1. Premonitory Stage (15–20s): Facial twitching, rolling eyes, fixed stare.\n2. Tonic Stage (15–30s): Rigid body, arched back, clenched teeth, apnea, cyanosis.\n3. Clonic Stage (1–2 mins): Jerking limbs, frothing mouth, incontinence, noisy breathing.\n4. Coma/Post-ictal Stage: Unconscious, flaccid, confused after waking.\n\nDRUG OF CHOICE: Magnesium Sulphate (MgSO₄)\nANTIDOTE FOR TOXICITY: Calcium Gluconate\nSIGNS OF IMPENDING ECLAMPSIA: Severe headache, visual changes, epigastric pain, hyperreflexia.\nEMERGENCY ACTION: Turn patient to left lateral, protect from injury, oxygenation, MgSO₄ administration.\n\nBOOK: Myles Textbook for Midwives"
-  },
-  {
     "question": "Persistent nausea and vomiting related to pregnancy is indicative of:",
     "options": {
       "a": "Morning sickness",
@@ -356,8 +344,842 @@
     "answer": "D",
     "explanation": "Fluid thrill is a classical sign of severe polyhydramnios on percussion, due to a large volume of amniotic fluid.",
     "additional": "CLINICAL EXAMINATION:\n- Inspection: Large, tense abdomen\n- Palpation: Ballotable fetus\n- Auscultation: Muffled FHS\n- Percussion: Fluid thrill\n\nUltrasound: Confirms diagnosis via AFI or deepest pocket\n\nBOOK: Myles Textbook for Midwives"
+  },
+  {
+    "question": "Immediate management of a neonate whose mother is TB smear positive at birth is",
+    "options": {
+      "A": "isoniazid 5 mg per kg daily for 3 months",
+      "B": "isoniazid 5 mg per kg daily for 3 weeks",
+      "C": "isoniazid 5 mg per kg daily for 6 weeks",
+      "D": "isoniazid 5 mg per kg daily for 6 months"
+    },
+    "answer": "D",
+    "explanation": "When a neonate is born to a mother with infectious (smear-positive) pulmonary tuberculosis, the baby is at high risk of acquiring the infection. The standard recommendation is to start prophylactic therapy with Isoniazid (INH). While the exact dosage can be 5-10 mg/kg, the duration is typically long-term, lasting for 6 months. The infant should also be evaluated to rule out congenital TB before starting prophylaxis.",
+    "additional": "BCG Vaccination: In this scenario, the BCG vaccine is usually deferred until the course of INH prophylaxis is completed. This is because INH can interfere with the replication of the live attenuated bacteria in the BCG vaccine, rendering it ineffective.\n\nBreastfeeding: Breastfeeding is generally encouraged as the risk of transmission through breast milk is minimal, and the benefits are substantial. The mother should be on appropriate anti-tuberculous treatment and advised on hygiene measures (e.g., wearing a mask during feeding) if she is still infectious.\n\nEvaluation of the Infant: Before starting prophylaxis, the infant should have a thorough physical examination, chest X-ray, and sometimes a lumbar puncture or gastric aspirates to rule out established congenital TB. If congenital TB is diagnosed, a full multi-drug treatment regimen is required, not just INH prophylaxis.\n\nBOOK: Myles Textbook for Midwives"
+  },
+  {
+    "question": "Complete placenta praevia is also referred to as",
+    "options": {
+      "A": "Type 4",
+      "B": "Type 1",
+      "C": "Type 2",
+      "D": "Type 3"
+    },
+    "answer": "A",
+    "explanation": "Type 4 (or Grade IV) Placenta Previa is the classification for a placenta that completely covers the internal cervical os. This is also known as complete or central placenta previa.",
+    "additional": "Modern Terminology: Modern ultrasound-based classification has simplified this. It focuses on the distance of the placental edge from the internal os.\n\nLow-lying placenta: The placental edge is within 2 cm of the internal os, but not covering it.\nPlacenta previa: The placenta covers the internal os (this term now encompasses the old Type 3 and Type 4).\n\nClinical Significance of Complete (Type 4) Previa: It is an absolute contraindication for vaginal delivery. Attempting a vaginal birth would lead to catastrophic hemorrhage as the cervix dilates and effaces, tearing the overlying placenta. Delivery must be via Caesarean section.\n\nBOOK: Myles Textbook for Midwives"
+  },
+  {
+    "question": "Haematinics, dietary advice and close surveillance are management plans for",
+    "options": {
+      "A": "Moderate anaemia",
+      "B": "Mild anaemia",
+      "C": "Severe anaemia",
+      "D": "Anaemia prevention"
+    },
+    "answer": "B",
+    "explanation": "This combination of treatments is the standard approach for mild anaemia (Hb 10.0-10.9 g/dL) in pregnancy.\n\nHaematinics: This refers to oral iron supplements (e.g., ferrous sulphate) and folic acid.\n\nDietary advice: Encouraging iron-rich foods.\n\nClose surveillance: Monitoring Hb levels to ensure they respond to treatment and do not fall further.",
+    "additional": "a) & c) Moderate to severe anaemia often requires more aggressive management, which may include parenteral iron (IV or IM) or, in very severe cases with signs of decompensation or near term, a blood transfusion. Oral therapy may be too slow or poorly tolerated.\n\nd) While these measures are also part of anaemia prevention, the question describes a management plan, implying the condition already exists. The intensity of this plan is most appropriate for an established case of mild anaemia.\n\nBOOK: Myles Textbook for Midwives"
+  },
+  {
+    "question": "A predisposing factor to cardiac disease in pregnancy includes",
+    "options": {
+      "A": "Pulmonary oedema",
+      "B": "Easy fatiguability",
+      "C": "Basal crepitation",
+      "D": "Severe anaemia"
+    },
+    "answer": "D",
+    "explanation": "Severe anaemia can lead to a condition called high-output cardiac failure. The heart is forced to work much harder to pump the oxygen-poor blood around the body to meet metabolic demands. Over time, this chronic strain can cause the heart to fail, mimicking or causing a cardiac disease state. Therefore, severe anaemia is a predisposing factor for cardiac decompensation.",
+    "additional": "a), b), and c) are all signs and symptoms of cardiac decompensation (heart failure). They are the result of the heart disease, not the cause. Pulmonary oedema (fluid in the lungs), easy fatiguability, and basal crepitations (crackles heard on auscultation) are classic indicators of heart failure.\n\nBOOK: Myles Textbook for Midwives"
+  },
+  {
+    "question": "The clinical feature that is suggestive of acute pyelonephritis in pregnancy is",
+    "options": {
+      "A": "Kinking of the ureters",
+      "B": "Vesico-ureteric reflux",
+      "C": "Fishy smell in urine",
+      "D": "Uncontrolled diabetes"
+    },
+    "answer": "B",
+    "explanation": "Reflux is the abnormal backward flow of urine from the bladder into the ureters. This is a significant pathological factor that allows bacteria from the bladder to easily ascend to the kidneys, causing pyelonephritis.",
+    "additional": "Analysis of Options:\n\na) & b) Kinking of the ureters and vesico-ureteric reflux are underlying anatomical or physiological problems that predispose a person to pyelonephritis. They are causes, not symptoms.\n\nc) A 'fishy smell' in vaginal discharge (not typically urine) is characteristic of Bacterial Vaginosis. Infected urine is more often described as foul-smelling or cloudy.\n\nd) Uncontrolled diabetes is a major risk factor for all infections, including pyelonephritis, due to impaired immune function and glycosuria.\n\nCLASSIC CLINICAL FEATURES of Acute Pyelonephritis in Pregnancy:\n- High fever (>38°C) with chills/rigors\n- Loin pain or renal angle tenderness\n- Systemic symptoms: nausea, vomiting, malaise\n\nThey may or may not have symptoms of a lower UTI (dysuria, frequency, urgency).\n\nBOOK: Myles Textbook for Midwives\nREFERENCES: NICE Guidelines / Local Ministry of Health"
+  },
+  {
+    "question": "A sign of concealed haemorrhage in abruptio placentae is",
+    "options": {
+      "A": "vaginal bleeding",
+      "B": "uterine tenderness",
+      "C": "foul-smelling lochia",
+      "D": "boggy uterus"
+    },
+    "answer": "B",
+    "explanation": "Uterine tenderness is a key sign of concealed haemorrhage in placental abruption. In concealed abruptio, the blood collects behind the placenta and does not exit through the vagina, so the uterus becomes tense, tender, and painful.",
+    "additional": "Why others are incorrect:\n- A) Vaginal bleeding may be absent in concealed abruption.\n- C) Foul-smelling lochia is more associated with endometritis.\n- D) Boggy uterus is usually linked to uterine atony, not abruption.\n\nHigh-Yield for NCK:\n- Look for uterine tenderness, board-like abdomen, and signs of hypovolemia with little external bleeding in concealed abruptio.\n\nBOOK: Myles Textbook for Midwives"
+  },
+  {
+    "question": "A post-term pregnancy is one that goes beyond",
+    "options": {
+      "A": "38 weeks",
+      "B": "40 weeks",
+      "C": "41 weeks",
+      "D": "42 weeks"
+    },
+    "answer": "D",
+    "explanation": "A pregnancy is classified as post-term or prolonged when it exceeds 42 completed weeks of gestation (≥294 days from the last menstrual period).",
+    "additional": "Risks of post-term pregnancy:\n- Increased risk of stillbirth, macrosomia, shoulder dystocia, meconium aspiration, and decreased amniotic fluid (oligohydramnios).\n\nManagement:\n- Close fetal monitoring and consideration of induction of labor around 41 weeks.\n\nBOOK: Myles Textbook for Midwives"
+  },
+  {
+    "question": "Which of the following indicates the second twin is in breech presentation after the first twin has been delivered?",
+    "options": {
+      "A": "Palpation of fetal limbs in fundus",
+      "B": "Palpation of fetal head in fundus",
+      "C": "Fetal bradycardia",
+      "D": "Cord prolapse"
+    },
+    "answer": "B",
+    "explanation": "Palpation of the fetal head in the fundus after delivery of the first twin indicates that the second twin is in breech presentation.",
+    "additional": "Why others are incorrect:\n- A) Fetal limbs may be felt regardless of presentation.\n- C) Fetal bradycardia suggests fetal distress, not presentation.\n- D) Cord prolapse is a complication, not a presentation.\n\nKey Point:\n- Ultrasound or Leopold’s maneuvers are used to confirm lie and presentation of second twin post-delivery of the first.\n\nBOOK: Myles Textbook for Midwives"
+  },
+  {
+    "question": "A likely reason for the uterus failing to contract after delivery is",
+    "options": {
+      "A": "uterine rupture",
+      "B": "placenta praevia",
+      "C": "uterine atony",
+      "D": "retained second twin"
+    },
+    "answer": "C",
+    "explanation": "Uterine atony is the most common cause of failure of the uterus to contract after delivery. Atony refers to the loss of muscle tone in the uterus, leading to postpartum hemorrhage.",
+    "additional": "Why others are incorrect:\n- A) Uterine rupture usually causes pain, shock, and bleeding, but not a flaccid uterus.\n- B) Placenta praevia is a cause of antepartum bleeding, not post-delivery atony.\n- D) Retained second twin is rare; the uterus may still remain contracted if first twin is already out.\n\nManagement:\n- Fundal massage, uterotonics (oxytocin, ergometrine), and manual removal of placenta if needed.\n\nBOOK: Myles Textbook for Midwives"
+  },
+  {
+    "question": "Which of the following can cause uterine inversion post-delivery?",
+    "options": {
+      "A": "vigorous fundal massage before placental separation",
+      "B": "manual separation of placenta",
+      "C": "controlled cord traction",
+      "D": "uterine atony"
+    },
+    "answer": "A",
+    "explanation": "Vigorous fundal massage before placental separation can lead to uterine inversion. If the uterus is relaxed (atonic), downward pressure can cause it to turn inside out.",
+    "additional": "Why others are incorrect:\n- B) Manual separation can cause inversion if improperly done, but less commonly than fundal massage.\n- C) Controlled cord traction is designed to avoid inversion when done correctly.\n- D) Atony is a risk factor but not a direct mechanical cause unless acted upon.\n\nPrevention:\n- Await placental separation before applying fundal pressure or cord traction.\n\nBOOK: Myles Textbook for Midwives"
+  },
+  {
+    "question": "A pregnant woman with acute pyelonephritis is advised on a high fluid intake so as to",
+    "options": {
+      "A": "Promote enough rest",
+      "B": "Correct dehydration",
+      "C": "Relief irritability",
+      "D": "Increase urine output"
+    },
+    "answer": "D",
+    "explanation": "Why (d) is the best answer: The primary therapeutic goal of increasing fluid intake in any UTI is to increase urine output. This creates a \"flushing\" mechanism, helping to mechanically wash bacteria out of the urinary tract (from the kidneys down to the bladder and urethra). A high, steady flow of urine prevents stasis and makes it harder for bacteria to adhere to the urothelium and ascend.\n\nWhy (b) is also correct but less specific: Patients with acute pyelonephritis are often systemically unwell with high fever and vomiting, which leads to dehydration. Correcting this dehydration is a critical part of management and is achieved through high fluid intake (often IV initially). However, the reason why this is particularly important for the UTI itself is to facilitate increased urine output. Therefore, (d) is the more specific physiological reason related to treating the infection.",
+    "additional": "High-Yield for NCK:\n- Hospitalize all pregnant women with pyelonephritis.\n- Administer IV fluids, antibiotics, and antipyretics.\n- Monitor for complications like preterm labor or ARDS.\n\nBOOK: Myles Textbook for Midwives"
+  },
+  {
+    "question": "The priority management of uncomplicated malaria during the second trimester includes the administration of",
+    "options": {
+      "A": "Oral quinine",
+      "B": "Parenteral quinine",
+      "C": "Artemether lumefantrine",
+      "D": "Sulfadoxine pyrimethamine"
+    },
+    "answer": "C",
+    "explanation": "Why (c) is correct: For uncomplicated P. falciparum malaria in the second and third trimesters, an Artemisinin-based Combination Therapy (ACT) is the recommended first-line treatment. Artemether-lumefantrine (AL) is a standard and widely available ACT.",
+    "additional": "Why others are incorrect:\n- A) Oral quinine is reserved for first trimester.\n- B) Parenteral quinine is used for severe malaria.\n- D) SP is for prophylaxis (IPTp), not active treatment."
+  },
+  {
+    "question": "The correct statement about malaria prophylaxis during pregnancy is that",
+    "options": {
+      "A": "Sulfadoxine Pyrimethamine should be given to all pregnant women in malaria endemic zones",
+      "B": "All pregnant women in malaria endemic zones are assumed free of the parasite until tested",
+      "C": "Sulfadoxine Pyrimethamine should be administered with each alternate visit after quickening",
+      "D": "All antenatal clients in Kenya should receive intermittent presumptive treatment at least 6 doses"
+    },
+    "answer": "A",
+    "explanation": "Why (a) is correct: In malaria endemic zones, all pregnant women are given SP at scheduled ANC visits regardless of symptoms or testing, starting after the first trimester, typically monthly.\n\nWhy others are incorrect:\n- B) Asymptomatic infection is common; testing is not required before IPTp.\n- C) SP is not timed by quickening or alternate visits; it is monthly.\n- D) 6 doses is not a universal minimum; 3+ is recommended depending on visit frequency.",
+    "additional": "BOOK: WHO guidelines, Myles Textbook for Midwives"
+  },
+  {
+    "question": "The commonly used inhalational analgesia during labour is",
+    "options": {
+      "A": "Entonox",
+      "B": "Trilene",
+      "C": "Oxygen",
+      "D": "Nitrous oxide"
+    },
+    "answer": "A",
+    "explanation": "Why (a) is the best answer: Entonox is the standard 50:50 mixture of nitrous oxide and oxygen used in labor. It is the most precise and complete answer.\n\nWhy (d) is also correct but less precise: Nitrous oxide is the active analgesic agent but is never given alone in labor — always mixed with oxygen (as Entonox).",
+    "additional": "High-Yield for NCK:\n- Self-administered during contractions.\n- Rapid onset, short duration.\n- Minimal effect on baby or labor progression.\n- Trilene is obsolete; oxygen alone has no analgesic properties.\n\nBOOK: Myles Textbook for Midwives"
+  },
+  {
+    "question": "Which one of the following features is indicative of an abnormal labour pattern?",
+    "options": {
+      "A": "Presence of the retraction ring",
+      "B": "Presence of the bandl's ring",
+      "C": "Cervical canal short and thin",
+      "D": "Vagina is warm and moist"
+    },
+    "answer": "B",
+    "explanation": "Why (b) is correct: A Bandl's ring is an abnormal constriction between the upper and lower uterine segments, seen in obstructed labor. It is visible or palpable as a transverse ridge across the abdomen.\n\nWhy others are incorrect:\n- A) Normal physiological retraction ring is not visible or concerning.\n- C) Short, thin cervix indicates labor progress.\n- D) Warm, moist vagina is a normal finding.",
+    "additional": "High-Yield for NCK:\n- Bandl's ring signals obstructed labor with imminent risk of rupture.\n\nBOOK: Oxorn-Foote Human Labor & Birth, Myles Textbook for Midwives"
+  },
+  {
+    "question": "Post-partum haemorrhage is likely to lead to acute renal failure due to",
+    "options": {
+      "A": "Sheehan's syndrome",
+      "B": "Disseminated intravascular coagulation",
+      "C": "Hypovolaemia leading to tubules necrosis",
+      "D": "Asherman's syndrome"
+    },
+    "answer": "C",
+    "explanation": "Why (c) is correct: Massive postpartum haemorrhage (PPH) leads to severe hypovolaemia (low blood volume) and hypotension (low blood pressure). This drastically reduces blood flow to the kidneys (renal perfusion). Prolonged and severe renal hypoperfusion causes ischemic injury to the kidney tubules, a condition known as Acute Tubular Necrosis (ATN). ATN is the most common cause of acute kidney injury (acute renal failure) in this setting.\n\nWhy the others are incorrect:\n- a) Sheehan's syndrome is ischemic necrosis of the pituitary gland due to severe hypotension from PPH. It affects the pituitary, not the kidneys directly.\n- b) DIC can contribute to renal failure, but the primary mechanism is hypovolemic shock leading to ATN.\n- d) Asherman's syndrome affects the uterine cavity, not the kidneys."
+  },
+  {
+    "question": "Placental parasitation is associated with",
+    "options": {
+      "A": "Malaria prenatally",
+      "B": "Candidiasis prenatally",
+      "C": "Tuberculosis prenatally",
+      "D": "Multiple gestation"
+    },
+    "answer": "A",
+    "explanation": "Why (a) is correct: 'Placental parasitation' refers to the sequestration of malaria parasites (Plasmodium falciparum) in the placenta. These parasites accumulate in the intervillous spaces, impairing maternal-fetal exchange and leading to low birth weight, preterm birth, fetal anaemia, and stillbirth—even if the mother is asymptomatic.\n\nWhy the others are incorrect:\n- b) Candidiasis does not parasitize the placenta.\n- c) TB can infect the placenta but 'parasitation' refers uniquely to malaria.\n- d) Multiple gestation is not an infectious process and doesn't cause parasitation."
+  },
+  {
+    "question": "Complete placenta praevia is also referred to as",
+    "options": {
+      "A": "Type 4",
+      "B": "Type 1",
+      "C": "Type 2",
+      "D": "Type 3"
+    },
+    "answer": "A",
+    "explanation": "This is an identical repeat of Question 31. The answer and explanation are the same.\n\nWhy (a) is correct: In the traditional classification, Type 4 Placenta Previa describes a placenta that completely covers the internal cervical os.\n\nThe other types are: Type 1 (Low-lying), Type 2 (Marginal), and Type 3 (Partial)."
+  },
+  {
+    "question": "Bruised and oedematous appeararnce of the uterus, associated with placenta abruption is collectively referred to as",
+    "options": {
+      "A": "Wernickle's encephalopathy",
+      "B": "Uterine prolapse",
+      "C": "Couvelaire uterus",
+      "D": "Asherman's syndrome"
+    },
+    "answer": "C",
+    "explanation": "Why (c) is correct: Couvelaire uterus (or uterine apoplexy) is the specific term for the bruised, oedematous, and purplish appearance of the uterus caused by the extravasation of blood into the myometrium during a severe placental abruption.\n\nWhy the others are incorrect:\n- a) Wernicke's encephalopathy is a neurological condition from thiamine deficiency.\n- b) Uterine prolapse is the descent of the uterus into the vagina.\n- d) Asherman's syndrome is intrauterine scar tissue."
+  },
+  {
+    "question": "The main feature of Hyperemesis gravidarum is",
+    "options": {
+      "A": "Pallor or cyanosis of mucous membrane",
+      "B": "Inability to eat or retain food all through",
+      "C": "Weakness because of severe state of shock",
+      "D": "Smaller fundal height compared to dates"
+    },
+    "answer": "B",
+    "explanation": "Why (b) is correct: The defining characteristic of hyperemesis gravidarum is intractable nausea and vomiting, which leads to the inability to eat or retain food. This is the core problem that causes all other complications like dehydration, weight loss, and electrolyte imbalance.\n\nWhy the others are incorrect:\n- a) Pallor is a consequence, not the main feature. Cyanosis is not typical unless there's severe compromise.\n- c) Weakness and shock are late complications.\n- d) Smaller fundal height is secondary and not consistent. In molar/multiple pregnancies (risk factors), fundal height may actually be larger.",
+    "additional": "Recommended Reading:\n- Myles Textbook for Midwives\n- Williams Obstetrics"
+  },
+  {
+    "question": "Which of the following can lead to placenta preavia?",
+    "options": {
+      "A": "Grandemultiparity",
+      "B": "Preeclampsia",
+      "C": "Placenta fenestrate",
+      "D": "Placenta increta"
+    },
+    "answer": "A",
+    "explanation": "Why (a) is correct: Grandemultiparity (a woman who has had 5 or more previous births) is a well-established risk factor for placenta previa. Repeated pregnancies may lead to suboptimal vascularization of the upper uterus, encouraging implantation in the lower segment.\n\nWhy the others are incorrect:\n- b) Preeclampsia is associated with placental abruption, not previa.\n- c) Placenta fenestrate is a rare anomaly with no link to previa.\n- d) Placenta increta is a complication that may coexist with previa but doesn't cause it.",
+    "additional": "Major Risk Factors for Placenta Previa:\n- Previous C-section\n- Multiparity / Grandemultiparity\n- Advanced maternal age (>35)\n- Previous previa\n- Multiple gestation\n- Smoking or uterine surgery"
+  },
+  {
+    "question": "Mallory-Weiss syndrome is a complication of",
+    "options": {
+      "A": "Placenta preavia",
+      "B": "Cardiac disease",
+      "C": "Postpartum haemorrhage",
+      "D": "Hyperemesis gravidarum"
+    },
+    "answer": "D",
+    "explanation": "Why (d) is correct: Mallory-Weiss syndrome is a tear in the gastric or esophageal mucosa caused by repeated, violent vomiting — a hallmark complication of severe hyperemesis gravidarum.\n\nWhy others are incorrect: These conditions are not typically associated with the forceful vomiting needed to cause mucosal tears.",
+    "additional": "High-Yield Tip:\n- Suspect Mallory-Weiss tear if a hyperemetic patient develops hematemesis (vomiting blood).\n- Diagnosis is via endoscopy.\n- Usually self-limiting but may need supportive care or endoscopic intervention."
+  },
+  {
+    "question": "Bishop's score is based on",
+    "options": {
+      "A": "Descent, presentation and cervical dilatation",
+      "B": "Position, attitude and cervical length",
+      "C": "Descent, cervical length and dilatation",
+      "D": "Cervical dilatation, lie and effacement"
+    },
+    "answer": "C",
+    "explanation": "Why (c) is correct: Descent (via station), cervical length (effacement), and dilation are all part of Bishop's score. Though incomplete, this option contains three key elements.\n\nFull Bishop's Score Components:\n- Cervical dilation\n- Effacement (length)\n- Fetal station (descent)\n- Cervical consistency\n- Cervical position\n\nWhy others are incorrect:\n- a) Presentation is not part of the score.\n- b) Attitude and fetal position are not included.\n- d) 'Lie' is not scored in Bishop's system.",
+    "additional": "Clinical Application:\n- Score ≥8: Favorable for induction.\n- Score ≤6: Cervical ripening needed first.\n- Used to decide method of labor induction (oxytocin vs. prostaglandins)."
+  },
+  {
+    "question": "Total loss of polarity and fundal dominance leads to",
+    "options": {
+      "A": "Precipitate labour",
+      "B": "Colicky uterus",
+      "C": "Spontaneous labour",
+      "D": "Cervical dystocia"
+    },
+    "answer": "B",
+    "explanation": "Why (b) is correct: Loss of polarity and fundal dominance = incoordinate uterine action. The uterus contracts randomly, ineffectively, and painfully — called a 'colicky uterus'. These contractions don’t aid cervical dilation.\n\nWhy others are incorrect:\n- a) Precipitate labor is fast, coordinated, not chaotic.\n- c) Spontaneous labor can be normal or abnormal — not specific.\n- d) Cervical dystocia is failure of cervical dilation despite good contractions.",
+    "additional": "NCK Focus:\n- Colicky uterus may lead to prolonged labor.\n- Management may include sedation or oxytocin (if hypotonic).\n- Must distinguish from hypertonic uterus, which risks rupture."
+  },
+  {
+    "question": "Among the major predisposing factors of cardiac disease prenatally are",
+    "options": {
+      "A": "Rheumatic heart disease and leukaemia",
+      "B": "Ischaemic heart disease and dehydration",
+      "C": "Uncontrolled hypertension and obesity",
+      "D": "Smoking and peptic ulcer disease"
+    },
+    "answer": "C",
+    "explanation": "Why (c) is correct: Uncontrolled hypertension and obesity are strong, modifiable risk factors for cardiac disease in pregnancy. Hypertension can lead to left ventricular failure; obesity is associated with metabolic syndrome and ischemic heart disease.\n\nWhy the others are incorrect:\n- a) Leukemia is unrelated to structural heart disease.\n- b) Dehydration affects preload but isn’t a long-term cardiac risk.\n- d) Smoking is a risk, but peptic ulcers are not cardiac-related.",
+    "additional": "High-Yield for NCK:\n- Always screen antenatal clients for BMI and blood pressure.\n- Cardiac disease in pregnancy is a major indirect cause of maternal mortality.\n- Rheumatic heart disease, congenital lesions, and cardiomyopathy are also common in Africa."
+  },
+  {
+    "question": "Which of the following is NOT a source of pain in labour",
+    "options": {
+      "A": "Uterine contractions",
+      "B": "Socio-cultural norms",
+      "C": "Cervical dilatation",
+      "D": "Pelvic floor stretching"
+    },
+    "answer": "B",
+    "explanation": "Why (b) is correct: Socio-cultural norms are not a direct physiological source of labor pain. They influence the perception and expression of pain but do not originate it.\n\nWhy the others are incorrect:\n- a) Uterine contractions cause myometrial ischemia.\n- c) Cervical dilation stretches sensory nerves.\n- d) Pelvic floor stretching causes pain during the second stage as the fetal head descends.",
+    "additional": "NCK Insight:\n- Pain in labor is multifactorial — both physical and psychological.\n- Emotional support and communication reduce pain perception even when physiological causes persist."
+  },
+  {
+    "question": "Placenta preavia is also referred as unavoidable haemorrhage because",
+    "options": {
+      "A": "Bleeding results as the segment preparations for true labour",
+      "B": "Bleeding results from pathological processes of the placenta",
+      "C": "Bleeding always occurs after a gestation of 37 complete weeks",
+      "D": "Of the high morbidity and mortality rate to the mother and neonate"
+    },
+    "answer": "A",
+    "explanation": "Why (a) is correct: As the lower uterine segment forms in late pregnancy, the inelastic placenta can't stretch and begins to separate from the uterine wall, causing unavoidable bleeding.\n\nWhy the others are incorrect:\n- b) Bleeding is not due to placental pathology but due to mechanical shearing.\n- c) Bleeding can begin earlier than 37 weeks.\n- d) Morbidity is a consequence, not the cause of the term 'unavoidable haemorrhage'.",
+    "additional": "Additional NCK Tip:\n- Avoid vaginal examination in suspected previa.\n- Diagnosis confirmed via transabdominal/transvaginal ultrasound."
+  },
+  {
+    "question": "The commonest causative organism of pylonephritis is",
+    "options": {
+      "A": "Streptococcus faecalis",
+      "B": "Proteus vulgaris",
+      "C": "Staphylococcus pyogene",
+      "D": "Escherichia coli"
+    },
+    "answer": "D",
+    "explanation": "Why (d) is correct: Escherichia coli is responsible for 70–90% of pyelonephritis cases. Its fimbriae adhere easily to uroepithelium, making it the dominant UTI pathogen.\n\nWhy others are incorrect:\n- a), b), c): These are rare or secondary causes of pyelonephritis, more common in hospital-acquired infections.",
+    "additional": "High-Yield:\n- Always treat pyelonephritis in pregnancy with hospitalization and IV antibiotics.\n- Pyelonephritis is associated with preterm labor and sepsis in pregnancy."
+  },
+  {
+    "question": "Effects of pregnancy on malaria are",
+    "options": {
+      "A": "Development of severe anaemia and severe jaundice",
+      "B": "Blood smear is always positive and severe anaemia",
+      "C": "Therapy limitation and few parasites in severe case",
+      "D": "Loss of pregnancy and severe condition in few parasites"
+    },
+    "answer": "A",
+    "explanation": "Why (a) is correct: Malaria in pregnancy leads to red cell destruction (causing anaemia) and bilirubin overload (leading to jaundice). These are hallmark maternal complications.\n\nWhy others are incorrect:\n- b) Blood smears may not always be positive.\n- c) 'Few parasites in severe case' contradicts malaria pathophysiology.\n- d) Loss of pregnancy is possible but is not an isolated maternal effect.",
+    "additional": "Additional for NCK:\n- Placental malaria may be asymptomatic in the mother.\n- IPTp (intermittent preventive treatment) with SP is essential in endemic areas."
+  },
+  {
+    "question": "Haematinics, dietary advice and close surveillance are management plans for",
+    "options": {
+      "A": "Moderate anaemia",
+      "B": "Mild anaemia",
+      "C": "Severe anaemia",
+      "D": "Anaemia prevention"
+    },
+    "answer": "B",
+    "explanation": "Why (b) is correct: Oral haematinics, nutrition advice, and follow-up monitoring are first-line management for mild anaemia (Hb 10.0–10.9 g/dL).\n\nWhy others are incorrect:\n- a) Moderate anaemia may require parenteral iron.\n- c) Severe anaemia often needs transfusion.\n- d) Prevention uses similar methods, but the question asks about treatment.",
+    "additional": "High-Yield:\n- Mild: oral iron + folate + diet + recheck in 4 weeks.\n- Moderate: IV iron.\n- Severe: Transfusion if symptomatic or <7 g/dL."
+  },
+  {
+    "question": "Effects of preeclampsia on the reproductive systems includes",
+    "options": {
+      "A": "Development of infarcts and placental abruption",
+      "B": "Lowered vaginal discharge PH and haemorrhage",
+      "C": "Congestive cardiac failure and fetal hypoxia",
+      "D": "Poor placental anchorage and severe infarction"
+    },
+    "answer": "A",
+    "explanation": "Why (a) is correct: Preeclampsia causes vasospasm and endothelial injury, which reduce placental perfusion and cause infarction. Fragile spiral arteries predispose to placental abruption.\n\nWhy others are incorrect:\n- b) Vaginal pH is not a core aspect of preeclampsia.\n- c) These are fetal/cardiac complications.\n- d) Poor anchorage causes preeclampsia but is not a result of it.",
+    "additional": "NCK Tip:\n- Always assess for decreased fetal movement and bleeding in patients with preeclampsia — these may signal infarction or abruption."
+  },
+  {
+    "question": "The correct statement with regards to polyhydramnios is that",
+    "options": {
+      "A": "Acute polyhydramnios has a gradual onset as from 20 weeks",
+      "B": "Multiple pregnancy is a cause especially in dizygotic twinning",
+      "C": "Chronic polyhydramnios has a gradual onset as from 30 weeks",
+      "D": "On inspection, the abdomen is ovoid instead of being globular"
+    },
+    "answer": "C",
+    "explanation": "Why (c) is correct: Chronic polyhydramnios develops slowly after 30 weeks, allowing the uterus to accommodate the fluid with fewer symptoms.\n\nWhy others are incorrect:\n- a) Acute polyhydramnios is sudden and painful.\n- b) Most severe polyhydramnios occurs in monozygotic twins.\n- d) Polyhydramnios causes a tense, round (globular) abdomen.",
+    "additional": "NCK Fact:\n- Chronic type may be idiopathic or linked to gestational diabetes or congenital anomalies (e.g. anencephaly, esophageal atresia)."
+  },
+  {
+    "question": "Which one of the following is a cause of oligohydramnios?",
+    "options": {
+      "A": "Absence of fetal urine production",
+      "B": "Excessive fetal urine production",
+      "C": "Blockage of the fetal gastro-intestinal tract",
+      "D": "Dizygotic twinning thus twin to twin transfusion"
+    },
+    "answer": "A",
+    "explanation": "Why (a) is correct: Fetal urine makes up most of the amniotic fluid after mid-pregnancy. Conditions like renal agenesis cause oligohydramnios.\n\nWhy others are incorrect:\n- b) Causes polyhydramnios.\n- c) Blockage affects swallowing, not urine output — leads to polyhydramnios.\n- d) TTTS occurs in monozygotic twins.",
+    "additional": "NCK Note:\n- Potter’s syndrome (bilateral renal agenesis) presents with oligohydramnios and characteristic facial features."
+  },
+  {
+    "question": "T.B. in pregnancy predisposes a mother to premature labour due to",
+    "options": {
+      "A": "Poor maternal appetite",
+      "B": "Severe anaemia experienced",
+      "C": "Adverse reactions of anti-T.B. drugs",
+      "D": "The fever experienced"
+    },
+    "answer": "D",
+    "explanation": "Why (d) is correct: Fever triggers the release of prostaglandins which stimulate uterine contractions. This is a key link between maternal infection and preterm labor.",
+    "additional": "Clinical Insight:\n- Screen all high-risk mothers for TB symptoms and sputum testing, especially in HIV co-infection."
+  },
+  {
+    "question": "A client diagnosed with gestational diabetes at 24 weeks is scheduled for ANC care every",
+    "options": {
+      "A": "Weekly up to 28 weeks",
+      "B": "Two weekly up to 28 weeks",
+      "C": "Four weekly up to 28 weeks",
+      "D": "Three weekly up to 28 weeks"
+    },
+    "answer": "B",
+    "explanation": "Why (b) is correct: High-risk pregnancies like GDM require closer monitoring, typically every 2 weeks until 28–30 weeks, then weekly.\n\nWhy others are incorrect:\n- a) Weekly may be too frequent unless complications arise.\n- c) Four weekly is for low-risk pregnancies.\n- d) Three weekly is not a standard interval.",
+    "additional": "NCK Reminder:\n- Monitor blood glucose, fetal growth (ultrasound), and signs of macrosomia or preeclampsia."
+  },
+  {
+    "question": "Which one of the following therapies is the MOST incorporated in the management of clients with gestational diabetes?",
+    "options": {
+      "A": "Therapeutic diet alone",
+      "B": "Long acting insulin",
+      "C": "Oral hypoglycaemics",
+      "D": "Short acting insulin"
+    },
+    "answer": "A",
+    "explanation": "Why (a) is correct: The majority of GDM cases are managed with dietary changes and exercise. Drugs are used if diet fails.",
+    "additional": "High-Yield Tip:\n- Advise small, frequent meals rich in fiber and low in simple sugars.\n- Target fasting glucose <5.3 mmol/L and 2-hour postprandial <6.7 mmol/L."
+  },
+  {
+    "question": "Bipartite placenta and succenturiate lobe are causes of",
+    "options": {
+      "A": "Placenta abruptio",
+      "B": "Placental calcification",
+      "C": "Placenta praevia",
+      "D": "Placental insufficieny"
+    },
+    "answer": "D",
+    "explanation": "Why (d) is correct: These abnormal placental shapes can result in inefficient nutrient transfer. They also risk retained placenta and PPH.",
+    "additional": "Extra NCK Tip:\n- Always inspect placenta after delivery. Missing lobes can lead to severe PPH.\n- Succenturiate lobes may require manual removal under anesthesia."
+  },
+  {
+    "question": "Prenatally, malaria parasite hide at the",
+    "options": {
+      "A": "Bone marrow",
+      "B": "Placental bed",
+      "C": "Fetal circulation",
+      "D": "Uterine muscle"
+    },
+    "answer": "B",
+    "explanation": "Why (b) is correct: Placental parasitation is unique to malaria in pregnancy. It leads to fetal growth restriction, anemia, and low birth weight.",
+    "additional": "WHO NCK Guidance:\n- Use IPTp-SP (Sulfadoxine-Pyrimethamine) at every ANC visit after quickening in endemic areas.\n- Recommend insecticide-treated bed nets (ITNs)."
+  },
+  {
+    "question": "Cardiac disease grade 1 is also known as;",
+    "options": {
+      "A": "Uncompromised",
+      "B": "Slightly compromised",
+      "C": "Markedly compromised",
+      "D": "Severely compromised"
+    },
+    "answer": "A",
+    "explanation": "Why (a) is correct: NYHA Grade I indicates no limitation of physical activity. The woman can perform normal daily tasks without symptoms.",
+    "additional": "Clinical Reminder:\n- Grade 1 cardiac disease often does not require C-section unless obstetric indications exist."
+  },
+  {
+    "question": "Homeopathy, music therapy and hydrotherapy are among the;",
+    "options": {
+      "A": "Systemic methods of pain relief",
+      "B": "Regional analgesia methods of pain relief",
+      "C": "Inhalational analgesia method of pain relief",
+      "D": "Non pharmacological method of pain relief"
+    },
+    "answer": "D",
+    "explanation": "Why (d) is correct: Non-pharmacological methods rely on alternative modalities that promote relaxation, distraction, and comfort.",
+    "additional": "Myles Insight:\n- Non-drug methods are useful in early labor, especially in mothers who prefer natural birth experiences."
+  },
+  {
+    "question": "The commonest causative agent for pyelonephritis is;",
+    "options": {
+      "A": "Proteus vulgaris",
+      "B": "Escherichia coli",
+      "C": "Neisseria gonococcal",
+      "D": "Streptococcus faecalis"
+    },
+    "answer": "B",
+    "explanation": "Why (b) is correct: E. coli is responsible for ~80-90% of UTIs, including pyelonephritis, due to its ability to ascend from the urethra.\n\nOther options are less common uropathogens or unrelated organisms.",
+    "additional": "NCK Tip: Treat with broad-spectrum antibiotics and monitor for signs of sepsis or preterm labor in pregnancy."
+  },
+  {
+    "question": "During induction of labor with synitocinon, drops increase is stopped prematurely on",
+    "options": {
+      "A": "Achieving three moderate contractions",
+      "B": "Realizing normal maternal observations",
+      "C": "Achieving progressive cervical dilatation",
+      "D": "Observing normal fetal related observations"
+    },
+    "answer": "A",
+    "explanation": "Why (a) is correct: Once a contraction pattern of 3 in 10 minutes is achieved, further increase of oxytocin is halted to avoid hyperstimulation.\n\nOthers are not titration endpoints but safety checks.",
+    "additional": "High-Yield: Monitor for hypertonus or fetal decelerations. Stop infusion immediately if these are observed."
+  },
+  {
+    "question": "The drug of choice in the management of eclampsia is",
+    "options": {
+      "A": "Phenobarbitone",
+      "B": "Calcium gluconate",
+      "C": "Magnesium sulphate",
+      "D": "Sodium bicarbonate"
+    },
+    "answer": "C",
+    "explanation": "Why (c) is correct: Magnesium sulphate prevents and treats seizures. Monitor reflexes, respiration, and urine output.\n\nCalcium gluconate is the antidote in case of toxicity.",
+    "additional": "NCK Protocol: Loading dose is 4g IV over 10–15 min, followed by maintenance dose (1g/hr or 5g IM every 4h)."
+  },
+  {
+    "question": "The commonest major cause of primary postpartum haemorrhage is",
+    "options": {
+      "A": "Trauma of the genital tract",
+      "B": "Blood coagulation disorder",
+      "C": "Prolonged 3rd stage",
+      "D": "Atony of the uterus"
+    },
+    "answer": "D",
+    "explanation": "Why (d) is correct: Uterine atony causes ~80% of PPH cases. The uterus fails to contract, resulting in massive bleeding from placental bed.",
+    "additional": "NCK Mnemonic: 4Ts — Tone (atony), Trauma, Tissue (retained placenta), Thrombin (coagulopathy)."
+  },
+  {
+    "question": "Excessive bleeding from the genital tract after the first 24 hours, but within puerperium period is referred to as",
+    "options": {
+      "A": "Primary postpartum haemorrhage",
+      "B": "Tertiary postpartum haemorrhage",
+      "C": "Secondary postpartum haemorrhage",
+      "D": "Incidental postpartum haemorrhage"
+    },
+    "answer": "C",
+    "explanation": "Why (c) is correct: Secondary PPH occurs between 24 hours and 12 weeks postpartum.\n\nPrimary PPH: within 24h. Tertiary and incidental are not recognized classifications.",
+    "additional": "NCK Note: Most common causes include retained products, infection (endometritis), or subinvolution of uterus."
+  },
+  {
+    "question": "Surgical induction of labour refers to use of",
+    "options": {
+      "A": "Cytotec and Mechanical cervical dilatation",
+      "B": "Sweeping of membranes and amniotomy",
+      "C": "Mechanical cervical dilatation and buscopan",
+      "D": "Artificial rupture of membranes and synitocinon"
+    },
+    "answer": "B",
+    "explanation": "Why (b) is correct: Membrane sweeping and amniotomy are physical methods of labor induction. They release prostaglandins without drugs.",
+    "additional": "NCK Reminder: Use amniotomy only when cervix is favorable (Bishop score >6) and fetal head is engaged."
+  },
+  {
+    "question": "Perception and reaction to labour pain is highly influenced by",
+    "options": {
+      "A": "Labour preparedness and fatigue",
+      "B": "Culture and age of the woman",
+      "C": "Culture and level of education",
+      "D": "Number of deliveries and anxiety."
+    },
+    "answer": "A",
+    "explanation": "Why (a) is best: Preparedness improves coping; fatigue worsens pain tolerance.\n\nOthers contain valid factors, but A includes two strong immediate determinants.",
+    "additional": "NCK Focus: Promote antenatal classes to improve mental preparedness. Use non-pharmacological support during labor."
+  },
+  {
+    "question": "Uterine apoplexy is associated with",
+    "options": {
+      "A": "Postpartum haemorrhage",
+      "B": "Hyperemesis gravidarum",
+      "C": "Precipitate labour",
+      "D": "Placenta abruption"
+    },
+    "answer": "D",
+    "explanation": "Why (d) is correct: Uterine apoplexy (Couvelaire uterus) is blood infiltration into uterine muscle due to concealed abruption.",
+    "additional": "NCK Emergency: If uterus fails to contract after delivery due to Couvelaire changes, hysterectomy may be required."
+  },
+  {
+    "question": "Based on vaginal examination findings, indicators of abnormal labour are",
+    "options": {
+      "A": "Bandl's ring and oedematous vulva",
+      "B": "Oedematous cervix and fetal hypoxia",
+      "C": "Hot, dry vagina and arrest in descend",
+      "D": "Maternal distress and severe moulding"
+    },
+    "answer": "C",
+    "explanation": "Why (c) is correct: Both signs are discovered through VE. Hot, dry vagina = dehydration/infection. Arrest in descent = failed progression.",
+    "additional": "NCK Alert: Hot dry vagina suggests prolonged labor, chorioamnionitis — a serious indication for intervention."
+  },
+  {
+    "question": "Inability to eat or retain feeds throughout the day prenatally is highly associated with",
+    "options": {
+      "A": "Weight gain control",
+      "B": "Hyperemesis gravidarum",
+      "C": "Morning sickness",
+      "D": "Presence of preeclampsia"
+    },
+    "answer": "B",
+    "explanation": "Why (b) is correct: HG is persistent, excessive vomiting, weight loss, dehydration, and electrolyte imbalance.\n\nMorning sickness is milder and transient.",
+    "additional": "NCK Rx: Rehydration, IV thiamine, antiemetics (e.g., promethazine, metoclopramide), and nutrition support are essential."
+  },
+  {
+    "question": "In eclampsia, violent contraction and relaxation of the whole body occurs in",
+    "options": {
+      "A": "Clonic stage",
+      "B": "Coma stage",
+      "C": "Premonitory stage",
+      "D": "Tonic stage"
+    },
+    "answer": "A",
+    "explanation": "The clonic stage is marked by convulsive jerking due to alternating contraction and relaxation. The tonic stage precedes it with stiffening, and the coma stage follows with flaccidity.",
+    "additional": "NCK Tip: Know all 4 stages — premonitory, tonic, clonic, coma — for eclampsia management protocols."
+  },
+  {
+    "question": "Clinical diagnosis of polyhydramnios is based on excessive amount of amniotic fluid exceeding",
+    "options": {
+      "A": "1500 mls",
+      "B": "2500 mls",
+      "C": "1900 mls",
+      "D": "3000 mls"
+    },
+    "answer": "D",
+    "explanation": "While modern standards use AFI >24 cm, a volume >3000 ml is used in textbooks to define severe, clinically obvious polyhydramnios.",
+    "additional": "Ultrasound remains the definitive method of diagnosis. Mild cases start at 1500 ml."
+  },
+  {
+    "question": "Which one of the following drugs when used by a pregnant woman is likely to lead to oligohydramnios?",
+    "options": {
+      "A": "Diazepam",
+      "B": "Captopril",
+      "C": "Ampicillin",
+      "D": "Pethidine"
+    },
+    "answer": "B",
+    "explanation": "Captopril (an ACE inhibitor) impairs fetal renal perfusion → ↓ fetal urine → oligohydramnios. It's highly teratogenic in late pregnancy.",
+    "additional": "Other culprits include ARBs and prolonged NSAID use (e.g., indomethacin)."
+  },
+  {
+    "question": "A characteristic of monozygotic twins include",
+    "options": {
+      "A": "Always of the same sex",
+      "B": "Share a similar fingerprint pattern",
+      "C": "Have different blood groups",
+      "D": "Superfetation is a common finding"
+    },
+    "answer": "A",
+    "explanation": "Monozygotic twins result from a single fertilized egg, hence share the same genetic sex. Other features (like fingerprints) differ slightly due to uterine factors.",
+    "additional": "Different blood groups or sex = dizygotic. Superfetation is also only possible in dizygotic pregnancies."
+  },
+  {
+    "question": "Diabetes in pregnancy predisposes a mother to developing vulvo-vaginitis due to",
+    "options": {
+      "A": "High acidity levels which favour growth of E. coli",
+      "B": "Low acidity levels which favour growth of candida albicans",
+      "C": "Existing chronic hypertension",
+      "D": "Lowered osmotic pressure"
+    },
+    "answer": "B",
+    "explanation": "Though the pH explanation is flawed, the Candida albicans link is valid. Diabetes causes increased vaginal glycogen, fostering yeast growth.",
+    "additional": "Hyperglycemia → glycosuria + high glycogen → Candida thrives. Vaginal pH in pregnancy is actually more acidic."
+  },
+  {
+    "question": "The drug of choice for treatment of smear positive slide in a T.B exposed neonate includes",
+    "options": {
+      "A": "Rifampicin",
+      "B": "Streptomycin",
+      "C": "Isoniazid",
+      "D": "Ethambutol"
+    },
+    "answer": "C",
+    "explanation": "If TB-exposed but not infected, the neonate receives INH prophylaxis. If smear-positive, a full regimen (INH + Rifampicin + others) is required.",
+    "additional": "NCK Protocol: Exposed neonates without disease → Isoniazid x 6 months + BCG after therapy."
+  },
+  {
+    "question": "Persistent nausea and vomiting related to pregnancy is indicative of",
+    "options": {
+      "E": "Morning sickness",
+      "F": "Multiple gestation",
+      "G": "Hyperemesis gravidarum",
+      "H": "Hypertensive disorders"
+    },
+    "answer": "G",
+    "explanation": "Persistent, intractable vomiting causing dehydration, weight loss, and electrolyte imbalance defines hyperemesis gravidarum.",
+    "additional": "Morning sickness is mild, short-lived. HG often requires hospitalization and IV support."
+  },
+  {
+    "question": "The diagnostic factor of Polyhydramnious, based on percussion is",
+    "options": {
+      "A": "Muffled fetal heart sounds",
+      "B": "Presence of a dull sound",
+      "C": "Excessive fetal movements",
+      "D": "Presence of a fluid thrill"
+    },
+    "answer": "D",
+    "explanation": "Fluid thrill is the correct percussion finding in massive polyhydramnios. It confirms the presence of excess fluid.",
+    "additional": "Auscultation = muffled heart sounds. Percussion is key in bedside assessments without ultrasound."
+  },
+  {
+    "question": "Incidental antepartum haemorrhage is also referred to as",
+    "options": {
+      "A": "Intraplacental haemorrhage",
+      "B": "Intrapartum haemorrhage",
+      "C": "Extraplacental haemorrhage",
+      "D": "Preterm haemorrhage"
+    },
+    "answer": "A",
+    "explanation": "This refers to concealed placental abruption — blood collects behind the placenta but is not visible externally.",
+    "additional": "Other signs include uterine tenderness, pain, and fetal distress without visible bleeding."
+  },
+  {
+    "question": "What is the most characteristic finding in a colicky uterus during labor?",
+    "options": {
+      "A": "Results from excessive uterine action leading to rapid delivery",
+      "B": "Results from localized spasms at the retraction ring",
+      "C": "Results from total loss of polarity and fundal dominance, causing uncoordinated contractions",
+      "D": "Results from loss of tone and overstretched uterus"
+    },
+    "answer": "C",
+    "explanation": "A colicky uterus is characterized by chaotic, uncoordinated uterine contractions due to complete loss of polarity and fundal dominance. This leads to ineffective labor with painful, irregular contractions that fail to cause cervical dilatation or descent of the presenting part.",
+    "additional": "This pattern may develop from mismanagement with oxytocin or uterine exhaustion. It is often associated with obstructed labor and maternal distress."
+  },
+  {
+    "question": "Constriction ring dystocia during labor is best described by which of the following?",
+    "options": {
+      "A": "Results from total loss of polarity and chaotic uterine contractions",
+      "B": "Results from excessive uterine tone and uterine rupture",
+      "C": "Localized spasms develop at the retraction ring, preventing descent",
+      "D": "The uterus stops contracting altogether causing secondary inertia"
+    },
+    "answer": "C",
+    "explanation": "Constriction ring dystocia occurs when a localized, spastic contraction develops typically at the junction between the upper and lower uterine segments (the retraction ring). This ring traps the fetus, preventing descent despite adequate contractions.",
+    "additional": "Unlike Bandl’s ring (a sign of imminent rupture), constriction rings are not palpable externally. It’s often associated with prolonged labor or inappropriate oxytocin use."
+  },
+  {
+    "question": "Which of the following best describes precipitate labor?",
+    "options": {
+      "A": "Results from total loss of uterine polarity",
+      "B": "Results from localized spasm at the internal os",
+      "C": "Results from excessive uterine action leading to very rapid labor",
+      "D": "Results from ineffective uterine contractions and prolonged labor"
+    },
+    "answer": "C",
+    "explanation": "Precipitate labor is defined as labor that is completed in less than 3 hours from onset. It is usually due to excessive uterine activity and efficient contractions that cause rapid cervical dilatation and fetal expulsion.",
+    "additional": "This can be dangerous, increasing risks of perineal trauma, uterine rupture, or fetal injury. It may be seen in grand multiparity or after prostaglandin misuse."
+  },
+  {
+    "question": "Cervical dystocia is best defined as which of the following?",
+    "options": {
+      "A": "Localized spasms at the retraction ring preventing descent",
+      "B": "Failure of cervical dilation despite strong, effective contractions",
+      "C": "Failure of descent due to malpresentation",
+      "D": "Lack of uterine contractions causing labor arrest"
+    },
+    "answer": "B",
+    "explanation": "Cervical dystocia occurs when the cervix fails to dilate despite good uterine contractions and proper application of the fetal presenting part. It can be caused by cervical scarring, poor cervical compliance, or functional disorders.",
+    "additional": "This condition may require surgical intervention such as cesarean section if persistent. Differentiation from uterine dystocia or obstruction is critical."
+  },
+  {
+    "question": "Why is a high fluid intake recommended for pregnant women with acute pyelonephritis?",
+    "options": {
+      "A": "To promote enough rest",
+      "B": "To correct dehydration",
+      "C": "To relieve irritability",
+      "D": "To increase urine output"
+    },
+    "answer": "D",
+    "explanation": "The most direct therapeutic reason for high fluid intake in urinary tract infections is to increase urine output, which helps flush out bacteria from the urinary system.",
+    "additional": "Although correcting dehydration is a key goal, the primary benefit is mechanical flushing of bacteria through diuresis, reducing the bacterial load."
+  },
+  {
+    "question": "Which statement is correct about malaria prophylaxis during pregnancy?",
+    "options": {
+      "A": "Sulfadoxine Pyrimethamine should be given to all pregnant women in malaria endemic zones",
+      "B": "Pregnant women are assumed malaria-free until tested",
+      "C": "Sulfadoxine Pyrimethamine should be given every alternate visit after quickening",
+      "D": "All antenatal clients in Kenya should receive at least 6 doses of SP"
+    },
+    "answer": "A",
+    "explanation": "Intermittent Preventive Treatment (IPTp) with Sulfadoxine-Pyrimethamine is recommended for all pregnant women in malaria-endemic zones, starting from the second trimester.",
+    "additional": "The WHO recommends at least 3 doses during pregnancy, spaced one month apart, but many programs aim for up to 5–6 doses to optimize protection."
+  },
+  {
+    "question": "How does postpartum haemorrhage lead to acute renal failure?",
+    "options": {
+      "A": "Due to Sheehan’s syndrome",
+      "B": "From dehydration",
+      "C": "Because of hypovolaemia",
+      "D": "From Asherman’s syndrome"
+    },
+    "answer": "C",
+    "explanation": "Hypovolaemia caused by severe blood loss leads to reduced perfusion of the kidneys, resulting in acute tubular necrosis and renal failure.",
+    "additional": "Dehydration affects total body water, while hypovolaemia refers specifically to intravascular volume depletion, which is more critical in this scenario."
+  },
+  {
+    "question": "When does secondary postpartum haemorrhage most commonly occur?",
+    "options": {
+      "A": "Immediately after delivery",
+      "B": "Between the 8th–14th day postpartum",
+      "C": "Up to the first 46 days after delivery",
+      "D": "With persistent lochia serosa"
+    },
+    "answer": "B",
+    "explanation": "Secondary PPH most commonly presents in the second week postpartum, particularly due to eschar separation at the placental site.",
+    "additional": "The bleeding usually returns as bright red lochia rubra, not the brownish lochia serosa typically seen in normal involution."
+  },
+  {
+    "question": "Which of the following is a non-pharmacological pain relief method during labor?",
+    "options": {
+      "A": "Entonox",
+      "B": "Cyclothane",
+      "C": "Diamorphine",
+      "D": "Homeopathy"
+    },
+    "answer": "D",
+    "explanation": "Homeopathy is a complementary therapy and is considered non-pharmacological. It involves the use of natural remedies with minimal or no pharmacologic effects.",
+    "additional": "Entonox (nitrous oxide), cyclothane (an anesthetic gas), and diamorphine (an opioid) are all pharmacological agents."
+  },
+  {
+    "question": "Which drug interferes with the action of Sulfadoxine-Pyrimethamine when given together during pregnancy?",
+    "options": {
+      "A": "Ranferon",
+      "B": "Albendazole",
+      "C": "Folic acid",
+      "D": "Pholia acid"
+    },
+    "answer": "C",
+    "explanation": "Folic acid at high doses can bypass the mechanism of action of Sulfadoxine-Pyrimethamine, a folate antagonist, thus allowing the malaria parasite to continue replicating.",
+    "additional": "Only low-dose folic acid (400 mcg) is recommended with IPTp. High doses (like 5 mg) should be spaced apart from SP dosing to avoid interference."
   }
 ]
+
+
+
+
+
+
+
+
+
+
 
 
 
