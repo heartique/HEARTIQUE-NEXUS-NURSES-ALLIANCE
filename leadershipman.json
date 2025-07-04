@@ -190,8 +190,57 @@
     "answer": "C",
     "explanation": "This question asks for the best leadership style when time is not a critical factor.\n\nDemocratic (or Participative): This style involves the leader including one or more employees in the decision-making process. The leader encourages discussion and feedback. This style builds morale, fosters teamwork, and often leads to better, more creative decisions because it incorporates multiple perspectives. Its main drawback is that it is time-consuming. Therefore, it is the BEST style to use when there is time.\n\nAutocratic (or Authoritarian): The leader makes decisions independently with little or no input from others. This style is fast and efficient, making it the best choice in an emergency or crisis when a decision is needed immediately (e.g., during a cardiac arrest).\n\nLaissez-faire: The leader provides little or no direction and gives the group complete freedom. This style is effective only with a team that is highly mature, experienced, and self-motivated.\n\nSituational: This is a leadership theory, not a single style. It proposes that the most effective leaders adapt their style (e.g., from autocratic to democratic) based on the situation and the maturity level of their followers. While this is an effective overall approach, democratic is the best specific style for the condition given (having time).",
     "additional": "Transformational Leadership: A style where leaders inspire and motivate followers to achieve extraordinary outcomes and, in the process, develop their own leadership capacity. This is often considered the ideal style in modern healthcare.\n\nTransactional Leadership: A style focused on supervision, organization, and performance; leadership is based on a system of rewards and punishments.\n\nReference: A textbook on nursing leadership and management."
+  },
+  {
+    "question": "Controlling function in management involves:-",
+    "options": {
+      "a": "Performance appraisal, quality management.",
+      "b": "Determining philosophy and goals, managing action.",
+      "c": "Recruiting, interviewing and orientating staff.",
+      "d": "Establishing structures, grouping activities."
+    },
+    "answer": "a",
+    "explanation": "This question tests knowledge of the classic functions of management, often remembered by the mnemonic POSDC.\n\nThe 5 Functions of Management:\n\nPlanning: Setting goals, objectives, and determining a course of action to achieve them. This relates to option (b).\n\nOrganizing: Establishing the structure to carry out the plan. This involves assigning tasks, grouping activities, and allocating resources. This relates to option (d).\n\nStaffing: Acquiring, deploying, and retaining qualified personnel. This includes recruiting, interviewing, hiring, and orienting. This relates to option (c).\n\nDirecting (or Leading): Influencing and motivating staff to achieve organizational goals. Includes communication, delegation, and conflict management.\n\nControlling: The process of monitoring performance, comparing it with established standards, and taking corrective action as needed to ensure goals are met.\n\nActivities of the Controlling Function: Performance appraisals, financial audits, quality control checks, and budget reviews are all key activities of the controlling function. Therefore, option (a) is the correct answer.",
+    "additional": "Quality Management (QM): A key part of the controlling function in healthcare. It involves continuous monitoring and evaluation of care processes and outcomes to identify areas for improvement.\n\nQM Models:\n\nTotal Quality Management (TQM): A philosophy that involves everyone in the organization in a continual effort to improve quality and customer satisfaction.\n\nContinuous Quality Improvement (CQI): An ongoing process of identifying, analyzing, and improving processes.\n\nSix Sigma: A data-driven approach that aims to eliminate defects and reduce variation in processes.\n\nThe Control Process: Involves three steps: 1) Establishing standards, 2) Measuring performance against standards, and 3) Taking corrective action.\n\nTextbook Reference: Marquis, B. L., & Huston, C. J. (2017). Leadership Roles and Management Functions in Nursing: Theory and Application."
+  },
+  {
+    "question": "Primary prevention of occupational health care hazards includes»",
+    "options": {
+      "a": "Emphasis on first aid to minimize complications.",
+      "b": "Dealing with substances inhaled or contracted because of employee's poor attitudes.",
+      "c": "General screening of non occupational illness before a person is hired.",
+      "d": "Screening of the working environment to check that recommended preventive measures are put in place."
+    },
+    "answer": "d",
+    "explanation": "This question requires applying the levels of prevention to an occupational health setting.\n\nPrimary Prevention: Aims to prevent the disease or injury from ever occurring. It focuses on health promotion and risk reduction.\n\nSecondary Prevention: Aims to detect and treat a disease or injury at its earliest stage. It involves screening and early diagnosis.\n\nTertiary Prevention: Aims to reduce the impact of an established disease or injury and prevent complications or disability. It involves treatment and rehabilitation.\n\nAnalyzing the Options in an Occupational Context:\n\n(a) First aid is tertiary prevention; it treats an injury that has already occurred to minimize complications.\n\n(b) This is related to managing an exposure that has already happened, and it inappropriately blames the employee.\n\n(c) Pre-employment screening is a form of secondary prevention (screening for existing conditions).\n\n(d) This is the definition of primary prevention. It involves assessing the workplace itself to identify and eliminate or control hazards before they can cause harm to an employee. Examples include ensuring proper machine guards are in place, providing adequate ventilation, and enforcing the use of Personal Protective Equipment (PPE).",
+    "additional": "Hierarchy of Controls: A framework used in occupational health to prioritize ways to control hazards, from most effective to least effective.\n\nElimination: Physically remove the hazard.\n\nSubstitution: Replace the hazard with a safer alternative.\n\nEngineering Controls: Isolate people from the hazard (e.g., ventilation systems, machine guards).\n\nAdministrative Controls: Change the way people work (e.g., job rotation, safety policies).\n\nPersonal Protective Equipment (PPE): Protect the worker with barriers (e.g., gloves, respirators). This is the last line of defense.\n\nTextbook Reference: Stanhope, M., & Lancaster, J. (2016). Public Health Nursing: Population-Centered Health Care in the Community. Chapter 22: The Nurse in Occupational Health."
+  },
+  {
+    "question": "Principles of community health nursing include;",
+    "options": {
+      "a": "Priotising on curative and preventive aspects of health.",
+      "b": "Minimizing vertical programs",
+      "c": "Centralization of activities.",
+      "d": "Utilizing of only health professionals in health care delivery."
+    },
+    "answer": "a",
+    "explanation": "Community health nursing (CHN) has a distinct philosophy and set of principles that differentiate it from acute care nursing.\n\nCore Principles of CHN:\n\nThe community is the client. The focus is on the health of the entire population, not just individuals.\n\nThe primary obligation is to achieve the greatest good for the greatest number of people.\n\nCHN focuses on primary prevention as a priority.\n\nIt involves a collaborative process with the client (the community) as an equal partner.\n\nAnalyzing the Options:\n\n(a) A key principle is a balanced approach that includes not only treating existing illness (curative) but also actively promoting health and preventing disease (preventive and promotive). This comprehensive view is central to CHN.\n\n(b) Vertical programs (which focus on a single disease, like a malaria program) are often criticized for creating silos. CHN promotes integrated, horizontal approaches, so minimizing them could be seen as a positive principle, but (a) is more fundamental.\n\n(c) CHN promotes decentralization of services to make them more accessible to the community, not centralization.\n\n(d) CHN strongly advocates for the use of a wide range of providers, including community health workers, traditional healers (where appropriate), and other lay personnel, not only health professionals.",
+    "additional": "Textbook Reference: Nies, M. A., & McEwen, M. (2019). Community/Public Health Nursing: Promoting the Health of Populations."
+  },
+  {
+    "question": "The first four steps in the disciplinary process are:-",
+    "options": {
+      "a": "Investigation to find cause, formal written warning and suspension, discussion and brief warning",
+      "b": "Investigation to find cause, discussion and brief warning, strong verbal warning, formal written warning",
+      "c": "Suspension from job, investigation to find the cause, formal written warning, strong verbal warning",
+      "d": "Strong verbal warning, interdiction without pay, discharge with opportunity to appeal, formal written warning"
+    },
+    "answer": "b",
+    "explanation": "Progressive discipline is a formal process that managers use to address employee performance or conduct issues. It follows a series of steps that increase in severity.\n\nThe Standard Sequence:\n\nInformal Counseling/Discussion: The manager first discusses the issue with the employee to make them aware of the problem and expectations.\n\nVerbal Warning: If the behavior continues, a formal verbal warning is given. This is usually documented in the manager's notes.\n\nWritten Warning: If the problem persists, a formal written warning is issued and placed in the employee's personnel file.\n\nSuspension: The employee may be suspended from work, usually without pay, for a period of time.\n\nTermination: If there is still no improvement, employment is terminated.\n\nAnalyzing the Options:\n\n(a, c, d) These have the steps in an illogical order. Suspension and interdiction are very serious steps that come much later in the process.\n\n(b) This option most closely follows the correct progressive sequence. It starts with investigation and discussion, then moves to a verbal warning, and then escalates to a formal written warning.",
+    "additional": "Due Process: The employee has the right to be informed of the problem, to be heard, and to have their case considered fairly.\n\nDocumentation: It is critical for the manager to document every step of the disciplinary process clearly, objectively, and factually. This is essential for legal protection and to demonstrate that a fair process was followed.\n\nTextbook Reference: Marquis, B. L., & Huston, C. J. (2017). Leadership Roles and Management Functions in Nursing: Theory and Application. Chapter 24: Problem Solving, Decision Making, Critical Thinking, and Creativity."
   }
 ]
+
 
 
 
