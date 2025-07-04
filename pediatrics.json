@@ -178,8 +178,45 @@
     "answer": "A",
     "explanation": "This question describes the hallmark symptom of sickle cell disease.\n\nVaso-occlusive Crisis (VOC): This is the most common type of crisis and the most frequent reason for hospitalization. It occurs when the sickle-shaped red blood cells clump together and block blood flow in small blood vessels (vaso-occlusion). This blockage prevents oxygen from reaching tissues, causing ischemia and leading to sudden, severe pain. The pain can occur anywhere but is common in the bones of the arms, legs, back, and chest.\n\nAplastic Crisis (B): A temporary cessation of red blood cell production in the bone marrow, often triggered by a viral infection (like Parvovirus B19). It presents with severe anemia and pallor, not focal pain.\n\nSplenic Sequestration (C): A life-threatening complication where a large number of sickled cells get trapped in the spleen, causing it to enlarge rapidly. This leads to a sudden, severe drop in hemoglobin, abdominal pain, and can cause hypovolemic shock. It is most common in young children.\n\nAcute Chest Syndrome (D): A vaso-occlusive crisis in the lungs, presenting like pneumonia with chest pain, fever, cough, and hypoxia. It is a leading cause of death in patients with sickle cell disease.",
     "additional": "1. Nursing Management of a Vaso-occlusive Crisis:\n\nThe priorities are summarized by the acronym \"HOP\":\n\nH - Hydration: IV fluids (and oral fluids) are crucial to decrease blood viscosity and help flush the sickled cells through the vessels.\n\nO - Oxygenation: Oxygen is administered if the patient is hypoxic (SpO2 < 92-94%) to prevent further sickling.\n\nP - Pain Management: This is the top priority from the patient's perspective. Strong opioid analgesics (like morphine) are typically required and should be administered on a schedule, not just \"as needed,\" to stay ahead of the severe pain.\n\n2. Health Maintenance and Prevention for Sickle Cell Disease:\n\n- Prophylactic Penicillin: Given to children from birth until at least age 5 to prevent life-threatening pneumococcal sepsis.\n- Vaccinations: Crucial to get all routine childhood vaccines, plus additional ones for Pneumococcus, Meningococcus, and Influenza.\n- Folic Acid: Supplementation is given to support red blood cell production.\n- Hydroxyurea: A medication that can increase the production of fetal hemoglobin (HbF), which does not sickle. This reduces the frequency of VOCs and acute chest syndrome.\n\nFuture Question Idea: \"What is the priority nursing intervention for a child admitted with a sickle cell vaso-occlusive crisis?\" (Answer: Administering intravenous fluids and pain medication)."
+  },
+  {
+    "question": "The recording considered to be within normal range when assessing the developmental milestones of a child is:",
+    "options": {
+      "A": "A child of 3-6 months being able to understand a few words and tries to use them",
+      "B": "A child of 6-9 months old able to grasp actively and make loud noises",
+      "C": "A child of 12-18 months old able to sit but with support",
+      "D": "A child of 12-18 months old tries to stand with support from objects"
+    },
+    "answer": "B",
+    "explanation": "Between 6 and 9 months, a child develops fine motor skills (e.g., active grasping) and starts to make loud noises and babble, making Option B age-appropriate.",
+    "additional": "KEY MILESTONES:\n- 6 months: Rolls over, babbles, transfers objects\n- 9 months: Sits without support, pulls to stand, waves bye\n- 12 months: Walks with help, says 'mama', 'dada'\n- 18 months: Walks well, builds 2–4 cube tower\n\nKEY: Sit with support ≈ 6 months; Sit without support ≈ 6–9 months.\nBOOK: Nelson Textbook of Pediatrics"
+  },
+  {
+    "question": "Cycle bead method of family planning is contraindicated in:",
+    "options": {
+      "A": "Women with high blood pressure (hypertension)",
+      "B": "Women whose menstrual cycle ranges between 26-32 days",
+      "C": "Women whose menstrual cycle is over 32 days",
+      "D": ""
+    },
+    "answer": "C",
+    "explanation": "The CycleBeads (Standard Days Method) only works for women with menstrual cycles between 26 and 32 days. Beyond this range, the method is unreliable.",
+    "additional": "HOW IT WORKS:\n- Red bead: Day 1 of period\n- White beads (Days 8–19): Fertile window\n- Brown beads: Safe days\n\nKEY: Not suitable if cycles are <26 or >32 days\nBOOK: WHO/Ministry of Health Family Planning Guidelines"
+  },
+  {
+    "question": "The child is able to sit without support at the age of:",
+    "options": {
+      "A": "3-6 months",
+      "B": "6-9 months",
+      "C": "9-12 months",
+      "D": "12-15 months"
+    },
+    "answer": "B",
+    "explanation": "Most children develop enough muscle strength and coordination to sit without support between 6 and 9 months.",
+    "additional": "MILESTONE PROGRESSION:\n- 4–6 months: Sits with support\n- 6–9 months: Sits without support\n- 9 months+: Crawls, pulls to stand\n\nKEY: Sitting unsupported ≈ 6–9 months\nBOOK: Wong’s Nursing Care of Infants and Children"
   }
 ]
+
 
 
 
