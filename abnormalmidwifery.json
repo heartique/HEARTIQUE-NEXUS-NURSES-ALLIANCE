@@ -1168,8 +1168,749 @@
     "answer": "C",
     "explanation": "Folic acid at high doses can bypass the mechanism of action of Sulfadoxine-Pyrimethamine, a folate antagonist, thus allowing the malaria parasite to continue replicating.",
     "additional": "Only low-dose folic acid (400 mcg) is recommended with IPTp. High doses (like 5 mg) should be spaced apart from SP dosing to avoid interference."
+  },
+  {
+    "question": "Vasa previa means that the placenta;",
+    "options": {
+      "A": "Is low lying and blood vessels are likely to pass across it and may rupture during an artificial rupture of membranes",
+      "B": "Has a very short fetal cord that is likely to snap with any traction or may cause an invasion of the uterus",
+      "C": "Is lying at the fundus of the uterus and is likely to be retained after the baby is born",
+      "D": "Is centrally placed and may easily form a retroplacental clot that will speed up the separation of the placenta"
+    },
+    "answer": "A",
+    "explanation": "Why A is correct: Vasa previa is an obstetric emergency where fetal blood vessels, unsupported by the umbilical cord or placental tissue, run across the internal cervical os, beneath the presenting fetal part. When the membranes rupture (spontaneously or artificially), these unprotected vessels can tear, leading to rapid fetal blood loss and a high risk of fetal death. The description in option A, while slightly simplified (the vessels pass across the cervical os, not necessarily the placenta itself), is the best fit.\n\nWhy other options are incorrect:\n\nB) Describes complications of a short umbilical cord, which can lead to cord avulsion (snapping) or uterine inversion if excessive traction is applied.\n\nC) Describes a potential cause for a retained placenta. A placenta at the fundus is normal, but if it fails to detach, it becomes a retained placenta.\n\nD) Describes the normal mechanism of placental separation. A retroplacental clot forms behind a centrally placed placenta, helping it to shear away from the uterine wall. This is a normal physiological process.",
+    "additional": "Additional NCK Focus & Possible Next Questions:\n\nKey Concept: Differentiating causes of Antepartum Hemorrhage (APH).\n\nClinical Triad of Vasa Previa: Remember the classic presentation: 1. Rupture of membranes followed by 2. Painless vaginal bleeding and 3. Fetal distress (bradycardia, decelerations). The blood is of fetal origin, which is why the fetus deteriorates so quickly.\n\nContrast with other APH causes:\n\nPlacenta Previa: Painless, bright red vaginal bleeding, but the bleeding is maternal. The uterus is usually soft and non-tender. The fetus is often not distressed initially.\n\nAbruptio Placentae: Painful, dark red vaginal bleeding (or concealed bleeding), with a tense, rigid, and tender uterus. Fetal distress is common.\n\nManagement: If diagnosed antenatally via ultrasound, management is a planned elective Caesarean section before the onset of labor, typically around 34–36 weeks, often after administering corticosteroids for fetal lung maturity. If diagnosed as an emergency during labor, an immediate emergency C-section is required.\n\nPossible NCK Question: \"A pregnant woman at 38 weeks gestation undergoes artificial rupture of membranes. Immediately, you note bright red bleeding from the vagina and the fetal heart rate drops to 70 bpm. What is the most likely diagnosis?\" Answer: Vasa Previa.\n\nRecommended Reading:\n\nMyles Textbook for Midwives – Chapter on Antepartum Hemorrhage."
+  },
+  {
+    "question": "Vasa previa means that the placenta;",
+    "options": {
+      "A": "Is low lying and blood vessels are likely to pass across it and may rupture during an artificial rupture of membranes",
+      "B": "Has a very short fetal cord that is likely to snap with any traction or may cause an invasion of the uterus",
+      "C": "Is lying at the fundus of the uterus and is likely to be retained after the baby is born",
+      "D": "Is centrally placed and may easily form a retroplacental clot that will speed up the separation of the placenta"
+    },
+    "answer": "A",
+    "explanation": "Why A is correct: Vasa previa is an obstetric emergency where fetal blood vessels, unsupported by the umbilical cord or placental tissue, run across the internal cervical os, beneath the presenting fetal part. When the membranes rupture (spontaneously or artificially), these unprotected vessels can tear, leading to rapid fetal blood loss and a high risk of fetal death. The description in option A, while slightly simplified (the vessels pass across the cervical os, not necessarily the placenta itself), is the best fit.\n\nWhy other options are incorrect:\n\nB) Describes complications of a short umbilical cord, which can lead to cord avulsion (snapping) or uterine inversion if excessive traction is applied.\n\nC) Describes a potential cause for a retained placenta. A placenta at the fundus is normal, but if it fails to detach, it becomes a retained placenta.\n\nD) Describes the normal mechanism of placental separation. A retroplacental clot forms behind a centrally placed placenta, helping it to shear away from the uterine wall. This is a normal physiological process.",
+    "additional": "Additional NCK Focus & Possible Next Questions:\n\nKey Concept: Differentiating causes of Antepartum Hemorrhage (APH).\n\nClinical Triad of Vasa Previa: Remember the classic presentation: 1. Rupture of membranes followed by 2. Painless vaginal bleeding and 3. Fetal distress (bradycardia, decelerations). The blood is of fetal origin, which is why the fetus deteriorates so quickly.\n\nContrast with other APH causes:\n\nPlacenta Previa: Painless, bright red vaginal bleeding, but the bleeding is maternal. The uterus is usually soft and non-tender. The fetus is often not distressed initially.\n\nAbruptio Placentae: Painful, dark red vaginal bleeding (or concealed bleeding), with a tense, rigid, and tender uterus. Fetal distress is common.\n\nManagement: If diagnosed antenatally via ultrasound, management is a planned elective Caesarean section before the onset of labor, typically around 34–36 weeks, often after administering corticosteroids for fetal lung maturity. If diagnosed as an emergency during labor, an immediate emergency C-section is required.\n\nPossible NCK Question: \"A pregnant woman at 38 weeks gestation undergoes artificial rupture of membranes. Immediately, you note bright red bleeding from the vagina and the fetal heart rate drops to 70 bpm. What is the most likely diagnosis?\" Answer: Vasa Previa.\n\nRecommended Reading:\n\nMyles Textbook for Midwives – Chapter on Antepartum Hemorrhage."
+  },
+  {
+    "question": "Baby Karo has just been delivered at 38 weeks gestation to a diabetic mother with a birth weight of 4.5kgs and APGAR score of 10/10 at 1 minute and 10/10 at 5 minutes. One of the most likely complications that the baby may develop is;",
+    "options": {
+      "A": "Hyperglycemia",
+      "B": "Hypoglycemia",
+      "C": "Hypovolemia",
+      "D": "Hypocalcemia"
+    },
+    "answer": "B",
+    "explanation": "Why B is correct: During pregnancy, a diabetic mother has high blood glucose levels (hyperglycemia). This glucose freely crosses the placenta to the fetus. In response, the fetal pancreas produces high levels of insulin (fetal hyperinsulinemia) to manage this high glucose load. After birth, the maternal glucose supply is abruptly cut off, but the newborn's pancreas continues to produce high levels of insulin for a period. This excess insulin rapidly uses up the available glucose in the newborn's blood, leading to neonatal hypoglycemia (low blood sugar). The large birth weight (4.5kg, which is macrosomia) is a classic sign of an infant of a diabetic mother.\n\nWhy other options are incorrect:\n\nA) Hyperglycemia: The baby is prone to low blood sugar, not high. Hyperglycemia would be the mother's condition.\n\nC) Hypovolemia: While possible due to other issues, it is not the most likely or hallmark complication related to maternal diabetes.\n\nD) Hypocalcemia: Low calcium can also occur in infants of diabetic mothers, often 24–72 hours after birth, but hypoglycemia is the most immediate and common metabolic problem.",
+    "additional": "Additional NCK Focus & Possible Next Questions:\n\nKey Concept: Understanding the pathophysiology of infants born to diabetic mothers (IDM).\n\nOther Complications of IDM:\n\nMacrosomia: Large for gestational age (LGA), as seen in the question (4.5kg).\n\nRespiratory Distress Syndrome (RDS): High insulin levels can interfere with surfactant production, delaying lung maturity.\n\nHypocalcemia and Hypomagnesemia.\n\nPolycythemia and Hyperbilirubinemia (Jaundice): The fetus may be chronically hypoxic in utero, leading to increased red blood cell production (polycythemia). The breakdown of these extra RBCs after birth leads to high bilirubin levels.\n\nCongenital Anomalies: Especially cardiac and CNS defects if maternal glucose control was poor in the first trimester.\n\nNursing Management: The priority is to monitor blood glucose levels closely, starting within the first hour of life. Encourage early and frequent feeding (breast or formula) to provide a glucose source. If hypoglycemia is severe or feeding is not enough, IV dextrose may be required.\n\nPossible NCK Question: \"A midwife is caring for a newborn of a mother with gestational diabetes. What is the priority nursing action within the first hour of life?\" Answer: Check the infant's blood glucose level.\n\nRecommended Reading:\n\nMaternity and Women's Health Care or Wong's Nursing Care of Infants and Children – Chapters on high-risk newborns."
+  },
+  {
+    "question": "Margaret para 0+0 has come to the labor ward in second stage of labor and says she has hypertension. On examination you find that her BP is 160/100mmHg. The drug you are likely to use to prevent postpartum hemorrhage would be;",
+    "options": {
+      "A": "Syntometrine IM or IV",
+      "B": "Ergometrine IM",
+      "C": "Syntocinon drip",
+      "D": "Hydralazine IV"
+    },
+    "answer": "C",
+    "explanation": "Why C is correct: The primary goal is to prevent postpartum hemorrhage (PPH) by ensuring the uterus contracts well after delivery. The standard drugs for this are uterotonics. Syntocinon (oxytocin) is the safest choice in a woman with hypertension. It causes strong uterine contractions with minimal effects on blood pressure.\n\nWhy other options are incorrect:\n\nA) Syntometrine: This is a combination of Syntocinon (oxytocin) and Ergometrine.\n\nB) Ergometrine: Both Ergometrine and Syntometrine are contraindicated in women with hypertension or pre-eclampsia. Ergometrine is a potent vasoconstrictor and can cause a dangerous spike in blood pressure, potentially leading to a stroke (cerebrovascular accident), eclamptic fit, or pulmonary edema.\n\nD) Hydralazine IV: This is an antihypertensive drug used to treat severe hypertension, not to prevent PPH. While this patient may need Hydralazine to lower her BP, it is not the drug used for active management of the third stage of labor.",
+    "additional": "Additional NCK Focus & Possible Next Questions:\n\nKey Concept: Understanding indications and contraindications of common obstetric drugs.\n\nActive Management of the Third Stage of Labor (AMTSL): This is the evidence-based practice to prevent PPH. The three components are:\n\nAdministration of a uterotonic drug (like Syntocinon) immediately after the birth of the baby.\n\nControlled cord traction (CCT) to deliver the placenta.\n\nUterine massage after delivery of the placenta.\n\nPharmacology Table to Memorize:\n| Drug | Action | Key Indication | Major Contraindication |\n| :--- | :--- | :--- | :--- |\n| Syntocinon (Oxytocin) | Uterine Contractions | PPH Prevention/Treatment | None, but use with caution (hyperstimulation) |\n| Ergometrine | Uterine Contractions, Vasoconstriction | PPH Treatment (2nd line) | Hypertension, Pre-eclampsia, Heart Disease |\n| Syntometrine | Combination | PPH Prevention (in non-hypertensives) | Hypertension, Pre-eclampsia, Heart Disease |\n| Misoprostol (Prostaglandin) | Uterine Contractions, Cervical Ripening | PPH Treatment (esp. when injectables unavailable) | Allergy to prostaglandins. Caution in asthma. |\n\nPossible NCK Question: \"A woman with a history of severe pre-eclampsia delivers a healthy baby. Which uterotonic is contraindicated for the management of her third stage of labor?\" Answer: Ergometrine/Syntometrine.\n\nRecommended Reading:\n\nMyles Textbook for Midwives – Chapters on pharmacology and management of the third stage of labor."
+  },
+  {
+    "question": "A postpartum delivery patient delivered 2 hours ago and is on Intravenous fluids. During rounds, the nurse finds that the patient has soaked a number of pads and is lying in a pool of blood. The midwife's first action should be;",
+    "options": {
+      "A": "Call for help",
+      "B": "Place the patient in reverse Trendelenburg position",
+      "C": "Increase the patient's intravenous fluid rate",
+      "D": "Massage the patient's fundus"
+    },
+    "answer": "A",
+    "explanation": "Why A is correct: This scenario describes a major postpartum hemorrhage (PPH), which is a life-threatening emergency. One person cannot manage it alone. The absolute first action is to call for help (or press the emergency buzzer). This mobilizes the team—other midwives, doctors, anesthetists—who can bring equipment, drugs, and start parallel tasks (like securing IV access, drawing blood, preparing for theatre). You can start massaging the fundus with one hand while calling for help with the other, but activating the team response is the critical first step in any emergency protocol. The given answer key confirms this is the expected response.\n\nWhy other options are incorrect:\n\nD) Massage the patient's fundus: This is the most important therapeutic action to treat the most common cause of PPH (uterine atony). It should be done immediately, often simultaneously with calling for help. However, as a single \"first\" step in a protocol, activating the team is paramount.\n\nC) Increase the patient's intravenous fluid rate: This is also a crucial step for resuscitation, but it follows activating the response and assessing the cause.\n\nB) Place the patient in reverse Trendelenburg position: This is incorrect. This position (head up, feet down) would decrease blood flow to the brain. A flat or standard Trendelenburg (feet up) position might be used, but it's not the first action.",
+    "additional": "Additional NCK Focus & Possible Next Questions:\n\nKey Concept: Prioritization in an obstetric emergency (PPH management).\n\nThe \"4 T's\" of PPH: Always remember the causes to guide your assessment.\n\nTone (Uterine Atony) – Most common cause (70%). Fundus is boggy/soft. Action: Fundal Massage, Uterotonics.\n\nTrauma (Lacerations, tears) – Uterus is firm, but bleeding continues. Action: Inspect perineum, vagina, cervix.\n\nTissue (Retained placenta/membranes) – Uterus may not be firm; placenta may be incomplete. Action: Prepare for manual removal/evacuation.\n\nThrombin (Coagulopathy) – Bleeding continues despite all measures. Action: Blood tests, administer clotting factors.\n\nManagement Steps (often performed simultaneously by the team):\n\nCall for help.\n\nAssess ABCs (Airway, Breathing, Circulation).\n\nRub up a contraction (fundal massage).\n\nAdminister uterotonics (Syntocinon, Ergometrine if not contraindicated, Misoprostol).\n\nSecure IV access (two large-bore cannulas).\n\nCatheterize bladder (a full bladder prevents uterine contraction).\n\nIdentify and treat the cause (the other 3 T's).\n\nPossible NCK Question: \"A midwife assesses a postpartum patient and finds a boggy uterus and heavy bleeding. After calling for help, what is the next immediate nursing action?\" Answer: Vigorously massage the fundus.\n\nRecommended Reading:\n\nWHO guidelines on the management of Postpartum Haemorrhage.\n\nMyles Textbook for Midwives – Chapter on Postpartum Hemorrhage."
+  },
+  {
+  "question": "3. During fetal development, quickening takes place between;",
+  "options": {
+    "A": "4 to 8 weeks",
+    "B": "8 to 12 weeks",
+    "C": "16 to 20 weeks",
+    "D": "24 to 28 weeks"
+  },
+  "answer": "C",
+  "explanation": "Why C is correct: Quickening is the term used to describe the first fetal movements that the pregnant woman can feel. It is a significant milestone for expectant parents. For a multigravida (a woman who has been pregnant before), these flutters can often be felt as early as 16 weeks. For a primigravida (a woman in her first pregnancy), it is more common to feel them around 18 to 20 weeks. Therefore, the range of 16 to 20 weeks accurately covers both scenarios.\n\nWhy other options are incorrect:\n\nA) & B) At 4 to 12 weeks, the fetus is moving, but it is far too small and the uterine wall is too thick for the mother to perceive these movements.\n\nD) By 24 to 28 weeks, fetal movements are typically well-established and strong, not the first \"quickening.\"",
+  "additional": "Key Concept: Differentiating the signs of pregnancy. Quickening is considered a presumptive sign of pregnancy because it is subjective and can be mistaken for other things, like intestinal gas.\n\nMemorize the Categories:\n\nPresumptive (Subjective) Signs: What the woman reports (e.g., amenorrhea, nausea/vomiting, breast tenderness, fatigue, quickening).\n\nProbable (Objective) Signs: What the examiner observes (e.g., Hegar's sign, Chadwick's sign, Goodell's sign, positive pregnancy test (hCG), ballottement, uterine enlargement).\n\nPositive (Diagnostic) Signs: Signs that prove the presence of a fetus (e.g., fetal heart sounds heard by examiner, visualization of the fetus on ultrasound, fetal movement palpated by examiner).\n\nPossible NCK Question: \"A client at 18 weeks gestation reports feeling 'fluttering' in her abdomen. The midwife documents this as which of the following signs of pregnancy?\" Answer: A presumptive sign.\n\nRecommended Reading:\n\nMaternity and Women's Health Care by Lowdermilk et al. - Chapter on the signs and confirmation of pregnancy."
+},
+ {
+  "question": "5. When assessing the frequency of uterine contractions during labour, a midwife should time the contraction from;",
+  "options": {
+    "A": "The end of one contraction to the beginning of the next",
+    "B": "The beginning of one contraction to the end of the same contraction",
+    "C": "The peak of one contraction to the peak of the next contraction",
+    "D": "The beginning of one contraction to the beginning of the next contraction"
+  },
+  "answer": "D",
+  "explanation": "Why D is correct: The frequency of uterine contractions is a measure of how often they occur. The standard and correct method for measuring this is to time from the start of one contraction to the start of the very next one. This measurement includes the duration of the contraction plus the rest period (interval) that follows.\n\nWhy other options are incorrect:\n\nA) This measures the interval or resting period between contractions.\n\nB) This measures the duration of a single contraction (how long it lasts).\n\nC) While this would also technically measure frequency, it is not the standard clinical method and is less practical to measure accurately than timing from the onset.",
+  "additional": "Key Concept: Accurate assessment of uterine activity is critical for monitoring labor progress and fetal well-being.\n\nThe Four Characteristics of Contractions:\n\nFrequency: How often they occur (start of one to start of next). Normal in active labor: Every 2-3 minutes.\n\nDuration: How long each one lasts (start of one to end of the same one). Normal in active labor: 60-90 seconds.\n\nIntensity: The strength of the contraction. Assessed by palpation (mild, moderate, strong) or internally with an Intrauterine Pressure Catheter (IUPC).\n\nResting Tone: The state of the uterus between contractions. It should be soft and relaxed to allow for placental reperfusion. A uterus that remains tense is a sign of hypertonus and can lead to fetal distress.\n\nPossible NCK Question: \"A midwife notes that a laboring woman's contractions last for 75 seconds. This measurement is documented as the contraction's...\" Answer: Duration.\n\nRecommended Reading:\n\nMyles Textbook for Midwives - Chapter on the first stage of labor and care of the woman in labor."
+},
+{
+  "question": "5. When assessing the frequency of uterine contractions during labour, a midwife should time the contraction from;",
+  "options": {
+    "A": "The end of one contraction to the beginning of the next",
+    "B": "The beginning of one contraction to the end of the same contraction",
+    "C": "The peak of one contraction to the peak of the next contraction",
+    "D": "The beginning of one contraction to the beginning of the next contraction"
+  },
+  "answer": "D",
+  "explanation": "Why D is correct: The frequency of uterine contractions is a measure of how often they occur. The standard and correct method for measuring this is to time from the start of one contraction to the start of the very next one. This measurement includes the duration of the contraction plus the rest period (interval) that follows.\n\nWhy other options are incorrect:\n\nA) This measures the interval or resting period between contractions.\n\nB) This measures the duration of a single contraction (how long it lasts).\n\nC) While this would also technically measure frequency, it is not the standard clinical method and is less practical to measure accurately than timing from the onset.",
+  "additional": "Key Concept: Accurate assessment of uterine activity is critical for monitoring labor progress and fetal well-being.\n\nThe Four Characteristics of Contractions:\n\nFrequency: How often they occur (start of one to start of next). Normal in active labor: Every 2-3 minutes.\n\nDuration: How long each one lasts (start of one to end of the same one). Normal in active labor: 60-90 seconds.\n\nIntensity: The strength of the contraction. Assessed by palpation (mild, moderate, strong) or internally with an Intrauterine Pressure Catheter (IUPC).\n\nResting Tone: The state of the uterus between contractions. It should be soft and relaxed to allow for placental reperfusion. A uterus that remains tense is a sign of hypertonus and can lead to fetal distress.\n\nPossible NCK Question: \"A midwife notes that a laboring woman's contractions last for 75 seconds. This measurement is documented as the contraction's...\" Answer: Duration.\n\nRecommended Reading:\n\nMyles Textbook for Midwives - Chapter on the first stage of labor and care of the woman in labor."
+},
+{
+  "question": "35. Mrs. Kema who is at 30 weeks gestation suddenly experiences painless bright red vaginal bleeding. The most likely cause of this problem is;",
+  "options": {
+    "A": "Abruptio Placentae",
+    "B": "An ectopic pregnancy",
+    "C": "Placenta previa",
+    "D": "Twin pregnancy"
+  },
+  "answer": "C",
+  "explanation": "Why C is correct: The question provides the three hallmark signs of placenta previa: 1. Sudden onset, 2. Painless, and 3. Bright red vaginal bleeding. This occurs because the placenta is implanted in the lower uterine segment, over or near the cervical os. As the lower segment begins to efface and dilate slightly in late pregnancy, the placental attachments can shear, causing bleeding from the maternal vessels. The blood is fresh, hence \"bright red,\" and because it doesn't irritate the uterine muscle, it is painless.\n\nWhy other options are incorrect:\n\nA) Abruptio Placentae: This is the premature separation of a normally implanted placenta. It classically presents with painful vaginal bleeding (due to uterine irritation from blood), a tense/rigid uterus, and the blood is often dark red.\n\nB) An ectopic pregnancy: This typically presents with bleeding and pain in the first trimester, not at 30 weeks.\n\nD) Twin pregnancy: While it is a risk factor for APH, it is not a direct cause. The bleeding would be due to an underlying previa or abruption.",
+  "additional": "Key Concept: Rapidly differentiating causes of third-trimester bleeding is a critical skill.\n\nComparison of APH Causes:\n| Feature | Placenta Previa | Abruptio Placentae |\n| :--- | :--- | :--- |\n| Pain | Painless | Severe Pain |\n| Bleeding | Bright red | Dark red (or concealed) |\n| Uterine Tone| Soft, non-tender | Tense, rigid, board-like |\n| Fetal Distress| Often absent initially | Often present |\n\nCRITICAL SAFETY POINT: If placenta previa is suspected, NEVER perform a vaginal or digital cervical examination. This can puncture the placenta and cause catastrophic hemorrhage. Diagnosis is confirmed by ultrasound.\n\nPossible NCK Question: \"A woman at 32 weeks gestation is admitted with painful, dark red vaginal bleeding and a board-like, tender abdomen. The midwife's priority is to prepare for...\" Answer: An emergency delivery and management of fetal distress/maternal shock.\n\nRecommended Reading:\n\nVarney's Midwifery or Myles Textbook for Midwives - Chapter on Antepartum Hemorrhage."
+},
+{
+  "question": "38. The structure in the fetal circulation that shunts blood around the lungs is called;",
+  "options": {
+    "A": "Ductus venosus",
+    "B": "Ductus arteriosus",
+    "C": "Foramen ovale",
+    "D": "Ligamentum venosus"
+  },
+  "answer": "B",
+  "explanation": "Why B is correct: In the fetus, the lungs are filled with fluid and are not used for gas exchange. Therefore, the circulatory system has shunts to bypass them. The ductus arteriosus is a blood vessel connecting the pulmonary artery directly to the descending aorta. This allows the majority of blood from the right ventricle to bypass the high-resistance pulmonary circulation and enter the systemic circulation.\n\nWhy other options are incorrect:\n\nA) Ductus venosus: This shunt bypasses the liver. It connects the umbilical vein to the inferior vena cava.\n\nC) Foramen ovale: This is an opening between the right and left atria. It shunts blood from the right atrium to the left atrium, also helping to bypass the lungs. While it is a lung bypass, the structure that shunts blood around the lungs (from the pulmonary artery) is the ductus arteriosus. The question is specific.\n\nD) Ligamentum venosus: This is the fibrous remnant of the ductus venosus after birth.",
+  "additional": "Key Concept: Understand the three fetal shunts, their purpose, and their postnatal remnants.\n\nForamen Ovale: Shunts blood from Right Atrium -> Left Atrium (bypassing the right ventricle and lungs). Closes at birth and becomes the Fossa Ovalis.\n\nDuctus Arteriosus: Shunts blood from Pulmonary Artery -> Aorta (bypassing the lungs). Closes at birth and becomes the Ligamentum Arteriosum.\n\nDuctus Venosus: Shunts oxygenated blood from Umbilical Vein -> Inferior Vena Cava (bypassing the liver). Closes at birth and becomes the Ligamentum Venosum.\n\nTrigger for Closure: The first breath dramatically decreases pulmonary vascular resistance, causing pressure in the right side of the heart to drop and pressure in the left side to rise. This change in pressure gradients functionally closes the foramen ovale. Increased oxygen levels and a drop in prostaglandins (from placental separation) trigger the constriction of the ductus arteriosus.\n\nPossible NCK Question: \"Which fetal circulatory structure allows oxygenated blood from the placenta to bypass the fetal liver?\" Answer: Ductus Venosus.\n\nRecommended Reading:\n\nHuman Anatomy & Physiology by Marieb & Hoehn - Chapter on Fetal Development and Circulation."
+},
+{
+  "question": "43. In the typical vertex presentation, the sequence of events by which the fetal head adapts to the birth canal is;",
+  "options": {
+    "A": "Flexion, descent, restitution, lateral flexion",
+    "B": "Descent, flexion, internal rotation, extension",
+    "C": "Descent, lateral flexion, shoulder rotation, restitution",
+    "D": "Lateral flexion, descent, internal rotation, external rotation"
+  },
+  "answer": "B",
+  "explanation": "Note on Answer Key: The provided answer key in the image states 'D' for this question. However, based on all established obstetric principles, answer 'D' is incorrect. The sequence presented in 'B' is a core and correct part of the cardinal movements of labor. We will proceed with B as the correct answer.\n\nWhy B is correct: The cardinal movements describe how the fetus navigates the pelvis.\n\nDescent: The continuous downward movement of the fetus through the pelvis.\n\nFlexion: As the head descends, it meets resistance from the pelvic floor, causing the fetal chin to tuck into its chest. This presents the smallest head diameter (suboccipitobregmatic) to the pelvis.\n\nInternal Rotation: The head rotates from a transverse position to an anterior-posterior (AP) position to align with the longest diameter of the pelvic outlet.\n\nExtension: As the head passes under the pubic symphysis, the neck pivots and the head extends, allowing the face and chin to be born.\nThe sequence in option B is a perfect representation of these critical steps.\n\nWhy other options are incorrect:\n\nA) & C) & D): These options present the movements in the wrong order or include incorrect steps at the wrong time. \"Lateral flexion\" (of the head) is not a primary cardinal movement for the head's adaptation. \"External rotation\" occurs after extension.",
+  "additional": "Key Concept: Memorize all the cardinal movements in order. A common mnemonic is: Don't Forget I'll Enjoy Really Expensive Eggs.\n\nDescent\n\nFlexion\n\nInternal Rotation\n\nExtension\n\nRestitution (head realigns with shoulders)\n\nExternal Rotation (shoulders rotate to AP)\n\nExpulsion (delivery of the body)\n\n(Engagement is often listed first or concurrently with descent).\n\nPurpose of Each Movement: Understand why each movement happens. Flexion = smaller diameter. Internal Rotation = aligning with the pelvic outlet. Extension = passing under the pubic bone.\n\nPossible NCK Question: \"During labor, the fetal head rotates from a transverse to an anteroposterior position. This movement is known as...\" Answer: Internal Rotation.\n\nRecommended Reading:\n\nMyles Textbook for Midwives - The chapter detailing the mechanism of labor is essential reading."
+},
+{
+  "question": "13. The following are presumptive signs and symptoms of pregnancy except;",
+  "options": {
+    "A": "Amenorrhea and morning sickness",
+    "B": "Breast changes and skin changes",
+    "C": "Presence of HCG and Hegar's sign",
+    "D": "Bladder irritability and quickening"
+  },
+  "answer": "C",
+  "explanation": "Why C is correct: This question asks to identify the option that is NOT a presumptive sign. Presumptive signs are subjective changes experienced by the woman. Probable signs are objective findings observed by an examiner.\n\nPresence of hCG (Human Chorionic Gonadotropin) in urine or blood is a probable sign. While highly indicative of pregnancy, other conditions (like certain tumors) can also produce hCG.\n\nHegar's sign (softening of the lower uterine segment) is also a probable sign, as it is an objective change felt by the examiner during a physical assessment.\n\nTherefore, the items in option C fall under the category of probable signs, not presumptive.\n\nWhy other options are incorrect:\n\nA) Amenorrhea (missed period) and morning sickness (nausea) are classic presumptive signs.\n\nB) Breast changes (tenderness, enlargement) and skin changes (linea nigra, chloasma) are also presumptive signs.\n\nD) Bladder irritability (frequent urination) and quickening (fetal movement felt by mother) are presumptive signs.",
+  "additional": "Key Concept: This is a foundational knowledge question. You must be able to clearly categorize the signs of pregnancy.\n\nPresumptive (Subjective): Changes the woman feels. (Amenorrhea, N/V, fatigue, quickening).\n\nProbable (Objective): Changes the examiner observes. (Positive pregnancy test, Hegar's sign, Goodell's sign, Chadwick's sign, uterine enlargement, ballottement).\n\nPositive (Diagnostic): Absolute proof. (Fetal heart tones heard, fetus visualized on ultrasound, fetal movement felt by examiner).\n\nClinical Application: Understanding these categories helps in counseling a woman. If she only has presumptive signs, you advise her that these could be due to other causes and a test is needed. If she has probable signs, pregnancy is very likely, but positive signs are needed for 100% confirmation.\n\nPossible NCK Question: \"A midwife visualizes the fetal outline on an ultrasound screen. This is classified as what type of sign of pregnancy?\" Answer: A positive sign.\n\nRecommended Reading:\n\nMaternity and Women's Health Care by Lowdermilk et al. - Review the summary table of presumptive, probable, and positive signs of pregnancy."
+},
+{
+  "question": "16. The effects of polyhydramnios on labor are;",
+  "options": {
+    "A": "Prolonged labor with indigestion and prematurity",
+    "B": "Disordered uterine action, cervical dystocia with oedema of the vulva",
+    "C": "Obstructed labor, uterine inertia and hypertonic uterine action",
+    "D": "Hypotonic Uterine action, cord prolapse and postpartum hemorrhage"
+  },
+  "answer": "D",
+  "explanation": "Why D is correct: Polyhydramnios is the presence of excessive amniotic fluid. This overstretches the uterine muscle fibers.\n\nHypotonic Uterine Action: Overstretched muscle fibers cannot contract effectively, leading to weak, infrequent, and uncoordinated contractions (hypotonic uterine inertia). This can cause slow or arrested labor progress.\n\nCord Prolapse: When the membranes rupture, the large gush of fluid can easily wash the umbilical cord down ahead of the presenting part, causing a cord prolapse—a major obstetric emergency.\n\nPostpartum Hemorrhage (PPH): After delivery, the overstretched uterus has difficulty contracting down firmly (uterine atony), which is the leading cause of PPH.\n\nThis option perfectly lists the key labor-related complications of polyhydramnios.\n\nWhy other options are incorrect:\n\nA) \"Indigestion\" is not a direct effect on labor. Prematurity is a risk, but the description of labor is incomplete.\n\nB) Cervical dystocia and vulval edema are not the primary, classic complications.\n\nC) \"Hypertonic\" uterine action (excessively strong, frequent contractions) is the opposite of what is typically seen. Obstructed labor is also less likely than a dysfunctional, hypotonic labor.",
+  "additional": "Key Concept: Understand the mechanical and physiological consequences of both polyhydramnios and oligohydramnios.\n\nAssociated Conditions: Polyhydramnios is often associated with:\n\nMaternal: Diabetes Mellitus.\n\nFetal: GI tract anomalies (e.g., esophageal atresia, duodenal atresia which prevent the fetus from swallowing fluid), neural tube defects, and multiple pregnancies.\n\nOligohydramnios: The opposite condition (too little fluid). This is associated with:\n\nMaternal: Uteroplacental insufficiency, dehydration.\n\nFetal: Renal agenesis (Potter's syndrome), PROM (premature rupture of membranes), post-term pregnancy.\n\nComplications: Cord compression (leading to variable decelerations), fetal distress, and pulmonary hypoplasia.\n\nPossible NCK Question: \"During an assessment of a laboring client, the midwife notes persistent variable decelerations on the fetal heart rate tracing. This finding is most commonly associated with which condition?\" Answer: Oligohydramnios (due to cord compression).\n\nRecommended Reading:\n\nMyles Textbook for Midwives - Chapter on Abnormalities of Amniotic Fluid."
+},
+{
+  "question": "23. The purpose of administering magnesium sulphate to a woman who has premature labor is to;",
+  "options": {
+    "A": "Enhance fetal maturity",
+    "B": "Prevent seizures",
+    "C": "Improve urine output",
+    "D": "Control uterine contraction patterns"
+  },
+  "answer": "D",
+  "explanation": "Why D is correct: When administered for preterm labor, magnesium sulphate acts as a tocolytic. It relaxes smooth muscle, including the uterus, thereby suppressing or \"controlling\" uterine contractions to delay delivery. The primary goal is to buy time (usually 24-48 hours) to administer corticosteroids for fetal lung maturity.\n\nWhy B is a very important, but contextually different, answer: The primary and most well-known use for magnesium sulphate in obstetrics is for seizure prophylaxis and treatment in women with severe pre-eclampsia or eclampsia. If the question had mentioned a woman with high blood pressure, option B would be the correct answer. The question specifically states \"premature labor,\" making the tocolytic effect (D) the intended answer.\n\nFetal Neuroprotection: It's also important to note that a secondary, and now very important, reason for giving MgSO4 in imminent preterm birth (<32 weeks) is for fetal neuroprotection, as it has been shown to reduce the risk and severity of cerebral palsy. This is not listed as an option.\n\nWhy A & C are incorrect:\n\nA) It does not enhance fetal maturity directly. Corticosteroids (like Betamethasone) do that.\n\nC) It does not improve urine output. In fact, decreased urine output (<30 ml/hr) is a sign of magnesium toxicity, as the drug is cleared by the kidneys.",
+  "additional": "Key Concept: Magnesium Sulphate is a high-alert medication with multiple uses and critical safety monitoring.\n\nMonitoring for Magnesium Toxicity (BURP):\n\nBlood pressure decreases (hypotension).\n\nUrine output decreases (<30 ml/hr).\n\nRespiratory rate decreases (<12 breaths/min).\n\nPatellar reflex is absent (loss of deep tendon reflexes).\n\nAntidote: The antidote for magnesium sulphate toxicity is Calcium Gluconate. It should always be readily available at the bedside when a woman is on a magnesium sulphate infusion.\n\nPossible NCK Question: \"A midwife is caring for a client receiving an IV infusion of magnesium sulphate for severe pre-eclampsia. Which assessment finding would require immediate intervention?\" Answer: A respiratory rate of 10 breaths per minute.\n\nAnother Possible NCK Question: \"What is the therapeutic purpose of administering betamethasone to a woman in preterm labor at 28 weeks gestation?\" Answer: To stimulate fetal lung maturation and surfactant production.\n\nRecommended Reading:\n\nClinical Practice Guidelines on the management of Preterm Labor and Pre-eclampsia from ACOG or RCOG.\n\nMyles Textbook for Midwives - Chapters on Preterm Labour and Hypertensive Disorders."
+},
+{
+  "question": "32. Which of the following nursing diagnosis would be given priority in the care of a newborn at 1 hour of age?",
+  "options": {
+    "A": "High risk of infection",
+    "B": "Altered nutrition",
+    "C": "Ineffective thermoregulation",
+    "D": "Impaired skin integrity"
+  },
+  "answer": "C",
+  "explanation": "Why C is correct: The most immediate physiological challenge for a newborn after birth is maintaining its body temperature. Newborns are at very high risk for heat loss due to their large surface area to body mass ratio, thin layer of subcutaneous fat, and wetness from amniotic fluid. Cold stress can lead to hypoglycemia, respiratory distress, and metabolic acidosis. Therefore, preventing heat loss and maintaining a neutral thermal environment is the highest priority immediately after ensuring a patent airway.\n\nWhy other options are incorrect:\n\nA) High risk of infection: This is a very important diagnosis, but it is not as immediate a threat as heat loss. Infection prevention measures are ongoing.\n\nB) Altered nutrition: The first feed is important (ideally within the first hour), but stabilizing the baby's temperature is a prerequisite for effective feeding. A cold baby will be lethargic and a poor feeder.\n\nD) Impaired skin integrity: While important to assess, it is not the most urgent priority compared to thermoregulation.",
+  "additional": "Key Concept: Understanding the principles of newborn transition to extrauterine life. Priority is always Airway, Breathing, Circulation, and Thermoregulation.\n\nMechanisms of Heat Loss (Remember C-C-E-R):\n\nConvection: Loss of heat to cooler air currents (e.g., drafts from a window). Prevention: Keep baby wrapped, away from drafts.\n\nConduction: Loss of heat to a cooler surface in direct contact. Prevention: Place baby on a pre-warmed surface, skin-to-skin with mother.\n\nEvaporation: Loss of heat as water evaporates from the skin. This is the greatest source of heat loss right after birth. Prevention: Dry the baby thoroughly.\n\nRadiation: Loss of heat to a cooler solid object not in direct contact. Prevention: Move crib away from cold outside walls.\n\nNursing Interventions for Thermoregulation:\n\nDry the newborn immediately after birth.\n\nPlace the newborn skin-to-skin with the mother.\n\nCover both with a warm, dry blanket.\n\nPut a hat on the baby's head.\n\nIf separated, place the baby under a radiant warmer.\n\nPossible NCK Question: \"A midwife's first action to prevent heat loss by evaporation in a newly delivered infant is to...\" Answer: Thoroughly dry the infant.\n\nRecommended Reading:\n\nWong's Nursing Care of Infants and Children or Myles Textbook for Midwives - Chapter on Care of the Newborn at Birth."
+},
+{
+  "question": "36. A rhesus negative mother would need to receive Rho (D) immune globulin (RhoGAM) within 72 hours after delivery if the newborn had which of the following blood test results?",
+  "options": {
+    "A": "Rhesus negative, Coombs positive",
+    "B": "Rhesus negative, Coombs negative",
+    "C": "Rhesus positive, Coombs negative",
+    "D": "Rhesus positive, Coombs positive"
+  },
+  "answer": "C",
+  "explanation": "Why C is correct:\n\nRho(D) immune globulin is given to a Rh-negative mother to prevent her from developing antibodies against Rh-positive blood. This process is called isoimmunization.\n\nThe condition for giving RhoGAM is that the mother must be Rh-negative and the newborn must be Rh-positive. This creates the risk of sensitization if fetal Rh-positive red blood cells entered the mother's circulation during delivery.\n\nThe newborn's Coombs test (Direct Coombs Test) should be negative. A negative Coombs test means that the newborn's red blood cells are not currently coated with the mother's antibodies. This indicates that significant sensitization has not yet occurred during this pregnancy, and therefore, giving RhoGAM now will be effective in preventing future sensitization.\n\nWhy other options are incorrect:\n\nA) & B) If the baby is Rh-negative, there is no risk, and RhoGAM is not needed.\n\nD) Rhesus positive, Coombs positive: A positive Coombs test on the baby means the mother is already sensitized and has passed antibodies to the baby, which are now attached to the baby's RBCs. Giving the mother RhoGAM at this point is too late; the \"horse has already bolted from the barn.\" She is already isoimmunized. (The baby in this case would be at high risk for hemolytic disease of the newborn).",
+  "additional": "Key Concept: Understanding the mechanism of Rh isoimmunization and the purpose of RhoGAM.\n\nRhoGAM Administration Schedule:\n\nRoutinely at 28 weeks gestation to all Rh-negative mothers.\n\nWithin 72 hours postpartum if the baby is Rh-positive.\n\nAlso given after any event that could cause fetomaternal hemorrhage, such as: abortion, ectopic pregnancy, amniocentesis, abdominal trauma, or antepartum bleeding.\n\nThe Indirect Coombs Test: This test is done on the mother's blood to see if she has circulating anti-Rh antibodies. If her indirect Coombs test is negative, she is a candidate for RhoGAM. If it's positive, she is already sensitized.\n\nPossible NCK Question: \"Rho(D) immune globulin is administered to an unsensitized Rh-negative woman to...\" Answer: Prevent her from producing anti-Rh antibodies.\n\nRecommended Reading:\n\nMaternity and Women's Health Care by Lowdermilk et al. - Chapter on Medical-Surgical Problems in Pregnancy (look for the section on blood incompatibility)."
+},
+{
+  "question": "47. When cord prolapse is diagnosed during the second stage of labor, the immediate action would be to;",
+  "options": {
+    "A": "Explain the condition to the mother",
+    "B": "Push the presenting part in the vagina",
+    "C": "Assess cervical Dilatation and effacement",
+    "D": "Examine the cord for pulsation and cover it with a sterile towel"
+  },
+  "answer": "B",
+  "explanation": "Why B is correct: Cord prolapse is a critical obstetric emergency where the umbilical cord descends ahead of the presenting part, leading to cord compression and interruption of fetal oxygen supply. The single most important immediate action is to relieve the pressure on the cord to restore blood flow to the fetus. This is done by the midwife or doctor inserting a gloved hand into the vagina and manually lifting the presenting part (usually the fetal head) off the umbilical cord. This position must be maintained until delivery by emergency C-section.\n\nWhy other options are incorrect:\n\nA) Explain the condition to the mother: While communication is important, it is not the immediate, life-saving action. This can be done by another team member while you are intervening. Action precedes explanation in this emergency.\n\nC) Assess cervical Dilatation and effacement: This is irrelevant. The diagnosis of cord prolapse mandates immediate delivery, usually by C-section, regardless of dilatation (unless delivery is truly imminent). Wasting time on this assessment compromises the fetus.\n\nD) Examine the cord for pulsation and cover it with a sterile towel: Assessing for pulsation is part of the initial diagnosis, not the intervention. Covering the cord with a warm, sterile, saline-soaked gauze is a good secondary measure to prevent vasospasm and drying, but relieving the pressure is the absolute priority.",
+  "additional": "Key Concept: Management of cord prolapse is about speed and relieving pressure.\n\nEmergency Management Sequence (S.O.S.):\n\nStop the pressure: Call for help immediately. Place the mother in a position that uses gravity to relieve pressure (e.g., knee-chest position or extreme Trendelenburg). The examiner inserts a hand to lift the presenting part off the cord. DO NOT ATTEMPT TO PUSH THE CORD BACK IN.\n\nOxygen: Administer high-flow oxygen (8-10 L/min via face mask) to the mother to maximize fetal oxygenation.\n\nSection: Prepare for immediate emergency Caesarean section. This is the definitive treatment.\n\nRisk Factors for Cord Prolapse:\n\nMalpresentation (breech, transverse lie)\n\nHigh/unengaged presenting part\n\nPolyhydramnios\n\nPrematurity/low birth weight\n\nArtificial rupture of membranes (ARM) with a high presenting part\n\nPossible NCK Question: \"A midwife performs an ARM on a client whose fetal head is at -2 station. A loop of umbilical cord is then palpated in the vagina. After calling for help, what is the midwife's next priority action?\" Answer: Manually elevate the presenting part off the cord.\n\nRecommended Reading:\n\nMyles Textbook for Midwives - Chapter on Obstetric Emergencies."
+},
+{
+  "question": "49. Sampling of the amniotic fluid can be very useful in determining fetal lung maturity. The test used for this purpose is based on;",
+  "options": {
+    "A": "Bilirubin levels",
+    "B": "Cytology",
+    "C": "Creatinine levels",
+    "D": "Lecithin-sphingomyelin (L:S) ratio"
+  },
+  "answer": "D",
+  "explanation": "Why D is correct: Surfactant is a substance that coats the alveoli in the lungs, preventing them from collapsing on expiration. It is primarily composed of phospholipids. Lecithin and sphingomyelin are two such phospholipids.\n\nEarly in pregnancy, their levels are roughly equal.\n\nAround 34-35 weeks gestation, the production of lecithin surges while sphingomyelin remains constant.\n\nAn L:S ratio of 2:1 or greater indicates that the fetal lungs are mature and the risk of Respiratory Distress Syndrome (RDS) after birth is very low. This is the gold standard test for fetal lung maturity from an amniotic fluid sample.\n\nWhy other options are incorrect:\n\nA) Bilirubin levels: Used to assess for fetal hemolysis (e.g., in Rh isoimmunization). Levels should decrease as the fetus matures.\n\nB) Cytology: The study of cells, used to detect chromosomal abnormalities or infections, not lung maturity.\n\nC) Creatinine levels: Reflects fetal kidney maturity and muscle mass, not lung maturity.",
+  "additional": "Key Concept: Understanding the biochemical markers of fetal well-being.\n\nPhosphatidylglycerol (PG): This is another component of surfactant. Its presence in the amniotic fluid is a very strong indicator of lung maturity, even in mothers with diabetes where the L:S ratio can be misleading. If the question offers \"Presence of PG\" as an option, it's also a correct answer for lung maturity.\n\nClinical Use: This test is performed via amniocentesis. It is used when a decision needs to be made about an elective preterm delivery (e.g., for severe pre-eclampsia or deteriorating maternal health) and the clinical team needs to weigh the risks of prematurity against the risks of continuing the pregnancy.\n\nPossible NCK Question: \"An L:S ratio of 1:1 in a fetus at 33 weeks gestation indicates which of the following?\" Answer: A high risk of developing Respiratory Distress Syndrome (RDS).\n\nRecommended Reading:\n\nMaternity and Women's Health Care by Lowdermilk et al. - Chapter on Antepartum Fetal Assessment."
+},
+{
+  "question": "28. Mrs. Korir is 8 hours postpartum after a vaginal delivery. The fundus is at the level of the umbilicus and displaced to the right. Which of the following actions should the midwife take first?",
+  "options": {
+    "A": "Assist the woman to empty the bladder",
+    "B": "Encourage the woman to drink plenty of fluids",
+    "C": "Massage the woman's uterus",
+    "D": "Ask the woman to try and open her bowels as soon as possible"
+  },
+  "answer": "A",
+  "explanation": "Why A is correct: Immediately after delivery, the fundus should be firm, midline, and at or slightly below the level of the umbilicus. A fundus that is displaced from the midline (usually to the right) is the classic sign of a full bladder. The full bladder pushes the uterus up and to the side, preventing it from contracting effectively (a condition known as uterine atony). This places the woman at high risk for PPH. Therefore, the first action is to correct the underlying cause by having the woman empty her bladder.\n\nWhy other options are incorrect:\n\nB) Encourage the woman to drink plenty of fluids: This is good general advice for postpartum recovery and lactation, but it does not solve the immediate problem.\n\nC) Massage the woman's uterus: You would massage the uterus after the bladder is empty if it remains boggy. Trying to massage a uterus that is being pushed aside by a full bladder is less effective. The primary problem is the bladder.\n\nD) Asking her to open her bowels: This is not an immediate priority and has no bearing on the fundal position at 8 hours postpartum.",
+  "additional": "Key Concept: Routine postpartum assessment (often remembered by the mnemonic BUBBLE-HE).\n\nBreasts\n\nUterus (Fundus: check height, position, tone)\n\nBowels\n\nBladder\n\nLochia (check color, amount, odor)\n\nEpisiotomy/Laceration (REEDA: Redness, Edema, Ecchymosis, Discharge, Approximation)\n\nHoman's Sign/Hemorrhoids\n\nEmotional Status\n\nInvolution: This is the process of the uterus returning to its pre-pregnant state. The fundus should descend approximately 1 cm (or one fingerbreadth) per day. By day 10-14, it should no longer be palpable abdominally.\n\nPossible NCK Question: \"On the second postpartum day, a midwife assesses a client and finds her fundus to be 1cm above the umbilicus and boggy. What is the midwife's priority action?\" Answer: Assess the client's bladder for fullness.\n\nRecommended Reading:\n\nFoundations of Maternal-Newborn and Women's Health Nursing - Chapter on Nursing Care During the Postpartum Period."
+},
+{
+  "question": "33. After caesarian section delivery, Mrs. Poa develops deep vein thrombosis and is put on heparin sodium (heparin). The purpose of this medication is to;",
+  "options": {
+    "A": "Dissolve the thrombus",
+    "B": "Decrease the pain",
+    "C": "Prevent clot enlargement",
+    "D": "Reduce tissue oedema"
+  },
+  "answer": "C",
+  "explanation": "Why C is correct: Heparin is an anticoagulant. Its primary mechanism of action is to interfere with the clotting cascade, thereby preventing the formation of new clots and preventing existing clots from growing larger. It does not dissolve existing clots. The body's own fibrinolytic system is responsible for slowly breaking down the existing clot over time.\n\nWhy other options are incorrect:\n\nA) Dissolve the thrombus: This is the function of thrombolytic or \"clot-busting\" drugs like Alteplase (tPA). These are used in acute emergencies like stroke or myocardial infarction, not typically for DVT.\n\nB) Decrease the pain: While reducing clot growth may indirectly alleviate some pain over time, heparin is not an analgesic. Pain is managed with analgesics.\n\nD) Reduce tissue oedema: Swelling may decrease as the clot stabilizes and inflammation subsides, but heparin's primary purpose is not to act as a diuretic or anti-inflammatory.",
+  "additional": "Key Concept: Differentiating between anticoagulants, antiplatelets, and thrombolytics.\n\nAnticoagulants (Heparin, Warfarin): Work on the clotting cascade. Used for DVT, PE, Atrial Fibrillation.\n\nAntiplatelets (Aspirin, Clopidogrel): Prevent platelets from sticking together. Used for preventing arterial clots (MI, stroke).\n\nThrombolytics (Alteplase): Actively dissolve existing clots.\n\nHeparin vs. Warfarin:\n\nHeparin: Fast-acting, given IV or SubQ. Monitored with aPTT. Antidote is protamine sulfate. Safe in pregnancy.\n\nWarfarin: Slow-acting, given orally. Monitored with PT/INR. Antidote is Vitamin K. Teratogenic and contraindicated in pregnancy.\n\nPossible NCK Question: \"A client with a DVT is being transitioned from an IV heparin drip to oral warfarin. The midwife knows that this transition requires overlapping the two medications for several days because...\" Answer: Warfarin takes several days to reach a therapeutic level.\n\nRecommended Reading:\n\nLewis's Medical-Surgical Nursing - Chapter on Vascular Disorders and Hematology."
+},
+{
+  "question": "50. The clinical problems of small for date babies include;",
+  "options": {
+    "A": "Hyperglycemia",
+    "B": "Hypercalcemia",
+    "C": "Temperature instability",
+    "D": "Anemia"
+  },
+  "answer": "C",
+  "explanation": "Why C is correct: Small for Gestational Age (SGA) or \"small for date\" babies have insufficient subcutaneous fat, which is the body's primary insulation. This, combined with a large surface area relative to their weight, puts them at extremely high risk for hypothermia and temperature instability. They struggle to maintain their body heat.\n\nWhy other options are incorrect:\n\nA) Hyperglycemia: SGA babies are at high risk for hypoglycemia, not hyperglycemia. They have small glycogen stores and are prone to cold stress, both of which deplete glucose rapidly.\n\nB) Hypercalcemia: They are more likely to experience hypocalcemia.\n\nD) Anemia: SGA babies are more commonly associated with polycythemia (an excess of red blood cells). This is often a compensatory response to chronic intrauterine hypoxia. Anemia is not a classic feature.",
+  "additional": "Key Concept: SGA vs. Preterm. An SGA baby can be term, preterm, or post-term; the defining feature is that their weight is below the 10th percentile for their gestational age.\n\nCommon Problems in SGA Infants:\n\nPerinatal Asphyxia: Often due to the same uteroplacental insufficiency that caused the growth restriction.\n\nHypothermia/Temperature Instability: Due to lack of fat.\n\nHypoglycemia: Due to inadequate glycogen stores.\n\nPolycythemia: Resulting from chronic fetal hypoxia. This can lead to hyperbilirubinemia (jaundice) as the excess red cells break down.\n\nPossible NCK Question: \"A midwife is developing a plan of care for a small for gestational age (SGA) newborn. Which nursing intervention is the highest priority?\" Answer: Monitoring for signs of hypoglycemia and hypothermia.\n\nRecommended Reading:\n\nWong's Nursing Care of Infants and Children - Chapter on the High-Risk Newborn."
+},
+{
+    "question": "During a vaginal delivery, after the fetal head is born, it retracts back against the perineum (the \"turtle sign\"). The midwife immediately identifies this as a shoulder dystocia. What is the first maneuver the midwife should perform?",
+    "options": {
+      "A": "Apply fundal pressure to help push the baby out.",
+      "B": "Attempt to rotate the posterior shoulder using the Rubin maneuver.",
+      "C": "Place the mother in the McRoberts maneuver position.",
+      "D": "Prepare the mother for an emergency Caesarean section."
+    },
+    "answer": "C",
+    "explanation": "Why C is correct: The McRoberts maneuver is the initial and least invasive intervention for shoulder dystocia. It involves hyperflexing the mother's legs back onto her abdomen. This action flattens the sacral promontory and rotates the symphysis pubis superiorly, which often provides enough space for the anterior shoulder to dislodge from under the pubic bone. It is simple, quick, and can be performed by the midwife and assistants immediately.\n\nWhy other options are incorrect:\n\nA) Apply fundal pressure: This is contraindicated and dangerous. Pushing on the fundus can further impact the anterior shoulder under the pubic bone, increasing the risk of brachial plexus injury (Erb's palsy) or a fractured clavicle. Suprapubic pressure, however, is a valid secondary maneuver.\n\nB) Rubin maneuver: This is an internal maneuver where the midwife attempts to rotate the baby's shoulders. It is a secondary step, performed only if McRoberts and suprapubic pressure fail.\n\nD) Prepare for emergency C-section: This is not possible. The head is already delivered. Shoulder dystocia is an emergency that must be resolved vaginally.",
+    "additional": "Key Concept: The HELPERR mnemonic for managing shoulder dystocia.\n\nHelp: Call for help (obstetrician, anesthetist, pediatrician, other midwives).\n\nEvaluate for Episiotomy: A generous episiotomy can provide more room for internal maneuvers.\n\nLegs: McRoberts maneuver.\n\nPressure: Suprapubic pressure (not fundal).\n\nEnter maneuvers: Internal rotation (e.g., Rubin, Woods' screw).\n\nRemove the posterior arm.\n\nRoll the patient: Move the woman onto her hands and knees (Gaskin maneuver).\n\nComplications of Shoulder Dystocia:\n\nFetal: Brachial plexus injury, fractured clavicle/humerus, hypoxic brain injury, death.\n\nMaternal: Postpartum hemorrhage (PPH), severe perineal trauma (3rd or 4th-degree tears).\n\nPossible NCK Question: \"During the management of a shoulder dystocia, an assistant is asked to apply pressure. Where should this pressure be applied?\" Answer: On the suprapubic area, in the direction of the fetal face, to adduct the anterior shoulder.\n\nRecommended Reading:\n\nMyles Textbook for Midwives or ALSO (Advanced Life Support in Obstetrics) provider manual - Chapter on Shoulder Dystocia."
+  },
+  {
+    "question": "A midwife is analyzing a fetal heart rate tracing for a woman in active labor. The baseline fetal heart rate is 135 bpm with moderate variability. The midwife notes a gradual decrease in the FHR that begins with the onset of a contraction and returns to baseline as the contraction ends. The lowest point (nadir) of the decrease coincides with the peak of the contraction. How should the midwife interpret this finding?",
+    "options": {
+      "A": "It is a variable deceleration, indicating cord compression.",
+      "B": "It is an early deceleration, indicating head compression.",
+      "C": "It is a late deceleration, indicating uteroplacental insufficiency.",
+      "D": "It is a prolonged deceleration, indicating an obstetric emergency."
+    },
+    "answer": "B",
+    "explanation": "Why B is correct: The description perfectly matches an early deceleration. These are \"mirror images\" of the contraction. They are caused by vagal nerve stimulation as the fetal head is compressed during a contraction. This is a benign (reassuring) finding, especially in the later stages of labor, and does not require intervention.\n\nWhy other options are incorrect:\n\nA) Variable deceleration: These are abrupt in onset and offset (V-shaped or U-shaped) and have a variable relationship to contractions. They indicate cord compression.\n\nC) Late deceleration: These are non-reassuring. They also have a gradual onset, but their nadir occurs after the peak of the contraction, and the FHR does not return to baseline until after the contraction is over. They indicate uteroplacental insufficiency and fetal hypoxia.\n\nD) Prolonged deceleration: This is a decrease in FHR of at least 15 bpm below baseline that lasts for more than 2 minutes but less than 10 minutes. It is a sign of significant fetal stress.",
+    "additional": "Key Concept: The VEAL CHOP mnemonic for interpreting FHR patterns.\n| | | |\n| :--- | :--- | :--- |\n| Variable Deceleration | -> | Cord Compression |\n| Early Deceleration | -> | Head Compression |\n| Acceleration | -> | Okay (Oxygenated) |\n| Late Deceleration | -> | Placental Insufficiency|\n\nVariability: This is the most important indicator of fetal well-being. Moderate variability (6-25 bpm fluctuation) is reassuring. Absent or minimal variability is non-reassuring.\n\nNursing Interventions for Late/Variable Decelerations (Intrauterine Resuscitation):\n\nChange maternal position (left lateral is best).\n\nAdminister oxygen via face mask.\n\nIncrease IV fluid rate (bolus).\n\nStop oxytocin infusion if running.\n\nNotify the physician/senior midwife.\n\nPossible NCK Question: \"A midwife observes recurrent late decelerations with minimal variability on a fetal heart rate tracing. What is the midwife's priority action?\" Answer: Reposition the mother to her left side.\n\nRecommended Reading:\n\nACOG or RCOG guidelines on Intrapartum Fetal Surveillance."
+  },
+  {
+    "question": "A woman who is 4 days postpartum calls the clinic expressing concern about her lochia. Which statement by the woman would indicate a normal process of involution?",
+    "options": {
+      "A": "\"The discharge is still bright red and I'm soaking a pad every hour.\"",
+      "B": "\"The discharge has a foul, fishy odor and my belly is very tender.\"",
+      "C": "\"The discharge is a pinkish-brown color and is less than it was a few days ago.\"",
+      "D": "\"I don't have any discharge anymore, it completely stopped yesterday.\""
+    },
+    "answer": "C",
+    "explanation": "Why C is correct: This describes lochia serosa, which is the normal discharge expected from day 4 to day 10 postpartum. It follows lochia rubra and represents a normal progression of uterine healing. The decreasing amount is also a normal finding.\n\nWhy other options are incorrect:\n\nA) This describes excessive bleeding (PPH) and would be characteristic of lochia rubra. Soaking a pad per hour is abnormal at any stage after the first few hours.\n\nB) A foul odor and uterine tenderness are classic signs of endometritis, a postpartum infection.\n\nD) A complete cessation of lochia this early could indicate a problem, such as a cervical obstruction trapping the discharge, which could also lead to infection. The process should be gradual.",
+    "additional": "Key Concept: The three stages of lochia.\n\nLochia Rubra: Bright red, mostly blood. Lasts for the first 3-4 days.\n\nLochia Serosa: Pinkish-brown, contains serosanguinous fluid, leukocytes, and decidual tissue. Lasts from day 4 to day 10.\n\nLochia Alba: Whitish-yellow, contains mostly leukocytes and mucus. Lasts from day 10 up to 6 weeks.\n\nWarning Signs: The patient should be taught to report:\n\nReverting to a previous stage (e.g., lochia serosa back to rubra).\n\nPassage of large clots.\n\nSaturating a pad in 1 hour or less.\n\nA foul odor.\n\nFever, chills, or uterine tenderness.\n\nPossible NCK Question: \"A midwife is providing discharge teaching to a postpartum client. The midwife should instruct the client to contact her provider if which of the following occurs?\" Answer: Her lochia changes from pinkish-brown back to bright red.\n\nRecommended Reading:\n\nFoundations of Maternal-Newborn and Women's Health Nursing - Chapter on Postpartum Physiological Adaptations."
+  },
+  {
+    "question": "During a vaginal examination of a woman in labor, the midwife palpates a soft, irregular mass with no discernible sutures or fontanelles. The midwife also notes the passage of meconium, although the fetal heart rate is stable and reassuring. These findings are most consistent with which fetal presentation?",
+    "options": {
+      "A": "Vertex presentation",
+      "B": "Face presentation",
+      "C": "Breech presentation",
+      "D": "Shoulder presentation"
+    },
+    "answer": "C",
+    "explanation": "Why C is correct: A breech presentation means the fetal buttocks or feet are the presenting part. On vaginal examination, the buttocks feel like a \"soft, irregular mass.\" The anal sphincter can be mistaken for a mouth, but there are no bony jaws. The passage of meconium is common in breech presentations due to compression of the fetal abdomen during contractions and is not necessarily a sign of fetal distress in this context.\n\nWhy other options are incorrect:\n\nA) Vertex presentation: The midwife would feel the hard, round occiput with identifiable sutures and fontanelles.\n\nB) Face presentation: The midwife would feel distinct facial features: the orbital ridges, nose, and mouth with hard alveolar ridges (gums).\n\nD) Shoulder presentation (transverse lie): The midwife would often feel the acromion process of the shoulder, the ribs (a \"grill-like\" sensation), or an empty pelvis if the fetus is high. A vaginal delivery is not possible with a persistent shoulder presentation.",
+    "additional": "Key Concept: Differentiating fetal presentations via vaginal examination is a core midwifery skill.\n\nTypes of Breech:\n\nFrank Breech: Hips flexed, knees extended (most common).\n\nComplete Breech: Hips and knees flexed (sitting cross-legged).\n\nFootling Breech: One or both feet present first. This carries the highest risk of cord prolapse.\n\nManagement: Management depends on many factors, including type of breech, fetal size, and provider skill. Options include External Cephalic Version (ECV) near term to turn the baby, planned Caesarean section, or a trial of vaginal breech delivery in carefully selected cases.\n\nPossible NCK Question: \"A woman is confirmed to have a footling breech presentation at 39 weeks. The midwife should recognize that this client is at a particularly high risk for which complication during labor?\" Answer: Umbilical cord prolapse.\n\nRecommended Reading:\n\nVarney's Midwifery - Chapter on Malpresentations."
+  },
+  {
+    "question": "A newborn is exhibiting signs of jitteriness, a high-pitched cry, and poor feeding. The mother has a history of substance use during pregnancy. The midwife suspects Neonatal Abstinence Syndrome (NAS). Which of the following would be an appropriate nursing intervention for this newborn?",
+    "options": {
+      "A": "Place the newborn in a brightly lit, active area of the nursery to provide stimulation.",
+      "B": "Encourage frequent handling and interaction from various staff members.",
+      "C": "Swaddle the newborn snugly and place them in a quiet, low-lit environment.",
+      "D": "Schedule feedings every 5-6 hours to allow for longer periods of rest."
+    },
+    "answer": "C",
+    "explanation": "Why C is correct: Newborns with NAS are hypersensitive to stimuli. Their central nervous systems are over-excited. The goal of nursing care is to minimize environmental stimuli. Swaddling provides comfort and security, reduces tremors, and promotes a sense of calm. A quiet, dark environment helps to decrease the sensory overload that can worsen their symptoms.\n\nWhy other options are incorrect:\n\nA) Bright lights and activity would severely overstimulate the newborn, increasing agitation and crying.\n\nB) Frequent handling by multiple people is also overstimulating. Care should be clustered and provided by a consistent, primary caregiver when possible.\n\nD) These infants often have poor feeding and high metabolic rates. They need small, frequent feedings (e.g., every 2-3 hours) to meet their nutritional needs and prevent dehydration and hypoglycemia. Longer intervals would be detrimental.",
+    "additional": "Key Concept: Non-pharmacological supportive care is the cornerstone of managing NAS.\n\nSigns of NAS (WITHDRAWAL mnemonic):\n\nWakefulness\n\nIrritability, High-pitched cry\n\nTemperature instability, Tremors\n\nHyperactivity, Hypertonia\n\nDiarrhea, Diaphoresis (sweating)\n\nRespiratory distress, Rub marks (from hyperactivity)\n\nApneic attacks\n\nWeight loss or failure to gain weight\n\nAlkalosis (respiratory)\n\nLacrimation (tearing), yawning, sneezing\n\nNursing Care Priorities:\n\nMinimize stimuli.\n\nProvide comfort (swaddling, non-nutritive sucking).\n\nMeet nutritional needs with small, frequent, high-calorie feeds.\n\nMonitor for skin breakdown.\n\nPromote parent-infant bonding.\n\nPharmacological treatment (e.g., morphine, methadone) may be required based on withdrawal scores (e.g., Finnegan score).\n\nPossible NCK Question: \"When feeding a newborn with Neonatal Abstinence Syndrome, what is the best approach?\" Answer: Offer small, high-calorie feedings on a frequent schedule.\n\nRecommended Reading:\n\nWong's Nursing Care of Infants and Children - Chapter on the High-Risk Newborn, specifically the section on infants of substance-using mothers."
+  },
+{
+  "question": "A pregnant woman at 12 weeks gestation is found to be non-immune to Rubella (German Measles) based on her antenatal screening results. What is the most appropriate advice the midwife should provide?",
+  "options": {
+    "A": "You should receive the MMR vaccine immediately to protect your baby.",
+    "B": "You need to avoid all public places until the baby is born.",
+    "C": "We will give you the MMR vaccine in the hospital right after you deliver the baby.",
+    "D": "The Rubella vaccine is not necessary as long as you feel healthy."
+  },
+  "answer": "C",
+  "explanation": "Why C is correct: The Measles, Mumps, and Rubella (MMR) vaccine is a live attenuated vaccine. Live vaccines are contraindicated during pregnancy due to a theoretical risk of the virus crossing the placenta and harming the fetus. Therefore, the safest and most appropriate time to immunize a non-immune mother is during the immediate postpartum period. This protects her from future pregnancies. It is safe to breastfeed after receiving the MMR vaccine.\n\nWhy other options are incorrect:\n\nA) This is incorrect and unsafe for the reason stated above. The vaccine is contraindicated during pregnancy.\n\nB) While she should be counseled to avoid contact with anyone known to have Rubella, advising complete isolation from all public places is impractical and not the primary management strategy. The key is future prevention through vaccination.\n\nD) This is dangerous advice. Congenital Rubella Syndrome can cause severe birth defects (e.g., deafness, cataracts, heart defects, intellectual disability), so vaccination for a non-immune woman is crucial for the health of future children.",
+  "additional": "Key Concept: Understanding which vaccines are safe and which are contraindicated in pregnancy.\n\nSAFE Vaccines (Inactivated/Toxoid):\n\nTetanus, Diphtheria, and acellular Pertussis (Tdap): Recommended for every pregnancy (ideally between 27–36 weeks) to provide passive immunity to the newborn against whooping cough.\n\nInactivated Influenza Vaccine: Recommended for all pregnant women during flu season.\n\nHepatitis B, Rabies (if indicated).\n\nCONTRAINDICATED Vaccines (Live):\n\nMMR (Measles, Mumps, Rubella)\nVaricella (Chickenpox)\nLive Attenuated Influenza Vaccine (nasal spray)\n\nTORCH Infections: This is an acronym for infections that can cause congenital anomalies:\n\nToxoplasmosis\nOther (Syphilis, Varicella, Parvovirus B19)\nRubella\nCytomegalovirus (CMV)\nHerpes Simplex Virus (HSV)\n\nPossible NCK Question: \"A midwife is advising a pregnant client at 28 weeks gestation about recommended immunizations. Which vaccine should the midwife recommend the client receive during this pregnancy?\" Answer: The Tdap vaccine.\n\nRecommended Reading:\nPublic health guidelines on immunizations in pregnancy (e.g., from WHO, CDC, or national Ministry of Health).\nMyles Textbook for Midwives - Chapter on infections in pregnancy."
+},
+{
+  "question": "A 22-year-old woman who is 6 weeks postpartum and exclusively breastfeeding asks for advice on contraception. She has a history of deep vein thrombosis (DVT) with her last pregnancy. Which contraceptive method is most suitable for her?",
+  "options": {
+    "A": "Combined Oral Contraceptive Pill (COCP)",
+    "B": "Progestin-Only Pill (POP)",
+    "C": "Copper Intrauterine Device (IUD)",
+    "D": "Contraceptive Patch"
+  },
+  "answer": "C",
+  "explanation": "Why C is correct: The copper IUD is a non-hormonal method of contraception. It is highly effective and has no systemic hormonal side effects. Given the client's history of DVT, any method containing estrogen is absolutely contraindicated. The copper IUD is a safe and excellent choice for this client. It can be inserted during the postpartum period and does not affect breastfeeding.\n\nWhy other options are incorrect:\n\nA) & D) The Combined Oral Contraceptive Pill and the Contraceptive Patch both contain estrogen, which increases the risk of thromboembolic events like DVT. They are contraindicated in women with a personal history of DVT.\n\nB) Progestin-Only Pill (POP): While the POP does not contain estrogen and is generally considered safe for women with a history of DVT and for breastfeeding mothers, the Copper IUD is often considered more suitable in this specific scenario because it is a long-acting, reversible contraceptive (LARC) with higher typical-use efficacy and removes any potential (though small) hormonal influence. Between B and C, C is the superior option offering long-term, non-hormonal, highly effective coverage.",
+  "additional": "Key Concept: Medical Eligibility Criteria (MEC) for Contraceptive Use. You must know the absolute and relative contraindications for common methods.\n\nAbsolute Contraindications for Combined Hormonal Contraceptives (Estrogen-containing):\n\n- History of DVT, PE, stroke, or ischemic heart disease.\n- Uncontrolled hypertension.\n- Migraine with aura.\n- Current breast cancer.\n- Active liver disease.\n- Smoker over age 35 (>15 cigarettes/day).\n- Less than 6 weeks postpartum if breastfeeding (due to VTE risk and potential effect on milk supply).\n\nLactational Amenorrhea Method (LAM): This is a temporary, natural method of contraception for postpartum mothers. It is effective (>98%) only if all three criteria are met:\n\n- The mother is exclusively breastfeeding (day and night).\n- Her menses have not returned.\n- The baby is less than 6 months old.\n\nPossible NCK Question: \"A woman who is 36 years old and smokes 20 cigarettes per day requests a prescription for the combined oral contraceptive pill. What is the midwife's most appropriate response?\" Answer: To explain that this method is contraindicated due to her age and smoking status and to discuss safer alternatives.\n\nRecommended Reading:\nWHO Medical Eligibility Criteria for Contraceptive Use.\nContraceptive Technology by Hatcher et al."
+},
+{
+  "question": "A woman at 34 weeks gestation presents with sudden-onset intense abdominal pain, vaginal bleeding, and a tense, board-like uterus. Her blood pressure is 90/50 mmHg and her heart rate is 120 bpm. The fetal heart rate is 80 bpm. These findings are most indicative of which condition?",
+  "options": {
+    "A": "Placenta Previa",
+    "B": "Uterine Rupture",
+    "C": "Severe Abruptio Placentae",
+    "D": "Pre-term Labor"
+  },
+  "answer": "C",
+  "explanation": "Why C is correct: This is a classic presentation of a severe placental abruption. The key features are:\n\n- Intense abdominal pain and a tense, board-like, rigid uterus (due to blood accumulating behind the placenta, irritating the myometrium).\n- Vaginal bleeding (which can be dark red or concealed).\n- Signs of maternal shock (hypotension, tachycardia) due to blood loss.\n- Signs of severe fetal distress (bradycardia) due to hypoxia.\n\nWhy other options are incorrect:\n\nA) Placenta Previa: Presents with painless, bright red bleeding, and the uterus is usually soft and non-tender.\n\nB) Uterine Rupture: While it presents with severe pain and fetal distress, the classic sign is often a cessation of contractions and a loss of fetal station, as the fetus moves into the abdominal cavity. The uterus might be difficult to palpate. It's a key differential, but the \"board-like\" uterus strongly points to abruption.\n\nD) Pre-term Labor: Presents with regular, rhythmic contractions and typically does not involve a rigid uterus, signs of shock, or such severe fetal bradycardia.",
+  "additional": "Key Concept: Recognizing the signs of an acute obstetric catastrophe.\n\nRisk Factors for Abruptio Placentae:\n- Hypertension/Pre-eclampsia (most common cause)\n- Cocaine use/Smoking\n- Abdominal trauma (e.g., motor vehicle accident)\n- Previous history of abruption\n- Multiple gestation\n\nManagement: This is a life-threatening emergency for both mother and fetus.\n\n- Immediate call for help and activation of the emergency team.\n- Maternal resuscitation: Secure two large-bore IVs, administer crystalloids/blood products, monitor vital signs.\n- Continuous fetal monitoring.\n- Immediate delivery, almost always by emergency Caesarean section.\n\nPossible NCK Question: \"A pregnant woman who used cocaine just before admission presents with a rigid abdomen and dark red vaginal bleeding. The midwife should prepare for the immediate management of which condition?\" Answer: Abruptio Placentae.\n\nRecommended Reading:\nMyles Textbook for Midwives - Chapter on Antepartum Hemorrhage."
+},
+{
+  "question": "A primigravida has been in the active phase of labor for 10 hours. Her cervical dilatation has remained at 6 cm for the last 4 hours, and contractions have become less frequent and weaker. The fetal head is at 0 station with no signs of distress. This pattern is best described as:",
+  "options": {
+    "A": "Precipitous labor",
+    "B": "Arrest of descent",
+    "C": "Primary uterine inertia",
+    "D": "Secondary arrest of dilatation"
+  },
+  "answer": "D",
+  "explanation": "Why D is correct: This scenario describes a labor that was progressing normally (she entered the active phase) but then stopped.\n\nSecondary arrest of dilatation is defined as no change in cervical dilatation for 2–4 hours during the active phase of labor, after it had previously been progressing. The fact that her contractions have also become weaker points to hypotonic uterine dysfunction (secondary uterine inertia).\n\nWhy other options are incorrect:\n\nA) Precipitous labor: This is a very rapid labor that lasts less than 3 hours from onset to delivery. This is the opposite of the situation described.\n\nB) Arrest of descent: This refers to a lack of fetal descent for at least one hour in the second stage of labor. The woman is still in the first stage.\n\nC) Primary uterine inertia: This refers to a labor that fails to progress from the very beginning (latent phase). The contractions are weak and inefficient from the onset, and the woman fails to enter a good active labor pattern. This woman was in active labor, but it has now stalled.",
+  "additional": "Key Concept: Differentiating normal from abnormal labor patterns (dystocia). Think of the \"3 P's\" of Dystocia:\n\nPowers: Ineffective uterine contractions (as seen here).\nPassage: An unfavorable pelvic shape or size (cephalopelvic disproportion - CPD).\nPassenger: Fetal factors like malpresentation, malposition (e.g., persistent occiput posterior), or macrosomia.\n\nManagement of Secondary Arrest:\n- First, assess the 3 P's to find the cause.\n- If there is no evidence of CPD or malposition, and the cause is determined to be hypotonic contractions (Powers), the standard management is amniotomy (if membranes are intact) followed by oxytocin augmentation to improve the strength and frequency of contractions.\n\nPossible NCK Question: \"A woman is diagnosed with secondary arrest of dilatation due to hypotonic uterine dysfunction. The midwife has performed an amniotomy. What is the next likely intervention?\" Answer: Commencing an IV infusion of oxytocin.\n\nRecommended Reading:\nVarney's Midwifery - Chapter on Dystocia and Abnormal Labor Patterns."
+},
+{
+  "question": "A term newborn delivered vaginally has a soft, edematous swelling on the scalp that crosses the suture lines. The midwife documents this finding as:",
+  "options": {
+    "A": "Cephalohematoma",
+    "B": "Caput succedaneum",
+    "C": "Subgaleal hemorrhage",
+    "D": "Craniosynostosis"
+  },
+  "answer": "B",
+  "explanation": "Why B is correct: Caput succedaneum is a diffuse, edematous swelling of the soft tissues of the scalp. It is caused by pressure from the cervix on the fetal head during labor. The key identifying feature is that it crosses the suture lines. It is present at birth and usually resolves within a few days. It is a benign condition.\n\nWhy other options are incorrect:\n\nA) Cephalohematoma: This is a collection of blood underneath the periosteum of one of the cranial bones. Because it is trapped by the periosteum, it does not cross suture lines. It may not be present at birth but can appear hours later and takes weeks or months to resolve. It puts the infant at a higher risk for jaundice.\n\nC) Subgaleal hemorrhage: This is a rare but life-threatening bleed into the potential space between the scalp aponeurosis and the periosteum. It is a diffuse, boggy swelling that can shift with gravity and can lead to massive blood loss and hypovolemic shock. It is often associated with difficult instrumental deliveries.\n\nD) Craniosynostosis: This is a congenital condition involving the premature fusion of one or more cranial sutures, leading to an abnormal head shape. It is a bony defect, not a soft tissue swelling.",
+  "additional": "Key Concept: Being able to visually and palpably differentiate the common types of newborn head trauma.\n\n| Feature | Caput Succedaneum | Cephalohematoma |\n| :--- | :--- | :--- |\n| Location | Edema of the scalp | Blood under periosteum |\n| Boundaries | Crosses suture lines | Does NOT cross suture lines |\n| Onset | Present at birth | Appears hours after birth |\n| Resolution | Resolves in a few days | Resolves in weeks to months |\n| Feel | Soft, pitting edema | Firmer, well-defined |\n\nPossible NCK Question: \"A midwife observes a swelling on a newborn's head that is confined to the left parietal bone and does not cross the sagittal suture. This finding is consistent with a...\" Answer: Cephalohematoma.\n\nRecommended Reading:\nPhysical Assessment of the Newborn: A Comprehensive Approach to the Art of Physical Examination by Tappero and Honeyfield."
+},
+{
+    "question": "A pregnant woman at 10 weeks gestation is diagnosed with hyperemesis gravidarum. In addition to severe nausea and vomiting, what other findings would the midwife expect?",
+    "options": {
+      "A": "High blood pressure and proteinuria.",
+      "B": "A large for gestational age fetus and polyhydramnios.",
+      "C": "Significant weight loss and ketonuria.",
+      "D": "Low blood sugar and constipation."
+    },
+    "answer": "C",
+    "explanation": "Why C is correct: Hyperemesis gravidarum (HG) is a severe and persistent form of nausea and vomiting in pregnancy that goes beyond 'morning sickness.' The incessant vomiting leads to fluid and electrolyte imbalance, significant weight loss (typically >5% of pre-pregnancy weight), and ketonuria. Ketonuria results from the body breaking down fat for energy due to starvation. HG requires careful management and sometimes hospitalization.",
+    "additional": "Key Concept: Differentiating between normal morning sickness and HG. HG presents with persistent vomiting, >5% weight loss, dehydration, and ketonuria. Management includes IV fluids, antiemetics, and dietary adjustments."
+  },
+  {
+    "question": "A woman pregnant with twins is at a higher risk for several complications compared to a singleton pregnancy. Which of the following is a significant maternal complication associated with multiple gestation?",
+    "options": {
+      "A": "Post-term pregnancy",
+      "B": "Oligohydramnios",
+      "C": "Gestational hypertension and pre-eclampsia",
+      "D": "Hypoglycemia"
+    },
+    "answer": "C",
+    "explanation": "Why C is correct: Twin pregnancies have increased placental mass and hormone levels, which raise the risk for gestational hypertension and pre-eclampsia. These conditions occur more frequently in multiple gestations and require close monitoring.",
+    "additional": "Key Concept: Multiple pregnancies increase maternal risks like pre-eclampsia, anemia, postpartum hemorrhage, and fetal risks like preterm birth and IUGR. Education should focus on preterm labor warning signs."
+  },
+  {
+    "question": "A newborn who is 12 hours old develops jaundice that is visible on the face and chest. This finding is most likely indicative of:",
+    "options": {
+      "A": "Physiological jaundice",
+      "B": "Breast milk jaundice",
+      "C": "Pathological jaundice",
+      "D": "Cephalohematoma-related jaundice"
+    },
+    "answer": "C",
+    "explanation": "Why C is correct: Jaundice within the first 24 hours is always considered pathological and often due to hemolysis (e.g., ABO incompatibility). It requires urgent evaluation and possible treatment with phototherapy.",
+    "additional": "Key Concept: Timing is critical. Jaundice in the first 24 hours is always abnormal. Nursing interventions include monitoring bilirubin levels, ensuring hydration, and eye protection during phototherapy."
+  },
+  {
+    "question": "A woman who delivered her baby 3 weeks ago reports feeling persistently sad, worthless, and anxious. She states, 'I cry all the time and I feel like I'm a terrible mother.' She also reports difficulty sleeping even when the baby is asleep. These symptoms are most characteristic of:",
+    "options": {
+      "A": "Postpartum blues",
+      "B": "Postpartum depression",
+      "C": "Postpartum psychosis",
+      "D": "Normal postpartum adjustment"
+    },
+    "answer": "B",
+    "explanation": "Why B is correct: These symptoms meet the criteria for postpartum depression, which is a clinical disorder requiring intervention. Symptoms typically last more than 2 weeks and impair daily functioning.",
+    "additional": "Key Concept: Midwives must screen using tools like EPDS and act quickly. Unlike 'baby blues,' postpartum depression persists and affects bonding, requiring counseling and possibly antidepressants."
+  },
+  {
+    "question": "In a typical 28-day menstrual cycle, ovulation is triggered by a sharp surge in which hormone?",
+    "options": {
+      "A": "Estrogen",
+      "B": "Progesterone",
+      "C": "Follicle-Stimulating Hormone (FSH)",
+      "D": "Luteinizing Hormone (LH)"
+    },
+    "answer": "D",
+    "explanation": "Why D is correct: Estrogen levels peak mid-cycle, leading to a sharp surge in LH, which triggers ovulation. This surge causes the follicle to release the egg about 24–36 hours later.",
+    "additional": "Key Concept: The LH surge triggers ovulation. Understanding this hormonal pattern is vital for fertility awareness and contraception. Progesterone dominates after ovulation to maintain the endometrium."
+  },
+  {
+  "question": "When a midwife turns a newborn's head to one side, the infant extends the arm and leg on that same side and flexes the opposite arm and leg. This is known as the:",
+  "options": {
+    "A": "Moro reflex",
+    "B": "Babinski reflex",
+    "C": "Tonic neck reflex",
+    "D": "Palmar grasp reflex"
+  },
+  "answer": "C",
+  "explanation": "Why C is correct: The Tonic Neck Reflex, also known as the \"fencing posture,\" is an involuntary reflex observed in young infants. When the infant's head is turned to one side, the arm on that side straightens while the opposite arm bends, as if the infant is in a fencing stance. This reflex typically disappears by 5 to 7 months of age.\n\nWhy other options are incorrect:\n\nA) Moro reflex (startle reflex): Occurs in response to a sudden loss of support or a loud noise. The infant will throw its arms and legs out, then pull them back in.\n\nB) Babinski reflex: Elicited by stroking the sole of the foot. A positive (normal) response in an infant is the fanning out of the toes and dorsiflexion of the big toe.\n\nD) Palmar grasp reflex: Occurs when an object is placed in the infant's palm, causing the infant to grasp it tightly.",
+  "additional": "Key Concept: Assessing newborn reflexes is a crucial part of the neurological examination. The presence of these reflexes at birth and their disappearance at the appropriate age indicate normal neurological development.\n\nTable of Key Reflexes:\n| Reflex | Elicitation | Normal Response | Disappears By |\n| :--- | :--- | :--- | :--- |\n| Rooting | Stroke cheek | Turns head toward stimulus, opens mouth | 3-4 months |\n| Sucking | Place finger in mouth | Rhythmic sucking | 3-4 months |\n| Moro | Sudden \"drop\" or loud noise | Arms/legs extend, then flex | 3-6 months |\n| Tonic Neck | Turn head to one side | \"Fencing\" posture | 5-7 months |\n| Palmar Grasp| Place object in palm | Infant grasps object | 3-4 months |\n| Plantar Grasp| Place object at base of toes| Toes curl downward | 8-10 months |\n| Stepping | Hold infant upright, feet on surface | Makes stepping motions | ~2 months |\n| Babinski | Stroke sole of foot | Toes fan out, big toe dorsiflexes| 1-2 years |\n\nPossible NCK Question: \"The absence of a Moro reflex in a newborn may indicate what type of problem?\" Answer: A neurological deficit or potential birth injury (like a fractured clavicle or brachial plexus injury).\n\nRecommended Reading:\nWong's Nursing Care of Infants and Children - Chapter on the physical and developmental assessment of the newborn."
+},
+{
+  "question": "A woman at 36 weeks gestation undergoes a biophysical profile (BPP). The total score is 4 out of 10. How should the midwife interpret this result?",
+  "options": {
+    "A": "The result is reassuring, and routine weekly testing should continue.",
+    "B": "The result is equivocal, and the test should be repeated in 24 hours.",
+    "C": "The result is abnormal and indicates probable fetal asphyxia.",
+    "D": "The result indicates fetal maturity, and labor should be induced."
+  },
+  "answer": "C",
+  "explanation": "Why C is correct: The Biophysical Profile (BPP) is a non-invasive assessment of fetal well-being, essentially a \"fetal Apgar.\" A score of 4 out of 10 is critically low and non-reassuring. It suggests significant chronic or acute fetal compromise (asphyxia), and immediate action is required to evaluate the need for delivery.\n\nWhy other options are incorrect:\n\nA) A reassuring score is 8 or 10 out of 10.\n\nB) An equivocal score is 6 out of 10. This score warrants repeat testing or further evaluation.\n\nD) The BPP assesses fetal well-being, not fetal lung maturity. A low score indicates distress, not maturity.",
+  "additional": "Key Concept: Know the components of the BPP and the scoring system. Each of the 5 components gets a score of 2 (if present) or 0 (if absent).\n\nNon-Stress Test (NST): Reactive (2) vs. Non-reactive (0).\nFetal Breathing Movements: At least one episode of >30 seconds in 30 minutes.\nGross Body Movements: At least 3 body/limb movements in 30 minutes.\nFetal Tone: At least one episode of extension with return to flexion.\nAmniotic Fluid Volume: At least one pocket of fluid ≥ 2 cm.\n\nInterpretation of BPP Scores:\n8-10/10: Normal, low risk of asphyxia.\n6/10: Equivocal/ambiguous. Management depends on gestational age; usually repeat test or deliver if at term.\n0-4/10: Abnormal, high risk of asphyxia. Delivery is often indicated.\n\nPossible NCK Question: \"A BPP is performed on a 38-week gestation client. The findings are: a non-reactive NST, one episode of fetal breathing, two body movements, no episodes of flexion/extension, and an amniotic fluid pocket of 1.5 cm. What is the total BPP score?\" Answer: 2/10 (0 for NST, 0 for breathing, 0 for movements, 0 for tone, 0 for AFI).\n\nRecommended Reading:\nMaternity and Women's Health Care by Lowdermilk et al. - Chapter on Antepartum Fetal Assessment."
+},
+{
+  "question": "Which hormone, produced primarily by the placenta, is responsible for increasing maternal insulin resistance and ensuring an adequate glucose supply for the growing fetus?",
+  "options": {
+    "A": "Human Chorionic Gonadotropin (hCG)",
+    "B": "Progesterone",
+    "C": "Estrogen",
+    "D": "Human Placental Lactogen (hPL)"
+  },
+  "answer": "D",
+  "explanation": "Why D is correct: Human Placental Lactogen (hPL), also known as human chorionic somatomammotropin (hCS), is a key hormone of pregnancy. Its primary role is to act as an insulin antagonist. It decreases maternal glucose uptake and promotes insulin resistance. This ensures that a continuous supply of glucose is available to be transported across the placenta to the fetus, which uses glucose as its primary fuel source. This diabetogenic effect is also what can lead to Gestational Diabetes Mellitus (GDM) in susceptible women.\n\nWhy other options are incorrect:\n\nA) hCG: This is the \"hormone of pregnancy\" detected in pregnancy tests. Its main role is to maintain the corpus luteum in early pregnancy so it continues to produce progesterone.\n\nB) Progesterone: This hormone relaxes smooth muscle (preventing uterine contractions) and helps maintain the endometrium. It does not directly cause insulin resistance.\n\nC) Estrogen: Promotes the growth of the uterus, breasts, and external genitalia. It also plays a role in preparing the body for labor.",
+  "additional": "Key Concept: Understanding the specific roles of the major pregnancy hormones.\n\nSummary of Placental Hormones:\nhCG: \"Rescues\" the corpus luteum. The basis for pregnancy tests.\nhPL: Creates insulin resistance. Ensures fetal glucose supply. Promotes maternal fat breakdown for energy.\nProgesterone: The \"pro-gestation\" hormone. Relaxes the uterus, maintains the uterine lining.\nEstrogen: Promotes growth of reproductive tissues.\nRelaxin: Softens ligaments (e.g., symphysis pubis) and the cervix.\n\nPossible NCK Question: \"A woman is diagnosed with Gestational Diabetes Mellitus (GDM) at 26 weeks. The midwife explains that this condition is largely caused by the effects of which hormone?\" Answer: Human Placental Lactogen (hPL).\n\nRecommended Reading:\nMyles Textbook for Midwives - Chapter on the placenta and fetal membranes."
+},
+{
+  "question": "A woman in active labor receives an epidural anesthetic. Immediately after administration, her blood pressure drops from 120/80 mmHg to 90/50 mmHg. What is the midwife's priority nursing action?",
+  "options": {
+    "A": "Administer a bolus of an IV vasopressor like ephedrine.",
+    "B": "Increase the rate of the maintenance intravenous fluids.",
+    "C": "Place the woman in a left lateral tilt position.",
+    "D": "Administer oxygen via a non-rebreather mask."
+  },
+  "answer": "C",
+  "explanation": "Why C is correct: The most common side effect of an epidural is maternal hypotension. This is caused by the sympathetic nerve blockade, which leads to vasodilation below the level of the epidural. This vasodilation can cause blood to pool in the lower extremities, reducing venous return to the heart. Placing the woman in a left lateral tilt (or displacing the uterus to the left) is the immediate priority. This moves the heavy, gravid uterus off the inferior vena cava, which maximizes venous return to the heart and can immediately help correct the hypotension.\n\nWhy other options are incorrect:\n\nA) Administer ephedrine: This is a correct intervention, but it is typically a secondary step after positioning and fluid administration have been initiated. The midwife would usually need a physician's order for this medication.\n\nB) Increase the rate of IV fluids: This is also a correct and important intervention. A fluid bolus is often given before the epidural to prevent hypotension, and another bolus is given to treat it. However, the mechanical fix of repositioning is the fastest and most immediate action.\n\nD) Administer oxygen: This is indicated if there are signs of fetal distress resulting from the maternal hypotension, but correcting the cause of the hypotension (the reduced venous return) is the priority.",
+  "additional": "Key Concept: Preventing and managing epidural-induced hypotension.\n\nNursing Care for Epidural Placement:\nBefore: Ensure informed consent. Administer an IV fluid bolus (e.g., 500-1000 mL crystalloid). Assess vital signs and FHR baseline. Have the woman empty her bladder.\nDuring: Assist the woman to maintain the correct position (sitting or side-lying).\nAfter: Monitor BP every 2-5 minutes initially. Assess for effectiveness and sensory/motor block level. Continuously monitor FHR. Assist with position changes every 30-60 minutes to ensure even distribution. Monitor for bladder distention (may need catheterization).\n\nPossible NCK Question: \"To minimize the risk of hypotension following the placement of an epidural, what intervention should the midwife perform beforehand?\" Answer: Administer a 500-1000 mL IV fluid bolus.\n\nRecommended Reading:\nMaternity and Women's Health Care by Lowdermilk et al. - Chapter on Pain Management During Labor."
+},
+{
+  "question": "A woman at 8 weeks gestation presents with right-sided abdominal pain and dark red vaginal spotting. Her last menstrual period was 8 weeks ago. On examination, her abdomen is tender, and she feels dizzy. These findings are highly suspicious of:",
+  "options": {
+    "A": "Inevitable abortion",
+    "B": "Hydatidiform mole",
+    "C": "Ruptured ectopic pregnancy",
+    "D": "Threatened abortion"
+  },
+  "answer": "C",
+  "explanation": "Why C is correct: The classic triad of symptoms for an ectopic pregnancy is 1. Abdominal pain (often unilateral), 2. Amenorrhea, and 3. Vaginal spotting. The signs of a rupture are the progression to severe pain, and signs of internal bleeding and shock, such as dizziness, shoulder tip pain (referred pain from diaphragmatic irritation), and tenderness. This is a life-threatening surgical emergency.\n\nWhy other options are incorrect:\n\nA) Inevitable abortion: Presents with bleeding, lower midline cramping, and an open cervical os. The pain is typically central, not unilateral.\n\nB) Hydatidiform mole: Often presents with a uterus larger than dates, severe nausea/vomiting, and passage of \"grape-like\" vesicles. While bleeding occurs, sharp unilateral pain and signs of shock are not typical unless there is a rare complication.\n\nD) Threatened abortion: Presents with vaginal bleeding, but the cervix is closed, and the pain, if present, is usually mild and central. The pregnancy may still be viable.",
+  "additional": "Key Concept: Any woman of childbearing age presenting with abdominal pain should be considered to have an ectopic pregnancy until proven otherwise.\n\nRisk Factors for Ectopic Pregnancy:\n- History of Pelvic Inflammatory Disease (PID)\n- Previous ectopic pregnancy\n- History of tubal surgery\n- Use of an Intrauterine Device (IUD)\n- Infertility treatments (IVF)\n\nManagement:\nUnruptured/Stable: Can sometimes be managed medically with Methotrexate, which destroys the rapidly dividing trophoblastic cells.\n\nRuptured/Unstable: This is a surgical emergency requiring immediate laparoscopy or laparotomy to remove the ectopic pregnancy and control the bleeding (salpingectomy or salpingostomy).\n\nPossible NCK Question: \"A client is being treated with methotrexate for an unruptured ectopic pregnancy. What is the most important piece of health education the midwife should provide?\" Answer: To avoid alcohol and folic acid supplements, as they can interfere with the drug's effectiveness.\n\nRecommended Reading:\nMyles Textbook for Midwives - Chapter on bleeding in early pregnancy."
+},
+{
+    "question": "Miss Katana 16 years old comes to the labor ward in active phase of labor and appears restless and irritable due to severe abdominal pains. The most appropriate action the nurse should take is to;",
+    "options": {
+      "A": "Contact the obstetrician on duty to come urgently",
+      "B": "Couch the patient on breathing and relaxing techniques",
+      "C": "Administer an analgesic",
+      "D": "Ask Miss Katana to move immediately about the room to reduce pain"
+    },
+    "answer": "B",
+    "explanation": "Restlessness and irritability from pain are common in active labor. The most appropriate nursing action is to provide non-pharmacological comfort and support. Coaching her in breathing and relaxation techniques helps her cope with the contractions, promotes a sense of control, and conserves energy. Contacting the obstetrician is not an emergency, and administering analgesics or ambulation are secondary options after providing basic support.",
+    "additional": "NCK Focus: Emphasis is placed on non-pharmacologic pain management strategies during labor. Mastery of breathing techniques and supportive care is a key midwife skill in the NCK."
+  },
+  {
+    "question": "Miss Kelly, para 2+1 comes to the labor ward. On vaginal examination, the cervical os is found to be 4cm dilated and 60% effaced. What is the interpretation of this finding?",
+    "options": {
+      "A": "Cervix is 4cm wide and 60% shorter than the normal",
+      "B": "Cervix is 4cm short and 60% thinner than normal",
+      "C": "Walls of the cervix are 4cm thick and 60% shorter than normal",
+      "D": "Cervix is 4cm long and 60% wider than normal"
+    },
+    "answer": "A",
+    "explanation": "Dilation refers to the widening of the cervical os, measured in centimeters. Effacement refers to the thinning and shortening of the cervix, measured as a percentage. Therefore, a cervix that is 4cm dilated and 60% effaced is 4cm wide and has shortened by 60% from its original length. Option A is the most accurate clinical interpretation.",
+    "additional": "NCK Tip: Understand how to interpret findings in a vaginal exam. Effacement is shortening/thinning of the cervix; dilation is opening. This helps identify labor progress."
+  },
+  {
+    "question": "The main factor that brings about the involution of the uterus is;",
+    "options": {
+      "A": "Autolysis",
+      "B": "Lochia loss",
+      "C": "Hormonal influence",
+      "D": "Postpartum exercises"
+    },
+    "answer": "A",
+    "explanation": "Involution is the process by which the uterus returns to its pre-pregnant state. The primary mechanism is autolysis, which is the self-digestion of uterine muscle cells (myometrium) by their own proteolytic enzymes. This process reduces the size of each individual cell, dramatically shrinking the uterus. Hormonal changes (the drop in estrogen and progesterone) trigger this process, but autolysis is the main factor that accomplishes it.",
+    "additional": "NCK Emphasis: Uterine involution is a common question area. Know the physiological process, timeframe (around 6 weeks), and what normal vs abnormal involution looks like."
+  },
+  {
+    "question": "The most commonly performed episiotomy is given?",
+    "options": {
+      "A": "Bilaterally at 90° starting from the midpoint of the fourchette towards the beginning of the ischial tuberosity",
+      "B": "At 60 on the labia minora and major",
+      "C": "Laterally on the fourchette and is directed at 90°",
+      "D": "At the midpoint of the fourchette and is directed at an angle of 45°"
+    },
+    "answer": "D",
+    "explanation": "The most common type of episiotomy performed is the mediolateral episiotomy. It begins at the midpoint of the fourchette (posterior commissure) and is directed downwards and outwards at approximately a 45-degree angle. This technique avoids the anal sphincter (reducing the risk of 3rd and 4th-degree tears) while still providing adequate room. A midline (median) episiotomy goes straight down but carries a higher risk of sphincter injury.",
+    "additional": "NCK Focus: Always distinguish between median and mediolateral episiotomies — including their anatomical direction and complications (especially anal sphincter injury)."
+  },
+  {
+    "question": "Bacillus Calmette Guerin (BCG) vaccine is best given to a baby;",
+    "options": {
+      "A": "As soon as possible after birth",
+      "B": "After 6 weeks of birth",
+      "C": "Within the first year of life",
+      "D": "At 6 months when the baby is strong enough to withstand it's side effects"
+    },
+    "answer": "A",
+    "explanation": "The BCG vaccine protects against severe forms of tuberculosis (TB) in children. According to WHO and most national guidelines (including Kenya's KEPI schedule), it should be given to all eligible newborns as soon as possible after birth, ideally before they leave the health facility. This provides the earliest possible protection.",
+    "additional": "NCK Note: Memorize the full KEPI immunization schedule. BCG is given once at birth (0 weeks), typically on the left upper arm intradermally."
+  },
+  {
+    "question": "When planning care of a 14-year-old female who is pregnant, a midwife should recognize that the adolescent is at risk for;",
+    "options": {
+      "A": "Glucose intolerance",
+      "B": "Fetal chromosomal abnormalities",
+      "C": "Incompetent cervix",
+      "D": "Iron deficiency anemia"
+    },
+    "answer": "D",
+    "explanation": "Pregnant adolescents are at high risk for iron deficiency anemia. This is due to a combination of their own growth spurt demands for iron, poor dietary habits common in this age group, and the high iron requirements of pregnancy itself. They are also at higher risk for pre-eclampsia, preterm labor, and low birth weight infants.",
+    "additional": "NCK Tip: Adolescent pregnancy is a vulnerable group. Questions often test nutritional needs, risk factors (like anemia, PIH), and need for psychosocial support."
+  },
+  {
+    "question": "Immediately after delivery what should the nurse assisting the midwife do?",
+    "options": {
+      "A": "Obtain the weight of the baby",
+      "B": "Dry the baby thoroughly",
+      "C": "Apply on the identification band",
+      "D": "Check the number of umbilical vessels"
+    },
+    "answer": "B",
+    "explanation": "The absolute priority in the first moments after delivery (after ensuring a clear airway) is to prevent heat loss. The greatest source of heat loss is evaporation from the wet amniotic fluid. Therefore, drying the baby thoroughly is the most critical immediate action to prevent hypothermia and cold stress. All other tasks (weighing, ID bands) can be done after the baby is warm and stable.",
+    "additional": "NCK Focus: Thermal protection is a newborn priority. Remember the 3 major priorities: Dry (warmth), Clear airway (suction), and Stimulate breathing."
+  },
+  {
+    "question": "Which of the following clients would the midwife prepare for an emergency caesarian delivery?",
+    "options": {
+      "A": "A woman who has a pulsating prolapsed cord",
+      "B": "A woman who is expecting twins",
+      "C": "A woman who is shouting a lot due to the strong contractions",
+      "D": "A woman who says she has been in labor for 24 hours"
+    },
+    "answer": "A",
+    "explanation": "A prolapsed umbilical cord is a critical obstetric emergency where the cord descends ahead of the baby, leading to compression and immediate cessation of fetal oxygen supply. The only definitive management is an emergency Caesarean section to deliver the baby as quickly as possible. The other options are not, by themselves, indications for an emergency C-section.",
+    "additional": "NCK Alert: Know your obstetric emergencies cold — cord prolapse, uterine rupture, placental abruption. Always choose C/S if fetal distress is confirmed."
+  },
+  {
+    "question": "Baby Kwezi has just been born and midwife Alex is applying tetracycline ophthalmic ointment into the eyes. The purpose of this is to;",
+    "options": {
+      "A": "Boost the immune response",
+      "B": "Stimulate growth of gastrointestinal flora",
+      "C": "Prevent any bleeding problems",
+      "D": "Prevent eye infections"
+    },
+    "answer": "D",
+    "explanation": "The routine administration of an antibiotic ophthalmic ointment (like tetracycline or erythromycin) is to prevent ophthalmia neonatorum. This is a severe eye infection in a newborn that is most commonly caused by exposure to Neisseria gonorrhoeae or Chlamydia trachomatis in the mother's birth canal. The ointment is a prophylactic measure to prevent blindness.",
+    "additional": "NCK Tip: Newborn eye care and vitamin K are standard post-birth routines. Know why each is given and when (e.g., Vitamin K = to prevent hemorrhagic disease)."
+  },
+  {
+    "question": "Vaginal bleeding in the first trimester may be due to;",
+    "options": {
+      "A": "Ectopic pregnancy",
+      "B": "Abruptio Placentae",
+      "C": "Placenta previa",
+      "D": "Fetal abnormalities"
+    },
+    "answer": "A",
+    "explanation": "Among the given options, ectopic pregnancy is a classic cause of bleeding in the first trimester. Abruptio placentae and placenta previa are causes of bleeding in the second and third trimesters. While some fetal abnormalities can lead to miscarriage (which causes bleeding), ectopic pregnancy is a direct and distinct cause listed. Other common causes of first-trimester bleeding include threatened abortion, incomplete abortion, and implantation bleeding.",
+    "additional": "NCK Warning: Always rule out ectopic pregnancy first in any 1st trimester bleeding. Common exam signs: unilateral pain, amenorrhea, vaginal spotting, dizziness."
+  },
+  {
+    "question": "The following are signs and symptoms of impending eclampsia except;",
+    "options": {
+      "A": "Visual disturbances and severe headache",
+      "B": "Progressive weight gain and proteinuria",
+      "C": "Sharp rise in blood pressure and epigastric pain",
+      "D": "Increase in proteinuria and vomiting"
+    },
+    "answer": "B",
+    "explanation": "Impending eclampsia refers to the signs that a seizure is imminent in a woman with severe pre-eclampsia. These are signs of central nervous system and organ irritation: severe headache, visual disturbances (blurred vision, flashing lights), epigastric pain (from liver swelling), and nausea/vomiting. Progressive weight gain and proteinuria are signs of pre-eclampsia itself, not necessarily a precursor to seizure.",
+    "additional": "NCK Focus: Know how to distinguish between pre-eclampsia and signs of imminent eclampsia — especially CNS symptoms like headache, visual changes, and epigastric pain."
+  },
+  {
+    "question": "The postprandial serum glucose level of a pregnant woman who is 24 weeks pregnant is 8.9 mmol/l. Which of the following tests would a midwife expect to perform?",
+    "options": {
+      "A": "Fasting blood glucose level",
+      "B": "Glycosated hemoglobin",
+      "C": "Plasma glycogen level",
+      "D": "Quantitative urine glucose"
+    },
+    "answer": "A",
+    "explanation": "A postprandial (after-meal) glucose of 8.9 mmol/l is elevated. This is suspicious for Gestational Diabetes Mellitus (GDM). The standard diagnostic test for GDM is the Oral Glucose Tolerance Test (OGTT), which includes fasting blood glucose measurement.",
+    "additional": "NCK Key: Screen all pregnant women for GDM between 24–28 weeks. OGTT is the gold standard, starting with fasting blood glucose."
+  },
+  {
+    "question": "A woman who has been taking oral contraceptives is planning to conceive. A nurse midwife should counsel her to seek health care advise if she should not become pregnant within how many months?",
+    "options": {
+      "A": "3 months",
+      "B": "6 months",
+      "C": "9 months",
+      "D": "12 months"
+    },
+    "answer": "D",
+    "explanation": "The standard definition of infertility is failure to conceive after 12 months of regular, unprotected intercourse for women under 35. Investigations begin after 12 months unless other risk factors are present.",
+    "additional": "NCK Reminder: Understand clinical definitions — infertility, subfertility, and when to initiate fertility investigations."
+  },
+  {
+    "question": "By the 8th week of pregnancy, a nurse midwife should expect to observe which of the following in a woman's physical examination?",
+    "options": {
+      "A": "Bluish purple color of the cervix",
+      "B": "Loss of abdominal muscle tone",
+      "C": "Fundal height at the symphysis pubis",
+      "D": "Milky white discharge from the breasts"
+    },
+    "answer": "A",
+    "explanation": "Chadwick’s sign is a bluish-purple discoloration of the cervix and vagina due to increased vascularity in early pregnancy. It appears by 6–8 weeks gestation and is a probable sign of pregnancy.",
+    "additional": "NCK Tip: Differentiate presumptive, probable, and positive signs of pregnancy. Chadwick’s is probable."
+  },
+  {
+    "question": "The results of Mrs. Kelly indicate that she is HIV positive. However, she has stated that her choice of infant feeding is breast milk. Your postpartum plan of care should be based on the knowledge that;",
+    "options": {
+      "A": "Breastfeeding should be encouraged for all new mothers to foster maternal child bonding",
+      "B": "Artificial feeds should be encouraged because the mother is not likely to live long enough to successfully breastfeed the infant",
+      "C": "The mother's HIV status should not influence her decision on how to feed her infant",
+      "D": "Breastfeeding is one mode of HIV transmission"
+    },
+    "answer": "D",
+    "explanation": "HIV can be transmitted from mother to child through breast milk. Counseling should balance risk and availability of safe alternatives. Exclusive breastfeeding is still advised in resource-limited settings if replacement feeding is unsafe.",
+    "additional": "NCK Emphasis: Always assess the AFASS criteria (Acceptable, Feasible, Affordable, Sustainable, Safe) before recommending formula feeding to HIV+ mothers."
+  },
+  {
+    "question": "Which of the following manifestations in a woman who delivered 36 hours ago would lead a midwife to suspect the woman might be experiencing postpartum depression?",
+    "options": {
+      "A": "Expressing concern about taking the infant home",
+      "B": "Delaying her morning shower",
+      "C": "Exhibiting prolonged periods of fatigue",
+      "D": "Asking repeated questions about her care"
+    },
+    "answer": "C",
+    "explanation": "Persistent, disproportionate fatigue beyond the normal postpartum tiredness may be a warning sign of postpartum depression (PPD), especially if it affects daily functioning.",
+    "additional": "NCK Note: Know early signs of PPD vs. baby blues. Look for changes in energy, mood, bonding, and daily functioning."
+  },
+  {
+    "question": "When assessing a woman who is 6 days postpartum following a vaginal delivery, a midwife would expect to describe the lochia in which of the following ways?",
+    "options": {
+      "A": "Red color with occasional clots",
+      "B": "Brown in color with clots",
+      "C": "Pink in color with occasional small clots",
+      "D": "White in color without clots"
+    },
+    "answer": "C",
+    "explanation": "At 6 days postpartum, lochia serosa (pinkish-brown discharge) is expected. It replaces the initial red lochia rubra and precedes white lochia alba.",
+    "additional": "NCK Tip: Timeline of lochia types is commonly tested — Rubra (0–3 days), Serosa (4–10), Alba (10–14+)."
+  },
+  {
+    "question": "The features of the gynecoid pelvis that allows it to be adequate for vaginal delivery are;",
+    "options": {
+      "A": "Sciatic notch and divergent side walls",
+      "B": "Oval brim, round blunt ischial spines",
+      "C": "Rounded brims and straight side walls",
+      "D": "Prominent ischial spines and wide fore pelvis"
+    },
+    "answer": "A",
+    "explanation": "The gynecoid pelvis is ideal for childbirth. Features include a rounded brim, wide sciatic notch, divergent side walls, and blunt ischial spines. These allow adequate space for fetal descent.",
+    "additional": "NCK Alert: Pelvimetry types and delivery implications are common. Memorize gynecoid, android, anthropoid, and platypelloid characteristics."
+  },
+  {
+    "question": "Complaints of lower back pain in pregnancy can be relieved by;",
+    "options": {
+      "A": "Shoulder circling",
+      "B": "Back massage",
+      "C": "Calf stretching",
+      "D": "Pelvic tilting"
+    },
+    "answer": "D",
+    "explanation": "Pelvic tilting (rocking) is an effective exercise to relieve pregnancy-related back pain. It adjusts posture and strengthens abdominal support.",
+    "additional": "NCK Focus: Recommend pregnancy-safe exercises. Pelvic tilts help manage posture, back pain, and early labor discomfort."
+  },
+  {
+    "question": "On abdominal examination during labour, occipitoposterior position can be diagnosed by;",
+    "options": {
+      "A": "A rum-engaged head",
+      "B": "A saucer-shaped depression at or below the umbilicus",
+      "C": "Palpation of the limb on both sides of the midline",
+      "D": "Auscultation of the fetal heart on the same side as the back"
+    },
+    "answer": "B",
+    "explanation": "In the occipitoposterior position, the fetal back is against the maternal spine, creating a central depression in the abdomen, called a saucer-shaped dip.",
+    "additional": "NCK Priority: Master Leopold’s maneuvers and signs of malpresentation, especially occipitoposterior and breech."
   }
 ]
+
+  
+
+
+
+
+
+
+
 
 
 
