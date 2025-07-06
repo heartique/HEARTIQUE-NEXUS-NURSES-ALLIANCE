@@ -259,7 +259,7 @@
 
       const userId = session.user.id;
       const { data: profile } = await supabase
-        .from('users')
+        .from('profile')
         .select('full_name, bio, school')
         .eq('id', userId)
         .single();
