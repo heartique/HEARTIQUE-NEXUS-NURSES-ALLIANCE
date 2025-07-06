@@ -2,101 +2,67 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Heartique Signup</title>
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #eef2f7;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
-    .box {
-      background: white;
-      padding: 2rem;
-      border-radius: 10px;
-      box-shadow: 0 0 15px rgba(0,0,0,0.1);
-      max-width: 400px;
-      width: 100%;
-    }
-    h2 {
-      text-align: center;
-      color: #004a99;
-    }
-    input, button {
-      width: 100%;
-      padding: 0.75rem;
-      margin: 0.5rem 0;
-      font-size: 1rem;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }
-    button {
-      background-color: #004a99;
-      color: white;
-      font-weight: bold;
-      cursor: pointer;
-    }
-    #output {
-      margin-top: 1rem;
-      text-align: center;
-      font-weight: bold;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Supabase User Test</title>
 </head>
-<body>
-  <div class="box">
-    <h2>Sign Up to Heartique</h2>
-    <input type="email" id="email" placeholder="Email" required />
-    <input type="password" id="password" placeholder="Password" required />
-    <input type="text" id="display_name" placeholder="Full Name" required />
-    <button onclick="signUp()">Create Account</button>
-    <div id="output"></div>
-  </div>
+<body style="font-family: Arial; padding: 2rem;">
+  <h2>Supabase Login and Insert Test</h2>
 
+  <form id="login-form">
+    <input type="email" id="email" placeholder="Email" required /><br><br>
+    <input type="password" id="password" placeholder="Password" required /><br><br>
+    <input type="text" id="first_name" placeholder="First Name" /><br><br>
+    <input type="text" id="last_name" placeholder="Last Name" /><br><br>
+    <button type="submit">Sign In and Insert</button>
+  </form>
+
+  <p id="status" style="margin-top: 2rem; font-weight: bold;"></p>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.42.3/dist/umd/supabase.min.js"></script>
   <script>
-    const supabase = window.supabase.createClient(
-      'https://vpivmxwasviwolnqizvj.supabase.co',
-      'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZwaXZteHdhc3Zpd29sbnFpenZqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTE4MjIwNDIsImV4cCI6MjA2NzM5ODA0Mn0.FYbAjiAgw9wZ3q_x2i7k21aHQZ1whPv4U9tffnJmZuM'
-    );
+    const SUPABASE_URL = 'https://oqwfdyntdcmyjhkstvsf.supabase.co';
+    const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9xd2ZkeW50ZGNteWpoa3N0dnNmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTE4Mjg3MTQsImV4cCI6MjA2NzQwNDcxNH0.Id8Ip2cMPUHjEVPCxvBEfhU-R36X_J2zZ4mI3ATfynY';
 
-    async function signUp() {
-      const email = document.getElementById('email').value.trim();
-      const password = document.getElementById('password').value.trim();
-      const display_name = document.getElementById('display_name').value.trim();
-      const output = document.getElementById('output');
+    const supabase = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
-      output.textContent = '⏳ Creating account...';
+    document.getElementById('login-form').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const email = document.getElementById('email').value;
+      const password = document.getElementById('password').value;
+      const first_name = document.getElementById('first_name').value;
+      const last_name = document.getElementById('last_name').value;
+      const statusEl = document.getElementById('status');
 
-      const { data, error } = await supabase.auth.signUp({ email, password });
+      statusEl.textContent = "Signing in...";
 
-      if (error) {
-        output.textContent = `❌ Signup error: ${error.message}`;
+      // Sign in
+      const { data: authData, error: signInError } = await supabase.auth.signInWithPassword({
+        email,
+        password
+      });
+
+      if (signInError) {
+        statusEl.textContent = "Login failed: " + signInError.message;
         return;
       }
 
-      const userId = data?.user?.id;
-      if (!userId) {
-        output.textContent = '❌ No user ID returned.';
-        return;
-      }
+      const user = authData.user;
+      statusEl.textContent = "Signed in. Inserting user row...";
 
-      const { error: insertError } = await supabase
-        .from('profile')
-        .insert([{ id: userId, display_name, email }]);
+      // Insert into 'users' table
+      const { error: insertError } = await supabase.from('users').insert({
+        id: user.id,
+        email: user.email,
+        first_name,
+        last_name
+      });
 
       if (insertError) {
-        output.textContent = `❌ Insert error: ${insertError.message}`;
-        console.error(insertError);
+        statusEl.textContent = "Insert failed: " + insertError.message;
       } else {
-        output.textContent = `✅ Welcome, ${display_name}!`;
-        localStorage.setItem('display_name', display_name);
-        setTimeout(() => window.location.href = 'index.html', 1500);
+        statusEl.textContent = "Success! User inserted into public.users table.";
       }
-    }
+    });
   </script>
 </body>
 </html>
