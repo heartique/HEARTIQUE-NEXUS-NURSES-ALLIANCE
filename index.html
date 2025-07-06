@@ -204,10 +204,7 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   animation: slideIn 0.7s ease both;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  .custom-tab-card:link,
-.custom-tab-card:visited {
-  color: inherit;
-  text-decoration: none;
+ 
 }
 
 /* Hover effect */
@@ -223,6 +220,31 @@
 
 .custom-tab-abbrev {
   background-color: #dc2626 !important; /* Deep Red */
+}
+
+/* Step 2: Make sure all tab text is white */
+.custom-tab-card {
+  color: #fff !important;
+  background-color: inherit !important;
+  text-decoration: none !important;
+}
+
+/* Step 3: Inherit white for everything inside */
+.custom-tab-card * {
+  color: inherit !important;
+  background-color: transparent !important;
+}
+
+/* Step 4: Stop blue/white changes from link states */
+.custom-tab-card:link,
+.custom-tab-card:visited,
+.custom-tab-card:hover,
+.custom-tab-card:focus,
+.custom-tab-card:active {
+  color: inherit !important;
+  background-color: inherit !important;
+  text-decoration: none !important;
+  outline: none !important;
 }
 
 /* Inside content */
