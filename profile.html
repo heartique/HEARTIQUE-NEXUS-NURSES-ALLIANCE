@@ -196,8 +196,22 @@
     }
 
     async function checkUser() {
-      const { data: { session }, error } = await supabase.auth.getSession();
-      if (error || !session) return (window.location.href = 'index.html');
+      let tries = 0;
+let session = null;
+
+while (!session && tries < 5) {
+  const { data, error } = await supabase.auth.getSession();
+  if (data?.session) {
+    session = data.session;
+    break;
+  }
+  await new Promise((res) => setTimeout(res, 500)); // Wait 0.5 sec
+  tries++;
+}
+
+if (!session) return (window.location.href = 'index.html');
+currentUser = session.user;
+
       currentUser = session.user;
       await loadProfile();
 
