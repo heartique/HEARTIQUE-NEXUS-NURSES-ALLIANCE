@@ -169,112 +169,127 @@
   </div>
 
   <script>
-    const supabase = window.supabase.createClient(
-      'https://gbqgtnukoucxagswqspx.supabase.co',
-      'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdicWd0bnVrb3VjeGFnc3dxc3B4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTA4ODcwNTAsImV4cCI6MjA2NjQ2MzA1MH0.uHqKZ-KnW1sv7CSD37D6dh1qYfSLMznud947DEZI93Q'
-    );
+  const supabase = window.supabase.createClient(
+    'https://gbqgtnukoucxagswqspx.supabase.co',
+    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdicWd0bnVrb3VjeGFnc3dxc3B4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTA4ODcwNTAsImV4cCI6MjA2NjQ2MzA1MH0.uHqKZ-KnW1sv7CSD37D6dh1qYfSLMznud947DEZI93Q'
+  );
 
-    function switchTab(mode) {
-      document.getElementById('tab-login').classList.toggle('active', mode === 'login');
-      document.getElementById('tab-signup').classList.toggle('active', mode === 'signup');
-      document.getElementById('form-login').classList.toggle('hidden', mode !== 'login');
-      document.getElementById('form-signup').classList.toggle('hidden', mode !== 'signup');
-      document.getElementById('message-login').textContent = '';
-      document.getElementById('message-signup').textContent = '';
+  function switchTab(mode) {
+    document.getElementById('tab-login').classList.toggle('active', mode === 'login');
+    document.getElementById('tab-signup').classList.toggle('active', mode === 'signup');
+    document.getElementById('form-login').classList.toggle('hidden', mode !== 'login');
+    document.getElementById('form-signup').classList.toggle('hidden', mode !== 'signup');
+    document.getElementById('message-login').textContent = '';
+    document.getElementById('message-signup').textContent = '';
+  }
+
+  function togglePassword(id, el) {
+    const input = document.getElementById(id);
+    if (input.type === 'password') {
+      input.type = 'text';
+      el.textContent = '🙈';
+    } else {
+      input.type = 'password';
+      el.textContent = '👁️';
     }
+  }
 
-    function togglePassword(id, el) {
-      const input = document.getElementById(id);
-      if (input.type === 'password') {
-        input.type = 'text';
-        el.textContent = '🙈';
-      } else {
-        input.type = 'password';
-        el.textContent = '👁️';
+  async function handleAuth(mode) {
+    const email = document.getElementById(`${mode}-email`).value.trim();
+    const password = document.getElementById(`${mode}-password`).value.trim();
+    const msg = document.getElementById(`message-${mode}`);
+    msg.textContent = '';
+    msg.style.color = 'white';
+
+    let result;
+
+    if (mode === 'login') {
+      result = await supabase.auth.signInWithPassword({ email, password });
+    } else {
+      const fullName = document.getElementById('signup-fullname').value.trim();
+      if (!fullName) {
+        msg.style.color = 'red';
+        msg.textContent = '❌ Please enter your full name.';
+        return;
       }
-    }
 
-    async function handleAuth(mode) {
-      const email = document.getElementById(`${mode}-email`).value.trim();
-      const password = document.getElementById(`${mode}-password`).value.trim();
-      const msg = document.getElementById(`message-${mode}`);
-      msg.textContent = '';
-      msg.style.color = 'white';
+      result = await supabase.auth.signUp({ email, password });
 
-      let result;
-      if (mode === 'login') {
-        result = await supabase.auth.signInWithPassword({ email, password });
-      } else {
-        const fullName = document.getElementById('signup-fullname').value.trim();
-        if (!fullName) {
+      if (!result.error && result.data?.user) {
+        const user = result.data.user;
+
+        const { error: insertError } = await supabase.from('users').insert([
+          {
+            id: user.id,
+            email: user.email,
+            full_name: fullName,
+            created_at: new Date().toISOString(),
+            last_sign_in_at: new Date().toISOString()
+          }
+        ]);
+
+        if (insertError) {
           msg.style.color = 'red';
-          msg.textContent = '❌ Please enter your full name.';
+          msg.textContent = '❌ Error saving user: ' + insertError.message;
           return;
         }
 
-        result = await supabase.auth.signUp({ email, password });
-
-        if (!result.error && result.data?.user) {
-          const { error: insertError } = await supabase
-            .from('users')
-            .insert([{ id: result.data.user.id, full_name: fullName }]);
-
-          if (insertError) {
-            msg.style.color = 'red';
-            msg.textContent = '❌ Error saving profile: ' + insertError.message;
-            return;
-          }
-        }
+        localStorage.setItem('full_name', fullName);
       }
-
-      if (result.error) {
-        msg.style.color = 'red';
-        msg.textContent = result.error.message;
-        return;
-      }
-
-      msg.style.color = 'green';
-      msg.textContent = '✅ Success! Redirecting...';
-
-      if (mode === 'login' && document.getElementById('remember-me').checked) {
-        localStorage.setItem('savedEmail', email);
-      } else {
-        localStorage.removeItem('savedEmail');
-      }
-
-      waitForSessionAndRedirect();
     }
 
-    let tries = 0;
-    async function waitForSessionAndRedirect() {
-      const { data: { session } } = await supabase.auth.getSession();
-      if (!session && tries < 10) {
-        tries++;
-        return setTimeout(waitForSessionAndRedirect, 300);
-      }
-      if (!session) {
-        alert("⚠️ Couldn't establish session. Try again.");
-        return;
-      }
-
-      const userId = session.user.id;
-      const { data: profile } = await supabase
-        .from('profile')
-        .select('full_name, bio, school')
-        .eq('id', userId)
-        .single();
-
-      const isProfileComplete = profile && profile.full_name && profile.bio && profile.school;
-      window.location.href = isProfileComplete ? 'index.html' : 'profile.html';
+    if (result.error) {
+      msg.style.color = 'red';
+      msg.textContent = result.error.message;
+      return;
     }
 
-    window.addEventListener('DOMContentLoaded', () => {
-      const saved = localStorage.getItem('savedEmail');
-      if (saved) {
-        document.getElementById('login-email').value = saved;
-        document.getElementById('remember-me').checked = true;
-      }
-    });
-  </script>
+    msg.style.color = 'green';
+    msg.textContent = '✅ Success! Redirecting...';
+
+    if (mode === 'login' && document.getElementById('remember-me').checked) {
+      localStorage.setItem('savedEmail', email);
+    } else {
+      localStorage.removeItem('savedEmail');
+    }
+
+    waitForSessionAndRedirect();
+  }
+
+  let tries = 0;
+  async function waitForSessionAndRedirect() {
+    const { data: { session } } = await supabase.auth.getSession();
+
+    if (!session && tries < 10) {
+      tries++;
+      return setTimeout(waitForSessionAndRedirect, 300);
+    }
+
+    if (!session) {
+      alert("⚠️ Couldn't establish session. Try again.");
+      return;
+    }
+
+    const userId = session.user.id;
+
+    // Optionally check if profile is filled
+    const { data: profile } = await supabase
+      .from('profile') // You can skip this check if not using "profile" table
+      .select('full_name, bio, school')
+      .eq('id', userId)
+      .single();
+
+    const isProfileComplete = profile && profile.full_name && profile.bio && profile.school;
+    window.location.href = isProfileComplete ? 'index.html' : 'profile.html';
+  }
+
+  window.addEventListener('DOMContentLoaded', () => {
+    const saved = localStorage.getItem('savedEmail');
+    if (saved) {
+      document.getElementById('login-email').value = saved;
+      document.getElementById('remember-me').checked = true;
+    }
+  });
+</script>
 </body>
 </html>
