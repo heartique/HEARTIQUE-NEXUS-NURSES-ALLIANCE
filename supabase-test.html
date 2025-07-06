@@ -18,57 +18,61 @@
 
   <p id="status" style="margin-top: 2rem; font-weight: bold;"></p>
 
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.42.3/dist/umd/supabase.min.js"></script>
+  <!-- Supabase JS v2 -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.42.3"></script>
   <script>
     const SUPABASE_URL = 'https://oqwfdyntdcmyjhkstvsf.supabase.co';
     const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9xd2ZkeW50ZGNteWpoa3N0dnNmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTE4Mjg3MTQsImV4cCI6MjA2NzQwNDcxNH0.Id8Ip2cMPUHjEVPCxvBEfhU-R36X_J2zZ4mI3ATfynY';
 
     const supabase = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
-
     const statusEl = document.getElementById('status');
 
     document.getElementById('auth-form').addEventListener('submit', async (e) => {
       e.preventDefault();
+
       const email = document.getElementById('email').value;
       const password = document.getElementById('password').value;
       const first_name = document.getElementById('first_name').value;
       const last_name = document.getElementById('last_name').value;
 
-      statusEl.textContent = 'Trying to sign up...';
+      statusEl.textContent = '⏳ Signing up...';
 
-      // First try sign-up
-      let { data: signUpData, error: signUpError } = await supabase.auth.signUp({
+      // Try signing up first
+      const { data: signUpData, error: signUpError } = await supabase.auth.signUp({
         email,
         password
       });
 
-      if (signUpError && signUpError.message.includes("already registered")) {
-        statusEl.textContent = 'User already exists. Signing in...';
+      if (signUpError) {
+        if (signUpError.message.includes('already registered')) {
+          statusEl.textContent = '⚠️ User exists. Logging in...';
 
-        // Sign in instead
-        const { data: signInData, error: signInError } = await supabase.auth.signInWithPassword({
-          email,
-          password
-        });
+          const { data: signInData, error: signInError } = await supabase.auth.signInWithPassword({
+            email,
+            password
+          });
 
-        if (signInError) {
-          statusEl.textContent = 'Login failed: ' + signInError.message;
+          if (signInError) {
+            statusEl.textContent = '❌ Login failed: ' + signInError.message;
+            return;
+          }
+
+          const user = signInData.user;
+          insertUser(user, email, first_name, last_name);
+        } else {
+          statusEl.textContent = '❌ Sign up failed: ' + signUpError.message;
           return;
         }
-
-        const user = signInData.user;
-        await insertUser(user, email, first_name, last_name);
-      } else if (signUpData.user) {
-        const user = signUpData.user;
-        statusEl.textContent = 'Signed up successfully!';
-        await insertUser(user, email, first_name, last_name);
       } else {
-        statusEl.textContent = 'Unexpected error during sign-up.';
+        statusEl.textContent = '✅ Sign up successful!';
+        const user = signUpData.user;
+        insertUser(user, email, first_name, last_name);
       }
     });
 
     async function insertUser(user, email, first_name, last_name) {
-      statusEl.textContent = 'Inserting user into database...';
+      statusEl.textContent = '📤 Inserting into users table...';
+
       const { error: insertError } = await supabase.from('users').insert({
         id: user.id,
         email,
@@ -77,9 +81,9 @@
       });
 
       if (insertError) {
-        statusEl.textContent = 'Insert failed: ' + insertError.message;
+        statusEl.textContent = '❌ Insert failed: ' + insertError.message;
       } else {
-        statusEl.textContent = '✅ User inserted successfully!';
+        statusEl.textContent = '✅ User added to public.users table!';
       }
     }
   </script>
