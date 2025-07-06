@@ -59,7 +59,6 @@
       color: white;
       box-shadow: inset 0 -2px 6px #00000055;
     }
-
     .form {
       background-image: url('https://raw.githubusercontent.com/heartique/HEARTIQUE-NEXUS-NURSES-ALLIANCE/main/background4.jpg');
       background-size: cover;
@@ -102,7 +101,7 @@
       text-align: center;
       font-weight: bold;
     }
-    #form-title {
+    #form-title-login, #form-title-signup {
       color: #002b80;
       text-align: center;
       margin-bottom: 1rem;
@@ -140,7 +139,7 @@
 
     <!-- Login Form -->
     <div class="form" id="form-login">
-      <h2 id="form-title">LOGIN TO HEARTIQUE NURSING NEXUS PORTAL</h2>
+      <h2 id="form-title-login">LOGIN TO HEARTIQUE NURSING NEXUS PORTAL</h2>
       <input type="email" id="login-email" placeholder="Email" required />
       <div class="pw-wrapper">
         <input type="password" id="login-password" placeholder="Password" required style="padding-right: 2rem;" />
@@ -157,7 +156,8 @@
 
     <!-- Sign Up Form -->
     <div class="form hidden" id="form-signup">
-      <h2 id="form-title">CREATE ACCOUNT</h2>
+      <h2 id="form-title-signup">CREATE ACCOUNT</h2>
+      <input type="text" id="signup-fullname" placeholder="Full Name" required />
       <input type="email" id="signup-email" placeholder="Email" required />
       <div class="pw-wrapper">
         <input type="password" id="signup-password" placeholder="Password" required style="padding-right: 2rem;" />
@@ -198,7 +198,6 @@
       const email = document.getElementById(`${mode}-email`).value.trim();
       const password = document.getElementById(`${mode}-password`).value.trim();
       const msg = document.getElementById(`message-${mode}`);
-
       msg.textContent = '';
       msg.style.color = 'white';
 
@@ -206,7 +205,26 @@
       if (mode === 'login') {
         result = await supabase.auth.signInWithPassword({ email, password });
       } else {
+        const fullName = document.getElementById('signup-fullname').value.trim();
+        if (!fullName) {
+          msg.style.color = 'red';
+          msg.textContent = '❌ Please enter your full name.';
+          return;
+        }
+
         result = await supabase.auth.signUp({ email, password });
+
+        if (!result.error && result.data?.user) {
+          const { error: insertError } = await supabase
+            .from('users')
+            .insert([{ id: result.data.user.id, full_name: fullName }]);
+
+          if (insertError) {
+            msg.style.color = 'red';
+            msg.textContent = '❌ Error saving profile: ' + insertError.message;
+            return;
+          }
+        }
       }
 
       if (result.error) {
