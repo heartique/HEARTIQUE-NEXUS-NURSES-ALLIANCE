@@ -179,8 +179,7 @@
         flex-direction: column;
     }
 }
-
-   /* Tab container layout */
+/* Container for tabs */
 .custom-tab-container {
   display: flex;
   flex-wrap: wrap;
@@ -191,59 +190,113 @@
   margin: auto;
 }
 
-/* Compact tab cards */
+/* Base tab card */
 .custom-tab-card {
-  flex: 1 1 260px;
-  max-width: 320px;
-  display: block;
-  border-radius: 14px;
-  padding: 16px 18px;
-  text-decoration: none !important;
+  position: relative;
+  background-color: #222; /* dark background */
   color: #fff !important;
+  border-radius: 14px;
   min-height: 160px;
+  text-decoration: none !important;
+  display: block;
+  max-width: 320px;
+  width: 100%;
+  padding: 16px 18px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  overflow: visible;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  animation: slideIn 0.7s ease both;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  background-color: inherit !important;
 }
 
-/* Hover effect */
+/* Glowing revolving border container */
+.custom-tab-card::before {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  right: -4px;
+  bottom: -4px;
+  border-radius: 18px;
+  pointer-events: none;
+  z-index: 0;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255,255,255,0.6),
+    transparent,
+    transparent,
+    rgba(255,255,255,0.6),
+    transparent
+  );
+  background-size: 200% 200%;
+  animation: revolvingGlow 3s linear infinite;
+  filter: drop-shadow(0 0 8px rgba(0,0,0,0.3));
+}
+
+/* Force content above the glow */
+.custom-tab-card > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Specific color variants with hue-rotate filter for different colors */
+.custom-tab-vocab::before {
+  filter: drop-shadow(0 0 8px #1d4ed8);
+  animation-name: revolvingGlowBlue;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(29,78,216,0.8),
+    transparent,
+    transparent,
+    rgba(29,78,216,0.8),
+    transparent
+  );
+}
+
+.custom-tab-abbrev::before {
+  filter: drop-shadow(0 0 8px #7c3aed);
+  animation-name: revolvingGlowPurple;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(124,58,237,0.8),
+    transparent,
+    transparent,
+    rgba(124,58,237,0.8),
+    transparent
+  );
+}
+
+/* Revolving glow animation (rotates background gradient) */
+@keyframes revolvingGlowBlue {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 200% 50%;
+  }
+}
+
+@keyframes revolvingGlowPurple {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 200% 50%;
+  }
+}
+
+/* Hover effect: slight lift and shadow */
 .custom-tab-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.3);
 }
 
-/* Strong background colors */
-.custom-tab-vocab {
-  background-color: #1d4ed8 !important; /* Royal Blue */
-}
-
-.custom-tab-abbrev {
-  background-color: #dc2626 !important; /* Deep Red */
-}
-
-/* Force white text for all tab card content */
-.custom-tab-card * {
-  color: inherit !important;
-  background-color: transparent !important;
-}
-
-/* Stop blue/white changes from link states */
-.custom-tab-card:link,
-.custom-tab-card:visited,
-.custom-tab-card:hover,
-.custom-tab-card:focus,
-.custom-tab-card:active {
-  color: inherit !important;
-  background-color: inherit !important;
-  text-decoration: none !important;
-  outline: none !important;
-}
-
-/* Inside content */
+/* Text styling inside */
 .tab-icon {
   font-size: 1.8rem;
   margin-bottom: 8px;
+  color: inherit !important;
 }
 
 .tab-content h2 {
@@ -270,19 +323,7 @@
   font-weight: 500;
 }
 
-/* Slide-in animation */
-@keyframes slideIn {
-  from {
-    opacity: 0;
-    transform: translateX(40px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-/* Mobile-friendly layout */
+/* Responsive layout */
 @media (max-width: 768px) {
   .custom-tab-container {
     flex-direction: column;
@@ -290,10 +331,12 @@
   }
 
   .custom-tab-card {
-    width: 90%;
-    max-width: 360px;
+    max-width: 90%;
+    margin-bottom: 20px;
   }
 }
+
+
 
   </style>
 </head>
