@@ -227,7 +227,7 @@
         toggleBtn.textContent = '👁️';
       }
     }
-    async function handleAuth() {
+   async function handleAuth() {
   const email = document.getElementById('email').value.trim();
   const password = document.getElementById('password').value.trim();
   const full_name = document.getElementById('full_name')?.value.trim();
@@ -242,50 +242,36 @@
 
   try {
     if (isLogin) {
-      const { data: loginData, error } = await supabase.auth.signInWithPassword({ email, password });
+      const { error, data } = await supabase.auth.signInWithPassword({ email, password });
       if (error) {
         msgEl.style.color = 'red';
         msgEl.textContent = error.message;
-        return;
-      }
-
-      const userId = loginData.user.id;
-      const { data: profile } = await supabase
-        .from('profiles')
-        .select('full_name, bio, school')
-        .eq('id', userId)
-        .single();
-
-      const isProfileComplete = profile && profile.full_name && profile.bio && profile.school;
-
-      msgEl.style.color = 'green';
-      msgEl.textContent = isProfileComplete
-        ? '✅ Logged in! Redirecting to homepage...'
-        : '✅ Logged in! Redirecting to profile setup...';
-
-      if (rememberMe) {
-        localStorage.setItem('savedEmail', email);
       } else {
-        localStorage.removeItem('savedEmail');
+        msgEl.style.color = 'green';
+        msgEl.textContent = '✅ Logged in! Redirecting...';
+        if (rememberMe) {
+          localStorage.setItem('savedEmail', email);
+        } else {
+          localStorage.removeItem('savedEmail');
+        }
+        setTimeout(() => window.location.href = 'index.html', 1500);
       }
-
-      setTimeout(() => {
-        window.location.href = isProfileComplete ? 'index.html' : 'profile.html';
-      }, 1500);
-
     } else {
       const { data, error } = await supabase.auth.signUp({ email, password });
+
       if (error) {
         msgEl.style.color = 'red';
         msgEl.textContent = error.message;
         return;
       }
 
+      // insert profile placeholder with full_name
       await supabase.from('profiles').insert([{ id: data.user.id, full_name }]);
-      localStorage.setItem('full_name', full_name);
+
       msgEl.style.color = 'green';
       msgEl.textContent = '✅ Account created! Let’s set up your profile...';
-
+      localStorage.setItem('full_name', full_name);
+      startCountdown();
       setTimeout(() => window.location.href = 'profile.html', 1500);
     }
   } finally {
@@ -293,6 +279,7 @@
     btn.textContent = originalText;
   }
 }
+
 
     function startCountdown() {
       const btn = document.getElementById('auth-button');
