@@ -259,9 +259,10 @@
             await supabase.from('profiles').insert([{ id: data.user.id, full_name }]);
             localStorage.setItem('full_name', full_name);
             msgEl.style.color = 'green';
-            msgEl.textContent = '✅ Account created and logged in!';
+            msgEl.textContent = '✅ Account created! Let’s set up your profile...';
             startCountdown();
-            setTimeout(() => window.location.href = 'index.html', 1500);
+            setTimeout(() => window.location.href = 'profile.html', 1500);
+
           }
         }
       } finally {
