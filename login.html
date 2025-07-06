@@ -15,74 +15,6 @@
       background-position: center;
       padding: 2rem;
     }
-    .form {
-      background-image: url('https://raw.githubusercontent.com/heartique/HEARTIQUE-NEXUS-NURSES-ALLIANCE/main/background4.jpg');
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
-      max-width: 420px;
-      width: 100%;
-      margin: auto;
-      padding: 1.5rem;
-      border-radius: 8px;
-      box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
-    }
-    input, button {
-      width: 100%;
-      padding: 0.8rem;
-      margin-bottom: 1rem;
-      font-size: 1rem;
-      border: 1px solid #ccc;
-      border-radius: 6px;
-      box-sizing: border-box;
-    }
-    button {
-      background: #004a99;
-      color: white;
-      font-weight: bold;
-      cursor: pointer;
-      transition: background 0.3s ease;
-    }
-    button:hover {
-      background: #003366;
-    }
-    #message {
-      margin-top: 1rem;
-      text-align: center;
-      font-weight: bold;
-    }
-    .toggle-tabs {
-      display: flex;
-      justify-content: space-around;
-      margin-bottom: 1rem;
-      border-radius: 6px;
-      overflow: hidden;
-      box-shadow: 0 0 10px rgba(0, 74, 153, 0.3);
-    }
-    .tab {
-      flex: 1;
-      text-align: center;
-      padding: 0.7rem;
-      font-weight: bold;
-      cursor: pointer;
-      transition: all 0.3s ease;
-    }
-    .tab.login {
-      background: #3399ff;
-      color: white;
-    }
-    .tab.signup {
-      background: #cc66ff;
-      color: white;
-    }
-    .tab.active {
-      animation: pulse 1s infinite alternate;
-      transform: scale(1.05);
-    }
-    @keyframes pulse {
-      from { opacity: 0.9; }
-      to { opacity: 1; }
-    }
     .glow-wrapper {
       position: relative;
       max-width: 440px;
@@ -90,7 +22,7 @@
       margin: auto;
       padding: 2px;
       border-radius: 10px;
-      background: conic-gradient(from 0deg, #004a99, #0066cc, #3399ff, #004a99);
+      background: conic-gradient(from 0deg, #004a99, #8000ff, #33ccff, #004a99);
       animation: spinGlow 6s linear infinite;
       box-shadow: 0 0 10px rgba(0, 74, 153, 0.3);
     }
@@ -106,54 +38,133 @@
       filter: blur(4px);
       z-index: -1;
     }
-    @keyframes spinGlow {
-      0% {
-        background: conic-gradient(from 0deg, #004a99, #0066cc, #3399ff, #004a99);
-      }
-      100% {
-        background: conic-gradient(from 360deg, #004a99, #0066cc, #3399ff, #004a99);
-      }
+    .tab-header {
+      display: flex;
+      overflow: hidden;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+    .tab {
+      flex: 1;
+      text-align: center;
+      padding: 0.8rem;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      background: rgba(255,255,255,0.2);
+      color: #004a99;
+    }
+    .tab.active {
+      background: #004a99;
+      color: white;
+      box-shadow: inset 0 -2px 6px #00000055;
+    }
+
+    .form {
+      background-image: url('https://raw.githubusercontent.com/heartique/HEARTIQUE-NEXUS-NURSES-ALLIANCE/main/background4.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      max-width: 420px;
+      width: 100%;
+      margin: auto;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+      transition: transform 0.4s ease, opacity 0.3s ease;
+    }
+    .form.hidden {
+      opacity: 0;
+      transform: scale(0.95);
+      pointer-events: none;
+      position: absolute;
+    }
+    input, button {
+      width: 100%;
+      padding: 0.8rem;
+      margin-bottom: 1rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      box-sizing: border-box;
+    }
+    button {
+      background: #004a99;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    button.signup {
+      background: #8000cc;
+    }
+    #message {
+      margin-top: 1rem;
+      text-align: center;
+      font-weight: bold;
+    }
+    #form-title {
+      color: #002b80;
+      text-align: center;
+      margin-bottom: 1rem;
+      font-weight: bold;
+      text-shadow: 0 0 5px white, 0 0 10px white, 0 0 20px white;
+    }
+    .pw-toggle {
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      cursor: pointer;
+      color: #004a99;
+      user-select: none;
+    }
+    .pw-wrapper {
+      position: relative;
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+    #countdown {
+      color: #FFFFFF;
+      font-size: 0.9rem;
+      text-align: center;
+      margin-bottom: 1rem;
     }
   </style>
 </head>
 <body>
   <div class="glow-wrapper">
-    <div class="form">
-      <div class="toggle-tabs">
-        <div id="tab-login" class="tab login active" onclick="showTab('login')">🔐 Login</div>
-        <div id="tab-signup" class="tab signup" onclick="showTab('signup')">🆕 Sign Up</div>
-      </div>
+    <div class="tab-header">
+      <div class="tab active" id="tab-login" onclick="switchTab('login')">Sign In</div>
+      <div class="tab" id="tab-signup" onclick="switchTab('signup')">Sign Up</div>
+    </div>
 
+    <!-- Login Form -->
+    <div class="form" id="form-login">
       <h2 id="form-title">LOGIN TO HEARTIQUE NURSING NEXUS PORTAL</h2>
-
-      <!-- Sign Up Only -->
-      <input type="text" id="name" placeholder="Full Name (Sign Up Only)" style="display: none;" />
-
-      <!-- Shared fields -->
-      <input type="email" id="email" placeholder="Email" required />
-      <div style="position: relative; width: 100%; margin-bottom: 1rem;">
-        <input
-          type="password"
-          id="password"
-          placeholder="Password"
-          required
-          style="padding-right: 2rem;"
-        />
-        <span
-          id="toggle-password"
-          onclick="togglePasswordVisibility()"
-          style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); font-size: 0.9rem; cursor: pointer; color: #004a99;"
-          title="Show/Hide password"
-        >👁️</span>
+      <input type="email" id="login-email" placeholder="Email" required />
+      <div class="pw-wrapper">
+        <input type="password" id="login-password" placeholder="Password" required style="padding-right: 2rem;" />
+        <span class="pw-toggle" onclick="togglePassword('login-password', this)">👁️</span>
       </div>
-
       <label style="display: flex; align-items: center; margin-bottom: 1rem; font-size: 0.9rem; color: #004a99;">
         <input type="checkbox" id="remember-me" style="margin-right: 0.5rem;" />
         Remember Me
       </label>
+      <button onclick="handleAuth('login')">Login</button>
+      <div id="countdown"></div>
+      <div id="message-login"></div>
+    </div>
 
-      <button id="auth-button" onclick="handleAuth()">Login</button>
-      <div id="message"></div>
+    <!-- Sign Up Form -->
+    <div class="form hidden" id="form-signup">
+      <h2 id="form-title">CREATE ACCOUNT</h2>
+      <input type="email" id="signup-email" placeholder="Email" required />
+      <div class="pw-wrapper">
+        <input type="password" id="signup-password" placeholder="Password" required style="padding-right: 2rem;" />
+        <span class="pw-toggle" onclick="togglePassword('signup-password', this)">👁️</span>
+      </div>
+      <button class="signup" onclick="handleAuth('signup')">Create Account</button>
+      <div id="message-signup"></div>
     </div>
   </div>
 
@@ -163,87 +174,86 @@
       'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdicWd0bnVrb3VjeGFnc3dxc3B4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTA4ODcwNTAsImV4cCI6MjA2NjQ2MzA1MH0.uHqKZ-KnW1sv7CSD37D6dh1qYfSLMznud947DEZI93Q'
     );
 
-    let mode = 'login';
-
-    function showTab(selected) {
-      mode = selected;
-      document.getElementById('tab-login').classList.toggle('active', selected === 'login');
-      document.getElementById('tab-signup').classList.toggle('active', selected === 'signup');
-      document.getElementById('form-title').textContent = selected === 'login' ? 'LOGIN TO HEARTIQUE NURSING NEXUS PORTAL' : 'CREATE A HEARTIQUE ACCOUNT';
-      document.getElementById('name').style.display = selected === 'signup' ? 'block' : 'none';
-      document.getElementById('auth-button').textContent = selected === 'login' ? 'Login' : 'Sign Up';
+    function switchTab(mode) {
+      document.getElementById('tab-login').classList.toggle('active', mode === 'login');
+      document.getElementById('tab-signup').classList.toggle('active', mode === 'signup');
+      document.getElementById('form-login').classList.toggle('hidden', mode !== 'login');
+      document.getElementById('form-signup').classList.toggle('hidden', mode !== 'signup');
+      document.getElementById('message-login').textContent = '';
+      document.getElementById('message-signup').textContent = '';
     }
 
-    function togglePasswordVisibility() {
-      const pwInput = document.getElementById('password');
-      const toggle = document.getElementById('toggle-password');
-      pwInput.type = pwInput.type === 'password' ? 'text' : 'password';
-      toggle.textContent = pwInput.type === 'text' ? '🙈' : '👁️';
-    }
-
-    async function handleAuth() {
-      const email = document.getElementById('email').value.trim();
-      const password = document.getElementById('password').value.trim();
-      const fullName = document.getElementById('name').value.trim();
-      const rememberMe = document.getElementById('remember-me').checked;
-      const msgEl = document.getElementById('message');
-      const btn = document.getElementById('auth-button');
-
-      msgEl.textContent = '';
-      btn.disabled = true;
-      const originalText = btn.textContent;
-      btn.textContent = '⏳ Processing...';
-
-      try {
-        let result;
-        if (mode === 'login') {
-          result = await supabase.auth.signInWithPassword({ email, password });
-        } else {
-          if (!fullName) {
-            msgEl.textContent = '⚠️ Please enter your full name.';
-            return;
-          }
-          result = await supabase.auth.signUp({ email, password });
-
-          if (result.data?.user) {
-            const insertResult = await supabase
-              .from('users')
-              .insert([{ id: result.data.user.id, full_name: fullName }]);
-
-            if (insertResult.error) {
-              msgEl.textContent = '⚠️ Error saving user to database.';
-              return;
-            }
-
-            localStorage.setItem('full_name', fullName);
-          }
-        }
-
-        if (result.error) {
-          msgEl.style.color = 'red';
-          msgEl.textContent = result.error.message;
-        } else {
-          msgEl.style.color = 'green';
-          msgEl.textContent = '✅ Success! Redirecting...';
-          if (rememberMe) localStorage.setItem('savedEmail', email);
-          else localStorage.removeItem('savedEmail');
-          setTimeout(() => {
-            window.location.href = 'profile.html';
-          }, 1200);
-        }
-      } catch (err) {
-        msgEl.textContent = 'Unexpected error occurred.';
-        console.error(err);
-      } finally {
-        btn.disabled = false;
-        btn.textContent = originalText;
+    function togglePassword(id, el) {
+      const input = document.getElementById(id);
+      if (input.type === 'password') {
+        input.type = 'text';
+        el.textContent = '🙈';
+      } else {
+        input.type = 'password';
+        el.textContent = '👁️';
       }
     }
 
+    async function handleAuth(mode) {
+      const email = document.getElementById(`${mode}-email`).value.trim();
+      const password = document.getElementById(`${mode}-password`).value.trim();
+      const msg = document.getElementById(`message-${mode}`);
+
+      msg.textContent = '';
+      msg.style.color = 'white';
+
+      let result;
+      if (mode === 'login') {
+        result = await supabase.auth.signInWithPassword({ email, password });
+      } else {
+        result = await supabase.auth.signUp({ email, password });
+      }
+
+      if (result.error) {
+        msg.style.color = 'red';
+        msg.textContent = result.error.message;
+        return;
+      }
+
+      msg.style.color = 'green';
+      msg.textContent = '✅ Success! Redirecting...';
+
+      if (mode === 'login' && document.getElementById('remember-me').checked) {
+        localStorage.setItem('savedEmail', email);
+      } else {
+        localStorage.removeItem('savedEmail');
+      }
+
+      waitForSessionAndRedirect();
+    }
+
+    let tries = 0;
+    async function waitForSessionAndRedirect() {
+      const { data: { session } } = await supabase.auth.getSession();
+      if (!session && tries < 10) {
+        tries++;
+        return setTimeout(waitForSessionAndRedirect, 300);
+      }
+      if (!session) {
+        alert("⚠️ Couldn't establish session. Try again.");
+        return;
+      }
+
+      const userId = session.user.id;
+      const { data: profile } = await supabase
+        .from('users')
+        .select('full_name, bio, school')
+        .eq('id', userId)
+        .single();
+
+      const isProfileComplete = profile && profile.full_name && profile.bio && profile.school;
+      window.location.href = isProfileComplete ? 'index.html' : 'profile.html';
+    }
+
     window.addEventListener('DOMContentLoaded', () => {
-      const savedEmail = localStorage.getItem('savedEmail');
-      if (savedEmail) {
-        document.getElementById('email').value = savedEmail;
+      const saved = localStorage.getItem('savedEmail');
+      if (saved) {
+        document.getElementById('login-email').value = saved;
         document.getElementById('remember-me').checked = true;
       }
     });
