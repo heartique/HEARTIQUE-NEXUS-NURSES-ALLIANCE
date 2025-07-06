@@ -181,21 +181,6 @@
     let isLogin = true;
 
     // Redirect to home if already logged in
-   supabase.auth.getSession().then(async ({ data: { session } }) => {
-  if (!session) return;
-
-  const userId = session.user.id;
-  const { data: profile } = await supabase
-    .from('profiles')
-    .select('full_name, bio, school')
-    .eq('id', userId)
-    .single();
-
-  const isProfileComplete = profile && profile.full_name && profile.bio && profile.school;
-
-  window.location.href = isProfileComplete ? 'index.html' : 'profile.html';
-});
-
 
     function toggleMode() {
       const form = document.querySelector('.form');
@@ -254,7 +239,21 @@
         } else {
           localStorage.removeItem('savedEmail');
         }
-        setTimeout(() => window.location.href = 'index.html', 1500);
+       setTimeout(async () => {
+  const { data: { session } } = await supabase.auth.getSession();
+  if (!session) return window.location.href = 'index.html'; // fallback
+
+  const userId = session.user.id;
+  const { data: profile } = await supabase
+    .from('profiles')
+    .select('full_name, bio, school')
+    .eq('id', userId)
+    .single();
+
+  const isProfileComplete = profile && profile.full_name && profile.bio && profile.school;
+  window.location.href = isProfileComplete ? 'index.html' : 'profile.html';
+}, 1500);
+
       }
     } else {
       const { data, error } = await supabase.auth.signUp({ email, password });
