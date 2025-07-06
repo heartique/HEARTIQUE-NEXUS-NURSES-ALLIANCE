@@ -15,17 +15,17 @@
       padding: 2rem;
     }
     .form {
-  background-image: url('https://raw.githubusercontent.com/heartique/HEARTIQUE-NEXUS-NURSES-ALLIANCE/main/background4.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  max-width: 420px; /* Reduce from 500px */
-  width: 100%;
-  margin: auto;
-  padding: 1rem; /* Reduced from 2rem */
-  border-radius: 8px;
-  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
-  transition: transform 0.4s ease, opacity 0.3s ease;
+      background-image: url('https://raw.githubusercontent.com/heartique/HEARTIQUE-NEXUS-NURSES-ALLIANCE/main/background4.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      max-width: 420px;
+      width: 100%;
+      margin: auto;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+      transition: transform 0.4s ease, opacity 0.3s ease;
     }
     .zoom-out {
       transform: scale(0.95);
@@ -42,6 +42,7 @@
       font-size: 1rem;
       border: 1px solid #ccc;
       border-radius: 6px;
+      box-sizing: border-box;
     }
     button {
       background: #004a99;
@@ -70,67 +71,104 @@
       margin-bottom: 1rem;
     }
     #form-title {
-  color: #002b80; /* Dark blue */
-  text-align: center;
-  margin-bottom: 1rem;
-  font-weight: bold;
-  text-shadow:
-    0 0 5px white,
-    0 0 10px white,
-    0 0 20px white;
-}
-.glow-wrapper {
-  position: relative;
-  max-width: 440px; /* Limit width of the wrapper too */
-  width: 100%;
-  margin: auto;
-  padding: 2px; /* Tighter glow padding */
-  border-radius: 10px;
-  background: conic-gradient(from 0deg, #004a99, #0066cc, #3399ff, #004a99);
-  animation: spinGlow 6s linear infinite;
-  box-shadow: 0 0 10px rgba(0, 74, 153, 0.3);
-}
-.glow-wrapper::before {
-  content: "";
-  position: absolute;
-  top: -2px;
-  left: -1px;   /* Tight side space */
-  right: -1px;
-  bottom: -2px;
-  border-radius: 12px;
-  background: inherit;
-  filter: blur(4px);
-  z-index: -1;
-}
-@keyframes spinGlow {
-  0% {
-    background: conic-gradient(from 0deg, #004a99, #0066cc, #3399ff, #004a99);
-  }
-  100% {
-    background: conic-gradient(from 360deg, #004a99, #0066cc, #3399ff, #004a99);
-}
+      color: #002b80; /* Dark blue */
+      text-align: center;
+      margin-bottom: 1rem;
+      font-weight: bold;
+      text-shadow:
+        0 0 5px white,
+        0 0 10px white,
+        0 0 20px white;
+    }
+    .glow-wrapper {
+      position: relative;
+      max-width: 440px;
+      width: 100%;
+      margin: auto;
+      padding: 2px;
+      border-radius: 10px;
+      background: conic-gradient(from 0deg, #004a99, #0066cc, #3399ff, #004a99);
+      animation: spinGlow 6s linear infinite;
+      box-shadow: 0 0 10px rgba(0, 74, 153, 0.3);
+    }
+    .glow-wrapper::before {
+      content: "";
+      position: absolute;
+      top: -2px;
+      left: -1px;
+      right: -1px;
+      bottom: -2px;
+      border-radius: 12px;
+      background: inherit;
+      filter: blur(4px);
+      z-index: -1;
+    }
+    @keyframes spinGlow {
+      0% {
+        background: conic-gradient(from 0deg, #004a99, #0066cc, #3399ff, #004a99);
+      }
+      100% {
+        background: conic-gradient(from 360deg, #004a99, #0066cc, #3399ff, #004a99);
+      }
+    }
   </style>
 </head>
 <body>
   <div class="glow-wrapper">
-  <div class="form">
-    <h2 id="form-title">LOGIN TO HEARTIQUE NURSING NEXUS PORTAL</h2>
+    <div class="form">
+      <h2 id="form-title">LOGIN TO HEARTIQUE NURSING NEXUS PORTAL</h2>
 
-    <div id="name-field" style="display: none;">
-      <input type="text" id="full_name" placeholder="Full Name" />
-    </div>
+      <div id="name-field" style="display: none;">
+        <input type="text" id="full_name" placeholder="Full Name" />
+      </div>
 
-    <input type="email" id="email" placeholder="Email" required />
-    <input type="password" id="password" placeholder="Password" required />
+      <input type="email" id="email" placeholder="Email" required />
 
-    <button id="auth-button" onclick="handleAuth()">Login</button>
-    <div id="countdown"></div>
+      <!-- Password input with toggle button -->
+      <div style="position: relative; width: 100%; margin-bottom: 1rem;">
+        <input
+          type="password"
+          id="password"
+          placeholder="Password"
+          required
+          style="padding-right: 2.5rem;"
+        />
+        <button
+          type="button"
+          id="toggle-password"
+          aria-label="Toggle password visibility"
+          style="
+            position: absolute;
+            right: 8px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 1.1rem;
+            color: #004a99;
+          "
+          onclick="togglePasswordVisibility()"
+        >
+          👁️
+        </button>
+      </div>
 
-    <div id="message"></div>
+      <!-- Remember Me checkbox -->
+      <label style="display: flex; align-items: center; margin-bottom: 1rem; font-size: 0.9rem; color: #004a99;">
+        <input type="checkbox" id="remember-me" style="margin-right: 0.5rem;" />
+        Remember Me
+      </label>
 
-    <div class="toggle">
-      <span id="toggle-text">Don't have an account?</span>
-      <a onclick="toggleMode()">CREATE ACCOUNT</a>
+      <button id="auth-button" onclick="handleAuth()">Login</button>
+      <div id="countdown"></div>
+
+      <div id="message"></div>
+
+      <div class="toggle">
+        <span id="toggle-text">Don't have an account?</span>
+        <a onclick="toggleMode()">CREATE ACCOUNT</a>
+      </div>
     </div>
   </div>
 
@@ -166,42 +204,69 @@
       }, 200);
     }
 
+    function togglePasswordVisibility() {
+      const pwInput = document.getElementById('password');
+      const toggleBtn = document.getElementById('toggle-password');
+      if (pwInput.type === 'password') {
+        pwInput.type = 'text';
+        toggleBtn.textContent = '🙈';
+      } else {
+        pwInput.type = 'password';
+        toggleBtn.textContent = '👁️';
+      }
+    }
+
     async function handleAuth() {
       const email = document.getElementById('email').value.trim();
       const password = document.getElementById('password').value.trim();
       const full_name = document.getElementById('full_name')?.value.trim();
+      const rememberMe = document.getElementById('remember-me').checked;
       const msgEl = document.getElementById('message');
+      const btn = document.getElementById('auth-button');
+
       msgEl.textContent = '';
 
-      if (isLogin) {
-        const { error } = await supabase.auth.signInWithPassword({ email, password });
-        if (error) {
-          msgEl.style.color = 'red';
-          msgEl.textContent = error.message;
-        } else {
-          msgEl.style.color = 'green';
-          msgEl.textContent = '✅ Logged in! Redirecting...';
-          setTimeout(() => window.location.href = 'index.html', 1500);
-        }
-      } else {
-        const { data, error } = await supabase.auth.signUp({ email, password });
+      // Show loading state
+      btn.disabled = true;
+      const originalText = btn.textContent;
+      btn.textContent = '⏳ Processing...';
 
-        if (error) {
-          if (error.message.includes('already registered')) {
-            alert('📧 This email is already registered.');
+      try {
+        if (isLogin) {
+          const { error, data } = await supabase.auth.signInWithPassword({ email, password });
+          if (error) {
+            msgEl.style.color = 'red';
+            msgEl.textContent = error.message;
+          } else {
+            msgEl.style.color = 'green';
+            msgEl.textContent = '✅ Logged in! Redirecting...';
+            if (rememberMe) {
+              localStorage.setItem('savedEmail', email);
+            } else {
+              localStorage.removeItem('savedEmail');
+            }
+            setTimeout(() => window.location.href = 'index.html', 1500);
           }
-          msgEl.style.color = 'red';
-          msgEl.textContent = error.message;
         } else {
-          // Save name to database
-          await supabase.from('profiles').insert([{ id: data.user.id, full_name }]);
-          // Store name locally
-          localStorage.setItem('full_name', full_name);
-          msgEl.style.color = 'green';
-          msgEl.textContent = '✅ Account created and logged in!';
-          startCountdown();
-          setTimeout(() => window.location.href = 'index.html', 1500);
+          const { data, error } = await supabase.auth.signUp({ email, password });
+          if (error) {
+            if (error.message.includes('already registered')) {
+              alert('📧 This email is already registered.');
+            }
+            msgEl.style.color = 'red';
+            msgEl.textContent = error.message;
+          } else {
+            await supabase.from('profiles').insert([{ id: data.user.id, full_name }]);
+            localStorage.setItem('full_name', full_name);
+            msgEl.style.color = 'green';
+            msgEl.textContent = '✅ Account created and logged in!';
+            startCountdown();
+            setTimeout(() => window.location.href = 'index.html', 1500);
+          }
         }
+      } finally {
+        btn.disabled = false;
+        btn.textContent = originalText;
       }
     }
 
@@ -222,6 +287,15 @@
         }
       }, 1000);
     }
+
+    // Autofill saved email and checkbox on page load if Remember Me was used
+    window.addEventListener('DOMContentLoaded', () => {
+      const savedEmail = localStorage.getItem('savedEmail');
+      if (savedEmail) {
+        document.getElementById('email').value = savedEmail;
+        document.getElementById('remember-me').checked = true;
+      }
+    });
   </script>
 </body>
 </html>
