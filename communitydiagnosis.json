@@ -668,8 +668,240 @@
     "answer": "D",
     "explanation": "Why (d) is correct: The standard 3-dose schedule for the monovalent (single-antigen) Hepatitis B vaccine is one of the most important schedules to memorize.\n\nDose 1: At Birth\n\nDose 2: At 1-2 months of age\n\nDose 3: At 6 months of age (The interval between dose 2 and 3 should be at least 8 weeks, and dose 3 should be given no earlier than 24 weeks of age).\n\nOption (d) correctly states the timing for the second and third doses relative to the birth dose.\n\nWhy (a), (b), and (c) are wrong: These timings are incorrect and do not follow any recognized national or international immunization schedule for primary vaccination against Hepatitis B. The intervals are too long, which would leave the infant unprotected.",
     "additional": "Prevention of Mother-to-Child Transmission (PMTCT): The birth dose of the Hepatitis B vaccine is critical. If a mother is known to be infected with Hepatitis B (HBsAg positive), her infant must receive both the Hepatitis B vaccine and Hepatitis B Immune Globulin (HBIG) within 12 hours of birth to provide immediate passive protection while the vaccine stimulates active immunity.\n\nKenyan KEPI Schedule Context: In Kenya, in addition to the recommended birth dose, Hepatitis B vaccine is part of the Pentavalent vaccine (DPT-HepB-Hib), given at 6, 10, and 14 weeks. This schedule also fulfills the requirement for 3 doses within the first 6 months of life.\n\nPossible content to be tested next IN NCK:\n\nInjection Site: Identifying the correct intramuscular injection site for an infant (Anterolateral thigh - the Vastus Lateralis muscle).\n\nCombination Vaccines: Knowing the components of common combination vaccines like the Pentavalent vaccine.\n\nHepatitis B Transmission Routes: Identifying other major routes of transmission besides perinatal (e.g., unprotected sex, sharing contaminated needles).\n\nBook Reference:\n\nMinistry of Health, Kenya Expanded Programme on Immunization (KEPI) Clinician's Handbook\n\nPotter & Perry's Fundamentals of Nursing"
+  },
+  {
+    "question": "What is the primary purpose of a case-control study in epidemiology?",
+    "options": {
+      "A": "To determine the cause of a disease outbreak",
+      "B": "To compare individuals with a specific disease to those without the disease to identify factors associated with the disease",
+      "C": "To estimate the prevalence of a disease in a population",
+      "D": "To predict future disease trends"
+    },
+    "answer": "B",
+    "explanation": "A case-control study is an observational design that starts with people who have a disease (cases) and compares them to people who do not (controls) to assess previous exposure to potential risk factors. It is retrospective in nature and well-suited for rare diseases or those with long latency periods.",
+    "additional": "NCK Focus August 2025:\n\n1. Odds Ratio (OR) is the key measure of association in case-control studies:\n- OR > 1: Exposure increases disease risk\n- OR < 1: Exposure is protective\n- OR = 1: No association\n\n2. Example: An OR of 10 for smoking in a lung cancer study means smokers are 10x more likely to develop lung cancer compared to non-smokers.\n\nFuture Question Idea: \"In a case-control study, an Odds Ratio of 4.5 was found for exposure to contaminated water. What does this imply?\" (Answer: Individuals exposed were 4.5 times more likely to develop the disease than those not exposed.)"
+  },
+  {
+    "question": "In epidemiology, what is the primary focus of \"surveillance\"?",
+    "options": {
+      "A": "To create vaccines for emerging diseases",
+      "B": "To monitor and collect data on the occurrence of diseases and health events in a population",
+      "C": "To conduct clinical trials for new treatments",
+      "D": "To assess healthcare facility readiness"
+    },
+    "answer": "B",
+    "explanation": "Surveillance is the continuous, systematic collection, analysis, and interpretation of health data. It helps detect outbreaks, monitor trends, and guide public health interventions. It is not about creating treatments or vaccines but about timely and informed action.",
+    "additional": "NCK Focus August 2025:\n\n1. Types of Surveillance:\n- Passive: Routine reports from facilities.\n- Active: Health authorities seek out cases.\n- Sentinel: Selected sites monitor key indicators.\n\n2. Uses:\n- Detect disease early (e.g., COVID-19 alert systems)\n- Evaluate control strategies (e.g., malaria program impact)\n\nFuture Question Idea: \"Which public health function involves continuous data collection on disease occurrence to enable early response?\" (Answer: Surveillance)"
+  },
+  {
+    "question": "What is the primary objective of \"descriptive epidemiology\"?",
+    "options": {
+      "A": "To test the effectiveness of a new drug",
+      "B": "To identify the cause of a specific outbreak",
+      "C": "To characterize the patterns and distribution of diseases in a population",
+      "D": "To provide treatment recommendations"
+    },
+    "answer": "C",
+    "explanation": "Descriptive epidemiology focuses on describing disease occurrence by person, place, and time. It helps generate hypotheses but does not test them. It answers the 'who, where, and when' questions, laying the foundation for analytic studies.",
+    "additional": "NCK Focus August 2025:\n\n1. Examples of Descriptive Studies:\n- Case reports\n- Cross-sectional surveys\n- Disease registries\n\n2. Important Tools:\n- Epidemic curves\n- Spot maps\n\nFuture Question Idea: \"A study reports measles cases by age, county, and month of occurrence. This is an example of:\" (Answer: Descriptive epidemiology)"
+  },
+  {
+    "question": "In epidemiology, what is the primary goal of \"analytic epidemiology\"?",
+    "options": {
+      "A": "To describe the characteristics of a disease outbreak",
+      "B": "To explore the potential causes and risk factors associated with a specific disease",
+      "C": "To provide immediate medical treatment to affected individuals",
+      "D": "To establish healthcare guidelines"
+    },
+    "answer": "B",
+    "explanation": "Analytic epidemiology seeks to answer 'why' and 'how' by testing hypotheses about disease causes and risk factors. It involves comparing groups to identify associations and uses tools like cohort studies and case-control designs to assess exposure-outcome relationships.",
+    "additional": "NCK Focus August 2025:\n\n1. Key Analytic Designs:\n- Case-control: Retrospective, good for rare diseases\n- Cohort: Prospective, measures incidence and relative risk\n- RCTs: Best for testing interventions\n\n2. Outcomes:\n- Causal inference\n- Risk estimation\n\nFuture Question Idea: \"Which type of epidemiology is used to test hypotheses about disease causation and assess exposure effects?\" (Answer: Analytic epidemiology)"
+  },
+  {
+    "question": "What is the primary focus of \"incidence\" in epidemiology?",
+    "options": {
+      "A": "To measure the number of deaths in a population",
+      "B": "To determine the prevalence of chronic diseases",
+      "C": "To assess the risk of new cases of a disease occurring in a defined population during a specified time period",
+      "D": "To identify the primary causative agent of a disease"
+    },
+    "answer": "C",
+    "explanation": "Incidence measures the rate of new cases of a disease developing in a specific population over a defined time. It helps assess risk and monitor disease spread. It differs from prevalence, which counts all existing cases (old + new).",
+    "additional": "NCK Focus August 2025:\n\n1. Incidence Formula:\nIncidence = (New Cases / Population at Risk) x 1000 (or per 100,000)\n\n2. Analogy:\n- Incidence = New water drops\n- Prevalence = Total water in tub\n\n3. Relation:\nPrevalence ≈ Incidence × Duration\n\nFuture Question Idea: \"A community has 100 new TB cases among 10,000 people in a year. What does this represent?\" (Answer: Incidence)"
+  },
+  {
+    "question": "In epidemiology, what does 'prevalence' primarily refer to?",
+    "options": {
+      "A": "The number of new cases of a disease",
+      "B": "The total number of cases of a disease in a population at a given point in time",
+      "C": "The likelihood of developing a disease",
+      "D": "The primary risk factor for a disease"
+    },
+    "answer": "B",
+    "explanation": "Prevalence is the measure of how many total cases (new and existing) of a disease exist in a population at a specific point or over a period. It provides a snapshot of the disease burden, which helps in planning services and allocating resources.",
+    "additional": "NCK Focus August 2025:\n\n1. Types of Prevalence:\n- Point prevalence: At a specific time.\n- Period prevalence: Over a period (e.g., past year).\n\n2. Formula:\nPrevalence = (All existing cases / Total population) × 100\n\n3. Key Use: Estimating service demand and disease burden.\n\nFuture Question Idea: \"Which measure gives a snapshot of how widespread diabetes is in a population at a given time?\" (Answer: Prevalence)"
+  },
+  {
+    "question": "What is the primary objective of 'cohort studies' in epidemiology?",
+    "options": {
+      "A": "To identify individuals with a specific disease",
+      "B": "To compare individuals with a specific disease to those without the disease",
+      "C": "To follow a group of individuals over time to assess their exposure to risk factors and the development of outcomes",
+      "D": "To examine clinical records of patients"
+    },
+    "answer": "C",
+    "explanation": "Cohort studies begin with disease-free individuals and classify them by exposure status. The goal is to follow them over time to observe who develops the disease, making it possible to calculate incidence and determine relative risk.",
+    "additional": "NCK Focus August 2025:\n\n1. Cohort vs. Case-Control:\n- Cohort: Exposure → Outcome (forward)\n- Case-Control: Outcome → Exposure (backward)\n\n2. Relative Risk (RR):\nRR = Incidence in exposed / Incidence in unexposed\n\n3. Strength: Can establish temporality and risk.\n\nFuture Question Idea: \"Which study type is best suited to follow factory workers exposed to a chemical to determine if they later develop respiratory disease?\" (Answer: Cohort study)"
+  },
+  {
+    "question": "In epidemiology, what is the primary focus of 'attribution'?",
+    "options": {
+      "A": "To assess the efficacy of a treatment",
+      "B": "To attribute a specific disease to a single cause or exposure",
+      "C": "To conduct laboratory testing for diseases",
+      "D": "To estimate disease prevalence"
+    },
+    "answer": "B",
+    "explanation": "Attribution focuses on establishing that an exposure is causally related to a disease. It often uses criteria such as temporality, strength, consistency, and biological plausibility to determine whether the observed association is likely causal.",
+    "additional": "NCK Focus August 2025:\n\n1. Bradford Hill Criteria:\n- Temporality (essential)\n- Strength of association\n- Biological gradient (dose-response)\n- Plausibility\n- Consistency across studies\n\n2. Application: Helps in policy and risk communication.\n\nFuture Question Idea: \"An epidemiologist notes that the risk of skin cancer increases with cumulative UV exposure. Which causal criterion does this reflect?\" (Answer: Biological gradient)"
+  },
+  {
+    "question": "What is the primary purpose of 'morbidity and mortality conferences' in healthcare settings?",
+    "options": {
+      "A": "To promote the well-being of healthcare providers",
+      "B": "To discuss and review clinical cases, including adverse outcomes, in order to improve patient care",
+      "C": "To organize public health campaigns",
+      "D": "To determine healthcare facility budgets"
+    },
+    "answer": "B",
+    "explanation": "Morbidity and Mortality (M&M) conferences are confidential, peer-reviewed forums in which healthcare teams analyze adverse outcomes, complications, or deaths in order to improve clinical practice and prevent future errors.",
+    "additional": "NCK Focus August 2025:\n\n1. Focus Areas:\n- Case-based learning\n- Systems analysis\n- Ethical reflection (no blame approach)\n\n2. Outcomes:\n- Practice change\n- Protocol refinement\n- Safer environments\n\nFuture Question Idea: \"A hospital holds a session to analyze a patient's unexpected postoperative death in a non-punitive way to improve care. What is this called?\" (Answer: M&M conference)"
+  },
+  {
+    "question": "In epidemiology, what does 'outbreak investigation' primarily involve?",
+    "options": {
+      "A": "To predict the occurrence of future outbreaks",
+      "B": "To study the epidemiology of chronic diseases",
+      "C": "To identify the cause and source of a sudden increase in cases of a specific disease",
+      "D": "To analyze population-level health trends"
+    },
+    "answer": "C",
+    "explanation": "Outbreak investigation is the systematic process used to understand and control the spread of diseases during unexpected case surges. It includes case definition, hypothesis generation, testing, and public health action.",
+    "additional": "NCK Focus August 2025:\n\nSteps in an Outbreak Investigation:\n1. Verify the diagnosis and confirm an outbreak\n2. Establish a case definition\n3. Identify and count cases (descriptive epi)\n4. Develop hypotheses (analytic epi)\n5. Test hypotheses (often case-control study)\n6. Implement control measures\n7. Communicate findings\n\nFuture Question Idea: \"What is the first step in responding to a sudden cluster of suspected foodborne illness at a wedding?\" (Answer: Verify the diagnosis and confirm the outbreak)"
+  },
+  {
+    "question": "In epidemiology, what does 'exposure' primarily refer to?",
+    "options": {
+      "A": "The likelihood of a disease occurring",
+      "B": "Any factor, substance, or condition that may contribute to the development of a disease",
+      "C": "The number of cases of a disease in a population",
+      "D": "The primary causative agent of a disease"
+    },
+    "answer": "B",
+    "explanation": "Exposure in epidemiology refers to any determinant (factor or condition) that might influence health outcomes. It could be a behavior, an environmental factor, or even a medical intervention. Epidemiologists study exposures to determine their relationship with diseases or conditions.",
+    "additional": "NCK Focus August 2025:\n\n1. Exposure Examples Likely to Appear:\n- Tobacco use (risk factor for cancer)\n- Unsafe water (risk for cholera)\n- Unprotected sex (risk for STIs)\n- Poor nutrition (risk for anemia or underweight)\n\n2. Exam Tip:\nNCK often links exposure to determinants of health in case-based questions. Watch for language like 'associated with', 'linked to', or 'likely due to'.\n\nFuture Question Idea: \"A study investigates whether pesticide exposure among farmers is associated with increased risk of neurological disorders. What is the exposure in this study?\" (Answer: Pesticide exposure)."
+  },
+  {
+    "question": "In epidemiology, what does 'odds ratio' primarily measure?",
+    "options": {
+      "A": "The likelihood of an event occurring",
+      "B": "The proportion of cases in a population",
+      "C": "The difference between two groups in terms of the number of events",
+      "D": "The strength of association between exposure and disease"
+    },
+    "answer": "D",
+    "explanation": "The odds ratio (OR) is the key measure used in case-control studies. It compares the odds of exposure among people with the disease (cases) to the odds of exposure among those without the disease (controls).",
+    "additional": "NCK Focus August 2025:\n\n1. Key Interpretation of OR:\n- OR = 1 → No association\n- OR > 1 → Exposure is a risk factor\n- OR < 1 → Exposure may be protective\n\n2. NCK Reminder:\nThe odds ratio is the default measure of association for case-control studies because incidence cannot be directly calculated.\n\nFuture Question Idea: \"In a case-control study of cervical cancer, an OR of 4.0 was found for early sexual debut. What does this mean?\" (Answer: Women who had early sexual debut had 4 times the odds of developing cervical cancer compared to those who did not)."
+  },
+  {
+    "question": "What is the primary purpose of 'epidemiological studies'?",
+    "options": {
+      "A": "To market healthcare services",
+      "B": "To investigate the distribution and determinants of diseases and health outcomes in populations",
+      "C": "To conduct clinical trials for new treatments",
+      "D": "To promote healthcare policies"
+    },
+    "answer": "B",
+    "explanation": "The main goal of epidemiological studies is to describe and explain patterns of disease occurrence in populations. They examine both the distribution (who, where, when) and determinants (why, how) of health and disease to guide public health actions.",
+    "additional": "NCK Focus August 2025:\n\n1. Core Use:\nEpidemiological studies guide prevention, control, and treatment strategies in national health programs (e.g., malaria control, HIV surveillance).\n\n2. NCK Reminder:\nAlways relate 'distribution' to person-place-time and 'determinants' to risk/protective factors.\n\nFuture Question Idea: \"Which of the following best describes the overall purpose of epidemiology?\" (Answer: To study the distribution and determinants of health-related states and apply this to control diseases)."
+  },
+  {
+    "question": "What is the primary objective of 'meta-analysis' in epidemiological research?",
+    "options": {
+      "A": "To conduct clinical trials for new treatments",
+      "B": "To identify the primary cause of a disease",
+      "C": "To summarize and analyze the results of multiple studies on a particular topic to draw overall conclusions",
+      "D": "To determine the prevalence of a disease in a population"
+    },
+    "answer": "C",
+    "explanation": "Meta-analysis is a statistical method used to combine data from multiple studies on the same topic to produce a more accurate and generalizable result. It strengthens the evidence by increasing sample size and reducing uncertainty.",
+    "additional": "NCK Focus August 2025:\n\n1. The Evidence Pyramid:\nTop (Strongest Evidence):\n- Systematic Reviews & Meta-Analyses\nMiddle:\n- RCTs, Cohort Studies, Case-Control Studies\nBottom:\n- Cross-Sectional, Case Reports, Expert Opinion\n\nFuture Question Idea: \"A nurse is looking for the highest level of evidence to answer a clinical question about the effectiveness of a new wound care dressing. Which of the following would provide the strongest evidence?\" (Answer: \"A systematic review or meta-analysis of randomized controlled trials.\")"
+  },
+   {
+    "question": "What is the primary goal of 'epidemic curves' in epidemiology?",
+    "options": {
+      "A": "To promote the occurrence of outbreaks",
+      "B": "To visualize the distribution of diseases over time, helping identify patterns and trends",
+      "C": "To estimate the number of cases in a population",
+      "D": "To conduct clinical trials for new treatments"
+    },
+    "answer": "B",
+    "explanation": "Epidemic curves (epi curves) are visual tools that help epidemiologists understand the time course of an outbreak. The shape of the curve can suggest the mode of transmission and the likely period of exposure, aiding in control efforts.",
+    "additional": "NCK Focus August 2025:\n\n1. Interpreting the Shape of an Epi Curve:\n- Point Source: One peak → common exposure.\n- Propagated: Several peaks → person-to-person spread.\n- Continuous Common Source: Long plateau → ongoing exposure.\n\nFuture Question Idea: \"An epi curve for a foodborne illness outbreak shows a single, sharp peak of cases. This shape is characteristic of which type of outbreak?\" (Answer: A point source outbreak)."
+  },
+  {
+    "question": "In epidemiology, what is the primary goal of 'randomized controlled trials'?",
+    "options": {
+      "A": "To describe the characteristics of a disease outbreak",
+      "B": "To compare the outcomes of individuals exposed to an intervention with those not exposed in a controlled and randomized manner",
+      "C": "To monitor and collect data on disease occurrence",
+      "D": "To assess the cost-effectiveness of healthcare services"
+    },
+    "answer": "B",
+    "explanation": "Randomized Controlled Trials (RCTs) are the gold standard for testing interventions. By randomly allocating participants into groups (intervention vs. control), RCTs minimize bias and confounding, providing strong evidence for causality. RCTs allow direct comparison of outcomes in a scientifically controlled environment.",
+    "additional": "NCK Focus August 2025:\n\n1. RCTs will appear in questions around:\n- Vaccine trials\n- Medication efficacy\n- Public health program evaluation (e.g., deworming, mosquito nets)\n\n2. Watch for key terms: randomization, double-blind, control group.\n\nFuture Question Idea: \"A nurse participates in a double-blind trial assessing a new antimalarial. Neither the patient nor the nurse knows whether the drug is real or placebo. What is the purpose of this design?\" (Answer: To prevent bias in the assessment of outcomes)."
+  },
+  {
+    "question": "What is the primary focus of 'epidemiological transitions'?",
+    "options": {
+      "A": "To predict future disease trends",
+      "B": "To describe the characteristics of a disease outbreak",
+      "C": "To examine changes in disease patterns and health transitions in populations over time",
+      "D": "To assess individual-level risk factors for diseases"
+    },
+    "answer": "C",
+    "explanation": "Epidemiological transition refers to the shift in disease patterns within a population as they move from infectious to chronic diseases due to improvements in sanitation, healthcare, and socio-economic development. It explains how health profiles change over time.",
+    "additional": "NCK Focus August 2025:\n\n1. Relevance to Kenya:\nKenya is in a transitional phase with high burdens of both infectious (HIV, TB) and non-communicable diseases (diabetes, cancer). NCK often tests this contrast.\n\n2. Omran’s Theory (3 Stages):\n- Age of pestilence and famine\n- Age of receding pandemics\n- Age of degenerative and man-made diseases\n\nFuture Question Idea: \"A health report shows increased deaths due to heart disease and diabetes, while malaria and diarrheal deaths decline. This scenario reflects which concept?\" (Answer: Epidemiological transition)."
+  },
+  {
+    "question": "In epidemiology, what does 'secular trends' primarily refer to?",
+    "options": {
+      "A": "To assess changes in disease patterns over time within a specific year",
+      "B": "To identify the primary causative agent of a disease",
+      "C": "To examine long-term changes in health outcomes or diseases over multiple years or decades",
+      "D": "To predict future outbreaks"
+    },
+    "answer": "C",
+    "explanation": "Secular trends are long-term patterns in health outcomes (e.g., incidence, prevalence, or mortality rates) observed over years or decades. They help public health professionals identify persistent improvements or deteriorations in population health.",
+    "additional": "NCK Focus August 2025:\n\n1. Examples relevant to Kenya:\n- Gradual rise in obesity rates\n- Decline in childhood mortality over 20 years\n- HIV prevalence trends since 2000\n\n2. Often tested against seasonal trends (e.g., malaria peaking in rainy season).\n\nFuture Question Idea: \"What type of trend is reflected by the steady increase in diabetes cases over the past 30 years in Kenya?\" (Answer: Secular trend)."
+  },
+  {
+    "question": "What is the primary objective of 'disease surveillance systems' in epidemiology?",
+    "options": {
+      "A": "To track the migration of diseases",
+      "B": "To monitor and collect data on the occurrence of diseases and health events in a population",
+      "C": "To conduct laboratory testing for diseases",
+      "D": "To predict the occurrence of future outbreaks"
+    },
+    "answer": "B",
+    "explanation": "Disease surveillance systems involve the ongoing collection, analysis, and interpretation of health data. Their main goal is to inform public health decisions and guide timely interventions to control disease.",
+    "additional": "NCK Focus August 2025:\n\n1. Kenya’s Surveillance Systems include:\n- DHIS2 for national disease data reporting\n- Weekly IDSR (Integrated Disease Surveillance and Response)\n- Event-based surveillance for emergencies\n\n2. Surveillance is a pillar of epidemic preparedness — expect NCK to test it alongside outbreak control.\n\nFuture Question Idea: \"Why is disease surveillance critical for national health planning?\" (Answer: It provides real-time data to detect outbreaks and monitor public health trends for intervention)."
   }
 ]
+
+
+
+
 
   
   
