@@ -179,8 +179,19 @@
         flex-direction: column;
     }
 }
+.custom-tab-container {
+  display: flex;
+  flex-wrap: nowrap; /* no wrap so they stay side by side */
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
 
+/* Keep tab width fixed so they fit side by side */
 .custom-tab-card {
+  flex: 0 0 320px; /* fixed width so 2 fit in 1000px */
   position: relative;
   background-color: #222;
   color: #fff !important;
@@ -188,24 +199,18 @@
   min-height: 160px;
   text-decoration: none !important;
   display: block;
-  max-width: 320px;
-  width: 100%;
   padding: 16px 18px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
   overflow: visible;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  /* Make sure no extra margin or border added by pseudo */
   z-index: 0;
 }
 
-/* Smaller glow border */
+/* Pseudo elements for glowing border (same as before) */
 .custom-tab-card::before {
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  top: 0; left: 0; right: 0; bottom: 0;
   border-radius: 14px;
   pointer-events: none;
   z-index: -1;
@@ -223,7 +228,6 @@
   filter: drop-shadow(0 0 8px rgba(0,0,0,0.3));
 }
 
-/* Blue glow for vocab */
 .custom-tab-vocab::before {
   filter: drop-shadow(0 0 6px #1d4ed8);
   animation-name: revolvingGlowBlue;
@@ -238,7 +242,6 @@
   );
 }
 
-/* Purple glow for abbrev */
 .custom-tab-abbrev::before {
   filter: drop-shadow(0 0 6px #7c3aed);
   animation-name: revolvingGlowPurple;
@@ -253,38 +256,30 @@
   );
 }
 
-/* Same keyframes as before */
+/* Keyframes for animation */
 @keyframes revolvingGlowBlue {
-  0% {
-    background-position: 0% 50%;
-  }
-  100% {
-    background-position: 200% 50%;
-  }
+  0% { background-position: 0% 50%; }
+  100% { background-position: 200% 50%; }
 }
 
 @keyframes revolvingGlowPurple {
-  0% {
-    background-position: 0% 50%;
-  }
-  100% {
-    background-position: 200% 50%;
-  }
+  0% { background-position: 0% 50%; }
+  100% { background-position: 200% 50%; }
 }
 
-/* Keep content above */
-.custom-tab-card > * {
-  position: relative;
-  z-index: 1;
-}
-
-/* Hover lift */
+/* Hover effect */
 .custom-tab-card:hover {
   transform: translateY(-6px);
   box-shadow: 0 12px 28px rgba(0,0,0,0.3);
 }
 
-/* Text inside */
+/* Keep content above glow */
+.custom-tab-card > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Text styling */
 .tab-icon {
   font-size: 1.8rem;
   margin-bottom: 8px;
@@ -315,19 +310,19 @@
   font-weight: 500;
 }
 
-/* Responsive */
+/* Responsive: stack vertically on small screens */
 @media (max-width: 768px) {
   .custom-tab-container {
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
   }
-
   .custom-tab-card {
-    max-width: 90%;
+    flex: 1 1 90%;
+    max-width: 360px;
     margin-bottom: 20px;
   }
 }
-
 
   </style>
 </head>
