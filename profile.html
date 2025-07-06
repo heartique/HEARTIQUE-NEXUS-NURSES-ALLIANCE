@@ -163,6 +163,7 @@
   </form>
   <button id="logout">Logout</button>
   <div id="message"></div>
+
   <script>
     const supabase = window.supabase.createClient(
       'https://gbqgtnukoucxagswqspx.supabase.co',
@@ -175,6 +176,7 @@
     const avatarUpload = document.getElementById('avatar-upload');
     let currentUser;
     let avatarUrl = null;
+
     function updateProfileProgress(status) {
       const iconEl = document.getElementById('progress-icon');
       const textEl = document.getElementById('progress-text');
@@ -192,13 +194,21 @@
         textEl.style.color = 'red';
       }
     }
+
     async function checkUser() {
       const { data: { session }, error } = await supabase.auth.getSession();
       if (error || !session) return (window.location.href = 'index.html');
       currentUser = session.user;
       await loadProfile();
+
+      // Show welcome if it's a new user
+      if (localStorage.getItem('newUser') === 'true') {
+        document.getElementById('welcome').style.display = 'block';
+      }
+
       document.getElementById('loader').style.display = 'none';
     }
+
     async function loadProfile() {
       document.getElementById('email').value = currentUser.email;
       const { data, error } = await supabase
@@ -219,6 +229,7 @@
       document.getElementById('sex').value = data.sex || '';
       avatarUrl = data.avatar_url || null;
       if (avatarUrl) profilePic.src = avatarUrl;
+
       if (data.full_name && data.school) {
         updateProfileProgress('complete');
       } else if (data.full_name || data.school) {
@@ -227,6 +238,7 @@
         updateProfileProgress('incomplete');
       }
     }
+
     avatarUpload.addEventListener('change', async (event) => {
       const file = event.target.files[0];
       if (!file) return;
@@ -234,26 +246,35 @@
       const fileName = `${currentUser.id}/avatar.${fileExt}`;
       const filePath = fileName;
       messageEl.textContent = 'Uploading image...';
+
       const { error } = await supabase.storage
         .from('avatars')
         .upload(filePath, file, { upsert: true });
+
       if (error) {
         messageEl.textContent = 'Upload failed: ' + error.message;
         return;
       }
-      const { publicURL, error: urlError } = supabase.storage.from('avatars').getPublicUrl(filePath);
+
+      const { publicURL, error: urlError } = supabase.storage
+        .from('avatars')
+        .getPublicUrl(filePath);
+
       if (urlError) {
         messageEl.textContent = 'Error getting image URL: ' + urlError.message;
         return;
       }
+
       avatarUrl = publicURL;
       profilePic.src = avatarUrl;
       messageEl.textContent = 'Profile picture updated. Don’t forget to Save Profile.';
     });
+
     form.addEventListener('submit', async (e) => {
       e.preventDefault();
       messageEl.textContent = '';
       form.querySelector('button[type=submit]').disabled = true;
+
       const updates = {
         id: currentUser.id,
         full_name: document.getElementById('full_name').value.trim(),
@@ -265,21 +286,27 @@
         avatar_url: avatarUrl,
         updated_at: new Date().toISOString()
       };
+
       const { error } = await supabase.from('profiles').upsert(updates);
+
       if (error) {
         messageEl.textContent = 'Error saving profile: ' + error.message;
       } else {
         messageEl.textContent = 'Profile updated successfully!';
+        localStorage.removeItem('newUser');
         setTimeout(() => {
           window.location.href = 'index.html';
         }, 1000);
       }
+
       form.querySelector('button[type=submit]').disabled = false;
     });
+
     logoutBtn.addEventListener('click', async () => {
       await supabase.auth.signOut();
       window.location.href = 'index.html';
     });
+
     checkUser();
   </script>
 </body>
