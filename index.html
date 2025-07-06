@@ -179,33 +179,37 @@
         flex-direction: column;
     }
 }
-
-    /* Core tab card styles */
+    /* Base tab card style */
 .tab-card {
   display: block;
   border-radius: 14px;
   padding: 20px;
   margin-bottom: 16px;
-  color: #000;
+  color: #1f2937; /* dark readable text */
   text-decoration: none;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   animation: fadeInUp 0.6s ease both;
 }
+
+/* Hover effect */
 .tab-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
-/* Unique styles for each tab */
+/* Vocabulary tab */
 .tab-vocab {
-  background: linear-gradient(to right, #dbeafe, #eff6ff); /* calm academic blue */
-  border-left: 5px solid #3b82f6;
+  background: linear-gradient(to right, #c7d2fe, #e0e7ff); /* rich readable blue background */
+  border-left: 5px solid #4338ca;
+  color: #111827; /* dark gray text for contrast */
 }
 
+/* Medical Abbreviations tab */
 .tab-abbrev {
-  background: linear-gradient(to right, #fff1f2, #ffe4e6); /* focused clinical pink */
-  border-left: 5px solid #f43f5e;
+  background: linear-gradient(to right, #fecdd3, #ffe4e6); /* soft pink tones */
+  border-left: 5px solid #be123c;
+  color: #1f2937; /* dark gray text */
 }
 
 /* Text layout */
@@ -223,11 +227,13 @@
 .tab-content p {
   margin: 4px 0;
   font-size: 0.95rem;
-  color: #333;
+  font-weight: 500;
 }
 
+/* Badge style */
 .badge {
-  background: #ffffffcc;
+  background: rgba(255, 255, 255, 0.8);
+  color: #111;
   padding: 4px 10px;
   border-radius: 12px;
   font-size: 0.75rem;
@@ -247,6 +253,8 @@
     transform: translateY(0);
   }
 }
+
+
   </style>
 </head>
   <script>
@@ -761,27 +769,35 @@
   setInterval(fetchNotices, 10000); // repeat every 10 sec
 </script>
 
-    <script>
-const files = [
-  'abbreviations.json',
-  'abbreviations1.json',
-  'abbreviations2.json',
-  'abbreviations3.json',
-  'abbreviations4.json',
-  'abbreviations5.json',
-  'abbreviations6.json'
-];
+<script>
+  const abbrevBadge = document.getElementById('abbrev-count');
+  const abbrevFiles = [
+    'abbreviations.json',
+    'abbreviations1.json',
+    'abbreviations2.json',
+    'abbreviations3.json',
+    'abbreviations4.json',
+    'abbreviations5.json',
+    'abbreviations6.json'
+  ];
 
-let total = 0;
+  async function countAbbreviations() {
+    try {
+      let total = 0;
+      for (const file of abbrevFiles) {
+        const res = await fetch(file);
+        if (!res.ok) throw new Error(`${file} failed to load`);
+        const data = await res.json();
+        total += data.length;
+      }
+      abbrevBadge.textContent = `${total} terms`;
+    } catch (err) {
+      console.error("Abbreviation count error:", err.message);
+      abbrevBadge.textContent = "⚠️ Load error";
+    }
+  }
 
-Promise.all(files.map(file => fetch(file).then(res => res.json())))
-  .then(results => {
-    results.forEach(arr => total += arr.length);
-    document.getElementById('abbrev-count').textContent = total + ' terms';
-  })
-  .catch(() => {
-    document.getElementById('abbrev-count').textContent = 'Failed to load';
-  });
+  countAbbreviations();
 </script>
 
 
