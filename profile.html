@@ -215,43 +215,55 @@
     textEl.style.color = 'red';
   }
 }
+async function checkUser() {
+  const { data: { session }, error: sessionError } = await supabase.auth.getSession();
 
+  if (sessionError || !session) {
+    window.location.href = 'index.html';
+    return;
+  }
 
-    async function checkUser() {
-      const { data: { session } } = await supabase.auth.getSession();
-      if (!session) {
-        window.location.href = 'index.html';
-        return;
-      }
+  currentUser = session.user;
 
-      currentUser = session.user;
+  try {
+    const { data, error } = await supabase
+      .from('profiles')
+      .select('full_name, school')
+      .eq('id', currentUser.id)
+      .single();
 
-      const { data, error } = await supabase
-        .from('profiles')
-        .select('full_name, school')
-        .eq('id', currentUser.id)
-        .single();
-if (!data || (!data.full_name && !data.school)) {
-  document.getElementById('welcome').style.display = 'block';
-  await loadProfile();
-  document.getElementById('loader').style.display = 'none';
-} else {
-  await loadProfile(); // still show form for updates
-  document.getElementById('loader').style.display = 'none';
+    if (error) {
+      updateProfileProgress('incomplete');
+      document.getElementById('welcome').style.display = 'block';
+    } else if (!data.full_name && !data.school) {
+      updateProfileProgress('incomplete');
+      document.getElementById('welcome').style.display = 'block';
+    } else {
+      updateProfileProgress(data.full_name && data.school ? 'complete' : 'partial');
+    }
+
+    await loadProfile(); // Always load to allow editing
+  } catch (err) {
+    messageEl.textContent = "Something went wrong while checking your session.";
+  } finally {
+    document.getElementById('loader').style.display = 'none';
+  }
 }
 
-      }
 
-      document.getElementById('welcome').style.display = 'block';
-      await loadProfile();
-      document.getElementById('loader').style.display = 'none';
-    }
+  
 
     async function loadProfile() {
       document.getElementById('email').value = currentUser.email;
 
       const { data, error } = await supabase
         .from('profiles')
+        if (!currentUser) {
+  messageEl.style.color = 'red';
+  messageEl.textContent = 'User not authenticated.';
+  return;
+}
+          
         .select('full_name, bio, school, phone, age, sex, avatar_url')
         .eq('id', currentUser.id)
         .single();
