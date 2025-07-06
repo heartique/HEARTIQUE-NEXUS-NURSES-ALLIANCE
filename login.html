@@ -195,21 +195,32 @@ function togglePasswordVisibility() {
           } else {
             localStorage.removeItem('savedEmail');
           }
+let retries = 0;
+async function waitForSessionAndRedirect() {
+  const { data: { session } } = await supabase.auth.getSession();
+  if (!session && retries < 10) {
+    retries++;
+    return setTimeout(waitForSessionAndRedirect, 300); // Wait & retry
+  }
 
-          setTimeout(async () => {
-            const { data: { session } } = await supabase.auth.getSession();
-            if (!session) return window.location.href = 'index.html'; // fallback
+  if (!session) {
+    msgEl.textContent = "⚠️ Couldn't establish session. Please try again.";
+    return;
+  }
 
-            const userId = session.user.id;
-            const { data: profile } = await supabase
-              .from('profiles')
-              .select('full_name, bio, school')
-              .eq('id', userId)
-              .single();
+  const userId = session.user.id;
+  const { data: profile } = await supabase
+    .from('profiles')
+    .select('full_name, bio, school')
+    .eq('id', userId)
+    .single();
 
-            const isProfileComplete = profile && profile.full_name && profile.bio && profile.school;
-            window.location.href = isProfileComplete ? 'index.html' : 'profile.html';
-          }, 1500);
+  const isProfileComplete = profile && profile.full_name && profile.bio && profile.school;
+  window.location.href = isProfileComplete ? 'index.html' : 'profile.html';
+}
+
+waitForSessionAndRedirect();
+
         }
       } finally {
         btn.disabled = false;
