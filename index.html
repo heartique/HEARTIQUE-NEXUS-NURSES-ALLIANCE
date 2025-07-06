@@ -180,73 +180,80 @@
     }
 }
 
-/* Horizontal container */
-.tab-container {
+    /* Tab container layout */
+.custom-tab-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 24px;
+  gap: 20px;
   padding: 20px;
+  max-width: 1000px;
+  margin: auto;
 }
 
-/* Card base */
-.tab-card {
-  flex: 1 1 320px;
+/* Compact tab cards */
+.custom-tab-card {
+  flex: 1 1 260px;
+  max-width: 320px;
   display: block;
-  border-radius: 16px;
-  padding: 24px;
+  border-radius: 14px;
+  padding: 16px 18px;
   text-decoration: none;
   color: #fff;
-  min-height: 200px;
+  min-height: 160px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   animation: slideIn 0.7s ease both;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 /* Hover effect */
-.tab-card:hover {
+.custom-tab-card:hover {
   transform: translateY(-6px);
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.3);
 }
 
-/* STRONG colors */
-.tab-vocab {
-  background-color: #0b5ed7; /* Deep royal blue */
+/* Strong background colors */
+.custom-tab-vocab {
+  background-color: #1d4ed8 !important; /* Royal Blue */
 }
 
-.tab-abbrev {
-  background-color: #b91c1c; /* Deep strong red */
+.custom-tab-abbrev {
+  background-color: #dc2626 !important; /* Deep Red */
 }
 
-/* Text content */
+/* Inside content */
 .tab-icon {
-  font-size: 2.4rem;
-  margin-bottom: 12px;
+  font-size: 1.8rem;
+  margin-bottom: 8px;
 }
+
 .tab-content h2 {
-  margin: 0 0 6px;
-  font-size: 1.5rem;
-  font-weight: bold;
+  margin: 0 0 4px;
+  font-size: 1.2rem;
+  font-weight: 600;
 }
+
 .tab-content p {
-  margin: 0 0 12px;
-  font-size: 1rem;
+  margin: 0 0 8px;
+  font-size: 0.88rem;
   font-weight: 400;
+  line-height: 1.3;
 }
+
 .badge {
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.2);
   color: #fff;
-  padding: 6px 14px;
-  border-radius: 16px;
-  font-size: 0.8rem;
-  font-weight: bold;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 0.7rem;
+  font-weight: 500;
 }
 
 /* Slide-in animation */
 @keyframes slideIn {
   from {
     opacity: 0;
-    transform: translateX(60px);
+    transform: translateX(40px);
   }
   to {
     opacity: 1;
@@ -254,15 +261,16 @@
   }
 }
 
-/* 📱 Responsive for mobile */
+/* Mobile-friendly layout */
 @media (max-width: 768px) {
-  .tab-container {
+  .custom-tab-container {
     flex-direction: column;
-    align-items: stretch;
+    align-items: center;
   }
 
-  .tab-card {
-    width: 100%;
+  .custom-tab-card {
+    width: 90%;
+    max-width: 360px;
   }
 }
 
@@ -322,26 +330,25 @@
         <li onclick="location.href='block5.html'">Block 5 Notes</li>
         <li onclick="location.href='block6.html'">Block 6 Notes</li>
   </ul> 
-<a href="vocabulary.html" class="tab-card animated tab-vocab">
-  <div class="tab-icon">📘</div>
-  <div class="tab-content">
-    <h2>NURSE WHISPERS</h2>
-    <p>Most-used nursing & medical terms all in one place.</p>
-    <span id="vocab-count" class="badge">Loading...</span>
-  </div>
-</a>
+<div class="custom-tab-container">
+  <a href="vocabulary.html" class="custom-tab-card custom-tab-vocab">
+    <div class="tab-icon">📘</div>
+    <div class="tab-content">
+      <h2>NURSE WHISPERS</h2>
+      <p>Most-used nursing & medical terms all in one place.</p>
+      <span id="vocab-count" class="badge">Loading...</span>
+    </div>
+  </a>
 
-<a href="medicalabbreviations.html" class="tab-card animated tab-abbrev">
-  <div class="tab-icon">⚕️</div>
-  <div class="tab-content">
-    <h2>MED ABBREVIATIONS</h2>
-    <p>Quick access to essential medical abbreviations every nurse must know.</p>
-    <span id="abbrev-count" class="badge">Loading...</span>
-  </div>
-</a>
-
-
-
+  <a href="medicalabbreviations.html" class="custom-tab-card custom-tab-abbrev">
+    <div class="tab-icon">⚕️</div>
+    <div class="tab-content">
+      <h2>MED ABBREVIATIONS</h2>
+      <p>Quick access to essential medical abbreviations every nurse must know.</p>
+      <span id="abbrev-count" class="badge">Loading...</span>
+    </div>
+  </a>
+</div>
      <section>
   <h2>🎯 Core Objectives for Nursing Students</h2>
   <ul id="objectivesList">
