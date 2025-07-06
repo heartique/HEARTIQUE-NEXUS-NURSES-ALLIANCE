@@ -181,9 +181,21 @@
     let isLogin = true;
 
     // Redirect to home if already logged in
-    supabase.auth.getSession().then(({ data: { session } }) => {
-      if (session) window.location.href = 'index.html';
-    });
+   supabase.auth.getSession().then(async ({ data: { session } }) => {
+  if (!session) return;
+
+  const userId = session.user.id;
+  const { data: profile } = await supabase
+    .from('profiles')
+    .select('full_name, bio, school')
+    .eq('id', userId)
+    .single();
+
+  const isProfileComplete = profile && profile.full_name && profile.bio && profile.school;
+
+  window.location.href = isProfileComplete ? 'index.html' : 'profile.html';
+});
+
 
     function toggleMode() {
       const form = document.querySelector('.form');
@@ -215,61 +227,72 @@
         toggleBtn.textContent = '👁️';
       }
     }
-
     async function handleAuth() {
-      const email = document.getElementById('email').value.trim();
-      const password = document.getElementById('password').value.trim();
-      const full_name = document.getElementById('full_name')?.value.trim();
-      const rememberMe = document.getElementById('remember-me').checked;
-      const msgEl = document.getElementById('message');
-      const btn = document.getElementById('auth-button');
+  const email = document.getElementById('email').value.trim();
+  const password = document.getElementById('password').value.trim();
+  const full_name = document.getElementById('full_name')?.value.trim();
+  const rememberMe = document.getElementById('remember-me').checked;
+  const msgEl = document.getElementById('message');
+  const btn = document.getElementById('auth-button');
 
-      msgEl.textContent = '';
+  msgEl.textContent = '';
+  btn.disabled = true;
+  const originalText = btn.textContent;
+  btn.textContent = '⏳ Processing...';
 
-      // Show loading state
-      btn.disabled = true;
-      const originalText = btn.textContent;
-      btn.textContent = '⏳ Processing...';
-
-      try {
-        if (isLogin) {
-          const { error, data } = await supabase.auth.signInWithPassword({ email, password });
-          if (error) {
-            msgEl.style.color = 'red';
-            msgEl.textContent = error.message;
-          } else {
-            msgEl.style.color = 'green';
-            msgEl.textContent = '✅ Logged in! Redirecting...';
-            if (rememberMe) {
-              localStorage.setItem('savedEmail', email);
-            } else {
-              localStorage.removeItem('savedEmail');
-            }
-            setTimeout(() => window.location.href = 'index.html', 1500);
-          }
-        } else {
-          const { data, error } = await supabase.auth.signUp({ email, password });
-          if (error) {
-            if (error.message.includes('already registered')) {
-              alert('📧 This email is already registered.');
-            }
-            msgEl.style.color = 'red';
-            msgEl.textContent = error.message;
-          } else {
-            await supabase.from('profiles').insert([{ id: data.user.id, full_name }]);
-            localStorage.setItem('full_name', full_name);
-            msgEl.style.color = 'green';
-            msgEl.textContent = '✅ Account created! Let’s set up your profile...';
-            startCountdown();
-            setTimeout(() => window.location.href = 'profile.html', 1500);
-
-          }
-        }
-      } finally {
-        btn.disabled = false;
-        btn.textContent = originalText;
+  try {
+    if (isLogin) {
+      const { data: loginData, error } = await supabase.auth.signInWithPassword({ email, password });
+      if (error) {
+        msgEl.style.color = 'red';
+        msgEl.textContent = error.message;
+        return;
       }
+
+      const userId = loginData.user.id;
+      const { data: profile } = await supabase
+        .from('profiles')
+        .select('full_name, bio, school')
+        .eq('id', userId)
+        .single();
+
+      const isProfileComplete = profile && profile.full_name && profile.bio && profile.school;
+
+      msgEl.style.color = 'green';
+      msgEl.textContent = isProfileComplete
+        ? '✅ Logged in! Redirecting to homepage...'
+        : '✅ Logged in! Redirecting to profile setup...';
+
+      if (rememberMe) {
+        localStorage.setItem('savedEmail', email);
+      } else {
+        localStorage.removeItem('savedEmail');
+      }
+
+      setTimeout(() => {
+        window.location.href = isProfileComplete ? 'index.html' : 'profile.html';
+      }, 1500);
+
+    } else {
+      const { data, error } = await supabase.auth.signUp({ email, password });
+      if (error) {
+        msgEl.style.color = 'red';
+        msgEl.textContent = error.message;
+        return;
+      }
+
+      await supabase.from('profiles').insert([{ id: data.user.id, full_name }]);
+      localStorage.setItem('full_name', full_name);
+      msgEl.style.color = 'green';
+      msgEl.textContent = '✅ Account created! Let’s set up your profile...';
+
+      setTimeout(() => window.location.href = 'profile.html', 1500);
     }
+  } finally {
+    btn.disabled = false;
+    btn.textContent = originalText;
+  }
+}
 
     function startCountdown() {
       const btn = document.getElementById('auth-button');
