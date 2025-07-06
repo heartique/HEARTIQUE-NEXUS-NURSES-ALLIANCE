@@ -598,8 +598,240 @@
     "answer": "B",
     "explanation": "Amenorrhea is a well-known and very common side effect of long-term use of the Depo-Provera injection. The progestin in the injection suppresses ovulation and causes significant thinning of the endometrium (uterine lining). With a very thin lining, there is little to no tissue to shed, resulting in the absence of menstrual periods. Approximately 50% of users are amenorrheic after one year of use.\n\nAnalyzing the Other Options:\n\nA) Birth control pills: Typically cause lighter, more regular withdrawal bleeding, not complete amenorrhea, although some low-dose continuous pills can.\n\nC) Male condom: Has no effect on the menstrual cycle.\n\nD) IUD: This is ambiguous. The Hormonal IUD also commonly causes amenorrhea. The Copper IUD typically causes heavier bleeding.\n\nBetween the given choices, Depo-Provera is the method most famously associated with causing amenorrhea.",
     "additional": "Is Amenorrhea Harmful? The amenorrhea caused by hormonal methods like Depo-Provera or the hormonal IUD is not harmful. It does not mean a woman is in menopause or that blood is \"building up.\" Many women consider it a significant benefit of the method.\n\nPossible Next Questions: \"Explain the physiological reason why Depo-Provera can lead to amenorrhea.\""
+  },
+  {
+    "question": "What is the primary goal of family planning programs?",
+    "options": {
+      "A": "To promote large families",
+      "B": "To provide contraceptive methods and information to individuals and couples to enable them to make informed choices about the number and spacing of their children",
+      "C": "To restrict access to contraception",
+      "D": "To encourage unplanned pregnancies"
+    },
+    "answer": "B",
+    "explanation": "This question defines the fundamental purpose of family planning services.\n\nFamily Planning: The ability of individuals and couples to anticipate and attain their desired number of children and the spacing and timing of their births. It is achieved through the use of contraceptive methods and the treatment of involuntary infertility.\n\nPrimary Goal: The core goal is to empower individuals with choice and information. It is not about telling people how many children to have (A), but about providing them with the knowledge and tools (contraception) to realize their own reproductive goals. This helps prevent unintended pregnancies, improves maternal and child health outcomes by allowing for healthy spacing, and is recognized as a fundamental human right.\n\nA, C, and D are the exact opposite of the goals of family planning.",
+    "additional": "NCK August 2025:\n\n1. The Benefits of Family Planning:\nThis is a key advocacy point and important knowledge for nurses.\n\nMaternal Health: Reduces maternal mortality by preventing high-risk and unintended pregnancies.\n\nChild Health: Improves child survival by allowing for healthy spacing between births (at least 2-3 years).\n\nHIV Prevention: Condoms prevent both pregnancy and HIV transmission. Family planning helps HIV-positive women plan their pregnancies to reduce the risk of MTCT.\n\nWomen's Empowerment: Enables women to pursue education and economic opportunities.\n\nEconomic Development: Slower population growth can reduce pressure on social services and the environment.\n\nFuture Question Idea: \"A nurse explains that spacing births at least two years apart is important for which primary reason?\" (Answer: \"To improve the health outcomes for both the mother and the children.\")"
+  },
+  {
+    "question": "What is the term for a family planning method that can be used immediately after childbirth to prevent pregnancy?",
+    "options": {
+      "A": "Preconception care",
+      "B": "Postpartum contraception",
+      "C": "Fertility awareness-based methods",
+      "D": "Natural family planning"
+    },
+    "answer": "B",
+    "explanation": "This question defines contraception specifically in the period after delivery.\n\nPostpartum Period: The period beginning immediately after childbirth, typically lasting for six weeks.\n\nPostpartum Contraception: The provision of family planning services during this period. It is a critical time to initiate contraception because fertility can return quickly (even before the first menstrual period), and another pregnancy soon after birth carries increased risks.\n\nMethods: Many contraceptive methods can be started immediately postpartum, including progestin-only methods (implants, injections, progestin-only pills) and IUDs. Combined hormonal contraceptives (containing estrogen) are usually delayed for a few weeks due to a small risk of blood clots and potential effects on breast milk supply.\n\nA occurs before pregnancy. C and D are general categories of methods, not specific to the postpartum period.",
+    "additional": "NCK August 2025:\n\n1. Lactational Amenorrhea Method (LAM):\n\nThis is a unique, natural, and highly effective (98%) postpartum family planning method.\n\nThree Criteria Must Be Met:\n- The woman is exclusively or nearly exclusively breastfeeding (day and night, with no long intervals between feeds).\n- Her menstrual periods (menses) have not yet returned.\n- Her baby is less than 6 months old.\n\nIf any one of these three conditions is no longer true, the woman must immediately start using another form of contraception.\n\nFuture Question Idea: \"A woman who is 4 months postpartum, exclusively breastfeeding, and has not had a period asks if she is protected from pregnancy. The nurse's best response is:\" (Answer: \"Yes, as long as all three conditions for the Lactational Amenorrhea Method are being met.\")"
+  },
+  {
+    "question": "What family planning method relies on identifying a woman's fertile period in her menstrual cycle and avoiding intercourse during that time to prevent pregnancy?",
+    "options": {
+      "A": "Barrier methods",
+      "B": "Hormonal methods",
+      "C": "Fertility awareness-based methods",
+      "D": "Emergency contraception"
+    },
+    "answer": "C",
+    "explanation": "This question defines a category of methods also known as \"natural family planning.\"\n\nFertility Awareness-Based Methods (FABMs): These methods involve tracking a woman's fertility signs to determine the \"fertile window\" (the days in the menstrual cycle when pregnancy is possible). To prevent pregnancy, the couple avoids unprotected intercourse during this fertile time.\n\nMethods of Tracking:\n- Calendar Method: Tracking cycle length.\n- Basal Body Temperature (BBT) Method: Tracking the slight rise in temperature after ovulation.\n- Cervical Mucus Method: Tracking changes in the consistency of cervical mucus.\n- Sympto-thermal Method: Combining temperature, mucus, and other signs.\n\nThese methods require significant user commitment and education and are generally less effective than hormonal or long-acting methods.",
+    "additional": "NCK August 2025:\n\nFABMs are popular due to cultural and religious beliefs, especially in rural Kenya, but are among the least effective in typical use.\n\nFuture Question Idea: \"Which natural method of family planning requires tracking cervical mucus and body temperature?\" (Answer: Sympto-thermal method)."
+  },
+  {
+    "question": "Which of the following contraceptive methods involves the surgical sealing or blocking of a woman's fallopian tubes to prevent pregnancy?",
+    "options": {
+      "A": "Intrauterine device (IUD)",
+      "B": "Tubal ligation",
+      "C": "Condom",
+      "D": "Oral contraceptive pills"
+    },
+    "answer": "B",
+    "explanation": "This question defines female sterilization, a permanent method of contraception.\n\nTubal Ligation: A surgical procedure where a woman's fallopian tubes are cut, tied, or blocked. This physically prevents the egg from traveling from the ovary to the uterus and prevents sperm from reaching the egg.\n\nIt is a permanent method. While reversal procedures exist, they are complex, expensive, and not always successful. Therefore, it is intended for women who are certain they do not want any more children.\n\nAn IUD (A) is a long-acting but reversible device placed in the uterus. Condoms (C) are a barrier method. Oral pills (D) are a hormonal method.",
+    "additional": "NCK August 2025:\n\n1. Male Sterilization: Vasectomy:\n\nProcedure: A minor surgical procedure that involves cutting or blocking the vas deferens, the tubes that carry sperm from the testicles. This prevents sperm from being included in the semen.\n\nComparison to Tubal Ligation: Vasectomy is simpler, safer, less expensive, and has a lower failure rate than tubal ligation.\n\nImportant Counseling Point: A man is not sterile immediately after a vasectomy. It takes several weeks or months (and about 20 ejaculations) for the remaining sperm to be cleared from the reproductive tract. A backup contraceptive method must be used until a semen analysis confirms there are no sperm.\n\nFuture Question Idea: \"A man who had a vasectomy one week ago asks if he can stop using condoms for contraception. What is the nurse's most accurate advice?\" (Answer: \"No, you must continue using a backup method until a follow-up semen analysis confirms you are sterile.\")"
+  },
+  {
+    "question": "What is the primary mechanism of action for hormonal contraceptive methods like birth control pills or hormonal injections?",
+    "options": {
+      "A": "Preventing fertilization",
+      "B": "Blocking sperm from reaching the egg",
+      "C": "Altering the menstrual cycle",
+      "D": "Providing immediate protection"
+    },
+    "answer": "A",
+    "explanation": "Hormonal contraceptives contain synthetic versions of the hormones estrogen and/or progestin. They work in several ways to prevent fertilization (A).\n\nPrimary Mechanism: The main way they work is by preventing ovulation. The hormones suppress the release of follicle-stimulating hormone (FSH) and luteinizing hormone (LH) from the pituitary gland, which prevents the ovaries from releasing an egg. If no egg is released, fertilization cannot occur.\n\nSecondary Mechanisms: They also have backup effects:\n- They thicken the cervical mucus, which makes it difficult for sperm to travel through the cervix to reach the uterus (B).\n- They thin the lining of the uterus (endometrium), making it less suitable for a fertilized egg to implant.\n\nAltering the menstrual cycle (C) is a side effect, not the primary mechanism. They do not provide immediate protection (D); it often takes about 7 days for them to become effective.",
+    "additional": "NCK August 2025:\n\nNurses must know the hormonal mechanisms to counsel clients on how and when to start, what to expect (e.g., bleeding changes), and when to use backup methods.\n\nFuture Question Idea: \"Which mechanism best explains how combined oral contraceptives prevent pregnancy?\" (Answer: By suppressing ovulation)."
+  },
+  {
+    "question": "Which family planning method is also known as the 'morning-after pill' and is used as emergency contraception to prevent pregnancy after unprotected intercourse or contraceptive failure?",
+    "options": {
+      "A": "Tubal ligation",
+      "B": "Permanent contraception",
+      "C": "Emergency contraception",
+      "D": "Natural family planning"
+    },
+    "answer": "C",
+    "explanation": "This question defines a specific backup method of contraception.\n\nEmergency Contraception (EC): Contraceptive methods that can be used to prevent pregnancy in the first few days after unprotected intercourse. It is intended for occasional or \"emergency\" use, not as a regular method of family planning.\n\n\"Morning-After Pill\": This is the common term for emergency contraceptive pills (ECPs).\n\nHow it Works: ECPs primarily work by delaying or inhibiting ovulation. They may also affect the cervical mucus or the uterine lining.\n\nImportant Note: Emergency contraception is not the same as an abortion pill (like mifepristone). EC prevents a pregnancy from occurring; it does not terminate an established pregnancy.\n\nA and B are permanent methods. D is a regular, ongoing method.",
+    "additional": "NCK August 2025:\n\n1. Types of Emergency Contraception:\n\nLevonorgestrel Pill (a progestin): This is the most common type of ECP. It is most effective when taken as soon as possible after unprotected sex, and its effectiveness decreases over time. It should be taken within 72 hours (3 days), though it has some effect up to 120 hours (5 days).\n\nUlipristal Acetate Pill: A newer, more effective type of ECP that can be taken up to 120 hours (5 days) after unprotected sex without a significant loss in effectiveness.\n\nCopper Intrauterine Device (IUD): The most effective form of emergency contraception. If inserted within 5 days of unprotected intercourse, it is over 99.9% effective at preventing pregnancy. It can then be left in place to provide highly effective, long-term contraception.\n\nFuture Question Idea: \"A 20-year-old woman comes to the clinic seeking emergency contraception 4 days (96 hours) after unprotected intercourse. Which method would be the most effective option for her?\" (Answer: A Copper IUD)."
+  },
+  {
+    "question": "What is the primary advantage of long-acting reversible contraceptive methods (LARCs) such as intrauterine devices (IUDs) or contraceptive implants?",
+    "options": {
+      "A": "They require daily maintenance.",
+      "B": "They provide permanent contraception.",
+      "C": "They are highly effective and require less frequent administration.",
+      "D": "They are easily reversible."
+    },
+    "answer": "C",
+    "explanation": "This question asks for the main benefit of a highly recommended category of contraception.\n\nLong-Acting Reversible Contraception (LARC): Methods of birth control that provide effective contraception for an extended period without requiring user action. They are \"fit and forget\" methods.\n\nPrimary Advantage: LARCs are the most effective forms of reversible contraception because they eliminate user error. Unlike pills that must be taken daily or condoms that must be used correctly every time, once a LARC is in place, it works continuously. This leads to very high \"typical use\" effectiveness rates (>99%), similar to sterilization.\n\nA is incorrect; their advantage is the lack of daily maintenance.\n\nB is incorrect; they are reversible, not permanent.\n\nD is a key advantage (they are reversible), but their high, user-independent efficacy (C) is what truly sets them apart from shorter-acting methods.",
+    "additional": "NCK August 2025:\n\n1. The Tiers of Contraceptive Effectiveness:\nThis is a useful way to counsel patients.\n\nTier 1 (Most Effective - <1 pregnancy per 100 women per year):\n- Implants (e.g., Nexplanon)\n- IUDs (Hormonal like Mirena/Kyleena; Copper IUD)\n- Sterilization (Tubal Ligation, Vasectomy)\n\nTier 2 (Moderately Effective - 6–12 pregnancies per 100 women per year):\n- Injectables (e.g., Depo-Provera)\n- Pills\n- Patch\n- Vaginal Ring\n\nTier 3 (Least Effective - >18 pregnancies per 100 women per year):\n- Condoms (male and female)\n- Diaphragm\n- Fertility Awareness-Based Methods\n- Withdrawal (coitus interruptus)\n\nFuture Question Idea: \"A nurse is counseling a client who wants the most effective form of reversible contraception and has difficulty remembering to take a daily pill. Which of the following would be the best recommendation?\" (Answer: \"An IUD or a contraceptive implant.\")"
+  },
+  {
+    "question": "What family planning method involves the use of a physical barrier to prevent sperm from reaching the egg, such as condoms or diaphragms?",
+    "options": {
+      "A": "Hormonal methods",
+      "B": "Natural family planning",
+      "C": "Barrier methods",
+      "D": "Emergency contraception"
+    },
+    "answer": "C",
+    "explanation": "This question provides the definition for a major category of contraception.\n\nBarrier Methods: Contraceptive methods that work by creating a physical barrier to block sperm from entering the uterus and reaching the egg.\n\nExamples:\n- Male condoms\n- Female condoms\n- Diaphragms\n- Cervical caps\n- Spermicides (a chemical barrier, often used with physical barriers).\n\nA key advantage of condoms is that they are the only method that provides dual protection—they prevent both pregnancy and the transmission of sexually transmitted infections (STIs), including HIV.",
+    "additional": "NCK August 2025:\n\nBarrier methods are especially important in STI prevention education in clinical and community settings.\n\nFuture Question Idea: \"Which contraceptive method provides both pregnancy prevention and protection from STIs?\" (Answer: Male or female condoms)."
+  },
+  {
+    "question": "Which of the following statements is true about emergency contraception?",
+    "options": {
+      "A": "It can only be used before intercourse.",
+      "B": "It is effective in terminating an established pregnancy.",
+      "C": "It is most effective when used within 72 hours of unprotected intercourse.",
+      "D": "It requires a prescription for use."
+    },
+    "answer": "C",
+    "explanation": "This question tests specific knowledge about the use of emergency contraceptive pills (ECPs).\n\nC is TRUE: For the common levonorgestrel-based ECPs, effectiveness is highest when taken as soon as possible after unprotected sex and declines with each day that passes. The 72-hour (3-day) window is the standard timeframe for high efficacy.\n\nA is FALSE: It is used after intercourse.\n\nB is FALSE: This is a critical point. ECPs work by preventing pregnancy (primarily by stopping ovulation). They are not abortion pills and will not harm an existing pregnancy.\n\nD is FALSE: In many countries, including Kenya, ECPs are available over-the-counter in pharmacies without a prescription to ensure rapid access.",
+    "additional": "NCK August 2025:\n\nStudents should be able to clearly distinguish between emergency contraception and abortion.\n\nFuture Question Idea: \"Which best describes the action of levonorgestrel emergency contraception?\" (Answer: Prevents ovulation and must be taken as soon as possible after unprotected intercourse)."
+  },
+  {
+    "question": "What is the term for the intentional cessation of pregnancy?",
+    "options": {
+      "A": "Contraception",
+      "B": "Abortion",
+      "C": "Sterilization",
+      "D": "Natural family planning"
+    },
+    "answer": "B",
+    "explanation": "This is a straightforward definition question.\n\nAbortion: The termination of a pregnancy after the fertilized egg has implanted in the uterus. This can occur spontaneously (a miscarriage) or it can be induced through medical or surgical means. In the context of family planning, the term usually refers to induced abortion.\n\nContraception (A): The prevention of pregnancy before it occurs.\n\nSterilization (C): A permanent method of contraception.\n\nNatural family planning (D): A method of contraception based on fertility awareness.",
+    "additional": "NCK August 2025:\n\nIt’s important to know the distinction between contraception and abortion, especially for counseling and legal clarity.\n\nFuture Question Idea: \"Which of the following best defines induced abortion?\" (Answer: Intentional termination of pregnancy through medical or surgical means.)"
+  },
+  {
+    "question": "Which family planning method is considered the most effective reversible contraceptive method and involves the insertion of a small T-shaped device into the uterus by a healthcare provider?",
+    "options": {
+      "A": "Emergency contraception",
+      "B": "Condom",
+      "C": "Oral contraceptive pills",
+      "D": "Intrauterine device (IUD)"
+    },
+    "answer": "D",
+    "explanation": "This question describes the characteristics of an IUD, a top-tier LARC method.\n\nIntrauterine Device (IUD): A small, T-shaped device that is inserted into the uterus by a trained healthcare provider to prevent pregnancy. IUDs are a form of Long-Acting Reversible Contraception (LARC) and are among the most effective contraceptive methods available, with a failure rate of less than 1%.\n\nTypes:\n- Copper IUD: Contains no hormones. It is wrapped in copper, which is toxic to sperm and prevents fertilization. It can last for up to 10–12 years.\n- Hormonal IUD (or Intrauterine System - IUS): Releases a small amount of progestin (levonorgestrel), which thickens cervical mucus and thins the uterine lining. It can last for 3–8 years depending on the brand.\n\nA, B, and C are less effective than an IUD because they are more prone to user error.",
+    "additional": "NCK August 2025:\n\nStudents should recognize the IUD as a top-tier method.\n\nFuture Question Idea: \"Which reversible contraceptive method offers the highest long-term effectiveness with a single provider visit?\" (Answer: IUD)."
+  },
+  {
+    "question": "What is the primary mechanism of action of barrier methods like condoms?",
+    "options": {
+      "A": "Altering the menstrual cycle",
+      "B": "Preventing fertilization by physically blocking the sperm from reaching the egg",
+      "C": "Inhibiting the release of an egg from the ovary",
+      "D": "Providing immediate protection"
+    },
+    "answer": "B",
+    "explanation": "This question asks how barrier methods work.\n\nMechanism of Action: The core function of a barrier method is to create a physical block. For male condoms, it's a sheath that covers the penis and collects semen, preventing sperm from entering the vagina and reaching the egg.\n\nA and C describe mechanisms of hormonal methods.\nD is a characteristic (they do provide immediate protection), but it doesn’t describe *how* they work. B is the most precise description.",
+    "additional": "NCK August 2025:\n\nBarrier methods should be highlighted for their dual protection (against both pregnancy and STIs).\n\nFuture Question Idea: \"Which method provides immediate protection and prevents both pregnancy and STIs when used correctly?\" (Answer: Male condom)."
+  },
+  {
+    "question": "What is the term for the process of permanently preventing pregnancy through surgical methods, such as tubal ligation for women and vasectomy for men?",
+    "options": {
+      "A": "Contraception",
+      "B": "Sterilization",
+      "C": "Natural family planning",
+      "D": "Fertility awareness-based methods"
+    },
+    "answer": "B",
+    "explanation": "This question is a straightforward definition of permanent contraception.\n\nSterilization: Surgical procedures that permanently prevent a person from being able to reproduce. It is intended for individuals or couples who are certain they have completed their family size.\n\n- Female Sterilization: Tubal ligation\n- Male Sterilization: Vasectomy\n\nA) Contraception is a general term that includes both permanent and reversible methods. B is more specific and thus correct.",
+    "additional": "NCK August 2025:\n\nKey counseling point: Ensure informed consent and understanding of the permanence of sterilization.\n\nFuture Question Idea: \"Which method permanently prevents pregnancy and is typically chosen by couples who are certain they want no more children?\" (Answer: Sterilization)."
+  },
+  {
+    "question": "Which family planning method is based on identifying naturally occurring fertile and infertile periods in a woman's menstrual cycle and involves abstaining from sexual intercourse during fertile periods?",
+    "options": {
+      "A": "Sterilization",
+      "B": "Emergency contraception",
+      "C": "Fertility awareness-based methods",
+      "D": "Hormonal methods"
+    },
+    "answer": "C",
+    "explanation": "This question is a repeat of the concept from Q342, reinforcing the definition of FABMs.\n\nFertility Awareness-Based Methods (FABMs): A collection of methods that involve tracking signs and symptoms of fertility during the menstrual cycle to identify the 'fertile window'. Couples abstain from intercourse or use protection during fertile days. These methods are often referred to as 'natural family planning'.",
+    "additional": "NCK August 2025:\n\n1. Standard Days Method® and CycleBeads®:\n- Works for women with 26–32 day cycles.\n- Days 8–19 are considered fertile.\n- CycleBeads® help users visually track their cycle.\n\nFuture Question Idea: \"A woman using the Standard Days Method should be counseled to avoid unprotected intercourse during which days of her cycle?\" (Answer: Days 8–19)."
+  },
+  {
+    "question": "Which of the following contraceptive methods does not require a prescription and is available over the counter in many places?",
+    "options": {
+      "A": "Intrauterine device (IUD)",
+      "B": "Hormonal contraceptive pills",
+      "C": "Condom",
+      "D": "Emergency contraception"
+    },
+    "answer": "C",
+    "explanation": "This question tests knowledge of contraceptive accessibility.\n\nCondom (C): Male condoms are widely available without a prescription in pharmacies, shops, vending machines, and clinics. Their accessibility is a major public health advantage.\n\nD) Emergency contraception is also available over the counter in many places (including Kenya), but C is the most universally non-prescription method.\n\nA) IUD requires a provider.\nB) Hormonal pills usually require a prescription.",
+    "additional": "NCK August 2025:\n\nEmphasize the public health importance of easy access to condoms.\n\nFuture Question Idea: \"Which contraceptive method is the most widely accessible over the counter and also protects against STIs?\" (Answer: Condom)."
+  },
+  {
+    "question": "What is the primary advantage of natural family planning methods?",
+    "options": {
+      "A": "They are the most effective contraceptive methods.",
+      "B": "They do not require any tracking or awareness of a woman's menstrual cycle.",
+      "C": "They have no side effects.",
+      "D": "They are easily reversible."
+    },
+    "answer": "C",
+    "explanation": "This question asks for the main benefit of Fertility Awareness-Based Methods (FABMs).\n\nNo Side Effects: These methods involve no drugs, hormones, or devices, so they do not cause direct medical side effects. This makes them appealing to women who have contraindications to hormonal methods or prefer natural approaches. They are also acceptable across many cultural and religious beliefs.\n\nA is incorrect: Natural methods are among the least effective due to user error and menstrual cycle variability.\nB is incorrect: They require extensive tracking and awareness.\nD is true (FABMs are easily reversible), but the absence of side effects (C) is the most distinct and defining benefit.",
+    "additional": "NCK August 2025:\n\nFABMs are part of patient-centered reproductive choices and must be taught with proper cycle tracking education.\n\nFuture Question Idea: \"Which family planning method is natural, reversible, and avoids hormonal side effects?\" (Answer: Fertility Awareness-Based Methods)."
+  },
+  {
+    "question": "What is the term for the practice of spacing pregnancies by avoiding conception for a certain period, often through the use of contraception?",
+    "options": {
+      "A": "Sterilization",
+      "B": "Fertility awareness",
+      "C": "Birth control",
+      "D": "Abortion"
+    },
+    "answer": "C",
+    "explanation": "This question asks for the general term used to describe pregnancy prevention.\n\nBirth Control (or Contraception): Refers to all methods used to prevent pregnancy, including hormonal methods, barrier methods, natural methods, and sterilization. Spacing pregnancies through these means improves maternal and child health outcomes.\n\nA is incorrect: Sterilization is a permanent method, not specifically about spacing.\nB is incorrect: Fertility awareness is one category of birth control.\nD is incorrect: Abortion is not a spacing method—it terminates an existing pregnancy.",
+    "additional": "NCK August 2025:\n\nSpacing pregnancies is a cornerstone of maternal-child health, and birth control is key to achieving it.\n\nFuture Question Idea: \"Which term describes all methods used to prevent pregnancy and space births?\" (Answer: Birth control)."
+  },
+  {
+    "question": "Which family planning method allows a woman to breastfeed her child and use breastfeeding as a natural form of birth control?",
+    "options": {
+      "A": "Condom",
+      "B": "Emergency contraception",
+      "C": "Lactational amenorrhea method (LAM)",
+      "D": "Sterilization"
+    },
+    "answer": "C",
+    "explanation": "This question defines a specific postpartum natural method of contraception.\n\nLactational Amenorrhea Method (LAM): A natural method based on the biological suppression of ovulation through exclusive breastfeeding.\n\nEffective (98%) if the following 3 criteria are met:\n1. The woman is exclusively or nearly exclusively breastfeeding.\n2. Her menses have not returned.\n3. The baby is less than 6 months old.\n\nOnce any criterion changes, another contraceptive method should be started immediately.",
+    "additional": "NCK August 2025:\n\nLAM physiology: Breastfeeding disrupts GnRH and LH release, suppressing ovulation.\n\nFuture Question Idea: \"A woman’s baby just turned 6 months old and she’s using LAM. What should the nurse advise?\" (Answer: Start a new family planning method immediately.)"
+  },
+  {
+    "question": "What is the term for the number of live births per 1,000 women of reproductive age in a given year?",
+    "options": {
+      "A": "Total fertility rate",
+      "B": "Sterilization rate",
+      "C": "Contraceptive prevalence rate",
+      "D": "Infant mortality rate"
+    },
+    "answer": "A",
+    "explanation": "Clarification: The definition in the question is technically for the General Fertility Rate (GFR). However, the Total Fertility Rate (TFR) is the commonly cited demographic indicator and may be the intended answer.\n\nTotal Fertility Rate (TFR): The average number of children a woman would have if she experienced current age-specific fertility rates throughout her reproductive years.\n\nGFR: Number of live births per 1,000 women of reproductive age (15–49) in a year.\n\nB) Sterilization rate: % of women/men using sterilization.\nC) CPR: % of women using any contraceptive method.\nD) IMR: Number of infant deaths (<1 year) per 1,000 live births.",
+    "additional": "NCK August 2025:\n\nStudents must distinguish between TFR, GFR, and CPR. Although GFR fits the definition, TFR is the more emphasized demographic measure.\n\nFuture Question Idea: \"Which fertility indicator measures the average number of children a woman would bear during her lifetime?\" (Answer: Total Fertility Rate)."
   }
 ]
+
+
+
+
 
 
 
