@@ -289,7 +289,15 @@
     }
 
     // Autofill saved email and checkbox on page load if Remember Me was used
-    window.addEventListener('DOMContentLoaded', () => {
+    window.addEventListener('DOMContentLoaded', () => 
+        // Force default state to Login mode
+ { isLogin = true;
+  document.getElementById('form-title').textContent = 'Login';
+  document.getElementById('auth-button').textContent = 'Login';
+  document.getElementById('toggle-text').textContent = "Don't have an account?";
+  document.querySelector('.toggle a').textContent = 'Create one';
+  document.getElementById('name-field').style.display = 'none';
+
       const savedEmail = localStorage.getItem('savedEmail');
       if (savedEmail) {
         document.getElementById('email').value = savedEmail;
