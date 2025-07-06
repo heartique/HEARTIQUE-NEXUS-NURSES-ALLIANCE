@@ -126,29 +126,26 @@
 
       <h2 id="form-title">LOGIN TO HEARTIQUE NURSING NEXUS PORTAL</h2>
 
-      <!-- Shared fields -->
-      <div id="shared-fields">
-        <input type="email" id="email" placeholder="Email" required />
-
-        <div style="position: relative; width: 100%; margin-bottom: 1rem;">
-          <input
-            type="password"
-            id="password"
-            placeholder="Password"
-            required
-            style="padding-right: 2rem;"
-          />
-          <span
-            id="toggle-password"
-            onclick="togglePasswordVisibility()"
-            style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); font-size: 0.9rem; cursor: pointer; color: #004a99;"
-            title="Show/Hide password"
-          >👁️</span>
-        </div>
-      </div>
-
       <!-- Sign Up Only -->
-      <input type="text" id="name" placeholder="Full Name (only for Sign Up)" style="display: none;" />
+      <input type="text" id="name" placeholder="Full Name (Sign Up Only)" style="display: none;" />
+
+      <!-- Shared fields -->
+      <input type="email" id="email" placeholder="Email" required />
+      <div style="position: relative; width: 100%; margin-bottom: 1rem;">
+        <input
+          type="password"
+          id="password"
+          placeholder="Password"
+          required
+          style="padding-right: 2rem;"
+        />
+        <span
+          id="toggle-password"
+          onclick="togglePasswordVisibility()"
+          style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); font-size: 0.9rem; cursor: pointer; color: #004a99;"
+          title="Show/Hide password"
+        >👁️</span>
+      </div>
 
       <label style="display: flex; align-items: center; margin-bottom: 1rem; font-size: 0.9rem; color: #004a99;">
         <input type="checkbox" id="remember-me" style="margin-right: 0.5rem;" />
@@ -156,7 +153,6 @@
       </label>
 
       <button id="auth-button" onclick="handleAuth()">Login</button>
-
       <div id="message"></div>
     </div>
   </div>
@@ -167,7 +163,7 @@
       'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdicWd0bnVrb3VjeGFnc3dxc3B4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTA4ODcwNTAsImV4cCI6MjA2NjQ2MzA1MH0.uHqKZ-KnW1sv7CSD37D6dh1qYfSLMznud947DEZI93Q'
     );
 
-    let mode = 'login'; // or 'signup'
+    let mode = 'login';
 
     function showTab(selected) {
       mode = selected;
@@ -203,17 +199,19 @@
         if (mode === 'login') {
           result = await supabase.auth.signInWithPassword({ email, password });
         } else {
+          if (!fullName) {
+            msgEl.textContent = '⚠️ Please enter your full name.';
+            return;
+          }
           result = await supabase.auth.signUp({ email, password });
 
-          // After successful sign-up, insert user profile
           if (result.data?.user) {
             const insertResult = await supabase
               .from('users')
               .insert([{ id: result.data.user.id, full_name: fullName }]);
 
             if (insertResult.error) {
-              msgEl.textContent = '⚠️ Database error saving new user';
-              console.error(insertResult.error);
+              msgEl.textContent = '⚠️ Error saving user to database.';
               return;
             }
 
@@ -229,14 +227,13 @@
           msgEl.textContent = '✅ Success! Redirecting...';
           if (rememberMe) localStorage.setItem('savedEmail', email);
           else localStorage.removeItem('savedEmail');
-
           setTimeout(() => {
             window.location.href = 'profile.html';
-          }, 1000);
+          }, 1200);
         }
-      } catch (e) {
-        msgEl.textContent = 'Unexpected error';
-        console.error(e);
+      } catch (err) {
+        msgEl.textContent = 'Unexpected error occurred.';
+        console.error(err);
       } finally {
         btn.disabled = false;
         btn.textContent = originalText;
