@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Supabase Test</title>
+</head>
+<body>
+  <h2>Signup & Save to Profiles</h2>
+  <input type="email" id="email" placeholder="Email"><br>
+  <input type="password" id="password" placeholder="Password"><br>
+  <input type="text" id="full_name" placeholder="Full Name"><br>
+  <button onclick="signUp()">Sign Up</button>
+
+  <p id="output"></p>
+
+  <script type="module">
+    import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm'
+
+    const supabase = createClient(
+      'https://gbqgtnukoucxagswqspx.supabase.co',
+      'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdicWd0bnVrb3VjeGFnc3dxc3B4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTA4ODcwNTAsImV4cCI6MjA2NjQ2MzA1MH0.uHqKZ-KnW1sv7CSD37D6dh1qYfSLMznud947DEZI93Q'
+    );
+
+    window.signUp = async () => {
+      const email = document.getElementById('email').value.trim();
+      const password = document.getElementById('password').value.trim();
+      const full_name = document.getElementById('full_name').value.trim();
+      const output = document.getElementById('output');
+      output.textContent = "⏳ Creating account...";
+
+      const { data, error } = await supabase.auth.signUp({ email, password });
+
+      if (error) {
+        output.textContent = `❌ Signup error: ${error.message}`;
+        return;
+      }
+
+      const userId = data?.user?.id;
+      if (!userId) {
+        output.textContent = '❌ No user ID returned.';
+        return;
+      }
+
+      const { error: insertError } = await supabase
+        .from('profiles')
+        .insert([{ id: userId, full_name }]);
+
+      if (insertError) {
+        output.textContent = `❌ Insert error: ${insertError.message}`;
+        console.error(insertError);
+      } else {
+        output.textContent = '✅ Success! Name saved to profiles.';
+      }
+    };
+  </script>
+</body>
+</html>
