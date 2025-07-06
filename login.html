@@ -109,33 +109,31 @@
       <h2 id="form-title">LOGIN TO HEARTIQUE NURSING NEXUS PORTAL</h2>
 
       <input type="email" id="email" placeholder="Email" required />
-<!-- Password input with small toggle icon -->
-<div style="position: relative; width: 100%; margin-bottom: 1rem;">
-  <input
-    type="password"
-    id="password"
-    placeholder="Password"
-    required
-    style="padding-right: 2rem;"
-  />
-  <span
-    id="toggle-password"
-    onclick="togglePasswordVisibility()"
-    style="
-      position: absolute;
-      right: 10px;
-      top: 50%;
-      transform: translateY(-50%);
-      font-size: 0.9rem;
-      cursor: pointer;
-      color: #004a99;
-      user-select: none;
-    "
-    title="Show/Hide password"
-  >👁️</span>
-</div>
 
-     
+      <div style="position: relative; width: 100%; margin-bottom: 1rem;">
+        <input
+          type="password"
+          id="password"
+          placeholder="Password"
+          required
+          style="padding-right: 2rem;"
+        />
+        <span
+          id="toggle-password"
+          onclick="togglePasswordVisibility()"
+          style="
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 0.9rem;
+            cursor: pointer;
+            color: #004a99;
+            user-select: none;
+          "
+          title="Show/Hide password"
+        >👁️</span>
+      </div>
 
       <label style="display: flex; align-items: center; margin-bottom: 1rem; font-size: 0.9rem; color: #004a99;">
         <input type="checkbox" id="remember-me" style="margin-right: 0.5rem;" />
@@ -158,17 +156,18 @@
       'https://gbqgtnukoucxagswqspx.supabase.co',
       'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdicWd0bnVrb3VjeGFnc3dxc3B4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTA4ODcwNTAsImV4cCI6MjA2NjQ2MzA1MH0.uHqKZ-KnW1sv7CSD37D6dh1qYfSLMznud947DEZI93Q'
     );
-function togglePasswordVisibility() {
-  const pwInput = document.getElementById('password');
-  const toggle = document.getElementById('toggle-password');
-  if (pwInput.type === 'password') {
-    pwInput.type = 'text';
-    toggle.textContent = '🙈';
-  } else {
-    pwInput.type = 'password';
-    toggle.textContent = '👁️';
-  }
-}
+
+    function togglePasswordVisibility() {
+      const pwInput = document.getElementById('password');
+      const toggle = document.getElementById('toggle-password');
+      if (pwInput.type === 'password') {
+        pwInput.type = 'text';
+        toggle.textContent = '🙈';
+      } else {
+        pwInput.type = 'password';
+        toggle.textContent = '👁️';
+      }
+    }
 
     async function handleAuth() {
       const email = document.getElementById('email').value.trim();
@@ -190,60 +189,43 @@ function togglePasswordVisibility() {
         } else {
           msgEl.style.color = 'green';
           msgEl.textContent = '✅ Logged in! Redirecting...';
+
           if (rememberMe) {
             localStorage.setItem('savedEmail', email);
           } else {
             localStorage.removeItem('savedEmail');
           }
-let retries = 0;
-async function waitForSessionAndRedirect() {
-  const { data: { session } } = await supabase.auth.getSession();
-  if (!session && retries < 10) {
-    retries++;
-    return setTimeout(waitForSessionAndRedirect, 300); // Wait & retry
-  }
 
-  if (!session) {
-    msgEl.textContent = "⚠️ Couldn't establish session. Please try again.";
-    return;
-  }
+          let retries = 0;
+          async function waitForSessionAndRedirect() {
+            const { data: { session } } = await supabase.auth.getSession();
+            if (!session && retries < 10) {
+              retries++;
+              return setTimeout(waitForSessionAndRedirect, 300);
+            }
 
-  const userId = session.user.id;
-  const { data: profile } = await supabase
-    .from('profiles')
-    .select('full_name, bio, school')
-    .eq('id', userId)
-    .single();
+            if (!session) {
+              msgEl.textContent = "⚠️ Couldn't establish session. Please try again.";
+              return;
+            }
 
-  const isProfileComplete = profile && profile.full_name && profile.bio && profile.school;
-  window.location.href = isProfileComplete ? 'index.html' : 'profile.html';
-}
+            const userId = session.user.id;
+            const { data: profile } = await supabase
+              .from('users') // ✅ new table
+              .select('full_name, bio, school')
+              .eq('id', userId)
+              .single();
 
-waitForSessionAndRedirect();
+            const isProfileComplete = profile && profile.full_name && profile.bio && profile.school;
+            window.location.href = isProfileComplete ? 'index.html' : 'profile.html';
+          }
 
+          waitForSessionAndRedirect();
         }
       } finally {
         btn.disabled = false;
         btn.textContent = originalText;
       }
-    }
-
-    function startCountdown() {
-      const btn = document.getElementById('auth-button');
-      const countdown = document.getElementById('countdown');
-      let seconds = 5;
-      btn.disabled = true;
-      countdown.textContent = `⏳ Wait ${seconds}s...`;
-
-      const timer = setInterval(() => {
-        seconds--;
-        countdown.textContent = `⏳ Wait ${seconds}s...`;
-        if (seconds <= 0) {
-          clearInterval(timer);
-          countdown.textContent = '';
-          btn.disabled = false;
-        }
-      }, 1000);
     }
 
     window.addEventListener('DOMContentLoaded', () => {
