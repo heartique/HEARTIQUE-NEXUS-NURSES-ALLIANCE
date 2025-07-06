@@ -179,71 +179,74 @@
         flex-direction: column;
     }
 }
-/* Container to align tabs horizontally */
+
+/* Horizontal container */
 .tab-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
   justify-content: center;
-  margin: 20px 0;
-}
-
-/* Core card style */
-.tab-card {
-  flex: 1 1 300px;
-  display: block;
+  gap: 24px;
   padding: 20px;
+}
+
+/* Card base */
+.tab-card {
+  flex: 1 1 320px;
+  display: block;
   border-radius: 16px;
-  color: #fff; /* white text */
+  padding: 24px;
   text-decoration: none;
+  color: #fff;
+  min-height: 200px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
-  min-height: 180px;
-  animation: slideIn 0.6s ease both;
+  animation: slideIn 0.7s ease both;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
 }
+
+/* Hover effect */
 .tab-card:hover {
-  transform: scale(1.03);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.3);
 }
 
-/* Vocabulary tab - Bold Blue */
+/* STRONG colors */
 .tab-vocab {
-  background: linear-gradient(to left, #2563eb, #1e40af); /* vivid blue */
+  background-color: #0b5ed7; /* Deep royal blue */
 }
 
-/* Abbreviations tab - Bold Pink */
 .tab-abbrev {
-  background: linear-gradient(to left, #be123c, #881337); /* rich pink/red */
+  background-color: #b91c1c; /* Deep strong red */
 }
 
 /* Text content */
 .tab-icon {
-  font-size: 2.2rem;
-  margin-bottom: 10px;
+  font-size: 2.4rem;
+  margin-bottom: 12px;
 }
 .tab-content h2 {
-  margin: 0;
-  font-size: 1.4rem;
+  margin: 0 0 6px;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 .tab-content p {
-  margin: 5px 0 10px;
-  font-size: 0.95rem;
+  margin: 0 0 12px;
+  font-size: 1rem;
+  font-weight: 400;
 }
 .badge {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.3);
   color: #fff;
-  padding: 5px 12px;
-  border-radius: 20px;
-  font-size: 0.75rem;
+  padding: 6px 14px;
+  border-radius: 16px;
+  font-size: 0.8rem;
   font-weight: bold;
 }
 
-/* Slide-in animation from right */
+/* Slide-in animation */
 @keyframes slideIn {
   from {
     opacity: 0;
-    transform: translateX(40px);
+    transform: translateX(60px);
   }
   to {
     opacity: 1;
@@ -251,11 +254,15 @@
   }
 }
 
-/* Responsive tweak for smaller screens */
-@media screen and (max-width: 768px) {
+/* 📱 Responsive for mobile */
+@media (max-width: 768px) {
   .tab-container {
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
+  }
+
+  .tab-card {
+    width: 100%;
   }
 }
 
@@ -645,6 +652,20 @@
       document.getElementById("vocab-count").innerText = `Vocabulary`;
     });
 </script>  
+
+      <script>
+  fetch('abbreviations.json')
+    .then(res => res.json())
+    .then(data => {
+      const count = data.length;
+      document.getElementById("abbrev-count").innerText = `${count} terms inside`;
+    })
+    .catch(() => {
+      document.getElementById("abbrev-count").innerText = `Abbreviations`;
+    });
+</script>
+
+      
       <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
 <script>
   const supabase = window.supabase.createClient(
@@ -771,37 +792,6 @@
 
   fetchNotices();
   setInterval(fetchNotices, 10000); // repeat every 10 sec
-</script>
-
-<script>
-  const abbrevBadge = document.getElementById('abbrev-count');
-  const abbrevFiles = [
-    'abbreviations.json',
-    'abbreviations1.json',
-    'abbreviations2.json',
-    'abbreviations3.json',
-    'abbreviations4.json',
-    'abbreviations5.json',
-    'abbreviations6.json'
-  ];
-
-  async function countAbbreviations() {
-    try {
-      let total = 0;
-      for (const file of abbrevFiles) {
-        const res = await fetch(file);
-        if (!res.ok) throw new Error(`${file} failed to load`);
-        const data = await res.json();
-        total += data.length;
-      }
-      abbrevBadge.textContent = `${total} terms`;
-    } catch (err) {
-      console.error("Abbreviation count error:", err.message);
-      abbrevBadge.textContent = "⚠️ Load error";
-    }
-  }
-
-  countAbbreviations();
 </script>
 
 
