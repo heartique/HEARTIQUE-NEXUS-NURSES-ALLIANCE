@@ -2,10 +2,10 @@
 <html>
 <head>
   <meta charset="UTF-8" />
-  <title>Supabase Clean Sign Up</title>
+  <title>Clean Supabase Sign Up</title>
 </head>
 <body style="font-family: Arial; padding: 2rem;">
-  <h2>Sign Up & Insert into public.users</h2>
+  <h2>Supabase Sign Up Test</h2>
 
   <form id="signup-form">
     <input type="email" id="email" placeholder="Email" required /><br><br>
@@ -15,7 +15,8 @@
     <button type="submit">Sign Up</button>
   </form>
 
-  <p id="message" style="margin-top: 2rem; font-weight: bold;"></p>
+  <h3>Output:</h3>
+  <pre id="output" style="background:#f4f4f4;padding:1rem;border:1px solid #ccc;"></pre>
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script>
@@ -25,47 +26,52 @@
     );
 
     const form = document.getElementById('signup-form');
-    const message = document.getElementById('message');
+    const output = document.getElementById('output');
 
     form.addEventListener('submit', async (e) => {
       e.preventDefault();
-
-      message.textContent = "⏳ Signing up...";
 
       const email = document.getElementById('email').value;
       const password = document.getElementById('password').value;
       const first_name = document.getElementById('first_name').value;
       const last_name = document.getElementById('last_name').value;
 
-      const { data, error } = await supabase.auth.signUp({
-        email,
-        password
-      });
+      output.textContent = '🔄 Signing up...';
 
-      if (error) {
-        message.textContent = "❌ Sign-up error: " + error.message;
-        return;
-      }
+      try {
+        const { data: signUpData, error: signUpError } = await supabase.auth.signUp({
+          email,
+          password
+        });
 
-      const user = data.user;
+        if (signUpError) {
+          output.textContent = '❌ Sign-up error:\n' + signUpError.message;
+          return;
+        }
 
-      if (!user) {
-        message.textContent = "✅ Sign-up successful. Please check your email to confirm before we can insert.";
-        return;
-      }
+        const user = signUpData.user;
 
-      // Insert into users table
-      const { error: insertError } = await supabase.from('users').insert({
-        id: user.id,
-        email,
-        first_name,
-        last_name
-      });
+        if (!user) {
+          output.textContent = '✅ Signup successful, but confirmation email sent. Check your inbox.';
+          return;
+        }
 
-      if (insertError) {
-        message.textContent = "❌ Insert failed: " + insertError.message;
-      } else {
-        message.textContent = "✅ Success! User inserted into public.users table.";
+        output.textContent = '✅ Sign-up complete.\nUser ID: ' + user.id + '\nNow inserting into users table...';
+
+        const { error: insertError } = await supabase.from('users').insert({
+          id: user.id,
+          email,
+          first_name,
+          last_name
+        });
+
+        if (insertError) {
+          output.textContent += '\n❌ Insert error:\n' + insertError.message;
+        } else {
+          output.textContent += '\n✅ User inserted into public.users table.';
+        }
+      } catch (err) {
+        output.textContent = '❌ Fatal error:\n' + err.message;
       }
     });
   </script>
