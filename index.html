@@ -179,21 +179,10 @@
         flex-direction: column;
     }
 }
-/* Container for tabs */
-.custom-tab-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  padding: 20px;
-  max-width: 1000px;
-  margin: auto;
-}
 
-/* Base tab card */
 .custom-tab-card {
   position: relative;
-  background-color: #222; /* dark background */
+  background-color: #222;
   color: #fff !important;
   border-radius: 14px;
   min-height: 160px;
@@ -205,19 +194,21 @@
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
   overflow: visible;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  /* Make sure no extra margin or border added by pseudo */
+  z-index: 0;
 }
 
-/* Glowing revolving border container */
+/* Smaller glow border */
 .custom-tab-card::before {
   content: "";
   position: absolute;
-  top: -4px;
-  left: -4px;
-  right: -4px;
-  bottom: -4px;
-  border-radius: 18px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 14px;
   pointer-events: none;
-  z-index: 0;
+  z-index: -1;
   background: linear-gradient(
     90deg,
     transparent,
@@ -232,15 +223,9 @@
   filter: drop-shadow(0 0 8px rgba(0,0,0,0.3));
 }
 
-/* Force content above the glow */
-.custom-tab-card > * {
-  position: relative;
-  z-index: 1;
-}
-
-/* Specific color variants with hue-rotate filter for different colors */
+/* Blue glow for vocab */
 .custom-tab-vocab::before {
-  filter: drop-shadow(0 0 8px #1d4ed8);
+  filter: drop-shadow(0 0 6px #1d4ed8);
   animation-name: revolvingGlowBlue;
   background: linear-gradient(
     90deg,
@@ -253,8 +238,9 @@
   );
 }
 
+/* Purple glow for abbrev */
 .custom-tab-abbrev::before {
-  filter: drop-shadow(0 0 8px #7c3aed);
+  filter: drop-shadow(0 0 6px #7c3aed);
   animation-name: revolvingGlowPurple;
   background: linear-gradient(
     90deg,
@@ -267,7 +253,7 @@
   );
 }
 
-/* Revolving glow animation (rotates background gradient) */
+/* Same keyframes as before */
 @keyframes revolvingGlowBlue {
   0% {
     background-position: 0% 50%;
@@ -286,13 +272,19 @@
   }
 }
 
-/* Hover effect: slight lift and shadow */
+/* Keep content above */
+.custom-tab-card > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Hover lift */
 .custom-tab-card:hover {
   transform: translateY(-6px);
   box-shadow: 0 12px 28px rgba(0,0,0,0.3);
 }
 
-/* Text styling inside */
+/* Text inside */
 .tab-icon {
   font-size: 1.8rem;
   margin-bottom: 8px;
@@ -323,7 +315,7 @@
   font-weight: 500;
 }
 
-/* Responsive layout */
+/* Responsive */
 @media (max-width: 768px) {
   .custom-tab-container {
     flex-direction: column;
@@ -335,7 +327,6 @@
     margin-bottom: 20px;
   }
 }
-
 
 
   </style>
