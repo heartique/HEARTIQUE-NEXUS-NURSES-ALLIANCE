@@ -133,32 +133,24 @@
     <span id="progress-icon">⏳</span>
     <span id="progress-text">Checking profile completeness...</span>
   </div>
-
   <form id="profile-form">
     <div class="profile-pic-wrapper">
       <img src="https://ui-avatars.com/api/?name=User&background=004a99&color=fff&size=130" alt="Profile Picture" id="profile-pic" class="profile-pic" title="Click to change profile picture" />
       <label for="avatar-upload" id="upload-label">Change Profile Picture</label>
       <input type="file" id="avatar-upload" accept="image/*" />
     </div>
-
     <label for="full_name">Full Name</label>
     <input type="text" id="full_name" name="full_name" required />
-
     <label for="bio">Bio</label>
     <textarea id="bio" name="bio"></textarea>
-
     <label for="school">School</label>
     <input type="text" id="school" name="school" />
-
     <label for="phone">Phone Number</label>
     <input type="tel" id="phone" name="phone" pattern="^\+?[0-9\s\-]{7,15}$" />
-
     <label for="email">Email (cannot be changed)</label>
     <input type="email" id="email" name="email" disabled />
-
     <label for="age">Age</label>
     <input type="number" id="age" name="age" min="1" max="120" />
-
     <label for="sex">Sex</label>
     <select id="sex" name="sex">
       <option value="" disabled selected>Select sex</option>
@@ -167,15 +159,15 @@
       <option value="Other">Other</option>
       <option value="Prefer not to say">Prefer not to say</option>
     </select>
-
     <button type="submit">Save Profile</button>
   </form>
-
   <button id="logout">Logout</button>
   <div id="message"></div>
-
   <script>
-    const supabase = window.supabase.createClient('https://gbqgtnukoucxagswqspx.supabase.co', 'YOUR_PUBLIC_ANON_KEY');
+    const supabase = window.supabase.createClient(
+      'https://gbqgtnukoucxagswqspx.supabase.co',
+      'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdicWd0bnVrb3VjeGFnc3dxc3B4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTA4ODcwNTAsImV4cCI6MjA2NjQ2MzA1MH0.uHqKZ-KnW1sv7CSD37D6dh1qYfSLMznud947DEZI93Q'
+    );
     const form = document.getElementById('profile-form');
     const messageEl = document.getElementById('message');
     const logoutBtn = document.getElementById('logout');
@@ -183,7 +175,6 @@
     const avatarUpload = document.getElementById('avatar-upload');
     let currentUser;
     let avatarUrl = null;
-
     function updateProfileProgress(status) {
       const iconEl = document.getElementById('progress-icon');
       const textEl = document.getElementById('progress-text');
@@ -201,18 +192,13 @@
         textEl.style.color = 'red';
       }
     }
-
     async function checkUser() {
       const { data: { session }, error } = await supabase.auth.getSession();
-      if (error || !session) {
-        window.location.href = 'index.html';
-        return;
-      }
+      if (error || !session) return (window.location.href = 'index.html');
       currentUser = session.user;
       await loadProfile();
       document.getElementById('loader').style.display = 'none';
     }
-
     async function loadProfile() {
       document.getElementById('email').value = currentUser.email;
       const { data, error } = await supabase
@@ -241,7 +227,6 @@
         updateProfileProgress('incomplete');
       }
     }
-
     avatarUpload.addEventListener('change', async (event) => {
       const file = event.target.files[0];
       if (!file) return;
@@ -265,7 +250,6 @@
       profilePic.src = avatarUrl;
       messageEl.textContent = 'Profile picture updated. Don’t forget to Save Profile.';
     });
-
     form.addEventListener('submit', async (e) => {
       e.preventDefault();
       messageEl.textContent = '';
@@ -292,12 +276,10 @@
       }
       form.querySelector('button[type=submit]').disabled = false;
     });
-
     logoutBtn.addEventListener('click', async () => {
       await supabase.auth.signOut();
       window.location.href = 'index.html';
     });
-
     checkUser();
   </script>
 </body>
