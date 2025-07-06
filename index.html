@@ -827,9 +827,7 @@
       document.getElementById("abbrev-count").innerText = `Abbreviations`;
     });
 </script>  
-
-   <!-- Load Supabase JS Library -->
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
 <script>
   const supabase = window.supabase.createClient(
     'https://gbqgtnukoucxagswqspx.supabase.co',
@@ -852,6 +850,31 @@
     window.location.href = "login.html";
   };
   document.querySelector("header").appendChild(logoutBtn);
+</script>
+<script>
+  const name = localStorage.getItem('full_name');
+  if (name) {
+    document.getElementById('greeting').textContent = `Welcome, ${name}!`;
+  }
+</script>
+      <script>
+  async function deleteAccount() {
+    const confirmDelete = confirm("Are you sure you want to delete your account? This action is permanent.");
+    if (!confirmDelete) return;
+
+    const { data: { user } } = await supabase.auth.getUser();
+    if (!user) return alert("You're not logged in.");
+
+    // Delete from your user table (optional)
+    await supabase.from('profiles').delete().eq('id', user.id);
+
+    alert("⚠️ Account deletion from Supabase Auth requires admin access. Contact admin to fully delete your account.");
+    
+    // Optional: Log out after deletion
+    await supabase.auth.signOut();
+    localStorage.removeItem('full_name');
+    window.location.href = 'login.html';
+  }
 </script>
 
 <script>
