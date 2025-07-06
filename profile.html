@@ -126,46 +126,38 @@
   </style>
 </head>
 <body>
-
   <div id="loader">⏳ Loading, please wait...</div>
   <div id="welcome">👋 Welcome! Please complete your profile to access the Heartique Nexus.</div>
   <h2>Your Profile</h2>
   <div id="profile-progress" style="text-align:center; font-weight:600; margin-bottom:1rem;">
-  <span id="progress-icon">⏳</span>
-  <span id="progress-text">Checking profile completeness...</span>
-</div>
-
+    <span id="progress-icon">⏳</span>
+    <span id="progress-text">Checking profile completeness...</span>
+  </div>
 
   <form id="profile-form">
     <div class="profile-pic-wrapper">
-      <img
-        src="https://ui-avatars.com/api/?name=User&background=004a99&color=fff&size=130"
-        alt="Profile Picture"
-        id="profile-pic"
-        class="profile-pic"
-        title="Click to change profile picture"
-      />
+      <img src="https://ui-avatars.com/api/?name=User&background=004a99&color=fff&size=130" alt="Profile Picture" id="profile-pic" class="profile-pic" title="Click to change profile picture" />
       <label for="avatar-upload" id="upload-label">Change Profile Picture</label>
       <input type="file" id="avatar-upload" accept="image/*" />
     </div>
 
     <label for="full_name">Full Name</label>
-    <input type="text" id="full_name" name="full_name" placeholder="Enter your full name" required />
+    <input type="text" id="full_name" name="full_name" required />
 
     <label for="bio">Bio</label>
-    <textarea id="bio" name="bio" placeholder="Tell us about yourself"></textarea>
+    <textarea id="bio" name="bio"></textarea>
 
     <label for="school">School</label>
-    <input type="text" id="school" name="school" placeholder="Your school or institution" />
+    <input type="text" id="school" name="school" />
 
     <label for="phone">Phone Number</label>
-    <input type="tel" id="phone" name="phone" placeholder="+254 700 000 000" pattern="^\+?[0-9\s\-]{7,15}$" />
+    <input type="tel" id="phone" name="phone" pattern="^\+?[0-9\s\-]{7,15}$" />
 
     <label for="email">Email (cannot be changed)</label>
     <input type="email" id="email" name="email" disabled />
 
     <label for="age">Age</label>
-    <input type="number" id="age" name="age" min="1" max="120" placeholder="Your age" />
+    <input type="number" id="age" name="age" min="1" max="120" />
 
     <label for="sex">Sex</label>
     <select id="sex" name="sex">
@@ -180,15 +172,10 @@
   </form>
 
   <button id="logout">Logout</button>
-
   <div id="message"></div>
 
   <script>
-    const supabase = window.supabase.createClient(
-      'https://gbqgtnukoucxagswqspx.supabase.co',
-      'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...93Q'
-    );
-
+    const supabase = window.supabase.createClient('https://gbqgtnukoucxagswqspx.supabase.co', 'YOUR_PUBLIC_ANON_KEY');
     const form = document.getElementById('profile-form');
     const messageEl = document.getElementById('message');
     const logoutBtn = document.getElementById('logout');
@@ -198,137 +185,84 @@
     let avatarUrl = null;
 
     function updateProfileProgress(status) {
-  const iconEl = document.getElementById('progress-icon');
-  const textEl = document.getElementById('progress-text');
-
-  if (status === 'complete') {
-    iconEl.textContent = '✅';
-    textEl.textContent = 'Profile complete';
-    textEl.style.color = 'green';
-  } else if (status === 'partial') {
-    iconEl.textContent = '⚠️';
-    textEl.textContent = 'Please complete your profile';
-    textEl.style.color = '#cc7a00';
-  } else {
-    iconEl.textContent = '❌';
-    textEl.textContent = 'Profile missing required info';
-    textEl.style.color = 'red';
-  }
-}
-async function checkUser() {
-  const { data: { session }, error: sessionError } = await supabase.auth.getSession();
-
-  if (sessionError || !session) {
-    window.location.href = 'index.html';
-    return;
-  }
-
-  currentUser = session.user;
-
-  try {
-    const { data, error } = await supabase
-      .from('profiles')
-      .select('full_name, school')
-      .eq('id', currentUser.id)
-      .single();
-
-    if (error) {
-      updateProfileProgress('incomplete');
-      document.getElementById('welcome').style.display = 'block';
-    } else if (!data.full_name && !data.school) {
-      updateProfileProgress('incomplete');
-      document.getElementById('welcome').style.display = 'block';
-    } else {
-      updateProfileProgress(data.full_name && data.school ? 'complete' : 'partial');
+      const iconEl = document.getElementById('progress-icon');
+      const textEl = document.getElementById('progress-text');
+      if (status === 'complete') {
+        iconEl.textContent = '✅';
+        textEl.textContent = 'Profile complete';
+        textEl.style.color = 'green';
+      } else if (status === 'partial') {
+        iconEl.textContent = '⚠️';
+        textEl.textContent = 'Please complete your profile';
+        textEl.style.color = '#cc7a00';
+      } else {
+        iconEl.textContent = '❌';
+        textEl.textContent = 'Profile missing required info';
+        textEl.style.color = 'red';
+      }
     }
 
-    await loadProfile(); // Always load to allow editing
-  } catch (err) {
-    messageEl.textContent = "Something went wrong while checking your session.";
-  } finally {
-    document.getElementById('loader').style.display = 'none';
-  }
-}
-
-
-  
+    async function checkUser() {
+      const { data: { session }, error } = await supabase.auth.getSession();
+      if (error || !session) {
+        window.location.href = 'index.html';
+        return;
+      }
+      currentUser = session.user;
+      await loadProfile();
+      document.getElementById('loader').style.display = 'none';
+    }
 
     async function loadProfile() {
       document.getElementById('email').value = currentUser.email;
-
       const { data, error } = await supabase
         .from('profiles')
-        if (!currentUser) {
-  messageEl.style.color = 'red';
-  messageEl.textContent = 'User not authenticated.';
-  return;
-}
-          
-        .select('full_name, bio, school, phone, age, sex, avatar_url')
+        .select('*')
         .eq('id', currentUser.id)
         .single();
-
-      if (error && error.code !== 'PGRST116') {
-        messageEl.style.color = 'red';
+      if (error) {
         messageEl.textContent = 'Failed to load profile: ' + error.message;
+        updateProfileProgress('incomplete');
         return;
       }
-
-if (data) {
-  document.getElementById('full_name').value = data.full_name || '';
-  document.getElementById('bio').value = data.bio || '';
-  document.getElementById('school').value = data.school || '';
-  document.getElementById('phone').value = data.phone || '';
-  document.getElementById('age').value = data.age || '';
-  document.getElementById('sex').value = data.sex || '';
-  avatarUrl = data.avatar_url || null;
-
-  if (avatarUrl) {
-    profilePic.src = avatarUrl;
-  }
-
-  // NEW: Call progress logic here
-  if (data.full_name && data.school) {
-    updateProfileProgress('complete');
-  } else if (data.full_name || data.school) {
-    updateProfileProgress('partial');
-  } else {
-    updateProfileProgress('incomplete');
-  }
-}
+      document.getElementById('full_name').value = data.full_name || '';
+      document.getElementById('bio').value = data.bio || '';
+      document.getElementById('school').value = data.school || '';
+      document.getElementById('phone').value = data.phone || '';
+      document.getElementById('age').value = data.age || '';
+      document.getElementById('sex').value = data.sex || '';
+      avatarUrl = data.avatar_url || null;
+      if (avatarUrl) profilePic.src = avatarUrl;
+      if (data.full_name && data.school) {
+        updateProfileProgress('complete');
+      } else if (data.full_name || data.school) {
+        updateProfileProgress('partial');
+      } else {
+        updateProfileProgress('incomplete');
+      }
+    }
 
     avatarUpload.addEventListener('change', async (event) => {
       const file = event.target.files[0];
       if (!file) return;
-
       const fileExt = file.name.split('.').pop();
       const fileName = `${currentUser.id}/avatar.${fileExt}`;
       const filePath = fileName;
-
-      messageEl.style.color = 'black';
       messageEl.textContent = 'Uploading image...';
-
-      const { data, error } = await supabase.storage
+      const { error } = await supabase.storage
         .from('avatars')
         .upload(filePath, file, { upsert: true });
-
       if (error) {
-        messageEl.style.color = 'red';
         messageEl.textContent = 'Upload failed: ' + error.message;
         return;
       }
-
       const { publicURL, error: urlError } = supabase.storage.from('avatars').getPublicUrl(filePath);
-
       if (urlError) {
-        messageEl.style.color = 'red';
         messageEl.textContent = 'Error getting image URL: ' + urlError.message;
         return;
       }
-
       avatarUrl = publicURL;
       profilePic.src = avatarUrl;
-      messageEl.style.color = 'green';
       messageEl.textContent = 'Profile picture updated. Don’t forget to Save Profile.';
     });
 
@@ -336,46 +270,26 @@ if (data) {
       e.preventDefault();
       messageEl.textContent = '';
       form.querySelector('button[type=submit]').disabled = true;
-
-      const full_name = document.getElementById('full_name').value.trim();
-      const bio = document.getElementById('bio').value.trim();
-      const school = document.getElementById('school').value.trim();
-      const phone = document.getElementById('phone').value.trim();
-      const age = document.getElementById('age').value;
-      const sex = document.getElementById('sex').value;
-
-      if (!full_name) {
-        messageEl.style.color = 'red';
-        messageEl.textContent = 'Full Name is required.';
-        form.querySelector('button[type=submit]').disabled = false;
-        return;
-      }
-
       const updates = {
         id: currentUser.id,
-        full_name,
-        bio,
-        school,
-        phone,
-        age: age ? parseInt(age, 10) : null,
-        sex,
+        full_name: document.getElementById('full_name').value.trim(),
+        bio: document.getElementById('bio').value.trim(),
+        school: document.getElementById('school').value.trim(),
+        phone: document.getElementById('phone').value.trim(),
+        age: parseInt(document.getElementById('age').value) || null,
+        sex: document.getElementById('sex').value,
         avatar_url: avatarUrl,
         updated_at: new Date().toISOString()
       };
-
       const { error } = await supabase.from('profiles').upsert(updates);
-
       if (error) {
-        messageEl.style.color = 'red';
         messageEl.textContent = 'Error saving profile: ' + error.message;
       } else {
-        messageEl.style.color = 'green';
         messageEl.textContent = 'Profile updated successfully!';
         setTimeout(() => {
           window.location.href = 'index.html';
         }, 1000);
       }
-
       form.querySelector('button[type=submit]').disabled = false;
     });
 
@@ -386,6 +300,5 @@ if (data) {
 
     checkUser();
   </script>
-
 </body>
 </html>
