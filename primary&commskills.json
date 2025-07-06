@@ -330,8 +330,239 @@
   "answer": "This question is ambiguous as many of the listed items are considered micro-teaching skills. However, some are more central to the concept than others. Option (b) contains a classic set of interactive skills.",
   "explanation": "Micro-teaching is a teacher training technique where a trainee teacher presents a short lesson (5-10 minutes) to a small group of peers. The session is often recorded and reviewed with a supervisor to get feedback on specific teaching skills. The skills are practiced in isolation before being integrated into a full lesson.\n\nStimulus Variation: Changing the mode of interaction (e.g., switching from talking to using a visual aid, moving around the room) to keep learners engaged.\n\nProbing Questions: Asking follow-up questions to encourage deeper thinking (e.g., \"Can you explain why?\" or \"What is the evidence for that?\").\n\nReinforcement: Using positive verbal or non-verbal cues to encourage student participation.\n\nExplaining: The core skill of making a concept clear.\n\nQuestioning Skills: Asking clear, concise questions at different cognitive levels.\n\nClosure: The skill of summarizing the key points at the end of a lesson.\n\nUse of Examples/Illustrations.\n\nGiven the options, (b) Stimulus variation, paraphrasing and probing represents a strong set of interactive skills that are central to the micro-teaching concept. (c) Closure, silence and non verbal cues and (d) Explaining, attending behaviour and animation also contain valid skills. (a) Lecturing, illustrating and testing is too broad; micro-teaching focuses on skills within a lecture, not the lecture itself. Option (b) is arguably the \"best\" answer as it highlights dynamic, interactive techniques.",
   "additional": "The Micro-teaching Cycle:\nPlan: The trainee plans a short lesson focusing on a specific skill.\nTeach: The trainee teaches the lesson to a small group.\nFeedback: The trainee receives constructive feedback from peers and a supervisor, often reviewing a video recording.\nRe-plan: The trainee revises the lesson based on the feedback.\nRe-teach: The trainee teaches the revised lesson to a different group.\nRe-feedback: The trainee receives further feedback.\n\nThis cyclical process allows for focused, low-stakes practice and refinement of teaching techniques."
-}
+},
+{
+    "question": "What is the primary goal of environmental health?",
+    "options": {
+      "A": "Maximizing industrial production",
+      "B": "Promoting the well-being and safety of communities by addressing environmental hazards",
+      "C": "Eliminating all forms of pollution",
+      "D": "Generating profits for corporations"
+    },
+    "answer": "B",
+    "explanation": "This question asks for the fundamental definition of environmental health.\n\nEnvironmental Health: According to the WHO, environmental health comprises those aspects of human health, including quality of life, that are determined by physical, chemical, biological, social, and psychosocial factors in the environment. It also refers to the theory and practice of assessing, correcting, controlling, and preventing those factors in the environment that can potentially affect adversely the health of present and future generations.\n\nPrimary Goal: In simple terms, the goal is to create environments that are safe and supportive of human health. This involves identifying potential environmental hazards (e.g., contaminated water, air pollution, poor sanitation, chemical exposures) and implementing strategies to control or eliminate them.\n\nA and D represent interests that can often be in conflict with environmental health goals.\n\nC) Eliminating all forms of pollution is an idealistic and probably unattainable goal. The focus is more practically on addressing and controlling hazards to protect health.",
+    "additional": "The Scope of Environmental Health:\nEnvironmental health is a very broad field. Key areas include:\n- Water Quality: Ensuring safe drinking water (microbiological and chemical safety).\n- Sanitation: Proper disposal of human waste (excreta) and solid waste.\n- Air Quality: Monitoring and controlling indoor and outdoor air pollution.\n- Food Safety: Preventing contamination of food from farm to table.\n- Vector Control: Managing mosquitoes, rodents, and other vectors of disease.\n- Healthy Housing: Ensuring homes are safe from hazards like lead paint, mold, and overcrowding.\n- Occupational Health: Protecting workers from hazards in the workplace.\n- Climate Change and Health: Addressing the health impacts of a changing climate.\n\nFuture Question Idea: \"A community health nurse working to ensure proper disposal of household waste to prevent the breeding of flies and rats is focusing on which area of environmental health?\" (Answer: Sanitation or Vector Control)."
+  },
+  {
+    "question": "In the context of environmental health, what is the primary focus of \"toxicology\"?",
+    "options": {
+      "A": "Maximizing pollution levels",
+      "B": "Assessing the harmful effects of chemicals and toxins on human and environmental health",
+      "C": "Promoting the use of toxic substances",
+      "D": "Eliminating all forms of contamination"
+    },
+    "answer": "B",
+    "explanation": "This question defines a core science that underpins environmental health.\n\nToxicology: The scientific study of adverse effects that occur in living organisms due to chemicals. It is often called the \"science of poisons.\"\n\nPrimary Focus: Toxicologists study the relationship between the dose of a substance and the response (the harmful effect). They seek to understand how toxic substances enter the body, how they are metabolized, what damage they cause, and at what levels of exposure that damage occurs. This science provides the evidence needed to set safe exposure limits for chemicals in the air, water, and food.\n\nA, C, and D are incorrect. Toxicology is about understanding harm to prevent it, not promote it or achieve an impossible ideal.",
+    "additional": "1. \"The Dose Makes the Poison\":\nThis is a fundamental principle of toxicology, attributed to Paracelsus.\nMeaning: All substances are poisons; there is none which is not a poison. The right dose differentiates a poison from a remedy. Even something as essential as water can be toxic in a high enough dose.\n\nImplication: Environmental health regulation is not about eliminating all chemicals, but about understanding at what dose they become harmful and keeping human exposure below that level.\n\n2. Key Concepts:\n- Exposure: Contact with a chemical or physical agent.\n- Hazard: The inherent potential of an agent to cause harm.\n- Risk: The probability that a substance will cause harm under specific conditions of exposure. Risk = Hazard x Exposure. You can have a very hazardous substance (e.g., stored securely in a lab) that poses very little risk because there is no exposure.\n\nFuture Question Idea: \"A highly toxic chemical is stored safely in a sealed container in a locked warehouse. Which statement is most accurate?\" (Answer: \"The chemical has a high hazard but a low risk.\")."
+  },
+  {
+    "question": "What is the primary goal of an \"environmental impact assessment\" (EIA)?",
+    "options": {
+      "A": "Approving all development projects without scrutiny",
+      "B": "Identifying and assessing potential environmental effects of proposed projects",
+      "C": "Ignoring the impact of development on the environment",
+      "D": "Promoting unregulated industrial activities"
+    },
+    "answer": "B",
+    "explanation": "This question defines a key regulatory tool for environmental protection.\n\nEnvironmental Impact Assessment (EIA): A systematic process used to predict the environmental consequences (positive or negative) of a proposed development project (e.g., a new factory, dam, highway, or housing development) before the decision is made to move forward with the project.\n\nPrimary Goal: To provide decision-makers with a comprehensive understanding of the potential environmental, social, and economic impacts of a project. This allows them to weigh the pros and cons and, if the project is approved, to implement mitigation measures to minimize the negative impacts. It is a proactive, preventive tool.\n\nIn Kenya, EIAs are a legal requirement under the Environmental Management and Co-ordination Act (EMCA), overseen by the National Environment Management Authority (NEMA).",
+    "additional": ""
+  },
+  {
+    "question": "Which of the following is a key principle of environmental health risk assessment?",
+    "options": {
+      "A": "Ignoring the potential risks of chemicals and pollutants",
+      "B": "Identifying and characterizing potential risks to human and environmental health",
+      "C": "Promoting the unrestricted use of hazardous materials",
+      "D": "Disregarding public input"
+    },
+    "answer": "B",
+    "explanation": "This question asks for the core principle of a specific analytical process.\n\nEnvironmental Health Risk Assessment: A formal, four-step process used to estimate the nature and probability of adverse health effects in humans who may be exposed to chemicals in contaminated environmental media, now or in the future.\n\nPrimary Principle/Goal: To scientifically identify and characterize risks (B). It is a data-driven process designed to answer key questions: What are the hazards? How are people exposed? What is the likelihood of harm? This provides a rational basis for risk management decisions.\n\nA, C, and D are the opposite of what a risk assessment does. It is about understanding risk, not ignoring it, and public participation is often a key part of the process.",
+    "additional": "1. The Four Steps of Risk Assessment:\n- Hazard Identification: Asks \"Does this substance have the potential to cause harm?\"\n- Dose-Response Assessment: Asks \"What is the relationship between the amount of exposure (dose) and the severity of the harm (response)?\"\n- Exposure Assessment: Asks \"How much, how often, and for how long are people exposed to this substance?\"\n- Risk Characterization: The final step, which combines the information from the first three steps to produce an estimate of the overall risk to the population (e.g., \"The estimated risk is an additional 1 in 1,000,000 chance of developing cancer over a lifetime\").\n\nFuture Question Idea: \"A public health officer is measuring the concentration of a pollutant in a community's drinking water to determine how much people are consuming. This activity corresponds to which step of risk assessment?\" (Answer: Exposure Assessment)."
+  },
+  {
+    "question": "In the context of environmental health, what does \"biomonitoring\" involve?",
+    "options": {
+      "A": "Ignoring the impact of human activities on the environment",
+      "B": "Monitoring the health of wildlife",
+      "C": "Assessing the effects of environmental exposure on human health through the measurement of biological markers",
+      "D": "Promoting habitat destruction"
+    },
+    "answer": "C",
+    "explanation": "This question defines a specific method for measuring human exposure to environmental chemicals.\n\nBiomonitoring: The direct measurement of environmental chemicals or their metabolites (breakdown products) in human specimens, such as blood, urine, or hair.\n\nInvolvement: Instead of measuring the chemical in the environment (e.g., in the air or water), biomonitoring measures the amount of the chemical that has actually gotten inside a person's body. This provides a more accurate picture of an individual's total exposure from all sources.\n\nExample: Measuring lead levels in a child's blood is a form of biomonitoring. Measuring cotinine (a metabolite of nicotine) in a person's urine can determine their exposure to tobacco smoke.",
+    "additional": "1. Biomarkers:\nBiomonitoring relies on the measurement of biomarkers. There are three main types:\n- Biomarker of Exposure: Measures the chemical or its metabolite in the body (e.g., lead in blood).\n- Biomarker of Effect: Measures a biochemical or physiological change in the body that results from the exposure (e.g., a change in a specific enzyme's activity caused by a pesticide).\n- Biomarker of Susceptibility: Measures a genetic or other characteristic that makes an individual more or less sensitive to an exposure.\n\nFuture Question Idea: \"A study measures the level of arsenic in the toenails of residents living near a mine. This is an example of using a:\" (Answer: Biomarker of exposure)."
+  },
+  {
+    "question": "What is the primary focus of \"food safety\" in environmental health?",
+    "options": {
+      "A": "Promoting unsafe food practices",
+      "B": "Ensuring the safety and quality of the food supply to protect public health",
+      "C": "Ignoring food-related diseases",
+      "D": "Encouraging the sale of contaminated food"
+    },
+    "answer": "B",
+    "explanation": "This question defines the goal of a major branch of environmental and public health.\n\nFood Safety: A scientific discipline describing the handling, preparation, and storage of food in ways that prevent foodborne illness. It encompasses all the practices and regulations designed to protect the food supply from contamination.\n\nPrimary Focus: The core goal is to prevent the contamination of food with harmful biological (bacteria, viruses, parasites), chemical (pesticides, cleaning agents), or physical (glass, metal) hazards. This ensures that the food people eat is safe and will not cause disease, protecting the health of the public.\n\nThe other options describe actions that would cause, not prevent, foodborne illness.",
+    "additional": "NCK Focus August 2025:\n\n1. The \"Farm to Fork\" Approach:\nFarm: Using safe agricultural practices (e.g., clean water for irrigation, proper use of pesticides).\nProcessing: Hygienic practices in factories and processing plants.\nTransportation & Storage: Maintaining proper temperatures (cold chain for perishable foods).\nRetail/Restaurant: Safe food handling by vendors, cooks, and servers.\nConsumer (\"Fork\"): Educating the public on safe food handling at home (e.g., proper handwashing, cooking to safe temperatures, avoiding cross-contamination).\n\n2. The Five Keys to Safer Food (WHO):\nKeep Clean\nSeparate Raw and Cooked\nCook Thoroughly\nKeep Food at Safe Temperatures\nUse Safe Water and Raw Materials\n\nFuture Question Idea: \"A nurse teaching a community group about food safety emphasizes using a different cutting board for raw chicken and for vegetables. This advice is aimed at preventing which problem?\" (Answer: Cross-contamination)."
+  },
+  {
+    "question": "In the context of environmental health, what is the primary goal of \"hazardous waste management\"?",
+    "options": {
+      "A": "Promoting the improper disposal of hazardous waste",
+      "B": "Identifying safe and responsible methods for managing and disposing of hazardous waste",
+      "C": "Ignoring the dangers of hazardous waste",
+      "D": "Encouraging the release of hazardous waste into the environment"
+    },
+    "answer": "B",
+    "explanation": "This question defines the management of a specific and dangerous category of waste.\n\nHazardous Waste: Waste that has substantial or potential threats to public health or the environment. It can be toxic, corrosive, flammable, or reactive. Examples include industrial chemical waste, medical waste (e.g., used sharps, contaminated dressings), and electronic waste (e-waste).\n\nPrimary Goal: The goal is to manage this waste from \"cradle to grave\" (from its generation to its final disposal) in a way that protects human health and the environment. This involves identifying safe methods for handling, transporting, treating, and disposing of the waste to prevent contamination of air, water, and soil.\n\nThe other options describe irresponsible and illegal practices.",
+    "additional": "NCK Focus August 2025:\n\n1. The Waste Management Hierarchy:\nPrevention/Reduction (Most Preferred)\nReuse\nRecycling/Composting\nRecovery\nDisposal (Least Preferred)\n\n2. Healthcare Waste Management:\nSegregation at Source: Different types of waste must be placed in designated, color-coded bins.\nTreatment: Infectious healthcare waste must be treated before final disposal (e.g., incineration or autoclaving).\n\nFuture Question Idea: \"What is the most critical first step in the safe management of healthcare waste in a hospital ward?\" (Answer: \"Segregating the different types of waste into color-coded bins at the point of generation.\")"
+  },
+  {
+    "question": "What is the primary focus of \"air quality management\" in environmental health?",
+    "options": {
+      "A": "Maximizing air pollution levels",
+      "B": "Monitoring and improving air quality to protect public health and the environment",
+      "C": "Ignoring air pollution",
+      "D": "Promoting unrestricted emissions from industrial sources"
+    },
+    "answer": "B",
+    "explanation": "This question defines the field concerned with the air we breathe.\n\nAir Quality Management: The process of regulating and controlling the emission of air pollutants into the atmosphere to protect human health and the environment.\n\nPrimary Focus: It involves several key activities:\nMonitoring: Measuring the levels of key pollutants in the ambient (outdoor) air (e.g., particulate matter (PM2.5), ozone, sulfur dioxide, nitrogen oxides).\nSetting Standards: Establishing legal limits (air quality standards) for the maximum allowable concentration of these pollutants.\nControlling Emissions: Implementing strategies to reduce pollution from sources like industries, vehicles, and power plants.\n\nThe ultimate goal is to ensure the air is safe to breathe, thereby reducing the burden of respiratory and cardiovascular diseases linked to air pollution.",
+    "additional": ""
+  },
+  {
+    "question": "What is the primary goal of \"water quality assessment\" in environmental health?",
+    "options": {
+      "A": "Promoting the release of contaminated water into natural sources",
+      "B": "Ensuring the safety and quality of water sources for human consumption and ecological health",
+      "C": "Ignoring water pollution",
+      "D": "Encouraging the contamination of water resources"
+    },
+    "answer": "B",
+    "explanation": "This question defines the process of evaluating the suitability of water for various uses.\n\nWater Quality Assessment: The process of sampling and analyzing water to determine its physical, chemical, and biological characteristics.\n\nPrimary Goal: To ensure that water is safe for its intended purpose. For public health, the main concern is the safety of drinking water. The assessment checks for the presence of harmful microbiological contaminants (like E. coli, which indicates fecal contamination) and chemical contaminants (like lead, arsenic, or pesticides). The goal is to protect people from waterborne diseases (like cholera, typhoid) and the toxic effects of chemicals.\n\nIt also includes assessing water quality for recreational use (e.g., swimming) and for maintaining the health of aquatic ecosystems.",
+    "additional": ""
+  },
+  {
+    "question": "In the context of environmental health, what does \"vector control\" involve?",
+    "options": {
+      "A": "Promoting the proliferation of disease-carrying vectors",
+      "B": "Controlling and managing disease vectors such as mosquitoes and ticks to prevent the spread of diseases",
+      "C": "Ignoring vector-borne diseases",
+      "D": "Encouraging the use of vectors for medical research"
+    },
+    "answer": "B",
+    "explanation": "This question defines a critical public health strategy for preventing a specific class of diseases.\n\nVector: A living organism that can transmit infectious pathogens between humans, or from animals to humans. The most common vectors are arthropods like mosquitoes, ticks, flies, and fleas.\n\nVector Control: Any method to limit or eradicate the vectors which transmit disease pathogens. The goal is to break the chain of transmission by reducing the vector population or by preventing them from biting humans.\n\nExamples:\nMosquito control: Draining stagnant water to eliminate breeding sites, using insecticide-treated bed nets (ITNs), indoor residual spraying (IRS).\nFly control: Proper solid waste management and sanitation.\nTick control: Personal protective measures like wearing long sleeves and using repellents in grassy areas.",
+    "additional": "NCK Focus August 2025:\n\n1. Integrated Vector Management (IVM):\nConcept: A decision-making process for the optimal use of resources for vector control.\nKey Principles:\n- Use of a range of interventions (e.g., environmental modification, biological control, and judicious use of chemicals).\n- Collaboration with other sectors (e.g., agriculture, housing).\n- Community participation.\n- Evidence-based decision-making.\n\nFuture Question Idea: \"A community health program to control malaria involves distributing insecticide-treated nets, promoting the clearing of household drainage systems, and educating the community. This is an example of which strategy?\" (Answer: Integrated Vector Management - IVM)."
+  },
+  {
+    "question": "What is the primary focus of \"environmental health education\" in a community?",
+    "options": {
+      "A": "Promoting ignorance about environmental health issues",
+      "B": "Providing community members with information and skills to make informed decisions regarding their health and environment",
+      "C": "Ignoring community engagement",
+      "D": "Encouraging the disregard of environmental risks"
+    },
+    "answer": "B",
+    "explanation": "This question defines the role of education as a tool in environmental health.\n\nEnvironmental Health Education: The process of communicating information and providing skills to individuals and communities to empower them to identify and mitigate environmental risks. It is a key strategy for promoting behavior change at the household and community level.\n\nPrimary Focus: To move people from awareness to action. This involves not just telling them what the risks are, but also giving them the practical knowledge and skills (how) to protect themselves. The ultimate goal is to enable them to make informed decisions and take responsible actions to create a healthier environment.\n\nA, C, and D are the opposite of the goals of education and engagement.",
+    "additional": "NCK Focus August 2025:\n\n1. Examples of Environmental Health Education Topics:\n- Safe Water Chain\n- Handwashing with Soap\n- Food Safety (Five Keys)\n- Indoor Air Pollution\n- Waste Management\n\n2. The Nurse’s Role: Nurses are key educators in homes and communities. They simplify technical info into everyday language.\n\nFuture Question Idea: \"A nurse teaches villagers how to purify drinking water using the SODIS method. This action is best described as:\" (Answer: Environmental health education)."
+  },
+  {
+    "question": "In the context of environmental health, what is the primary goal of \"environmental policy and regulation\"?",
+    "options": {
+      "A": "Promoting unrestricted environmental degradation",
+      "B": "Developing and implementing policies and regulations to protect the environment and public health",
+      "C": "Ignoring the need for environmental protection",
+      "D": "Encouraging harmful environmental practices"
+    },
+    "answer": "B",
+    "explanation": "This question defines the legal and governmental framework for environmental health.\n\nEnvironmental Policy: A statement of a government's intentions and principles in relation to its overall environmental performance. It provides a framework for action.\n\nEnvironmental Regulation: The specific laws, rules, and standards that are implemented to achieve the goals of the policy.\n\nPrimary Goal: To establish a legal framework that controls pollution and the use of resources in order to protect both the environment itself and the health of the human population that depends on it. These regulations set legally enforceable standards that industries, municipalities, and individuals must follow.\n\nExample: Kenya's Environmental Management and Co-ordination Act (EMCA) is the policy framework, and specific regulations under it (e.g., Water Quality Regulations, Waste Management Regulations) are the rules that must be followed.",
+    "additional": "NCK Focus August 2025:\n\n1. Importance of Policy Enforcement:\n- Ensures accountability for polluters\n- Promotes sustainable development\n\n2. Role of Public Health Officials:\n- Monitor compliance and educate communities on policies\n\nFuture Question Idea: \"A new factory is required to conduct an Environmental Impact Assessment before operations begin. This requirement is based on which principle?\" (Answer: Environmental regulation)."
+  },
+  {
+    "question": "What is the primary objective of \"environmental justice\" in environmental health?",
+    "options": {
+      "A": "Promoting environmental inequalities and disparities",
+      "B": "Ensuring that all individuals, regardless of their background, have equal access to a healthy environment",
+      "C": "Ignoring environmental issues",
+      "D": "Encouraging the exclusion of vulnerable communities"
+    },
+    "answer": "B",
+    "explanation": "This question defines a critical movement and principle that combines environmental protection with social justice.\n\nEnvironmental Justice: The fair treatment and meaningful involvement of all people regardless of race, color, national origin, or income, with respect to the development, implementation, and enforcement of environmental laws, regulations, and policies.\n\nPrimary Objective: To address environmental injustice or environmental racism, which is the reality that low-income communities and communities of color are often disproportionately burdened by environmental hazards (e.g., they are more likely to live near polluting factories, landfills, or major highways). The goal of the environmental justice movement is to ensure that no community bears an unfair share of environmental burdens and that all communities have equal access to environmental benefits (like clean air, clean water, and green spaces).",
+    "additional": "NCK Focus August 2025:\n\n1. Real-World Application in Kenya:\n- Informal settlements near dumpsites or industrial zones\n\n2. Nurse's Role:\n- Advocate for equal access to environmental protection\n\nFuture Question Idea: \"A local advocacy group protests a sewage treatment plant being built only in low-income zones. What concept does this illustrate?\" (Answer: Environmental justice)."
+  },
+  {
+    "question": "In the context of environmental health, what does \"climate change adaptation\" involve?",
+    "options": {
+      "A": "Promoting activities that contribute to climate change",
+      "B": "Adapting to the effects of climate change by implementing strategies to reduce vulnerabilities",
+      "C": "Ignoring climate change",
+      "D": "Encouraging actions that worsen the impacts of climate change"
+    },
+    "answer": "B",
+    "explanation": "This question defines one of the two main responses to climate change.\n\nClimate Change Adaptation: The process of adjusting to the current and expected effects of climate change. It involves taking practical actions to manage the risks and reduce the harm associated with climate impacts like more frequent heatwaves, droughts, floods, and changes in disease patterns.\n\nInvolvement: Adaptation focuses on reducing vulnerability. For example, if climate change is predicted to cause more intense rainfall and flooding, an adaptation strategy would be to build better drainage systems or protect coastal wetlands. If it's expected to expand the range of malaria-carrying mosquitoes, an adaptation strategy is to strengthen malaria surveillance and control programs.\n\nThis is distinct from climate change mitigation, which focuses on reducing the root cause of the problem by cutting greenhouse gas emissions.",
+    "additional": "NCK Focus August 2025:\n\n1. Examples Relevant to Kenya:\n- Drought-resistant crops\n- Relocation from flood-prone areas\n- Strengthened vector surveillance\n\n2. Nurse's Role:\n- Educate communities on protective behaviors during extreme climate events\n\nFuture Question Idea: \"A county builds elevated latrines in flood-prone regions to prevent cholera outbreaks. This is an example of:\" (Answer: Climate change adaptation)."
+  },
+  {
+    "question": "What is the primary goal of \"environmental monitoring\" in environmental health?",
+    "options": {
+      "A": "Promoting the ignorance of environmental conditions",
+      "B": "Collecting data and information to assess and manage environmental quality and health risks",
+      "C": "Ignoring the state of the environment",
+      "D": "Encouraging irresponsible environmental practices"
+    },
+    "answer": "B",
+    "explanation": "This question defines the ongoing process of data collection in environmental health.\n\nEnvironmental Monitoring: The systematic and long-term observation and measurement of environmental parameters (e.g., pollutants in air, water, or soil) to assess the state of the environment and identify trends.\n\nPrimary Goal: To provide the data and information needed for effective environmental management. You cannot manage what you do not measure. Monitoring helps to:\n- Assess the current state of environmental quality\n- Track whether conditions are getting better or worse over time\n- Determine if environmental regulations and standards are being met\n- Provide an early warning of emerging problems\n- Evaluate the effectiveness of pollution control strategies",
+    "additional": "NCK Focus August 2025:\n\n1. Key Monitoring Types:\n- Air (Nairobi PM stations)\n- Water (boreholes, rivers)\n- Soil (around dumpsites/factories)\n\n2. Tools Nurses May Use:\n- Community water test kits\n- Health surveys for pollution-related symptoms\n\nFuture Question Idea: \"A health officer collects soil samples from a former pesticide dump site. This activity represents:\" (Answer: Environmental monitoring)."
+  },
+  {
+    "question": "In the context of environmental health, what is the primary objective of \"hazard identification\"?",
+    "options": {
+      "A": "Promoting the use of hazardous substances",
+      "B": "Identifying and characterizing potential hazards and risks associated with chemicals and environmental factors",
+      "C": "Ignoring the presence of hazards",
+      "D": "Encouraging unregulated chemical use"
+    },
+    "answer": "B",
+    "explanation": "This question is a repeat of the concept from Q200, focusing on the first step of the risk assessment process.\n\nHazard Identification: The process of determining whether exposure to a specific agent (e.g., a chemical, a physical agent like noise, or a biological agent like a virus) can cause an increase in the incidence of a particular adverse health effect.\n\nPrimary Objective: To simply ask, \"Is this substance capable of causing harm?\" It involves reviewing toxicological and epidemiological studies to determine if a link exists between the substance and a health problem. This is the foundational step before one can assess the level of risk to a population.\n\nThe other options describe actions that are contrary to the principles of public health and safety.",
+    "additional": "NCK Focus August 2025:\n\n1. Step 1 in Risk Assessment:\n- Hazard identification is followed by dose-response assessment, exposure assessment, and risk characterization.\n\n2. Nurse’s Role:\n- Identify hazards during community health assessments (e.g., presence of lead-based paint, unlabelled chemical use).\n\nFuture Question Idea: \"A nurse notices children playing near containers labeled 'toxic.' What process is this observation part of?\" (Answer: Hazard identification)."
+  },
+  {
+    "question": "What is the primary focus of \"waste reduction and recycling\" in environmental health?",
+    "options": {
+      "A": "Promoting the generation of more waste",
+      "B": "Reducing the amount of waste produced and promoting recycling to minimize environmental impact",
+      "C": "Ignoring waste management practices",
+      "D": "Encouraging waste disposal in natural ecosystems"
+    },
+    "answer": "B",
+    "explanation": "This question addresses the top tiers of the waste management hierarchy, which we discussed in Q203.\n\nWaste Reduction (or Prevention): This is the most preferred strategy. It involves activities that reduce the amount of waste created in the first place (e.g., using less packaging, buying durable goods instead of disposable ones).\n\nRecycling: The process of collecting and processing materials that would otherwise be thrown away as trash and turning them into new products.\n\nPrimary Focus: Both strategies are focused on minimizing the overall environmental impact of waste. By reducing and recycling, we conserve natural resources, save energy, reduce pollution associated with manufacturing and landfilling, and decrease the amount of waste that needs to be disposed of.",
+    "additional": "NCK Focus August 2025:\n\n1. The \"3 Rs\" of Waste Management:\n- Reduce: Most important.\n- Reuse: Use again.\n- Recycle: Transform into new products.\n\n2. Nurse’s Role:\n- In hospitals: Reduce disposables, encourage segregation.\n- In homes: Educate on reuse and dangers of burning waste.\n\nFuture Question Idea: \"According to the waste hierarchy, which action is most preferred?\"\n(Correct Answer: C) Buying products with less packaging."
+  },
+  {
+    "question": "In environmental health, what is the primary goal of \"public health surveillance\"?",
+    "options": {
+      "A": "Promoting the spread of diseases",
+      "B": "Monitoring and tracking the occurrence of diseases, environmental hazards, and health trends in a population",
+      "C": "Ignoring the health status of the population",
+      "D": "Encouraging the neglect of public health concerns"
+    },
+    "answer": "B",
+    "explanation": "This question defines the broad purpose of surveillance in public health.\n\nPublic Health Surveillance: The ongoing, systematic collection, analysis, interpretation, and dissemination of data regarding a health-related event for use in public health action to reduce morbidity and mortality and to improve health.\n\nPrimary Goal: To provide actionable intelligence. In environmental health, this means:\n- Tracking diseases that may be linked to the environment (e.g., asthma during high air pollution, cancer clusters).\n- Monitoring hazards (e.g., lead in water, E. coli in food).\n- Identifying outbreaks from environmental causes.\n\nThis data is crucial for intervention planning and evaluation.",
+    "additional": "NCK Focus August 2025:\n\n1. Examples of Environmental Surveillance:\n- Waterborne disease outbreaks\n- Respiratory illnesses during dust storms\n\n2. Nurse’s Role:\n- Reporting suspected environment-related illness trends\n- Contributing to early warning systems in community settings\n\nFuture Question Idea: \"An officer collects weekly data on diarrhea cases during a flood. This action is an example of:\" (Answer: Public health surveillance)."
+  },
+  {
+    "question": "What is the primary focus of \"vector-borne disease control\" in environmental health?",
+    "options": {
+      "A": "Promoting the proliferation of disease vectors",
+      "B": "Controlling and managing disease vectors such as mosquitoes and ticks to prevent the spread of vector-borne diseases",
+      "C": "Ignoring vector-borne diseases",
+      "D": "Encouraging the release of disease-carrying vectors"
+    },
+    "answer": "B",
+    "explanation": "This question is a repeat of the concept from Q206, emphasizing the importance of vector control in environmental health.\n\nVector-Borne Diseases: Illnesses caused by pathogens and parasites transmitted by vectors like mosquitoes (e.g., malaria, dengue), ticks (e.g., Lyme disease), and flies (e.g., trachoma).\n\nVector Control: A set of interventions aimed at reducing or eliminating the populations of these vectors, or preventing their contact with humans, to break the chain of disease transmission.\n\nPrimary Focus: The focus is on environmental management and personal protection strategies. Examples include draining stagnant water where mosquitoes breed, using insecticide-treated nets, clearing brush where ticks live, and improving sanitation to reduce fly populations. This is a classic example of how modifying the environment can directly improve public health.",
+    "additional": "NCK Focus August 2025:\n\n1. Strategies:\n- Larval source reduction\n- Indoor residual spraying (IRS)\n- Use of repellents and protective clothing\n\n2. Nurse’s Role:\n- Educate families on mosquito breeding\n- Participate in distribution of ITNs and IRS campaigns\n\nFuture Question Idea: \"A health team removes standing water and distributes mosquito nets. This is an example of:\" (Answer: Vector-borne disease control)."
+  }
 ]
+
+
+  
 
 
   
