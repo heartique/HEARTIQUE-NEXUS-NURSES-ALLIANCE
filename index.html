@@ -179,81 +179,85 @@
         flex-direction: column;
     }
 }
-    /* Base tab card style */
+/* Container to align tabs horizontally */
+.tab-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+/* Core card style */
 .tab-card {
+  flex: 1 1 300px;
   display: block;
-  border-radius: 14px;
   padding: 20px;
-  margin-bottom: 16px;
-  color: #1f2937; /* dark readable text */
+  border-radius: 16px;
+  color: #fff; /* white text */
   text-decoration: none;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  animation: fadeInUp 0.6s ease both;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  min-height: 180px;
+  animation: slideIn 0.6s ease both;
 }
-
-/* Hover effect */
 .tab-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transform: scale(1.03);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
 }
 
-/* Vocabulary tab */
+/* Vocabulary tab - Bold Blue */
 .tab-vocab {
-  background: linear-gradient(to right, #c7d2fe, #e0e7ff); /* rich readable blue background */
-  border-left: 5px solid #4338ca;
-  color: #111827; /* dark gray text for contrast */
+  background: linear-gradient(to left, #2563eb, #1e40af); /* vivid blue */
 }
 
-/* Medical Abbreviations tab */
+/* Abbreviations tab - Bold Pink */
 .tab-abbrev {
-  background: linear-gradient(to right, #fecdd3, #ffe4e6); /* soft pink tones */
-  border-left: 5px solid #be123c;
-  color: #1f2937; /* dark gray text */
+  background: linear-gradient(to left, #be123c, #881337); /* rich pink/red */
 }
 
-/* Text layout */
+/* Text content */
 .tab-icon {
-  font-size: 2rem;
+  font-size: 2.2rem;
   margin-bottom: 10px;
 }
-
 .tab-content h2 {
   margin: 0;
-  font-size: 1.3rem;
-  font-weight: 700;
+  font-size: 1.4rem;
+  font-weight: bold;
 }
-
 .tab-content p {
-  margin: 4px 0;
+  margin: 5px 0 10px;
   font-size: 0.95rem;
-  font-weight: 500;
 }
-
-/* Badge style */
 .badge {
-  background: rgba(255, 255, 255, 0.8);
-  color: #111;
-  padding: 4px 10px;
-  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  padding: 5px 12px;
+  border-radius: 20px;
   font-size: 0.75rem;
-  margin-top: 8px;
-  display: inline-block;
   font-weight: bold;
 }
 
-/* Fade-in animation */
-@keyframes fadeInUp {
+/* Slide-in animation from right */
+@keyframes slideIn {
   from {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateX(40px);
   }
   to {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateX(0);
   }
 }
 
+/* Responsive tweak for smaller screens */
+@media screen and (max-width: 768px) {
+  .tab-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 
   </style>
 </head>
