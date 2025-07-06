@@ -109,39 +109,33 @@
       <h2 id="form-title">LOGIN TO HEARTIQUE NURSING NEXUS PORTAL</h2>
 
       <input type="email" id="email" placeholder="Email" required />
+<!-- Password input with small toggle icon -->
+<div style="position: relative; width: 100%; margin-bottom: 1rem;">
+  <input
+    type="password"
+    id="password"
+    placeholder="Password"
+    required
+    style="padding-right: 2rem;"
+  />
+  <span
+    id="toggle-password"
+    onclick="togglePasswordVisibility()"
+    style="
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 0.9rem;
+      cursor: pointer;
+      color: #004a99;
+      user-select: none;
+    "
+    title="Show/Hide password"
+  >👁️</span>
+</div>
 
-      <div style="position: relative; width: 100%; margin-bottom: 1rem;">
-      <input
-  type="password"
-  id="password"
-  placeholder="Password"
-  required
-  style="padding-right: 3rem; position: relative; z-index: 1;"
-/>
-
-  <button
-  type="button"
-  id="toggle-password"
-  aria-label="Toggle password visibility"
-  style="
-    position: absolute;
-    right: 8px;
-    top: 50%;
-    transform: translateY(-50%);
-    background: transparent;
-    border: none;
-    cursor: pointer;
-    font-size: 1.2rem;
-    color: #004a99;
-    z-index: 2;
-  "
-
-
-          onclick="togglePasswordVisibility()"
-        >
-          👁️
-        </button>
-      </div>
+     
 
       <label style="display: flex; align-items: center; margin-bottom: 1rem; font-size: 0.9rem; color: #004a99;">
         <input type="checkbox" id="remember-me" style="margin-right: 0.5rem;" />
@@ -164,18 +158,17 @@
       'https://gbqgtnukoucxagswqspx.supabase.co',
       'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdicWd0bnVrb3VjeGFnc3dxc3B4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTA4ODcwNTAsImV4cCI6MjA2NjQ2MzA1MH0.uHqKZ-KnW1sv7CSD37D6dh1qYfSLMznud947DEZI93Q'
     );
-
-    function togglePasswordVisibility() {
-      const pwInput = document.getElementById('password');
-      const toggleBtn = document.getElementById('toggle-password');
-      if (pwInput.type === 'password') {
-        pwInput.type = 'text';
-        toggleBtn.textContent = '🙈';
-      } else {
-        pwInput.type = 'password';
-        toggleBtn.textContent = '👁️';
-      }
-    }
+function togglePasswordVisibility() {
+  const pwInput = document.getElementById('password');
+  const toggle = document.getElementById('toggle-password');
+  if (pwInput.type === 'password') {
+    pwInput.type = 'text';
+    toggle.textContent = '🙈';
+  } else {
+    pwInput.type = 'password';
+    toggle.textContent = '👁️';
+  }
+}
 
     async function handleAuth() {
       const email = document.getElementById('email').value.trim();
