@@ -231,10 +231,15 @@
         .select('full_name, school')
         .eq('id', currentUser.id)
         .single();
+if (!data || (!data.full_name && !data.school)) {
+  document.getElementById('welcome').style.display = 'block';
+  await loadProfile();
+  document.getElementById('loader').style.display = 'none';
+} else {
+  await loadProfile(); // still show form for updates
+  document.getElementById('loader').style.display = 'none';
+}
 
-      if (data && data.full_name && data.school) {
-        window.location.href = 'index.html';
-        return;
       }
 
       document.getElementById('welcome').style.display = 'block';
