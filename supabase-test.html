@@ -1,91 +1,76 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Supabase Auth Test</title>
+  <title>Supabase Sign Up Test</title>
 </head>
 <body style="font-family: Arial; padding: 2rem;">
-  <h2>Sign Up or Sign In + Insert into `users`</h2>
+  <h2>Sign Up & Insert into Database</h2>
 
-  <form id="auth-form">
+  <form id="signup-form">
     <input type="email" id="email" placeholder="Email" required /><br><br>
     <input type="password" id="password" placeholder="Password" required /><br><br>
     <input type="text" id="first_name" placeholder="First Name" /><br><br>
     <input type="text" id="last_name" placeholder="Last Name" /><br><br>
-    <button type="submit">Continue</button>
+    <button type="submit">Sign Up</button>
   </form>
 
-  <p id="status" style="margin-top: 2rem; font-weight: bold;"></p>
+  <p id="message" style="margin-top: 2rem; font-weight: bold;"></p>
 
-  <!-- Supabase JS v2 -->
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.42.3"></script>
+  <!-- Supabase Client -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script>
-    const SUPABASE_URL = 'https://oqwfdyntdcmyjhkstvsf.supabase.co';
-    const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9xd2ZkeW50ZGNteWpoa3N0dnNmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTE4Mjg3MTQsImV4cCI6MjA2NzQwNDcxNH0.Id8Ip2cMPUHjEVPCxvBEfhU-R36X_J2zZ4mI3ATfynY';
+    const supabase = supabase.createClient(
+      'https://oqwfdyntdcmyjhkstvsf.supabase.co',
+      'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9xd2ZkeW50ZGNteWpoa3N0dnNmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTE4Mjg3MTQsImV4cCI6MjA2NzQwNDcxNH0.Id8Ip2cMPUHjEVPCxvBEfhU-R36X_J2zZ4mI3ATfynY'
+    );
 
-    const supabase = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
-    const statusEl = document.getElementById('status');
+    const form = document.getElementById('signup-form');
+    const message = document.getElementById('message');
 
-    document.getElementById('auth-form').addEventListener('submit', async (e) => {
+    form.addEventListener('submit', async (e) => {
       e.preventDefault();
+
+      message.textContent = 'Creating account...';
 
       const email = document.getElementById('email').value;
       const password = document.getElementById('password').value;
       const first_name = document.getElementById('first_name').value;
       const last_name = document.getElementById('last_name').value;
 
-      statusEl.textContent = '⏳ Signing up...';
-
-      // Try signing up first
-      const { data: signUpData, error: signUpError } = await supabase.auth.signUp({
+      const { data, error } = await supabase.auth.signUp({
         email,
-        password
+        password,
       });
 
-      if (signUpError) {
-        if (signUpError.message.includes('already registered')) {
-          statusEl.textContent = '⚠️ User exists. Logging in...';
-
-          const { data: signInData, error: signInError } = await supabase.auth.signInWithPassword({
-            email,
-            password
-          });
-
-          if (signInError) {
-            statusEl.textContent = '❌ Login failed: ' + signInError.message;
-            return;
-          }
-
-          const user = signInData.user;
-          insertUser(user, email, first_name, last_name);
-        } else {
-          statusEl.textContent = '❌ Sign up failed: ' + signUpError.message;
-          return;
-        }
-      } else {
-        statusEl.textContent = '✅ Sign up successful!';
-        const user = signUpData.user;
-        insertUser(user, email, first_name, last_name);
+      if (error) {
+        message.textContent = '❌ Sign up error: ' + error.message;
+        return;
       }
-    });
 
-    async function insertUser(user, email, first_name, last_name) {
-      statusEl.textContent = '📤 Inserting into users table...';
+      const user = data.user;
+
+      if (!user) {
+        message.textContent = '⚠️ Please check your email to confirm your account.';
+        return;
+      }
+
+      message.textContent = '✅ Account created! Inserting into users table...';
 
       const { error: insertError } = await supabase.from('users').insert({
         id: user.id,
-        email,
+        email: user.email,
         first_name,
-        last_name
+        last_name,
       });
 
       if (insertError) {
-        statusEl.textContent = '❌ Insert failed: ' + insertError.message;
+        message.textContent = '❌ Insert error: ' + insertError.message;
       } else {
-        statusEl.textContent = '✅ User added to public.users table!';
+        message.textContent = '✅ Success! User added to database.';
       }
-    }
+    });
   </script>
 </body>
 </html>
