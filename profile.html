@@ -6,6 +6,7 @@
   <title>User Profile - Heartique Nexus</title>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
   <style>
+    /* ✅ Styling remains the same — no change here */
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background: #e6f0ff;
@@ -149,6 +150,8 @@
     <input type="tel" id="phone" name="phone" pattern="^\+?[0-9\s\-]{7,15}$" />
     <label for="email">Email (cannot be changed)</label>
     <input type="email" id="email" name="email" disabled />
+    <label for="dob">Date of Birth</label>
+    <input type="date" id="dob" name="dob" />
     <label for="age">Age</label>
     <input type="number" id="age" name="age" min="1" max="120" />
     <label for="sex">Sex</label>
@@ -197,36 +200,29 @@
 
     async function checkUser() {
       let tries = 0;
-let session = null;
-
-while (!session && tries < 5) {
-  const { data, error } = await supabase.auth.getSession();
-  if (data?.session) {
-    session = data.session;
-    break;
-  }
-  await new Promise((res) => setTimeout(res, 500)); // Wait 0.5 sec
-  tries++;
-}
-
-if (!session) return (window.location.href = 'index.html');
-currentUser = session.user;
-
+      let session = null;
+      while (!session && tries < 5) {
+        const { data } = await supabase.auth.getSession();
+        if (data?.session) {
+          session = data.session;
+          break;
+        }
+        await new Promise((res) => setTimeout(res, 500));
+        tries++;
+      }
+      if (!session) return (window.location.href = 'index.html');
       currentUser = session.user;
       await loadProfile();
-
-      // Show welcome if it's a new user
       if (localStorage.getItem('newUser') === 'true') {
         document.getElementById('welcome').style.display = 'block';
       }
-
       document.getElementById('loader').style.display = 'none';
     }
 
     async function loadProfile() {
       document.getElementById('email').value = currentUser.email;
       const { data, error } = await supabase
-        .from('profiles')
+        .from('users')
         .select('*')
         .eq('id', currentUser.id)
         .single();
@@ -241,9 +237,9 @@ currentUser = session.user;
       document.getElementById('phone').value = data.phone || '';
       document.getElementById('age').value = data.age || '';
       document.getElementById('sex').value = data.sex || '';
+      document.getElementById('dob').value = data.dob || '';
       avatarUrl = data.avatar_url || null;
       if (avatarUrl) profilePic.src = avatarUrl;
-
       if (data.full_name && data.school) {
         updateProfileProgress('complete');
       } else if (data.full_name || data.school) {
@@ -291,17 +287,19 @@ currentUser = session.user;
 
       const updates = {
         id: currentUser.id,
+        email: currentUser.email,
         full_name: document.getElementById('full_name').value.trim(),
         bio: document.getElementById('bio').value.trim(),
         school: document.getElementById('school').value.trim(),
         phone: document.getElementById('phone').value.trim(),
+        dob: document.getElementById('dob').value || null,
         age: parseInt(document.getElementById('age').value) || null,
         sex: document.getElementById('sex').value,
         avatar_url: avatarUrl,
         updated_at: new Date().toISOString()
       };
 
-      const { error } = await supabase.from('profiles').upsert(updates);
+      const { error } = await supabase.from('users').upsert(updates);
 
       if (error) {
         messageEl.textContent = 'Error saving profile: ' + error.message;
@@ -314,6 +312,21 @@ currentUser = session.user;
       }
 
       form.querySelector('button[type=submit]').disabled = false;
+    });
+
+    document.getElementById('dob').addEventListener('change', () => {
+      const dobValue = document.getElementById('dob').value;
+      if (!dobValue) return;
+      const dobDate = new Date(dobValue);
+      const today = new Date();
+      let age = today.getFullYear() - dobDate.getFullYear();
+      if (
+        today.getMonth() < dobDate.getMonth() ||
+        (today.getMonth() === dobDate.getMonth() && today.getDate() < dobDate.getDate())
+      ) {
+        age--;
+      }
+      document.getElementById('age').value = age;
     });
 
     logoutBtn.addEventListener('click', async () => {
