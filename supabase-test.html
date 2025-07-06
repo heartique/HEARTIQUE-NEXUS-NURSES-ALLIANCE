@@ -1,12 +1,11 @@
-
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="UTF-8" />
-  <title>Supabase Sign Up Test</title>
+  <title>Supabase Clean Sign Up</title>
 </head>
 <body style="font-family: Arial; padding: 2rem;">
-  <h2>Sign Up & Insert into Database</h2>
+  <h2>Sign Up & Insert into public.users</h2>
 
   <form id="signup-form">
     <input type="email" id="email" placeholder="Email" required /><br><br>
@@ -18,7 +17,6 @@
 
   <p id="message" style="margin-top: 2rem; font-weight: bold;"></p>
 
-  <!-- Supabase Client -->
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script>
     const supabase = supabase.createClient(
@@ -32,7 +30,7 @@
     form.addEventListener('submit', async (e) => {
       e.preventDefault();
 
-      message.textContent = 'Creating account...';
+      message.textContent = "⏳ Signing up...";
 
       const email = document.getElementById('email').value;
       const password = document.getElementById('password').value;
@@ -41,34 +39,33 @@
 
       const { data, error } = await supabase.auth.signUp({
         email,
-        password,
+        password
       });
 
       if (error) {
-        message.textContent = '❌ Sign up error: ' + error.message;
+        message.textContent = "❌ Sign-up error: " + error.message;
         return;
       }
 
       const user = data.user;
 
       if (!user) {
-        message.textContent = '⚠️ Please check your email to confirm your account.';
+        message.textContent = "✅ Sign-up successful. Please check your email to confirm before we can insert.";
         return;
       }
 
-      message.textContent = '✅ Account created! Inserting into users table...';
-
+      // Insert into users table
       const { error: insertError } = await supabase.from('users').insert({
         id: user.id,
-        email: user.email,
+        email,
         first_name,
-        last_name,
+        last_name
       });
 
       if (insertError) {
-        message.textContent = '❌ Insert error: ' + insertError.message;
+        message.textContent = "❌ Insert failed: " + insertError.message;
       } else {
-        message.textContent = '✅ Success! User added to database.';
+        message.textContent = "✅ Success! User inserted into public.users table.";
       }
     });
   </script>
