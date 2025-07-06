@@ -46,7 +46,6 @@
   { "term": "Community diagnosis", "definition": "Assessment of health needs and problems of a community." },
   { "term": "IMCI", "definition": "Integrated Management of Childhood Illness, a strategy to reduce child mortality." },
   { "term": "Drug interactions", "definition": "How different drugs affect each other's activity when taken together." },
-  [
   { "term": "Thrombocytopenia", "definition": "Decrease in platelets leading to increased bleeding risk." },
   { "term": "Hyponatremia", "definition": "Low sodium levels in the blood." },
   { "term": "Hyperkalemia", "definition": "Excess potassium in the blood, which can affect heart rhythm." },
@@ -137,8 +136,7 @@
   { "term": "Spinal cord compression", "definition": "Pressure on the spinal cord from tumor, infection, or trauma, leading to neurological impairment." },
   { "term": "Cushing’s syndrome", "definition": "Hormonal disorder caused by high levels of cortisol in the body." },
   { "term": "Addison’s disease", "definition": "A disorder where the adrenal glands produce insufficient steroid hormones." },
-  { "term": "Hypoxic ischemic encephalopathy (HIE)", "definition": "Brain injury caused by oxygen deprivation and limited blood flow around birth." },
+  { "term": "Hypoxic ischemic encephalopathy (HIE)", "definition": "Brain injury caused by oxygen deprivation and limited blood flow around birth." }
   ]
-
 
 
