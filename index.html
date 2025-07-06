@@ -386,28 +386,37 @@
         </ul>
       
 </a>
-<div class="quiz-tab-container">
-  <!-- Quiz Tab -->
-  <a href="quiz.html" class="quiz-tab-card quiz-tab-quiz">
-    <div class="tab-icon">📝</div>
-    <div class="tab-content">
-      <h2>HEARTIQUE QUIZZES APP🫡</h2>
-      <p>Test your knowledge with instant feedback & scores.</p>
-    </div>
-  </a>
 
-  <!-- Terms Tab -->
-  <a href="terms.html" class="quiz-tab-card quiz-tab-terms">
-    <div class="tab-icon">📘</div>
-    <div class="tab-content">
-      <h2>Terms & Tricks</h2>
-      <p>Explore essential medical terms and smart nursing tricks, explained simply.</p>
-    </div>
-  </a>
-</div>
+<section class="quiz-tools-section">
+  <h2 class="section-title">🧠 Study Tools Zone</h2>
 
+  <div class="quiz-tab-container">
+    <!-- Quiz Tab -->
+    <a href="quiz.html" class="quiz-tab-card quiz-tab-quiz">
+      <div class="tab-icon">📝</div>
+      <div class="tab-content">
+        <h2>HEARTIQUE QUIZZES APP🫡</h2>
+        <p>Test your knowledge with instant feedback & scores.</p>
+      </div>
+    </a>
 
-    </section>
+    <!-- Terms Tab -->
+    <a href="terms.html" class="quiz-tab-card quiz-tab-terms">
+      <div class="tab-icon">📘</div>
+      <div class="tab-content">
+        <h2>Terms & Tricks</h2>
+        <p>Explore essential medical terms and smart nursing tricks, explained simply.</p>
+      </div>
+    </a>
+  </div>
+
+  <div class="tools-coming-banner">💡 More tools coming soon...</div>
+  <div class="tools-suggest-link">
+    <a href="https://wa.me/254717517371" target="_blank">+ Suggest a feature</a>
+  </div>
+</section>
+
+      
     <section>
       <h2>Co-curricular Activities</h2>
       <ul id="activitiesList">
@@ -518,18 +527,36 @@
   .star.filled {
     color: #ffc107;
   }
-/* Container for quiz section only */
+
+  /* 🌟 Section wrapper */
+.quiz-tools-section {
+  background-color: #f8f9fc;
+  border-radius: 16px;
+  padding: 32px 20px;
+  margin: 40px auto;
+  max-width: 1200px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+/* 🧠 Section title */
+.section-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 24px;
+  color: #1f2937; /* Slate gray */
+}
+
+/* 📦 Tab container layout */
 .quiz-tab-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
-  padding: 20px;
-  max-width: 1000px;
-  margin: auto;
+  margin-bottom: 20px;
 }
 
-/* Individual quiz tab cards */
+/* 🧩 Individual tab cards */
 .quiz-tab-card {
   flex: 1 1 260px;
   max-width: 320px;
@@ -541,45 +568,41 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   animation: slideInQuiz 0.7s ease both;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  color: #fff; /* make text white by default */
+  color: #fff;
 }
 
-/* Specific tab background colors */
+/* 💚 Background colors */
 .quiz-tab-quiz {
-  background-color: #0f766e !important; /* Strong teal */
+  background-color: #0f766e !important; /* Teal */
 }
 
 .quiz-tab-terms {
-  background-color: #7e57c2 !important; /* Deep violet */
+  background-color: #7e57c2 !important; /* Violet */
 }
 
-/* Hover effect */
+/* 🔁 Hover effect */
 .quiz-tab-card:hover {
   transform: translateY(-6px);
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.3);
 }
 
-/* Force text to white */
+/* 🎨 Force all text white */
 .quiz-tab-card h2,
 .quiz-tab-card p,
 .quiz-tab-card .tab-icon {
   color: #fff !important;
 }
 
-/* Icon size and spacing */
+/* 🧱 Content layout */
 .tab-icon {
   font-size: 1.8rem;
   margin-bottom: 8px;
 }
-
-/* Title text */
 .tab-content h2 {
   margin: 0 0 4px;
   font-size: 1.2rem;
   font-weight: 600;
 }
-
-/* Paragraph text */
 .tab-content p {
   margin: 0;
   font-size: 0.88rem;
@@ -587,7 +610,7 @@
   line-height: 1.3;
 }
 
-/* Slide-in animation */
+/* 🎞 Slide-in animation */
 @keyframes slideInQuiz {
   from {
     opacity: 0;
@@ -599,7 +622,7 @@
   }
 }
 
-/* Responsive layout */
+/* 📱 Responsive */
 @media (max-width: 768px) {
   .quiz-tab-container {
     flex-direction: column;
@@ -612,9 +635,30 @@
   }
 }
 
- 
+/* 💡 Coming soon banner */
+.tools-coming-banner {
+  text-align: center;
+  font-size: 1rem;
+  color: #6b7280;
+  margin-top: 10px;
+  font-style: italic;
+}
 
-  
+/* 🔗 Suggest link */
+.tools-suggest-link {
+  text-align: center;
+  margin-top: 10px;
+}
+.tools-suggest-link a {
+  color: #2563eb;
+  font-size: 0.9rem;
+  text-decoration: none;
+  font-weight: 600;
+}
+.tools-suggest-link a:hover {
+  text-decoration: underline;
+}
+
 </style>
 <script>
   const topics = document.querySelectorAll(".stars");
