@@ -690,6 +690,30 @@
   setInterval(fetchNotices, 10000); // repeat every 10 sec
 </script>
 
+    <script>
+const files = [
+  'abbreviations.json',
+  'abbreviations1.json',
+  'abbreviations2.json',
+  'abbreviations3.json',
+  'abbreviations4.json',
+  'abbreviations5.json',
+  'abbreviations6.json'
+];
+
+let total = 0;
+
+Promise.all(files.map(file => fetch(file).then(res => res.json())))
+  .then(results => {
+    results.forEach(arr => total += arr.length);
+    document.getElementById('abbrev-count').textContent = total + ' terms';
+  })
+  .catch(() => {
+    document.getElementById('abbrev-count').textContent = 'Failed to load';
+  });
+</script>
+
+
 <!-- 🔊 Unlock sound on first user click -->
 <script>
   window.addEventListener('click', () => {
