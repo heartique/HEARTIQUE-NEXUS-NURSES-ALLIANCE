@@ -13,6 +13,7 @@
  <link rel="icon" type="image/jpeg" href="https://raw.githubusercontent.com/heartique/HEARTIQUE-NEXUS-NURSES-ALLIANCE/main/icon-192.jpg">
   <link rel="manifest" href="manifest.json" />
 <meta name="theme-color" content="#004a99" />
+  
 <button onclick="deleteAccount()">🗑️ Delete My Account</button>
 
   <style>
@@ -827,7 +828,8 @@
     });
 </script>  
 
-      <script> src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+   <!-- Load Supabase JS Library -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
 <script>
   const supabase = window.supabase.createClient(
     'https://gbqgtnukoucxagswqspx.supabase.co',
@@ -851,13 +853,18 @@
   };
   document.querySelector("header").appendChild(logoutBtn);
 </script>
+
 <script>
   const name = localStorage.getItem('full_name');
   if (name) {
-    document.getElementById('greeting').textContent = `Welcome, ${name}!`;
+    const greeting = document.getElementById('greeting');
+    if (greeting) {
+      greeting.textContent = `Welcome, ${name}!`;
+    }
   }
 </script>
-      <script>
+
+<script>
   async function deleteAccount() {
     const confirmDelete = confirm("Are you sure you want to delete your account? This action is permanent.");
     if (!confirmDelete) return;
@@ -865,7 +872,7 @@
     const { data: { user } } = await supabase.auth.getUser();
     if (!user) return alert("You're not logged in.");
 
-    // Delete from your user table (optional)
+    // Delete from your user table
     await supabase.from('profiles').delete().eq('id', user.id);
 
     alert("⚠️ Account deletion from Supabase Auth requires admin access. Contact admin to fully delete your account.");
@@ -876,6 +883,7 @@
     window.location.href = 'login.html';
   }
 </script>
+  
 <script>
   const noticeList = document.getElementById('notices');
   const toggleBtn = document.getElementById('toggleNotice');
