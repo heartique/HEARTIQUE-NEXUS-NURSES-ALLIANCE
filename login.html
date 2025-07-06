@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -8,10 +9,10 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-       background-image: url('https://raw.githubusercontent.com/heartique/HEARTIQUE-NEXUS-NURSES-ALLIANCE/main/background2.jpg');
-       background-size: cover;
-       background-repeat: no-repeat;
-       background-position: center;
+      background-image: url('https://raw.githubusercontent.com/heartique/HEARTIQUE-NEXUS-NURSES-ALLIANCE/main/background2.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
       padding: 2rem;
     }
     .form {
@@ -26,14 +27,6 @@
       border-radius: 8px;
       box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
       transition: transform 0.4s ease, opacity 0.3s ease;
-    }
-    .zoom-out {
-      transform: scale(0.95);
-      opacity: 0.7;
-    }
-    .zoom-in {
-      transform: scale(1);
-      opacity: 1;
     }
     input, button {
       width: 100%;
@@ -65,20 +58,17 @@
       cursor: pointer;
     }
     #countdown {
-      color: 	#FFFFFF;
+      color: #FFFFFF;
       font-size: 0.9rem;
       text-align: center;
       margin-bottom: 1rem;
     }
     #form-title {
-      color: #002b80; /* Dark blue */
+      color: #002b80;
       text-align: center;
       margin-bottom: 1rem;
       font-weight: bold;
-      text-shadow:
-        0 0 5px white,
-        0 0 10px white,
-        0 0 20px white;
+      text-shadow: 0 0 5px white, 0 0 10px white, 0 0 20px white;
     }
     .glow-wrapper {
       position: relative;
@@ -118,13 +108,8 @@
     <div class="form">
       <h2 id="form-title">LOGIN TO HEARTIQUE NURSING NEXUS PORTAL</h2>
 
-      <div id="name-field" style="display: none;">
-        <input type="text" id="full_name" placeholder="Full Name" />
-      </div>
-
       <input type="email" id="email" placeholder="Email" required />
 
-      <!-- Password input with toggle button -->
       <div style="position: relative; width: 100%; margin-bottom: 1rem;">
         <input
           type="password"
@@ -154,7 +139,6 @@
         </button>
       </div>
 
-      <!-- Remember Me checkbox -->
       <label style="display: flex; align-items: center; margin-bottom: 1rem; font-size: 0.9rem; color: #004a99;">
         <input type="checkbox" id="remember-me" style="margin-right: 0.5rem;" />
         Remember Me
@@ -162,12 +146,11 @@
 
       <button id="auth-button" onclick="handleAuth()">Login</button>
       <div id="countdown"></div>
-
       <div id="message"></div>
 
       <div class="toggle">
-        <span id="toggle-text">Don't have an account?</span>
-        <a onclick="toggleMode()">CREATE ACCOUNT</a>
+        <span>Don't have an account?</span>
+        <a href="profile.html">Create Account</a>
       </div>
     </div>
   </div>
@@ -177,29 +160,6 @@
       'https://gbqgtnukoucxagswqspx.supabase.co',
       'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdicWd0bnVrb3VjeGFnc3dxc3B4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTA4ODcwNTAsImV4cCI6MjA2NjQ2MzA1MH0.uHqKZ-KnW1sv7CSD37D6dh1qYfSLMznud947DEZI93Q'
     );
-
-    let isLogin = true;
-
-    // Redirect to home if already logged in
-
-    function toggleMode() {
-      const form = document.querySelector('.form');
-      form.classList.add('zoom-out');
-
-      setTimeout(() => {
-        isLogin = !isLogin;
-        document.getElementById('form-title').textContent = isLogin ? 'Login' : 'Create Account';
-        document.getElementById('auth-button').textContent = isLogin ? 'Login' : 'Sign Up';
-        document.getElementById('toggle-text').textContent = isLogin ? "Don't have an account?" : 'Already have an account?';
-        document.querySelector('.toggle a').textContent = isLogin ? 'Create one' : 'Login here';
-        document.getElementById('name-field').style.display = isLogin ? 'none' : 'block';
-        document.getElementById('message').textContent = '';
-
-        form.classList.remove('zoom-out');
-        form.classList.add('zoom-in');
-        setTimeout(() => form.classList.remove('zoom-in'), 400);
-      }, 200);
-    }
 
     function togglePasswordVisibility() {
       const pwInput = document.getElementById('password');
@@ -212,73 +172,53 @@
         toggleBtn.textContent = '👁️';
       }
     }
-   async function handleAuth() {
-  const email = document.getElementById('email').value.trim();
-  const password = document.getElementById('password').value.trim();
-  const full_name = document.getElementById('full_name')?.value.trim();
-  const rememberMe = document.getElementById('remember-me').checked;
-  const msgEl = document.getElementById('message');
-  const btn = document.getElementById('auth-button');
 
-  msgEl.textContent = '';
-  btn.disabled = true;
-  const originalText = btn.textContent;
-  btn.textContent = '⏳ Processing...';
+    async function handleAuth() {
+      const email = document.getElementById('email').value.trim();
+      const password = document.getElementById('password').value.trim();
+      const rememberMe = document.getElementById('remember-me').checked;
+      const msgEl = document.getElementById('message');
+      const btn = document.getElementById('auth-button');
 
-  try {
-    if (isLogin) {
-      const { error, data } = await supabase.auth.signInWithPassword({ email, password });
-      if (error) {
-        msgEl.style.color = 'red';
-        msgEl.textContent = error.message;
-      } else {
-        msgEl.style.color = 'green';
-        msgEl.textContent = '✅ Logged in! Redirecting...';
-        if (rememberMe) {
-          localStorage.setItem('savedEmail', email);
+      msgEl.textContent = '';
+      btn.disabled = true;
+      const originalText = btn.textContent;
+      btn.textContent = '⏳ Processing...';
+
+      try {
+        const { error, data } = await supabase.auth.signInWithPassword({ email, password });
+        if (error) {
+          msgEl.style.color = 'red';
+          msgEl.textContent = error.message;
         } else {
-          localStorage.removeItem('savedEmail');
+          msgEl.style.color = 'green';
+          msgEl.textContent = '✅ Logged in! Redirecting...';
+          if (rememberMe) {
+            localStorage.setItem('savedEmail', email);
+          } else {
+            localStorage.removeItem('savedEmail');
+          }
+
+          setTimeout(async () => {
+            const { data: { session } } = await supabase.auth.getSession();
+            if (!session) return window.location.href = 'index.html'; // fallback
+
+            const userId = session.user.id;
+            const { data: profile } = await supabase
+              .from('profiles')
+              .select('full_name, bio, school')
+              .eq('id', userId)
+              .single();
+
+            const isProfileComplete = profile && profile.full_name && profile.bio && profile.school;
+            window.location.href = isProfileComplete ? 'index.html' : 'profile.html';
+          }, 1500);
         }
-       setTimeout(async () => {
-  const { data: { session } } = await supabase.auth.getSession();
-  if (!session) return window.location.href = 'index.html'; // fallback
-
-  const userId = session.user.id;
-  const { data: profile } = await supabase
-    .from('profiles')
-    .select('full_name, bio, school')
-    .eq('id', userId)
-    .single();
-
-  const isProfileComplete = profile && profile.full_name && profile.bio && profile.school;
-  window.location.href = isProfileComplete ? 'index.html' : 'profile.html';
-}, 1500);
-
+      } finally {
+        btn.disabled = false;
+        btn.textContent = originalText;
       }
-    } else {
-      const { data, error } = await supabase.auth.signUp({ email, password });
-
-      if (error) {
-        msgEl.style.color = 'red';
-        msgEl.textContent = error.message;
-        return;
-      }
-
-      // insert profile placeholder with full_name
-      await supabase.from('profiles').insert([{ id: data.user.id, full_name }]);
-
-      msgEl.style.color = 'green';
-      msgEl.textContent = '✅ Account created! Let’s set up your profile...';
-      localStorage.setItem('full_name', full_name);
-      startCountdown();
-      setTimeout(() => window.location.href = 'profile.html', 1500);
     }
-  } finally {
-    btn.disabled = false;
-    btn.textContent = originalText;
-  }
-}
-
 
     function startCountdown() {
       const btn = document.getElementById('auth-button');
@@ -298,16 +238,7 @@
       }, 1000);
     }
 
-    // Autofill saved email and checkbox on page load if Remember Me was used
-    window.addEventListener('DOMContentLoaded', () => 
-        // Force default state to Login mode
- { isLogin = true;
-  document.getElementById('form-title').textContent = 'Login';
-  document.getElementById('auth-button').textContent = 'Login';
-  document.getElementById('toggle-text').textContent = "Don't have an account?";
-  document.querySelector('.toggle a').textContent = 'Create one';
-  document.getElementById('name-field').style.display = 'none';
-
+    window.addEventListener('DOMContentLoaded', () => {
       const savedEmail = localStorage.getItem('savedEmail');
       if (savedEmail) {
         document.getElementById('email').value = savedEmail;
