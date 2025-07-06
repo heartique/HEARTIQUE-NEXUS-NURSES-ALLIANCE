@@ -1,36 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Signup to Heartique</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Heartique Signup</title>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #eef2f7;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .box {
+      background: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      max-width: 400px;
+      width: 100%;
+    }
+    h2 {
+      text-align: center;
+      color: #004a99;
+    }
+    input, button {
+      width: 100%;
+      padding: 0.75rem;
+      margin: 0.5rem 0;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background-color: #004a99;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    #output {
+      margin-top: 1rem;
+      text-align: center;
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
-  <h2>Signup Form</h2>
-  <input type="email" id="email" placeholder="Email" /><br />
-  <input type="password" id="password" placeholder="Password" /><br />
-  <input type="text" id="full_name" placeholder="Full Name" /><br />
-  <button onclick="signUp()">Sign Up</button>
-
-  <p id="output"></p>
+  <div class="box">
+    <h2>Sign Up to Heartique</h2>
+    <input type="email" id="email" placeholder="Email" required />
+    <input type="password" id="password" placeholder="Password" required />
+    <input type="text" id="display_name" placeholder="Full Name" required />
+    <button onclick="signUp()">Create Account</button>
+    <div id="output"></div>
+  </div>
 
   <script>
     const supabase = window.supabase.createClient(
-      'https://gbqgtnukoucxagswqspx.supabase.co',
-      'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdicWd0bnVrb3VjeGFnc3dxc3B4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTA4ODcwNTAsImV4cCI6MjA2NjQ2MzA1MH0.uHqKZ-KnW1sv7CSD37D6dh1qYfSLMznud947DEZI93Q'
+      'https://vpivmxwasviwolnqizvj.supabase.co',
+      'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZwaXZteHdhc3Zpd29sbnFpenZqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTE4MjIwNDIsImV4cCI6MjA2NzM5ODA0Mn0.FYbAjiAgw9wZ3q_x2i7k21aHQZ1whPv4U9tffnJmZuM'
     );
 
     async function signUp() {
       const email = document.getElementById('email').value.trim();
       const password = document.getElementById('password').value.trim();
-      const full_name = document.getElementById('full_name').value.trim();
+      const display_name = document.getElementById('display_name').value.trim();
       const output = document.getElementById('output');
 
-      output.textContent = "⏳ Signing up...";
+      output.textContent = '⏳ Creating account...';
 
-      const { data, error } = await supabase.auth.signUp({
-        email,
-        password,
-      });
+      const { data, error } = await supabase.auth.signUp({ email, password });
 
       if (error) {
         output.textContent = `❌ Signup error: ${error.message}`;
@@ -43,17 +84,16 @@
         return;
       }
 
-      // Insert into profiles table
       const { error: insertError } = await supabase
-        .from('profiles')
-        .insert([{ id: userId, full_name }]);
+        .from('profile')
+        .insert([{ id: userId, display_name, email }]);
 
       if (insertError) {
         output.textContent = `❌ Insert error: ${insertError.message}`;
         console.error(insertError);
       } else {
-        output.textContent = `✅ Welcome, ${full_name}!`;
-        localStorage.setItem('full_name', full_name);
+        output.textContent = `✅ Welcome, ${display_name}!`;
+        localStorage.setItem('display_name', display_name);
         setTimeout(() => window.location.href = 'index.html', 1500);
       }
     }
