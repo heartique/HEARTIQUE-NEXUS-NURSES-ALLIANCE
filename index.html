@@ -1,24 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- 🌙 Dark/Light Theme Setup -->
   <script>
     const savedTheme = localStorage.getItem("theme");
     const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
     const theme = savedTheme || (prefersDark ? "dark" : "light");
     document.documentElement.setAttribute("data-theme", theme);
   </script>
+
+  <!-- ⚙ Basic Meta -->
   <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- 🔍 SEO -->
   <title>Heartique Nexus Dashboard</title>
- <link rel="icon" type="image/jpeg" href="https://raw.githubusercontent.com/heartique/HEARTIQUE-NEXUS-NURSES-ALLIANCE/main/icon-192.jpg">
-    <!-- PWA + Shortcut Icons -->
+  <meta name="description" content="The ultimate dashboard for Heartique Nursing Nexus – study tools, updates, and essential nursing resources.">
+  <meta name="keywords" content="nursing, notes, dashboard, CHK, Heartique, study, PTS, Kenya">
+  <meta name="author" content="Heartique Nursing Nexus Team">
+
+  <!-- 📷 Icons -->
+  <link rel="icon" type="image/png" sizes="32x32" href="icon-192.png">
   <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
-  <link rel="icon" sizes="512x512" href="icon-512.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="icon-512.png">
   <link rel="apple-touch-icon" href="icon-192.png">
+
+  <!-- 🧭 Manifest + PWA Meta -->
   <link rel="manifest" href="manifest.json">
   <meta name="theme-color" content="#004a99">
-  
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <!-- 🎯 Optional Preloads (uncomment if needed) -->
+  <!-- <link rel="preload" as="style" href="style.css"> -->
+  <!-- <link rel="preload" as="script" href="script.js"> -->
+
   <style>
+
     body {
      font-family: Arial, sans-serif;
   background-image: url('https://raw.githubusercontent.com/heartique/HEARTIQUE-NEXUS-NURSES-ALLIANCE/main/background4.jpg');
