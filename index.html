@@ -1067,7 +1067,7 @@ if (!error && userData?.full_name) {
   }
 
   function fetchNotices() {
-    fetch('notices.json')
+    fetch('notices.json?nocache=' + Date.now())
       .then(res => res.json())
       .then(data => {
         const seen = JSON.parse(localStorage.getItem('seenNotices') || '[]');
