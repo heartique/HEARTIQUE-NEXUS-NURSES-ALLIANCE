@@ -236,15 +236,32 @@
       }
 
       result = await supabase.auth.signUp({ email, password });
+if (!result.error && result.data?.user) {
+  const userId = result.data.user.id;
 
-      if (!result.error && result.data?.user) {
-        await supabase
-          .from('user')
-          .insert([{ id: result.data.user.id, full_name: fullName, email }]);
+  // Check if the user record exists (was previously deleted?)
+  const { data: existingUser } = await supabase
+    .from('user')
+    .select('id')
+    .eq('id', userId)
+    .single();
 
-        localStorage.setItem('full_name', fullName);
-      }
-    }
+  if (existingUser) {
+    // If record exists, update it
+    await supabase
+      .from('user')
+      .update({ full_name: fullName, email })
+      .eq('id', userId);
+  } else {
+    // If no record found, insert a new one
+    await supabase
+      .from('user')
+      .insert([{ id: userId, full_name: fullName, email }]);
+  }
+
+  localStorage.setItem('full_name', fullName);
+}
+
 
     if (result.error) {
       msg.style.color = 'red';
