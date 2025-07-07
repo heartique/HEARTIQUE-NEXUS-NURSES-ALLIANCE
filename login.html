@@ -7,7 +7,6 @@
   <link rel="icon" type="image/jpeg" href="https://raw.githubusercontent.com/heartique/HEARTIQUE-NEXUS-NURSES-ALLIANCE/main/icon-192.jpg">
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
   <style>
-    /* ✅ Keep all your original styles untouched */
     body {
       font-family: Arial, sans-serif;
       background-image: url('https://raw.githubusercontent.com/heartique/HEARTIQUE-NEXUS-NURSES-ALLIANCE/main/background2.jpg');
@@ -130,23 +129,6 @@
       margin-bottom: 1rem;
     }
   </style>
-
-  <script>
-    // ✅ Prevent logged-in users from accessing login.html
-    const supabase = window.supabase?.createClient(
-      'https://fczslywprowqzgwcwhzu.supabase.co',
-      'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZjenNseXdwcm93cXpnd2N3aHp1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTE4MzU1MDEsImV4cCI6MjA2NzQxMTUwMX0.IWQ1kwEPRrigvYurWRbuHQWRrHZU9K-3bbYgdH745zk'
-    );
-
-    async function checkIfLoggedIn() {
-      const { data: { session } } = await supabase.auth.getSession();
-      if (session) {
-        window.location.replace("index.html"); // prevents back nav
-      }
-    }
-
-    checkIfLoggedIn();
-  </script>
 </head>
 
 <audio id="notifySound" src="notify.mp3" preload="auto"></audio>
@@ -193,7 +175,15 @@
     'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZjenNseXdwcm93cXpnd2N3aHp1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTE4MzU1MDEsImV4cCI6MjA2NzQxMTUwMX0.IWQ1kwEPRrigvYurWRbuHQWRrHZU9K-3bbYgdH745zk'
   );
 
-  // ✅ Session persistence across reloads
+  async function checkIfLoggedIn() {
+    const { data: { session } } = await supabase.auth.getSession();
+    if (session) {
+      window.location.replace("index.html");
+    }
+  }
+
+  checkIfLoggedIn();
+
   supabase.auth.onAuthStateChange((event, session) => {
     if (session) {
       localStorage.setItem('supabaseSession', JSON.stringify(session));
