@@ -837,6 +837,7 @@
   <button onclick="deleteAccount()" style="background: red; color: white; margin-top: 0.5rem;">Delete Account</button>
   <button onclick="logout()" style="margin-top: 0.5rem;">Logout</button>
 </div>
+<!-- ✅ Scripts Section -->
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
 <script>
   const supabase = window.supabase.createClient(
@@ -848,36 +849,21 @@
     const greetingEl = document.getElementById('greeting');
     const modalName = document.getElementById('modalName');
     const modalEmail = document.getElementById('modalEmail');
-
-    // Show greeting from localStorage immediately if available
     const cachedName = localStorage.getItem('full_name');
     if (cachedName) greetingEl.textContent = `Welcome, ${cachedName}!`;
 
-    // Get session
     const { data: { session } } = await supabase.auth.getSession();
-
-    if (!session) {
-      window.location.href = 'login.html';
-      return;
-    }
+    if (!session) return window.location.href = 'login.html';
 
     const userId = session.user.id;
     const userEmail = session.user.email;
 
-    // Only fetch from Supabase if no cached name
     if (!cachedName) {
-      const { data: user, error } = await supabase
-        .from('user')
-        .select('full_name')
-        .eq('id', userId)
-        .single();
-
+      const { data: user, error } = await supabase.from('user').select('full_name').eq('id', userId).single();
       if (error || !user) {
         await supabase.auth.signOut();
-        window.location.href = 'login.html';
-        return;
+        return window.location.href = 'login.html';
       }
-
       greetingEl.textContent = `Welcome, ${user.full_name}!`;
       localStorage.setItem('full_name', user.full_name);
       modalName.textContent = user.full_name;
@@ -886,13 +872,13 @@
     }
 
     modalEmail.textContent = userEmail;
+
+    // ✅ Reveal content now
+    document.getElementById('loading').style.display = 'none';
+    document.getElementById('app').style.display = 'block';
   }
 
-  // Toggle modal
-  document.getElementById("profileBtn").addEventListener("click", () => {
-    const modal = document.getElementById("profileModal");
-    modal.style.display = modal.style.display === "none" ? "block" : "none";
-  });
+  setTimeout(loadUser, 50);
 
   // Logout
   async function logout() {
@@ -903,25 +889,17 @@
 
   // Delete account
   async function deleteAccount() {
-    const confirmDelete = confirm("Are you sure you want to delete your account? This action is permanent.");
+    const confirmDelete = confirm("Are you sure you want to delete your account?");
     if (!confirmDelete) return;
-
     const { data: { user } } = await supabase.auth.getUser();
     if (!user) return alert("You're not logged in.");
-
     await supabase.from('user').delete().eq('id', user.id);
-
-    alert("⚠️ Account deleted from table. Contact admin to fully delete from Supabase Auth.");
+    alert("⚠️ Account deleted from table. Contact admin to fully delete.");
     await supabase.auth.signOut();
     localStorage.removeItem('full_name');
     window.location.href = 'login.html';
   }
-
-  // Wait a tiny bit before checking session to avoid flicker
-  setTimeout(loadUser, 100);
 </script>
-
-  
 <script>
   const noticeList = document.getElementById('notices');
   const toggleBtn = document.getElementById('toggleNotice');
