@@ -846,13 +846,38 @@
     'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdicWd0bnVrb3VjeGFnc3dxc3B4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTA4ODcwNTAsImV4cCI6MjA2NjQ2MzA1MH0.uHqKZ-KnW1sv7CSD37D6dh1qYfSLMznud947DEZI93Q'
   );
 
+  // Store or clear session when auth state changes
+  supabase.auth.onAuthStateChange((event, session) => {
+    if (session) {
+      localStorage.setItem('supabaseSession', JSON.stringify(session));
+    } else {
+      localStorage.removeItem('supabaseSession');
+    }
+  });
+
+  function isSessionExpired(session) {
+    const now = Math.floor(Date.now() / 1000);
+    return session.expires_at && session.expires_at < now;
+  }
+
   async function loadUser() {
     const greetingEl = document.getElementById('greeting');
     const modalName = document.getElementById('modalName');
     const modalEmail = document.getElementById('modalEmail');
 
-    const { data: { session } } = await supabase.auth.getSession();
-    if (!session) return window.location.href = 'login.html';
+    let sessionData = localStorage.getItem('supabaseSession');
+    let session = sessionData ? JSON.parse(sessionData) : null;
+
+    // Try to refresh session if missing or expired
+    if (!session || isSessionExpired(session)) {
+      const { data } = await supabase.auth.getSession();
+      session = data?.session;
+      if (session) {
+        localStorage.setItem('supabaseSession', JSON.stringify(session));
+      } else {
+        return (window.location.href = 'login.html');
+      }
+    }
 
     const userId = session.user.id;
     const userEmail = session.user.email;
@@ -879,17 +904,19 @@
 
     modalEmail.textContent = userEmail;
 
-    // ✅ Reveal content
+    // ✅ Reveal app content
     document.getElementById('loading').style.display = 'none';
     document.getElementById('app').style.display = 'block';
   }
 
+  // Load user shortly after page opens
   setTimeout(loadUser, 50);
 
   // Logout
   async function logout() {
     await supabase.auth.signOut();
     localStorage.removeItem('full_name');
+    localStorage.removeItem('supabaseSession');
     window.location.href = 'login.html';
   }
 
@@ -903,30 +930,35 @@
     alert("⚠️ Account deleted from table. Contact admin to fully delete.");
     await supabase.auth.signOut();
     localStorage.removeItem('full_name');
+    localStorage.removeItem('supabaseSession');
     window.location.href = 'login.html';
   }
+
+  // Refresh full name from DB
   async function refreshName() {
-  const { data: { session } } = await supabase.auth.getSession();
-  if (!session) return alert("You're not logged in.");
+    const sessionData = localStorage.getItem('supabaseSession');
+    const session = sessionData ? JSON.parse(sessionData) : null;
+    if (!session) return alert("You're not logged in.");
 
-  const userId = session.user.id;
+    const userId = session.user.id;
 
-  const { data: userData, error } = await supabase
-    .from('user')
-    .select('full_name')
-    .eq('id', userId)
-    .single();
+    const { data: userData, error } = await supabase
+      .from('user')
+      .select('full_name')
+      .eq('id', userId)
+      .single();
 
-  if (error || !userData?.full_name) {
-    return alert("❌ Couldn't refresh name.");
+    if (error || !userData?.full_name) {
+      return alert("❌ Couldn't refresh name.");
+    }
+
+    localStorage.setItem('full_name', userData.full_name);
+    document.getElementById('greeting').textContent = `Welcome, ${userData.full_name}!`;
+    document.getElementById('modalName').textContent = userData.full_name;
+    alert("✅ Name refreshed!");
   }
-
-  localStorage.setItem('full_name', userData.full_name);
-  document.getElementById('greeting').textContent = `Welcome, ${userData.full_name}!`;
-  document.getElementById('modalName').textContent = userData.full_name;
-  alert("✅ Name refreshed!");
-}
 </script>
+
 
 <script>
   const noticeList = document.getElementById('notices');
