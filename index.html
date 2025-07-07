@@ -826,8 +826,18 @@
     .catch(() => {
       document.getElementById("abbrev-count").innerText = `Abbreviations`;
     });
-</script>  
-   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+</script>
+      <!-- My Profile Button -->
+<button id="profileBtn" style="position: fixed; top: 1rem; right: 6rem; z-index: 1000;">My Profile</button>
+
+<!-- Profile Modal -->
+<div id="profileModal" style="display: none; position: fixed; top: 4rem; right: 1rem; background: white; border: 1px solid #ccc; padding: 1rem; border-radius: 8px; z-index: 1001;">
+  <p><strong>Full Name:</strong> <span id="modalName">...</span></p>
+  <p><strong>Email:</strong> <span id="modalEmail">...</span></p>
+  <button onclick="deleteAccount()" style="background: red; color: white; margin-top: 0.5rem;">Delete Account</button>
+  <button onclick="logout()" style="margin-top: 0.5rem;">Logout</button>
+</div>
+ <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
 <script>
   const supabase = window.supabase.createClient(
     'https://gbqgtnukoucxagswqspx.supabase.co',
@@ -835,9 +845,6 @@
   );
 
   async function loadUser() {
-    // 🚫 Force logout any old sessions
-    await supabase.auth.signOut();
-
     const { data: { session } } = await supabase.auth.getSession();
     if (!session) {
       window.location.href = 'login.html';
@@ -845,6 +852,7 @@
     }
 
     const userId = session.user.id;
+    const userEmail = session.user.email;
 
     const { data: user, error } = await supabase
       .from('user')
@@ -858,24 +866,29 @@
       return;
     }
 
-    // 🎯 Inject user name into greeting
+    // Greeting
     document.getElementById('greeting').textContent = `Welcome, ${user.full_name}!`;
-
-    // Optional: store name for later
     localStorage.setItem('full_name', user.full_name);
 
-    // ✅ Add Logout button
-    const logoutBtn = document.createElement("button");
-    logoutBtn.id = "logoutBtn";
-    logoutBtn.textContent = "Logout";
-    logoutBtn.onclick = async () => {
-      await supabase.auth.signOut();
-      localStorage.removeItem('full_name');
-      window.location.href = "login.html";
-    };
-    document.querySelector("header")?.appendChild(logoutBtn);
+    // Fill modal
+    document.getElementById('modalName').textContent = user.full_name;
+    document.getElementById('modalEmail').textContent = userEmail;
   }
 
+  // Toggle modal
+  document.getElementById("profileBtn").addEventListener("click", () => {
+    const modal = document.getElementById("profileModal");
+    modal.style.display = modal.style.display === "none" ? "block" : "none";
+  });
+
+  // Logout function
+  async function logout() {
+    await supabase.auth.signOut();
+    localStorage.removeItem('full_name');
+    window.location.href = 'login.html';
+  }
+
+  // Delete account
   async function deleteAccount() {
     const confirmDelete = confirm("Are you sure you want to delete your account? This action is permanent.");
     if (!confirmDelete) return;
@@ -981,7 +994,6 @@
     const sound = new Audio("notify.mp3");
     sound.play().catch(() => {});
   }, { once: true });
-</script>
-  
+</script> 
 </body>
 </html>
