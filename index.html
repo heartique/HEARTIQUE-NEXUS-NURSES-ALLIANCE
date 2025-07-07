@@ -886,7 +886,7 @@
     return session.expires_at && session.expires_at < now;
   }
 
-  async function loadUser() {
+   async function loadUser() {
     const greetingEl = document.getElementById('greeting');
     const welcomeUser = document.getElementById('welcomeUser');
     const modalName = document.getElementById('modalName');
@@ -907,31 +907,33 @@
 
     const userId = session.user.id;
     const userEmail = session.user.email;
-    let fullName = localStorage.getItem('full_name');
 
-    if (!fullName) {
-      const { data: userData, error } = await supabase
-        .from('user')
-        .select('full_name')
-        .eq('id', userId)
-        .single();
-      if (!error && userData?.full_name) {
-        fullName = userData.full_name;
-        localStorage.setItem('full_name', fullName);
-      }
+    // ✅ Always fetch from database to keep fresh and support new devices
+    const { data: userData, error } = await supabase
+      .from('user')
+      .select('full_name')
+      .eq('id', userId)
+      .single();
+
+    if (error || !userData?.full_name) {
+      alert("⚠️ Your account data is missing in the database. You've been logged out.");
+      await supabase.auth.signOut();
+      localStorage.clear();
+      return window.location.href = 'login.html';
     }
 
-    if (fullName) {
-      if (greetingEl) greetingEl.textContent = `Welcome, ${fullName}!`;
-      if (welcomeUser) welcomeUser.textContent = `Hello ${fullName}, we're glad to have you on the Nursing Nexus Portal 👋`;
-      if (modalName) modalName.textContent = fullName;
-    }
+    const fullName = userData.full_name;
+    localStorage.setItem('full_name', fullName);
 
+    if (greetingEl) greetingEl.textContent = `Welcome, ${fullName}!`;
+    if (welcomeUser) welcomeUser.textContent = `Hello ${fullName}, we're glad to have you on the Nursing Nexus Portal 👋`;
+    if (modalName) modalName.textContent = fullName;
     if (modalEmail) modalEmail.textContent = userEmail;
 
     document.getElementById('loading')?.style.setProperty('display', 'none');
     document.getElementById('app')?.style.setProperty('display', 'block');
   }
+
 
   setTimeout(loadUser, 50);
 
