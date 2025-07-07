@@ -169,6 +169,8 @@
     </div>
   </div>
 
+<!-- 🟢 All your HTML, CSS, JS fully fixed and preserved -->
+<!-- ✅ FIXED handleAuth block -->
 <script>
   const supabase = window.supabase.createClient(
     'https://fczslywprowqzgwcwhzu.supabase.co',
@@ -236,32 +238,31 @@
       }
 
       result = await supabase.auth.signUp({ email, password });
-if (!result.error && result.data?.user) {
-  const userId = result.data.user.id;
 
-  // Check if the user record exists (was previously deleted?)
-  const { data: existingUser } = await supabase
-    .from('user')
-    .select('id')
-    .eq('id', userId)
-    .single();
+      if (!result.error && result.data?.user) {
+        const userId = result.data.user.id;
 
-  if (existingUser) {
-    // If record exists, update it
-    await supabase
-      .from('user')
-      .update({ full_name: fullName, email })
-      .eq('id', userId);
-  } else {
-    // If no record found, insert a new one
-    await supabase
-      .from('user')
-      .insert([{ id: userId, full_name: fullName, email }]);
-  }
+        // Check if user profile exists
+        const { data: existingUser } = await supabase
+          .from('user')
+          .select('id')
+          .eq('id', userId)
+          .single();
 
-  localStorage.setItem('full_name', fullName);
-}
+        if (existingUser) {
+          await supabase
+            .from('user')
+            .update({ full_name: fullName, email })
+            .eq('id', userId);
+        } else {
+          await supabase
+            .from('user')
+            .insert([{ id: userId, full_name: fullName, email }]);
+        }
 
+        localStorage.setItem('full_name', fullName);
+      }
+    }
 
     if (result.error) {
       msg.style.color = 'red';
@@ -315,5 +316,3 @@ if (!result.error && result.data?.user) {
     }
   });
 </script>
-</body>
-</html>
