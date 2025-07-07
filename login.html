@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -138,7 +137,6 @@
       <div class="tab" id="tab-signup" onclick="switchTab('signup')">Sign Up</div>
     </div>
 
-    <!-- Login Form -->
     <div class="form" id="form-login">
       <h2 id="form-title-login">LOGIN TO HEARTIQUE NURSING NEXUS PORTAL</h2>
       <input type="email" id="login-email" placeholder="Email" required />
@@ -155,7 +153,6 @@
       <div id="message-login"></div>
     </div>
 
-    <!-- Sign Up Form -->
     <div class="form hidden" id="form-signup">
       <h2 id="form-title-signup">CREATE ACCOUNT</h2>
       <input type="text" id="signup-fullname" placeholder="Full Name" required />
@@ -212,14 +209,11 @@
           msg.textContent = '❌ Please enter your full name.';
           return;
         }
-
         result = await supabase.auth.signUp({ email, password });
-
         if (!result.error && result.data?.user) {
           const { error: insertError } = await supabase
             .from('user')
             .insert([{ id: result.data.user.id, full_name: fullName, email }]);
-
           if (insertError) {
             msg.style.color = 'red';
             msg.textContent = '❌ Error saving profile: ' + insertError.message;
@@ -246,6 +240,23 @@
       waitForSessionAndRedirect();
     }
 
+    function playNotification(message = "✅ Success! Redirecting...") {
+      document.getElementById('notify-sound').play();
+      const div = document.createElement('div');
+      div.textContent = message;
+      div.style.position = 'fixed';
+      div.style.top = '20px';
+      div.style.right = '20px';
+      div.style.background = '#00cc88';
+      div.style.color = '#fff';
+      div.style.padding = '1rem';
+      div.style.borderRadius = '8px';
+      div.style.boxShadow = '0 0 10px #0005';
+      div.style.zIndex = '1000';
+      document.body.appendChild(div);
+      setTimeout(() => div.remove(), 3000);
+    }
+
     let tries = 0;
     async function waitForSessionAndRedirect() {
       const { data: { session } } = await supabase.auth.getSession();
@@ -265,8 +276,11 @@
         .eq('id', userId)
         .single();
 
+      playNotification();
       const isProfileComplete = profile && profile.full_name && profile.bio && profile.school;
-      window.location.href = isProfileComplete ? 'index.html' : 'profile.html';
+      setTimeout(() => {
+        window.location.href = isProfileComplete ? 'index.html' : 'profile.html';
+      }, 1500);
     }
 
     window.addEventListener('DOMContentLoaded', () => {
@@ -275,7 +289,13 @@
         document.getElementById('login-email').value = saved;
         document.getElementById('remember-me').checked = true;
       }
+      supabase.auth.getSession().then(({ data: { session } }) => {
+        if (session) window.location.href = 'index.html';
+      });
     });
   </script>
+
+  <audio id="notify-sound" src="notify.mp3" preload="auto"></audio>
 </body>
 </html>
+
