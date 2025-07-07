@@ -13,9 +13,6 @@
  <link rel="icon" type="image/jpeg" href="https://raw.githubusercontent.com/heartique/HEARTIQUE-NEXUS-NURSES-ALLIANCE/main/icon-192.jpg">
   <link rel="manifest" href="manifest.json" />
 <meta name="theme-color" content="#004a99" />
-  
-<button onclick="deleteAccount()" style="margin-top: 1rem;">Delete My Account</button>
-<button onclick="refreshName()">🔄 Refresh Name</button>
 
   <style>
     body {
@@ -338,20 +335,34 @@
   }
 </script>
 <body>
-  <!-- Profile Button -->
+  <!-- 🌊 Water Ripple Overlay -->
+<div id="rippleEffect" style="
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(circle at center, rgba(0,170,255,0.15) 0%, transparent 70%);
+  opacity: 0;
+  pointer-events: none;
+  z-index: 999;
+  transition: opacity 0.5s ease;
+"></div>
+
+<!-- Profile Button -->
 <button id="profileBtn"
   style="position: fixed; top: 1rem; right: 6rem; z-index: 1000;
          width: 50px; height: 50px; border-radius: 50%; background: #004a99;
-         color: white; font-weight: bold; border: none; box-shadow: 0 0 10px rgba(0,0,0,0.3);
+         color: white; font-weight: bold; border: none; font-size: 1.2rem;
+         box-shadow: 0 0 10px rgba(0,0,0,0.3);
          transition: transform 0.2s ease, box-shadow 0.3s ease;">
   👤
 </button>
 
 <!-- Refresh Button -->
-<button onclick="refreshName()" title="Refresh Name"
-  style="position: fixed; top: 1rem; right: 1rem; z-index: 1000;
-         background: #00aaff; color: white; padding: 0.6rem 1rem;
-         border: none; border-radius: 8px; font-weight: bold;
+<button id="refreshBtn" onclick="refreshName()" title="Refresh Name"
+  style="position: fixed; top: 1rem; left: 1rem; z-index: 1000;
+         background: #00aaff; color: white; padding: 0.6rem 1.1rem;
+         border: none; border-radius: 8px; font-weight: bold; font-size: 0.95rem;
          box-shadow: 0 0 10px rgba(0,0,0,0.3);
          transition: transform 0.2s ease, background 0.3s ease;">
   🔄 Refresh
@@ -361,12 +372,34 @@
 <div id="profileModal"
   style="display: none; position: fixed; top: 4rem; right: 1rem; background: white;
          border: 1px solid #ccc; padding: 1rem; border-radius: 8px; z-index: 1001;
-         box-shadow: 0 4px 12px rgba(0,0,0,0.2); min-width: 200px;">
+         box-shadow: 0 4px 12px rgba(0,0,0,0.2); min-width: 220px;">
   <p><strong>Full Name:</strong> <span id="modalName">...</span></p>
   <p><strong>Email:</strong> <span id="modalEmail">...</span></p>
   <button onclick="deleteAccount()" style="background: red; color: white; margin-top: 0.5rem;">Delete Account</button>
   <button onclick="logout()" style="margin-top: 0.5rem;">Logout</button>
 </div>
+
+<!-- 🔁 Ripple JS Logic -->
+<script>
+  function triggerRippleEffect() {
+    const ripple = document.getElementById('rippleEffect');
+    ripple.style.opacity = '1';
+    setTimeout(() => {
+      ripple.style.opacity = '0';
+    }, 400); // duration of visible ripple
+  }
+
+  // Trigger on profile and refresh buttons
+  document.getElementById('profileBtn').addEventListener('click', () => {
+    document.getElementById('profileModal').style.display =
+      document.getElementById('profileModal').style.display === 'block' ? 'none' : 'block';
+    triggerRippleEffect();
+  });
+
+  document.getElementById('refreshBtn').addEventListener('click', () => {
+    triggerRippleEffect();
+  });
+</script>
 
   <!-- 🔊 Notification Sound -->
 <audio id="notifySound" src="notify.mp3" preload="auto"></audio>
@@ -858,7 +891,7 @@
       document.getElementById("abbrev-count").innerText = `Abbreviations`;
     });
 </script>
- <!-- ✅ Scripts Section -->
+<!-- ✅ Scripts Section -->
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
 <script>
   // ✅ Initialize Supabase
@@ -867,7 +900,7 @@
     'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZjenNseXdwcm93cXpnd2N3aHp1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTE4MzU1MDEsImV4cCI6MjA2NzQxMTUwMX0.IWQ1kwEPRrigvYurWRbuHQWRrHZU9K-3bbYgdH745zk'
   );
 
-  // ✅ Handle session storage on auth changes
+  // ✅ Handle session storage
   supabase.auth.onAuthStateChange((event, session) => {
     if (session) {
       localStorage.setItem('supabaseSession', JSON.stringify(session));
@@ -876,22 +909,22 @@
     }
   });
 
-  // ✅ Check if session expired
+  // ✅ Session Expiry Check
   function isSessionExpired(session) {
     const now = Math.floor(Date.now() / 1000);
     return session.expires_at && session.expires_at < now;
   }
 
-  // ✅ Load user info
+  // ✅ Load User Data and Greeting
   async function loadUser() {
     const greetingEl = document.getElementById('greeting');
+    const welcomeUser = document.getElementById('welcomeUser');
     const modalName = document.getElementById('modalName');
     const modalEmail = document.getElementById('modalEmail');
 
     let sessionData = localStorage.getItem('supabaseSession');
     let session = sessionData ? JSON.parse(sessionData) : null;
 
-    // Refresh session if missing or expired
     if (!session || isSessionExpired(session)) {
       const { data } = await supabase.auth.getSession();
       session = data?.session;
@@ -920,22 +953,21 @@
     }
 
     if (fullName) {
-     greetingEl.textContent = `Welcome, ${fullName}!`;
-     document.getElementById('welcomeUser').textContent = `Hello ${fullName}, we're glad to have you on the Nursing Nexus Portal 👋`;
+      greetingEl.textContent = `Welcome, ${fullName}!`;
+      if (welcomeUser) welcomeUser.textContent = `Hello ${fullName}, we're glad to have you on the Nursing Nexus Portal 👋`;
       modalName.textContent = fullName;
     }
 
     modalEmail.textContent = userEmail;
 
-    // ✅ Show main content
     document.getElementById('loading').style.display = 'none';
     document.getElementById('app').style.display = 'block';
   }
 
-  // ✅ Run on load
+  // ✅ Run loader
   setTimeout(loadUser, 50);
 
-  // ✅ Logout user
+  // ✅ Logout
   async function logout() {
     await supabase.auth.signOut();
     localStorage.removeItem('full_name');
@@ -943,7 +975,7 @@
     window.location.href = 'login.html';
   }
 
-  // ✅ Delete account
+  // ✅ Delete Account
   async function deleteAccount() {
     const confirmDelete = confirm("Are you sure you want to delete your account?");
     if (!confirmDelete) return;
@@ -957,7 +989,7 @@
     window.location.href = 'login.html';
   }
 
-  // ✅ Refresh full name
+  // ✅ Refresh Name
   async function refreshName() {
     const sessionData = localStorage.getItem('supabaseSession');
     const session = sessionData ? JSON.parse(sessionData) : null;
@@ -980,17 +1012,28 @@
     alert("✅ Name refreshed!");
   }
 
-  // ✅ Toggle Profile Modal
-  document.getElementById('profileBtn').addEventListener('click', () => {
-    const modal = document.getElementById('profileModal');
-    modal.style.display = modal.style.display === 'block' ? 'none' : 'block';
+  // ✅ Toggle Profile Dropdown
+  const profileBtn = document.getElementById('profileBtn');
+  const profileModal = document.getElementById('profileModal');
+
+  profileBtn.addEventListener('click', (e) => {
+    profileModal.style.display = profileModal.style.display === 'block' ? 'none' : 'block';
+    e.stopPropagation();
   });
 
-  // ✅ Add button animations
+  // ✅ Close Modal on Outside Click
+  document.addEventListener('click', (e) => {
+    if (!document.getElementById('profileDropdown').contains(e.target)) {
+      profileModal.style.display = 'none';
+    }
+  });
+
+  // ✅ Button Hover Animations
   function animateButton(id) {
     const btn = document.getElementById(id);
+    if (!btn) return;
     btn.addEventListener('mouseenter', () => btn.style.boxShadow = '0 0 15px #8000ff');
-    btn.addEventListener('mouseleave', () => btn.style.boxShadow = '0 0 10px rgba(0,0,0,0.3)');
+    btn.addEventListener('mouseleave', () => btn.style.boxShadow = '0 0 8px rgba(0,0,0,0.3)');
     btn.addEventListener('mousedown', () => btn.style.transform = 'scale(0.95)');
     btn.addEventListener('mouseup', () => btn.style.transform = 'scale(1)');
   }
