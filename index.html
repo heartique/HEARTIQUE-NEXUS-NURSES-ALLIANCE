@@ -853,17 +853,16 @@
       document.getElementById("abbrev-count").innerText = `Abbreviations`;
     });
 </script>
-<!-- ✅ Supabase + UI Logic -->
+<!-- ✅ Supabase + Profile Logic (No Refresh) -->
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
 <script>
   const supabase = window.supabase.createClient(
     'https://fczslywprowqzgwcwhzu.supabase.co',
-    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...'
+    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZjenNseXdwcm93cXpnd2N3aHp1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTE4MzU1MDEsImV4cCI6MjA2NzQxMTUwMX0.IWQ1kwEPRrigvYurWRbuHQWRrHZU9K-3bbYgdH745zk' // replace with actual anon key
   );
 
   const profileBtn = document.getElementById('profileBtn');
   const profileModal = document.getElementById('profileModal');
-  const refreshBtn = document.getElementById('refreshBtn');
   const rippleEffect = document.getElementById('rippleEffect');
 
   function triggerRippleEffect() {
@@ -943,87 +942,7 @@
     window.location.href = 'login.html';
   }
 
-  async function deleteAccount() {
-    triggerRippleEffect();
-    const confirmDelete = confirm("⚠️ Are you sure you want to delete your account?");
-    if (!confirmDelete) return;
-    const { data: { user } } = await supabase.auth.getUser();
-    if (!user) return alert("You're not logged in.");
-
-    const { error } = await supabase.from('user').delete().eq('id', user.id);
-    if (error) return alert("❌ Error deleting user from table.");
-
-    alert("⚠️ Account deleted from table. Contact admin to fully delete.");
-    await supabase.auth.signOut();
-    localStorage.removeItem('full_name');
-    localStorage.removeItem('supabaseSession');
-    window.location.href = 'login.html';
-  }
-
-  async function refreshName() {
-    triggerRippleEffect();
-
-    const sessionData = localStorage.getItem('supabaseSession');
-    const session = sessionData ? JSON.parse(sessionData) : null;
-    if (!session) return alert("You're not logged in.");
-
-    const { data: userData, error } = await supabase
-      .from('user')
-      .select('full_name')
-      .eq('id', session.user.id)
-      .single();
-
-    if (error || !userData?.full_name) return alert("❌ Couldn't refresh name.");
-
-    localStorage.setItem('full_name', userData.full_name);
-    document.getElementById('greeting').textContent = `Welcome, ${userData.full_name}!`;
-    document.getElementById('modalName').textContent = userData.full_name;
-    alert("✅ Name refreshed!");
-  }
-
-  // 🧑 Profile Modal Toggle
-  profileBtn?.addEventListener('click', (e) => {
-    profileModal.style.display = profileModal.style.display === 'block' ? 'none' : 'block';
-    triggerRippleEffect();
-    e.stopPropagation();
-  });
-
-  // 🌊 Ripple on Refresh Click
-  refreshBtn?.addEventListener('click', triggerRippleEffect);
-
-  // ⛔ Close modal on outside click
-  document.addEventListener('click', (e) => {
-    if (!profileModal.contains(e.target) && e.target !== profileBtn) {
-      profileModal.style.display = 'none';
-    }
-  });
-
-  // ✨ Animate Buttons
-  function animateButton(id) {
-    const btn = document.getElementById(id);
-    if (!btn) return;
-    btn.addEventListener('mouseenter', () => btn.style.boxShadow = '0 0 15px #8000ff');
-    btn.addEventListener('mouseleave', () => btn.style.boxShadow = '0 0 8px rgba(0,0,0,0.3)');
-    btn.addEventListener('mousedown', () => btn.style.transform = 'scale(0.95)');
-    btn.addEventListener('mouseup', () => btn.style.transform = 'scale(1)');
-  }
-
-  animateButton('profileBtn');
-  animateButton('refreshBtn');
-</script>
-<script>
-  // ✅ Toast Notification
-  function showToast(message, color = '#333') {
-    const toast = document.getElementById('toast');
-    toast.textContent = message;
-    toast.style.background = color;
-    toast.style.display = 'block';
-    setTimeout(() => {
-      toast.style.display = 'none';
-    }, 3500);
-  }
-
-  // ✅ Delete Confirmation
+  // ❌ Delete Account with confirmation modal
   function showConfirmModal(callback) {
     const modal = document.getElementById('confirmModal');
     modal.style.display = 'flex';
@@ -1051,51 +970,52 @@
     noBtn.addEventListener('click', onCancel);
   }
 
-  // ✅ Updated Delete Function with Custom Confirm
   async function deleteAccount() {
     triggerRippleEffect();
 
     showConfirmModal(async (confirmed) => {
-      if (!confirmed) return showToast("Account deletion cancelled", "#999");
+      if (!confirmed) return alert("Account deletion cancelled.");
 
       const { data: { user } } = await supabase.auth.getUser();
-      if (!user) return showToast("You're not logged in.", "red");
+      if (!user) return alert("You're not logged in.");
 
       const { error } = await supabase.from('user').delete().eq('id', user.id);
-      if (error) return showToast("❌ Error deleting user.", "red");
+      if (error) return alert("❌ Error deleting user.");
 
-      showToast("✅ Account deleted from table.", "#004a99");
+      alert("✅ Account deleted. Logging out...");
       await supabase.auth.signOut();
       localStorage.clear();
-      setTimeout(() => window.location.href = "login.html", 1500);
+      window.location.href = 'login.html';
     });
   }
 
-  // ✅ Updated Refresh with Toast
-  async function refreshName() {
+  // 🧑 Profile Modal Toggle
+  profileBtn?.addEventListener('click', (e) => {
+    profileModal.style.display = profileModal.style.display === 'block' ? 'none' : 'block';
     triggerRippleEffect();
+    e.stopPropagation();
+  });
 
-    const sessionData = localStorage.getItem('supabaseSession');
-    const session = sessionData ? JSON.parse(sessionData) : null;
-    if (!session) return showToast("You're not logged in.", "red");
-
-    const { data: userData, error } = await supabase
-      .from('user')
-      .select('full_name')
-      .eq('id', session.user.id)
-      .single();
-
-    if (error || !userData?.full_name) {
-      return showToast("❌ Couldn't refresh name.", "red");
+  // ⛔ Close modal on outside click
+  document.addEventListener('click', (e) => {
+    if (!profileModal.contains(e.target) && e.target !== profileBtn) {
+      profileModal.style.display = 'none';
     }
+  });
 
-    localStorage.setItem('full_name', userData.full_name);
-    document.getElementById('greeting').textContent = `Welcome, ${userData.full_name}!`;
-    document.getElementById('modalName').textContent = userData.full_name;
-
-    showToast("✅ Name refreshed!", "#00aa66");
+  // ✨ Animate profile button only
+  function animateButton(id) {
+    const btn = document.getElementById(id);
+    if (!btn) return;
+    btn.addEventListener('mouseenter', () => btn.style.boxShadow = '0 0 15px #8000ff');
+    btn.addEventListener('mouseleave', () => btn.style.boxShadow = '0 0 8px rgba(0,0,0,0.3)');
+    btn.addEventListener('mousedown', () => btn.style.transform = 'scale(0.95)');
+    btn.addEventListener('mouseup', () => btn.style.transform = 'scale(1)');
   }
+
+  animateButton('profileBtn');
 </script>
+
 
 
 <script>
