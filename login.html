@@ -7,7 +7,7 @@
   <link rel="icon" type="image/jpeg" href="https://raw.githubusercontent.com/heartique/HEARTIQUE-NEXUS-NURSES-ALLIANCE/main/icon-192.jpg">
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
   <style>
-    /* (unchanged CSS here – same as you had) */
+    /* ✅ Keep all your original styles untouched */
     body {
       font-family: Arial, sans-serif;
       background-image: url('https://raw.githubusercontent.com/heartique/HEARTIQUE-NEXUS-NURSES-ALLIANCE/main/background2.jpg');
@@ -176,6 +176,15 @@
     'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZjenNseXdwcm93cXpnd2N3aHp1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTE4MzU1MDEsImV4cCI6MjA2NzQxMTUwMX0.IWQ1kwEPRrigvYurWRbuHQWRrHZU9K-3bbYgdH745zk'
   );
 
+  // ✅ Session persistence across reloads
+  supabase.auth.onAuthStateChange((event, session) => {
+    if (session) {
+      localStorage.setItem('supabaseSession', JSON.stringify(session));
+    } else {
+      localStorage.removeItem('supabaseSession');
+    }
+  });
+
   function switchTab(mode) {
     document.getElementById('tab-login').classList.toggle('active', mode === 'login');
     document.getElementById('tab-signup').classList.toggle('active', mode === 'signup');
@@ -265,9 +274,7 @@
           localStorage.setItem('full_name', profile.full_name);
         }
 
-        setTimeout(() => {
-          window.location.href = 'index.html';
-        }, 800);
+        window.location.href = 'index.html';
         return;
       }
       tries++;
