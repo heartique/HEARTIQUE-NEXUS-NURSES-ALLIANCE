@@ -863,7 +863,7 @@
 <script>
   const supabase = window.supabase.createClient(
     'https://fczslywprowqzgwcwhzu.supabase.co',
-    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZjenNseXdwcm93cXpnd2N3aHp1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTE4MzU1MDEsImV4cCI6MjA2NzQxMTUwMX0.IWQ1kwEPRrigvYurWRbuHQWRrHZU9K-3bbYgdH745zk' // replace with actual anon key
+    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...' // replace with actual anon key
   );
 
   const profileBtn = document.getElementById('profileBtn');
@@ -891,7 +891,7 @@
     return session.expires_at && session.expires_at < now;
   }
 
-   async function loadUser() {
+  async function loadUser() {
     const greetingEl = document.getElementById('greeting');
     const welcomeUser = document.getElementById('welcomeUser');
     const modalName = document.getElementById('modalName');
@@ -912,101 +912,31 @@
 
     const userId = session.user.id;
     const userEmail = session.user.email;
-
-   async function loadUser() {
-  const greetingEl = document.getElementById('greeting');
-  const welcomeUser = document.getElementById('welcomeUser');
-  const modalName = document.getElementById('modalName');
-  const modalEmail = document.getElementById('modalEmail');
-
-  let sessionData = localStorage.getItem('supabaseSession');
-  let session = sessionData ? JSON.parse(sessionData) : null;
-
-  // 🔄 If session missing or expired, fetch fresh
-  if (!session || isSessionExpired(session)) {
-    const { data, error } = await supabase.auth.getSession();
-    session = data?.session;
-    if (session) {
-      localStorage.setItem('supabaseSession', JSON.stringify(session));
-    } else {
-      return window.location.href = 'login.html';
-    }
-  }
-
-  const userId = session.user.id;
-  const userEmail = session.user.email;
-
-  // 🔍 Try fetching user from the user table
-  let { data: userData, error } = await supabase
-    .from('user')
-    .select('full_name')
-    .eq('id', userId)
-    .single();
-
-  // ❗ If missing, try to recreate
-  if (error || !userData?.full_name) {
-    console.warn("Profile missing. Attempting to recreate...");
-
-    // 1. Get full name from localStorage or ask the user
     let fullName = localStorage.getItem('full_name');
-    if (!fullName) {
-      fullName = prompt("👤 Please enter your full name to restore your profile:");
-    }
 
     if (!fullName) {
-      alert("⚠️ Cannot proceed without full name.");
-      await supabase.auth.signOut();
-      localStorage.clear();
-      return window.location.href = 'login.html';
-    }
-
-    // 2. Try insert or update (merge logic)
-    const { data: existing, error: existErr } = await supabase
-      .from('user')
-      .select('id')
-      .eq('id', userId)
-      .single();
-
-    let restoreError;
-
-    if (existing) {
-      // Already exists, update it
-      ({ error: restoreError } = await supabase
+      const { data: userData, error } = await supabase
         .from('user')
-        .update({ full_name: fullName, email: userEmail })
-        .eq('id', userId));
-    } else {
-      // Insert as new
-      ({ error: restoreError } = await supabase
-        .from('user')
-        .insert([{ id: userId, full_name: fullName, email: userEmail }]));
+        .select('full_name')
+        .eq('id', userId)
+        .single();
+      if (!error && userData?.full_name) {
+        fullName = userData.full_name;
+        localStorage.setItem('full_name', fullName);
+      }
     }
 
-    if (restoreError) {
-      console.error("Restore failed:", restoreError);
-      alert("❌ Failed to restore your profile. Please try again or contact admin.");
-      await supabase.auth.signOut();
-      localStorage.clear();
-      return window.location.href = 'login.html';
+    if (fullName) {
+      if (greetingEl) greetingEl.textContent = `Welcome, ${fullName}!`;
+      if (welcomeUser) welcomeUser.textContent = `Hello ${fullName}, we're glad to have you on the Nursing Nexus Portal 👋`;
+      if (modalName) modalName.textContent = fullName;
     }
 
-    // Reassign fullName for display
-    userData = { full_name: fullName };
+    if (modalEmail) modalEmail.textContent = userEmail;
+
+    document.getElementById('loading')?.style.setProperty('display', 'none');
+    document.getElementById('app')?.style.setProperty('display', 'block');
   }
-
-  // ✅ Save to localStorage and update UI
-  const fullName = userData.full_name;
-  localStorage.setItem('full_name', fullName);
-
-  if (greetingEl) greetingEl.textContent = `Welcome, ${fullName}!`;
-  if (welcomeUser) welcomeUser.textContent = `Hello ${fullName}, we're glad to have you on the Nursing Nexus Portal 👋`;
-  if (modalName) modalName.textContent = fullName;
-  if (modalEmail) modalEmail.textContent = userEmail;
-
-  document.getElementById('loading')?.style.setProperty('display', 'none');
-  document.getElementById('app')?.style.setProperty('display', 'block');
-}
-
 
   setTimeout(loadUser, 50);
 
@@ -1017,96 +947,80 @@
     window.location.href = 'login.html';
   }
 
-  document.addEventListener('DOMContentLoaded', () => {
-    // ✅ Ripple Effect
-    const rippleEffect = document.getElementById('rippleEffect');
-    function triggerRippleEffect() {
-      if (!rippleEffect) return;
-      rippleEffect.style.opacity = '1';
-      setTimeout(() => {
-        rippleEffect.style.opacity = '0';
-      }, 400);
-    }
+  // ❌ Delete Account with confirmation modal
+  function showConfirmModal(callback) {
+    const modal = document.getElementById('confirmModal');
+    modal.style.display = 'flex';
 
-    // ❌ Delete Account with confirmation modal
-    function showConfirmModal(callback) {
-      const modal = document.getElementById('confirmModal');
-      modal.style.display = 'flex';
+    const yesBtn = document.getElementById('confirmYes');
+    const noBtn = document.getElementById('confirmNo');
 
-      const yesBtn = document.getElementById('confirmYes');
-      const noBtn = document.getElementById('confirmNo');
+    const cleanup = () => {
+      modal.style.display = 'none';
+      yesBtn.removeEventListener('click', onConfirm);
+      noBtn.removeEventListener('click', onCancel);
+    };
 
-      const cleanup = () => {
-        modal.style.display = 'none';
-        yesBtn.removeEventListener('click', onConfirm);
-        noBtn.removeEventListener('click', onCancel);
-      };
+    const onConfirm = () => {
+      cleanup();
+      callback(true);
+    };
 
-      const onConfirm = () => {
-        cleanup();
-        callback(true);
-      };
+    const onCancel = () => {
+      cleanup();
+      callback(false);
+    };
 
-      const onCancel = () => {
-        cleanup();
-        callback(false);
-      };
+    yesBtn.addEventListener('click', onConfirm);
+    noBtn.addEventListener('click', onCancel);
+  }
 
-      yesBtn.addEventListener('click', onConfirm);
-      noBtn.addEventListener('click', onCancel);
-    }
+  async function deleteAccount() {
+    triggerRippleEffect();
 
-    async function deleteAccount() {
-      triggerRippleEffect();
+    showConfirmModal(async (confirmed) => {
+      if (!confirmed) return alert("Account deletion cancelled.");
 
-      showConfirmModal(async (confirmed) => {
-        if (!confirmed) return alert("Account deletion cancelled.");
+      const { data: { user } } = await supabase.auth.getUser();
+      if (!user) return alert("You're not logged in.");
 
-        const { data: { user } } = await supabase.auth.getUser();
-        if (!user) return alert("You're not logged in.");
+      const { error } = await supabase.from('user').delete().eq('id', user.id);
+      if (error) return alert("❌ Error deleting user.");
 
-        const { error } = await supabase.from('user').delete().eq('id', user.id);
-        if (error) return alert("❌ Error deleting user.");
-
-        alert("✅ Account deleted. Logging out...");
-        await supabase.auth.signOut();
-        localStorage.clear();
-        window.location.href = 'login.html';
-      });
-    }
-
-    // 🧑 Profile Modal Toggle
-    const profileBtn = document.getElementById('profileBtn');
-    const profileModal = document.getElementById('profileModal');
-
-    profileBtn?.addEventListener('click', (e) => {
-      const isVisible = profileModal.style.display === 'block';
-      profileModal.style.display = isVisible ? 'none' : 'block';
-      triggerRippleEffect();
-      e.stopPropagation(); // Prevent closing immediately
+      alert("✅ Account deleted. Logging out...");
+      await supabase.auth.signOut();
+      localStorage.clear();
+      window.location.href = 'login.html';
     });
+  }
 
-    // ⛔ Close modal on outside click
-    document.addEventListener('click', (e) => {
-      if (!profileModal.contains(e.target) && e.target !== profileBtn) {
-        profileModal.style.display = 'none';
-      }
-    });
-
-    // ✨ Animate profile button only
-    function animateButton(id) {
-      const btn = document.getElementById(id);
-      if (!btn) return;
-      btn.addEventListener('mouseenter', () => btn.style.boxShadow = '0 0 15px #8000ff');
-      btn.addEventListener('mouseleave', () => btn.style.boxShadow = '0 0 8px rgba(0,0,0,0.3)');
-      btn.addEventListener('mousedown', () => btn.style.transform = 'scale(0.95)');
-      btn.addEventListener('mouseup', () => btn.style.transform = 'scale(1)');
-    }
-
-    animateButton('profileBtn');
+  // 🧑 Profile Modal Toggle
+  profileBtn?.addEventListener('click', (e) => {
+    profileModal.style.display = profileModal.style.display === 'block' ? 'none' : 'block';
+    triggerRippleEffect();
+    e.stopPropagation();
   });
+
+  // ⛔ Close modal on outside click
+  document.addEventListener('click', (e) => {
+    if (!profileModal.contains(e.target) && e.target !== profileBtn) {
+      profileModal.style.display = 'none';
+    }
+  });
+
+  // ✨ Animate profile button only
+  function animateButton(id) {
+    const btn = document.getElementById(id);
+    if (!btn) return;
+    btn.addEventListener('mouseenter', () => btn.style.boxShadow = '0 0 15px #8000ff');
+    btn.addEventListener('mouseleave', () => btn.style.boxShadow = '0 0 8px rgba(0,0,0,0.3)');
+    btn.addEventListener('mousedown', () => btn.style.transform = 'scale(0.95)');
+    btn.addEventListener('mouseup', () => btn.style.transform = 'scale(1)');
+  }
+
+  animateButton('profileBtn');
 </script>
- 
+
 
 <script>
   const noticeList = document.getElementById('notices');
