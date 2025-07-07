@@ -7,6 +7,7 @@
   <link rel="icon" type="image/jpeg" href="https://raw.githubusercontent.com/heartique/HEARTIQUE-NEXUS-NURSES-ALLIANCE/main/icon-192.jpg">
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
   <style>
+    /* (unchanged CSS here – same as you had) */
     body {
       font-family: Arial, sans-serif;
       background-image: url('https://raw.githubusercontent.com/heartique/HEARTIQUE-NEXUS-NURSES-ALLIANCE/main/background2.jpg');
@@ -130,7 +131,7 @@
     }
   </style>
 </head>
-  <!-- Add this inside your <body> tag, at the top or bottom -->
+
 <audio id="notifySound" src="notify.mp3" preload="auto"></audio>
 
 <body>
@@ -221,17 +222,10 @@
       result = await supabase.auth.signUp({ email, password });
 
       if (!result.error && result.data?.user) {
-        const { error: insertError } = await supabase
+        await supabase
           .from('user')
           .insert([{ id: result.data.user.id, full_name: fullName, email }]);
 
-        if (insertError) {
-          msg.style.color = 'red';
-          msg.textContent = '❌ Error saving profile: ' + insertError.message;
-          return;
-        }
-
-        // Also store full name locally for greeting
         localStorage.setItem('full_name', fullName);
       }
     }
@@ -255,36 +249,31 @@
     waitForSessionAndRedirect();
   }
 
-  let tries = 0;
   async function waitForSessionAndRedirect() {
-    const { data: { session } } = await supabase.auth.getSession();
-    if (!session && tries < 10) {
+    let tries = 0;
+    while (tries < 10) {
+      const { data: { session } } = await supabase.auth.getSession();
+      if (session) {
+        const userId = session.user.id;
+        const { data: profile } = await supabase
+          .from('user')
+          .select('full_name')
+          .eq('id', userId)
+          .single();
+
+        if (profile?.full_name) {
+          localStorage.setItem('full_name', profile.full_name);
+        }
+
+        setTimeout(() => {
+          window.location.href = 'index.html';
+        }, 800);
+        return;
+      }
       tries++;
-      return setTimeout(waitForSessionAndRedirect, 300);
+      await new Promise(resolve => setTimeout(resolve, 300));
     }
-    if (!session) {
-      alert("⚠️ Couldn't establish session. Try again.");
-      return;
-    }
-
-    const userId = session.user.id;
-    const { data: profile } = await supabase
-      .from('user')
-      .select('full_name, bio, school')
-      .eq('id', userId)
-      .single();
-
-    const isProfileComplete = profile && profile.full_name && profile.bio && profile.school;
-
-    // Save full_name locally for greeting
-    if (profile && profile.full_name) {
-      localStorage.setItem('full_name', profile.full_name);
-    }
-
-    // Smooth redirect
-    setTimeout(() => {
-      window.location.href = isProfileComplete ? 'index.html' : 'profile.html';
-    }, 800); // slight delay for smooth transition
+    alert("⚠️ Couldn't establish session. Try again.");
   }
 
   window.addEventListener('DOMContentLoaded', () => {
@@ -297,4 +286,3 @@
 </script>
 </body>
 </html>
-
