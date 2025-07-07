@@ -858,7 +858,8 @@
       document.getElementById("abbrev-count").innerText = `Abbreviations`;
     });
 </script>
-<!-- ✅ Supabase + Profile Logic (With Logout Confirmation) -->
+
+soo on this script does it shour confirmation for log out,,<!-- ✅ Supabase + Profile Logic (No Refresh) -->
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
 <script>
   const supabase = window.supabase.createClient(
@@ -890,67 +891,74 @@
     const now = Math.floor(Date.now() / 1000);
     return session.expires_at && session.expires_at < now;
   }
-window.addEventListener('DOMContentLoaded', async () => {
-  const greetingEl = document.getElementById('greeting');
-  const welcomeUser = document.getElementById('welcomeUser');
-  const modalName = document.getElementById('modalName');
-  const modalEmail = document.getElementById('modalEmail');
 
-  let sessionData = localStorage.getItem('supabaseSession');
-  let session = sessionData ? JSON.parse(sessionData) : null;
+  async function loadUser() {
+    const greetingEl = document.getElementById('greeting');
+    const welcomeUser = document.getElementById('welcomeUser');
+    const modalName = document.getElementById('modalName');
+    const modalEmail = document.getElementById('modalEmail');
 
-  if (!session || isSessionExpired(session)) {
-    const { data } = await supabase.auth.getSession();
-    session = data?.session;
-    if (session) {
-      localStorage.setItem('supabaseSession', JSON.stringify(session));
-    } else {
-      return window.location.href = 'login.html';
+    let sessionData = localStorage.getItem('supabaseSession');
+    let session = sessionData ? JSON.parse(sessionData) : null;
+
+    if (!session || isSessionExpired(session)) {
+      const { data } = await supabase.auth.getSession();
+      session = data?.session;
+      if (session) {
+        localStorage.setItem('supabaseSession', JSON.stringify(session));
+      } else {
+        return window.location.href = 'login.html';
+      }
     }
+
+    const userId = session.user.id;
+    const userEmail = session.user.email;
+    let fullName = localStorage.getItem('full_name');
+
+    if (!fullName) {
+      const { data: userData, error } = await supabase
+  .from('user')
+  .select('full_name')
+  .eq('id', userId)
+  .single();
+
+if (!error && userData?.full_name) {
+  fullName = userData.full_name;
+  localStorage.setItem('full_name', fullName);
+}
+
+    }
+
+    if (fullName) {
+      if (greetingEl) greetingEl.textContent = `Welcome, ${fullName}!`;
+      if (welcomeUser) welcomeUser.textContent = `Hello ${fullName}, we're glad to have you on the Nursing Nexus Portal 👋`;
+      if (modalName) modalName.textContent = fullName;
+    }
+
+    if (modalEmail) modalEmail.textContent = userEmail;
+
+    document.getElementById('loading')?.style.setProperty('display', 'none');
+    document.getElementById('app')?.style.setProperty('display', 'block');
   }
 
-  const userId = session.user.id;
-  const userEmail = session.user.email;
+  setTimeout(loadUser, 50);
 
-  let fullName = '';
-  const { data: userData, error } = await supabase
-    .from('user')
-    .select('full_name')
-    .eq('id', userId)
-    .single();
+  async function logout() {
+    const confirmed = confirm("Are you sure you want to log out?");
+  if (!confirmed) return;
 
-  if (!error && userData?.full_name) {
-    fullName = userData.full_name;
-    localStorage.setItem('full_name', fullName);
-    console.log("Fetched full_name:", fullName); // Debug line
+    await supabase.auth.signOut();
+    localStorage.removeItem('supabaseSession');
+    window.location.href = 'login.html';
   }
 
-  if (fullName) {
-    if (greetingEl) greetingEl.textContent = `Welcome, ${fullName}!`;
-    if (welcomeUser) welcomeUser.textContent = `Hello ${fullName}, we're glad to have you on the Nursing Nexus Portal 👋`;
-    if (modalName) modalName.textContent = fullName;
-  }
-
-  if (modalEmail) modalEmail.textContent = userEmail;
-
-  document.getElementById('loading')?.style.setProperty('display', 'none');
-  document.getElementById('app')?.style.setProperty('display', 'block');
-});
-
-
-window.addEventListener('DOMContentLoaded', loadUser);
-
-
-  // ✅ Show Confirm Modal (Reusable)
-  function showConfirmModal(callback, message = "Are you sure?", title = "Confirm") {
+  // ❌ Delete Account with confirmation modal
+  function showConfirmModal(callback) {
     const modal = document.getElementById('confirmModal');
+    modal.style.display = 'flex';
+
     const yesBtn = document.getElementById('confirmYes');
     const noBtn = document.getElementById('confirmNo');
-
-    modal.querySelector('h3').textContent = title;
-    modal.querySelector('p').textContent = message;
-
-    modal.style.display = 'flex';
 
     const cleanup = () => {
       modal.style.display = 'none';
@@ -972,21 +980,6 @@ window.addEventListener('DOMContentLoaded', loadUser);
     noBtn.addEventListener('click', onCancel);
   }
 
-  // ✅ Logout with Confirmation
-  async function logout() {
-    triggerRippleEffect();
-
-    showConfirmModal(async (confirmed) => {
-      if (!confirmed) return alert("Logout cancelled.");
-
-      await supabase.auth.signOut();
-      localStorage.removeItem('supabaseSession');
-      // localStorage.removeItem('full_name'); // optional: keep name
-      window.location.href = 'login.html';
-    }, "Are you sure you want to log out?", "Confirm Logout");
-  }
-
-  // ✅ Delete Account with Confirmation
   async function deleteAccount() {
     triggerRippleEffect();
 
@@ -1003,24 +996,24 @@ window.addEventListener('DOMContentLoaded', loadUser);
       await supabase.auth.signOut();
       localStorage.clear();
       window.location.href = 'login.html';
-    }, "Are you sure you want to delete this account?", "Confirm Delete");
+    });
   }
 
-  // 👤 Toggle Profile Modal
+  // 🧑 Profile Modal Toggle
   profileBtn?.addEventListener('click', (e) => {
     profileModal.style.display = profileModal.style.display === 'block' ? 'none' : 'block';
     triggerRippleEffect();
     e.stopPropagation();
   });
 
-  // ⛔ Close Profile Modal if Clicked Outside
+  // ⛔ Close modal on outside click
   document.addEventListener('click', (e) => {
     if (!profileModal.contains(e.target) && e.target !== profileBtn) {
       profileModal.style.display = 'none';
     }
   });
 
-  // ✨ Animate Profile Button
+  // ✨ Animate profile button only
   function animateButton(id) {
     const btn = document.getElementById(id);
     if (!btn) return;
@@ -1032,7 +1025,6 @@ window.addEventListener('DOMContentLoaded', loadUser);
 
   animateButton('profileBtn');
 </script>
-
 
 
 <script>
