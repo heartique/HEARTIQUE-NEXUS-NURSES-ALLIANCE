@@ -890,55 +890,56 @@
     const now = Math.floor(Date.now() / 1000);
     return session.expires_at && session.expires_at < now;
   }
+window.addEventListener('DOMContentLoaded', async () => {
+  const greetingEl = document.getElementById('greeting');
+  const welcomeUser = document.getElementById('welcomeUser');
+  const modalName = document.getElementById('modalName');
+  const modalEmail = document.getElementById('modalEmail');
 
-  async function loadUser() {
-    const greetingEl = document.getElementById('greeting');
-    const welcomeUser = document.getElementById('welcomeUser');
-    const modalName = document.getElementById('modalName');
-    const modalEmail = document.getElementById('modalEmail');
+  let sessionData = localStorage.getItem('supabaseSession');
+  let session = sessionData ? JSON.parse(sessionData) : null;
 
-    let sessionData = localStorage.getItem('supabaseSession');
-    let session = sessionData ? JSON.parse(sessionData) : null;
-
-    if (!session || isSessionExpired(session)) {
-      const { data } = await supabase.auth.getSession();
-      session = data?.session;
-      if (session) {
-        localStorage.setItem('supabaseSession', JSON.stringify(session));
-      } else {
-        return window.location.href = 'login.html';
-      }
+  if (!session || isSessionExpired(session)) {
+    const { data } = await supabase.auth.getSession();
+    session = data?.session;
+    if (session) {
+      localStorage.setItem('supabaseSession', JSON.stringify(session));
+    } else {
+      return window.location.href = 'login.html';
     }
-
-    const userId = session.user.id;
-    const userEmail = session.user.email;
-
-    // Always fetch latest full_name from DB
-    let fullName = '';
-    const { data: userData, error } = await supabase
-      .from('user')
-      .select('full_name')
-      .eq('id', userId)
-      .single();
-
-    if (!error && userData?.full_name) {
-      fullName = userData.full_name;
-      localStorage.setItem('full_name', fullName);
-    }
-
-    if (fullName) {
-      if (greetingEl) greetingEl.textContent = `Welcome, ${fullName}!`;
-      if (welcomeUser) welcomeUser.textContent = `Hello ${fullName}, we're glad to have you on the Nursing Nexus Portal 👋`;
-      if (modalName) modalName.textContent = fullName;
-    }
-
-    if (modalEmail) modalEmail.textContent = userEmail;
-
-    document.getElementById('loading')?.style.setProperty('display', 'none');
-    document.getElementById('app')?.style.setProperty('display', 'block');
   }
 
-  setTimeout(loadUser, 50);
+  const userId = session.user.id;
+  const userEmail = session.user.email;
+
+  let fullName = '';
+  const { data: userData, error } = await supabase
+    .from('user')
+    .select('full_name')
+    .eq('id', userId)
+    .single();
+
+  if (!error && userData?.full_name) {
+    fullName = userData.full_name;
+    localStorage.setItem('full_name', fullName);
+    console.log("Fetched full_name:", fullName); // Debug line
+  }
+
+  if (fullName) {
+    if (greetingEl) greetingEl.textContent = `Welcome, ${fullName}!`;
+    if (welcomeUser) welcomeUser.textContent = `Hello ${fullName}, we're glad to have you on the Nursing Nexus Portal 👋`;
+    if (modalName) modalName.textContent = fullName;
+  }
+
+  if (modalEmail) modalEmail.textContent = userEmail;
+
+  document.getElementById('loading')?.style.setProperty('display', 'none');
+  document.getElementById('app')?.style.setProperty('display', 'block');
+});
+
+
+window.addEventListener('DOMContentLoaded', loadUser);
+
 
   // ✅ Show Confirm Modal (Reusable)
   function showConfirmModal(callback, message = "Are you sure?", title = "Confirm") {
