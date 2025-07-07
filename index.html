@@ -837,7 +837,7 @@
   <button onclick="deleteAccount()" style="background: red; color: white; margin-top: 0.5rem;">Delete Account</button>
   <button onclick="logout()" style="margin-top: 0.5rem;">Logout</button>
 </div>
- <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
 <script>
   const supabase = window.supabase.createClient(
     'https://gbqgtnukoucxagswqspx.supabase.co',
@@ -845,7 +845,17 @@
   );
 
   async function loadUser() {
+    const greetingEl = document.getElementById('greeting');
+    const modalName = document.getElementById('modalName');
+    const modalEmail = document.getElementById('modalEmail');
+
+    // Show greeting from localStorage immediately if available
+    const cachedName = localStorage.getItem('full_name');
+    if (cachedName) greetingEl.textContent = `Welcome, ${cachedName}!`;
+
+    // Get session
     const { data: { session } } = await supabase.auth.getSession();
+
     if (!session) {
       window.location.href = 'login.html';
       return;
@@ -854,25 +864,28 @@
     const userId = session.user.id;
     const userEmail = session.user.email;
 
-    const { data: user, error } = await supabase
-      .from('user')
-      .select('full_name')
-      .eq('id', userId)
-      .single();
+    // Only fetch from Supabase if no cached name
+    if (!cachedName) {
+      const { data: user, error } = await supabase
+        .from('user')
+        .select('full_name')
+        .eq('id', userId)
+        .single();
 
-    if (error || !user) {
-      await supabase.auth.signOut();
-      window.location.href = 'login.html';
-      return;
+      if (error || !user) {
+        await supabase.auth.signOut();
+        window.location.href = 'login.html';
+        return;
+      }
+
+      greetingEl.textContent = `Welcome, ${user.full_name}!`;
+      localStorage.setItem('full_name', user.full_name);
+      modalName.textContent = user.full_name;
+    } else {
+      modalName.textContent = cachedName;
     }
 
-    // Greeting
-    document.getElementById('greeting').textContent = `Welcome, ${user.full_name}!`;
-    localStorage.setItem('full_name', user.full_name);
-
-    // Fill modal
-    document.getElementById('modalName').textContent = user.full_name;
-    document.getElementById('modalEmail').textContent = userEmail;
+    modalEmail.textContent = userEmail;
   }
 
   // Toggle modal
@@ -881,7 +894,7 @@
     modal.style.display = modal.style.display === "none" ? "block" : "none";
   });
 
-  // Logout function
+  // Logout
   async function logout() {
     await supabase.auth.signOut();
     localStorage.removeItem('full_name');
@@ -904,7 +917,8 @@
     window.location.href = 'login.html';
   }
 
-  loadUser();
+  // Wait a tiny bit before checking session to avoid flicker
+  setTimeout(loadUser, 100);
 </script>
 
   
