@@ -130,6 +130,23 @@
       margin-bottom: 1rem;
     }
   </style>
+
+  <script>
+    // ✅ Prevent logged-in users from accessing login.html
+    const supabase = window.supabase?.createClient(
+      'https://fczslywprowqzgwcwhzu.supabase.co',
+      'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZjenNseXdwcm93cXpnd2N3aHp1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTE4MzU1MDEsImV4cCI6MjA2NzQxMTUwMX0.IWQ1kwEPRrigvYurWRbuHQWRrHZU9K-3bbYgdH745zk'
+    );
+
+    async function checkIfLoggedIn() {
+      const { data: { session } } = await supabase.auth.getSession();
+      if (session) {
+        window.location.replace("index.html"); // prevents back nav
+      }
+    }
+
+    checkIfLoggedIn();
+  </script>
 </head>
 
 <audio id="notifySound" src="notify.mp3" preload="auto"></audio>
