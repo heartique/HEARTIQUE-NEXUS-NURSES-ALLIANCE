@@ -908,32 +908,72 @@
     const userId = session.user.id;
     const userEmail = session.user.email;
 
-    // ✅ Always fetch from database to keep fresh and support new devices
-    const { data: userData, error } = await supabase
-      .from('user')
-      .select('full_name')
-      .eq('id', userId)
-      .single();
+   async function loadUser() {
+  const greetingEl = document.getElementById('greeting');
+  const welcomeUser = document.getElementById('welcomeUser');
+  const modalName = document.getElementById('modalName');
+  const modalEmail = document.getElementById('modalEmail');
 
-    if (error || !userData?.full_name) {
-      alert("⚠️ Your account data is missing in the database. You've been logged out.");
+  let sessionData = localStorage.getItem('supabaseSession');
+  let session = sessionData ? JSON.parse(sessionData) : null;
+
+  if (!session || isSessionExpired(session)) {
+    const { data } = await supabase.auth.getSession();
+    session = data?.session;
+    if (session) {
+      localStorage.setItem('supabaseSession', JSON.stringify(session));
+    } else {
+      return window.location.href = 'login.html';
+    }
+  }
+
+  const userId = session.user.id;
+  const userEmail = session.user.email;
+
+  let { data: userData, error } = await supabase
+    .from('user')
+    .select('full_name')
+    .eq('id', userId)
+    .single();
+
+  // 🛠️ If user record not found, attempt to recreate using saved full_name
+  if (error || !userData?.full_name) {
+    const savedFullName = localStorage.getItem('full_name') || prompt("👤 Please enter your full name:");
+
+    if (!savedFullName) {
+      alert("⚠️ Full name is required to recreate your profile.");
       await supabase.auth.signOut();
       localStorage.clear();
       return window.location.href = 'login.html';
     }
 
-    const fullName = userData.full_name;
-    localStorage.setItem('full_name', fullName);
+    const { error: insertError } = await supabase
+      .from('user')
+      .insert([{ id: userId, full_name: savedFullName, email: userEmail }]);
 
-    if (greetingEl) greetingEl.textContent = `Welcome, ${fullName}!`;
-    if (welcomeUser) welcomeUser.textContent = `Hello ${fullName}, we're glad to have you on the Nursing Nexus Portal 👋`;
-    if (modalName) modalName.textContent = fullName;
-    if (modalEmail) modalEmail.textContent = userEmail;
+    if (insertError) {
+      alert("❌ Failed to recreate profile. Please contact support.");
+      await supabase.auth.signOut();
+      localStorage.clear();
+      return window.location.href = 'login.html';
+    }
 
-    document.getElementById('loading')?.style.setProperty('display', 'none');
-    document.getElementById('app')?.style.setProperty('display', 'block');
+    userData = { full_name: savedFullName };
+    localStorage.setItem('full_name', savedFullName);
+  } else {
+    localStorage.setItem('full_name', userData.full_name);
   }
 
+  // 👋 Update UI
+  const fullName = userData.full_name;
+  if (greetingEl) greetingEl.textContent = `Welcome, ${fullName}!`;
+  if (welcomeUser) welcomeUser.textContent = `Hello ${fullName}, we're glad to have you on the Nursing Nexus Portal 👋`;
+  if (modalName) modalName.textContent = fullName;
+  if (modalEmail) modalEmail.textContent = userEmail;
+
+  document.getElementById('loading')?.style.setProperty('display', 'none');
+  document.getElementById('app')?.style.setProperty('display', 'block');
+}
 
   setTimeout(loadUser, 50);
 
