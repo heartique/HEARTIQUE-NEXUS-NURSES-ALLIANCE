@@ -20,11 +20,11 @@
   <meta name="keywords" content="nursing, notes, dashboard, CHK, Heartique, study, PTS, Kenya">
   <meta name="author" content="Heartique Nursing Nexus Team">
   <meta name="robots" content="index, follow">
-  <!-- 🚀 Refresh Button with Shockwave Effect -->
-<button id="refreshBtn" title="REFRESH">
-  🔄
-</button>
+
+  <!-- 🔄 Refresh Button -->
+<button id="refreshBtn" title="Refresh">🔄</button>
 <div id="shockwave"></div>
+
 
 
   <!-- 🌐 Open Graph (Facebook, WhatsApp, etc.) -->
@@ -361,55 +361,41 @@
     margin-bottom: 20px;
   }
 }
-
-    /* 🔘 Refresh Button Styling */
+/* Refresh Button */
 #refreshBtn {
   position: fixed;
   bottom: 20px;
   right: 20px;
+  z-index: 9999;
   background: linear-gradient(to right, #004a99, #8000ff);
   color: white;
   border: none;
   border-radius: 50%;
-  padding: 16px;
-  font-size: 22px;
+  padding: 15px;
+  font-size: 20px;
   cursor: pointer;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-  z-index: 999;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
   transition: transform 0.2s ease;
 }
 #refreshBtn:hover {
   transform: scale(1.1);
 }
 
-/* 💥 Shockwave Animation */
+/* Shockwave Animation */
 #shockwave {
   position: fixed;
-  bottom: 36px;
-  right: 36px;
-  width: 20px;
-  height: 20px;
+  bottom: 27px;
+  right: 27px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
-  background: rgba(128, 0, 255, 0.4);
+  background: rgba(128, 0, 255, 0.3);
   opacity: 0;
-  z-index: 998;
+  z-index: 9998;
   pointer-events: none;
 }
-@keyframes pulse {
-  0% {
-    transform: scale(1);
-    opacity: 0.6;
-  }
-  50% {
-    transform: scale(2.5);
-    opacity: 0.3;
-  }
-  100% {
-    transform: scale(3.5);
-    opacity: 0;
-  }
-}
 
+   
   </style>
 </head>
   <script>
@@ -1211,22 +1197,31 @@ if (!error && userData?.full_name) {
 </script>
       <script src="script.js" defer></script>
 
-      <script>
-  const btn = document.getElementById('refreshBtn');
+    <script>
+  const refreshBtn = document.getElementById('refreshBtn');
   const shockwave = document.getElementById('shockwave');
 
-  btn.addEventListener('click', () => {
-    // Animate shockwave
-    shockwave.style.animation = 'none';
-    void shockwave.offsetWidth; // restart animation
-    shockwave.style.animation = 'pulse 0.8s ease-out';
+  refreshBtn.addEventListener('click', () => {
+    // Reset shockwave
+    shockwave.style.transition = 'none';
+    shockwave.style.opacity = '1';
+    shockwave.style.transform = 'scale(1)';
+    
+    // Force reflow
+    void shockwave.offsetWidth;
 
-    // Refresh after short delay for animation
+    // Trigger animation
+    shockwave.style.transition = 'transform 0.6s ease-out, opacity 0.6s ease-out';
+    shockwave.style.transform = 'scale(8)';
+    shockwave.style.opacity = '0';
+
+    // Then refresh after short delay
     setTimeout(() => {
-      location.reload(true); // force reload
+      location.reload(true); // force full reload
     }, 500);
   });
 </script>
+  
 
 </body>
 </html>
