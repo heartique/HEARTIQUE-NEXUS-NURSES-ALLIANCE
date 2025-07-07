@@ -20,6 +20,12 @@
   <meta name="keywords" content="nursing, notes, dashboard, CHK, Heartique, study, PTS, Kenya">
   <meta name="author" content="Heartique Nursing Nexus Team">
   <meta name="robots" content="index, follow">
+  <!-- 🚀 Refresh Button with Shockwave Effect -->
+<button id="refreshBtn" title="REFRESH">
+  🔄
+</button>
+<div id="shockwave"></div>
+
 
   <!-- 🌐 Open Graph (Facebook, WhatsApp, etc.) -->
 <meta property="og:title" content="Heartique Nursing Nexus Dashboard">
@@ -353,6 +359,54 @@
     flex: 1 1 90%;
     max-width: 360px;
     margin-bottom: 20px;
+  }
+}
+
+    /* 🔘 Refresh Button Styling */
+#refreshBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: linear-gradient(to right, #004a99, #8000ff);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 16px;
+  font-size: 22px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  z-index: 999;
+  transition: transform 0.2s ease;
+}
+#refreshBtn:hover {
+  transform: scale(1.1);
+}
+
+/* 💥 Shockwave Animation */
+#shockwave {
+  position: fixed;
+  bottom: 36px;
+  right: 36px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: rgba(128, 0, 255, 0.4);
+  opacity: 0;
+  z-index: 998;
+  pointer-events: none;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+  50% {
+    transform: scale(2.5);
+    opacity: 0.3;
+  }
+  100% {
+    transform: scale(3.5);
+    opacity: 0;
   }
 }
 
@@ -1156,6 +1210,24 @@ if (!error && userData?.full_name) {
   setInterval(fetchNotices, 10000); // repeat every 10 sec
 </script>
       <script src="script.js" defer></script>
+
+      <script>
+  const btn = document.getElementById('refreshBtn');
+  const shockwave = document.getElementById('shockwave');
+
+  btn.addEventListener('click', () => {
+    // Animate shockwave
+    shockwave.style.animation = 'none';
+    void shockwave.offsetWidth; // restart animation
+    shockwave.style.animation = 'pulse 0.8s ease-out';
+
+    // Refresh after short delay for animation
+    setTimeout(() => {
+      location.reload(true); // force reload
+    }, 500);
+  });
+</script>
+
 </body>
 </html>
 
