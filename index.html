@@ -15,6 +15,7 @@
 <meta name="theme-color" content="#004a99" />
   
 <button onclick="deleteAccount()" style="margin-top: 1rem;">Delete My Account</button>
+<button onclick="refreshName()">🔄 Refresh Name</button>
 
   <style>
     body {
@@ -849,8 +850,6 @@
     const greetingEl = document.getElementById('greeting');
     const modalName = document.getElementById('modalName');
     const modalEmail = document.getElementById('modalEmail');
-    const cachedName = localStorage.getItem('full_name');
-    if (cachedName) greetingEl.textContent = `Welcome, ${cachedName}!`;
 
     const { data: { session } } = await supabase.auth.getSession();
     if (!session) return window.location.href = 'login.html';
@@ -858,22 +857,29 @@
     const userId = session.user.id;
     const userEmail = session.user.email;
 
-    if (!cachedName) {
-      const { data: user, error } = await supabase.from('user').select('full_name').eq('id', userId).single();
-      if (error || !user) {
-        await supabase.auth.signOut();
-        return window.location.href = 'login.html';
+    let fullName = localStorage.getItem('full_name');
+
+    if (!fullName) {
+      const { data: userData, error } = await supabase
+        .from('user')
+        .select('full_name')
+        .eq('id', userId)
+        .single();
+
+      if (!error && userData?.full_name) {
+        fullName = userData.full_name;
+        localStorage.setItem('full_name', fullName);
       }
-      greetingEl.textContent = `Welcome, ${user.full_name}!`;
-      localStorage.setItem('full_name', user.full_name);
-      modalName.textContent = user.full_name;
-    } else {
-      modalName.textContent = cachedName;
+    }
+
+    if (fullName) {
+      greetingEl.textContent = `Welcome, ${fullName}!`;
+      modalName.textContent = fullName;
     }
 
     modalEmail.textContent = userEmail;
 
-    // ✅ Reveal content now
+    // ✅ Reveal content
     document.getElementById('loading').style.display = 'none';
     document.getElementById('app').style.display = 'block';
   }
@@ -899,7 +905,29 @@
     localStorage.removeItem('full_name');
     window.location.href = 'login.html';
   }
+  async function refreshName() {
+  const { data: { session } } = await supabase.auth.getSession();
+  if (!session) return alert("You're not logged in.");
+
+  const userId = session.user.id;
+
+  const { data: userData, error } = await supabase
+    .from('user')
+    .select('full_name')
+    .eq('id', userId)
+    .single();
+
+  if (error || !userData?.full_name) {
+    return alert("❌ Couldn't refresh name.");
+  }
+
+  localStorage.setItem('full_name', userData.full_name);
+  document.getElementById('greeting').textContent = `Welcome, ${userData.full_name}!`;
+  document.getElementById('modalName').textContent = userData.full_name;
+  alert("✅ Name refreshed!");
+}
 </script>
+
 <script>
   const noticeList = document.getElementById('notices');
   const toggleBtn = document.getElementById('toggleNotice');
