@@ -774,34 +774,51 @@
     });
   }
   </script>
-      <button id="installApp"
+      <!-- Install App Button -->
+<button id="installApp"
   style="display:none;position:fixed;bottom:20px;right:20px;padding:12px 18px;background:#004a99;color:white;border:none;border-radius:12px;font-weight:bold;box-shadow:0 4px 10px rgba(0,0,0,0.2);z-index:999;">
   📲 Install Portal
 </button>
 
+<!-- Install App Script -->
 <script>
   let deferredPrompt;
   const installButton = document.getElementById('installApp');
 
-  window.addEventListener('beforeinstallprompt', (e) => {
-    e.preventDefault();
-    deferredPrompt = e;
-    installButton.style.display = 'block';
+  // Check if already installed (standalone mode)
+  const isStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone;
+  if (!isStandalone) {
+    window.addEventListener('beforeinstallprompt', (e) => {
+      e.preventDefault();
+      deferredPrompt = e;
+      installButton.style.display = 'block';
 
-    installButton.addEventListener('click', () => {
-      installButton.style.display = 'none';
-      deferredPrompt.prompt();
-      deferredPrompt.userChoice.then((choiceResult) => {
-        if (choiceResult.outcome === 'accepted') {
-          console.log('App installed');
-        } else {
-          console.log('App installation dismissed');
-        }
-        deferredPrompt = null;
+      installButton.addEventListener('click', () => {
+        installButton.style.display = 'none';
+        deferredPrompt.prompt();
+
+        deferredPrompt.userChoice.then((choiceResult) => {
+          if (choiceResult.outcome === 'accepted') {
+            console.log('✅ App installed');
+          } else {
+            console.log('❌ App installation dismissed');
+
+            // Optional: Show the button again later
+            setTimeout(() => {
+              if (deferredPrompt) {
+                installButton.style.display = 'block';
+              }
+            }, 30000); // Retry after 30 seconds
+          }
+          deferredPrompt = null;
+        });
       });
     });
-  });
+  } else {
+    console.log('📱 App already installed');
+  }
 </script>
+
       <script>
   const searchInput = document.getElementById("searchBar");
 
