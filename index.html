@@ -334,6 +334,7 @@
     });
   }
 </script>
+  <div id="rippleEffect" style="position: fixed; top: 0; left: 0; width: 100%; height: 4px; background: linear-gradient(to right, #004a99, #8000ff); opacity: 0; transition: opacity 0.4s; z-index: 999;"></div>
 <body>
 <!-- 👤 Top Bar with Profile -->
 <div id="topBar" style="display: flex; justify-content: space-between; padding: 1rem 2rem; background: #f9f9f9;">
@@ -344,7 +345,7 @@
 </div>
 
 <!-- 👤 Profile Dropdown Panel -->
-<div id="profileModal" style="display: none; position: absolute; top: 80px; right: 2rem; background: white; padding: 1rem; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.2); z-index: 1000; min-width: 220px;">
+<div id="profileModal" class="dropdown" style="display: none; position: absolute; top: 80px; right: 2rem; background: white; padding: 1rem; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.2); z-index: 1000; min-width: 220px;">
   <p><strong>Name:</strong> <span id="modalName">Loading...</span></p>
   <p><strong>Email:</strong> <span id="modalEmail">Loading...</span></p>
   <hr>
@@ -361,6 +362,7 @@
     <button id="confirmNo">Cancel</button>
   </div>
 </div>
+
 
 
   <!-- 🔊 Notification Sound -->
@@ -1011,6 +1013,15 @@
     localStorage.removeItem('supabaseSession');
     window.location.href = 'login.html';
   }
+  // ✅ Ripple Effect
+  const rippleEffect = document.getElementById('rippleEffect');
+  function triggerRippleEffect() {
+    if (!rippleEffect) return;
+    rippleEffect.style.opacity = '1';
+    setTimeout(() => {
+      rippleEffect.style.opacity = '0';
+    }, 400);
+  }
 
   // ❌ Delete Account with confirmation modal
   function showConfirmModal(callback) {
@@ -1060,10 +1071,14 @@
   }
 
   // 🧑 Profile Modal Toggle
+  const profileBtn = document.getElementById('profileBtn');
+  const profileModal = document.getElementById('profileModal');
+
   profileBtn?.addEventListener('click', (e) => {
-    profileModal.style.display = profileModal.style.display === 'block' ? 'none' : 'block';
+    const isVisible = profileModal.style.display === 'block';
+    profileModal.style.display = isVisible ? 'none' : 'block';
     triggerRippleEffect();
-    e.stopPropagation();
+    e.stopPropagation(); // Prevent closing immediately
   });
 
   // ⛔ Close modal on outside click
@@ -1085,7 +1100,6 @@
 
   animateButton('profileBtn');
 </script>
-
 
 
 <script>
