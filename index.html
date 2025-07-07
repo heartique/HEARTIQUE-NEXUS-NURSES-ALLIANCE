@@ -338,15 +338,45 @@
   }
 </script>
 <body>
+  <!-- Profile Button -->
+<button id="profileBtn"
+  style="position: fixed; top: 1rem; right: 6rem; z-index: 1000;
+         width: 50px; height: 50px; border-radius: 50%; background: #004a99;
+         color: white; font-weight: bold; border: none; box-shadow: 0 0 10px rgba(0,0,0,0.3);
+         transition: transform 0.2s ease, box-shadow 0.3s ease;">
+  👤
+</button>
+
+<!-- Refresh Button -->
+<button onclick="refreshName()" title="Refresh Name"
+  style="position: fixed; top: 1rem; right: 1rem; z-index: 1000;
+         background: #00aaff; color: white; padding: 0.6rem 1rem;
+         border: none; border-radius: 8px; font-weight: bold;
+         box-shadow: 0 0 10px rgba(0,0,0,0.3);
+         transition: transform 0.2s ease, background 0.3s ease;">
+  🔄 Refresh
+</button>
+
+<!-- Profile Modal -->
+<div id="profileModal"
+  style="display: none; position: fixed; top: 4rem; right: 1rem; background: white;
+         border: 1px solid #ccc; padding: 1rem; border-radius: 8px; z-index: 1001;
+         box-shadow: 0 4px 12px rgba(0,0,0,0.2); min-width: 200px;">
+  <p><strong>Full Name:</strong> <span id="modalName">...</span></p>
+  <p><strong>Email:</strong> <span id="modalEmail">...</span></p>
+  <button onclick="deleteAccount()" style="background: red; color: white; margin-top: 0.5rem;">Delete Account</button>
+  <button onclick="logout()" style="margin-top: 0.5rem;">Logout</button>
+</div>
+
   <!-- 🔊 Notification Sound -->
 <audio id="notifySound" src="notify.mp3" preload="auto"></audio>
   <header>
     <h1>WELCOME TO HEARTIQUE NURSING NEXUS PORTAL❤️</h1>
   </header>
   <main>
-    <div class="welcome-msg">
-        <h1 id="greeting">Welcome!</h1>
-<p id="welcomeUser">Hello! We're glad to have you on the Nursing Nexus Portal 👋</p>
+  <div class="welcome-msg">
+  <h1 id="greeting">Welcome!</h1>
+  <p id="welcomeUser">Hello! We're glad to have you on the Nursing Nexus Portal 👋</p>
 <p>Welcome to the <strong>Heartique Nursing Nexus Alliance Portal</strong>a dedicated space for all students of Fidenza School of Nursing. Whether you're just beginning your journey or already progressing in your nursing career, this portal is here to support you every step of the way.</p>
 <p>More than just a resource hub, this is a community where students and professionals come together to grow, support one another, and inspire meaningful change through care and compassion.</p>
 <p>With its simple and organized layout, the portal offers quick access to PTS notes, Block 1–6 materials, revision papers, and co-curricular updates all in one convenient place. No more hassle searching for content; everything you need is just a tap away.</p>
@@ -828,24 +858,16 @@
       document.getElementById("abbrev-count").innerText = `Abbreviations`;
     });
 </script>
-      <!-- My Profile Button -->
-<button id="profileBtn" style="position: fixed; top: 1rem; right: 6rem; z-index: 1000;">My Profile</button>
-
-<!-- Profile Modal -->
-<div id="profileModal" style="display: none; position: fixed; top: 4rem; right: 1rem; background: white; border: 1px solid #ccc; padding: 1rem; border-radius: 8px; z-index: 1001;">
-  <p><strong>Full Name:</strong> <span id="modalName">...</span></p>
-  <p><strong>Email:</strong> <span id="modalEmail">...</span></p>
-  <button onclick="deleteAccount()" style="background: red; color: white; margin-top: 0.5rem;">Delete Account</button>
-  <button onclick="logout()" style="margin-top: 0.5rem;">Logout</button>
-</div>
-<!-- ✅ Scripts Section -->
+ <!-- ✅ Scripts Section -->
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
 <script>
+  // ✅ Initialize Supabase
   const supabase = window.supabase.createClient(
-    'https://fczslywprowqzgwcwhzu.supabase.co'
+    'https://fczslywprowqzgwcwhzu.supabase.co',
     'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZjenNseXdwcm93cXpnd2N3aHp1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTE4MzU1MDEsImV4cCI6MjA2NzQxMTUwMX0.IWQ1kwEPRrigvYurWRbuHQWRrHZU9K-3bbYgdH745zk'
+  );
 
-  // Store or clear session when auth state changes
+  // ✅ Handle session storage on auth changes
   supabase.auth.onAuthStateChange((event, session) => {
     if (session) {
       localStorage.setItem('supabaseSession', JSON.stringify(session));
@@ -854,11 +876,13 @@
     }
   });
 
+  // ✅ Check if session expired
   function isSessionExpired(session) {
     const now = Math.floor(Date.now() / 1000);
     return session.expires_at && session.expires_at < now;
   }
 
+  // ✅ Load user info
   async function loadUser() {
     const greetingEl = document.getElementById('greeting');
     const modalName = document.getElementById('modalName');
@@ -867,20 +891,19 @@
     let sessionData = localStorage.getItem('supabaseSession');
     let session = sessionData ? JSON.parse(sessionData) : null;
 
-    // Try to refresh session if missing or expired
+    // Refresh session if missing or expired
     if (!session || isSessionExpired(session)) {
       const { data } = await supabase.auth.getSession();
       session = data?.session;
       if (session) {
         localStorage.setItem('supabaseSession', JSON.stringify(session));
       } else {
-        return (window.location.href = 'login.html');
+        return window.location.href = 'login.html';
       }
     }
 
     const userId = session.user.id;
     const userEmail = session.user.email;
-
     let fullName = localStorage.getItem('full_name');
 
     if (!fullName) {
@@ -897,21 +920,22 @@
     }
 
     if (fullName) {
-      greetingEl.textContent = `Welcome, ${fullName}!`;
+     greetingEl.textContent = `Welcome, ${fullName}!`;
+     document.getElementById('welcomeUser').textContent = `Hello ${fullName}, we're glad to have you on the Nursing Nexus Portal 👋`;
       modalName.textContent = fullName;
     }
 
     modalEmail.textContent = userEmail;
 
-    // ✅ Reveal app content
+    // ✅ Show main content
     document.getElementById('loading').style.display = 'none';
     document.getElementById('app').style.display = 'block';
   }
 
-  // Load user shortly after page opens
+  // ✅ Run on load
   setTimeout(loadUser, 50);
 
-  // Logout
+  // ✅ Logout user
   async function logout() {
     await supabase.auth.signOut();
     localStorage.removeItem('full_name');
@@ -919,7 +943,7 @@
     window.location.href = 'login.html';
   }
 
-  // Delete account
+  // ✅ Delete account
   async function deleteAccount() {
     const confirmDelete = confirm("Are you sure you want to delete your account?");
     if (!confirmDelete) return;
@@ -933,12 +957,11 @@
     window.location.href = 'login.html';
   }
 
-  // Refresh full name from DB
+  // ✅ Refresh full name
   async function refreshName() {
     const sessionData = localStorage.getItem('supabaseSession');
     const session = sessionData ? JSON.parse(sessionData) : null;
     if (!session) return alert("You're not logged in.");
-
     const userId = session.user.id;
 
     const { data: userData, error } = await supabase
@@ -956,6 +979,23 @@
     document.getElementById('modalName').textContent = userData.full_name;
     alert("✅ Name refreshed!");
   }
+
+  // ✅ Toggle Profile Modal
+  document.getElementById('profileBtn').addEventListener('click', () => {
+    const modal = document.getElementById('profileModal');
+    modal.style.display = modal.style.display === 'block' ? 'none' : 'block';
+  });
+
+  // ✅ Add button animations
+  function animateButton(id) {
+    const btn = document.getElementById(id);
+    btn.addEventListener('mouseenter', () => btn.style.boxShadow = '0 0 15px #8000ff');
+    btn.addEventListener('mouseleave', () => btn.style.boxShadow = '0 0 10px rgba(0,0,0,0.3)');
+    btn.addEventListener('mousedown', () => btn.style.transform = 'scale(0.95)');
+    btn.addEventListener('mouseup', () => btn.style.transform = 'scale(1)');
+  }
+
+  animateButton('profileBtn');
 </script>
 
 
