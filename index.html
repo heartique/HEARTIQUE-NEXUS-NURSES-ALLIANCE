@@ -335,6 +335,32 @@
   }
 </script>
 <body>
+<!-- 👤 Top Bar with Profile -->
+<div id="topBar" style="display: flex; justify-content: space-between; padding: 1rem 2rem; background: #f9f9f9;">
+  <h1 style="color: #004a99;">Heartique Nexus Portal</h1>
+  <button id="profileBtn" style="border-radius: 50%; background: #004a99; color: white; font-size: 1.2rem; border: none; width: 45px; height: 45px;">
+    👤
+  </button>
+</div>
+
+<!-- 👤 Profile Dropdown Panel -->
+<div id="profileModal" style="display: none; position: absolute; top: 80px; right: 2rem; background: white; padding: 1rem; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.2); z-index: 1000; min-width: 220px;">
+  <p><strong>Name:</strong> <span id="modalName">Loading...</span></p>
+  <p><strong>Email:</strong> <span id="modalEmail">Loading...</span></p>
+  <hr>
+  <button onclick="deleteAccount()" style="background: red; color: white; border: none; padding: 0.5rem 1rem; margin-bottom: 0.5rem;">Delete Account</button>
+  <button onclick="logout()" style="border: none; padding: 0.5rem 1rem;">Logout</button>
+</div>
+
+<!-- ⚠️ Delete Confirm Modal -->
+<div id="confirmModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.6); justify-content:center; align-items:center; z-index:2000;">
+  <div style="background:white; padding:2rem; border-radius:10px; max-width:300px;">
+    <h3 style="color:red;">Confirm Delete</h3>
+    <p>Are you sure you want to delete this account?</p>
+    <button id="confirmYes" style="background:red; color:white; margin:1rem;">Yes</button>
+    <button id="confirmNo">Cancel</button>
+  </div>
+</div>
 
 
   <!-- 🔊 Notification Sound -->
@@ -1150,211 +1176,7 @@
   fetchNotices();
   setInterval(fetchNotices, 10000); // repeat every 10 sec
 </script>
-<!-- 🧠 Top Bar with Title & Buttons -->
-<div id="topBar" style="
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1rem 2rem;
-  background: #f9f9f9;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-  position: sticky;
-  top: 0;
-  z-index: 1002;
-">
-  <h1 style="margin: 0; font-size: 1.5rem; color: #004a99;">Heartique Nexus Portal</h1>
-
-  <div style="display: flex; gap: 1rem;">
-    <!-- 🔄 Refresh Button -->
-    <button id="refreshBtn" onclick="refreshName()" title="Refresh Name"
-      style="background: #00aaff; color: white; padding: 0.5rem 1rem;
-             border: none; border-radius: 8px; font-weight: bold; font-size: 0.95rem;
-             box-shadow: 0 0 10px rgba(0,0,0,0.3);
-             transition: transform 0.2s ease, background 0.3s ease;">
-      🔄 Refresh
-    </button>
-
-    <!-- 👤 Profile Button -->
-    <button id="profileBtn" title="My Profile"
-      style="width: 45px; height: 45px; border-radius: 50%; background: #004a99;
-             color: white; font-size: 1.2rem; font-weight: bold; border: none;
-             box-shadow: 0 0 10px rgba(0,0,0,0.3);
-             transition: transform 0.2s ease, box-shadow 0.3s ease;">
-      👤
-    </button>
-  </div>
-</div>
-<!-- 🌊 Ripple Overlay -->
-<div id="rippleEffect" style="
-  position: fixed;
-  top: 0; left: 0;
-  width: 100vw;
-  height: 100vh;
-  background: radial-gradient(circle at center, rgba(0,170,255,0.15) 0%, transparent 70%);
-  opacity: 0;
-  pointer-events: none;
-  z-index: 999;
-  transition: opacity 0.5s ease;
-"></div>
-
-<!-- 👤 Profile Modal -->
-<div id="profileModal"
-  style="display: none; position: fixed; top: 5.2rem; right: 2rem; background: white;
-         border: 1px solid #ccc; padding: 1rem; border-radius: 8px; z-index: 1001;
-         box-shadow: 0 4px 12px rgba(0,0,0,0.2); min-width: 220px;">
-  <p><strong>Full Name:</strong> <span id="modalName">...</span></p>
-  <p><strong>Email:</strong> <span id="modalEmail">...</span></p>
-  <button onclick="deleteAccount()" style="background: red; color: white; margin-top: 0.5rem;">Delete Account</button>
-  <button onclick="logout()" style="margin-top: 0.5rem;">Logout</button>
-</div>
-
-<!-- ✅ Ripple + Toggle Script -->
-<script>
-  const profileBtn = document.getElementById('profileBtn');
-  const refreshBtn = document.getElementById('refreshBtn');
-  const profileModal = document.getElementById('profileModal');
-  const rippleEffect = document.getElementById('rippleEffect');
-
-  function triggerRippleEffect() {
-    rippleEffect.style.opacity = '1';
-    setTimeout(() => {
-      rippleEffect.style.opacity = '0';
-    }, 400);
-  }
-
-  profileBtn.addEventListener('click', () => {
-    const isOpen = profileModal.style.display === 'block';
-    profileModal.style.display = isOpen ? 'none' : 'block';
-    triggerRippleEffect();
-  });
-
-  refreshBtn.addEventListener('click', triggerRippleEffect);
-
-  window.addEventListener('click', function (e) {
-    if (!profileModal.contains(e.target) && e.target !== profileBtn) {
-      profileModal.style.display = 'none';
-    }
-  });
-</script>
-
-  
-
-<!-- 🔊 Unlock sound on first user click -->
-<script>
-  window.addEventListener('click', () => {
-    const sound = new Audio("notify.mp3");
-    sound.play().catch(() => {});
-  }, { once: true });
-</script> 
-      <!-- 🔔 Toast Notification -->
-<div id="toast" style="
-  position: fixed;
-  bottom: 1.5rem;
-  right: 1.5rem;
-  background: #333;
-  color: white;
-  padding: 1rem 1.5rem;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-  display: none;
-  z-index: 2000;
-  font-weight: bold;
-  transition: opacity 0.3s ease;
-"></div>
-
-<!-- ⚠️ Delete Confirmation Modal -->
-<div id="confirmModal" style="
-  display: none;
-  position: fixed;
-  top: 0; left: 0;
-  width: 100vw; height: 100vh;
-  background: rgba(0,0,0,0.6);
-  z-index: 2001;
-  justify-content: center;
-  align-items: center;
-">
-  <div style="background: white; padding: 2rem; border-radius: 12px; max-width: 400px; width: 90%;
-              text-align: center; box-shadow: 0 6px 20px rgba(0,0,0,0.4);">
-    <h3 style="color: red;">⚠️ Confirm Account Deletion</h3>
-    <p>Are you sure you want to permanently delete your account?</p>
-    <div style="margin-top: 1.5rem;">
-      <button id="confirmYes" style="background: red; color: white; padding: 0.6rem 1.2rem; border: none;
-              border-radius: 6px; font-weight: bold; margin-right: 1rem;">Yes, Delete</button>
-      <button id="confirmNo" style="background: #ddd; padding: 0.6rem 1.2rem; border: none;
-              border-radius: 6px; font-weight: bold;">Cancel</button>
-    </div>
-  </div>
-</div>
-<script>
-  // ✅ Show Toast
-  function showToast(message, color = '#333') {
-    const toast = document.getElementById('toast');
-    toast.textContent = message;
-    toast.style.background = color;
-    toast.style.display = 'block';
-    setTimeout(() => {
-      toast.style.display = 'none';
-    }, 3000);
-  }
-
-  // ✅ Show Confirm Modal
-  function showConfirmModal(callback) {
-    const modal = document.getElementById('confirmModal');
-    modal.style.display = 'flex';
-
-    const yesBtn = document.getElementById('confirmYes');
-    const noBtn = document.getElementById('confirmNo');
-
-    const close = () => {
-      modal.style.display = 'none';
-      yesBtn.removeEventListener('click', onConfirm);
-      noBtn.removeEventListener('click', onCancel);
-    };
-
-    const onConfirm = () => {
-      close();
-      callback(true);
-    };
-
-    const onCancel = () => {
-      close();
-      callback(false);
-    };
-
-    yesBtn.addEventListener('click', onConfirm);
-    noBtn.addEventListener('click', onCancel);
-  }
-
-  // ✅ Overridden Delete Account function
-  async function deleteAccount() {
-    triggerRippleEffect?.(); // Trigger wave if defined
-    showConfirmModal(async (confirmed) => {
-      if (!confirmed) {
-        showToast("❌ Deletion cancelled", "#999");
-        return;
-      }
-
-      const { data: { user }, error: userErr } = await supabase.auth.getUser();
-      if (userErr || !user) {
-        return showToast("⚠️ You're not logged in", "crimson");
-      }
-
-      const { error: deleteErr } = await supabase.from('user').delete().eq('id', user.id);
-      if (deleteErr) {
-        return showToast("❌ Failed to delete account", "red");
-      }
-
-      showToast("✅ Account deleted. Logging out...", "#004a99");
-
-      await supabase.auth.signOut();
-      localStorage.clear();
-
-      setTimeout(() => {
-        window.location.href = 'login.html';
-      }, 2000);
-    });
-  }
-</script>
-
 </body>
 </html>
+
+
