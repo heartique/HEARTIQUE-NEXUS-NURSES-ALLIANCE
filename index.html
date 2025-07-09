@@ -7,8 +7,13 @@
     const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
     const theme = savedTheme || (prefersDark ? "dark" : "light");
     document.documentElement.setAttribute("data-theme", theme);
-  </script>
 
+    
+  <!-- 🔄 Refresh Button -->
+<button id="refreshBtn" title="Refresh">🔄</button>
+<div id="shockwave"></div>
+
+  </script>
   <!-- ⚙ Basic Meta -->
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -20,12 +25,6 @@
   <meta name="keywords" content="nursing, notes, dashboard, CHK, Heartique, study, PTS, Kenya">
   <meta name="author" content="Heartique Nursing Nexus Team">
   <meta name="robots" content="index, follow">
-
-  <!-- 🔄 Refresh Button -->
-<button id="refreshBtn" title="Refresh">🔄</button>
-<div id="shockwave"></div>
-
-
 
   <!-- 🌐 Open Graph (Facebook, WhatsApp, etc.) -->
 <meta property="og:title" content="Heartique Nursing Nexus Dashboard">
