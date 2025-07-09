@@ -8,11 +8,6 @@
     const theme = savedTheme || (prefersDark ? "dark" : "light");
     document.documentElement.setAttribute("data-theme", theme);
 
-    
-  <!-- 🔄 Refresh Button -->
-<button id="refreshBtn" title="Refresh">🔄</button>
-<div id="shockwave"></div>
-
   </script>
   <!-- ⚙ Basic Meta -->
   <meta charset="UTF-8" />
@@ -406,6 +401,11 @@
     });
   }
 </script>
+   
+  <!-- 🔄 Refresh Button -->
+<button id="refreshBtn" title="Refresh">🔄</button>
+<div id="shockwave"></div>
+
   <body>
   <!-- ✅ Ripple Effect Line -->
 <div id="rippleEffect" style="position: fixed; top: 0; left: 0; width: 100%; height: 4px; background: linear-gradient(to right, #004a99, #8000ff); opacity: 0; transition: opacity 0.4s; z-index: 999;"></div>
