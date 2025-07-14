@@ -896,8 +896,234 @@
     "answer": "B",
     "explanation": "Disease surveillance systems involve the ongoing collection, analysis, and interpretation of health data. Their main goal is to inform public health decisions and guide timely interventions to control disease.",
     "additional": "NCK Focus August 2025:\n\n1. Kenya’s Surveillance Systems include:\n- DHIS2 for national disease data reporting\n- Weekly IDSR (Integrated Disease Surveillance and Response)\n- Event-based surveillance for emergencies\n\n2. Surveillance is a pillar of epidemic preparedness — expect NCK to test it alongside outbreak control.\n\nFuture Question Idea: \"Why is disease surveillance critical for national health planning?\" (Answer: It provides real-time data to detect outbreaks and monitor public health trends for intervention)."
+  },
+  {
+    "question": "The motile zygote of plasmodium is found in;",
+    "options": {
+      "A": "Human liver.",
+      "B": "Human red blood cells.",
+      "C": "Salivary glands of female anopheles",
+      "D": "The gut of female anopheles"
+    },
+    "answer": "D",
+    "explanation": "The life cycle of Plasmodium, the parasite that causes malaria, involves two hosts: humans and the female Anopheles mosquito. When a female Anopheles mosquito bites an infected human, it ingests gametocytes (the sexual form of the parasite) along with the blood. Inside the mosquito's gut, these gametocytes mature into male and female gametes, which then fuse to form a zygote. This zygote is initially non-motile but soon develops into a motile form called an ookinete. This motile zygote, or ookinete, then penetrates the wall of the mosquito's gut.\n\nHere's a breakdown of the other options:\nHuman liver: This is where sporozoites, injected by a mosquito bite, mature into merozoites.\nHuman red blood cells: Merozoites from the liver infect red blood cells, multiply asexually, and eventually develop into gametocytes.\nSalivary glands of female anopheles: After maturing in the mosquito's gut wall, the parasite (now as sporozoites) migrates to the mosquito's salivary glands, ready to be injected into a new human host.",
+    "additional": "For the upcoming Nursing Council of Kenya (NCK) exams, it is crucial to have a comprehensive understanding of the Plasmodium life cycle:\nHuman Cycle (Asexual):\nInoculation: An infected female Anopheles mosquito injects sporozoites into the human bloodstream.\nHepatic (Liver) Stage: Sporozoites travel to the liver, invade liver cells, and multiply asexually to form thousands of merozoites. This is an asymptomatic phase. In some species (P. vivax and P. ovale), some parasites can remain dormant in the liver as hypnozoites, leading to relapses months or years later.\nErythrocytic (Blood) Stage: Merozoites are released from the liver, invade red blood cells, and multiply. This is the stage that causes the clinical symptoms of malaria. The parasites mature from a ring form to a trophozoite and then to a schizont, which ruptures to release more merozoites, leading to cyclical fevers.\nGametocytogenesis: Some merozoites differentiate into male and female gametocytes, which are the sexual stages of the parasite. These circulate in the blood, waiting to be ingested by a mosquito.\nMosquito Cycle (Sexual):\nIngestion: A mosquito ingests blood containing gametocytes.\nFertilization: In the mosquito's midgut, the gametocytes mature and fertilize to form a zygote.\nOokinete Formation: The zygote develops into a motile ookinete, which penetrates the midgut wall and forms an oocyst.\nSporogony: Inside the oocyst, thousands of sporozoites develop. The oocyst eventually ruptures, releasing the sporozoites into the mosquito's body cavity.\nMigration: The sporozoites migrate to the mosquito's salivary glands, completing the cycle.\nA possible NCK question could ask about the stage of the parasite responsible for clinical symptoms (merozoites rupturing red blood cells) or the stage responsible for relapse (P. vivax hypnozoites)."
+  },
+  {
+    "question": "Ascaris infection is transmitted by;",
+    "options": {
+      "A": "Mosquito bite.",
+      "B": "Tse-tse fly.",
+      "C": "Consuming uncooked pork.",
+      "D": "Drinking contaminated water with Ascaris' eggs."
+    },
+    "answer": "D",
+    "explanation": "Ascaris lumbricoides, the giant human roundworm, is transmitted through the fecal-oral route. An infected person passes Ascaris eggs in their feces. In areas with poor sanitation, these eggs can contaminate soil, water, or food. For transmission to occur, a person must ingest the embryonated (infective) eggs. This commonly happens by consuming contaminated water or food, such as raw vegetables grown in contaminated soil, or through hands contaminated with soil.\n\nHere's a breakdown of the other options:\nMosquito bite: Transmits diseases like malaria, dengue fever, and filariasis.\nTse-tse fly: Transmits African trypanosomiasis (sleeping sickness).\nConsuming uncooked pork: Can transmit trichinellosis (Trichinella spiralis) and taeniasis (Taenia solium or pork tapeworm).",
+    "additional": "For the NCK exam, it's important to understand the life cycle and public health implications of Ascaris lumbricoides:\nLife Cycle:\nIngestion: A person ingests infective eggs.\nHatching: The eggs hatch in the small intestine, releasing larvae.\nMigration: The larvae penetrate the intestinal wall and travel via the bloodstream to the liver and then to the lungs.\nMaturation in Lungs: In the lungs, the larvae mature over about 10-14 days, then ascend the bronchial tree to the throat and are swallowed.\nAdult Worms: Back in the small intestine, the larvae develop into adult male and female worms. The adult worms live in the small intestine and can grow up to 35 cm long. A female can produce approximately 200,000 eggs per day, which are passed in the feces.\nClinical Features:\nMost infections are asymptomatic.\nHeavy infections can cause abdominal pain, malnutrition, and even intestinal obstruction, especially in children.\nDuring the larval migration phase through the lungs, a patient might experience a cough, wheezing, or eosinophilic pneumonitis (Loeffler's syndrome).\nPrevention and Control: Key strategies include improving sanitation (proper disposal of feces), promoting handwashing, and washing raw fruits and vegetables thoroughly. Mass drug administration (MDA) with anthelmintic drugs like albendazole or mebendazole is a common public health intervention in endemic areas.\nA potential NCK question could focus on the public health measures to prevent ascariasis or the complications of heavy worm infestation."
+  },
+  {
+    "question": "Plague is caused by;",
+    "options": {
+      "A": "Leishmania donovani.",
+      "B": "Yersinia pestis.",
+      "C": "Salmonella typhimurium.",
+      "D": "Trichinella Spiralis."
+    },
+    "answer": "B",
+    "explanation": "Plague is an infectious disease caused by the bacterium Yersinia pestis. It is a zoonotic bacterium, usually found in small mammals and their fleas. Humans can be infected through the bite of an infected flea, direct contact with an infected animal, or by inhaling infectious droplets from a person with pneumonic plague.\n\nHere's a breakdown of the other options:\nLeishmania donovani: A protozoan parasite that causes visceral leishmaniasis (kala-azar).\nSalmonella typhimurium: A bacterium that causes salmonellosis, a common type of food poisoning.\nTrichinella spiralis: A nematode worm that causes trichinellosis, contracted by eating raw or undercooked meat containing the larvae.",
+    "additional": "For the NCK exam, be familiar with the different forms of plague and their transmission:\nForms of Plague:\nBubonic Plague: The most common form. It results from an infected flea bite. The bacteria travel to the nearest lymph node, causing it to become inflamed, tense, and painful. This is called a \"bubo.\" It is not typically transmitted from person to person.\nSepticemic Plague: Occurs when the infection spreads directly through the bloodstream without forming a bubo, or as a complication of untreated bubonic plague. It is characterized by fever, chills, extreme weakness, abdominal pain, shock, and possibly bleeding into the skin and other organs.\nPneumonic Plague: The most virulent and least common form. It can result from the inhalation of infectious droplets from another person with pneumonic plague or as a secondary spread from untreated bubonic or septicemic plague. It is the only form of plague that can be spread from person to person.\nPublic Health Importance: Plague is a serious public health concern due to its high mortality rate if left untreated. Control measures include rodent and flea control, surveillance of animal populations, and rapid diagnosis and treatment of human cases. Patients with pneumonic plague require strict respiratory isolation.\nA potential NCK question could ask about the different clinical presentations of plague or the specific infection control precautions required for a patient with pneumonic plague."
+  },
+  {
+    "question": "Which of the following is a correct matching pair of disease and pathogen?",
+    "options": {
+      "A": "Filariasis- Wuchereia.",
+      "B": "Kala-azar- Glossina.",
+      "C": "Sleeping sickness- Leishmania",
+      "D": "Malaria- Anopheles."
+    },
+    "answer": "A",
+    "explanation": "This question tests the knowledge of diseases and their causative agents (pathogens) or vectors.\n\na.) Filariasis - Wuchereria: This is a correct match. Lymphatic filariasis (Elephantiasis) is caused by nematode worms, primarily Wuchereria bancrofti.\n\nLet's analyze why the other options are incorrect:\nb.) Kala-azar - Glossina: This is incorrect. Kala-azar (visceral leishmaniasis) is caused by the protozoan parasite Leishmania donovani. Glossina (the tsetse fly) is the vector for sleeping sickness, not Kala-azar. The vector for Kala-azar is the sandfly.\nc.) Sleeping sickness - Leishmania: This is incorrect. Sleeping sickness (African trypanosomiasis) is caused by the protozoan parasite Trypanosoma brucei. Leishmania causes leishmaniasis.\nd.) Malaria - Anopheles: This is incorrect. Malaria is caused by the protozoan parasite Plasmodium. Anopheles is the mosquito vector that transmits the parasite; it is not the pathogen itself.",
+    "additional": "For the NCK exam, it is essential to clearly distinguish between a pathogen (the disease-causing organism) and a vector (the organism that transmits the pathogen). Here is a table for quick revision of common vector-borne diseases in Kenya and the region:\nDisease - Pathogen - Vector\nMalaria - Plasmodium species (e.g., P. falciparum) - Female Anopheles mosquito\nLymphatic Filariasis - Wuchereria bancrofti - Culex, Anopheles, Aedes mosquitoes\nDengue Fever - Dengue virus - Aedes aegypti mosquito\nYellow Fever - Yellow fever virus - Aedes aegypti mosquito\nChikungunya - Chikungunya virus - Aedes aegypti mosquito\nLeishmaniasis (Kala-azar) - Leishmania donovani - Phlebotomine sandfly\nSleeping Sickness - Trypanosoma brucei - Tsetse fly (Glossina species)\nPlague - Yersinia pestis (bacterium) - Fleas (often on rodents)\nRift Valley Fever - Rift Valley fever virus - Aedes, Culex mosquitoes\nA potential NCK question might present a list of diseases and ask you to identify the correct vector or pathogen for one of them, or to identify the mismatched pair, similar to this question."
+  },
+  {
+    "question": "Which of the following is not a vector-borne disease?",
+    "options": {
+      "A": "Yellow fever",
+      "B": "Dengue fever",
+      "C": "Viral fever",
+      "D": "Malaria"
+    },
+    "answer": "C",
+    "explanation": "A vector-borne disease is an illness transmitted by a vector, which is an organism (typically an arthropod like a mosquito or tick) that carries and transmits an infectious pathogen to another living organism.\n\nYellow fever: Transmitted by the Aedes aegypti mosquito.\nDengue fever: Transmitted by the Aedes aegypti mosquito.\nMalaria: Transmitted by the female Anopheles mosquito.\n\n\"Viral fever\" is a general, non-specific term referring to any fever caused by a viral infection. While many viral fevers are vector-borne (like dengue and yellow fever), many others are not. For example, influenza, the common cold, COVID-19, and measles are all viral illnesses that cause fever but are transmitted directly from person to person through respiratory droplets, not by a vector. Therefore, \"viral fever\" as a category is not exclusively vector-borne and is the correct answer.",
+    "additional": "For the NCK exam, it's important to be able to classify communicable diseases by their mode of transmission. This is fundamental to nursing practice for implementing appropriate infection prevention and control measures.\n\nModes of Transmission:\nVector-Borne: Transmitted by insects or other animals (e.g., malaria, dengue, plague).\nAirborne/Droplet: Transmitted through respiratory droplets from coughing, sneezing, or talking (e.g., tuberculosis, influenza, measles, COVID-19).\nFecal-Oral: Transmitted through ingestion of food or water contaminated with feces (e.g., cholera, typhoid fever, ascariasis, polio).\nDirect Contact:\nPerson-to-person: Transmission through skin-to-skin contact (e.g., scabies) or contact with infectious lesions (e.g., chickenpox).\nSexual Contact: Transmission through sexual intercourse (e.g., HIV, syphilis, gonorrhea).\nBlood-Borne: Transmitted through contact with infected blood or body fluids (e.g., HIV, Hepatitis B, Hepatitis C). This can occur through transfusions, needle-stick injuries, or sharing needles.\nVertical Transmission: Transmission from mother to child during pregnancy, birth, or breastfeeding (e.g., HIV, Hepatitis B).\nA possible NCK question could provide a scenario and ask for the mode of transmission of a specific disease, or ask which disease from a list has a different mode of transmission from the others."
+  },
+  {
+    "question": "Yellow fever is transmitted by;",
+    "options": {
+      "A": "Anopheles.",
+      "B": "Aedes.",
+      "C": "Housefly.",
+      "D": "Tse-tse fly."
+    },
+    "answer": "B",
+    "explanation": "Yellow fever is a viral hemorrhagic fever transmitted by the bite of infected mosquitoes, primarily the Aedes aegypti mosquito. This species of mosquito is also responsible for transmitting other significant viruses, including dengue, chikungunya, and Zika.\n\nHere's a breakdown of the other options:\nAnopheles: The primary vector for malaria.\nHousefly: A mechanical vector that can carry pathogens on its body and legs, potentially contaminating food and surfaces, leading to diseases like typhoid and cholera, but it is not the biological vector for yellow fever.\nTse-tse fly: The vector for African trypanosomiasis (sleeping sickness).",
+    "additional": "For the NCK exam, understanding the specifics of yellow fever is important, especially given its presence in Kenya and the requirement for vaccination for international travel to certain regions.\n\nClinical Presentation:\nMost infections are asymptomatic or mild.\nAcute Phase: Initial symptoms include fever, muscle pain (especially backache), headache, chills, loss of appetite, nausea, and vomiting. Most patients improve and their symptoms disappear after 3 to 4 days.\nToxic Phase: A small percentage of patients enter a second, more toxic phase within 24 hours of recovering from initial symptoms. This phase is characterized by high fever, and the patient's systems are affected. Jaundice (yellowing of the skin and eyes, hence the name \"yellow fever\"), dark urine, and abdominal pain with vomiting occur. Bleeding can occur from the mouth, nose, eyes, or stomach. Half of the patients who enter the toxic phase die within 7 to 10 days.\nPrevention:\nVaccination: The most important preventive measure is vaccination. The yellow fever vaccine is safe, affordable, and a single dose provides lifelong protection against the disease.\nVector Control: Controlling the Aedes aegypti mosquito population is also crucial. This includes eliminating breeding sites (stagnant water in containers around homes), using larvicides, and personal protection measures like using insect repellent and wearing long-sleeved clothing.\nA potential NCK question could be about the clinical signs of the toxic phase of yellow fever, the priority nursing intervention for a suspected case, or the primary method of prevention."
+  },
+  {
+    "question": "Kala-azar is transmitted by;",
+    "options": {
+      "A": "Dragon fly.",
+      "B": "House fly.",
+      "C": "Tse-tse fly.",
+      "D": "Sand fly."
+    },
+    "answer": "D",
+    "explanation": "Kala-azar, also known as visceral leishmaniasis, is a severe parasitic disease caused by protozoa of the Leishmania species, most commonly Leishmania donovani. The disease is transmitted through the bite of an infected female phlebotomine sandfly. These tiny flies are typically active during the evening and night.\n\nHere's a breakdown of the other options:\nDragon fly: Not a known vector for human diseases.\nHouse fly: A mechanical vector for diseases like typhoid, but not the biological vector for kala-azar.\nTse-tse fly: The vector for sleeping sickness.",
+    "additional": "For the NCK exam, it's beneficial to know more about Leishmaniasis, as it is endemic in parts of Kenya, particularly in arid and semi-arid regions.\n\nForms of Leishmaniasis:\nVisceral Leishmaniasis (Kala-azar): The most severe form. If left untreated, it is almost always fatal. It affects internal organs like the spleen, liver, and bone marrow. Symptoms include prolonged fever, significant weight loss, enlargement of the spleen and liver (hepatosplenomegaly), and anemia.\nCutaneous Leishmaniasis: The most common form, causing skin lesions, mainly ulcers, on exposed parts of the body. It can lead to lifelong scars and disability.\nMucocutaneous Leishmaniasis: Leads to partial or total destruction of the mucous membranes of the nose, mouth, and throat.\nDiagnosis and Treatment: Diagnosis is made by identifying the parasite in tissue samples (from the spleen, bone marrow, or lymph nodes) or through serological tests. Treatment requires a long course of specific anti-parasitic drugs (e.g., pentavalent antimonials, amphotericin B).\nPrevention and Control: Focuses on vector control (e.g., insecticide-treated nets, indoor residual spraying), early diagnosis and treatment, and health education. There is no vaccine for humans yet.\nA possible NCK question could focus on the cardinal signs of kala-azar (fever, weight loss, hepatosplenomegaly) or the nursing care for a patient undergoing treatment for this debilitating disease."
+  },
+  {
+    "question": "Sporozoites of malarial parasites are found in;",
+    "options": {
+      "A": "The saliva of female anopheles mosquito which is freshly molted.",
+      "B": "The saliva of infected female anopheles mosquito.",
+      "C": "Red blood cells of an infected human.",
+      "D": "The spleen of an infected human."
+    },
+    "answer": "B",
+    "explanation": "Sporozoites represent the infective stage of the Plasmodium parasite for humans. After the parasite completes its sexual reproduction and development cycle (sporogony) within the mosquito, the resulting sporozoites migrate from the ruptured oocyst on the gut wall to the mosquito's salivary glands. From there, they are injected into a human's bloodstream when the infected mosquito takes a blood meal.\n\nHere's a breakdown of the other options:\na.) The saliva of female anopheles mosquito which is freshly molted: A freshly molted mosquito is not yet infected. It must first bite an infected human to acquire the gametocytes and then allow time for the parasite to develop into sporozoites.\nc.) Red blood cells of an infected human: The stages found in human red blood cells are the ring stage, trophozoites, schizonts, and gametocytes. Merozoites are the form that invades the red blood cells.\nd.) The spleen of an infected human: The spleen is involved in clearing infected red blood cells and parasites from the circulation, but it is not where sporozoites are typically found.",
+    "additional": "For your NCK revision, reinforcing the specific stages and locations of the malaria parasite is key to answering a variety of potential questions.\n\nKey Plasmodium Stages and Their Locations:\nSporozoite: Location: Salivary glands of infected Anopheles mosquito. Function: Infects human liver cells.\nHypnozoite: (in P. vivax/ovale) Location: Human liver cells. Function: Dormant stage, can cause relapse.\nMerozoite: Location: Released from liver cells and later from infected red blood cells. Function: Infects red blood cells.\nTrophozoite (Ring Stage): Location: Inside human red blood cells. Function: Asexual reproduction and growth.\nSchizont: Location: Mature stage inside human red blood cells (and liver cells). Function: Contains multiple merozoites, which are released upon rupture.\nGametocyte (Male & Female): Location: Inside human red blood cells, circulates in the blood. Function: Sexual stage, infects mosquitoes.\nOokinete: Location: Mosquito midgut. Function: Motile form that penetrates the gut wall.\nOocyst: Location: On the exterior wall of the mosquito midgut. Function: Matures and produces thousands of sporozoites.\nA potential NCK question could ask you to sequence the stages of the life cycle or to identify the function of a specific stage, such as the merozoite's role in invading red blood cells, which directly leads to the clinical manifestations of the disease."
+  },
+  {
+    "question": "Recurring chills and fever in malaria is due to;",
+    "options": {
+      "A": "Destruction of micro and macrogametocytes by the White Blood Cells.",
+      "B": "Rupturing of Red blood cells by rapid multiplication and release of hemozoin.",
+      "C": "Toxins released from trophozoites.",
+      "D": "Sporozoites released from red blood cells and are rapidly being killed in the spleen."
+    },
+    "answer": "B",
+    "explanation": "The classic clinical feature of malaria is a cyclical pattern of fever, chills, and sweating. This paroxysm is directly caused by events in the erythrocytic (red blood cell) stage of the parasite's life cycle. Inside the red blood cells, the parasites (merozoites) multiply asexually, developing into schizonts. When these schizonts mature, they rupture the red blood cell to release a new generation of merozoites that can infect other red blood cells. This rupture occurs synchronously (at the same time) for large numbers of infected cells. The simultaneous release of merozoites, parasitic toxins, and waste products, particularly a substance called hemozoin, triggers a massive inflammatory response from the host's immune system, resulting in the characteristic fever and chills.\n\nHere's a breakdown of the other options:\na.) Destruction of...gametocytes by...White Blood Cells: Gametocytes do not cause the acute febrile episodes. Their destruction would not lead to the classic malarial paroxysm.\nc.) Toxins released from trophozoites: While the parasite produces toxins, the key trigger for the fever spike is the synchronous rupture of the schizonts, not a continuous release from the trophozoite stage.\nd.) Sporozoites released from red blood cells...: Sporozoites are found in the liver stage, not the red blood cell stage. Merozoites are the form released from red blood cells.",
+    "additional": "For the NCK exam, understanding the pathophysiology of malaria symptoms is vital for patient assessment and management.\n\nThe Malarial Paroxysm: The cycle of symptoms typically includes:\nCold Stage (15-60 minutes): The patient feels intensely cold and experiences shivering and rigors (chills).\nHot Stage (2-6 hours): The chills stop, and the patient's temperature rises sharply, often to 40°C (104°F) or higher. The patient feels hot, with flushed skin, headache, and often nausea and vomiting.\nSweating Stage (2-4 hours): The patient's temperature begins to fall, and they experience profuse sweating. Afterward, the patient feels exhausted and weak but is otherwise well until the next cycle.\nFever Patterns: The interval between fever paroxysms depends on the species of Plasmodium:\nP. falciparum: Malignant tertian malaria. Fever cycle is often irregular or continuous, but can be every 36-48 hours.\nP. vivax & P. ovale: Benign tertian malaria. Fever cycle is every 48 hours (e.g., fever on day 1, no fever day 2, fever again on day 3).\nP. malariae: Quartan malaria. Fever cycle is every 72 hours (fever on day 1, no fever days 2 & 3, fever again on day 4).\nA potential NCK question could involve identifying the malaria species based on a described fever pattern or explaining the physiological reason for the cyclical fever to a patient's family."
+  },
+  {
+    "question": "One of the following is an incorrectly matched pair of a disease and its associated vector;",
+    "options": {
+      "A": "Leishmaniasis- anopheles culifacies.",
+      "B": "Dengue fever- aedes.",
+      "C": "Filariasis- culex pipens",
+      "D": "Sleeping sickness- glossina palpalis."
+    },
+    "answer": "A",
+    "explanation": "This question requires identifying the incorrect pairing of a disease and its transmitting vector.\n\na.) Leishmaniasis - Anopheles culifacies: This is the incorrect match. Leishmaniasis is transmitted by the sandfly (of the genus Phlebotomus or Lutzomyia). Anopheles culifacies is a species of mosquito known to be a major vector for malaria in parts of Asia.\n\nLet's verify the other options are correct:\nb.) Dengue fever - Aedes: This is correct. Dengue fever is primarily transmitted by the Aedes aegypti mosquito.\nc.) Filariasis - Culex pipiens: This is correct. Lymphatic filariasis can be transmitted by several types of mosquitoes, including those of the genus Culex (like Culex pipiens), as well as Anopheles and Aedes.\nd.) Sleeping sickness - Glossina palpalis: This is correct. Sleeping sickness (African trypanosomiasis) is transmitted by the tsetse fly (genus Glossina). Glossina palpalis is a key vector species.",
+    "additional": "For the NCK exam, precision in naming vectors is important. While knowing the general group (e.g., mosquito, tsetse fly) is good, knowing the specific genus associated with a disease demonstrates a deeper level of knowledge that may be required for higher-level questions.\n\nKey Vector-Genus-Disease Relationships:\nGenus Anopheles (Mosquito) -> Disease: Malaria\nGenus Aedes (Mosquito) -> Diseases: Dengue, Yellow Fever, Chikungunya, Zika\nGenus Culex (Mosquito) -> Diseases: Lymphatic Filariasis, West Nile Fever, Japanese Encephalitis\nGenus Glossina (Tsetse Fly) -> Disease: African Trypanosomiasis (Sleeping Sickness)\nGenus Phlebotomus / Lutzomyia (Sandfly) -> Disease: Leishmaniasis\nGenus Xenopsylla (Flea, e.g., Xenopsylla cheopis) -> Disease: Plague (from rodents)\nGenus Ixodes (Tick) -> Disease: Lyme Disease (not as common in Kenya, but an example of a tick-borne illness)\nA potential NCK question could provide a list of vectors (with specific genus names) and ask you to match them to the correct diseases, or it could describe a public health campaign aimed at controlling a specific vector (e.g., eliminating stagnant water in pots) and ask which diseases it would help prevent (Dengue, Chikungunya, etc.)."
+  },
+  {
+    "question": "The nurse places a hospitalized client with active tuberculosis in a private well-ventilated isolation room, in addition, which action should the nurse take before entering the client's room.",
+    "options": {
+      "A": "Wash the hands.",
+      "B": "Wash the hands, wear a gown and gloves.",
+      "C": "Wash the hands and place a high-efficiency particulate air (HEPA) respirator over the nose and mouth.",
+      "D": "The nurse needs no special precautions, but the client is instructed to cover his/her mouth and nose when coughing or sneezing."
+    },
+    "answer": "C",
+    "explanation": "Active pulmonary tuberculosis (TB) is transmitted through the airborne route. When a person with active TB coughs, sneezes, speaks, or sings, they expel tiny infectious particles called droplet nuclei into the air. These particles can remain suspended in the air for several hours. Standard surgical masks do not protect against inhaling these tiny particles. Therefore, healthcare workers must use airborne precautions.\n\nThe core components of airborne precautions for TB include:\nPlacing the patient in an airborne infection isolation room (AIIR), which is a private room with negative pressure ventilation.\nHealthcare personnel must wear a fit-tested N95 or higher-level respirator (often called a HEPA respirator) before entering the patient's room.\nHand hygiene (washing hands) is a standard precaution required for all patient interactions.\n\nCombining these, the most complete and critical action is to wash hands and wear a respirator.\n\nHere's why other options are insufficient or incorrect:\n(A) Wash the hands: Essential, but not sufficient to protect against airborne transmission.\n(B) Wash the hands, wear a gown and gloves: Gowns and gloves are part of contact precautions and are not routinely required for TB unless there is a risk of contact with bodily fluids or contaminated surfaces. They do not protect against inhalation of droplet nuclei.\n(D) The nurse needs no special precautions...: This is incorrect and dangerous. Special airborne precautions are mandatory. While instructing the client on respiratory hygiene is important, it does not replace the need for the nurse's personal protective equipment (PPE).",
+    "additional": "For the NCK exam, a deep understanding of different types of transmission-based precautions is essential for safe nursing practice.\n\nStandard Precautions: The minimum infection prevention practices that apply to all patient care. Assumes all patients are potentially infectious. Includes hand hygiene, use of gloves, gown, mask, and eye protection depending on the anticipated exposure.\n\nTransmission-Based Precautions: Used in addition to Standard Precautions for patients with known or suspected infections that are spread in one of three ways:\n\nContact Precautions:\nUsed for: Infections spread by direct or indirect contact (e.g., C. difficile, MRSA, scabies).\nPPE: Gown and gloves for all interactions.\nRoom: Private room preferred.\n\nDroplet Precautions:\nUsed for: Infections spread by large respiratory droplets (e.g., influenza, meningitis, mumps, rubella). Droplets travel short distances (about 3-6 feet).\nPPE: Surgical mask when within 3-6 feet of the patient.\nRoom: Private room preferred.\n\nAirborne Precautions:\nUsed for: Infections spread by very small droplet nuclei that remain in the air (e.g., Tuberculosis, measles, varicella/chickenpox).\nPPE: Fit-tested N95 respirator.\nRoom: Mandatory private, negative-pressure room (AIIR).\n\nA potential NCK question could present a clinical scenario with a specific diagnosis (e.g., measles, influenza, C. diff) and ask the nurse to select the appropriate type of isolation and PPE."
+  },
+  {
+    "question": "A hospitalized child develops exanthema (rash) that covers the trunk and extremities. The nurse reviews the child's health history and notes that the child was exposed to varicella 2 weeks ago which nursing intervention is most appropriate to implement?",
+    "options": {
+      "A": "Immediately admit the client to any available bed.",
+      "B": "Place the child in a private room on strict isolation.",
+      "C": "Assess the progression of the escanthoma and report it to the health care provider.",
+      "D": "Allow the child to play in the playroom until the health care provider can be contacted."
+    },
+    "answer": "B",
+    "explanation": "The key information here is the development of a rash (exanthema) after a known exposure to varicella (chickenpox) two weeks prior. The incubation period for varicella is typically 10 to 21 days. The presentation of a rash after this incubation period is highly suggestive of active chickenpox.\n\nVaricella is highly contagious and spreads through two routes:\nDirect contact with the fluid from the blisters.\nAirborne route via respiratory droplets.\n\nGiven the highly contagious and airborne nature of the virus, the immediate nursing priority is to prevent its spread to other, potentially susceptible, patients (especially those who are immunocompromised). This requires implementing both airborne and contact precautions. The first and most critical step is to isolate the child.\n\nHere's why other options are inappropriate:\n(A) Immediately admit the client to any available bed: This would expose other patients in a shared room to varicella.\n(C) Assess the progression of the...rash and report it...: While assessment and reporting are essential nursing actions, they are not the first priority. The immediate priority is infection control. Isolation should be initiated simultaneously with or even before a detailed assessment to prevent transmission.\n(D) Allow the child to play in the playroom...: This is extremely dangerous as it would expose numerous other children to the virus in a common area.\n\nTherefore, placing the child in a private room and initiating strict isolation (which includes airborne and contact precautions) is the most appropriate and immediate intervention.",
+    "additional": "For the NCK exam, questions often test the nurse's ability to prioritize actions, particularly in infection control scenarios.\n\nKey Features of Varicella (Chickenpox):\nCausative Agent: Varicella-zoster virus (VZV).\nIncubation Period: 10-21 days.\nProdrome: May have mild fever and malaise 1-2 days before the rash.\nRash: The characteristic rash is pruritic (itchy) and progresses through distinct stages: macules -> papules -> vesicles (\"dewdrop on a rose petal\") -> pustules -> crusted-over scabs. A key feature is that lesions in all stages are present simultaneously. The rash typically starts on the trunk and face and spreads to the extremities.\nPeriod of Communicability: A person is contagious from 1-2 days before the rash appears until all lesions have crusted over.\n\nNursing Priorities for Varicella:\nInfection Control: Immediate implementation of airborne and contact precautions. Place patient in a negative-pressure room if available. Staff entering should wear an N95 respirator, gown, and gloves. Only staff with evidence of immunity to varicella should care for the patient.\n\nSymptom Management:\nItching (Pruritus): Keep fingernails short, provide cool baths (e.g., oatmeal bath), apply calamine lotion. Administer antihistamines as prescribed.\nFever: Administer non-aspirin antipyretics (e.g., paracetamol). Aspirin should never be given to children with viral illnesses due to the risk of Reye's syndrome.\n\nMonitoring for Complications: Secondary bacterial skin infections, pneumonia, and encephalitis are potential complications.\n\nA potential NCK question could ask about the characteristic appearance of the varicella rash, key patient education points (like avoiding aspirin), or identifying which staff member is appropriate to assign to a child with chickenpox (one who is vaccinated or has had the disease)."
+  },
+  {
+    "question": "A nursing asks a nursing student to describe live or attenuated vaccines. What should the student tell the instructor about the types of vaccines.",
+    "options": {
+      "A": "Live attenuated vaccines contain bacterial toxins that have been made inactive by either chemicals or heat.",
+      "B": "Live attenuated vaccines contain pathogens made inactive by either chemicals or heat.",
+      "C": "Live attenuated vaccines have their virulence (potency) diminished so as not to produce a full-blown clinical illness.",
+      "D": "Live attenuated vaccines have been obtained from the pooled blood of many people and provide antibodies to a variety."
+    },
+    "answer": "C",
+    "explanation": "This question assesses the fundamental understanding of how different types of vaccines work.\n\nLive attenuated vaccines use a version of the living virus or bacterium that has been weakened (attenuated) in a laboratory. Because it is still alive, the pathogen replicates in the body, but it is too weak to cause serious disease in people with healthy immune systems. This limited replication mimics a natural infection and induces a strong, often lifelong, immune response involving both antibodies and T-cells. Option (C) accurately describes this process.\n\nLet's break down why the other options are incorrect descriptions of live attenuated vaccines:\n(A) ...contain bacterial toxins that have been made inactive...: This describes a toxoid vaccine (e.g., tetanus, diphtheria).\n(B) ...contain pathogens made inactive...: This describes an inactivated (or killed) vaccine (e.g., inactivated polio vaccine, whole-cell pertussis). The pathogen is killed and cannot replicate.\n(D) ...obtained from the pooled blood of many people and provide antibodies...: This describes the administration of immunoglobulin or passive immunity, not a vaccine. It provides immediate but temporary protection by giving someone else's pre-made antibodies.",
+    "additional": "For the NCK exam, you should be able to classify common vaccines and understand their mechanisms, advantages, and disadvantages.\n\nLive Attenuated Vaccines: Weakened (attenuated) living pathogen that replicates in the body. Examples: MMR (Measles, Mumps, Rubella), Varicella (Chickenpox), Rotavirus, BCG (Tuberculosis), Oral Polio Vaccine (OPV), Yellow Fever. Pros: Strong, long-lasting (often lifelong) immunity. Cons: Cannot be given to immunocompromised individuals or pregnant women. Rare risk of reverting to virulent form.\n\nInactivated (Killed) Vaccines: Pathogen is killed and cannot replicate. Examples: Inactivated Polio Vaccine (IPV), Hepatitis A, Rabies. Pros: Safe even in immunocompromised. Cons: Weaker response; requires boosters.\n\nToxoid Vaccines: Contain inactivated bacterial toxin. Examples: Tetanus, Diphtheria. Pros: Protects against toxins. Cons: Needs boosters.\n\nSubunit / Recombinant / Conjugate Vaccines: Contain only specific parts of the pathogen. Examples: Hepatitis B, HPV, Hib, Pneumococcal (PCV), Pertussis (in DTaP). Pros: Very safe. Can be used in immunocompromised. Cons: May need boosters.\n\nmRNA Vaccines: Contain messenger RNA that instructs cells to produce antigen. Examples: Pfizer-BioNTech and Moderna COVID-19 vaccines. Pros: Strong immune response. Cons: Newer tech; long-term data developing.\n\nA potential NCK question could ask you to identify which vaccine is contraindicated for a pregnant or immunocompromised patient (Answer: any live attenuated vaccine like MMR or Varicella) or to classify a specific vaccine like BCG or Hepatitis B."
+  },
+  {
+    "question_number": 14,
+    "question": "The nurse is planning care for a child with an infectious and communicable disease. The nurse should identify which as the primary goal.",
+    "options": {
+      "a": "The child will experience mild discomfort.",
+      "b": "The public health department will be notified.",
+      "c": "The child will not spread the infection to others.",
+      "d": "The child will experience only minor complications."
+    },
+    "correct_answer": "c",
+    "correct_answer_text": "The child will not spread the infection to others.",
+    "explanation": "The most important goal in caring for a child with a communicable disease is to prevent the spread of infection to others. While symptom relief and notifying public health authorities are important, the immediate priority is to break the chain of transmission through isolation, proper hand hygiene, use of personal protective equipment, and education. This approach protects others in the healthcare environment and the broader community. Discomfort and complications are clinical concerns but secondary to containment. Similarly, notifying the public health department is a legal and procedural step, not a direct preventive action."
+  },
+  {
+    "question_number": 15,
+    "question": "A newborn infant receives the first dose of hepatitis B vaccine (Recombivax, HB, Engerix-B) within 12 hours of birth. The nurse instructs the mother regarding the immunization schedule for this vaccine and should tell the mother that the second vaccine is administered at which time period?",
+    "options": {
+      "a": "3 years of age and then during adolescent years.",
+      "b": "8 months of age and then 1 year after the initial dose.",
+      "c": "6 months of age and then 8 months after the initial dose.",
+      "d": "1 to 2 months of age and then 6 months after the initial dose."
+    },
+    "correct_answer": "d",
+    "correct_answer_text": "1 to 2 months of age and then 6 months after the initial dose.",
+    "explanation": "The recommended hepatitis B immunization schedule involves three doses: a birth dose (within 12 hours of birth), a second dose at 1 to 2 months of age, and a third dose at 6 months. This schedule ensures effective development of immunity. In Kenya’s KEPI program, the birth dose is followed by doses at 6, 10, and 14 weeks, often combined in the pentavalent vaccine. The second and third doses in this format still align with the general timeline and immune system development milestones for infants."
+  },
+  {
+    "question_number": 16,
+    "question": "During the care of a client with salmonella infection, the primary limit transmission in these approaches?",
+    "options": {
+      "a": "Wash hands thoroughly before and after client contact.",
+      "b": "Wear gloves when in contact with body secretions.",
+      "c": "Double glove when in contact with feces or vomit.",
+      "d": "Wear gloves when disposing of contaminated linens."
+    },
+    "correct_answer": "a",
+    "correct_answer_text": "Wash hands thoroughly before and after client contact.",
+    "explanation": "Salmonella is transmitted via the fecal-oral route, making hand hygiene the most important prevention measure. Although gloves provide a protective barrier, they do not eliminate the need for handwashing, which is essential before and after glove use. Hands can become contaminated during glove removal or from touching contaminated surfaces. Handwashing directly interrupts the route of transmission by removing pathogens. Double gloving is not routinely required for salmonella, and gloves alone do not prevent all forms of contamination."
+  },
+  {
+    "question_number": 17,
+    "question": "The nurse is teaching a class on HIV prevention. Which of the following should be emphasized as increasing risk?",
+    "options": {
+      "a": "Donating blood.",
+      "b": "Using public bathrooms.",
+      "c": "Unprotected sex.",
+      "d": "Touching a person with AIDS."
+    },
+    "correct_answer": "c",
+    "correct_answer_text": "Unprotected sex.",
+    "explanation": "Unprotected sexual activity is the primary mode of HIV transmission. HIV is spread through direct contact with infected body fluids such as semen, vaginal fluids, and blood during vaginal, anal, or oral sex. Donating blood does not pose a risk as sterile, single-use equipment is used. Using public bathrooms or casual physical contact like touching or hugging does not spread HIV. Clarifying this helps reduce stigma and corrects common misconceptions while emphasizing behaviors that carry real risk."
+  },
+  {
+    "question_number": 18,
+    "question": "Which contraindication should the nurse assess for prior to giving a child immunization?",
+    "options": {
+      "a": "Mild cold symptoms.",
+      "b": "Chronic asthma.",
+      "c": "Depressed immune system.",
+      "d": "Allergy to eggs."
+    },
+    "correct_answer": "c",
+    "correct_answer_text": "Depressed immune system.",
+    "explanation": "A severely depressed immune system is a major contraindication for administering live vaccines, such as MMR, Varicella, or BCG. Live vaccines contain weakened pathogens that could cause illness in immunocompromised individuals. Conditions like cancer, HIV/AIDS, or treatment with immunosuppressive medications increase this risk. Mild illnesses like a cold or chronic conditions such as asthma are not contraindications. Egg allergy is now rarely considered a contraindication due to advances in vaccine formulations, especially with MMR and influenza vaccines."
   }
 ]
+
+
+
+
+
 
 
 
