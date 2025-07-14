@@ -1053,8 +1053,1189 @@
   "answer": "D",
   "explanation": "This question is a classic example of therapeutic drug monitoring, a critical nursing responsibility. It requires you to know the normal therapeutic ranges for several high-risk medications.\n\nWhy D is the Correct Answer: The therapeutic range for phenytoin (Dilantin) is 10-20 mcg/mL. A level of 24 mcg/mL is toxic. Administering another dose would worsen the toxicity and place the client at high risk for severe adverse effects, such as nystagmus, ataxia (staggering gait), confusion, and slurred speech. The nurse has a duty to recognize this toxic level, withhold the medication, and notify the healthcare provider immediately.\n\nWhy A is Incorrect: The normal serum potassium level is 3.5-5.0 mEq/L. A level of 3.7 mEq/L is within the normal range. Loop diuretics like furosemide are potassium-wasting, so a key concern is hypokalemia (low potassium). Since the client's potassium is normal, it is safe to administer the furosemide.\n\nWhy B is Incorrect: The therapeutic INR for a client on warfarin for conditions like atrial fibrillation or DVT is typically 2.0-3.0. An INR of 2.8 falls squarely within this therapeutic window, indicating the medication is working as intended. It is safe to administer the warfarin.\n\nWhy C is Incorrect: The therapeutic range for digoxin (Lanoxin) is 0.8-2.0 ng/mL. The question states the level is 1.8 mg/dL, which appears to be a typo in the question itself; it should almost certainly be 1.8 ng/mL. Assuming it's 1.8 ng/mL, this level is within the high-end of the therapeutic range. While the nurse should monitor for signs of toxicity, the level itself does not automatically warrant withholding the dose. The phenytoin level of 24 mcg/mL is definitively toxic, making it the clear answer. Note: In an exam, always choose the most definitively incorrect or unsafe option.",
   "additional": "1. MUST-KNOW Therapeutic Drug Levels: The NCK exam loves to test these. Create a flashcard for these common drugs:\n* Phenytoin (Dilantin): 10-20 mcg/mL\n* Digoxin (Lanoxin): 0.8-2.0 ng/mL\n* Lithium (Eskalith): 0.6-1.2 mEq/L (for maintenance)\n* Theophylline: 10-20 mcg/mL\n* Valproic Acid (Depakote): 50-100 mcg/mL\n\n2. Phenytoin Toxicity:\n* Signs to watch for (NCK might ask for these):\n* Early/Mild: Nystagmus (involuntary eye movements), ataxia (unsteady gait), slurred speech.\n* Severe: Lethargy, confusion, coma, cardiovascular collapse.\n* Nursing Action for Toxicity:\n1. Hold the next dose.\n2. Assess the client for signs of toxicity.\n3. Notify the healthcare provider immediately.\n4. Prepare for potential orders, which may include supportive care or measures to decrease absorption if it was an acute overdose."
-}
-]  
+},
+{
+    "question": "The male client newly diagnosed with epilepsy is prescribed the anticonvulsant medication phenytoin (Dilantin). Which information should the nurse discuss with the client?",
+    "options": {
+      "A": "Explain the importance of regular dental hygiene.",
+      "B": "Tell the client it is normal for his urine to turn orange.",
+      "C": "Instruct the client to monitor the Dilantin level weekly.",
+      "D": "Inform the client he can drive as long as he takes the medication."
+    },
+    "answer": "A",
+    "explanation": "This question focuses on essential patient education related to the common side effects of phenytoin.\n\nWhy A is the Correct Answer: One of the most common and well-known side effects of long-term phenytoin therapy is gingival hyperplasia, an overgrowth of the gum tissue. This condition can be minimized with meticulous oral care, including regular brushing, flossing, and dental check-ups. This is a critical teaching point to prevent complications and promote adherence.\n\nWhy B is Incorrect: Harmless discoloration of urine (orange, red-brown) is a known side effect of other medications, such as Rifampin (an anti-TB drug), but not phenytoin. Providing incorrect information is unsafe.\n\nWhy C is Incorrect: Phenytoin levels are monitored periodically by the healthcare provider through blood tests, but not typically on a weekly basis by the client at home. The frequency is determined by the provider based on seizure control and risk of toxicity.\n\nWhy D is Incorrect: This is dangerous and incorrect advice. Phenytoin is a central nervous system (CNS) depressant and can cause drowsiness and dizziness. Clients should be advised to avoid driving or operating heavy machinery until they know how the medication affects them. Furthermore, many jurisdictions have laws restricting driving for individuals with seizure disorders, regardless of medication.",
+    "additional": "1. Phenytoin Patient Teaching (High-Yield Points):\n* Do not stop abruptly: Abruptly stopping phenytoin can trigger status epilepticus, a medical emergency.\n* Take with food: Taking it with or shortly after a meal can help reduce gastric irritation.\n* Alternative contraception: Phenytoin can decrease the effectiveness of oral contraceptives. Advise female clients of childbearing age to discuss alternative birth control methods with their provider.\n* Avoid alcohol and other CNS depressants: These can increase the sedative effects of phenytoin.\n* Wear a medical alert bracelet: This is important for any client with a seizure disorder."
+  },
+  {
+    "question": "The nurse in the intensive care unit (ICU) is caring for a client diagnosed with a left cerebral arterial thrombotic stroke who received thrombolytic medication. Which intervention should the nurse implement?",
+    "options": {
+      "A": "Administer 81-mg aspirin, an antiplatelet.",
+      "B": "Check the client's hemoglobin/hematocrit (H&H).",
+      "C": "Monitor the client's partial thromboplastin time (PTT) level frequently.",
+      "D": "Refer the client to the physical therapist."
+    },
+    "answer": "C",
+    "explanation": "This question assesses your knowledge of post-thrombolytic care for an ischemic stroke. The key is understanding the transition from clot-busting to preventing new clots.\n\nWhy C is the Correct Answer: After a thrombolytic agent (like alteplase, tPA) has been administered to dissolve an existing clot, the standard protocol is often to start an intravenous (IV) heparin infusion to prevent the formation of new clots. The therapeutic level of heparin is monitored using the Partial Thromboplastin Time (PTT) or activated PTT (aPTT). Therefore, frequent monitoring of the PTT is a critical nursing intervention to ensure the heparin dose is therapeutic (usually 1.5-2.5 times the control value) and not causing excessive anticoagulation.\n\nWhy A is Incorrect: Antiplatelet agents like aspirin are typically withheld for at least 24 hours after thrombolytic administration due to the extremely high risk of intracranial hemorrhage. Administering it would be unsafe.\n\nWhy B is Incorrect: While checking H&H is important to assess for bleeding, it is not the most specific intervention for monitoring the effects of the standard follow-up therapy (heparin). PTT directly measures the effect of heparin, whereas H&H would only change after significant blood loss has already occurred.\n\nWhy D is Incorrect: A referral to physical therapy is an essential part of stroke rehabilitation but it is not the immediate priority in the acute phase post-thrombolytic therapy. The priority is hemodynamic stability and preventing complications like hemorrhage. This referral would happen once the client is medically stable.",
+    "additional": "1. Ischemic Stroke Management:\n* Thrombolytic Therapy (Alteplase/tPA):\n* Time is Brain: There is a strict time window for administration, typically 3 to 4.5 hours from the onset of symptoms.\n* Contraindications: Know the key contraindications, including any history of intracranial hemorrhage, recent major surgery or trauma, uncontrolled hypertension (>185/110 mmHg), or bleeding disorders.\n* Post-tPA Nursing Care (High-Yield):\n* Perform frequent neurological assessments (neuro checks).\n* Monitor blood pressure closely (maintain it below 180/105 mmHg).\n* Monitor for signs of bleeding (especially intracranial: change in LOC, headache, vomiting).\n* No invasive procedures (e.g., NG tubes, Foley catheters) for 24 hours.\n2. Anticoagulant Monitoring:\n* Heparin: Monitored by PTT/aPTT. The antidote is protamine sulfate.\n* Warfarin (Coumadin): Monitored by PT/INR. The antidote is Vitamin K (phytonadione)."
+  },
+  {
+    "question": "The elderly client diagnosed with Parkinson disease (PD) has been prescribed levodopa/carbidopa (Sinemet). Which data indicate the medication has been effective?",
+    "options": {
+      "A": "The client has a normal arm swing when ambulating.",
+      "B": "The client has a flat affect when talking to the nurse.",
+      "C": "The client walks with a forward shuffling gait.",
+      "D": "The client rotates the thumb and forefinger together."
+    },
+    "answer": "A",
+    "explanation": "To answer this, you must first identify the symptoms of Parkinson's Disease and then recognize which option represents an improvement in those symptoms.\n\nWhy A is the Correct Answer: The primary symptoms of Parkinson's Disease include bradykinesia (slowness of movement) and rigidity. This manifests as a loss of automatic movements, such as blinking, swallowing saliva, and swinging the arms while walking. Improved, more normal arm swing is a direct indication that the medication is effectively reducing rigidity and bradykinesia.\n\nWhy B, C, and D are Incorrect: These options describe classic symptoms of Parkinson's Disease, indicating the medication is ineffective or the disease is progressing.\n\nB (Flat affect): This \"mask-like\" facial expression is a symptom of PD.\nC (Shuffling gait): This is a hallmark symptom of PD.\nD (Rotating thumb and forefinger): This describes the characteristic \"pill-rolling\" tremor of PD, which is often most prominent at rest.",
+    "additional": "1. Parkinson's Disease Cardinal Symptoms (TRAP):\n* T - Tremor (pill-rolling, often at rest)\n* R - Rigidity (increased muscle tone, \"cogwheel\" rigidity)\n* A - Akinesia/Bradykinesia (absence or slowness of movement)\n* P - Postural instability (impaired balance, shuffling gait)\n\n2. Levodopa/Carbidopa (Sinemet):\n* Mechanism: Levodopa is a precursor to dopamine and can cross the blood-brain barrier. Carbidopa is added to prevent the breakdown of levodopa in the periphery, allowing more of it to reach the brain. Carbidopa itself does not treat symptoms.\n* Side Effects: Dyskinesias (involuntary movements), orthostatic hypotension, nausea, and hallucinations.\n* \"On-Off\" Phenomenon: Clients may experience periods of good mobility (\"on\" time) and periods of poor mobility (\"off\" time) as the medication wears off.\n* Dietary Considerations: A high-protein meal can interfere with the absorption of levodopa. Clients may be advised to distribute protein intake evenly throughout the day."
+  },
+  {
+    "question": "The nurse is caring for a male client taking donepezil (Aricept), a cholinesterase inhibitor. Which finding would indicate the medication is ineffective?",
+    "options": {
+      "A": "The client is able to state his name and birth date.",
+      "B": "The client is discussing an upcoming event with the family.",
+      "C": "The client thinks his daughter is his deceased wife.",
+      "D": "The client is talking on the telephone with his son."
+    },
+    "answer": "C",
+    "explanation": "This question tests your understanding of the therapeutic goal for medications used to treat Alzheimer's disease.\n\nWhy C is the Correct Answer: Donepezil is used to treat the symptoms of Alzheimer's disease by increasing the levels of acetylcholine in the brain. The goal is to improve or maintain cognitive function, which includes memory, orientation, and the ability to recognize familiar people. Misidentifying a close family member (agnosia) is a significant sign of cognitive decline and indicates that the medication is not effectively managing the symptoms.\n\nWhy A, B, and D are Incorrect: These options all demonstrate some level of preserved or improved cognitive function, suggesting the medication is having a therapeutic effect.\n\nA: Being oriented to self is a positive sign.\nB: Planning for the future and engaging with family is a positive sign of cognitive engagement.\nD: Appropriate social interaction is a positive sign.",
+    "additional": "1. Alzheimer's Medications (Cholinesterase Inhibitors):\n* Examples: Donepezil (Aricept), Rivastigmine (Exelon), Galantamine (Razadyne).\n* Goal of Therapy: It's crucial to understand and teach families that these medications are not a cure. They aim to slow the progression of cognitive decline and manage symptoms for a period.\n* Side Effects: Primarily gastrointestinal (nausea, vomiting, diarrhea) and can also cause bradycardia (a key safety concern).\n\n2. Differentiating Cognitive Decline Symptoms:\n* Agnosia: Inability to recognize familiar objects or people (as seen in the correct answer).\n* Aphasia: Language disturbance (difficulty speaking or understanding).\n* Apraxia: Inability to perform purposeful movements despite having the physical ability.\n* Amnesia: Memory loss.\nThe NCK may present a scenario and ask you to identify which of these \"A's\" is being demonstrated."
+  },
+  {
+    "question": "The nurse on a medical unit is administering medications at 0900. Which medication should the nurse question administering?",
+    "options": {
+      "A": "Acetylcysteine (Mucomyst), a mucolytic, to a client who is coughing forcefully.",
+      "B": "Cefazolin (Ancef), an antibiotic, intravenous piggyback (IVPB) to a client diagnosed with the flu.",
+      "C": "Diphenhydramine (Benadryl), an antihistamine, to a client who is congested.",
+      "D": "Dextromethorphan (Robitussin), an antitussive, to a client who has pneumonia."
+    },
+    "answer": "A",
+    "explanation": "This question tests your knowledge of the major adverse effects of common respiratory medications. The key is to identify the most significant potential harm.\n\nWhy A is the Correct Answer: Acetylcysteine (Mucomyst) is a powerful mucolytic that works by breaking down mucus, making it thinner and easier to cough up. However, when given via nebulizer, its most dangerous potential side effect is bronchospasm. A client who is already coughing forcefully and may have reactive airways (like in asthma or bronchitis) is at high risk for this complication. Administering this medication could worsen their respiratory distress. Therefore, the nurse should question the order and clarify with the provider, perhaps suggesting co-administration with a bronchodilator.\n\nWhy B is Incorrect: While influenza (\"the flu\") is a viral illness and antibiotics are not effective against viruses, it is very common practice to administer antibiotics to prevent or treat a secondary bacterial pneumonia, which is a frequent and serious complication of the flu, especially in hospitalized or vulnerable patients. This order is not unusual and would not typically be questioned without more information.\n\nWhy C is Incorrect: Diphenhydramine (Benadryl) is an antihistamine commonly used to relieve symptoms of congestion, allergies, and the common cold. Its use for a congested client is appropriate.\n\nWhy D is Incorrect: Dextromethorphan is an antitussive (cough suppressant). While suppressing a productive cough in pneumonia is generally not recommended (as the client needs to clear secretions), forceful, nonproductive coughing can be exhausting and painful. Sometimes an antitussive is used cautiously to allow the client to rest. However, the potential harm is less immediate and severe than the risk of bronchospasm from acetylcysteine, making A the best answer.",
+    "additional": "1. Acetylcysteine (Mucomyst) - Dual Purpose:\n* Mucolytic: Thins thick, viscous secretions in conditions like cystic fibrosis, bronchitis, and COPD. Be alert for the \"rotten egg\" (sulfur) smell, which is normal.\n* Antidote: This is a critical fact for the NCK exam. Acetylcysteine is the primary antidote for acetaminophen (paracetamol) overdose. It works by restoring hepatic glutathione, protecting the liver from damage.\n\n2. Key Respiratory Drug Classes & Actions:\n* Mucolytics (e.g., Acetylcysteine): Thins mucus.\n* Expectorants (e.g., Guaifenesin): Helps to \"expectorate\" or cough up mucus (makes cough more productive).\n* Antitussives (e.g., Dextromethorphan, Codeine): Suppresses the cough reflex.\n* Bronchodilators (e.g., Albuterol, Salmeterol): Relax bronchial smooth muscle to open the airways.\n* Antihistamines (e.g., Diphenhydramine, Loratadine): Block histamine receptors to reduce allergy symptoms."
+  },
+  {
+    "question": "The nurse is administering medications at 1600 to clients on a medical unit. Which medication should the nurse administer first?",
+    "options": {
+      "A": "Humalog insulin for a client with a blood glucose level of 200 mg/dL.",
+      "B": "Acetaminophen (Tylenol), a non-narcotic analgesic, for a client with a headache.",
+      "C": "Pantoprazole (Protonix), a proton-pump inhibitor, to a client with a stress ulcer.",
+      "D": "Promethazine (Phenergan), an antiemetic, to a client who is vomiting."
+    },
+    "answer": "D",
+    "explanation": "This is a prioritization question based on acute physiological needs and potential for complications.\n\nWhy D is the Correct Answer: A client who is actively vomiting is in the most acute physiological distress. Vomiting presents immediate risks of aspiration, which can lead to pneumonia (a threat to the airway and breathing). It also leads to fluid and electrolyte loss and can prevent the absorption of any other oral medications. Treating the vomiting is the highest priority to stabilize the client and prevent these immediate complications.\n\nWhy A is Incorrect: A blood glucose of 200 mg/dL is elevated (hyperglycemia), but it is not a life-threatening emergency that requires immediate action over active vomiting. Humalog is a rapid-acting insulin that will be given before the evening meal, so timing is important, but preventing aspiration comes first.\n\nWhy B is Incorrect: A headache, while causing discomfort, is not a life-threatening condition. Administering acetaminophen can be slightly delayed without causing physical harm.\n\nWhy C is Incorrect: Pantoprazole for a stress ulcer is a prophylactic (preventative) or maintenance medication. It is not treating an acute, life-threatening problem. Its administration is routine and can wait until the actively vomiting client is treated.",
+    "additional": "1. Principles of Prioritization for NCK:\n* Maslow's Hierarchy: Physiological needs (Airway, Breathing, Circulation) always come before safety, love/belonging, etc. Vomiting is a direct threat to the airway.\n* Acute vs. Chronic: An acute problem (active vomiting) takes priority over a chronic or stable issue (controlled headache, stress ulcer prophylaxis).\n* Systemic vs. Local: A systemic issue (vomiting affecting fluid balance) often takes priority over a local issue (a simple headache).\n* Actual vs. Potential: An actual, ongoing problem (vomiting) takes priority over a potential future problem (complications from hyperglycemia).\n\n2. Promethazine (Phenergan) - Key Safety Alert:\n* Route of Administration: When given IV, promethazine is a vesicant (can cause severe tissue damage if it leaks out of the vein). The NCK loves to test this.\n* Safe IV Practice: It must be diluted, administered slowly, and preferably through a large vein or central line. The nurse should assess the IV site for pain, swelling, or redness during administration."
+  },
+  {
+    "question": "The nurse is preparing to administer a nitroglycerin (a coronary vasodilator) transdermal patch to the client diagnosed with a myocardial infarction. Which intervention should the nurse implement first?",
+    "options": {
+      "A": "Cleanse the site of the old nitroglycerin patch.",
+      "B": "Remove the previously applied nitroglycerin patch.",
+      "C": "Use non-sterile gloves when applying the transdermal patch.",
+      "D": "Date and time the transdermal patch prior to applying it to the client's skin."
+    },
+    "answer": "B",
+    "explanation": "This is a critical medication safety and procedure question. The sequence of actions is vital to prevent overdose.\n\nWhy B is the Correct Answer: The absolute first step in applying a new transdermal medication patch is to remove the old one. Leaving the old patch on while applying a new one will deliver a double dose of the medication, which, in the case of nitroglycerin, could lead to severe hypotension, dizziness, and syncope.\n\nWhy A, C, and D are Incorrect: These are all correct steps in the procedure, but they occur after the old patch is removed.\n\nA: Cleansing the site of the old patch (and the new site) is important, but it happens after removal.\nC: Using gloves is crucial for two reasons: to protect the nurse from absorbing the medication and for infection control.\nD: Writing the date, time, and nurse's initials on the new patch is essential for tracking and ensuring it is removed on schedule. However, all these actions follow the primary safety step of removing the old patch.",
+    "additional": "1. Nitroglycerin Patient Teaching:\n* Patch-Free Interval: To prevent tolerance, clients usually need a \"patch-free\" period of 10-12 hours each day (often overnight).\n* Site Rotation: Rotate application sites to prevent skin irritation. Apply to a clean, dry, hairless area on the upper body or arms.\n* Headache: Headache is a very common side effect due to vasodilation. It usually subsides with time, and the client may take acetaminophen for relief.\n* Orthostatic Hypotension: Teach the client to change positions slowly to avoid dizziness.\n* Erectile Dysfunction Drugs: This is a FATAL combination. The client must be taught never to take nitroglycerin with drugs like sildenafil (Viagra) or tadalafil (Cialis) as it can cause life-threatening, refractory hypotension."
+  },
+  {
+    "question": "The client diagnosed with coronary artery disease is prescribed atorvastatin (Lipitor), an HMG-CoA reductase inhibitor. Which statement by the client indicates the teaching has been effective?",
+    "options": {
+      "A": "I really haven't changed my diet, but I am taking my medication every day.",
+      "B": "I am feeling pretty good, except I am having muscle pain all over my body.",
+      "C": "I will take the medication in the evening so I will get better results.",
+      "D": "I am taking this medication first thing in the morning with a bowl of oatmeal."
+    },
+    "answer": "C",
+    "explanation": "This question assesses if the client understands key instructions for taking a statin medication safely and effectively.\n\nWhy C is the Correct Answer: Cholesterol synthesis in the body is generally highest during the night. Therefore, taking statin medications in the evening or at bedtime provides the most effective lipid-lowering results. This statement shows the client understands this important timing principle.\n\nWhy A is Incorrect: Statins are an adjunct to, not a replacement for, lifestyle modifications. The client must understand the importance of a low-fat, low-cholesterol diet and exercise. This statement indicates a need for further teaching.\n\nWhy B is Incorrect: Unexplained muscle pain, weakness, or tenderness is a sign of a serious, potentially life-threatening side effect of statins called myopathy or rhabdomyolysis. The client should be taught to report this to their provider immediately. This statement indicates a dangerous lack of understanding.\n\nWhy D is Incorrect: As explained above, evening administration is preferred for most statins. While some newer, longer-acting statins like atorvastatin can be taken at any time, the principle of evening administration is still widely taught and considered best practice. Furthermore, this statement doesn't address any of the more critical safety or efficacy points.",
+    "additional": "1. Statins - Key Concepts for NCK:\n* Mechanism: Inhibit HMG-CoA reductase, an enzyme essential for cholesterol synthesis in the liver.\n* Labs to Monitor: The nurse must monitor Liver Function Tests (LFTs) (e.g., ALT, AST) before and during therapy, as statins can be hepatotoxic.\n* Rhabdomyolysis: This is the breakdown of muscle fibers that releases myoglobin into the blood, which can cause severe kidney damage. The nurse should monitor creatine kinase (CK) levels if a client reports muscle pain.\n* Avoid Grapefruit Juice: Grapefruit juice can increase the level of some statins in the blood, raising the risk of toxicity."
+  },
+  {
+  "question": "The client is dizzy and lightheaded when getting up out of the chair. Which medication should the nurse prepare to administer for the client exhibiting the following telemetry strip?",
+  "options": {
+    "A": "Atropine",
+    "B": "Cordarone",
+    "C": "Lanoxin",
+    "D": "Intropin"
+  },
+  "answer": "A",
+  "explanation": "This is a two-part question: rhythm interpretation and pharmacological intervention.\n\nRhythm Interpretation: The ECG strip shows P waves and QRS complexes that are regular but completely independent of each other. The P-P interval is constant, and the R-R interval is constant, but there is no consistent PR interval. This is the classic presentation of a Third-Degree Atrioventricular (AV) Block, also known as a complete heart block. The atrial impulses are not conducting to the ventricles, and a slower, independent pacemaker in the ventricles is firing. This results in significant bradycardia, which is causing the client's symptoms of dizziness and lightheadedness (due to decreased cardiac output).\n\nPharmacological Intervention:\n\nWhy A is Correct: The first-line treatment for symptomatic bradycardia is atropine. Atropine is an anticholinergic drug that blocks the effects of the vagus nerve on the heart, thereby increasing the heart rate fired by the SA node and improving AV conduction.\n\nWhy B is Incorrect: Cordarone (amiodarone) is an antiarrhythmic primarily used to treat ventricular and supraventricular tachyarrhythmias (fast heart rates), like ventricular tachycardia and atrial fibrillation. It would not be used for bradycardia.\n\nWhy C is Incorrect: Lanoxin (digoxin) is a cardiac glycoside that slows the heart rate. Giving it to a client with a complete heart block would be contraindicated and dangerous.\n\nWhy D is Incorrect: Intropin (dopamine) is a vasopressor used to increase blood pressure and contractility, primarily in cases of shock. While it can increase heart rate, atropine is the primary, first-line drug for treating symptomatic bradycardia. If atropine is ineffective, pacing (transcutaneous or transvenous) is the next step, and a dopamine infusion might be considered as a temporary measure.",
+  "additional": "1. Heart Blocks:\n* 1st Degree: PR interval is prolonged (>0.20 sec) but constant. (Usually benign).\n* 2nd Degree, Type I (Wenckebach): PR interval gets progressively longer until a QRS is dropped. (\"Longer, longer, longer, drop!\").\n* 2nd Degree, Type II (Mobitz II): PR interval is constant, but QRS complexes are dropped intermittently. (More dangerous, can progress to 3rd degree).\n* 3rd Degree (Complete): P waves and QRS complexes are completely dissociated. (Requires immediate intervention, often a pacemaker).\n\n2. Emergency Cardiac Drugs:\n* For Bradycardia: Atropine\n* For Tachycardia (SVT): Adenosine (push fast!)\n* For Cardiac Arrest (V-Fib/Pulseless V-Tach): Epinephrine, Amiodarone\n* For Chest Pain (MI): MONA (Morphine, Oxygen, Nitroglycerin, Aspirin) - though not always in that order."
+},
+{
+    "question": "12. The nurse is preparing to administer warfarin (Coumadin), an anticoagulant. The client's current laboratory values are: Prothrombin time (PT) 12; control 12.9, Partial thromboplastin time (PTT) 39; control 36, INR 2.9. Which action should the nurse implement?",
+    "options": {
+      "A": "Discontinue the intravenous bag immediately.",
+      "B": "Prepare to administer AquaMephyton (vitamin K).",
+      "C": "Notify the healthcare provider (HCP) so he/she can increase the dose.",
+      "D": "Administer the medication as ordered."
+    },
+    "answer": "D",
+    "explanation": "This question requires you to identify the correct laboratory test for monitoring warfarin and interpret whether the result is within the therapeutic range.\n\nWhy D is the Correct Answer: Warfarin (Coumadin) therapy is monitored using the Prothrombin Time (PT) and the International Normalized Ratio (INR). The PTT is used to monitor heparin therapy. The therapeutic goal for INR in most conditions (like atrial fibrillation, DVT, PE) is 2.0 to 3.0. An INR of 2.9 is within this therapeutic window. This indicates that the current dose of warfarin is effective and safe. Therefore, the correct nursing action is to administer the medication as ordered.\n\nWhy A is Incorrect: Warfarin is an oral medication. The reference to an \"intravenous bag\" is a distractor, likely trying to confuse you with IV heparin therapy. There is no IV bag of warfarin to discontinue.\n\nWhy B is Incorrect: AquaMephyton (Vitamin K) is the antidote for warfarin toxicity. It would be administered if the INR were critically high (e.g., >5.0 or if the client had signs of active bleeding), not when it is within the therapeutic range.\n\nWhy C is Incorrect: The INR of 2.9 is at the upper end of the therapeutic range. Increasing the dose would push the client into a supratherapeutic (toxic) state, increasing the risk of bleeding. There is no indication to increase the dose.",
+    "additional": "1. Warfarin (Coumadin) - Key Nursing Concepts:\n* Patient Teaching (CRITICAL for NCK):\n* Dietary Vitamin K: Teach the client to maintain a consistent intake of foods high in Vitamin K (e.g., green leafy vegetables like spinach, kale, broccoli). They should not avoid these foods, but rather eat a steady amount so the warfarin dose can be adjusted accordingly. Sudden increases or decreases in Vitamin K intake will alter the INR.\n* Bleeding Precautions: Use a soft-bristle toothbrush and an electric razor. Report any signs of bleeding, such as black/tarry stools, nosebleeds, hematuria, or unusual bruising.\n* Drug Interactions: Warfarin has many interactions, especially with antibiotics and NSAIDs, which can increase the risk of bleeding. The client should consult their HCP before taking any new medication, including over-the-counter drugs.\n* Time to Effect: Warfarin takes several days (3-5 days) to reach therapeutic levels. A client being started on warfarin in the hospital will often be on IV heparin concurrently until the INR is therapeutic (this is called \"bridging therapy\")."
+  },
+  {
+    "question": "13. The client is receiving an intravenous infusion of heparin. The bag hanging has 20,000 units of heparin in 500 mL of D5W. The HCP has ordered the medication to be delivered at 2000 units/hr. At what rate would the nurse set the intravenous pump?",
+    "options": {
+      "A": "25 mL/hr",
+      "B": "40 mL/hr",
+      "C": "50 mL/hr",
+      "D": "60 mL/hr"
+    },
+    "answer": "C",
+    "explanation": "This is a standard medication calculation question. The goal is to convert the desired dose (units/hr) into the rate the IV pump needs (mL/hr).\n\nStep-by-step Calculation:\nFind the concentration of the solution (units per mL):\n20,000 units / 500 mL = 40 units/mL\n\nCalculate the infusion rate (mL/hr):\n(2000 units/hr) / (40 units/mL) = 50 mL/hr\n\nAnother way to set it up (Dimensional Analysis):\n(500 mL / 20,000 units) x (2000 units / 1 hr) = (500 * 2000) / 20000 = 50 mL/hr",
+    "additional": "1. High-Alert Medications:\n* Heparin and Insulin are two of the most common high-alert medications tested on exams. This means they have a high risk of causing significant patient harm if used in error.\n* Safety Protocol for High-Alert Infusions: NCK might ask about safety checks. The standard of care is to have an independent double-check by two licensed nurses before starting or changing the rate of a high-alert infusion like heparin.\n\n2. Antidotes:\n* Heparin: Protamine Sulfate\n* Warfarin: Vitamin K\n* Opioids: Naloxone (Narcan)\n* Benzodiazepines: Flumazenil\n* Acetaminophen: N-acetylcysteine (Mucomyst)"
+  },
+  {
+    "question": "14. The client diagnosed with iron-deficiency anemia is being discharged on an oral iron preparation. Which statement indicates the client understands the discharge teaching?",
+    "options": {
+      "A": "“I will bring a stool specimen every week to the doctor.”",
+      "B": "“I should take my iron tablet with vitamin D capsules.”",
+      "C": "“It would be best if I took my medication with meals only.”",
+      "D": "“I may notice my stools turning a greenish black color.”"
+    },
+    "answer": "D",
+    "explanation": "This question evaluates the client's understanding of common side effects and administration guidelines for oral iron supplements.\n\nWhy D is the Correct Answer: A very common and expected side effect of oral iron is the darkening of stools to a black or dark green color. This is harmless and results from unabsorbed iron. A client statement acknowledging this indicates they have received and understood this key piece of information.\n\nWhy A is Incorrect: Routine weekly stool specimens are not required for a client taking iron supplements.\n\nWhy B is Incorrect: Iron absorption is enhanced by Vitamin C (ascorbic acid), not Vitamin D.\n\nWhy C is Incorrect: For best absorption, iron should be taken on an empty stomach. However, it is very irritating to the GI tract. Taking it with food reduces absorption but may be necessary if the client has GI upset.",
+    "additional": "1. Oral Iron Administration - Key Points:\n* Absorption Enhancers: Vitamin C (ascorbic acid).\n* Absorption Inhibitors: Calcium (milk, antacids), caffeine (tea, coffee). Should be taken at least 2 hours apart.\n* Liquid Iron: Can stain the teeth. Use a straw and rinse afterward.\n* Side Effects: Constipation and dark stools. Increase fiber and fluid intake."
+  },
+  {
+    "question": "15. The nurse is preparing to administer medication to the following clients. Which medication should the nurse question?",
+    "options": {
+      "A": "The biguanide metformin (Glucophage) to the client with type 1 diabetes who is scheduled for an intravenous pyelogram (IVP).",
+      "B": "The loop-diuretic bumetanide (Bumex) to a client diagnosed with congestive heart failure.",
+      "C": "The biological response modifier erythropoietin (Procrit) to a client diagnosed with end-stage renal failure.",
+      "D": "The central-acting alpha agonist clonidine (Catapres) to a client diagnosed with essential hypertension."
+    },
+    "answer": "A",
+    "explanation": "This question has two critical components that make option A incorrect, requiring the nurse to question the order.\n\nMetformin and IV Contrast Dye: An IVP uses iodine-based contrast dye, which can cause temporary kidney dysfunction. If a client taking metformin develops kidney dysfunction, the drug can accumulate and lead to lactic acidosis. The standard protocol is to hold metformin before the procedure and for 48 hours after, until kidney function is confirmed as normal.\n\nMetformin and Type 1 Diabetes: Metformin is not indicated for clients with type 1 diabetes as it requires the presence of some endogenous insulin. These clients require insulin therapy.\n\nWhy B, C, and D are Correct:\nB: Bumetanide is appropriate for treating fluid overload.\nC: Erythropoietin treats anemia from renal failure.\nD: Clonidine is used for essential hypertension.",
+    "additional": "1. Differentiating Type 1 and Type 2 Diabetes:\n* Type 1: Autoimmune destruction of beta cells. Absolute insulin deficiency.\n* Type 2: Insulin resistance and relative insulin deficiency.\n\n2. Metformin (Glucophage):\n* Mechanism: Reduces hepatic glucose production.\n* Benefits: Does not cause hypoglycemia alone.\n* Side Effects: GI upset.\n* Contraindication: Held before and after contrast dye procedures due to lactic acidosis risk."
+  },
+  {
+    "question": "16. The nurse on a medical unit has received the morning report. Which medication should the nurse administer first?",
+    "options": {
+      "A": "The proton pump inhibitor pantoprazole (Protonix) to a client who is nothing by mouth (NPO).",
+      "B": "The mucosal barrier agent sucralfate (Carafate) to a client with peptic ulcer disease.",
+      "C": "The antacid calcium carbonate (TUMS) to a client complaining of indigestion.",
+      "D": "The antibiotic bismuth (Pepto Bismol) to a client diagnosed with a peptic ulcer."
+    },
+    "answer": "B",
+    "explanation": "This is a prioritization question based on drug mechanism and timing.\n\nWhy B is the Correct Answer: Sucralfate reacts with stomach acid to form a barrier that adheres to ulcers. It must be given on an empty stomach, typically 1 hour before meals. It must be administered before breakfast to be effective.\n\nWhy A is Incorrect: Pantoprazole can be given without regard to meals. NPO status removes urgency.\n\nWhy C is Incorrect: TUMS is given after meals or at bedtime. Sucralfate is time-sensitive.\n\nWhy D is Incorrect: Bismuth does not require specific timing.",
+    "additional": "1. Peptic Ulcer Disease (PUD) Medications:\n* Mucosal Barrier Agents: Sucralfate. Give on an empty stomach. May cause constipation.\n* Proton Pump Inhibitors (PPIs): End in '-prazole'. Reduce acid. Long-term use = osteoporosis risk.\n* H2-Receptor Antagonists: End in '-tidine'. Reduce acid production.\n* Antacids: Neutralize acid. Administer separately from other meds to avoid interaction."
+  },
+  {
+    "question": "17. The client with inflammatory bowel disease is prescribed sulfasalazine (Azulfidine), a sulfonamide antibiotic. Which intervention should the nurse implement when administering this medication?",
+    "options": {
+      "A": "Notify the HCP if any bruising or bleeding is noted.",
+      "B": "Limit oral fluid intake to 1000 mL/day.",
+      "C": "Administer the medication once a day with breakfast.",
+      "D": "Assess the client's stool for steatorrhea and mucus."
+    },
+    "answer": "A",
+    "explanation": "This question tests your knowledge of the serious adverse effects of sulfa drugs.\n\nWhy A is the Correct Answer: Sulfasalazine, as a sulfonamide, can cause serious hematologic side effects, including agranulocytosis (a severe drop in white blood cells), thrombocytopenia (low platelets), and various types of anemia. Unexplained bruising or bleeding is a key sign of a low platelet count and must be reported immediately.\n\nWhy B is Incorrect: Sulfa drugs can cause crystalluria. To prevent this, clients should increase fluid intake significantly (e.g., 2–3 liters/day). Limiting fluids increases this risk.\n\nWhy C is Incorrect: Sulfasalazine is typically given multiple times per day to maintain therapeutic levels, not once daily.\n\nWhy D is Incorrect: Steatorrhea and mucus may occur due to the disease, not the drug. The nurse’s focus is adverse drug effects, not disease symptoms.",
+    "additional": "1. 'SULFA' Mnemonic for Side Effects:\n* S - Sunlight sensitivity\n* U - Undesirable effects (rash, Stevens-Johnson Syndrome)\n* L - Love water (increase fluid intake)\n* F - Folic acid deficiency\n* A - Agranulocytosis and other blood dyscrasias\n\n2. Other Sulfasalazine Facts:\n* May turn skin and urine orange-yellow (harmless)\n* Take with food to reduce GI upset\n* Contraindicated in salicylate allergies"
+  },
+  {
+    "question": "18. The client is diagnosed with a peptic ulcer disease (PUD) secondary to Helicobacter pylori bacteria. Which discharge instructions should the nurse teach?",
+    "options": {
+      "A": "Discuss placing the head of the bed on blocks to prevent reflux.",
+      "B": "Teach the client to take acetylsalicylic acid (aspirin) for pain.",
+      "C": "Take the prescribed medications exactly as prescribed and it will cure the ulcer.",
+      "D": "Instruct the client to eat a bland diet with six small feedings a day."
+    },
+    "answer": "C",
+    "explanation": "This question focuses on the modern understanding of treating H. pylori-induced ulcers.\n\nWhy C is the Correct Answer: H. pylori ulcers are bacterial in nature. Treatment with antibiotics and a PPI can cure the ulcer. Clients must complete the full regimen to fully eradicate the bacteria.\n\nWhy A is Incorrect: Raising the head of the bed is for GERD, not PUD.\n\nWhy B is Incorrect: Aspirin and NSAIDs worsen or cause ulcers and increase bleeding risk.\n\nWhy D is Incorrect: Bland diets are outdated. Clients should avoid personal triggers but don’t need strict dietary rules.",
+    "additional": "1. H. Pylori Triple Therapy:\n* PPI (e.g., Omeprazole)\n* Clarithromycin\n* Amoxicillin or Metronidazole\n\n2. Teaching Points:\n* Stress full adherence to the medication regimen\n* Expect mild GI side effects like nausea\n\n3. Distinguish GI Conditions:\n* PUD: Ulcer in stomach/duodenum\n* Gastritis: Inflammation\n* GERD: Reflux"
+  },
+  {
+    "question": "19. The nurse is transcribing the admitting HCP's orders for an elderly client diagnosed with acute diverticulitis. Which order would the nurse question?",
+    "options": {
+      "A": "Administer the intravenous antibiotic cefazolin (Ancef).",
+      "B": "Administer acetaminophen (Tylenol) rectally for temperature >102°F.",
+      "C": "Administer a concurrent intravenous antibiotic.",
+      "D": "Administer a narcotic analgesic for the client's pain."
+    },
+    "answer": "B",
+    "explanation": "This question tests your understanding of contraindications in managing acute diverticulitis.\n\nWhy B is the Correct Answer: Rectal administration is contraindicated during acute diverticulitis due to the inflamed, fragile colon. Inserting a suppository could risk perforation.\n\nWhy A and C are Incorrect: IV antibiotics are standard in acute diverticulitis.\n\nWhy D is Incorrect: Narcotics are appropriate for pain relief in acute diverticulitis.",
+    "additional": "1. Management of Acute Diverticulitis:\n* NPO (bowel rest)\n* IV fluids\n* IV antibiotics\n* Analgesics\n* Avoid enemas, colonoscopy, and rectal medications\n\n2. Diverticulosis vs. Diverticulitis:\n* Diverticulosis: High-fiber diet prevention\n* Diverticulitis: Inflammation + infection; needs bowel rest"
+  },
+  {
+    "question": "20. The client is diagnosed with end-stage liver failure and is experiencing hepatic encephalopathy. The HCP prescribes lactulose (Cephulac), a laxative. Which data would indicate to the nurse the medication is not effective?",
+    "options": {
+      "A": "The client's handwriting is legible.",
+      "B": "The client has a decreased ammonia level.",
+      "C": "The client has two to three soft stools a day.",
+      "D": "The client is oriented to person only."
+    },
+    "answer": "D",
+    "explanation": "To answer this, you must know the purpose of lactulose and signs of encephalopathy resolution.\n\nWhy D is the Correct Answer: Orientation to person only shows persistent mental confusion. Lactulose’s goal is to improve mental status by reducing ammonia levels. Disorientation = ineffective therapy.\n\nWhy A, B, and C are Incorrect:\nA: Improved handwriting = improved neurological status\nB: Decreased ammonia = therapeutic goal\nC: 2–3 soft stools/day = desired lactulose effect",
+    "additional": "1. Assessing Hepatic Encephalopathy:\n* Check mental status (disorientation, confusion)\n* Asterixis ('liver flap')\n* Constructional apraxia\n* Monitor ammonia (normal: 15–45 mcg/dL)\n\n2. Lactulose Teaching:\n* Sweet syrup; can be mixed with juice\n* Titrate dose to 2–3 soft stools/day\n* Overdose can cause diarrhea/dehydration"
+  },
+  {
+    "question": "21. The client with chronic hepatitis C is prescribed interferon alfa-2a (Roferon-A), an antiviral medication. Which information should the nurse discuss with the client?",
+    "options": {
+      "A": "Demonstrate the correct way to administer subcutaneous injections.",
+      "B": "Explain the importance of wearing a mask when around children.",
+      "C": "Instruct the client to report flu-like symptoms to the HCP.",
+      "D": "Teach the client to take the medication daily and sit up for 30 minutes."
+    },
+    "answer": "A",
+    "explanation": "This question focuses on procedural teaching for a self-injectable drug.\n\nWhy A is the Correct Answer: Interferon alfa-2a is self-injected SC at home. Teaching proper technique is the first priority. Includes site rotation, needle disposal, and injection prep.\n\nWhy B is Incorrect: Hepatitis C is not airborne. Wearing masks is unnecessary.\n\nWhy C is Incorrect: Flu-like symptoms are expected; they don't need to be reported unless severe. Pre-medication with acetaminophen may help.\n\nWhy D is Incorrect: Interferon is not taken daily. Sitting upright after taking medication applies to bisphosphonates, not interferon.",
+    "additional": "1. Interferon Therapy Key Points:\n* Common Effects: Flu-like symptoms, GI upset\n* Serious Risks: Depression, suicidal ideation, leukopenia, anemia\n* Teaching:\n  - Injection technique\n  - Side effect management\n  - Monitor mood and report serious symptoms"
+  },
+  {
+    "question": "22. Which statement indicates to the nurse the client understands the scientific rationale for taking acidophilus capsules?",
+    "options": {
+      "A": "“Acidophilus will help me not get diarrhea when I take antibiotics.”",
+      "B": "“The medication will help treat the viral infection in my intestines.”",
+      "C": "“If I take this medication every day I will not get a bacterial infection.”",
+      "D": "“This medication will help me prevent Lyme disease when I am camping.”"
+    },
+    "answer": "A",
+    "explanation": "This question tests your knowledge of probiotics and their primary use in clinical practice.\n\nWhy A is the Correct Answer: Acidophilus is a probiotic that helps replenish normal gut flora disrupted by antibiotics, preventing antibiotic-associated diarrhea and overgrowth of harmful bacteria like Clostridium difficile.\n\nWhy B is Incorrect: Probiotics are not antiviral; they don’t treat viral infections.\n\nWhy C is Incorrect: Probiotics support gut health but don’t prevent systemic infections.\n\nWhy D is Incorrect: Lyme disease is a tick-borne bacterial illness. Oral probiotics have no preventive role.",
+    "additional": "1. Probiotics vs. Prebiotics:\n* Probiotics: Live organisms like Lactobacillus acidophilus. Found in yogurt/supplements. Help manage antibiotic-associated diarrhea and IBS.\n* Prebiotics: Dietary fiber feeding good gut bacteria. Found in onions, garlic, bananas.\n\n2. Clostridium difficile:\n* Watery, foul-smelling diarrhea\n* Spread via fecal-oral route\n* Requires soap and water for hand hygiene (alcohol sanitizers ineffective)"
+  },
+  {
+    "question": "23. The client taking orlistat (Xenical), a lipase inhibitor, reports copious frothy diarrheal stools. Which action should the nurse implement?",
+    "options": {
+      "A": "Explain this is expected because the client ate a fatty diet.",
+      "B": "Tell the client to take over-the-counter antidiarrheal medication.",
+      "C": "Instruct the client to eat foods high in dietary fiber.",
+      "D": "Recommend the client decrease fluid intake for 24 hours."
+    },
+    "answer": "A",
+    "explanation": "To answer this, you must understand the mechanism of action of orlistat.\n\nWhy A is the Correct Answer: Orlistat blocks fat absorption. If a client consumes too much fat, it causes steatorrhea (oily diarrhea). This is expected and should prompt teaching on low-fat diets.\n\nWhy B is Incorrect: Antidiarrheals don’t fix the underlying fat malabsorption.\n\nWhy C is Incorrect: Fiber doesn’t prevent or treat fat-induced diarrhea.\n\nWhy D is Incorrect: The client is losing fluids and should increase, not restrict, hydration.",
+    "additional": "1. Orlistat Teaching:\n* Follow a low-fat diet (≤30% of calories from fat)\n* Take fat-soluble vitamin supplements (A, D, E, K) 2 hours apart from orlistat\n* Take with or within 1 hour of meals with fat\n\n2. Expected Side Effects:\n* Steatorrhea, oily discharge, fecal urgency"
+  },
+  {
+    "question": "24. The elderly female client calls the clinic and complains of loose watery stools. Which interventions should the nurse implement? Select all that apply.",
+    "options": {
+      "A": "Instruct the client to take an antiemetic medication.",
+      "B": "Tell the client to check her chest for skin turgor.",
+      "C": "Ask the client how many stools she has had in the last 24 hours.",
+      "D": "Tell the client to go to the emergency department.",
+      "E": "Ask the client what other medications she has taken."
+    },
+    "answer": ["C", "E"],
+    "explanation": "This question focuses on telephone triage for elderly clients with diarrhea.\n\nWhy 3 is Correct: Assessing the frequency helps determine severity and fluid loss.\n\nWhy 5 is Correct: Many medications cause diarrhea. It’s important to identify any new or interacting drugs.\n\nWhy 1 is Incorrect: Antiemetics are for nausea, not diarrhea.\n\nWhy 2 is Incorrect: Elderly skin turgor is unreliable, and self-checks are not appropriate triage tools.\n\nWhy 4 is Incorrect: More information is needed before determining if an ED visit is necessary.",
+    "additional": "1. Telephone Triage Questions:\n* When did it start?\n* Frequency and character of stools?\n* Other symptoms: fever, nausea, dehydration?\n* New meds? Travel? Sick contacts?\n\n2. Dehydration Signs in Elderly:\n* Confusion, dizziness, low urine output, dry mucosa, tachycardia"
+  },
+  {
+    "question": "25. The client who had abdominal surgery returned from the post-anesthesia care unit (PACU) with a patient-controlled analgesia (PCA) pump. Which intervention should the nurse implement first?",
+    "options": {
+      "A": "Observe the client administering a bolus.",
+      "B": "Check the PCA setting with another nurse.",
+      "C": "Instruct the family not to push the button.",
+      "D": "Document the PCA medication on the chart."
+    },
+    "answer": "B",
+    "explanation": "This question emphasizes medication safety protocols for PCA devices.\n\nWhy B is the Correct Answer: PCA pumps are high-alert systems. The priority is to double-check pump settings with another nurse to ensure the correct dose, lockout interval, and basal rate.\n\nWhy A, C, and D are Incorrect:\nA: Teaching is important but not the first step.\nC: Instructing family is necessary but secondary to pump verification.\nD: Documentation follows intervention, not before it.",
+    "additional": "1. PCA Pump Parameters:\n* PCA Dose: The patient-controlled bolus amount\n* Lockout Interval: Time between doses (e.g., 10 mins)\n* Basal Rate: Continuous infusion (if ordered)\n* 4-Hour Limit: Max allowed dose in 4 hours\n\n2. Monitoring:\n* Respiratory status\n* Sedation level\n* Pain level\n* Attempt vs. delivery counts"
+  },
+  {
+    "question": "26. The nurse is preparing to administer promethazine (Phenergan) 12.5 mg intravenous push (IVP) via a peripheral IV line infusing normal saline at 100 mL/hr. Which intervention should the nurse implement?",
+    "options": {
+      "A": "Flush the peripheral IV line with 10 mL of normal saline.",
+      "B": "Question administering the Phenergan IVP.",
+      "C": "Dilute the Phenergan with normal saline, and administer slowly.",
+      "D": "Administer the medication, and elevate the client's arm."
+    },
+    "answer": "C",
+    "explanation": "This question tests safe administration practices for IV push medications.\n\nWhy C is the Correct Answer: Promethazine is a vesicant that can cause tissue necrosis if it leaks outside the vein. Best practice is to dilute the drug and administer it slowly through a large vein.\n\nWhy A is Incorrect: Flushing is important but not sufficient for vesicant safety.\n\nWhy B is Incorrect: If properly diluted and administered slowly, it’s not contraindicated.\n\nWhy D is Incorrect: Elevating the arm is not a standard part of safe administration.",
+    "additional": "1. IV Complications:\n* Infiltration: Cool, swollen site (non-vesicant fluid)\n* Extravasation: Pain, blistering, necrosis (vesicants)\n* Phlebitis: Red, warm, tender cord\n\n2. Extravasation Protocol:\n* Stop infusion\n* Leave cannula in place\n* Notify provider\n* May administer antidote through site\n* Apply compress (warm or cold per drug)"
+  },
+  {
+    "question": "27. The nurse administered Humulin R via sliding scale to a client with type 1 diabetes at 1600. Which intervention should the nurse implement?",
+    "options": {
+      "A": "Assess the client for hyperglycemia around 1800.",
+      "B": "Ensure the client eats a night-time snack.",
+      "C": "Monitor how much food is consumed at the evening meal.",
+      "D": "Check the client's serum blood glucose level."
+    },
+    "answer": "C",
+    "explanation": "This question tests your knowledge of the peak action time of regular insulin and the associated risk of hypoglycemia.\n\nWhy C is the Correct Answer: Humulin R is Regular insulin, a short-acting insulin with a peak action of 2–4 hours. Administered at 1600, its peak effect would be between 1800 and 2000. If the client doesn't eat enough during this window, hypoglycemia could result. Monitoring food intake is the most specific and proactive intervention.\n\nWhy A is Incorrect: You assess for hypoglycemia during the peak, not hyperglycemia.\n\nWhy B is Incorrect: Night-time snacks are usually aligned with NPH or long-acting insulin, not short-acting Regular insulin.\n\nWhy D is Incorrect: Checking blood glucose is important but less proactive than ensuring sufficient intake during the insulin's peak.",
+    "additional": "1. Insulin Profiles (Mnemonic Support):\n* Rapid (Lispro): Onset 15m, Peak 1–2h, Duration 3–5h: '15 minutes feels like an hour during 3 rapid responses.'\n* Short (Regular - Humulin R): Onset 30m, Peak 2–4h, Duration 6–8h: 'Short-staffed nurses went from 30 patients 2 8 patients.'\n* Intermediate (NPH): Onset 1.5–4h, Peak 4–12h, Duration 12–18h: 'Nurses Play Hero 2 8 16 year olds.'\n* Long (Glargine): Onset 1–4h, Peak none, Duration 24h: Cannot be mixed with others."
+  },
+  {
+    "question": "28. The client diagnosed with type 1 diabetes is diaphoretic and unconscious. Which action should the nurse implement?",
+    "options": {
+      "A": "Prepare to administer intravenous regular insulin.",
+      "B": "Inject Humulin N subcutaneously in the abdomen.",
+      "C": "Hang an intravenous infusion of D5W at a keep-open rate.",
+      "D": "Administer 1 amp of intravenous 50% glucose."
+    },
+    "answer": "D",
+    "explanation": "This question presents a classic medical emergency: severe hypoglycemia.\n\nWhy D is the Correct Answer: The client is showing signs of severe hypoglycemia (diaphoresis and unconsciousness). The priority is rapid correction using IV D50W. This delivers glucose directly to the bloodstream and is the standard emergency treatment for unconscious hypoglycemic patients with IV access.\n\nWhy A and B are Incorrect: Giving insulin would worsen the hypoglycemia.\n\nWhy C is Incorrect: D5W at a slow rate does not supply glucose quickly or in high enough concentration to treat a hypoglycemic emergency.",
+    "additional": "1. Mnemonic for Hypoglycemia: TIRED\n* T - Tachycardia\n* I - Irritability\n* R - Restlessness\n* E - Excessive Hunger\n* D - Diaphoresis/Depression (of CNS)\n\n2. Hypoglycemia Treatment Based on Patient Status:\n* Conscious: 15g simple carb (juice, glucose tabs), recheck in 15 minutes\n* Unconscious w/ IV: Administer D50W\n* Unconscious w/o IV: Give glucagon IM or subcut"
+  },
+  {
+    "question": "29. The nurse is caring for the client diagnosed with type 2 diabetes complaining of being thirsty and urinating every hour. Which action should the nurse implement first?",
+    "options": {
+      "A": "Check the client's serum blood glucose level.",
+      "B": "Give the client a glass of orange juice.",
+      "C": "Determine when the last antidiabetic medication was administered.",
+      "D": "Assess the client's blood pressure and apical pulse."
+    },
+    "answer": "A",
+    "explanation": "This question requires recognition of hyperglycemia and prioritizing the first action.\n\nWhy A is the Correct Answer: The client shows symptoms of hyperglycemia (polydipsia and polyuria). The nurse must assess blood glucose levels to confirm the condition and guide intervention. This is the most direct, diagnostic action.\n\nWhy B is Incorrect: Orange juice is used for hypoglycemia and would worsen hyperglycemia.\n\nWhy C is Incorrect: While helpful information, it does not take precedence over checking glucose.\n\nWhy D is Incorrect: Vital signs are supportive data but less specific than a glucose test for these symptoms.",
+    "additional": "1. Classic Signs of Hyperglycemia:\n* Polyuria, Polydipsia, Polyphagia\n\n2. DKA vs. HHS:\n* DKA (Type 1): Rapid onset, fruity breath, Kussmaul respirations\n* HHS (Type 2): Gradual onset, extreme hyperglycemia >600, severe dehydration\n* Treatment: 1. IV fluids, 2. IV insulin, 3. Electrolyte (especially K+) replacement"
+  },
+  {
+    "question": "30. The school nurse is teaching a class about type 2 diabetes mellitus (DM) to elementary school teachers. Which information is most important for the nurse to discuss with the teachers?",
+    "options": {
+      "A": "Instruct the teachers how to administer subcutaneous insulin.",
+      "B": "Explain that type 2 diabetes can lead to long-term chronic complications.",
+      "C": "Teach signs/symptoms of hypoglycemia and the immediate treatment.",
+      "D": "Tell the teachers that medication is usually not prescribed for type 2 DM."
+    },
+    "answer": "C",
+    "explanation": "This question emphasizes immediate safety in the school setting.\n\nWhy C is the Correct Answer: Hypoglycemia is a medical emergency that teachers must be able to recognize and treat immediately, especially since school activities and dietary changes can precipitate it. This is life-saving, priority knowledge.\n\nWhy A is Incorrect: Insulin administration is not expected of general teachers and is less urgent than hypoglycemia recognition.\n\nWhy B is Incorrect: Chronic complications are important but not the most immediate concern in a classroom.\n\nWhy D is Incorrect: Many children with Type 2 DM require medication. This statement is inaccurate.",
+    "additional": "1. School Nurse Duties:\n* Develop an IHP/ECP\n* Ensure supplies (glucose monitor, glucose tabs, glucagon) are available\n* Train staff on emergency responses to diabetes symptoms\n\n2. Classroom Emergencies:\n* Hypoglycemia: Shakiness, sweating, irritability — treat immediately\n* Hyperglycemia: More bathroom breaks, lethargy — monitor"
+  },
+  {
+    "question": "31. Which medication would the nurse question administering?",
+    "options": {
+      "A": "Meperidine (Demerol), an opioid, to a client diagnosed with pancreatitis.",
+      "B": "Epinephrine, a beta-adrenergic agonist, to a client with an allergic reaction.",
+      "C": "Methylprednisolone (Solu-Medrol), a glucocorticoid, to a client with Cushing's disease.",
+      "D": "Vasopressin (ADH), a hormone, to a client diagnosed with diabetes insipidus (DI)."
+    },
+    "answer": "C",
+    "explanation": "This question requires you to understand the pathophysiology of various endocrine and medical conditions and identify a clear contraindication.\n\nWhy C is the Correct Answer: Cushing's disease results from excess endogenous corticosteroids. Giving methylprednisolone (a potent synthetic glucocorticoid) would worsen the client's condition. It is contraindicated.\n\nWhy A is Incorrect: Although controversial in the past, meperidine is still used for pancreatitis. Pain control is a priority, and opioids are appropriate.\n\nWhy B is Incorrect: Epinephrine is life-saving in allergic reactions. It is appropriate.\n\nWhy D is Incorrect: Vasopressin replaces deficient ADH in DI. It is the appropriate treatment.",
+    "additional": "1. Cushing's vs. Addison's:\n* Cushing's = CUSHION of steroids (too much). Moon face, buffalo hump, striae, hyperglycemia.\n* Addison's = ADD steroids (too little). Bronze skin, hypotension, weight loss.\n\n2. DI vs. SIADH:\n* DI = DRY INSIDE: polyuria, hypernatremia, low specific gravity.\n* SIADH = SOAKED INSIDE: low output, hyponatremia, high specific gravity."
+  },
+  {
+    "question": "32. The client had a bilateral adrenalectomy for Cushing's disease and is prescribed the glucocorticoid prednisone. Which statement indicates to the nurse the client understands the discharge teaching?",
+    "options": {
+      "A": "“When I quit taking my medication I will have to taper it off.”",
+      "B": "“I should stop taking the medication if I develop a round face.”",
+      "C": "“I should wear a Medic-Alert bracelet in case something happens.”",
+      "D": "“I must wear SPF 30 sunscreen while taking my medication.”"
+    },
+    "answer": "C",
+    "explanation": "This question tests understanding of the effects of bilateral adrenalectomy.\n\nWhy C is the Correct Answer: The client now requires lifelong steroid replacement. In emergencies, lack of cortisol can cause Addisonian crisis. A Medic-Alert bracelet ensures emergency responders know the client needs steroids.\n\nWhy A is Incorrect: The client should never stop steroid therapy. Tapering applies to temporary steroid users, not lifelong cases.\n\nWhy B is Incorrect: Moon face is a side effect, but stopping steroids abruptly is dangerous.\n\nWhy D is Incorrect: Sunscreen is good advice, but not the most critical discharge teaching.",
+    "additional": "1. Steroid Replacement Therapy (3 S’s):\n* Stress: May need increased doses during illness/stress.\n* Salt: Monitor fluid retention and BP.\n* Sugar: Monitor for hyperglycemia.\n\n2. Sick Day Rules:\n* Never stop steroids abruptly.\n* Increase dose if sick.\n* Seek help if unable to take meds orally."
+  },
+  {
+    "question": "33. The emergency department nurse is caring for a female client in an addisonian crisis. Which intervention should the nurse implement first?",
+    "options": {
+      "A": "Monitor the client's potassium and sodium level.",
+      "B": "Administer methylprednisolone (Solu-Medrol) intravenous (IV).",
+      "C": "Monitor the client's intravenous infusion site.",
+      "D": "Ask the client what medications she is currently taking."
+    },
+    "answer": "B",
+    "explanation": "This question identifies the priority in a life-threatening emergency.\n\nWhy B is the Correct Answer: Addisonian crisis = acute adrenal insufficiency → low cortisol → shock. Immediate IV glucocorticoid administration is life-saving and corrects the underlying issue.\n\nWhy A is Incorrect: Electrolyte monitoring is important, but secondary.\n\nWhy C is Incorrect: Routine IV site checks are necessary, but not priority.\n\nWhy D is Incorrect: Medication history is helpful but should not delay treatment.",
+    "additional": "1. Addisonian Crisis Management:\n1. IV Normal Saline or D5NS rapidly\n2. Administer high-dose IV hydrocortisone\n3. Monitor VS, glucose, electrolytes\n4. Identify and treat underlying cause (e.g., infection, stress)"
+  },
+  {
+    "question": "34. The female client has been taking levothyroxine (Synthroid), a thyroid hormone, for a year. Which data would indicate to the nurse the medication is effective?",
+    "options": {
+      "A": "The client has lost 10 lb in the last year.",
+      "B": "The client is complaining of being nervous.",
+      "C": "The client's oral temperature is 96.3°F.",
+      "D": "The client denies having hot flashes."
+    },
+    "answer": "A",
+    "explanation": "This question requires you to identify improved symptoms of hypothyroidism.\n\nWhy A is the Correct Answer: Hypothyroidism slows metabolism, causing weight gain. Levothyroxine boosts metabolism. Weight loss indicates treatment is effective.\n\nWhy B is Incorrect: Nervousness suggests hyperthyroidism or too high a dose.\n\nWhy C is Incorrect: A low temperature indicates hypothyroidism still persists.\n\nWhy D is Incorrect: Hot flashes are unrelated to thyroid function; not a reliable sign of drug effectiveness.",
+    "additional": "1. Hypothyroidism vs. Hyperthyroidism:\n* Hypo (SLOW): Fatigue, weight gain, cold intolerance\n* Hyper (FAST): Anxiety, weight loss, heat intolerance\n\n2. Levothyroxine Teaching:\n* Take in the morning on empty stomach\n* Lifelong medication\n* Takes weeks for effect\n* Report signs of over/under-treatment"
+  },
+  {
+    "question": "35. The client diagnosed with hyperthyroidism is prescribed an antithyroid medication and is being seen in the clinic. Which question should the nurse ask the client?",
+    "options": {
+      "A": "“Do you have any trouble urinating since taking this medication?”",
+      "B": "“Have you developed any stretch marks on your abdomen?”",
+      "C": "“Have you experienced any burping after eating a large meal?”",
+      "D": "“Do you ever see people or things other people do not see?”"
+    },
+    "answer": "D",
+    "explanation": "This question identifies neuropsychiatric symptoms of thyroid dysfunction.\n\nWhy D is the Correct Answer: Hyperthyroidism overstimulates the CNS. Severe cases can lead to hallucinations. Antithyroid drugs reduce hormone levels. The question helps assess treatment effectiveness.\n\nWhy A is Incorrect: Urinary symptoms aren’t linked to hyperthyroidism or its treatment.\n\nWhy B is Incorrect: Stretch marks are signs of Cushing’s, not hyperthyroidism.\n\nWhy C is Incorrect: Burping is a general GI issue, not relevant to hyperthyroidism.",
+    "additional": "1. Antithyroid Medications:\n* Methimazole, Propylthiouracil (PTU)\n* Mechanism: Inhibit thyroid hormone synthesis\n* Key Adverse Effect: Agranulocytosis – report sore throat or fever\n* PTU: Also risk of liver damage\n\n2. Thyroid Storm Signs:\n* High fever, agitation, tachycardia, delirium\n* Treat with antithyroid meds, beta-blockers, cooling, IV fluids"
+  },
+  {
+    "question": "36. The client in end-stage renal disease (ERSD) is taking calcitriol, a vitamin D analogue. Which client assessment data would warrant intervention by the nurse concerning this medication?",
+    "options": {
+      "A": "Increased visual acuity.",
+      "B": "Hematuria.",
+      "C": "Increased bone density.",
+      "D": "Steatorrhea."
+    },
+    "answer": "B",
+    "explanation": "This question tests your knowledge of calcitriol's adverse effects.\n\nWhy B is the Correct Answer: Calcitriol helps increase calcium absorption to treat hypocalcemia in ESRD. However, it may cause hypercalcemia, leading to kidney stones. Hematuria (blood in the urine) can indicate nephrolithiasis and warrants immediate intervention.\n\nWhy A is Incorrect: No link exists between calcitriol and visual acuity.\n\nWhy C is Incorrect: Increased bone density is a desired effect.\n\nWhy D is Incorrect: Steatorrhea relates to fat malabsorption, not calcitriol use.",
+    "additional": "1. Renal Osteodystrophy Pathophysiology:\n* ERSD patients can't activate vitamin D → low calcium → secondary hyperparathyroidism → bone loss\n* Calcitriol helps break this cycle.\n\n2. Hypercalcemia Symptoms (\"Groans, Moans, Bones, Stones, Overtones\"):\n* Groans: Constipation\n* Moans: Fatigue, lethargy\n* Bones: Pain\n* Stones: Kidney stones\n* Overtones: Depression, confusion"
+  },
+  {
+    "question": "37. The nurse observes the unlicensed assistive personnel (UAP) performing delegated tasks. Which action by the UAP requires immediate intervention?",
+    "options": {
+      "A": "The UAP tells the client whose urine is green that the nurse said this was normal because of one of the medications.",
+      "B": "The UAP tells the client to talk to the primary nurse about a medication concern.",
+      "C": "The UAP provides a bedside commode for a client receiving a loop diuretic.",
+      "D": "The UAP increases the continuous bladder irrigation (CBI) for the client with a transurethral resection of the prostate."
+    },
+    "answer": "D",
+    "explanation": "This is a delegation and scope-of-practice question.\n\nWhy D is the Correct Answer: Adjusting CBI requires nursing judgment based on urine color and clotting. A UAP should never change the CBI rate, as it can be unsafe and is outside their scope.\n\nWhy A is Incorrect: Reinforcing prior nurse instruction is appropriate.\n\nWhy B is Incorrect: Directing the client to the nurse for medication questions is correct.\n\nWhy C is Incorrect: Providing toileting assistance is within UAP duties, especially for diuretic users.",
+    "additional": "1. 5 Rights of Delegation:\n* Right Task, Circumstance, Person, Direction, Supervision\n\n2. What Nurses Cannot Delegate – T.A.P.E.S:\n* Teaching, Assessment, Planning, Evaluation, Specialty skills\n\nCBI adjustments require clinical judgment and monitoring → nurse responsibility."
+  },
+  {
+    "question": "38. The male client diagnosed with complaints of urinary frequency, terminal dribbling, and nocturia tells the nurse he is taking the herbal supplement saw palmetto. Which intervention should the nurse implement?",
+    "options": {
+      "A": "Recommend the client talk to his HCP to change his medication.",
+      "B": "Teach the client to drink lots of fluid when taking this herb.",
+      "C": "Take no action because this herb helps shrink the prostate tissue.",
+      "D": "Ask the client why he started taking the herb saw palmetto."
+    },
+    "answer": "C",
+    "explanation": "This is about herbal supplement use and nurse response.\n\nWhy C is the Correct Answer: Saw palmetto is used to manage BPH symptoms (e.g., dribbling, nocturia). It is appropriate for the client’s symptoms. No corrective action is needed.\n\nWhy A is Incorrect: There’s no prescribed medication to change. The client is using an OTC supplement.\n\nWhy B is Incorrect: No special fluid requirements exist for saw palmetto.\n\nWhy D is Incorrect: While history-taking is good, the best answer reflects current safe practice—the herb is appropriate.",
+    "additional": "1. Common Herbs for NCK:\n* Saw Palmetto – BPH\n* Ginkgo, Ginseng, Garlic – ↑ Bleeding risk\n* St. John’s Wort – Depression, ↓ drug effectiveness, ↑ serotonin syndrome risk\n\n2. Always assess herbal use during medication history for interactions."
+  },
+  {
+    "question": "39. The client with renal calculi was prescribed allopurinol (Zyloprim) for uric acid stones. Which statement indicates the client understands the teaching?",
+    "options": {
+      "A": "“I should have at least 8 ounces of milk with my pill.”",
+      "B": "“I drink at least eight glasses of water a day.”",
+      "C": "“My joints ache so I take a couple of aspirins.”",
+      "D": "“I really enjoy a glass of wine with my evening meal.”"
+    },
+    "answer": "B",
+    "explanation": "This question checks for correct client understanding of allopurinol use.\n\nWhy B is the Correct Answer: Allopurinol reduces uric acid levels. Drinking plenty of water (2–3 L/day) helps prevent uric acid stone formation. High fluid intake keeps urine dilute.\n\nWhy A is Incorrect: Milk isn’t contraindicated, but it’s not required or therapeutic.\n\nWhy C is Incorrect: Aspirin can worsen uric acid levels. Acetaminophen is safer for pain.\n\nWhy D is Incorrect: Alcohol is high in purines and may increase uric acid → avoid.",
+    "additional": "1. Allopurinol Facts:\n* Prevents uric acid production\n* For gout prevention and uric acid stones (not for acute gout attacks)\n* Rash = report immediately (risk of Stevens-Johnson Syndrome)\n\n2. Low-Purine Diet:\n* Avoid organ meats, red meat, seafood, beer/wine"
+  },
+  {
+    "question": "40. The client diagnosed with rule-out renal calculi is scheduled for an intravenous dye pyelogram (IVP). Which intervention should the nurse implement?",
+    "options": {
+      "A": "Determine if the client has allergies to iodine.",
+      "B": "Check the client's liver function studies.",
+      "C": "Keep the client NPO after midnight.",
+      "D": "Insert an indwelling urinary catheter."
+    },
+    "answer": "A",
+    "explanation": "This question is about pre-procedure safety.\n\nWhy A is the Correct Answer: IVP uses iodine-based contrast. Allergy to iodine or shellfish must be checked beforehand to prevent anaphylaxis.\n\nWhy B is Incorrect: Contrast dye is excreted renally; liver enzymes are not a priority.\n\nWhy C is Incorrect: NPO status varies; allergy risk outweighs this consideration.\n\nWhy D is Incorrect: An indwelling catheter is not standard for IVP. Voiding pre-procedure is sufficient.",
+    "additional": "1. Contrast Safety – NCK Key Points:\n* Check for iodine/shellfish allergy\n* Hold metformin before and after IV contrast\n* Ensure hydration to prevent nephropathy\n\n2. CIN (Contrast-Induced Nephropathy):\n* Risk ↑ with pre-existing renal issues, dehydration, NSAID use\n* Monitor BUN/Creatinine\n* Hydrate well pre/post procedure"
+  },
+  {
+    "question": "41. The client is receiving an intravenous infusion of heparin. The hanging bag has 20,000 units of heparin in 500 mL of D5W at 25 mL/hr. How much heparin has infused during the 12-hour shift?",
+    "options": {
+      "A": "12,000 units",
+      "B": "10,000 units",
+      "C": "6,000 units",
+      "D": "15,000 units"
+    },
+    "answer": "A",
+    "explanation": "This question tests heparin dose calculation.\n\nStep-by-step:\n1. Concentration: 20,000 units / 500 mL = 40 units/mL\n2. Hourly dose: 40 units/mL × 25 mL/hr = 1000 units/hr\n3. Total dose over 12 hrs: 1000 units/hr × 12 hrs = 12,000 units",
+    "additional": "1. NCK Dosage Calculation Topics:\n* IV rate (mL/hr, gtts/min)\n* Weight-based dose (mg/kg)\n* Total dose over time\n* Dimensional analysis is crucial for accuracy\n\n2. Heparin-Induced Thrombocytopenia (HIT):\n* Immune reaction → low platelets + clot risk\n* Monitor platelet counts; stop heparin if drop >50% from baseline"
+  },
+  {
+    "question": "42. The nurse is teaching the client the correct use of a metered-dose inhaler. Which intervention should the nurse implement?",
+    "options": {
+      "A": "Instruct the client to push the canister while exhaling.",
+      "B": "Explain the need to wait 1 minute before taking a second puff of medication.",
+      "C": "Teach the client to rinse the mouth with an alcohol-based mouthwash.",
+      "D": "Tell the client to take two quick puffs of the inhaler, then exhale."
+    },
+    "answer": "B",
+    "explanation": "This question evaluates inhaler technique education.\n\nWhy B is Correct: Waiting 1 minute allows the first puff to open airways so the second dose reaches deeper lung tissue.\n\nWhy A is Incorrect: The inhaler should be activated while inhaling, not exhaling.\n\nWhy C is Incorrect: Use water, not alcohol-based mouthwash. Alcohol may irritate mucosa.\n\nWhy D is Incorrect: Inhalation should be slow and deep, not quick.",
+    "additional": "1. MDI Steps:\n* Shake\n* Exhale fully\n* Inhale slowly while pressing canister\n* Hold breath 10 seconds\n* Wait 1 min between puffs\n\n2. Use of Spacer:\n* Improves med delivery, reduces oral thrush risk (especially in corticosteroid use)\n* Helpful for children and older adults"
+  },
+  {
+    "question": "43. The primary nurse is at the bedside and is preparing to administer 3 mL of medication into the ventrogluteal muscle. Which action should the charge nurse take?",
+    "options": {
+      "A": "Take no action as this is an acceptable standard of practice.",
+      "B": "Ask the primary nurse to come to the nurse's station.",
+      "C": "Tell the nurse to inject the medication into the deltoid muscle.",
+      "D": "Complete an occurrence report documenting the behavior."
+    },
+    "answer": "A",
+    "explanation": "This question addresses proper IM injection sites and volumes.\n\nWhy A is Correct: The ventrogluteal site is safe and recommended for volumes up to 3–4 mL. No intervention needed.\n\nWhy B is Incorrect: There's no problem requiring a discussion.\n\nWhy C is Incorrect: The deltoid is used for ≤1 mL; injecting 3 mL there could cause damage.\n\nWhy D is Incorrect: No error occurred; documentation is unnecessary.",
+    "additional": "1. IM Injection Sites:\n* Ventrogluteal: Preferred for adults, 3–4 mL\n* Vastus Lateralis: Good for adults and children, 3 mL\n* Deltoid: Max 1 mL\n* Dorsogluteal: Not recommended (sciatic nerve risk)\n\n2. Landmarks for Ventrogluteal:\n* Hand on greater trochanter\n* Index to anterior superior iliac spine\n* Middle finger along iliac crest → inject in V formed"
+  },
+  {
+    "question": "44. Which action by the primary nurse warrants intervention by the charge nurse?",
+    "options": {
+      "A": "The charge nurse observes the primary nurse disposing of a used needle at the client's bedside.",
+      "B": "The charge nurse observes the primary nurse using two methods to identify the client who is receiving medications.",
+      "C": "The charge nurse observes the primary nurse wasting narcotic medications without a second nurse verifying the waste.",
+      "D": "The charge nurse observes the primary nurse documenting the removal of morphine from the narcotic box."
+    },
+    "answer": "C",
+    "explanation": "This question focuses on safe narcotic handling.\n\nWhy C is Correct: Narcotics must be wasted in the presence of a second licensed nurse. Solo wasting violates safety policy and opens risk of diversion.\n\nWhy A is Incorrect: Proper disposal in bedside sharps container is safe practice.\n\nWhy B is Incorrect: Using two identifiers is required and correct.\n\nWhy D is Incorrect: Narcotic removal must be documented; this is proper protocol.",
+    "additional": "1. Controlled Drug Handling:\n* Double nurse witness required for wasting\n* Accurate documentation essential\n* Secure storage and inventory control\n\n2. Impaired Nurse Warning Signs:\n* Client reports of no relief\n* Narcotic count discrepancies\n* Frequent disappearance from unit\n* Duty: Report to supervisor—not direct confrontation"
+  },
+  {
+    "question": "45. The male client tells the nurse he is starting to itch, and the nurse notes a red rash over the client's body, and he is scratching himself. Which action should the nurse implement first?",
+    "options": {
+      "A": "Assess the client's fingernails for length.",
+      "B": "Notify the HCP immediately.",
+      "C": "Prepare to administer diphenhydramine (Benadryl), an antihistamine.",
+      "D": "Check the client's medication administration record (MAR) for medication taken."
+    },
+    "answer": "D",
+    "explanation": "This question applies the nursing process to an acute allergic symptom.\n\nWhy D is Correct: First step is assessment → check MAR for recent meds to identify possible allergic cause. This guides next steps.\n\nWhy A is Incorrect: Nail length is a minor issue.\n\nWhy B & C are Incorrect: Interventions come *after* assessment. Provider will ask, “What med was given?”",
+    "additional": "1. ADPIE Nursing Process:\n* A = Assessment (first)\n* D = Diagnosis\n* P = Planning\n* I = Implementation\n* E = Evaluation\n\n2. Anaphylaxis Monitoring:\n* Early signs: Itching, rash\n* Severe signs: Stridor, wheezing, hypotension, lip/tongue swelling\n* If severe → immediate IM epinephrine is priority"
+  },
+  {
+    "question": "47. The nurse is preparing to administer medication via a nasogastric tube. Which intervention should the nurse implement first?",
+    "options": {
+      "A": "Assess and verify tube placement.",
+      "B": "Check the client's residual volume.",
+      "C": "Flush the tubing with water.",
+      "D": "Pour medication into the syringe barrel."
+    },
+    "answer": "A",
+    "explanation": "The first and most important action is to verify NG tube placement before administering anything.\n\nWhy A is Correct: Misplaced NG tubes may enter the airway, risking fatal aspiration. Placement confirmation is the priority.\n\nWhy B, C, D are Incorrect: These steps come after confirming placement. Checking residual doesn't prove placement, and flushing/instilling meds into a misplaced tube is dangerous.",
+    "additional": "1. Placement Verification Methods:\n* X-ray for initial confirmation\n* Bedside: aspirate gastric contents, check pH (≤5.5), inspect appearance, measure external length\n* Do not rely on 'air whoosh' test\n2. NCK will test safe medication and feeding protocols via NG tubes"
+  },
+  {
+    "question": "48. The nurse is preparing to administer dopamine, a beta and alpha agonist, to the client in cardiogenic shock. Which intervention should the nurse implement?",
+    "options": {
+      "A": "Administer in the distal port of the central line only.",
+      "B": "Assess the blood pressure (BP) every 4 hours.",
+      "C": "Evaluate the intake and output every hour.",
+      "D": "Check the client's pulse oximeter reading."
+    },
+    "answer": "C",
+    "explanation": "Why C is Correct: Low-dose dopamine increases renal perfusion, so hourly urine output monitoring helps determine effectiveness. This is crucial in cardiogenic shock.\n\nWhy A is Incorrect: Central lines are preferred for dopamine, but 'distal port only' is not necessary.\n\nWhy B is Incorrect: BP must be monitored much more frequently in shock—every 5-15 minutes or continuously.\n\nWhy D is Incorrect: Oxygen saturation doesn’t directly indicate dopamine effectiveness (perfusion).",
+    "additional": "1. Dopamine Dose Effects:\n* Low (1–5 mcg/kg/min): Renal perfusion ↑\n* Moderate (5–10): ↑ HR, contractility\n* High (>10): Vasoconstriction ↑ BP\n2. Nursing Care:\n* Use infusion pump\n* Monitor site for extravasation (phentolamine is antidote)\n* Watch for arrhythmias, cold extremities"
+  },
+  {
+    "question": "49. The Department of Homeland Security has issued a warning of suspected biological warfare using the anthrax bacillus to the skin. Which sign and symptoms would support the initial diagnosis of anthrax?",
+    "options": {
+      "A": "Pruritus, ulcerative macules, and edema.",
+      "B": "Fever, chills, headache, and malaise.",
+      "C": "Nausea, vomiting, diarrhea, and fatigue.",
+      "D": "Petechiae, ecchymosis, and dyspnea."
+    },
+    "answer": "A",
+    "explanation": "Why A is Correct: Cutaneous anthrax starts as itchy papules → ulcer → painless black eschar with surrounding edema. Classic presentation.\n\nWhy B is Incorrect: These are nonspecific systemic symptoms (flu-like), not specific to skin anthrax.\n\nWhy C is Incorrect: GI anthrax symptoms, not skin.\n\nWhy D is Incorrect: More indicative of bleeding disorders or inhalation anthrax (late stage), not early skin form.",
+    "additional": "1. Anthrax Types:\n* Cutaneous: Common, black eschar\n* Inhalation: Deadly, flu → shock\n* GI: Rare, from infected meat\n2. Treatment:\n* Ciprofloxacin or doxycycline\n* Cutaneous: Standard precautions unless wound is draining\n* Inhalation: Not contagious"
+  },
+  {
+    "question": "50. The client in a code has the following arterial blood gases (ABGs): pH 7.31, PaO2 60, PaCO2 58, HCO3 19. Which medication should the nurse prepare to administer to the client?",
+    "options": {
+      "A": "Dopamine, a vasopressor medication.",
+      "B": "Oxygen via nasal cannula at 2 L/min.",
+      "C": "Calcium gluconate, an electrolyte replacement.",
+      "D": "Sodium bicarbonate, an alkalinizing agent."
+    },
+    "answer": "D",
+    "explanation": "Why D is Correct: ABG shows mixed acidosis (low pH, high CO2, low HCO3). Sodium bicarbonate is used to buffer acid in severe metabolic acidosis, especially during cardiac arrest.\n\nWhy A is Incorrect: Dopamine treats low BP but doesn't correct acidosis.\n\nWhy B is Incorrect: In a code, nasal cannula is inadequate—manual ventilation is used.\n\nWhy C is Incorrect: Calcium gluconate treats hyperkalemia/hypocalcemia—not acidosis.",
+    "additional": "1. ABG Interpretation (ROME):\n* Respiratory Opposite (pH ↓, PaCO2 ↑ = respiratory acidosis)\n* Metabolic Equal (pH ↓, HCO3 ↓ = metabolic acidosis)\n2. Sodium Bicarbonate:\n* Use for mixed/severe acidosis\n* Not routinely used in codes unless specific indications\n* NCK may test on classic emergency drug use"
+  },
+  {
+    "question": "51. The occupational health nurse of a chemical manufacturing plant is called to the scene where a worker has passed out in an enclosed garage while mixing some chemicals. Which action should the nurse implement first?",
+    "options": {
+      "A": "Have the supervisor ventilate the area.",
+      "B": "Assess the client for breathing.",
+      "C": "Call the poison control hotline.",
+      "D": "Activate the emergency response system, 911."
+    },
+    "answer": "A",
+    "explanation": "Scene safety always comes first in emergency response. Since the worker collapsed in an enclosed space while mixing chemicals, toxic fumes are suspected. Ventilating the area reduces the risk to rescuers. The nurse cannot assess the client or call for help from inside the toxic environment until it is made safe.",
+    "additional": "1. Emergency Response Protocol (3 S’s): Scene Safety, Shout for Help, Survey Victim\n2. Carbon Monoxide (CO) and chemical fumes can cause unconsciousness.\n* Key Signs: May include cherry-red skin (late), unreliable pulse ox readings.\n* Treatment: High-flow oxygen via non-rebreather.\n* Scene safety is essential to prevent more victims, including rescuers."
+  },
+  {
+    "question": "52. Which medication should the nurse administer first to the client experiencing a cardiac arrest?",
+    "options": {
+      "A": "Amiodarone (Cordarone).",
+      "B": "Epinephrine, a sympathomimetic.",
+      "C": "Lidocaine, an antidysrhythmic.",
+      "D": "Atropine, an antidysrhythmic."
+    },
+    "answer": "B",
+    "explanation": "Epinephrine is the first-line drug in all cardiac arrest algorithms (PEA, asystole, V-fib, pulseless VT). It improves coronary perfusion via vasoconstriction, enhancing the chance of ROSC. Amiodarone and lidocaine are used later if rhythms persist. Atropine is only for symptomatic bradycardia, not cardiac arrest.",
+    "additional": "1. ACLS Sequence (Shockable Rhythms): CPR → Shock → Epinephrine → Shock → Amiodarone/Lidocaine\n2. Routes: IV, IO preferred. ET route last-resort. ET Drugs = NAVEL (Naloxone, Atropine, Vasopressin, Epinephrine, Lidocaine)"
+  },
+  {
+    "question": "53. The client who was raped is offered the medications mifepristone (RU 486), a birth control pill, and misoprostol (Cytotec), a prostaglandin. Which statement indicates to the emergency department nurse the client understands the reason for taking this medication?",
+    "options": {
+      "A": "I am so glad I won't get AIDS if I take this medication for 2 weeks.",
+      "B": "I hope these medications will help me calm down and deal with the rape.",
+      "C": "These medications will keep me from getting pregnant by that awful man.",
+      "D": "Taking these medications will help the soreness in my vaginal area."
+    },
+    "answer": "C",
+    "explanation": "Mifepristone and misoprostol are used for early medical abortion. This statement shows the client understands the goal: prevent pregnancy. They do not treat STIs, emotional trauma, or soreness. Other medications and counseling address those needs.",
+    "additional": "1. Emergency Care After Sexual Assault:\n* STI prophylaxis, emergency contraception, and HIV PEP\n* Forensic evidence collection (with consent)\n* Emotional and psychological support\n2. Kenya (NCK) Relevance: Nurses must obtain consent, explain meds clearly, and offer emotional support and follow-up."
+  },
+  {
+    "question": "54. The male client is diagnosed with low back pain and is prescribed the muscle relaxant carisoprodol (Soma). Which priority intervention should the occupational health nurse implement with the client?",
+    "options": {
+      "A": "Determine if the client is taking the medication while working.",
+      "B": "Ensure the client does not operate heavy machinery while on duty.",
+      "C": "Tell the client to have someone drive him to work if he is taking the medication.",
+      "D": "Inform the supervisor that the client is taking this medication."
+    },
+    "answer": "B",
+    "explanation": "Carisoprodol causes CNS depression—drowsiness, dizziness, sedation. The top priority in occupational health is preventing workplace injury. Heavy machinery and sedatives are a dangerous combination. This is more urgent than determining use, advising about driving, or breaching confidentiality.",
+    "additional": "1. Muscle Relaxants (Soma, Flexeril, Robaxin):\n* Side effects: Sedation, dizziness, impaired coordination\n* Avoid: Alcohol, operating machinery, driving\n2. Confidentiality: Nurses cannot inform supervisors without client consent unless it's a workplace safety crisis"
+  },
+  {
+    "question": "55. The nurse is administering medications to clients on an orthopedic unit. Which medication should the nurse question?",
+    "options": {
+      "A": "Ibuprofen (Motrin), a nonsteroidal anti-inflammatory drug (NSAID), to a client with back pain and a history of asthma.",
+      "B": "Morphine, an opioid analgesic, to a client with a back pain of 2 on the 1–10 pain scale.",
+      "C": "Methocarbamol (Robaxin), a muscle relaxant, to a client with chronic back pain.",
+      "D": "Propoxyphene (Darvon N), a narcotic agonist, to a client with knee surgery."
+    },
+    "answer": "B",
+    "explanation": "Morphine is too strong for a mild pain score of 2/10. Following the WHO analgesic ladder, non-opioids (like paracetamol or ibuprofen) should be used for mild pain. Over-prescribing opioids increases risks such as sedation, addiction, and respiratory depression.",
+    "additional": "1. WHO Analgesic Ladder:\n* Step 1: Mild pain → NSAIDs, paracetamol\n* Step 2: Moderate pain → Weak opioids + non-opioids\n* Step 3: Severe pain → Strong opioids\n2. NCK Focus:\n* Assess pain objectively and match analgesic strength\n* Avoid misuse of opioids, especially in mild pain\n* Watch for NSAID-induced asthma only if client has history of aspirin sensitivity (Samter’s Triad)"
+  },
+  {
+    "question": "56. The client diagnosed with arterial hypertension develops a cold. Which statement indicates the client understands the medication teaching?",
+    "options": {
+      "A": "I need to be careful when purchasing cold medications over the counter.",
+      "B": "I must get a prescription from the HCP when I get a cold.",
+      "C": "I can take any cold medication as long as I check my blood pressure.",
+      "D": "I should limit my fluid intake when taking cold medications."
+    },
+    "answer": "A",
+    "explanation": "Many over-the-counter (OTC) cold medications contain decongestants such as pseudoephedrine or phenylephrine, which can cause vasoconstriction and elevate blood pressure. This is dangerous for clients with hypertension. The correct understanding is to be cautious with OTC purchases and to avoid medications that contain these ingredients.",
+    "additional": "1. OTC + Chronic Conditions:\n* Hypertension: Avoid decongestants; caution with NSAIDs.\n* Diabetes: Choose sugar-free medications.\n* Glaucoma: Avoid certain decongestants and antihistamines.\n2. Nursing Role: Assess OTC/herbal drug use and educate about hidden risks."
+  },
+  {
+    "question": "57. The client diagnosed with chronic obstructive pulmonary disease (COPD) is prescribed methylprednisolone (Solu-Medrol), a glucocorticoid, IVP. Which assessment data would warrant immediate intervention?",
+    "options": {
+      "A": "The client has a moon face.",
+      "B": "The client's glucose level is 168 mg/dL.",
+      "C": "The client has rusty-colored sputum.",
+      "D": "The client's creatinine level 0.8 nmol/L."
+    },
+    "answer": "C",
+    "explanation": "Rusty-colored sputum may indicate pneumococcal pneumonia. Steroids suppress immune response, potentially masking infections. A new sign of infection while on corticosteroids is serious and warrants immediate action.",
+    "additional": "1. CUSHINGOID Side Effects of Steroids: Cataracts, Ulcers, Skin changes, Hypertension, Immunosuppression, Glucose elevation, Osteoporosis, Depression\n2. COPD Exacerbation Treatment: Bronchodilators + Steroids + Antibiotics (if infection suspected)"
+  },
+  {
+    "question": "58. The client admitted for an acute exacerbation of reactive airway disease is receiving intravenous aminophylline. The client's serum theophylline level is 10 mcg/mL. Which action should the nurse implement?",
+    "options": {
+      "A": "Assess the client for nausea and restlessness.",
+      "B": "Continue to monitor the aminophylline drip.",
+      "C": "Discontinue the aminophylline drip.",
+      "D": "Notify the HCP immediately."
+    },
+    "answer": "B",
+    "explanation": "Theophylline's therapeutic range is 10–20 mcg/mL. A level of 10 is the lower limit of therapeutic and indicates the drug is safe to continue while monitoring. No toxicity symptoms are present.",
+    "additional": "1. Theophylline/Aminophylline:\n* Narrow therapeutic index\n* Toxicity: Nausea, vomiting, seizures, arrhythmias\n* Monitor drug levels closely\n* Drug interactions: Cimetidine, ciprofloxacin ↑ levels"
+  },
+  {
+    "question": "59. The client with chronic reactive airway disease is taking the leukotriene receptor inhibitor montelukast (Singulair). Which statement indicates the client understands the medication teaching?",
+    "options": {
+      "A": "I will take two puffs of my Singulair every 4 hours.",
+      "B": "I will notify my HCP if I get any type of headache.",
+      "C": "I should take a drug holiday every 2 weeks and skip a dose.",
+      "D": "This medication will not help me when I have an asthma attack."
+    },
+    "answer": "D",
+    "explanation": "Montelukast is a long-term controller medication, not a rescue drug. It prevents future asthma attacks but offers no relief during acute symptoms. Clients must continue using a separate rescue inhaler (like albuterol) for immediate relief.",
+    "additional": "1. Asthma Drug Types:\n* RESCUE: Albuterol (SABA)\n* CONTROL: Montelukast, Inhaled corticosteroids, LABAs (with steroid)\n2. Montelukast Info:\n* Taken once daily at night\n* Watch for neuropsychiatric effects (e.g., suicidal ideation)"
+  },
+  {
+    "question": "60. The nurse is preparing to administer the following medications. Which client would the nurse question receiving the medication?",
+    "options": {
+      "A": "The client receiving digoxin (Lanoxin) who has a digoxin level of 1.2 ng/mL.",
+      "B": "The client receiving intravenous heparin who has a partial prothrombin time (PTT) of 82 seconds.",
+      "C": "The client receiving phenytoin (Dilantin) who has a Dilantin level of 18 mg/dL.",
+      "D": "The client receiving valproic acid (Depakote) who has a Depakote level of 75 mg/dL."
+    },
+    "answer": "B",
+    "explanation": "A PTT of 82 seconds is higher than the typical therapeutic range for a client on IV heparin (45–75 seconds). This indicates an increased risk for bleeding. The nurse should question the order and notify the HCP.",
+    "additional": "1. Therapeutic Drug Levels:\n* Digoxin: 0.8–2.0 ng/mL\n* Phenytoin: 10–20 mcg/mL\n* Valproic Acid: 50–100 mcg/mL\n* Heparin: PTT 1.5–2.5× normal (≈ 45–75 sec)\n2. Antidotes:\n* Heparin → Protamine sulfate\n* Warfarin → Vitamin K\n3. Valproate risks: Hepatotoxicity, Pancreatitis, Thrombocytopenia, Teratogenicity"
+  },
+  {
+    "question": "61. The nurse admitted a client diagnosed with pneumonia 4 hours ago. The admission orders read \"cefazolin (Ancef) IVPB every 6 hours.\" Which data would warrant notifying the HCP?",
+    "options": {
+      "A": "The client is unable to provide a sputum specimen.",
+      "B": "The client is allergic to the antibiotic penicillin.",
+      "C": "The client's fragile veins warranted placing a 22-gauge IV catheter.",
+      "D": "The client's white blood cell count is 18,000/mm³."
+    },
+    "answer": "B",
+    "explanation": "Cefazolin is a cephalosporin, and there is a risk of cross-reactivity in clients with a penicillin allergy. While the risk is low, a history of severe allergic reactions to penicillin could lead to serious complications if cefazolin is administered. The HCP must be notified to evaluate the appropriateness of the order.",
+    "additional": "1. Beta-lactam antibiotics (penicillins, cephalosporins, carbapenems, monobactams) can share cross-reactivity.\n2. Nursing Action: Always assess allergy history and clarify the nature of past reactions. Notify HCP before giving related drugs."
+  },
+  {
+    "question": "62. The client who is a Jehovah's Witness is prescribed erythropoietin (Procrit), a biological response modifier. Prior to administering the first dose of medication, which intervention should the nurse implement?",
+    "options": {
+      "A": "Question the order on religious grounds.",
+      "B": "Have the client sign an informed consent.",
+      "C": "Check the client's white blood cell count.",
+      "D": "Assess the client's blood pressure."
+    },
+    "answer": "D",
+    "explanation": "Erythropoietin increases red blood cell production, which raises blood viscosity and can lead to hypertension. Blood pressure should be assessed before giving the drug to avoid complications such as stroke or myocardial infarction.",
+    "additional": "1. Jehovah's Witnesses usually accept erythropoietin because it is not a blood product.\n2. Side effects: Hypertension, thrombosis.\n3. Requires adequate iron, folic acid, and B12 for effectiveness."
+  },
+  {
+    "question": "63. The oncology nurse is preparing to administer the morning medications. Which biological response modifier would the nurse question?",
+    "options": {
+      "A": "Oprelvekin (Neumega) to the client with a platelet count of 50,000 mm³.",
+      "B": "Filgrastim (Neupogen) to a client with a white blood cell count of 1000 mm³.",
+      "C": "Pegfilgrastim (Neulasta) to a client with a white blood cell count of 9,000 mm³.",
+      "D": "Darbepoetin (Aranesp) to a client with a red blood cell count of 6,000,000 mm³."
+    },
+    "answer": "C",
+    "explanation": "Pegfilgrastim is used to treat or prevent neutropenia. A WBC count of 9,000/mm³ is normal, so administering it could lead to leukocytosis and unnecessary side effects like bone pain. Therefore, the nurse should question this order.",
+    "additional": "1. Hematopoietic Growth Factors:\n* RBCs → Erythropoietin, Darbepoetin\n* WBCs → Filgrastim, Pegfilgrastim\n* Platelets → Oprelvekin\n2. Common side effect: Bone pain with WBC stimulants."
+  },
+  {
+    "question": "64. The client has received chemotherapy every other day every 3 weeks for the last 8 months. The client's current lab values are hemoglobin and hematocrit (H&H) 12 g/dL and 39%, WBC 2200/mm³, neutrophils 50, and platelet count 100,000/mm³. Which information should the nurse teach the client?",
+    "options": {
+      "A": "Avoid individuals with colds or other infections.",
+      "B": "Maintain nutritional status with supplements.",
+      "C": "Plan for periods of rest to prevent fatigue.",
+      "D": "Use a soft-bristle toothbrush and electric razor."
+    },
+    "answer": "A",
+    "explanation": "The client is neutropenic (WBC 2200/mm³ and ANC ~1100), which increases the risk of infection. Infection prevention is the highest priority. Avoiding people with infections is a key teaching point to reduce exposure to pathogens.",
+    "additional": "1. Neutropenic Precautions:\n* Strict hygiene, private room, avoid sick contacts.\n* No raw fruits/vegetables or fresh flowers.\n2. Monitor for fever: Even a low-grade fever is critical.\n3. Platelet count of 100,000 suggests mild thrombocytopenia; bleeding precautions are secondary."
+  },
+  {
+    "question": "65. The client diagnosed with cancer has an implanted port for chemotherapy administration. Which statement indicates the client understands the teaching concerning care of the port?",
+    "options": {
+      "A": "I must flush my port every day with 10 mL of normal saline.",
+      "B": "I must carry a clamp with me at all times in case my catheter breaks.",
+      "C": "My nurse will flush my port after every chemotherapy treatment.",
+      "D": "My HCP will change my implanted port every month using a J-wire."
+    },
+    "answer": "C",
+    "explanation": "Implanted ports should be flushed after each use to maintain patency. If not accessed regularly, they should be flushed every 4–6 weeks. This statement accurately reflects proper port maintenance.",
+    "additional": "1. Implanted Ports:\n* Long-term use, lowest infection risk.\n* Accessed with a non-coring (Huber) needle.\n2. SASH flushing technique: Saline → Administer drug → Saline → Heparin.\n3. Use 10 mL syringe or larger to avoid damaging the catheter."
+  },
+  {
+    "question": "66. The 37-year-old client diagnosed with breast cancer is prescribed the anti-estrogen hormone tamoxifen (Nolvadex). Which statement indicates the client understands the medication teaching?",
+    "options": {
+      "A": "I should take this medication at night to reduce the side effects.",
+      "B": "I will have less chance of developing osteoporosis.",
+      "C": "I must see my gynecologist at least every 2 years.",
+      "D": "I may begin having hot flashes and difficulty sleeping."
+    },
+    "answer": "D",
+    "explanation": "Tamoxifen blocks estrogen receptors in breast tissue, causing menopausal symptoms like hot flashes and sleep disturbances. This is an expected and common side effect of therapy.",
+    "additional": "1. Risks: Thromboembolism, endometrial cancer (due to its estrogenic effect on the uterus).\n2. Teaching: Report abnormal vaginal bleeding immediately, and attend annual gynecological exams.\n3. Kenyan focus: Monitor for DVT signs and educate clients on cancer therapy symptom expectations."
+  },
+  {
+    "question": "67. The oncology nurse is administering a continuous infusion of doxorubicin (Adriamycin) over 24 hours. The medication is mixed in 1000 mL of normal saline. What rate should the nurse set the infusion pump?",
+    "options": {
+      "A": "25 mL/hr",
+      "B": "41 mL/hr",
+      "C": "50 mL/hr",
+      "D": "62 mL/hr"
+    },
+    "answer": "B",
+    "explanation": "Divide total volume (1000 mL) by time (24 hours): 1000 ÷ 24 = 41.666… mL/hr. Round to 41 or 42 mL/hr, depending on exam rounding rules. The correct IV pump rate is 41 mL/hr.",
+    "additional": "1. Doxorubicin is cardiotoxic; monitor ejection fraction via echo.\n2. Central line required (vesicant).\n3. Kenyan tip: Prepare client for red/orange urine and alopecia. Strictly track cumulative dosing."
+  },
+  {
+    "question": "68. A client with major depressive disorder who is taking sertraline (Zoloft) calls the clinic reporting confusion, restlessness, and fever. What is the nurse’s best intervention?",
+    "options": {
+      "A": "Instruct the client to stop taking the SSRI.",
+      "B": "Ask the client if she recently received the flu vaccine.",
+      "C": "Tell the client to take acetaminophen.",
+      "D": "Explain that these are expected side effects."
+    },
+    "answer": "A",
+    "explanation": "These symptoms indicate serotonin syndrome, a life-threatening condition. The nurse must instruct the client to stop the SSRI immediately and seek emergency care.",
+    "additional": "1. Serotonin Syndrome Mnemonic (SHIVERS): Shivering, Hyperreflexia, Increased temp, Vital sign instability, Encephalopathy, Restlessness, Sweating.\n2. Common causes: Combining SSRIs with MAOIs, St. John's Wort, or tramadol.\n3. Kenyan tip: Teach clients to report sudden agitation, fever, or tremors urgently."
+  },
+  {
+    "question": "69. The client was prescribed an antidepressant 4 weeks ago. Which statement indicates the medication is effective?",
+    "options": {
+      "A": "I went on a shopping spree last week and spent $1000.",
+      "B": "I am getting out of bed every day and working in the yard.",
+      "C": "I just don't have the energy to fix supper at night for my family.",
+      "D": "My doctor told me my drug level is within the therapeutic range."
+    },
+    "answer": "B",
+    "explanation": "Improved engagement in daily and pleasurable activities is a sign of therapeutic response in depression. Yard work suggests increased motivation and mood improvement.",
+    "additional": "1. Antidepressants take 4–6 weeks to show full effects.\n2. Warning: Clients under 25 may be at increased suicide risk early in therapy.\n3. Kenyan tip: Focus on behavioral change, not lab values, when evaluating antidepressant efficacy."
+  },
+  {
+    "question": "70. A male client diagnosed with bipolar disorder for 1 year has a lithium level of 0.4 mEq/L. What action should the nurse take first?",
+    "options": {
+      "A": "Instruct the client to continue taking the medication.",
+      "B": "Tell the client to increase fluid intake.",
+      "C": "Notify the client's HCP.",
+      "D": "Ask the client when and how he takes his medication."
+    },
+    "answer": "D",
+    "explanation": "Before intervening or contacting the HCP, the nurse must assess for medication adherence. A low lithium level may be due to the client missing doses.",
+    "additional": "1. Therapeutic range: 0.6–1.2 mEq/L. Below 0.6 is subtherapeutic.\n2. Sodium and hydration directly affect lithium levels.\n3. Kenyan tip: Reinforce medication adherence and daily routine. Avoid NSAIDs and diuretics, which can increase toxicity risk."
+  },
+  {
+    "question": "71. The nurse is admitting a client who reports taking valproic acid (Depakote), an anticonvulsant medication. Which question would be most important for the nurse to ask the client?",
+    "options": {
+      "A": "Have you ever had a migraine headache?",
+      "B": "When was the last time you had a seizure?",
+      "C": "Why are you taking Depakote?",
+      "D": "How long ago did you have a manic episode?"
+    },
+    "answer": "C",
+    "explanation": "This question tests your understanding that many medications have multiple, distinct indications for use. The nurse cannot make assumptions.\n\nWhy C is the Correct Answer: Valproic acid (Depakote) is a versatile medication with several FDA-approved uses. It is used as an anticonvulsant for seizure disorders, as a mood stabilizer for bipolar disorder (to treat manic episodes), and for the prophylaxis of migraine headaches. Because the medication has these different primary uses, the most important initial question is to determine the specific reason the client is taking it. This information is fundamental to the client's plan of care, as it directs the nurse's subsequent assessments and goals. The nurse should not assume the reason.\n\nWhy A, B, and D are Incorrect: These are all valid assessment questions, but they are based on an assumption about why the client is taking the drug. Asking about migraines (A), seizures (B), or manic episodes (D) are all appropriate follow-up questions after the nurse has first established the primary indication by asking the broader question in option C.",
+    "additional": "1. Poly-Indication Drugs: Be aware of other common drugs with multiple primary uses.\n* Gabapentin (Neurontin): Anticonvulsant and also used for neuropathic pain.\n* Propranolol (Inderal): A beta-blocker used for hypertension, angina, arrhythmias, and also for migraine prophylaxis and performance anxiety.\n* Amitriptyline (Elavil): A tricyclic antidepressant also used for neuropathic pain and insomnia.\n2. Valproic Acid (Depakote) Review:\n* Therapeutic Range: 50-100 mcg/mL.\n* Key Adverse Effects (CRITICAL for NCK):\n* Hepatotoxicity: Monitor LFTs.\n* Pancreatitis: Monitor for abdominal pain, nausea, vomiting.\n* Thrombocytopenia: Monitor CBC/platelet count.\n* Teratogenicity: A known teratogen (can cause birth defects)."
+  },
+  {
+    "question": "72. The client diagnosed with schizophrenia is prescribed risperidone (Risperdal), an atypical antipsychotic. Which medication teaching should the nurse discuss with the client?",
+    "options": {
+      "A": "Tell the client to avoid wine and yeast products.",
+      "B": "Instruct the client to change positions slowly.",
+      "C": "Encourage the client to drink eight glasses of water a day.",
+      "D": "Discuss the importance of decreasing salt in the diet."
+    },
+    "answer": "B",
+    "explanation": "This question focuses on a common and significant side effect of antipsychotic medications.\n\nWhy B is the Correct Answer: Both typical and atypical antipsychotics can block alpha-1 adrenergic receptors, which leads to vasodilation. A common and significant side effect is orthostatic hypotension (a drop in blood pressure upon standing), which can cause dizziness, lightheadedness, and syncope, increasing the risk of falls. The most important safety instruction to mitigate this risk is to teach the client to change positions slowly, allowing the circulatory system time to adjust.\n\nWhy A is Incorrect: Avoiding wine (tyramine-containing foods) is a critical instruction for clients taking MAOIs (Monoamine Oxidase Inhibitors), an older class of antidepressants. It has no relevance to risperidone.\n\nWhy C and D are Incorrect: Instructions related to fluid and salt intake (C and D) are specific to clients taking lithium. A consistent intake of salt and water is crucial to prevent lithium toxicity. This teaching is not specific to risperidone.",
+    "additional": "1. Atypical (Second-Generation) Antipsychotics:\n* Examples: Risperidone, Olanzapine, Quetiapine, Clozapine.\n* Mechanism: Block both dopamine and serotonin receptors.\n* Primary Benefit: Treat both positive symptoms (hallucinations, delusions) and negative symptoms (apathy, flat affect) of schizophrenia with a lower risk of extrapyramidal symptoms (EPS) compared to typicals.\n* Major Side Effects (CRITICAL):\n* Metabolic Syndrome: Weight gain, dyslipidemia, and hyperglycemia (leading to new-onset type 2 diabetes). This is a huge issue with this class.\n* Orthostatic hypotension.\n* Anticholinergic effects (dry mouth, constipation).\n2. Clozapine (Clozaril) - A Special Case:\n* The most effective atypical antipsychotic but used as a last resort due to its risk of agranulocytosis (a life-threatening drop in WBCs).\n* Requires mandatory weekly (initially) then bi-weekly monitoring of the WBC count and ANC."
+  },
+  {
+    "question": "73. The client with paranoid schizophrenia is prescribed the atypical antipsychotic quetiapine (Seroquel). Which statement best describes the scientific rationale for administering this medication?",
+    "options": {
+      "A": "This medication helps to stabilize the chemical imbalance in the brain.",
+      "B": "This medication increases the dopamine secretion in the brain tissue to improve speech.",
+      "C": "Seroquel will help decrease the client's anxiety due to the paranoia.",
+      "D": "This medication affects the cholinergic receptor sites in the diseased brain tissue."
+    },
+    "answer": "A",
+    "explanation": "This question asks for the most accurate and encompassing description of how antipsychotics work.\n\nWhy A is the Correct Answer: The primary theory behind schizophrenia is the dopamine hypothesis, which posits that the symptoms are caused by a dysregulation of dopamine pathways in the brain. Antipsychotic medications work by acting on neurotransmitter receptors (primarily dopamine and serotonin) to modulate their activity. Therefore, stating that the medication helps to stabilize this chemical imbalance is the most accurate, simple, and scientifically correct explanation for its mechanism of action.\n\nWhy B is Incorrect: Antipsychotics block dopamine receptors; they do not increase dopamine secretion. An increase in dopamine is thought to cause psychotic symptoms.\n\nWhy C is Incorrect: While decreasing anxiety and paranoia is a therapeutic outcome of the medication, it does not describe the scientific rationale or mechanism of action.\n\nWhy D is Incorrect: While some antipsychotics do have effects on cholinergic receptors (leading to anticholinergic side effects), their primary therapeutic action is on dopaminergic and serotonergic systems.",
+    "additional": "1. Positive vs. Negative Symptoms of Schizophrenia:\n* Positive Symptoms (Things that are added): Hallucinations, delusions, disorganized speech, disorganized behavior. Atypical antipsychotics are very effective for these.\n* Negative Symptoms (Things that are taken away): Flat affect (lack of emotion), anhedonia (lack of pleasure), avolition (lack of motivation), alogia (poverty of speech). Atypical antipsychotics are more effective than typicals for these.\n2. Extrapyramidal Symptoms (EPS) - More common with Typical Antipsychotics:\n* Acute Dystonia: Sudden, painful muscle spasms.\n* Akathisia: Extreme inner restlessness; inability to sit still.\n* Parkinsonism: Drug-induced symptoms like tremor, rigidity, shuffling gait.\n* Tardive Dyskinesia (TD): Late-onset, often irreversible involuntary movements, especially of the face and tongue (lip-smacking, tongue-rolling). Monitored using the AIMS scale."
+  },
+  {
+    "question": "74. The client diagnosed with schizophrenia has been taking the conventional antipsychotic medication chlorpromazine (Thorazine) for 5 years. Which assessment data would warrant discontinuing the medication?",
+    "options": {
+      "A": "The client's significant other reports the client has no hallucinations or delusions.",
+      "B": "The client has a score of 30 on the Mini-Mental Status Examination (MMSE).",
+      "C": "The client complains of having a dry mouth and the sun hurting the eyes.",
+      "D": "The client has a score of 27 on the Abnormal Involuntary Movement Scale (AIMS)."
+    },
+    "answer": "D",
+    "explanation": "This question requires you to identify a severe, potentially irreversible side effect of long-term typical antipsychotic use.\n\nWhy D is the Correct Answer: Chlorpromazine is a typical (first-generation) antipsychotic. The most serious long-term side effect of this class is Tardive Dyskinesia (TD), a disorder characterized by involuntary, repetitive body movements. The AIMS scale is the standard tool used to screen for and monitor the severity of TD. The scale ranges from 0-42, with higher scores indicating more severe symptoms. A score of 27 is extremely high, indicating severe TD. This finding would absolutely warrant discontinuing the medication (or changing to an atypical with a lower risk, like clozapine) and notifying the HCP immediately.\n\nWhy A is Incorrect: The absence of hallucinations and delusions indicates the medication is therapeutically effective. This would be a reason to continue the medication, not stop it.\n\nWhy B is Incorrect: The MMSE assesses cognitive function. A score of 30 is a perfect score, indicating the client is cognitively intact. This is a positive finding.\n\nWhy C is Incorrect: Dry mouth (anticholinergic effect) and photosensitivity (sun hurting the eyes) are common, expected, and manageable side effects of chlorpromazine. They are not reasons to discontinue the drug.",
+    "additional": "1. Neuroleptic Malignant Syndrome (NMS):\n* A rare but life-threatening reaction to antipsychotic medication (more common with typicals).\n* Mnemonic \"FEVER\":\n* Fever (very high)\n* Encephalopathy (altered mental status)\n* Vital sign instability\n* Enzyme elevation (very high CK)\n* Rigidity (\"lead-pipe\" muscle rigidity)\n* Treatment: Immediate discontinuation of the antipsychotic, supportive care, and administration of dantrolene or bromocriptine. This is a medical emergency."
+  },
+  {
+    "question": "75. The unconscious client was admitted to the emergency department with an overdose of the anxiolytic alprazolam (Xanax). Which intervention should the nurse implement first?",
+    "options": {
+      "A": "Prepare to administer an emetic with activated charcoal.",
+      "B": "Request a mental health consultation for the client.",
+      "C": "Prepare to administer the antidote flumazenil (Romazicon) IV.",
+      "D": "Determine why the client had an overdose of medication."
+    },
+    "answer": "C",
+    "explanation": "This question presents a client with a known drug overdose who is unconscious. The priority is to reverse the life-threatening effects of the drug.\n\nWhy C is the Correct Answer: Alprazolam (Xanax) is a benzodiazepine. The specific antidote for benzodiazepine overdose is flumazenil (Romazicon). Since the client is unconscious, they are at high risk for severe respiratory depression, which is the primary cause of death in benzodiazepine overdose. Administering the antidote is the immediate, life-saving intervention to reverse the CNS and respiratory depression.\n\nWhy A is Incorrect: Inducing vomiting with an emetic is contraindicated in an unconscious client due to the high risk of aspiration. Activated charcoal might be considered after the airway is secured, but the priority is reversing the drug's effects.\n\nWhy B and D are Incorrect: Requesting a mental health consult (B) and determining the reason for the overdose (D) are crucial parts of the client's overall care plan, but they are not the immediate priority. The first step is always to address the acute physiological crisis (the ABCs - Airway, Breathing, Circulation) by reversing the overdose. These psychosocial interventions can take place once the client is medically stable and conscious.",
+    "additional": "1. Benzodiazepines (\"-zepam\", \"-zolam\"):\n* Examples: Diazepam, Lorazepam, Alprazolam, Midazolam.\n* Use: Anxiolytics, sedatives, anticonvulsants, alcohol withdrawal.\n* Side Effects: Sedation, respiratory depression.\n* Antidote: Flumazenil.\n2. Opioids vs. Benzodiazepines Overdose: This is a classic NCK distinction.\n* Opioid Overdose Triad: Pinpoint pupils, respiratory depression, coma.\n* Antidote: Naloxone (Narcan).\n* Benzodiazepine Overdose: Sedation, respiratory depression, coma. (Pupils are not typically pinpoint).\n* Antidote: Flumazenil."
+  },
+  {
+    "question": "76. The client is receiving the anxiolytic lorazepam (Ativan) for a generalized anxiety disorder. Which assessment data best indicate the medication is effective?",
+    "options": {
+      "A": "The client reports feeling less anxious.",
+      "B": "The client's pulse is not greater than 110.",
+      "C": "The client's respiratory rate is not greater than 26.",
+      "D": "The client reports a 2 on a 1–10 anxiety scale."
+    },
+    "answer": "D",
+    "explanation": "This question asks you to identify the best, most objective measure of a subjective symptom like anxiety.\n\nWhy D is the Correct Answer: While anxiety is a subjective experience, using a numerical rating scale provides the most objective and quantifiable data to track changes and evaluate the effectiveness of an intervention. A rating of \"2 out of 10\" is a clear, measurable indicator of low anxiety, demonstrating a positive therapeutic response to the lorazepam. It allows for consistent monitoring over time.\n\nWhy A is Incorrect: The statement \"feeling less anxious\" is vague and subjective. \"Less\" than what? It doesn't provide a clear measure of the medication's effectiveness. While it's a positive statement, it's not the best indicator compared to a numerical rating.\n\nWhy B and C are Incorrect: Pulse and respiratory rate can be signs of anxiety (they often increase). However, a rate \"not greater than\" a certain high number is a very weak indicator. A client's pulse could be 108 and still meet this criterion, which is still tachycardic. These are physiological parameters that can be influenced by many factors and are less direct measures of psychological anxiety than a self-report scale.",
+    "additional": "1. Using Rating Scales in Nursing:\n* Pain Scale: The most common example (0-10 numerical scale, FACES scale for children).\n* Anxiety Scales: Hamilton Anxiety Scale (HAM-A), Beck Anxiety Inventory (BAI), or a simple 0-10 scale are used.\n* Sedation Scales: Ramsay Sedation Scale, Richmond Agitation-Sedation Scale (RASS). Used to titrate sedation in ICU settings.\n* The benefit of scales is that they turn a subjective experience into objective data that can be trended over time to evaluate treatment effectiveness."
+  },
+  {
+    "question": "77. The client who is a chronic alcoholic is admitted to the medical unit for pneumonia. Which priority intervention should the nurse implement?",
+    "options": {
+      "A": "Administer chlordiazepoxide (Librium), a benzodiazepine, every 4 hours.",
+      "B": "Monitor the intravenous thiamine (vitamin B1).",
+      "C": "Check the client's intravenous site.",
+      "D": "Obtain the client's chest x-ray."
+    },
+    "answer": "A",
+    "explanation": "This question asks for the priority intervention for a client at high risk for a specific, life-threatening complication.\n\nWhy A is the Correct Answer: The client is a chronic alcoholic and has been admitted to the hospital, meaning their alcohol intake has abruptly stopped. This places them at extremely high risk for Alcohol Withdrawal Syndrome. The most severe form of this syndrome is Delirium Tremens (DTs), which is a medical emergency characterized by severe agitation, hallucinations, tachycardia, hypertension, and fever, with a high mortality rate if untreated. The priority is to prevent or treat this withdrawal. The standard of care is to administer a long-acting benzodiazepine, such as chlordiazepoxide (Librium) or diazepam (Valium), on a fixed schedule or based on a symptom-triggered protocol (like the CIWA scale). This is the highest priority to ensure the client's safety and prevent a life-threatening complication.\n\nWhy B is Incorrect: Chronic alcoholism leads to poor nutrition and malabsorption, specifically of thiamine (Vitamin B1). Thiamine deficiency can cause Wernicke-Korsakoff syndrome, a serious neurological condition. Administering IV thiamine is a critical intervention for this client, but preventing acute, life-threatening alcohol withdrawal with benzodiazepines is the more immediate priority. Typically, thiamine is given before any glucose-containing IV fluids.\n\nWhy C is Incorrect: Checking an IV site is a routine nursing task and not the priority intervention for this client's specific risk profile.\n\nWhy D is Incorrect: The client was admitted for pneumonia, so a chest x-ray would have been part of the initial diagnostic workup. Even if it hadn't been done, preventing alcohol withdrawal is the more immediate life-threatening concern for the nurse to manage.",
+    "additional": "1. Alcohol Withdrawal Timeline:\n* 6-12 hours: Minor withdrawal (tremors, anxiety, insomnia, nausea).\n* 12-24 hours: Alcoholic hallucinosis (visual, auditory, or tactile hallucinations but with a clear sensorium).\n* 24-48 hours: Withdrawal seizures.\n* 48-72 hours: Delirium Tremens (DTs). This is the most severe manifestation.\n2. CIWA-Ar Scale (Clinical Institute Withdrawal Assessment for Alcohol, Revised):\n* A 10-item scale used to objectively measure the severity of alcohol withdrawal.\n* Guides symptom-triggered therapy with benzodiazepines."
+  },
+  {
+    "question": "78. The client tells the psychiatric clinic nurse, “I am addicted to heroin, and I really want to stop this time.” Which intervention should the nurse implement?",
+    "options": {
+      "A": "Ask the client how much heroin is used daily.",
+      "B": "Refer the client to a methadone clinic.",
+      "C": "Determine if the client has financial resources.",
+      "D": "Assess the client's support system."
+    },
+    "answer": "B",
+    "explanation": "This question asks for the most appropriate and effective intervention for a client expressing a desire to stop using heroin.\n\nWhy B is the Correct Answer: Heroin is an opioid. The gold standard for treating opioid use disorder is Medication-Assisted Treatment (MAT). Methadone is a long-acting opioid agonist used in MAT. It works by preventing withdrawal symptoms and reducing cravings without producing the euphoric \"high\" of heroin. This allows the client to stabilize their life, engage in counseling, and reduce the harm associated with illicit drug use. Referring the client to a specialized methadone clinic is the most direct, evidence-based, and therapeutic intervention to help them achieve their goal.\n\nWhy A, C, and D are Incorrect: These are all part of a comprehensive psychosocial assessment, but they are not the primary therapeutic intervention.\n\nA: Assessing the amount of use helps determine the level of physical dependence but doesn't provide the solution.\n\nC & D: Assessing financial resources and social support is important for long-term planning, but the immediate need is to connect the client with the most effective medical treatment to manage their physical dependence and cravings.",
+    "additional": "1. Opioid Use Disorder Treatment:\n* Medication-Assisted Treatment (MAT):\n* Methadone: Long-acting full opioid agonist. Dispensed only through specialized clinics.\n* Buprenorphine (Suboxone when combined with naloxone): Partial opioid agonist. Can be prescribed from a doctor's office. Has a \"ceiling effect,\" making it safer in terms of respiratory depression than methadone.\n* Naltrexone: Opioid antagonist. Blocks the effects of opioids. The client must be fully detoxed before starting.\n2. Opioid Withdrawal Symptoms:\n* Severe flu-like symptoms: Nausea, vomiting, diarrhea, muscle aches, fever, chills, yawning, lacrimation (teary eyes), rhinorrhea (runny nose). While not typically life-threatening like alcohol withdrawal, it is extremely uncomfortable and a major driver of relapse."
+  },
+  {
+    "question": "79. The client with a staggering gait is brought to the emergency department by a friend. The client is restless and hallucinating and is having a panic attack. Which question should the nurse ask the client's friend?",
+    "options": {
+      "A": "How many alcoholic drinks has your friend had today?",
+      "B": "When is the last time your friend took amphetamines?",
+      "C": "Has your friend smoked any marijuana today?",
+      "D": "Which route and what time did your friend use cocaine?"
+    },
+    "answer": "B",
+    "explanation": "This question requires you to differentiate the signs of overdose from different classes of substances.\n\nWhy B is the Correct Answer: The client's symptoms—restlessness, hallucinations, panic attack, and ataxia (staggering gait)—are the classic signs of CNS stimulant overdose, specifically from amphetamines. Amphetamines cause profound central nervous system and sympathetic stimulation. Asking about amphetamine use directly addresses the most likely cause of this specific clinical picture.\n\nWhy A is Incorrect: While a staggering gait can be seen with alcohol intoxication, severe restlessness, hallucinations, and panic are more characteristic of stimulant overdose. Alcohol is a CNS depressant.\n\nWhy C is Incorrect: Marijuana typically causes apathy, relaxation, and increased appetite, not severe restlessness and panic.\n\nWhy D is Incorrect: While cocaine is also a CNS stimulant, its effects are generally shorter-lived than amphetamines. The presentation is very similar, but amphetamines are classically associated with this full-blown psychotic and panic state. In an exam, both B and D are plausible, but the \"restlessness\" and \"panic attack\" often point more strongly toward amphetamines in textbook scenarios.",
+    "additional": "1. Stimulant vs. Depressant Overdose:\n* Stimulants (Cocaine, Amphetamines, Meth):\n* Signs: Tachycardia, hypertension, hyperthermia, agitation, panic, psychosis, seizures, dilated pupils (mydriasis).\n* Treatment: Supportive care. Benzodiazepines to control agitation and seizures. Cooling measures for hyperthermia.\n* Depressants (Alcohol, Benzodiazepines, Opioids):\n* Signs: Bradycardia, hypotension, hypothermia, sedation, coma, respiratory depression, constricted pupils (miosis - especially opioids).\n* Treatment: Supportive care, airway management, specific antidotes if available (Naloxone, Flumazenil)."
+  },
+  {
+    "question": "80. The 13-year-old adolescent with attention deficit-hyperactivity disorder (ADHD) is taking methylphenidate (Ritalin), a central nervous system stimulant. Which statement indicates to the nurse the adolescent understands the medication teaching?",
+    "options": {
+      "A": "I can carry my medication in a personal pill container with me at school.",
+      "B": "I should take my medication before breakfast, lunch, and supper.",
+      "C": "I must take all my medication before 1:00 in the afternoon.",
+      "D": "I just take my medication on days that I have important tests."
+    },
+    "answer": "C",
+    "explanation": "This question tests your knowledge of the common side effects of CNS stimulants and the strategies to manage them.\n\nWhy C is the Correct Answer: The most common and problematic side effect of CNS stimulants like methylphenidate is insomnia. To prevent interference with nighttime sleep, the last dose of the day should be taken no later than early to mid-afternoon. A cut-off time like 1:00 PM (1300) or 2:00 PM (1400) is a standard instruction. This statement shows the client understands this critical self-management strategy.\n\nWhy A is Incorrect: Methylphenidate is a controlled substance. School policies require that controlled medications be kept in the school nurse's office and administered by the nurse, not carried by the student.\n\nWhy B is Incorrect: Taking a dose before supper would almost certainly cause significant insomnia. Dosing is typically in the morning and at noon.\n\nWhy D is Incorrect: For consistent management of ADHD symptoms and academic performance, the medication should be taken daily as prescribed, not just on test days.",
+    "additional": "1. Methylphenidate (Ritalin, Concerta) - Key Teaching:\n* Side Effects:\n* Insomnia: Administer last dose in the early afternoon.\n* Appetite Suppression and Weight Loss: Administer the medication during or after meals, not before. Monitor height and weight regularly. Encourage nutrient-dense foods.\n* Growth Delay: Can occur with long-term use. \"Drug holidays\" (e.g., during summer vacation) may be recommended by the HCP to allow for catch-up growth.\n* Cardiovascular Effects: Can increase heart rate and blood pressure. Monitor vital signs.\n* Abuse Potential: It is a controlled substance with a risk of misuse and diversion."
+  },
+  {
+    "question": "81. The client with a full-thickness burn over 48% of the body is admitted to the burn unit 3 hours after a fire. The HCP writes an order for Ringer lactate 550 mL/hr. Which action should the nurse implement?",
+    "options": {
+      "A": "Question the HCP's orders.",
+      "B": "Administer the intravenous fluid on a pump.",
+      "C": "Do not administer more than 150 mL/hr.",
+      "D": "Contact the pharmacy to discuss the order."
+    },
+    "answer": "B",
+    "explanation": "This question tests your understanding of fluid resuscitation in major burns and safe IV practices. It requires you to recognize that a high infusion rate is expected.\n\nWhy B is the Correct Answer: Clients with major burns (typically >20% Total Body Surface Area - TBSA) experience a massive fluid shift from the intravascular space to the interstitial space, leading to severe hypovolemic shock (\"burn shock\"). The cornerstone of treatment is rapid, large-volume fluid resuscitation, guided by formulas like the Parkland formula. A rate of 550 mL/hr is a very high but entirely plausible and expected rate for a client with a 48% TBSA burn in the initial hours. The most important intervention to ensure this large volume is delivered accurately and safely is to use an infusion pump.\n\nWhy A and C are Incorrect: Questioning the order or limiting the rate to 150 mL/hr would be dangerous. A rate of 150 mL/hr is grossly insufficient for this client and would lead to inadequate resuscitation, worsening shock, and organ failure. The nurse should recognize that the high rate is appropriate for the clinical situation.\n\nWhy D is Incorrect: The pharmacy prepares the IV fluids, but they do not determine the administration rate. There is no reason to contact the pharmacy to discuss a clinically appropriate infusion rate ordered by the HCP.",
+    "additional": "1. Parkland (Baxter) Formula for Burn Resuscitation:\n* This is the standard formula used to estimate fluid needs. You should be familiar with it for the NCK exam.\n* Formula: 4 mL of Lactated Ringer's x Body Weight (kg) x % TBSA burned\n* Administration Schedule:\n* Give the first half of the total volume over the first 8 hours (calculated from the time of injury, not the time of admission).\n* Give the second half over the next 16 hours.\n* Example: A 70 kg client with a 50% burn:\n* Total fluid in 24 hrs = 4 mL x 70 kg x 50 = 14,000 mL.\n* First 8 hrs = 7,000 mL. Rate = 7,000 mL / 8 hr = 875 mL/hr.\n* This shows that rates like 550 mL/hr are very realistic.\n2. Fluid of Choice:\n* Lactated Ringer's (LR) is the crystalloid fluid of choice because its electrolyte composition is most similar to plasma, and it helps buffer the metabolic acidosis that occurs in burn shock."
+  },
+  {
+    "question": "82. The client diagnosed with multiple sclerosis requests pain medication. When the nurse enters the room with the narcotic medication, the nurse finds the client laughing and talking with visitors. Which action should the nurse implement?",
+    "options": {
+      "A": "Do not administer the narcotic pain medication at this time.",
+      "B": "Notify the HCP of the client's narcotic-seeking behavior.",
+      "C": "Administer the client's prescribed pain medication.",
+      "D": "Check the MAR to see if there is a non-narcotic medication ordered."
+    },
+    "answer": "C",
+    "explanation": "This question tests a core principle of pain management: patient self-report is the gold standard.\n\nWhy C is the Correct Answer: The foundational principle of pain assessment is that pain is whatever the experiencing person says it is, existing whenever he says it does. A client's behavior (laughing, talking) is not a reliable indicator of their pain level. Clients with chronic pain, such as that associated with multiple sclerosis, develop coping mechanisms. They may use distraction (like talking with visitors) to manage their pain. The nurse should not judge the client's pain based on their behavior. If the client has requested pain medication, the nurse should assess their pain using a standard scale and administer the medication as prescribed.\n\nWhy A, B, and D are Incorrect: These actions are all based on the nurse's subjective judgment and mistrust of the client's self-report, which is inappropriate and unethical.\n\nWithholding the medication (A) is undertreating the client's pain.\n\nAccusing the client of \"narcotic-seeking behavior\" (B) is judgmental and damaging to the therapeutic relationship.\n\nChecking for a non-narcotic (D) undermines the client's report and the provider's prescription for a narcotic for their chronic condition.",
+    "additional": "1. Pain Management Principles:\n* The patient's self-report is the most reliable indicator of pain.\n* Use a standardized pain scale (0-10) for assessment.\n* Chronic pain is different from acute pain; patients may not exhibit typical physiological signs like tachycardia or hypertension.\n* Believe your patient. Do not be judgmental.\n2. Pseudoaddiction:\n* A term for patient behaviors that may occur when their pain is undertreated. They may seem preoccupied with obtaining medications (\"clock watching\") or appear angry and demanding. This behavior resolves when their pain is effectively treated. It can be mistaken for true addiction."
+  },
+  {
+    "question": "83. The client who is 1 day postoperative abdominal surgery is complaining of pain of 8 on a 1–10 pain scale. Which intervention should the nurse implement first?",
+    "options": {
+      "A": "Check the MAR to determine when the last pain medication was administered.",
+      "B": "Reposition the client in the bed with the head of the bed elevated to 30°.",
+      "C": "Administer the client's as-needed (prn) narcotic pain medication intravenously over 5 minutes.",
+      "D": "Assess the client's abdomen for tenderness and check the abdominal dressing."
+    },
+    "answer": "D",
+    "explanation": "This question is about differentiating between expected post-operative pain and pain that could signal a surgical complication. The first step is always to assess.\n\nWhy D is the Correct Answer: While a pain level of 8/10 is expected after major abdominal surgery, the nurse's first responsibility is to rule out a new or worsening complication. A sudden increase in pain could indicate a problem like an internal hemorrhage, a wound dehiscence/evisceration, or peritonitis. Therefore, the nurse must first perform a quick, focused assessment of the abdomen (checking for rigidity, distention, abnormal tenderness) and the dressing (checking for excessive bleeding or drainage) before administering pain medication. This ensures the pain is \"expected\" pain and not a sign of a surgical emergency.\n\nWhy A and B are Incorrect: Checking the MAR (A) and repositioning the client (B) are important parts of pain management, but they do not take priority over assessing for a potentially life-threatening complication.\n\nWhy C is Incorrect: This is an intervention. Assessment must always precede intervention. It would be unsafe to medicate the client without first assessing to ensure the pain is not from a new complication that the medication could mask.",
+    "additional": "1. Post-Operative Complications:\n* Hemorrhage: Signs include hypotension, tachycardia, restlessness, pale/cool skin, and increased drainage in drains or on dressings.\n* Infection: Signs include fever, purulent drainage, redness, and warmth at the incision site.\n* DVT/PE: Signs include unilateral leg swelling/pain (DVT) or sudden shortness of breath and chest pain (PE).\n* Dehiscence/Evisceration: Dehiscence is the separation of wound layers. Evisceration is the protrusion of internal organs through the incision. This is a medical emergency. Priority action: Cover the wound with a sterile saline-soaked dressing and notify the surgeon immediately."
+  },
+  {
+    "question": "84. The nurse administered naloxone (Narcan), a narcotic antagonist, to the client who received an overdose of an opioid medication. Which interventions should the nurse implement? Select all that apply.",
+    "options": {
+      "1": "Turn and position the client on the side.",
+      "2": "Monitor the client's blood pressure and pulse every hour.",
+      "3": "Assess the client's respirations every 15 minutes.",
+      "4": "Maintain the client's intravenous site.",
+      "5": "Administer repeated doses every 2–3 minutes."
+    },
+    "answer": ["1", "3", "4", "5"],
+    "explanation": "This \"Select All That Apply\" question tests your knowledge of the properties of naloxone and the essential nursing care after its administration.\n\nWhy 1 is Correct: Naloxone can induce abrupt, severe vomiting as the client rapidly awakens from the opioid-induced stupor. Placing the client in a side-lying (recovery) position is a priority to prevent aspiration.\n\nWhy 3 is Correct: The primary therapeutic effect being monitored is the reversal of respiratory depression. However, naloxone has a shorter half-life than most opioids. This means the naloxone can wear off while the opioid is still in the client's system, and they can fall back into respiratory depression. Frequent assessment of respiratory status is critical.\n\nWhy 4 is Correct: Because of naloxone's short half-life, repeated doses or a continuous infusion are often necessary. Maintaining a patent IV site is essential for administering these subsequent doses.\n\nWhy 5 is Correct: This relates directly to the short half-life. Doses of naloxone may need to be repeated every 2-3 minutes until the desired effect (adequate respiratory effort) is achieved.\n\nWhy 2 is Incorrect: While vital signs should be monitored, monitoring BP and pulse every hour is not frequent enough. More importantly, the priority focus after reversing an opioid overdose is the respiratory rate, not the BP and pulse. The most critical assessments should be done more frequently (e.g., every 15 minutes or even more often initially).",
+    "additional": "1. Naloxone (Narcan) Key Facts:\n* Mechanism: A pure opioid antagonist. It competitively binds to opioid receptors, displacing the opioid and reversing its effects.\n* Half-Life: ~30-90 minutes. This is much shorter than most opioids (e.g., morphine, methadone). This mismatch is the reason for vigilant monitoring.\n* Adverse Effect: Acute opioid withdrawal. The client may awaken abruptly and be in severe pain, agitated, and combative. Be prepared for this."
+  },
+  {
+    "question": "85. The clinic nurse administers the antibiotic ceftriaxone (Rocephin) intramuscularly into the client's ventrogluteal muscle. Which action should the nurse implement?",
+    "options": {
+      "A": "Massage the injection site with an alcohol swab.",
+      "B": "Inject lidocaine (Xylocaine) around the injection site.",
+      "C": "Instruct the client to remain in the clinic for 30 minutes.",
+      "D": "Apply a cold compress to the client's injection site."
+    },
+    "answer": "C",
+    "explanation": "This question is about patient safety following the administration of a medication known to have a high potential for allergic reactions.\n\nWhy C is the Correct Answer: Any antibiotic, especially a beta-lactam like ceftriaxone, carries a risk of causing an allergic reaction, which can range from a mild rash to life-threatening anaphylaxis. It is a standard safety precaution to observe a client for 20-30 minutes after administering any new or high-risk parenteral medication so that an emergency response can be initiated immediately if a reaction occurs.\n\nWhy A is Incorrect: Massaging an IM injection site is generally not recommended, especially for certain medications, as it can increase the rate of absorption and cause tissue irritation or damage. The Z-track method, often used for IM injections, specifically relies on not massaging the site.\n\nWhy B is Incorrect: Lidocaine is sometimes mixed with ceftriaxone in the same syringe by the pharmacy or reconstituted with it to reduce the pain of the injection, but it is not injected separately around the site.\n\nWhy D is Incorrect: A warm compress might be used later to help with muscle soreness, but a cold compress is not a standard immediate intervention. The priority is observing for a systemic allergic reaction.",
+    "additional": "1. Ceftriaxone (Rocephin):\n* A third-generation cephalosporin.\n* It is known for being a particularly painful IM injection. It can be reconstituted with 1% lidocaine (without epinephrine) to reduce pain, but this requires a specific HCP order.\n2. Preventing Allergic Reactions:\n* Always take a thorough allergy history.\n* Observe patients after parenteral administration of antibiotics.\n* Ensure an emergency kit with epinephrine, diphenhydramine, and corticosteroids is readily available in any setting where injections are given."
+  },
+  {
+    "question": "86. The nurse is working in the emergency department. Which client should the nurse care for first?",
+    "options": {
+      "A": "The 2-year-old client who has the croup and is crying vigorously.",
+      "B": "The 6-year-old client who has a rash after taking an antibiotic.",
+      "C": "The 10-year-old client who has a fracture of the right ulna.",
+      "D": "The 12-year-old client who has lower abdominal cramping."
+    },
+    "answer": "B",
+    "explanation": "This is a triage question. The nurse must identify the client with the most immediate life-threatening condition, based on the principles of Airway, Breathing, and Circulation (ABCs).\n\nWhy B is the Correct Answer: A rash that appears after taking an antibiotic is a potential anaphylactic reaction. While it currently presents as a skin symptom, it could rapidly progress to involve the airway (angioedema, stridor, bronchospasm) and circulation (hypotension, shock). This represents the greatest potential threat to life among the four clients. This client must be assessed immediately to rule out or treat anaphylaxis.\n\nWhy A is Incorrect: Croup is a viral infection causing airway inflammation. A \"barking\" cough is characteristic. While it involves the airway, the fact that the child is crying vigorously is actually a reassuring sign. It means their airway is patent enough to move a large amount of air to produce a loud cry. They are not in immediate respiratory failure.\n\nWhy C is Incorrect: A fractured ulna is a painful but not life-threatening injury. It does not compromise the ABCs. The client is stable and can wait for treatment after more critical patients.\n\nWhy D is Incorrect: Lower abdominal cramping is a common complaint with many potential causes, most of which are not immediately life-threatening. This client requires assessment but does not take priority over a potential anaphylactic reaction.",
+    "additional": "1. Triage Principles in the ED:\n* Triage systems categorize patients to ensure the most critical are seen first.\n* Level 1 (Resuscitation): Immediately life-threatening (e.g., cardiac arrest, major trauma, anaphylactic shock).\n* Level 2 (Emergent): Potential threat to life or limb (e.g., chest pain, stroke, severe asthma attack, the client in this question).\n* Level 3 (Urgent): Requires timely treatment but not immediately life-threatening (e.g., abdominal pain, closed fractures, high fever).\n* Level 4/5 (Non-urgent/Semi-urgent): Minor conditions (e.g., simple rash, cold symptoms, suture removal).\n2. Croup (Laryngotracheobronchitis) vs. Epiglottitis:\n* Croup: Viral, barking cough, inspiratory stridor, usually managed at home or with supportive care (cool mist, steroids).\n* Epiglottitis: Bacterial, more serious. Four D's: Dysphagia, Drooling, Dysphonia, Distress. This is a medical emergency. The child often sits in a \"tripod\" position. Do not attempt to examine the throat with a tongue blade as it can cause complete airway obstruction."
+  },
+  {
+    "question": "87. The client with rheumatoid arthritis is prescribed hydroxychloroquine sulfate (Plaquenil), a disease-modifying antirheumatic drug (DMARD). Which statement indicates the client understands the teaching?",
+    "options": {
+      "A": "“I will get my eyes checked every 6 months.”",
+      "B": "“I can have a glass of wine with my evening meal.”",
+      "C": "“It is important to take the medication on an empty stomach.”",
+      "D": "“I will call my HCP if the pain is not relieved in 2 weeks.”"
+    },
+    "answer": "A",
+    "explanation": "This question tests your knowledge of the most significant, unique, and serious adverse effect of hydroxychloroquine.\n\nWhy A is the Correct Answer: The most serious adverse effect of long-term hydroxychloroquine therapy is irreversible retinal damage and vision loss (retinopathy). To monitor for this complication, clients must have a baseline eye exam and then periodic follow-up exams (typically every 6 to 12 months) with an ophthalmologist. This statement demonstrates that the client understands this critical safety requirement.\n\nWhy B is Incorrect: Hydroxychloroquine can be hepatotoxic (damaging to the liver). Alcohol also stresses the liver. Clients are generally advised to avoid or limit alcohol consumption while taking potentially hepatotoxic drugs.\n\nWhy C is Incorrect: This medication can cause significant GI upset. It should be taken with food or milk to decrease these side effects.\n\nWhy D is Incorrect: Hydroxychloroquine is a DMARD, not a simple analgesic. It has a very slow onset of action and can take several months (up to 6 months) for the full therapeutic effect to be felt. Expecting pain relief in 2 weeks is unrealistic and indicates a need for further teaching.",
+    "additional": "1. DMARDs (Disease-Modifying Antirheumatic Drugs):\n* This class of drugs works to slow the progression of joint damage in autoimmune diseases like rheumatoid arthritis.\n* Categories:\n* Conventional DMARDs: Methotrexate, Sulfasalazine, Hydroxychloroquine.\n* Biologic DMARDs: (TNF inhibitors like etanercept, adalimumab). These are potent but increase the risk of serious infection.\n2. Methotrexate - Another Key DMARD for NCK:\n* Often the first-line DMARD for RA.\n* Key Adverse Effects:\n* Bone marrow suppression: Monitor CBC.\n* Hepatotoxicity: Monitor LFTs. Avoid alcohol.\n* Stomatitis/GI Upset.\n* Folic Acid: Folic acid supplements are co-prescribed to reduce the severity of these side effects.\n* Teratogenic: Contraindicated in pregnancy."
+  },
+  {
+    "question": "88. The client is taking a nonsteroidal anti-inflammatory drug (NSAID). Which medication information should the nurse discuss with the client?",
+    "options": {
+      "A": "Sit up for 30 minutes after every dose.",
+      "B": "Take the medication with food or milk.",
+      "C": "Do not take vitamin supplements with NSAIDs.",
+      "D": "Expect the urine and body fluids to turn orange."
+    },
+    "answer": "B",
+    "explanation": "This question asks for the most important instruction to mitigate the most common side effect of NSAIDs.\n\nWhy B is the Correct Answer: NSAIDs (like ibuprofen, naproxen, aspirin) work by inhibiting prostaglandins. Unfortunately, some prostaglandins are responsible for producing the protective mucus lining of the stomach. By inhibiting these, NSAIDs can cause significant gastrointestinal irritation, peptic ulcers, and GI bleeding. The most important instruction to minimize this common side effect is to take the medication with food, milk, or a full glass of water.\n\nWhy A is Incorrect: The instruction to sit up for 30 minutes after taking a medication is specific to bisphosphonates (like alendronate) to prevent esophageal irritation and ulceration.\n\nWhy C is Incorrect: There is no general contraindication to taking vitamin supplements with NSAIDs.\n\nWhy D is Incorrect: Orange discoloration of body fluids is a known side effect of rifampin, not NSAIDs.",
+    "additional": "1. NSAIDs - Key Risks:\n* G.I. Ulceration and Bleeding: The most common risk.\n* Nephrotoxicity: Can cause kidney damage, especially in those with pre-existing renal disease or dehydration.\n* Cardiovascular Risk: Except for aspirin, NSAIDs can increase the risk of heart attack and stroke.\n* Increased Bleeding Risk: They inhibit platelet function. Caution is needed if taken with anticoagulants."
+  },
+  {
+    "question": "89. The clinic nurse has administered the recommended vaccinations to a 2-month-old infant. Which discharge instructions should the nurse discuss with the parents?",
+    "options": {
+      "A": "Notify the HCP if the infant develops a fever >102°F.",
+      "B": "Instruct the parents to keep the child's legs restrained.",
+      "C": "Give the infant acetylsalicylic acid for comfort.",
+      "D": "Keep the infant in the parents' room at night for a few days."
+    },
+    "answer": "A",
+    "explanation": "This question tests your knowledge of expected vs. reportable side effects following routine childhood immunizations.\n\nWhy A is the Correct Answer: It is common and expected for an infant to develop a low-grade fever, irritability, and soreness at the injection site after vaccinations. However, a high fever (e.g., >102°F or 38.9°C), a shrill or inconsolable cry, or seizures are considered signs of a more severe reaction and must be reported to the healthcare provider. This instruction gives the parents a clear, actionable parameter.\n\nWhy B is Incorrect: Restraining the infant's legs is unnecessary and inappropriate. Parents can be taught to move the infant's legs gently in a \"bicycle\" motion to help decrease muscle soreness.\n\nWhy C is Incorrect: This is dangerous advice. Aspirin (acetylsalicylic acid) should never be given to infants or children with a viral illness or fever due to its association with Reye's syndrome, a rare but serious condition that causes swelling in the liver and brain. Acetaminophen or ibuprofen (if the infant is >6 months old) are the appropriate antipyretics.\n\nWhy D is Incorrect: While it's a good idea to monitor the infant closely, there is no medical requirement to keep the infant in the parents' room.",
+    "additional": "1. Reye's Syndrome:\n* A critical contraindication to know for pediatric nursing.\n* Link between aspirin use in children recovering from a viral infection (like influenza or chickenpox).\n* Causes acute encephalopathy and fatty infiltration of the liver.\n2. Managing Post-Vaccination Discomfort:\n* Give acetaminophen or ibuprofen (if age-appropriate) as ordered by the HCP.\n* Apply a cool compress to the injection site.\n* Offer extra comfort and fluids."
+  },
+  {
+    "question": "90. The client diagnosed with multiple sclerosis is prescribed baclofen (Lioresal), an antispasmodic. Which intervention should the nurse discuss with the client?",
+    "options": {
+      "A": "Recommend that the client check the serum baclofen levels daily.",
+      "B": "Instruct the client not to take baclofen if having muscle spasms.",
+      "C": "Tell the client not to abruptly stop taking the medication.",
+      "D": "Explain to the client that a decrease in muscle strength will occur."
+    },
+    "answer": "C",
+    "explanation": "This question focuses on a critical safety issue related to the discontinuation of baclofen.\n\nWhy C is the Correct Answer: Baclofen is a centrally-acting muscle relaxant and antispasmodic. Abrupt discontinuation of oral baclofen can lead to a serious withdrawal syndrome, which includes high fever, altered mental status, exaggerated rebound spasticity, and in severe cases, seizures and rhabdomyolysis. The client must be taught to taper off the medication slowly under the direction of their HCP. This is the most important safety instruction.\n\nWhy A is Incorrect: Routine monitoring of serum baclofen levels is not a standard practice.\n\nWhy B is Incorrect: The medication is prescribed to treat muscle spasms. Instructing the client not to take it when they have the symptom it's meant to treat is illogical.\n\nWhy D is Incorrect: While some muscle relaxation will occur, the goal of baclofen is to reduce spasticity (abnormally high muscle tone) and improve function. It does not typically cause a significant decrease in voluntary muscle strength and can actually improve mobility by reducing spasms. A significant decrease in strength would be an adverse effect to report.",
+    "additional": "1. Intrathecal Baclofen Pumps:\n* For severe spasticity, baclofen can be delivered directly into the spinal fluid via a surgically implanted pump.\n* Abrupt failure or withdrawal from an intrathecal pump is a life-threatening emergency, leading to a severe withdrawal syndrome.\n2. Common Side Effects of Baclofen:\n* Like other CNS depressants, it can cause drowsiness, dizziness, and weakness.\n* Teach the client to avoid alcohol and to be cautious with driving until they know how the drug affects them."
+  },
+  {
+    "question": "91. The female client tells the clinic nurse she is taking St. John's wort for her depression. Which statement indicates the client understands the medication teaching?",
+    "options": {
+      "A": "“I will make sure I use sunscreen when I am outside.”",
+      "B": "“I will use artificial tears when taking this herb.”",
+      "C": "“I will not take birth control pills when taking St. John's wort.”",
+      "D": "“I will take my herb with at least two glasses of water.”"
+    },
+    "answer": "A",
+    "explanation": "This question tests your knowledge of the specific side effects and interactions of a common herbal supplement.\n\nWhy A is the Correct Answer: A well-documented side effect of St. John's wort is photosensitivity. This means it increases the skin's sensitivity to sunlight, making the client more susceptible to sunburn. The correct teaching is to advise the client to use sunscreen, wear protective clothing, and avoid prolonged sun exposure. This statement indicates the client has understood this important precaution.\n\nWhy B is Incorrect: St. John's wort is not known to cause dry eyes.\n\nWhy C is Incorrect: This statement is confusingly worded. St. John's wort is a potent enzyme inducer in the liver, which means it increases the metabolism and decreases the effectiveness of many medications, including oral contraceptives. Therefore, a client should use an alternative, back-up method of birth control. The statement \"I will not take birth control pills\" is ambiguous; it could mean she understands she needs an alternative, or it could be misinterpreted. However, the photosensitivity warning is a more direct and universally taught precaution for the herb itself. Correction from original answer key: The original key states A is correct, but C represents a far more significant clinical interaction. St. John's wort can lead to unplanned pregnancies by rendering oral contraceptives ineffective. This interaction is arguably more critical to teach than photosensitivity. Given the options, C is a stronger answer representing a major drug interaction, while A is a common side effect precaution. The provided answer key chose A, so we will stick with that, but it is worth noting the significance of C.\n\nWhy D is Incorrect: There is no requirement to take St. John's wort with a large amount of water.",
+    "additional": "1. St. John's Wort - Critical Interactions:\n* Decreases Effectiveness of: Oral contraceptives, warfarin (anticoagulant), digoxin (cardiac glycoside), cyclosporine (immunosuppressant), and many HIV/cancer medications.\n* Increases Risk of Serotonin Syndrome: If taken with SSRIs (e.g., fluoxetine, sertraline) or other serotonergic drugs. This is a life-threatening interaction.\n* Nursing Priority: Always ask clients specifically about herbal supplement use. A client on warfarin who starts taking St. John's wort could develop a blood clot because the herb makes the warfarin less effective."
+  },
+  {
+    "question": "92. The client newly diagnosed with tuberculosis is prescribed the antitubercular medications isoniazid (INH) and rifampin (Rifadin). Which information should the nurse discuss with the client? Select all that apply.",
+    "options": {
+      "1": "Instruct the client to decrease the amount of dark, green leafy vegetables.",
+      "2": "Explain that the client's urine and other body fluids will turn orange.",
+      "3": "Tell the client to remain in isolation until there are three negative sputum cultures.",
+      "4": "Inform the client a public health staffer will observe the client taking the medication.",
+      "5": "Discuss the need to take the medication for 1 month before stopping the medications."
+    },
+    "answer": ["2", "3", "4"],
+    "explanation": "This \"Select All That Apply\" question covers key teaching points for the standard multi-drug regimen for Tuberculosis (TB).\n\nWhy 2 is Correct: Rifampin causes a harmless red-orange discoloration of all body fluids, including urine, sweat, tears, and saliva. This is a very common and expected side effect. The nurse must warn the client about this to prevent alarm. It can also permanently stain soft contact lenses.\n\nWhy 3 is Correct: A client with active pulmonary TB is considered infectious until they have been on therapy for some time and can demonstrate they are no longer shedding the bacteria. The standard guideline is that they are no longer infectious after producing three consecutive negative sputum specimens, usually collected on different days. Until then, they must remain in respiratory isolation.\n\nWhy 4 is Correct: Adherence to the long course of TB therapy is a major public health challenge. To ensure completion of therapy and prevent the development of drug-resistant strains, many public health programs use Directly Observed Therapy (DOT), where a healthcare worker physically observes the client swallowing their medications each day. Informing the client of this is part of the plan of care.\n\nWhy 1 is Incorrect: Dark, green leafy vegetables are high in Vitamin K. This instruction is relevant for a client on warfarin, not TB medications.\n\nWhy 5 is Incorrect: Treatment for active TB is long-term, typically lasting 6 to 9 months, not 1 month. Stopping the medication early will lead to treatment failure and the development of drug-resistant TB.",
+    "additional": "1. Standard TB \"RIPE\" Therapy:\n* Rifampin\n* Isoniazid (INH)\n* Pyrazinamide\n* Ethambutol\n2. Key Side Effects of RIPE Drugs:\n* Rifampin: Red-orange body fluids, hepatotoxicity.\n* Isoniazid (INH): Peripheral neuropathy (numbness/tingling in hands/feet) and hepatotoxicity. Vitamin B6 (pyridoxine) is co-prescribed to prevent neuropathy.\n* Pyrazinamide: Hepatotoxicity.\n* Ethambutol: Optic neuritis (changes in vision, color blindness). Requires regular eye exams. Mnemonic: Ethambutol = Eyes."
+  },
+  {
+    "question": "93. Which intervention should the nurse implement prior to administering the beta blocker metoprolol (Lopressor)?",
+    "options": {
+      "A": "Check the client's serum potassium level.",
+      "B": "Ensure the client has had something to eat.",
+      "C": "Take the client's apical pulse and blood pressure.",
+      "D": "Ask the client if he/she has had a cough."
+    },
+    "answer": "C",
+    "explanation": "This question asks for the most important pre-administration assessment for a beta-blocker.\n\nWhy C is the Correct Answer: Beta-blockers (drugs ending in \"-olol\") work by blocking beta-adrenergic receptors in the heart. This leads to a decrease in heart rate (negative chronotropy) and a decrease in blood pressure. The most critical nursing intervention before administering a beta-blocker is to assess the apical pulse and blood pressure to ensure they are within a safe range. The medication is typically held if the apical pulse is <60 bpm or if the systolic BP is <90–100 mmHg.\n\nWhy A is Incorrect: Beta-blockers do not directly affect potassium levels. This assessment is relevant for diuretics or ACE inhibitors.\n\nWhy B is Incorrect: Metoprolol can be taken with or without food, though taking it with food can enhance its absorption. However, ensuring the client has eaten is not the priority safety assessment.\n\nWhy D is Incorrect: A persistent dry cough is a hallmark side effect of ACE inhibitors (drugs ending in \"-pril\"), not beta-blockers.",
+    "additional": "1. Beta-Blockers (\"-olol\"):\n* Cardioselective (Beta-1): Primarily affect the heart. Examples: Metoprolol, Atenolol.\n* Non-selective (Beta-1 and Beta-2): Affect the heart and lungs. Examples: Propranolol, Nadolol.\n* Caution: Non-selective beta-blockers are used with caution in clients with asthma or COPD because blocking beta-2 receptors in the lungs can cause bronchoconstriction.\n* Teaching: Do not stop abruptly, as this can cause rebound hypertension and tachycardia."
+  },
+  {
+    "question": "94. The nurse is caring for a client diagnosed with HIV infection. Which data suggest the need for prophylaxis with trimethoprim-sulfa (Bactrim)?",
+    "options": {
+      "A": "The client has a positive HIV viron count.",
+      "B": "The client's blood urea nitrogen (BUN) level is 41 mg/dL.",
+      "C": "The client has four Kaposi sarcoma lesions.",
+      "D": "The client's CD4 count is less than 300/mm³."
+    },
+    "answer": "D",
+    "explanation": "This question tests your knowledge of the guidelines for preventing opportunistic infections in clients with HIV/AIDS.\n\nWhy D is the Correct Answer: The CD4 T-cell count is the primary laboratory indicator of immune function in a person with HIV. As the count drops, the client becomes increasingly susceptible to opportunistic infections. Prophylaxis (preventative treatment) is initiated based on specific CD4 count thresholds. Prophylaxis against Pneumocystis jirovecii pneumonia (PCP), a life-threatening fungal pneumonia, is started when a client's CD4 count drops below 200/mm³. The drug of choice for PCP prophylaxis is trimethoprim-sulfamethoxazole (Bactrim). While the question says <300, this is the closest and most correct answer, as the client is approaching the critical threshold where prophylaxis is indicated.\n\nWhy A is Incorrect: A positive viral load (viron count) indicates the presence of the HIV virus but does not determine the level of immunosuppression or the need for specific prophylaxis.\n\nWhy B is Incorrect: An elevated BUN suggests renal dysfunction or dehydration but is not an indication for starting Bactrim.\n\nWhy C is Incorrect: Kaposi sarcoma is an AIDS-defining illness but its presence alone does not dictate the need for PCP prophylaxis; the CD4 count does.",
+    "additional": "1. Key Opportunistic Infections (OIs) in HIV/AIDS:\n* Pneumocystis jirovecii Pneumonia (PCP): Prophylaxis indicated when CD4 < 200.\n* Toxoplasmosis: Prophylaxis indicated when CD4 < 100.\n* Mycobacterium Avium Complex (MAC): Prophylaxis indicated when CD4 < 50.\n2. AIDS-Defining Illness:\n* A person is diagnosed with AIDS (not just HIV) if they have a CD4 count < 200 OR they develop one of the specific AIDS-defining opportunistic infections (like PCP, Kaposi sarcoma, or esophageal candidiasis) regardless of their CD4 count."
+  },
+  {
+    "question": "95. The 34-year-old client who is diagnosed with AIDS and is prescribed highly active antiretroviral therapy (HAART) tells the nurse, “I am not working so I don't have insurance.” Which priority intervention should the nurse implement?",
+    "options": {
+      "A": "Discuss the side effects and adverse effects of the HAART medications.",
+      "B": "Refer the client to the hospital social worker.",
+      "C": "Explain discontinuing HAART will cause rebound HIV replication.",
+      "D": "Tell the client to have regular lab work drawn."
+    },
+    "answer": "B",
+    "explanation": "This is a psychosocial prioritization question. The client has stated a barrier to care that must be addressed before any other teaching or intervention can be effective.\n\nWhy B is the Correct Answer: The client has identified a significant socioeconomic barrier to treatment: lack of insurance and inability to pay for the very expensive HAART medications. If the client cannot afford the medications, any teaching about side effects or lab work is useless. The social worker is the member of the healthcare team whose expertise is in connecting clients with resources, such as government assistance programs (like the Ryan White HIV/AIDS Program), medication assistance programs from pharmaceutical companies, and other community resources. Addressing this financial barrier is the absolute first priority to ensure the client can access the life-saving treatment they need.\n\nWhy A, C, and D are Incorrect: These are all important components of care for a client on HAART, but they are all secondary to ensuring the client can actually obtain the medication.\n\nTeaching about side effects (A), the importance of adherence (C), and the need for lab work (D) are all moot points if the client cannot get the prescription filled.",
+    "additional": "1. Highly Active Antiretroviral Therapy (HAART):\n* Now more commonly just called Antiretroviral Therapy (ART).\n* It involves a combination of at least three drugs from at least two different classes to suppress HIV replication.\n* Goal: To reduce the viral load to undetectable levels. \"Undetectable = Untransmittable\" (U=U) is a key public health message.\n* Adherence is CRITICAL: Missing doses allows the virus to replicate and develop drug-resistant mutations. 95% or greater adherence is required for the therapy to be effective."
+  },
+  {
+    "question": "96. The school nurse is talking to the mother of a child with head lice. Which information should the nurse discuss with the mother?",
+    "options": {
+      "A": "Shampoo the child's head with permethrin (Nix), an ectoparasiticide.",
+      "B": "Scrub the child's hair and scalp with lindane (Kwell), a scabicide.",
+      "C": "Blow-dry the child's hair on hot immediately after shampooing.",
+      "D": "Use a wide-toothed comb after shampooing the child's hair."
+    },
+    "answer": "A",
+    "explanation": "This question asks for the correct, first-line treatment for pediculosis capitis (head lice).\n\nWhy A is the Correct Answer: The first-line, over-the-counter treatment for head lice is a pediculicide shampoo containing permethrin 1% or pyrethrins. These are effective at killing live lice. This is the correct initial medication to recommend.\n\nWhy B is Incorrect: Lindane is a powerful chemical that is no longer recommended as a first-line treatment, especially for children. It is neurotoxic and can be absorbed through the skin, with a risk of causing seizures. It is reserved for cases where other treatments have failed. Also, it is primarily used for scabies, not lice.\n\nWhy C is Incorrect: While some studies suggest high heat can kill lice, it is not a primary treatment method. Furthermore, some lice treatments are flammable, and using a hot blow dryer immediately after application could be dangerous.\n\nWhy D is Incorrect: A fine-toothed nit comb must be used to manually remove the nits (lice eggs) from the hair shaft. A wide-toothed comb would be ineffective as the nits would pass right through it.",
+    "additional": "1. Head Lice (Pediculosis Capitis) - Key Teaching Points:\n* Treatment: Apply the pediculicide shampoo to dry hair, saturate the hair, let it sit for the recommended time (e.g., 10 minutes), then rinse. A second treatment is often needed 7–9 days later to kill any newly hatched lice.\n* Nit Removal: This is a crucial step. Use a fine-toothed comb on wet hair every 2–3 days for several weeks to ensure all nits are removed.\n* Environmental Cleaning:\n* Wash bedding, clothing, and towels used in the last 2 days in hot water and dry on a high heat setting.\n* Seal non-washable items (like stuffed animals) in a plastic bag for 2 weeks.\n* Soak combs and brushes in hot water for at least 10 minutes.\n* Vacuum furniture and floors.\n* Lice do not jump or fly; they are spread by direct head-to-head contact or sharing personal items like hats, combs, and headphones."
+  },
+  {
+    "question": "97. The male client is prescribed metronidazole (Flagyl) for inflammatory bowel disease. Which information should the nurse discuss with the client?",
+    "options": {
+      "A": "Explain the client's significant other must take Flagyl concurrently.",
+      "B": "Tell the client he cannot drink alcohol while taking this medication.",
+      "C": "Instruct the client not to take the medication with grapefruit.",
+      "D": "Encourage the client to wear sunglasses when outside while taking the medication."
+    },
+    "answer": "B",
+    "explanation": "This question tests your knowledge of a critical drug-substance interaction associated with metronidazole.\n\nWhy B is the Correct Answer: The most important safety instruction for a client taking metronidazole is to strictly avoid all forms of alcohol during therapy and for at least 3 days after the final dose. Consuming alcohol with metronidazole will cause a disulfiram-like reaction, characterized by severe nausea, copious vomiting, flushing, tachycardia, and shortness of breath.\n\nWhy A is Incorrect: Concurrent treatment of a sexual partner is necessary when metronidazole is used to treat trichomoniasis, a sexually transmitted infection. It is not required when the drug is used for inflammatory bowel disease.\n\nWhy C is Incorrect: The grapefruit juice interaction is common with other medications (like statins and calcium channel blockers), but it is not a significant interaction with metronidazole.\n\nWhy D is Incorrect: Metronidazole is not known to cause photosensitivity. This instruction would be relevant for drugs like tetracyclines or sulfa drugs.",
+    "additional": "1. Metronidazole (Flagyl) - Key Facts:\n* Indications: An antibiotic effective against anaerobic bacteria and certain protozoa. Used for C. difficile infection (though vancomycin is now often preferred), trichomoniasis, giardiasis, and as part of the regimen for H. pylori.\n* Side Effects:\n* Disulfiram-like reaction with alcohol.\n* A harmless metallic taste in the mouth is a common side effect.\n* Can turn the urine a dark, reddish-brown color (harmless).\n2. Disulfiram (Antabuse):\n* This is the drug given to clients with alcohol use disorder to act as a deterrent. It causes the same severe reaction if alcohol is consumed."
+  },
+  {
+    "question": "98. The nurse is administering the antifungal medication ketoconazole (Nizoral) to a client with oral candidiasis (thrush). Which instruction should the nurse provide the client?",
+    "options": {
+      "A": "Tell the client to chew the medication thoroughly before swallowing.",
+      "B": "Demonstrate to the client how to apply the cream with a sterile tongue blade.",
+      "C": "Instruct the client to swish the medication in the mouth and then to swallow.",
+      "D": "Recommend the client apply elixir to sores and then spit out the medication."
+    },
+    "answer": "C",
+    "explanation": "This question is about the correct administration technique for a topical/systemic medication used to treat a local infection. Note: The question presents ketoconazole tablets for thrush, which is less common than liquid nystatin, but the principle of administration for a liquid formulation is being tested. The most logical interpretation is that a liquid/suspension form is being used.\n\nWhy C is the Correct Answer: For oral candidiasis, the goal is to have the antifungal medication make direct contact with the fungal lesions (white patches) inside the mouth for as long as possible. The standard instruction for antifungal suspensions like nystatin or ketoconazole is to swish the liquid around the mouth thoroughly (to coat all surfaces) and then swallow it (to treat any potential esophageal candidiasis). This provides both a topical and a systemic effect.\n\nWhy A is Incorrect: Ketoconazole comes as a tablet or liquid. A tablet should be swallowed whole, not chewed.\n\nWhy B is Incorrect: The medication is for oral use, not a cream for external application.\n\nWhy D is Incorrect: The client should swallow the medication after swishing, not spit it out, to ensure treatment of the entire affected area, which may include the esophagus.",
+    "additional": "1. Oral Candidiasis (Thrush):\n* A fungal infection caused by Candida albicans.\n* Presents as white, cottage cheese-like plaques on the tongue and buccal mucosa.\n* Risk factors: Use of inhaled corticosteroids, immunosuppression (e.g., HIV/AIDS, chemotherapy), and recent antibiotic therapy.\n2. Treatment:\n* Topical: Nystatin \"swish and swallow\" suspension is the most common treatment. Clotrimazole troches (lozenges) that dissolve in the mouth are another option.\n* Systemic: For more severe or refractory cases, oral fluconazole (Diflucan) or ketoconazole tablets may be used."
+  },
+  {
+    "question": "99. The client with a stage 4 pressure ulcer on the coccyx area is being treated with an autolytic medication for débridement and an occlusive dressing. The unlicensed assistive personnel (UAP) reports to the nurse that the client's wound has a foul odor. Which intervention should the nurse implement?",
+    "options": {
+      "A": "Tell the UAP to check the client's oral temperature.",
+      "B": "Notify the wound ostomy continence nurse (WOCN).",
+      "C": "Assess the client's pressure ulcer immediately.",
+      "D": "Explain to the UAP the smell is expected due to the treatment."
+    },
+    "answer": "D",
+    "explanation": "This question requires you to know the expected findings associated with specific types of wound dressings and debridement methods.\n\nWhy D is the Correct Answer: Autolytic debridement uses the body's own enzymes and moisture to break down necrotic tissue. It is facilitated by using an occlusive or semi-occlusive dressing (like a hydrocolloid or transparent film) that traps wound fluid. The breakdown of this dead tissue by anaerobic bacteria that live on it often produces a characteristic foul odor and a yellowish, soupy exudate. This is an expected finding when the dressing is removed and does not necessarily indicate a new wound infection. The nurse's best action is to educate the UAP about this expected outcome to alleviate their concern. The nurse would then proceed with cleansing the wound and reapplying the dressing.\n\nWhy A, B, and C are Incorrect: These actions would be appropriate if the odor were a sign of a true wound infection. However, in the context of this specific dressing type, the odor itself is expected. The nurse would still perform a full wound assessment (C), but the first action in response to the UAP's report is education. There is no immediate need to check a temperature (A) or notify the specialist nurse (B) based solely on the expected odor.",
+    "additional": "1. Types of Wound Debridement:\n* Surgical/Sharp: Use of scalpels or scissors to physically remove necrotic tissue. It is fast and effective.\n* Mechanical: Use of physical force (e.g., wet-to-dry dressings, wound irrigation). It is non-selective and can damage healthy tissue.\n* Enzymatic: Application of a topical chemical agent that dissolves necrotic tissue.\n* Autolytic: Uses the body's own processes under an occlusive dressing. It is slow but very selective and safe."
+  },
+  {
+    "question": "100. The female client tells the clinic nurse her eyes are dry and irritated. Which intervention should the nurse implement?",
+    "options": {
+      "A": "Recommend the client use artificial tears in both eyes.",
+      "B": "Notify the ophthalmologist for prescription eyedrops.",
+      "C": "Check the client's eyes using the ophthalmoscope.",
+      "D": "Instruct the client to wear eye shields at night."
+    },
+    "answer": "A",
+    "explanation": "This question asks for a safe, appropriate, first-line intervention for a common, non-emergent complaint.\n\nWhy A is the Correct Answer: Dry, irritated eyes (dry eye syndrome) is a very common condition. The safest, most appropriate, and first-line recommendation for symptomatic relief is the use of over-the-counter (OTC) artificial tears (lubricating eye drops). This is a conservative intervention that the nurse can safely recommend to alleviate the client's discomfort.\n\nWhy B is Incorrect: Notifying a specialist for a common complaint before trying a simple OTC remedy is not necessary. If the artificial tears do not provide relief, then a referral to an ophthalmologist would be the next step.\n\nWhy C is Incorrect: Use of an ophthalmoscope is an advanced assessment skill used to visualize the internal structures of the eye. It is not the initial assessment for a simple complaint of dryness and is often outside the scope of practice for a general clinic nurse.\n\nWhy D is Incorrect: Eye shields are used to protect the eye from physical injury, especially after surgery. They do not treat dryness or irritation.",
+    "additional": "None"
+  }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   
 
