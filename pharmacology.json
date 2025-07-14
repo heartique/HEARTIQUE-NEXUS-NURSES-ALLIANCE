@@ -2220,8 +2220,239 @@
     "answer": "A",
     "explanation": "This question asks for a safe, appropriate, first-line intervention for a common, non-emergent complaint.\n\nWhy A is the Correct Answer: Dry, irritated eyes (dry eye syndrome) is a very common condition. The safest, most appropriate, and first-line recommendation for symptomatic relief is the use of over-the-counter (OTC) artificial tears (lubricating eye drops). This is a conservative intervention that the nurse can safely recommend to alleviate the client's discomfort.\n\nWhy B is Incorrect: Notifying a specialist for a common complaint before trying a simple OTC remedy is not necessary. If the artificial tears do not provide relief, then a referral to an ophthalmologist would be the next step.\n\nWhy C is Incorrect: Use of an ophthalmoscope is an advanced assessment skill used to visualize the internal structures of the eye. It is not the initial assessment for a simple complaint of dryness and is often outside the scope of practice for a general clinic nurse.\n\nWhy D is Incorrect: Eye shields are used to protect the eye from physical injury, especially after surgery. They do not treat dryness or irritation.",
     "additional": "None"
+  },
+  {
+    "question": "Q:3: A synergistic interaction between furosemide and gentamicine may cause:-",
+    "options": {
+      "A": "Sedation.",
+      "B": "Gout.",
+      "C": "Retinopathy.",
+      "D": "Ototoxicity."
+    },
+    "answer": "D",
+    "explanation": "A synergistic interaction means that the combined effect of two drugs is greater than the sum of their individual effects. Both furosemide (a potent loop diuretic) and gentamicin (an aminoglycoside antibiotic) are independently known to be ototoxic (damaging to the ear) and nephrotoxic (damaging to the kidneys). When used together, they significantly increase the risk of this specific adverse effect.\n\n(d) Ototoxicity: This is the classic, well-documented synergistic toxicity between loop diuretics and aminoglycosides.",
+    "additional": "(a), (b), (c): Sedation is not a primary effect. Gout can be caused by furosemide due to hyperuricemia, but it's not a synergistic effect with gentamicin. Retinopathy is not associated with this combination.\n\nNursing Role: The nurse's primary role when a patient is on this combination is vigilant monitoring. This includes:\n\nAssessing for Ototoxicity: Asking the patient about tinnitus (ringing in the ears), vertigo (dizziness), or any hearing loss.\n\nAssessing for Nephrotoxicity: Monitoring blood urea nitrogen (BUN) and creatinine levels, and ensuring strict intake and output monitoring.\n\nOther Aminoglycosides: Be aware of other drugs in this class, such as Tobramycin, Amikacin, and Streptomycin. All carry the same risk.\n\nPotential Future Questions: \"A patient receiving IV gentamicin complains of ringing in their ears. What is the nurse's priority action?\" (Withhold the dose and notify the physician immediately, as this is a sign of ototoxicity).\n\nSuggested Reference:\n\nLehne's Pharmacology for Nursing Care, 10th Edition.\n\nKatzung & Trevor's Basic and Clinical Pharmacology, 15th Edition."
+  },
+  {
+    "question": "Q4. The adults' dose of Nitrofurantoin is:-",
+    "options": {
+      "A": "50 -100 mg four times a day",
+      "B": "25 -50 mg 6 hourly",
+      "C": "15-50 mg 8 hourly",
+      "D": "100-200 mg twice daily."
+    },
+    "answer": "A",
+    "explanation": "(a) 50-100 mg four times a day: This is the standard dosing regimen for the treatment of an acute UTI with the immediate-release formulation of nitrofurantoin. The macrocrystal formulation (Macrodantin) is typically given this way.\n\n(d) 100-200 mg twice daily: This dosing is characteristic of the extended-release formulation (Macrobid), which is 100 mg twice daily. The question doesn't specify the formulation, but option (a) is the most historically standard and correct dosage range for the immediate-release form.",
+    "additional": "Key Patient Education:\n\nNitrofurantoin should be taken with food or milk to increase its absorption and decrease GI upset.\n\nIt can turn the urine a harmless brown color. It's crucial to inform the patient of this to prevent alarm.\n\nContraindications: It should not be used in patients with significant renal impairment (creatinine clearance < 60 mL/min) because the drug cannot be adequately concentrated in the urine and the risk of systemic toxicity increases.\n\nAdverse Effects: Can cause GI disturbances, peripheral neuropathy, and rare but serious pulmonary reactions (cough, dyspnea).\n\nPotential Future Questions: \"A nurse is teaching a client about taking nitrofurantoin. Which statement by the client indicates an understanding of the teaching?\" (\"I will take this medication with my meals.\").\n\nSuggested Reference:\n\nDavis's Drug Guide for Nurses."
+  },
+  {
+    "question": "12. Specific pharmacological management of ophthalmia neonatorum according to NASCOP flow chart of ophthalmia neonatorum includes:-",
+    "options": {
+      "A": "Procaine penicillin 300,000 IU IM and 1% tetracycline eye ointment TDS X 10 days.",
+      "B": "Streptomycin 1% eye ointment, procaine penicillin 300,000 IU IM",
+      "C": "Septrin 5 mg stat, 1% eye ointment tetracycline.",
+      "D": "Procaine penicillin 300,000 IU IM and streptomycin 1% eye ointment."
+    },
+    "answer": "A",
+    "explanation": "(a): This regimen provides systemic treatment for gonorrhea (Procaine penicillin) and topical treatment that is effective against chlamydia (Tetracycline ointment). This dual-coverage approach is standard. Note: Current international guidelines often prefer Ceftriaxone for gonorrhea and oral Erythromycin for chlamydia, but based on the provided options, this is the most logical combination.",
+    "additional": "(b) & (d): Streptomycin is not the first-line treatment for these pathogens.\n\n(c): Septrin (Co-trimoxazole) is not the standard of care for ophthalmia neonatorum.\n\nPrevention: The universal prophylaxis for ophthalmia neonatorum is the application of an antibiotic ointment (commonly erythromycin 0.5% or tetracycline 1%) to the eyes of all newborns shortly after birth.\n\nGonococcal vs. Chlamydial:\n\nGonococcal: Presents earlier (2-5 days), is hyperacute, with purulent discharge. Can cause corneal ulceration and blindness rapidly. Requires systemic antibiotic therapy.\n\nChlamydial: Presents later (5-14 days), is less severe, with watery to mucoid discharge. Can lead to pneumonia.\n\nPotential Future Questions: \"What is the primary reason for administering antibiotic eye ointment to all newborns after delivery?\" (To prevent ophthalmia neonatorum).\n\nSuggested Reference:\n\nKenyan Paediatric Association. (2013). Basic Paediatric Protocols. (Or other relevant national treatment guidelines)."
+  },
+  {
+    "question": "Q7. During management of severe eclampsia;",
+    "options": {
+      "A": "Anticonvulsant therapy should be given once daily",
+      "B": "Ketamine is the drug of choice in performing a caesarean delivery",
+      "C": "Nifedipine can be used to lower the blood pressure"
+    },
+    "answer": "C",
+    "explanation": "(c) Nifedipine can be used to lower the blood pressure: This is correct. In severe pre-eclampsia/eclampsia, rapid-acting antihypertensives are needed to prevent stroke. Nifedipine (a calcium channel blocker), along with Hydralazine and Labetalol, are the first-line agents used to manage severe hypertension in pregnancy.",
+    "additional": "(a) Anticonvulsant therapy should be given once daily: This is incorrect. The anticonvulsant of choice, magnesium sulfate, is given as an initial loading dose followed by a continuous infusion, not once daily.\n\n(b) Ketamine is the drug of choice...: This is incorrect. While ketamine can be used, the choice of anesthetic for a caesarean section in an eclamptic patient is complex. General anesthesia is often preferred for speed and airway control, but regional anesthesia (spinal/epidural) may be used if the patient is stable and has no coagulopathy. There is no single \"drug of choice\" and ketamine is not the primary one.\n\nMagnesium Sulfate: This is the cornerstone of eclampsia management.\n\nPrimary Purpose: To prevent and treat seizures (it is an anticonvulsant).\n\nTherapeutic Range: Monitor for signs of toxicity. The first sign is loss of deep tendon reflexes (e.g., patellar reflex). Later signs include respiratory depression and cardiac arrest.\n\nAntidote: The antidote for magnesium sulfate toxicity is Calcium Gluconate.\n\nPotential Future Questions: \"What is the antidote for magnesium sulfate toxicity?\" (Calcium Gluconate). \"A nurse is caring for a patient on a magnesium sulfate infusion for severe pre-eclampsia. Which assessment finding would indicate toxicity?\" (Absent patellar reflexes).\n\nSuggested Reference:\n\nMyles Textbook for Midwives, 17th Edition."
+  },
+  {
+    "question": "Q:3: In focused antenatal care, the second dose of sulfadoxide pyrimethamine (sp) is administered at gestation of:-",
+    "options": {
+      "A": "16-28 weeks",
+      "B": "20-30 weeks.",
+      "C": "28-34 weeks.",
+      "D": "34-36 weeks."
+    },
+    "answer": "C",
+    "explanation": "(c) 28-34 weeks: According to WHO and Kenyan guidelines for FANC, IPTp-SP should be started as early as possible in the second trimester (after quickening, around 16 weeks). Doses are then given at least one month apart. The first dose is typically given at the first FANC visit in the 2nd trimester (e.g., 16-24 weeks), and the second dose would logically fall in the 28-34 week window. The goal is to give at least two, and preferably three or more, doses before delivery.",
+    "additional": "(a), (b), (d): These timings are either too early for a second dose or too late to ensure maximum benefit.\n\nIPTp-SP Goal: To prevent maternal malaria episodes, maternal and fetal anemia, placental parasitemia, low birth weight, and neonatal mortality.\n\nAdministration: It is given as Directly Observed Therapy (DOT) at the antenatal clinic.\n\nContraindications: Should not be given to women who are HIV-positive and receiving co-trimoxazole prophylaxis, as there is an increased risk of adverse drug reactions.\n\nPotential Future Questions: \"What is the primary purpose of administering Sulfadoxine-Pyrimethamine to pregnant women in malaria-endemic regions?\" (To prevent maternal malaria and its complications).\n\nSuggested Reference:\n\nWHO. (2012). WHO policy brief for the implementation of intermittent preventive treatment of malaria in pregnancy using sulfadoxine-pyrimethamine (IPTp-SP)."
+  },
+  {
+    "question": "Q:4: In the elderly, peptic ulceration induced by non-steroidal anti-inflammatory drugs can best be treated with:-",
+    "options": {
+      "A": "Bismuth chelate.",
+      "B": "Misoprostol.",
+      "C": "Metoclopramide.",
+      "D": "Antacids."
+    },
+    "answer": "B",
+    "explanation": "(b) Misoprostol: This is the correct answer. Misoprostol is a synthetic prostaglandin E1 analog. It directly replaces the protective prostaglandins that are inhibited by NSAIDs. It works by decreasing stomach acid secretion and enhancing mucosal defense, making it the most specific and effective agent for treating and preventing NSAID-induced ulcers.",
+    "additional": "(a) Bismuth chelate: Bismuth preparations (like bismuth subsalicylate) are part of the quadruple therapy for H. pylori eradication and have some ulcer-coating effects, but they are not the primary choice for NSAID-induced ulcers.\n\n(c) Metoclopramide: This is a prokinetic agent that increases gastric motility. It is used for gastroparesis and as an antiemetic; it has no role in healing or preventing ulcers.\n\n(d) Antacids: Antacids (like magnesium hydroxide) provide temporary, symptomatic relief by neutralizing existing stomach acid but do not heal the ulcer or address the underlying cause (lack of prostaglandins). They are insufficient for treating an established NSAID-induced ulcer.\n\nProton Pump Inhibitors (PPIs): While misoprostol is the most specific answer, PPIs (e.g., omeprazole, pantoprazole) are now more commonly used in clinical practice for the treatment and prevention of NSAID-induced ulcers due to their high efficacy and better side-effect profile (misoprostol can cause diarrhea and abdominal cramping). If a PPI were an option, it would also be a strong contender.\n\nPatient Education for NSAID Use:\nAlways take NSAIDs with food or milk to reduce direct irritation.\nUse the lowest effective dose for the shortest possible duration.\nReport any signs of GI bleeding (black, tarry stools; coffee-ground emesis) immediately.\n\nPotential Future Questions: \"A patient taking long-term diclofenac for arthritis is prescribed omeprazole. The nurse understands the purpose of the omeprazole is to...\" (Prevent peptic ulcer formation).\n\nSuggested Reference:\nLehne's Pharmacology for Nursing Care, 10th Edition. Chapter 79: Drugs for Peptic Ulcer Disease."
+  },
+  {
+    "question": "Q20. When teaching about proper use of antacids, the nurse should instruct the client to:",
+    "options": {
+      "A": "Stagger the administration of the antacids with other medications",
+      "B": "Take the antacids with all other medications",
+      "C": "Take other medications in the daytime and antacids at night",
+      "D": "Drink a glass of water immediately after taking the antacids"
+    },
+    "answer": "A",
+    "explanation": "(a) Stagger the administration...: This is the correct and most crucial instruction. Antacids can alter gastric pH and can also bind (chelate) to other drugs in the stomach, preventing their absorption and reducing their effectiveness. The general rule is to separate the administration of antacids and other oral medications by at least 1 to 2 hours.",
+    "additional": "(b) Take the antacids with all other medications: This is incorrect and potentially dangerous as it would decrease the efficacy of the other drugs.\n\n(c) ...daytime and...night: This is too simplistic and doesn't address the core issue of interaction. Some medications must be taken at night, and antacids are often taken after meals and at bedtime.\n\n(d) Drink a glass of water...: While taking medication with water is generally good practice, it does not address the critical issue of drug-drug interactions, which is the focus of antacid education.\n\nDrugs that Interact with Antacids:\nTetracycline and Fluoroquinolone antibiotics: Antacids significantly reduce their absorption.\nIron supplements: Absorption is decreased.\nLevothyroxine: Absorption is decreased.\nDigoxin: Absorption can be affected.\n\nTypes of Antacids & Side Effects:\nAluminum Hydroxide: Causes constipation.\nMagnesium Hydroxide: Causes diarrhea. (Often combined with aluminum to balance GI effects, e.g., Maalox).\nCalcium Carbonate: Can cause constipation and acid rebound.\nSodium Bicarbonate: High sodium content, risk of metabolic alkalosis. Avoid in patients with hypertension or heart failure.\n\nPotential Future Questions: \"A patient is prescribed both an antacid and an oral iron supplement. What is the most important instruction the nurse should provide?\" (Take the iron supplement at least 2 hours before or after the antacid).\n\nSuggested Reference:\nDavis's Drug Guide for Nurses."
+  },
+  {
+    "question": "Q9. Inhalation anaesthetics are:",
+    "options": {
+      "A": "Muscle-relaxants used to facilitate surgery by paralyzing skeletal muscles",
+      "B": "Non-opioid agent that produce anaesthesia or sedation",
+      "C": "Opioid agents that produce unconsciousness during surgery",
+      "D": "Organic liquids used for induction and or maintenance of general anaesthesia"
+    },
+    "answer": "D",
+    "explanation": "(d) Organic liquids used for induction and or maintenance...: This is the correct definition. Inhalation anesthetics (e.g., sevoflurane, desflurane, isoflurane, and nitrous oxide gas) are volatile liquids or gases that are vaporized and inhaled. They are primarily used for the maintenance of general anesthesia after an IV agent has been used for induction, though they can also be used for induction itself (especially in children).",
+    "additional": "(a) Muscle-relaxants...: This describes neuromuscular blocking agents (e.g., succinylcholine, rocuronium). They cause paralysis but do not provide analgesia or amnesia. They are used with general anesthetics.\n\n(b) Non-opioid agent...: This is too broad. While inhalation agents are non-opioids, this option doesn't accurately describe them. Propofol is a non-opioid IV anesthetic, for example.\n\n(c) Opioid agents...: This describes opioids (e.g., fentanyl, morphine) which are used as part of a balanced anesthesia technique for their powerful analgesic (pain-killing) effects, but they do not typically produce full anesthesia on their own.\n\nBalanced Anesthesia: Modern general anesthesia is a \"balanced\" technique that uses a combination of drugs to achieve the desired effects:\n\nHypnosis/Amnesia: (Unconsciousness) - Achieved with IV agents like Propofol or inhalation agents.\nAnalgesia: (Pain relief) - Achieved with opioids like Fentanyl.\nMuscle Relaxation: (Paralysis for intubation/surgery) - Achieved with neuromuscular blockers like Rocuronium.\n\nMalignant Hyperthermia: This is a rare, life-threatening genetic disorder triggered by exposure to volatile inhalation anesthetics and succinylcholine. It causes a hypermetabolic state with muscle rigidity, high fever, and tachycardia. The antidote is Dantrolene.\n\nPotential Future Questions: \"What is the specific antidote for malignant hyperthermia?\" (Dantrolene). Or, \"A patient undergoing surgery receives fentanyl, propofol, and rocuronium. The nurse understands the rocuronium is administered to achieve what effect?\" (Muscle relaxation/paralysis).\n\nSuggested Reference:\nLehne's Pharmacology for Nursing Care, 10th Edition. Chapter 24: General Anesthetics."
+  },
+  {
+    "question": "Q:19: During pre-operative period, the drugs used to achieve sedation, reduce and cause amnesia include:",
+    "options": {
+      "A": "Diazepam ranitidine.",
+      "B": "Diazepam, scopolamine.",
+      "C": "Midazolam, diazepam.",
+      "D": "Atropine sulfate, midazolam."
+    },
+    "answer": "C",
+    "explanation": "(c) Midazolam, diazepam: This is the correct answer as both drugs belong to the benzodiazepine class. Benzodiazepines are widely used pre-operatively for their potent anxiolytic, sedative, and anterograde amnestic effects (the patient won't remember events after the drug is given). Midazolam (Versed) is particularly popular because it is short-acting.",
+    "additional": "(a) ...ranitidine: Ranitidine is an H2-receptor antagonist used to decrease stomach acid and reduce the risk of aspiration pneumonitis. It does not cause sedation or amnesia.\n\n(b) ...scopolamine: Scopolamine is an anticholinergic drug. While it can cause sedation and amnesia, it is more commonly used for its anti-sickness (antiemetic) and anti-salivary effects. The combination with diazepam is plausible, but option (c) lists two drugs from the primary class used for this purpose.\n\n(d) Atropine sulfate...: Atropine is an anticholinergic used to decrease secretions and prevent bradycardia. It does not provide significant sedation or amnesia at standard pre-op doses.\n\nGoals of Pre-operative Medication:\nReduce Anxiety (anxiolysis)\nProduce Sedation\nInduce Amnesia\nProvide Analgesia (pain relief)\nReduce Gastric Acidity and Volume (e.g., PPIs, H2 blockers)\nReduce Oral and Respiratory Secretions (anticholinergics)\n\nBenzodiazepine Antidote: The specific reversal agent for a benzodiazepine overdose is Flumazenil.\n\nPotential Future Questions: \"A patient in the pre-operative holding area is given IV midazolam. The nurse knows this medication is given primarily for what purpose?\" (Sedation and amnesia). \"What is the reversal agent for benzodiazepines?\" (Flumazenil).\n\nSuggested Reference:\nBrunner & Suddarth's Textbook of Medical-Surgical Nursing, 14th Edition. Chapter 14: Preoperative Nursing Management."
+  },
+  {
+    "question": "Q12. Pre-operative care of a client with ruptured appendix includes:",
+    "options": {
+      "A": "A diet of clear fluids",
+      "B": "An enema to prepare bowel for surgery",
+      "C": "Administering intravenous antibiotics",
+      "D": "Applying a warm bath on the abdomen"
+    },
+    "answer": "C",
+    "explanation": "(c) Administering intravenous antibiotics: This is the absolute priority pharmacological intervention. Broad-spectrum IV antibiotics must be started immediately pre-operatively to control the widespread bacterial infection (peritonitis) and prevent life-threatening sepsis and septic shock.",
+    "additional": "(a) A diet of clear fluids: This is incorrect. The patient must be kept Nil Per Os (NPO) in preparation for emergency surgery.\n\n(b) An enema...: This is contraindicated. An enema would increase intra-abdominal pressure and could worsen the spread of infection within the peritoneal cavity. Bowel preps are not used in emergency abdominal surgery.\n\n(d) Applying a warm bath on the abdomen: Applying heat (warm bath or heating pad) is contraindicated in appendicitis as it can increase inflammation and blood flow, potentially hastening rupture.\n\nPre-operative Stabilization for Ruptured Appendix:\nFluid Resuscitation: Administer large volumes of IV fluids (e.g., Normal Saline or Lactated Ringer's) to correct dehydration and hypotension caused by fluid shifting into the peritoneum (\"third spacing\").\n\nAntibiotic Therapy: Start broad-spectrum IV antibiotics.\n\nNPO Status: Keep the patient NPO.\n\nPain Management: Administer IV analgesics.\n\nNG Tube: An NG tube may be inserted to decompress the stomach and prevent vomiting.\n\nSigns of Peritonitis: Rigid, board-like abdomen; rebound tenderness (Blumberg's sign); fever; tachycardia; hypotension.\n\nPotential Future Questions: \"A patient is diagnosed with peritonitis secondary to a ruptured appendix. Which of the following physician's orders should the nurse question?\" (e.g., \"Administer a fleets enema\" or \"Apply a heating pad to the abdomen\").\n\nSuggested Reference:\nLewis's Medical-Surgical Nursing: Assessment and Management of Clinical Problems, 11th Edition. Chapter 42: Nursing Management, Inflammatory Intestinal Problems."
+  },
+  {
+    "question": "Q:14: The anti-opioid drug used in resuscitation of the newborn is:-",
+    "options": {
+      "A": "Konakion 0.5 mg intramuscularly.",
+      "B": "Dexamethosone 1-2mg Intravenously.",
+      "C": "Narcan 0.1 mg/kilogram body weight intravenously.",
+      "D": "Naloxone 0.5 mg intravenously."
+    },
+    "answer": "C",
+    "explanation": "(c) Narcan 0.1 mg/kilogram body weight intravenously: This is the correct answer. Narcan is the brand name for Naloxone. Naloxone is a pure opioid antagonist that reverses respiratory depression caused by opioids. The correct neonatal dose is calculated based on weight, typically 0.1 mg/kg.",
+    "additional": "(a) Konakion: This is Vitamin K, administered to all newborns to prevent hemorrhagic disease of the newborn. It has no effect on opioids.\n\n(b) Dexamethasone: This is a corticosteroid used to reduce inflammation or mature fetal lungs when given antenatally, not for opioid reversal.\n\n(d) Naloxone 0.5 mg: Although Naloxone is correct, this fixed dose is inappropriate for neonates, who require dosing by weight.\n\nIndication: Naloxone is used only if the newborn has respiratory depression AND the mother received opioids within 4 hours of delivery.\n\nContraindication: Do not use if the mother is opioid-dependent, as it may precipitate withdrawal.\n\nMonitor for re-narcotization because naloxone’s duration is shorter than most opioids.\n\nPotential Future Questions: \"In which situation is naloxone contraindicated in newborns?\" (When the mother has a history of opioid addiction).\n\nSuggested Reference: American Academy of Pediatrics (AAP) & AHA. Neonatal Resuscitation (NRP), 8th Edition."
+  },
+  {
+    "question": "Q4. Drugs used in management of depression include:",
+    "options": {
+      "A": "Haloperidol, mirtazapine, trazodone",
+      "B": "Risperidone, venflaxine, citalopram",
+      "C": "Thioridazine, doxepine, venflaxine",
+      "D": "Doxepine, imipramine, amitryptyline"
+    },
+    "answer": "D",
+    "explanation": "(d) Doxepine, imipramine, amitryptyline: This is the correct answer. All three drugs are Tricyclic Antidepressants (TCAs), used to treat depression. Although older, they are still effective.",
+    "additional": "(a) Haloperidol is an antipsychotic. Mirtazapine and Trazodone are antidepressants.\n\n(b) Risperidone is an antipsychotic. Venlafaxine (SNRI) and Citalopram (SSRI) are antidepressants.\n\n(c) Thioridazine is an antipsychotic. Doxepin and Venlafaxine are antidepressants.\n\nClasses of Antidepressants:\n- SSRIs: Fluoxetine, Sertraline, Citalopram\n- SNRIs: Venlafaxine, Duloxetine\n- TCAs: Amitriptyline, Imipramine\n- MAOIs: Phenelzine (watch for tyramine diet)\n- Atypical: Bupropion, Mirtazapine\n\nNursing Considerations:\n- Suicide Risk increases early in treatment.\n- Therapeutic Lag: Takes 4–6 weeks to work.\n- Serotonin Syndrome: Agitation, hyperreflexia, tremor, fever.\n\nPotential Future Questions: \"What foods should patients on phenelzine avoid?\" (Tyramine-rich foods).\n\nSuggested Reference: Stahl's Essential Psychopharmacology, 5th Edition."
+  },
+  {
+    "question": "Q.8: The autonomic nervous system side effects of tricyclic antidepressant drugs are:",
+    "options": {
+      "A": "Muscle twitching, fine tremor, peripheral neuropathy",
+      "B": "Agranulocytosis, jaundice, epileptic seizures",
+      "C": "Constipation, increased sweating, difficulty in micturition",
+      "D": "Tachycardia, epileptic fits, muscle twitching"
+    },
+    "answer": "C",
+    "explanation": "(c) Constipation, increased sweating, difficulty in micturition: These are classic anticholinergic effects of TCAs due to blockade of muscarinic receptors.",
+    "additional": "- Constipation: From decreased GI motility.\n- Urinary retention: Relaxation of detrusor muscle.\n- Diaphoresis: Sweating is a common autonomic effect.\n\n(a), (d): Muscle twitching and tremor can occur, but not primary autonomic effects.\n(b): Agranulocytosis is rare and associated with Clozapine.\n\nMnemonic: \"Can't see, can't pee, can't spit, can't shit.\"\n\nOther Concerns:\n- Cardiotoxicity: Widened QRS, VTach, fatal in overdose.\n- Orthostatic Hypotension: Alpha-1 blockade.\n\nPotential Future Questions: \"What is the most dangerous effect of amitriptyline overdose?\" (Cardiac arrhythmia).\n\nSuggested Reference: Lehne's Pharmacology for Nursing Care, 10th Edition, Ch. 32."
+  },
+  {
+    "question": "Q4. Emergency contraceptives are effective if taken within:-",
+    "options": {
+      "A": "48 hours",
+      "B": "72 hours",
+      "C": "5 days",
+      "D": "7 days"
+    },
+    "answer": "C",
+    "explanation": "(c) 5 days: Modern emergency contraceptives are effective up to 120 hours after unprotected sex. Levonorgestrel is effective up to 72 hours; Ulipristal Acetate works up to 5 days.",
+    "additional": "- Levonorgestrel: Use within 72 hours (best if taken ASAP).\n- Ulipristal Acetate: Effective up to 5 days.\n\nCopper IUD: Most effective EC method. Insertable up to 5 days after unprotected intercourse. >99% effective.\n\nMechanism: Delay/inhibit ovulation. Does not interrupt existing pregnancy.\n\nPatient Education:\n- Not for routine use.\n- Does not protect against STIs.\n- Begin regular contraception immediately.\n- Take a pregnancy test if period is late by a week.\n\nPotential Future Questions: \"What is the most effective method of emergency contraception?\" (Copper IUD).\n\nSuggested Reference: WHO Fact Sheet on Emergency Contraception."
+  },
+  {
+    "question": "Q: 11: Atopic dermatitis commonly develops in individuals aged:-",
+    "options": {
+      "A": "30 years and above.",
+      "B": "1 month to 1 year.",
+      "C": "Above 5 years.",
+      "D": "Between 2 years and 5 years."
+    },
+    "answer": "B",
+    "explanation": "(b) 1 month to 1 year: Most cases of atopic dermatitis (eczema) begin in infancy, commonly before age one. The face, scalp, and extensor surfaces are typically affected.",
+    "additional": "- Other age groups can have eczema, but infantile onset is classic.\n\nAtopic March: Eczema often precedes food allergies, hay fever, and asthma.\n\nPharmacologic Treatment:\n- Emollients: Daily use is cornerstone therapy.\n- Topical Corticosteroids: For inflammation (low-potency for face).\n- Calcineurin Inhibitors: Tacrolimus, Pimecrolimus (non-steroidal).\n- Antihistamines: For itch control.\n\nPotential Future Questions: \"What is the most important part of atopic dermatitis daily care?\" (Emollient use).\n\nSuggested Reference: Wong's Nursing Care of Infants and Children, 11th Edition, Ch. 30."
+  },
+  {
+    "question": "Q:10: At primary level of anti-retroviral prophylaxis for PMTCT (prevention of mother to child transmission), a HIV-positive woman should take:-",
+    "options": {
+      "A": "Nevirapine 300 mgs at onset of labour.",
+      "B": "Nevirapine 200 mgs at onset of labour.",
+      "C": "Zidovudine 300 mgs 3 hourly for 12 hours.",
+      "D": "Zidovudine 2mg/ kilogram body weight within three days of delivery."
+    },
+    "answer": "B",
+    "explanation": "(b) Nevirapine 200 mgs at onset of labour: This is the correct answer based on older PMTCT protocols. A single oral dose of 200 mg nevirapine was administered to the mother during labor to reduce HIV transmission risk.",
+    "additional": "(a): Incorrect dosage.\n(c) & (d): Zidovudine was used in more complex regimens, and option (d) describes neonatal dosing.\n\nModern Update: Current WHO guidelines recommend lifelong cART for pregnant HIV-positive women (Option B+). Typical first-line regimen includes Tenofovir + Lamivudine + Dolutegravir (TLD).\n\nInfant Prophylaxis: Nevirapine or Zidovudine for 6 weeks post-delivery.\n\nPotential Future Questions: \"What is the goal of ART in pregnancy?\" (To achieve undetectable viral load).\n\nSuggested Reference: WHO Consolidated Guidelines on ARV Use for Treating and Preventing HIV Infection."
+  },
+  {
+    "question": "Q.13: Anti-anxiety medication produce a calming effect by:-",
+    "options": {
+      "A": "Inhibiting the production of monoamine oxidase enzyme",
+      "B": "Depressing the sub-cortical levels of the central nervous system",
+      "C": "Decreasing levels of norepinephrine and serotonin in the brain",
+      "D": "Decreasing the levels of dopamine in the brain"
+    },
+    "answer": "B",
+    "explanation": "(b) Depressing the sub-cortical levels of the CNS: Benzodiazepines, the main class of anti-anxiety drugs, enhance the action of GABA at the GABA-A receptor, causing CNS depression, especially in the limbic system and reticular activating system.",
+    "additional": "(a): Describes MAOIs (used for depression).\n(c): Incorrect—most antidepressants increase these levels.\n(d): Describes antipsychotic drugs.\n\nMechanism: Benzodiazepines increase chloride influx via GABA-A, hyperpolarizing neurons and reducing excitability.\n\nOther Anxiolytics:\n- Buspirone: Acts on serotonin receptors, non-sedating.\n- SSRIs/SNRIs: First-line for chronic anxiety.\n\nPotential Future Questions: \"Benzodiazepines enhance the effect of which neurotransmitter?\" (GABA).\n\nSuggested Reference: Stahl’s Essential Psychopharmacology, 5th Edition."
+  },
+  {
+    "question": "Q6. The first appropriate nursing intervention to a newly admitted client with urine specific gravity of 1.040 is to:",
+    "options": {
+      "A": "Restrict oral fluids",
+      "B": "Encourage liquid diet",
+      "C": "Administer IV fluids",
+      "D": "Continue with normal prescribed care"
+    },
+    "answer": "B",
+    "explanation": "(b) Encourage liquid diet: A specific gravity of 1.040 indicates concentrated urine (dehydration). If the patient is conscious and able to drink, the safest first intervention is encouraging oral rehydration through fluids or a liquid diet.",
+    "additional": "(c): IV fluids are used if the patient is unable to drink or is severely dehydrated.\n(a): Contraindicated—fluid restriction would worsen dehydration.\n(d): Passive and inappropriate given the clinical finding.\n\nHigh Specific Gravity: Caused by dehydration, SIADH, decreased renal perfusion.\n\nLow Specific Gravity: Seen in fluid overload, Diabetes Insipidus, or use of diuretics.\n\nPotential Future Questions: \"A urine specific gravity of 1.005 suggests what action?\" (Restrict fluids).\n\nSuggested Reference: Brunner & Suddarth’s Medical-Surgical Nursing, 14th Edition, Ch. 10."
+  },
+  {
+    "question": "Q17. The function of niacin in the body is:",
+    "options": {
+      "A": "Inhibition of production of cholesterol, is necessary for cell respiration",
+      "B": "Formation of collagen, is necessary for red blood cell maturation",
+      "C": "Is necessary for DNA synthesis, is antioxidant",
+      "D": "Is necessary for carbohydrate metabolism"
+    },
+    "answer": "A",
+    "explanation": "(a) Inhibition of cholesterol production, necessary for cell respiration: This option correctly includes both niacin’s physiological (cellular respiration via NAD/NADP) and pharmacological (cholesterol reduction) roles.",
+    "additional": "(b): Describes Vitamin C (collagen) and B12/folate (RBC maturation).\n(c): DNA synthesis is B12/folate; antioxidant role fits C and E.\n(d): True for normal function but less comprehensive than option (a).\n\nDeficiency = Pellagra (3 D’s): Dermatitis, Diarrhea, Dementia.\n\nHigh-dose niacin: Used to treat hyperlipidemia. Can cause facial flushing.\n\nPatient Education: Take aspirin before niacin dose to reduce flushing (with provider approval).\n\nPotential Future Questions: \"A patient on niacin for cholesterol reports flushing—what can help?\" (Take aspirin 30 minutes prior).\n\nSuggested Reference: Lehne’s Pharmacology for Nursing Care, 10th Edition, Ch. 50."
   }
 ]
+
+
+
+
 
 
 
