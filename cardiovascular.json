@@ -670,8 +670,1429 @@
     "answer": "A",
     "explanation": "(a) Hip surgery, pelvic surgery for removal of malignancy: This option lists the highest risk factors. Major orthopedic surgery of the lower extremities (especially total hip or knee replacement) and major cancer surgery are associated with the highest rates of VTE due to the combination of endothelial injury, venous stasis from immobility, and a hypercoagulable state (Virchow's Triad).\n\n(b) & (c): Acutely ill medical patients with conditions like pneumonia, heart failure, and stroke are also at increased risk and often require prophylaxis, but the risk is generally considered highest in the major orthopedic/cancer surgery group.\n\n(d): Antiretroviral therapy and inflammatory bowel disease are risk factors, but they do not carry the same level of acute risk as major surgery.",
     "additional": "Virchow's Triad (The three factors that contribute to thrombosis):\n\nVenous Stasis: (Immobility, bed rest, varicose veins, heart failure)\n\nEndothelial (Vessel Wall) Injury: (Surgery, trauma, central venous catheters)\n\nHypercoagulability: (Malignancy, pregnancy, estrogen therapy, inherited clotting disorders)\n\nMethods of VTE Prophylaxis:\n\nPharmacological: Low-molecular-weight heparin (LMWH) like enoxaparin, unfractionated heparin (subcutaneously), or newer oral anticoagulants.\n\nMechanical: Graduated compression stockings, intermittent pneumatic compression (IPC) devices, and early ambulation.\n\nNursing Role:\n\nAssess all patients for VTE risk.\n\nEnsure prophylactic orders are in place and administered correctly.\n\nEncourage early mobilization and active/passive range-of-motion exercises.\n\nEducate the patient on the importance of prophylaxis.\n\nPotential Future Questions: \"A patient is scheduled for a total hip replacement. The nurse anticipates that which of the following will be included in the post-operative plan of care to prevent a common complication?\" (e.g., Administration of enoxaparin, Application of IPC devices). Or, could ask to list the three components of Virchow's Triad.\n\nSuggested Reference:\n\nLewis's Medical-Surgical Nursing: Assessment and Management of Clinical Problems, 11th Edition. Chapter 37: Nursing Management, Vascular Disorders."
+  },
+  {
+    "question": "The nurse is discussing modifiable risk factors with the client diagnosed with angina. Which instructions should be included in the instructions? Select all that apply.",
+    "options": {
+      "A": "Discuss the importance of eating a diet low in fiber.",
+      "B": "Explain the need to keep the cholesterol level under 200 mg/dL.",
+      "C": "Instruct the client to walk for 30 minutes three times a week.",
+      "D": "Tell the client to decrease the amount of cigarettes smoked daily.",
+      "E": "Inform the client the blood glucose level should be 70–120 mg/dL."
+    },
+    "answer": "B, C, E",
+    "explanation": "The selected instructions address key modifiable risk factors for angina, which is most often caused by coronary artery disease.[1]\n\nCholesterol Management (2): Keeping total cholesterol under 200 mg/dL is a standard guideline for reducing the risk of atherosclerosis, the underlying cause of most angina.[2] High cholesterol contributes directly to plaque formation in the arteries.\n\nPhysical Activity (3): Regular aerobic exercise, such as walking for 30 minutes multiple times a week, strengthens the heart, improves circulation, and helps manage other risk factors like high blood pressure and obesity.[3][4]\n\nBlood Glucose Control (5): Maintaining a normal blood glucose level is crucial, as diabetes is a major risk factor for developing atherosclerosis.[5]\n\nIncorrect Options: A high-fiber diet, not a low-fiber one, is recommended to help lower cholesterol. Also, the goal for a smoker is complete cessation, not just a reduction in the number of cigarettes, as any amount of smoking damages blood vessels and accelerates heart disease.[2][6]",
+    "additional": "NCK Focus: Expect questions that require you to distinguish between modifiable and non-modifiable risk factors.\n\nModifiable: Smoking, high blood pressure, high cholesterol, diabetes, obesity/sedentary lifestyle, stress.[2][7]\n\nNon-Modifiable: Age, male sex, family history.[8]\n\nAngina Types: Be prepared to differentiate between stable angina (predictable, occurs with exertion, relieved by rest/nitroglycerin) and unstable angina (new onset, occurs at rest, or is a worsening of a previous pattern), which is a medical emergency.[1]\n\nPatient Education: Key teaching points for angina include medication adherence (especially nitroglycerin), recognizing triggers, and knowing when to seek emergency help (e.g., chest pain not relieved by nitroglycerin)."
+  },
+  {
+    "question": "The nurse is caring for a client diagnosed with a myocardial infarction. Which assessment data would warrant immediate attention by the nurse?",
+    "options": {
+      "A": "The client has a urinary output of 120 mL in 2 hours.",
+      "B": "The client's telemetry shows multifocal premature ventricular contractions (PVCs).",
+      "C": "The client's bilateral anterior and posterior breath sounds are clear.",
+      "D": "The client's cardiac enzymes and white blood cells are elevated."
+    },
+    "answer": "B",
+    "explanation": "Following a myocardial infarction (MI), the heart muscle is irritable and prone to dangerous arrhythmias. Multifocal PVCs indicate that multiple areas in the ventricles are firing ectopically, which can quickly deteriorate into life-threatening rhythms like ventricular tachycardia or fibrillation. This finding requires immediate intervention.\n\nOption A: A urinary output of 120 mL in 2 hours is 60 mL/hour, which is within the normal range for an adult (generally >30 mL/hour or 0.5-1.0 mL/kg/hr).[9][10][11]\n\nOption C: Clear breath sounds are a normal and desirable finding, indicating the absence of fluid buildup in the lungs (pulmonary edema), a common complication of MI.\n\nOption D: Elevated cardiac enzymes (like troponin) and an elevated white blood cell count (due to inflammation of the heart muscle) are expected findings after an MI.",
+    "additional": "NCK Focus: Prioritizing care for the post-MI patient is a common topic. Life-threatening arrhythmias and signs of cardiogenic shock (e.g., hypotension, altered mental status, poor perfusion) are always the highest priority.\n\nMI Complications: Key complications include dysrhythmias, heart failure, cardiogenic shock, and papillary muscle rupture. The nurse must continuously assess for signs of these issues.[12]\n\nPVCs: While isolated, unifocal PVCs can be common, multifocal PVCs, couplets (two in a row), or runs of PVCs (ventricular tachycardia) are a sign of significant cardiac irritability and require immediate treatment."
+  },
+  {
+    "question": "The HCP has prescribed thrombolytic therapy for the client diagnosed with a myocardial infarction. Which data indicate the medication is effective?",
+    "options": {
+      "A": "The client's cardiac enzymes decrease.",
+      "B": "The client's chest pain is relieved.",
+      "C": "The client exhibits reperfusion dysrhythmias.",
+      "D": "The client's blood pressure is within normal limits."
+    },
+    "answer": "C",
+    "explanation": "The most reliable clinical indicator that thrombolytic therapy has been effective is the presence of reperfusion dysrhythmias, such as an accelerated idioventricular rhythm (AIVR) or frequent PVCs.[13][14] These arrhythmias occur as blood flow is suddenly restored to the ischemic heart muscle, causing electrical instability.\n\nOption A: Cardiac enzymes will continue to rise for several hours after the MI, even with successful reperfusion, as the damaged cells release their contents. A decrease is not an immediate sign of effectiveness.\n\nOption B: Relief of chest pain is a positive sign but can be subjective and may also be due to analgesics like morphine.\n\nOption D: While stable blood pressure is a goal, it is not a direct indicator of coronary artery reperfusion.",
+    "additional": "NCK Focus: Be prepared to identify signs of successful reperfusion. Other signs include the resolution of ST-segment elevation on the ECG and relief of chest pain.[15]\n\nThrombolytic Therapy: This therapy (using drugs like alteplase or reteplase) aims to dissolve the blood clot causing the MI and restore blood flow.[16]\n\nContraindications: Absolute contraindications are critical to know and include any prior intracranial hemorrhage, known cerebral vascular lesion, recent ischemic stroke (within 3 months), and active internal bleeding.\n\nNursing Care: Monitor for signs of bleeding (the major complication), neuro checks, and continuous cardiac monitoring.[17]"
+  },
+  {
+    "question": "The charge nurse is making assignments for clients on a medical unit. Which client should the charge nurse assign to the recent graduate nurse?",
+    "options": {
+      "A": "The client diagnosed with angina whose pain is unrelieved with nitroglycerin.",
+      "B": "The client who is scheduled for a left-sided cardiac catheterization.",
+      "C": "The client with a myocardial infarction whose pulse oximeter reading is 90%.",
+      "D": "The client diagnosed with heart disease who needs discharge teaching."
+    },
+    "answer": "B",
+    "explanation": "A recent graduate nurse should be assigned the most stable and predictable client. A client scheduled for a cardiac catheterization is considered stable. The procedure is elective or scheduled, and the pre-procedure care is standardized.\n\nOption A: Angina unrelieved by nitroglycerin indicates unstable angina, a medical emergency requiring an experienced nurse.[1]\n\nOption C: A pulse oximetry reading of 90% in a client with an MI suggests significant cardiac or respiratory compromise (hypoxemia) and instability. This patient requires experienced assessment and intervention.[18]\n\nOption D: Discharge teaching for a client with heart disease is complex and requires a comprehensive understanding of the disease process and treatments. This is often best handled by a more experienced nurse.",
+    "additional": "NCK Focus: Delegation and assignment questions are common. The key principle is to assign the most unstable, complex, or unpredictable patients to the most experienced nurse. New graduates or LPNs/UAPs receive the most stable patients with predictable outcomes.\n\nStable vs. Unstable: Key indicators of instability include acute, unrelieved symptoms (like chest pain), abnormal vital signs, low oxygen saturation, and acute changes in neurological or cardiovascular status."
+  },
+  {
+    "question": "The intensive care nurse is caring for a client diagnosed with a myocardial infarction. Which intervention should the nurse implement?",
+    "options": {
+      "A": "Monitor the client's urine output every shift.",
+      "B": "Keep the head of the client's bed flat.",
+      "C": "Assess the client's breath sounds every 2 hours.",
+      "D": "Discourage the client from deep breathing."
+    },
+    "answer": "C",
+    "explanation": "A client after a myocardial infarction is at high risk for developing left-sided heart failure, which can lead to pulmonary edema. Assessing breath sounds frequently (e.g., every 2 hours) allows for the early detection of crackles, which are a hallmark sign of fluid in the lungs.\n\nOption A: Monitoring urine output is important, but checking it only once per shift is not frequent enough for a critically ill patient. Hourly urine output monitoring is standard in the ICU to assess cardiac output and renal perfusion.[19]\n\nOption B: The head of the bed should be elevated (e.g., semi-Fowler's position) to decrease the workload on the heart and improve lung expansion.[12][16] Lying flat can increase shortness of breath.\n\nOption D: Deep breathing should be encouraged to prevent atelectasis and pneumonia, which are potential complications of immobility.",
+    "additional": "NCK Focus: Nursing priorities for MI care focus on improving oxygenation, managing pain, and monitoring for complications.[20][21]\n\nHeart Failure Signs: Be alert for signs of heart failure post-MI: crackles in the lungs, dyspnea, S3 heart sound, jugular vein distention, and decreased urine output.[22]\n\nMONA: The initial management acronym for MI is often MONA (Morphine, Oxygen, Nitroglycerin, Aspirin).[21]"
+  },
+  {
+    "question": "The charge nurse is observing a licensed practical nurse (LPN) applying a nitroglycerin patch to the client diagnosed with angina. Which action warrants immediate intervention from the charge nurse?",
+    "options": {
+      "A": "The LPN places the nitroglycerin patch on a non-hairy area.",
+      "B": "The LPN dates and times the nitroglycerin patch.",
+      "C": "The LPN wears gloves when applying the nitroglycerin patch.",
+      "D": "The LPN applies the new patch while leaving the old patch in place."
+    },
+    "answer": "D",
+    "explanation": "Leaving the old nitroglycerin patch on while applying a new one can lead to an overdose of the medication, causing severe hypotension, headache, and dizziness. The old patch must always be removed before a new one is applied.\n\nOptions A, B, and C are all correct procedures for applying a nitroglycerin patch. It should be placed on a clean, dry, hairless area to ensure good absorption.[23][24] Dating and timing the patch is essential for tracking when it needs to be changed. The nurse must wear gloves to avoid absorbing the medication through their own skin.",
+    "additional": "NCK Focus: Medication administration safety is a core nursing principle and frequently tested. This includes the \"seven rights\" of medication administration and specific procedures for different routes, like transdermal patches.\n\nNitroglycerin Patch Teaching: Key patient education includes rotating application sites to prevent skin irritation, understanding the \"patch-free\" interval (usually 10-12 hours overnight) to prevent tolerance, and how to dispose of the old patch safely (by folding it in half, sticky sides together).[25][26]"
+  },
+  {
+    "question": "Which statement indicates to the nurse the client understands a modifiable risk factor for atherosclerosis?",
+    "options": {
+      "A": "As I get older my chance of having a heart attack increases.",
+      "B": "My father and grandfather both died of heart disease.",
+      "C": "I listen to relaxation tapes to help decrease my high stress level.",
+      "D": "I will take saw palmetto every day to help decrease my blood pressure.”"
+    },
+    "answer": "C",
+    "explanation": "Stress is considered a modifiable risk factor for atherosclerosis.[27] By using relaxation tapes, the client is actively taking a step to manage their stress, which can positively impact cardiovascular health by reducing blood pressure and heart rate.[28][29][30]\n\nOption A (Age) and B (Family History): These are non-modifiable risk factors; they cannot be changed by the client.\n\nOption D: Saw palmetto is an herbal supplement primarily used for benign prostatic hypertrophy (BPH) and has no proven effect on blood pressure. This statement indicates a lack of understanding.",
+    "additional": "NCK Focus: Questions often test the ability to evaluate a client's understanding of their health condition and self-management strategies. The nurse must be able to identify correct and incorrect statements.\n\nStress Management Techniques: Effective techniques include exercise, mindfulness, meditation, deep breathing, and engaging in hobbies.[31][32] Educating clients on these strategies is an important nursing intervention.\n\nHerbal Supplements: Always teach clients to discuss any herbal supplements with their healthcare provider, as they can interact with prescribed medications or have unintended effects."
+  },
+  {
+    "question": "The client asks the nurse, \"My doctor just told me that atherosclerosis is why my chest hurts when I walk real fast. What does that mean?\" Which statement is the nurse's best response?",
+    "options": {
+      "A": "The muscle fibers and endothelial lining of your arteries have become thickened.",
+      "B": "You sound concerned because your chest hurts when you walk real fast.",
+      "C": "The valves in your heart are incompetent, which is why your chest hurts with activity.",
+      "D": "You have a hardening of your arteries with fatty buildup that decreases the oxygen to your heart."
+    },
+    "answer": "D",
+    "explanation": "This response provides a simple, clear, and accurate explanation of atherosclerosis in lay terms. It correctly identifies the two key components: hardening of the arteries and fatty buildup (plaque), and links it directly to the client's symptom by explaining that it reduces oxygen flow to the heart, causing pain (angina) during exertion.[2]\n\nOption A: This uses medical terminology (\"endothelial lining\") that the client may not understand.\n\nOption B: This is a therapeutic communication technique that reflects the client's feelings but does not answer their direct question for information.\n\nOption C: This describes valvular heart disease, not atherosclerosis. Atherosclerosis affects the arteries, not the valves.",
+    "additional": "NCK Focus: Therapeutic communication is essential, but so is providing clear, accurate patient education. Questions may require you to choose the best response that accomplishes both, or to prioritize providing factual information when it is directly requested.\n\nPathophysiology of Atherosclerosis: It is a process of repeated injury to the artery walls, leading to the buildup of fatty deposits, cholesterol, and other substances into plaques. These plaques can narrow or block arteries, restricting blood flow.[2]"
+  },
+  {
+    "question": "The client diagnosed with peripheral vascular disease is overweight, has smoked two packs of cigarettes a day for 20 years, and sits behind a desk all day. Which statement by the client refers to the strongest factor in the development of atherosclerotic lesions?",
+    "options": {
+      "A": "I am going to try and lose at least 20 pounds.",
+      "B": "I have to get out from behind the desk more often.”",
+      "C": "I am going to eat foods that are high in fiber.”",
+      "D": "I have to quit smoking cigarettes but it will be hard."
+    },
+    "answer": "D",
+    "explanation": "While all the options are positive lifestyle changes, smoking is the single most important and powerful modifiable risk factor for the development and progression of atherosclerosis.[2][33] The chemicals in tobacco directly damage the arterial lining, promote plaque formation, reduce the oxygen-carrying capacity of the blood, and cause vasoconstriction.[33] Recognizing the need to quit smoking addresses the most significant contributing factor.\n\nOptions A (Obesity), B (Sedentary Lifestyle), and C (Diet): These are all significant modifiable risk factors, but smoking has the most potent and direct damaging effect on the vascular system.[34]",
+    "additional": "NCK Focus: Be prepared to rank the importance of various risk factors. For cardiovascular disease, smoking cessation is almost always the highest priority lifestyle modification.[35]\n\nBenefits of Quitting: The benefits of quitting smoking begin almost immediately. The risk of heart attack drops sharply within 1–2 years of quitting.[36][37][38]"
+  },
+  {
+    "question": "The female client tells the nurse that her cholesterol level was 189 mg/dL. Which action should the nurse implement?",
+    "options": {
+      "A": "Praise the client for having an acceptable cholesterol level.",
+      "B": "Explain that the client needs to lower the cholesterol level.",
+      "C": "Discuss dietary changes that could help increase the level.",
+      "D": "Allow the client to ventilate feelings about the blood result."
+    },
+    "answer": "A",
+    "explanation": "A total cholesterol level below 200 mg/dL is considered desirable and is a target for preventing cardiovascular disease. A level of 189 mg/dL is within this healthy range. Therefore, the appropriate nursing action is to provide positive reinforcement and praise the client for this good result, which encourages continued healthy behaviors.\n\nOptions B and C: These are incorrect as the level is already within the desirable range and does not need to be lowered or increased.\n\nOption D: While therapeutic, there is no indication that the client has negative feelings about this excellent result that would require ventilation. The most direct and appropriate action is positive reinforcement.",
+    "additional": "NCK Focus: Knowledge of normal laboratory values is essential. For cholesterol, this includes:\nTotal Cholesterol: <200 mg/dL (Desirable)\nLDL (\"Bad\") Cholesterol: <100 mg/dL (Optimal)\nHDL (\"Good\") Cholesterol: >60 mg/dL (Protective)\n\nHealth Promotion: An important nursing role is health promotion and positive reinforcement. Acknowledging a client's success in managing their health can improve adherence and long-term outcomes."
+  },
+  {
+    "question": "The nurse is discussing the pathophysiology of atherosclerosis with a client who has a high low-density lipoprotein (LDL) level. Which information should the nurse discuss with the clients concerning the pathophysiology of LDL?",
+    "options": {
+      "A": "A high LDL is good because it has a protective action in the body.",
+      "B": "This test result measures the free fatty acids and glycerol in the blood.",
+      "C": "LDLs are the primary transporters of cholesterol into the cell.",
+      "D": "The client needs to decrease the amount of cholesterol and fat in the diet."
+    },
+    "answer": "C",
+    "explanation": "Low-density lipoproteins (LDLs) are the primary carriers of cholesterol in the bloodstream. Their function is to transport cholesterol from the liver to various cells throughout the body. When LDL levels are high, they deposit excess cholesterol into the walls of arteries, leading to the formation of atherosclerotic plaques. This is why LDL is often called \"bad cholesterol.\"\n\nOption A: This describes High-Density Lipoprotein (HDL), or \"good cholesterol,\" which transports cholesterol away from the arteries and back to the liver for excretion.\n\nOption B: This describes triglycerides, which are another type of lipid in the blood.\n\nOption D: While this is correct dietary advice for the client, it does not answer the question about the pathophysiology (the function) of LDL.",
+    "additional": "NCK Focus: You must know the lipid panel components and their roles in health and disease.\n\nLDL (Low-Density Lipoprotein): \"Lousy\" or \"bad\" cholesterol. Carries cholesterol to the arteries. High levels lead to atherosclerosis. Goal is < 100 mg/dL.\nHDL (High-Density Lipoprotein): \"Healthy\" or \"good\" cholesterol. Removes cholesterol from arteries. High levels are protective. Goal is > 40-60 mg/dL.\nTriglycerides: A type of fat in the blood. High levels contribute to heart disease. Goal is < 150 mg/dL.\nPatient Education: Teaching should focus on lifestyle modifications to improve the lipid profile: low-fat/low-cholesterol diet, regular exercise, smoking cessation, and weight management."
+  },
+  {
+    "question": "Which assessment data would cause the nurse to suspect the client has atherosclerosis?",
+    "options": {
+      "A": "The client complains of her legs swelling when she stands for long periods.",
+      "B": "The client has episodes of jitteriness and headache when feeling hungry.",
+      "C": "The client has bilateral calf pain when walking for short periods.",
+      "D": "The client complains of mid-epigastric pain after eating spicy foods."
+    },
+    "answer": "C",
+    "explanation": "Bilateral calf pain that occurs with exertion (like walking) and is relieved by rest is the classic sign of intermittent claudication. This is a hallmark symptom of peripheral arterial disease (PAD), which is caused by atherosclerotic plaques narrowing the arteries in the legs. The pain is due to muscle ischemia (lack of oxygen) during activity.\n\nOption A: Leg swelling (edema) that worsens with standing is characteristic of venous insufficiency, not arterial disease.\n\nOption B: Jitteriness and headache with hunger are classic symptoms of hypoglycemia (low blood sugar).\n\nOption D: Mid-epigastric pain after eating spicy foods suggests a gastrointestinal issue, such as gastritis or peptic ulcer disease.",
+    "additional": "NCK Focus: Differentiating between arterial and venous disease of the extremities is a key nursing skill.\n\nArterial (PAD): Intermittent claudication, pale or cool skin, weak or absent pulses, hair loss on legs, painful ulcers on toes/feet.\nVenous: Edema, varicose veins, brownish skin discoloration, ulcers on ankles.\nThe 6 P's of Acute Arterial Occlusion: A critical assessment to know is for acute limb ischemia: Pain, Pallor (paleness), Pulselessness, Paresthesia (numbness/tingling), Paralysis, and Poikilothermia (coolness). This is a medical emergency."
+  },
+  {
+    "question": "The HCP prescribed atorvastatin (Lipitor), an HMG-CoA reductase inhibitor. Which teaching intervention should the nurse include when discussing this medication?",
+    "options": {
+      "A": "Tell the client to take the medication with food only.",
+      "B": "Instruct the client to take the medication in the evening.",
+      "C": "Explain that muscle pain is a common side effect of this medication.",
+      "D": "Demonstrate how to use the machine to check the cholesterol level daily."
+    },
+    "answer": "B",
+    "explanation": "The body's natural synthesis of cholesterol is highest during the night. Therefore, statin medications like atorvastatin are most effective when taken in the evening or at bedtime to maximally inhibit this process.\n\nOption A: Statins can be taken with or without food.\n\nOption C: Muscle pain (myopathy) is not a common side effect; it is a serious adverse effect that could indicate rhabdomyolysis, a condition involving muscle breakdown that can lead to kidney failure. The client should be taught to report any unexplained muscle pain or weakness to their HCP immediately.\n\nOption D: Cholesterol levels are monitored with periodic lab tests (e.g., every 4-12 weeks initially, then every 3-12 months), not checked daily at home.",
+    "additional": "NCK Focus: Statin medications are a major drug class. Key knowledge points include:\n\nMechanism: Inhibit HMG-CoA reductase, the rate-limiting enzyme in cholesterol synthesis.\nPrimary Side Effects: Generally well-tolerated.\nAdverse Effects: Hepatotoxicity (liver damage) and myopathy/rhabdomyolysis.\nNursing Interventions: Monitor liver function tests (AST/ALT) and creatine kinase (CK) levels if myopathy is suspected. Teach the patient to report muscle pain, weakness, or dark urine."
+  },
+  {
+    "question": "Which menu selection indicates to the nurse the client diagnosed with atherosclerosis understands the teaching concerning a low-fat, low-cholesterol diet?",
+    "options": {
+      "A": "Fried chicken, garlic mashed potatoes, and skim milk.",
+      "B": "Ham and cheese on white bread and whole milk.",
+      "C": "Baked fish, brown rice, lettuce salad, and iced tea.",
+      "D": "A hamburger, potato chips, and carbonated beverage."
+    },
+    "answer": "C",
+    "explanation": "This meal is the healthiest choice for a heart-healthy diet. Baked fish is low in saturated fat and a good source of omega-3 fatty acids. Brown rice is a whole grain, providing complex carbohydrates and fiber. A lettuce salad adds vitamins and more fiber. This meal avoids high-fat cooking methods (frying) and processed meats.\n\nOption A: Fried chicken is high in fat and cholesterol.\nOption B: Ham and cheese are processed meats high in sodium and fat. Whole milk is high in fat. White bread is a refined carbohydrate with little fiber.\nOption D: Hamburgers and potato chips are typically high in saturated fat, sodium, and calories.",
+    "additional": "NCK Focus: Therapeutic diets are frequently tested. Be familiar with the components of a heart-healthy diet, often referred to as the DASH (Dietary Approaches to Stop Hypertension) diet.\n\nKey Principles of a Heart-Healthy Diet:\nLimit: Saturated and trans fats, cholesterol, sodium, red meat, sweets, and sugar-sweetened beverages.\nEmphasize: Fruits, vegetables, whole grains, lean protein (fish, poultry), and low-fat dairy.\nCooking Methods: Choose baking, broiling, grilling, or steaming over frying."
+  },
+  {
+    "question": "Which interventions should the nurse implement when teaching the 54-year-old client diagnosed with atherosclerosis? Select all that apply.",
+    "options": {
+      "A": "Include significant other when teaching the client.",
+      "B": "Provide the client with written handouts and pamphlets.",
+      "C": "Refer the client to the American Heart Association (AHA).",
+      "D": "Help the client to identify ways to deal with stressful situations.",
+      "E": "Discuss the importance of isometric exercises daily."
+    },
+    "answer": "A, B, C, D",
+    "explanation": "Effective patient education is comprehensive and uses multiple strategies to promote adherence.\n\nIncluding a significant other provides a support system and ensures a second person hears the information, which improves adherence.\n\nWritten handouts reinforce verbal teaching and provide a reference for the client at home.\n\nReferrals to organizations like the AHA provide credible resources, support groups, and additional information.\n\nHelping with stress management addresses a key modifiable risk factor.\n\nIsometric exercises (contracting muscles without movement, like pushing against a wall) can significantly raise blood pressure and should be avoided in clients with cardiovascular disease. Isotonic exercises (involving movement, like walking or swimming) are recommended.",
+    "additional": "NCK Focus: Be prepared to identify appropriate vs. inappropriate exercises for cardiac patients.\n\nRecommended (Isotonic): Walking, jogging, swimming, biking. These improve cardiovascular fitness.\nAvoid (Isometric): Heavy weightlifting, pushing/pulling heavy objects. These cause a sudden spike in blood pressure.\nPrinciples of Adult Learning: Adults learn best when the information is relevant, practical, and reinforced through multiple methods (verbal, written, demonstration)."
+  },
+  {
+    "question": "The nurse is caring for clients on a telemetry floor. Which nursing task would be most appropriate to delegate to unlicensed assistive personnel (UAP)?",
+    "options": {
+      "A": "Teach the client how to take their radial pulse for 1 minute.",
+      "B": "Escort the discharged client in a wheelchair to the client's car.",
+      "C": "Check the triglyceride level for the client diagnosed with atherosclerosis.",
+      "D": "Assist the client who just returned from a cardiac catheterization to ambulate."
+    },
+    "answer": "B",
+    "explanation": "Transporting a stable, discharged client is a standard task that falls within the scope of practice for a UAP.\n\nOption A: Teaching is a function of the registered nurse and cannot be delegated.\n\nOption C: Assessing or evaluating lab results is a nursing responsibility.\n\nOption D: A client just back from a cardiac catheterization is considered unstable and requires frequent assessment by the nurse. They are typically on strict bedrest for several hours, and assisting them to ambulate would be unsafe and inappropriate to delegate.",
+    "additional": "NCK Focus: Delegation is a critical concept. Remember the Five Rights of Delegation: Right Task, Right Circumstance, Right Person, Right Direction/Communication, and Right Supervision/Evaluation.\n\nWhat CAN be delegated to a UAP: Activities of daily living (ADLs), routine vital signs on stable clients, recording intake and output, and ambulating stable clients.\nWhat CANNOT be delegated: Any part of the nursing process (Assessment, Diagnosis, Planning, Implementation of complex tasks, Evaluation), patient teaching, or care of unstable patients."
+  },
+  {
+    "question": "The nurse is discharging a 65-year-old client diagnosed with aortic stenosis who had undergone a mechanical valve replacement surgery. Which information should the nurse teach the client?",
+    "options": {
+      "A": "Splint the incision when turning, coughing, and deep breathing.",
+      "B": "Sleep in a recliner or with the head on two pillows at night.",
+      "C": "Avoid being around children or people who have had an immunization.",
+      "D": "Take antibiotics prior to any dental or other invasive procedures."
+    },
+    "answer": "D",
+    "explanation": "Clients with mechanical heart valves are at a high lifelong risk for developing bacterial endocarditis, an infection of the heart's inner lining or valves. Bacteria can be introduced into the bloodstream during procedures like dental work. Therefore, prophylactic antibiotics are required before such procedures to prevent infection.\n\nOption A: Splinting the incision is important general postoperative teaching for any chest surgery but is not specific to the long-term management of a mechanical valve.\n\nOption B: This might be advised for heart failure symptoms, but it is not a standard instruction for all valve replacement clients.\n\nOption C: This is incorrect and unnecessary.",
+    "additional": "NCK Focus: Discharge teaching for a client with a mechanical valve has two crucial, lifelong components:\n\nLifelong Anticoagulation: The client will be on a medication like warfarin (Coumadin) for the rest of their life to prevent blood clots from forming on the artificial valve. This requires regular INR monitoring.\nEndocarditis Prophylaxis: The need for antibiotics before dental and other invasive procedures."
+  },
+  {
+    "question": "The nurse caring for clients on a medical unit thinks she hears a murmur while assessing the client. After determining that no other HCP have documented a murmur, which action should the nurse implement next?",
+    "options": {
+      "A": "Do nothing because the nurse was probably mistaken.",
+      "B": "Document the finding in the client's chart.",
+      "C": "Notify the HCP.",
+      "D": "Ask the client if there is a history of a murmur."
+    },
+    "answer": "D",
+    "explanation": "The best next step follows the nursing process: Assessment. Before reporting a new finding, the nurse should gather more data. Asking the client about a previous history of a murmur is a quick and easy way to clarify if this is a new or known issue. After this, the nurse should perform a more focused assessment (e.g., listen in different positions) and then notify the HCP of the new or newly discovered finding.\n\nOption A: Ignoring a potential abnormal finding is negligent.\n\nOption B: Documenting is important, but notifying the HCP is also necessary if the finding is new and significant. Further assessment should come first.\n\nOption C: Notifying the HCP is appropriate, but it's better to have more information first by asking the client.",
+    "additional": "NCK Focus: This question tests clinical judgment and the application of the nursing process (Assess, Diagnose, Plan, Implement, Evaluate). Always perform further assessment of an abnormal finding before jumping to intervention or reporting, if possible and safe to do so."
+  },
+  {
+    "question": "The nurse is admitting a client diagnosed with a mitral valve murmur. Which information supports this finding?",
+    "options": {
+      "A": "The client has a history of rheumatic fever as a child.",
+      "B": "The client takes an oral anticoagulant daily.",
+      "C": "The client has elevated troponin levels.",
+      "D": "The client recently took a vacation to Central America."
+    },
+    "answer": "A",
+    "explanation": "Rheumatic fever, which is a complication of an untreated group A streptococcal infection (strep throat), is a primary cause of valvular heart disease, particularly affecting the mitral and aortic valves. A history of rheumatic fever is a major risk factor for developing a heart murmur later in life.\n\nOption B: Taking an anticoagulant suggests the client may have atrial fibrillation or a mechanical valve, but it's not a direct cause of a murmur itself.\n\nOption C: Elevated troponin levels indicate myocardial infarction (heart attack), not chronic valve disease.\n\nOption D: Recent travel is generally irrelevant unless associated with specific infectious diseases not typically linked to valvular problems.",
+    "additional": "NCK Focus: Knowing the common causes and risk factors for various cardiovascular disorders is essential.\n\nCauses of Murmurs: Can be caused by valve stenosis (narrowing), valve regurgitation/insufficiency (leaking), or congenital defects. Common causes in adults include age-related calcification, rheumatic heart disease, and endocarditis."
+  },
+  {
+    "question": "The nurse is preparing the 52-year-old male client diagnosed with mitral valve regurgitation for surgery. Which statement by the client warrants immediate intervention?",
+    "options": {
+      "A": "I have been told that I will be on medication for the rest of my life.",
+      "B": "I get short of breath walking to the bathroom to bathe myself.",
+      "C": "I made out an advance directive to make sure my wishes are known.",
+      "D": "I will be in the intensive care unit for a day or two after surgery."
+    },
+    "answer": "B",
+    "explanation": "The statement \"I get short of breath walking to the bathroom\" indicates that the client has significant dyspnea on minimal exertion. This is a sign of worsening heart failure. It represents an acute change in the client's baseline condition that must be investigated and reported to the surgeon and HCP immediately. The client's hemodynamic status may be too unstable for the planned surgery.\n\nOption A: It's likely the client will be on medications (e.g., for heart failure or anticoagulants) for life, so this is an expected understanding.\n\nOption C: Having an advance directive is appropriate pre-surgical planning.\n\nOption D: An ICU stay is standard after open-heart surgery.",
+    "additional": "NCK Focus: Identifying signs of acute clinical deterioration is a priority safety skill. For cardiac patients, a sudden increase in dyspnea, chest pain, or edema indicates decompensation and requires immediate nursing action. The nurse must act as a patient advocate and ensure the surgical team is aware of any acute changes before a procedure."
+  },
+  {
+    "question": "The 24-year-old female client has had surgery to replace a diseased mitral graft. Which information should the nurse teach the client prior to discharge?",
+    "options": {
+      "A": "Take your temperature four times a day and notify the HCP of the results.",
+      "B": "Have routine International Normalized Ratio (INR) lab tests performed.",
+      "C": "Limit lifting to less than 5 pounds until you are seen by the surgeon.",
+      "D": "Your menses will be heavier because of the anticoagulant medications."
+    },
+    "answer": "C",
+    "explanation": "A lifting restriction is a standard and critical postoperative instruction following any surgery involving the trunk, such as open-heart surgery. This prevents excess strain on the sternal and chest wall incision, promoting proper healing and preventing complications like dehiscence.\n\nWhy other options are incorrect for this specific client: The answer key states that female clients of childbearing age are often given living-tissue valves (bioprosthetic valves) specifically to avoid the need for lifelong anticoagulation, which would be teratogenic during a potential pregnancy.\n\nOption B and D: These relate to anticoagulation therapy (like warfarin), which is required for mechanical valves, not typically for tissue valves. Therefore, routine INR testing and heavier menses would not be expected.\n\nOption A: Taking a temperature is important to monitor for infection, but four times a day is excessive for routine discharge instructions unless a specific concern exists. The client would be taught to monitor for signs of infection, including fever, and report them.",
+    "additional": "NCK Focus: You must be able to differentiate the nursing care and patient teaching for the two main types of prosthetic heart valves.\n\nMechanical Valves: Durable, last a lifetime. Require lifelong anticoagulation (warfarin) and regular INR monitoring. High risk of thromboembolism.\nBioprosthetic (Tissue) Valves (e.g., porcine, bovine): Less durable (last 10-20 years). Do not require lifelong anticoagulation. Higher risk of valve degeneration over time.\n\nPatient Teaching: For any open-heart surgery, teach sternal precautions (no lifting, pushing, or pulling), incision care, and signs of infection."
+  },
+  {
+    "question": "The nurse is assisting the client diagnosed with cardiac valve disease to choose a menu for the next day. Which menu is most appropriate for this client?",
+    "options": {
+      "A": "A ham and cheese sandwich, potato chips, and 2% milk.",
+      "B": "Roast beef, lettuce salad with low-fat dressing, and water.",
+      "C": "Eggs, bacon, whole wheat toast, jelly, and black coffee.",
+      "D": "Chicken-fried steak, mashed potatoes and gravy, and iced tea."
+    },
+    "answer": "B",
+    "explanation": "Clients with cardiac disease need a heart-healthy diet that is low in sodium, saturated fat, and cholesterol. The meal in option B is the best choice. Roast beef is a leaner meat option, a salad provides vegetables, and low-fat dressing keeps the fat content down.\n\nOption A: Ham and cheese are processed meats high in sodium and fat. Potato chips are high in sodium and fat.\n\nOption C: Bacon and eggs are high in saturated fat and cholesterol. While caffeine in moderation may be okay, it can increase heart rate.\n\nOption D: Chicken-fried steak, mashed potatoes, and gravy are all very high in saturated fat, calories, and sodium.",
+    "additional": "NCK Focus: Therapeutic diets are a common topic. For any cardiac patient (heart failure, CAD, post-op), the diet should focus on limiting sodium (to prevent fluid retention), saturated/trans fats (to manage cholesterol), and sometimes fluids.\n\nSodium Sources: Be aware of hidden sources of sodium, including processed meats, canned soups, frozen dinners, and condiments."
+  },
+  {
+    "question": "The client diagnosed with aortic stenosis scheduled for an echocardiogram tells the nurse, “I am scared. What will they do during the test?\" Which statement is the nurse's best response?",
+    "options": {
+      "A": "You're scared? We should discuss how you are feeling.",
+      "B": "The doctor will insert a catheter into the artery in your groin.",
+      "C": "I think you should talk with the doctor about your fears.",
+      "D": "Sound waves will be used to determine how your heart is working."
+    },
+    "answer": "D",
+    "explanation": "The client has asked a direct question seeking factual information (\"What will they do?\"). The nurse's best response is to provide a simple, accurate description of the procedure. An echocardiogram is a non-invasive test that uses ultrasound waves to create images of the heart.\n\nOption A: This is a therapeutic response that dismisses the client's request for information. While addressing fear is important, you must first answer the question asked.\n\nOption B: This describes a cardiac catheterization, which is an invasive procedure, not an echocardiogram.\n\nOption C: This deflects the question and passes responsibility to the doctor. The nurse is qualified to provide a basic explanation of this common, non-invasive test.",
+    "additional": "NCK Focus: Patient teaching for diagnostic procedures. You must know the basic purpose and procedure for common tests like ECG, echocardiogram, stress test, and cardiac catheterization to provide accurate information and alleviate anxiety.\n\nEchocardiogram Types:\nTransthoracic (TTE): The standard, non-invasive echo where a probe is moved over the chest.\nTransesophageal (TEE): An invasive echo where a probe is passed down the esophagus for a clearer view of the heart. This requires sedation and NPO status."
+  },
+  {
+    "question": "The client diagnosed with mitral valve stenosis complains of shortness of breath and chest pain while ambulating in the hall with a UAP. Which action should the nurse implement first?",
+    "options": {
+      "A": "Tell the UAP to take the client's vital signs.",
+      "B": "Determine if this has happened to the client before.",
+      "C": "Get a wheelchair for the client to sit down.",
+      "D": "Have a stat electrocardiogram (ECG) done."
+    },
+    "answer": "C",
+    "explanation": "The client is experiencing acute symptoms of cardiac distress (chest pain and dyspnea) caused by exertion. The first and most immediate priority is to decrease the workload on the heart. Having the client stop the activity and sit down in a wheelchair immediately reduces myocardial oxygen demand and can help relieve the symptoms. Safety and physiological stability come first.\n\nOptions A, B, and D: These are all appropriate subsequent actions. After the client is safely seated and resting, the nurse should assess vital signs, ask about the history of this pain, and obtain an ECG. But the initial action is to stop the precipitating activity.",
+    "additional": "NCK Focus: Prioritization questions often test your ability to recognize an unstable situation and intervene to promote safety and physiological integrity first. Use the \"ABCs\" (Airway, Breathing, Circulation) and safety principles. In this case, stopping the activity directly impacts circulation and breathing by reducing cardiac demand."
+  },
+  {
+    "question": "The client is admitted to the intensive care unit post aortic valve replacement. Which interventions should the nurse implement? Select all that apply.",
+    "options": {
+      "A": "Monitor the client's telemetry readings.",
+      "B": "Monitor vital signs every 4 hours.",
+      "C": "Assess for S3 or S4 heart sounds.",
+      "D": "Auscultate for a heart click.",
+      "E": "Maintain intravenous lines."
+    },
+    "answer": ["A", "C", "E"],
+    "explanation": "Postoperative care for aortic valve replacement in the ICU is intensive.\n\nTelemetry monitoring is critical to detect life-threatening dysrhythmias, which are common after open-heart surgery.\n\nAssessing for S3 or S4 heart sounds is essential. The appearance of these extra heart sounds can indicate developing heart failure or decreased ventricular compliance, a serious complication.\n\nMaintaining patent IV lines is necessary for administering fluids, blood products, and critical medications (e.g., vasopressors, antiarrhythmics).\n\nIncorrect Options:\nOption B: Vital signs should be monitored much more frequently in the immediate postoperative period in the ICU (e.g., every 15 minutes until stable, then hourly). Every 4 hours is not frequent enough.\n\nOption D: A \"click\" is the characteristic sound of a mechanical mitral valve opening. It is not an expected finding with an aortic valve.",
+    "additional": "NCK Focus: Care of the fresh post-op open-heart surgery patient. Priorities include hemodynamic monitoring (BP, heart rate, CVP, arterial lines), assessing for bleeding (chest tube output), monitoring for dysrhythmias, and assessing for signs of complications like cardiac tamponade or heart failure.\n\nCardiac Tamponade: A life-threatening complication. Know Beck's Triad: Hypotension, Jugular Venous Distention (JVD), and Muffled Heart Sounds."
+  },
+  {
+    "question": "The client diagnosed with a grade II aortic murmur is admitted to the telemetry unit. Which symptoms should the nurse expect to assess?",
+    "options": {
+      "A": "Peripheral edema, jugular vein distention, and a productive cough.",
+      "B": "A murmur heard with a stethoscope at the right sternal notch.",
+      "C": "Shortness of breath on exertion and weakness.",
+      "D": "Palpitations, fatigue, and pink frothy sputum."
+    },
+    "answer": "B",
+    "explanation": "A grade II murmur is, by definition, quiet but can be heard immediately by an experienced listener with a stethoscope. Early-stage valve disease is often asymptomatic or has very mild symptoms. The most reliable finding is the murmur itself. The auscultation point for the aortic area is the second intercostal space at the right sternal border (or \"right sternal notch\" area).\n\nOptions A, C, and D: These describe symptoms of moderate to severe heart failure (peripheral edema, JVD, dyspnea on exertion, pink frothy sputum which indicates acute pulmonary edema). These would not be expected with a mild, grade II murmur.",
+    "additional": "NCK Focus: Know your cardiac auscultation points (All People Enjoy Time Magazine):\nAortic: 2nd ICS, right sternal border\nPulmonic: 2nd ICS, left sternal border\nErb's Point: 3rd ICS, left sternal border\nTricuspid: 4th ICS, left sternal border\nMitral: 5th ICS, midclavicular line (Apex)\n\nMurmur Grading (Scale of I-VI):\nGrade I is barely audible; Grade II is quiet but audible; Grade III is moderately loud; Grade IV is loud and associated with a palpable thrill; Grade V is very loud; Grade VI is audible without a stethoscope."
+  },
+  {
+    "question": "Which medication should the nurse prepare to administer for the client exhibiting the following telemetry strip?\n(The strip shows a chaotic rhythm with wide, bizarre QRS complexes appearing at different times and in different shapes.)",
+    "options": {
+      "A": "The miscellaneous antidysrhythmic adenosine (Adenocard).",
+      "B": "The antidysrhythmic lidocaine (Xylocaine).",
+      "C": "The cardiac glycoside digoxin (Lanoxin).",
+      "D": "The inotropic medication dopamine (Intropin)."
+    },
+    "answer": "B",
+    "explanation": "The telemetry strip shows multifocal premature ventricular contractions (PVCs). This is evident from the wide, misshapen QRS complexes that lack P waves and originate from different locations in the ventricles (multifocal). Lidocaine is a Class IB antiarrhythmic that works by suppressing ventricular ectopy. It is the drug of choice among the options for treating frequent or symptomatic PVCs.\n\nOption A (Adenosine): Used for terminating supraventricular tachycardia (SVT).\nOption C (Digoxin): Used to slow the heart rate in atrial fibrillation or atrial flutter and for heart failure.\nOption D (Dopamine): An inotrope used to increase blood pressure and cardiac output in cases of shock.",
+    "additional": "NCK Focus: EKG interpretation and the corresponding pharmacological intervention is a high-level nursing skill that is frequently tested. You must be able to identify a rhythm and know the first-line drug for it.\n\nPVCs: Can be a sign of cardiac irritability due to hypoxia, electrolyte imbalance (especially low potassium or magnesium), or ischemia. Treatment is warranted if they are frequent (>6/min), multifocal, occur in runs (V-tach), or the patient is symptomatic."
+  },
+  {
+    "question": "The client is exhibiting the following telemetry strip. Which interventions should the nurse implement? Rank in order of performance.\n(The strip shows a flat line.)",
+    "options": {
+      "A": "Administer the antidysrhythmic atropine.",
+      "B": "Determine if the telemetry strip is artifact.",
+      "C": "Administer epinephrine, a sympathomimetic.",
+      "D": "Perform 30 hard and fast cardiac compressions.",
+      "E": "Administer two breaths with the nose pinched."
+    },
+    "answer": ["B", "E", "D", "C", "A"],
+    "explanation": "The strip shows asystole (a flat line). The priority actions according to ACLS are:\n\nDetermine if the strip is an artifact (B): This is the ABSOLUTE FIRST STEP. Check that the leads are connected and check the patient. Is the patient unresponsive and pulseless? You do not start a code on a conscious person whose leads have fallen off.\n\nStart CPR (E and D): If the patient is unresponsive and pulseless, immediately begin high-quality CPR, starting with chest compressions (CAB: Compressions, Airway, Breathing). The answer key lists breaths first (E) then compressions (D), reflecting older BLS standards. Current standards emphasize starting with compressions.\n\nAdminister Epinephrine (C): Once IV/IO access is established, epinephrine is the primary drug given in asystole/PEA to attempt to restart the heart.\n\nAdminister Atropine (A): (NOTE: This is outdated). The answer key includes atropine. However, current ACLS guidelines (since 2010) do not recommend atropine for asystole or PEA as it has been shown to be ineffective. Epinephrine and CPR are the mainstays of treatment.",
+    "additional": "NCK Focus: Prioritization in a life-threatening emergency. The first step in asystole is ALWAYS to confirm the finding in two leads and check the patient/equipment to rule out an artifact.\n\nTreating Asystole/PEA: The algorithm is CPR and epinephrine. Search for and treat reversible causes (the \"H's and T's\"). Asystole is a non-shockable rhythm.\n\nH's and T's (Reversible Causes): Hypovolemia, Hypoxia, Hydrogen ion (acidosis), Hypo/hyperkalemia, Hypothermia. Tension pneumothorax, Tamponade (cardiac), Toxins, Thrombosis (pulmonary or coronary)."
+  },
+  {
+    "question": "The client is exhibiting sinus bradycardia on the telemetry monitor. Which intervention should the nurse implement first?",
+    "options": {
+      "A": "Administer the antidysrhythmic atropine.",
+      "B": "Determine if the client is symptomatic.",
+      "C": "Prepare for an insertion of a pacemaker.",
+      "D": "Notify the client's HCP."
+    },
+    "answer": "B",
+    "explanation": "The most important first step when you see any arrhythmia on a monitor is to assess the patient. Many people, especially athletes, have a normal resting sinus bradycardia and are completely asymptomatic. Treatment is only indicated if the slow heart rate is causing symptoms of poor perfusion, such as hypotension, dizziness, confusion, shortness of breath, or chest pain.\n\nOptions A, C, and D: These are interventions that would only be considered after assessing the patient and determining that they are unstable and require treatment. You never treat the monitor; you treat the patient.",
+    "additional": "NCK Focus: This is a classic \"assess the patient first\" question. When given a clinical finding (like a lab value or EKG strip), your first thought should always be, \"How is my patient?\"\n\nSymptomatic Bradycardia Treatment: If the client is unstable, the first-line drug is atropine. If atropine is ineffective, transcutaneous pacing or a dopamine/epinephrine infusion may be used."
+  },
+  {
+    "question": "The telemetry nurse is unable to read the telemetry monitor at the nurse's station. Which intervention should the telemetry nurse implement?",
+    "options": {
+      "A": "Go to the client's room to check the client.",
+      "B": "Instruct the primary nurse to assess the client.",
+      "C": "Notify the charge nurse of the emergency situation.",
+      "D": "Request the UAP to take the crash cart to the client's room."
+    },
+    "answer": "B",
+    "explanation": "The telemetry monitor technician/nurse's primary responsibility is to continuously watch all the monitors at the central station. They cannot leave this post. If there is an issue with a client's signal or a concerning rhythm, their role is to immediately communicate this to the primary nurse assigned to that patient, who must then go and assess the patient directly.\n\nOption A: This is incorrect; the telemetry nurse cannot abandon the other monitors.\n\nOption C: The primary nurse should be notified first, as they are directly responsible for the patient. The charge nurse would be notified after an initial assessment if the situation is an emergency.\n\nOption D: Sending a crash cart is premature. The first step is to assess the patient to determine if there is a true emergency. It may just be a disconnected lead.",
+    "additional": "NCK Focus: Communication, delegation, and understanding nursing roles. This question tests your knowledge of the proper chain of command and communication protocols on a hospital unit. The most direct line of communication for patient care is from the monitor tech to the primary nurse."
+  },
+  {
+    "question": "Which intervention should the nurse implement first when defibrillating a client who is in ventricular fibrillation?",
+    "options": {
+      "A": "Defibrillate the client at 360 joules.",
+      "B": "Remove the client's oxygen source.",
+      "C": "Energize the defibrillator source.",
+      "D": "Shout \"all clear\" prior to defibrillation."
+    },
+    "answer": "B",
+    "explanation": "Safety is the absolute first priority during defibrillation. Oxygen is highly flammable, and an electrical spark from the defibrillator paddles or pads can ignite it, causing a fire and serious injury to both the patient and the resuscitation team. Therefore, the first action before delivering a shock is to remove the oxygen source (e.g., nasal cannula or face mask) and ensure it is not blowing across the patient's chest.\n\nThe options presented are all part of the process, but removing the oxygen source is the most critical first safety step.",
+    "additional": "NCK Focus: Safety during emergency procedures is a paramount and frequently tested concept.\n\nShockable vs. Non-Shockable Rhythms:\nShockable: Ventricular Fibrillation (V-Fib) and pulseless Ventricular Tachycardia (V-Tach).\nNon-Shockable: Asystole and Pulseless Electrical Activity (PEA).\n\nOrder of Operations for Defibrillation:\n- Turn on defibrillator and apply pads.\n- Charge to 200J (biphasic) or 360J (monophasic).\n- Remove oxygen.\n- Shout \"all clear.\"\n- Deliver shock.\n- Resume CPR immediately."
+  },
+  {
+    "question": "The client who has been exhibiting the following telemetry reading for the last 6 months is being discharged from the hospital. Which statement indicates the discharge teaching by the nurse has been effective?\n(The strip shows a chaotic, irregularly irregular rhythm with no discernible P waves and a rapid ventricular response.)",
+    "options": {
+      "A": "I will take my blood pressure prior to taking my medication.",
+      "B": "I need to eat a low-fat, low-cholesterol, and low-salt diet.",
+      "C": "I must have an INR frequently while I am taking warfarin (Coumadin).",
+      "D": "I should use a straight razor instead of an electric razor."
+    },
+    "answer": "C",
+    "explanation": "The telemetry strip shows Atrial Fibrillation (A-Fib). In A-Fib, the atria quiver chaotically instead of contracting normally, allowing blood to pool and form clots. These clots can travel to the brain and cause a stroke. Therefore, a primary treatment for chronic A-Fib is long-term anticoagulation with warfarin (Coumadin), which requires regular INR monitoring to maintain a therapeutic range (typically 2.0–3.0).",
+    "additional": "NCK Focus: Atrial Fibrillation is the most common sustained arrhythmia.\n\nEKG Characteristics: Irregularly irregular rhythm, no P waves.\nPrimary Risks: Stroke (thromboembolism), heart failure (rapid rate).\nTreatment Goals:\n- Rate Control (beta-blockers, CCBs, digoxin)\n- Rhythm Control (cardioversion, antiarrhythmics)\n- Anticoagulation (warfarin, DOACs)"
+  },
+  {
+    "question": "The client is in complete heart block. Which intervention should the nurse implement first?",
+    "options": {
+      "A": "Prepare to insert a pacemaker.",
+      "B": "Administer atropine, an antidysrhythmic.",
+      "C": "Obtain a stat ECG.",
+      "D": "Assess the client's peripheral pulses."
+    },
+    "answer": "B",
+    "explanation": "Complete heart block (3rd-degree AV block) is a serious, life-threatening arrhythmia where there is no communication between the atria and ventricles. This results in poor cardiac output. If symptomatic, the first-line treatment is atropine to try and increase heart rate. A pacemaker is definitive but not the first step.",
+    "additional": "NCK Focus: Management of bradyarrhythmias.\n\nUnstable Bradycardia Algorithm:\n- Assess stability.\n- Administer atropine.\n- If ineffective: transcutaneous pacing or dopamine/epinephrine infusion.\n\nEKG of 3rd Degree Block: P waves and QRS complexes are unrelated; both are regular but dissociated."
+  },
+  {
+    "question": "The client is 1 day postoperative open heart surgery and has a temperature (T) of 99°F, a pulse (P) of 96, a respiration rate (R) of 22, and B/P 128/92 and is complaining of incisional pain of 8 on a 1-10 pain scale. Which intervention should the nurse implement?\n(The strip shows a regular rhythm with a rate just under 100 bpm, with a P wave for every QRS.)",
+    "options": {
+      "A": "Continue to monitor the client and take no action.",
+      "B": "Administer the antipyretic acetaminophen (Tylenol).",
+      "C": "Administer a narcotic analgesic to the client.",
+      "D": "Assess the client's pulse and medication list."
+    },
+    "answer": "C",
+    "explanation": "The client is reporting severe pain (8/10), and the rhythm shows sinus tachycardia likely due to that pain. Administering a narcotic analgesic is the most appropriate intervention to treat both the pain and the resulting tachycardia. Untreated pain increases stress and cardiac workload.",
+    "additional": "NCK Focus: Pain management is critical in post-op care.\n\nInadequate pain control can lead to:\n- Atelectasis (poor deep breathing)\n- Increased BP and HR\n- Higher myocardial oxygen demand\n\nAlways treat the underlying cause—here, pain."
+  },
+  {
+    "question": "The client is exhibiting the following telemetry reading. Which intervention should the nurse implement?\n(The strip shows a regular rhythm at a rate of about 75 bpm. Each QRS is preceded by a uniform P wave.)",
+    "options": {
+      "A": "Document this as normal sinus rhythm.",
+      "B": "Request a 12-lead electrocardiogram.",
+      "C": "Prepare to administer the cardiotonic digoxin by mouth (PO).",
+      "D": "Assess the client's cardiac enzymes."
+    },
+    "answer": "A",
+    "explanation": "The telemetry strip shows all the criteria for Normal Sinus Rhythm (NSR): 60–100 bpm, regular intervals, P waves before each QRS, normal PR and QRS durations. No intervention is necessary; documentation is the correct action.",
+    "additional": "NCK Focus: Know how to recognize normal sinus rhythm:\n- Rate: 60–100 bpm\n- Regular R-R intervals\n- P waves present before each QRS\n- Normal PR interval (0.12–0.20 sec)\n- QRS duration <0.12 sec"
+  },
+  {
+    "question": "Which client problem is priority for the client with a cardiac dysrhythmia?",
+    "options": {
+      "A": "Knowledge deficit.",
+      "B": "Altered cardiac output.",
+      "C": "Impaired gas exchange.",
+      "D": "Activity intolerance."
+    },
+    "answer": "B",
+    "explanation": "Cardiac dysrhythmias primarily impair the heart’s ability to pump effectively, reducing cardiac output. This directly impacts oxygen delivery and perfusion. While the other issues are important, they are consequences of the primary physiological threat: altered cardiac output.",
+    "additional": "NCK Focus: Prioritizing nursing diagnoses.\n\nUse ABCs or Maslow's to guide prioritization:\n- Physiological needs > Safety > Love/Belonging > Esteem > Self-actualization\n\n'Altered cardiac output' is a high-priority physiological problem that can lead to multiple secondary issues."
+  },
+  {
+    "question": "The client is diagnosed with pericarditis. Which signs/symptoms should the nurse expect in this client?",
+    "options": {
+      "A": "The client has pulsus paradoxus and night sweats.",
+      "B": "Complaints of fatigue and arthralgias.",
+      "C": "Constant chest pain and friction rub.",
+      "D": "Increased chest pain when ambulating but not at rest."
+    },
+    "answer": "C",
+    "explanation": "The two classic hallmark signs of acute pericarditis are:\nChest Pain: Typically sharp, pleuritic (worsens with deep inspiration), and postural (worsens when lying down, relieved by sitting up and leaning forward).\nPericardial Friction Rub: A high-pitched, scratching, or grating sound heard on auscultation, caused by the inflamed pericardial layers rubbing against each other.\n\nOption A: Pulsus paradoxus is a sign of cardiac tamponade, a complication of pericarditis. Night sweats are more typical of endocarditis.\nOption B: Fatigue and arthralgias are nonspecific.\nOption D: This describes exertional angina, not pericarditis.",
+    "additional": "NCK Focus: Differentiating the chest pain of pericarditis from myocardial infarction is critical.\n\nPericarditis Pain: Sharp, pleuritic, relieved by leaning forward.\nMI Pain: Crushing, substernal, not positional.\n\nTreatment: NSAIDs (e.g., ibuprofen) or colchicine to reduce inflammation."
+  },
+  {
+    "question": "The client is diagnosed with acute pericarditis. During the shift assessment, the nurse notes muffled heart sounds. Which intervention should the nurse implement?",
+    "options": {
+      "A": "Notify the HCP.",
+      "B": "Continue to monitor the client.",
+      "C": "Get an order to place the client on telemetry.",
+      "D": "Recheck the client in 4 hours."
+    },
+    "answer": "A",
+    "explanation": "Muffled heart sounds in a client with pericarditis suggest pericardial effusion, which can progress to cardiac tamponade—a life-threatening emergency. The fluid compresses the heart, impairing its ability to fill and pump. Immediate notification of the healthcare provider is required.\n\nOption B and D: Delaying action could be fatal.\nOption C: The client should already be on telemetry if diagnosed with pericarditis.",
+    "additional": "NCK Focus: Recognizing cardiac tamponade is a safety priority.\n\nBeck’s Triad (Signs of Tamponade):\n- Muffled heart sounds\n- Jugular venous distention\n- Hypotension\n\nTreatment: Pericardiocentesis to remove the fluid and relieve pressure on the heart."
+  },
+  {
+    "question": "The nurse is assessing the client diagnosed with subacute bacterial endocarditis. Which question should the nurse ask the client during the admission interview to support this diagnosis?",
+    "options": {
+      "A": "Have you had a sore throat in the last month?",
+      "B": "Did you have frequent strep throats as a child or young adult?",
+      "C": "Do you have a family history of heart disease?",
+      "D": "What prescription medications do you take?"
+    },
+    "answer": "B",
+    "explanation": "Subacute bacterial endocarditis often occurs in clients with previously damaged heart valves. Rheumatic fever, a complication of untreated strep throat in childhood, can cause such damage. Therefore, a history of frequent childhood strep infections is a relevant and important risk factor.\n\nOption A: Less specific.\nOption C: Family history is more related to coronary artery disease.\nOption D: Important but not specific to endocarditis risk.",
+    "additional": "NCK Focus: Risk factors and symptoms of infective endocarditis.\n\nRisk Factors:\n- Prosthetic valves\n- Damaged heart valves (e.g., from rheumatic fever)\n- IV drug use\n- Recent dental or invasive procedures\n\nSigns:\n- Fever, fatigue\n- New or changing murmur\n- Splinter hemorrhages, Janeway lesions, Osler’s nodes"
+  },
+  {
+    "question": "The client with pericarditis is prescribed a nonsteroidal anti-inflammatory drug (NSAID). Which teaching instruction should the nurse discuss with the client?",
+    "options": {
+      "A": "Explain the importance of keeping a pain diary to show the HCP.",
+      "B": "Discuss not driving or operating machinery while taking the medication.",
+      "C": "Instruct the client not to take the medication on an empty stomach.",
+      "D": "Alternate the medication with acetaminophen (Tylenol) every 8 hours."
+    },
+    "answer": "C",
+    "explanation": "NSAIDs can irritate the gastrointestinal lining and may cause gastritis or ulcers. The key teaching point is to take the medication with food or milk to minimize this risk.\n\nOption A: Helpful but not the top priority.\nOption B: NSAIDs generally do not impair cognitive function.\nOption D: Alternating NSAIDs with acetaminophen is not standard for inflammation-focused treatment like pericarditis.",
+    "additional": "NCK Focus: Core safety teaching for NSAIDs.\n\nKey Points:\n- Take with food or milk\n- Watch for GI bleeding (black stools, coffee-ground emesis)\n- Use caution if on anticoagulants\n- Monitor kidney function, especially in older adults"
+  },
+  {
+    "question": "The client diagnosed with endocarditis is complaining of increased dyspnea and nausea. Which intervention should the nurse implement first?",
+    "options": {
+      "A": "Ask Respiratory Therapy to evaluate the client's dyspnea.",
+      "B": "Obtain an order for an indwelling urinary catheter.",
+      "C": "Auscultate the client's lung sounds and assess the periphery.",
+      "D": "Give the client a specimen cup to collect sputum."
+    },
+    "answer": "C",
+    "explanation": "The nurse's first action must be to perform a direct nursing assessment. In a client with endocarditis, increased dyspnea (shortness of breath) is a major red flag for acute heart failure, a common and deadly complication caused by valve destruction. The nurse must immediately assess for signs of heart failure by auscultating the lungs for crackles (fluid) and assessing the periphery for edema. This assessment will confirm the suspected cause and guide the next steps.\n\nOption A: This is inappropriate delegation. The nurse must assess the patient first before involving other disciplines.\nOption B: This is not related to the immediate problem of dyspnea.\nOption D: The dyspnea is most likely cardiac in origin (heart failure), not respiratory. Collecting sputum is not the priority.",
+    "additional": "NCK Focus: This question tests the nursing process. Assessment always precedes intervention. A change in condition, especially in a high-risk patient, requires an immediate, focused nursing assessment.\n\nEndocarditis Complications: The most severe complication is heart failure from acute valvular regurgitation. Other complications include septic emboli and abscess formation in the heart."
+  },
+  {
+    "question": "The client diagnosed with pericarditis complains of pressure in the chest and shortness of breath. The intensive care nurse assesses a decreasing systolic blood pressure and jugular vein distention. Which collaborative intervention should the nurse anticipate for this client?",
+    "options": {
+      "A": "Prepare for a pericardiocentesis.",
+      "B": "Send the client for a cardiac catheterization.",
+      "C": "Have Respiratory Therapy draw arterial blood gases.",
+      "D": "Refer the client to the chaplain for anticipatory grief counseling."
+    },
+    "answer": "A",
+    "explanation": "This client is exhibiting the classic signs of cardiac tamponade, a life-threatening complication of pericarditis. The combination of JVD, decreasing blood pressure (hypotension), and shortness of breath indicates that fluid in the pericardial sac is compressing the heart. The emergent, life-saving treatment is a pericardiocentesis, where a needle is inserted into the pericardial sac to drain the fluid and relieve the pressure. The nurse should anticipate this order and prepare the necessary equipment.\n\nOptions B, C, and D: These are not the correct interventions for the acute problem.",
+    "additional": "NCK Focus: Recognition of life-threatening emergencies and anticipating the correct treatment. You MUST know the signs of cardiac tamponade.\n\nBeck's Triad for Cardiac Tamponade:\n- Jugular Venous Distention (JVD)\n- Muffled or Distant Heart Sounds\n- Hypotension\n\nTreatment: Pericardiocentesis (emergency fluid drainage)."
+  },
+  {
+    "question": "The female client is diagnosed with rheumatic fever and prescribed penicillin, an antibiotic. Which statement indicates the client understands the discharge teaching?",
+    "options": {
+      "A": "I must take the prescribed antibiotics for 7 days only.",
+      "B": "I may get a vaginal yeast infection with penicillin.",
+      "C": "I will have no problems as long as I take my medication.",
+      "D": "My throat culture was positive for a staph infection."
+    },
+    "answer": "B",
+    "explanation": "This statement shows that the client understands a common and important side effect of antibiotic therapy. Penicillin can disrupt the normal vaginal flora, allowing for an overgrowth of Candida, which causes a yeast infection. Teaching clients about common side effects empowers them to recognize and manage them.\n\nOption A: Incorrect. A full course of antibiotics for strep throat is typically 10 days to ensure eradication and prevent rheumatic fever.\nOption C: An unrealistic statement; all medications have potential side effects or problems.\nOption D: Rheumatic fever is a complication of a group A streptococcus infection, not staphylococcus.",
+    "additional": "NCK Focus: Patient teaching about medications must include common side effects and adverse reactions.\n\nRheumatic Heart Disease: The long-term consequence of rheumatic fever is permanent damage to the heart valves. Clients may require long-term antibiotic prophylaxis."
+  },
+  {
+    "question": "The nurse is planning the care of a client diagnosed with acute bacterial endocarditis who has been admitted for intravenous therapy. Which intervention should the nurse include in the plan of care?",
+    "options": {
+      "A": "Limit interruptions to allow for uninterrupted rest and sleep.",
+      "B": "Refer the client to inpatient cardiac rehabilitation.",
+      "C": "Maintain oxygen via nasal cannula at 2 L/min.",
+      "D": "Discuss the need for valve replacement surgery."
+    },
+    "answer": "A",
+    "explanation": "A client with acute endocarditis has a systemic infection and inflammation that places a significant metabolic demand on the heart and body. Conserving energy is crucial. The plan of care should prioritize balancing antibiotic therapy with periods of uninterrupted rest to decrease cardiac workload and promote healing.\n\nOption B: Cardiac rehab is for stable, recovering patients, not for someone in the acute phase of a serious infection.\nOption C: Oxygen is only administered if the patient is hypoxic.\nOption D: Valve surgery may be needed later, but the current focus is medical management.",
+    "additional": "NCK Focus: Nursing care for endocarditis centers on long-term IV antibiotics (4–6 weeks), monitoring for complications (heart failure, emboli), and promoting rest to decrease the workload on the infected heart."
+  },
+  {
+    "question": "The client has just had a pericardiocentesis. Which interventions should the nurse implement? Select all that apply.",
+    "options": {
+      "1": "Monitor vital signs every 2 hours for 24 hours.",
+      "2": "Assess the client for a fluid wave.",
+      "3": "Record the amount of fluid removed as output.",
+      "4": "Evaluate the client's cardiac rhythm.",
+      "5": "Keep the client in a semi-Fowler position."
+    },
+    "answer": ["3", "4", "5"],
+    "explanation": "Post-procedure care focuses on monitoring for complications and promoting stability.\n\n3. Record fluid removed: The drained fluid is a fluid loss from the body and must be documented as output.\n4. Evaluate cardiac rhythm: The procedure can irritate the heart muscle, potentially causing dysrhythmias. Continuous cardiac monitoring is essential.\n5. Semi-Fowler position: Enhances comfort, improves breathing, and reduces the workload on the heart.\n\nIncorrect:\n1. Vital signs should be monitored much more frequently in the immediate post-procedure period.\n2. A fluid wave is a test for ascites (abdominal fluid), not relevant post-pericardiocentesis.",
+    "additional": "NCK Focus: Post-procedure monitoring after pericardiocentesis.\n\nNursing priorities:\n- Monitor for return of tamponade\n- Watch for dysrhythmias\n- Assess for complications like bleeding or pneumothorax"
+  },
+  {
+    "question": "The client with infective endocarditis is admitted to the medical department. Which HCP's order should be implemented first?",
+    "options": {
+      "A": "Administer the intravenous antibiotic.",
+      "B": "Schedule an echocardiogram.",
+      "C": "Insert a 20-gauge intravenous catheter.",
+      "D": "Bedrest with bathroom privileges."
+    },
+    "answer": "C",
+    "explanation": "The cornerstone of treatment for infective endocarditis is long-term IV antibiotics. Before any IV medication can be given, the nurse must first establish IV access. Therefore, inserting the IV catheter is the first and most critical step that enables all other IV-related treatments. It also allows blood cultures to be drawn before the first dose of antibiotics.\n\nOption A: Cannot be done without IV access.\nOptions B and D: Important, but not a prerequisite for starting lifesaving treatment.",
+    "additional": "NCK Focus: Sequencing of interventions.\n\nKey concept: Some actions are prerequisites to others. Inserting an IV is necessary before starting antibiotics or obtaining cultures."
+  },
+  {
+    "question": "The male client diagnosed with hypertension has epistaxis and a flushed face. Which action should the nurse implement first?",
+    "options": {
+      "A": "Notify the client's HCP.",
+      "B": "Assess the client's blood pressure lying, standing, and sitting.",
+      "C": "Elevate the client's head of the bed.",
+      "D": "Prepare to administer an intravenous antihypertensive medication."
+    },
+    "answer": "B",
+    "explanation": "Epistaxis (nosebleed) and a flushed face are classic signs of a hypertensive crisis, a condition of severely elevated blood pressure. The first action for the nurse is to assess and confirm the blood pressure. This data is essential to determine the severity of the crisis and to guide all subsequent interventions.\n\nOption A: The nurse must assess before reporting; you need data to give the HCP.\nOption C: This is a good intervention, but it comes after or concurrently with the assessment.\nOption D: This is an intervention that requires an order and knowledge of the BP reading.",
+    "additional": "NCK Focus: Assess before you act. When a patient presents with signs of a specific problem (like a hypertensive crisis), your first move is to assess and quantify that problem (i.e., measure the blood pressure)."
+  },
+  {
+    "question": "The nurse is completing discharge teaching for a client diagnosed with essential hypertension. Which statement indicates the client understands the discharge teaching?",
+    "options": {
+      "A": "I can eat bacon, eggs, and wheat toast for breakfast.",
+      "B": "I will walk for 30 minutes a day at least once a week.",
+      "C": "I am going to lose 2–3 pounds a week until I lose 30 pounds.",
+      "D": "When I feel all right I do not need to take my medication."
+    },
+    "answer": "C",
+    "explanation": "Weight loss is a cornerstone of non-pharmacological management for hypertension. A goal of losing 2-3 pounds per week (though 1-2 is more standard) until a target weight loss is achieved demonstrates that the client understands the importance of weight management and has a concrete, actionable plan.\n\nOption A: Bacon is very high in sodium, a key substance to limit in hypertension.\nOption B: Exercise is recommended on most days of the week, not just once.\nOption D: This is a dangerous misconception. Hypertension is often asymptomatic (the \"silent killer\"), and medication must be taken consistently as prescribed to prevent long-term organ damage.",
+    "additional": "NCK Focus: Patient teaching for chronic disease management. You must be able to identify correct vs. incorrect statements regarding diet, exercise, and medication adherence. The concept that hypertension requires lifelong management, even when asymptomatic, is critical."
+  },
+  {
+    "question": "The nurse is caring for the client diagnosed with essential hypertension who is prescribed hydrochlorothiazide (HTCZ), a thiazide diuretic. Which intervention should the nurse implement when administering this medication?",
+    "options": {
+      "A": "Check the client's apical pulse for 1 minute.",
+      "B": "Question administering if the client's potassium level is less than 5.5 mEq/L.",
+      "C": "Instruct the client to rise slowly from a lying to a sitting position.",
+      "D": "Tell the client to drink 1000 mL of fluid daily."
+    },
+    "answer": "C",
+    "explanation": "All antihypertensive medications, including diuretics like HCTZ, carry a risk of causing orthostatic hypotension (a sudden drop in blood pressure when standing up). This can lead to dizziness, lightheadedness, and falls. The most important safety instruction is to teach the client to change positions slowly.\n\nOption A: Checking the apical pulse is required for drugs that directly affect heart rate, like digoxin or beta-blockers, but not for a simple thiazide diuretic.\nOption B: This is incorrect. Thiazide diuretics are potassium-wasting diuretics. The nurse should be concerned if the potassium level is low (e.g., < 3.5 mEq/L), not high.\nOption D: A fluid restriction is not typically necessary unless there is co-existing severe heart failure.",
+    "additional": "NCK Focus: Diuretics are a major drug class. You must know the difference between potassium-wasting and potassium-sparing types.\n\nPotassium-Wasting: Thiazides (HCTZ) and Loop diuretics (furosemide). Can cause hypokalemia.\nPotassium-Sparing: Spironolactone, amiloride. Can cause hyperkalemia."
+  },
+  {
+    "question": "The charge nurse is checking laboratory results for clients on a medical unit. Which laboratory data would warrant notifying the HCP?",
+    "options": {
+      "A": "The client who has an arterial blood gases (ABGs) of pH 7.38, PaO2 90, PaCO2 38, and HCO3 34.",
+      "B": "The client who has a serum potassium level of 3.8 mEq/L.",
+      "C": "The client who has a serum sodium level of 138 mEq/L.",
+      "D": "The client who has an INR of 4.2."
+    },
+    "answer": "D",
+    "explanation": "An INR of 4.2 is a critical lab value. The therapeutic range for most conditions treated with warfarin (like A-Fib or DVT) is 2.0-3.0. A value of 4.2 indicates that the blood is dangerously thin, placing the client at extremely high risk for serious or fatal bleeding. The nurse must notify the HCP immediately so the warfarin dose can be held or adjusted, and an antidote (Vitamin K) can be considered.\n\nOption A: The ABG shows a compensated metabolic alkalosis (high HCO3 but normal pH). This is abnormal but not as immediately life-threatening as the critical INR.\nOption B: Potassium of 3.8 is within the normal range (3.5-5.0).\nOption C: Sodium of 138 is within the normal range (135-145).",
+    "additional": "NCK Focus: Recognition and reporting of critical lab values is a fundamental nursing responsibility. You must have key lab ranges memorized, especially for electrolytes and coagulation studies (PT/INR, PTT). An out-of-range coagulation value is always a high-priority safety concern."
+  },
+  {
+    "question": "The client newly diagnosed with essential hypertension tells the nurse, “I don't feel bad, so why do I have to take medication every day?\" Which statement is the nurse's best response?",
+    "options": {
+      "A": "Even if you feel all right, your blood pressure could still be high.",
+      "B": "Your doctor would not have prescribed them if you didn't need them.",
+      "C": "People have strokes and heart attacks with high blood pressure.",
+      "D": "If you don't feel bad, then you don't have to take your medication."
+    },
+    "answer": "A",
+    "explanation": "This response directly addresses the client's misconception by explaining the asymptomatic nature of hypertension. It is often called the \"silent killer\" precisely because people can have dangerously high blood pressure without feeling any symptoms. This statement is factual, non-judgmental, and provides the core reason for medication adherence.\n\nOption B: This is paternalistic (\"doctor knows best\") and does not educate the client.\nOption C: While true, this is a fear-based tactic and less effective than directly explaining the \"silent\" nature of the disease in response to the client's specific comment.\nOption D: This is dangerous, incorrect advice that would put the client at risk.",
+    "additional": "NCK Focus: Patient education for chronic, asymptomatic diseases is a key concept. The primary barrier to adherence is often the lack of symptoms. The nurse's role is to explain the long-term risks of the untreated disease (e.g., stroke, heart attack, kidney failure) and the purpose of the medication in preventing this organ damage."
+  },
+  {
+    "question": "The nurse is caring for clients on a medical unit. Which task would be appropriate for the nurse to delegate to a UAP?",
+    "options": {
+      "A": "Vital signs of a client who is having chest pain.",
+      "B": "Take the client downstairs to smoke a cigarette.",
+      "C": "Remove the telemetry leads from the client who is being discharged.",
+      "D": "Help the client who is scheduled for a cardiac catheterization to eat."
+    },
+    "answer": "C",
+    "explanation": "Removing telemetry leads from a client who has a discharge order and is stable is a simple, technical task that does not require nursing judgment and is within the scope of practice for a UAP.\n\nOption A: A client with chest pain is unstable. Vital signs on an unstable patient require the assessment skills of a registered nurse.\nOption B: Assisting a client to smoke is unethical and contrary to health promotion.\nOption D: Clients scheduled for a cardiac catheterization are typically NPO (nothing by mouth) for 6–8 hours before the procedure to prevent aspiration. Helping this client eat would be a safety violation.",
+    "additional": "NCK Focus: Delegation questions frequently hinge on the stability of the patient. Tasks that are routine on a stable patient (like taking vital signs) cannot be delegated if the patient is unstable. Always consider the circumstance when delegating."
+  },
+  {
+    "question": "The nurse is preparing to administer a calcium channel blocker to a client diagnosed with arterial hypertension. Which data would cause the nurse to question administering this medication?",
+    "options": {
+      "A": "The client's blood pressure is 110/70.",
+      "B": "The client has a calcium level of 10.5 mg/dL.",
+      "C": "The client reports having a dry mouth.",
+      "D": "The client complains of being dizzy."
+    },
+    "answer": "D",
+    "explanation": "Dizziness is a key symptom of hypotension. Since calcium channel blockers lower blood pressure, administering another dose to a client who is already feeling dizzy could dangerously lower their blood pressure further, leading to syncope and falls. The nurse must withhold the medication, assess the client's blood pressure, and notify the HCP.\n\nOption A: A BP of 110/70 is within the normal range and is often the target for a client being treated for hypertension. This would not be a reason to hold the medication.\nOption B: Calcium channel blockers do not directly affect serum calcium levels, nor does a slightly elevated calcium level (normal is ~8.5–10.2) contraindicate their use.\nOption C: Dry mouth can be a side effect of some medications but is not a contraindication to administration.",
+    "additional": "NCK Focus: Medication safety and nursing judgment. The nurse's role is to assess the patient for therapeutic effects and adverse effects before administering a medication. If a patient is showing signs of an adverse effect (like hypotension from an antihypertensive), the nurse must hold the dose and report it."
+  },
+  {
+    "question": "The nurse is discussing essential hypertension with a group of clients. Which interventions should be included in the discussion? Select all that apply.",
+    "options": {
+      "A": "Discuss the importance of a low-cholesterol, low-fat, low-salt diet.",
+      "B": "Encourage isotonic exercises at least three times a week.",
+      "C": "Explain that uncontrolled diabetes increases blood pressure.",
+      "D": "Recommend relaxation classes to help decrease stress.",
+      "E": "Tell them to elevate the head of the bed to sleep."
+    },
+    "answer": ["A", "B", "C", "D"],
+    "explanation": "These four options all represent key lifestyle modifications for managing essential hypertension.\n\nDiet: The DASH diet (low in fat, cholesterol, and especially sodium) is proven to lower blood pressure.\nExercise: Regular isotonic exercise (walking, swimming) strengthens the heart and helps control weight and blood pressure.\nDiabetes Control: Diabetes damages blood vessels and is a major co-morbidity that worsens hypertension.\nStress Management: Chronic stress can contribute to high blood pressure.\n\nIncorrect Option:\nOption 5: Elevating the head of the bed is an intervention for dyspnea associated with heart failure or COPD, not a primary management strategy for hypertension itself.",
+    "additional": "NCK Focus: Non-pharmacological management of hypertension is a critical teaching area. Be able to list and explain the major lifestyle modifications:\n- Weight reduction\n- DASH eating plan\n- Sodium restriction\n- Regular physical activity\n- Moderation of alcohol consumption\n- Smoking cessation"
+  },
+  {
+    "question": "The nurse is taking blood pressure readings at a community health fair. The 68-year-old client's blood pressure is 168/98. Which action should the nurse implement?",
+    "options": {
+      "A": "Recommend the client see a HCP within 2 days.",
+      "B": "Tell the client to go to the nearest emergency department.",
+      "C": "Explain the blood pressure is all right for an elderly person.",
+      "D": "Instruct the client to go home and rest for the remainder of the day."
+    },
+    "answer": "A",
+    "explanation": "A blood pressure of 168/98 mmHg falls into the category of Stage 2 Hypertension. While this is significantly elevated and requires medical attention, the client is at a health fair and is likely asymptomatic. This does not constitute a hypertensive emergency requiring an immediate ER visit. The appropriate recommendation is to follow up with a primary care provider in the near future for evaluation and management. A timeframe of a few days is reasonable.\n\nOption B: An ER visit is reserved for hypertensive emergencies, where there is evidence of acute end-organ damage (e.g., chest pain, shortness of breath, severe headache, confusion).\nOption C: This is false and dangerous information. While BP tends to rise with age, 168/98 is not \"all right.\"\nOption D: This is inappropriate advice that downplays the seriousness of the finding.",
+    "additional": "NCK Focus: Triage and providing appropriate health advice in a community setting. The nurse must be able to differentiate between a situation requiring routine follow-up and a true medical emergency.\n\nBP Categories (ACC/AHA 2017 Guidelines):\n- Normal: <120/80\n- Elevated: 120–129 / <80\n- Stage 1 HTN: 130–139 / 80–89\n- Stage 2 HTN: ≥140 / ≥90\n- Hypertensive Crisis: >180 / >120"
+  },
+  {
+    "question": "The UAP tells the nurse the client whose T is 98.9°F, P 92, R 18, and B/P 164/92 is complaining of a headache. Which action should the nurse implement?",
+    "options": {
+      "A": "Assess the client as soon as possible.",
+      "B": "Administer acetaminophen (Tylenol), a non-narcotic analgesic.",
+      "C": "Tell the UAP to check on the client in 1 hour.",
+      "D": "Request the charge nurse to check on the client."
+    },
+    "answer": "A",
+    "explanation": "The combination of a significantly elevated blood pressure (164/92) and a headache is a red flag for a hypertensive crisis with potential end-organ damage (specifically, neurologic changes). The nurse cannot delegate assessment in this situation. The RN must personally assess the client immediately to perform a more detailed neurological assessment and confirm the vital signs.\n\nOption B: Simply medicating the headache without a full assessment is unsafe. The headache is a symptom of a more serious underlying problem.\nOption C: Delaying assessment is dangerous.\nOption D: The primary nurse is responsible for this patient; it is not appropriate to pass this responsibility to the charge nurse without first assessing the situation.",
+    "additional": "NCK Focus: This question combines delegation with clinical judgment. When a UAP reports data, the nurse must analyze that data. A report of abnormal vital signs coupled with a new symptom requires immediate follow-up and assessment by the RN."
+  },
+  {
+    "question": "The nurse is caring for a client diagnosed with congestive heart failure (CHF) who is complaining of shortness of breath and dyspnea. Which intervention should the nurse implement first?",
+    "options": {
+      "A": "Assess the client's lung sounds.",
+      "B": "Elevate the client's head of the bed.",
+      "C": "Administer oxygen via nasal cannula.",
+      "D": "Check the client's pulse oximeter reading."
+    },
+    "answer": "B",
+    "explanation": "The client is in active distress (\"shortness of breath and dyspnea\"). The first action is a quick intervention to provide immediate relief. Elevating the head of the bed (placing the client in a high-Fowler's position) uses gravity to help reduce venous return to the heart (preload) and allows for better lung expansion, decreasing the work of breathing. This is the fastest and easiest way to improve the client's respiratory status.\n\nOptions A and D: These are assessments. While they must be done immediately, a simple positioning intervention can be done first or simultaneously to provide relief.\nOption C: Administering oxygen is also a key intervention, but positioning is often done first as it provides an immediate mechanical advantage for breathing.",
+    "additional": "NCK Focus: Prioritizing interventions for a patient in acute respiratory distress. Simple positioning changes are often the very first step. Think \"position for comfort and ease of breathing.\""
+  },
+  {
+    "question": "The client is preparing to administer the initial dose of digoxin (Lanoxin), a cardiac glycoside, to the client diagnosed with CHF. Which intervention should the nurse implement?",
+    "options": {
+      "A": "Check the client's serum potassium level.",
+      "B": "Assess the client's blood pressure.",
+      "C": "Monitor the client's digoxin level.",
+      "D": "Take the client's apical pulse."
+    },
+    "answer": "D",
+    "explanation": "The absolute rule before administering any dose of digoxin is to check the apical pulse for one full minute. Digoxin slows the heart rate by acting on the AV node. If the heart rate is already too slow (typically <60 bpm for an adult), the medication must be held, and the HCP notified to prevent life-threatening bradycardia.\n\nOption A: Checking the potassium level is extremely important because hypokalemia (low potassium) potentiates digoxin toxicity. However, the immediate safety check right before administration is the heart rate.\nOption B: Digoxin primarily affects heart rate and contractility, not blood pressure directly.\nOption C: A digoxin level is checked to monitor for toxicity, but it reflects past doses, not whether the next dose is safe to give. A level would not be available before the initial dose anyway.",
+    "additional": "NCK Focus: Medication safety for high-alert drugs. Digoxin is a classic example. You must know:\n- The critical pre-administration assessment: Apical pulse for 1 minute, hold if <60 bpm.\n- The relationship with potassium: Hypokalemia increases the risk of toxicity.\n- Signs of Toxicity: Nausea, vomiting, anorexia, visual disturbances (yellow/green halos), and arrhythmias (especially bradycardia)."
+  },
+  {
+    "question": "The home health-care nurse is visiting a client diagnosed with CHF. Which comment by the client would warrant intervention by the nurse?",
+    "options": {
+      "A": "I take my water pill every morning.",
+      "B": "I have to sleep on two pillows at night.",
+      "C": "I have some leg cramps every now and then.",
+      "D": "I must rest after I walk around the block."
+    },
+    "answer": "C",
+    "explanation": "Leg cramps in a client taking a diuretic (\"water pill\"), such as furosemide or HCTZ, are a classic symptom of hypokalemia (low potassium). This is a potentially dangerous electrolyte imbalance that can lead to cardiac dysrhythmias, especially if the client is also taking digoxin. This finding requires immediate follow-up assessment and reporting to the HCP.\n\nOption A: Taking the diuretic in the morning is correct practice to avoid nocturia.\nOption B: Sleeping on two pillows (orthopnea) is a common symptom of heart failure, but it reflects the chronic condition, not an acute problem requiring immediate intervention.\nOption D: Activity intolerance is also an expected symptom of CHF.",
+    "additional": "NCK Focus: Recognizing signs of complications from common cardiac medications. For loop and thiazide diuretics, the primary concern is hypokalemia. Nurses must teach patients to report symptoms like muscle cramps, weakness, and palpitations."
+  },
+  {
+    "question": "The clinic nurse is checking laboratory data for clients seen yesterday. Which laboratory data would warrant contacting the client at home?",
+    "options": {
+      "A": "The client whose serum digoxin level is 2.4 ng/mL.",
+      "B": "The client whose serum potassium level is 4.2 mEq/L.",
+      "C": "The client whose serum brain or beta natriuretic peptide (BNP) level is 92 pg/mL.",
+      "D": "The client whose glycosylated hemoglobin is 5.3%."
+    },
+    "answer": "A",
+    "explanation": "A digoxin level of 2.4 ng/mL is a critical value indicating toxicity. The therapeutic range for digoxin is very narrow, typically 0.8–2.0 ng/mL. A level above 2.0 places the client at high risk for life-threatening cardiac arrhythmias. The nurse must contact the client immediately, instruct them to hold the next dose, and notify the HCP.\n\nOption B: Potassium of 4.2 is normal (3.5–5.0).\nOption C: A BNP of 92 is normal (<100 indicates no heart failure).\nOption D: A glycosylated hemoglobin (A1c) of 5.3% is normal (<5.7%), indicating excellent blood sugar control.",
+    "additional": "NCK Focus: Knowledge of therapeutic drug levels and critical lab values. Digoxin is a high-alert medication, and its therapeutic range and signs of toxicity are essential knowledge for safe nursing practice."
+  },
+  [
+  {
+    "question": "The nurse, along with a UAP, is caring for a client diagnosed with an acute exacerbation of congestive heart failure. Which task could the nurse delegate to the UAP?",
+    "options": {
+      "A": "Request the UAP to evaluate client's intake and output.",
+      "B": "Ask the UAP to assist the client to ambulate in the hall.",
+      "C": "Tell the UAP to increase the oxygen rate from 4 to 6 L.",
+      "D": "Instruct the UAP to assist the client with taking a bed bath."
+    },
+    "answer": "D",
+    "explanation": "Assisting with personal care, such as a bed bath, is a standard task that falls within the scope of practice for a UAP. This task does not require nursing judgment.\n\nOption A: Evaluation is part of the nursing process and cannot be delegated. A UAP can record intake and output, but the nurse must evaluate the data and its significance.\nOption B: A client with an acute exacerbation of CHF is unstable. Ambulation of an unstable client cannot be delegated.\nOption C: Adjusting a client's oxygen flow rate is considered medication administration and requires the clinical judgment of a licensed nurse. It cannot be delegated to a UAP.",
+    "additional": "NCK Focus: Delegation is a critical nursing skill. The core principle tested here is the stability of the patient. Any task for a patient who is unstable or in an acute state requires the direct involvement and assessment of the RN. Routine tasks for stable patients can often be delegated."
+  },
+  {
+    "question": "The nurse is preparing to administer digoxin (Lanoxin), a cardiac glycoside intravenous push (IVP). The digoxin vial has 5 mg/2 mL. The HCP has ordered 0.25 mg. How much medication would the nurse administer?",
+    "options": {
+        "A": "0.1 mL",
+        "B": "0.3 mL",
+        "C": "0.67 mL",
+        "D": "2.1 mL"
+    },
+    "answer": "A",
+    "explanation": "This is a dosage calculation problem. The formula to use is:\n(Dose you Want / Dose you Have) x Volume = Amount to administer\nWant: 0.25 mg\nHave: 5 mg\nVolume: 2 mL\nCalculation: (0.25 mg / 5 mg) x 2 mL = 0.1 mL\nAlternatively, use ratio and proportion:\n5 mg / 2 mL = 0.25 mg / x mL\nCross-multiply: 5x = 0.50\nx = 0.10 mL",
+    "additional": "NCK Focus: Medication calculation is a \"must-know,\" pass-or-fail competency for nursing. You must be proficient in various calculation methods, including dimensional analysis and ratio/proportion, for oral, injectable, and IV drip medications. Always double-check your math, especially for high-alert medications like digoxin."
+  },
+  {
+    "question": "The nurse is caring for a client diagnosed with CHF who is receiving 40 mg furosemide (Lasix) intravenous push (IVP) daily. Which data indicate the medication is effective?",
+    "options": {
+      "A": "The client's urine output for the last 8 hours is 300 mL.",
+      "B": "The client's lungs are clear bilaterally anterior and posterior.",
+      "C": "The client has lost 1 kg of weight in 2 days.",
+      "D": "The client's arterial blood pressure is 138/90 mm Hg."
+    },
+    "answer": "B",
+    "explanation": "Furosemide is a powerful loop diuretic used in CHF to remove excess fluid from the body. A primary symptom of fluid overload in CHF is pulmonary edema (fluid in the lungs), which is heard as crackles on auscultation. Clear lung sounds indicate that the diuretic has been effective in pulling fluid out of the pulmonary circulation, thus improving the client's respiratory status.\n\nOption A: 300 mL in 8 hours is low output. A brisk diuresis is expected.\nOption C: A weight loss of 1 kg over 2 days is a positive sign but less indicative of acute effectiveness than clear lungs.\nOption D: While diuretics can lower BP, this is not the primary indicator of the drug's effect on fluid volume status.",
+    "additional": "NCK Focus: Evaluating the therapeutic effects of medications. For diuretics in heart failure, key outcomes include decreased dyspnea and crackles, decreased peripheral edema, increased urine output, and weight loss. Clear lung sounds and decreased work of breathing are often the most significant indicators of improvement in acute CHF."
+  },
+  {
+    "question": "The nurse is preparing to administer an ACE-inhibitor to a client diagnosed with congestive heart failure. Which statement best describes the scientific rationale for administering this medication?",
+    "options": {
+      "A": "The medication will help increase the urine output, thereby decreasing the volume of blood in the intravascular system.",
+      "B": "The medication will decrease the sympathetic stimulation to the beta cells in the heart muscle.",
+      "C": "The medication will help prevent vasoconstriction of the periphery and prevents the release of aldosterone.",
+      "D": "The medication blocks calcium from entering the cell membrane, resulting in vasodilation of the vessels."
+    },
+    "answer": "C",
+    "explanation": "ACE inhibitors block the conversion of angiotensin I to angiotensin II. Angiotensin II is a potent vasoconstrictor and also stimulates aldosterone release. By blocking both, ACE inhibitors cause vasodilation (reducing afterload) and promote sodium/water excretion (reducing preload). This dual effect reduces the workload of the heart and is central in CHF management.\n\nOption A: Describes a diuretic.\nOption B: Describes a beta-blocker.\nOption D: Describes a calcium channel blocker.",
+    "additional": "NCK Focus: Know the mechanism of action of major cardiac drug classes. ACE inhibitors are vital in CHF due to their ability to reduce both preload and afterload. Key side effects include dry cough, angioedema, hypotension, and hyperkalemia."
+  },
+  {
+    "question": "The nurse is admitting a client diagnosed with CHF. Which HCP's admission order would the nurse question?",
+    "options": {
+      "A": "Oxygen 2 L via nasal cannula.",
+      "B": "Furosemide (Lasix) 40 mg IVP daily.",
+      "C": "Low-cholesterol, low-fat, low-salt diet.",
+      "D": "Activity as tolerated."
+    },
+    "answer": "D",
+    "explanation": "In the case of acute CHF exacerbation, the order 'activity as tolerated' is too vague and potentially unsafe. Such clients typically require restricted activity to reduce myocardial oxygen demand. Clarification should be requested, with an order like 'bedrest with bathroom privileges' being more appropriate.\n\nOptions A, B, and C are standard and appropriate interventions for CHF management.",
+    "additional": "NCK Focus: The nurse's responsibility includes questioning unsafe or unclear orders. In acute CHF, limiting physical activity is essential to conserve cardiac workload."
+  },
+  {
+    "question": "The nurse is completing discharge teaching for a client diagnosed with end-stage congestive heart failure. Which statement indicates the client understands the discharge teaching?",
+    "options": {
+      "A": "I will notify my HCP if I lose more than 2 lb in a week.",
+      "B": "I will check my digoxin level daily and write down the results.",
+      "C": "I will increase my intake of foods that are high in potassium.",
+      "D": "I will drink at least 3000 mL of fluid every day."
+    },
+    "answer": "C",
+    "explanation": "Clients with CHF are often on potassium-wasting diuretics and digoxin. Hypokalemia increases the risk of digoxin toxicity. Therefore, increasing intake of potassium-rich foods (e.g., bananas, citrus, leafy greens) is critical.\n\nOption A: Clients should report a weight **gain** of more than 2–3 lbs/day or 5 lbs/week, not loss.\nOption B: Digoxin levels are lab-drawn, not self-monitored.\nOption D: CHF clients are typically on fluid restrictions to avoid overload. 3000 mL would be excessive.",
+    "additional": "NCK Focus: Discharge education in CHF is comprehensive. Key teaching points include medication adherence, weight monitoring, symptom recognition, sodium and fluid restrictions, and maintaining potassium levels to prevent complications like digoxin toxicity."
+  },
+  {
+    "question": "The client is diagnosed with arterial occlusive disease. Which data would the nurse expect the client to exhibit?",
+    "options": {
+      "A": "Intermittent claudication and cool extremities.",
+      "B": "Capillary refill <3 seconds and 4+ pedal pulses.",
+      "C": "Dry scaly skin and 3+ pitting edema.",
+      "D": "Piloerection and \"alligator\" skin."
+    },
+    "answer": "A",
+    "explanation": "Arterial occlusive disease (Peripheral Arterial Disease - PAD) is caused by atherosclerosis restricting blood flow to the extremities. This leads to:\n- Intermittent Claudication: Ischemic muscle pain with activity.\n- Cool Extremities: Lack of warm, oxygenated arterial blood.\nOther signs include weak/absent pulses, pallor, and hair loss on the legs.\n\nOption B: Brisk capillary refill and strong pulses indicate excellent perfusion, opposite of PAD.\nOption C: Pitting edema is more indicative of venous insufficiency.\nOption D: \"Alligator\" skin is associated with chronic venous insufficiency.",
+    "additional": "NCK Focus: Differentiating PAD vs PVD is essential.\n- PAD: Pale, cool, pulseless legs. Pain with activity (claudication). Ulcers on toes.\n- PVD: Edematous, discolored, warm legs. Pain relieved by elevation. Ulcers on ankles."
+  },
+  {
+    "question": "The client is diagnosed with peripheral vascular disease. Which statement indicates the client understands the discharge teaching?",
+    "options": {
+      "A": "I will buy my new shoes first thing in the morning.",
+      "B": "I use a heating pad when my feet are really cold.",
+      "C": "I need to wear knee-high socks when wearing shoes.",
+      "D": "I should not cross my legs when I am sitting down."
+    },
+    "answer": "D",
+    "explanation": "Crossing the legs compresses the arteries and veins, further impeding blood flow to the lower extremities. Avoiding this position promotes circulation in PVD.\n\nOption A: Feet swell during the day, so shoes should be bought in the afternoon.\nOption B: Heating pads pose a burn risk for those with decreased sensation (neuropathy).\nOption C: Tight elastic bands on knee-high socks may restrict circulation and should be avoided.",
+    "additional": "NCK Focus: Safety teaching for PVD focuses on foot care: inspect feet daily, wear protective shoes, test water temp before bathing, avoid crossing legs, and seek podiatric care as needed."
+  },
+  {
+    "question": "The clinic nurse is caring for the female client diagnosed with venous insufficiency. Which intervention should the nurse implement?",
+    "options": {
+      "A": "Instruct the client to elevate her feet frequently.",
+      "B": "Encourage the client to eat a low-sodium diet.",
+      "C": "Tell the client to wear open-toed shoes.",
+      "D": "Recommend going to the podiatrist for nail cutting."
+    },
+    "answer": "A",
+    "explanation": "In venous insufficiency, incompetent valves lead to pooling of blood in the lower extremities. Elevating the legs helps gravity return blood to the heart, reducing edema and improving symptoms.\n\nOption B: A low-sodium diet helps with general fluid management but elevation directly addresses venous pooling.\nOption C: Open-toed shoes do not protect the feet from injury.\nOption D: Podiatry care is more critical for arterial disease or diabetes unless venous disease is complicated by neuropathy.",
+    "additional": "NCK Focus: Management of venous insufficiency centers around elevation and compression. Compression stockings and frequent leg elevation are foundational interventions."
+  },
+  {
+    "question": "The client diagnosed with arterial occlusive disease is 1 day postoperative right femoral popliteal bypass. Which intervention should the nurse implement?",
+    "options": {
+      "A": "Keep the right leg in the dependent position.",
+      "B": "Maintain the leg in alignment with abductor pillow.",
+      "C": "Monitor the client's continuous passive motion (CPM) machine.",
+      "D": "Assess the client's right leg for paralysis and paresthesia."
+    },
+    "answer": "D",
+    "explanation": "After a fem-pop bypass, priority care includes frequent neurovascular assessments to monitor graft patency. The nurse must assess for the 6 P's: Pain, Pallor, Pulselessness, Paresthesia, Paralysis, and Poikilothermia. Paresthesia or paralysis suggests compromised perfusion and requires immediate action.\n\nOption A: A dependent position can increase edema and compromise graft perfusion.\nOption B: Abductor pillows are used after hip replacement, not vascular surgery.\nOption C: CPM machines are used after knee replacement.",
+    "additional": "NCK Focus: Post-op care of vascular grafts involves frequent assessment of the affected extremity (initially every 15 minutes, then hourly). Sudden changes in neurovascular status are surgical emergencies."
+  },
+  {
+    "question": "The UAP and a nurse are caring for clients in a long-term facility. Which action by the UAP would require intervention by the nurse?",
+    "options": {
+      "A": "The UAP elevated the legs of a client diagnosed with arterial occlusive disease.",
+      "B": "The UAP is ambulating the client using a gait belt around the waist.",
+      "C": "The UAP placed the client in the chair while assisting the client to eat.",
+      "D": "The UAP assisted the client with venous insufficiency to put on antiembolic hose."
+    },
+    "answer": "A",
+    "explanation": "For a client with arterial occlusive disease (PAD), blood flow to the legs is compromised. Elevating the legs works against gravity and will further decrease arterial blood flow, worsening ischemia and pain. The correct position for a client with PAD is to keep the legs neutral or in a slightly dependent (hanging down) position to enhance blood flow. The nurse must intervene to correct this action.\n\nOptions B, C, and D: These are all appropriate actions for a UAP. Using a gait belt is a safety measure, sitting in a chair for meals prevents aspiration, and applying compression hose is a key intervention for venous insufficiency.",
+    "additional": "NCK Focus: This question again tests the crucial difference between arterial and venous disease management.\n- Arterial (PAD): Keep legs Down (Dependent) to improve perfusion.\n- Venous (PVD): Elevate the legs to reduce Edema.\nThe nurse is responsible for supervising the UAP and must intervene if an unsafe or incorrect action is performed."
+  },
+  {
+    "question": "Which data would require the nurse to notify the HCP for the client diagnosed with arterial occlusive disease?",
+    "options": {
+      "A": "The client has 1+ bilateral dorsalis pedis pulses.",
+      "B": "The client has bilateral leg pain while resting.",
+      "C": "The client has numbness and tingling of the legs.",
+      "D": "The client has cool, pale extremities."
+    },
+    "answer": "B",
+    "explanation": "The development of rest pain is a critical finding in arterial occlusive disease. It signifies a progression to severe limb ischemia, where blood flow is not sufficient to meet the metabolic demands of the tissues even at rest. This indicates the limb is in jeopardy and requires urgent intervention (such as a bypass graft or angioplasty) to prevent tissue necrosis and potential amputation.\n\nOptions A, C, and D: Weak pulses (1+), paresthesias (numbness/tingling), and cool, pale extremities are all expected, chronic signs of PAD. While they need to be documented and monitored, rest pain represents an acute worsening of the condition that requires immediate reporting.",
+    "additional": "NCK Focus: Staging of Peripheral Arterial Disease:\n- Stage I: Asymptomatic\n- Stage II: Intermittent Claudication (pain with exercise)\n- Stage III: Rest Pain (critical limb ischemia)\n- Stage IV: Necrosis/Gangrene (critical limb ischemia)\nRecognizing the transition from claudication to rest pain is key to identifying a patient who needs urgent vascular intervention."
+  },
+  {
+    "question": "The client is diagnosed with arterial occlusive disease. Which information should the nurse discuss with the client?",
+    "options": {
+      "A": "Encourage the client to walk three times a day.",
+      "B": "Discuss the need to increase fluid intake.",
+      "C": "Explain how to prevent orthostatic hypotension.",
+      "D": "Tell the client to take acetaminophen four times a day."
+    },
+    "answer": "A",
+    "explanation": "A structured walking program is a cornerstone of conservative management for PAD. Walking to the point of claudication, resting, and then walking again helps to build collateral circulation (small new blood vessels that bypass the blockages). This improves oxygen delivery to the muscles over time and can increase the distance the client can walk without pain.\n\nOption B: Increasing fluid intake is not a primary intervention for PAD.\nOption C: Orthostatic hypotension is not a typical problem associated with PAD.\nOption D: Acetaminophen is not prescribed for PAD; it does not treat the underlying ischemic problem.",
+    "additional": "NCK Focus: Conservative vs. surgical management of PAD. The first line of treatment involves risk factor modification (smoking cessation, diet), a structured exercise program, and medications to improve blood flow and prevent clots."
+  },
+  {
+    "question": "The client is diagnosed with venous insufficiency. Which discharge teaching should the nurse discuss with the client?",
+    "options": {
+      "A": "Take one baby aspirin every day with food.",
+      "B": "Check the feet daily for cuts and blisters.",
+      "C": "Monitor the popliteal and pedal pulses daily.",
+      "D": "Perform passive range-of-motion exercise daily."
+    },
+    "answer": "B",
+    "explanation": "Clients with chronic venous insufficiency have edema and fragile, poorly nourished skin. Sensation may also be decreased. Because of this, they are at high risk for developing skin breakdown and venous stasis ulcers, which are very difficult to heal. Daily inspection of the feet is a critical safety measure to catch any cuts, blisters, or red areas early before they develop into a serious ulcer.\n\nOption A: Aspirin is an antiplatelet agent used to prevent clots in arterial disease, not venous insufficiency.\nOption C: Monitoring pulses is an assessment for arterial perfusion.\nOption D: Active range-of-motion or ambulation is preferred. Passive ROM is for immobile clients.",
+    "additional": "NCK Focus: Foot care is a critical safety component for both arterial and venous disease, as well as for diabetes. The principles are very similar: daily inspection, proper footwear, avoiding injury, and professional nail care."
+  },
+  {
+    "question": "The nurse is unable to palpate the dorsalis pedis pulse for the client diagnosed with arterial occlusive disease. Which action should the nurse implement first?",
+    "options": {
+      "A": "Notify the client's HCP.",
+      "B": "Place the feet in the dependent position.",
+      "C": "Use a Doppler to assess for pedal pulse.",
+      "D": "Assess for proximal pulses bilaterally."
+    },
+    "answer": "C",
+    "explanation": "If a peripheral pulse cannot be palpated, the first action is to use a more sensitive tool to confirm the finding. A vascular Doppler uses ultrasound to detect blood flow. It is the standard next step to determine if a pulse is truly absent or just weak and non-palpable.\n\nOption A: Do not notify the HCP until you have confirmed your finding with a Doppler.\nOption B: This is an intervention, not an assessment.\nOption D: Assessing proximal pulses is reasonable, but confirming the original pulse is the priority.",
+    "additional": "NCK Focus: Using the nursing process (assessment first) and the correct equipment. Knowing when and how to use a Doppler is a key nursing skill for peripheral vascular assessment."
+  },
+  {
+    "question": "The client diagnosed with arterial occlusive disease asks the nurse, “What caused me to have this problem?\" Which statement is the nurse's best response?",
+    "options": {
+      "A": "Being overweight can lead to incompetent valves, which caused your problem.",
+      "B": "Sometimes people who stand all the time can have arterial occlusive disease.",
+      "C": "There is not a definite cause for developing arterial occlusive disease.",
+      "D": "Increased plaque in your arteries is the cause of peripheral vascular disease."
+    },
+    "answer": "D",
+    "explanation": "This is the most accurate and simple explanation. Arterial occlusive disease is caused by atherosclerosis, which is the buildup of fatty plaque in the arteries. This plaque narrows the vessels and restricts blood flow, causing the signs and symptoms of the disease.\n\nOption A: Incompetent valves cause venous insufficiency.\nOption B: Standing for long periods is a risk factor for venous disease.\nOption C: The cause of arterial disease is well-established as atherosclerosis.",
+    "additional": "NCK Focus: Patient education requires providing simple, accurate information. You must be able to explain the basic pathophysiology of common diseases in lay terms."
+  },
+  {
+    "question": "The nurse is assessing the client's abdomen. Which assessment data would support the diagnosis of an abdominal aortic aneurysm (AAA)?",
+    "options": {
+      "A": "Visible peristalsis and hyper bowel sounds.",
+      "B": "A palpable mass and an abdominal bruit.",
+      "C": "Rebound tenderness and protruding umbilicus.",
+      "D": "Hard rigid abdomen and low-grade fever."
+    },
+    "answer": "B",
+    "explanation": "The two classic physical assessment findings of an AAA are:\n- A palpable, pulsatile mass in the abdomen, typically in the mid-epigastric area slightly to the left of the midline.\n- An abdominal bruit (a swooshing sound heard with the bell of the stethoscope over the aneurysm) caused by turbulent blood flow through the dilated aorta.\n\nOption A: Visible peristalsis can be a sign of a bowel obstruction.\nOption C: Rebound tenderness is a sign of peritoneal inflammation (peritonitis).\nOption D: A hard, rigid abdomen is a sign of peritonitis or internal bleeding.",
+    "additional": "NCK Focus: Abdominal assessment findings. You must be able to link specific findings to the correct underlying pathology.\n\nSafety Note: If an AAA is suspected or known, the nurse should avoid deep palpation of the abdomen, as this could cause the aneurysm to rupture."
+  },
+  {
+    "question": "The client diagnosed with a 3-cm AAA asks the nurse, \"What will the doctors do for my abdominal aortic aneurysm?\" Which statement is the nurse's best response?",
+    "options": {
+      "A": "You will probably have an ultrasound every 6 months to check on the size.",
+      "B": "Usually an endoscopy is done once a year to make sure it doesn't get too big.",
+      "C": "You will have to check your abdominal girth once a week and keep a record.",
+      "D": "You will need to have an abdominal aortic aneurysm repair within 2 weeks."
+    },
+    "answer": "A",
+    "explanation": "A small AAA (typically defined as < 5.0 - 5.5 cm in diameter) is managed conservatively with \"watchful waiting.\" This involves regular imaging (usually with an ultrasound every 6 to 12 months) to monitor for any growth. Surgical repair is typically not considered until the aneurysm reaches a size where the risk of rupture outweighs the risks of surgery.\n\nOption B: An endoscopy is used to visualize the GI tract, not the aorta.\nOption C: Checking abdominal girth is for monitoring ascites, not an AAA.\nOption D: Surgery is not indicated for a small, 3-cm aneurysm.",
+    "additional": "NCK Focus: Management of AAA based on size.\n- Small AAA (<5.5 cm): \"Watchful waiting\" with serial imaging (ultrasound) and aggressive risk factor modification (especially blood pressure control and smoking cessation).\n- Large AAA (>5.5 cm) or symptomatic/rapidly expanding AAA: Surgical repair is indicated."
+  },
+  {
+    "question": "Which client would be most likely to develop an AAA?",
+    "options": {
+      "A": "A 45-year-old African-American female with type 1 diabetes mellitus.",
+      "B": "A 75-year-old Oriental female with COPD.",
+      "C": "A 54-year-old Caucasian male diagnosed with essential hypertension.",
+      "D": "A 30-year-old Hispanic male with a genetic predisposition to AAA."
+    },
+    "answer": "C",
+    "explanation": "This question requires identifying the client with the most significant risk factors for developing an AAA.\n\nThe primary cause of AAA is atherosclerosis. The major risk factors for atherosclerosis and AAA are:\n- Advanced Age\n- Male Gender\n- Caucasian Race\n- Smoking\n- Hypertension\n- Family History\n\nThe 54-year-old Caucasian male with hypertension has three major risk factors (age, male gender, hypertension). This makes him the most likely candidate among the choices.",
+    "additional": "NCK Focus: Knowledge of risk factors for specific diseases. You should be able to look at a list of clients and identify who is at the highest risk for a given condition."
+  },
+  {
+    "question": "The nurse is caring for a client diagnosed with an AAA who is scheduled for surgery in the morning. Which statement would require immediate intervention by the nurse?",
+    "options": {
+      "A": "\"I just started having pain in my lower back.”",
+      "B": "\"When I urinate I can't quit dribbling.\"",
+      "C": "\"I am having loose runny stools.\"",
+      "D": "“I feel my heart beating when I lie down.\""
+    },
+    "answer": "A",
+    "explanation": "The sudden onset of new back or abdominal pain in a client with a known AAA is a classic sign that the aneurysm may be rapidly expanding or beginning to leak/rupture. This is a surgical emergency. The aneurysm can press on the lumbar nerves, causing this pain. The nurse must notify the surgeon immediately.\n\nOption B: This suggests a urinary/prostate issue.\nOption C: This suggests a GI issue.\nOption D: Feeling a \"heartbeat\" in the abdomen is a common, chronic symptom of an AAA and is not an emergency in itself. The new onset of pain is the critical finding.",
+    "additional": "NCK Focus: Recognizing signs of impending AAA rupture. The key signs are the sudden onset of severe abdominal, flank, or back pain, hypotension, and signs of shock. This is one of the most catastrophic emergencies in vascular surgery."
+  },
+  {
+    "question": "The client is 2 days postoperative AAA repair. Which assessment data would require immediate intervention from the nurse?",
+    "options": {
+      "A": "The client refuses to perform range-of-motion exercises.",
+      "B": "The client urinary output is 300 mL in 8 hours.",
+      "C": "The client's dorsalis pedis pulse is not palpable.",
+      "D": "The client's vital signs are T 98°F, P 90, R 18, B/P 130/70."
+    },
+    "answer": "C",
+    "explanation": "The absence of a pedal pulse after an AAA repair is a critical sign that the graft may have become occluded with a thrombus, or that an embolus has traveled down to the lower extremity. This constitutes an acute arterial occlusion, a surgical emergency that can lead to limb loss if not addressed immediately. The nurse must notify the surgeon at once.\n\nOption A: Refusing ROM is a psychosocial or mobility issue, not an acute life-threatening problem.\nOption B: 300 mL of urine in 8 hours is 37.5 mL/hour, which is adequate (>30 mL/hr) and indicates sufficient renal perfusion.\nOption D: These vital signs are stable and within normal limits for a postoperative client.",
+    "additional": "NCK Focus: Postoperative complications of AAA repair. The highest priorities are monitoring for hemorrhage (at the graft site) and graft occlusion.\n\nGraft Occlusion Assessment: Perform frequent neurovascular checks on the lower extremities, assessing the \"6 P's\" (Pain, Pallor, Pulselessness, Paresthesia, Paralysis, Poikilothermia). Any acute negative change is an emergency."
+  },
+  {
+    "question": "The nurse is assessing the client who had an AAA repair 2 days ago. Which intervention should the nurse implement first?",
+    "options": {
+      "A": "Assess the client's bowel sounds.",
+      "B": "Administer an IV prophylactic antibiotic.",
+      "C": "Encourage the client to splint the incision.",
+      "D": "Ambulate the client in the room with assistance."
+    },
+    "answer": "A",
+    "explanation": "The nursing process dictates that assessment is the first step. Following an open AAA repair, which involves extensive abdominal surgery and manipulation of the bowel, there is a high risk of developing a paralytic ileus (a temporary cessation of peristalsis). Therefore, the nurse's first action during a head-to-toe assessment is to assess for the presence and quality of bowel sounds.\n\nOptions B, C, and D: These are all appropriate interventions for a postoperative client, but they follow the initial assessment. You must assess the client's status before implementing these actions.",
+    "additional": "NCK Focus: This is a classic \"nursing process\" question. Assessment always comes first.\n\nPost-op GI Complications: Besides graft failure, a major complication of open AAA repair is paralytic ileus. Signs include absent bowel sounds, abdominal distention, and nausea/vomiting. The client is kept NPO until bowel sounds return."
+  },
+  {
+    "question": "The client is being admitted for repair of an AAA. Which HCP's order should the nurse question?",
+    "options": {
+      "A": "Complete blood cell count.",
+      "B": "Tap water enema until clear fecal return.",
+      "C": "Bedrest with bathroom privileges.",
+      "D": "Start intravenous line with normal saline."
+    },
+    "answer": "B",
+    "explanation": "Administering an enema, particularly \"until clear,\" involves instilling a large volume of fluid into the colon. This significantly increases intra-abdominal pressure. In a client with a known AAA, this increased pressure could cause the aneurysm to rupture, a catastrophic event. This order is dangerous and must be questioned by the nurse.\n\nOptions A, C, and D: These are all standard and appropriate pre-operative orders for a major vascular surgery. A CBC is needed for baseline labs, bedrest minimizes exertion, and an IV line is essential for fluids and medications.",
+    "additional": "NCK Focus: Patient safety and acting as a patient advocate. The nurse must recognize and question any order that could place the patient in immediate danger. Any procedure that increases intra-abdominal or thoracic pressure (like enemas or vigorous coughing) should be avoided in a client with a known, un-repaired aneurysm."
+  },
+  {
+    "question": "The client is diagnosed with a 2-cm AAA. Which interventions should be included in the client's teaching? Select all that apply.",
+    "options": {
+      "A": "Perform isometric exercises for 30 minutes three times a week.",
+      "B": "Encourage a low-fat, low-cholesterol, low-salt diet.",
+      "C": "Use an abdominal binder when amputating.",
+      "D": "Discuss with the client the importance of losing weight.",
+      "E": "Demonstrate the correct way to apply a truss."
+    },
+    "answer": ["B", "D"],
+    "explanation": "A 2-cm AAA is very small and is managed with risk factor reduction.\n\n2. Diet: Atherosclerosis is the primary cause of AAA. A heart-healthy diet is crucial to slow the progression of atherosclerosis.\n4. Weight Loss: Being overweight increases blood pressure and contributes to atherosclerosis. Losing weight is a key lifestyle modification.\n\nIncorrect Options:\nOption 1: Isometric exercises (straining against a fixed object) can sharply increase blood pressure and should be avoided.\nOption 3: An abdominal binder is not indicated and could increase intra-abdominal pressure. The word \"amputating\" seems like a typo and is irrelevant.\nOption 5: A truss is a device used to support a hernia, not an aneurysm.",
+    "additional": "NCK Focus: Patient teaching for conservative management of a small AAA. The two most important goals are blood pressure control and smoking cessation. Diet and weight loss are also key components of this strategy."
+  },
+  {
+    "question": "Which assessment data would require immediate intervention by the nurse for the client who is 6 hours postoperative AAA repair?",
+    "options": {
+      "A": "A blood pressure of 92/68 and apical pulse 114.",
+      "B": "Complaints of incisional pain of 7 on a scale of 1–10.",
+      "C": "A soft nondistended, tender abdominal area.",
+      "D": "Green bile draining from the nasogastric tube."
+    },
+    "answer": "A",
+    "explanation": "The combination of hypotension (BP 92/68) and tachycardia (pulse 114) are the classic signs of hypovolemic shock. In a client who just had a major vascular surgery, this most likely indicates hemorrhage from a leak at the graft site. This is a life-threatening emergency requiring immediate intervention.\n\nOption B: Severe pain is expected and needs to be treated, but it is not as immediately life-threatening as hemodynamic collapse.\nOption C: A soft, nondistended abdomen is a normal finding. Tenderness is expected.\nOption D: Green bile draining from an NG tube is an expected finding, as the tube is placed to decompress the stomach.",
+    "additional": "NCK Focus: Recognizing the signs of shock is a critical nursing skill. Tachycardia is often the earliest compensatory sign, followed by hypotension as the body can no longer compensate for the volume loss."
+  },
+  {
+    "question": "The nurse is discussing discharge teaching with the client who is 3 days postoperative AAA repair. Which statement indicates the client needs more discharge teaching?",
+    "options": {
+      "A": "\"I will notify my doctor if there is any redness or irritation of my incision.\"",
+      "B": "\"I will not lift any objects that weigh more than 5 pounds for 4–6 weeks.\"",
+      "C": "\"I will have abdominal pain that will not be relieved by my pain medication.”",
+      "D": "\"I should increase my fluid intake and make sure I do not get constipated.\""
+    },
+    "answer": "C",
+    "explanation": "This statement indicates a misunderstanding. Postoperative pain should be well-controlled and gradually decreasing. Abdominal pain that is not relieved by pain medication could be a sign of a serious complication, such as graft occlusion, bowel ischemia, or infection. The client should be taught to report severe, uncontrolled pain to the doctor, not to expect it.\n\nOptions A, B, and D: These are all correct statements reflecting good understanding of discharge instructions. The client should monitor for signs of infection, adhere to lifting restrictions, and prevent constipation (as straining increases intra-abdominal pressure).",
+    "additional": "NCK Focus: Evaluating patient understanding of discharge teaching. The nurse must ensure the patient can identify which signs and symptoms are normal for recovery and which are \"red flags\" that need to be reported to the HCP."
+  },
+  {
+    "question": "The nurse is discharging a client diagnosed with deep vein thrombosis (DVT). Which discharge instructions should be provided to the client?",
+    "options": {
+      "A": "Have the PTT levels checked routinely to maintain a therapeutic level.",
+      "B": "When traveling, the client should plan rest stops to exercise the legs.",
+      "C": "Eat a diet high in green leafy vegetables and expect the urine to be red-tinted.",
+      "D": "Wear knee stockings with an elastic band around the top."
+    },
+    "answer": "B",
+    "explanation": "For a client with a DVT, prolonged immobility is a major risk factor for worsening the clot or developing a new one. When traveling, it is crucial to get up, walk around, and perform leg exercises (like ankle pumps) frequently to promote venous blood flow.\n\nOption A: PTT is monitored for clients on heparin. For long-term DVT management, clients are discharged on an oral anticoagulant like warfarin, which is monitored by PT/INR.\nOption C: Green leafy vegetables are high in Vitamin K, which is the antidote to warfarin. Clients on warfarin should be taught to maintain a consistent, not high, intake of Vitamin K. Red-tinted urine is a sign of bleeding (hematuria) and must be reported immediately.\nOption D: Stockings with a tight elastic band at the top can act as a tourniquet and impede circulation, which is dangerous. Graduated compression stockings should be used.",
+    "additional": "NCK Focus: DVT management and patient teaching. Key points include:\nAnticoagulation therapy (warfarin or DOACs).\nImportance of mobility and avoiding prolonged sitting/standing.\nUse of graduated compression stockings.\nSigns of complications like pulmonary embolism (sudden chest pain, shortness of breath)."
+  },
+  {
+    "question": "The nurse is caring for clients on a surgical floor. Which client should be assessed first?",
+    "options": {
+      "A": "The postoperative abdominal surgery client who has a red swollen left calf.",
+      "B": "The postoperative hernia client who just voided 350 mL of clear amber urine.",
+      "C": "The postoperative cholecystectomy client who is refusing to turn and cough.",
+      "D": "The postabdominal hysterectomy client who is complaining of gas pains."
+    },
+    "answer": "A",
+    "explanation": "A red, swollen calf in a postoperative patient is a classic sign of a Deep Vein Thrombosis (DVT). This is the most acutely dangerous finding among the options because the DVT could dislodge and travel to the lungs, causing a life-threatening Pulmonary Embolism (PE). This client's potential diagnosis presents the greatest and most immediate risk.\n\nOption B: This is a normal, healthy finding.\nOption C: This patient is at risk for atelectasis, which is important, but not as immediately life-threatening as a potential PE.\nOption D: Gas pains are a common and expected discomfort after abdominal surgery.",
+    "additional": "NCK Focus: Prioritization of care. The nurse must always assess the patient with the condition that poses the greatest immediate risk to life (following the ABCs - Airway, Breathing, Circulation). A DVT is a circulation problem that can quickly become a deadly breathing problem (PE)."
+  },
+  {
+    "question": "The male client is diagnosed with Guillain-Barré (GB) syndrome and is in the intensive care unit on a ventilator. Which intervention should the nurse implement to prevent complications?",
+    "options": {
+      "A": "Percutaneous tube feedings once a day.",
+      "B": "Encouraging the client to verbalize feelings.",
+      "C": "Administer a narcotic pain medication PRN.",
+      "D": "Frequent passive range-of-motion to the legs."
+    },
+    "answer": "D",
+    "explanation": "Guillain-Barré syndrome causes ascending paralysis. Clients are immobile and at extremely high risk for complications of immobility, including Deep Vein Thrombosis (DVT). Performing frequent passive range-of-motion exercises helps to stimulate circulation in the legs, preventing venous stasis and reducing the risk of DVT formation. It also helps prevent contractures.\n\nOption A: Feedings are typically given continuously or in smaller, more frequent boluses, not once a day.\nOption B: While psychosocial support is important, preventing a life-threatening physical complication like a DVT is a higher priority.\nOption C: The pain in GB is neuropathic, which responds better to gabapentin or carbamazepine, not typically narcotics.",
+    "additional": "NCK Focus: Preventing the complications of immobility is a core nursing responsibility. The major complications are:\nSkin: Pressure ulcers.\nRespiratory: Atelectasis and pneumonia.\nCardiovascular: DVT and orthostatic hypotension.\nMusculoskeletal: Contractures and muscle atrophy."
+  },
+  {
+    "question": "The nurse and a UAP are bathing an immobile client. Which instruction should the nurse provide the UAP?",
+    "options": {
+      "A": "Place a clean gown on the client before beginning the bath.",
+      "B": "Wash the calves, but do not massage the muscles.",
+      "C": "Use lots of soap and water to get the client clean.",
+      "D": "Dispose of the linens in a red container in the room."
+    },
+    "answer": "B",
+    "explanation": "For any immobile client, there is a risk of an undiagnosed DVT. Massaging the calf muscles is strictly contraindicated because it could dislodge a clot, leading to a pulmonary embolism. This is a critical safety instruction.\n\nOption A: The clean gown is put on after the bath.\nOption C: Using excessive soap can dry out the skin, increasing the risk of breakdown. Minimal soap should be used.\nOption D: Linens are placed in a standard linen hamper unless they are grossly contaminated with blood or body fluids, in which case they would go into a biohazard (red) bag. Routine linens are not red-bag waste.",
+    "additional": "NCK Focus: Safety and supervision. The nurse must provide clear, specific, and safety-oriented instructions when delegating tasks to a UAP. Preventing DVT and PE is a major safety goal."
+  },
+  [
+  {
+    "question": "The client diagnosed with a DVT in the right leg is admitted to the medical unit. Which nursing interventions should be implemented? Select all that apply.",
+    "options": {
+      "A": "Place an antiembolism hose on the unaffected calf.",
+      "B": "Instruct the client to ambulate in the hallway frequently.",
+      "C": "Encourage fluids and a diet high in roughage.",
+      "D": "Monitor the intravenous site every 24 hours",
+      "E": "Assess for calf tenderness in the left leg."
+    },
+    "answer": "A",
+    "explanation": "Care for a client with an acute DVT focuses on preventing complications and promoting comfort.\n\nHose on unaffected leg: Placing a compression hose on the unaffected leg helps prevent a new DVT from forming in that leg due to inactivity.\n\nFluids and fiber: Bedrest and anticoagulants can lead to constipation. Encouraging fluids and a high-fiber (roughage) diet helps to prevent this.\n\nAssess unaffected leg: It is crucial to monitor the unaffected leg for signs of a new DVT (tenderness, swelling, redness).\n\nIncorrect Options:\nOption 2: A client with an acute DVT is typically placed on strict bedrest for several days to prevent the clot from dislodging. Frequent ambulation is contraindicated.\nOption 4: An IV site, especially one infusing a high-risk medication like heparin, must be monitored much more frequently than every 24 hours (e.g., every 1–2 hours) for signs of infiltration or phlebitis.",
+    "additional": "NCK Focus: Management of acute DVT. The key initial interventions are:\nBedrest with the affected limb elevated.\nInitiation of anticoagulant therapy (heparin drip).\nMonitoring for signs of Pulmonary Embolism (PE).\nPain management.\nNote: While historical practice was strict bedrest, some evidence now supports earlier ambulation once anticoagulation is therapeutic. However, for testing purposes, bedrest is still often considered the standard initial approach."
+  },
+  {
+    "question": "The nurse is caring for a client receiving heparin sodium via constant infusion. The heparin protocol reads to decrease the IV rate by 50 units/hour if the PTT is greater than 85 seconds. The current PTT level is 92 seconds. The heparin comes in 500 mL of D5W with 25,000 units of heparin added. The current rate on the IV pump is 24 mL/hr. At what rate should the pump be set?",
+    "options": {
+      "A": "27 mL/hr",
+      "B": "22 mL/hr",
+      "C": "20 mL/hr",
+      "D": "23 mL/hr"
+    },
+    "answer": "D",
+    "explanation": "This is a two-step dosage calculation problem.\n\nStep 1: Find the concentration of the heparin solution.\nConcentration = Total Units / Total Volume\nConcentration = 25,000 units / 500 mL = 50 units/mL\n\nStep 2: Convert the ordered rate change (units/hr) to a volume change (mL/hr).\nThe order is to decrease the rate by 50 units/hour.\nSince we know there are 50 units in every 1 mL, a decrease of 50 units/hour is equal to a decrease of 1 mL/hr.\n(50 units/hr) / (50 units/mL) = 1 mL/hr\n\nStep 3: Calculate the new pump rate.\nCurrent Rate - Rate Decrease = New Rate\n24 mL/hr - 1 mL/hr = 23 mL/hr",
+    "additional": "NCK Focus: Heparin drip calculations are a common and critical medication calculation skill. You must be able to calculate the initial rate, titrate the rate up or down based on PTT results, and calculate the total units a patient is receiving per hour. Always double-check your work."
+  },
+  {
+    "question": "Which client should the nurse assess first after receiving the shift report?",
+    "options": {
+      "A": "The client diagnosed with DVT who complains of chest pain on inspiration.",
+      "B": "The immobile client who has not been turned from the left side for 3 hours.",
+      "C": "The client who had a partial pancreatectomy and who is refusing a blood glucose test.",
+      "D": "The client who has had an inguinal hernia repair and must void before discharge."
+    },
+    "answer": "A",
+    "explanation": "Chest pain on inspiration (pleuritic chest pain) in a client with a known DVT is the classic symptom of a Pulmonary Embolism (PE). This is a life-threatening emergency. This client is the most unstable and at the highest immediate risk of death. According to the ABCs (Airway, Breathing, Circulation), this breathing/circulation emergency takes top priority.\n\nOption B: This client is at risk for skin breakdown, which is important but not as immediately life-threatening as a PE.\nOption C: Refusing a test is a compliance issue that needs to be addressed, but it is not an acute emergency.\nOption D: This is a standard discharge requirement, not an emergency.",
+    "additional": "NCK Focus: Prioritization based on actual vs. potential risk. The client in option A has a high probability of an actual, life-threatening event happening right now. The other clients have potential or less acute problems."
+  },
+  {
+    "question": "The client diagnosed with a DVT is on a heparin (anticoagulant) drip at 1200 units per hour, and the HCP has ordered Coumadin (warfarin sodium), an anticoagulant, 5 mg daily. Which should be the nurse's first action?",
+    "options": {
+      "A": "Check the client's laboratory values for PTT and PT/INR.",
+      "B": "Call the HCP to see which drug should be discontinued.",
+      "C": "Administer both medications as prescribed.",
+      "D": "Discontinue the heparin when the client receives the first dose of Coumadin."
+    },
+    "answer": "C",
+    "explanation": "This is the standard, evidence-based practice for transitioning from IV heparin to oral warfarin. It is called bridging therapy. Warfarin takes several days (3–5 days) to reach a therapeutic level (measured by INR). During this time, the client is still at risk for clotting. Therefore, the heparin drip is continued concurrently with the warfarin until the INR is in the therapeutic range (usually 2.0–3.0) for at least 24 hours. The nurse should administer both medications as ordered.\n\nOption A: Checking labs is important but is not the first action. The first action is to understand that the orders are correct and should be carried out.\nOption B: Calling the HCP is unnecessary as the orders are correct.\nOption D: Discontinuing the heparin before the warfarin is therapeutic would leave the client unprotected from clotting and is a dangerous medication error.",
+    "additional": "NCK Focus: Knowledge of 'bridging' anticoagulation is essential. This practice is used for heparin-to-warfarin transitions. It ensures the patient remains anticoagulated throughout the transition period."
+  },
+  {
+    "question": "The client is being admitted with Coumadin (anticoagulant) toxicity. Which medication should the nurse prepare to administer?",
+    "options": {
+      "A": "Protamine sulfate intravenously.",
+      "B": "Warfarin sodium orally.",
+      "C": "Aquamephyton (vitamin K) intravenously.",
+      "D": "Sodium heparin subcutaneously."
+    },
+    "answer": "C",
+    "explanation": "The antidote for warfarin (Coumadin) is Vitamin K (brand name AquaMEPHYTON). In cases of severe bleeding or dangerously high INR due to warfarin toxicity, Vitamin K is administered to reverse the anticoagulant effect by helping the liver synthesize new clotting factors.\n\nOption A: Protamine sulfate is the antidote for heparin.\nOption B: Warfarin is the drug causing the toxicity; administering more would be a major error.\nOption D: Heparin is another anticoagulant and would worsen the situation.",
+    "additional": "NCK Focus: You must know the antidotes for common high-alert medications.\nWarfarin (Coumadin) -> Vitamin K\nHeparin -> Protamine Sulfate\nOpioids -> Naloxone (Narcan)\nBenzodiazepines -> Flumazenil (Romazicon)"
+  },
+  {
+    "question": "The charge nurse observes the primary nurse assessing the client diagnosed with DVT. Which action by the nurse warrants immediate intervention by the charge nurse?",
+    "options": {
+      "A": "The nurse assesses for the Homan sign in the affected leg.",
+      "B": "The nurse instructs the client to stay in bed as much as possible.",
+      "C": "The nurse tells the client to notify the nurse if developing chest discomfort.",
+      "D": "The nurse reminds the client not to pull on the intravenous tubing."
+    },
+    "answer": "A",
+    "explanation": "Assessing for Homan's sign (pain in the calf upon dorsiflexion of the foot) is an outdated and potentially dangerous practice. The maneuver could theoretically dislodge the clot, causing a pulmonary embolism. It is also not a reliable diagnostic sign. Current evidence-based practice does not support its use. The charge nurse must intervene to stop this unsafe action.\n\nOptions B, C, and D: These are all appropriate and safe nursing actions. Bedrest is standard, teaching about chest discomfort (a sign of PE) is critical, and IV line safety is important.",
+    "additional": "NCK Focus: Knowledge of current, evidence-based practice vs. outdated procedures. Homan's sign is a classic example of a practice that is no longer recommended due to safety concerns and lack of diagnostic value. Diagnosis of DVT is now made with a venous ultrasound (Doppler)."
+  },
+  {
+    "question": "The nurse is admitting a client with a diagnosis of rule out (R/O) anemia. The client has a history of gastric bypass surgery for obesity 3 years ago. Current assessment findings include height 5'9\", weight 75 kg, P 120, R 27, BP 100/70, pale mucous membranes, and dyspnea on exertion. Which type of anemia would the nurse suspect the client has developed?",
+    "options": {
+      "A": "Sickle cell anemia.",
+      "B": "Folic acid deficiency.",
+      "C": "Iron deficiency.",
+      "D": "Vitamin B12 deficiency."
+    },
+    "answer": "D",
+    "explanation": "Gastric bypass surgery dramatically reduces the size of the stomach and alters the digestive tract. The stomach produces intrinsic factor, a substance necessary for the absorption of Vitamin B12 in the ileum. Without sufficient intrinsic factor, the client cannot absorb B12 from their diet, leading to pernicious anemia (a type of Vitamin B12 deficiency). The signs of anemia (pallor, tachycardia, dyspnea) are present in the client.\n\nOption A: Sickle cell anemia is a genetic disorder.\nOptions B and C: While deficiencies in folic acid and iron can occur after gastric bypass, B12 deficiency due to the loss of intrinsic factor is the most characteristic type.",
+    "additional": "NCK Focus: Long-term complications of bariatric surgery. Lifelong vitamin and mineral supplementation is required. Deficiencies in B12, iron, calcium, and fat-soluble vitamins are common.\nB12 Deficiency Anemia: This is a macrocytic anemia that also causes significant neurological symptoms (paresthesias, gait disturbance, confusion) if left untreated."
+  },
+  {
+    "question": "The client who has menorrhagia complains to the nurse of feeling listless and tired all the time. Which laboratory data should the nurse monitor?",
+    "options": {
+      "A": "Blood urea nitrogen (BUN).",
+      "B": "White blood cell (WBC) count.",
+      "C": "Hemoglobin and hematocrit (H&H).",
+      "D": "Urinalysis (UA)."
+    },
+    "answer": "C",
+    "explanation": "Menorrhagia is abnormally heavy or prolonged menstrual bleeding. This chronic blood loss is the most common cause of iron-deficiency anemia in premenopausal women. The client's symptoms of feeling \"listless and tired\" are classic signs of anemia. The laboratory test used to diagnose and monitor anemia is the hemoglobin and hematocrit (H&H).\n\nOption A: BUN measures kidney function.\nOption B: WBC count measures for infection or inflammation.\nOption D: Urinalysis checks for urinary tract issues.",
+    "additional": "NCK Focus: Linking clinical conditions to the appropriate diagnostic lab tests. Anemia is diagnosed by looking at the H&H, RBC count, and RBC indices (like MCV)."
+  },
+  {
+    "question": "The nurse writes a diagnosis of altered tissue perfusion for a client diagnosed with folic acid deficiency anemia. Which interventions should be included in the plan of care? Select all that apply.",
+    "options": {
+      "A": "Administer iron supplements.",
+      "B": "Move to room near the nurse's desk.",
+      "C": "Encourage the client to eat green vegetables.",
+      "D": "Assess for history of alcohol consumption.",
+      "E": "Allow for rest periods during the day."
+    },
+    "answer": "BCDE",
+    "explanation": "This question addresses care for a client with anemia, specifically from folic acid deficiency.\n\nB. Room near nurse's desk: Anemia can cause decreased oxygenation to the brain, leading to confusion and risk for falls. Close observation is a key safety measure.\nC. Encourage green vegetables: Leafy green vegetables (like spinach, kale) are a primary dietary source of folate.\nD. Assess for alcohol history: Chronic alcoholism is a major cause of folic acid deficiency, as it impairs absorption and is often associated with a poor diet. This assessment is critical.\nE. Allow for rest periods: Fatigue is a primary symptom of all types of anemia. Pacing activities and ensuring adequate rest helps manage this symptom.\n\nIncorrect Option:\nA. The diagnosis is folic acid deficiency, not iron deficiency. Iron supplements would be inappropriate.",
+    "additional": "NCK Focus: Differentiating the causes and treatments for different types of anemia.\nIron Deficiency: Caused by blood loss or poor intake. Treated with iron supplements.\nB12 Deficiency: Caused by pernicious anemia or poor intake (vegan diet). Treated with B12 injections or high-dose oral B12.\nFolic Acid Deficiency: Caused by poor diet, alcoholism, or certain medications. Treated with folic acid supplements."
+  },
+  {
+    "question": "The client diagnosed with iron deficiency anemia is prescribed iron dextran intravenously. Which intervention should the nurse implement when administering this medication?",
+    "options": {
+      "A": "Administer epinephrine intravenously prior to beginning the infusion.",
+      "B": "Start the infusion with a test dose, and monitor the client for 15 minutes.",
+      "C": "Place the client on bedrest with bathroom privileges.",
+      "D": "Teach the client the stools may be very dark, and this can mask blood."
+    },
+    "answer": "B",
+    "explanation": "IV iron dextran has a high risk of causing a severe anaphylactic reaction. Because of this risk, standard safety protocol requires administering a small test dose first and then monitoring the client closely for signs of an allergic reaction (e.g., hives, wheezing, hypotension) for at least 15 minutes before proceeding with the full infusion.\n\nOption A: Epinephrine is the treatment for anaphylaxis, but it is not given prophylactically before the infusion.\nOption C: Bedrest is not required for an iron infusion.\nOption D: Dark stools are a side effect of oral iron supplements, not IV iron.",
+    "additional": "NCK Focus: Medication administration safety, particularly for high-risk infusions. The \"test dose\" concept is important for medications known to have a high rate of anaphylaxis, such as IV iron and certain antibiotics."
+  },
+  {
+    "question": "The nurse and UAP are caring for clients on a medical unit. Which task is inappropriate for the nurse to delegate to the UAP?",
+    "options": {
+      "A": "Checking on the bowel movements of a client diagnosed with melena.",
+      "B": "Taking the vital signs of a client who received blood the day before.",
+      "C": "Documenting the amount of food a client consumed from the lunch tray.",
+      "D": "Setting up the food tray for a client with an intravenous line in the hand."
+    },
+    "answer": "A",
+    "explanation": "Melena is the passage of black, tarry stools, which is a sign of upper gastrointestinal bleeding. Checking the bowel movements of this client is not just a simple observation; it is a critical assessment to look for ongoing bleeding. This requires the clinical judgment of a registered nurse and cannot be delegated to a UAP.\n\nOption B: The client who received blood the day before is now stable. Taking routine vital signs on a stable client is an appropriate task for a UAP.\nOptions C and D: Documenting food intake and setting up a food tray are standard ADL-related tasks that are appropriate to delegate.",
+    "additional": "NCK Focus: Delegation questions often hinge on the difference between assessment and simple data collection. A UAP can collect data (e.g., \"the stool was black\"), but the RN must perform the assessment (interpreting that black stool as melena and a sign of active bleeding)."
+  },
+  {
+    "question": "The client is diagnosed with anemia. The HCP ordered a transfusion of 2 units of packed red blood cells. The unit has 250 mL of red blood cells plus 45 mL of additive. The blood transfusion set delivers 10 gtt/mL. At what rate should the nurse set the IV tubing to infuse each unit of packed red blood cells in 4 hours?",
+    "options": {
+      "A": "8 gtt/min",
+      "B": "10 gtt/min",
+      "C": "12 gtt/min",
+      "D": "15 gtt/min"
+    },
+    "answer": "C",
+    "explanation": "This is a multi-step IV drip rate calculation.\n\nStep 1: Calculate the total volume per unit: 250 mL + 45 mL = 295 mL\nStep 2: Infusion rate = 295 mL / 4 hours = 73.75 mL/hr\nStep 3: Convert to mL/min = 73.75 / 60 = 1.229 mL/min\nStep 4: gtt/min = 1.229 x 10 = 12.29 ≈ 12 gtt/min\n\nThus, the IV tubing should be set at 12 gtt/min.",
+    "additional": "NCK Focus: Blood transfusion calculations and safety. Must start within 30 minutes from the blood bank, infuse within 4 hours, and monitor the client closely for the first 15 minutes. Always calculate and double-check infusion rates."
+  },
+  {
+    "question": "The charge nurse is making assignments on a medical floor. Which client should be assigned to the new graduate nurse?",
+    "options": {
+      "A": "The client diagnosed with iron-deficiency anemia who is prescribed iron tablets.",
+      "B": "The client diagnosed with pernicious anemia who is receiving intravenous iron.",
+      "C": "The client diagnosed with aplastic anemia who has developed pancytopenia.",
+      "D": "The client diagnosed with renal disease on an experimental medication protocol."
+    },
+    "answer": "A",
+    "explanation": "The most stable and predictable client should be assigned to the new graduate. A client with iron-deficiency anemia taking oral iron is a routine, low-risk assignment.\n\nOption B: IV iron poses an anaphylaxis risk and needs experienced care.\nOption C: Pancytopenia is a complex and unstable condition.\nOption D: Experimental medication protocols require specialized knowledge and monitoring.",
+    "additional": "NCK Focus: Delegation and assignment principles—assign the most stable, predictable patients to new or less experienced staff. High-risk or unstable patients go to experienced RNs."
+  },
+  {
+    "question": "The client diagnosed with folic acid anemia is admitted to the medical unit. Which HCP order would the nurse question?",
+    "options": {
+      "A": "Chlordiazepoxide (Librium), a benzodiazepine, every 8 hours.",
+      "B": "Serum vitamin B12 laboratory studies.",
+      "C": "Administer 3 units of packed red blood cells over 2 hours each.",
+      "D": "Assist the client with activities of daily living (ADLs)."
+    },
+    "answer": "C",
+    "explanation": "In chronic anemia, the body has adapted to the low oxygen levels. Giving 3 units of blood over 2 hours each is too rapid and could cause circulatory overload (TACO). Each unit should be administered more slowly, typically over 3-4 hours.\n\nOption A: Librium is appropriate for alcohol withdrawal, a common cause of folic acid deficiency.\nOption B: It's reasonable to test B12 since folate and B12 deficiencies often co-exist.\nOption D: Helping with ADLs is appropriate due to fatigue.",
+    "additional": "NCK Focus: Blood transfusion safety—transfuse slowly in clients with anemia or cardiac/renal compromise to prevent TACO (transfusion-associated circulatory overload)."
+  },
+  {
+    "question": "The nurse is discharging a client prescribed oral iron supplements. Which instructions should the nurse teach?",
+    "options": {
+      "A": "Sit upright after taking the medication for 30–60 minutes.",
+      "B": "Perform a daily stool test for occult blood.",
+      "C": "Eat a full meal and then take the iron supplement.",
+      "D": "Take the iron about 2 hours after you eat breakfast each day."
+    },
+    "answer": "D",
+    "explanation": "Iron is best absorbed on an empty stomach. Taking it 1 hour before or 2 hours after meals maximizes absorption. Taking it with Vitamin C helps absorption, while food, dairy, and antacids impair it.\n\nOption A: Sitting upright is for bisphosphonates (e.g., alendronate).\nOption B: Daily stool testing is not needed.\nOption C: Taking with food decreases absorption significantly.",
+    "additional": "NCK Focus: Oral iron supplement teaching—take on an empty stomach, expect dark stools, take with Vitamin C, and avoid calcium/antacids. Monitor for constipation."
+  },
+  {
+    "question": "The nurse is admitting a client diagnosed with anemia. Which nursing intervention should the nurse implement first?",
+    "options": {
+      "A": "Teach the client to pace activities.",
+      "B": "Refer the client to the dietitian.",
+      "C": "Assess the client's activity tolerance.",
+      "D": "Obtain an order for daily hemoglobin."
+    },
+    "answer": "C",
+    "explanation": "According to the nursing process (ADPIE), assessment is always the first step. Before teaching, referring, or implementing care, the nurse must assess the client's baseline condition—especially their ability to tolerate activity, which is often impaired in anemia.",
+    "additional": "NCK Focus: Nursing process—assessment always comes first. In newly admitted patients or new problems, gather data before acting or planning."
+  },
+  {
+    "question": "The nurse is discharging a client diagnosed with coronary artery disease. Which discharge instructions should the nurse teach the client?",
+    "options": {
+      "A": "Instruct the client to decrease the amount of cigarettes smoked.",
+      "B": "Encourage to perform weight-lifting exercises 3 days a week.",
+      "C": "Teach the client how to take coronary vasodilators.",
+      "D": "Explain the need to prepare an advance directive and living will."
+    },
+    "answer": "C",
+    "explanation": "Clients with coronary artery disease (CAD) are typically prescribed a coronary vasodilator, most commonly nitroglycerin, to treat episodes of angina. It is absolutely critical that the nurse teaches the client how to use it correctly (e.g., sublingually), storage, when it is still potent, and the emergency protocol (e.g., call 911 if pain is not relieved after one dose). This is a life-saving piece of education.\n\nOption A: The goal is complete cessation of smoking, not just decreasing the amount.\nOption B: Heavy weight-lifting is an isometric exercise that can dangerously increase cardiac workload and blood pressure and should be avoided.\nOption D: While advance directives are important for everyone, teaching about life-saving medication for the client's primary diagnosis is a higher priority.",
+    "additional": "NCK Focus: Patient education for angina management. Key teaching for nitroglycerin includes: Take one tablet at the onset of chest pain. Sit down before taking it. If pain is not relieved in 5 minutes, call 911. You may take a second and third tablet 5 minutes apart. Store in a dark, airtight container. Common side effect is a severe headache."
+  },
+  {
+    "question": "The nurse is caring for a client diagnosed with congestive heart failure. Which diagnostic test indicates the client's condition is getting better?",
+    "options": {
+      "A": "The client's chest x-ray (CXR) shows a large cardiac silhouette.",
+      "B": "The client's LDH and SGOT levels have decreased.",
+      "C": "The client's blood urea nitrogen (BUN) is 10 points higher.",
+      "D": "The client's B-type natriuretic peptide (BNP) has decreased."
+    },
+    "answer": "D",
+    "explanation": "B-type natriuretic peptide (BNP) is a hormone released by the ventricles of the heart in response to stretching caused by fluid overload. Its level is directly correlated with the severity of heart failure. A decreasing BNP level is a key laboratory indicator that the fluid overload is resolving and the heart failure treatment is effective.\n\nOption A: A large cardiac silhouette is a chronic finding.\nOption B: LDH and SGOT are liver enzymes and not specific to heart failure.\nOption C: A rising BUN can indicate worsening renal function and worsening HF.",
+    "additional": "NCK Focus: Know the key diagnostic markers for cardiac conditions. BNP is the most specific lab for monitoring heart failure. Levels over 100 pg/mL suggest HF. Decreasing values indicate improvement."
+  },
+  {
+    "question": "The nurse is preparing to administer digoxin to a client diagnosed with heart failure. Which nursing intervention should the nurse implement?",
+    "options": {
+      "A": "Check the client's potassium level.",
+      "B": "Assess the client's radial pulse.",
+      "C": "Monitor the client's respirations.",
+      "D": "Ask if the client has eaten today."
+    },
+    "answer": "A",
+    "explanation": "While checking the apical pulse is the #1 priority right before giving the dose (as seen in question 62), a comprehensive assessment for a client on digoxin also includes checking electrolytes. Hypokalemia significantly increases the risk of digoxin toxicity. Checking the most recent potassium level is a critical safety measure.\n\nOption B: The apical pulse, not radial, is required before giving digoxin.\nOption C: Respirations are not a priority with digoxin.\nOption D: Food does not significantly affect digoxin absorption or safety.",
+    "additional": "NCK Focus: Safety with digoxin therapy. Key checks include apical pulse and potassium level. Hypokalemia increases risk of digoxin toxicity even within normal serum digoxin levels."
+  },
+  {
+    "question": "Which client should the nurse on a cardiac unit assess first after receiving the shift report?",
+    "options": {
+      "A": "The client diagnosed with a myocardial infarction with four unifocal PVCs in a minute.",
+      "B": "The client diagnosed with mitral valve prolapse (MVP) who has an audible S3 and dyspnea.",
+      "C": "The client diagnosed with coronary artery disease who wants to ambulate in the hallway.",
+      "D": "The client diagnosed with pericarditis whose third dose of intravenous antibiotic is late."
+    },
+    "answer": "B",
+    "explanation": "A client with mitral valve prolapse who now has an S3 heart sound and dyspnea is showing signs of acute decompensated heart failure. The S3 sound (ventricular gallop) indicates fluid overload and poor ventricular compliance. This client is hemodynamically unstable.\n\nOption A: Four unifocal PVCs per minute are generally benign.\nOption C: Ambulation is appropriate for a stable CAD client.\nOption D: A delayed IV antibiotic is a concern, but it is not an immediate life threat like acute heart failure.",
+    "additional": "NCK Focus: Prioritization and identifying clinical deterioration. An S3 in a client with MVP suggests worsening cardiac function. Dyspnea further supports the need for immediate intervention."
+  },
+  {
+    "question": "The nurse is told in report that the client has mitral valve regurgitation. Which anatomical position should the nurse auscultate to assess the murmur?",
+    "options": {
+      "A": "Second intercostal space, right sternal notch.",
+      "B": "Erb's point.",
+      "C": "Fourth intercostal space, left axillary line.",
+      "D": "Fifth intercostal space, midclavicular line."
+    },
+    "answer": "D",
+    "explanation": "The best location to auscultate for mitral valve sounds is at the apex of the heart, located at the fifth intercostal space, midclavicular line. This is where mitral regurgitation murmurs are heard loudest.\n\nOption A: This is the aortic area.\nOption B: Erb’s point can detect murmurs but is not specific to mitral valve pathology.\nOption C: This is not a recognized auscultation landmark.",
+    "additional": "NCK Focus: Master the five cardiac auscultation landmarks using the mnemonic APE To Man: Aortic (2nd ICS RSB), Pulmonic (2nd ICS LSB), Erb’s Point (3rd ICS LSB), Tricuspid (4th ICS LSB), Mitral (5th ICS MCL)."
+  },
+  {
+    "question": "The nurse is assisting with a synchronized cardioversion on a client in atrial fibrillation. Which statement by the client indicates the client understands the pre-procedure teaching?",
+    "options": {
+      "A": "This procedure will cure my atrial fibrillation problems for good.",
+      "B": "I should be able to eat breakfast before the procedure.",
+      "C": "I will be given some medication to relax me before the procedure.",
+      "D": "I won't need to be hooked up to telemetry after the procedure."
+    },
+    "answer": "C",
+    "explanation": "Clients undergoing synchronized cardioversion are sedated with medications like midazolam to minimize discomfort. Acknowledging this medication indicates understanding of the procedure.\n\nOption A: Atrial fibrillation can recur post-cardioversion.\nOption B: Patients must be NPO before sedation.\nOption D: Telemetry monitoring is necessary after the procedure.",
+    "additional": "NCK Focus: Cardioversion (for clients with a pulse) is synchronized and requires sedation. Defibrillation (for pulseless arrhythmias) is unsynchronized and performed emergently."
+  },
+  {
+    "question": "The nurse is reviewing HCP orders on a client diagnosed with an abdominal aortic aneurysm (AAA) who is scheduled for surgery in the morning. Which order should the nurse question?",
+    "options": {
+      "A": "Administer bisacodyl (Dulcolax), a cathartic laxative, on admission to the unit.",
+      "B": "Send an intravenous piggyback (IVPB) antibiotic to surgery with the client.",
+      "C": "Have the client bathe using an iodine preparation at night and in the morning.",
+      "D": "Elevate the head of the bed at 45°."
+    },
+    "answer": "A",
+    "explanation": "Bisacodyl is a stimulant laxative that increases intra-abdominal pressure, which can precipitate rupture of an AAA. This order should be questioned for safety.\n\nOptions B, C, and D: These are all standard and appropriate pre-op measures.",
+    "additional": "NCK Focus: Nurses must recognize contraindications to orders. Any intervention that increases intra-abdominal pressure (e.g., straining, intense peristalsis) is dangerous in clients with aneurysms."
+  },
+  {
+    "question": "The nurse is admitting a client with a suspected myocardial infarction who was brought in by ambulance. Which nursing intervention has priority?",
+    "options": {
+      "A": "Ask if the client is allergic to aspirin.",
+      "B": "Place the client on the telemetry monitor.",
+      "C": "Notify the cardiac catheterization lab.",
+      "D": "Have the client sign for permission to treat."
+    },
+    "answer": "A",
+    "explanation": "Aspirin is part of the first-line treatment in suspected MI to inhibit platelet aggregation. Asking about allergies is essential before administration. This intervention can be done immediately and directly contributes to treatment.\n\nOption B: Important but not as immediate as prepping for aspirin.\nOption C: Requires ECG confirmation.\nOption D: Not required in emergencies—treatment can proceed under implied consent.",
+    "additional": "NCK Focus: MONA protocol for MI: Morphine, Oxygen, Nitroglycerin, Aspirin. Prioritize interventions that reduce infarct size quickly—start with what can be safely administered."
+  },
+  {
+    "question": "The nurse is preparing to administer daily medications. Which medication would the nurse question?",
+    "options": {
+      "A": "The ACE inhibitor to the client who tells the nurse his cough has gone away.",
+      "B": "The calcium channel blocker to the client who states an allergy to calcium.",
+      "C": "The beta blocker to the client who has a BP of 156/94 and a pulse of 58.",
+      "D": "The antidysrhythmic medication to the client in normal sinus rhythm."
+    },
+    "answer": "C",
+    "explanation": "Beta-blockers slow heart rate. A pulse below 60 bpm is considered bradycardic, and administering the medication could cause harm. This medication should be held and the provider notified.\n\nOption A: A resolved ACE inhibitor cough is not a contraindication.\nOption B: Elemental calcium allergies are not relevant to calcium channel blockers.\nOption D: Antiarrhythmics are often used prophylactically.",
+    "additional": "NCK Focus: Medication safety parameters are vital. Nurses must hold medications like beta-blockers if HR < 60 bpm or digoxin in the same context. Always assess vitals prior to administration."
+  },
+  {
+    "question": "The client admitted with deep vein thrombosis is prescribed heparin by constant infusion after an initial dose of 5000 units intravenous push. The heparin comes prepared 20,000 units in 500 mL of D5W. The bolus heparin was administered at 0800 and the infusion initiated per protocol at 25 mL/hr. At the 1900 shift change, how much heparin had been administered?",
+    "options": {
+      "A": "5,440 units",
+      "B": "11,000 units",
+      "C": "16,000 units",
+      "D": "20,000 units"
+    },
+    "answer": "C",
+    "explanation": "The infusion ran for 11 hours at 25 mL/hr. Heparin concentration is 40 units/mL (20,000 units / 500 mL). Infused dose = 25 mL/hr x 11 hr = 275 mL x 40 units/mL = 11,000 units. Add bolus dose: 11,000 + 5,000 = 16,000 units total.\n\nIncorrect Option A: This is a miscalculated answer that omits the infusion rate.\nOption B: Misses the bolus dose.\nOption D: Would imply the entire bag was infused.",
+    "additional": "NCK Focus: Proper IV drug calculation requires knowledge of flow rate, concentration, and infusion time. Always double-check calculations for continuous infusions and include both bolus and drip components."
   }
 ]
+  
+  
+  
+ 
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
 
 
 
