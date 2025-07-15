@@ -80,5 +80,1359 @@
     "answer": "B",
     "explanation": "Signs of pregnancy are categorized into three groups: presumptive, probable, and positive.\n\nPresumptive signs are subjective changes felt by the woman (e.g., amenorrhea, nausea, fatigue).\n\nProbable signs are objective changes observed by an examiner (e.g., Braxton Hicks contractions, a positive pregnancy test, ballottement, Hegar's sign).\n\nPositive signs are those that confirm the presence of a fetus (e.g., fetal heart sounds, visualization of the fetus by ultrasound, fetal movement palpated by an examiner).\n\nAmenorrhea is a presumptive sign. Braxton Hicks contractions are a probable sign. The presence of hCG in urine is also a probable sign. The combination in option B (a probable and a presumptive sign) fits the category of 'possible' (or more accurately, probable/presumptive) signs.",
     "additional": "For NCK exams, it is vital to be able to differentiate between presumptive, probable, and positive signs of pregnancy. A positive pregnancy test (hCG in urine or blood) is a probable sign, not a positive one, because conditions other than pregnancy (like a hydatidiform mole) can also cause elevated hCG levels. Only the absolute confirmation of a fetus constitutes a positive sign."
+  },
+  {
+    "question": "Which layer of the testes is responsible for formation of septa that divides the glandular tissue into lobules?",
+    "options": {
+      "A": "Tunica vaginalis",
+      "B": "Tunica vasculosa",
+      "C": "Tunica albuginea",
+      "D": "All of the above."
+    },
+    "answer": "C",
+    "explanation": "The testis is covered by three coats. The outermost is the tunica vaginalis, a serous membrane. Beneath it is the tunica albuginea, a dense, white, fibrous capsule. The innermost layer is the tunica vasculosa, which is a network of blood vessels. The tunica albuginea projects into the interior of the testis, forming septa (partitions) that divide the testicular parenchyma into approximately 250-300 lobules. Each lobule contains the seminiferous tubules, where spermatogenesis occurs.",
+    "additional": "This is a fundamental male reproductive anatomy question. For the NCK exam, it's important to know the pathway of sperm from its production site to ejaculation: Seminiferous tubules -> Rete testis -> Efferent ductules -> Epididymis -> Vas deferens -> Ejaculatory duct -> Urethra. Understanding the anatomy is key to understanding pathologies like testicular torsion (twisting of the spermatic cord, which compromises blood flow from the testicular artery within the cord) and hydrocele (a collection of fluid within the tunica vaginalis)."
+  },
+  {
+    "question": "During an Allen test, the hand remains pale after releasing pressure on the ulnar artery. What is the correct interpretation?",
+    "options": {
+      "A": "Normal collateral circulation",
+      "B": "Inadequate collateral circulation, avoid radial artery cannulation",
+      "C": "Insufficient arterial perfusion, reassess later",
+      "D": "Normal arterial perfusion"
+    },
+    "answer": "B",
+    "explanation": "The Allen test assesses the patency of the ulnar and radial arteries and the integrity of the collateral circulation between them via the palmar arches. If the hand remains pale after releasing pressure on the ulnar artery, it means the ulnar artery is unable to adequately perfuse the entire hand on its own. This indicates poor or inadequate collateral flow. Therefore, it would be unsafe to cannulate or puncture the radial artery, as any subsequent thrombosis or damage could lead to ischemia of the hand.",
+    "additional": "This is a critical pre-procedural assessment for arterial blood gas (ABG) sampling and arterial line insertion. A positive (normal) Allen test is when the hand flushes within 5-15 seconds after releasing the ulnar artery. A negative (abnormal) test, as described in the question, is a contraindication for using the radial artery on that limb. The nurse should document the finding and assess the other arm. NCK exams often test on procedural safety and the rationale behind nursing assessments."
+  },
+  {
+    "question": "What is the most specific sign of successful fluid resuscitation in hypovolemic shock?",
+    "options": {
+      "A": "Improved urine output",
+      "B": "Normalized blood pressure",
+      "C": "Decreased heart rate",
+      "D": "Reduced respiratory rate"
+    },
+    "answer": "A",
+    "explanation": "In hypovolemic shock, the body shunts blood away from non-vital organs, like the kidneys, to preserve perfusion to the heart and brain. This leads to oliguria (low urine output). Successful fluid resuscitation restores circulating volume and improves organ perfusion. Urine output is a direct and sensitive indicator of renal perfusion. A urine output of at least 0.5 mL/kg/hour (or >30 mL/hour in an adult) signifies that the kidneys are being adequately perfused, which is a specific sign that the intravascular volume is being restored.",
+    "additional": "While blood pressure and heart rate will also normalize, they can be influenced by other factors (like pain or medications) and are not as specific to end-organ perfusion as urine output. Management of shock is a cornerstone of critical care nursing. Nurses are responsible for administering intravenous fluids (crystalloids like Normal Saline or Ringer's Lactate, and colloids like albumin), blood products, and vasoactive drugs. A key nursing role is monitoring the patient's response to treatment, which includes hourly monitoring of vital signs, level of consciousness, and urine output via a Foley catheter. This is a high-yield topic for NCK exams."
+  },
+  {
+    "question": "General anesthetics potentiate the effects of which of the following drugs?",
+    "options": {
+      "A": "Depolarizing agents",
+      "B": "Skeletal muscle relaxants",
+      "C": "Volatile liquids",
+      "D": "Inhalation anesthetics"
+    },
+    "answer": "B",
+    "explanation": "General anesthetics, particularly inhaled agents (like sevoflurane, desflurane), cause some degree of muscle relaxation on their own. When administered with neuromuscular blocking agents (both depolarizing, like succinylcholine, and non-depolarizing, like rocuronium or vecuronium), they potentiate or enhance the effect of these muscle relaxants. This means that a smaller dose of the muscle relaxant is needed to achieve the desired level of paralysis, which can be beneficial in reducing side effects.",
+    "additional": "Understanding drug interactions in the perioperative setting is crucial for patient safety. Nurses must be aware of the effects and side effects of anesthetic agents and adjuncts. A potential adverse effect of combining certain inhalation anesthetics with succinylcholine is malignant hyperthermia, a life-threatening hypermetabolic state of skeletal muscle. NCK questions may test on the recognition and emergency management of this condition, for which the antidote is Dantrolene."
+  },
+  {
+    "question": "All narcotics, regardless of their origin, reduce pain by:",
+    "options": {
+      "A": "Stimulating opiate receptors.",
+      "B": "Promoting the release of excitatory transmitters.",
+      "C": "Releasing large quantities of endorphin.",
+      "D": "Blocking the mu receptors."
+    },
+    "answer": "A",
+    "explanation": "Narcotics, more accurately termed opioids, are a class of drugs that act on the central nervous system to relieve pain. Their mechanism of action is to bind to and stimulate specific opioid receptors (primarily mu, kappa, and delta) in the brain, spinal cord, and other tissues. This stimulation mimics the effect of endogenous endorphins, blocking the transmission of pain signals to the brain and altering the perception of pain. Option D is incorrect because opioids stimulate mu receptors; opioid antagonists like naloxone block them.",
+    "additional": "Pain management is a fundamental nursing responsibility. The NCK exam will expect candidates to know the different classes of analgesics (opioids, NSAIDs, paracetamol), their mechanisms of action, side effects (e.g., respiratory depression, constipation, and sedation for opioids), and nursing considerations. The nursing process for pain management includes assessing pain using a standardized scale, administering analgesics as prescribed, and evaluating the effectiveness of the intervention."
+  },
+  {
+    "question": "Which term is used if an egg develops into an individual without being fertilized?",
+    "options": {
+      "A": "Vernalization",
+      "B": "Parthenogenesis",
+      "C": "Photoperiodism",
+      "D": "Heteromorphism"
+    },
+    "answer": "B",
+    "explanation": "Parthenogenesis is a form of asexual reproduction in which an egg develops into an embryo without being fertilized by a sperm. It occurs naturally in some plants, invertebrates (like aphids, bees, and wasps), and some vertebrates (like some reptiles, fish, and birds). The other terms are related to biology but are incorrect in this context: Vernalization is the induction of a plant's flowering process by exposure to prolonged cold. Photoperiodism is the physiological reaction of organisms to the length of day or night. Heteromorphism refers to having different forms at different periods of the life cycle.",
+    "additional": "While this is a question from general biology, it can relate to concepts in reproductive health and genetics. Understanding the basics of reproduction, including both sexual and asexual forms, provides a foundation for more complex topics like fertilization, embryology, and genetic disorders that are relevant to nursing practice."
+  },
+  {
+    "question": "Which of the following technique is used to detect AIDS?",
+    "options": {
+      "A": "Western blot and ELISA",
+      "B": "Northern blot and ELISA",
+      "C": "Immunoblot and ELISA",
+      "D": "Southern blot and ELISA"
+    },
+    "answer": "A",
+    "explanation": "The standard algorithm for diagnosing HIV infection (which can lead to AIDS) involves a screening test followed by a confirmatory test. The most common screening test is the ELISA (Enzyme-Linked Immunosorbent Assay), which detects antibodies to HIV. If the ELISA is positive, a more specific confirmatory test, the Western blot, is performed to confirm the presence of antibodies to specific HIV proteins. Option C is also technically correct as a Western blot is a type of immunoblot, but 'Western blot' is the more specific and traditionally cited confirmatory test in this context.",
+    "additional": "In modern practice, HIV testing algorithms have evolved. Many labs now use a combination of antibody and antigen (p24 antigen) tests for initial screening, which can detect infection earlier. Confirmatory testing might involve a second, different type of antibody test or an HIV-1/HIV-2 antibody differentiation immunoassay. For NCK, knowing the classic ELISA/Western Blot sequence is important, as is understanding the principle of screening and confirmatory testing for infectious diseases. Nurses play a key role in HIV testing and counseling (HTC), patient education, and linkage to care."
+  },
+  {
+    "question": "A nurse is administering a medication via nasogastric (NG) tube to a patient receiving continuous enteral feeding. What is the correct nursing action?",
+    "options": {
+      "A": "Flush the NG tube with 60 mL of water after medication administration",
+      "B": "Mix all medications together in a single syringe",
+      "C": "Stop the feeding and flush the tube with water before and after each medication",
+      "D": "Administer the medication without interrupting the feeding"
+    },
+    "answer": "C",
+    "explanation": "This is the standard, safe procedure for administering medication through an enteral tube.\n\nStop the feeding: This is crucial to prevent interactions between the medication and the enteral formula, which could alter the drug's absorption and efficacy.\n\nFlush with water before: Flushing with at least 15-30 mL of water ensures the tube is patent and clears any residual feeding formula.\n\nAdminister medication: Medications should be given one at a time.\n\nFlush with water after: Flushing with at least 15-30 mL of water ensures the complete dose of medication is delivered into the stomach and is not left sitting in the tube. It also helps prevent the tube from clogging.\n\nOption B is a critical error; mixing medications can cause chemical incompatibilities and clog the tube. Option D is incorrect because of the risk of drug-food interactions. Option A is incomplete as it omits stopping the feed and flushing beforehand.",
+    "additional": "Safe medication administration via enteral tubes is a core nursing competency. Nurses must always check for liquid formulations of a drug first. If a tablet must be given, confirm it can be safely crushed (i.e., it is not an enteric-coated, extended-release, or sublingual tablet). Each crushed medication should be mixed with water in a separate cup. For NCK exams, procedural questions like this are common and focus on patient safety, preventing complications like tube occlusion, aspiration, and ensuring therapeutic drug delivery."
+  },
+  {
+    "question": "While performing a physical assessment, a nurse notes a new irregular heart rhythm in a patient. What is the priority action?",
+    "options": {
+      "A": "Notify the provider immediately",
+      "B": "Document the finding and continue the assessment",
+      "C": "Administer prescribed antiarrhythmic medication",
+      "D": "Check the apical pulse for one full minute"
+    },
+    "answer": "D",
+    "explanation": "The nursing process dictates that assessment is the first step. When a new abnormal finding is noted, the priority is to gather more detailed data. Checking the apical pulse for a full minute is the most accurate way to determine the ventricular rate during an irregular rhythm. This initial assessment provides crucial information (the actual rate and character of the rhythm) that is needed before any other action is taken. Notifying the provider (A) is the next step, but it must be done with a complete set of data. Simply documenting (B) is passive and fails to address a potentially serious change in the patient's condition. Administering a medication (C) without a thorough assessment and a specific order for the current situation would be inappropriate and potentially dangerous.",
+    "additional": "After assessing the apical pulse, the nurse's next actions should include a focused assessment of the patient's hemodynamic status: check their blood pressure, ask about symptoms like chest pain, dizziness, or shortness of breath, and observe their level of consciousness. An ECG should be obtained. Only then should the nurse notify the provider using a structured communication tool like SBAR (Situation, Background, Assessment, Recommendation). NCK questions on prioritization often test the nurse's ability to \"assess before acting.\""
+  },
+  {
+    "question": "Instruments soaked in glutaraldehyde for 10 hours can be classified as:",
+    "options": {
+      "A": "Disinfected",
+      "B": "Sterilized",
+      "C": "Decontaminated",
+      "D": "Sanitized"
+    },
+    "answer": "B",
+    "explanation": "This question tests the knowledge of different levels of microbial control.\n\nSterilization: The complete destruction of all forms of microbial life, including highly resistant bacterial spores.\n\nHigh-Level Disinfection (HLD): The destruction of all vegetative microorganisms, mycobacteria, and small or nonlipid viruses, but not necessarily high numbers of bacterial spores.\nGlutaraldehyde (typically a 2% solution) is a high-level disinfectant with a relatively short immersion time (e.g., 20-90 minutes, depending on the manufacturer and temperature). However, when heat-sensitive instruments that require sterility (like some endoscopes) are processed, a prolonged immersion in glutaraldehyde for 6 to 10 hours allows it to act as a chemical sterilant, effectively killing spores.",
+    "additional": "This relates to Spaulding's Classification, a system used to determine how medical devices should be reprocessed.\n\nCritical items (enter sterile tissue, e.g., surgical instruments) must be sterilized.\n\nSemi-critical items (touch mucous membranes, e.g., endoscopes, respiratory therapy equipment) require at least high-level disinfection.\n\nNon-critical items (touch intact skin, e.g., stethoscopes, blood pressure cuffs) require low-level disinfection.\nUnderstanding these principles of infection prevention and control is fundamental for the NCK exam."
+  },
+  {
+    "question": "A client is to receive 1,200 mL of IV fluid over 8 hours. The drop factor is 15 drops/mL. What is the flow rate in drops per minute (gtt/min)?",
+    "options": {
+      "A": "25 gtt/min",
+      "B": "30 gtt/min",
+      "C": "38 gtt/min",
+      "D": "45 gtt/min"
+    },
+    "answer": "C",
+    "explanation": "The formula for calculating the flow rate in drops per minute is:\n\nFlow Rate (gtt/min) = [Total Volume (in mL) × Drop Factor (in gtt/mL)] / Time (in minutes)\n\nCalculate the total time in minutes:\n8 hours × 60 minutes/hour = 480 minutes\n\nPlug the values into the formula:\nFlow Rate = (1200 mL × 15 gtt/mL) / 480 minutes\nFlow Rate = 18,000 gtt / 480 minutes\n\nCalculate the final rate:\nFlow Rate = 37.5 gtt/min\n\nSince it is impossible to give half a drop, the rate is rounded to the nearest whole number, which is 38 gtt/min.",
+    "additional": "Medication and fluid calculation is a critical, non-negotiable nursing skill and is frequently tested on licensure exams like the NCK. It is vital to memorize the formula and practice calculations. Always double-check your work, and if possible, have another nurse verify the calculation before starting an infusion, especially for high-alert medications. Note that most hospitals now use electronic infusion pumps, where the rate is set in mL/hour. In this case, the rate would be 1200 mL / 8 hours = 150 mL/hr. However, nurses must still know how to calculate manual drip rates in case of pump failure or in settings where pumps are not available."
+  },
+  {
+    "question": "The hormone responsible for the growth of the myometrium during pregnancy is?",
+    "options": {
+      "A": "Progesterone",
+      "B": "Follicle stimulating hormone",
+      "C": "Oestrogen",
+      "D": "Leutenizing hormone"
+    },
+    "answer": "C",
+    "explanation": "During pregnancy, oestrogen (primarily estriol, produced by the placenta) is responsible for the significant growth (hypertrophy) of the uterine muscle, the myometrium, to accommodate the growing fetus and to provide the powerful contractile force needed during labor. Progesterone (A) is also crucial, but its primary role is to relax the smooth muscle of the uterus to prevent premature contractions, hence it's often called the \"hormone of pregnancy.\" FSH (B) and LH (D) are suppressed during pregnancy by the high levels of oestrogen and progesterone.",
+    "additional": "Understanding the roles of key pregnancy hormones is essential.\n\nOestrogen: Promotes growth of myometrium and ductal system of the breasts; increases uterine blood flow.\n\nProgesterone: Maintains the endometrium (decidua), relaxes uterine smooth muscle, promotes development of breast lobules and alveoli.\n\nhCG (Human Chorionic Gonadotropin): \"Rescues\" the corpus luteum in early pregnancy to continue progesterone production until the placenta takes over.\n\nhPL (Human Placental Lactogen): Has anti-insulin effects, making more glucose available for the fetus; promotes fetal growth.\nNCK questions will likely test the physiological functions of these hormones."
+  },
+  {
+    "question": "The indication for emergency ceaserean section include:",
+    "options": {
+      "A": "Cord prolapse, Uterine rupture",
+      "B": "Eclampsia, Gestational diabetes",
+      "C": "Fetal distress, Antepartum haemorrhage",
+      "D": "Cephalopelvic disproportion, Fetal distress"
+    },
+    "answer": "A",
+    "explanation": "An emergency caesarean section is performed when there is an immediate threat to the life of the mother or fetus. Cord prolapse (where the umbilical cord slips down ahead of the presenting part) and uterine rupture are both catastrophic obstetric emergencies that require immediate delivery to prevent fetal death and manage maternal hemorrhage. While the conditions in the other options can lead to a caesarean section, they are not always immediate, life-or-death emergencies in the same way. Fetal distress (C, D) is an indication, but often there is a short window for in-utero resuscitation. Antepartum hemorrhage (C) and eclampsia (B) are serious but may be stabilized before delivery. Cephalopelvic disproportion (D) is usually diagnosed before or during labor and leads to a non-emergent or urgent, rather than a \"crash,\" C-section.",
+    "additional": "It is crucial to be able to distinguish between indications for elective, urgent, and emergency C-sections.\n\nEmergency (Category 1): Immediate threat to life of woman or fetus (e.g., cord prolapse, uterine rupture, sustained severe fetal bradycardia).\n\nUrgent (Category 2): Maternal or fetal compromise which is not immediately life-threatening (e.g., failure to progress in labor, non-reassuring fetal status).\n\nElective/Scheduled (Category 4): Delivery timed to suit woman or staff (e.g., repeat C-section, breech presentation).\nNursing care for a patient undergoing an emergency C-section involves rapid preparation, obtaining consent (if possible), ensuring IV access, and providing emotional support."
+  },
+  {
+    "question": "Precipitate labour is an unusually rapid labour:",
+    "options": {
+      "A": "That is concluded in less than three hours",
+      "B": "Where the external cervical os fails to dilate despite good uterine contractions",
+      "C": "That is concluded in more than three hours",
+      "D": "Where the external cervical os fails to dilate due to poor uterine contraction"
+    },
+    "answer": "A",
+    "explanation": "Precipitate labor is defined as a labor that is completed, from the onset of regular contractions to the delivery of the baby, in less than three hours. It is characterized by rapid cervical dilatation and fetal descent, resulting from overly strong uterine contractions and/or very low resistance from the birth canal. Options B and D describe failure to progress or dystocia, which is the opposite of precipitate labor.",
+    "additional": "While a short labor may sound desirable, it carries significant risks for both mother and baby. Maternal risks include uterine atony and postpartum hemorrhage (due to a tired uterus), and extensive perineal lacerations. Fetal risks include hypoxia (due to the intensity and frequency of contractions reducing blood flow) and intracranial hemorrhage from the rapid descent through the pelvis. Nursing management involves staying with the patient, providing support, and preparing for potential complications like PPH and neonatal resuscitation."
+  },
+  {
+    "question": "The term persistent occipito-posterior position indicates that the occiput:",
+    "options": {
+      "A": "Escapes under the symphysis pubis",
+      "B": "Rotates forward always",
+      "C": "Reaches the pelvic floor first",
+      "D": "Fails to rotate forward"
+    },
+    "answer": "D",
+    "explanation": "The most common and favorable position for the fetal head to enter the pelvis is occiput-anterior (OA). In an occiput-posterior (OP) position, the back of the fetal skull (occiput) is against the mother's back. Normally, as the head descends, it rotates 135 degrees forward (anteriorly) so the occiput can emerge under the symphysis pubis. A \"persistent\" or \"direct\" occipito-posterior position means that this internal rotation fails to occur, and the head remains in the posterior position as it descends to the pelvic floor.",
+    "additional": "The OP position is a common cause of dystocia (difficult labor). It is associated with prolonged first and second stages of labor, severe maternal back pain (due to the occiput pressing on the sacrum), and an increased risk of perineal trauma, instrumental delivery (forceps or vacuum), and caesarean section. Nursing interventions to encourage rotation include promoting maternal position changes, such as hands-and-knees, side-lying, or lunging. This is a key topic in managing labor progress."
+  },
+  {
+    "question": "The trophoblast cells of the developing zygote form the:",
+    "options": {
+      "A": "Fetus and amnion",
+      "B": "Placenta and fetus",
+      "C": "Chorion and amnion",
+      "D": "Placenta and chorion"
+    },
+    "answer": "D",
+    "explanation": "After fertilization, the zygote develops into a blastocyst. The blastocyst has two parts: the inner cell mass and an outer layer of cells called the trophoblast.\n\nThe Inner Cell Mass develops into the embryo (and later the fetus) and the amnion (the inner fetal membrane that contains amniotic fluid).\n\nThe Trophoblast is responsible for implantation into the uterine wall. It develops into the chorion (the outer fetal membrane) and the fetal portion of the placenta.",
+    "additional": "Understanding this basic embryology is foundational to obstetrics. The placenta is a vital organ responsible for nutrient, gas, and waste exchange between mother and fetus, and it also functions as an endocrine organ, producing hormones like hCG, progesterone, and oestrogen. The chorion has chorionic villi that invade the uterine wall to form the placenta. This is a high-yield topic for the NCK exam."
+  },
+  {
+    "question": "Anti D immunoglobulin is administered to:",
+    "options": {
+      "A": "Rh-negative women who are pregnant with or have given birth to Rh positive baby",
+      "B": "Rh-positive women who are pregnant with or have given birth to a Rh negative baby",
+      "C": "Rh-negative women who are pregnant with or have given birth to a Rh negative baby",
+      "D": "Rh-positive women who are pregnant with or have given birth to a Rh positive baby"
+    },
+    "answer": "A",
+    "explanation": "Rh isoimmunization occurs when an Rh-negative mother is exposed to Rh-positive fetal blood cells (usually during delivery or another sensitizing event). Her immune system recognizes the Rh antigen as foreign and produces antibodies against it. These antibodies can cross the placenta in a future pregnancy and attack the red blood cells of an Rh-positive fetus, causing Hemolytic Disease of the Newborn (HDN). Anti-D immunoglobulin is a preparation of IgG antibodies that destroys any fetal Rh-positive cells in the mother's circulation before she can mount her own immune response. Therefore, it is given to an unsensitized Rh-negative mother to prevent her from becoming sensitized.",
+    "additional": "Anti-D is given routinely at around 28 weeks of gestation to all Rh-negative mothers and within 72 hours postpartum if the baby is confirmed to be Rh-positive. It is also given after any event that could cause fetomaternal hemorrhage, such as miscarriage, abortion, amniocentesis, or abdominal trauma. This preventive measure is a major public health success story in obstetrics, and the principles are frequently tested."
+  },
+  {
+    "question": "In focused antenatal care, the second dose of sulfadoxide pyrimethamine (sp) is administered at gestation of:",
+    "options": {
+      "A": "16-28 weeks",
+      "B": "20-30 weeks.",
+      "C": "28-34 weeks.",
+      "D": "34-36 weeks."
+    },
+    "answer": "C",
+    "explanation": "This question refers to Intermittent Preventive Treatment in pregnancy (IPTp) for malaria, a key intervention in the Focused Antenatal Care (FANC) model in malaria-endemic regions like Kenya. According to WHO and Kenyan guidelines, IPTp with SP should be initiated as early as possible in the second trimester (after 13 weeks). At least three doses are recommended, with each dose given at least one month apart at a scheduled ANC visit. In a typical 4-visit FANC schedule, the first dose might be given at the first visit in the second trimester (e.g., 20-24 weeks), and the second dose would logically be administered at the next visit, which is scheduled for 28-32 weeks. Therefore, the 28-34 week window is the most appropriate for the second or third dose.",
+    "additional": "The goal of IPTp-SP is to clear any existing placental malaria infection and prevent new infections, which reduces the risk of maternal anemia, low birth weight, and neonatal mortality. Nurses play a vital role in ensuring eligible women receive their doses as part of routine antenatal care."
+  },
+  {
+    "question": "The hormonal factor responsible for uterine contractions at onset of labour are:",
+    "options": {
+      "A": "Increase release of oxytocin progesterone from deciduas at term.",
+      "B": "Formation of oxytocin and estrogen in the fetal circulation.",
+      "C": "Rise of oxytocin and estrogen in the fetal circulation.",
+      "D": "Optimum levels of estrogen and rise of prostaglandins in maternal circulation."
+    },
+    "answer": "D",
+    "explanation": "The onset of labor is a complex interplay of fetal and maternal factors. A key theory is that as pregnancy reaches term, there is a shift in the estrogen-to-progesterone ratio. Estrogen levels become dominant over progesterone. This \"functional progesterone withdrawal\" makes the uterine myometrium more irritable and responsive to stimulants. The high estrogen levels also increase the synthesis of prostaglandins within the fetal membranes and maternal decidua. Prostaglandins are powerful stimulators of myometrial contractions and also help to soften and ripen the cervix. While oxytocin is crucial for the progression of labor, the initial trigger is more strongly linked to this shift and the subsequent rise in prostaglandins.",
+    "additional": "Understanding these hormonal triggers is the basis for medical induction and augmentation of labor. Prostaglandin analogues (like misoprostol or dinoprostone) are used for cervical ripening, while synthetic oxytocin (Syntocinon) is used to initiate or strengthen uterine contractions. Nursing responsibilities include careful monitoring of uterine activity and fetal heart rate during induction or augmentation."
+  },
+  {
+    "question": "The nurse is caring for a patient with a known methicillin-resistant Staphylococcus aureus (MRSA) infection. Which of the following precautions should be implemented?",
+    "options": {
+      "A": "Airborne precautions",
+      "B": "Contact precautions",
+      "C": "Droplet precautions",
+      "D": "Standard precautions only"
+    },
+    "answer": "B",
+    "explanation": "MRSA is a bacterium that is spread by direct contact with an infected person or by touching surfaces contaminated with the bacteria. Therefore, Contact Precautions are essential to prevent transmission in a healthcare setting. This requires, in addition to Standard Precautions, the use of a gown and gloves for all interactions that may involve contact with the patient or potentially contaminated areas in the patient's environment.\n\nAirborne precautions are for diseases like tuberculosis or measles.\n\nDroplet precautions are for diseases like influenza or bacterial meningitis.\n\nStandard precautions are the minimum infection prevention practices that apply to all patient care.",
+    "additional": "Infection prevention and control is a critical domain for nursing practice and a major topic for the NCK exam. Candidates must be able to identify the correct type of transmission-based precautions (Contact, Droplet, Airborne) for various infectious diseases and know the specific personal protective equipment (PPE) required for each."
+  },
+  {
+    "question": "A client has had a total hip replacement. When assessing the client, the nurse understands that which sign most likely indicates that the hip has dislocated?",
+    "options": {
+      "A": "abduction of the affected leg",
+      "B": "shortening of the affected leg",
+      "C": "external rotation of the affected leg",
+      "D": "loosening of the prosthesis"
+    },
+    "answer": ["B", "C"],
+    "explanation": "Dislocation of the hip prosthesis is a significant postoperative complication. When the femoral head component comes out of the acetabular cup, it typically displaces posteriorly and superiorly. This displacement results in the classic triad of signs:\n\nShortening of the affected leg: The leg appears shorter because the femoral head has moved up out of its socket.\n\nAbnormal rotation: The leg is typically in a position of external rotation (for a posterior dislocation).\n\nSudden onset of severe pain and inability to bear weight.\n\nAbduction (A) is movement away from the body's midline; an abductor pillow is often used to prevent dislocation. Loosening of the prosthesis (D) is a longer-term complication that presents with pain and instability, but not necessarily the acute signs of dislocation.",
+    "additional": "Postoperative care for a total hip replacement (THR) focuses heavily on preventing dislocation. Key nursing interventions include patient education on hip precautions (e.g., avoid flexing the hip more than 90 degrees, avoid adducting the leg across the midline, avoid internal rotation), using an abduction pillow, and assisting with safe transfers. This is a common orthopedic nursing topic for the NCK exam."
+  },
+  {
+    "question": "A client with COPD is receiving oxygen therapy. Which oxygen delivery method is most appropriate to maintain oxygen saturation between 88%-92%?",
+    "options": {
+      "A": "Nasal cannula at 6 L/min",
+      "B": "Non-rebreather mask at 15 L/min",
+      "C": "Venturi mask at 2-4 L/min",
+      "D": "Simple face mask at 10 L/min"
+    },
+    "answer": "C",
+    "explanation": "The key to this question is the patient's diagnosis of COPD and the target oxygen saturation of 88-92%. Many patients with chronic COPD have a hypoxic drive to breathe, meaning their respiratory drive is stimulated by low oxygen levels rather than high carbon dioxide levels. Giving them too much oxygen can suppress this drive, leading to hypoventilation and respiratory failure. A Venturi mask is the most appropriate device in this situation because it is a high-flow device that delivers a precise, fixed concentration of oxygen (FiO2) regardless of the patient's breathing pattern. The different colored adapters allow the nurse to set a specific FiO2 (e.g., 24%, 28%, 31%) at a prescribed liter flow, making it ideal for safely titrating oxygen in these patients. The other devices are low-flow and deliver variable, less precise oxygen concentrations.",
+    "additional": "Nasal cannula: Delivers an estimated 24-44% FiO2 at 1-6 L/min, but the actual concentration varies with the patient's respiratory rate and depth.\n\nSimple face mask: Delivers an estimated 35-50% FiO2 at 6-12 L/min; also variable.\n\nNon-rebreather mask: Delivers the highest concentration of oxygen (60-90%) and is used for acutely hypoxemic patients, not for controlled oxygenation in COPD.\n\nNCK questions on respiratory care often test the selection of appropriate oxygen delivery devices based on the patient's condition."
+  },
+  {
+    "question": "A diabetic client with Kussmaul respirations has the following ABG: pH 7.25, HCO3¯ 18, PaCO2 28. What is the interpretation?",
+    "options": {
+      "A": "Partially compensated metabolic acidosis",
+      "B": "Respiratory alkalosis",
+      "C": "Fully compensated metabolic acidosis",
+      "D": "Uncompensated respiratory acidosis"
+    },
+    "answer": "A",
+    "explanation": "Look at the pH: 7.25 is low (acidosis).\nPaCO2: 28 is low (alkalotic).\nHCO3¯: 18 is low (acidotic).\nSince pH and HCO3¯ are both low, the primary disorder is metabolic acidosis. The PaCO2 is also low, showing respiratory compensation via CO2 elimination (Kussmaul respirations). Since pH is still outside the normal range, it is partially compensated.",
+    "additional": "This is the classic presentation of Diabetic Ketoacidosis (DKA).\nABG interpretation is a high-yield topic for critical care nursing questions on the NCK exam. Practice a systematic approach (like the ROME method) to confidently interpret any ABG result and identify the primary disorder and the state of compensation."
+  },
+  {
+    "question": "The nurse is caring for a client receiving hemodialysis. Which action is most appropriate when caring for the client's arteriovenous (AV) fistula?",
+    "options": {
+      "A": "Draw blood samples from the AV fistula site",
+      "B": "Take blood pressure on the same arm as the fistula",
+      "C": "Palpate for a thrill and auscultate for a bruit",
+      "D": "Apply a tourniquet above the AV fistula site"
+    },
+    "answer": "C",
+    "explanation": "A patent, functioning AV fistula will have a thrill (palpable vibration) and a bruit (audible whooshing sound) due to turbulent blood flow. Their absence indicates a potential blockage or thrombosis, requiring immediate reporting.",
+    "additional": "Never draw blood, take BP, or apply a tourniquet on the fistula arm. Educate patients to assess for thrill, avoid tight clothing, sleeping on, or injuring the arm. A \"NO BP/NO VENIPUNCTURE\" sign should be placed above the bed to protect the fistula."
+  },
+  {
+    "question": "A patient has a blockage in the thoracic duct. This could lead to a build-up of lymph in which of the following regions?",
+    "options": {
+      "A": "Left Leg",
+      "B": "Right arm",
+      "C": "Left arm",
+      "D": "Right leg"
+    },
+    "answer": ["A", "C"],
+    "explanation": "The thoracic duct drains lymph from the left side of the head, neck, thorax, the left arm, both lower extremities, and most abdominal organs. Therefore, a blockage can lead to lymphedema in the left arm and left leg.",
+    "additional": "Understanding lymphatic drainage is important when assessing lymphedema risk after surgeries like mastectomy or procedures involving lymph node removal or radiation."
+  },
+  {
+    "question": "Which of the following layers of the skin is responsible for producing new skin cells?",
+    "options": {
+      "A": "Dermis",
+      "B": "Hypodermis",
+      "C": "Stratum corneum",
+      "D": "Stratum basale"
+    },
+    "answer": "D",
+    "explanation": "The stratum basale (part of the epidermis) contains keratinocytes that undergo mitosis to create new skin cells. These cells migrate upward, becoming part of the protective outer layers.",
+    "additional": "Stratum corneum: dead cells providing a barrier.\nDermis: contains nerves, vessels, glands.\nHypodermis: fatty layer providing insulation and cushioning. This is foundational knowledge in skin integrity and wound healing."
+  },
+  {
+    "question": "When a blood pressure (BP) reading is abnormal upon initial assessment, it is best to check the BP,",
+    "options": {
+      "A": "On the other arm",
+      "B": "On both arms sitting and standing",
+      "C": "With the patient standing",
+      "D": "After a 5 min wait"
+    },
+    "answer": "A",
+    "explanation": "Rechecking the BP on the opposite arm helps to rule out anatomical differences, equipment error, or false readings. It also provides baseline comparison data. A difference of more than 10 mmHg between arms could indicate vascular pathology.",
+    "additional": "Use proper technique—correct cuff size, arm at heart level, and ensure the patient is rested. The arm with the higher reading should be used for future assessments and always documented."
+  },
+  {
+    "question": "Which of the following diet modifications helps prevent gallstone formation?",
+    "options": {
+      "A": "High-protein, high-fat ketogenic diet",
+      "B": "Very low-calorie crash diets",
+      "C": "Balanced low-fat diet with gradual weight loss",
+      "D": "High-cholesterol diet to stabilize bile production"
+    },
+    "answer": "C",
+    "explanation": "Gallstones form when bile becomes supersaturated with cholesterol. A balanced, low-fat, high-fiber diet with gradual weight loss reduces this risk. Rapid weight loss and high-fat or high-cholesterol diets can increase stone formation.",
+    "additional": "Patient education includes avoiding fatty, fried foods and aiming for long-term weight control with a healthy diet and regular physical activity. Key for prevention of cholelithiasis and gallbladder disease."
+  },
+  {
+    "question": "A patient is admitted to the ER with the following signs and symptoms: very painful mid-epigastric pain felt in the back, elevated glucose, fever, and vomiting. During the head-to-toe assessment, you notice bluish discoloration around the belly button. As the nurse, you know this is called?",
+    "options": {
+      "A": "Grey-Turner's Sign",
+      "B": "McBurney's Sign",
+      "C": "Homan's Sign",
+      "D": "Cullen's Sign"
+    },
+    "answer": "D",
+    "explanation": "The constellation of symptoms—severe mid-epigastric pain radiating to the back, fever, vomiting, and hyperglycemia—is classic for acute pancreatitis. Cullen's Sign refers to periumbilical ecchymosis (bruising around the umbilicus), a sign of hemorrhagic pancreatitis. Grey-Turner's Sign is flank ecchymosis. McBurney's Sign is associated with appendicitis. Homan's Sign is calf pain on dorsiflexion, once used to screen for DVT.",
+    "additional": "Nursing management of acute pancreatitis includes keeping the patient NPO, administering IV fluids, providing pain control, and monitoring for complications such as hypocalcemia, hyperglycemia, and ARDS."
+  },
+  {
+    "question": "What type of seizure is characterized by a brief loss of consciousness and muscle tone, often resulting in the person falling to the ground?",
+    "options": {
+      "A": "Absence seizure",
+      "B": "Tonic-clonic seizure",
+      "C": "Myoclonic seizure",
+      "D": "Atonic seizure"
+    },
+    "answer": "D",
+    "explanation": "An atonic seizure is marked by a sudden loss of muscle tone, which can cause the person to fall to the ground ('drop attack'). Consciousness is often impaired. It differs from other seizures, such as absence seizures (staring), tonic-clonic seizures (stiffening and jerking), and myoclonic seizures (brief jerking).",
+    "additional": "Nursing actions during seizures include ensuring safety, preventing injury, turning the patient to the side, loosening clothing, and not inserting anything into the mouth. Accurate seizure timing and documentation are also critical."
+  },
+  {
+    "question": "What term is applied to the volume of air that moves into the lungs while breathing at rest?",
+    "options": {
+      "A": "Anatomical dead space",
+      "B": "Inspiratory reserve capacity",
+      "C": "Tidal volume",
+      "D": "Residual volume"
+    },
+    "answer": "C",
+    "explanation": "Tidal Volume (TV) is the amount of air that moves in and out of the lungs with each normal breath, usually around 500 mL. It differs from Inspiratory Reserve Volume, Residual Volume, and Anatomical Dead Space, which serve other respiratory functions.",
+    "additional": "Lung volumes are assessed via spirometry. Tidal volume is typically reduced in restrictive lung diseases, while residual volume may increase in obstructive diseases like COPD."
+  },
+  {
+    "question": "Lobe that contains the primary motor area that enables voluntary control of skeletal muscle movements:",
+    "options": {
+      "A": "Parietal lobe",
+      "B": "Temporal lobe",
+      "C": "Occipital lobe",
+      "D": "Frontal lobe"
+    },
+    "answer": "D",
+    "explanation": "The frontal lobe houses the primary motor cortex (in the precentral gyrus), which is responsible for voluntary skeletal muscle movement. Damage to this area may cause motor deficits. The parietal lobe processes touch, the temporal lobe processes hearing and language, and the occipital lobe handles vision.",
+    "additional": "Frontal lobe injuries may also affect behavior, personality, and executive functions. Nurses must assess for these signs during neurological checks."
+  },
+  {
+    "question": "The PRIORITY health message to share with a client in the recovery room immediately following caesarean section includes:",
+    "options": {
+      "A": "Frequent coughing & deep breathing",
+      "B": "Importance of perineal self-care",
+      "C": "Importance of early ambulation",
+      "D": "Signs of puerperal infections"
+    },
+    "answer": "A",
+    "explanation": "Immediately post-op, the greatest risk is respiratory complications like atelectasis and pneumonia. Frequent coughing and deep breathing help prevent these. While the other options are important, they are not the top immediate priority in the recovery room.",
+    "additional": "Nurses should teach splinting the incision with a pillow during coughing and use of incentive spirometry. Once stable, ambulation becomes a secondary priority to prevent DVT and ileus."
+  },
+  {
+    "question": "A maternal associated risk of prolonged pregnancy includes:",
+    "options": {
+      "A": "Intra-uterine oligohydramnios",
+      "B": "Placental insufficiency",
+      "C": "Fetal post-maturity syndrome",
+      "D": "Large for gestational age baby"
+    },
+    "answer": "B",
+    "explanation": "Prolonged pregnancy (beyond 42 weeks) can lead to placental insufficiency—where the placenta becomes less effective at providing nutrients and oxygen. This is a maternal-placental issue. The other choices represent fetal complications resulting from placental insufficiency.",
+    "additional": "Management involves close monitoring (NSTs, BPPs) and often induction of labor between 41–42 weeks to reduce fetal risks. Nurses should monitor for signs of fetal distress and counsel mothers appropriately."
+  },
+  {
+    "question": "When caring for a mother following an assisted vaginal delivery, it's MOST important to remember that:",
+    "options": {
+      "A": "A vacuum extractor is safer than forceps because it causes less trauma to the baby & the mother's perineum",
+      "B": "The baby will develop a cephalhaematoma as a result of the instrumentation which is a normal expected outcome",
+      "C": "The use of instruments during the birth process is a fairly rare occurrence for women",
+      "D": "Additional nursing interventions are needed to ensure an uncomplicated postpartum"
+    },
+    "answer": "D",
+    "explanation": "An assisted vaginal delivery increases the risk of postpartum complications, such as perineal trauma, postpartum hemorrhage, and urinary retention. Therefore, heightened surveillance and additional nursing interventions are required to ensure safe recovery. These include frequent fundal checks and careful perineal assessments.",
+    "additional": "Nursing interventions post-assisted delivery include applying perineal ice packs, giving analgesics, closely monitoring for signs of PPH, assessing fundal tone and lochia, and ensuring the mother voids spontaneously."
+  },
+  {
+    "question": "Which contraceptive method is safe to use immediately postpartum?",
+    "options": {
+      "A": "Combined oral contraceptives",
+      "B": "Progestin-only pills",
+      "C": "Contraceptive patch",
+      "D": "Diaphragm"
+    },
+    "answer": "B",
+    "explanation": "Progestin-only pills are safe immediately postpartum, including in breastfeeding women. They don’t affect milk supply and do not increase VTE risk. Combined hormonal methods like the patch or pills are avoided early postpartum due to estrogen risks. A diaphragm needs delayed fitting.",
+    "additional": "Other safe immediate postpartum options include DMPA injections, progestin implants, and some IUDs. Nurses play a vital role in postpartum contraceptive counseling."
+  },
+  {
+    "question": "A couple who is going through fertility treatment is reviewing the process of in vitro fertilization (IVF) with the nurse. Which statement by the couple indicates the need for further teaching?",
+    "options": {
+      "A": "We can freeze embryos if we have extras.",
+      "B": "The embryos will be placed in my uterus 7-10 days after retrieval.",
+      "C": "An ultrasound will be used during the procedure to remove my eggs.",
+      "D": "My wife will have to have injections prior to the procedure."
+    },
+    "answer": "B",
+    "explanation": "Embryo transfer in IVF is done 3–5 days after egg retrieval, not 7–10 days. This error indicates a misunderstanding of the IVF process. The other statements are accurate regarding embryo freezing, egg retrieval, and hormonal injections.",
+    "additional": "IVF education must include timelines, procedures, emotional challenges, and realistic expectations. Nurses help ensure the couple is well-informed."
+  },
+  {
+    "question": "The nurse is assessing a female client with syphilis. Which of the following would be an expected finding?",
+    "options": {
+      "A": "Dysuria",
+      "B": "Vaginal discharge",
+      "C": "Chancre lesion",
+      "D": "Dyspareunia"
+    },
+    "answer": "C",
+    "explanation": "A chancre—painless, firm ulcer—is the hallmark of primary syphilis. It usually appears at the infection site around 3 weeks after exposure. Other symptoms like dysuria, discharge, and dyspareunia are nonspecific.",
+    "additional": "Stages of syphilis: Primary (chancre), Secondary (rash, lymphadenopathy, condylomata lata), Latent (asymptomatic), Tertiary (neurologic/cardiovascular damage)."
+  },
+  {
+    "question": "The method of contraception that is considered the safest for women is:",
+    "options": {
+      "A": "IUD.",
+      "B": "Diaphragm.",
+      "C": "Oral contraceptive.",
+      "D": "Male condom."
+    },
+    "answer": "D",
+    "explanation": "The male condom is the safest option in terms of both side effects and STI protection. It’s non-hormonal, has minimal risks for the woman, and is the only listed method that protects against STIs.",
+    "additional": "Nurses should educate patients about 'dual protection'—using condoms alongside another method for both pregnancy and STI prevention."
+  },
+  {
+    "question": "What is the main goal of treatment for acute glomerulonephritis?",
+    "options": {
+      "A": "Encourage activity",
+      "B": "Encourage high protein intake",
+      "C": "Maintain fluid balance",
+      "D": "Teach intermittent urinary catheterization"
+    },
+    "answer": "C",
+    "explanation": "Acute glomerulonephritis leads to sodium and fluid retention due to inflammation of the glomeruli. The main goal is to maintain fluid balance via I/O monitoring, daily weights, and fluid/sodium restrictions.",
+    "additional": "Signs of AGN include cola-colored urine, edema (especially periorbital), and hypertension. Management includes monitoring renal function and administering diuretics and antihypertensives as prescribed."
+  },
+  {
+    "question": "How do nursing diagnoses primarily differ from medical diagnoses?",
+    "options": {
+      "A": "Dependent upon medical diagnoses for interventions",
+      "B": "Primarily concerned with caring rather than curing",
+      "C": "Primarily concerned with human response, while medical diagnoses focus on pathology",
+      "D": "Primarily focused on psychosocial parameters"
+    },
+    "answer": "C",
+    "explanation": "This question addresses a fundamental concept of the nursing profession.\n\nMedical Diagnosis: Identifies a specific disease, condition, or pathology (e.g., Cerebrovascular Accident, Diabetes Mellitus, Pneumonia). It focuses on the disease process itself and guides medical treatment aimed at curing or managing the disease.\n\nNursing Diagnosis: Describes a patient's health problem that a nurse can treat independently. It focuses on the patient's human response to the actual or potential health problem or life process. For a patient with a medical diagnosis of Cerebrovascular Accident, the nursing diagnoses might include Impaired Physical Mobility, Risk for Ineffective Cerebral Tissue Perfusion, Impaired Verbal Communication, or Unilateral Neglect.",
+    "additional": "The nursing diagnosis is the second step of the nursing process (Assessment, Diagnosis, Planning, Implementation, Evaluation). Using a standardized language like NANDA-International (NANDA-I) helps nurses communicate patient problems clearly. NCK exams will expect a thorough understanding of the nursing process and the role of nursing diagnoses in planning patient-centered care."
+  },
+  {
+    "question": "What is the most appropriate nursing intervention when a post-spinal anesthesia patient develops severe pain and high blood pressure?",
+    "options": {
+      "A": "Medicate the patient for pain",
+      "B": "Place the patient in a high Fowler position",
+      "C": "Reverse Trendelenburg position and open IV line",
+      "D": "Report the findings to the provider"
+    },
+    "answer": "D",
+    "explanation": "The combination of severe pain and new-onset hypertension in a postoperative patient is an unexpected and potentially serious finding. It requires immediate medical evaluation to determine the cause. The nurse's priority is to assess the patient, gather vital signs, and report the findings to the provider promptly. The provider needs to diagnose the cause before treatment can be initiated. Self-medicating with a standing order for pain (A) might be inappropriate if the pain and hypertension are signs of a more serious complication (e.g., a neurological or cardiovascular event). Repositioning the patient (B, C) is not the priority and may be contraindicated depending on the cause.",
+    "additional": "While hypotension is a more common immediate side effect of spinal anesthesia, hypertension can occur due to pain, anxiety, or other complications like bladder distention. The nurse's role is to perform a quick, focused assessment (e.g., check the surgical site, assess for bladder distention, perform a neurological check) and then use a structured communication tool like SBAR (Situation, Background, Assessment, Recommendation) to report to the provider."
+  },
+  {
+    "question": "What is the most common preventable complication of abdominal surgery?",
+    "options": {
+      "A": "Atelectasis",
+      "B": "Thrombophlebitis",
+      "C": "Urinary retention",
+      "D": "Fluid and electrolyte imbalance"
+    },
+    "answer": "A",
+    "explanation": "Atelectasis, the collapse of alveoli in the lungs, is the most common postoperative respiratory complication. It is especially common after abdominal surgery because anesthesia, immobility, and incisional pain cause patients to breathe shallowly, which prevents the full expansion of the lungs. It is highly preventable through diligent nursing care. While the other options are also significant postoperative complications, atelectasis is generally considered the most frequent and the one most directly impacted by routine nursing interventions in the immediate postoperative period.",
+    "additional": "Prevention of atelectasis is a cornerstone of postoperative nursing care. The key interventions, which are frequently tested, include:\n\nEncouraging frequent deep breathing and coughing exercises.\n\nTeaching the patient to splint the abdominal incision with a pillow to reduce pain during coughing.\n\nUse of an incentive spirometer.\n\nEarly mobilization and ambulation.\n\nAdequate pain management to allow for effective breathing exercises."
+  },
+  {
+    "question": "Which statement by a patient with diabetes shows understanding of insulin glargine (Lantus)?",
+    "options": {
+      "A": "Lantus causes weight loss",
+      "B": "Lantus is used only at night",
+      "C": "Lantus lasts for six hours",
+      "D": "There is no peak time for Lantus"
+    },
+    "answer": "D",
+    "explanation": "Insulin glargine (Lantus) is a long-acting, or basal, insulin. Its defining characteristic is that it is released slowly and provides a relatively constant level of insulin over approximately 24 hours. Because of this steady release, it has no significant peak. This minimizes the risk of hypoglycemia between meals.\n\nA is incorrect: Insulin, being an anabolic hormone, is more commonly associated with weight gain.\n\nB is incorrect: While it is often administered at night, it can be given at any time of day, as long as it is given at the same time each day.\n\nC is incorrect: It has a duration of action of up to 24 hours. Insulin lasting about six hours would be a short-acting insulin like Regular insulin.",
+    "additional": "Understanding insulin profiles (onset, peak, duration) is critical for safe nursing practice and is a major topic for the NCK exam. Nurses must know when a patient is at highest risk for hypoglycemia based on the type of insulin they have received. For example, the peak action is the time of highest risk."
+  },
+  {
+    "question": "What diet is recommended for a patient with Crohn's disease?",
+    "options": {
+      "A": "High-fiber, low-calorie",
+      "B": "High-potassium",
+      "C": "Low-fiber, high-protein and high-calorie",
+      "D": "Low-potassium"
+    },
+    "answer": "C",
+    "explanation": "During an acute exacerbation or flare-up of Crohn's disease (an inflammatory bowel disease), the goal of dietary management is to rest the inflamed bowel and provide adequate nutrition for healing. This is best achieved with a low-fiber/low-residue diet to decrease the volume and frequency of stools. At the same time, patients are often malnourished due to malabsorption and the catabolic effects of inflammation, so a high-calorie, high-protein diet is needed to promote healing and restore nutritional status. Oral nutritional supplements are often required.",
+    "additional": "It is important to note that this dietary advice is for an acute flare. When the disease is in remission, patients are often encouraged to gradually reintroduce fiber as tolerated to maintain bowel health. Dietary needs are highly individualized, and a registered dietitian should be involved in the patient's care."
+  },
+  {
+    "question": "Which category of drugs prevents/treats constipation by the osmotic drawing of water from extravascular space to intestinal lumen?",
+    "options": {
+      "A": "Stimulants",
+      "B": "Bulk-forming agents",
+      "C": "Hyperosmotic agents",
+      "D": "Lubricants"
+    },
+    "answer": "C",
+    "explanation": "Hyperosmotic (or osmotic) laxatives work by pulling water into the colon via osmosis. They contain poorly absorbed substances (like lactulose, polyethylene glycol, magnesium salts) that create an osmotic gradient, causing water to move from the body into the intestinal lumen. This increases the water content of the stool, making it softer and easier to pass.\n\nStimulants (A): Irritate the intestinal lining to increase peristalsis (e.g., senna, bisacodyl).\n\nBulk-forming agents (B): Absorb water to increase the bulk and moisture of the stool (e.g., psyllium, methylcellulose).\n\nLubricants (D): Coat the stool to allow it to pass more easily (e.g., mineral oil).",
+    "additional": "Knowledge of different laxative classes is important for patient education. Osmotic laxatives are generally considered safer for long-term use than stimulant laxatives, which can cause dependence. Bulk-forming agents are often the first choice for chronic constipation but require adequate fluid intake to be effective and safe."
+  },
+  {
+    "question": "A nurse is giving teachings to a client receiving desloratadine (Clarinex). Which of the following statements made by the client will need further instructions?",
+    "options": {
+      "A": "\"I can eat gum after I drink the medicine\".",
+      "B": "\"I can take the medicine on an empty stomach\".",
+      "C": "\"I should avoid using alcohol\".",
+      "D": "\"I will avoid driving while using this medication\"."
+    },
+    "answer": "B",
+    "explanation": "This is a subtly worded question. Statements A, C, and D all demonstrate a correct understanding of how to manage the common side effects or safety risks of an antihistamine.\n\n(A) Chewing gum is a good strategy to relieve the common side effect of dry mouth.\n\n(C) Avoiding alcohol is a critical safety measure, as alcohol can potentiate the sedative effects of antihistamines.\n\n(D) Avoiding driving until one knows how the drug affects them is also a key safety precaution due to the risk of drowsiness.\nStatement (B) is factually correct—desloratadine can be taken with or without food. However, in the context of a \"needs further instruction\" question, this statement is the outlier. It doesn't relate to a side effect or a safety precaution. The nurse might want to provide further teaching by adding, \"Yes, you can, but if you find it upsets your stomach, try taking it with a small snack.\" Compared to the critical safety understanding shown in C and D, and the good coping strategy in A, statement B is the least indicative of a comprehensive understanding of the drug's impact, and thus is the most likely intended answer that might prompt the nurse to provide additional context.",
+    "additional": "KEEP GOING YOU GOT THIS!!"
+  },
+  {
+    "question": "Gold salt toxicity can be reversed using which medication?",
+    "options": {
+      "A": "Acetaminophen",
+      "B": "Calcium salts",
+      "C": "Dimercaprol",
+      "D": "Hydroxocobalamin"
+    },
+    "answer": "C",
+    "explanation": "Gold salts, which were historically used to treat rheumatoid arthritis, are a type of heavy metal. Toxicity from heavy metals like gold, arsenic, lead, and mercury is treated with chelating agents. These drugs bind to the heavy metals in the bloodstream, forming a complex that can be safely excreted by the kidneys. Dimercaprol (also known as BAL - British Anti-Lewisite) is a classic chelating agent used for gold and arsenic poisoning.\n\nAcetaminophen (A) is an analgesic, not an antidote for this.\n\nCalcium salts (B) are used as an antidote for magnesium sulfate or calcium channel blocker overdose.\n\nHydroxocobalamin (D) is an antidote for cyanide poisoning.",
+    "additional": "Understanding common poisonings and their specific antidotes is a critical area of pharmacology for nurses. NCK exams frequently test this knowledge. Key pairs to remember include:\n\nOpioids (e.g., morphine, heroin) -> Naloxone\n\nBenzodiazepines (e.g., diazepam) -> Flumazenil\n\nAcetaminophen/Paracetamol -> N-acetylcysteine\n\nWarfarin -> Vitamin K (Phytomenadione)\n\nHeparin -> Protamine Sulfate\n\nDigoxin -> Digoxin immune Fab (DigiFab)"
+  },
+  {
+    "question": "A non-pharmacological measure of pain relief in labour includes:",
+    "options": {
+      "A": "Entonox",
+      "B": "Cyclothane",
+      "C": "Homeopathy",
+      "D": "Diamorphine"
+    },
+    "answer": "C",
+    "explanation": "The question asks for a non-pharmacological measure, which means a method that does not involve drugs.\n\nEntonox (A) is a 50:50 mixture of nitrous oxide gas and oxygen, which is an inhaled analgesic (pharmacological).\n\nCyclothane (B) is an old inhalation anesthetic (pharmacological).\n\nDiamorphine (D) is a powerful opioid analgesic (pharmacological).\n\nHomeopathy (C) is a system of complementary and alternative medicine. It falls under the umbrella of non-pharmacological interventions for pain management, alongside methods like massage, acupuncture, and aromatherapy.",
+    "additional": "Non-pharmacological pain management is a key aspect of midwifery care, empowering women to have more control over their labor experience. Common and effective methods that nurses should be proficient in teaching and supporting include:\n\nBreathing and Relaxation Techniques: (e.g., Lamaze).\n\nHydrotherapy: Using a warm bath or shower.\n\nMassage and Counter-pressure: Especially for back labor.\n\nMaternal Movement and Positioning: Using gravity and changing positions to facilitate labor progress and ease pain.\n\nTENS (Transcutaneous Electrical Nerve Stimulation): A device that delivers small electrical currents to the back.\n\nApplication of Heat and Cold."
+  },
+  {
+    "question": "Immediate management of a neonate whose mother is TB smear positive at birth is:",
+    "options": {
+      "A": "Isoniazid 5 mg per kg daily for 3 months",
+      "B": "Isoniazid 5 mg per kg daily for 3 weeks",
+      "C": "Isoniazid 5 mg per kg daily for 6 weeks",
+      "D": "Isoniazid 5 mg per kg daily for 6 months"
+    },
+    "answer": "D",
+    "explanation": "A neonate born to a mother with infectious, sputum smear-positive tuberculosis (TB) is at high risk of acquiring the infection. To prevent the infant from developing active TB disease, preventive therapy is started immediately after birth. The standard recommendation by the WHO and Kenyan national guidelines is Isoniazid (INH) preventive therapy (IPT). The standard duration for this prophylactic treatment in an infant is 6 months. The dose is typically 10 mg/kg, but among the options provided with a 5mg/kg dose, the 6-month duration is the most critical and correct component of the standard regimen.",
+    "additional": "The comprehensive management of a TB-exposed neonate also includes:\n\nA thorough clinical evaluation to rule out congenital TB.\n\nThe BCG vaccine is typically given at birth in Kenya, but in this specific situation, its administration might be delayed until IPT is complete and infection is ruled out, depending on local policy.\n\nIt is crucial to ensure the mother is receiving her own effective multi-drug anti-TB treatment.\n\nBreastfeeding is generally encouraged as the benefits outweigh the minimal risk of transmission, provided the mother is on treatment."
+  },
+  {
+    "question": "Which one of the following is a cause of oligohydramnios?",
+    "options": {
+      "A": "Absence of fetal urine production",
+      "B": "Excessive fetal urine production",
+      "C": "Blockage of the fetal gastro-intestinal tract",
+      "D": "Dizygotic twinning thus twin to twin transfusion"
+    },
+    "answer": "A",
+    "explanation": "Oligohydramnios is the condition of having an abnormally low level of amniotic fluid. In the second half of pregnancy, amniotic fluid is almost entirely composed of fetal urine. Therefore, the primary mechanism leading to oligohydramnios is a disruption in this system. Absence of fetal urine production (due to conditions like renal agenesis, where the kidneys fail to develop) or a blockage in the fetal urinary tract that prevents urine from being excreted into the amniotic sac, is a direct and major cause.\n\nB is incorrect: Excessive fetal urine production causes polyhydramnios (too much fluid).\n\nC is incorrect: Blockage of the fetal GI tract (e.g., duodenal atresia) prevents the fetus from swallowing and absorbing amniotic fluid, which also leads to polyhydramnios.\n\nD is incorrect: Twin-to-twin transfusion syndrome occurs in monochorionic (identical) twins, not dizygotic (fraternal) twins. It can cause oligohydramnios in the \"donor\" twin, but option A is the more fundamental and universal cause.",
+    "additional": "Nurses can remember the common causes of oligohydramnios with the mnemonic DRIPPC:\n\nDemise (fetal death)\n\nRenal anomalies / Rupture of membranes (PROM)\n\nIntrauterine Growth Restriction (IUGR)\n\nPost-term Pregnancy\n\nPlacental insufficiency\n\nCongenital anomalies\n\nOligohydramnios is a serious finding as it can lead to umbilical cord compression (causing fetal distress) and pulmonary hypoplasia (incomplete development of the lungs)."
+  },
+  {
+    "question": "An older adult client is at risk for falls. Which nursing intervention is most appropriate?",
+    "options": {
+      "A": "Keep all lights off during sleep",
+      "B": "Use side rails on all sides of the bed",
+      "C": "Place frequently used items within reach",
+      "D": "Encourage the client to ambulate independently at night"
+    },
+    "answer": "C",
+    "explanation": "This is a core patient safety intervention. By placing frequently used items such as the call bell, telephone, water glass, and eyeglasses on the bedside table within easy reach, the nurse reduces the need for the client to stretch, overreach, or get out of bed unassisted, which are common causes of falls.\n\nA is incorrect: A dark room increases the risk of falls if the client gets up at night. A low-level night light should be used.\n\nB is incorrect: Using all four side rails is considered a physical restraint and can increase the risk of injury if a confused or agitated client tries to climb over them.\n\nD is incorrect: Independent ambulation at night should be discouraged for a client at high risk for falls. The client should be instructed to call for assistance.",
+    "additional": "Fall prevention is a major nursing responsibility, especially in geriatrics. A comprehensive fall prevention plan includes a risk assessment, medication review, ensuring a clutter-free environment, providing non-skid footwear, and implementing a scheduled toileting routine to reduce the need for the patient to get up unassisted."
+  },
+  {
+    "question": "An older adult is newly diagnosed with dementia. Which nursing action is most appropriate?",
+    "options": {
+      "A": "Give multiple tasks at once",
+      "B": "Use restraints when wandering",
+      "C": "Provide a structured daily routine",
+      "D": "Encourage independence in decision-making"
+    },
+    "answer": "C",
+    "explanation": "Individuals with dementia experience progressive cognitive decline, including memory loss and difficulty with planning and reasoning. They thrive in a predictable and familiar environment. A structured daily routine for meals, activities, and rest provides a sense of security and safety, reduces anxiety and confusion, and can help manage challenging behaviors.\n\nA is incorrect: Giving multiple tasks at once will overwhelm the person and lead to frustration and failure. Instructions should be simple and one-step at a time.\n\nB is incorrect: Restraints are a last resort as they increase agitation, distress, and the risk of injury. Wandering should be managed with safer interventions (e.g., creating a safe walking path, using alarms, providing engaging activities).\n\nD is incorrect: While promoting autonomy is important, dementia impairs judgment. Encouraging full independence in complex decisions is inappropriate. It is better to offer simple, limited choices (e.g., \"Would you like to wear the red shirt or the blue shirt?\").",
+    "additional": "Nursing care for dementia focuses on safety, dignity, and quality of life. Key strategies include validation therapy (validating the person's feelings rather than correcting their reality), reminiscence therapy, and managing \"sundowning\" (increased confusion and agitation in the late afternoon/evening) by maintaining a calm environment and adequate lighting."
+  },
+  {
+    "question": "A nurse is teaching a patient on anti-tuberculosis drugs and their side effects. Which medication is known to cause orange discoloration of body fluids?",
+    "options": {
+      "A": "Isoniazid",
+      "B": "Rifampin",
+      "C": "Ethambutol",
+      "D": "Pyrazinamide"
+    },
+    "answer": "B",
+    "explanation": "This is a classic pharmacological fact. Rifampin (also known as Rifampicin) is well-known for causing a harmless reddish-orange discoloration of body fluids, including urine, sweat, tears, and saliva. This can permanently stain soft contact lenses. It is a critical piece of information to include in patient teaching to prevent alarm.",
+    "additional": "For the NCK exam, it is vital to know the main side effects of the first-line anti-TB drugs (RIPE):\n\nRifampin: Red-orange fluids, Hepatotoxicity, Potent P450 enzyme inducer (many drug interactions).\n\nIsoniazid (INH): Hepatotoxicity, Peripheral Neuropathy (prevented with Pyridoxine - Vitamin B6).\n\nPyrazinamide: Hepatotoxicity, Hyperuricemia (can precipitate gout).\n\nEthambutol: Eye problems (optic neuritis, resulting in decreased visual acuity and red-green color blindness)."
+  },
+  {
+    "question": "In singleton pregnancy the fundal height reaches the umbilicus at:",
+    "options": {
+      "A": "26-28 weeks",
+      "B": "24-26weeks",
+      "C": "20-22weeks",
+      "D": "22-24 weeks"
+    },
+    "answer": "C",
+    "explanation": "Fundal height is a measure of the size of the uterus used to assess fetal growth and development during pregnancy. There are key anatomical landmarks for estimating gestational age:\n\n~12 weeks: The fundus is palpable just above the symphysis pubis.\n\n~16 weeks: The fundus is midway between the symphysis pubis and the umbilicus.\n\n~20-22 weeks: The fundus is at the level of the umbilicus.\n\n~36 weeks: The fundus is at its highest point, at the xiphoid process.\n\nAfter 20 weeks, the fundal height in centimeters (measured from the symphysis pubis to the top of the fundus) corresponds roughly to the number of weeks of gestation (+/- 2 cm).",
+    "additional": "Measuring fundal height is a fundamental part of every antenatal visit. A measurement that is significantly smaller than expected for gestational age may indicate Intrauterine Growth Restriction (IUGR) or oligohydramnios. A measurement that is larger than expected may indicate a multiple gestation, macrosomia (large baby), or polyhydramnios. Any discrepancy requires further investigation, usually with an ultrasound."
+  },
+  {
+    "question": "The expected date of delivery for a mother whose the first day of the last menstrual period was 24.9.2014 is:-",
+    "options": {
+      "A": "31.7.2014",
+      "B": "1.7.2015",
+      "C": "31.6.2015",
+      "D": "1.6.2015"
+    },
+    "answer": "B",
+    "explanation": "The Expected Date of Delivery (EDD) or Estimated Date of Confinement (EDC) is calculated using Naegele's Rule. The rule is:\n\nEDD = (First day of Last Menstrual Period - 3 months) + 7 days + 1 year\n\nLet's apply it to the date 24.9.2014:\n\nStart with the LMP: 24th September 2014\n\nSubtract 3 months: 24th June 2014\n\nAdd 7 days: 24 + 7 = 31st. This gives us 31st June.\n\nAdjust for the month and add 1 year: Since June only has 30 days, 31st June becomes 1st July. The year changes from 2014 to 2015.\n\nResult: 1st July 2015\n\nNote: The options C and D are invalid dates (June has only 30 days). This makes B the only plausible answer even without calculation.",
+    "additional": "Naegele's rule is a staple of obstetric calculations and is very likely to appear on the NCK exam. It's based on a standard 28-day menstrual cycle. For women with longer or shorter cycles, adjustments may be needed. However, for testing purposes, assume a 28-day cycle unless stated otherwise. Ultrasound in the first trimester is the most accurate method for dating a pregnancy."
+  },
+  {
+    "question": "Unstable angina is considered a medical emergency because:",
+    "options": {
+      "A": "It is always caused by a complete coronary artery blockage",
+      "B": "It does not respond to medication",
+      "C": "It signals an increased risk of myocardial infarction",
+      "D": "It is due to coronary artery spasm"
+    },
+    "answer": "C",
+    "explanation": "Unstable angina is a key component of Acute Coronary Syndrome (ACS). It is characterized by chest pain that is new in onset, occurs at rest, or has a worsening pattern. This indicates that a plaque in a coronary artery has ruptured, and a thrombus is forming, causing significant but incomplete occlusion of the artery. This state is highly unstable, and the thrombus can easily grow to completely block the artery, leading to a myocardial infarction (MI), or heart attack. Therefore, it's a medical emergency because it is a direct precursor to an MI.\n\nA is incorrect: A complete blockage causes an MI (specifically, a STEMI). Unstable angina is caused by a severe but incomplete blockage.\n\nB is incorrect: It may or may not respond to nitroglycerin, but its defining feature is its unpredictable pattern, not its response to medication.\n\nD is incorrect: Angina due to coronary artery spasm is called Prinzmetal's or variant angina, which is a different pathophysiology.",
+    "additional": "The immediate management of a patient with suspected unstable angina involves obtaining an ECG, administering Aspirin, Nitroglycerin, Oxygen (if hypoxic), and Morphine (for pain), and preparing the patient for further diagnostic tests (like troponin levels) and potential interventions (like cardiac catheterization and PCI/stenting)."
+  },
+  {
+    "question": "One definite indication of caesarean section is:",
+    "options": {
+      "A": "Severe pregnancy induced hypertension",
+      "B": "Previous caesarean section scar",
+      "C": "Antepartum hemorrhage",
+      "D": "Cephalopelvic disproportion"
+    },
+    "answer": "D",
+    "explanation": "A definite or absolute indication for a caesarean section is a condition where vaginal birth is impossible or would be catastrophic. Cephalopelvic disproportion (CPD), where the fetal head is too large to pass through the maternal pelvis, is a classic example of an absolute indication. Vaginal delivery is physically impossible in true CPD.\n\nA, B, and C are all relative indications. Vaginal delivery may still be possible or even preferred in some cases of severe PIH, previous C-section (a trial of labor after caesarean, or TOLAC, is often an option), and some types of antepartum hemorrhage (e.g., a minor placenta previa). The decision depends on the specific clinical situation.",
+    "additional": "Other absolute indications for a caesarean section include:\n\nComplete (or central) placenta previa.\n\nActive genital herpes outbreak at the time of labor.\n\nCertain fetal malpresentations like a transverse lie or a persistent mento-posterior (chin posterior) face presentation.\n\nUmbilical cord prolapse (requires an emergency C-section)."
+  },
+  {
+    "question": "In a fencing position, that is the baby lying on the back, head is rotated to one side with one arm and leg partially or completely extended. The opposite arm and leg are simultaneously flexed. This is referred to as:",
+    "options": {
+      "A": "Asymmetrical tonic neck reflex",
+      "B": "Rooting reflex",
+      "C": "Babinski's reflex",
+      "D": "Gag reflex"
+    },
+    "answer": "A",
+    "explanation": "The Asymmetrical Tonic Neck Reflex (ATNR), also known as the \"fencing reflex,\" is a primitive reflex found in newborns. When the infant's head is turned to one side, the arm and leg on that same side extend, while the arm and leg on the opposite side flex. The reflex typically disappears by 4-6 months of age.\n\nRooting reflex (B): Stroking the infant's cheek causes them to turn their head towards the stimulus and open their mouth.\n\nBabinski's reflex (C): Stroking the sole of the foot causes the big toe to extend and the other toes to fan out.\n\nGag reflex (D): A protective reflex to prevent choking.",
+    "additional": "The assessment of primitive reflexes is a key part of the neonatal neurological examination. The presence of these reflexes at birth and their disappearance at the appropriate age indicates normal neurological development. The persistence of primitive reflexes beyond the expected age can be a sign of a neurological problem."
+  },
+  {
+    "question": "Perinatal mortality refers to foetal and infants deaths including still births occurring from 28 weeks of gestation to within the first:",
+    "options": {
+      "A": "Two weeks of life per 1000 live births",
+      "B": "One week of life per 1000 live births",
+      "C": "Four weeks of life per 1000 live births",
+      "D": "Six weeks of life per 1000 live births"
+    },
+    "answer": "B",
+    "explanation": "The Perinatal Period, as defined by the WHO for international comparison, commences at 22 completed weeks (154 days) of gestation and ends seven completed days after birth. The Perinatal Mortality Rate is the number of stillbirths and deaths in the first week of life (early neonatal deaths) per 1000 total births. The definition in the question (starting from 28 weeks) is an older definition but still points to the period around birth. The crucial part is that it ends at the completion of the first week of life (7 days). The rate is expressed per 1000 births.",
+    "additional": "Understanding key epidemiological definitions is important for public health nursing.\n\nNeonatal Mortality Rate: Deaths occurring from birth to 28 completed days of life, per 1000 live births.\n\nInfant Mortality Rate: Deaths occurring from birth to the first birthday, per 1000 live births.\n\nMaternal Mortality Ratio: The number of maternal deaths during pregnancy or within 42 days of termination of pregnancy, per 100,000 live births."
+  },
+  {
+    "question": "Which of the following is a component of Cushing's Triad?",
+    "options": {
+      "A": "Hypertension",
+      "B": "Bradycardia",
+      "C": "Tachypnea",
+      "D": "Hyperthermia"
+    },
+    "answer": "A and B",
+    "explanation": "Cushing's Triad is a set of three clinical signs that indicates a late and ominous sign of increased intracranial pressure (ICP). As ICP rises, it begins to compress the brainstem. The triad consists of:\n\nHypertension: Specifically, a widening pulse pressure (an increase in the difference between the systolic and diastolic blood pressure).\n\nBradycardia: A slow, bounding pulse.\n\nIrregular Respirations: Such as Cheyne-Stokes respirations.\n\nTachypnea (C) and Hyperthermia (D) are not part of the triad.",
+    "additional": "Cushing's Triad is a neurological emergency. It signals impending brain herniation. The nurse's role is to recognize these signs immediately and report them to the physician. Interventions to lower ICP (such as elevating the head of the bed, administering mannitol or hypertonic saline, and managing ventilation) must be initiated urgently. This is a critical concept in neuro-nursing."
+  },
+  {
+    "question": "A patient with Cushing's syndrome is most likely to exhibit which of the following electrolyte imbalances?",
+    "options": {
+      "A": "Hyperkalemia and hyponatremia",
+      "B": "Hypokalemia and hypernatremia",
+      "C": "Hypercalcemia and hyponatremia",
+      "D": "Hypocalcemia and hyperkalemia"
+    },
+    "answer": "B",
+    "explanation": "Cushing's syndrome is a condition caused by prolonged exposure to high levels of cortisol. Cortisol has mineralocorticoid effects, similar to aldosterone. This leads to:\n\nSodium retention: The kidneys are stimulated to reabsorb sodium and water, leading to hypernatremia and fluid volume excess (hypertension, edema).\n\nPotassium excretion: The kidneys are stimulated to excrete potassium, leading to hypokalemia.\nThis combination of high sodium and low potassium is characteristic of the condition.",
+    "additional": "Other key features of Cushing's syndrome, all related to excess cortisol, include:\n\nHyperglycemia: Cortisol promotes gluconeogenesis.\n\nCentral obesity, \"moon face,\" and \"buffalo hump\": Due to redistribution of fat.\n\nMuscle wasting and thin skin: Due to the catabolic effects of cortisol on protein.\n\nIncreased risk of infection: Cortisol suppresses the immune system.\nNCK questions often test on the clinical manifestations and metabolic changes associated with endocrine disorders like Cushing's and Addison's disease (which has the opposite electrolyte pattern: hyponatremia and hyperkalemia)."
+  },
+  {
+    "question": "Which of the following is the most reliable initial test to confirm primary hypothyroidism?",
+    "options": {
+      "A": "Free T4",
+      "B": "T3 uptake",
+      "C": "TSH",
+      "D": "Thyroid peroxidase antibody"
+    },
+    "answer": "C",
+    "explanation": "The hypothalamic-pituitary-thyroid axis works on a negative feedback loop. The pituitary gland produces Thyroid-Stimulating Hormone (TSH), which tells the thyroid gland to produce thyroid hormones (T4 and T3).\n\nIn primary hypothyroidism, the thyroid gland itself is failing. It cannot produce enough T4 and T3.\n\nThe pituitary gland senses the low levels of thyroid hormone and, in an attempt to stimulate the failing gland, it dramatically increases its production of TSH.\n\nTherefore, an elevated TSH level is the most sensitive and reliable initial test for diagnosing primary hypothyroidism. A high TSH combined with a low Free T4 (A) confirms the diagnosis.",
+    "additional": "It's important to differentiate between primary and secondary hypothyroidism:\n\nPrimary Hypothyroidism: Problem is in the thyroid gland. TSH is HIGH, Free T4 is LOW.\n\nSecondary Hypothyroidism: Problem is in the pituitary gland (not producing enough TSH). TSH is LOW, Free T4 is LOW.\nThyroid peroxidase antibodies (D) are measured to diagnose Hashimoto's thyroiditis, the most common autoimmune cause of primary hypothyroidism."
+  },
+  {
+    "question": "Which of the following drugs can cause severe hematologic disorders?",
+    "options": {
+      "A": "Digoxin",
+      "B": "Quinidine",
+      "C": "Procainamide",
+      "D": "Disopyramide"
+    },
+    "answer": "C",
+    "explanation": "Procainamide, a Class IA antiarrhythmic drug, is well-known for its potential to cause serious hematologic side effects, including agranulocytosis (a severe drop in white blood cells, especially neutrophils), thrombocytopenia, and hemolytic anemia. Due to this risk, patients on long-term procainamide therapy require regular monitoring of their complete blood count (CBC). Another significant side effect is a drug-induced lupus-like syndrome. Quinidine (B), another Class IA agent, is more classically associated with thrombocytopenia. However, agranulocytosis with procainamide is a very serious and frequently tested adverse effect.",
+    "additional": "Many drugs can cause blood dyscrasias. For NCK exam preparation, it is useful to know a few key examples:\n\nClozapine (antipsychotic): Agranulocytosis\n\nMethimazole/Carbimazole (antithyroid): Agranulocytosis\n\nHeparin: Heparin-Induced Thrombocytopenia (HIT)\n\nChemotherapy agents: Bone marrow suppression (pancytopenia)"
+  },
+  {
+    "question": "A client with diabetes insipidus is taking antidiuretic hormone. Which of the following symptoms would alert the need to decrease the dosage?",
+    "options": {
+      "A": "Alopecia",
+      "B": "Jaundice",
+      "C": "Diarrhea",
+      "D": "Drowsiness"
+    },
+    "answer": "D",
+    "explanation": "Diabetes Insipidus (DI) is a condition of insufficient Antidiuretic Hormone (ADH), leading to massive polyuria (excretion of large volumes of dilute urine) and intense thirst. Treatment involves replacing ADH with a synthetic analogue like desmopressin. If the dose of desmopressin is too high, the patient will retain too much water. This leads to dilutional hyponatremia (low sodium levels in the blood). Early signs and symptoms of hyponatremia include headache, nausea, and drowsiness, which can progress to confusion, seizures, and coma. Therefore, drowsiness is a key sign of over-treatment and water intoxication.",
+    "additional": "The nurse's role in managing a patient on desmopressin is to carefully monitor for signs of both under-treatment (polyuria, thirst, dehydration, hypernatremia) and over-treatment (decreased urine output, fluid overload, hyponatremia). This includes strict intake and output monitoring, daily weights, and assessment of neurological status."
+  },
+  {
+    "question": "The nurse is monitoring a client with glaucoma. Which of the following drugs, if prescribed for the client, would the nurse question?",
+    "options": {
+      "A": "Metipranolol",
+      "B": "Atropine",
+      "C": "Dorzolamide",
+      "D": "Brimonidine"
+    },
+    "answer": "B",
+    "explanation": "Glaucoma is a condition of increased intraocular pressure (IOP). Atropine is an anticholinergic and mydriatic agent, meaning it dilates the pupil. In patients with angle-closure glaucoma (the less common but more acute form), dilating the pupil causes the iris to bunch up and block the trabecular meshwork, which is the drainage system for the aqueous humor. This blockage dramatically increases IOP and can precipitate an acute glaucoma attack, a medical emergency that can lead to blindness. Therefore, atropine and other anticholinergic drugs are contraindicated in patients with angle-closure glaucoma. The other drugs are used to treat glaucoma by decreasing IOP:\n\nMetipranolol is a beta-blocker.\n\nDorzolamide is a carbonic anhydrase inhibitor.\n\nBrimonidine is an alpha-adrenergic agonist.",
+    "additional": "Nurses must always be aware of contraindications. If a nurse sees a prescription for atropine (e.g., as a pre-operative medication to dry secretions) for a patient with a known history of glaucoma, they have a professional responsibility to question that order with the prescriber."
+  },
+  {
+    "question": "A condition of trial of scar is:",
+    "options": {
+      "A": "Estimated foetal weight of less than 3600g",
+      "B": "Availability of a level one hospital nearby",
+      "C": "Not more than two previous caesarean section scar",
+      "D": "An adequate pelvis with true conjugate 10.5cm"
+    },
+    "answer": "D",
+    "explanation": "A \"trial of scar\" is more commonly known as a Trial of Labor After Caesarean (TOLAC). It is a planned attempt to have a vaginal birth after a previous C-section. For a TOLAC to be considered safe, certain conditions must be met. One of the most important is that the reason for the previous C-section should not be a recurring one. An adequate pelvis is a key prerequisite. If the mother has a contracted pelvis (e.g., a true conjugate of less than 11 cm), another vaginal birth is unlikely to succeed and would increase the risk of uterine rupture. A true conjugate of 10.5 cm is borderline/inadequate, making a C-section the safer option.\n\nA, B, and C are related to TOLAC criteria, but are less definitive or incorrect. An EFW of >4000g is often a contraindication. A TOLAC must be conducted in a hospital capable of performing an emergency C-section, not just have one \"nearby\". The risk of rupture increases significantly after two or more previous C-sections, so most guidelines recommend against TOLAC in that case.",
+    "additional": "The greatest risk of a TOLAC is uterine rupture, a catastrophic event. Continuous electronic fetal monitoring is mandatory during a TOLAC. The nurse must be vigilant for signs of impending rupture, which include a loss of fetal station, a non-reassuring fetal heart rate pattern (often bradycardia), and a change in uterine contraction pattern or severe abdominal pain."
+  },
+  {
+    "question": "An early sign of a ruptured uterus includes",
+    "options": {
+      "A": "Maternal dehydration",
+      "B": "Maternal pyrexia >38°C",
+      "C": "Maternal oliguria",
+      "D": "Failure of cervix to dilate"
+    },
+    "answer": "D",
+    "explanation": "This is a complex question, and the signs of uterine rupture can be subtle or dramatic. The most common first sign is actually an abnormality in the fetal heart rate. Among the choices given:\n\nUterine rupture can present in various ways. While classic signs include sudden, severe abdominal pain and hemodynamic collapse, the early signs can be more subtle, especially during a TOLAC. A key sign of impending or actual uterine rupture can be the cessation of effective labor. The uterine contractions may become weaker, or the cervix may stop dilating and the fetal head may stop descending or even rise in the pelvis (loss of station). This \"failure to progress\" in a previously progressing labor should raise a high index of suspicion. The other options are non-specific signs that could be due to many causes during labor.",
+    "additional": "The most reliable and often the first sign of uterine rupture is a sudden, sustained fetal bradycardia or severe, prolonged decelerations on the fetal monitor. Any abrupt and significant change in the fetal heart rate trace during a TOLAC must be considered a potential uterine rupture until proven otherwise, and preparations for an emergency caesarean section should begin immediately."
+  },
+  {
+    "question": "The exogenous causative organisms to puerperal infection include:-",
+    "options": {
+      "A": "Escherichia coli, clostridium welchi.",
+      "B": "Streptococcus faecalis, haemolytic streptococcus.",
+      "C": "Staphylococcus aureus, Escherichia coli.",
+      "D": "Haemolytic streptococcus, staphylococcus aureus"
+    },
+    "answer": "D",
+    "explanation": "Puerperal infection (or puerperal sepsis) is any bacterial infection of the female reproductive tract following childbirth or miscarriage. The sources of infection can be endogenous (from the woman's own vaginal or bowel flora) or exogenous (from an external source).\n\nExogenous organisms are typically introduced from the outside environment, often via the hands of healthcare providers, non-sterile instruments, or airborne droplets. The most historically significant and classic exogenous organisms are Group A Beta-Haemolytic Streptococcus (Streptococcus pyogenes) and Staphylococcus aureus.\n\nOrganisms like E. coli, Clostridium welchii, and Streptococcus faecalis (now known as Enterococcus faecalis) are part of the normal bowel and vaginal flora and are more commonly associated with endogenous infections.",
+    "additional": "Prevention of puerperal sepsis was a major breakthrough in obstetrics, championed by figures like Ignaz Semmelweis, who proved the importance of handwashing. Modern prevention relies on strict aseptic technique during delivery, minimizing vaginal examinations, and prompt treatment of any underlying infections. Nurses must be vigilant for signs of puerperal infection, which include fever, tachycardia, uterine tenderness, and foul-smelling lochia."
+  },
+  {
+    "question": "Indicate whether the following statements are TRUE or FALSE by indicating the correct answer sheet provided.\nA. In the management of shoulder dystocia, Wood's Maneuver is executed by exerting pressure on the anterior fetal shoulder to achieve rotation.\nB. Zavanelli Maneuver is an obstetric maneuver that involves pushing back the delivered fetal head into the birth canal in anticipation of performing a cesarean section in case of shoulder dystocia.",
+    "options": {
+      "A": "A-FALSE, B-TRUE.",
+      "B": "A-TRUE, B-FALSE."
+    },
+    "answer": "A",
+    "explanation": "Statement A: The Wood's Corkscrew Maneuver involves applying pressure to the posterior aspect of the posterior fetal shoulder (or the anterior aspect of the posterior shoulder) to rotate the fetus and dislodge the impacted anterior shoulder from behind the symphysis pubis. Applying pressure to the anterior shoulder would only worsen the impaction.\n\nStatement B: The Zavanelli Maneuver is a \"heroic\" last-resort maneuver for an unresolved shoulder dystocia. It involves reversing the process of delivery by performing cephalic replacement—flexing and pushing the fetal head back up into the vagina and uterus—followed by an immediate emergency caesarean section. It is associated with high rates of maternal and fetal morbidity and mortality.",
+    "additional": "Shoulder dystocia is an obstetric emergency. The initial management uses the HELPERR mnemonic:\n\nHelp: Call for help (obstetrician, anesthesiologist, pediatrician).\n\nEvaluate for episiotomy.\n\nLegs: McRoberts maneuver (hyperflexing the mother's legs onto her abdomen).\n\nPressure: Suprapubic pressure (to push the anterior shoulder down and under the symphysis pubis).\n\nEnter maneuvers: Internal rotation maneuvers like the Wood's corkscrew or Rubin maneuver.\n\nRemove the posterior arm.\n\nRoll the patient: To the hands-and-knees position (Gaskin maneuver)."
+  },
+  {
+    "question": "A client with idiopathic thrombocytopenic purpura (ITP), an autoimmune disorder, is admitted to an acute care facility. Concerned about hemorrhage, the nurse monitors the client's platelet count and observes closely for signs and symptoms of bleeding. The client is at greatest risk for cerebral hemorrhage when the platelet count falls below:",
+    "options": {
+      "A": "10,000/μL.",
+      "B": "20,000/μL.",
+      "C": "150,000/μL.",
+      "D": "75,000/μL."
+    },
+    "answer": "A",
+    "explanation": "In ITP, the immune system destroys platelets. A normal platelet count is 150,000-450,000/μL. The risk of bleeding increases as the platelet count falls. The greatest risk for life-threatening spontaneous hemorrhage, such as an intracranial (cerebral) hemorrhage, occurs when the platelet count is critically low. This is generally considered to be at a level below 10,000/μL. While a risk of serious bleeding exists below 20,000/μL (B), the risk of spontaneous, severe bleeding is highest below 10,000/μL.",
+    "additional": "Nursing care for a patient with severe thrombocytopenia is known as \"bleeding precautions.\" This includes:\n\nAvoiding IM injections and using the smallest gauge needle possible for any necessary injections.\n\nApplying prolonged pressure to venipuncture sites.\n\nUsing a soft-bristle toothbrush and avoiding flossing.\n\nAvoiding medications that interfere with platelet function (e.g., aspirin, NSAIDs).\n\nMonitoring for signs of bleeding (petechiae, purpura, epistaxis, hematuria, melena) and performing regular neurological assessments to detect early signs of intracranial bleeding."
+  },
+  {
+    "question": "The nurse is caring for a client who has been diagnosed with pernicious anemia. Which statement by the client indicates an understanding of the treatment of pernicious anemia?",
+    "options": {
+      "A": "‘I will need to take vitamin B 12 replacements for the rest of my life.",
+      "B": "I'll need to increase my dietary intake of foods that are high in vitamin B12.",
+      "C": "I understand that the oral form of vitamin B12 is preferred because it's safer and less expensive than the injection form.",
+      "D": "I'll receive my first injection of vitamin B12 tomorrow, and I'll return for a follow-up injection in 1 month."
+    },
+    "answer": "A",
+    "explanation": "Pernicious anemia is an autoimmune disease where the body cannot produce intrinsic factor, a substance made in the stomach that is essential for the absorption of vitamin B12 from the gut. Because the underlying defect in absorption is permanent, the treatment must be lifelong.\n\nB is incorrect: Increasing dietary intake will not help because the vitamin cannot be absorbed without intrinsic factor.\n\nC is incorrect: The standard treatment is parenteral (injection) B12 because it bypasses the need for gastrointestinal absorption. While very high-dose oral forms exist, injections are the traditional and most reliable method.\n\nD is incorrect: The initial treatment involves a loading dose phase with frequent injections (e.g., daily or weekly for several weeks) to replenish stores, followed by monthly maintenance injections for life. A single follow-up in one month is not the complete picture.",
+    "additional": "Vitamin B12 is crucial for red blood cell production and neurological function. Deficiency leads to megaloblastic anemia and can cause irreversible neurological damage (subacute combined degeneration of the spinal cord). Nurses must educate patients on the importance of adhering to their lifelong injection schedule."
+  },
+  {
+    "question": "In management of primary postpartum Haemorrhage the uterine contractions are maintained by giving:",
+    "options": {
+      "A": "40 units of syntocinon in ½ litre intravenous fluid",
+      "B": "40 units of syntocinon in 1 litre intravenous fluid",
+      "C": "20 units of syntocinon in 1 litre intravenous fluid",
+      "D": "20 units of syntocinon stat"
+    },
+    "answer": "B",
+    "explanation": "The most common cause of primary postpartum hemorrhage (PPH) is uterine atony (a \"boggy,\" poorly contracted uterus). The first-line pharmacological treatment is to administer a uterotonic agent to make the uterus contract firmly. Synthetic oxytocin (Syntocinon) is the primary drug used. The standard protocol for treating PPH due to atony is to administer a high-dose oxytocin infusion. A common regimen recommended by WHO and other bodies is 40 units of oxytocin in 1000 mL (1 litre) of a crystalloid solution (like Normal Saline or Ringer's Lactate), infused at a rate of 250 mL/hour. This provides a continuous stimulus to maintain uterine tone. The other options represent incorrect dosages or administration methods for PPH management.",
+    "additional": "Management of PPH is a critical skill for nurses and midwives. The initial response involves:\n\nCalling for help.\n\nInitiating vigorous fundal massage.\n\nEnsuring patent IV access and administering uterotonics (Oxytocin is first-line; others include Ergometrine, Misoprostol, and Carboprost).\n\nAdministering IV fluids to manage hypovolemia.\n\nEmptying the bladder (a full bladder can impede uterine contraction).\n\nRapidly assessing for the cause (the 4 T's: Tone, Trauma, Tissue, Thrombin)."
+  },
+  {
+    "question": "The mechanism of labor that allows the fetal head to present itself to fit the widest anteroposterior diameter of the pelvic cavity is:-",
+    "options": {
+      "A": "Flexion",
+      "B": "Internal rotation",
+      "C": "Descent",
+      "D": "Extension"
+    },
+    "answer": "B",
+    "explanation": "This question is about the cardinal movements of labor. The widest diameter of the pelvic inlet is the transverse diameter, so the fetus typically enters the pelvis in an occiput-transverse (OT) position. As the fetus descends, it reaches the mid-pelvis, where the widest diameter is the anteroposterior (AP) diameter. To align its own longest diameter (the AP diameter of the head) with the pelvis's widest diameter, the fetal head must undergo internal rotation. It rotates 90 degrees from OT to occiput-anterior (OA). This crucial movement allows it to navigate the narrowest part of the pelvis (the ischial spines).\n\nFlexion (A): Occurs as the head descends, allowing the smallest diameter (suboccipitobregmatic) to present.\n\nDescent (C): The continuous downward movement of the fetus.\n\nExtension (D): Occurs at the pelvic outlet as the head passes under the symphysis pubis.",
+    "additional": "A thorough understanding of the seven cardinal movements of labor is essential for NCK obstetrics questions: Engagement -> Descent -> Flexion -> Internal Rotation -> Extension -> External Rotation (Restitution) -> Expulsion."
+  },
+  {
+    "question": "A client with a stroke exhibits aphasia. Which nursing intervention is most appropriate?",
+    "options": {
+      "A": "Speak slowly and use simple sentences",
+      "B": "Avoid using gestures or pictures",
+      "C": "Expect the client to answer in full sentences",
+      "D": "Provide lengthy verbal explanations"
+    },
+    "answer": "A",
+    "explanation": "Aphasia is an impairment of language, affecting the production or comprehension of speech and the ability to read or write. The most effective communication strategy is to simplify the message. Speaking slowly and using short, simple, direct sentences gives the client time to process the information and reduces frustration. It is also helpful to use non-verbal cues.\n\nB is incorrect: Gestures, pictures, and communication boards are excellent tools to supplement verbal communication and should be used.\n\nC is incorrect: Expecting full sentences is unrealistic and will increase the client's anxiety and frustration.\n\nD is incorrect: Lengthy explanations will overwhelm the client's ability to process language.",
+    "additional": "Key communication strategies for aphasia include:\n\nGiving the person ample time to respond. Don't rush them.\n\nAsking \"yes\" or \"no\" questions to reduce the need for complex verbal output.\n\nMaintaining a quiet environment with minimal distractions.\n\nUsing a calm, reassuring tone of voice.\n\nAssuming the client can understand, even if they cannot speak. Do not \"talk down\" to them."
+  },
+  {
+    "question": "A client with psoriasis asks the nurse about treatment options. Which response by the nurse is most accurate?",
+    "options": {
+      "A": "Antibiotics are the main treatment for psoriasis.",
+      "B": "You should avoid all sunlight exposure.”",
+      "C": "Topical corticosteroids can help reduce inflammation.",
+      "D": "Psoriasis can be cured with antifungal cream."
+    },
+    "answer": "C",
+    "explanation": "Psoriasis is a chronic, autoimmune inflammatory skin disease. A mainstay of treatment for mild to moderate psoriasis is the use of topical corticosteroids. These medications work by reducing the inflammation and slowing the rapid cell turnover that causes the characteristic scaly plaques.\n\nA and D are incorrect: Psoriasis is an autoimmune condition, not a bacterial or fungal infection. Antibiotics and antifungals are ineffective.\n\nB is incorrect: While severe sunburn can trigger a psoriasis flare (Koebner phenomenon), controlled exposure to ultraviolet (UV) light (phototherapy) is actually a very effective treatment for moderate to severe psoriasis. Therefore, avoiding all sunlight is incorrect advice.",
+    "additional": "Nursing care for psoriasis involves educating the client about the chronic nature of the disease, trigger factors (stress, infection, skin injury), and the importance of adherence to treatment. Emollients are also crucial to keep the skin hydrated and reduce scaling. For severe disease, systemic treatments like methotrexate or biologic agents may be used."
+  },
+  {
+    "question": "Specific management of moderate pre-eclampsia involves:",
+    "options": {
+      "A": "Admission at first contact",
+      "B": "Managing as an outpatient case",
+      "C": "Admission in the intensive care unit",
+      "D": "Encouraging plenty of oral fluids"
+    },
+    "answer": "A",
+    "explanation": "Pre-eclampsia is a serious multi-system disorder of pregnancy characterized by hypertension and proteinuria. It exists on a spectrum from mild to severe. Any diagnosis of pre-eclampsia, even if classified as \"moderate,\" carries a significant risk of progressing suddenly to severe pre-eclampsia or eclampsia (seizures). Therefore, standard practice is immediate admission to the hospital for close maternal and fetal monitoring. This allows for prompt intervention if the condition worsens.\n\nB is incorrect: Outpatient management is generally reserved for stable gestational hypertension without proteinuria. It is not appropriate for pre-eclampsia.\n\nC is incorrect: The ICU is reserved for severe pre-eclampsia with complications or eclampsia. A high-dependency unit or labor and delivery ward is appropriate for moderate pre-eclampsia.\n\nD is incorrect: While hydration is important, \"encouraging plenty\" of fluids might be contraindicated if there is evidence of fluid overload, pulmonary edema, or renal compromise. Fluid management is often carefully controlled.",
+    "additional": "The only definitive cure for pre-eclampsia is delivery of the fetus and placenta. Management involves balancing the risks of continued pregnancy against the risks of prematurity. Key nursing interventions include frequent monitoring of blood pressure, assessing for signs of worsening disease (headache, visual disturbances, epigastric pain), checking reflexes for hyperreflexia/clonus, monitoring fluid balance, and administering antihypertensive medications and magnesium sulfate (for seizure prophylaxis in severe cases)."
+  },
+  {
+    "question": "Some of the neonatal complications of eclampsia are:",
+    "options": {
+      "A": "Cerebral haemorrhage and pneumonia",
+      "B": "Severe asphyxia and prematurity",
+      "C": "Fractures and soft tissue trauma",
+      "D": "Respiratory distress and hypoglycaemia"
+    },
+    "answer": "B",
+    "explanation": "Eclampsia (the occurrence of seizures in a woman with pre-eclampsia) and the underlying severe pre-eclampsia have profound effects on the fetus, primarily through placental insufficiency.\n\nThe uteroplacental perfusion is severely compromised, leading to chronic fetal hypoxia and intrauterine growth restriction (IUGR). During a seizure, perfusion ceases entirely, which can cause profound asphyxia (lack of oxygen).\n\nThe definitive treatment for eclampsia is delivery, regardless of gestational age. This often results in a preterm birth, making prematurity and its associated complications (like respiratory distress syndrome) a major neonatal risk.\n\nOptions A, C, and D are all possible complications, but severe asphyxia and prematurity are the most direct and significant consequences.",
+    "additional": "Nursing care in the delivery room for a baby born to a mother with severe pre-eclampsia/eclampsia involves anticipating the need for resuscitation. The neonatal resuscitation team should be present at the delivery to manage potential asphyxia, respiratory distress, and other complications of prematurity and IUGR."
+  },
+  {
+    "question": "The PRIORITY management of uncomplicated malaria during the second trimester includes administration of:",
+    "options": {
+      "A": "Oral quinine",
+      "B": "Parenteral quinine",
+      "C": "Artemetherlumefantrine",
+      "D": "Sulphadoxinepyrimethamine"
+    },
+    "answer": "C",
+    "explanation": "This question tests knowledge of current national malaria treatment guidelines in Kenya.\n\nIn the first trimester, due to the potential teratogenicity of other drugs, the recommended treatment for uncomplicated malaria is Quinine + Clindamycin for 7 days.\n\nIn the second and third trimesters, the recommended first-line treatment for uncomplicated P. falciparum malaria is an Artemisinin-based Combination Therapy (ACT). The standard ACT used in Kenya is Artemether-Lumefantrine (AL).\n\nParenteral quinine (B) or parenteral artesunate would be used for severe or complicated malaria.\n\nSulphadoxine-Pyrimethamine (D) is used for prevention (IPTp), not for treatment of an active infection.",
+    "additional": "It is critical for nurses practicing in Kenya to be up-to-date with the latest National Guidelines for the Diagnosis, Treatment and Prevention of Malaria. These guidelines specify the correct drug, dosage, and duration of treatment based on the patient's age, weight, pregnancy status, and the severity of the illness."
+  },
+  {
+    "question": "Which one of the following statements is correct about secondary post-partum haemorrhage:",
+    "options": {
+      "A": "Mostly occurs between the 8th-14th day post-partum",
+      "B": "Results due to bleeding immediately after delivery",
+      "C": "Can extend up to the first 46 days following delivery",
+      "D": "Is diagnosed by presence of persistent lochia serosa"
+    },
+    "answer": "A",
+    "explanation": "Postpartum hemorrhage is classified by timing:\n\nPrimary PPH: Excessive bleeding within the first 24 hours of delivery.\n\nSecondary PPH: Excessive or abnormal bleeding occurring from 24 hours after delivery up to 6 weeks postpartum. The most common cause of secondary PPH is retained placental fragments or subinvolution of the placental site. This often presents with a sudden gush of fresh red bleeding, typically occurring between 8 and 14 days postpartum as the eschar over the placental site sloughs off.\n\nB is incorrect: That defines primary PPH.\n\nC is incorrect: While the definition can extend up to 12 weeks in some literature, 46 days is an unusually specific and non-standard timeframe. The standard is 6 weeks (42 days).\n\nD is incorrect: Persistent lochia serosa (a pinkish-brown discharge) is normal. Secondary PPH is diagnosed by a return to heavy, bright red bleeding (lochia rubra) after it had already subsided.",
+    "additional": "Management of secondary PPH involves assessing the patient for hemodynamic stability, using ultrasound to look for retained products of conception, and administering uterotonics and antibiotics. An examination under anesthesia with uterine evacuation (D&C) may be necessary."
+  },
+  {
+    "question": "The follicle stimulating hormone and luteinizing hormone are secreted by the:",
+    "options": {
+      "A": "Ovaries and testes",
+      "B": "Posterior pituitary gland",
+      "C": "Anterior pituitary gland",
+      "D": "Hypothalamus"
+    },
+    "answer": "C",
+    "explanation": "Follicle-Stimulating Hormone (FSH) and Luteinizing Hormone (LH) are known as gonadotropins because they act on the gonads (ovaries and testes). They are synthesized and secreted by the anterior pituitary gland. Their release is controlled by Gonadotropin-Releasing Hormone (GnRH), which comes from the hypothalamus (D). The posterior pituitary (B) secretes oxytocin and ADH. The ovaries and testes (A) are the target organs for FSH and LH and produce sex hormones (estrogen, progesterone, testosterone) in response.",
+    "additional": "This is a fundamental concept in reproductive endocrinology.\n\nIn females: FSH stimulates ovarian follicle growth. LH surge triggers ovulation and stimulates the corpus luteum to produce progesterone.\n\nIn males: FSH stimulates Sertoli cells for spermatogenesis. LH stimulates Leydig cells to produce testosterone. Understanding this hypothalamic-pituitary-gonadal axis is key to understanding the menstrual cycle, fertility, and contraception."
+  },
+  {
+    "question": "In monitoring fetal well being using the fetal kick chart (Cardiff 10) you will tell the client to notify you if she counts:-",
+    "options": {
+      "A": "More than 10 movements in 3hours",
+      "B": "Less than 10 movements in 3hours",
+      "C": "More than 10 movements per hour",
+      "D": "Less than 10 movements per hour"
+    },
+    "answer": "D",
+    "explanation": "Fetal movement counting (\"kick counts\") is a method used by the mother to monitor her baby's well-being, especially in the third trimester. There are several different protocols, but a common one, known as the \"Cardiff Count-to-10\" method, advises the mother to count 10 distinct fetal movements. A healthy baby should have at least 10 movements within a 1-2 hour period. If it takes longer than 2 hours to feel 10 movements, or if the mother perceives a significant decrease in the baby's usual pattern of movement, she should contact her healthcare provider immediately. Therefore, counting less than 10 movements per hour (or more accurately, less than 10 in 2 hours) is a trigger for notification.\n\nThe other options are less accurate representations of the standard clinical advice. Less than 10 in 3 hours (B) is also a concern, but the per-hour metric is a common initial screen.",
+    "additional": "It is crucial to teach the mother that she should be aware of her baby's own unique pattern of movement. Any significant change or reduction from this pattern is the most important indicator. Decreased fetal movement can be an early sign of fetal distress or compromise and requires further biophysical assessment, such as a Non-Stress Test (NST) or a Biophysical Profile (BPP)."
+  },
+  {
+    "question": "During the second stage of labour the midwife should:-",
+    "options": {
+      "A": "Do a vaginal examination to rule out cord prolapse",
+      "B": "Take maternal pulse after every 15 minutes",
+      "C": "Take fetal heart rate after every contraction",
+      "D": "Take fetal heart rate after every 15 minutes"
+    },
+    "answer": "C",
+    "explanation": "The second stage of labor (from full cervical dilatation to the birth of the baby) is a period of maximum stress for the fetus due to the powerful contractions and maternal pushing efforts. The most critical parameter to monitor is the fetal heart rate (FHR) response to this stress. For a low-risk woman, the standard of care is to auscultate the FHR after every contraction, or at least every 5 minutes, for a full minute. This allows for the timely detection of decelerations or other non-reassuring patterns that might indicate fetal distress.\n\nA is incorrect: A VE is done to assess progress, not routinely to rule out cord prolapse unless there is a specific indication like rupture of membranes with an unengaged head.\n\nB and D are incorrect: Monitoring every 15 minutes is the standard for the active phase of the first stage of labor, not the second stage, where monitoring must be more frequent.",
+    "additional": "Continuous Electronic Fetal Monitoring (EFM) is often used for high-risk pregnancies. If using intermittent auscultation, the midwife must listen immediately following a contraction to detect late decelerations. Maternal vital signs (pulse and BP) are typically monitored every 15–30 minutes during the second stage."
+  },
+  {
+    "question": "A patient's advance directive states they do not wish to be resuscitated, but the family insists the nurse perform CPR during a code situation. What should the nurse do?",
+    "options": {
+      "A": "Follow the family's wishes",
+      "B": "Begin CPR and clarify later",
+      "C": "Respect the patient's wishes and do not initiate CPR",
+      "D": "Notify the physician to resolve the conflict"
+    },
+    "answer": "C",
+    "explanation": "A valid advance directive (such as a living will or a Do Not Resuscitate - DNR order) is a legal document that expresses the patient's wishes regarding medical treatment. A competent adult has the right to refuse medical treatment, including life-sustaining treatment like CPR. This right is known as patient autonomy. The nurse's primary ethical and legal obligation is to the patient. Therefore, the nurse must respect the patient's documented wishes and not initiate CPR, even if the family disagrees.\n\nFollowing the family's wishes (A) would violate the patient's autonomy and could constitute battery.\n\nBeginning CPR (B) is also a violation.\n\nWhile notifying the physician (D) is important for communication, the immediate decision during the code must be based on the existing valid order. The nurse should provide comfort and support to the family during this difficult time.",
+    "additional": "This is a classic medical ethics question. Nurses must be strong patient advocates. It is crucial to ensure that advance directives are clearly documented and readily accessible in the patient's chart and that discussions about end-of-life care happen with patients and families before a crisis occurs to prevent such conflicts."
+  },
+  {
+    "question": "The nurse is preparing to enter a patient's room under contact precautions. Which is the correct order for donning PPE?",
+    "options": {
+      "A": "Gown → Gloves → Mask → Goggles",
+      "B": "Hand hygiene → Gown → Mask → Goggles → Gloves",
+      "C": "Hand hygiene → Gloves → Gown → Mask → Goggles",
+      "D": "Mask → Goggles → Gloves → Gown"
+    },
+    "answer": "B",
+    "explanation": "There is a specific, logical sequence for donning (putting on) Personal Protective Equipment (PPE) designed to minimize contamination. The sequence generally proceeds from the \"body up,\" with gloves being last.\n\nHand Hygiene: The first and most critical step.\n\nGown: Put on the gown first to protect your clothing and arms.\n\nMask or Respirator: Secure the mask over your nose and mouth.\n\nGoggles or Face Shield: Protect your eyes.\n\nGloves: Gloves are put on last. The cuff of the glove should be pulled over the cuff of the gown to create a seal.\n\nOption B follows this standard sequence. (Note: for contact precautions only, a mask and goggles are not always required unless there is a risk of splashes, but the sequence given in B is the full, correct sequence).",
+    "additional": "The sequence for doffing (taking off) PPE is equally important and is designed to prevent self-contamination. It is typically done in the reverse order, removing the most contaminated items first: Gloves → Goggles → Gown → Mask, followed by hand hygiene."
+  },
+  {
+    "question": "During labor, the level of presenting part is estimated in relation to the maternal ischial spines in order to:",
+    "options": {
+      "A": "Assess the state of the cervix",
+      "B": "Assess the presenting diameter",
+      "C": "Assess the descent of the fetus in labour",
+      "D": "Assess the decent of the head"
+    },
+    "answer": "C",
+    "explanation": "The maternal ischial spines are the landmarks used to determine the station of the fetal presenting part. Station is a measurement of the descent of the fetus through the birth canal.\n\nWhen the lowermost part of the fetus is at the level of the ischial spines, it is at 0 station. This is also known as being \"engaged.\"\n\nIf the presenting part is above the spines, the station is recorded in negative numbers (-1, -2, -3 cm).\n\nIf the presenting part is below the spines, the station is recorded in positive numbers (+1, +2, +3 cm).\nTherefore, assessing the station is a direct measure of fetal descent. Option D is also correct, but C is more general and inclusive (\"fetus\" vs. just \"head\").",
+    "additional": "Assessing station is a key component of a vaginal examination during labor, along with assessing cervical dilatation, effacement, position, and consistency. Tracking the change in station over time is a primary way to evaluate the progress of labor."
+  },
+  {
+    "question": "At the beginning of third stage of labor, the fundal height is:",
+    "options": {
+      "A": "2-5cm below the umbilicus and 10cm above the symphysis pubis",
+      "B": "2-5cm below the umbilicus and 15cm above the symphysis pubis",
+      "C": "1.5cm above the umbilicus and 19cm above the symphysis pubis",
+      "D": "1.5cm below the umbilicus and 19cm above the symphysis pubis"
+    },
+    "answer": "B",
+    "explanation": "The third stage of labor begins immediately after the birth of the baby and ends with the delivery of the placenta. Immediately after the baby is born, the uterus contracts down significantly. The top of the uterine fundus is typically found at or just below the level of the umbilicus. Therefore, options A and B are the most plausible. Considering the typical measurements, approximately 15 cm above the symphysis pubis corresponds to the level of the umbilicus.\n\nAfter the placenta is delivered, the uterus contracts down even further, and the fundus is usually located midway between the umbilicus and the symphysis pubis.",
+    "additional": "Assessing the fundal height, position (it should be midline), and tone (it should be firm, like a grapefruit) is a critical nursing intervention in the third and fourth stages of labor to monitor for uterine atony and prevent postpartum hemorrhage."
+  },
+  {
+    "question": "The immediate action a midwife takes on diagnosis of cord presentation is to:",
+    "options": {
+      "A": "Allow the woman to continue in labour",
+      "B": "Assess for cord pulsation",
+      "C": "Rupture the membranes",
+      "D": "Put the woman in knee chest position"
+    },
+    "answer": "D",
+    "explanation": "Cord presentation is when the umbilical cord can be felt in front of the fetal presenting part through intact membranes. This is a highly dangerous situation because if the membranes rupture, it will immediately become a cord prolapse, an obstetric emergency. The immediate action is to try to relieve pressure on the cord. This is done by using gravity. Placing the woman in the knee-chest position (or an exaggerated Sims' or steep Trendelenburg position) causes the fetus to fall back away from the pelvic inlet, taking pressure off the umbilical cord.\n\nA is incorrect: Continuing labor is dangerous.\n\nB is incorrect: You cannot assess for pulsation through intact membranes. This is done for a cord prolapse.\n\nC is incorrect: Rupturing the membranes would be a catastrophic error, as it would cause the cord to prolapse.",
+    "additional": "The midwife should then prepare for an immediate caesarean section, as this is the only safe way to deliver the baby."
+  },
+  {
+    "question": "A nurse is assessing a client with a head injury. The client opens their eyes to loud verbal stimuli, speaks in confused sentences, and localizes pain. What is the client's Glasgow Coma Scale (GCS) score?",
+    "options": {
+      "A": "9",
+      "B": "10",
+      "C": "11",
+      "D": "12"
+    },
+    "answer": "D",
+    "explanation": "The Glasgow Coma Scale (GCS) is scored based on three categories: Eye Opening, Verbal Response, and Motor Response.\n\nEye Opening (E): Opens eyes to loud verbal stimuli = 3 points.\nVerbal Response (V): Speaks in confused sentences = 4 points.\nMotor Response (M): Localizes pain = 5 points.\n\nTotal Score: E(3) + V(4) + M(5) = 12.",
+    "additional": "GCS is a critical tool in neurological assessment. A score of 12 indicates a moderate head injury. The score categories are generally:\n\nMild Head Injury: GCS 13–15\nModerate Head Injury: GCS 9–12\nSevere Head Injury: GCS 3–8\n\nA GCS of 8 or less is a critical finding and is a general indication for endotracheal intubation to protect the airway."
+  },
+  {
+    "question": "A client with iron-deficiency anemia is prescribed ferrous sulfate. Which instruction should the nurse include?",
+    "options": {
+      "A": "Take with milk to enhance absorption",
+      "B": "Take on an empty stomach with water",
+      "C": "Avoid vitamin C-rich foods",
+      "D": "Take antacids with the medication"
+    },
+    "answer": "B",
+    "explanation": "Iron is best absorbed in an acidic environment. Therefore, it should be taken on an empty stomach, typically one hour before or two hours after meals, with a full glass of water or juice.\n\nA is incorrect: Milk contains calcium, which decreases iron absorption.\nC is incorrect: Vitamin C enhances iron absorption.\nD is incorrect: Antacids neutralize stomach acid and reduce absorption.",
+    "additional": "Common side effects of oral iron include nausea, constipation, and dark, tarry stools. The nurse should educate the client that dark stools are normal and harmless. If nausea is severe, taking iron with a small amount of food may be necessary for compliance, although this slightly reduces absorption."
+  },
+  {
+    "question": "Minor disorders of pregnancy include:",
+    "options": {
+      "A": "Nausea and vomiting, heart burn, pytalism, backache",
+      "B": "Nausea and vomiting, heartburn, pytalism, hyperemesis gravidarum",
+      "C": "Nausea and vomiting, heart burn, backache, vaginal bleeding",
+      "D": "Heart burn,pytalism, backache, reduced fetal movement"
+    },
+    "answer": "A",
+    "explanation": "Minor disorders of pregnancy are common, uncomfortable conditions that are not life-threatening. The list in option A includes classic examples. The other options list danger signs:\n\nHyperemesis gravidarum is a major condition.\nVaginal bleeding and reduced fetal movement are danger signs.",
+    "additional": "Nursing care for minor disorders focuses on reassurance and providing advice for symptomatic relief. For nausea: eat small, frequent meals; avoid fatty/spicy foods. For heartburn: avoid lying down after meals and use extra pillows at night."
+  },
+  {
+    "question": "The most common cause of pyelonephritis in pregnancy is:",
+    "options": {
+      "A": "Streptococcus aureus",
+      "B": "Streptococcus feacals",
+      "C": "Haemophilus influenza",
+      "D": "Escherichia coli"
+    },
+    "answer": "D",
+    "explanation": "Pyelonephritis is a kidney infection and a serious complication in pregnancy. E. coli, part of normal gut flora, is responsible for 80–90% of UTIs, including pyelonephritis. It ascends from the urethra to the bladder and kidneys.",
+    "additional": "Pregnancy increases UTI risk due to hormonal and mechanical changes. Asymptomatic bacteriuria is routinely screened in pregnancy because it can progress to pyelonephritis if untreated."
+  },
+  {
+    "question": "What is the next step after neurological assessment in a suspected stroke?",
+    "options": {
+      "A": "Administer tPA",
+      "B": "Obtain head CT without contrast",
+      "C": "Neurosurgical consult",
+      "D": "Prepare for carotid Doppler"
+    },
+    "answer": "B",
+    "explanation": "A non-contrast head CT is essential to distinguish between ischemic and hemorrhagic stroke. Ischemic stroke (clot) may be treated with tPA, but hemorrhagic stroke (bleeding) is a contraindication.\n\nA is incorrect: You must rule out bleeding first.\nC and D may be done later.",
+    "additional": "Stroke protocols emphasize rapid action—\"time is brain.\" The nurse plays a vital role in stroke management: assessing NIHSS score, checking vitals, establishing IV access, confirming blood glucose, and preparing for CT."
+  },
+  {
+    "question": "The key objective in coronary artery bypass graft is to:",
+    "options": {
+      "A": "Extend life",
+      "B": "Improve blood flow and oxygen supply to the heart",
+      "C": "Improve blood flow and oxygen supply to the lungs",
+      "D": "Relieve pain"
+    },
+    "answer": "B",
+    "explanation": "CABG is done to bypass blocked coronary arteries and restore myocardial perfusion. This relieves angina, may extend life, and improves heart muscle function. The lungs are not directly involved.\n\nOther options describe possible outcomes, but the primary purpose is restoring heart perfusion.",
+    "additional": "Postoperative care includes hemodynamic monitoring, pain control, managing chest tubes, preventing infection, encouraging breathing exercises, and monitoring for arrhythmias."
+  },
+  {
+    "question": "Cardiac valves allow for:",
+    "options": {
+      "A": "One-way, low-resistance blood flow",
+      "B": "Two-way, low-resistance blood flow",
+      "C": "One-way, high-resistance blood flow",
+      "D": "Two-way, high-resistance blood flow"
+    },
+    "answer": "A",
+    "explanation": "Cardiac valves (tricuspid, mitral, pulmonary, and aortic) ensure that blood flows one way through the heart with minimal resistance. They prevent backflow during the cardiac cycle.\n\nDiseased valves may allow regurgitation (backflow) or cause stenosis (resistance).",
+    "additional": "Nurses assess valve function using auscultation. Murmurs indicate abnormal blood flow—often due to stenosis or regurgitation. Understanding valve mechanics is key to interpreting heart sounds (S1, S2) and abnormal findings."
+  },
+  {
+    "question": "The fetal head retracting against the perineum is a",
+    "options": {
+      "A": "Gaskin sign",
+      "B": "Turtle sign",
+      "C": "Klumpke sign",
+      "D": "Chignon sign"
+    },
+    "answer": "B",
+    "explanation": "The 'turtle sign' is the classic sign of shoulder dystocia. After the fetal head is delivered, it retracts against the perineum instead of progressing forward. This occurs because the anterior shoulder is impacted behind the maternal symphysis pubis.",
+    "additional": "Recognition of the turtle sign should trigger immediate emergency management for shoulder dystocia. This includes interventions such as McRoberts maneuver, suprapubic pressure, or the Gaskin maneuver as part of the HELPERR protocol."
+  },
+  {
+    "question": "Prolonged second stage of labor in nulliporous women is labor for more than:",
+    "options": {
+      "A": "1 hour",
+      "B": "2 hours",
+      "C": "4 hours",
+      "D": "8 hours"
+    },
+    "answer": "B",
+    "explanation": "In nulliparous women, the second stage of labor is considered prolonged if it exceeds 2 hours without an epidural or 3 hours with an epidural. For multiparous women, the thresholds are 1 and 2 hours respectively.",
+    "additional": "Prolonged second stage can lead to operative vaginal delivery or caesarean section. Nursing care includes encouraging effective pushing, maternal repositioning, and emotional support to facilitate descent."
+  },
+  {
+    "question": "Which one of the following therapies is the MOST incorporated in the management of clients with gestational diabetes:",
+    "options": {
+      "A": "Therapeutic diet alone",
+      "B": "Long acting insulin",
+      "C": "Oral hypoglycemics",
+      "D": "Short acting insulin"
+    },
+    "answer": "A",
+    "explanation": "Medical Nutrition Therapy (MNT) is the first-line treatment for gestational diabetes. Most women can achieve glycemic control through diet and exercise alone, without needing medication.",
+    "additional": "The diabetic diet focuses on even carbohydrate distribution. If glucose control isn't achieved, insulin or oral agents like metformin may be added. Self-monitoring of blood glucose is essential."
+  },
+  {
+    "question": "The nurse should assess a client who is in the emergency phase of burn management for which finding?",
+    "options": {
+      "A": "Hypernatremia",
+      "B": "Hemodilution",
+      "C": "Hyperkalemia",
+      "D": "Metabolic alkalosis"
+    },
+    "answer": "C",
+    "explanation": "In the emergency phase of burns (first 24–48 hours), massive cell lysis releases potassium into the bloodstream, causing hyperkalemia. This can lead to cardiac arrhythmias if not managed.",
+    "additional": "Other features in this phase include hyponatremia and metabolic acidosis. In the subsequent diuretic phase, potassium levels often drop, leading to hypokalemia."
+  },
+  {
+    "question": "A nurse is monitoring for a patient on insulin for signs of hypoglycemia. Which of the following signs indicates hypoglycemia in a diabetic client?",
+    "options": {
+      "A": "Dry mouth and increased thirst",
+      "B": "Tremors, diaphoresis, and confusion",
+      "C": "Polyuria and blurred vision",
+      "D": "Flushed skin and headache"
+    },
+    "answer": "B",
+    "explanation": "Signs of hypoglycemia include tremors, sweating, confusion, and irritability. These occur due to sympathetic nervous system activation and reduced glucose supply to the brain.",
+    "additional": "Hypoglycemia requires immediate treatment with fast-acting carbohydrates. Mnemonic: 'Cool and clammy, need some candy.' Hyperglycemia symptoms include polyuria, polydipsia, and blurred vision."
+  },
+  {
+    "question": "Methods used to educate individuals on preventing the spread of sexually transmitted infections.",
+    "options": {
+      "A": "Screening promotion",
+      "B": "Teaching strategies",
+      "C": "Public health issue",
+      "D": "Safe sex practices"
+    },
+    "answer": "B",
+    "explanation": "The question asks for methods of education, making 'Teaching strategies' the best choice. This includes lectures, demonstrations, role plays, and counseling sessions.",
+    "additional": "Teaching points include condom use, regular STI screening, limiting sexual partners, mutual monogamy, and vaccination (e.g., HPV vaccine). Teaching is central to prevention efforts."
+  },
+  {
+    "question": "Which of the following is the area of the cervix at highest risk of developing malignancy?",
+    "options": {
+      "A": "Nabothian cyst",
+      "B": "The smooth muscles of the cervical canal",
+      "C": "The squamous epithelium in the ectocervix",
+      "D": "The transformation zone"
+    },
+    "answer": "D",
+    "explanation": "The transformation zone is where the squamous and columnar epithelium meet, undergoing constant metaplasia. This makes it the most vulnerable site for HPV-related cervical cancer.",
+    "additional": "Pap smears specifically target this area for cytological analysis. Nearly all cervical cancers arise in the transformation zone due to persistent infection with high-risk HPV strains."
+  },
+  {
+    "question": "Cataracts affect which part of the eye?",
+    "options": {
+      "A": "Lens",
+      "B": "Cornea",
+      "C": "Aqueous humour",
+      "D": "Retina"
+    },
+    "answer": "A",
+    "explanation": "A cataract is a clouding or opacification of the normally clear lens of the eye. The lens is located behind the iris and the pupil, and its function is to focus light onto the retina. When the lens becomes cloudy, light cannot pass through it easily, resulting in blurry, hazy, or less colorful vision. The leading cause of cataracts is aging.",
+    "additional": "The only effective treatment for cataracts is surgery to remove the cloudy lens and replace it with a clear, artificial intraocular lens (IOL). Postoperative nursing care involves patient teaching on administering eye drops, wearing a protective eye shield, and avoiding activities that increase intraocular pressure (like bending, straining, or heavy lifting)."
+  },
+  {
+    "question": "In the treatment of tuberculosis, the therapeutic rationale for combination drug therapy is to:",
+    "options": {
+      "A": "Decrease cost and improve compliance.",
+      "B": "Reduce the incidence of cumulative effects.",
+      "C": "Increase blood dyscrasias.",
+      "D": "Decrease emergence of drug-resistance strains."
+    },
+    "answer": "D",
+    "explanation": "The primary and most critical reason for using a combination of multiple drugs (typically 4 drugs in the initial phase: Rifampin, Isoniazid, Pyrazinamide, Ethambutol - RIPE) to treat active tuberculosis is to prevent the development of drug-resistant strains of Mycobacterium tuberculosis. The bacteria can quickly develop resistance to a single drug. By using multiple drugs that have different mechanisms of action, it is much less likely that a bacterial mutant resistant to all the drugs will emerge.",
+    "additional": "This principle of combination therapy is fundamental to the management of TB and other infections prone to resistance, like HIV. Adherence to the full, prescribed course of treatment is critical, and Directly Observed Therapy (DOT) is a strategy used to ensure compliance and prevent the spread of drug-resistant TB."
+  },
+  {
+    "question": "A pregnant client is receiving magnesium sulfate therapy for the control of preeclampsia. A nurse discovers that the client is encountering toxicity from the medication in which of the following assessments?",
+    "options": {
+      "A": "Respirations of 10 breaths per minute.",
+      "B": "Presence of deep tendon reflex.",
+      "C": "Urine output of 25 ml/hr.",
+      "D": "Serum magnesium level of 7 mEq/L."
+    },
+    "answer": "A",
+    "explanation": "Magnesium sulfate is a central nervous system depressant used to prevent seizures in severe pre-eclampsia. Its therapeutic range is narrow, and toxicity can be life-threatening. The earliest sign of toxicity is the loss of deep tendon reflexes (DTRs). However, the most severe and life-threatening complication is respiratory depression and arrest. A respiratory rate of less than 12 breaths per minute is a critical sign of toxicity requiring immediate intervention.",
+    "additional": "Nursing care for a patient on magnesium sulfate involves one-on-one monitoring with frequent assessments (every 1-2 hours) of vital signs (especially respiratory rate), DTRs, and urine output. The antidote for magnesium sulfate toxicity, calcium gluconate, must always be readily available at the bedside."
+  },
+  {
+    "question": "Which of the following is not part of the Rotterdam Criteria in the diagnosis of polycystic ovarian syndrome (PCOS)?",
+    "options": {
+      "A": "Hyperandrogenism",
+      "B": "Anovulation",
+      "C": "High TSH levels",
+      "D": "Polycystic ovaries"
+    },
+    "answer": "C",
+    "explanation": "The Rotterdam Criteria are the most widely used diagnostic criteria for PCOS. A diagnosis requires the presence of at least two of the following three features:\n\nOligo- and/or anovulation (manifesting as irregular or absent menstrual cycles).\n\nClinical and/or biochemical signs of hyperandrogenism (e.g., hirsutism, acne, or elevated testosterone levels).\n\nPolycystic ovaries on ultrasound (defined as 12 or more follicles in each ovary measuring 2-9 mm in diameter, and/or increased ovarian volume).\nA high TSH level (C) is indicative of hypothyroidism, which can also cause menstrual irregularities. Hypothyroidism must be excluded before a diagnosis of PCOS can be made, but it is not part of the diagnostic criteria for PCOS itself.",
+    "additional": "PCOS is a complex endocrine disorder with reproductive and metabolic consequences, including an increased risk of type 2 diabetes, dyslipidemia, and cardiovascular disease. Management is multidisciplinary and focuses on lifestyle changes (diet, exercise), managing menstrual cycles (often with hormonal contraceptives), and addressing infertility and hirsutism."
+  },
+  {
+    "question": "Medical indication of male surgical circumcision include;",
+    "options": {
+      "A": "Paraphimosis, gangrene, balanitis",
+      "B": "Phimosis, condyloma acuminata, balanoposthitis",
+      "C": "UTI, testicular torsion, paraphimosis",
+      "D": "Testicular hernia, UTI, Phimosis"
+    },
+    "answer": "B",
+    "explanation": "This question asks for a combination of correct medical (not religious or cultural) indications for circumcision.\n\nPhimosis: The inability to retract the foreskin over the glans penis. This is a primary indication.\n\nBalanoposthitis: Inflammation of the glans and foreskin, especially if recurrent or severe.\n\nCondyloma acuminata (genital warts): Extensive warts on the foreskin can sometimes be an indication for circumcision as part of the treatment.\nThis makes option B the best choice.",
+    "additional": "Circumcision has been shown to reduce the risk of acquiring HIV and other STIs. In neonates, it can reduce the risk of UTIs in the first year of life. Nurses may be involved in providing preoperative and postoperative care and counseling parents who are considering the procedure for their sons."
+  },
+  {
+    "question": "What is the most appropriate position for a patient during a lumbar puncture procedure?",
+    "options": {
+      "A": "Supine with knees flexed",
+      "B": "High-Fowler's position",
+      "C": "Lateral recumbent with knees drawn to the chest",
+      "D": "Prone with arms overhead"
+    },
+    "answer": "C",
+    "explanation": "The goal of positioning for a lumbar puncture (LP) is to maximize the space between the lumbar vertebrae to allow easy insertion of the spinal needle into the subarachnoid space. This is achieved by having the patient maximally flex their spine. The standard position is the lateral recumbent (side-lying) position, with the patient curled up in a fetal position—chin tucked down and knees drawn up tightly to the chest. An alternative is having the patient sit on the edge of the bed and lean forward over a bedside table.",
+    "additional": "The nurse's role during an LP is to help the patient maintain the correct position, provide reassurance and support, ensure sterile technique is maintained, and correctly label the cerebrospinal fluid (CSF) samples. After the procedure, the patient is usually instructed to lie flat for a period of time to reduce the risk of a post-LP headache caused by CSF leakage."
+  },
+  {
+    "question": "A client with hypothyroidism is prescribed levothyroxine. Which statement indicates the client understands this medication?",
+    "options": {
+      "A": "I will take the medication with my evening meal.",
+      "B": "I may feel tired for several weeks after starting the medication.",
+      "C": "I should take it first thing in the morning on an empty stomach.",
+      "D": "I will stop the medication once I feel better."
+    },
+    "answer": "C",
+    "explanation": "Levothyroxine (synthetic T4) absorption is significantly decreased by food, calcium, and iron. To ensure consistent absorption and stable hormone levels, the standard instruction is to take the medication first thing in the morning, on an empty stomach, with a full glass of water, at least 30-60 minutes before any other food, drink, or medication.",
+    "additional": "Patient education for levothyroxine is crucial. The nurse must emphasize the importance of lifelong therapy, the specific timing of administration, and the need for regular follow-up with blood tests (TSH) to ensure the dose is correct."
+  },
+  {
+    "question": "The nurse is caring for a client who is postoperative day 1 after abdominal surgery. Which assessment finding requires immediate intervention?",
+    "options": {
+      "A": "Absent bowel sounds",
+      "B": "Temperature of 38.5°C (101.3°F)",
+      "C": "Abdominal distention and severe pain",
+      "D": "Moderate serosanguineous drainage on the dressing"
+    },
+    "answer": "C",
+    "explanation": "This combination of signs is highly suggestive of a serious postoperative complication, such as a paralytic ileus progressing to a bowel obstruction, or an intra-abdominal hemorrhage or infection leading to peritonitis. Severe pain that is not controlled by analgesics, accompanied by a tense, distended abdomen, is a surgical emergency that requires immediate notification of the surgeon.",
+    "additional": "Postoperative nursing assessment focuses on early detection of complications. The nurse should perform a full abdominal assessment, including inspecting for distention, auscultating bowel sounds, and palpating for tenderness or rigidity, and assess the patient's pain level and response to analgesia."
+  },
+  {
+    "question": "While inserting a Foley catheter, the nurse accidentally touches the patient's inner thigh with the sterile catheter tip. What should the nurse do next?",
+    "options": {
+      "A": "Continue the procedure",
+      "B": "Wipe the catheter tip with sterile saline",
+      "C": "Discard and obtain a new sterile catheter kit",
+      "D": "Ask another nurse to assist"
+    },
+    "answer": "C",
+    "explanation": "This is a core principle of surgical asepsis (sterile technique). The patient's inner thigh is not a sterile field. Once the sterile catheter tip has touched a non-sterile surface, it is considered contaminated. Continuing with the contaminated catheter would introduce bacteria directly into the bladder, significantly increasing the risk of a Catheter-Associated Urinary Tract Infection (CAUTI). The only safe and correct action is to stop the procedure, discard the entire contaminated kit, and start over with a new sterile kit.",
+    "additional": "Maintaining sterile technique is a non-negotiable nursing responsibility. Licensure exams frequently test the nurse's ability to recognize a break in sterility and take the appropriate corrective action."
+  },
+  {
+    "question": "During a blood transfusion, the patient complains of chills, back pain, and nausea. What is the nurse's priority action?",
+    "options": {
+      "A": "Notify the physician",
+      "B": "Stop the transfusion immediately",
+      "C": "Administer antihistamines",
+      "D": "Check the blood bag label and expiration date"
+    },
+    "answer": "B",
+    "explanation": "Chills, flank/back pain, and nausea are classic signs and symptoms of an acute hemolytic transfusion reaction, the most severe and life-threatening type of reaction. It occurs when the recipient's antibodies attack the donor's red blood cells. The absolute first and most critical action is to stop the transfusion immediately. Every additional drop of incompatible blood infused will worsen the reaction.",
+    "additional": "For the NCK exam, recognizing the signs of different types of transfusion reactions (hemolytic, febrile, allergic) and knowing the immediate nursing interventions is essential knowledge for patient safety."
   }
 ]
+
+
+
+
+
+
+
+
+
+
+
+
