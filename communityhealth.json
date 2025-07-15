@@ -1782,8 +1782,154 @@
     "answer": "C",
     "explanation": "Schistosomiasis (also known as bilharzia) is a parasitic disease caused by trematode worms (flukes) of the genus Schistosoma.\n\nTreatment: The drug of choice for treating infection with all species of Schistosoma is Praziquantel. It is effective, safe, and administered as a single oral dose (or a few doses over one day), which makes it ideal for mass drug administration (MDA) campaigns in endemic areas.\n\nAnalyzing Other Options:\n\n(a) Oxamniquine is effective, but only against one species, S. mansoni. It is not effective against S. haematobium or S. japonicum.\n\n(b) Metrifonate was used in the past, but only for S. haematobium. It is no longer widely used.\n\n(d) Niclosamide is an anthelmintic drug, but it is used to treat tapeworm (cestode) infections, not schistosomiasis.\n\nConclusion: Praziquantel is the only drug listed that is effective against all common species of Schistosoma, making it the drug of choice.",
     "additional": "Additional Content & Future Testables:\n\nMajor Schistosoma Species:\n- S. haematobium: Causes urinary schistosomiasis. Associated with painless hematuria and an increased risk of bladder cancer.\n- S. mansoni and S. japonicum: Cause intestinal and hepatic schistosomiasis. Can lead to liver fibrosis, portal hypertension, and ascites.\n\nLife Cycle: The life cycle involves specific freshwater snails as intermediate hosts. Humans become infected when larval forms of the parasite (cercariae), released by the snails, penetrate the skin during contact with infested water.\n\nPrevention and Control:\n- Mass drug administration with praziquantel.\n- Snail control.\n- Improving sanitation to prevent human waste from contaminating water sources.\n- Health education to avoid contact with contaminated water.\n\nTextbook Reference: World Health Organization (WHO). Schistosomiasis Fact Sheet."
+  },
+  [
+  {
+    "question": "Cigarette smoking, a major global cause of morbidity and mortality:-",
+    "options": {
+      "A": "Causes cancers, dental staining, COPD and spinal cord injury.",
+      "B": "Is one of the top preventable causes of death.",
+      "C": "Is much less harmful when inhaled passively.",
+      "D": "Is best stopped when advised to by a family member rather than a doctor or a nurse."
+    },
+    "answer": "B",
+    "explanation": "Globally, tobacco use is the leading cause of preventable death, disease, and disability. While other options touch upon truths, they contain inaccuracies. Smoking is not a direct cause of spinal cord injury (a), passive smoking is significantly harmful (c), and advice from a healthcare professional is a proven effective trigger for cessation attempts (d).",
+    "additional": "Community health nurses play a vital role in tobacco control through primary prevention (educating youth not to start), secondary prevention (screening for tobacco use and promoting cessation programs), and tertiary prevention (helping patients with smoking-related diseases like COPD manage their health). The \"5 A's\" model for treating tobacco dependence (Ask, Advise, Assess, Assist, Arrange) is a key framework used in clinical practice.\n\nPotential NCK Topics (August Exams):\n\nLevels of Prevention: Differentiating between primary, secondary, and tertiary prevention with clinical examples.\n\nHealth Promotion vs. Disease Prevention: Understanding the difference in focus.\n\nThe role of the community health nurse in managing non-communicable diseases (NCDs).\n\nEpidemiology of major NCDs in Kenya."
+  },
+  {
+    "question": "Before a woman begins anti-retroviral medication, the nurse must:-",
+    "options": {
+      "A": "Assess her beliefs about drugs and treatment.",
+      "B": "Reinforce understanding that she will attend clinic every three months.",
+      "C": "Identify a professional as her \"Treatment Assistant\".",
+      "D": "Disclose her contact details to a community health worker for follow-up treatment."
+    },
+    "answer": "A",
+    "explanation": "From a community health perspective, the success of a long-term public health program like ART relies on individual patient adherence. Adherence is driven by the patient's beliefs, knowledge, and social support system. Assessing these factors (health beliefs) is the critical first step in providing patient-centered education and support that will be effective in a community setting.",
+    "additional": "The distractors hint at important community health concepts. A \"Treatment Assistant\" or \"buddy system\" is a community-based strategy to improve adherence. Community Health Worker (CHW) follow-up is also a vital part of community-based HIV care. However, both of these actions (c and d) can only be implemented with the patient's consent after a trusting relationship and an assessment of their needs and beliefs have been established.\n\nPotential NCK Topics (August Exams):\n\nThe Health Belief Model: Understanding its components (perceived susceptibility, severity, benefits, barriers).\n\nCommunity-based healthcare delivery models.\n\nThe role of the Community Health Worker (CHW).\n\nSocial determinants of health and their impact on managing chronic illness."
+  },
+  {
+    "question": "A community health nurse provides diabetes management education to a group of diagnosed patients at a local clinic. This is an example of which level of prevention?",
+    "options": {
+      "A": "Primary Prevention",
+      "B": "Secondary Prevention",
+      "C": "Tertiary Prevention",
+      "D": "Primordial Prevention"
+    },
+    "answer": "C",
+    "explanation": "Tertiary prevention focuses on people who already have a disease or disability. The goal is to reduce the impact of the disease, prevent complications, and improve quality of life. Teaching diabetes management to diagnosed patients aims to prevent complications like retinopathy, nephropathy, and foot ulcers, which is a classic tertiary prevention activity.",
+    "additional": "Primary Prevention: Aims to prevent the disease from occurring in the first place (e.g., vaccination, education on healthy eating for the general population).\nSecondary Prevention: Aims to detect the disease early and intervene to slow or stop its progression (e.g., screening for high blood pressure or diabetes).\nPrimordial Prevention: Aims to prevent the development of risk factors themselves (e.g., creating safe walking paths in a community to encourage physical activity from a young age).\n\nPotential NCK Topics (August Exams):\n\nApplication scenarios for all levels of prevention.\nThe role of the nurse in managing the burden of non-communicable diseases (NCDs).\nThe difference between health promotion and disease prevention."
+  },
+  {
+    "question": "The constant presence of a disease within a geographic area or population is known as:",
+    "options": {
+      "A": "Epidemic",
+      "B": "Pandemic",
+      "C": "Endemic",
+      "D": "Outbreak"
+    },
+    "answer": "C",
+    "explanation": "The term endemic refers to the baseline or expected level of a disease in a community. It is a disease that is constantly present in a certain population or region. Malaria, for example, is endemic to many parts of sub-Saharan Africa.",
+    "additional": "Epidemic: The occurrence of more cases of a disease than expected in a given area or among a specific group of people over a particular period.\nPandemic: An epidemic that has spread over several countries or continents, usually affecting a large number of people.\nOutbreak: Similar to an epidemic but often used for a more limited geographic area.\n\nPotential NCK Topics (August Exams):\n\nKey epidemiological terms (e.g., incidence, prevalence, morbidity, mortality).\nThe epidemiological triangle (Host, Agent, Environment).\nSteps of an outbreak investigation."
+  },
+  {
+    "question": "In the epidemiological triangle, which of the following represents the \"host\"?",
+    "options": {
+      "A": "The influenza virus",
+      "B": "A contaminated water source",
+      "C": "A person's immune status",
+      "D": "The climate of the region"
+    },
+    "answer": "C",
+    "explanation": "The epidemiological triangle is a model used to explain the cause of infectious diseases. The \"host\" refers to the person or organism that is susceptible to the disease. Host factors include things like age, sex, genetic makeup, and immune status, which influence their susceptibility and response to an agent.",
+    "additional": "The Agent is the infectious microorganism or pathogen (e.g., the influenza virus).\nThe Environment refers to the external factors that allow for disease transmission (e.g., contaminated water, climate, sanitation, social conditions).\n\nPotential NCK Topics (August Exams):\n\nThe chain of infection and how to break it at each step.\nThe role of surveillance in public health.\nTypes of immunity (active vs. passive, natural vs. artificial)."
+  },
+  {
+    "question": "A school nurse is conducting vision screening for all first-grade students. This activity is an example of:",
+    "options": {
+      "A": "Primary prevention",
+      "B": "Health promotion",
+      "C": "Tertiary prevention",
+      "D": "Secondary prevention"
+    },
+    "answer": "D",
+    "explanation": "Screening is the hallmark of secondary prevention. The goal of screening is to identify individuals with an unrecognized disease or risk factor. By conducting vision screening, the nurse aims to detect vision problems early, before they have a significant impact on the child's learning and development, allowing for prompt referral and treatment.",
+    "additional": "Primary prevention in a school setting would be teaching eye safety during sports.\nHealth promotion would be creating posters about the importance of good vision.\nTertiary prevention would be helping a child who has been diagnosed with a permanent visual impairment to adapt, for example, by ensuring they have access to large-print books.\n\nPotential NCK Topics (August Exams):\n\nThe role of the school nurse.\nCriteria for a successful screening program (e.g., validity, reliability, cost-effectiveness).\nCommon health issues in school-aged children."
+  },
+  {
+    "question": "A community health nurse is conducting a \"windshield survey.\" Which activity would the nurse be performing?",
+    "options": {
+      "A": "Analyzing patient data from the local health clinic.",
+      "B": "Interviewing the mayor and other community leaders.",
+      "C": "Driving through the community to observe public spaces, housing, and people.",
+      "D": "Distributing health questionnaires to a random sample of residents."
+    },
+    "answer": "C",
+    "explanation": "A windshield survey is a type of community assessment where the nurse systematically observes the community from a car or on foot. It provides a quick overview of the community's context, including the physical environment, housing conditions, recreational areas, social services, and the general economic state. It's a key first step in understanding a community's strengths and needs.",
+    "additional": "(a) Analyzing existing data is a review of secondary data.\n(b) Interviewing leaders is a method of collecting primary data through key informant interviews.\n(d) Distributing questionnaires is a method of collecting primary data through a survey.\nA comprehensive community assessment uses all these methods.\n\nPotential NCK Topics (August Exams):\n\nThe steps of a community health assessment.\nDifferentiating between primary and secondary data sources.\nThe community as a client/partner model of care."
+  },
+  {
+    "question": "Which of the following is the most significant social determinant of health?",
+    "options": {
+      "A": "Genetic predisposition",
+      "B": "Access to a local gym",
+      "C": "Individual dietary choices",
+      "D": "Socioeconomic status (Poverty)"
+    },
+    "answer": "D",
+    "explanation": "Social determinants of health are the conditions in which people are born, grow, live, work, and age. While all options influence health, socioeconomic status (income, education, occupation) is consistently shown to be the most powerful predictor of health outcomes. Poverty affects access to education, nutritious food, safe housing, healthcare, and exposes individuals to higher levels of chronic stress, all of which have profound health consequences.",
+    "additional": "Genetics (a) is a biological determinant, not a social one. Access to a gym (b) and dietary choices (c) are important, but they are heavily influenced by a person's socioeconomic status (e.g., can they afford a gym membership or fresh vegetables?).\n\nPotential NCK Topics (August Exams):\n\nThe concept of health equity vs. health equality.\nThe major social determinants of health as defined by WHO.\nThe nurse's role in advocating for policies that address social determinants."
+  },
+  {
+    "question": "A factory nurse is teaching new employees how to use personal protective equipment (PPE) correctly to prevent respiratory exposure to chemicals. This is an example of:",
+    "options": {
+      "A": "Tertiary prevention",
+      "B": "Primary prevention",
+      "C": "Secondary prevention",
+      "D": "Case finding"
+    },
+    "answer": "B",
+    "explanation": "This is a primary prevention activity because its goal is to prevent the health problem (respiratory illness due to chemical exposure) from occurring in the first place. By teaching the correct use of PPE, the occupational health nurse is providing employees with the tools and knowledge to protect themselves before any exposure or illness can develop.",
+    "additional": "Secondary prevention in this setting would be performing annual lung function tests (spirometry).\nTertiary prevention would be managing an employee already diagnosed with a chronic respiratory condition.\nCase finding is a secondary prevention strategy to identify existing cases.\n\nPotential NCK Topics (August Exams):\n\nThe field of Occupational Health Nursing.\nThe hierarchy of controls for workplace hazards (Elimination, Substitution, Engineering, Administrative, PPE).\nConducting a workplace hazard assessment."
+  },
+  {
+    "question": "The number of new cases of a disease that develop in a population during a specified period is called:",
+    "options": {
+      "A": "Prevalence",
+      "B": "Morbidity",
+      "C": "Mortality",
+      "D": "Incidence"
+    },
+    "answer": "D",
+    "explanation": "Incidence is a measure of the risk of developing a new condition within a specified period. It is a rate that includes only the new cases in the numerator. It helps in understanding the rate at which new disease is occurring.",
+    "additional": "Prevalence includes all cases, both new and pre-existing. Morbidity refers to the state of being diseased. Mortality refers to the number of deaths.\n\nPotential NCK Topics (August Exams):\n\nCalculating and interpreting incidence and prevalence rates.\nDifferentiating between morbidity and mortality rates.\nThe uses of epidemiology in public health."
+  },
+  {
+    "question": "The primary goal of home health nursing is to:",
+    "options": {
+      "A": "Provide acute care for complex illnesses in the home.",
+      "B": "Promote self-care and independence for the patient and family.",
+      "C": "Ensure the patient's home is clean and tidy.",
+      "D": "Replace the need for a primary care physician."
+    },
+    "answer": "B",
+    "explanation": "While home health nurses provide skilled care, the goal is to help patients and families become as independent as possible in managing their conditions. This involves education, coordination of services, and promoting self-management.",
+    "additional": "The home health nurse collaborates with, but does not replace, physicians. Housekeeping tasks are not part of nursing care.\n\nPotential NCK Topics (August Exams):\n\nThe role and responsibilities of the home health nurse.\nConducting a home safety assessment.\nCriteria for eligibility for home health services."
+  },
+  {
+    "question": "When a communicable disease outbreak occurs, the process of identifying individuals who have been in contact with an infected person is known as:",
+    "options": {
+      "A": "Surveillance",
+      "B": "Contact tracing",
+      "C": "Isolation",
+      "D": "Quarantine"
+    },
+    "answer": "B",
+    "explanation": "Contact tracing is a fundamental public health strategy used to control the spread of infectious diseases. It involves identifying people who have a disease (cases), listing all their contacts, and following up with those contacts to stop transmission.",
+    "additional": "Isolation separates those who are sick. Quarantine applies to those exposed but not yet sick. Surveillance involves ongoing data collection and monitoring.\n\nPotential NCK Topics (August Exams):\n\nDifferentiating between isolation and quarantine.\nThe steps of an outbreak investigation.\nThe national disease surveillance system in Kenya."
   }
 ]
+  
 
 
 
