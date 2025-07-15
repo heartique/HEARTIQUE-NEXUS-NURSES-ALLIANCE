@@ -1228,8 +1228,154 @@
     "answer": "A",
     "explanation": "The question specifies non-organic growth failure. Failure to Thrive (FTT) is a condition where a child's weight is significantly below that of other children of their age. It is classified into two types:\n\nOrganic FTT: Caused by an underlying medical condition (e.g., congenital heart disease, cystic fibrosis, GERD, metabolic disorders).\n\nNon-organic FTT: Occurs in a child with no identified medical cause. It is usually related to psychosocial factors, environmental issues, or problems with the caregiver-child interaction.\n\nOption (a) is the best answer as it describes a core psychosocial reason for non-organic FTT. A poor bond can lead to inadequate feeding, neglect, or a lack of stimulation, all of which contribute to poor growth. This is a classic cause.\n\nOption (b) is tricky. \"Improper feeding\" can be a cause of non-organic FTT (e.g., caregiver mixing formula incorrectly, not feeding enough). However, the phrase \"altered physiology\" suggests an organic cause. Option (a) is a more direct and fundamental cause of the improper feeding itself.\n\nOption (c) describes a clear cause of organic FTT.\n\nOption (d), Child abuse, is a strong contributor to non-organic FTT, often stemming from the same root causes as a poor bond. However, \"a poor mother-child bond\" is a broader and more fundamental concept that encompasses neglectful feeding practices which are the direct mechanism of FTT.",
     "additional": "Causes of Non-Organic FTT:\n\nPoverty: Inability to afford enough food or formula.\n\nCaregiver Issues: Maternal depression, substance abuse, intellectual disability, lack of knowledge about feeding, stress.\n\nInteractional Problems: Poor bonding, child abuse or neglect.\n\nChild's Temperament: A difficult, irritable baby may be harder to feed.\n\nNursing Management: FTT requires a multidisciplinary approach.\n\nAssessment: Detailed health history, dietary history (observe a feeding session), developmental assessment, physical exam.\n\nIntervention: The primary goal is nutritional rehabilitation (\"catch-up growth\"). This may involve a high-calorie diet and structured feeding schedules.\n\nPsychosocial Support: Support the caregiver, provide education on feeding cues and techniques, address underlying issues like depression, and refer to social services if neglect or abuse is suspected. Hospitalization may be necessary to rule out organic causes and to provide a safe, structured feeding environment."
+  },
+  {
+    "question": "Atik, 7 years old is admitted with dehydration and is known to have sickle cell anemia. She is at risk for a vaso-occlusive event such as:-",
+    "options": {
+      "A": "Bone marrow infection.",
+      "B": "Splenomegaly.",
+      "C": "Buergers' disease.",
+      "D": "Cerebral vascular accident"
+    },
+    "answer": "D",
+    "explanation": "In sickle cell anemia, dehydration is a major trigger that causes red blood cells to deform into a sickle shape. These rigid, sticky cells clump together and block small blood vessels. This blockage is called a vaso-occlusive event or crisis. When this occlusion occurs in the arteries supplying the brain, it causes a stroke, also known as a cerebral vascular accident (CVA). Stroke is a well-known and severe complication of sickle cell disease in children.",
+    "additional": "Splenomegaly (enlarged spleen) is common in young children with sickle cell disease as the spleen works hard to filter out the sickled cells. However, the acute vaso-occlusive event related to the spleen is a sequestration crisis, where a large volume of blood pools in the spleen, causing severe anemia and shock.\n\nBuerger's disease is a rare disease of the arteries and veins in the arms and legs, strongly associated with tobacco use, and is unrelated to sickle cell anemia.\n\nThe most common presentation of a vaso-occlusive crisis is severe pain, often in the bones, chest, or abdomen.\n\nPotential NCK Topics (August Exams):\n\nManagement of Sickle Cell Crisis: The priority interventions summarized by the acronym HOP (Hydration, Oxygenation, Pain management).\n\nTriggers for Sickle Cell Crisis: Dehydration, infection, hypoxia, cold exposure, stress.\n\nAcute Chest Syndrome: A life-threatening complication of sickle cell disease characterized by chest pain, fever, and a new infiltrate on chest X-ray.\n\nHealth education for families with a child with sickle cell anemia."
+  },
+  {
+    "question": "Dental Malocclusion:-",
+    "options": {
+      "A": "Is a normal contact between the upper and lower teeth.",
+      "B": "Is caused by thumb-sucking, trauma, frequent epistaxis.",
+      "C": "Can be treated by diet therapy.",
+      "D": "Occurs when the teeth are not lined up properly."
+    },
+    "answer": "D",
+    "explanation": "This is the correct definition of malocclusion—a misalignment or incorrect relation between the teeth of the two dental arches when they approach each other as the jaws close.",
+    "additional": "From a pediatric perspective, malocclusion can be caused by hereditary factors or acquired habits. Prolonged thumb-sucking or pacifier use beyond the toddler years can significantly alter the shape of the palate and the alignment of the teeth. Premature loss of primary (baby) teeth due to trauma or decay can also lead to spacing issues and malocclusion of the permanent teeth.\n\nPotential NCK Topics (August Exams):\n\nAnticipatory guidance for parents regarding dental health, including weaning from pacifiers/thumb-sucking.\n\nGrowth and development milestones (physical, cognitive, psychosocial).\n\nErikson's stages of psychosocial development in childhood.\n\nCommon childhood accidents and injury prevention."
+  },
+  {
+    "question": "A 4-month-old infant is brought to the clinic with severe dehydration due to gastroenteritis. Which clinical finding would the nurse most expect to see?",
+    "options": {
+      "A": "A bulging fontanelle",
+      "B": "Increased urine output",
+      "C": "A sunken fontanelle",
+      "D": "A heart rate of 80 beats/minute"
+    },
+    "answer": "C",
+    "explanation": "The fontanelles (the \"soft spots\" on an infant's skull) provide a reliable indicator of hydration status and intracranial pressure. In a state of dehydration, there is a deficit of fluid in the intravascular and interstitial spaces, which leads to the anterior fontanelle appearing sunken or depressed.",
+    "additional": "A bulging fontanelle is a sign of increased intracranial pressure, seen in conditions like meningitis or hydrocephalus.\n\nIncreased urine output is contrary to dehydration; in dehydration, the body conserves water, leading to oliguria (decreased urine output).\n\nA heart rate of 80 bpm would be bradycardia for a 4-month-old. The compensatory response to dehydration is tachycardia (a rapid heart rate).\n\nPotential NCK Topics (August Exams):\n\nSigns and symptoms of dehydration in children (mild, moderate, severe).\n\nOral Rehydration Therapy (ORT) principles.\n\nCalculation of maintenance fluid requirements for children."
+  },
+  {
+    "question": "A toddler with suspected laryngotracheobronchitis (Croup) is brought to the emergency department. Which classic sign would the nurse anticipate?",
+    "options": {
+      "A": "A high-grade fever and drooling",
+      "B": "A loud, \"barking\" cough and inspiratory stridor",
+      "C": "A \"whooping\" sound on inspiration",
+      "D": "Diffuse wheezing on expiration"
+    },
+    "answer": "B",
+    "explanation": "Croup is a viral infection that causes inflammation and swelling of the larynx, trachea, and bronchi. This subglottic narrowing leads to the characteristic hoarse voice, a seal-like \"barking\" cough, and a high-pitched whistling sound on inspiration known as inspiratory stridor. Symptoms are often worse at night.",
+    "additional": "(a) A high-grade fever, drooling, and a toxic appearance are classic signs of epiglottitis, a bacterial infection that is a medical emergency.\n\n(c) A \"whooping\" sound on inspiration following a coughing fit is the hallmark of pertussis (whooping cough).\n\n(d) Diffuse expiratory wheezing is the characteristic sound of asthma or bronchiolitis.\n\nPotential NCK Topics (August Exams):\n\nDifferentiating between Croup and Epiglottitis (and the \"4 Ds\" of epiglottitis: Dysphonia, Dysphagia, Drooling, Distress).\n\nNursing management of Croup (cool mist, hydration, corticosteroids).\n\nPathophysiology and management of bronchiolitis caused by RSV."
+  },
+  {
+    "question": "Which of the following is a priority nursing intervention for an infant immediately following surgical repair of a cleft lip (cheiloplasty)?",
+    "options": {
+      "A": "Placing the infant in a prone position to facilitate drainage.",
+      "B": "Using elbow restraints to protect the suture line.",
+      "C": "Offering a pacifier to provide comfort.",
+      "D": "Cleaning the suture line vigorously with hydrogen peroxide."
+    },
+    "answer": "B",
+    "explanation": "The primary goal post-operatively is to protect the delicate suture line from tension and trauma to ensure proper healing and minimize scarring. Infants instinctively bring their hands to their mouths. Applying soft elbow restraints prevents them from bending their elbows to reach and potentially damage the surgical site.",
+    "additional": "(a) The infant should be positioned on their back or side, never prone, to avoid rubbing the suture line.\n\n(c) Pacifiers, spoons, or straws should be avoided as they can put stress on or damage the repair.\n\n(d) The suture line should be gently cleaned with sterile water or saline as prescribed, not vigorously scrubbed with hydrogen peroxide, which can damage healing tissue.\n\nPotential NCK Topics (August Exams):\n\nPre-operative and post-operative care for cleft lip and cleft palate repair.\n\nFeeding techniques for an infant with an unrepaired cleft lip/palate.\n\nLong-term multidisciplinary care needs (speech, dental, hearing)."
+  },
+  {
+    "question": "A mother calls the clinic concerned that her 6-year-old has a fever of 39°C. Which medication should the nurse advise the mother to AVOID giving her child due to the risk of Reye's syndrome?",
+    "options": {
+      "A": "Paracetamol (Acetaminophen)",
+      "B": "Ibuprofen",
+      "C": "Aspirin (Acetylsalicylic Acid)",
+      "D": "Codeine"
+    },
+    "answer": "C",
+    "explanation": "Reye's syndrome is a rare but life-threatening condition that causes swelling in the liver and brain. It has been strongly associated with the use of aspirin (and other salicylates) to treat fever in children and teenagers during or after a viral illness like influenza or chickenpox. For this reason, aspirin is contraindicated for fever management in this population.",
+    "additional": "Paracetamol and Ibuprofen are the recommended first-line antipyretics for children. Codeine is generally not recommended for children due to its variable metabolism and risk of respiratory depression. Parents should be educated to read labels carefully as aspirin is an ingredient in many over-the-counter combination products.\n\nPotential NCK Topics (August Exams):\n\nThe link between viral illness, aspirin use, and Reye's syndrome.\n\nDosage calculation for common pediatric medications.\n\nManagement of fever in children, including non-pharmacological methods."
+  },
+  {
+    "question": "A 6-week-old infant is diagnosed with pyloric stenosis. The nurse should expect the parents to report which hallmark symptom?",
+    "options": {
+      "A": "Small, infrequent, pellet-like stools",
+      "B": "Currant jelly-like stools",
+      "C": "Regurgitation with foul-smelling breath",
+      "D": "Projectile vomiting shortly after feedings"
+    },
+    "answer": "D",
+    "explanation": "Pyloric stenosis is a condition where the pylorus, the muscle at the exit of the stomach, becomes thickened (hypertrophied). This blocks food from entering the small intestine. As the obstruction worsens, pressure builds up, leading to forceful, non-bilious, projectile vomiting that can travel several feet. The infant is often hungry again immediately after vomiting.",
+    "additional": "(b) Currant jelly-like stools (mucus and blood) are a classic sign of intussusception.\n\nAn assessment finding for pyloric stenosis is often a palpable olive-shaped mass in the epigastric region. The infant is at high risk for dehydration and metabolic alkalosis due to the loss of stomach acid.\n\nPotential NCK Topics (August Exams):\n\nPre-operative and post-operative care for a pyloromyotomy.\n\nFluid and electrolyte imbalances in children (specifically metabolic alkalosis).\n\nDifferentiating between major GI disorders in infancy (e.g., Pyloric Stenosis, Intussusception, Hirschsprung's Disease)."
+  },
+  {
+    "question": "According to Erikson's theory of psychosocial development, the primary task for an infant (birth to 18 months) is to develop a sense of:",
+    "options": {
+      "A": "Trust",
+      "B": "Autonomy",
+      "C": "Initiative",
+      "D": "Industry"
+    },
+    "answer": "A",
+    "explanation": "Erikson's first stage of psychosocial development is Trust vs. Mistrust. During this period, the infant is completely dependent on caregivers. If the caregivers are responsive and consistently meet the infant's needs for food, comfort, and safety, the infant develops a sense of trust and security in the world.",
+    "additional": "The other stages are:\n\nAutonomy vs. Shame and Doubt (Toddler, 18 months - 3 years)\n\nInitiative vs. Guilt (Preschool, 3 - 5 years)\n\nIndustry vs. Inferiority (School-age, 5 - 13 years)\n\nUnderstanding these stages helps the nurse provide developmentally appropriate care.\n\nPotential NCK Topics (August Exams):\n\nErikson's stages of development across the lifespan.\n\nPiaget's stages of cognitive development.\n\nThe principles of play therapy and its importance at different ages."
+  },
+  {
+    "question": "A child is diagnosed with intussusception. The nurse would expect to find which characteristic sign during assessment?",
+    "options": {
+      "A": "An olive-shaped mass in the epigastrium",
+      "B": "Sausage-shaped mass in the abdomen and currant jelly stools",
+      "C": "Ribbon-like, foul-smelling stools",
+      "D": "Steatorrhea (fatty stools)"
+    },
+    "answer": "B",
+    "explanation": "Intussusception is a condition where one segment of the intestine \"telescopes\" into another. This leads to lymphatic and venous obstruction, causing edema and ischemia. This pressure on the bowel walls results in the passage of bloody mucus, classically described as currant jelly stool. On palpation, a sausage-shaped mass can often be felt in the abdomen.",
+    "additional": "(a) An olive-shaped mass is the classic sign of pyloric stenosis.\n\n(c) Ribbon-like stools are characteristic of Hirschsprung's disease, caused by a lack of nerve cells in the colon.\n\n(d) Steatorrhea is seen in malabsorption syndromes like cystic fibrosis or celiac disease.\n\nPotential NCK Topics (August Exams):\n\nThe classic triad of symptoms for intussusception: abdominal pain, palpable mass, and bloody stools.\n\nNon-surgical treatment for intussusception (air or barium enema).\n\nThe pathophysiology of Hirschsprung's disease."
+  },
+  {
+    "question": "When communicating with a preschool-aged child (3-5 years), the nurse should be aware that their thinking is primarily:",
+    "options": {
+      "A": "Abstract and logical",
+      "B": "Able to consider others' points of view",
+      "C": "Egocentric and concrete",
+      "D": "Focused on past and future events"
+    },
+    "answer": "C",
+    "explanation": "According to Piaget's theory of cognitive development, preschoolers are in the Preoperational Stage. Their thinking is characterized by egocentrism (they see the world only from their own perspective) and concreteness (they interpret language literally). They cannot yet think abstractly or understand complex analogies.",
+    "additional": "To communicate effectively, the nurse should use simple, direct language and avoid figures of speech. For example, telling a preschooler \"I'm going to take your blood pressure\" might be interpreted as \"you are going to take away my blood.\" It's better to say \"I'm going to give your arm a warm hug with this cuff.\" Explanations should be short and focused on what the child will see, feel, and hear.\n\nPotential NCK Topics (August Exams):\n\nDevelopmentally appropriate communication strategies for each age group (infant, toddler, preschooler, school-age, adolescent).\n\nPiaget's stages of cognitive development (Sensorimotor, Preoperational, Concrete Operational, Formal Operational).\n\nPreparing a child for a procedure."
+  },
+  {
+    "question": "A nurse is preparing to administer the MMR (Measles, Mumps, Rubella) vaccine to a 12-month-old. What is the correct route and site for this injection?",
+    "options": {
+      "A": "Intramuscular (IM) in the deltoid muscle",
+      "B": "Subcutaneous (SC) in the anterolateral thigh",
+      "C": "Intradermal (ID) in the forearm",
+      "D": "Oral (PO) solution"
+    },
+    "answer": "B",
+    "explanation": "The MMR vaccine is a live attenuated vaccine that is administered via the subcutaneous (SC) route. For infants and toddlers, the recommended site for SC injections is the fatty tissue over the anterolateral thigh. The deltoid muscle is not recommended for children under 18 months due to its small muscle mass.",
+    "additional": "It is critical for the nurse to know the correct route for each vaccine as administration by the wrong route can reduce efficacy and increase the risk of local adverse reactions. For example, DTaP and PCV13 are given Intramuscularly (IM) in the vastus lateralis muscle of the thigh for this age group. Rotavirus vaccine is given orally.\n\nPotential NCK Topics (August Exams):\n\nThe national childhood immunization schedule (e.g., KEPI in Kenya).\n\nDifferentiating between live attenuated and inactivated vaccines.\n\nContraindications and precautions for vaccination."
+  },
+  {
+    "question": "What is the priority nursing diagnosis for a child having an acute asthma exacerbation?",
+    "options": {
+      "A": "Ineffective Airway Clearance",
+      "B": "Activity Intolerance",
+      "C": "Anxiety",
+      "D": "Imbalanced Nutrition: Less than Body Requirements"
+    },
+    "answer": "A",
+    "explanation": "Asthma is a disease of airway inflammation, bronchoconstriction, and increased mucus production. During an acute exacerbation, these processes severely narrow the airways, making it difficult to move air. Ineffective Airway Clearance is the priority nursing diagnosis because it addresses the life-threatening pathophysiology of airway obstruction. All other problems (anxiety, activity intolerance) are secondary to this primary problem.",
+    "additional": "Priority nursing interventions would include administering bronchodilators (like Salbutamol), administering oxygen to maintain saturation, positioning the child for maximum chest expansion (e.g., sitting upright), and assessing respiratory status continuously (rate, effort, breath sounds, O2 saturation).\n\nPotential NCK topics (August exams):\n\nPathophysiology of asthma.\n\nUse of a peak flow meter and an asthma action plan.\n\nPharmacology: differentiating between \"reliever\" (e.g., SABA) and \"controller\" (e.g., ICS) asthma medications."
   }
 ]
+
+
 
 
 
