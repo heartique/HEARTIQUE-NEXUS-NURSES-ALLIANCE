@@ -1422,7 +1422,19 @@
     "answer": "B",
     "explanation": "Chills, flank/back pain, and nausea are classic signs and symptoms of an acute hemolytic transfusion reaction, the most severe and life-threatening type of reaction. It occurs when the recipient's antibodies attack the donor's red blood cells. The absolute first and most critical action is to stop the transfusion immediately. Every additional drop of incompatible blood infused will worsen the reaction.",
     "additional": "For the NCK exam, recognizing the signs of different types of transfusion reactions (hemolytic, febrile, allergic) and knowing the immediate nursing interventions is essential knowledge for patient safety."
-  }
+  },
+  {
+  "question": "What is the primary reason the nurse primes blood tubing with normal saline before administering packed red blood cells (PRBCs)?",
+  "options": {
+    "A": "To maintain IV patency",
+    "B": "To check for compatibility",
+    "C": "To prevent hemolysis",
+    "D": "To test the IV flow rate"
+  },
+  "answer": "C",
+  "explanation": "The only intravenous fluid that is compatible with packed red blood cells is 0.9% sodium chloride (normal saline). Priming the tubing with normal saline ensures that the blood does not come into contact with any incompatible solution. Dextrose solutions (like D5W) will cause the red blood cells to clump together (agglutinate) and lyse (break apart), a process called hemolysis. Ringer's Lactate contains calcium, which will cause the citrated blood in the bag to clot within the tubing. Therefore, the primary reason is to prevent hemolysis and clotting.\nA and D are secondary benefits of priming, but not the primary reason.\nB is incorrect; compatibility is checked by the blood bank and by the nurse's verification at the bedside, not by the saline.",
+  "additional": "Safe blood transfusion administration is a critical nursing competency. The process includes:\nVerifying the physician's order.\nEnsuring the patient has signed consent.\nVerifying the patient's identity and the blood product details with another registered nurse at the bedside.\nUsing appropriate Y-type blood tubing primed only with normal saline.\nStaying with the patient for the first 15 minutes of the transfusion to monitor for any signs of a transfusion reaction."
+}
 ]
 
 
