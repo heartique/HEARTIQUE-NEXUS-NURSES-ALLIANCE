@@ -298,10 +298,150 @@
     "answer": "d",
     "explanation": "In the Kenyan health system, which is decentralized, health services management at the sub-national level is a key function.\n\nOption (d) is the correct answer. The District Health Management Team (DHMT), now often referred to as the County Health Management Team (CHMT) after devolution, is the multidisciplinary body responsible for planning, coordinating, managing, and monitoring all health activities within the district/county.\n\nOption (a), The Medical Officer of Health (MOH) is typically the head or a senior member of the DHMT/CHMT, but the coordination is a team function, not solely the role of one person.\n\nOption (b), The District Development Committee is a broader governmental body dealing with all aspects of development (roads, water, etc.), not just health.\n\nOption (c), A Public Health Officer is a key member of the DHMT/CHMT, often in charge of environmental health and disease prevention, but they do not coordinate all PHC activities alone.",
     "additional": "Kenyan Health System Structure:\n\n- **National Level**: Ministry of Health (MOH) – Policy, standards, national strategy.\n- **County Level**: County Department of Health, headed by the County Executive Committee (CEC) Member for Health.\n- **CHMT (County Health Management Team)**: Manages all county health services.\n- **Sub-County Level**: Sub-County Health Management Team (SCHMT).\n- **Community Level**: Community Health Units (CHUs), supported by Community Health Volunteers (CHVs).\n\n**Primary Health Care (PHC)**: Emphasizes accessibility, community participation, prevention, and use of appropriate technology. The DHMT/CHMT is the engine that drives PHC implementation at the local level."
+  },
+  {
+    "question": "The doctor ordered capsules 250 mg Ampicillin every four hours for cachetic 50 year old Jey. Henry administered the 500 mg capsule he had in stock twice during his shift. He noted no adverse effects. He should:-",
+    "options": {
+      "A": "Report to the doctor and supervisor and expect correction.",
+      "B": "Expect to undergo a malpractice suit.",
+      "C": "Report and document his error in the nurses' notes.",
+      "D": "Fill out an incident report to be used by Jey's lawyer."
+    },
+    "answer": "A",
+    "explanation": "The immediate priorities after a medication error are patient safety and transparent reporting. The nurse must first assess the patient for any adverse effects and then immediately report the error to the charge nurse/supervisor and the prescribing doctor. This allows for timely intervention if needed (e.g., adjusting the next dose, monitoring for side effects). Option (c) is incorrect because errors are documented in an incident report, not directly in the nurses' notes, to avoid making the error part of the patient's permanent legal record in a way that discourages reporting.",
+    "additional": "Incident reports (also called occurrence or safety reports) are internal, confidential documents used for quality improvement. Their purpose is to analyze the system factors that led to the error to prevent recurrence, not to punish the individual. Falsifying the record or failing to report an error is a serious professional and ethical breach. The focus should always be on a \"just culture\" that encourages reporting to improve patient safety.\n\nPotential NCK Topics (August Exams):\nThe Seven Rights of Medication Administration: Right Patient, Right Drug, Right Dose, Right Route, Right Time, Right Documentation, Right to Refuse.\nProcedure for handling medication errors.\nPrinciples of a \"Just Culture\" in healthcare safety.\nLegal implications of nursing documentation.\n\nA non-punitive \"just culture\" environment is encouraged in healthcare. This means that when errors are reported, the focus is on identifying and fixing system-level problems that contributed to the error, rather than automatically blaming the individual. This approach increases error reporting and ultimately improves patient safety. The documentation in the patient's chart should be objective (e.g., \"500 mg Ampicillin administered at 14:00. Dr. Smith notified. Patient assessed, vital signs stable, no adverse effects noted.\") without assigning blame or making excuses.\n\nPotential NCK Topics (August Exams):\nThe Seven Rights of Medication Administration (Right Patient, Drug, Dose, Route, Time, Documentation, Reason).\nThe purpose and process of completing an incident/occurrence report.\nThe concept of a \"Just Culture\" in promoting patient safety.\nDifferentiating negligence from malpractice."
+  },
+  {
+    "question": "The Nurses Act empowers:-",
+    "options": {
+      "A": "The Nursing Council of Kenya to make provision for nursing training and practice.",
+      "B": "The National Nurses Association of Kenya to regulate nursing practice.",
+      "C": "Kenya Parliament to make provision for nursing training and practice.",
+      "D": "Ministry of Health to regulate nursing training and practice."
+    },
+    "answer": "A",
+    "explanation": "The Nurses Act is the piece of legislation passed by Parliament that establishes the legal framework for the nursing profession. This Act creates and gives power to a specific regulatory body to oversee the profession on behalf of the government and the public. In Kenya, that body is the Nursing Council of Kenya (NCK).",
+    "additional": "b) is incorrect: The National Nurses Association of Kenya (NNAK) is a professional association or union. Its role is to advocate for the welfare and professional interests of nurses, but it does not have the legal power to regulate practice or issue licenses.\nc) is incorrect: The Parliament passes the Act, but it delegates the day-to-day work of regulation (setting standards, accrediting schools, registering nurses, handling discipline) to the expert body it creates, the NCK.\nd) is incorrect: The Ministry of Health is the overarching government body for all healthcare, and it works closely with the NCK, but the specific legal mandate for regulating nursing training and practice is vested in the NCK by the Nurses Act.\n\nPotential NCK Topics (August Exams):\nThe specific functions of the Nursing Council of Kenya (NCK).\nThe difference between a regulatory body (like NCK) and a professional association (like NNAK).\nThe process of nurse licensure and renewal in Kenya.\nThe disciplinary functions and procedures of the NCK."
+  },
+  {
+  "question": "A nurse manager is assigning tasks for the shift. Which task is most appropriate to assign to a newly registered nurse who has just completed orientation?",
+  "options": {
+    "A": "Taking charge of the ward for the last hour of the shift.",
+    "B": "Performing the admission assessment on a critically ill patient transferred from the ICU.",
+    "C": "Administering routine oral medications to a group of stable patients.",
+    "D": "Developing a new wound care protocol for the unit."
+  },
+  "answer": "C",
+  "explanation": "When delegating or assigning tasks, the manager must consider the skill level and experience of the staff member. A newly registered nurse should be assigned tasks that are fundamental, have a predictable outcome, and involve stable patients. Administering routine medications is a core nursing skill and is the most appropriate and safest assignment among the choices.",
+  "additional": "The other options are inappropriate for a novice nurse.\n\nTaking charge requires significant experience, leadership skills, and an understanding of the entire unit's operations.\n\nAssessing a critically ill patient requires advanced assessment skills and the ability to recognize subtle changes.\n\nDeveloping a protocol is a high-level task that requires expert knowledge, research skills, and an understanding of policy development. Effective delegation matches the right task to the right person.\n\nPotential NCK Topics (August Exams):\n\nPrinciples of safe delegation and assignment.\n\nPatricia Benner's \"Novice to Expert\" theory of nursing proficiency.\n\nRoles and responsibilities of the nurse manager."
+},
+{
+  "question": "A patient informs the nurse they wish to leave the hospital against medical advice (AMA). The nurse's first priority action is to:",
+  "options": {
+    "A": "Immediately call security to prevent the patient from leaving.",
+    "B": "Have the patient sign the AMA form without delay.",
+    "C": "Notify the doctor and explain the risks of leaving to the patient.",
+    "D": "Physically restrain the patient in their bed."
+  },
+  "answer": "C",
+  "explanation": "A competent adult has the legal right to refuse treatment, which includes leaving the hospital. The nurse's first duty is to ensure the patient is making an informed decision. This involves explaining the potential risks of leaving (in terms the patient can understand), notifying the physician so they can also speak with the patient, and exploring the reasons for the patient's decision. This respects patient autonomy while fulfilling the duty to inform.",
+  "additional": "Physically restraining the patient or using security to block their exit (options a and d) would constitute false imprisonment, which is an intentional tort. Simply having them sign the form without ensuring they are informed (option b) is insufficient and does not fulfill the nurse's duty of care. The AMA process involves patient education, notification of the provider, and finally, documentation on the official form.\n\nPotential NCK Topics (August Exams):\n\nThe process for managing a patient leaving Against Medical Advice (AMA).\n\nLegal concepts: False Imprisonment, Assault, and Battery.\n\nThe role of the nurse as a patient advocate."
+},
+{
+  "question": "Which leadership style is most effective during an emergency resuscitation (code blue) situation?",
+  "options": {
+    "A": "Laissez-faire",
+    "B": "Democratic",
+    "C": "Autocratic",
+    "D": "Transformational"
+  },
+  "answer": "C",
+  "explanation": "The autocratic (or authoritarian) leadership style is characterized by the leader making decisions independently with little or no input from the group. In a time-critical emergency like a cardiac arrest, there is no time for group discussion or debate. A clear leader must give direct, authoritative commands to ensure tasks are completed quickly and efficiently.",
+  "additional": "Democratic style (seeking group consensus) is effective for daily problem-solving and team building but is too slow for an emergency.\n\nLaissez-faire style (hands-off leadership) would lead to chaos in a crisis.\n\nTransformational style (inspiring and motivating followers towards a long-term vision) is excellent for organizational growth but is not a crisis management technique. The best leaders adapt their style to the situation.\n\nPotential NCK Topics (August Exams):\n\nDifferent leadership and management styles and their appropriate application.\n\nConflict resolution strategies in nursing.\n\nTeam building and effective team communication (e.g., SBAR technique)."
+},
+{
+  "question": "A nurse who speaks out on behalf of a patient to ensure their needs are met and their rights are protected is fulfilling the ethical role of:",
+  "options": {
+    "A": "Veracity",
+    "B": "Justice",
+    "C": "Advocacy",
+    "D": "Fidelity"
+  },
+  "answer": "C",
+  "explanation": "Advocacy is a cornerstone of nursing ethics. It involves actively supporting a course of action on behalf of a person or group. This includes protecting patients' rights, ensuring their voice is heard, helping them navigate the complex healthcare system, and intervening if their care is compromised.",
+  "additional": "The other ethical principles are:\n\nVeracity: The duty to be truthful.\n\nJustice: The duty to treat all patients fairly and distribute resources equitably.\n\nFidelity: The duty to be faithful to one's commitments and promises.\nWhile all are important, the act of \"speaking out for\" a patient is the definition of advocacy.\n\nPotential NCK Topics (August Exams):\n\nApplication of all core ethical principles (Autonomy, Beneficence, Non-maleficence, Justice, Fidelity, Veracity).\n\nNavigating ethical dilemmas in clinical practice.\n\nThe role of the hospital ethics committee."
+},
+{
+  "question": "To prove nursing malpractice, the plaintiff must demonstrate that the nurse's breach of duty was the direct cause of their injury. This legal element is known as:",
+  "options": {
+    "A": "Duty",
+    "B": "Harm",
+    "C": "Foreseeability",
+    "D": "Causation"
+  },
+  "answer": "D",
+  "explanation": "Causation is the legal element that links the breach of duty directly to the injury. The plaintiff must prove that \"but for\" the nurse's action or inaction, the harm would not have occurred. It establishes a direct cause-and-effect relationship. Foreseeability (the event was reasonably predictable) is part of determining the breach of duty, but causation is the specific link to the harm.",
+  "additional": "The four elements required to prove malpractice are:\n\nDuty: A professional nurse-patient relationship existed.\n\nBreach of Duty: The nurse failed to provide care according to the established standard.\n\nCausation: The nurse's breach of duty directly caused the patient's injury.\n\nHarm/Damages: The patient suffered an actual injury or damages (physical, emotional, or financial).\nAll four elements must be proven for a malpractice claim to be successful.\n\nPotential NCK Topics (August Exams):\n\nThe four elements of malpractice in detail.\n\nDifferentiating between negligence and malpractice.\n\nThe role of the nurse as an expert witness in a legal case."
+},
+{
+  "question": "Which of the following is an example of an intentional tort in nursing?",
+  "options": {
+    "A": "A patient falls because the nurse forgot to put the bed rails up.",
+    "B": "Administering a medication to the wrong patient, causing an allergic reaction.",
+    "C": "Telling a competent patient they cannot leave the hospital, and blocking their exit.",
+    "D": "A patient's pressure ulcer worsens due to infrequent turning."
+  },
+  "answer": "C",
+  "explanation": "A tort is a civil wrong. An intentional tort is a wrongful act done on purpose. Telling a competent person they cannot leave and physically preventing them from doing so constitutes false imprisonment. The other options describe situations that are likely unintentional torts (negligence or malpractice), as the harm was caused by carelessness or a mistake, not by a willful act to cause harm.",
+  "additional": "Other examples of intentional torts in nursing include:\n\nAssault: Threatening to touch a person without their consent (\"If you don't take this pill, I'll give you an injection\").\n\nBattery: The actual act of touching a person without their consent.\n\nDefamation (Libel/Slander): Making false statements that damage a person's reputation.\n\nPotential NCK Topics (August Exams):\n\nDifferentiating between intentional torts and unintentional torts.\n\nThe legal significance of informed consent.\n\nConfidentiality and privacy (HIPAA principles)."
+},
+{
+  "question": "The nurse manager on a surgical ward is conducting a quality improvement audit. Which activity best reflects a quality improvement effort?",
+  "options": {
+    "A": "Disciplining a nurse who made a medication error.",
+    "B": "Reviewing the rate of post-operative wound infections on the unit over the last quarter.",
+    "C": "Creating the daily patient assignment schedule.",
+    "D": "Ordering new supplies for the treatment room."
+  },
+  "answer": "B",
+  "explanation": "Quality Improvement (QI) is a systematic, data-driven process used to improve patient care and outcomes. It focuses on processes and systems, not on blaming individuals. Reviewing infection rates is a classic QI activity: it involves collecting data on a key performance indicator to identify trends and determine if an intervention is needed to improve the system of care.",
+  "additional": "Option (a) is a disciplinary action, which is separate from QI. Options (c) and (d) are routine day-to-day management tasks, not systematic improvement processes. The QI cycle is often described as PDSA: Plan (a change), Do (implement the change), Study (analyze the data), and Act (standardize the change or plan a new cycle).\n\nPotential NCK Topics (August Exams):\n\nThe Quality Improvement process (e.g., PDSA cycle).\n\nThe purpose of root cause analysis (RCA) following a sentinel event.\n\nThe role of the nurse in evidence-based practice (EBP)."
+},
+{
+    "question": "The ethical principle that requires a nurse to do no harm is known as:",
+    "options": {
+      "A": "Justice",
+      "B": "Beneficence",
+      "C": "Autonomy",
+      "D": "Non-maleficence"
+    },
+    "answer": "D",
+    "explanation": "The principle of non-maleficence is the fundamental duty to avoid causing harm to others. In nursing, this means avoiding actions that could physically or emotionally injure a patient. It is often considered the foundation of safe nursing practice.",
+    "additional": "It is important to distinguish this from beneficence:\n\nNon-maleficence: The duty to not inflict harm. (Passive)\n\nBeneficence: The duty to actively do good for others, such as providing comfort or administering pain medication.\nSometimes these principles can conflict, creating an ethical dilemma. For example, a chemotherapy drug may cause harm (side effects) but is given with the intent of doing good (curing cancer).\n\nPotential NCK Topics (August Exams):\n\nScenarios involving ethical dilemmas and how to apply the principles.\n\nThe concept of double effect in end-of-life care.\n\nThe role of a professional code of ethics."
+  },
+  {
+    "question": "A nurse who advocates for a change in hospital policy to allow family members more liberal visiting hours is primarily demonstrating which professional role?",
+    "options": {
+      "A": "Manager",
+      "B": "Educator",
+      "C": "Change Agent",
+      "D": "Researcher"
+    },
+    "answer": "C",
+    "explanation": "A change agent is someone who uses their expertise and influence to drive and facilitate change within an organization or system. By identifying a problem (restrictive visiting hours), proposing a solution, and advocating for a policy change to improve the patient and family experience, the nurse is acting as a catalyst for improvement.",
+    "additional": "While the nurse may use managerial and educational skills to achieve this change, the primary role being demonstrated is that of a change agent. This is a key leadership function that all nurses, regardless of their formal title, can perform to improve the quality of care.\n\nPotential NCK Topics (August Exams):\n\nKurt Lewin's Change Theory (Unfreezing, Changing, Refreezing).\n\nStrategies for overcoming resistance to change.\n\nThe nurse's role in policy development."
+  },
+  {
+    "question": "What does the ethical principle of \"fidelity\" require a nurse to do?",
+    "options": {
+      "A": "Distribute care and resources fairly among patients.",
+      "B": "Be truthful and honest with patients.",
+      "C": "Do no harm to the patient.",
+      "D": "Be faithful to one's commitments and promises."
+    },
+    "answer": "D",
+    "explanation": "Fidelity is the principle of faithfulness, loyalty, and honoring one's commitments. In nursing, this means following through on what you say you will do (e.g., \"I'll be back in 10 minutes with your pain medication\"). It also refers to the broader commitment a nurse makes to the public to be a competent and trustworthy professional. It is the basis of the nurse-patient trust relationship.",
+    "additional": "Let's link the other options to their principles:\n\n(a) Distribute care fairly = Justice.\n\n(b) Be truthful = Veracity.\n\n(c) Do no harm = Non-maleficence.\nUnderstanding the precise definition of each ethical principle is crucial for professional practice and for answering ethics-based exam questions.\n\nPotential NCK Topics (August Exams):\n\nThe ANA or ICN Code of Ethics.\n\nProfessional boundaries in the nurse-patient relationship.\n\nEthical issues related to social media use by nurses."
   }
 ]
-
-
-
-
-
+  
