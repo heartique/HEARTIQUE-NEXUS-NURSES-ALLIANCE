@@ -754,7 +754,164 @@
     "answer": "D",
     "explanation": "The menstrual cycle involves fluctuating hormone levels that cause predictable physiological changes. One such change is a slight, sustained rise in basal body temperature (BBT).\n\nOption (d) is correct. After ovulation, the ruptured follicle develops into the corpus luteum, which begins to produce large amounts of progesterone. Progesterone has a thermogenic (heat-producing) effect, causing the BBT to rise by about 0.2-0.5°C (0.4-1.0°F). This elevated temperature persists until menstruation begins (if fertilization does not occur).\n\nOption (a), Estrogen, dominates the first half of the cycle (the follicular phase) and does not cause a temperature rise.\n\nOption (b), Luteinizing hormone (LH), surges just before ovulation to trigger it, but it is the subsequent rise in progesterone that causes the temperature change.\n\nOption (c), Follicle-stimulating hormone (FSH), stimulates the growth of ovarian follicles at the beginning of the cycle.",
     "additional": "Basal Body Temperature (BBT) Charting: This method is used in natural family planning. A woman tracks her BBT every morning before getting out of bed. The sustained temperature shift confirms that ovulation has already occurred. It can be used to identify the fertile window in retrospect.\n\nHormonal Profile of Menstrual Cycle:\n\nFollicular Phase (Day 1 to Ovulation): FSH stimulates follicle growth -> Follicles produce Estrogen -> Estrogen builds up the endometrium.\n\nOvulation (~Day 14): High estrogen levels trigger a massive LH surge -> LH surge causes ovulation.\n\nLuteal Phase (Ovulation to Menstruation): Corpus luteum forms -> Produces Progesterone (and some estrogen) -> Progesterone makes the endometrium receptive to implantation and raises BBT.\n\nMenstruation: If no pregnancy, the corpus luteum degenerates -> Progesterone and estrogen levels fall -> Endometrium breaks down and sheds."
-  }
+  },
+  {
+    "question": "Q:2: Aqueous humor in the eye:-",
+    "options": {
+      "A": "Circulates only through the anterior chamber.",
+      "B": "Exerts an intraocular pressure measurable by a tonometer.",
+      "C": "When excessive, may damage the optic nerve causing hyperopia.",
+      "D": "Is secreted through the lacrimal ducts."
+    },
+    "answer": "B",
+    "explanation": "Aqueous humor is a clear fluid that fills the anterior and posterior chambers of the eye. It is constantly produced by the ciliary body and drained through the trabecular meshwork. This dynamic balance of production and drainage creates the intraocular pressure (IOP), which is measured with a tonometer.",
+    "additional": "a) is incorrect: It circulates from the posterior chamber (behind the iris) through the pupil into the anterior chamber (in front of the iris).\nc) is incorrect: Excessive aqueous humor increases IOP, which damages the optic nerve, leading to glaucoma, not hyperopia. Hyperopia (farsightedness) is a refractive error related to the shape of the eyeball.\nd) is incorrect: Aqueous humor is secreted by the ciliary body inside the eye. Tears are secreted by the lacrimal glands and drain through the lacrimal ducts, which are part of the external eye structures.\n\nPotential NCK Topics (August Exams):\nPathophysiology of Glaucoma: Differentiating between open-angle and closed-angle glaucoma.\nCranial Nerves: Functions of all 12 cranial nerves, with a focus on those controlling eye movement (III, IV, VI) and vision (II).\nStructures of the Eye: The functions of the retina, cornea, lens, and iris."
+  },
+  {
+    "question": "Q:11: Dental Malocclusion:-",
+    "options": {
+      "A": "Is a normal contact between the upper and lower teeth.",
+      "B": "Is caused by thumb-sucking, trauma, frequent epistaxis.",
+      "C": "Can be treated by diet therapy.",
+      "D": "Occurs when the teeth are not lined up properly."
+    },
+    "answer": "D",
+    "explanation": "Malocclusion is the medical term for the misalignment of teeth and the way the upper and lower teeth fit together. This includes conditions like overbite, underbite, crossbite, and crowding.",
+    "additional": "a) is incorrect: This defines normal occlusion.\nb) is partially correct but flawed: Thumb-sucking and trauma can cause malocclusion, but frequent epistaxis (nosebleeds) is unrelated.\nc) is incorrect: Malocclusion is treated with orthodontics (braces) or, in severe cases, surgery; diet therapy has no role.\n\nPotential NCK Topics (August Exams):\nCranial Nerves related to the mouth/jaw: Trigeminal (V) for mastication, Facial (VII) for expression, Hypoglossal (XII) for tongue movement.\nBasic anatomy of the skull.\nDevelopmental milestones in children, including teething."
+  },
+  {
+    "question": "Gas exchange (oxygen and carbon dioxide) in the lungs occurs specifically in which structure?",
+    "options": {
+      "A": "Trachea",
+      "B": "Bronchioles",
+      "C": "Alveoli",
+      "D": "Pleural space"
+    },
+    "answer": "C",
+    "explanation": "The alveoli are tiny, thin-walled air sacs at the very end of the respiratory tract. They are surrounded by a dense network of capillaries. It is across the single-cell-thick walls of the alveoli and capillaries (the respiratory membrane) that the diffusion of oxygen into the blood and carbon dioxide out of the blood occurs.",
+    "additional": "The trachea and bronchioles are part of the conducting zone; their function is to warm, filter, and transport air to the alveoli, but no significant gas exchange occurs there. The pleural space contains serous fluid that lubricates and allows the lungs to move smoothly during breathing; it is not involved in gas exchange.\n\nPotential NCK Topics (August Exams):\nConditions affecting the alveoli: Pneumonia, ARDS, Emphysema.\nThe role of surfactant in preventing alveolar collapse.\nMechanics of breathing: The role of the diaphragm and intercostal muscles."
+  },
+  {
+    "question": "Where in the nephron does most of the obligatory water and sodium reabsorption occur?",
+    "options": {
+      "A": "Loop of Henle",
+      "B": "Proximal convoluted tubule (PCT)",
+      "C": "Distal convoluted tubule (DCT)",
+      "D": "Collecting duct"
+    },
+    "answer": "B",
+    "explanation": "The proximal convoluted tubule is the workhorse of the nephron. It is responsible for the reabsorption of approximately 65-70% of the filtered water and sodium, along with almost all of the filtered glucose and amino acids. This reabsorption is termed \"obligatory\" because it occurs consistently, regardless of the body's hydration status or hormonal signals.",
+    "additional": "The distal convoluted tubule (DCT) and the collecting duct are responsible for \"facultative\" reabsorption. This means the amount of water and sodium reabsorbed in these later segments is variable and tightly regulated by hormones. Antidiuretic Hormone (ADH) controls water reabsorption, and Aldosterone controls sodium reabsorption in the DCT and collecting duct to fine-tune the final urine concentration and volume based on the body's needs.\n\nPotential NCK Topics (August Exams):\nHormonal control of renal function (RAAS system, ADH).\nThe role of the kidneys in acid-base balance.\nPathophysiology of Acute Kidney Injury (AKI) and Chronic Kidney Disease (CKD)."
+  },
+  {
+    "question": "The \"pacemaker\" of the heart, which normally initiates the cardiac electrical impulse, is the:",
+    "options": {
+      "A": "Atrioventricular (AV) node",
+      "B": "Sinoatrial (SA) node",
+      "C": "Bundle of His",
+      "D": "Purkinje fibers"
+    },
+    "answer": "B",
+    "explanation": "The sinoatrial (SA) node, located in the wall of the right atrium, possesses the highest intrinsic rate of automaticity in the heart's conduction system. This allows it to depolarize spontaneously at a rate of 60-100 times per minute, initiating the electrical impulse that spreads throughout the atria and setting the normal sinus rhythm for the entire heart.",
+    "additional": "If the SA node fails, other parts of the conduction system can take over as secondary pacemakers, but at slower rates. The AV node has an intrinsic rate of 40-60 bpm, and the Purkinje fibers have a rate of 20-40 bpm. A rhythm originating from these lower sites is known as an escape rhythm and is often a sign of pathology.\n\nPotential NCK Topics (August Exams):\nThe cardiac conduction pathway in order (SA node → AV node → Bundle of His → Bundle Branches → Purkinje fibers).\nInterpretation of basic ECG rhythms (Normal Sinus Rhythm, Atrial Fibrillation, Ventricular Tachycardia).\nCardiac output (CO = HR x SV) and factors affecting it (preload, afterload, contractility)."
+  },
+  {
+    "question": "Which hormone, released from the posterior pituitary gland, is primarily responsible for regulating water balance by controlling the permeability of the collecting ducts?",
+    "options": {
+      "A": "Aldosterone",
+      "B": "Angiotensin II",
+      "C": "Antidiuretic Hormone (ADH)",
+      "D": "Atrial Natriuretic Peptide (ANP)"
+    },
+    "answer": "C",
+    "explanation": "Antidiuretic Hormone (ADH), also known as vasopressin, is synthesized in the hypothalamus and released from the posterior pituitary. Its main target is the kidneys. It acts on the collecting ducts, causing the insertion of special water channels called aquaporins into the cell membranes. This makes the ducts highly permeable to water, allowing more water to be reabsorbed from the filtrate back into the bloodstream to conserve water.",
+    "additional": "The release of ADH is stimulated by an increase in blood osmolality (a sign of dehydration) or a significant decrease in blood pressure. Conditions involving ADH include Diabetes Insipidus (a deficiency of ADH, leading to excessive urination) and Syndrome of Inappropriate ADH (SIADH) (an excess of ADH, leading to water retention and hyponatremia).\n\nPotential NCK Topics (August Exams):\nDifferentiating between Diabetes Mellitus and Diabetes Insipidus.\nPathophysiology and nursing management of SIADH.\nThe role of the hypothalamus and pituitary gland as the master regulators of the endocrine system."
+  },
+  {
+    "question": "The breakdown of glycogen into glucose, which occurs in the liver, is a process known as:",
+    "options": {
+      "A": "Glycolysis",
+      "B": "Gluconeogenesis",
+      "C": "Glycogenesis",
+      "D": "Glycogenolysis"
+    },
+    "answer": "D",
+    "explanation": "The term Glycogenolysis can be broken down: Glycogen refers to the stored form of glucose, and -lysis means to break down. Therefore, glycogenolysis is the process of breaking down stored glycogen into glucose molecules, which can then be released into the bloodstream to raise blood sugar levels.",
+    "additional": "It's important to differentiate the key glucose metabolism terms:\nGlycogenesis: Formation of glycogen from glucose (-genesis = creation).\nGluconeogenesis: Formation of new glucose from non-carbohydrate precursors like lactate or amino acids.\nGlycolysis: The breakdown of a glucose molecule into pyruvate to produce ATP for energy.\n\nPotential NCK Topics (August Exams):\nHormonal regulation of blood glucose (Insulin vs. Glucagon).\nThe metabolic changes that occur during starvation or in DKA.\nFunctions of the liver (metabolism, detoxification, synthesis of plasma proteins, production of bile)."
+  },
+  {
+    "question": "Which part of the brain is responsible for coordinating voluntary muscle movements, balance, and posture?",
+    "options": {
+      "A": "Cerebrum",
+      "B": "Cerebellum",
+      "C": "Medulla oblongata",
+      "D": "Thalamus"
+    },
+    "answer": "B",
+    "explanation": "The cerebellum, located posterior to the brainstem, acts as a \"comparator.\" It receives motor output signals from the cerebrum and sensory feedback from the body about limb position. It then compares the intended movement with the actual movement and sends corrective signals to ensure the movement is smooth, coordinated, and accurate.",
+    "additional": "Damage to the cerebellum does not cause paralysis but leads to a condition called ataxia, characterized by clumsy, uncoordinated movements, a staggering gait, and difficulty with fine motor tasks. The medulla oblongata, part of the brainstem, controls vital autonomic functions like breathing, heart rate, and blood pressure. The cerebrum is responsible for higher-level functions like thought, language, and initiation of voluntary movement.\n\nPotential NCK Topics (August Exams):\nFunctions of the major lobes of the cerebrum (Frontal, Parietal, Temporal, Occipital).\nThe Circle of Willis and its importance in cerebral circulation.\nSigns and symptoms of a stroke based on the affected cerebral artery."
+  },
+  {
+    "question": "Bile is produced by the liver and stored in the gallbladder. Its primary function in digestion is to:",
+    "options": {
+      "A": "Digest proteins into amino acids.",
+      "B": "Neutralize stomach acid.",
+      "C": "Emulsify fats.",
+      "D": "Break down carbohydrates."
+    },
+    "answer": "C",
+    "explanation": "Bile contains bile salts, which are amphipathic (having both a water-soluble and fat-soluble part). This property allows them to act as a detergent, breaking large globules of dietary fat into microscopic droplets. This process, known as emulsification, vastly increases the surface area for the fat-digesting enzyme, pancreatic lipase, to act upon.",
+    "additional": "While bile is slightly alkaline and helps neutralize chyme entering the duodenum, its primary digestive function is related to fat. Protein digestion begins in the stomach with pepsin and continues in the small intestine with enzymes like trypsin. Carbohydrate digestion begins in the mouth with salivary amylase and continues in the small intestine with pancreatic amylase.\n\nPotential NCK Topics (August Exams):\nPathophysiology of cholelithiasis (gallstones) and cholecystitis (inflammation of the gallbladder).\nThe function of key digestive enzymes (amylase, lipase, protease).\nThe absorptive structures of the small intestine (villi and microvilli)."
+  },
+  {
+    "question": "In a state of acidosis, the kidneys will compensate by:",
+    "options": {
+      "A": "Secreting hydrogen ions (H+) and reabsorbing bicarbonate (HCO3-).",
+      "B": "Reabsorbing hydrogen ions (H+) and secreting bicarbonate (HCO3-).",
+      "C": "Secreting both hydrogen ions (H+) and bicarbonate (HCO3-).",
+      "D": "Increasing the glomerular filtration rate."
+    },
+    "answer": "A",
+    "explanation": "Acidosis is a state of excess H+ ions, resulting in a low blood pH. The renal system compensates by actively secreting the excess H+ ions from the blood into the tubular fluid, where they are excreted in the urine. Simultaneously, the kidney tubule cells generate new bicarbonate (HCO3-) ions, a base, and reabsorb them into the bloodstream to buffer the acid and raise the blood pH back to normal.",
+    "additional": "This renal compensation is powerful but slow, taking hours to days to become fully effective. The respiratory system compensates for metabolic acidosis much faster (within minutes) by increasing the rate and depth of breathing (Kussmaul respirations) to blow off CO2, which is a volatile acid.\n\nPotential NCK Topics (August Exams):\nArterial Blood Gas (ABG) interpretation (respiratory/metabolic acidosis/alkalosis).\nThe difference between compensation and correction of acid-base disorders.\nClinical causes of the four primary acid-base imbalances."
+  },
+  {
+    "question": "Which of the following leukocytes are primarily responsible for fighting bacterial infections and are the most abundant type of white blood cell?",
+    "options": {
+      "A": "Lymphocytes",
+      "B": "Eosinophils",
+      "C": "Basophils",
+      "D": "Neutrophils"
+    },
+    "answer": "D",
+    "explanation": "Neutrophils are the most numerous type of leukocyte, comprising 50-70% of the total white blood cell count. They are highly mobile phagocytes and are the body's first line of defense against acute bacterial infections. Their numbers increase significantly during such an infection, a condition known as neutrophilia.",
+    "additional": "Lymphocytes (T-cells and B-cells) are crucial for the specific immune response, including fighting viral infections and producing antibodies.\nEosinophils are involved in fighting parasitic infections and are prominent in allergic reactions.\nBasophils release histamine and other mediators of inflammation and are involved in allergic responses.\n\nPotential NCK Topics (August Exams):\nComponents of a complete blood count (CBC) and their significance.\nThe difference between innate (non-specific) and adaptive (specific) immunity.\nThe inflammatory response cascade."
+  },
+  {
+    "question": "The hormone primarily responsible for regulating the basal metabolic rate (BMR) is produced by the:",
+    "options": {
+      "A": "Adrenal gland",
+      "B": "Pancreas",
+      "C": "Thyroid gland",
+      "D": "Pituitary gland"
+    },
+    "answer": "C",
+    "explanation": "The thyroid gland synthesizes and secretes thyroxine (T4) and triiodothyronine (T3). These hormones act on nearly every cell in the body to increase the rate of metabolism, which in turn regulates how quickly the body uses energy at rest (the BMR), controls heat production, and influences heart rate and protein synthesis.",
+    "additional": "The release of T3 and T4 is controlled by Thyroid-Stimulating Hormone (TSH) from the anterior pituitary gland, which in turn is controlled by Thyrotropin-Releasing Hormone (TRH) from the hypothalamus. This is known as the hypothalamic-pituitary-thyroid axis. Diseases of the thyroid include hypothyroidism (underactive) and hyperthyroidism (overactive).\n\nPotential NCK Topics (August Exams):\nClinical manifestations of hypothyroidism (e.g., myxedema) vs. hyperthyroidism (e.g., Graves' disease, thyroid storm).\nThe role of other major hormones (e.g., cortisol, insulin, epinephrine).\nThe concept of negative feedback in endocrine regulation."
+  },
+  {
+    "question": "Movement of a limb away from the midline of the body is known as:",
+    "options": {
+      "A": "Flexion",
+      "B": "Adduction",
+      "C": "Abduction",
+      "D": "Extension"
+    },
+    "answer": "C",
+    "explanation": "Abduction is a movement in the frontal plane that takes a body part away from the central axis of the body. A helpful mnemonic is to think of a child being \"abducted\" or taken away. Adduction is the opposite movement, \"adding\" the limb back towards the body.",
+    "additional": "These terms are fundamental for documenting musculoskeletal assessments and range of motion exercises.\nFlexion: Decreases the angle at a joint (e.g., bending the elbow).\nExtension: Increases the angle at a joint (e.g., straightening the elbow).\nOther key terms include rotation, circumduction, pronation, and supination.\n\nPotential NCK Topics (August Exams):\nTypes of joints (e.g., ball-and-socket, hinge) and their range of motion.\nAnatomy of long bones.\nThe process of bone healing after a fracture."
+  },
 ]
+
 
 
