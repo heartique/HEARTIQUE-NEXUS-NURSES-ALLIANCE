@@ -63,7 +63,6 @@
   </header>
 
   <section>
-    <!-- tabs (unchanged) -->
     <div class="tab-buttons">
       <button class="tab active" onclick="showTab('anatomy')">Anatomy &amp; Physiology</button>
       <button class="tab" onclick="showTab('pharma')">Pharmacology</button>
@@ -95,7 +94,6 @@
   </footer>
 
   <script>
-    /* tab switching (unchanged) */
     function showTab(id){
       document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
       document.querySelectorAll('.tab-content').forEach(c=>c.classList.remove('active'));
@@ -103,14 +101,13 @@
       document.getElementById(id).classList.add('active');
     }
 
-    /* dynamic loader with “No images” fallback */
     const units = [
       'anatomy','pharma','patho','medsurg','midwifery',
       'community','mental','peds','leadership','research'
     ];
     const exts  = ['jpg','jpeg','png','webp','gif','bmp','tiff','svg'];
-    const MAX   = 600;   // max numbers to try
-    const GAP   = 10;    // stop after 10 straight misses to save requests
+    const MAX   = 600;
+    const GAP   = 10;
 
     units.forEach(unit => loadUnit(unit));
 
@@ -123,11 +120,11 @@
         let hitForN = false;
 
         for (const ext of exts){
-          const src = `images/${unit}${n}.${ext}`;
+          const src = `${unit}${n}.${ext}`;
           const test = new Image();
 
           test.onload = () =>{
-            if (hitForN) return;       // already counted this number
+            if (hitForN) return;
             hitForN = true; found = true; misses = 0;
 
             const img = document.createElement('img');
@@ -137,15 +134,15 @@
           test.onerror = () => {};
           test.src = src;
         }
+
         if (!hitForN) misses++;
       }
 
-      /* after all attempts, wait a beat then show message if still empty */
       setTimeout(()=>{
         if (!found){
           gallery.innerHTML = '<p class="no-images">📂 No images uploaded yet</p>';
         }
-      }, 800);   // 0.8 s is enough for the tiny image‑probe requests to resolve
+      }, 800);
     }
   </script>
 </body>
