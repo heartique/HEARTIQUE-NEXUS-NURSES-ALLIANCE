@@ -34,7 +34,7 @@ footer{background:#003366;color:#fff;padding:15px;text-align:center;margin-top:6
 
 /* — pop‑ups — */
 .refresh-popup, .share-popup{
-  position:fixed;right:20px;padding:10px 18px;border-radius:8px;font-size:14px;opacity:0;transition:opacity .5s ease;z-index:1001;
+  position:fixed;right:20px;padding:10px 18px;border-radius:8px;font-size:14px;opacity:0;transition:opacity .5s;z-index:1001;
 }
 .refresh-popup{top:20px;background:#003366;color:#fff;}
 .share-popup{bottom:25px;background:#004d00;color:#fff;}
@@ -123,7 +123,7 @@ function showTab(id){
   document.getElementById(id).classList.add('active');
 }
 
-/* — load galleries — */
+/* — load galleries (duplicate‑proof) — */
 const units=['anatomy','pharma','patho','medsurg','midwifery','community','mental','peds','leadership','research'];
 const exts=['jpg','jpeg','png','webp','gif','bmp','tiff','svg'];
 const MAX=600,GAP=10;
@@ -132,24 +132,33 @@ function loadUnit(unit){
   const gallery=document.querySelector(`#${unit} .gallery`);
   gallery.innerHTML='';
   let misses=0,found=false;
-  for(let n=1;n<=MAX && misses<GAP;n++){
-    let hit=false;
-    for(const ext of exts){
-      const src=`${unit}${n}.${ext}`;
+
+  const tryNumber=(n)=>{
+    if(n>MAX || misses>=GAP) return;
+
+    let extIndex=0;
+    const tryExt=()=>{
+      if(extIndex>=exts.length){ misses++; tryNumber(n+1); return; }
+
+      const src=`${unit}${n}.${exts[extIndex]}`;
       const probe=new Image();
       probe.onload=()=>{
-        if(hit) return; hit=true; found=true; misses=0;
+        found=true; misses=0;
         const img=document.createElement('img');
         img.src=src; img.alt=`${unit} ${n}`;
         img.onclick=()=>openLightbox(src);
         gallery.appendChild(img);
+        tryNumber(n+1); // load next number
       };
-      probe.onerror=()=>{};
+      probe.onerror=()=>{ extIndex++; tryExt(); };
       probe.src=src;
-    }
-    if(!hit) misses++;
-  }
-  setTimeout(()=>{if(!found) gallery.innerHTML='<p class="no-images">📂 No images uploaded yet</p>';},800);
+    };
+    tryExt();
+  };
+
+  tryNumber(1);
+
+  setTimeout(()=>{if(!found) gallery.innerHTML='<p class="no-images">📂 No images uploaded yet</p>';},1000);
 }
 units.forEach(loadUnit);
 
@@ -175,10 +184,9 @@ function showImage(i){
 function prevImage(e){e.stopPropagation();showImage(currentIndex-1);}
 function nextImage(e){e.stopPropagation();showImage(currentIndex+1);}
 
-/* close by clicking backdrop */
 lightbox.addEventListener('click',e=>{if(e.target===lightbox) closeLightbox();});
 
-/* swipe support */
+/* swipe */
 let touchStartX=0;
 lightbox.addEventListener('touchstart',e=>{touchStartX=e.changedTouches[0].screenX;},{passive:true});
 lightbox.addEventListener('touchend',e=>{
@@ -186,7 +194,7 @@ lightbox.addEventListener('touchend',e=>{
   if(Math.abs(dx)>50){ dx<0?nextImage(e):prevImage(e);}
 },{passive:true});
 
-/* arrow keys + ESC */
+/* keys */
 document.addEventListener('keydown',e=>{
   if(lightbox.style.display==='flex'){
     if(e.key==='Escape') closeLightbox();
@@ -210,11 +218,7 @@ function shareGallery(e){
 function openWhatsApp(message){
   const waURL='https://wa.me/?text='+encodeURIComponent(message);
   window.open(waURL,'_blank','noopener,noreferrer');
-
-  /* clipboard fallback */
-  if(navigator.clipboard){
-    navigator.clipboard.writeText(message).then(showSharePopup);
-  }else{showSharePopup();}
+  if(navigator.clipboard){navigator.clipboard.writeText(message).then(showSharePopup);}else{showSharePopup();}
 }
 function showSharePopup(){
   const s=document.getElementById('sharePopup');
