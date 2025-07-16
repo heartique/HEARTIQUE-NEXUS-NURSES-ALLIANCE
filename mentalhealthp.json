@@ -1559,9 +1559,232 @@
     "answer": "C",
     "explanation": "Delirium tremens is a life-threatening form of alcohol withdrawal, typically 48–72 hours after cessation. Symptoms include hallucinations, fever, tremors, and seizures.",
     "additional": "(a) Caused by thiamine deficiency. (b) Related to serotonin excess. (d) From antipsychotic use.\n\nPotential NCK Topics (August Exams):\n- CIWA-Ar scale.\n- Benzodiazepine protocols.\n- Chronic alcoholism complications."
+  },
+  {
+    "question": "A 45-year-old patient with schizophrenia has been prescribed antipsychotic medication. What is the nurse's primary responsibility in monitoring the patient's response to the medication?",
+    "options": {
+      "A": "Checking the patient's blood pressure regularly",
+      "B": "Assessing the patient's sleep patterns",
+      "C": "Monitoring the patient's mood and affect",
+      "D": "Measuring the patient's body weight daily"
+    },
+    "answer": "C",
+    "explanation": "The primary goal of antipsychotic medication in schizophrenia is to manage the core symptoms of the illness. This includes positive symptoms (like hallucinations and delusions), negative symptoms (like blunted affect, apathy), and cognitive symptoms. Monitoring the patient's mood and affect is the most direct way to assess the medication's effectiveness on these core psychiatric symptoms. While blood pressure (A), sleep (B), and weight (D) are all important to monitor for side effects, they do not assess the primary therapeutic effect on the psychosis itself."
+  },
+  {
+    "question": "A patient with bipolar disorder is experiencing a manic episode. What nursing intervention should be the priority during this phase?",
+    "options": {
+      "A": "Administering sedative medications",
+      "B": "Encouraging social interaction",
+      "C": "Allowing the patient to express grandiose ideas",
+      "D": "Promoting physical activity"
+    },
+    "answer": "A",
+    "explanation": "During a manic episode, a patient experiences elevated mood, hyperactivity, poor judgment, and impulsivity, which can pose a significant risk to their safety and the safety of others. The priority is safety and physiological stability. Administering prescribed sedative medications (like benzodiazepines) or mood stabilizers/antipsychotics helps to decrease agitation, reduce hyperactivity, and prevent exhaustion or dangerous behaviors. Encouraging social interaction (B) or physical activity (D) can overstimulate the patient and worsen the mania. Allowing grandiose ideas (C) without setting limits can reinforce their distorted thinking."
+  },
+  {
+    "question": "A nurse is working with a patient who has post-traumatic stress disorder (PTSD). What is the primary goal of therapy in treating PTSD?",
+    "options": {
+      "A": "Erasing traumatic memories",
+      "B": "Reducing anxiety and fear",
+      "C": "Encouraging the patient to confront traumatic experiences",
+      "D": "Enhancing the patient's self-esteem"
+    },
+    "answer": "B",
+    "explanation": "The core of PTSD is the re-experiencing of a traumatic event accompanied by intense anxiety, fear, and hypervigilance. The primary goal of therapy is to help the patient process the trauma in a safe way so that the associated symptoms of anxiety and fear are reduced. The goal is not to \"erase\" the memory (A), which is impossible, but to reduce its emotional power. Confronting the experience (C) is a method used in therapy (like exposure therapy), not the ultimate goal itself. Enhancing self-esteem (D) is a beneficial outcome but not the primary therapeutic target."
+  },
+  {
+    "question": "A patient with depression is prescribed selective serotonin reuptake inhibitors (SSRIs). The nurse educates the patient about potential side effects. Which side effect should be emphasized?",
+    "options": {
+      "A": "Weight gain",
+      "B": "Insomnia",
+      "C": "Sexual dysfunction",
+      "D": "Dry mouth"
+    },
+    "answer": "C",
+    "explanation": "While all the listed options are possible side effects of SSRIs, sexual dysfunction (e.g., decreased libido, anorgasmia, delayed ejaculation) is a very common and distressing side effect that is frequently underreported by patients out of embarrassment. It is a major reason for non-adherence to medication. Therefore, it is critical for the nurse to proactively and sensitively educate the patient about this possibility so they know it is a known side effect and feel comfortable discussing it, allowing for potential medication adjustments."
+  },
+  {
+    "question": "A patient in an inpatient psychiatric unit is exhibiting signs of imminent aggression. What should the nurse do first?",
+    "options": {
+      "A": "Restrict the patient to a seclusion room",
+      "B": "Call for immediate security assistance",
+      "C": "Engage in therapeutic communication",
+      "D": "Administer a PRN sedative medication"
+    },
+    "answer": "B",
+    "explanation": "When aggression is imminent (about to happen), the absolute priority is the safety of the patient, the staff, and other patients. Engaging in therapeutic communication (C) is the first step when agitation is escalating, but it is too late when aggression is imminent. Administering medication (D) or placing the patient in seclusion (A) cannot be done safely by one person with an aggressive patient. The first action is to ensure there is adequate, trained staff present to manage the situation safely. Calling for help ensures a coordinated and safe team response."
+  },
+  {
+    "question": "A patient diagnosed with anorexia nervosa has lost a significant amount of weight and refuses to eat. The nurse's initial approach should focus on:",
+    "options": {
+      "A": "Setting a weight gain goal for the patient",
+      "B": "Monitoring the patient's food intake closely",
+      "C": "Identifying the patient's underlying emotional issues",
+      "D": "Allowing the patient to control meal choices"
+    },
+    "answer": "C",
+    "explanation": "Anorexia is a psychiatric illness rooted in an intense fear of gaining weight, distorted body image, and a need for control. Addressing these underlying emotional issues is the key to long-term recovery. A good initial approach involves establishing a therapeutic alliance (which requires understanding their issues - C) while simultaneously implementing a strict nutritional plan (B) to ensure safety. Given the options, C is a good choice for the \"initial approach\" in building the therapeutic relationship, which is necessary for the patient to comply with nutritional rehabilitation."
+  },
+  {
+    "question": "A patient with borderline personality disorder frequently engages in self-harming behaviors. How should the nurse respond when the patient self-harms during a therapy session?",
+    "options": {
+      "A": "Express disappointment and disapproval",
+      "B": "Continue the therapy session as planned",
+      "C": "Call for immediate medical attention",
+      "D": "Explore the patient's emotions and triggers"
+    },
+    "answer": "D",
+    "explanation": "The nurse's response must balance safety with therapeutic goals. If the injury is minor and superficial: The therapeutic response is to remain calm and non-judgmental (not A). Then, the nurse should use the event as a therapeutic opportunity to explore the emotions and triggers (D) that led to the behavior. This is central to Dialectical Behavior Therapy (DBT), the primary treatment for BPD, which involves helping patients find alternative coping skills for intense emotional distress. Continuing the session as if nothing happened (B) ignores a critical event."
+  },
+  {
+    "question": "A nurse is caring for a patient with alcohol use disorder who is experiencing severe withdrawal symptoms. What medication is commonly administered during alcohol withdrawal to prevent seizures?",
+    "options": {
+      "A": "Haloperidol",
+      "B": "Lorazepam",
+      "C": "Naltrexone",
+      "D": "Disulfiram"
+    },
+    "answer": "B",
+    "explanation": "Severe alcohol withdrawal can be life-threatening, leading to withdrawal seizures and delirium tremens (DTs). The standard of care is to use benzodiazepines to manage withdrawal symptoms. These drugs work on the same GABA receptors in the brain as alcohol, substituting for the alcohol and allowing for a safe, gradual tapering process. Lorazepam (Ativan) is a commonly used benzodiazepine because it has an intermediate duration of action and is safer for patients with liver disease."
+  },
+  {
+    "question": "A patient diagnosed with obsessive-compulsive disorder (OCD) reports being distressed by intrusive thoughts and engaging in repetitive rituals. What cognitive-behavioral therapy (CBT) technique is most appropriate for this patient?",
+    "options": {
+      "A": "Exposure and response prevention",
+      "B": "Cognitive restructuring",
+      "C": "Dialectical behavior therapy (DBT)",
+      "D": "Assertiveness training"
+    },
+    "answer": "A",
+    "explanation": "Exposure and Response Prevention (ERP) is the gold-standard, evidence-based psychotherapy for OCD. Exposure: The patient is gradually and systematically exposed to the thoughts, objects, or situations that trigger their obsessions and anxiety. Response Prevention: The patient is guided to resist the urge to perform their compulsive rituals. This breaks the cycle of obsession and compulsion."
+  },
+  {
+    "question": "A nurse is caring for a patient with a somatic symptom disorder who frequently seeks medical attention for unexplained physical symptoms. The most appropriate nursing intervention is to:",
+    "options": {
+      "A": "Encourage the patient to seek further medical evaluation",
+      "B": "Offer support and reassurance during symptom reporting",
+      "C": "Confront the patient about malingering",
+      "D": "Discontinue all medical evaluations"
+    },
+    "answer": "B",
+    "explanation": "In somatic symptom disorder, the patient's physical suffering is genuine, even if no underlying medical cause can be found. The symptoms are a manifestation of psychological distress. The most appropriate intervention is to acknowledge and validate the patient's reported symptoms while gently beginning to shift the focus from finding a physical cure to coping with the symptoms and exploring the potential links to stress and emotion. Offering consistent support from a primary provider helps to reduce the patient's anxiety and their need to seek care from multiple specialists."
+  },
+  {
+    "question": "A patient with schizophrenia is taking clozapine, an atypical antipsychotic medication. The nurse should prioritize monitoring for which potential adverse effect of clozapine?",
+    "options": {
+      "A": "Extrapyramidal symptoms",
+      "B": "Hypertensive crisis",
+      "C": "Agranulocytosis",
+      "D": "Tardive dyskinesia"
+    },
+    "answer": "C",
+    "explanation": "Clozapine is a highly effective antipsychotic, often used for treatment-resistant schizophrenia, but it carries a significant risk of a life-threatening side effect.\n\nAgranulocytosis: A severe and dangerous drop in white blood cells (specifically neutrophils), which leaves the patient extremely vulnerable to infection. This is the most critical adverse effect to monitor for with clozapine.\n\nMonitoring Protocol: Because of this risk, patients on clozapine must undergo mandatory, regular blood monitoring (WBC and absolute neutrophil count - ANC). Initially, this is done weekly. A low count requires immediate discontinuation of the drug.\n\nA and D: Clozapine has a much lower risk of causing extrapyramidal symptoms (EPS) and tardive dyskinesia compared to older, typical antipsychotics, which is one of its advantages.\n\nB) Hypertensive crisis is associated with MAOI antidepressants.",
+    "additional": "Other Side Effects of Atypical Antipsychotics: While agranulocytosis is specific to clozapine, all atypical antipsychotics carry a risk of metabolic syndrome. This includes weight gain, hyperglycemia (leading to Type 2 Diabetes), and dyslipidemia (high cholesterol/triglycerides). This is a very common and important area for nursing assessment and patient education.\n\nFuture Question Idea: \"A nurse is providing discharge teaching to a patient starting on olanzapine (an atypical antipsychotic). It is essential to include education on monitoring for which of the following?\" (Answer: \"Weight gain and signs of high blood sugar.\")"
+  },
+  {
+    "question": "A patient with major depressive disorder is prescribed electroconvulsive therapy (ECT). The nurse should explain that ECT is most often used for patients who:",
+    "options": {
+      "A": "Refuse to take oral antidepressant medications",
+      "B": "Are experiencing severe, life-threatening depression",
+      "C": "Are at risk of developing bipolar disorder",
+      "D": "Have a family history of depression"
+    },
+    "answer": "B",
+    "explanation": "Electroconvulsive therapy (ECT) is a highly effective medical procedure, but due to its invasive nature and stigma, it is reserved for specific, severe situations.\n\nPrimary Indications for ECT:\n\nTreatment-Resistant Depression: The patient has failed to respond to multiple trials of antidepressant medications and psychotherapy.\n\nSevere, Life-Threatening Depression: When a rapid response is needed. This includes depression with active, high-risk suicidality or psychotic features, or when the patient is catatonic or refusing to eat or drink (malnutrition/dehydration).\n\nECT is the most rapidly effective treatment for severe depression. While refusal of oral meds (A) might lead to considering ECT, the core reason is the severity of the illness (B), not the refusal itself. C and D are not indications.",
+    "additional": "Nursing Role in ECT:\n\nPre-procedure: Provide education, ensure informed consent is signed, maintain NPO status, administer pre-procedure medications (like atropine to dry secretions).\n\nDuring procedure: Monitor vital signs, assist the anesthesiologist and psychiatrist. The patient receives a general anesthetic and a muscle relaxant.\n\nPost-procedure: Monitor for confusion, headache, and short-term memory loss (common side effects). Reorient the patient as they wake up. Provide support and reassurance.\n\nFuture Question Idea: \"Immediately after a patient returns from an ECT procedure, what is the nurse's priority assessment?\" (Answer: \"Assessing vital signs, level of consciousness, and orientation.\")"
+  },
+  {
+    "question": "A patient with schizophrenia is experiencing auditory hallucinations and is distressed by them. What should the nurse do to help the patient cope with the hallucinations?",
+    "options": {
+      "A": "Tell the patient the voices are not real",
+      "B": "Encourage the patient to engage in distracting activities",
+      "C": "Explore the content and emotional impact of the voices",
+      "D": "Administer antipsychotic medication immediately"
+    },
+    "answer": "C",
+    "explanation": "The nurse's response should be therapeutic and reality-oriented without being dismissive.\n\nExploring Content (C): Asking about the content of the voices (\"What are the voices saying?\") is a key assessment to determine if they are \"command hallucinations\" instructing the patient to harm themself or others. This is a safety priority. Exploring the emotional impact helps build empathy.\n\nReality Orientation (without arguing): The nurse should not argue about the reality of the voices (invalidating the patient's experience), but can present reality. A good response is, \"I know the voices are very real to you, but I do not hear them.\" This acknowledges their experience while gently orienting them.\n\nDistracting Activities (B): This is a very useful coping strategy. Encouraging the patient to listen to music with headphones, talk to others, or engage in a task can help decrease the intensity of the voices.\n\nComparing B and C: C is more of an assessment/therapeutic exploration, while B is a practical coping skill. Both are good interventions. The rationale's choice of C emphasizes understanding the patient's experience first.",
+    "additional": "Coping Strategies for Hallucinations:\n\nDistraction: Music, TV, activities, talking to someone.\n\nReality Testing: Asking a trusted person if they are also hearing/seeing the stimulus.\n\nSelf-Talk: Telling the voices to \"go away\" or that they are not real.\n\nSymptom Management: Taking medication as prescribed.\n\nFuture Question Idea: \"A patient reports hearing voices telling them they are worthless. Which nursing response is most therapeutic?\" (Answer: \"That must be very frightening. I want you to know that you are safe here.\")"
+  },
+  {
+    "question": "A patient with bipolar disorder is in the depressive phase. What nursing intervention should be prioritized during this phase?",
+    "options": {
+      "A": "Encouraging the patient to set ambitious goals",
+      "B": "Monitoring for signs of hyperactivity",
+      "C": "Promoting physical activity and exercise",
+      "D": "Providing emotional support and safety"
+    },
+    "answer": "D",
+    "explanation": "The depressive phase of bipolar disorder is clinically similar to major depressive disorder and carries the same risks.\n\nPriority: Safety. Patients in a severe depressive state are at high risk for suicide. The nurse's foremost priority is to maintain patient safety, which includes conducting regular suicide risk assessments and ensuring a safe environment.\n\nEmotional Support: Patients often feel hopeless, worthless, and have very low energy. Providing non-judgmental support, spending time with the patient even if they don't talk, and offering simple reassurance are key interventions.\n\nA is inappropriate; the patient lacks the energy and motivation for ambitious goals. B is a sign of mania, not depression. C, while beneficial, may be difficult for a severely depressed patient to initiate; gentle encouragement is key, but it's not the top priority over safety."
+  },
+  {
+    "question": "A patient with generalized anxiety disorder is prescribed a benzodiazepine medication. The nurse should provide education about potential adverse effects, including:",
+    "options": {
+      "A": "Increased risk of serotonin syndrome",
+      "B": "Risk of extrapyramidal symptoms",
+      "C": "Dependency and withdrawal symptoms",
+      "D": "Elevated blood pressure"
+    },
+    "answer": "C",
+    "explanation": "Benzodiazepines (e.g., lorazepam, diazepam, alprazolam) are effective for short-term anxiety relief but have a significant downside.\n\nDependency and Withdrawal: With regular use, the body develops a tolerance and physical dependence on benzodiazepines. If the medication is stopped abruptly after long-term use, it can cause a severe and potentially life-threatening withdrawal syndrome, including anxiety, insomnia, tremors, and seizures.\n\nNursing Education: It is critical to educate the patient that these medications are typically for short-term use and that they must never be stopped suddenly. They must be tapered off slowly under a doctor's supervision. This is the most important safety information regarding this class of drugs.\n\nA is associated with SSRIs. B is associated with antipsychotics. D is incorrect; they can cause hypotension."
+  },
+  {
+    "question": "A nurse is working with a patient who experiences dissociative identity disorder (DID). The most appropriate nursing intervention is to:",
+    "options": {
+      "A": "Confront the patient about the existence of multiple personalities",
+      "B": "Encourage integration of personalities into one",
+      "C": "Avoid discussing traumatic experiences or alters",
+      "D": "Document the patient's behavior for legal purposes"
+    },
+    "answer": "C",
+    "explanation": "The rationale's choice of C reflects an initial, stabilization-focused approach.\n\nInitial Goal: Safety and Stability. Dissociative Identity Disorder (DID) is a complex trauma disorder. The initial nursing focus is on establishing a safe, trusting environment. Probing for trauma history or forcing the patient to talk about their \"alters\" (alternate identities) can be re-traumatizing and destabilizing.\n\nA) Confronting the patient is invalidating and will destroy trust.\n\nB) Encouraging integration is a long-term, specialized therapy goal undertaken by a trained therapist, not an initial nursing intervention.\n\nD) Documenting is always part of nursing care, but it is not a therapeutic intervention.\n\nThe most appropriate nursing role initially is to build rapport with the primary personality, ensure safety, and help the patient manage current stressors and symptoms without forcing a confrontation with the underlying trauma or dissociative parts."
+  },
+  {
+    "question": "A patient with an eating disorder has been admitted to the psychiatric unit. The nurse should monitor for refeeding syndrome, which can result from:",
+    "options": {
+      "A": "Rapid weight gain",
+      "B": "Slow and controlled refeeding",
+      "C": "Continued fasting",
+      "D": "Frequent small meals"
+    },
+    "answer": "A",
+    "explanation": "Refeeding syndrome is a dangerous metabolic complication that can occur when nutritional support is given to a severely malnourished patient.\n\nPathophysiology: During starvation, key electrolyte levels (like phosphate, potassium, and magnesium) become depleted. When refeeding begins, the body shifts from a catabolic (breaking down) to an anabolic (building up) state. This process requires large amounts of these electrolytes, pulling them from the blood into the cells. This causes a rapid and severe drop in serum electrolyte levels.\n\nCause: The syndrome is triggered by reintroducing nutrition too quickly to a severely starved patient, leading to rapid metabolic shifts. Slow, controlled refeeding (B) and small meals (D) are the prevention strategies. Continued fasting (C) causes the initial malnutrition but not the refeeding syndrome itself.",
+    "additional": "Consequences of Refeeding Syndrome: The severe hypophosphatemia can lead to respiratory failure, cardiac failure, rhabdomyolysis, seizures, and coma. It is a medical emergency.\n\nNursing Role:\n\nStart nutritional support slowly (\"start low and go slow\").\n\nMonitor vital signs closely.\n\nMonitor electrolyte levels (phosphate, potassium, magnesium) before and during refeeding.\n\nAdminister electrolyte replacements as ordered.\n\nFuture Question Idea: \"A nurse is caring for a severely malnourished patient with anorexia nervosa who has just started nutritional rehabilitation. Which lab finding would indicate the onset of refeeding syndrome?\" (Answer: \"Critically low serum phosphate (hypophosphatemia).\")"
+  },
+  {
+    "question": "A patient with post-traumatic stress disorder (PTSD) experiences a flashback during a therapy session. The nurse should:",
+    "options": {
+      "A": "Interrupt the patient and redirect their focus",
+      "B": "Allow the patient to continue describing the flashback",
+      "C": "Leave the room to protect the patient's privacy",
+      "D": "Confront the patient about the validity of the flashback"
+    },
+    "answer": "B",
+    "explanation": "The rationale's choice of B assumes a therapeutic context where processing the trauma is the goal.\n\nTherapeutic Response: If the patient is in a safe, controlled therapy session (like Prolonged Exposure therapy), the goal is to process the memory. Allowing them to continue describing the event while the nurse provides grounding and support helps to reduce the emotional power of the memory.\n\nGrounding Techniques: The nurse's role is to keep the patient \"grounded\" in the present moment to prevent them from becoming completely overwhelmed. This involves reminding them, \"You are here in the office with me. You are safe now. Just notice the feeling in your feet on the floor.\"\n\nA can be invalidating. C is abandonment. D is confrontational and destructive."
+  },
+  {
+    "question": "A patient with a history of self-harming behaviors has recently been discharged from an inpatient psychiatric unit. What should be the focus of the patient's safety plan?",
+    "options": {
+      "A": "Monitoring for signs of self-harm",
+      "B": "Providing access to self-harm tools for controlled use",
+      "C": "Reducing emotional distress triggers",
+      "D": "Encouraging social isolation"
+    },
+    "answer": "A",
+    "explanation": "A safety plan is a proactive, written document that helps an individual cope with suicidal thoughts or urges to self-harm.\n\nFocus of the Plan: The plan should focus on a hierarchy of coping strategies.\n\nRecognizing Warning Signs (A): Identifying the personal thoughts, feelings, and situations that are triggers for self-harm.\n\nUsing Internal Coping Strategies: Things the person can do on their own (e.g., distraction, relaxation exercises).\n\nContacting Social Supports: Reaching out to specific friends or family members for help.\n\nContacting Professionals: Calling a therapist, crisis line, or going to the emergency room.\n\nMaking the Environment Safe: Reducing access to lethal means.\n\nC) Reducing triggers is a key part of step 1. A) Monitoring for signs is the overall purpose. A is a broader, more encompassing answer for the \"focus.\" B is extremely dangerous and incorrect. D is counter-therapeutic."
+  },
+  {
+    "question": "A patient with substance use disorder is being prepared for discharge. What is the most important component of the patient's relapse prevention plan?",
+    "options": {
+      "A": "Identifying triggers and high-risk situations",
+      "B": "Recommending abstinence from all social activities",
+      "C": "Avoiding all prescribed medications",
+      "D": "Restricting access to healthcare resources"
+    },
+    "answer": "A",
+    "explanation": "Relapse prevention is a core component of addiction treatment. It is a cognitive-behavioral approach.\n\nMost Important Component: The cornerstone of relapse prevention is helping the patient to identify their personal triggers—the internal states (e.g., stress, anger, boredom) and external situations (e.g., seeing old using buddies, passing a specific bar, pay day) that create a high risk for relapse.\n\nPlanning: Once the triggers are identified, the patient can then develop specific, practical strategies to either avoid these high-risk situations or cope with them effectively when they cannot be avoided.\n\nB is unrealistic and can lead to isolation, which is a risk factor for relapse. C and D are incorrect and potentially dangerous."
   }
 ]
-
 
 
 
