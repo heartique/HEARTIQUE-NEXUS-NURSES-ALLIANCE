@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Medical Concept Gallery | Heartique</title>
 <style>
-/* — base layout & colours (unchanged) — */
+/* — core page styling — */
 body{
   font-family:'Segoe UI',sans-serif;margin:0;
   background:url('https://raw.githubusercontent.com/heartique/HEARTIQUE-NEXUS-NURSES-ALLIANCE/main/background6.jpg') center/cover no-repeat;
@@ -23,7 +23,7 @@ section{padding:40px 20px;max-width:1200px;margin:auto;}
 .tab{background:#0077cc;color:#fff;padding:8px 16px;border:none;border-radius:20px;cursor:pointer;font-size:14px;transition:background .3s;}
 .tab:hover{background:#005fa3;} .tab.active{background:#003d66;}
 
-.tab-content{display:none;animation:fadeIn .5s ease-in;} .tab-content.active{display:block;}
+.tab-content{display:none;animation:fadeIn .5s;} .tab-content.active{display:block;}
 .gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:15px;}
 .gallery img{width:100%;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,.1);cursor:pointer;transition:transform .3s;}
 .gallery img:hover{transform:scale(1.03);}
@@ -32,31 +32,30 @@ section{padding:40px 20px;max-width:1200px;margin:auto;}
 footer{background:#003366;color:#fff;padding:15px;text-align:center;margin-top:60px;}
 @keyframes fadeIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
 
-/* — refresh popup — */
-.refresh-popup{position:fixed;top:20px;right:20px;background:#003366;color:#fff;padding:10px 18px;border-radius:8px;font-size:14px;opacity:0;transition:opacity .5s;z-index:1001;}
-.refresh-popup.show{opacity:1;}
+/* — pop‑ups — */
+.refresh-popup, .share-popup{
+  position:fixed;right:20px;padding:10px 18px;border-radius:8px;font-size:14px;opacity:0;transition:opacity .5s ease;z-index:1001;
+}
+.refresh-popup{top:20px;background:#003366;color:#fff;}
+.share-popup{bottom:25px;background:#004d00;color:#fff;}
+.popup-show{opacity:1;}
 
-/* — light‑box & controls — */
+/* — light‑box viewer — */
 .lightbox{
   display:none;position:fixed;top:0;left:0;width:100vw;height:100vh;
   background:rgba(0,0,0,.9);justify-content:center;align-items:center;z-index:1000;
 }
 .lightbox img{max-width:90vw;max-height:90vh;border-radius:10px;box-shadow:0 0 15px rgba(255,255,255,.3);}
-
 .lightbox .close,.lightbox .nav,.lightbox .share-btn{
-  position:absolute;user-select:none;cursor:pointer;font-size:32px;color:#32ff7e;
+  position:absolute;user-select:none;cursor:pointer;font-size:32px;
 }
 .lightbox .close{top:20px;right:32px;color:white;}
-.lightbox .nav{top:50%;transform:translateY(-50%);font-size:50px;text-shadow:0 0 10px #32ff7e;}
+.lightbox .nav{top:50%;transform:translateY(-50%);font-size:52px;color:#32ff7e;text-shadow:0 0 14px #32ff7e;}
 .lightbox .prev{left:20px;} .lightbox .next{right:20px;}
 .lightbox .share-btn{
   bottom:25px;right:32px;font-size:28px;background:rgba(0,0,0,.4);
   padding:6px 12px;border-radius:6px;color:white;
 }
-
-/* — share popup — */
-.share-popup{position:fixed;bottom:25px;right:30px;background:#004d00;color:#fff;padding:10px 16px;border-radius:8px;font-size:14px;opacity:0;transition:opacity .5s;z-index:1001;}
-.share-popup.show{opacity:1;}
 </style>
 </head>
 <body>
@@ -96,7 +95,7 @@ footer{background:#003366;color:#fff;padding:15px;text-align:center;margin-top:6
 </section>
 
 <footer>
-  &copy; 2025 Heartique Medical | Built with 💙 on GitHub Pages
+  &copy; 2025 Heartique Medical | Built with 💙 on GitHub Pages
 </footer>
 
 <!-- light‑box overlay -->
@@ -112,8 +111,11 @@ footer{background:#003366;color:#fff;padding:15px;text-align:center;margin-top:6
 <div id="refreshPopup" class="refresh-popup">✅ Refreshed</div>
 <div id="sharePopup" class="share-popup">Link copied!</div>
 
+<!-- refresh notification sound -->
+<audio id="notifySound" src="notify.mp3" preload="auto"></audio>
+
 <script>
-/* — tabs — */
+/* — tab logic — */
 function showTab(id){
   document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
   document.querySelectorAll('.tab-content').forEach(c=>c.classList.remove('active'));
@@ -121,7 +123,7 @@ function showTab(id){
   document.getElementById(id).classList.add('active');
 }
 
-/* — gallery loading — */
+/* — load galleries — */
 const units=['anatomy','pharma','patho','medsurg','midwifery','community','mental','peds','leadership','research'];
 const exts=['jpg','jpeg','png','webp','gif','bmp','tiff','svg'];
 const MAX=600,GAP=10;
@@ -151,7 +153,7 @@ function loadUnit(unit){
 }
 units.forEach(loadUnit);
 
-/* — light‑box + swipe — */
+/* — light‑box + navigation — */
 const lightbox=document.getElementById('lightbox');
 const lightboxImg=document.getElementById('lightbox-img');
 let currentList=[],currentIndex=0;
@@ -173,14 +175,15 @@ function showImage(i){
 function prevImage(e){e.stopPropagation();showImage(currentIndex-1);}
 function nextImage(e){e.stopPropagation();showImage(currentIndex+1);}
 
-/* swipe detection */
+/* close by clicking backdrop */
+lightbox.addEventListener('click',e=>{if(e.target===lightbox) closeLightbox();});
+
+/* swipe support */
 let touchStartX=0;
 lightbox.addEventListener('touchstart',e=>{touchStartX=e.changedTouches[0].screenX;},{passive:true});
 lightbox.addEventListener('touchend',e=>{
   const dx=e.changedTouches[0].screenX-touchStartX;
-  if(Math.abs(dx)>50){
-    dx<0?nextImage(e):prevImage(e);
-  }
+  if(Math.abs(dx)>50){ dx<0?nextImage(e):prevImage(e);}
 },{passive:true});
 
 /* arrow keys + ESC */
@@ -192,29 +195,40 @@ document.addEventListener('keydown',e=>{
   }
 });
 
-/* — share button — */
+/* — WhatsApp share — */
 const SHARE_URL='https://heartique.github.io/HEARTIQUE-NEXUS-NURSES-ALLIANCE/';
 const SHARE_TEXT='Access this website – it has sweet material for nurses 👩‍⚕️👨‍⚕️';
 function shareGallery(e){
   e.stopPropagation();
-  const data={title:'Heartique Nexus Nurses Alliance',text:SHARE_TEXT,url:SHARE_URL};
+  const msg=`${SHARE_TEXT}  ${SHARE_URL}`;
+
   if(navigator.share){
-    navigator.share(data).catch(()=>{});
-  }else if(navigator.clipboard){
-    navigator.clipboard.writeText(`${SHARE_TEXT}  ${SHARE_URL}`).then(showSharePopup);
+    navigator.share({title:'Heartique Nexus Nurses Alliance',text:SHARE_TEXT,url:SHARE_URL})
+      .catch(()=>openWhatsApp(msg));
+  }else{openWhatsApp(msg);}
+}
+function openWhatsApp(message){
+  const waURL='https://wa.me/?text='+encodeURIComponent(message);
+  window.open(waURL,'_blank','noopener,noreferrer');
+
+  /* clipboard fallback */
+  if(navigator.clipboard){
+    navigator.clipboard.writeText(message).then(showSharePopup);
   }else{showSharePopup();}
 }
 function showSharePopup(){
   const s=document.getElementById('sharePopup');
-  s.classList.add('show'); setTimeout(()=>s.classList.remove('show'),2000);
+  s.classList.add('popup-show'); setTimeout(()=>s.classList.remove('popup-show'),2000);
 }
 
-/* — refresh — */
+/* — refresh with sound — */
 function refreshGallery(){
   units.forEach(loadUnit);
+  document.getElementById('notifySound').play().catch(()=>{});
   const p=document.getElementById('refreshPopup');
-  p.classList.add('show'); setTimeout(()=>p.classList.remove('show'),2000);
+  p.classList.add('popup-show'); setTimeout(()=>p.classList.remove('popup-show'),2000);
 }
 </script>
+
 </body>
 </html>
