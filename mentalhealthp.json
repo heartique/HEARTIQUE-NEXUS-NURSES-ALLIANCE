@@ -1415,8 +1415,154 @@
     "answer": "A",
     "explanation": "The DSM-IV used a multiaxial system to provide a more holistic assessment of a patient.\n\nThe 5 Axes of DSM-IV:\n\nAxis I: Clinical Disorders (e.g., Major Depressive Disorder, Schizophrenia, Panic Disorder). This is \"the actual psychiatric illness\" (b).\n\nAxis II: Personality Disorders and Mental Retardation (Intellectual Disability). This is \"the underlying personality disorders\" (c).\n\nAxis III: General Medical Conditions (any physical health problem relevant to the mental disorder). This is \"the underlying medical conditions\" (d).\n\nAxis IV: Psychosocial and Environmental Problems. This axis was used to report problems that could affect the diagnosis, treatment, and prognosis of the mental disorder (e.g., problems with primary support group, housing problems, occupational problems, economic problems).\n\nAxis V: Global Assessment of Functioning (GAF) Score. A numeric score (0-100) that rated the person's overall level of psychological, social, and occupational functioning.",
     "additional": "Conclusion: Axis IV specifically focused on psychosocial and environmental stressors.\n\nChange in DSM-5: The DSM-5, published in 2013, eliminated the multiaxial system. The information from the first three axes is now combined. Psychosocial and environmental factors (formerly Axis IV) are now noted using a specific set of codes, and the GAF score (formerly Axis V) has been replaced with other disability assessment tools.\n\nTextbook Reference: American Psychiatric Association. (2000). Diagnostic and Statistical Manual of Mental Disorders (4th ed., text rev.)."
+  },
+  {
+    "question": "Tom, aged 18 with an open reduction internal fixation of a complex tibial fracture, is depressed due to missing school and football. How can a values clarification exercise enhance his recovery?",
+    "options": {
+      "A": "He would then comply with the doctor's and nurses' instructions.",
+      "B": "It would assist him in setting realistic short and long term goals.",
+      "C": "He would better realize his parents want only the best for him.",
+      "D": "It respects his autonomy, helps him accept limitations and promotes teamwork."
+    },
+    "answer": "B",
+    "explanation": "Tom is experiencing a situational depression related to a loss of his normal roles and activities. A values clarification exercise helps an individual identify what is truly important to them. By understanding his core values (e.g., Is his identity solely based on football? What other aspects of his life like academics, friendships, or other hobbies are important?), he can reframe his situation and set new, achievable goals that align with those values, fostering a sense of purpose and hope during his recovery.",
+    "additional": "While the exercise may also lead to better compliance and teamwork (a, d), its most direct therapeutic benefit is in helping the patient re-establish a sense of self-worth and direction, which is the foundation for goal setting (b). It is a therapeutic communication technique that helps patients connect their current actions and plans to what they value most, which is highly effective in managing situational depression or anxiety.\n\nPotential NCK Topics (August Exams):\n\nTherapeutic Communication Techniques: Reflection, clarification, focusing, etc.\nCoping Mechanisms: Differentiating between adaptive and maladaptive coping strategies.\nGrief and Loss: The stages of grief (Kübler-Ross) and nursing interventions.\nSituational vs. Clinical Depression: Recognition and management."
+  },
+  {
+    "question": "Ryn, a beloved client of the nurses, dies suddenly. The best way you will handle the family's grief along with that of your own is by:-",
+    "options": {
+      "A": "Asking another nurse to step in for you while you go and cry.",
+      "B": "Requesting your supervisor to be reassigned to another group of clients.",
+      "C": "Telling the family you will miss Ryn so much but he received the best care possible.",
+      "D": "Thanking the family for their support to Ryn, express how you will also miss him, offer privacy if they desire to be with Ryn for a while."
+    },
+    "answer": "D",
+    "explanation": "This response demonstrates professional therapeutic presence. It acknowledges the shared loss in a calm and supportive manner (\"I will miss him too\"), validates the family's relationship with the deceased, and most importantly, respects the family's need for privacy and time to begin the grieving process. It keeps the focus on the family's needs.",
+    "additional": "(a) While it's important for the nurse to manage their own grief, abandoning the family at this critical moment is unprofessional unless the nurse is truly unable to maintain composure.\n(b) Requesting reassignment is a coping mechanism for the nurse but does not address the immediate needs of the grieving family.\n(c) Stating \"he received the best care possible\" can sound defensive and may invalidate the family's feelings or potential questions about the care. The focus should not be on defending the care provided.\n\nPotential NCK Topics (August Exams):\n\nCommunication with Grieving Families: What to say and what to avoid.\nPost-mortem Care: The procedure and considerations for cultural/religious practices.\nThe Concept of a \"Good Death\" in palliative care.\nNurse Self-Care: Managing burnout and compassion fatigue."
+  },
+  {
+    "question": "A patient with schizophrenia is experiencing auditory hallucinations. What is the most therapeutic initial response by the nurse?",
+    "options": {
+      "A": "\"The voices you hear are not real; you are just imagining them.\"",
+      "B": "\"Tell me what the voices are saying to you.\"",
+      "C": "\"Let's go watch TV to distract you from the voices.\"",
+      "D": "\"I don't hear any voices, but I can see that this is frightening for you.\""
+    },
+    "answer": "D",
+    "explanation": "This response is the most therapeutic because it validates the patient's experience and feelings without validating the hallucination itself. The nurse states reality calmly (\"I don't hear...\") but also shows empathy and acknowledges the patient's distress (\"...but I can see that this is frightening for you\"). This helps build trust and opens the door for further conversation.",
+    "additional": "(a) Arguing about reality can increase the patient's anxiety and damage the therapeutic relationship. (b) Asking for details about the voices can be misinterpreted as reinforcement. (c) Distraction is useful but should follow acknowledgment of the experience.\n\nPotential NCK Topics (August Exams):\n- Positive vs. Negative symptoms of schizophrenia.\n- Therapeutic communication with psychotic patients.\n- Management of extrapyramidal side effects (EPS) from antipsychotic medications."
+  },
+  {
+    "question": "A patient is prescribed a selective serotonin reuptake inhibitor (SSRI) like fluoxetine for depression. The nurse should educate the patient that:",
+    "options": {
+      "A": "The medication will take full effect within 2 to 3 days.",
+      "B": "They should avoid consuming foods high in tyramine, like aged cheese.",
+      "C": "The medication may take 4 to 6 weeks to achieve its full therapeutic effect.",
+      "D": "They can stop taking the medication as soon as they start to feel better."
+    },
+    "answer": "C",
+    "explanation": "A key education point for SSRIs is managing patient expectations regarding the time to onset of action. These medications work by gradually altering neurotransmitter levels in the brain, and the full antidepressant effect is often not felt for 4 to 6 weeks. Informing the patient of this delay can prevent them from becoming discouraged and stopping the medication prematurely.",
+    "additional": "(b) Tyramine restriction is needed for MAOIs, not SSRIs. (d) Stopping abruptly can lead to discontinuation syndrome.\n\nPotential NCK Topics (August Exams):\n- Major classes of antidepressant medications (SSRIs, TCAs, MAOIs).\n- Serotonin Syndrome.\n- Suicide risk assessment during early antidepressant use."
+  },
+  {
+    "question": "Which of the following is a key goal of palliative care?",
+    "options": {
+      "A": "To aggressively treat the underlying disease and prolong life at all costs.",
+      "B": "To focus on providing a cure for the patient's terminal illness.",
+      "C": "To improve the quality of life by managing symptoms and providing support.",
+      "D": "To be initiated only when a patient has less than six months to live."
+    },
+    "answer": "C",
+    "explanation": "The primary goal of palliative care is to improve the quality of life for both the patient and their family. It focuses on providing relief from the symptoms, pain, and stress of a serious illness—whatever the diagnosis. It is holistic care that addresses physical, psychological, social, and spiritual needs.",
+    "additional": "Palliative care can begin at any stage of illness and alongside curative treatment. Hospice care is reserved for terminal patients.\n\nPotential NCK Topics (August Exams):\n- Differentiating between palliative and hospice care.\n- Multidisciplinary team approach.\n- Holistic assessment."
+  },
+  {
+    "question": "A patient with bipolar disorder is in a manic phase. Which nursing intervention is a priority?",
+    "options": {
+      "A": "Involving the patient in a stimulating group activity to burn off excess energy.",
+      "B": "Providing a high-calorie, high-protein diet with finger foods.",
+      "C": "Encouraging the patient to discuss the root causes of their feelings in detail.",
+      "D": "Allowing the patient to lead the unit's community meeting to promote self-esteem."
+    },
+    "answer": "B",
+    "explanation": "During a manic episode, patients may be too distracted to eat full meals. Finger foods that are high in calories and protein meet their nutritional needs and suit their hyperactivity.",
+    "additional": "(a) May increase agitation. (c) Unrealistic due to flight of ideas. (d) Reinforces delusions.\n\nPotential NCK Topics (August Exams):\n- Mania vs. Hypomania.\n- Mood stabilizers like Lithium.\n- Lithium toxicity monitoring."
+  },
+  {
+    "question": "An elderly patient with end-stage cancer is experiencing severe pain, rated 9/10. The doctor has ordered morphine. The patient's respiratory rate is 14 breaths/min. What is the nurse's most appropriate action?",
+    "options": {
+      "A": "Administer the morphine as ordered to relieve the severe pain.",
+      "B": "Withhold the morphine due to the risk of respiratory depression.",
+      "C": "Ask the doctor to prescribe a non-opioid analgesic instead.",
+      "D": "Administer half of the prescribed dose and reassess in one hour."
+    },
+    "answer": "A",
+    "explanation": "A respiratory rate of 14 is within the normal range. The priority is pain relief. In palliative care, managing suffering takes precedence, and morphine is appropriate.",
+    "additional": "(b) and (d) would result in undertreatment. (c) Non-opioids are insufficient for severe pain.\n\nPotential NCK Topics (August Exams):\n- Pain assessment and WHO analgesic ladder.\n- Opioid side effects management.\n- Ethics in end-of-life care."
+  },
+  {
+    "question": "A nurse is caring for a patient with anorexia nervosa. Which of the following is a primary goal of the treatment plan?",
+    "options": {
+      "A": "Encouraging the patient to focus on their flaws to motivate change.",
+      "B": "Rapid weight gain of at least 5 kg per week.",
+      "C": "Helping the patient develop a realistic body image and coping skills.",
+      "D": "Giving the patient full control over their meal choices from the start."
+    },
+    "answer": "C",
+    "explanation": "The core issue in anorexia is body image distortion. Addressing these beliefs leads to sustainable recovery. Physical health goals follow psychological healing.",
+    "additional": "(a) Lowers self-esteem. (b) Risks refeeding syndrome. (d) Full control early on may worsen intake.\n\nPotential NCK Topics (August Exams):\n- Anorexia vs. Bulimia.\n- Refeeding syndrome.\n- CBT in eating disorders."
+  },
+  {
+    "question": "A patient has a durable power of attorney for healthcare (an advance directive). This document serves to:",
+    "options": {
+      "A": "Specify the patient's wishes regarding anatomical gifts after death.",
+      "B": "Detail the patient's preferences for funeral arrangements.",
+      "C": "Appoint a specific person to make healthcare decisions if the patient becomes unable to do so.",
+      "D": "Legally force doctors to provide any treatment the family demands."
+    },
+    "answer": "C",
+    "explanation": "This legal document designates a proxy to make healthcare decisions if the patient is incapacitated. It upholds patient autonomy during critical times.",
+    "additional": "Advance directives may also include Living Wills. (a) Refers to organ donation. (d) Misrepresents the role of the proxy.\n\nPotential NCK Topics (August Exams):\n- Advance directive types.\n- Role of nurses in end-of-life care planning.\n- Ethics and legal issues in DNR orders."
+  },
+  {
+    "question": "Which of the following is a common side effect associated with typical antipsychotic medications like haloperidol?",
+    "options": {
+      "A": "Hypertensive crisis",
+      "B": "Extrapyramidal symptoms (EPS)",
+      "C": "Agranulocytosis",
+      "D": "Severe weight loss"
+    },
+    "answer": "B",
+    "explanation": "Typical antipsychotics often cause EPS due to dopamine blockade in motor pathways. These include tremors, rigidity, restlessness, and dystonia.",
+    "additional": "(a) Linked to MAOIs. (c) Linked to clozapine. (d) Atypicals more often cause weight gain.\n\nPotential NCK Topics (August Exams):\n- Typical vs. Atypical antipsychotics.\n- EPS recognition and management.\n- Neuroleptic Malignant Syndrome."
+  },
+  {
+    "question": "The principle of \"double effect\" in palliative care justifies which action?",
+    "options": {
+      "A": "Withholding nutrition and hydration at the patient's request.",
+      "B": "Administering a potentially life-shortening dose of a sedative to relieve intractable suffering.",
+      "C": "Providing a placebo to a patient who is believed to be drug-seeking.",
+      "D": "Following a family's request to continue futile treatment against the patient's wishes."
+    },
+    "answer": "B",
+    "explanation": "The principle of double effect allows a morally good action (symptom relief) that has a foreseeable but unintended negative consequence (shortened life).",
+    "additional": "(a) Respects autonomy. (c) Deception violates veracity. (d) Disrespects patient autonomy.\n\nPotential NCK Topics (August Exams):\n- Double effect principle.\n- Withholding/withdrawing treatment ethics.\n- Medical futility."
+  },
+  {
+    "question": "A patient admitted for alcohol detoxification is most at risk for which life-threatening withdrawal syndrome within 48-72 hours after their last drink?",
+    "options": {
+      "A": "Wernicke's encephalopathy",
+      "B": "Serotonin syndrome",
+      "C": "Delirium tremens (DTs)",
+      "D": "Neuroleptic malignant syndrome"
+    },
+    "answer": "C",
+    "explanation": "Delirium tremens is a life-threatening form of alcohol withdrawal, typically 48–72 hours after cessation. Symptoms include hallucinations, fever, tremors, and seizures.",
+    "additional": "(a) Caused by thiamine deficiency. (b) Related to serotonin excess. (d) From antipsychotic use.\n\nPotential NCK Topics (August Exams):\n- CIWA-Ar scale.\n- Benzodiazepine protocols.\n- Chronic alcoholism complications."
   }
 ]
+
+
 
 
 
