@@ -1288,6 +1288,42 @@
     "answer": "B",
     "explanation": "Sepsis is a life-threatening organ dysfunction caused by a dysregulated host response to infection. The patient's vital signs meet the criteria for Systemic Inflammatory Response Syndrome (SIRS), and in the context of a confirmed infection (pneumonia), this strongly indicates sepsis.\n\nb) Sepsis: The combination of a known infection (pneumonia) with signs of systemic inflammation—fever (39°C), tachycardia (100 bpm), tachypnea (36 breaths/min), and potential hypotension (a low diastolic of 50 and wide pulse pressure can be early signs)—is the classic presentation of sepsis.\n\na) Acute Respiratory Distress Syndrome (ARDS): While sepsis is a major cause of ARDS, the diagnosis of ARDS requires evidence of bilateral opacities on imaging that are not explained by heart failure, and a PaO2/FiO2 ratio <300 mmHg. The vital signs alone point to the systemic process of sepsis as the primary problem.\n\nc) Atelectasis: This is the collapse of alveoli. While it can contribute to hypoxia in pneumonia, it does not typically cause such a profound systemic response with high fever and hemodynamic instability.\n\nd) Pulmonary Embolism (PE): A PE would cause tachypnea, tachycardia, and potential hypotension. However, a high fever (39°C) is not a typical sign of PE; it strongly points towards an infectious process like sepsis.",
     "additional": "The \"Sepsis-3\" international consensus definitions use the qSOFA (quick Sequential Organ Failure Assessment) score as a bedside prompt to identify patients with suspected infection who are at greater risk for a poor outcome. It includes: Respiratory Rate ≥ 22/min, Altered Mentation, and Systolic BP ≤ 100 mmHg. A score of ≥2 is highly suggestive of sepsis. The management of sepsis is time-critical and involves \"bundles\" of care, including obtaining blood cultures, administering broad-spectrum antibiotics, fluid resuscitation, and administering vasopressors if hypotension persists.\n\nPotential NCK Topics (August Exams):\n\nSepsis and Septic Shock: The \"Sepsis Six\" or \"Hour-1 Bundle\" of care. The role of lactate measurement. Differentiating sepsis from septic shock (persistent hypotension requiring vasopressors).\n\nPneumonia: Types (Community-Acquired vs. Hospital-Acquired), CURB-65 score for assessing severity, and nursing management (positioning, hydration, oxygen therapy, antibiotics).\n\nOxygen Delivery Systems: Differentiating between low-flow (nasal cannula, simple mask) and high-flow (Venturi mask, non-rebreather mask) systems and their indications.\n\nArterial Blood Gas (ABG) Interpretation: A systematic approach to interpreting ABGs to identify respiratory/metabolic acidosis/alkalosis."
+  },
+  {
+    "question": "A nurse is teaching a young adult male about testicular self-examination (TSE). Which instruction is most important to include?",
+    "options": {
+      "A": "\"Perform the examination while lying down to ensure the muscles are relaxed.\"",
+      "B": "\"The best time to perform the exam is after a warm bath or shower.\"",
+      "C": "\"A normal finding is for both testicles to be exactly the same size and shape.\"",
+      "D": "\"You should perform the exam once every six months for accuracy.\""
+    },
+    "answer": "B",
+    "explanation": "The warmth from a bath or shower relaxes the scrotal skin, making the testicles hang lower and making it much easier to feel for any lumps, nodules, or abnormalities on the surface of each testicle. This is the single most important instruction for ensuring an effective and accurate examination.",
+    "additional": "(a) The exam should be done while standing. (c) It is normal for one testicle (usually the left) to hang slightly lower or be slightly larger than the other. (d) TSE should be performed monthly, not every six months.\n\nPotential NCK Topics (August Exams):\n- Risk factors for testicular cancer (e.g., cryptorchidism, family history).\n- Signs and symptoms of testicular cancer (painless lump, feeling of heaviness).\n- Health promotion and screening for other cancers (e.g., breast self-exam, Pap smear, colonoscopy)."
+  },
+  {
+    "question": "A patient presents to the casualty department with an active anterior nosebleed (epistaxis). What is the nurse's priority action?",
+    "options": {
+      "A": "Have the patient lie down flat with their head tilted back.",
+      "B": "Instruct the patient to sit upright, lean forward, and pinch the soft part of their nose.",
+      "C": "Immediately prepare for posterior packing of the nares.",
+      "D": "Apply a cold compress to the bridge of the nose and back of the neck."
+    },
+    "answer": "B",
+    "explanation": "This is the standard and most effective first-aid for an anterior nosebleed. Sitting upright and leaning forward prevents the blood from flowing down the back of the throat, which reduces the risk of aspiration or swallowing the blood (which can cause nausea). Pinching the soft, fleshy part of the nose (the ala) firmly against the septum applies direct pressure to the Kiesselbach's plexus, the area where most anterior nosebleeds originate. Pressure should be held continuously for 10-15 minutes.",
+    "additional": "(a) Lying down with the head tilted back increases aspiration risk. (c) Posterior packing is used for posterior bleeds and is not the first-line action. (d) Cold compresses may help vasoconstriction but do not replace direct pressure.\n\nPotential NCK Topics (August Exams):\n- Causes of epistaxis (e.g., trauma, dry air, hypertension, anticoagulants).\n- Differentiating anterior vs. posterior epistaxis.\n- Management of posterior epistaxis (e.g., nasal packing, balloon catheters)."
+  },
+  {
+    "question": "A nurse is assessing a patient with Class IV systolic congestive heart failure. Which of the following signs and symptoms are most characteristic of left-sided heart failure?",
+    "options": {
+      "A": "Jugular vein distention (JVD), peripheral edema, and ascites.",
+      "B": "Dyspnea, crackles on lung auscultation, and orthopnea.",
+      "C": "Bradycardia, hypertension, and a bounding pulse.",
+      "D": "Nausea, vomiting, and right upper quadrant pain."
+    },
+    "answer": "B",
+    "explanation": "Left-sided heart failure occurs when the left ventricle cannot pump blood effectively to the body. This causes blood to back up into the pulmonary circulation. The increased pressure in the pulmonary vessels forces fluid into the lung tissue and alveoli, leading to classic pulmonary symptoms: dyspnea (shortness of breath), crackles (rales), and orthopnea (difficulty breathing when lying flat).",
+    "additional": "(a) JVD, edema, and ascites are signs of right-sided heart failure. (c) Bradycardia and bounding pulse are not common in severe CHF. (d) Right upper quadrant pain occurs in right-sided failure due to liver congestion.\n\nPotential NCK Topics (August Exams):\n- Pathophysiology of systolic vs. diastolic heart failure.\n- Pharmacological management (e.g., ACE inhibitors, beta-blockers, diuretics).\n- Patient education: daily weights, fluid/sodium restriction, early signs of decompensation."
   }
 ]
 
