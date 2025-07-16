@@ -1,220 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Medical Concept Gallery | Heartique</title>
-  <style>
-    /* ─── base page styles (unchanged) ───────────────────────────── */
-    body{
-      font-family:'Segoe UI',sans-serif;margin:0;
-      background-image:url('https://raw.githubusercontent.com/heartique/HEARTIQUE-NEXUS-NURSES-ALLIANCE/main/background6.jpg');
-      background-size:cover;background-repeat:no-repeat;background-position:center;
-    }
-    header{background:#003366;color:#fff;padding:20px;text-align:center;}
-    header h1{margin:0;font-size:26px;}
-    .home-btn,.refresh-btn{
-      display:inline-block;margin-top:10px;margin-right:10px;
-      padding:6px 14px;border-radius:8px;font-size:14px;
-      background:#fff;color:#003366;text-decoration:none;border:1px solid #fff;
-      transition:background .3s ease;
-    }
-    .home-btn:hover,.refresh-btn:hover{background:#e6f0ff;}
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Medical Concept Gallery | Heartique</title>
+<style>
+/* — base layout & colours (unchanged) — */
+body{
+  font-family:'Segoe UI',sans-serif;margin:0;
+  background:url('https://raw.githubusercontent.com/heartique/HEARTIQUE-NEXUS-NURSES-ALLIANCE/main/background6.jpg') center/cover no-repeat;
+}
+header{background:#003366;color:#fff;padding:20px;text-align:center;}
+header h1{margin:0;font-size:26px;}
+.home-btn,.refresh-btn{
+  display:inline-block;margin:10px 10px 0 0;padding:6px 14px;border-radius:8px;font-size:14px;
+  background:#fff;color:#003366;text-decoration:none;border:1px solid #fff;transition:background .3s;
+}
+.home-btn:hover,.refresh-btn:hover{background:#e6f0ff;}
 
-    section{padding:40px 20px;max-width:1200px;margin:auto;}
-    .tab-buttons{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-bottom:30px;}
-    .tab{background:#0077cc;color:#fff;padding:8px 16px;border:none;border-radius:20px;cursor:pointer;font-size:14px;transition:background .3s ease;}
-    .tab:hover{background:#005fa3;} .tab.active{background:#003d66;}
-    .tab-content{display:none;animation:fadeIn .5s ease-in;} .tab-content.active{display:block;}
+section{padding:40px 20px;max-width:1200px;margin:auto;}
+.tab-buttons{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-bottom:30px;}
+.tab{background:#0077cc;color:#fff;padding:8px 16px;border:none;border-radius:20px;cursor:pointer;font-size:14px;transition:background .3s;}
+.tab:hover{background:#005fa3;} .tab.active{background:#003d66;}
 
-    .gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:15px;}
-    .gallery img{width:100%;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,.1);cursor:pointer;transition:transform .3s ease;}
-    .gallery img:hover{transform:scale(1.03);}
-    .no-images{grid-column:1/-1;text-align:center;font-style:italic;color:#666;margin:40px 0;}
+.tab-content{display:none;animation:fadeIn .5s ease-in;} .tab-content.active{display:block;}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:15px;}
+.gallery img{width:100%;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,.1);cursor:pointer;transition:transform .3s;}
+.gallery img:hover{transform:scale(1.03);}
+.no-images{grid-column:1/-1;text-align:center;font-style:italic;color:#666;margin:40px 0;}
 
-    @keyframes fadeIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
-    footer{background:#003366;color:#fff;padding:15px;text-align:center;margin-top:60px;}
+footer{background:#003366;color:#fff;padding:15px;text-align:center;margin-top:60px;}
+@keyframes fadeIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
 
-    /* ─── refresh popup ─────────────────────────────────────────── */
-    .refresh-popup{
-      position:fixed;top:20px;right:20px;background:#003366;color:#fff;
-      padding:10px 18px;border-radius:8px;font-size:14px;opacity:0;
-      transition:opacity .5s ease;z-index:1001;
-    }
-    .refresh-popup.show{opacity:1;}
+/* — refresh popup — */
+.refresh-popup{position:fixed;top:20px;right:20px;background:#003366;color:#fff;padding:10px 18px;border-radius:8px;font-size:14px;opacity:0;transition:opacity .5s;z-index:1001;}
+.refresh-popup.show{opacity:1;}
 
-    /* ─── light‑box styles ──────────────────────────────────────── */
-    .lightbox{
-      display:none;position:fixed;top:0;left:0;width:100vw;height:100vh;
-      background:rgba(0,0,0,.9);justify-content:center;align-items:center;
-      z-index:1000;
-    }
-    .lightbox img{max-width:90vw;max-height:90vh;border-radius:10px;box-shadow:0 0 15px rgba(255,255,255,.3);}
-    .lightbox .close, .lightbox .nav, .lightbox .share-btn{
-      position:absolute;color:#fff;font-size:32px;cursor:pointer;user-select:none;
-    }
-    .lightbox .close{top:20px;right:32px;}
-    .lightbox .nav{top:50%;transform:translateY(-50%);padding:0 12px;font-size:48px;}
-    .lightbox .prev{left:20px;} .lightbox .next{right:20px;}
-    .lightbox .share-btn{bottom:25px;right:32px;font-size:26px;background:rgba(0,0,0,.4);padding:6px 10px;border-radius:6px;}
+/* — light‑box & controls — */
+.lightbox{
+  display:none;position:fixed;top:0;left:0;width:100vw;height:100vh;
+  background:rgba(0,0,0,.9);justify-content:center;align-items:center;z-index:1000;
+}
+.lightbox img{max-width:90vw;max-height:90vh;border-radius:10px;box-shadow:0 0 15px rgba(255,255,255,.3);}
 
-    .share-popup{
-      position:fixed;bottom:25px;right:30px;background:#004d00;color:#fff;
-      padding:10px 16px;border-radius:8px;font-size:14px;opacity:0;transition:opacity .5s ease;z-index:1001;
-    }
-    .share-popup.show{opacity:1;}
-  </style>
+.lightbox .close,.lightbox .nav,.lightbox .share-btn{
+  position:absolute;user-select:none;cursor:pointer;font-size:32px;color:#32ff7e;
+}
+.lightbox .close{top:20px;right:32px;color:white;}
+.lightbox .nav{top:50%;transform:translateY(-50%);font-size:50px;text-shadow:0 0 10px #32ff7e;}
+.lightbox .prev{left:20px;} .lightbox .next{right:20px;}
+.lightbox .share-btn{
+  bottom:25px;right:32px;font-size:28px;background:rgba(0,0,0,.4);
+  padding:6px 12px;border-radius:6px;color:white;
+}
+
+/* — share popup — */
+.share-popup{position:fixed;bottom:25px;right:30px;background:#004d00;color:#fff;padding:10px 16px;border-radius:8px;font-size:14px;opacity:0;transition:opacity .5s;z-index:1001;}
+.share-popup.show{opacity:1;}
+</style>
 </head>
 <body>
 
-  <header>
-    <h1>🖼️ Medical Concept Image Gallery</h1>
-    <p>Visualize all 10 NCK‑based nursing units in images</p>
-    <a class="home-btn" href="index.html">🏠 Home</a>
-    <a class="refresh-btn" href="#" onclick="refreshGallery()">🔄 Refresh</a>
-  </header>
+<header>
+  <h1>🖼️ Medical Concept Image Gallery</h1>
+  <p>Visualize all 10 NCK‑based nursing units in images</p>
+  <a class="home-btn" href="index.html">🏠 Home</a>
+  <a class="refresh-btn" href="#" onclick="refreshGallery()">🔄 Refresh</a>
+</header>
 
-  <section>
-    <div class="tab-buttons">
-      <button class="tab active" onclick="showTab('anatomy')">Anatomy &amp; Physiology</button>
-      <button class="tab" onclick="showTab('pharma')">Pharmacology</button>
-      <button class="tab" onclick="showTab('patho')">Pathology</button>
-      <button class="tab" onclick="showTab('medsurg')">Medical‑Surgical</button>
-      <button class="tab" onclick="showTab('midwifery')">Midwifery</button>
-      <button class="tab" onclick="showTab('community')">Community Health</button>
-      <button class="tab" onclick="showTab('mental')">Mental Health</button>
-      <button class="tab" onclick="showTab('peds')">Pediatrics</button>
-      <button class="tab" onclick="showTab('leadership')">Leadership</button>
-      <button class="tab" onclick="showTab('research')">Research</button>
-    </div>
-
-    <!-- galleries -->
-    <div id="anatomy"    class="tab-content active"><div class="gallery"></div></div>
-    <div id="pharma"     class="tab-content"><div class="gallery"></div></div>
-    <div id="patho"      class="tab-content"><div class="gallery"></div></div>
-    <div id="medsurg"    class="tab-content"><div class="gallery"></div></div>
-    <div id="midwifery"  class="tab-content"><div class="gallery"></div></div>
-    <div id="community"  class="tab-content"><div class="gallery"></div></div>
-    <div id="mental"     class="tab-content"><div class="gallery"></div></div>
-    <div id="peds"       class="tab-content"><div class="gallery"></div></div>
-    <div id="leadership" class="tab-content"><div class="gallery"></div></div>
-    <div id="research"   class="tab-content"><div class="gallery"></div></div>
-  </section>
-
-  <footer>
-    &copy; 2025 Heartique Medical | Built with 💙 on GitHub Pages
-  </footer>
-
-  <!-- ─── Light‑box overlay ─── -->
-  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
-    <span class="close" onclick="closeLightbox()">❌</span>
-    <span class="nav prev" onclick="prevImage(event)">&#10094;</span>
-    <span class="nav next" onclick="nextImage(event)">&#10095;</span>
-    <span class="share-btn" onclick="shareGallery(event)">🔗</span>
-    <img id="lightbox-img" src="" alt="Expanded view" />
+<section>
+  <div class="tab-buttons">
+    <button class="tab active" onclick="showTab('anatomy')">Anatomy &amp; Physiology</button>
+    <button class="tab" onclick="showTab('pharma')">Pharmacology</button>
+    <button class="tab" onclick="showTab('patho')">Pathology</button>
+    <button class="tab" onclick="showTab('medsurg')">Medical‑Surgical</button>
+    <button class="tab" onclick="showTab('midwifery')">Midwifery</button>
+    <button class="tab" onclick="showTab('community')">Community Health</button>
+    <button class="tab" onclick="showTab('mental')">Mental Health</button>
+    <button class="tab" onclick="showTab('peds')">Pediatrics</button>
+    <button class="tab" onclick="showTab('leadership')">Leadership</button>
+    <button class="tab" onclick="showTab('research')">Research</button>
   </div>
 
-  <!-- popups -->
-  <div id="refreshPopup" class="refresh-popup">✅ Refreshed</div>
-  <div id="sharePopup" class="share-popup">Link copied!</div>
+  <!-- galleries -->
+  <div id="anatomy"    class="tab-content active"><div class="gallery"></div></div>
+  <div id="pharma"     class="tab-content"><div class="gallery"></div></div>
+  <div id="patho"      class="tab-content"><div class="gallery"></div></div>
+  <div id="medsurg"    class="tab-content"><div class="gallery"></div></div>
+  <div id="midwifery"  class="tab-content"><div class="gallery"></div></div>
+  <div id="community"  class="tab-content"><div class="gallery"></div></div>
+  <div id="mental"     class="tab-content"><div class="gallery"></div></div>
+  <div id="peds"       class="tab-content"><div class="gallery"></div></div>
+  <div id="leadership" class="tab-content"><div class="gallery"></div></div>
+  <div id="research"   class="tab-content"><div class="gallery"></div></div>
+</section>
 
-  <script>
-    /* ----- tab switching ----- */
-    function showTab(id){
-      document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
-      document.querySelectorAll('.tab-content').forEach(c=>c.classList.remove('active'));
-      document.querySelector(`[onclick="showTab('${id}')"]`).classList.add('active');
-      document.getElementById(id).classList.add('active');
-    }
+<footer>
+  &copy; 2025 Heartique Medical | Built with 💙 on GitHub Pages
+</footer>
 
-    /* ----- gallery loading ----- */
-    const units=['anatomy','pharma','patho','medsurg','midwifery','community','mental','peds','leadership','research'];
-    const exts=['jpg','jpeg','png','webp','gif','bmp','tiff','svg'];
-    const MAX=600,GAP=10;
+<!-- light‑box overlay -->
+<div id="lightbox" class="lightbox">
+  <span class="close" onclick="closeLightbox()">❌</span>
+  <span class="nav prev" onclick="prevImage(event)">&#10094;</span>
+  <span class="nav next" onclick="nextImage(event)">&#10095;</span>
+  <span class="share-btn" onclick="shareGallery(event)">↗️</span>
+  <img id="lightbox-img" src="" alt="Expanded view" />
+</div>
 
-    function loadUnit(unit){
-      const gallery=document.querySelector(`#${unit} .gallery`);
-      gallery.innerHTML='';
-      let misses=0,found=false;
+<!-- popups -->
+<div id="refreshPopup" class="refresh-popup">✅ Refreshed</div>
+<div id="sharePopup" class="share-popup">Link copied!</div>
 
-      for(let n=1;n<=MAX && misses<GAP;n++){
-        let hit=false;
-        for(const ext of exts){
-          const src=`${unit}${n}.${ext}`;
-          const probe=new Image();
-          probe.onload=()=>{
-            if(hit) return;
-            hit=true;found=true;misses=0;
-            const img=document.createElement('img');
-            img.src=src;img.alt=`${unit} ${n}`;
-            img.onclick=()=>openLightbox(src);
-            gallery.appendChild(img);
-          };
-          probe.onerror=()=>{};
-          probe.src=src;
-        }
-        if(!hit) misses++;
-      }
-      setTimeout(()=>{if(!found) gallery.innerHTML='<p class="no-images">📂 No images uploaded yet</p>';},800);
-    }
-    units.forEach(loadUnit);
+<script>
+/* — tabs — */
+function showTab(id){
+  document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(c=>c.classList.remove('active'));
+  document.querySelector(`[onclick="showTab('${id}')"]`).classList.add('active');
+  document.getElementById(id).classList.add('active');
+}
 
-    /* ----- light‑box logic (with prev/next/share) ----- */
-    const lightbox=document.getElementById('lightbox');
-    const lightboxImg=document.getElementById('lightbox-img');
-    let currentList=[],currentIndex=0;
+/* — gallery loading — */
+const units=['anatomy','pharma','patho','medsurg','midwifery','community','mental','peds','leadership','research'];
+const exts=['jpg','jpeg','png','webp','gif','bmp','tiff','svg'];
+const MAX=600,GAP=10;
 
-    function openLightbox(src){
-      const visibleGallery=document.querySelector('.tab-content.active .gallery');
-      currentList=[...visibleGallery.querySelectorAll('img')].map(i=>i.src);
-      currentIndex=currentList.indexOf(src);
-      if(currentIndex<0) currentIndex=0;
-      lightboxImg.src=src;
-      lightbox.style.display='flex';
+function loadUnit(unit){
+  const gallery=document.querySelector(`#${unit} .gallery`);
+  gallery.innerHTML='';
+  let misses=0,found=false;
+  for(let n=1;n<=MAX && misses<GAP;n++){
+    let hit=false;
+    for(const ext of exts){
+      const src=`${unit}${n}.${ext}`;
+      const probe=new Image();
+      probe.onload=()=>{
+        if(hit) return; hit=true; found=true; misses=0;
+        const img=document.createElement('img');
+        img.src=src; img.alt=`${unit} ${n}`;
+        img.onclick=()=>openLightbox(src);
+        gallery.appendChild(img);
+      };
+      probe.onerror=()=>{};
+      probe.src=src;
     }
-    function closeLightbox(){
-      lightbox.style.display='none';
-    }
-    function showImage(i){
-      if(i<0) i=currentList.length-1;
-      if(i>=currentList.length) i=0;
-      currentIndex=i;
-      lightboxImg.src=currentList[currentIndex];
-    }
-    function prevImage(e){e.stopPropagation();showImage(currentIndex-1);}
-    function nextImage(e){e.stopPropagation();showImage(currentIndex+1);}
-    document.addEventListener('keydown',e=>{
-      if(lightbox.style.display==='flex'){
-        if(e.key==='Escape') closeLightbox();
-        if(e.key==='ArrowLeft') showImage(currentIndex-1);
-        if(e.key==='ArrowRight') showImage(currentIndex+1);
-      }
-    });
+    if(!hit) misses++;
+  }
+  setTimeout(()=>{if(!found) gallery.innerHTML='<p class="no-images">📂 No images uploaded yet</p>';},800);
+}
+units.forEach(loadUnit);
 
-    /* ----- share button ----- */
-    const SHARE_URL='https://heartique.github.io/HEARTIQUE-NEXUS-NURSES-ALLIANCE/';
-    function shareGallery(e){
-      e.stopPropagation();
-      if(navigator.share){
-        navigator.share({title:'Heartique Nexus Nurses Alliance',url:SHARE_URL})
-          .catch(()=>{}); // ignore cancel
-      }else if(navigator.clipboard){
-        navigator.clipboard.writeText(SHARE_URL).then(()=>showSharePopup());
-      }else{
-        showSharePopup();
-      }
-    }
-    function showSharePopup(){
-      const s=document.getElementById('sharePopup');
-      s.classList.add('show');setTimeout(()=>s.classList.remove('show'),2000);
-    }
+/* — light‑box + swipe — */
+const lightbox=document.getElementById('lightbox');
+const lightboxImg=document.getElementById('lightbox-img');
+let currentList=[],currentIndex=0;
 
-    /* ----- refresh ----- */
-    function refreshGallery(){
-      units.forEach(loadUnit);
-      const pop=document.getElementById('refreshPopup');
-      pop.classList.add('show');setTimeout(()=>pop.classList.remove('show'),2000);
-    }
-  </script>
+function openLightbox(src){
+  const visGal=document.querySelector('.tab-content.active .gallery');
+  currentList=[...visGal.querySelectorAll('img')].map(i=>i.src);
+  currentIndex=currentList.indexOf(src);
+  if(currentIndex<0) currentIndex=0;
+  lightboxImg.src=src;
+  lightbox.style.display='flex';
+}
+function closeLightbox(){lightbox.style.display='none';}
+function showImage(i){
+  if(i<0) i=currentList.length-1;
+  if(i>=currentList.length) i=0;
+  currentIndex=i; lightboxImg.src=currentList[currentIndex];
+}
+function prevImage(e){e.stopPropagation();showImage(currentIndex-1);}
+function nextImage(e){e.stopPropagation();showImage(currentIndex+1);}
+
+/* swipe detection */
+let touchStartX=0;
+lightbox.addEventListener('touchstart',e=>{touchStartX=e.changedTouches[0].screenX;},{passive:true});
+lightbox.addEventListener('touchend',e=>{
+  const dx=e.changedTouches[0].screenX-touchStartX;
+  if(Math.abs(dx)>50){
+    dx<0?nextImage(e):prevImage(e);
+  }
+},{passive:true});
+
+/* arrow keys + ESC */
+document.addEventListener('keydown',e=>{
+  if(lightbox.style.display==='flex'){
+    if(e.key==='Escape') closeLightbox();
+    if(e.key==='ArrowLeft') showImage(currentIndex-1);
+    if(e.key==='ArrowRight') showImage(currentIndex+1);
+  }
+});
+
+/* — share button — */
+const SHARE_URL='https://heartique.github.io/HEARTIQUE-NEXUS-NURSES-ALLIANCE/';
+const SHARE_TEXT='Access this website – it has sweet material for nurses 👩‍⚕️👨‍⚕️';
+function shareGallery(e){
+  e.stopPropagation();
+  const data={title:'Heartique Nexus Nurses Alliance',text:SHARE_TEXT,url:SHARE_URL};
+  if(navigator.share){
+    navigator.share(data).catch(()=>{});
+  }else if(navigator.clipboard){
+    navigator.clipboard.writeText(`${SHARE_TEXT}  ${SHARE_URL}`).then(showSharePopup);
+  }else{showSharePopup();}
+}
+function showSharePopup(){
+  const s=document.getElementById('sharePopup');
+  s.classList.add('show'); setTimeout(()=>s.classList.remove('show'),2000);
+}
+
+/* — refresh — */
+function refreshGallery(){
+  units.forEach(loadUnit);
+  const p=document.getElementById('refreshPopup');
+  p.classList.add('show'); setTimeout(()=>p.classList.remove('show'),2000);
+}
+</script>
 </body>
 </html>
