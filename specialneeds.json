@@ -1,0 +1,220 @@
+[
+  {
+    "question": "What is the primary goal of \"inclusive education\" for students with special needs?",
+    "options": {
+      "A": "Excluding students with special needs from mainstream education",
+      "B": "Promoting an inclusive learning environment that accommodates and supports the diverse needs of all students",
+      "C": "Ignoring the importance of inclusive practices",
+      "D": "Focusing exclusively on traditional teaching methods"
+    },
+    "answer": "B",
+    "explanation": "Inclusive education means students with special needs are educated alongside their peers in a supportive environment. The focus is on adapting the system to the learner, not expecting the learner to fit the system. This promotes a sense of belonging, acceptance, and equal opportunity.",
+    "additional": "A, C, and D represent outdated or non-inclusive approaches. Inclusive education adapts curriculum, teaching, and physical environments for participation and success of all learners.\n\nPotential NCK Topics (August 2025):\n- Distinctions: Inclusion vs. Integration vs. Segregation vs. Exclusion\n- Inclusive classroom strategies and teacher roles\n- Legal frameworks supporting inclusive education"
+  },
+  {
+    "question": "In the context of special needs people, what does \"individualized education plan\" (IEP) primarily entail?",
+    "options": {
+      "A": "Developing a single standardized curriculum for all students with special needs",
+      "B": "Creating a personalized plan that addresses the unique learning and support needs of each student with special needs",
+      "C": "Ignoring the importance of individualized education",
+      "D": "Focusing exclusively on group instruction"
+    },
+    "answer": "B",
+    "explanation": "An IEP is a legally binding document created for students eligible for special education. It outlines a personalized plan with specific goals, services, accommodations, and how the child will participate in general education.",
+    "additional": "Key components include Present Levels of Performance, Annual Goals, Services, Accommodations/Modifications, and Participation with peers.\n\nPotential NCK Topics (August 2025):\n- Roles of nurses and teachers in IEP teams\n- Components of an effective IEP\n- Examples of accommodations vs. modifications"
+  },
+  {
+    "question": "What is the primary focus of \"assistive technology\" for individuals with special needs?",
+    "options": {
+      "A": "Promoting the exclusion of individuals with special needs from using technology",
+      "B": "Providing tools and devices that support individuals with special needs in performing tasks and accessing information",
+      "C": "Ignoring the need for assistive technology",
+      "D": "Focusing exclusively on conventional technology"
+    },
+    "answer": "B",
+    "explanation": "Assistive technology includes a wide range of tools and equipment that help individuals with disabilities perform tasks they might otherwise struggle with, thus promoting independence and accessibility.",
+    "additional": "Examples:\n- Physical: Wheelchairs, walkers\n- Visual: Braille displays, screen readers\n- Hearing: Hearing aids, flashing alert systems\n- Learning: Audiobooks, text-to-speech\n- Communication: Speech-generating devices\n\nPotential NCK Topics (August 2025):\n- Categories of assistive technology\n- Role of nurses in facilitating access\n- Matching technology to individual needs"
+  },
+  {
+    "question": "In the context of special needs people, what is the primary objective of \"speech therapy\"?",
+    "options": {
+      "A": "Promoting the exclusion of individuals with speech difficulties from therapy",
+      "B": "Assessing and treating communication and speech disorders to improve an individual's ability to communicate effectively",
+      "C": "Ignoring the importance of speech therapy",
+      "D": "Focusing exclusively on written communication"
+    },
+    "answer": "B",
+    "explanation": "Speech therapy addresses a broad range of communication problems such as articulation, fluency, voice, receptive and expressive language, and social communication (pragmatics).",
+    "additional": "SLPs assess, diagnose, and treat individuals to improve their ability to express themselves and understand others—critical for academic success and social integration.\n\nPotential NCK Topics (August 2025):\n- Roles of SLPs\n- Types of communication disorders\n- Early intervention and school-based speech therapy"
+  },
+  {
+    "question": "What is the primary goal of \"occupational therapy\" for individuals with special needs?",
+    "options": {
+      "A": "Excluding individuals with special needs from participating in meaningful activities",
+      "B": "Promoting independence and improving the ability to engage in daily activities and tasks",
+      "C": "Ignoring the need for occupational therapy",
+      "D": "Focusing exclusively on medical treatments"
+    },
+    "answer": "B",
+    "explanation": "Occupational therapy (OT) helps people perform daily living activities (e.g., dressing, eating, bathing) and achieve independence through personalized therapeutic strategies and tools.",
+    "additional": "OTs address physical, cognitive, sensory, and motor skills, often working alongside physical therapists.\n\nExamples of OT interventions include:\n- Adaptive tools (grip spoons, reachers)\n- Sensory integration techniques\n- Fine motor skill training\n\nPotential NCK Topics (August 2025):\n- Differences between OT and PT\n- Functional assessments\n- OT strategies for school-aged children and older adults"
+  },
+  {
+    "question": "In special needs education, what is the primary focus of \"behavior intervention plans\" (BIPs)?",
+    "options": {
+      "A": "Promoting challenging behavior in students with special needs",
+      "B": "Developing individualized plans to address challenging behaviors and support positive behavior change",
+      "C": "Ignoring the importance of behavior intervention",
+      "D": "Focusing exclusively on academic achievement"
+    },
+    "answer": "B",
+    "explanation": "A Behavior Intervention Plan (BIP) is a formal strategy designed to address specific behavioral challenges in students with special needs. Based on a Functional Behavior Assessment (FBA), it identifies the function of a behavior and provides positive strategies to modify it.",
+    "additional": "Key strategies include teaching alternative behaviors, modifying the environment, and reinforcing positive behavior. The ABC model (Antecedent, Behavior, Consequence) is crucial in behavior analysis.\n\nPotential NCK Topics (August 2025):\n- Behavior management strategies in schools\n- Functional Behavior Assessments (FBA)\n- Positive reinforcement vs. punitive approaches"
+  },
+  {
+    "question": "What is the primary objective of \"adaptive physical education\" for individuals with special needs?",
+    "options": {
+      "A": "Excluding individuals with special needs from physical activities",
+      "B": "Providing physical education programs tailored to the specific needs and abilities of individuals with special needs",
+      "C": "Ignoring the importance of physical education",
+      "D": "Focusing exclusively on competitive sports"
+    },
+    "answer": "B",
+    "explanation": "Adaptive Physical Education (APE) ensures all students, regardless of disability, have access to physical activity. Programs are adjusted to the individual's capabilities and promote fitness, motor skills, and confidence.",
+    "additional": "APE involves modifying curriculum, instruction, rules, and equipment to enable inclusive participation.\n\nPotential NCK Topics (August 2025):\n- Benefits of physical activity for special needs individuals\n- Techniques in APE\n- Collaboration between physical educators and special educators"
+  },
+  {
+    "question": "In special needs people, what is the primary goal of \"behavior support\"?",
+    "options": {
+      "A": "Promoting challenging behavior in individuals with special needs",
+      "B": "Implementing strategies to address challenging behaviors and support positive behavior change",
+      "C": "Ignoring the importance of behavior support",
+      "D": "Focusing exclusively on disciplinary measures"
+    },
+    "answer": "B",
+    "explanation": "Behavior support includes a broad set of proactive, educational approaches aimed at understanding and addressing challenging behaviors. Positive Behavior Support (PBS) focuses on respect, skill-building, and improving quality of life.",
+    "additional": "This strategy teaches alternative behaviors, adjusts environments, and avoids punishment-based approaches.\n\nPotential NCK Topics (August 2025):\n- Differences between PBS and traditional discipline\n- Role of support teams in behavior planning\n- School-wide behavior management frameworks"
+  },
+  {
+    "question": "What is the primary focus of \"vocational rehabilitation\" for individuals with special needs?",
+    "options": {
+      "A": "Promoting unemployment among individuals with special needs",
+      "B": "Providing services and support to help individuals with special needs obtain and maintain employment",
+      "C": "Ignoring the importance of vocational rehabilitation",
+      "D": "Focusing exclusively on academic achievement"
+    },
+    "answer": "B",
+    "explanation": "Vocational Rehabilitation (VR) is designed to support individuals with disabilities in achieving employment. This includes assessment, training, job placement, and assistive technologies.",
+    "additional": "Modern approaches focus on Supported Employment—placing individuals in competitive, integrated jobs with necessary support.\n\nPotential NCK Topics (August 2025):\n- Vocational training strategies\n- Sheltered workshops vs. supported employment\n- Role of the job coach"
+  },
+  {
+    "question": "In special needs education, what does \"inclusion\" primarily refer to?",
+    "options": {
+      "A": "Excluding individuals with special needs from mainstream educational settings",
+      "B": "Integrating individuals with special needs into regular educational environments, fostering their participation and socialization",
+      "C": "Ignoring the importance of inclusive practices",
+      "D": "Focusing exclusively on segregated education"
+    },
+    "answer": "B",
+    "explanation": "Inclusion means students with special needs are fully integrated into mainstream classrooms with necessary supports. It ensures equal participation and values each student’s contributions.",
+    "additional": "Inclusion is distinguished from simple integration by actively providing supports and accommodations for meaningful participation.\n\nPotential NCK Topics (August 2025):\n- Inclusive vs. integrated education\n- Benefits of inclusion for all learners\n- Classroom accommodations to promote inclusion"
+  },
+  {
+    "question": "What is the primary goal of \"social skills training\" for individuals with special needs?",
+    "options": {
+      "A": "Promoting social isolation",
+      "B": "Developing and enhancing the social and interpersonal skills of individuals with special needs",
+      "C": "Ignoring the importance of social skills",
+      "D": "Focusing exclusively on academic skills"
+    },
+    "answer": "B",
+    "explanation": "Social skills training is an evidence-based approach that helps individuals with special needs learn and practice essential interpersonal behaviors. It targets individuals who may not acquire these skills naturally, such as those with autism or intellectual disabilities. The goal is to foster improved relationships, better communication, and reduced social isolation.",
+    "additional": "Training methods include modeling, role-playing, direct instruction, video modeling, and Social Stories™. These interventions help individuals master skills like starting conversations, understanding social cues, and regulating emotions.\n\nPotential NCK Topics (August 2025):\n- Social Stories™ and Autism Spectrum Disorders\n- Role of non-verbal communication\n- Classroom strategies for social inclusion"
+  },
+  {
+    "question": "In the context of special needs people, what is the primary objective of \"augmentative and alternative communication\" (AAC)?",
+    "options": {
+      "A": "Promoting exclusive reliance on verbal communication",
+      "B": "Providing tools and strategies to support individuals with special needs in communicating effectively",
+      "C": "Ignoring the importance of communication assistance",
+      "D": "Focusing exclusively on written communication"
+    },
+    "answer": "B",
+    "explanation": "AAC includes all forms of communication used to express thoughts, needs, wants, and ideas outside of verbal speech. It serves individuals who have significant speech or language impairments, offering alternative means to communicate effectively.",
+    "additional": "AAC systems range from unaided (e.g., gestures, sign language) to aided (e.g., picture boards, speech-generating devices). High-tech AAC includes apps and voice-output devices.\n\nPotential NCK Topics (August 2025):\n- Examples of AAC in various disabilities\n- AAC in early intervention and education\n- Differences between augmentative and alternative methods"
+  },
+  {
+    "question": "What is the primary focus of \"behavior modification\" in special needs education?",
+    "options": {
+      "A": "Promoting challenging behavior in students with special needs",
+      "B": "Implementing strategies to modify behavior and encourage positive changes in students with special needs",
+      "C": "Ignoring the importance of behavior modification",
+      "D": "Focusing exclusively on academic achievement"
+    },
+    "answer": "B",
+    "explanation": "Behavior modification uses principles of operant conditioning to encourage desired behaviors and reduce undesired ones. It is rooted in reinforcement (positive/negative) and punishment but now emphasizes positive approaches over punitive ones.",
+    "additional": "Modern models like Positive Behavior Support (PBS) focus on understanding the function of behaviors and teaching alternatives. This method promotes respectful, skill-building strategies.\n\nPotential NCK Topics (August 2025):\n- Reinforcement schedules\n- Operant vs. classical conditioning\n- Behavior tracking and data collection"
+  },
+  {
+    "question": "In special needs people, what is the primary goal of \"adaptive equipment\"?",
+    "options": {
+      "A": "Promoting the exclusion of individuals with special needs from using equipment",
+      "B": "Providing specialized tools and devices to support individuals with special needs in daily activities and tasks",
+      "C": "Ignoring the need for adaptive equipment",
+      "D": "Focusing exclusively on traditional equipment"
+    },
+    "answer": "B",
+    "explanation": "Adaptive equipment refers to tools modified or designed specifically to assist individuals with disabilities in performing tasks they might otherwise find difficult or impossible. It increases independence and safety in daily living.",
+    "additional": "Examples include wheelchairs, grab bars, special utensils, raised toilet seats, or vehicles with hand controls. This category is closely related to assistive technology.\n\nPotential NCK Topics (August 2025):\n- Common types of adaptive equipment in home care\n- Nursing responsibilities in equipment use\n- Safety considerations and maintenance"
+  },
+  {
+    "question": "What is the primary objective of \"respite care\" in the context of special needs people?",
+    "options": {
+      "A": "Promoting the exhaustion of caregivers",
+      "B": "Providing temporary relief and support to caregivers of individuals with special needs",
+      "C": "Ignoring the importance of caregiver support",
+      "D": "Focusing exclusively on institutional care"
+    },
+    "answer": "B",
+    "explanation": "Respite care offers short-term relief for primary caregivers, allowing them time to rest and recharge while ensuring continuity of care for the individual with special needs. This service can help maintain family stability and reduce caregiver burnout.",
+    "additional": "Respite care can be offered in-home, at a facility, or through day programs. It is an essential component of family-centered care, acknowledging the caregiver’s needs as part of the support plan.\n\nPotential NCK Topics (August 2025):\n- Family-centered care philosophy\n- Types and delivery models of respite care\n- Role of nurses in coordinating community services"
+  },
+  {
+    "question": "In special needs education, what is the primary purpose of \"transition planning\"?",
+    "options": {
+      "A": "Promoting abrupt changes in a student's educational setting",
+      "B": "Preparing students with special needs for the transition from school to post-school activities, such as employment and further education",
+      "C": "Ignoring the importance of transition planning",
+      "D": "Focusing exclusively on immediate academic goals"
+    },
+    "answer": "B",
+    "explanation": "Transition planning is a structured process designed to help students with special needs move smoothly from the school environment to adult life. It is typically integrated into the student’s IEP and begins around age 14–16, depending on the education system. It includes academic, vocational, and independent living goals tailored to the student's preferences and strengths.",
+    "additional": "Key elements include student-centered planning, comprehensive assessment, interagency collaboration, and skill development in areas like job readiness and community access.\n\nPotential NCK Topics (August 2025):\n- Elements of effective transition planning\n- Interdisciplinary team roles in IEP transition goals\n- Legal mandates for transition services under disability law"
+  },
+  {
+    "question": "What is the primary focus of \"advocacy services\" for individuals with special needs?",
+    "options": {
+      "A": "Promoting the exclusion of individuals with special needs from advocacy",
+      "B": "Providing support and representation to individuals with special needs to ensure their rights and needs are acknowledged and protected",
+      "C": "Ignoring the importance of advocacy",
+      "D": "Focusing exclusively on self-advocacy"
+    },
+    "answer": "B",
+    "explanation": "Advocacy services empower and support individuals with special needs in asserting their legal, social, and healthcare rights. Advocates may work on behalf of the person or guide them toward self-advocacy. Advocacy ensures fair treatment, access to services, and that individual voices are heard in care and educational planning.",
+    "additional": "Nurses are often front-line advocates, ensuring patients have communication tools, understand their care plans, and are treated respectfully.\n\nPotential NCK Topics (August 2025):\n- Roles of professional advocates vs. self-advocacy\n- Advocacy in healthcare and education settings\n- Nurse's ethical and legal responsibilities as a patient advocate"
+  },
+  {
+    "question": "In the context of special needs people, what is the primary goal of \"accessible transportation\"?",
+    "options": {
+      "A": "Promoting transportation barriers for individuals with special needs",
+      "B": "Providing transportation options that accommodate and support the mobility needs of individuals with special needs",
+      "C": "Ignoring the need for accessible transportation",
+      "D": "Focusing exclusively on private transportation"
+    },
+    "answer": "B",
+    "explanation": "Accessible transportation ensures that individuals with disabilities can move freely and safely in their communities. It includes features like wheelchair ramps, auditory stop announcements, and door-to-door paratransit services for those who cannot use standard public transport.",
+    "additional": "Transportation access is vital for full societal participation—including work, education, and healthcare.\n\nPotential NCK Topics (August 2025):\n- Features of accessible public transport\n- Impact of transport on social inclusion\n- Nursing considerations when coordinating transport services for clients with mobility issues"
+  }
+]
+
+
