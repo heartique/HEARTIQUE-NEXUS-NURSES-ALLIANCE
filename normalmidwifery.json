@@ -1,1 +1,604 @@
+[
+  {
+    "question": "Which of the following is the first stage of labor?",
+    "options": {
+      "A": "Expulsion stage",
+      "B": "Dilation stage",
+      "C": "Placental stage",
+      "D": "Latent phase"
+    },
+    "answer": "B",
+    "explanation": "The first stage of labor is defined by the onset of regular uterine contractions that lead to progressive cervical effacement (thinning) and dilation (opening). It begins at the start of true labor and ends when the cervix is fully dilated to 10 cm. This entire process is known as the \"dilation stage.\"\n\nThe latent phase is considered an incorrect answer here because it is only a part of the first stage, whereas the \"dilation stage\" describes the entire stage.",
+    "additional": "Additional NCK Points:\n\nThe first stage is divided into two phases:\n\nLatent Phase: From 0 cm to approximately 4–6 cm dilation. Contractions are milder and less frequent.\n\nActive Phase: From 4–6 cm to 10 cm dilation. Contractions become stronger, more frequent, and cervical dilation accelerates."
+  },
+  {
+    "question": "What is the primary purpose of contractions during labor?",
+    "options": {
+      "A": "To help the baby breathe",
+      "B": "To open the cervix",
+      "C": "To increase fetal heart rate",
+      "D": "To prepare the placenta"
+    },
+    "answer": "B",
+    "explanation": "The primary purpose of uterine contractions during the first stage of labor is to cause cervical effacement and dilation. The pressure of the presenting part (usually the fetal head) against the cervix, combined with the pulling action of the uterine muscle fibers, causes the cervix to thin out and open, allowing the fetus to eventually pass through.",
+    "additional": "Additional NCK Points:\n\nContractions also serve to push the fetus down through the pelvis, especially during the second stage.\n\nThe \"3 Ps\" of labor are Powers (contractions), Passage (pelvis), and Passenger (fetus). Effective contractions (Powers) are essential for normal labor progression."
+  },
+  {
+    "question": "The second stage of labor is characterized by which of the following?",
+    "options": {
+      "A": "Contractions that become more frequent and stronger",
+      "B": "Delivery of the placenta",
+      "C": "Full dilation of the cervix and delivery of the baby",
+      "D": "The cervix thinning out"
+    },
+    "answer": "C",
+    "explanation": "The second stage of labor, also known as the \"expulsive stage,\" begins when the cervix is fully dilated (10 cm) and ends with the complete birth of the baby. During this stage, the mother actively uses the force of her contractions and pushing efforts to move the baby through the birth canal.",
+    "additional": "Additional NCK Points:\n\nKey Events: This stage includes descent, flexion, internal rotation, extension, restitution, external rotation, and finally, expulsion of the baby.\n\nUrge to Push: The mother typically feels an involuntary, strong urge to bear down as the fetal head descends and puts pressure on the pelvic floor."
+  },
+  {
+    "question": "Which of the following is a sign that labor is progressing normally?",
+    "options": {
+      "A": "Strong and regular contractions",
+      "B": "Absence of any cervical dilation",
+      "C": "Mild contractions that are inconsistent",
+      "D": "The baby’s head remains high and does not descend"
+    },
+    "answer": "A",
+    "explanation": "Normal labor progression is characterized by uterine contractions that become progressively stronger, longer in duration, and more frequent. These effective contractions lead to cervical dilation and fetal descent. The other options describe signs of labor dystocia (abnormal labor).",
+    "additional": "Additional NCK Points:\n\nAssessing Progression: Labor progress is assessed by monitoring the frequency, duration, and intensity of contractions, as well as by regular vaginal examinations to check for cervical dilation, effacement, and fetal station (descent).\n\nFriedman's Curve: A graph used to plot labor progression (cervical dilation vs. time) to identify abnormalities."
+  },
+  {
+    "question": "Which of the following describes the third stage of labor?",
+    "options": {
+      "A": "The fetus exits the birth canal",
+      "B": "The placenta is expelled from the uterus",
+      "C": "The cervix dilates",
+      "D": "The fetus starts to rotate in the uterus"
+    },
+    "answer": "B",
+    "explanation": "The third stage of labor begins immediately after the birth of the baby and ends with the delivery of the placenta and fetal membranes. This stage is crucial for preventing postpartum hemorrhage.",
+    "additional": "Additional NCK Points:\n\nSigns of Placental Separation:\n- A sudden gush of blood.\n- Lengthening of the umbilical cord.\n- The uterus becomes firm and globular.\n- The uterus rises in the abdomen.\n\nManagement: Active management (e.g., administering oxytocin, controlled cord traction) is recommended to reduce the risk of postpartum hemorrhage."
+  },
+  {
+    "question": "What is the ideal position for the baby to be in during labor for a vaginal delivery?",
+    "options": {
+      "A": "Breech position",
+      "B": "Cephalic presentation (head down)",
+      "C": "Shoulder presentation",
+      "D": "Transverse position"
+    },
+    "answer": "B",
+    "explanation": "The ideal and most common fetal presentation for a vaginal delivery is the cephalic presentation, where the baby's head enters the pelvis first. Specifically, the occiput anterior (OA) position is optimal, as the smallest diameter of the fetal head presents to the maternal pelvis, facilitating a smoother delivery.",
+    "additional": "Additional NCK Points:\n\nMalpresentations: Breech (buttocks/feet first), shoulder, and transverse (sideways) positions are malpresentations that can lead to obstructed labor and often require a cesarean section.\n\nFetal Lie: Refers to the relationship of the long axis of the fetus to the long axis of the mother (longitudinal, transverse, or oblique). A longitudinal lie is necessary for vaginal birth."
+  },
+  {
+    "question": "Which of the following is the primary mechanism by which the baby is expelled during the second stage of labor?",
+    "options": {
+      "A": "Uterine contractions",
+      "B": "Pushing by the mother",
+      "C": "Use of forceps",
+      "D": "Application of epidural anesthesia"
+    },
+    "answer": "B",
+    "explanation": "While uterine contractions provide the primary force to move the fetus down the birth canal, the mother's active pushing efforts (bearing down) are the primary mechanism for the final expulsion of the baby. These voluntary efforts significantly augment the involuntary force of the contractions.",
+    "additional": "Additional NCK Points:\n\nFerguson Reflex: As the fetal head stretches the cervix and pelvic floor, a neuro-hormonal reflex is triggered, causing the release of oxytocin and creating an irresistible urge to push.\n\nValsalva Maneuver: Directed, closed-glottis pushing is often taught, but spontaneous, open-glottis pushing may be more physiological and less stressful for the fetus."
+  },
+  {
+    "question": "The term \"crowning\" in labor refers to which of the following?",
+    "options": {
+      "A": "The baby’s head becoming visible at the vaginal opening",
+      "B": "The placenta starting to detach from the uterus",
+      "C": "The cervix beginning to dilate",
+      "D": "The mother feeling the urge to push"
+    },
+    "answer": "A",
+    "explanation": "Crowning is the point during the second stage of labor when the largest diameter of the fetal head is visible at the vaginal introitus and does not retract back between contractions. It signals that the birth of the head is imminent.",
+    "additional": "Additional NCK Points:\n\nManagement at Crowning: At this point, the healthcare provider will often ask the mother to pant or push gently to allow for a slow, controlled delivery of the head, which helps to minimize perineal tearing.\n\nEpisiotomy: If an episiotomy (a surgical cut to the perineum) is deemed necessary, it is typically performed at the time of crowning."
+  },
+  {
+    "question": "Which of the following is an indication that the cervix is fully dilated?",
+    "options": {
+      "A": "The mother begins to feel contractions",
+      "B": "The baby’s head becomes visible",
+      "C": "The mother experiences the urge to push",
+      "D": "The cervix measures 10 cm"
+    },
+    "answer": "D",
+    "explanation": "Full cervical dilation is defined as the cervix opening to 10 centimeters. This measurement, confirmed by a sterile vaginal examination, marks the end of the first stage of labor and the beginning of the second (pushing) stage.",
+    "additional": "Additional NCK Points:\n\nWhile the urge to push is a strong indicator, it is not definitive. A premature urge to push can occur before full dilation and can cause cervical edema. It is crucial to confirm full dilation via examination before encouraging active pushing.\n\nFull dilation is also referred to as \"complete.\""
+  },
+  {
+    "question": "What is the typical duration of the latent phase of labor for a first-time mother?",
+    "options": {
+      "A": "1 to 2 hours",
+      "B": "2 to 6 hours",
+      "C": "6 to 12 hours",
+      "D": "12 to 24 hours"
+    },
+    "answer": "C",
+    "explanation": "For a primigravida (a woman in her first pregnancy), the latent phase of labor can be quite variable and is often the longest part of labor. A duration of 6 to 12 hours is considered typical, although it can last up to 20 hours and still be within normal limits.",
+    "additional": "Additional NCK Points:\n\nMultigravida: For women who have previously given birth, the latent phase is typically much shorter, often lasting around 4 to 8 hours.\n\nManagement: During the latent phase, if membranes are intact, women are often encouraged to stay home, rest, stay hydrated, and eat light meals until contractions become more regular and intense, signaling the start of the active phase."
+  },
+  {
+    "question": "Which of the following is the primary role of the uterine contractions during labor?",
+    "options": {
+      "A": "To control maternal blood pressure",
+      "B": "To increase maternal heart rate",
+      "C": "To facilitate the descent of the fetus",
+      "D": "To dilate the cervix mechanically"
+    },
+    "answer": "C",
+    "explanation": "Uterine contractions serve two main purposes: to dilate and efface the cervix (as asked in a previous question) and to facilitate the descent of the fetus through the birth canal. The downward pressure exerted by the contracting uterus on the fetus is the primary force causing descent.",
+    "additional": "Additional NCK Points:\n\nThis question is similar to question #2 but offers a different correct focus. While opening the cervix is a primary purpose, facilitating descent is also a primary role. In an exam, you must choose the best fit among the options. Option D, \"dilate the cervix mechanically,\" is less precise than \"facilitate the descent,\" which encompasses the entire pushing process.\n\nThe \"powers\" of labor (uterine contractions and maternal pushing) work together to achieve both dilation and descent."
+  },
+  {
+    "question": "The \"delivery\" phase refers to the time during labor when:",
+    "options": {
+      "A": "The baby’s head begins to crown",
+      "B": "The cervix reaches full dilation",
+      "C": "The baby is expelled from the birth canal",
+      "D": "The placenta is expelled"
+    },
+    "answer": "C",
+    "explanation": "The \"delivery\" or \"expulsive\" phase is synonymous with the second stage of labor. This stage is defined by the complete expulsion of the baby from the uterus and through the birth canal, concluding the birth of the infant.",
+    "additional": "Additional NCK Points:\n\nThe delivery phase starts at 10 cm dilation and ends with the birth of the baby.\n\nThe delivery of the placenta occurs in the third stage of labor, which follows the delivery of the baby."
+  },
+  {
+    "question": "Which of the following factors can slow down the progress of labor?",
+    "options": {
+      "A": "Maternal pushing efforts",
+      "B": "Anterior position of the fetal head",
+      "C": "Excessive hydration",
+      "D": "A poorly positioned fetus"
+    },
+    "answer": "D",
+    "explanation": "Fetal malposition, such as an occiput posterior (\"sunny-side up\") or transverse position, is a common cause of labor dystocia (abnormally slow labor). A poorly positioned fetus presents a larger head diameter to the maternal pelvis, which can hinder descent and cervical dilation, thus prolonging labor.",
+    "additional": "Additional NCK Points:\n\nOther causes of slow labor progress (failure to progress) include:\n\nPowers: Inadequate or uncoordinated uterine contractions.\n\nPassage: A small or abnormally shaped maternal pelvis (cephalopelvic disproportion).\n\nPsyche: Maternal anxiety or fear can release catecholamines, which can inhibit uterine contractions."
+  },
+  {
+    "question": "In a normal delivery, which of the following is the first part of the baby to enter the birth canal?",
+    "options": {
+      "A": "The feet",
+      "B": "The arms",
+      "C": "The head",
+      "D": "The shoulders"
+    },
+    "answer": "C",
+    "explanation": "In a normal, cephalic presentation, the fetal head is the \"presenting part\" that engages and descends through the maternal pelvis first. The head is the largest and least compressible part of the fetus, so its delivery is the most critical part of the birth process.",
+    "additional": "Additional NCK Points:\n\nEngagement: This term describes when the largest diameter of the fetal head (the biparietal diameter) has passed through the pelvic inlet.\n\nFetal Station: Describes the level of the presenting part in relation to the maternal ischial spines. Station 0 is at the level of the spines; negative numbers are above, and positive numbers are below."
+  },
+  {
+    "question": "Which of the following positions is most commonly used during labor to help facilitate the descent of the baby?",
+    "options": {
+      "A": "Supine position",
+      "B": "Lying flat on the back",
+      "C": "Squatting position",
+      "D": "Lateral position"
+    },
+    "answer": "C",
+    "explanation": "Upright and gravity-neutral positions are encouraged during labor to facilitate fetal descent. The squatting position is particularly effective as it utilizes gravity and can increase the pelvic outlet diameter, providing more room for the baby to pass through.",
+    "additional": "Additional NCK Points:\n\nBenefits of Upright Positions: Walking, standing, kneeling, and squatting can help shorten the first stage of labor, reduce the need for epidurals, and may lower the rate of cesarean sections.\n\nSupine Position: Lying flat on the back (supine) is generally discouraged as it can lead to supine hypotension syndrome, where the gravid uterus compresses the inferior vena cava and aorta, reducing blood flow to the placenta and the mother's brain."
+  },
+  {
+    "question": "What is the typical length of time for the second stage of labor in a first-time mother?",
+    "options": {
+      "A": "15 minutes",
+      "B": "30 minutes to 2 hours",
+      "C": "3 to 4 hours",
+      "D": "6 to 12 hours"
+    },
+    "answer": "B",
+    "explanation": "For a primigravida (first-time mother), the second stage of labor (from full dilation to birth) typically lasts from 30 minutes to 2 hours. If an epidural is used, this stage can be longer, sometimes up to 3 hours.",
+    "additional": "Additional NCK Points:\n\nMultigravida: For a woman who has given birth before, the second stage is usually much shorter, often lasting from 5 to 30 minutes.\n\nProlonged second stage is defined as >2 hours in a primigravida (>3 hours with an epidural) or >1 hour in a multigravida (>2 hours with an epidural)."
+  },
+  {
+    "question": "Which of the following is the main reason for performing an episiotomy during delivery?",
+    "options": {
+      "A": "To reduce the length of labor",
+      "B": "To prevent tearing of the cervix",
+      "C": "To facilitate the delivery of a larger baby",
+      "D": "To assist with a faster expulsion of the placenta"
+    },
+    "answer": "C",
+    "explanation": "An episiotomy is a surgical incision made in the perineum to enlarge the vaginal opening. While its routine use is no longer recommended, it may be performed to facilitate the delivery of a large baby (macrosomia) or to expedite delivery in cases of fetal distress.",
+    "additional": "Additional NCK Points:\n\nControversy: The routine use of episiotomy has been shown to increase the risk of severe perineal trauma, pain, and infection compared to spontaneous tearing.\n\nIndications: Current indications are restrictive and may include shoulder dystocia, fetal distress requiring a quick delivery, or when a severe spontaneous tear appears imminent."
+  },
+  {
+    "question": "What is a common sign that the placenta is ready to be expelled after the delivery of the baby?",
+    "options": {
+      "A": "Strong uterine contractions",
+      "B": "The baby’s head crowns",
+      "C": "The cord lengthens and the uterus becomes firm",
+      "D": "The cervix begins to dilate"
+    },
+    "answer": "C",
+    "explanation": "The primary signs of placental separation during the third stage of labor are a lengthening of the visible portion of the umbilical cord, a sudden gush of blood, and the uterus rising in the abdomen and becoming firm and globular. These indicate that the placenta has detached from the uterine wall and is ready for delivery.",
+    "additional": "Additional NCK Points:\n\nThe option \"The cord lengthens and the uterus becomes firm\" combines two key signs, making it the most comprehensive and correct answer.\n\nThese signs are used to guide the timing for controlled cord traction during active management of the third stage."
+  },
+  {
+    "question": "Which of the following is an early sign of labor onset?",
+    "options": {
+      "A": "Sudden increase in fetal movement",
+      "B": "Irregular contractions that become regular",
+      "C": "Complete rupture of membranes",
+      "D": "A decrease in maternal heart rate"
+    },
+    "answer": "B",
+    "explanation": "One of the earliest and most definitive signs of true labor is the onset of uterine contractions that transition from being irregular and mild (Braxton Hicks) to being regular, progressively stronger, and more frequent. This is what distinguishes true labor from false labor.",
+    "additional": "Additional NCK Points:\n\nOther Early Signs (Prodromal Labor):\n\nLightening: The fetus \"drops\" lower into the pelvis.\n\nBloody Show: Passage of the mucus plug, which is often tinged with blood.\n\nRupture of Membranes: Can occur before or during labor.\n\n\"Nesting\" instinct or a sudden burst of energy."
+  },
+  {
+    "question": "What is the function of the \"latent phase\" of labor?",
+    "options": {
+      "A": "To allow the cervix to fully dilate",
+      "B": "To help the uterus prepare for stronger contractions",
+      "C": "To allow the fetus to rotate into the optimal position",
+      "D": "To expel the placenta"
+    },
+    "answer": "B",
+    "explanation": "The latent phase is the early, preparatory part of the first stage of labor. During this time, the cervix undergoes initial effacement and slow dilation (0 to 4–6 cm). The contractions, while present, are often less intense, allowing the mother and the uterus to prepare and build up for the more intense and efficient contractions of the active phase.",
+    "additional": "Additional NCK Points:\n\nThis phase allows for significant \"softening up\" of the cervix.\n\nIt is often the longest phase of labor and the one with the most psychological variability, as some women may not even realize they are in early labor."
+  },
+  {
+    "question": "What is \"crowning\" during labor?",
+    "options": {
+      "A": "The fetal head emerging from the birth canal",
+      "B": "The fetal body emerging from the birth canal",
+      "C": "The cervix beginning to dilate",
+      "D": "The placenta being delivered"
+    },
+    "answer": "A",
+    "explanation": "\"Crowning\" is the specific moment during the second stage of labor when the widest part of the fetal head becomes visible at the vaginal opening and remains visible between contractions. This indicates that the birth of the head is imminent.",
+    "additional": "Additional NCK Points:\n\nThis is a repeat of question #8, reinforcing its importance as a key concept in labor and delivery terminology.\n\nThe term \"emerging\" is key. The head has not been fully delivered yet, but it is at the point of maximum perineal stretching."
+  },
+  {
+    "question": "Which of the following is the primary hormone responsible for initiating labor?",
+    "options": {
+      "A": "Estrogen",
+      "B": "Progesterone",
+      "C": "Oxytocin",
+      "D": "Prolactin"
+    },
+    "answer": "C",
+    "explanation": "Oxytocin is the primary hormone responsible for stimulating uterine contractions. While the exact trigger for the onset of labor is complex and multifactorial, the release of oxytocin from the posterior pituitary gland plays a central role in causing the powerful, coordinated contractions necessary for childbirth.",
+    "additional": "Additional NCK Points:\n\nHormonal Shift: Before labor, progesterone (which keeps the uterus relaxed) levels drop, while estrogen levels rise, increasing the uterus's sensitivity to oxytocin.\n\nPositive Feedback Loop: Uterine contractions stimulate stretch receptors in the cervix, which send signals to the brain to release more oxytocin, which in turn causes stronger contractions. This loop continues until birth.\n\nSynthetic Oxytocin (Pitocin/Syntocinon): Is used medically to induce or augment labor."
+  },
+  {
+    "question": "Which of the following can indicate fetal distress during labor?",
+    "options": {
+      "A": "Fetal heart rate of 120 bpm",
+      "B": "Fetal heart rate of 100 bpm",
+      "C": "Strong uterine contractions every 2 minutes",
+      "D": "Meconium-stained amniotic fluid"
+    },
+    "answer": "D",
+    "explanation": "The passage of meconium (the baby's first stool) into the amniotic fluid before birth can be a sign of fetal distress. It may indicate that the fetus has experienced a hypoxic event, which can cause increased gut motility and relaxation of the anal sphincter.",
+    "additional": "Additional NCK Points:\n\nFetal Heart Rate (FHR): A normal FHR is 110–160 bpm. A rate of 100 bpm (as in option B) would be considered bradycardia and is also a sign of fetal distress. However, meconium staining is a classic and specific indicator of potential distress.\n\nMeconium Aspiration Syndrome (MAS): The major risk associated with meconium-stained fluid is that the infant may inhale it, leading to severe respiratory problems after birth."
+  },
+  {
+    "question": "Which of the following is the recommended position for the mother during the active phase of labor?",
+    "options": {
+      "A": "Supine position",
+      "B": "Lying flat on the back",
+      "C": "Upright or squatting position",
+      "D": "Sitting position with legs elevated"
+    },
+    "answer": "C",
+    "explanation": "Encouraging upright positions (e.g., walking, standing, sitting, squatting) during the active phase of labor is recommended. These positions use gravity to help facilitate fetal descent, can make contractions more effective, and may improve maternal comfort.",
+    "additional": "Additional NCK Points:\n\nThis is a repeat of the concept from question #15, emphasizing the importance of maternal positioning in labor management.\n\nFreedom of movement should be encouraged. The mother should be supported in finding whatever position is most comfortable for her, as long as it is safe."
+  },
+  {
+    "question": "Which of the following best describes the \"expulsive\" phase of labor?",
+    "options": {
+      "A": "The phase when the cervix is fully dilated",
+      "B": "The phase when the baby is expelled from the birth canal",
+      "C": "The phase when the placenta is delivered",
+      "D": "The phase when the membranes rupture"
+    },
+    "answer": "B",
+    "explanation": "The \"expulsive\" phase is another term for the second stage of labor. It begins at full cervical dilation (10 cm) and is characterized by the mother's active pushing efforts, which culminate in the expulsion of the baby from the birth canal.",
+    "additional": "Additional NCK Points:\n\nThis is a rephrasing of question #12, reinforcing terminology.\n\nThis stage involves the \"cardinal movements\" of labor as the fetus navigates the pelvis."
+  },
+  {
+    "question": "Which of the following is a characteristic of the third stage of labor?",
+    "options": {
+      "A": "Dilation of the cervix",
+      "B": "Descent of the baby through the birth canal",
+      "C": "Expulsion of the placenta",
+      "D": "Initiation of uterine contractions"
+    },
+    "answer": "C",
+    "explanation": "The third stage of labor is defined as the period from the birth of the baby until the expulsion of the placenta and membranes. The main event of this stage is placental separation and delivery.",
+    "additional": "Additional NCK Points:\n\nThis is a repeat of the definition from question #5.\n\nDuration: This stage typically lasts 5–15 minutes but can be considered normal up to 30 minutes. A duration longer than 30 minutes is termed a \"retained placenta.\""
+  },
+  {
+    "question": "Which of the following signs suggests the beginning of the second stage of labor?",
+    "options": {
+      "A": "Complete dilation of the cervix",
+      "B": "Strong, regular contractions every 5 minutes",
+      "C": "The membranes rupture",
+      "D": "The appearance of blood-tinged mucus"
+    },
+    "answer": "A",
+    "explanation": "The transition from the first stage to the second stage of labor is marked by complete cervical dilation to 10 cm. This is the definitive sign that the \"pushing\" stage can begin.",
+    "additional": "Additional NCK Points:\n\nOther clinical signs that often accompany the onset of the second stage include an increase in bloody show, rupture of membranes (if not already ruptured), and an involuntary urge to push (Ferguson reflex). However, 10 cm dilation is the diagnostic criterion."
+  },
+  {
+    "question": "In the case of shoulder dystocia, what should the healthcare provider do to help deliver the baby?",
+    "options": {
+      "A": "Perform a cesarean section immediately",
+      "B": "Ask the mother to stand up",
+      "C": "Perform the McRoberts maneuver and apply suprapubic pressure",
+      "D": "Increase the frequency of uterine contractions"
+    },
+    "answer": "C",
+    "explanation": "Shoulder dystocia is an obstetric emergency where the baby's anterior shoulder gets stuck behind the mother's pubic symphysis after the head has been delivered. The first-line intervention is the McRoberts maneuver, where the mother's thighs are sharply flexed onto her abdomen. This flattens the sacrum and rotates the pubic symphysis, often freeing the shoulder. This is usually combined with suprapubic pressure (pressure applied above the pubic bone to dislodge the shoulder).",
+    "additional": "Additional NCK Points:\n\nFundal pressure (pushing on the top of the uterus) is contraindicated as it can worsen the impaction and cause uterine rupture.\n\nOther maneuvers include the Rubin II, Woods' screw, and delivery of the posterior arm. These are part of a sequence of actions often remembered by the mnemonic HELPERR."
+  },
+  {
+    "question": "The presence of which of the following indicates that the labor has progressed to the active phase?",
+    "options": {
+      "A": "Irregular, mild contractions",
+      "B": "Full effacement of the cervix",
+      "C": "Cervical dilation of 4–7 cm",
+      "D": "Rupture of membranes"
+    },
+    "answer": "C",
+    "explanation": "The active phase of the first stage of labor is characterized by more rapid and predictable cervical dilation. It is generally considered to begin when the cervix is dilated to about 4 to 6 cm and is accompanied by strong, regular contractions.",
+    "additional": "Additional NCK Points:\n\nThe transition from latent to active phase is a key milestone. In the active phase, the cervix is expected to dilate at a rate of approximately 1 cm/hour for a primigravida and 1.5 cm/hour for a multigravida.\n\nFull effacement (100% thinning) usually occurs during the active phase but is not its starting point."
+  },
+  {
+    "question": "The first stage of labor is divided into which two phases?",
+    "options": {
+      "A": "Latent and active phases",
+      "B": "Active and transition phases",
+      "C": "Early and late phases",
+      "D": "Early and expulsive phases"
+    },
+    "answer": "A",
+    "explanation": "This question directly tests the subdivisions of the first stage of labor. The first stage is correctly divided into the latent phase (early, slow dilation) and the active phase (more rapid dilation).",
+    "additional": "Additional NCK Points:\n\nThe transition phase is considered the very end of the active phase, from about 8 cm to 10 cm dilation. It is not a separate phase from \"active.\"\n\nThe expulsive phase is another name for the second stage of labor."
+  },
+  {
+    "question": "Which of the following is the most common cause of pain during labor?",
+    "options": {
+      "A": "The stretching of the uterus and cervix",
+      "B": "The presence of fetal distress",
+      "C": "The release of hormones during labor",
+      "D": "The presence of amniotic fluid in the birth canal"
+    },
+    "answer": "A",
+    "explanation": "The primary source of pain during the first stage of labor is visceral pain resulting from the stretching and distention of the lower uterine segment and the cervix as they dilate. Uterine muscle hypoxia during strong contractions also contributes significantly to the pain.",
+    "additional": "Additional NCK Points:\n\nSecond Stage Pain: Pain during the second stage becomes more somatic (localized) and is caused by the stretching of the perineum and vaginal tissues as the baby descends.\n\nBack Labor: Intense lower back pain is often associated with a fetal occiput posterior position, where the baby's skull presses against the mother's sacrum."
+  },
+  {
+    "question": "What is the role of the \"lying-in\" phase during labor and delivery?",
+    "options": {
+      "A": "To allow for uterine contractions to be controlled",
+      "B": "To allow the woman to rest after delivery",
+      "C": "To provide a comfortable position for the mother to push",
+      "D": "To provide access for episiotomy and forceps delivery"
+    },
+    "answer": "B",
+    "explanation": "The \"lying-in\" phase is a historical term that refers to the immediate postpartum period, also known as the fourth stage of labor. Its primary role is to allow the mother to rest and recover from the exertion of childbirth while being closely monitored for complications like hemorrhage. It is also a critical time for mother-infant bonding.",
+    "additional": "Additional NCK Points:\n\nThe fourth stage of labor lasts for the first 1–2 hours after the delivery of the placenta.\n\nKey nursing assessments during this phase include monitoring vital signs, uterine fundus (for firmness), and lochia (vaginal discharge)."
+  },
+  {
+    "question": "Which of the following positions is least likely to facilitate an uncomplicated vaginal birth?",
+    "options": {
+      "A": "Upright or standing",
+      "B": "Squatting",
+      "C": "Supine",
+      "D": "Kneeling"
+    },
+    "answer": "C",
+    "explanation": "The supine position (lying flat on the back) is considered the least effective position for labor and birth. It can compress the major blood vessels (aorta and inferior vena cava), potentially causing maternal hypotension and reduced placental perfusion. It also works against gravity and can narrow the pelvic outlet.",
+    "additional": "Additional NCK Points:\n\nWhile the lithotomy position (on back with legs in stirrups) is common in hospital settings, it shares many of the same disadvantages as the supine position.\n\nPositions like squatting, kneeling, and side-lying are generally preferred as they can enhance labor progress and maternal comfort."
+  },
+  {
+    "question": "Which of the following is an immediate intervention if the cord is prolapsed during labor?",
+    "options": {
+      "A": "Increase the frequency of contractions",
+      "B": "Put the mother in a knee-chest position",
+      "C": "Administer an epidural",
+      "D": "Perform an episiotomy"
+    },
+    "answer": "B",
+    "explanation": "Umbilical cord prolapse is an obstetric emergency where the cord descends ahead of the fetus, risking compression and fetal hypoxia. The immediate goal is to relieve pressure on the cord. Placing the mother in a knee-chest position or an extreme Trendelenburg position uses gravity to shift the fetus away from the pelvic inlet, relieving pressure on the cord while preparing for an emergency cesarean section.",
+    "additional": "Additional NCK Points:\n\nAnother key intervention is for the provider to manually lift the presenting part off the cord with a sterile-gloved hand, which must be maintained until delivery.\n\nOxytocin should be discontinued to reduce contraction strength, and emergency delivery (usually by C-section) is required."
+  },
+  {
+    "question": "What is the primary purpose of administering oxytocin during labor?",
+    "options": {
+      "A": "To relax the uterine muscles",
+      "B": "To stimulate uterine contractions",
+      "C": "To relieve labor pain",
+      "D": "To prevent hemorrhage"
+    },
+    "answer": "B",
+    "explanation": "Synthetic oxytocin (Pitocin) is administered to initiate (induce) or strengthen (augment) uterine contractions. It is used when labor is not progressing adequately due to insufficient uterine activity (powers).",
+    "additional": "Additional NCK Points:\n\nWhile oxytocin is also given after delivery to prevent hemorrhage (by causing the uterus to contract firmly), its primary purpose during labor is to manage the contractions themselves.\n\nCareful monitoring of both maternal contractions and fetal heart rate is essential during oxytocin administration to prevent uterine hyperstimulation and fetal distress."
+  },
+  {
+    "question": "What is the definition of \"effacement\" in the context of labor?",
+    "options": {
+      "A": "The thinning of the cervix",
+      "B": "The dilation of the cervix",
+      "C": "The lengthening of the birth canal",
+      "D": "The descent of the baby"
+    },
+    "answer": "A",
+    "explanation": "Effacement refers to the process by which the cervix thins out, shortens, and softens in preparation for birth. It is measured in percentages, from 0% (thick, uneffaced) to 100% (paper-thin, fully effaced).",
+    "additional": "Additional NCK Points:\n\nIn primigravidas, effacement often precedes significant dilation. In multigravidas, effacement and dilation tend to occur simultaneously.\n\nEffacement and dilation are the two key components of cervical change during the first stage of labor."
+  },
+  {
+    "question": "Which of the following is a sign that the placenta has been delivered?",
+    "options": {
+      "A": "Increased uterine firmness and a lengthened umbilical cord",
+      "B": "A sudden drop in maternal blood pressure",
+      "C": "Severe uterine cramping",
+      "D": "The baby’s head emerges from the birth canal"
+    },
+    "answer": "A",
+    "explanation": "This question is a slight variation of question #18. The signs that the placenta has separated and is ready for delivery include a gush of blood, the uterus becoming firm and rising, and the lengthening of the umbilical cord. Once these signs appear, the placenta can be delivered. The prompt asks for a sign that it has been delivered, but the provided answer points to the signs of separation that precede delivery. In the context of the choices, this is the best option.",
+    "additional": "Additional NCK Points:\n\nAfter the placenta is delivered, it should be inspected to ensure it is intact. Retained placental fragments are a major cause of postpartum hemorrhage."
+  },
+  {
+    "question": "What is the normal duration of the first stage of labor in a first-time mother?",
+    "options": {
+      "A": "2 to 5 hours",
+      "B": "6 to 12 hours",
+      "C": "10 to 18 hours",
+      "D": "20 to 24 hours"
+    },
+    "answer": "C",
+    "explanation": "The total duration of the first stage of labor for a primigravida is highly variable. While question #10 focused on the latent phase, this question asks about the entire first stage. The combined latent and active phases typically last between 10 and 18 hours on average.",
+    "additional": "Additional NCK Points:\n\nIt's important to differentiate between questions asking about the latent phase, active phase, or the entire first stage. The provided answer of \"6 to 12 hours\" in question #10 was for the latent phase, whereas \"10 to 18 hours\" is a more accurate range for the total first stage. Exam questions may have slight variations, so read carefully. A range of 12–18 hours is a common textbook value for the total first stage in primigravidas."
+  },
+  {
+    "question": "The \"transition phase\" of labor is best described as:",
+    "options": {
+      "A": "The time when the cervix reaches full dilation",
+      "B": "The stage when the baby’s head begins to crown",
+      "C": "The period after the baby is born, before the placenta is expelled",
+      "D": "The phase when uterine contractions are weakest"
+    },
+    "answer": "A",
+    "explanation": "The transition phase is the final part of the first stage of labor, covering the period from approximately 8 cm to 10 cm (full) dilation. It is the most intense part of labor, with very strong, frequent contractions, and is often accompanied by significant maternal discomfort, shaking, nausea, and a feeling of pressure.",
+    "additional": "Additional NCK Points:\n\nThis phase \"transitions\" the mother from the first stage to the second (pushing) stage.\n\nBecause of its intensity, it is often the most emotionally challenging part of labor for the mother, requiring significant support."
+  },
+  {
+    "question": "When is the optimal time to administer pain relief during labor?",
+    "options": {
+      "A": "As soon as contractions begin",
+      "B": "Only during the active phase",
+      "C": "After full dilation is achieved",
+      "D": "Before the second stage of labor"
+    },
+    "answer": "B",
+    "explanation": "The optimal time to administer systemic or epidural pain relief is during the well-established active phase of labor. Administering it too early (in the latent phase) can potentially slow down labor progress. Administering it too late (near full dilation) may not provide timely relief, and some medications can affect the newborn if given too close to birth.",
+    "additional": "Additional NCK Points:\n\nThe goal is to provide pain relief when contractions are strong and regular, making labor more manageable without unnecessarily interfering with its natural progression.\n\nNon-pharmacological methods (e.g., breathing techniques, massage, hydrotherapy) can be used throughout all phases of labor."
+  },
+  {
+    "question": "What is the primary characteristic of the latent phase of labor?",
+    "options": {
+      "A": "Rapid dilation of the cervix",
+      "B": "Occasional, irregular contractions",
+      "C": "Expulsion of the placenta",
+      "D": "Continuous, intense contractions"
+    },
+    "answer": "B",
+    "explanation": "The latent (or early) phase of the first stage of labor is characterized by mild to moderate contractions that are often irregular in frequency and duration. During this phase, the cervix begins to soften, efface, and dilate slowly (from 0 to about 4–6 cm).",
+    "additional": "Additional NCK Points:\n\nThis phase contrasts with the active phase, which is defined by strong, regular contractions and rapid cervical dilation.\n\nThe latent phase is typically the longest part of labor."
+  },
+  {
+    "question": "Which of the following is considered a risk factor for prolonged labor?",
+    "options": {
+      "A": "Maternal age below 20 years",
+      "B": "Fetal position in occiput anterior",
+      "C": "Maternal obesity",
+      "D": "Nulliparity (first-time pregnancy)"
+    },
+    "answer": "D",
+    "explanation": "Nulliparity (having no prior births) is a significant risk factor for a longer, or prolonged, labor. The maternal tissues are less compliant, and the process of cervical dilation and fetal descent is generally slower compared to women who have given birth before (multiparous women).",
+    "additional": "Additional NCK Points:\n\nWhile maternal obesity (Option C) is also a risk factor for labor dystocia, nulliparity is a more fundamental factor affecting the duration across all pregnancies. Both are correct risk factors, but nulliparity has a more universal impact on labor curves.\n\nAn occiput anterior position (Option B) is the ideal position and facilitates labor, rather than prolonging it."
+  },
+  {
+    "question": "Which of the following describes \"crowning\" during labor?",
+    "options": {
+      "A": "The baby’s head is fully out of the birth canal",
+      "B": "The baby's head begins to emerge and is visible at the vaginal opening",
+      "C": "The placenta is fully expelled",
+      "D": "The cervix is fully dilated"
+    },
+    "answer": "B",
+    "explanation": "This is a repeat of questions #8 and #21, reinforcing its importance. \"Crowning\" occurs during the second stage when the widest part of the baby's head distends the perineum and is visible at the vaginal opening, without receding between contractions.",
+    "additional": "Additional NCK Points:\n\nThe repetition of this question highlights it as a core, must-know concept for nursing exams."
+  },
+  {
+    "question": "During labor, which of the following fetal positions is considered ideal for a vaginal delivery?",
+    "options": {
+      "A": "Occiput posterior",
+      "B": "Occiput anterior",
+      "C": "Breech presentation",
+      "D": "Transverse lie"
+    },
+    "answer": "B",
+    "explanation": "The occiput anterior (OA) position is the ideal and most common position for a vaginal birth. In this position, the fetus is head-down, facing the mother's back (spine). This allows the smallest diameter of the fetal skull to pass through the maternal pelvis, facilitating the easiest delivery.",
+    "additional": "Additional NCK Points:\n\nThis is a repeat of question #6. Fetal position and presentation are critical determinants of labor progress.\n\nOcciput Posterior (OP): \"Sunny-side up,\" where the fetus faces the mother's abdomen. This position can lead to a longer, more painful \"back labor.\""
+  },
+  {
+    "question": "What is the typical first-line intervention for a woman in labor who is experiencing back pain due to fetal malposition?",
+    "options": {
+      "A": "Epidural anesthesia",
+      "B": "Applying counter-pressure to the sacrum",
+      "C": "Administering an opioid analgesic",
+      "D": "Performing a cesarean section"
+    },
+    "answer": "B",
+    "explanation": "Intense \"back labor\" is frequently caused by an occiput posterior (OP) fetal position, where the baby's skull presses against the mother's sacrum. A primary non-pharmacological intervention is to apply firm, steady counter-pressure to the sacral area during contractions. This can provide significant pain relief and may also help encourage the fetus to rotate into a more favorable anterior position.",
+    "additional": "Additional NCK Points:\n\nOther helpful measures include maternal position changes, such as being on hands and knees or using a birthing ball, to help rotate the fetus.\n\nWhile epidural anesthesia is also effective for pain, counter-pressure is a specific, non-invasive first-line technique for this type of pain."
+  },
+  {
+    "question": "Which of the following complications is most likely to occur if labor is prolonged without appropriate intervention?",
+    "options": {
+      "A": "Uterine rupture",
+      "B": "Postpartum hemorrhage",
+      "C": "Shoulder dystocia",
+      "D": "Fetal asphyxia"
+    },
+    "answer": "D",
+    "explanation": "Prolonged labor increases the risk of numerous complications, but the most immediate and life-threatening risk to the fetus is asphyxia (oxygen deprivation). This can occur due to prolonged compression of the umbilical cord, placental insufficiency from long-lasting contractions, or maternal exhaustion, all of which compromise oxygen delivery to the fetus.",
+    "additional": "Additional NCK Points:\n\nProlonged labor also increases the risk of maternal infection (chorioamnionitis), postpartum hemorrhage (due to uterine atony), and the need for operative delivery (forceps, vacuum, or C-section)."
+  },
+  {
+    "question": "When should a healthcare provider consider performing an episiotomy during labor?",
+    "options": {
+      "A": "If the baby is in the occiput anterior position",
+      "B": "If the perineum is stretched excessively and there is concern for tearing",
+      "C": "If the woman requests a cesarean delivery",
+      "D": "If the baby is in the breech presentation"
+    },
+    "answer": "B",
+    "explanation": "The modern indication for an episiotomy is selective, not routine. It is considered when the perineum is so tightly stretched that a severe, uncontrolled (e.g., third or fourth-degree) perineal tear appears imminent. It can also be used to expedite delivery in cases of fetal distress.",
+    "additional": "Additional NCK Points:\n\nThis is a repeat of the concept from question #17, emphasizing the shift from routine to selective use of this procedure."
+  },
+  {
+    "question": "What is the purpose of the \"transition phase\" during labor?",
+    "options": {
+      "A": "To allow the cervix to dilate from 1 to 4 cm",
+      "B": "To prepare the mother for the second stage of labor",
+      "C": "To expel the placenta",
+      "D": "To stimulate uterine contractions"
+    },
+    "answer": "B",
+    "explanation": "The transition phase (from ~8 cm to 10 cm dilation) is the final, intense part of the first stage. Its purpose is to complete cervical dilation and effacement, thereby preparing the mother and her body for the second stage of labor—the pushing or expulsive stage.",
+    "additional": "Additional NCK Points:\n\nThis is a rephrasing of question #39. The name \"transition\" itself signifies the shift from the dilating stage to the expulsive stage."
+  },
+  {
+    "question": "What is the best position for the woman during the second stage of labor?",
+    "options": {
+      "A": "Lying supine",
+      "B": "Squatting",
+      "C": "Lying on the left side",
+      "D": "Sitting with knees bent"
+    },
+    "answer": "B",
+    "explanation": "While many positions are effective, squatting is often considered one of the best for the second stage. It maximizes the use of gravity to aid fetal descent and widens the pelvic outlet, potentially making pushing more effective and delivery easier.",
+    "additional": "Additional NCK Points:\n\nThis is a repeat of question #15, focused specifically on the second stage.\n\nSide-lying (lateral) is also an excellent position, especially for mothers with an epidural, as it prevents supine hypotension and can help rotate a posterior fetus. The choice of position should ultimately be guided by maternal comfort and labor progress."
+  },
+  {
+    "question": "What is a key characteristic of the fourth stage of labor?",
+    "options": {
+      "A": "The delivery of the placenta",
+      "B": "Immediate postpartum recovery",
+      "C": "Cervical dilation to 10 cm",
+      "D": "Expulsion of the amniotic sac"
+    },
+    "answer": "B",
+    "explanation": "The fourth stage of labor is the immediate postpartum recovery period, lasting for the first 1–4 hours after the delivery of the placenta. It is a critical time for physiological stabilization of the mother, monitoring for hemorrhage, and initiating mother-infant bonding.",
+    "additional": "Additional NCK Points:\n\nKey Events: The uterus should remain firm and contracted (involution begins). The nurse will frequently assess vital signs, fundal height and tone, and the amount of lochia.\n\nThis stage is crucial for preventing the most common postpartum complication: hemorrhage from uterine atony."
+  }
+]
 
+  
