@@ -94,6 +94,611 @@
     "answer": "a",
     "explanation": "This question tests your knowledge of helminth (worm) classification. Helminths are divided into two main phyla: Platyhelminthes (flatworms) and Nematoda (roundworms).\n\nPlatyhelminthes (Flatworms) are further divided into:\n- Cestodes (Tapeworms): Segmented, ribbon-like worms. Examples include Taenia, Hymenolepis, Echinococcus, Diphyllobothrium.\n- Trematodes (Flukes): Leaf-shaped, unsegmented worms. Example: Schistosoma.\n\nNematoda (Roundworms): Cylindrical, unsegmented worms. Examples include Ascaris, hookworms (Necator, Ankylostoma), filarial worms (Wuchereria, Brugia, Loa loa).\n\nLet's evaluate the options:\n\nOption (a) is correct. All three—Hymenolepis nana (dwarf tapeworm), Taenia saginata (beef tapeworm), and Diphyllobothrium latum (fish tapeworm)—are cestodes.\n\nOption (b) is incorrect. Necator and Ankylostoma are nematodes (hookworms).\n\nOption (c) is incorrect. Brugia and Wuchereria are nematodes (filarial worms). Echinococcus is a cestode.\n\nOption (d) is incorrect. All three are nematodes.",
     "additional": "High-Yield Parasite Table:\n| Class | Common Name | Examples | Key Disease/Fact |\n| :--- | :--- | :--- | :--- |\n| Cestodes | Tapeworms | Taenia solium (pork), T. saginata (beef), Diphyllobothrium (fish), Echinococcus (dog) | T. solium can cause cysticercosis (larvae in brain/muscle). Echinococcus causes hydatid cysts. |\n| Trematodes | Flukes | Schistosoma | Schistosomiasis (bilharzia), from snails in freshwater. |\n| Nematodes | Roundworms | Ascaris, Hookworms, Trichuris, Enterobius (pinworm), Filarial worms | Causes malnutrition, anemia (hookworm), perianal itching (pinworm), elephantiasis (Wuchereria). |\n\nDrug of Choice:\n- Praziquantel is the drug of choice for most cestode and trematode infections.\n- Albendazole/Mebendazole are used for most intestinal nematode infections."
+  },
+  {
+    "question": "Which of the following is the primary route of transmission for HIV?",
+    "options": {
+      "A": "Sexual contact",
+      "B": "Fecal-oral route",
+      "C": "Aerosol droplets",
+      "D": "Vector-borne transmission"
+    },
+    "answer": "A",
+    "explanation": "Human Immunodeficiency Virus (HIV) is primarily transmitted through direct contact with certain body fluids from an infected person. The most common route worldwide is unprotected sexual contact (anal or vaginal). Other major routes include sharing needles and mother-to-child transmission.",
+    "additional": "Body Fluids with High Viral Load: Blood, semen, vaginal fluids, rectal fluids, and breast milk.\n\nFecal-oral route is for pathogens like Vibrio cholerae or Hepatitis A.\n\nAerosol droplets transmit respiratory pathogens like Mycobacterium tuberculosis or Influenza virus.\n\nVector-borne transmission involves an insect or arthropod, such as mosquitoes for malaria."
+  },
+  {
+    "question": "The causative agent of malaria is:",
+    "options": {
+      "A": "Plasmodium falciparum",
+      "B": "Entamoeba histolytica",
+      "C": "Toxoplasma gondii",
+      "D": "Giardia lamblia"
+    },
+    "answer": "A",
+    "explanation": "Malaria is a parasitic disease caused by protozoa of the genus Plasmodium. While several species can infect humans (P. vivax, P. ovale, P. malariae), P. falciparum is the most virulent and is responsible for the most severe cases and deaths, including cerebral malaria.",
+    "additional": "Vector: Malaria is transmitted by the bite of an infected female Anopheles mosquito.\n\nLife Cycle: Involves both a sexual stage in the mosquito (sporogony) and an asexual stage in humans (schizogony), which occurs first in the liver and then in red blood cells. The rupture of red blood cells causes the classic cyclical fevers.\n\nThe other parasites listed cause different diseases: Entamoeba histolytica (amebiasis), Toxoplasma gondii (toxoplasmosis), and Giardia lamblia (giardiasis)."
+  },
+  {
+    "question": "The Gram stain technique distinguishes bacteria based on:",
+    "options": {
+      "A": "Cell wall structure",
+      "B": "Metabolic activity",
+      "C": "Shape and size",
+      "D": "Genetic material"
+    },
+    "answer": "A",
+    "explanation": "The Gram stain is a fundamental differential staining technique in microbiology that separates bacteria into two large groups (Gram-positive and Gram-negative) based on the physical and chemical properties of their cell walls.",
+    "additional": "Gram-positive bacteria: Have a thick peptidoglycan layer that retains the primary crystal violet stain, so they appear purple/blue.\n\nGram-negative bacteria: Have a thin peptidoglycan layer and an outer membrane. The crystal violet is washed out by the decolorizer (alcohol), and they are then counterstained with safranin, appearing pink/red."
+  },
+  {
+    "question": "Which of the following is the most common cause of bacterial pneumonia in adults?",
+    "options": {
+      "A": "Streptococcus pneumoniae",
+      "B": "Mycobacterium tuberculosis",
+      "C": "Staphylococcus aureus",
+      "D": "Haemophilus influenzae"
+    },
+    "answer": "A",
+    "explanation": "Streptococcus pneumoniae, also known as pneumococcus, is the leading cause of community-acquired pneumonia (CAP) in adults. It is a Gram-positive diplococcus that typically causes lobar pneumonia, characterized by symptoms like sudden onset of fever, chills, productive cough with rust-colored sputum, and pleuritic chest pain.",
+    "additional": "M. tuberculosis causes tuberculosis, a different type of respiratory infection.\n\nS. aureus and H. influenzae are also causes of pneumonia, but less common than S. pneumoniae. S. aureus pneumonia is often seen after a viral infection like influenza."
+  },
+  {
+    "question": "The diagnostic test for tuberculosis infection is:",
+    "options": {
+      "A": "Skin test (Mantoux test)",
+      "B": "Urine culture",
+      "C": "Rapid antigen test",
+      "D": "Blood culture"
+    },
+    "answer": "A",
+    "explanation": "The Mantoux test, or Tuberculin Skin Test (TST), is a widely used screening tool to detect latent tuberculosis infection (LTBI). It involves injecting a small amount of purified protein derivative (PPD) under the skin. A delayed-type hypersensitivity reaction (induration) indicates that the person's immune system has been exposed to Mycobacterium tuberculosis.",
+    "additional": "Interpreting the Test: A positive result does not distinguish between latent infection and active disease. A positive test requires further evaluation (e.g., chest X-ray, sputum smear) to rule out active TB.\n\nInterferon-Gamma Release Assays (IGRAs): These are blood tests (e.g., QuantiFERON-TB Gold) that are more specific alternatives to the TST, as they are not affected by prior BCG vaccination."
+  },
+  {
+    "question": "Which parasite causes Chagas disease?",
+    "options": {
+      "A": "Trypanosoma cruzi",
+      "B": "Plasmodium vivax",
+      "C": "Entamoeba histolytica",
+      "D": "Leishmania donovani"
+    },
+    "answer": "A",
+    "explanation": "Chagas disease is a tropical parasitic disease caused by the protozoan Trypanosoma cruzi. It is endemic to Latin America and can cause both acute illness and chronic disease, most notably affecting the heart (cardiomyopathy) and digestive system (megacolon, megaesophagus).",
+    "additional": "Vector: The disease is transmitted by the feces of a triatomine bug, often called the \"kissing bug,\" which typically bites near the mouth or eyes.\n\nDiagnosis: Can be made by microscopic examination of blood in the acute phase or by serological tests in the chronic phase."
+  },
+  {
+    "question": "Which bacterium is responsible for causing tetanus?",
+    "options": {
+      "A": "Clostridium botulinum",
+      "B": "Clostridium perfringens",
+      "C": "Clostridium tetani",
+      "D": "Bacillus anthracis"
+    },
+    "answer": "C",
+    "explanation": "Tetanus is caused by Clostridium tetani, an anaerobic, spore-forming, Gram-positive rod commonly found in soil. The bacterium produces a powerful neurotoxin, tetanospasmin, which blocks the release of inhibitory neurotransmitters (GABA and glycine), leading to unopposed muscle contraction and spasms (\"lockjaw,\" opisthotonos).",
+    "additional": "Transmission: Infection occurs when spores enter the body through a puncture wound, cut, or burn.\n\nPrevention: Tetanus is entirely preventable through vaccination with the tetanus toxoid vaccine (part of the DTaP/Tdap/Td series)."
+  },
+  {
+    "question": "The primary vector for Dengue virus is:",
+    "options": {
+      "A": "Culex mosquito",
+      "B": "Aedes mosquito",
+      "C": "Anopheles mosquito",
+      "D": "Ticks"
+    },
+    "answer": "B",
+    "explanation": "The Dengue virus is transmitted to humans primarily through the bite of an infected Aedes species mosquito, most commonly Aedes aegypti. These mosquitoes are also vectors for other significant viruses like Zika, Chikungunya, and Yellow Fever.",
+    "additional": "Breeding Sites: Aedes mosquitoes are adapted to urban environments and breed in small collections of clean water, such as in tires, flower pots, and water storage containers.\n\nBiting Habits: They are aggressive daytime biters, with peak biting periods in the early morning and late afternoon."
+  },
+  {
+    "question": "The causative agent of Giardiasis is:",
+    "options": {
+      "A": "Giardia lamblia",
+      "B": "Cryptosporidium parvum",
+      "C": "Trichomonas vaginalis",
+      "D": "Plasmodium falciparum"
+    },
+    "answer": "A",
+    "explanation": "Giardiasis is a common gastrointestinal illness caused by the flagellated protozoan parasite Giardia lamblia (also known as Giardia intestinalis or Giardia duodenalis). Infection occurs through the ingestion of cysts from contaminated water or food.",
+    "additional": "Symptoms: Causes foul-smelling, fatty diarrhea (steatorrhea), abdominal cramps, bloating, and gas. It does not typically cause bloody diarrhea.\n\n\"Beaver Fever\": Giardiasis is sometimes called \"beaver fever\" as beavers can be reservoirs for the parasite, contaminating streams and lakes."
+  },
+  {
+    "question": "Which bacteria is responsible for cholera?",
+    "options": {
+      "A": "Salmonella enterica",
+      "B": "Vibrio cholerae",
+      "C": "Escherichia coli",
+      "D": "Campylobacter jejuni"
+    },
+    "answer": "B",
+    "explanation": "Cholera is an acute diarrheal illness caused by infection of the intestine with the bacterium Vibrio cholerae. The disease is characterized by profuse, watery diarrhea, often described as \"rice-water stool,\" which can lead to rapid dehydration, electrolyte imbalance, and shock if left untreated.",
+    "additional": "Mechanism: The bacterium produces cholera toxin, which causes epithelial cells in the small intestine to secrete large amounts of chloride ions, with water following osmotically, leading to massive fluid loss.\n\nTreatment: The cornerstone of treatment is rapid rehydration, either orally with oral rehydration solution (ORS) or intravenously."
+  },
+  {
+    "question": "Candida albicans can cause:",
+    "options": {
+      "A": "Pneumonia",
+      "B": "Urinary tract infections",
+      "C": "Fungal meningitis",
+      "D": "Systemic candidiasis"
+    },
+    "answer": "D",
+    "explanation": "Candida albicans is a versatile yeast that is part of the normal flora but can become an opportunistic pathogen. While it can cause localized infections like UTIs, oral thrush, and vaginitis, the most encompassing and severe condition listed is systemic candidiasis (or invasive candidiasis). This occurs when the fungus enters the bloodstream and spreads throughout the body, a serious condition often seen in immunocompromised patients.",
+    "additional": "Memory Trick: Think of Candida as a \"versatile candidate\" for infection anywhere in the body. It can cause:\n\nOral thrush (white patches in the mouth).\n\nEsophagitis (common in HIV patients).\n\nVaginitis (\"yeast infection\").\n\nDiaper rash.\n\nUTIs (especially in catheterized patients).\n\nEndocarditis (especially in IV drug users).\n\nSystemic candidiasis/Candidemia (bloodstream infection).\n\nHigh-Risk Groups: Immunocompromised individuals (e.g., HIV/AIDS, chemotherapy patients), diabetics, and patients with indwelling catheters or on broad-spectrum antibiotics."
+  },
+  {
+    "question": "Ringworm (tinea corporis) is caused by:",
+    "options": {
+      "A": "Bacteria",
+      "B": "Viruses",
+      "C": "Fungi",
+      "D": "Protozoa"
+    },
+    "answer": "C",
+    "explanation": "Despite its name, \"ringworm\" is not caused by a worm. It is a skin infection caused by a group of fungi called dermatophytes. The characteristic lesion is a red, itchy, circular rash with a raised border, resembling a ring.",
+    "additional": "Memory Trick: The \"Tinea\" family are all fungal infections. Remember them by location:\n\nTinea corporis: Ringworm of the corpse (body).\n\nTinea pedis: Athlete's foot (on the pedals/feet).\n\nTinea cruris: Jock itch (in the crotch).\n\nTinea capitis: Scalp ringworm (on the capital/head).\n\nTinea unguium: Fungal nail infection (onychomycosis).\n\nDiagnosis: Can be confirmed with a KOH prep (potassium hydroxide preparation) of a skin scraping, which reveals fungal hyphae under a microscope."
+  },
+  {
+    "question": "The causative agent of African sleeping sickness is:",
+    "options": {
+      "A": "Leishmania tropica",
+      "B": "Trypanosoma brucei",
+      "C": "Plasmodium falciparum",
+      "D": "Entamoeba histolytica"
+    },
+    "answer": "B",
+    "explanation": "African Trypanosomiasis, or \"sleeping sickness,\" is caused by the protozoan parasite Trypanosoma brucei. The disease is characterized by fever and headache, progressing to neurological symptoms like confusion, personality changes, and disruption of the sleep cycle, leading to the name \"sleeping sickness.\"",
+    "additional": "Memory Trick: You \"tryp\" and fall asleep because you're \"bruised\" by the fly. Trypanosoma brucei = sleeping sickness.\n\nVector: Transmitted by the bite of the tsetse fly.\n\nGeographic Variants:\n\nT. brucei gambiense causes the chronic form in West and Central Africa.\n\nT. brucei rhodesiense causes the acute form in East Africa."
+  },
+  {
+    "question": "Which organism causes ascariasis?",
+    "options": {
+      "A": "Ascaris lumbricoides",
+      "B": "Trichuris trichiura",
+      "C": "Hookworm",
+      "D": "Taenia solium"
+    },
+    "answer": "A",
+    "explanation": "Ascariasis is a parasitic disease caused by the giant roundworm, Ascaris lumbricoides. The name of the disease, \"ascariasis,\" directly corresponds to the causative organism, Ascaris.",
+    "additional": "Memory Trick: Ascaris causes Ascariasis. Simple and direct.\n\nTransmission: Fecal-oral route, by ingesting eggs from contaminated soil or food.\n\nClinical Features: Most infections are asymptomatic. Heavy infestations can cause abdominal pain, malnutrition in children, and intestinal or biliary obstruction. A pneumonitis (Loeffler's syndrome) can occur during the larval migration phase through the lungs."
+  },
+  {
+    "question": "The causative organism of leprosy is:",
+    "options": {
+      "A": "Mycobacterium tuberculosis",
+      "B": "Mycobacterium leprae",
+      "C": "Bacillus anthracis",
+      "D": "Clostridium tetani"
+    },
+    "answer": "B",
+    "explanation": "Leprosy, also known as Hansen's disease, is a chronic infectious disease caused by the slow-growing bacterium Mycobacterium leprae. The disease primarily affects the skin, peripheral nerves, upper respiratory tract, eyes, and testes.",
+    "additional": "Memory Trick: The Leprechaun has leprosy. Mycobacterium leprae.\n\nKey Features: It is an acid-fast bacillus, like its cousin M. tuberculosis. It thrives in cooler body temperatures, which is why it targets peripheral tissues.\n\nTwo Poles of Disease:\n\nTuberculoid Leprosy: Strong cell-mediated immunity, few skin lesions, well-defined borders.\n\nLepromatous Leprosy: Weak cell-mediated immunity, widespread skin lesions, high bacterial load, and classic \"leonine facies\" (lion-like face)."
+  },
+  {
+    "question": "The most common vector for malaria is:",
+    "options": {
+      "A": "Aedes mosquito",
+      "B": "Culex mosquito",
+      "C": "Anopheles mosquito",
+      "D": "Mite"
+    },
+    "answer": "C",
+    "explanation": "Malaria is transmitted exclusively through the bites of infected female Anopheles mosquitoes. The mosquito ingests the parasite from an infected human and transmits it to another human during a subsequent blood meal.",
+    "additional": "Vector Memory Trick:\n\nAnopheles: Think \"Angry night-biter\" for malaria.\n\nAedes: Think \"Aggressive early-day biter\" for Dengue, Zika, etc.\n\nPrevention Strategy: Vector control (e.g., insecticide-treated nets, indoor residual spraying) is a cornerstone of malaria prevention because it targets the Anopheles mosquito."
+  },
+  {
+    "question": "Clostridium botulinum produces a toxin that causes:",
+    "options": {
+      "A": "Botulism",
+      "B": "Tetanus",
+      "C": "Diphtheria",
+      "D": "Gonorrhea"
+    },
+    "answer": "A",
+    "explanation": "The disease name botulism is derived directly from the causative bacterium, Clostridium botulinum. This anaerobic bacterium produces botulinum neurotoxin, one of the most potent toxins known.",
+    "additional": "Mechanism: The toxin causes a flaccid paralysis by blocking the presynaptic release of acetylcholine (ACh) at the neuromuscular junction. This is the opposite of tetanus toxin, which causes spastic paralysis.\n\nTransmission:\n\nFoodborne: Ingestion of pre-formed toxin in improperly canned foods.\n\nInfant Botulism: Ingestion of spores (e.g., from honey) which then germinate in the gut and produce toxin.\n\nWound Botulism: Spores contaminate a wound.\n\nClinical Presentation: Descending paralysis, starting with cranial nerves (diplopia, dysarthria) and progressing downwards."
+  },
+  {
+    "question": "E. coli strains responsible for hemolytic uremic syndrome are typically:",
+    "options": {
+      "A": "E. coli O157:H7",
+      "B": "E. coli O104:H4",
+      "C": "E. coli O111",
+      "D": "E. coli O26"
+    },
+    "answer": "A",
+    "explanation": "Hemolytic Uremic Syndrome (HUS) is a serious complication characterized by the triad of hemolytic anemia, thrombocytopenia, and acute kidney injury. It is most famously caused by Shiga toxin-producing E. coli (STEC), and the most well-known serotype is O157:H7.",
+    "additional": "Memory Trick: Think of the classic source: undercooked hamburgers. A \"157-gram burger\" can give you HUS from O157:H7.\n\nPathogenesis: The Shiga toxin damages the endothelial cells lining small blood vessels, particularly in the kidneys, leading to clot formation and organ damage.\n\nClinical Note: Antibiotics are generally avoided in the treatment of STEC infections as they can increase the release of Shiga toxin and worsen the risk of developing HUS."
+  },
+  {
+    "question": "Which of the following bacteria is responsible for syphilis?",
+    "options": {
+      "A": "Chlamydia trachomatis",
+      "B": "Neisseria gonorrhoeae",
+      "C": "Treponema pallidum",
+      "D": "Gardnerella vaginalis"
+    },
+    "answer": "C",
+    "explanation": "Syphilis is a sexually transmitted infection caused by the spirochete bacterium Treponema pallidum. It is known as \"the great imitator\" because its symptoms can mimic many other diseases.",
+    "additional": "Morphology: It is a spirochete, a corkscrew-shaped bacterium. This unique shape allows it to be visualized using dark-field microscopy.\n\nStages of Syphilis:\n\nPrimary: Painless chancre at the site of infection.\n\nSecondary: Disseminated maculopapular rash (including on palms and soles), condylomata lata.\n\nLatent: Asymptomatic period.\n\nTertiary: Can cause neurosyphilis, cardiovascular syphilis (e.g., aortic aneurysm), and gummas (soft, tumor-like growths)."
+  },
+  {
+    "question": "Hookworm infection is caused by:",
+    "options": {
+      "A": "Ascaris lumbricoides",
+      "B": "Ancylostoma duodenale",
+      "C": "Trichuris trichiura",
+      "D": "Taenia saginata"
+    },
+    "answer": "B",
+    "explanation": "Hookworm disease is caused by two main species of roundworms: Ancylostoma duodenale and Necator americanus. These parasites live in the small intestine and feed on the host's blood.",
+    "additional": "Memory Trick: The worm has \"hooks\" (teeth) that it uses to anchor itself to the intestine. Ancylostoma.\n\nTransmission: Larvae from contaminated soil penetrate intact skin, typically on the feet (\"ground itch\"). They travel through the bloodstream to the lungs, are coughed up, swallowed, and mature in the small intestine.\n\nKey Complication: The most significant clinical consequence is iron deficiency anemia due to chronic intestinal blood loss."
+  },
+  {
+    "question": "Which of the following causes diphtheria?",
+    "options": {
+      "A": "Streptococcus pyogenes",
+      "B": "Corynebacterium diphtheriae",
+      "C": "Mycobacterium tuberculosis",
+      "D": "Bacillus cereus"
+    },
+    "answer": "B",
+    "explanation": "Diphtheria is a serious bacterial infection caused by toxin-producing strains of Corynebacterium diphtheriae. The name of the bacterium directly corresponds to the disease it causes. The hallmark of respiratory diphtheria is a thick, gray, adherent pseudomembrane on the tonsils and pharynx, which can cause airway obstruction.",
+    "additional": "Microbiology: C. diphtheriae is a Gram-positive, non-spore-forming rod (bacillus). Under the microscope, they often appear in V- or L-shaped arrangements (sometimes called \"Chinese letters\").\n\nPathogenesis (The Toxin is Key): The virulence of the bacterium depends entirely on its ability to produce diphtheria toxin. This ability is acquired when the bacterium itself is infected by a specific virus (a bacteriophage) that carries the tox gene. The toxin works by inhibiting protein synthesis in host cells, leading to cell death.\n\nClinical Forms:\n\nRespiratory Diphtheria: Sore throat, low-grade fever, and the characteristic pseudomembrane. The toxin can be absorbed and cause systemic damage, most notably myocarditis (leading to heart failure and arrhythmias) and neuropathy (paralysis of the palate, eye muscles, or limbs).\n\nCutaneous Diphtheria: Causes non-healing skin ulcers, but systemic complications are less common.\n\nDiagnosis & Treatment: Diagnosis is clinical, confirmed by culture. Treatment requires both antitoxin (to neutralize the circulating toxin) and antibiotics (like penicillin or erythromycin) to eliminate the bacteria.\n\nPrevention: Highly effective prevention is achieved through the diphtheria toxoid vaccine, which is part of routine childhood immunizations (DTaP, Tdap, Td)."
+  },
+  {
+    "question": "Amoebiasis is caused by:",
+    "options": {
+      "A": "Giardia lamblia",
+      "B": "Entamoeba histolytica",
+      "C": "Plasmodium falciparum",
+      "D": "Toxoplasma gondii"
+    },
+    "answer": "B",
+    "explanation": "Amoebiasis (or amebic dysentery) is a parasitic infection of the intestines caused by the protozoan Entamoeba histolytica. The name \"amoebiasis\" clearly points to the causative agent, an amoeba.",
+    "additional": "Life Cycle & Transmission: Infection occurs via the fecal-oral route by ingesting mature cysts from contaminated food or water. In the colon, the cysts transform into trophozoites, which are the active, motile form that can invade the intestinal wall.\n\nClinical Presentation:\n\nIntestinal Amoebiasis: Can range from asymptomatic carriage to mild diarrhea to severe amebic dysentery, characterized by bloody stools, abdominal pain, and fever.\n\nExtraintestinal Amoebiasis: The trophozoites can penetrate the intestinal wall, enter the bloodstream, and travel to other organs. The most common extraintestinal site is the liver, causing a large amebic liver abscess. This presents with fever, right upper quadrant pain, and hepatomegaly.\n\nDiagnosis: Diagnosis involves identifying cysts or trophozoites in stool samples. A classic microscopic finding is trophozoites containing ingested red blood cells. Serology is useful for diagnosing liver abscesses.\n\nTreatment: Differentiated by site of infection.\n\nLuminal agents (for asymptomatic cyst passers): Paromomycin or iodoquinol.\n\nTissue agents (for dysentery or liver abscess): Metronidazole is the drug of choice, followed by a luminal agent to eradicate any remaining cysts in the gut."
+  },
+  {
+    "question": "Which bacterium causes whooping cough?",
+    "options": {
+      "A": "Bordetella pertussis",
+      "B": "Streptococcus pneumoniae",
+      "C": "Haemophilus influenzae",
+      "D": "Escherichia coli"
+    },
+    "answer": "A",
+    "explanation": "Whooping cough, medically known as pertussis, is a highly contagious respiratory infection caused by the bacterium Bordetella pertussis. The disease is named for the characteristic \"whooping\" sound made during inspiration after a severe coughing fit.",
+    "additional": "Microbiology: B. pertussis is a small, Gram-negative coccobacillus.\n\nPathogenesis: The bacterium attaches to the ciliated epithelial cells of the respiratory tract and produces several toxins (e.g., pertussis toxin, tracheal cytotoxin) that paralyze the cilia and cause inflammation and damage to the airways.\n\nClinical Stages:\n\nCatarrhal Stage (1–2 weeks): Resembles a common cold with a mild cough, low-grade fever, and runny nose. This is the most contagious period.\n\nParoxysmal Stage (1–6 weeks): Characterized by fits of rapid, violent coughing (paroxysms), often followed by the inspiratory \"whoop.\" Post-tussive vomiting is common.\n\nConvalescent Stage (weeks to months): Gradual recovery with a persistent cough that slowly resolves.\n\nDiagnosis & Treatment: Diagnosis is often clinical, supported by PCR or culture of nasopharyngeal swabs. Treatment with macrolide antibiotics (e.g., azithromycin) is most effective if started early in the catarrhal stage.\n\nPrevention: Vaccination is key (DTaP for children, Tdap for adolescents and adults). Waning immunity is a concern, leading to outbreaks even in vaccinated populations."
+  },
+  {
+    "question": "Which of the following is the main reservoir for Leptospirosis?",
+    "options": {
+      "A": "Rodents",
+      "B": "Bats",
+      "C": "Cattle",
+      "D": "Pigs"
+    },
+    "answer": "A",
+    "explanation": "Leptospirosis is a zoonotic disease caused by the spirochete bacterium Leptospira. The primary animal reservoirs are rodents, especially rats. These animals carry the bacteria in their kidneys and excrete them in their urine, contaminating water and soil.",
+    "additional": "Transmission to Humans: Humans become infected through direct or indirect contact with the urine of infected animals. This often occurs through contaminated water (swimming, wading) or soil, with the bacteria entering through cuts in the skin, mucous membranes, or by ingestion.\n\nHigh-Risk Occupations/Activities: Farmers, veterinarians, sewer workers, and people who participate in freshwater recreational activities are at higher risk.\n\nClinical Presentation (Biphasic Illness):\n\nSepticemic Phase (First Phase): Abrupt onset of fever, chills, headache, and severe myalgias (especially in the calves). A key finding can be conjunctival suffusion (redness of the conjunctiva without pus).\n\nImmune Phase (Second Phase): Occurs after a brief remission. The immune response causes a recurrence of fever and can lead to severe disease.\n\nWeil's Disease: The most severe form of leptospirosis, characterized by a triad of jaundice, acute kidney injury, and hemorrhage.\n\nDiagnosis: Serology is the most common method. The organism can also be cultured from blood or CSF (first phase) or urine (second phase)."
+  },
+  {
+    "question": "Viral hepatitis can lead to:",
+    "options": {
+      "A": "Liver cirrhosis",
+      "B": "Pneumonia",
+      "C": "Kidney failure",
+      "D": "Myocarditis"
+    },
+    "answer": "A",
+    "explanation": "Chronic viral hepatitis, particularly infection with Hepatitis B virus (HBV) and Hepatitis C virus (HCV), is a leading cause of chronic liver disease worldwide. The persistent inflammation caused by the virus over many years leads to the progressive replacement of healthy liver tissue with scar tissue, a condition known as cirrhosis.",
+    "additional": "Hepatitis Viruses:\n\nHepatitis A and E: \"The vowels hit your bowels.\" Transmitted via the fecal-oral route. Cause acute hepatitis only; they do not cause chronic disease or cirrhosis.\n\nHepatitis B, C, and D: Transmitted via blood and body fluids (parenteral, sexual, perinatal). These are the viruses that can lead to chronic hepatitis, cirrhosis, and hepatocellular carcinoma (liver cancer).\n\nHepatitis D: Is a \"defective\" virus that requires the presence of Hepatitis B to replicate. Co-infection or superinfection with HDV and HBV significantly worsens the prognosis.\n\nComplications of Cirrhosis: Cirrhosis leads to both liver failure and portal hypertension, causing complications such as:\n\nAscites (fluid in the abdomen).\nEsophageal varices (can lead to life-threatening bleeding).\nHepatic encephalopathy (confusion due to toxin buildup).\nJaundice.\nCoagulopathy (impaired blood clotting)."
+  },
+  {
+    "question": "Which of the following is the most common method for detecting tuberculosis infection?",
+    "options": {
+      "A": "Skin test (Mantoux test)",
+      "B": "Blood culture",
+      "C": "Chest X-ray",
+      "D": "Sputum smear microscopy"
+    },
+    "answer": "A",
+    "explanation": "This question is slightly different from question #5. It asks for the most common method for detecting tuberculosis infection (which includes latent TB), not just active disease. The Mantoux skin test (TST) remains one of the most widely used and common screening tools globally, especially in resource-limited settings, to identify individuals who have been infected with M. tuberculosis.",
+    "additional": "Clarification of Terminology:\n\nTB Infection (Latent): The person has been infected, but the bacteria are dormant. They are asymptomatic and not contagious. TST and IGRAs are positive.\n\nTB Disease (Active): The bacteria are actively multiplying, causing symptoms (cough, fever, weight loss). The person is contagious. Chest X-ray is abnormal, and sputum smears/cultures are positive.\n\nSputum Smear Microscopy (Option D): This is the primary method for diagnosing active, pulmonary TB, not just infection. It involves staining a sputum sample with the Ziehl-Neelsen (acid-fast) stain to visualize the bacilli.\n\nChest X-ray (Option C): Used to look for signs of active disease (e.g., cavities, infiltrates) in someone with a positive TST/IGRA or symptoms.\n\nGlobal Context: While IGRAs are preferred in many high-income countries, the TST is still the most common method worldwide due to its low cost."
+  },
+  {
+    "question": "Typhoid fever is caused by:",
+    "options": {
+      "A": "Salmonella enterica serotype Typhi",
+      "B": "Escherichia coli",
+      "C": "Shigella dysenteriae",
+      "D": "Vibrio cholerae"
+    },
+    "answer": "A",
+    "explanation": "Typhoid fever is a systemic, life-threatening illness caused by the bacterium Salmonella enterica serotype Typhi (often shortened to Salmonella Typhi). It is transmitted through the ingestion of food or water contaminated with the feces of an infected person.",
+    "additional": "Pathogenesis: After ingestion, the bacteria invade the intestinal mucosa, enter the bloodstream, and spread systemically, particularly to the reticuloendothelial system (liver, spleen, bone marrow).\n\nClinical Presentation:\n\nWeek 1: Stepwise-increasing fever, headache, malaise.\n\nWeek 2: High plateaued fever, abdominal pain, and classic \"rose spots\" (faint salmon-colored macules on the trunk). Relative bradycardia (a heart rate that is slower than expected for the degree of fever) can be a clue.\n\nWeek 3: Complications can arise, including intestinal hemorrhage or perforation.\n\nChronic Carriers: A small percentage of infected individuals become chronic carriers, harboring the bacteria in their gallbladder and continuing to shed it in their feces, acting as a reservoir for infection (e.g., \"Typhoid Mary\").\n\nDiagnosis: Blood culture is the gold standard for diagnosis, especially in the first week."
+  },
+  {
+    "question": "Poliomyelitis is caused by:",
+    "options": {
+      "A": "Poliovirus",
+      "B": "Rabies virus",
+      "C": "Rotavirus",
+      "D": "Coxsackievirus"
+    },
+    "answer": "A",
+    "explanation": "Poliomyelitis, commonly known as polio, is a disabling and life-threatening disease caused by the poliovirus. The name \"poliomyelitis\" literally means inflammation of the gray matter of the spinal cord.",
+    "additional": "Virology: Poliovirus is a member of the Picornaviridae family and is an enterovirus.\n\nTransmission: Fecal-oral route. The virus replicates in the gastrointestinal tract.\n\nClinical Spectrum:\n\n90% of infections are asymptomatic.\nA small percentage develop a minor, non-specific illness (abortive poliomyelitis).\n~1% develop non-paralytic aseptic meningitis.\n<1% develop the classic paralytic poliomyelitis, where the virus invades the central nervous system and destroys the anterior horn cells (motor neurons) of the spinal cord, leading to an asymmetric flaccid paralysis.\n\nPrevention: Polio is a vaccine-preventable disease.\n\nInactivated Polio Vaccine (IPV): Salk vaccine, given by injection. The only vaccine used in many countries today.\n\nOral Polio Vaccine (OPV): Sabin vaccine, a live-attenuated virus. It is highly effective and provides good intestinal immunity but carries a very rare risk of vaccine-associated paralytic polio."
+  },
+  {
+    "question": "Which of the following parasites causes trichomoniasis?",
+    "options": {
+      "A": "Giardia lamblia",
+      "B": "Trichomonas vaginalis",
+      "C": "Entamoeba histolytica",
+      "D": "Plasmodium vivax"
+    },
+    "answer": "B",
+    "explanation": "Trichomoniasis is a very common sexually transmitted infection (STI) caused by the protozoan parasite Trichomonas vaginalis. The disease name is derived directly from the causative organism.",
+    "additional": "Microbiology: T. vaginalis is a flagellated protozoan. It exists only as a trophozoite; it does not have a cyst form, which means it cannot survive for long in the external environment and is transmitted almost exclusively through sexual contact.\n\nClinical Presentation:\n\nIn Women: Can be asymptomatic but often causes a foul-smelling, yellow-green, frothy vaginal discharge. It can also cause vaginal itching and irritation. A classic sign on examination is \"strawberry cervix\" (punctate hemorrhages on the cervix).\n\nIn Men: Usually asymptomatic, but can cause urethritis.\n\nDiagnosis: Wet mount microscopy of vaginal or urethral secretions can reveal the characteristic motile, pear-shaped trophozoites.\n\nTreatment: Metronidazole is the drug of choice. It is crucial to treat sexual partners simultaneously to prevent reinfection."
+  },
+  {
+    "question": "Which of the following is the main vector for malaria transmission?",
+    "options": {
+      "A": "Culex mosquito",
+      "B": "Aedes mosquito",
+      "C": "Anopheles mosquito",
+      "D": "Ixodes tick"
+    },
+    "answer": "C",
+    "explanation": "This is a repeat of question #16, reinforcing its importance. The parasites of the Plasmodium genus, which cause malaria, are transmitted to humans through the bite of an infected female Anopheles mosquito.",
+    "additional": "Vector Specificity: Different major infectious diseases are transmitted by specific vectors, which is critical for understanding epidemiology and control measures.\n\nAnopheles: Malaria.\n\nAedes: Dengue, Yellow Fever, Zika, Chikungunya.\n\nCulex: West Nile Virus, Japanese Encephalitis.\n\nIxodes tick: Lyme Disease, Babesiosis.\n\nTsetse fly: African Trypanosomiasis (sleeping sickness).\n\nSandfly: Leishmaniasis.\n\nControl Strategies: Understanding the vector's behavior (e.g., Anopheles are night-biters) is essential for designing effective interventions like insecticide-treated bed nets."
+  },
+  {
+    "question": "Chlamydia trachomatis is responsible for causing:",
+    "options": {
+      "A": "Gonorrhea",
+      "B": "Chlamydia",
+      "C": "Syphilis",
+      "D": "Herpes"
+    },
+    "answer": "B",
+    "explanation": "This is a straightforward question of nomenclature. The sexually transmitted infection (STI) chlamydia is caused by the bacterium Chlamydia trachomatis. It is one of the most common bacterial STIs worldwide.",
+    "additional": "Microbiology: C. trachomatis is an obligate intracellular bacterium. This means it cannot replicate outside of a host cell, which has important implications for diagnosis and treatment. It has a unique life cycle with two forms:\n\nElementary Body (EB): The small, infectious, \"spore-like\" form that survives outside the cell.\n\nReticulate Body (RB): The larger, non-infectious, replicative form found inside the host cell.\n\nClinical Syndromes:\n\nSerotypes D-K: Cause the common STI.\n\nIn women: Urethritis, cervicitis. If untreated, can ascend to cause Pelvic Inflammatory Disease (PID), a major cause of infertility and ectopic pregnancy. Often asymptomatic (\"silent\" infection).\n\nIn men: Urethritis, epididymitis.\n\nIn newborns: Can cause neonatal conjunctivitis and pneumonia during passage through an infected birth canal.\n\nSerotypes A, B, C: Cause Trachoma, a chronic eye infection that is a leading cause of preventable blindness worldwide. (Think: A, B, C = Africa, Blindness, Chronic).\n\nSerotypes L1, L2, L3: Cause Lymphogranuloma venereum (LGV), an STI characterized by a small genital ulcer followed by painful, swollen inguinal lymph nodes (buboes).\n\nDiagnosis & Treatment: Diagnosis is now primarily done with Nucleic Acid Amplification Tests (NAATs). Treatment is with antibiotics like azithromycin (single dose) or doxycycline (7-day course)."
+  },
+  {
+    "question": "The causative agent of botulism is:",
+    "options": {
+      "A": "Clostridium botulinum",
+      "B": "Streptococcus pyogenes",
+      "C": "Bacillus anthracis",
+      "D": "Mycobacterium tuberculosis"
+    },
+    "answer": "A",
+    "explanation": "This is a repeat of the concept from question #17. The disease botulism is caused by the neurotoxin produced by the bacterium Clostridium botulinum.",
+    "additional": "Memory Trick: The name gives it away: Botulinum causes Botulism.\n\nMechanism vs. Tetanus: It's critical to contrast botulism with tetanus, another clostridial neurotoxic disease.\n\nBotulinum Toxin: Blocks ACh release at the neuromuscular junction -> Flaccid Paralysis. Think Bot-ox relaxes muscles.\n\nTetanus Toxin: Blocks inhibitory neurotransmitter (GABA/glycine) release in the CNS -> Spastic Paralysis. Think Tetanus makes you Tetanse.\n\nMedical Use (Botox): The paralyzing effect of botulinum toxin is used therapeutically in minute, controlled doses (Botox) to treat conditions with muscle overactivity (e.g., dystonia, spasticity) and for cosmetic purposes to reduce wrinkles."
+  },
+  {
+    "question": "Which of the following is responsible for measles?",
+    "options": {
+      "A": "Measles virus",
+      "B": "Rubella virus",
+      "C": "Influenza virus",
+      "D": "Herpes simplex virus"
+    },
+    "answer": "A",
+    "explanation": "Measles, also known as rubeola, is a highly contagious viral illness caused by the measles virus, a member of the Paramyxoviridae family.",
+    "additional": "Clinical Presentation (The 3 Cs and K): The prodromal phase is characterized by:\n\nCough\nCoryza (runny nose)\nConjunctivitis (red, watery eyes)\n\nKoplik spots: A pathognomonic sign. These are small, white or bluish-white spots on a red base found on the buccal mucosa (inside of the cheek) opposite the molars. They appear 1–2 days before the rash.\n\nThe Rash: A maculopapular rash that starts on the face/hairline and spreads downwards (cephalocaudal spread).\n\nComplications: Measles can have serious complications, including:\n- Otitis media (most common complication)\n- Pneumonia (most common cause of death in young children)\n- Encephalitis (acute post-infectious encephalitis)\n- Subacute Sclerosing Panencephalitis (SSPE): A rare, fatal, degenerative disease of the CNS that occurs years after the initial infection.\n\nPrevention: The MMR (Measles, Mumps, Rubella) vaccine is a live-attenuated vaccine that provides highly effective protection."
+  },
+  {
+    "question": "The most common cause of gastroenteritis in children is:",
+    "options": {
+      "A": "Rotavirus",
+      "B": "Norovirus",
+      "C": "Salmonella enterica",
+      "D": "Escherichia coli"
+    },
+    "answer": "A",
+    "explanation": "Rotavirus is the leading cause of severe, dehydrating gastroenteritis (diarrhea and vomiting) in infants and young children worldwide. Before the introduction of a vaccine, it was responsible for the majority of hospitalizations for diarrhea in this age group.",
+    "additional": "Virology: Rotavirus is a double-stranded RNA virus.\n\nTransmission: Fecal-oral route. It is extremely hardy and highly contagious.\n\nNorovirus: While also a very common cause of gastroenteritis, Norovirus is the leading cause across all age groups and is famous for causing outbreaks on cruise ships, in schools, and healthcare facilities. For the specific demographic of infants and young children, rotavirus has historically been the primary cause of severe disease.\n\nPrevention: Two oral, live-attenuated rotavirus vaccines are now part of routine childhood immunizations in many countries, and they have dramatically reduced the incidence of severe rotavirus disease.\n\nTreatment: Management is supportive, focusing on rehydration with oral rehydration solution (ORS)."
+  },
+  {
+    "question": "The bacterium responsible for tuberculosis is:",
+    "options": {
+      "A": "Clostridium tetani",
+      "B": "Mycobacterium tuberculosis",
+      "C": "Streptococcus pneumoniae",
+      "D": "Escherichia coli"
+    },
+    "answer": "B",
+    "explanation": "This is a repeat of the concept from question 4. Tuberculosis (TB) is a chronic infectious disease caused by the bacterium Mycobacterium tuberculosis.",
+    "additional": "Microbiology (Acid-Fast): M. tuberculosis is an acid-fast bacillus. Its cell wall contains a high concentration of mycolic acids, which makes it resistant to decolorization by acid after staining with dyes like carbolfuchsin (in the Ziehl-Neelsen stain). This property is key to its microscopic identification.\n\nPathology: In the lungs, the immune response to the bacteria forms granulomas. A classic TB granuloma is a caseating granuloma, which has a cheese-like (caseous) necrotic center.\n\nClinical Sites: While pulmonary TB is the most common form, the bacteria can spread systemically (miliary TB) and infect virtually any organ, leading to:\n\n- Pott's Disease: TB of the spine\n- Tuberculous Meningitis\n- Renal TB\n\nTreatment: Requires a long course of multiple antibiotics (typically 6 months) to prevent the development of drug resistance. The standard first-line regimen is RIPE: Rifampin, Isoniazid, Pyrazinamide, and Ethambutol."
+  },
+  {
+    "question": "Which of the following parasites is responsible for causing hookworm disease?",
+    "options": {
+      "A": "Ascaris lumbricoides",
+      "B": "Ancylostoma duodenale",
+      "C": "Strongyloides stercoralis",
+      "D": "Trichuris trichiura"
+    },
+    "answer": "B",
+    "explanation": "This is a repeat of question #20. Hookworm disease is caused by soil-transmitted helminths, primarily Ancylostoma duodenale and Necator americanus. They attach to the small intestine lining and feed on blood.",
+    "additional": "Life Cycle Review: Larvae in soil -> penetrate skin -> travel to lungs -> coughed up and swallowed -> mature in small intestine.\nClinical Manifestations:\nGround Itch: An itchy rash at the site of larval penetration.\nPneumonitis: Coughing during larval migration through the lungs.\nGastrointestinal Symptoms: Abdominal pain, diarrhea.\nIron Deficiency Anemia: The most significant pathology, caused by chronic blood loss from the worms' feeding sites. This can lead to fatigue, pallor, and developmental delays in children.\nDiagnosis: Stool examination for the presence of hookworm eggs."
+  },
+  {
+    "question": "Hepatitis B is transmitted primarily through:",
+    "options": {
+      "A": "Fecal-oral route",
+      "B": "Respiratory droplets",
+      "C": "Sexual contact and blood exposure",
+      "D": "Contaminated food"
+    },
+    "answer": "C",
+    "explanation": "Hepatitis B virus (HBV) is transmitted parenterally, meaning through routes other than the digestive tract. The primary modes of transmission are exposure to infected blood and body fluids, which includes sexual contact, sharing of contaminated needles (IV drug use), and perinatal transmission from an infected mother to her baby.",
+    "additional": "Memory Trick: Hepatitis B is transmitted by Blood and Bodily fluids.\nHBV Serology (Key for Exams): Understanding HBV markers is crucial.\nHBsAg (Hepatitis B surface Antigen): Marker of active infection (acute or chronic).\nAnti-HBs (Antibody to HBsAg): Marker of immunity, either from vaccination or resolved infection.\nAnti-HBc (Antibody to HB core antigen):\nIgM Anti-HBc: Marker of acute infection.\nIgG Anti-HBc: Marker of past or chronic infection.\nHBeAg (Hepatitis B e Antigen): Marker of high viral replication and high infectivity.\nOutcomes: Most adults with acute HBV clear the virus. However, infection in infancy (perinatal transmission) leads to chronic infection in >90% of cases. Chronic HBV is a major risk factor for cirrhosis and hepatocellular carcinoma.\nPrevention: A highly effective recombinant HBV vaccine is available."
+  },
+  {
+    "question": "The causative agent of toxoplasmosis is:",
+    "options": {
+      "A": "Toxoplasma gondii",
+      "B": "Giardia lamblia",
+      "C": "Plasmodium falciparum",
+      "D": "Trypanosoma cruzi"
+    },
+    "answer": "A",
+    "explanation": "Toxoplasmosis is an infection caused by the protozoan parasite Toxoplasma gondii. The name of the disease is directly derived from the organism.",
+    "additional": "Definitive Host: The cat is the definitive host, shedding oocysts in its feces.\nTransmission to Humans:\nIngesting oocysts from sources contaminated with cat feces (e.g., unwashed vegetables, cleaning a litter box).\nIngesting tissue cysts by eating undercooked meat from an infected intermediate host (e.g., pork, lamb).\nCongenital transmission from a mother with an acute infection to her fetus.\nClinical Importance:\nImmunocompetent Hosts: Usually asymptomatic or causes a mild, mononucleosis-like illness.\nImmunocompromised Hosts (e.g., HIV/AIDS): Can cause life-threatening reactivation of a latent infection, most commonly as Toxoplasma encephalitis, which presents with multiple ring-enhancing lesions on a brain MRI.\nCongenital Toxoplasmosis: Can cause the classic triad of chorioretinitis (can lead to blindness), hydrocephalus, and intracranial calcifications."
+  },
+  {
+    "question": "Anthrax is caused by:",
+    "options": {
+      "A": "Bacillus cereus",
+      "B": "Bacillus anthracis",
+      "C": "Streptococcus pyogenes",
+      "D": "Clostridium botulinum"
+    },
+    "answer": "B",
+    "explanation": "Anthrax is a serious infectious disease caused by the spore-forming bacterium Bacillus anthracis. The name of the organism is directly tied to the disease.",
+    "additional": "Microbiology: B. anthracis is a large, Gram-positive, spore-forming rod. It is a zoonotic disease, primarily affecting livestock.\nVirulence Factors: Its virulence depends on two key factors:\nPolypeptide Capsule: Composed of poly-D-glutamic acid, which inhibits phagocytosis.\nAnthrax Toxin: A complex toxin with three components (Protective Antigen, Edema Factor, Lethal Factor).\nClinical Forms:\nCutaneous Anthrax (most common): Spores enter a skin cut, leading to a painless papule that develops into a vesicle, then ruptures to form a characteristic black eschar.\nInhalational Anthrax: Spores are inhaled, leading to a hemorrhagic mediastinitis. Presents with a flu-like illness that rapidly progresses to severe respiratory distress, shock, and death. A key finding on chest X-ray is a widened mediastinum. This form is of major bioterrorism concern.\nGastrointestinal Anthrax: Ingestion of spores from undercooked meat."
+  },
+  {
+    "question": "The most common cause of urinary tract infections (UTIs) in adults is:",
+    "options": {
+      "A": "Escherichia coli",
+      "B": "Proteus mirabilis",
+      "C": "Staphylococcus aureus",
+      "D": "Enterococcus faecalis"
+    },
+    "answer": "A",
+    "explanation": "Uropathogenic Escherichia coli (UPEC) is, by a large margin, the most common cause of uncomplicated urinary tract infections (both cystitis and pyelonephritis), accounting for 80-90% of cases. The bacteria originate from the host's own fecal flora.",
+    "additional": "Pathogenesis: UPEC strains have specific virulence factors, such as Pili (or fimbriae), that allow them to adhere to the uroepithelial cells and ascend the urinary tract against the flow of urine.\nOther UTI Pathogens:\nStaphylococcus saprophyticus: A common cause of UTIs in young, sexually active women (sometimes called \"honeymoon cystitis\").\nProteus mirabilis: Associated with the formation of struvite kidney stones. It produces the enzyme urease, which breaks down urea into ammonia, raising the urine pH and promoting stone formation.\nKlebsiella pneumoniae and Enterococcus faecalis are more commonly associated with complicated or hospital-acquired UTIs."
+  },
+  {
+    "question": "The primary cause of gonorrhea is:",
+    "options": {
+      "A": "Neisseria gonorrhoeae",
+      "B": "Chlamydia trachomatis",
+      "C": "Treponema pallidum",
+      "D": "Gardnerella vaginalis"
+    },
+    "answer": "A",
+    "explanation": "The sexually transmitted infection gonorrhea is caused by the bacterium Neisseria gonorrhoeae. The name of the organism is directly linked to the disease. It commonly causes infections of the urethra, cervix, rectum, and pharynx.",
+    "additional": "Microbiology: N. gonorrhoeae is a Gram-negative diplococcus (appears as pairs of cocci). It is often found intracellularly within neutrophils on a Gram stain of discharge.\nClinical Presentation:\nIn Men: Typically presents with urethritis, causing a purulent (pus-like) urethral discharge and dysuria (painful urination).\nIn Women: Often asymptomatic, but can cause cervicitis with vaginal discharge. Untreated infection can ascend to cause Pelvic Inflammatory Disease (PID), leading to infertility and ectopic pregnancy.\nSystemic/Disseminated Gonococcal Infection (DGI): The bacteria can spread through the bloodstream, causing the classic triad of polyarthralgia (migratory joint pain), tenosynovitis (inflammation of tendon sheaths), and a dermatitis (pustular or petechial skin lesions). It can also cause a septic arthritis.\nNeonatal Infection: Can cause ophthalmia neonatorum, a severe conjunctivitis in newborns acquired during birth, which can lead to blindness if untreated. This is why prophylactic antibiotic eye ointment is given to newborns.\nTreatment: Treatment is complicated by widespread antibiotic resistance. Current recommendations often involve a single dose of an injectable cephalosporin (e.g., ceftriaxone)."
+  },
+  {
+    "question": "Trichuriasis is caused by:",
+    "options": {
+      "A": "Trichuris trichiura",
+      "B": "Ancylostoma duodenale",
+      "C": "Ascaris lumbricoides",
+      "D": "Strongyloides stercoralis"
+    },
+    "answer": "A",
+    "explanation": "Trichuriasis, also known as whipworm infection, is caused by the parasitic roundworm Trichuris trichiura. The name of the disease is derived directly from the causative organism.",
+    "additional": "Memory Trick: The name is nearly identical: Trichuris causes Trichuriasis.\nMorphology: The adult worm has a long, thin, whip-like anterior portion, hence the name \"whipworm.\"\nTransmission: Fecal-oral route, by ingesting eggs from contaminated soil.\nClinical Presentation: Light infections are often asymptomatic. Heavy infections, particularly in children, can cause abdominal pain, mucoid diarrhea, and, most characteristically, rectal prolapse. The prolapsed rectum may be studded with visible white worms. It can also contribute to anemia and growth retardation.\nDiagnosis: Stool examination for the presence of characteristic barrel-shaped whipworm eggs."
+  },
+  {
+    "question": "Which of the following is the primary reservoir for Yellow fever virus?",
+    "options": {
+      "A": "Humans",
+      "B": "Monkeys",
+      "C": "Mosquitoes",
+      "D": "Rats"
+    },
+    "answer": "B",
+    "explanation": "Yellow fever is a viral hemorrhagic fever. The virus is maintained in a sylvatic (jungle) cycle where it circulates between non-human primates (monkeys) and mosquitoes. Humans become infected when they enter these jungle areas. An urban cycle can also be established where the virus circulates between humans and mosquitoes.",
+    "additional": "Virology: Yellow fever virus is a member of the Flavivirus genus, which also includes Dengue, West Nile, and Zika viruses.\nVector: Transmitted by the bite of infected Aedes and Haemagogus species mosquitoes.\nClinical Presentation:\nMost infections are mild and non-specific.\nSevere disease (in ~15% of cases) is characterized by a high fever, jaundice (giving the disease its name), hemorrhage (black vomit due to gastrointestinal bleeding), and shock. The combination of jaundice and hemorrhage is highly characteristic.\nDiagnosis: Often clinical in endemic areas. Confirmed by serology or PCR. A classic liver biopsy finding is Councilman bodies (apoptotic hepatocytes).\nPrevention: A highly effective live-attenuated vaccine (the 17D vaccine) provides long-lasting immunity and is required for travel to many endemic areas in Africa and South America."
+  },
+  {
+    "question": "Schistosomiasis is caused by:",
+    "options": {
+      "A": "Schistosoma species",
+      "B": "Fasciola hepatica",
+      "C": "Ascaris lumbricoides",
+      "D": "Giardia lamblia"
+    },
+    "answer": "A",
+    "explanation": "Schistosomiasis, also known as bilharzia, is a disease caused by parasitic flatworms (flukes) of the genus Schistosoma. The disease name is a direct derivative of the parasite's name.",
+    "additional": "Life Cycle & Transmission: The life cycle is complex and involves a freshwater snail as an intermediate host. Humans are infected when larval forms of the parasite (cercariae), released by snails, penetrate the skin during contact with contaminated water.\nMajor Species & Associated Pathology:\nS. haematobium: Lives in the venous plexus of the bladder. Causes hematuria (blood in urine) and is a major risk factor for squamous cell carcinoma of the bladder. (Memory Trick: Haematobium causes Hematuria).\nS. mansoni and S. japonicum: Live in the mesenteric veins around the intestines and liver. Cause portal hypertension, leading to hepatosplenomegaly, ascites, and bleeding esophageal varices.\nAcute Schistosomiasis (Katayama fever): An acute systemic hypersensitivity reaction that can occur weeks after initial infection, presenting with fever, rash, and cough.\nDiagnosis: Stool or urine examination for the presence of characteristic eggs. The eggs have a distinct spine (e.g., large lateral spine for S. mansoni, terminal spine for S. haematobium).\nTreatment: The drug of choice is Praziquantel."
+  },
+  {
+    "question": "Which of the following is a protozoal cause of diarrhea?",
+    "options": {
+      "A": "Entamoeba histolytica",
+      "B": "Salmonella enterica",
+      "C": "Vibrio cholerae",
+      "D": "Escherichia coli"
+    },
+    "answer": "A",
+    "explanation": "This question asks to identify the protozoan among a list of diarrheal pathogens. Salmonella, Vibrio, and E. coli are all bacteria. Entamoeba histolytica is a protozoan parasite that causes amebic dysentery.",
+    "additional": "Categorizing Diarrheal Pathogens:\nViruses: Rotavirus, Norovirus, Adenovirus.\nBacteria: E. coli, Salmonella, Shigella, Campylobacter, Vibrio cholerae, Clostridium difficile.\nProtozoa: Giardia lamblia, Entamoeba histolytica, Cryptosporidium parvum.\nType of Diarrhea:\nWatery Diarrhea: Typically caused by toxins that disrupt ion transport (e.g., Vibrio cholerae, Enterotoxigenic E. coli - ETEC).\nInflammatory/Bloody Diarrhea (Dysentery): Caused by organisms that invade the intestinal mucosa (e.g., Shigella, Campylobacter, Enterohemorrhagic E. coli - EHEC, Entamoeba histolytica)."
+  },
+  {
+    "question": "Leprosy is caused by:",
+    "options": {
+      "A": "Clostridium tetani",
+      "B": "Mycobacterium leprae",
+      "C": "Mycobacterium tuberculosis",
+      "D": "Treponema pallidum"
+    },
+    "answer": "B",
+    "explanation": "This is a repeat of question #15. Leprosy (Hansen's disease) is a chronic granulomatous disease caused by the acid-fast bacillus Mycobacterium leprae.",
+    "additional": "Key Concept: The immune status of the host determines the clinical presentation. A strong cell-mediated response leads to tuberculoid leprosy (paucibacillary - few bacteria), while a weak response leads to lepromatous leprosy (multibacillary - many bacteria). Nerve Involvement: A cardinal feature of leprosy is damage to peripheral nerves, leading to sensory loss, motor weakness, and deformities (e.g., claw hand, foot drop). This sensory loss makes patients prone to repeated, unnoticed injuries. Treatment: Requires long-term multidrug therapy (MDT) to prevent resistance. The standard regimen includes rifampin, dapsone, and clofazimine."
+  },
+  {
+    "question": "Which of the following is the vector for dengue fever?",
+    "options": {
+      "A": "Culex mosquito",
+      "B": "Aedes mosquito",
+      "C": "Anopheles mosquito",
+      "D": "Ixodes tick"
+    },
+    "answer": "B",
+    "explanation": "This is a repeat of question #8. Dengue fever is a viral illness transmitted by the bite of an infected Aedes mosquito, primarily Aedes aegypti.",
+    "additional": "Clinical Presentation: Classic Dengue Fever: High fever, severe headache (retro-orbital pain), severe muscle and joint pain (\"breakbone fever\"), and a rash. Dengue Hemorrhagic Fever (DHF) / Dengue Shock Syndrome (DSS): A more severe form that can occur, especially upon a second infection with a different dengue serotype. It is characterized by plasma leakage, hemorrhage, and circulatory collapse. A key warning sign is the development of thrombocytopenia and a rising hematocrit. Prevention: There is no specific antiviral treatment. Prevention relies on vector control and avoiding mosquito bites. A vaccine is available but has complex recommendations for its use."
+  },
+  {
+    "question": "The causative agent of whooping cough (pertussis) is:",
+    "options": {
+      "A": "Streptococcus pneumoniae",
+      "B": "Haemophilus influenzae",
+      "C": "Bordetella pertussis",
+      "D": "Mycobacterium tuberculosis"
+    },
+    "answer": "C",
+    "explanation": "This is a repeat of question #23. Whooping cough is the common name for pertussis, a respiratory infection caused by the bacterium Bordetella pertussis.",
+    "additional": "Key Takeaway: The paroxysmal cough is the hallmark. The \"whoop\" is not always present, especially in infants and adults. Infants are at the highest risk for severe complications, including apnea and death. Public Health Importance: The importance of adolescent and adult booster vaccinations (Tdap) is to reduce the reservoir of infection and prevent transmission to vulnerable infants (the \"cocooning\" strategy)."
+  },
+  {
+    "question": "Cholera is caused by:",
+    "options": {
+      "A": "Shigella dysenteriae",
+      "B": "Vibrio cholerae",
+      "C": "Escherichia coli",
+      "D": "Salmonella typhi"
+    },
+    "answer": "B",
+    "explanation": "This is a repeat of question #10. Cholera is an acute diarrheal illness caused by Vibrio cholerae, which produces a toxin leading to massive, watery diarrhea.",
+    "additional": "Key Symptom: The classic description is \"rice-water stool\" – a pale, milky fluid containing flecks of mucus. It is typically painless and voluminous. Management Focus: The cornerstone of management is aggressive fluid and electrolyte replacement. Oral Rehydration Solution (ORS) is effective for most cases. Severe cases require intravenous fluids. Antibiotics (e.g., doxycycline or azithromycin) can shorten the duration of illness but are secondary to rehydration. Epidemiology: Cholera is a classic epidemic disease, often occurring after natural disasters or in areas with poor sanitation and contaminated water supplies."
+  },
+  {
+    "question": "Plasmodium falciparum is primarily responsible for causing:",
+    "options": {
+      "A": "Malaria",
+      "B": "Dengue",
+      "C": "Yellow fever",
+      "D": "Chikungunya"
+    },
+    "answer": "A",
+    "explanation": "This is a repeat of question #2, framed slightly differently. Plasmodium falciparum is one of the species of protozoan parasites that causes malaria. It is the most dangerous species and is responsible for the majority of malaria-related deaths.",
+    "additional": "Why is P. falciparum so dangerous? High Parasitemia: It can infect red blood cells (RBCs) of all ages, leading to a very high number of parasites in the blood. Sequestration: Infected RBCs develop \"knobs\" on their surface that cause them to stick to the endothelium of small blood vessels, blocking microcirculation. This is the mechanism behind severe complications. Cerebral Malaria: Sequestration in the brain's blood vessels. Placental Malaria: Sequestration in the placenta, dangerous for both mother and fetus. Severe Anemia and Renal Failure are also common complications. Dengue, Yellow Fever, and Chikungunya are all viral diseases transmitted by Aedes mosquitoes, not a protozoan parasite."
   }
 ]
+
+
+
+
+
 
