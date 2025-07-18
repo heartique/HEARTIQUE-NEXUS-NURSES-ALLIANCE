@@ -1234,6 +1234,56 @@ if (!error && userData?.full_name) {
     <a href="privacy.html">Privacy Policy</a>
   </p>
 </footer>
+<!-- 💬 NurseNova Chatbot -->
+<div id="nurseNovaBtn" title="Ask NurseNova" style="
+  position: fixed;
+  bottom: 90px;
+  right: 80px;
+  z-index: 9999;
+  background: linear-gradient(135deg, #004a99, #8000ff);
+  color: white;
+  padding: 14px 16px;
+  border-radius: 50%;
+  font-size: 22px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+  cursor: pointer;
+">🤖</div>
+
+<div id="nurseNovaModal" style="
+  display: none;
+  position: fixed;
+  bottom: 160px;
+  right: 20px;
+  width: 300px;
+  max-height: 400px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+  overflow: hidden;
+  z-index: 9998;
+  font-family: Arial, sans-serif;
+  animation: slideInUp 0.4s ease;
+">
+  <div style="background: #004a99; color: white; padding: 12px; font-weight: bold;">Ask NurseNova 👩‍⚕️</div>
+  <div id="chatBody" style="padding: 12px; height: 280px; overflow-y: auto; font-size: 0.9rem;"></div>
+  <div style="display: flex; border-top: 1px solid #ddd;">
+    <input type="text" id="chatInput" placeholder="Type your question..." style="flex: 1; padding: 10px; border: none; font-size: 0.9rem;">
+    <button id="sendBtn" style="background: #004a99; color: white; border: none; padding: 0 12px;">➤</button>
+  </div>
+</div>
+
+<style>
+@keyframes slideInUp {
+  from {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+</style>
 
 </body>
 </html>
