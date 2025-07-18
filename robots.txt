@@ -1,0 +1,11 @@
+# robots.txt for Heartique Nursing Nexus Portal
+
+User-agent: *
+Disallow: /login.html
+Disallow: /*.json$
+Disallow: /*.js$
+Disallow: /*.sql$
+
+Allow: /$
+Allow: /*.html$
+Sitemap: https://heartique.github.io/HEARTIQUE-NEXUS-NURSES-ALLIANCE/sitemap.xml
