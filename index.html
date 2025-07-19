@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1439466110045551"
-     crossorigin="anonymous"></script>
   <!-- 🌙 Dark/Light Theme Setup -->
   <script>
     const savedTheme = localStorage.getItem("theme");
@@ -10,7 +8,7 @@
     const theme = savedTheme || (prefersDark ? "dark" : "light");
     document.documentElement.setAttribute("data-theme", theme);
   </script>
- 
+  
   <!-- ⚙ Basic Meta -->
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -392,8 +390,6 @@
 
    
   </style>
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1439466110045551"
-     crossorigin="anonymous"></script>
 </head>
   <script>
   if ('serviceWorker' in navigator) {
@@ -515,11 +511,11 @@
   </ul>
 </section>
         <section>
+  <h2>📚 Very Important Books & Materials</h2>
  <li class="main-vip-books" onclick="location.href='clinical-manual.html'">
   📚 <strong>Ultimate Nursing PowerPack</strong><br>
   <span style="font-size: 0.9rem;">All-in-One: Essentials, Pharma, Anatomy, Clinical</span>
 </li>
-
     <li class="main-vip-books" onclick="location.href='exam-secrets.html'">🔐 NCK Exam Secrets & Hacks</li>
   </ul>
 </section>
@@ -958,15 +954,26 @@
     });
 </script>
 
-<!-- ✅ Supabase + Profile Sync -->
+<!-- ✅ Supabase + Profile Logic (No Refresh) -->
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
 <script>
   const supabase = window.supabase.createClient(
     'https://fczslywprowqzgwcwhzu.supabase.co',
-    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZjenNseXdwcm93cXpnd2N3aHp1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTE4MzU1MDEsImV4cCI6MjA2NzQxMTUwMX0.IWQ1kwEPRrigvYurWRbuHQWRrHZU9K-3bbYgdH745zk'
+    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZjenNseXdwcm93cXpnd2N3aHp1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTE4MzU1MDEsImV4cCI6MjA2NzQxMTUwMX0.IWQ1kwEPRrigvYurWRbuHQWRrHZU9K-3bbYgdH745zk' // replace with actual anon key
   );
 
-  // Handle auth state change
+  const profileBtn = document.getElementById('profileBtn');
+  const profileModal = document.getElementById('profileModal');
+  const rippleEffect = document.getElementById('rippleEffect');
+
+  function triggerRippleEffect() {
+    if (!rippleEffect) return;
+    rippleEffect.style.opacity = '1';
+    setTimeout(() => {
+      rippleEffect.style.opacity = '0';
+    }, 400);
+  }
+
   supabase.auth.onAuthStateChange((event, session) => {
     if (session) {
       localStorage.setItem('supabaseSession', JSON.stringify(session));
@@ -975,7 +982,6 @@
     }
   });
 
-  // Expiry checker
   function isSessionExpired(session) {
     const now = Math.floor(Date.now() / 1000);
     return session.expires_at && session.expires_at < now;
@@ -1002,30 +1008,26 @@
 
     const userId = session.user.id;
     const userEmail = session.user.email;
+    let fullName = localStorage.getItem('full_name');
 
-    // Check localStorage or metadata for name
-    let fullName = localStorage.getItem('full_name') || session.user.user_metadata?.full_name;
+    if (!fullName) {
+      const { data: userData, error } = await supabase
+  .from('user')
+  .select('full_name')
+  .eq('id', userId)
+  .single();
 
-    // Push to user table if not present
-    const { data: userRow, error: fetchError } = await supabase
-      .from('user')
-      .select('full_name')
-      .eq('id', userId)
-      .single();
+if (!error && userData?.full_name) {
+  fullName = userData.full_name;
+  localStorage.setItem('full_name', fullName);
+}
 
-    if (!userRow && fullName) {
-      await supabase.from('user').insert([{ id: userId, full_name: fullName }]);
-    } else if (userRow?.full_name && !fullName) {
-      fullName = userRow.full_name;
-      localStorage.setItem('full_name', fullName);
     }
 
-    // UI updates
     if (fullName) {
       if (greetingEl) greetingEl.textContent = `Welcome, ${fullName}!`;
       if (welcomeUser) welcomeUser.textContent = `Hello ${fullName}, we're glad to have you on the Nursing Nexus Portal 👋`;
       if (modalName) modalName.textContent = fullName;
-      localStorage.setItem('full_name', fullName);
     }
 
     if (modalEmail) modalEmail.textContent = userEmail;
@@ -1035,6 +1037,88 @@
   }
 
   setTimeout(loadUser, 50);
+
+  async function logout() {
+    const confirmed = confirm("Are you sure you want to log out?");
+  if (!confirmed) return;
+
+    await supabase.auth.signOut();
+    localStorage.removeItem('supabaseSession');
+    window.location.href = 'login.html';
+  }
+
+  // ❌ Delete Account with confirmation modal
+  function showConfirmModal(callback) {
+    const modal = document.getElementById('confirmModal');
+    modal.style.display = 'flex';
+
+    const yesBtn = document.getElementById('confirmYes');
+    const noBtn = document.getElementById('confirmNo');
+
+    const cleanup = () => {
+      modal.style.display = 'none';
+      yesBtn.removeEventListener('click', onConfirm);
+      noBtn.removeEventListener('click', onCancel);
+    };
+
+    const onConfirm = () => {
+      cleanup();
+      callback(true);
+    };
+
+    const onCancel = () => {
+      cleanup();
+      callback(false);
+    };
+
+    yesBtn.addEventListener('click', onConfirm);
+    noBtn.addEventListener('click', onCancel);
+  }
+
+  async function deleteAccount() {
+    triggerRippleEffect();
+
+    showConfirmModal(async (confirmed) => {
+      if (!confirmed) return alert("Account deletion cancelled.");
+
+      const { data: { user } } = await supabase.auth.getUser();
+      if (!user) return alert("You're not logged in.");
+
+      const { error } = await supabase.from('user').delete().eq('id', user.id);
+      if (error) return alert("❌ Error deleting user.");
+
+      alert("✅ Account deleted. Logging out...");
+      await supabase.auth.signOut();
+      localStorage.clear();
+      window.location.href = 'login.html';
+    });
+  }
+
+  // 🧑 Profile Modal Toggle
+  profileBtn?.addEventListener('click', (e) => {
+    profileModal.style.display = profileModal.style.display === 'block' ? 'none' : 'block';
+    triggerRippleEffect();
+    e.stopPropagation();
+  });
+
+  // ⛔ Close modal on outside click
+  document.addEventListener('click', (e) => {
+    if (!profileModal.contains(e.target) && e.target !== profileBtn) {
+      profileModal.style.display = 'none';
+    }
+  });
+
+  // ✨ Animate profile button only
+  function animateButton(id) {
+    const btn = document.getElementById(id);
+    if (!btn) return;
+    btn.addEventListener('mouseenter', () => btn.style.boxShadow = '0 0 15px #8000ff');
+    btn.addEventListener('mouseleave', () => btn.style.boxShadow = '0 0 8px rgba(0,0,0,0.3)');
+    btn.addEventListener('mousedown', () => btn.style.transform = 'scale(0.95)');
+    btn.addEventListener('mouseup', () => btn.style.transform = 'scale(1)');
+  }
+
+  animateButton('profileBtn');
 </script>
 
 
@@ -1149,362 +1233,8 @@
     <a href="privacy.html">Privacy Policy</a>
   </p>
 </footer>
-<!-- 💬 Floating Chat Button + Chat Panel -->
-<style>
-  #chat-fab {
-    position: fixed;
-    bottom: 30px;
-    left: 30px;
-    z-index: 1000;
-    width: 60px;
-    height: 60px;
-    background: #00acc1;
-    color: white;
-    border-radius: 50%;
-    font-size: 28px;
-    text-align: center;
-    line-height: 60px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
-    cursor: pointer;
-  }
 
-  #chat-box {
-    position: fixed;
-    bottom: 100px;
-    left: 30px;
-    width: 360px;
-    max-height: 500px;
-    display: none;
-    flex-direction: column;
-    background: rgba(15, 15, 15, 0.95);
-    border-radius: 12px;
-    box-shadow: 0 0 20px #00acc1;
-    overflow: hidden;
-    z-index: 999;
-  }
-
-  @media (max-width: 600px) {
-    #chat-box {
-      width: 95%;
-      left: 2.5%;
-      bottom: 80px;
-      max-height: 70vh;
-    }
-
-    #chat-fab {
-      left: 20px;
-      bottom: 20px;
-    }
-  }
-
-  #chat-header {
-    background: #00acc1;
-    color: white;
-    padding: 10px;
-    font-weight: bold;
-    text-align: center;
-    position: relative;
-  }
-
-  #chat-header select {
-    position: absolute;
-    right: 10px;
-    top: 8px;
-    background: white;
-    color: black;
-    border-radius: 6px;
-    padding: 2px 6px;
-  }
-
-  #chat-messages {
-    flex: 1;
-    overflow-y: auto;
-    padding: 1rem;
-    font-family: 'Manrope', sans-serif;
-    font-size: 0.95rem;
-  }
-
-  .chat-bubble {
-    max-width: 80%;
-    margin-bottom: 0.8rem;
-    padding: 0.6rem;
-    border-radius: 12px;
-    word-wrap: break-word;
-    line-height: 1.4;
-  }
-
-  .me {
-    background: #004d40;
-    color: white;
-    margin-left: auto;
-    text-align: right;
-  }
-
-  .other {
-    background: #263238;
-    color: white;
-    margin-right: auto;
-    text-align: left;
-  }
-
-  .sender-name {
-    font-size: 0.8rem;
-    font-weight: bold;
-    color: #00e5ff;
-    margin-bottom: 4px;
-  }
-
-  #typing-indicator {
-    color: #00e5ff;
-    font-style: italic;
-    font-size: 0.85rem;
-    margin-left: 8px;
-  }
-
-  #chat-footer {
-    display: flex;
-    align-items: center;
-    padding: 0.5rem;
-    border-top: 1px solid #00acc1;
-    gap: 6px;
-    background: #121212;
-  }
-
-  #chat-input {
-    flex: 1;
-    padding: 0.5rem;
-    border-radius: 24px;
-    border: none;
-    outline: none;
-    font-size: 1rem;
-    padding-left: 14px;
-  }
-
-  #chat-file {
-    display: none;
-  }
-
-  #file-label {
-    font-size: 20px;
-    color: white;
-    cursor: pointer;
-    padding: 0 6px;
-  }
-
-  #emoji-btn {
-    background: none;
-    border: none;
-    font-size: 20px;
-    color: white;
-    cursor: pointer;
-  }
-
-  #send-btn {
-    background: #00acc1;
-    color: white;
-    padding: 0.5rem 0.8rem;
-    border: none;
-    border-radius: 12px;
-    font-weight: bold;
-    cursor: pointer;
-  }
-</style>
-
-<div id="chat-fab" onclick="toggleChat()">💬</div>
-
-<div id="chat-box">
-  <div id="chat-header">
-    🧠 Study Chat Rooms
-    <select id="chat-room" onchange="changeRoom()">
-      <option value="general">📢 General</option>
-      <option value="pharma">💊 Pharma</option>
-      <option value="cardio">❤️ Cardio</option>
-      <option value="anatomy">🧠 Anatomy</option>
-      <option value="clinical">🩺 Clinical</option>
-    </select>
-  </div>
-
-  <div id="chat-messages"></div>
-  <div id="typing-indicator" style="padding: 0 1rem;"></div>
-
-  <div id="chat-footer">
-    <label id="file-label" for="chat-file">📎</label>
-    <input type="file" id="chat-file">
-    <button id="emoji-btn" onclick="addEmoji('😄')">😄</button>
-    <input id="chat-input" type="text" placeholder="Type a message..." oninput="sendTypingStatus()">
-    <button id="send-btn" onclick="sendMessage()">▶</button>
-  </div>
-</div>
-
-<script>
-  const chatBoxEl = document.getElementById('chat-box');
-  const fab = document.getElementById('chat-fab');
-  const chatMessages = document.getElementById('chat-messages');
-  const chatInput = document.getElementById('chat-input');
-  const fileInput = document.getElementById('chat-file');
-  const roomSelector = document.getElementById('chat-room');
-  const typingIndicator = document.getElementById('typing-indicator');
-
-  let currentRoom = roomSelector.value;
-  let userId = null;
-  let fullName = null;
-  let channel = null;
-  let typingTimeout = null;
-
-  function toggleChat() {
-    const isOpen = chatBoxEl.style.display === 'flex';
-    chatBoxEl.style.display = isOpen ? 'none' : 'flex';
-    if (!isOpen) initChat();
-  }
-
-  async function initChat() {
-    const session = await supabase.auth.getSession();
-    const user = session.data.session?.user;
-    if (!user) return alert('Login required');
-
-    userId = user.id;
-    fullName = localStorage.getItem('full_name') || user.user_metadata?.full_name || 'You';
-
-    await loadMessages();
-    listenToRoom();
-  }
-
-  function changeRoom() {
-    currentRoom = roomSelector.value;
-    chatMessages.innerHTML = '';
-    typingIndicator.textContent = '';
-    if (channel) channel.unsubscribe();
-    loadMessages();
-    listenToRoom();
-  }
-
-  async function loadMessages() {
-    const { data, error } = await supabase
-      .from('messages')
-      .select('content, sender_id, file_url, created_at')
-      .eq('room', currentRoom)
-      .order('created_at');
-
-    if (!error && data) {
-      for (const msg of data) await displayMessage(msg);
-      chatMessages.scrollTop = chatMessages.scrollHeight;
-    }
-  }
-
-  async function sendMessage() {
-    const content = chatInput.value.trim();
-    const file = fileInput.files[0];
-
-    const session = await supabase.auth.getSession();
-    const user = session.data.session?.user;
-    if (!user) return alert('Login required');
-
-    let fileUrl = null;
-
-    if (file) {
-      const ext = file.name.split('.').pop();
-      const path = `${user.id}/${Date.now()}.${ext}`;
-      const { error: uploadError } = await supabase.storage
-        .from('chatuploads')
-        .upload(path, file);
-
-      if (uploadError) return console.error(uploadError);
-
-      const { data: urlData } = supabase.storage
-        .from('chatuploads')
-        .getPublicUrl(path);
-
-      fileUrl = urlData.publicUrl;
-    }
-
-    const { error } = await supabase.from('messages').insert([{
-      content: content || '📎 Attachment',
-      sender_id: user.id,
-      room: currentRoom,
-      file_url: fileUrl
-    }]);
-
-    if (!error) {
-      chatInput.value = '';
-      fileInput.value = '';
-    }
-  }
-
-  async function displayMessage(msg) {
-    const mine = msg.sender_id === userId;
-    const bubble = document.createElement('div');
-    bubble.className = `chat-bubble ${mine ? 'me' : 'other'}`;
-
-    let senderName = mine ? fullName : 'Unknown';
-
-    if (!mine) {
-      const { data: sender, error } = await supabase
-        .from('user')
-        .select('full_name')
-        .eq('id', msg.sender_id)
-        .single();
-
-      if (!error && sender?.full_name) senderName = sender.full_name;
-    }
-
-    let filePreview = '';
-    if (msg.file_url) {
-      if (msg.file_url.match(/\.(jpg|jpeg|png|gif)$/)) {
-        filePreview = `<img src="${msg.file_url}" style="max-width: 100%; border-radius: 8px; margin-top: 5px;" />`;
-      } else {
-        filePreview = `<a href="${msg.file_url}" target="_blank" style="color: #00e5ff;">📎 File</a>`;
-      }
-    }
-
-    bubble.innerHTML = `
-      ${!mine ? `<div class="sender-name">${senderName}</div>` : ''}
-      <div>${msg.content}</div>
-      ${filePreview}
-    `;
-
-    chatMessages.appendChild(bubble);
-    chatMessages.scrollTop = chatMessages.scrollHeight;
-  }
-
-  function listenToRoom() {
-    if (channel) channel.unsubscribe();
-
-    channel = supabase
-      .channel('chat_' + currentRoom)
-      .on('postgres_changes', {
-        event: 'INSERT',
-        schema: 'public',
-        table: 'messages'
-      }, payload => {
-        if (payload.new.room === currentRoom) displayMessage(payload.new);
-      })
-      .on('broadcast', { event: 'typing' }, payload => {
-        if (payload.payload.userId !== userId && payload.payload.room === currentRoom) {
-          typingIndicator.textContent = `${payload.payload.name} is typing...`;
-          clearTimeout(typingTimeout);
-          typingTimeout = setTimeout(() => {
-            typingIndicator.textContent = '';
-          }, 2000);
-        }
-      })
-      .subscribe();
-  }
-
-  function sendTypingStatus() {
-    if (!userId || !fullName || !channel) return;
-    channel.send({
-      type: 'broadcast',
-      event: 'typing',
-      payload: { userId, name: fullName, room: currentRoom }
-    });
-  }
-
-  function addEmoji(emoji) {
-    chatInput.value += emoji;
-    chatInput.focus();
-  }
-</script>
-    </body>
+</body>
 </html>
 
 
