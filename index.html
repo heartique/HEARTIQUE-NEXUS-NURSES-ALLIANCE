@@ -1233,6 +1233,98 @@ if (!error && userData?.full_name) {
     <a href="privacy.html">Privacy Policy</a>
   </p>
 </footer>
+<div id="chat-panel" style="max-width: 600px; margin: auto; background: rgba(0,0,0,0.4); border-radius: 12px; padding: 1rem; box-shadow: 0 0 10px #00acc1;">
+  <div id="chat-messages" style="height: 320px; overflow-y: auto; background: #0f0f0f; padding: 1rem; border-radius: 8px; color: #fff; font-family: 'Manrope', sans-serif; font-size: 0.95rem;"></div>
+
+  <div style="display: flex; margin-top: 10px;">
+    <input id="chat-input" type="text" placeholder="Type your message..." style="flex: 1; padding: 0.6rem; border-radius: 6px; border: none; outline: none;">
+    <button onclick="sendMessage()" style="margin-left: 8px; padding: 0.6rem 1rem; background: #00acc1; color: white; border: none; border-radius: 6px;">Send</button>
+  </div>
+</div>
+<script>
+  const chatBox = document.getElementById('chat-messages');
+  const chatInput = document.getElementById('chat-input');
+
+  // 🟢 Load past messages
+  async function loadMessages() {
+    const { data, error } = await supabase
+      .from('messages')
+      .select('content, created_at, sender_id')
+      .order('created_at', { ascending: true });
+
+    if (error) {
+      console.error('Error loading messages:', error);
+      return;
+    }
+
+    data.forEach(displayMessage);
+    chatBox.scrollTop = chatBox.scrollHeight;
+  }
+
+  // ✉️ Send a new message
+  async function sendMessage() {
+    const content = chatInput.value.trim();
+    if (!content) return;
+
+    const session = await supabase.auth.getSession();
+    const user = session.data.session?.user;
+
+    if (!user) {
+      alert('You must be logged in to chat.');
+      return;
+    }
+
+    const { error } = await supabase.from('messages').insert([
+      {
+        content: content,
+        sender_id: user.id
+      }
+    ]);
+
+    if (error) {
+      console.error('Send error:', error);
+    } else {
+      chatInput.value = '';
+    }
+  }
+
+  // 💬 Show each message in the chat box
+  async function displayMessage(msg) {
+    const { data: sender } = await supabase
+      .from('user')
+      .select('full_name')
+      .eq('id', msg.sender_id)
+      .single();
+
+    const bubble = document.createElement('div');
+    bubble.style.marginBottom = '0.6rem';
+    bubble.innerHTML = `
+      <div style="font-weight: bold; color: #00acc1;">${sender?.full_name || 'Unknown'}:</div>
+      <div>${msg.content}</div>
+    `;
+    chatBox.appendChild(bubble);
+    chatBox.scrollTop = chatBox.scrollHeight;
+  }
+
+  // 🔁 Listen for new messages in real time
+  supabase
+    .channel('chat_room')
+    .on(
+      'postgres_changes',
+      {
+        event: 'INSERT',
+        schema: 'public',
+        table: 'messages'
+      },
+      payload => {
+        displayMessage(payload.new);
+      }
+    )
+    .subscribe();
+
+  // 🟢 Start it all
+  loadMessages();
+</script>
 
 </body>
 </html>
