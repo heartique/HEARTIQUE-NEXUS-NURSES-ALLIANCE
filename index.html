@@ -1233,12 +1233,12 @@ if (!error && userData?.full_name) {
     <a href="privacy.html">Privacy Policy</a>
   </p>
 </footer>
-<!-- 💬 Floating Chat Button -->
+<!-- 💬 Floating Chat Button + Chat Panel -->
 <style>
   #chat-fab {
     position: fixed;
     bottom: 30px;
-    right: 30px;
+    left: 30px;
     z-index: 1000;
     width: 60px;
     height: 60px;
@@ -1255,7 +1255,7 @@ if (!error && userData?.full_name) {
   #chat-box {
     position: fixed;
     bottom: 100px;
-    right: 30px;
+    left: 30px;
     width: 360px;
     max-height: 500px;
     display: none;
@@ -1267,12 +1267,37 @@ if (!error && userData?.full_name) {
     z-index: 999;
   }
 
+  @media (max-width: 600px) {
+    #chat-box {
+      width: 95%;
+      left: 2.5%;
+      bottom: 80px;
+      max-height: 70vh;
+    }
+
+    #chat-fab {
+      left: 20px;
+      bottom: 20px;
+    }
+  }
+
   #chat-header {
     background: #00acc1;
     color: white;
     padding: 10px;
     font-weight: bold;
     text-align: center;
+    position: relative;
+  }
+
+  #chat-header select {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    background: white;
+    color: black;
+    border-radius: 6px;
+    padding: 2px 6px;
   }
 
   #chat-messages {
@@ -1305,6 +1330,13 @@ if (!error && userData?.full_name) {
     margin-right: auto;
     text-align: left;
   }
+
+  .sender-name {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #00e5ff;
+    margin-bottom: 4px;
+  }
 </style>
 
 <div id="chat-fab" onclick="toggleChat()">💬</div>
@@ -1312,7 +1344,7 @@ if (!error && userData?.full_name) {
 <div id="chat-box">
   <div id="chat-header">
     🧠 Study Chat Rooms
-    <select id="chat-room" onchange="changeRoom()" style="float: right; background: white; color: black; border-radius: 6px; padding: 2px 6px;">
+    <select id="chat-room" onchange="changeRoom()">
       <option value="general">📢 General</option>
       <option value="pharma">💊 Pharma</option>
       <option value="cardio">❤️ Cardio</option>
@@ -1329,6 +1361,7 @@ if (!error && userData?.full_name) {
     <button onclick="sendMessage()" style="background: #00acc1; color: white; padding: 0.5rem 0.8rem; border: none; border-radius: 6px;">▶</button>
   </div>
 </div>
+
 <script>
   const chatBoxEl = document.getElementById('chat-box');
   const fab = document.getElementById('chat-fab');
@@ -1403,14 +1436,12 @@ if (!error && userData?.full_name) {
       fileUrl = urlData.publicUrl;
     }
 
-    const { error } = await supabase.from('messages').insert([
-      {
-        content: content || '📎 Attachment',
-        sender_id: user.id,
-        room: currentRoom,
-        file_url: fileUrl
-      }
-    ]);
+    const { error } = await supabase.from('messages').insert([{
+      content: content || '📎 Attachment',
+      sender_id: user.id,
+      room: currentRoom,
+      file_url: fileUrl
+    }]);
 
     if (!error) {
       chatInput.value = '';
@@ -1420,9 +1451,18 @@ if (!error && userData?.full_name) {
 
   async function displayMessage(msg) {
     const mine = msg.sender_id === userId;
-    const side = mine ? 'me' : 'other';
     const bubble = document.createElement('div');
-    bubble.className = `chat-bubble ${side}`;
+    bubble.className = `chat-bubble ${mine ? 'me' : 'other'}`;
+
+    let senderName = 'You';
+    if (!mine) {
+      const { data: sender } = await supabase
+        .from('user')
+        .select('full_name')
+        .eq('id', msg.sender_id)
+        .single();
+      senderName = sender?.full_name || 'Unknown';
+    }
 
     let filePreview = '';
     if (msg.file_url) {
@@ -1433,7 +1473,12 @@ if (!error && userData?.full_name) {
       }
     }
 
-    bubble.innerHTML = `<div>${msg.content}</div>${filePreview}`;
+    bubble.innerHTML = `
+      ${!mine ? `<div class="sender-name">${senderName}</div>` : ''}
+      <div>${msg.content}</div>
+      ${filePreview}
+    `;
+
     chatMessages.appendChild(bubble);
     chatMessages.scrollTop = chatMessages.scrollHeight;
   }
@@ -1452,8 +1497,7 @@ if (!error && userData?.full_name) {
       .subscribe();
   }
 </script>
-
-</body>
+    </body>
 </html>
 
 
