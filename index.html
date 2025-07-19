@@ -1240,16 +1240,20 @@ if (!error && userData?.full_name) {
     <input id="chat-input" type="text" placeholder="Type your message..." style="flex: 1; padding: 0.6rem; border-radius: 6px; border: none; outline: none;">
     <button onclick="sendMessage()" style="margin-left: 8px; padding: 0.6rem 1rem; background: #00acc1; color: white; border: none; border-radius: 6px;">Send</button>
   </div>
+
+  <input type="file" id="chat-file" accept="image/*,.pdf,.mp3,.doc,.docx" style="margin-top: 10px; color: white;" />
 </div>
+
 <script>
   const chatBox = document.getElementById('chat-messages');
   const chatInput = document.getElementById('chat-input');
+  const fileInput = document.getElementById('chat-file');
 
   // 🟢 Load past messages
   async function loadMessages() {
     const { data, error } = await supabase
       .from('messages')
-      .select('content, created_at, sender_id')
+      .select('content, created_at, sender_id, file_url')
       .order('created_at', { ascending: true });
 
     if (error) {
@@ -1257,14 +1261,17 @@ if (!error && userData?.full_name) {
       return;
     }
 
-    data.forEach(displayMessage);
+    for (const msg of data) {
+      await displayMessage(msg);
+    }
+
     chatBox.scrollTop = chatBox.scrollHeight;
   }
 
-  // ✉️ Send a new message
+  // ✉️ Send a new message with optional file
   async function sendMessage() {
     const content = chatInput.value.trim();
-    if (!content) return;
+    const file = fileInput.files[0];
 
     const session = await supabase.auth.getSession();
     const user = session.data.session?.user;
@@ -1274,10 +1281,33 @@ if (!error && userData?.full_name) {
       return;
     }
 
+    let fileUrl = null;
+
+    if (file) {
+      const ext = file.name.split('.').pop();
+      const path = `${user.id}/${Date.now()}.${ext}`;
+
+      const { error: uploadError } = await supabase.storage
+        .from('chatuploads')
+        .upload(path, file);
+
+      if (uploadError) {
+        console.error('Upload failed:', uploadError);
+        return;
+      }
+
+      const { data: urlData } = supabase.storage
+        .from('chatuploads')
+        .getPublicUrl(path);
+
+      fileUrl = urlData.publicUrl;
+    }
+
     const { error } = await supabase.from('messages').insert([
       {
-        content: content,
-        sender_id: user.id
+        content: content || '📎 Attachment',
+        sender_id: user.id,
+        file_url: fileUrl
       }
     ]);
 
@@ -1285,6 +1315,7 @@ if (!error && userData?.full_name) {
       console.error('Send error:', error);
     } else {
       chatInput.value = '';
+      fileInput.value = '';
     }
   }
 
@@ -1296,17 +1327,31 @@ if (!error && userData?.full_name) {
       .eq('id', msg.sender_id)
       .single();
 
+    const name = sender?.full_name || 'Unknown';
+
     const bubble = document.createElement('div');
     bubble.style.marginBottom = '0.6rem';
+
+    let filePreview = '';
+    if (msg.file_url) {
+      if (msg.file_url.match(/\.(jpg|jpeg|png|gif)$/)) {
+        filePreview = `<img src="${msg.file_url}" style="max-width: 100%; margin-top: 5px; border-radius: 6px;" />`;
+      } else {
+        filePreview = `<a href="${msg.file_url}" target="_blank" style="color: #00e5ff;">📎 Download File</a>`;
+      }
+    }
+
     bubble.innerHTML = `
-      <div style="font-weight: bold; color: #00acc1;">${sender?.full_name || 'Unknown'}:</div>
+      <div style="font-weight: bold; color: #00acc1;">${name}:</div>
       <div>${msg.content}</div>
+      ${filePreview}
     `;
+
     chatBox.appendChild(bubble);
     chatBox.scrollTop = chatBox.scrollHeight;
   }
 
-  // 🔁 Listen for new messages in real time
+  // 🔁 Realtime message listening
   supabase
     .channel('chat_room')
     .on(
@@ -1322,7 +1367,7 @@ if (!error && userData?.full_name) {
     )
     .subscribe();
 
-  // 🟢 Start it all
+  // 🚀 Init
   loadMessages();
 </script>
 
