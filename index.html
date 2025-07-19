@@ -1233,6 +1233,17 @@ if (!error && userData?.full_name) {
     <a href="privacy.html">Privacy Policy</a>
   </p>
 </footer>
+   <div style="margin-bottom: 10px;">
+  <label style="color: #fff;">Select Room:</label>
+  <select id="chat-room" onchange="changeRoom()" style="padding: 0.4rem; border-radius: 6px;">
+    <option value="general">📢 General</option>
+    <option value="pharma">💊 Pharmacology</option>
+    <option value="cardio">❤️ Cardiology</option>
+    <option value="anatomy">🧠 Anatomy</option>
+    <option value="clinical">🩺 Clinical Skills</option>
+  </select>
+</div>
+   
 <div id="chat-panel" style="max-width: 600px; margin: auto; background: rgba(0,0,0,0.4); border-radius: 12px; padding: 1rem; box-shadow: 0 0 10px #00acc1;">
   <div id="chat-messages" style="height: 320px; overflow-y: auto; background: #0f0f0f; padding: 1rem; border-radius: 8px; color: #fff; font-family: 'Manrope', sans-serif; font-size: 0.95rem;"></div>
 
@@ -1248,12 +1259,25 @@ if (!error && userData?.full_name) {
   const chatBox = document.getElementById('chat-messages');
   const chatInput = document.getElementById('chat-input');
   const fileInput = document.getElementById('chat-file');
+  const roomSelector = document.getElementById('chat-room');
 
-  // 🟢 Load past messages
+  let currentRoom = roomSelector.value;
+  let channel; // holds Supabase subscription
+
+  function changeRoom() {
+    currentRoom = roomSelector.value;
+    chatBox.innerHTML = '';
+    if (channel) channel.unsubscribe(); // cleanup old channel
+    loadMessages();
+    listenToRoom();
+  }
+
+  // 🟢 Load messages for current room
   async function loadMessages() {
     const { data, error } = await supabase
       .from('messages')
-      .select('content, created_at, sender_id, file_url')
+      .select('content, created_at, sender_id, file_url, room')
+      .eq('room', currentRoom)
       .order('created_at', { ascending: true });
 
     if (error) {
@@ -1275,7 +1299,6 @@ if (!error && userData?.full_name) {
 
     const session = await supabase.auth.getSession();
     const user = session.data.session?.user;
-
     if (!user) {
       alert('You must be logged in to chat.');
       return;
@@ -1307,7 +1330,8 @@ if (!error && userData?.full_name) {
       {
         content: content || '📎 Attachment',
         sender_id: user.id,
-        file_url: fileUrl
+        file_url: fileUrl,
+        room: currentRoom
       }
     ]);
 
@@ -1319,7 +1343,7 @@ if (!error && userData?.full_name) {
     }
   }
 
-  // 💬 Show each message in the chat box
+  // 💬 Display messages
   async function displayMessage(msg) {
     const { data: sender } = await supabase
       .from('user')
@@ -1351,24 +1375,28 @@ if (!error && userData?.full_name) {
     chatBox.scrollTop = chatBox.scrollHeight;
   }
 
-  // 🔁 Realtime message listening
-  supabase
-    .channel('chat_room')
-    .on(
-      'postgres_changes',
-      {
-        event: 'INSERT',
-        schema: 'public',
-        table: 'messages'
-      },
-      payload => {
-        displayMessage(payload.new);
-      }
-    )
-    .subscribe();
+  // 🔁 Listen to current room only
+  function listenToRoom() {
+    channel = supabase
+      .channel('room_' + currentRoom)
+      .on(
+        'postgres_changes',
+        {
+          event: 'INSERT',
+          schema: 'public',
+          table: 'messages',
+          filter: `room=eq.${currentRoom}`
+        },
+        payload => {
+          displayMessage(payload.new);
+        }
+      )
+      .subscribe();
+  }
 
-  // 🚀 Init
+  // 🚀 Initial load
   loadMessages();
+  listenToRoom();
 </script>
 
 </body>
