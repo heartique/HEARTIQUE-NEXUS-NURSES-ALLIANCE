@@ -1233,172 +1233,157 @@ if (!error && userData?.full_name) {
     <a href="privacy.html">Privacy Policy</a>
   </p>
 </footer>
-   <div style="margin-bottom: 10px;">
-  <label style="color: #fff;">Select Room:</label>
-  <select id="chat-room" onchange="changeRoom()" style="padding: 0.4rem; border-radius: 6px;">
-    <option value="general">📢 General</option>
-    <option value="pharma">💊 Pharmacology</option>
-    <option value="cardio">❤️ Cardiology</option>
-    <option value="anatomy">🧠 Anatomy</option>
-    <option value="clinical">🩺 Clinical Skills</option>
-  </select>
-</div>
-   
-<div id="chat-panel" style="max-width: 600px; margin: auto; background: rgba(0,0,0,0.4); border-radius: 12px; padding: 1rem; box-shadow: 0 0 10px #00acc1;">
-  <div id="chat-messages" style="height: 320px; overflow-y: auto; background: #0f0f0f; padding: 1rem; border-radius: 8px; color: #fff; font-family: 'Manrope', sans-serif; font-size: 0.95rem;"></div>
+ <div class="chat-container">
+    <label>Select Room:</label>
+    <select id="chat-room" onchange="changeRoom()">
+      <option value="general">📢 General</option>
+      <option value="pharma">💊 Pharmacology</option>
+      <option value="cardio">❤️ Cardiology</option>
+      <option value="anatomy">🧠 Anatomy</option>
+      <option value="clinical">🩺 Clinical Skills</option>
+    </select>
 
-  <div style="display: flex; margin-top: 10px;">
-    <input id="chat-input" type="text" placeholder="Type your message..." style="flex: 1; padding: 0.6rem; border-radius: 6px; border: none; outline: none;">
-    <button onclick="sendMessage()" style="margin-left: 8px; padding: 0.6rem 1rem; background: #00acc1; color: white; border: none; border-radius: 6px;">Send</button>
+    <div id="chat-messages"></div>
+
+    <div class="chat-inputs">
+      <input id="chat-input" type="text" placeholder="Type your message..." />
+      <input id="chat-file" type="file" accept="image/*,.pdf,.mp3,.doc,.docx" />
+      <button onclick="sendMessage()">Send</button>
+    </div>
   </div>
 
-  <input type="file" id="chat-file" accept="image/*,.pdf,.mp3,.doc,.docx" style="margin-top: 10px; color: white;" />
-</div>
+  <div id="popup-online">👥 Users online: Loading...</div>
+  <audio id="notif-sound" src="notifym.mp3" preload="auto"></audio>
 
-<script>
-  const chatBox = document.getElementById('chat-messages');
-  const chatInput = document.getElementById('chat-input');
-  const fileInput = document.getElementById('chat-file');
-  const roomSelector = document.getElementById('chat-room');
+  <script>
+    // 🔑 Replace with your keys
+    const supabase = supabase.createClient(
+   'https://fczslywprowqzgwcwhzu.supabase.co',
+    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZjenNseXdwcm93cXpnd2N3aHp1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTE4MzU1MDEsImV4cCI6MjA2NzQxMTUwMX0.IWQ1kwEPRrigvYurWRbuHQWRrHZU9K-3bbYgdH745zk' // replace with actual anon key
+  );
 
-  let currentRoom = roomSelector.value;
-  let channel; // holds Supabase subscription
 
-  function changeRoom() {
-    currentRoom = roomSelector.value;
-    chatBox.innerHTML = '';
-    if (channel) channel.unsubscribe(); // cleanup old channel
-    loadMessages();
-    listenToRoom();
-  }
+    const chatBox = document.getElementById('chat-messages');
+    const chatInput = document.getElementById('chat-input');
+    const fileInput = document.getElementById('chat-file');
+    const roomSelector = document.getElementById('chat-room');
+    let currentRoom = roomSelector.value;
+    let channel;
 
-  // 🟢 Load messages for current room
-  async function loadMessages() {
-    const { data, error } = await supabase
-      .from('messages')
-      .select('content, created_at, sender_id, file_url, room')
-      .eq('room', currentRoom)
-      .order('created_at', { ascending: true });
-
-    if (error) {
-      console.error('Error loading messages:', error);
-      return;
+    async function changeRoom() {
+      currentRoom = roomSelector.value;
+      chatBox.innerHTML = '';
+      if (channel) channel.unsubscribe();
+      loadMessages();
+      listenToRoom();
     }
 
-    for (const msg of data) {
-      await displayMessage(msg);
+    async function loadMessages() {
+      const { data, error } = await supabase
+        .from('messages')
+        .select('content, created_at, sender_id, file_url, room')
+        .eq('room', currentRoom)
+        .order('created_at', { ascending: true });
+
+      if (error) return console.error(error);
+
+      for (const msg of data) await displayMessage(msg);
+      chatBox.scrollTop = chatBox.scrollHeight;
     }
 
-    chatBox.scrollTop = chatBox.scrollHeight;
-  }
+    async function sendMessage() {
+      const content = chatInput.value.trim();
+      const file = fileInput.files[0];
+      const session = await supabase.auth.getSession();
+      const user = session.data.session?.user;
+      if (!user) return alert('You must be logged in.');
 
-  // ✉️ Send a new message with optional file
-  async function sendMessage() {
-    const content = chatInput.value.trim();
-    const file = fileInput.files[0];
-
-    const session = await supabase.auth.getSession();
-    const user = session.data.session?.user;
-    if (!user) {
-      alert('You must be logged in to chat.');
-      return;
-    }
-
-    let fileUrl = null;
-
-    if (file) {
-      const ext = file.name.split('.').pop();
-      const path = `${user.id}/${Date.now()}.${ext}`;
-
-      const { error: uploadError } = await supabase.storage
-        .from('chatuploads')
-        .upload(path, file);
-
-      if (uploadError) {
-        console.error('Upload failed:', uploadError);
-        return;
+      let fileUrl = null;
+      if (file) {
+        const path = `${user.id}/${Date.now()}-${file.name}`;
+        const { error: uploadError } = await supabase.storage
+          .from('chatuploads')
+          .upload(path, file);
+        if (uploadError) return console.error(uploadError);
+        const { data: urlData } = supabase.storage
+          .from('chatuploads')
+          .getPublicUrl(path);
+        fileUrl = urlData.publicUrl;
       }
 
-      const { data: urlData } = supabase.storage
-        .from('chatuploads')
-        .getPublicUrl(path);
-
-      fileUrl = urlData.publicUrl;
-    }
-
-    const { error } = await supabase.from('messages').insert([
-      {
+      const { error } = await supabase.from('messages').insert([{
         content: content || '📎 Attachment',
         sender_id: user.id,
         file_url: fileUrl,
         room: currentRoom
-      }
-    ]);
+      }]);
 
-    if (error) {
-      console.error('Send error:', error);
-    } else {
-      chatInput.value = '';
-      fileInput.value = '';
-    }
-  }
-
-  // 💬 Display messages
-  async function displayMessage(msg) {
-    const { data: sender } = await supabase
-      .from('user')
-      .select('full_name')
-      .eq('id', msg.sender_id)
-      .single();
-
-    const name = sender?.full_name || 'Unknown';
-
-    const bubble = document.createElement('div');
-    bubble.style.marginBottom = '0.6rem';
-
-    let filePreview = '';
-    if (msg.file_url) {
-      if (msg.file_url.match(/\.(jpg|jpeg|png|gif)$/)) {
-        filePreview = `<img src="${msg.file_url}" style="max-width: 100%; margin-top: 5px; border-radius: 6px;" />`;
-      } else {
-        filePreview = `<a href="${msg.file_url}" target="_blank" style="color: #00e5ff;">📎 Download File</a>`;
+      if (!error) {
+        chatInput.value = '';
+        fileInput.value = '';
       }
     }
 
-    bubble.innerHTML = `
-      <div style="font-weight: bold; color: #00acc1;">${name}:</div>
-      <div>${msg.content}</div>
-      ${filePreview}
-    `;
+    async function displayMessage(msg) {
+      const session = await supabase.auth.getSession();
+      const user = session.data.session?.user;
+      const isMine = user && msg.sender_id === user.id;
 
-    chatBox.appendChild(bubble);
-    chatBox.scrollTop = chatBox.scrollHeight;
-  }
+      const { data: sender } = await supabase
+        .from('user')
+        .select('full_name')
+        .eq('id', msg.sender_id)
+        .single();
 
-  // 🔁 Listen to current room only
-  function listenToRoom() {
-    channel = supabase
-      .channel('room_' + currentRoom)
-      .on(
-        'postgres_changes',
-        {
+      const name = sender?.full_name || 'Unknown';
+
+      const bubble = document.createElement('div');
+      bubble.className = 'msg-bubble ' + (isMine ? 'mine' : 'theirs');
+      let filePreview = '';
+      if (msg.file_url) {
+        if (msg.file_url.match(/\.(jpg|jpeg|png|gif)$/)) {
+          filePreview = `<br/><img src="${msg.file_url}" style="max-width: 100%; margin-top: 6px; border-radius: 8px;">`;
+        } else {
+          filePreview = `<br/><a href="${msg.file_url}" target="_blank" style="color: #00e5ff;">📎 View File</a>`;
+        }
+      }
+
+      bubble.innerHTML = `<strong>${name}:</strong><br/>${msg.content}${filePreview}`;
+      chatBox.appendChild(bubble);
+      chatBox.scrollTop = chatBox.scrollHeight;
+
+      // 🔊 Play sound
+      document.getElementById('notif-sound').play().catch(() => {});
+    }
+
+    function listenToRoom() {
+      channel = supabase
+        .channel('room_' + currentRoom)
+        .on('postgres_changes', {
           event: 'INSERT',
           schema: 'public',
           table: 'messages',
           filter: `room=eq.${currentRoom}`
-        },
-        payload => {
+        }, payload => {
           displayMessage(payload.new);
-        }
-      )
-      .subscribe();
-  }
+        })
+        .subscribe();
+    }
 
-  // 🚀 Initial load
-  loadMessages();
-  listenToRoom();
-</script>
+    // Simulate Online Popup (replace with presence later)
+    async function showOnlinePopup() {
+      const popup = document.getElementById('popup-online');
+      const { data } = await supabase.from('user').select('id');
+      popup.innerText = `👥 ${data.length} users online`;
+      popup.style.display = 'block';
+      setTimeout(() => popup.style.display = 'none', 5000);
+    }
 
+    // Initial load
+    loadMessages();
+    listenToRoom();
+    setInterval(showOnlinePopup, 30000); // every 30s
+  </script>
 </body>
 </html>
 
