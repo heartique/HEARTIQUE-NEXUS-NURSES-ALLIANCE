@@ -1233,157 +1233,226 @@ if (!error && userData?.full_name) {
     <a href="privacy.html">Privacy Policy</a>
   </p>
 </footer>
- <div class="chat-container">
-    <label>Select Room:</label>
-    <select id="chat-room" onchange="changeRoom()">
+<!-- 💬 Floating Chat Button -->
+<style>
+  #chat-fab {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000;
+    width: 60px;
+    height: 60px;
+    background: #00acc1;
+    color: white;
+    border-radius: 50%;
+    font-size: 28px;
+    text-align: center;
+    line-height: 60px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    cursor: pointer;
+  }
+
+  #chat-box {
+    position: fixed;
+    bottom: 100px;
+    right: 30px;
+    width: 360px;
+    max-height: 500px;
+    display: none;
+    flex-direction: column;
+    background: rgba(15, 15, 15, 0.95);
+    border-radius: 12px;
+    box-shadow: 0 0 20px #00acc1;
+    overflow: hidden;
+    z-index: 999;
+  }
+
+  #chat-header {
+    background: #00acc1;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  #chat-messages {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1rem;
+    font-family: 'Manrope', sans-serif;
+    font-size: 0.95rem;
+  }
+
+  .chat-bubble {
+    max-width: 80%;
+    margin-bottom: 0.8rem;
+    padding: 0.6rem;
+    border-radius: 12px;
+    word-wrap: break-word;
+    line-height: 1.4;
+  }
+
+  .me {
+    background: #004d40;
+    color: white;
+    margin-left: auto;
+    text-align: right;
+  }
+
+  .other {
+    background: #263238;
+    color: white;
+    margin-right: auto;
+    text-align: left;
+  }
+</style>
+
+<div id="chat-fab" onclick="toggleChat()">💬</div>
+
+<div id="chat-box">
+  <div id="chat-header">
+    🧠 Study Chat Rooms
+    <select id="chat-room" onchange="changeRoom()" style="float: right; background: white; color: black; border-radius: 6px; padding: 2px 6px;">
       <option value="general">📢 General</option>
-      <option value="pharma">💊 Pharmacology</option>
-      <option value="cardio">❤️ Cardiology</option>
+      <option value="pharma">💊 Pharma</option>
+      <option value="cardio">❤️ Cardio</option>
       <option value="anatomy">🧠 Anatomy</option>
-      <option value="clinical">🩺 Clinical Skills</option>
+      <option value="clinical">🩺 Clinical</option>
     </select>
-
-    <div id="chat-messages"></div>
-
-    <div class="chat-inputs">
-      <input id="chat-input" type="text" placeholder="Type your message..." />
-      <input id="chat-file" type="file" accept="image/*,.pdf,.mp3,.doc,.docx" />
-      <button onclick="sendMessage()">Send</button>
-    </div>
   </div>
 
-  <div id="popup-online">👥 Users online: Loading...</div>
-  <audio id="notif-sound" src="notifym.mp3" preload="auto"></audio>
+  <div id="chat-messages"></div>
 
-  <script>
-    // 🔑 Replace with your keys
-    const supabase = supabase.createClient(
-   'https://fczslywprowqzgwcwhzu.supabase.co',
-    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZjenNseXdwcm93cXpnd2N3aHp1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTE4MzU1MDEsImV4cCI6MjA2NzQxMTUwMX0.IWQ1kwEPRrigvYurWRbuHQWRrHZU9K-3bbYgdH745zk' // replace with actual anon key
-  );
+  <div style="display: flex; gap: 6px; padding: 0.6rem;">
+    <input id="chat-input" type="text" placeholder="Type message..." style="flex: 1; padding: 0.5rem; border-radius: 6px; border: none; outline: none;">
+    <input type="file" id="chat-file" style="width: 20px;" />
+    <button onclick="sendMessage()" style="background: #00acc1; color: white; padding: 0.5rem 0.8rem; border: none; border-radius: 6px;">▶</button>
+  </div>
+</div>
+<script>
+  const chatBoxEl = document.getElementById('chat-box');
+  const fab = document.getElementById('chat-fab');
+  const chatMessages = document.getElementById('chat-messages');
+  const chatInput = document.getElementById('chat-input');
+  const fileInput = document.getElementById('chat-file');
+  const roomSelector = document.getElementById('chat-room');
 
+  let currentRoom = roomSelector.value;
+  let userId = null;
+  let channel = null;
 
-    const chatBox = document.getElementById('chat-messages');
-    const chatInput = document.getElementById('chat-input');
-    const fileInput = document.getElementById('chat-file');
-    const roomSelector = document.getElementById('chat-room');
-    let currentRoom = roomSelector.value;
-    let channel;
-
-    async function changeRoom() {
-      currentRoom = roomSelector.value;
-      chatBox.innerHTML = '';
-      if (channel) channel.unsubscribe();
-      loadMessages();
-      listenToRoom();
-    }
-
-    async function loadMessages() {
-      const { data, error } = await supabase
-        .from('messages')
-        .select('content, created_at, sender_id, file_url, room')
-        .eq('room', currentRoom)
-        .order('created_at', { ascending: true });
-
-      if (error) return console.error(error);
-
-      for (const msg of data) await displayMessage(msg);
-      chatBox.scrollTop = chatBox.scrollHeight;
-    }
-
-    async function sendMessage() {
-      const content = chatInput.value.trim();
-      const file = fileInput.files[0];
-      const session = await supabase.auth.getSession();
-      const user = session.data.session?.user;
-      if (!user) return alert('You must be logged in.');
-
-      let fileUrl = null;
-      if (file) {
-        const path = `${user.id}/${Date.now()}-${file.name}`;
-        const { error: uploadError } = await supabase.storage
-          .from('chatuploads')
-          .upload(path, file);
-        if (uploadError) return console.error(uploadError);
-        const { data: urlData } = supabase.storage
-          .from('chatuploads')
-          .getPublicUrl(path);
-        fileUrl = urlData.publicUrl;
-      }
-
-      const { error } = await supabase.from('messages').insert([{
-        content: content || '📎 Attachment',
-        sender_id: user.id,
-        file_url: fileUrl,
-        room: currentRoom
-      }]);
-
-      if (!error) {
-        chatInput.value = '';
-        fileInput.value = '';
-      }
-    }
-
-    async function displayMessage(msg) {
-      const session = await supabase.auth.getSession();
-      const user = session.data.session?.user;
-      const isMine = user && msg.sender_id === user.id;
-
-      const { data: sender } = await supabase
-        .from('user')
-        .select('full_name')
-        .eq('id', msg.sender_id)
-        .single();
-
-      const name = sender?.full_name || 'Unknown';
-
-      const bubble = document.createElement('div');
-      bubble.className = 'msg-bubble ' + (isMine ? 'mine' : 'theirs');
-      let filePreview = '';
-      if (msg.file_url) {
-        if (msg.file_url.match(/\.(jpg|jpeg|png|gif)$/)) {
-          filePreview = `<br/><img src="${msg.file_url}" style="max-width: 100%; margin-top: 6px; border-radius: 8px;">`;
-        } else {
-          filePreview = `<br/><a href="${msg.file_url}" target="_blank" style="color: #00e5ff;">📎 View File</a>`;
-        }
-      }
-
-      bubble.innerHTML = `<strong>${name}:</strong><br/>${msg.content}${filePreview}`;
-      chatBox.appendChild(bubble);
-      chatBox.scrollTop = chatBox.scrollHeight;
-
-      // 🔊 Play sound
-      document.getElementById('notif-sound').play().catch(() => {});
-    }
-
-    function listenToRoom() {
-      channel = supabase
-        .channel('room_' + currentRoom)
-        .on('postgres_changes', {
-          event: 'INSERT',
-          schema: 'public',
-          table: 'messages',
-          filter: `room=eq.${currentRoom}`
-        }, payload => {
-          displayMessage(payload.new);
-        })
-        .subscribe();
-    }
-
-    // Simulate Online Popup (replace with presence later)
-    async function showOnlinePopup() {
-      const popup = document.getElementById('popup-online');
-      const { data } = await supabase.from('user').select('id');
-      popup.innerText = `👥 ${data.length} users online`;
-      popup.style.display = 'block';
-      setTimeout(() => popup.style.display = 'none', 5000);
-    }
-
-    // Initial load
+  async function initChat() {
+    const session = await supabase.auth.getSession();
+    const user = session.data.session?.user;
+    if (!user) return alert('Login required');
+    userId = user.id;
     loadMessages();
     listenToRoom();
-    setInterval(showOnlinePopup, 30000); // every 30s
-  </script>
+  }
+
+  function toggleChat() {
+    const isOpen = chatBoxEl.style.display === 'flex';
+    chatBoxEl.style.display = isOpen ? 'none' : 'flex';
+    if (!isOpen) initChat();
+  }
+
+  function changeRoom() {
+    currentRoom = roomSelector.value;
+    chatMessages.innerHTML = '';
+    if (channel) channel.unsubscribe();
+    loadMessages();
+    listenToRoom();
+  }
+
+  async function loadMessages() {
+    const { data, error } = await supabase
+      .from('messages')
+      .select('content, sender_id, file_url, created_at')
+      .eq('room', currentRoom)
+      .order('created_at');
+
+    if (!error && data) {
+      for (const msg of data) await displayMessage(msg);
+      chatMessages.scrollTop = chatMessages.scrollHeight;
+    }
+  }
+
+  async function sendMessage() {
+    const content = chatInput.value.trim();
+    const file = fileInput.files[0];
+
+    const session = await supabase.auth.getSession();
+    const user = session.data.session?.user;
+    if (!user) return alert('Login required');
+
+    let fileUrl = null;
+
+    if (file) {
+      const ext = file.name.split('.').pop();
+      const path = `${user.id}/${Date.now()}.${ext}`;
+      const { error: uploadError } = await supabase.storage
+        .from('chatuploads')
+        .upload(path, file);
+
+      if (uploadError) return console.error(uploadError);
+
+      const { data: urlData } = supabase.storage
+        .from('chatuploads')
+        .getPublicUrl(path);
+
+      fileUrl = urlData.publicUrl;
+    }
+
+    const { error } = await supabase.from('messages').insert([
+      {
+        content: content || '📎 Attachment',
+        sender_id: user.id,
+        room: currentRoom,
+        file_url: fileUrl
+      }
+    ]);
+
+    if (!error) {
+      chatInput.value = '';
+      fileInput.value = '';
+    }
+  }
+
+  async function displayMessage(msg) {
+    const mine = msg.sender_id === userId;
+    const side = mine ? 'me' : 'other';
+    const bubble = document.createElement('div');
+    bubble.className = `chat-bubble ${side}`;
+
+    let filePreview = '';
+    if (msg.file_url) {
+      if (msg.file_url.match(/\.(jpg|jpeg|png|gif)$/)) {
+        filePreview = `<img src="${msg.file_url}" style="max-width: 100%; border-radius: 8px; margin-top: 5px;" />`;
+      } else {
+        filePreview = `<a href="${msg.file_url}" target="_blank" style="color: #00e5ff;">📎 File</a>`;
+      }
+    }
+
+    bubble.innerHTML = `<div>${msg.content}</div>${filePreview}`;
+    chatMessages.appendChild(bubble);
+    chatMessages.scrollTop = chatMessages.scrollHeight;
+  }
+
+  function listenToRoom() {
+    channel = supabase
+      .channel('room_' + currentRoom)
+      .on('postgres_changes', {
+        event: 'INSERT',
+        schema: 'public',
+        table: 'messages',
+        filter: `room=eq.${currentRoom}`
+      }, payload => {
+        displayMessage(payload.new);
+      })
+      .subscribe();
+  }
+</script>
+
 </body>
 </html>
 
