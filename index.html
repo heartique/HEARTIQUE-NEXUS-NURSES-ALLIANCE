@@ -955,26 +955,15 @@
     });
 </script>
 
-<!-- ✅ Supabase + Profile Logic (No Refresh) -->
+<!-- ✅ Supabase + Profile Sync -->
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
 <script>
   const supabase = window.supabase.createClient(
     'https://fczslywprowqzgwcwhzu.supabase.co',
-    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZjenNseXdwcm93cXpnd2N3aHp1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTE4MzU1MDEsImV4cCI6MjA2NzQxMTUwMX0.IWQ1kwEPRrigvYurWRbuHQWRrHZU9K-3bbYgdH745zk' // replace with actual anon key
+    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZjenNseXdwcm93cXpnd2N3aHp1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTE4MzU1MDEsImV4cCI6MjA2NzQxMTUwMX0.IWQ1kwEPRrigvYurWRbuHQWRrHZU9K-3bbYgdH745zk'
   );
 
-  const profileBtn = document.getElementById('profileBtn');
-  const profileModal = document.getElementById('profileModal');
-  const rippleEffect = document.getElementById('rippleEffect');
-
-  function triggerRippleEffect() {
-    if (!rippleEffect) return;
-    rippleEffect.style.opacity = '1';
-    setTimeout(() => {
-      rippleEffect.style.opacity = '0';
-    }, 400);
-  }
-
+  // Handle auth state change
   supabase.auth.onAuthStateChange((event, session) => {
     if (session) {
       localStorage.setItem('supabaseSession', JSON.stringify(session));
@@ -983,6 +972,7 @@
     }
   });
 
+  // Expiry checker
   function isSessionExpired(session) {
     const now = Math.floor(Date.now() / 1000);
     return session.expires_at && session.expires_at < now;
@@ -1009,26 +999,30 @@
 
     const userId = session.user.id;
     const userEmail = session.user.email;
-    let fullName = localStorage.getItem('full_name');
 
-    if (!fullName) {
-      const { data: userData, error } = await supabase
-  .from('user')
-  .select('full_name')
-  .eq('id', userId)
-  .single();
+    // Check localStorage or metadata for name
+    let fullName = localStorage.getItem('full_name') || session.user.user_metadata?.full_name;
 
-if (!error && userData?.full_name) {
-  fullName = userData.full_name;
-  localStorage.setItem('full_name', fullName);
-}
+    // Push to user table if not present
+    const { data: userRow, error: fetchError } = await supabase
+      .from('user')
+      .select('full_name')
+      .eq('id', userId)
+      .single();
 
+    if (!userRow && fullName) {
+      await supabase.from('user').insert([{ id: userId, full_name: fullName }]);
+    } else if (userRow?.full_name && !fullName) {
+      fullName = userRow.full_name;
+      localStorage.setItem('full_name', fullName);
     }
 
+    // UI updates
     if (fullName) {
       if (greetingEl) greetingEl.textContent = `Welcome, ${fullName}!`;
       if (welcomeUser) welcomeUser.textContent = `Hello ${fullName}, we're glad to have you on the Nursing Nexus Portal 👋`;
       if (modalName) modalName.textContent = fullName;
+      localStorage.setItem('full_name', fullName);
     }
 
     if (modalEmail) modalEmail.textContent = userEmail;
@@ -1038,88 +1032,6 @@ if (!error && userData?.full_name) {
   }
 
   setTimeout(loadUser, 50);
-
-  async function logout() {
-    const confirmed = confirm("Are you sure you want to log out?");
-  if (!confirmed) return;
-
-    await supabase.auth.signOut();
-    localStorage.removeItem('supabaseSession');
-    window.location.href = 'login.html';
-  }
-
-  // ❌ Delete Account with confirmation modal
-  function showConfirmModal(callback) {
-    const modal = document.getElementById('confirmModal');
-    modal.style.display = 'flex';
-
-    const yesBtn = document.getElementById('confirmYes');
-    const noBtn = document.getElementById('confirmNo');
-
-    const cleanup = () => {
-      modal.style.display = 'none';
-      yesBtn.removeEventListener('click', onConfirm);
-      noBtn.removeEventListener('click', onCancel);
-    };
-
-    const onConfirm = () => {
-      cleanup();
-      callback(true);
-    };
-
-    const onCancel = () => {
-      cleanup();
-      callback(false);
-    };
-
-    yesBtn.addEventListener('click', onConfirm);
-    noBtn.addEventListener('click', onCancel);
-  }
-
-  async function deleteAccount() {
-    triggerRippleEffect();
-
-    showConfirmModal(async (confirmed) => {
-      if (!confirmed) return alert("Account deletion cancelled.");
-
-      const { data: { user } } = await supabase.auth.getUser();
-      if (!user) return alert("You're not logged in.");
-
-      const { error } = await supabase.from('user').delete().eq('id', user.id);
-      if (error) return alert("❌ Error deleting user.");
-
-      alert("✅ Account deleted. Logging out...");
-      await supabase.auth.signOut();
-      localStorage.clear();
-      window.location.href = 'login.html';
-    });
-  }
-
-  // 🧑 Profile Modal Toggle
-  profileBtn?.addEventListener('click', (e) => {
-    profileModal.style.display = profileModal.style.display === 'block' ? 'none' : 'block';
-    triggerRippleEffect();
-    e.stopPropagation();
-  });
-
-  // ⛔ Close modal on outside click
-  document.addEventListener('click', (e) => {
-    if (!profileModal.contains(e.target) && e.target !== profileBtn) {
-      profileModal.style.display = 'none';
-    }
-  });
-
-  // ✨ Animate profile button only
-  function animateButton(id) {
-    const btn = document.getElementById(id);
-    if (!btn) return;
-    btn.addEventListener('mouseenter', () => btn.style.boxShadow = '0 0 15px #8000ff');
-    btn.addEventListener('mouseleave', () => btn.style.boxShadow = '0 0 8px rgba(0,0,0,0.3)');
-    btn.addEventListener('mousedown', () => btn.style.transform = 'scale(0.95)');
-    btn.addEventListener('mouseup', () => btn.style.transform = 'scale(1)');
-  }
-
-  animateButton('profileBtn');
 </script>
 
 
@@ -1338,6 +1250,61 @@ if (!error && userData?.full_name) {
     color: #00e5ff;
     margin-bottom: 4px;
   }
+
+  #typing-indicator {
+    color: #00e5ff;
+    font-style: italic;
+    font-size: 0.85rem;
+    margin-left: 8px;
+  }
+
+  #chat-footer {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    border-top: 1px solid #00acc1;
+    gap: 6px;
+    background: #121212;
+  }
+
+  #chat-input {
+    flex: 1;
+    padding: 0.5rem;
+    border-radius: 24px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding-left: 14px;
+  }
+
+  #chat-file {
+    display: none;
+  }
+
+  #file-label {
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    padding: 0 6px;
+  }
+
+  #emoji-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+  }
+
+  #send-btn {
+    background: #00acc1;
+    color: white;
+    padding: 0.5rem 0.8rem;
+    border: none;
+    border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;
+  }
 </style>
 
 <div id="chat-fab" onclick="toggleChat()">💬</div>
@@ -1355,11 +1322,14 @@ if (!error && userData?.full_name) {
   </div>
 
   <div id="chat-messages"></div>
+  <div id="typing-indicator" style="padding: 0 1rem;"></div>
 
-  <div style="display: flex; gap: 6px; padding: 0.6rem;">
-    <input id="chat-input" type="text" placeholder="Type message..." style="flex: 1; padding: 0.5rem; border-radius: 6px; border: none; outline: none;">
-    <input type="file" id="chat-file" style="width: 20px;" />
-    <button onclick="sendMessage()" style="background: #00acc1; color: white; padding: 0.5rem 0.8rem; border: none; border-radius: 6px;">▶</button>
+  <div id="chat-footer">
+    <label id="file-label" for="chat-file">📎</label>
+    <input type="file" id="chat-file">
+    <button id="emoji-btn" onclick="addEmoji('😄')">😄</button>
+    <input id="chat-input" type="text" placeholder="Type a message..." oninput="sendTypingStatus()">
+    <button id="send-btn" onclick="sendMessage()">▶</button>
   </div>
 </div>
 
@@ -1370,19 +1340,13 @@ if (!error && userData?.full_name) {
   const chatInput = document.getElementById('chat-input');
   const fileInput = document.getElementById('chat-file');
   const roomSelector = document.getElementById('chat-room');
+  const typingIndicator = document.getElementById('typing-indicator');
 
   let currentRoom = roomSelector.value;
   let userId = null;
+  let fullName = null;
   let channel = null;
-
-  async function initChat() {
-    const session = await supabase.auth.getSession();
-    const user = session.data.session?.user;
-    if (!user) return alert('Login required');
-    userId = user.id;
-    loadMessages();
-    listenToRoom();
-  }
+  let typingTimeout = null;
 
   function toggleChat() {
     const isOpen = chatBoxEl.style.display === 'flex';
@@ -1390,9 +1354,22 @@ if (!error && userData?.full_name) {
     if (!isOpen) initChat();
   }
 
+  async function initChat() {
+    const session = await supabase.auth.getSession();
+    const user = session.data.session?.user;
+    if (!user) return alert('Login required');
+
+    userId = user.id;
+    fullName = localStorage.getItem('full_name') || user.user_metadata?.full_name || 'You';
+
+    await loadMessages();
+    listenToRoom();
+  }
+
   function changeRoom() {
     currentRoom = roomSelector.value;
     chatMessages.innerHTML = '';
+    typingIndicator.textContent = '';
     if (channel) channel.unsubscribe();
     loadMessages();
     listenToRoom();
@@ -1455,14 +1432,16 @@ if (!error && userData?.full_name) {
     const bubble = document.createElement('div');
     bubble.className = `chat-bubble ${mine ? 'me' : 'other'}`;
 
-    let senderName = 'You';
+    let senderName = mine ? fullName : 'Unknown';
+
     if (!mine) {
-      const { data: sender } = await supabase
+      const { data: sender, error } = await supabase
         .from('user')
         .select('full_name')
         .eq('id', msg.sender_id)
         .single();
-      senderName = sender?.full_name || 'Unknown';
+
+      if (!error && sender?.full_name) senderName = sender.full_name;
     }
 
     let filePreview = '';
@@ -1485,17 +1464,41 @@ if (!error && userData?.full_name) {
   }
 
   function listenToRoom() {
+    if (channel) channel.unsubscribe();
+
     channel = supabase
-      .channel('room_' + currentRoom)
+      .channel('chat_' + currentRoom)
       .on('postgres_changes', {
         event: 'INSERT',
         schema: 'public',
-        table: 'messages',
-        filter: `room=eq.${currentRoom}`
+        table: 'messages'
       }, payload => {
-        displayMessage(payload.new);
+        if (payload.new.room === currentRoom) displayMessage(payload.new);
+      })
+      .on('broadcast', { event: 'typing' }, payload => {
+        if (payload.payload.userId !== userId && payload.payload.room === currentRoom) {
+          typingIndicator.textContent = `${payload.payload.name} is typing...`;
+          clearTimeout(typingTimeout);
+          typingTimeout = setTimeout(() => {
+            typingIndicator.textContent = '';
+          }, 2000);
+        }
       })
       .subscribe();
+  }
+
+  function sendTypingStatus() {
+    if (!userId || !fullName || !channel) return;
+    channel.send({
+      type: 'broadcast',
+      event: 'typing',
+      payload: { userId, name: fullName, room: currentRoom }
+    });
+  }
+
+  function addEmoji(emoji) {
+    chatInput.value += emoji;
+    chatInput.focus();
   }
 </script>
     </body>
