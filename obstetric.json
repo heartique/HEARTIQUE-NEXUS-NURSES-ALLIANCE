@@ -1568,7 +1568,7 @@
       "C": "Immunization in the newborn should be delayed until all maternal antibodies are gone.",
       "D": "Maternal death includes deaths from unrelated accidental injuries like road traffic accidents during pregnancy."
     },
-    "answer": "A, B",
+    "answer": "B",
     "explanation": "Statement (a): This is the fundamental principle behind the infant immunization schedule. Vaccines are timed to be given just as the passive immunity received from the mother (maternal antibodies) begins to wane, but before the infant is left completely vulnerable. This provides active immunity as the infant's own immune system is stimulated to produce its own antibodies. For example, the measles vaccine is given at 9 months because maternal antibodies to measles can interfere with the vaccine if given earlier.\n\nStatement (b): This is the standard WHO definition of maternal death. It is formally defined as \"the death of a woman while pregnant or within 42 days of termination of pregnancy, irrespective of the duration and site of the pregnancy, from any cause related to or aggravated by the pregnancy or its management but not from accidental or incidental causes.\" This definition is crucial for accurately calculating the Maternal Mortality Ratio (MMR).",
     "additional": "A late maternal death is defined as the death of a woman from direct or indirect obstetric causes more than 42 days but less than one year after termination of pregnancy. This is tracked separately but is also an important public health indicator."
   },
