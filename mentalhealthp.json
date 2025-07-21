@@ -1783,9 +1783,45 @@
     },
     "answer": "A",
     "explanation": "Relapse prevention is a core component of addiction treatment. It is a cognitive-behavioral approach.\n\nMost Important Component: The cornerstone of relapse prevention is helping the patient to identify their personal triggers—the internal states (e.g., stress, anger, boredom) and external situations (e.g., seeing old using buddies, passing a specific bar, pay day) that create a high risk for relapse.\n\nPlanning: Once the triggers are identified, the patient can then develop specific, practical strategies to either avoid these high-risk situations or cope with them effectively when they cannot be avoided.\n\nB is unrealistic and can lead to isolation, which is a risk factor for relapse. C and D are incorrect and potentially dangerous."
-  }
+  },
+  {
+  "question": "The client has a long history of schizophrenia which has been controlled by haloperidol. During an admission assessment resulting from the exacerbation of the disease, the nurse notes continuous restlessness and fidgeting. Which medication would the nurse expect the physician to prescribe for this client?",
+  "options": {
+    "A": "Haloperidol",
+    "B": "Fluphenazine decanoate (Moderate) injection",
+    "C": "Clozapine",
+    "D": "Trihexyphenidyl (artane)"
+  },
+  "answer": "D",
+  "explanation": "The key symptoms described, \"continuous restlessness and fidgeting,\" are the classic signs of Akathisia. Akathisia is a distressing movement disorder and a type of Extrapyramidal Side Effect (EPS) commonly caused by first-generation (typical) antipsychotics like haloperidol. The treatment for akathisia is not another antipsychotic, but a medication that counteracts this side effect.\n\nWhy D is correct: Trihexyphenidyl (Artane) is an anticholinergic medication. Anticholinergics are used to treat and manage extrapyramidal side effects like akathisia and drug-induced parkinsonism.\n\nWhy A, B, and C are incorrect:\n\nA (Haloperidol) and B (Fluphenazine) are both typical antipsychotics that cause EPS. Giving more would worsen the akathisia.\n\nC (Clozapine) is an atypical antipsychotic used to treat schizophrenia, but it is not the first-line treatment for an acute EPS symptom caused by another drug.",
+  "additional": "Extrapyramidal Side Effects (EPS) are a critical topic for NCK. You must be able to identify them and know the appropriate interventions.\n\nTypes of EPS to Know:\n\nAcute Dystonia: Sudden, severe muscle spasms, often in the neck (torticollis), face, or back. Can be a medical emergency if it affects the larynx. Treatment: IM or IV Benztropine (Cogentin) or Diphenhydramine (Benadryl).\n\nAkathisia: (As in the question) Severe motor restlessness and inability to stay still. Associated with a high risk of suicide due to the intense distress it causes. Treatment: Anticholinergics (Trihexyphenidyl), beta-blockers (Propranolol), or benzodiazepines.\n\nPseudoparkinsonism: Symptoms that mimic Parkinson's disease: shuffling gait, resting tremor, muscle rigidity (cogwheeling), and bradykinesia (slowness of movement). Treatment: Anticholinergics.\n\nTardive Dyskinesia (TD): A late-onset and often irreversible condition characterized by involuntary movements, typically of the face and mouth (lip-smacking, tongue protrusion, grimacing). Key Point: Anticholinergics can worsen TD. The primary intervention is to stop the offending drug and switch to an atypical antipsychotic (like clozapine). The Abnormal Involuntary Movement Scale (AIMS) is used to screen for TD.\n\nPotential NCK Question: \"A client receiving fluphenazine develops a stiff neck and their eyes roll upwards. What is the nurse's priority action?\" Answer: Administer PRN benztropine (Cogentin) immediately and notify the physician."
+},
+{
+  "question": "A client is admitted to an inpatient psychiatric unit with a diagnosis of major depressive disorder. On assessment, the nurse would expect all the following except;",
+  "options": {
+    "A": "Loss of interest in almost all activities and anhedonia",
+    "B": "A change of more than 5% of bodyweight in 1 month",
+    "C": "Fluctuation between increased energy and loss of energy",
+    "D": "Psychomotor retardation or agitation"
+  },
+  "answer": "C",
+  "explanation": "The question asks what you would not expect in Major Depressive Disorder (MDD). The core feature of MDD is a persistent low mood and/or loss of interest or pleasure.\n\nWhy C is correct: \"Fluctuation between increased energy and loss of energy\" is the hallmark sign of Bipolar Disorder, where a person cycles between manic/hypomanic episodes (high energy) and depressive episodes (low energy). This is not characteristic of unipolar depression (MDD).\n\nWhy A, B, and D are incorrect (because they ARE symptoms of MDD):\n\nA: Anhedonia (loss of interest or pleasure) is a core diagnostic criterion for MDD.\n\nB: Significant weight loss or gain (a change of >5% in a month) is a common neurovegetative sign of MDD.\n\nD: Psychomotor retardation (slowing of thought and movement) or agitation (restlessness) are also classic symptoms.",
+  "additional": "You must be able to differentiate between Major Depressive Disorder and Bipolar Disorder.\n\nMDD Diagnostic Criteria (SIGECAPS Mnemonic):\n\nSleep disturbance (insomnia or hypersomnia)\n\nInterest loss (anhedonia)\n\nGuilt or feelings of worthlessness\n\nEnergy loss (fatigue)\n\nConcentration difficulties\n\nAppetite changes (weight loss or gain)\n\nPsychomotor retardation or agitation\n\nSuicidal ideation\n\nBipolar Disorder:\n\nBipolar I: At least one full manic episode (severe, may require hospitalization, can have psychotic features). Depressive episodes also occur.\n\nBipolar II: At least one hypomanic episode (less severe, no psychosis, no hospitalization needed) and at least one major depressive episode.\n\nPotential NCK Question: \"A nurse is assessing a client with depression. Which client statement would lead the nurse to suspect Bipolar Disorder instead of Major Depressive Disorder?\" Answer: A statement like, \"Last month I felt on top of the world, didn't need sleep, and started three huge projects.\""
+},
+{
+  "question": "Which of the following is not a symptom of mania?",
+  "options": {
+    "A": "Thoughts fragmented, flight of ideas noted",
+    "B": "Mood euphoric and expansive. Rates mood a 10/10",
+    "C": "Pacing halls throughout the day. Exhibits poor impulse control",
+    "D": "Hallucinations"
+  },
+  "answer": "D",
+  "explanation": "This question tests your knowledge of the core, defining symptoms of a manic episode. While hallucinations can occur in severe mania, they are considered a psychotic feature and are not a universal or defining symptom in the same way the other options are.\n\nWhy D is correct: Hallucinations are a sign of psychosis. While mania can become so severe that it includes psychotic features (mood-congruent hallucinations, like hearing God's voice), it is not a core symptom required for the diagnosis itself. The other three options are central to the diagnosis of mania.\n\nWhy A, B, and C are incorrect (because they ARE symptoms of mania):\n\nA: Flight of ideas (rapid, fragmented speech) is a classic thought process disturbance in mania.\n\nB: A euphoric, elevated, or expansive mood is the primary mood disturbance in mania.\n\nC: Increased goal-directed activity (pacing) and poor impulse control (risky behaviors, overspending) are hallmark behavioral symptoms.",
+  "additional": "Memorize the key features of a manic episode using the DIG FAST mnemonic.\n\nDIG FAST Mnemonic for Mania:\n\nDistractibility\n\nIndiscretion (risky behavior) / Impulsivity\n\nGrandiosity (inflated self-esteem)\n\nFlight of ideas\n\nActivity increase (psychomotor agitation)\n\nSleep deficit (decreased need for sleep)\n\nTalkativeness (pressured speech)\n\nNursing Priorities for Mania:\n\nSafety: Protect the client from impulsive and reckless behavior.\n\nPhysiological Needs: Ensure nutrition and hydration (offer high-calorie, finger foods they can eat on the go), and promote rest.\n\nEnvironment: Provide a low-stimulus environment to decrease agitation.\n\nCommunication: Use a calm, firm, and concise approach.\n\nPotential NCK Question: \"What is the priority nursing diagnosis for a client in an acute manic episode exhibiting grandiosity and reckless spending?\" Answer: Risk for injury."
+}
 ]
-
+  
 
 
 
