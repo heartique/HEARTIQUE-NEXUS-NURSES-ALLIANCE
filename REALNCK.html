@@ -5,17 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>NCK CBT Simulation</title>
   <style>
-    body {
+    html, body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background-color: #f9f9f9;
       margin: 0;
       padding: 0;
+      overflow-x: hidden;
     }
     header {
       background: #002147;
       color: white;
       padding: 1rem 2rem;
       text-align: center;
+    }
+    .tab-bar, .container, #timer, footer, #start-page {
+      display: none;
     }
     .tab-bar {
       display: flex;
@@ -89,9 +93,55 @@
       margin-top: 50px;
       color: #777;
     }
+    .form-page {
+      max-width: 700px;
+      margin: 50px auto;
+      padding: 40px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .form-page input {
+      padding: 10px;
+      width: 90%;
+      margin: 10px 0;
+      font-size: 16px;
+    }
+    .form-page button {
+      padding: 12px 25px;
+      font-size: 16px;
+      background: #002147;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
   </style>
 </head>
 <body>
+
+  <div id="intro-page" class="form-page">
+    <h2>Welcome to NCK Simulation Portal</h2>
+    <p>Enter your details to begin:</p>
+    <input type="text" id="full-name" placeholder="Full Name" required />
+    <input type="tel" id="phone-number" placeholder="e.g. 254712345678" required />
+    <input type="text" id="reason" placeholder="Reason (e.g. Revision, Mock...)" required />
+    <button onclick="proceedToInstructions()">Continue</button>
+  </div>
+
+  <div id="start-page" class="form-page">
+    <h2>Instructions</h2>
+    <ul style="text-align:left;max-width:500px;margin:20px auto;">
+      <li>Each question has a timer of 1.5 minutes.</li>
+      <li>Once started, do not reload or go back.</li>
+      <li>NCK simulations activate full-screen mode.</li>
+      <li>Attempt all questions before submitting.</li>
+    </ul>
+    <button onclick="startApp()">Start Simulation</button>
+  </div>
+
   <header>
     <h1>NCK CBT Exam Practice</h1>
     <p>Simulated Environment for Mock and Main Exam Preparation</p>
@@ -107,14 +157,52 @@
   <footer>© 2025 HEARTIQUE NURSING SIM</footer>
 
   <script>
+    let userName = "";
+    let userPhone = "";
+    let userReason = "";
+
+    function proceedToInstructions() {
+      const name = document.getElementById("full-name").value.trim();
+      const phone = document.getElementById("phone-number").value.trim();
+      const reason = document.getElementById("reason").value.trim();
+
+      if (name.length < 3) {
+        alert("Please enter your full name.");
+        return;
+      }
+      if (!/^2547\d{8}$/.test(phone)) {
+        alert("Enter a valid Kenyan WhatsApp number (e.g. 2547XXXXXXXX)");
+        return;
+      }
+      if (reason.length < 3) {
+        alert("Please enter a valid reason for the test.");
+        return;
+      }
+
+      userName = name;
+      userPhone = phone;
+      userReason = reason;
+
+      document.getElementById("intro-page").style.display = "none";
+      document.getElementById("start-page").style.display = "block";
+    }
+
+    function startApp() {
+      document.getElementById("start-page").style.display = "none";
+      document.querySelector(".tab-bar").style.display = "flex";
+      document.querySelector(".container").style.display = "block";
+      document.getElementById("timer").style.display = "block";
+      document.querySelector("footer").style.display = "block";
+    }
+
     const fileList = [
-      { name: "MOCK 1", file: "mock1.json", profectus: true },
-      { name: "MOCK 2", file: "mock2.json", profectus: true },
-      { name: "MOCK 3", file: "mock3.json", profectus: true },
-      { name: "NCK 1", file: "nck1.json", profectus: true },
-      { name: "NCK 2", file: "nck2.json", profectus: true },
-      { name: "NCK 3", file: "nck3.json", profectus: true },
-      { name: "FINAL SELF TEST", file: "final_nck_self.json", profectus: true }
+      { name: "MOCK 1", file: "mock1.json" },
+      { name: "MOCK 2", file: "mock2.json" },
+      { name: "MOCK 3", file: "mock3.json" },
+      { name: "NCK 1", file: "nck1.json" },
+      { name: "NCK 2", file: "nck2.json" },
+      { name: "NCK 3", file: "nck3.json" },
+      { name: "FINAL SELF TEST", file: "final_nck_self.json" }
     ];
 
     const tabsDiv = document.getElementById('quiz-tabs');
@@ -126,7 +214,7 @@
     let saved = {}, timer, timeLeft;
     let isSimulationMode = false;
 
-    fileList.forEach((item, i) => {
+    fileList.forEach((item) => {
       const btn = document.createElement('button');
       btn.className = 'tab-btn';
       btn.textContent = item.name;
@@ -150,6 +238,7 @@
 
       fetch(file).then(res => res.json()).then(data => {
         questions = data;
+        if (isSimulationMode) enterFullscreen();
         startTimer(questions.length);
         render(current);
       });
@@ -160,7 +249,6 @@
       const opts = q.options || {};
       container.innerHTML = `<div class="question-box"><strong>Question ${i + 1}:</strong><br><br>${q.question || "Untitled"}<br><br></div>`;
       const box = container.querySelector('.question-box');
-
       for (const [k, v] of Object.entries(opts)) {
         const b = document.createElement('button');
         b.className = 'btn';
@@ -171,8 +259,6 @@
           saved[i] = { selected: k };
           if (!isSimulationMode) {
             saved[i].correct = k === (q.answer || "").toUpperCase();
-          }
-          if (!isSimulationMode) {
             localStorage.setItem("progress_" + fileName, JSON.stringify(saved));
           }
           b.disabled = true;
@@ -185,23 +271,20 @@
         box.innerHTML += "<p style='color:#002147;'>[Flagged for review]</p>";
       }
 
+      window.scrollTo(0, 0);
       updateNav();
     }
 
     function updateNav() {
       const navButtons = [];
-
       if (!isSimulationMode) {
         navButtons.push(`<button onclick="prev()">Previous</button>`);
         navButtons.push(`<button onclick="flag()">Flag</button>`);
       }
-
       navButtons.push(`<button onclick="next()">Next</button>`);
-
       if (!isSimulationMode || allAnswered()) {
         navButtons.push(`<button onclick="submitTest()">Submit</button>`);
       }
-
       navDiv.innerHTML = navButtons.join("");
     }
 
@@ -235,18 +318,25 @@
         const percent = Math.round((correct / total) * 100);
 
         let message = isSimulationMode
-          ? `Simulation complete.\nYour responses have been recorded.\nYou answered all ${total} questions.`
+          ? `Simulation complete.\nAll ${total} questions attempted.`
           : `You scored ${correct} / ${total} (${percent}%)`;
 
         alert(message);
+
+        // WhatsApp Message
+        const text = encodeURIComponent(`Hi, I just completed a test via NCK SIM.\nName: ${userName}\nReason: ${userReason}\n${message}`);
+        const url = `https://wa.me/${userPhone}?text=${text}`;
+        window.open(url, "_blank");
+
         clearInterval(timer);
+        if (isSimulationMode) exitFullscreen();
       } else {
         alert("Please answer all questions before submitting.");
       }
     }
 
     function startTimer(qCount) {
-      let duration = Math.floor(qCount * 90); // 1.5 min per question
+      let duration = Math.floor(qCount * 90);
       timeLeft = duration;
       updateTimer();
       timer = setInterval(() => {
@@ -265,6 +355,38 @@
       timerEl.textContent = `Time Left: ${min}:${sec}`;
       if (timeLeft <= 30) timerEl.classList.add("red");
     }
+
+    function enterFullscreen() {
+      const el = document.documentElement;
+      if (el.requestFullscreen) el.requestFullscreen();
+      else if (el.mozRequestFullScreen) el.mozRequestFullScreen();
+      else if (el.webkitRequestFullscreen) el.webkitRequestFullscreen();
+      else if (el.msRequestFullscreen) el.msRequestFullscreen();
+    }
+
+    function exitFullscreen() {
+      if (document.exitFullscreen) document.exitFullscreen();
+      else if (document.webkitExitFullscreen) document.webkitExitFullscreen();
+      else if (document.mozCancelFullScreen) document.mozCancelFullScreen();
+      else if (document.msExitFullscreen) document.msExitFullscreen();
+    }
+
+    document.addEventListener("contextmenu", e => e.preventDefault());
+    document.addEventListener("keydown", e => {
+      if (
+        e.key === "F12" || 
+        (e.ctrlKey && e.shiftKey && e.key === "I") || 
+        e.key === "F5" || 
+        (e.ctrlKey && e.key === "r") || 
+        e.key === "Backspace" && e.target === document.body
+      ) {
+        e.preventDefault();
+      }
+    });
+    window.addEventListener("beforeunload", function (e) {
+      e.preventDefault();
+      e.returnValue = '';
+    });
   </script>
 </body>
 </html>
