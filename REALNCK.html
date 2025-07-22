@@ -372,6 +372,11 @@
         let message = isSimulationMode
           ? `Simulation complete.\nAll ${total} questions attempted.`
           : `You scored ${correct} / ${total} (${percent}%)`;
+const weakAreas = questions
+  .map((q, i) => (!saved[i]?.correct ? `Q${i + 1}` : null))
+  .filter(x => x !== null);
+
+sendScoreEmail(correct, total, percent, weakAreas);
 
         alert(message);
         const text = encodeURIComponent(`Hi, I just completed a test via NCK SIM.\nName: ${userName}\nReason: ${userReason}\n${message}`);
@@ -448,5 +453,28 @@
       e.returnValue = '';
     });
   </script>
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+  emailjs.init('CuSwkmKmhKa7On9pZ'); // Your Public Key
+
+  function sendScoreEmail(score, total, percent, weakAreas = []) {
+    const templateParams = {
+      name: userName,
+      phone: userPhone,
+      reason: userReason,
+      score: `${score} out of ${total}`,
+      percentage: `${percent}%`,
+      weak_areas: weakAreas.length ? weakAreas.join(", ") : "None detected"
+    };
+
+    emailjs.send('service_eku55ln', 'template_yei58yl', templateParams)
+      .then(function(response) {
+        console.log('✅ Email sent successfully:', response.status, response.text);
+      }, function(error) {
+        console.error('❌ Failed to send email:', error);
+      });
+  }
+</script>
+
 </body>
 </html>
