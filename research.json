@@ -644,8 +644,214 @@
     "answer": "A",
     "explanation": "Ethnography is a qualitative research methodology focused on the in-depth study and description of a culture or a social group from the group's own perspective. The researcher immerses themselves in the culture to understand its shared values, beliefs, and practices.\n\nOption (a) is correct. Ethnography is the primary research method used in cultural anthropology.\n\nOption (b), Physical-biological anthropology, studies human evolution and biological variation.\n\nOption (c), Archaeological anthropology, studies past cultures through their material remains.\n\nOption (d), Medical anthropology, is a subfield that uses anthropological theories (including ethnography) to study health, illness, and healthcare systems across different cultures. While it uses ethnography, ethnography itself is fundamentally a branch of cultural anthropology.",
     "additional": "Qualitative Research Designs:\nPhenomenology: Focuses on understanding the lived experience of individuals concerning a specific phenomenon (e.g., the lived experience of chronic pain).\nGrounded Theory: Aims to develop a theory that is \"grounded\" in data collected from the field. The goal is to explain a social process.\nEthnography: Aims to describe a culture. The key data collection method is participant observation.\nHistorical Research: Examines past events to understand the present and anticipate the future."
+  },
+  {
+    "question": "Which of the following statements refers to criteria?",
+    "options": {
+      "A": "Agreed on level of nursing care",
+      "B": "Step by step guidelines",
+      "C": "Characteristics used to measure the level of nursing care",
+      "D": "Statements which guide the group in decision making and problem solving"
+    },
+    "answer": "C",
+    "explanation": "This is a definition question related to quality improvement and research.\n\nWhy C is correct: Criteria are the specific, measurable standards, characteristics, or indicators that are used to judge or measure the quality of something. For example, if the standard is \"provide safe medication administration,\" a criterion might be \"checks patient identity using two identifiers before every administration.\"\n\nWhy A, B, and D are incorrect:\nA: This describes a \"standard\" of care. The criteria are how you measure if the standard was met.\nB: Step-by-step guidelines are a \"procedure\" or \"protocol.\"\nD: These are \"policies\" or \"guidelines.\"",
+    "additional": "Additional Content & NCK Focus:\nUnderstand the structure of quality assurance.\n\nStandard: A broad statement of the expected level of quality (e.g., \"All patients will have a pain assessment performed.\")\nCriterion (or Indicator): The specific, measurable item used to evaluate if the standard is met (e.g., \"Pain score documented within 1 hour of admission.\")\nAudit: The process of collecting data to measure performance against the criteria.\n\nPotential NCK Question: \"A hospital has a standard that all patients at risk for falls will have preventive measures in place. Which of the following is the best criterion to audit this standard?\" Answer: \"Percentage of at-risk patients with bed in low position and call bell within reach.\""
+  },
+  {
+    "question": "Random sampling or probability sampling includes all of the following techniques except;",
+    "options": {
+      "A": "Simple random sampling",
+      "B": "Stratified random sampling",
+      "C": "Cluster sampling",
+      "D": "Purposive sampling"
+    },
+    "answer": "D",
+    "explanation": "This question requires you to differentiate between the two major categories of sampling methods.\n\nWhy D is correct: Purposive (or judgmental) sampling is a non-probability sampling method. The researcher uses their own judgment to select participants who they believe are most representative or knowledgeable about the topic. There is no element of chance.\n\nWhy A, B, and C are incorrect (because they ARE probability sampling methods):\nIn probability sampling, every member of the population has a known (non-zero) chance of being selected. This allows for generalization of findings to the population.\nA. Simple random: Every person has an equal chance of being selected (like drawing names from a hat).\nB. Stratified random: The population is divided into subgroups (strata), and then random samples are taken from each subgroup.\nC. Cluster: The population is divided into clusters (e.g., geographical areas), and then a random sample of clusters is selected.",
+    "additional": "Additional Content & NCK Focus:\nKnow the main types of probability and non-probability sampling.\n\nProbability Sampling\tNon-Probability Sampling\nSimple Random\t\tConvenience (accidental)\nSystematic Random\tQuota\nStratified Random\tPurposive (judgmental)\nCluster (multistage)\tSnowball (network)\n\nKey difference: Probability sampling allows for statistical inference about the population; non-probability sampling does not.\n\nPotential NCK Question: \"A researcher wants to study the experience of nurses working in ICU during the pandemic. She asks an ICU manager to identify nurses who would be particularly insightful participants. This is an example of which sampling method?\" Answer: Purposive sampling."
+  },
+  {
+    "question": "Gender, age, class, religion type of disease, blood groups are measured in;",
+    "options": {
+      "A": "Nominal scale of measurement",
+      "B": "Ordinal scale of measurement",
+      "C": "Interval scale of measurement",
+      "D": "Ratio scale of measurement"
+    },
+    "answer": "A",
+    "explanation": "This question tests your knowledge of the levels of measurement for variables.\n\nWhy A is correct: A nominal scale consists of categories that are named (nominal = name) but have no natural order or ranking. Gender (male/female), religion (Christian/Muslim), and blood groups (A/B/AB/O) are perfect examples. You cannot say that \"male\" is higher or lower than \"female.\"\n\nWhy B, C, and D are incorrect:\nB (Ordinal): Categories have a natural order, but the intervals between them are not equal (e.g., pain scale: mild, moderate, severe).\nC (Interval): Data has an order and equal intervals, but no true zero (e.g., temperature in Celsius).\nD (Ratio): Data has an order, equal intervals, and a true zero (e.g., height, weight, pulse rate).",
+    "additional": "Additional Content & NCK Focus:\nMemorize the four levels of measurement (NOIR).\n\nLevel\t\tCharacteristics\t\t\t\tExample\nNominal\t\tCategories, no order\t\t\tMarital Status, Blood Type\nOrdinal\t\tOrdered categories, unequal intervals\tLikert Scale (Agree, Neutral, Disagree), Cancer Staging\nInterval\t\tOrdered, equal intervals, no true zero\tTemperature (°C/°F), IQ Score\nRatio\t\tOrdered, equal intervals, true zero\t\tHeight, Weight, Age, Pulse\n\nPotential NCK Question: \"A nurse researcher uses a scale to rate patient satisfaction as 'Very Satisfied,' 'Satisfied,' or 'Not Satisfied.' This is an example of which scale of measurement?\" Answer: Ordinal scale."
+  },
+  {
+    "question": "The variable which is influenced by the intervention of the researcher is called;",
+    "options": {
+      "A": "Independent",
+      "B": "Dependent",
+      "C": "Discrete",
+      "D": "Extraneous"
+    },
+    "answer": "B",
+    "explanation": "This is a core concept in experimental research design.\n\nWhy B is correct: The dependent variable is the outcome or effect that the researcher measures. Its value depends on the changes made to the independent variable. It is the variable being \"influenced.\"\n\nWhy A, C, and D are incorrect:\nA (Independent): This is the variable that the researcher manipulates or controls. It is the intervention or presumed cause.\nC (Discrete): This is a type of variable that can only take on certain values (e.g., number of children), not a role in an experiment.\nD (Extraneous/Confounding): This is a variable that is not part of the study but could influence the dependent variable, creating a potential source of error.",
+    "additional": "Additional Content & NCK Focus:\nRemember the relationship with the mnemonic \"IV -> DV\".\n\nThe Independent Variable (the intervention) is what the researcher changes.\nThis change causes an effect on the Dependent Variable (the outcome), which is what the researcher measures.\n\nExample: In a study testing a new patient education program on diabetes management...\nIndependent Variable: The new education program (vs. the old program).\nDependent Variable: The patient's blood sugar levels (HbA1c).\nExtraneous Variable: The patient's diet at home (which could also affect their blood sugar).\n\nPotential NCK Question: \"In a study examining the effect of a new antidepressant on symptoms of depression, what is the independent variable?\" Answer: The new antidepressant."
+  },
+  {
+    "question": "The statistical approach which helps the investigator to decide whether the outcome of the study is a result of factors planned within design of the study or determined by chance is called;",
+    "options": {
+      "A": "Descriptive statistics",
+      "B": "Inferential statistics",
+      "C": "Normal distribution",
+      "D": "Standard deviation"
+    },
+    "answer": "B",
+    "explanation": "This question asks for the branch of statistics used for hypothesis testing.\n\nWhy B is correct: This is the precise definition of inferential statistics. It uses data from a sample to make inferences (conclusions) about a larger population and to determine if the observed results are \"statistically significant\"—meaning they are unlikely to have occurred by random chance alone.\n\nWhy A, C, and D are incorrect:\nA (Descriptive statistics): This branch is used to simply describe, summarize, and organize data from a sample (e.g., mean, median, mode, range). It does not make conclusions about a population.\nC (Normal distribution): This is a specific type of probability distribution (the \"bell curve\"), a concept used within inferential statistics, but it is not the approach itself.\nD (Standard deviation): This is a descriptive statistic that measures the spread of data.",
+    "additional": "Additional Content & NCK Focus:\nDistinguish between the two main branches of statistics.\n\nDescriptive Statistics:\nPurpose: To describe the sample.\nQuestions it answers: \"What is the average age of the participants?\" \"What was the most common symptom?\"\nTools: Measures of central tendency (mean, median, mode), measures of variability (range, standard deviation), frequencies, percentages.\n\nInferential Statistics:\nPurpose: To make conclusions about the population based on the sample.\nQuestions it answers: \"Is the new drug more effective than the placebo?\" \"Is there a relationship between smoking and lung cancer?\"\nTools: t-tests, ANOVA, chi-square tests, correlation, regression.\n\nPotential NCK Question: \"A researcher reports that the average score on a depression scale for her sample was 25 (SD = 5). This is an example of what type of statistics?\" Answer: Descriptive statistics."
+  },
+  {
+    "question": "Which of the following is not a standard of central tendency?",
+    "options": {
+      "A": "Mean",
+      "B": "Median",
+      "C": "Mode",
+      "D": "Variance"
+    },
+    "answer": "D",
+    "explanation": "This is a straightforward question about classifying basic statistical measures.\n\nWhy D is correct: Variance (and its square root, the standard deviation) is a measure of variability or dispersion. It describes how spread out the data points are from the mean.\n\nWhy A, B, and C are incorrect (because they ARE measures of central tendency):\nA. Mean: The arithmetic average.\nB. Median: The middle value in an ordered dataset.\nC. Mode: The most frequently occurring value.\nThese three measures describe the \"center\" or \"typical\" value of a dataset.",
+    "additional": "Additional Content & NCK Focus:\nClearly separate measures of central tendency from measures of variability.\n\nMeasures of Central Tendency (Where is the center?):\n- Mean\n- Median\n- Mode\n\nMeasures of Variability (How spread out is the data?):\n- Range (Highest value - Lowest value)\n- Interquartile Range (IQR)\n- Variance\n- Standard Deviation (SD)\n\nPotential NCK Question: \"A researcher wants to describe the spread of scores in a dataset. Which of the following statistics would be most appropriate?\" Answer: Standard deviation."
+  },
+  {
+    "question": "Which measure of central tendency is influenced by extreme scores and skewed distributions?",
+    "options": {
+      "A": "Mean",
+      "B": "Median",
+      "C": "Mode",
+      "D": "Range"
+    },
+    "answer": "A",
+    "explanation": "This question tests your understanding of the properties of the measures of central tendency.\n\nWhy A is correct: The mean is calculated by summing all the values and dividing by the count. Because every single value is used in the calculation, a very high or very low value (an outlier) will \"pull\" the mean in its direction, making it a poor representation of the center in a skewed dataset.\n\nWhy B is correct in skewed distributions: The median is the middle value. It is resistant to outliers because it only depends on the position of the values, not their magnitude. For this reason, the median is the preferred measure of central tendency for skewed data (e.g., income data).\n\nWhy C and D are incorrect:\nThe mode is simply the most frequent value and is not affected by outliers unless the outlier becomes the most frequent value.\nRange is a measure of variability, not central tendency.",
+    "additional": "Additional Content & NCK Focus:\nKnow when to use the mean vs. the median.\n\nUse the Mean when: The data is symmetrical (e.g., normally distributed) and has no significant outliers.\nUse the Median when: The data is skewed (asymmetrical) or has significant outliers.\n\nExample of Skew:\nConsider the salaries in a small company: 50k, 55k, 60k, 65k, and the CEO's salary of 500k.\n- Mean: (50+55+60+65+500)/5 = 146k. This is not representative of a typical employee.\n- Median: The middle value is 60k. This is a much better representation of a \"typical\" salary.\n\nPotential NCK Question: \"A researcher is analyzing house prices in a neighborhood where most houses are of similar value but one is a very expensive mansion. Which measure should be used to describe the typical house price?\" Answer: Median."
+  },
+  {
+    "question": "Statistic which describes the interval of scores bounded by the 25th and 75th percentile ranks is:",
+    "options": {
+      "A": "Interquartile range",
+      "B": "Confidence interval",
+      "C": "Standard deviation",
+      "D": "Variance"
+    },
+    "answer": "A",
+    "explanation": "This is a definition question about a specific measure of variability.\n\nWhy A is correct: The Interquartile Range (IQR) is defined as the difference between the 75th percentile (Q3) and the 25th percentile (Q1). It represents the range of the middle 50% of the data and is resistant to outliers. IQR = Q3 - Q1.\n\nWhy B, C, and D are incorrect:\nB. Confidence interval: An inferential statistic that estimates a population parameter range, not a descriptive variability measure.\nC. Standard deviation: Measures average distance of scores from the mean.\nD. Variance: Square of standard deviation.",
+    "additional": "The IQR is often used with the median for skewed data. It's visualized in box-and-whisker plots.\n\nBox Plot Components:\n- Box: IQR (Q1 to Q3)\n- Line: Median (Q2)\n- Whiskers: Extend to min and max values or to outlier thresholds\n\nPotential NCK Question: \"A researcher reports that the middle 50% of exam scores fell between 65 and 85. The statistic being described is the:\" Answer: Interquartile range."
+  },
+  {
+    "question": "Large standard deviations suggest that:",
+    "options": {
+      "A": "Scores are probably widely scattered",
+      "B": "There is little difference among scores",
+      "C": "Mean, median and modes are the same",
+      "D": "The scores are not normally distributed"
+    },
+    "answer": "A",
+    "explanation": "This question tests understanding of what the standard deviation (SD) represents.\n\nWhy A is correct: A large SD means that, on average, scores are far from the mean, indicating they are widely spread out.\n\nWhy B, C, and D are incorrect:\nB: Suggests a small SD.\nC: Describes normal distribution, not SD.\nD: A large SD doesn't mean non-normal distribution; the shape can still be normal but wider.",
+    "additional": "Think of SD as a measure of homogeneity/heterogeneity.\n\nLow SD = Homogeneous scores (similar)\nHigh SD = Heterogeneous scores (diverse)\n\nPotential NCK Question: \"A nurse educator finds Class A has SD = 2 and Class B has SD = 10. Conclusion?\" Answer: Class B scores are more spread out."
+  },
+  {
+    "question": "Skewness is a measure:",
+    "options": {
+      "A": "Of the asymmetry of the probability distribution",
+      "B": "Decides the distribution may have a high or low variance",
+      "C": "Of central tendency",
+      "D": "None of the above"
+    },
+    "answer": "A",
+    "explanation": "This is a definition question.\n\nWhy A is correct: Skewness measures the degree of asymmetry in a distribution. Normal distribution has a skewness of 0.\n\nWhy B, C, and D are incorrect:\nB: Refers to variance, not skewness.\nC: Central tendency is about mean/median/mode.\nD: Not applicable when A is correct.",
+    "additional": "Understand skew direction:\n\nPositive Skew: Tail to right. Mean > Median > Mode\nNegative Skew: Tail to left. Mean < Median < Mode\n\nPotential NCK Question: \"Most students scored poorly, but a few did very well. The score distribution is:\" Answer: Positively skewed."
+  },
+  {
+    "question": "A sample method which involves a random start and then proceeds with the selection of every kth element from then onwards (where k = population size/sample size):",
+    "options": {
+      "A": "Simple random sampling",
+      "B": "Stratified random sampling",
+      "C": "Systematic sampling",
+      "D": "Snowball sampling"
+    },
+    "answer": "C",
+    "explanation": "This is a definition of systematic sampling.\n\nWhy C is correct: It begins with a random start, followed by selection at fixed intervals (every kth subject).\n\nWhy A, B, and D are incorrect:\nA: Simple random involves equal chance for all.\nB: Stratified sampling divides into subgroups first.\nD: Snowball involves participant referrals and is non-random.",
+    "additional": "Systematic Sampling:\n+ Advantage: Efficient for large populations\n- Disadvantage: Risk of bias if periodicity exists in list\n\nPotential NCK Question: \"From a list of 1,000 patients, the researcher selects every 10th patient after a random start. This method is:\" Answer: Systematic sampling."
+  },
+  {
+    "question": "The standard deviation of a sampling distribution is referred to as the:",
+    "options": {
+      "A": "Test statistic",
+      "B": "Standard error",
+      "C": "Confidence interval",
+      "D": "Test of significance"
+    },
+    "answer": "B",
+    "explanation": "This is a definition in inferential statistics.\n\nWhy B is correct: The standard deviation of the sampling distribution of a statistic is called the standard error. It reflects the expected variability of a sample statistic (like the mean) from the population parameter.\n\nWhy A, C, and D are incorrect:\nA: Test statistic is the calculated value in hypothesis testing.\nC: Confidence interval gives a range, not variability.\nD: Significance test is a procedure, not a metric.",
+    "additional": "Standard Error vs. Standard Deviation:\n- SD: Describes variability within a sample.\n- SE: Describes variability of sample means.\n\nFormula: SE = SD / √n → As sample size increases, SE decreases.\n\nPotential NCK Question: \"A researcher increases sample size from 100 to 400. Effect on SE?\" Answer: It will decrease."
+  },
+  {
+    "question": "Sampling bias or the error resulting from taking a non-random sample of a population includes:",
+    "options": {
+      "A": "Pre-screening",
+      "B": "Self-selection bias",
+      "C": "Selection from a specific area",
+      "D": "All of the above"
+    },
+    "answer": "D",
+    "explanation": "Why D is correct: All of the listed options are examples of sampling bias, which threatens the representativeness and generalizability of a study.\n\nA. Pre-screening involves excluding certain types of participants either intentionally or unintentionally during participant selection.\nB. Self-selection bias occurs when individuals who volunteer for studies differ in important ways from those who do not.\nC. Selecting participants from a specific area limits the diversity of the sample and may not reflect the larger population.",
+    "additional": "Good sampling maximizes generalizability (external validity). Sampling bias reduces the ability to apply findings to the whole population.\n\nOther types of bias to know:\n- Response Bias: Participants provide false or socially desirable answers.\n- Researcher Bias: The researcher’s expectations or beliefs influence the results.\n\nPotential NCK Question: \"A study on nurse health habits only includes those who respond to a gym flyer. What bias is present?\" Answer: Self-selection bias."
+  },
+  {
+    "question": "The number of new cases that occur within a specific population within a defined time interval is:",
+    "options": {
+      "A": "Point prevalence",
+      "B": "Incidence",
+      "C": "Period prevalence",
+      "D": "Lifetime prevalence"
+    },
+    "answer": "B",
+    "explanation": "Why B is correct: Incidence refers to the occurrence of new cases of a disease in a population during a specified period. It measures the risk of developing a disease.\n\nA. Point prevalence measures the proportion of a population with the disease at a specific point in time.\nC. Period prevalence includes all cases over a specific time period.\nD. Lifetime prevalence captures all individuals who have had the disease at any point in their lives.",
+    "additional": "Use the bathtub analogy:\n- Incidence: Rate of new cases flowing into the tub.\n- Prevalence: Amount of water currently in the tub (existing cases).\n\nPrevalence ≈ Incidence × Duration of disease.\n\nPotential NCK Question: \"A nurse reports 500 new flu cases in June in Embu County. What measure is this?\" Answer: Incidence."
+  },
+  {
+    "question": "The statistic used to explain the chances of being exposed to a risk among those with the diagnosis divided by exposure to the risk among those without the diagnosis is:",
+    "options": {
+      "A": "Phi coefficient",
+      "B": "Odds ratio",
+      "C": "Chi square",
+      "D": "Kappa"
+    },
+    "answer": "B",
+    "explanation": "Why B is correct: The Odds Ratio (OR) compares the odds of exposure among individuals with a condition to those without. It is typically used in case-control studies.\n\nA. Phi coefficient measures correlation between two dichotomous variables.\nC. Chi-square tests for association between two categorical variables.\nD. Kappa measures agreement between two raters.",
+    "additional": "Distinguishing OR from RR:\n- OR is used in case-control studies and answers: 'What are the odds of exposure if you have the disease?'\n- RR (Relative Risk) is used in cohort studies and answers: 'How much more likely are you to get the disease if exposed?'\n\nInterpretation:\n- OR = 1: No association\n- OR > 1: Exposure is a risk factor\n- OR < 1: Exposure is protective\n\nPotential NCK Question: \"Researchers compare smoking history in patients with and without lung cancer. What statistic do they use?\" Answer: Odds ratio."
+  },
+  {
+    "question": "The phi coefficient is used for correlations between:",
+    "options": {
+      "A": "Two continuous variables",
+      "B": "Two sets of means",
+      "C": "Two dichotomous variables",
+      "D": "Two rating scales"
+    },
+    "answer": "C",
+    "explanation": "Why C is correct: The phi coefficient measures the association between two binary (dichotomous) variables, such as Yes/No or Male/Female.\n\nA. Continuous variables are assessed with Pearson’s correlation.\nB. Two sets of means are compared using t-tests.\nD. Ordinal or scale data would use Spearman’s rho or another rank-based correlation.",
+    "additional": "Common statistical tests based on variable type:\n- Categorical vs. Continuous (2 groups): Independent t-test\n- Categorical vs. Continuous (>2 groups): ANOVA\n- Categorical vs. Categorical: Chi-square\n- Continuous vs. Continuous: Pearson’s r\n- Ordinal vs. Ordinal: Spearman’s rho\n- Dichotomous vs. Dichotomous: Phi coefficient\n\nPotential NCK Question: \"What statistic should be used to examine the relationship between gender (male/female) and exam outcome (pass/fail)?\" Answer: Phi coefficient."
+  },
+  {
+    "question": "A hypothesis which a researcher tries to disprove is called:",
+    "options": {
+      "A": "Research hypothesis",
+      "B": "Null hypothesis",
+      "C": "Alternate hypothesis",
+      "D": "Positive hypothesis"
+    },
+    "answer": "B",
+    "explanation": "Why B is correct: The null hypothesis (H₀) is the default assumption stating there is no effect or difference. Researchers design their studies to collect evidence that will allow them to reject this null hypothesis.\n\nA and C refer to the researcher's expected outcome, called the alternative hypothesis (H₁ or Hₐ), which is supported when the null is rejected.\nD: 'Positive hypothesis' is not a recognized term in statistics.",
+    "additional": "Hypothesis Testing Framework:\n- Null (H₀): No effect or difference.\n- Alternate (H₁): There is an effect or difference.\n\np-value: Probability that the observed data could have occurred by chance if H₀ were true.\n- If p ≤ 0.05: Reject H₀; support H₁.\n- If p > 0.05: Fail to reject H₀.\n\nPotential NCK Question: \"What does the p-value represent in hypothesis testing?\" Answer: The probability that the observed result occurred due to chance."
   }
 ]
+ 
+
   
 
 
