@@ -200,6 +200,7 @@
   </div>
 
   <script>
+    let userEmail = ""
     let userName = "", userPhone = "", userReason = "";
     let current = 0, flagged = new Set(), questions = [], fileName = "";
     let saved = {}, timer, timeLeft;
@@ -235,11 +236,17 @@
       if (name.length < 3) return alert("Please enter your full name.");
       if (!/^2547\d{8}$/.test(phone)) return alert("Enter a valid Kenyan WhatsApp number.");
       if (reason.length < 3) return alert("Please enter a valid reason.");
+      <input type="email" id="email-address" placeholder="Your Email (for results)" required />
 
-      userName = name;
-      userPhone = phone;
-      userReason = reason;
+const email = document.getElementById("email-address").value.trim();
+if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return alert("Please enter a valid email address.");
 
+userName = name;
+userPhone = phone;
+userReason = reason;
+userEmail = email;
+
+      
       localStorage.setItem("nckUserData", JSON.stringify({ name, phone, reason }));
 
       document.getElementById("intro-page").style.display = "none";
