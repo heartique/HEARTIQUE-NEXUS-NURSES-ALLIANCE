@@ -1,267 +1,220 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>🧪 REAL NCK CBT SIMULATOR</title>
+  <title>NCK CBT Simulation</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-image: url('https://raw.githubusercontent.com/heartique/HEARTIQUE-NEXUS-NURSES-ALLIANCE/main/nckcbtwallpaper.jpg');
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
-      padding: 20px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
       margin: 0;
-      line-height: 1.6;
+      padding: 0;
     }
-    h1, h2 {
-      text-align: center;
+    header {
+      background: #002147;
       color: white;
-    }
-    .quote {
+      padding: 1rem 2rem;
       text-align: center;
-      font-style: italic;
-      margin-bottom: 20px;
-      color: white;
     }
-    .top-buttons {
+    .tab-bar {
       display: flex;
-      justify-content: center;
-      gap: 10px;
-      margin-bottom: 20px;
       flex-wrap: wrap;
-      align-items: center;
+      justify-content: center;
+      background: #f0f0f0;
+      padding: 10px;
+      border-bottom: 2px solid #ccc;
     }
-    .btn, .tab-btn {
+    .tab-btn {
+      margin: 5px;
       padding: 10px 16px;
-      font-size: 16px;
-      cursor: pointer;
       border: none;
-      background-color: #f6c90e;
-      border-radius: 6px;
-      transition: 0.2s ease;
-    }
-    .btn:hover, .tab-btn:hover {
-      background-color: #f1b800;
+      background: #ccc;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: 0.2s ease-in-out;
     }
     .tab-btn.active {
-      background-color: #f1b800;
-      font-weight: bold;
+      background: #002147;
+      color: white;
+    }
+    .container {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     }
     .question-box {
-      background: #fff8d1;
-      padding: 15px;
       margin-bottom: 20px;
-      border-radius: 10px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
-    .correct { color: green; font-weight: bold; }
-    .wrong { color: red; font-weight: bold; }
-    .additional {
-      background: #e0f7ff;
+    .btn {
+      margin: 5px 0;
       padding: 10px;
-      border-radius: 6px;
-      margin-top: 10px;
-      font-style: italic;
-      color: #003c59;
+      width: 100%;
+      font-size: 16px;
+      cursor: pointer;
+      background: #e0e0e0;
+      border: none;
+      border-radius: 4px;
+      text-align: left;
     }
-    .reaction {
-      font-size: 18px;
-      margin-left: 10px;
-    }
-    .contact {
-      margin-top: 40px;
-      background: #eef;
-      padding: 15px;
+    .btn:hover { background: #d0d0d0; }
+    #navigation {
       text-align: center;
-      border-radius: 8px;
+      margin-top: 20px;
     }
-    #score-popup {
-      position: fixed;
-      top: 20px;
-      right: 20px;
-      background: #2ecc71;
+    #navigation button {
+      padding: 10px 20px;
+      margin: 5px;
+      font-size: 16px;
+      background: #002147;
       color: white;
-      padding: 10px 15px;
-      border-radius: 10px;
-      font-weight: bold;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-      display: none;
-      z-index: 999;
-      transition: all 0.5s ease;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
     }
-    @keyframes slideFade {
-      0% { opacity: 0; transform: translateY(-20px); }
-      10% { opacity: 1; transform: translateY(0); }
-      90% { opacity: 1; transform: translateY(0); }
-      100% { opacity: 0; transform: translateY(-20px); }
+    #timer {
+      text-align: center;
+      font-size: 18px;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    #timer.red { color: red; }
+    footer {
+      text-align: center;
+      font-size: 14px;
+      margin-top: 50px;
+      color: #777;
     }
   </style>
 </head>
 <body>
-  <h1>🧪 REAL NCK CBT SIMULATION</h1>
-  <div class="quote">"Train the way you'll be tested, test the way you’ve trained."</div>
+  <header>
+    <h1>NCK CBT Exam Practice</h1>
+    <p>Simulated Environment for Mock and Main Exam Preparation</p>
+  </header>
 
-  <!-- Top Controls -->
-  <div class="top-buttons">
-    <a href="index.html"><button class="btn">🏠 Back to Home</button></a>
-    <button class="btn" onclick="showFinalResult(globalScore, globalTotal)">📊 Show My Total</button>
-    <label style="color:white;"><input type="checkbox" id="filter-unanswered"> Show only unanswered</label>
-    <button id="reset-progress" class="btn" style="background:#e74c3c; color:white;">🔁 Reset All</button>
-    <div id="inline-score" style="color:white; font-weight:bold;"></div>
+  <div class="tab-bar" id="quiz-tabs"></div>
+  <div class="container">
+    <div id="quiz-container"></div>
+    <div id="navigation"></div>
+    <div id="timer">Time Left: 00:00</div>
   </div>
 
-  <div id="quiz-tabs" class="top-buttons"></div>
-  <div id="quiz-container"></div>
-
-  <div class="contact">
-    <p>📩 <strong>Contact:</strong> nursingnexusalliance@gmail.com</p>
-    <p>📞 <strong>0717517371</strong> | 💻 <strong>SimLab: HEARTIQUE CBT</strong></p>
-    <p>🚀 Let's keep learning real & exam-focused.</p>
-  </div>
-
-  <div id="score-popup"></div>
+  <footer>© 2025 HEARTIQUE NURSING SIM</footer>
 
   <script>
     const fileList = [
-      { name: "Mock 1", file: "mock1.json" },
-      { name: "Mock 2", file: "mock2.json" },
-      { name: "Mock 3", file: "mock3.json" },
-      { name: "NCK Trial 1", file: "nck1.json" },
-      { name: "NCK Trial 2", file: "nck2.json" },
-      { name: "NCK Trial 3", file: "nck3.json" },
-      { name: "🔥 FINAL NCK SELF TEST", file: "final.json" }
+      { name: "MOCK 1", file: "mock1.json", profectus: true },
+      { name: "MOCK 2", file: "mock2.json", profectus: true },
+      { name: "MOCK 3", file: "mock3.json", profectus: true },
+      { name: "NCK 1", file: "nck1.json", profectus: true },
+      { name: "NCK 2", file: "nck2.json", profectus: true },
+      { name: "NCK 3", file: "nck3.json", profectus: true },
+      { name: "FINAL SELF TEST", file: "final_nck_self.json", profectus: true }
     ];
-
-    let globalScore = 0;
-    let globalTotal = 0;
 
     const tabsDiv = document.getElementById('quiz-tabs');
     const container = document.getElementById('quiz-container');
+    const navDiv = document.getElementById('navigation');
+    const timerEl = document.getElementById('timer');
+
+    let current = 0, flagged = new Set(), questions = [], fileName = "";
+    let saved = {}, timer, timeLeft;
 
     fileList.forEach((item, i) => {
       const btn = document.createElement('button');
       btn.className = 'tab-btn';
       btn.textContent = item.name;
-      btn.onclick = () => {
-        const prev = document.querySelector('.tab-btn.active')?.textContent;
-        if (prev && window.lastScoreData) {
-          showScorePopup(prev, window.lastScoreData.score, window.lastScoreData.total);
-        }
-        loadQuiz(item.file, btn);
-      };
+      btn.onclick = () => loadQuiz(item.file, btn);
       tabsDiv.appendChild(btn);
-      if (i === 0) btn.click();
     });
 
     function loadQuiz(file, activeBtn) {
-      container.innerHTML = '';
+      clearInterval(timer);
+      timerEl.textContent = "Time Left: 00:00";
+      timerEl.classList.remove("red");
+      fileName = file;
+      current = 0;
+      flagged = new Set();
+      saved = JSON.parse(localStorage.getItem("progress_" + file) || "{}");
       document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
       activeBtn.classList.add('active');
-
-      let score = 0;
-      let total = 0;
-      const savedProgress = JSON.parse(localStorage.getItem(`progress_${file}`) || '{}');
-      const filterOn = document.getElementById('filter-unanswered')?.checked || false;
-      window.lastScoreData = { score: 0, total: 0 };
-
       fetch(file).then(res => res.json()).then(data => {
-        total = data.length;
-        globalTotal = total;
-
-        data.forEach((q, i) => {
-          const question = q.question || "Untitled";
-          const rawOptions = q.options || {};
-          const options = {};
-          for (const [k, v] of Object.entries(rawOptions)) {
-            options[k.toUpperCase()] = v;
-          }
-          let answer = (q.answer || "").toString().match(/[A-D]/i);
-          answer = answer ? answer[0].toUpperCase() : "";
-
-          const explanation = q.explanation || "";
-          const additional = q.additional || "";
-          const qid = `Q${i}`;
-
-          if (filterOn && savedProgress[qid]) return;
-
-          const div = document.createElement('div');
-          div.className = 'question-box';
-          div.innerHTML = `<strong>Q${i + 1}:</strong><br>${question}<br><br>`;
-
-          for (const [key, value] of Object.entries(options)) {
-            const btn = document.createElement('button');
-            btn.className = 'btn';
-            btn.textContent = `${key}) ${value}`;
-            if (savedProgress[qid]) btn.disabled = true;
-
-            btn.onclick = () => {
-              div.querySelectorAll('button').forEach(b => b.disabled = true);
-              const result = document.createElement('div');
-              if (key === answer) {
-                result.innerHTML = `<p class="correct">✅ Correct!</p><p>${explanation}</p>`;
-                score++;
-              } else {
-                result.innerHTML = `<p class="wrong">❌ Wrong!</p><p>Correct is ${answer}) ${options[answer] || ''}.<br>${explanation}</p>`;
-              }
-              if (additional) {
-                result.innerHTML += `<div class="additional">📌 ${additional}</div>`;
-              }
-              div.appendChild(result);
-              savedProgress[qid] = { selected: key };
-              localStorage.setItem(`progress_${file}`, JSON.stringify(savedProgress));
-
-              globalScore = score;
-              window.lastScoreData = { score, total };
-            };
-            div.appendChild(btn);
-            div.appendChild(document.createElement('br'));
-          }
-          container.appendChild(div);
-        });
-
-        globalScore = score;
+        questions = data;
+        startTimer(questions.length);
+        render(current);
       });
     }
 
-    function showFinalResult(score = 0, total = 0) {
-      const percent = total ? Math.round((score / total) * 100) : 0;
-      const reaction = percent >= 90 ? "🌟 Excellent!" :
-                       percent >= 70 ? "🙂 Fair effort!" :
-                       percent >= 50 ? "😐 Needs more review." :
-                                       "😢 Keep going—you got this!";
-      const scoreMsg = `You got <strong>${score}</strong> out of <strong>${total}</strong> (${percent}%)`;
-      document.getElementById('inline-score').innerHTML = `${scoreMsg} <span class="reaction">${reaction}</span>`;
-    }
-
-    function showScorePopup(name, score, total) {
-      const popup = document.getElementById('score-popup');
-      const percent = total ? Math.round((score / total) * 100) : 0;
-      popup.innerHTML = `🎉 You had ${score} / ${total} on ${name} (${percent}%)`;
-      popup.style.display = 'block';
-      popup.style.animation = 'slideFade 3s ease forwards';
-      setTimeout(() => {
-        popup.style.display = 'none';
-        popup.style.animation = '';
-      }, 3000);
-    }
-
-    document.getElementById('reset-progress').onclick = () => {
-      const current = document.querySelector('.tab-btn.active').textContent;
-      const match = fileList.find(f => f.name === current);
-      if (match) {
-        localStorage.removeItem(`progress_${match.file}`);
-        alert("Progress cleared! Reloading...");
-        loadQuiz(match.file, document.querySelector('.tab-btn.active'));
+    function render(i) {
+      const q = questions[i];
+      const opts = q.options || {};
+      container.innerHTML = `<div class="question-box"><strong>Question ${i + 1}:</strong><br><br>${q.question || "Untitled"}<br><br></div>`;
+      const box = container.querySelector('.question-box');
+      for (const [k, v] of Object.entries(opts)) {
+        const b = document.createElement('button');
+        b.className = 'btn';
+        b.textContent = `${k}) ${v}`;
+        if (saved[i]) b.disabled = true;
+        b.onclick = () => {
+          saved[i] = { selected: k, correct: k === (q.answer || "").toUpperCase() };
+          localStorage.setItem("progress_" + fileName, JSON.stringify(saved));
+          b.disabled = true;
+        };
+        box.appendChild(b);
       }
-    };
+      if (flagged.has(i)) box.innerHTML += "<p style='color:#002147;'>[Flagged for review]</p>";
+      updateNav();
+    }
 
-    document.getElementById('filter-unanswered').onchange = () => {
-      const current = document.querySelector('.tab-btn.active').textContent;
-      const match = fileList.find(f => f.name === current);
-      if (match) loadQuiz(match.file, document.querySelector('.tab-btn.active'));
-    };
+    function updateNav() {
+      navDiv.innerHTML = `
+        <button onclick="prev()">Previous</button>
+        <button onclick="flag()">Flag</button>
+        <button onclick="next()">Next</button>
+        <button onclick="submitTest()">Submit</button>
+      `;
+    }
+
+    function prev() { if (current > 0) { current--; render(current); } }
+    function next() { if (current < questions.length - 1) { current++; render(current); } }
+    function flag() {
+      flagged.has(current) ? flagged.delete(current) : flagged.add(current);
+      render(current);
+    }
+    function submitTest() {
+      const correct = Object.values(saved).filter(x => x.correct).length;
+      const total = questions.length;
+      const percent = Math.round((correct / total) * 100);
+      alert(`You scored ${correct} / ${total} (${percent}%)`);
+      clearInterval(timer);
+    }
+
+    function startTimer(qCount) {
+      let duration = Math.floor(qCount * 90); // 1.5 min per Q
+      timeLeft = duration;
+      updateTimer();
+      timer = setInterval(() => {
+        timeLeft--;
+        updateTimer();
+        if (timeLeft <= 0) {
+          clearInterval(timer);
+          submitTest();
+        }
+      }, 1000);
+    }
+
+    function updateTimer() {
+      const min = String(Math.floor(timeLeft / 60)).padStart(2, '0');
+      const sec = String(timeLeft % 60).padStart(2, '0');
+      timerEl.textContent = `Time Left: ${min}:${sec}`;
+      if (timeLeft <= 30) timerEl.classList.add("red");
+    }
   </script>
 </body>
 </html>
