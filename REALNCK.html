@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Anatomy & Physiology Quiz</title>
+  <title>🧪 REAL NCK CBT SIMULATOR</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-image: url('https://raw.githubusercontent.com/heartique/HEARTIQUE-NEXUS-NURSES-ALLIANCE/main/background6.jpg');
+      background-image: url('https://raw.githubusercontent.com/heartique/HEARTIQUE-NEXUS-NURSES-ALLIANCE/main/nckcbtwallpaper.jpg');
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -100,15 +100,15 @@
   </style>
 </head>
 <body>
-  <h1>🩺 Anatomy & Physiology Quiz</h1>
-  <div class="quote">"The body achieves what the mind believes." 💡</div>
+  <h1>🧪 REAL NCK CBT SIMULATION</h1>
+  <div class="quote">"Train the way you'll be tested, test the way you’ve trained."</div>
 
   <!-- Top Controls -->
   <div class="top-buttons">
-    <a href="quiz.html"><button class="btn">🏠 Home</button></a>
-    <button class="btn" onclick="showFinalResult(globalScore, globalTotal)">📊 Get My Score Now</button>
+    <a href="index.html"><button class="btn">🏠 Back to Home</button></a>
+    <button class="btn" onclick="showFinalResult(globalScore, globalTotal)">📊 Show My Total</button>
     <label style="color:white;"><input type="checkbox" id="filter-unanswered"> Show only unanswered</label>
-    <button id="reset-progress" class="btn" style="background:#e74c3c; color:white;">🔁 Reset Progress</button>
+    <button id="reset-progress" class="btn" style="background:#e74c3c; color:white;">🔁 Reset All</button>
     <div id="inline-score" style="color:white; font-weight:bold;"></div>
   </div>
 
@@ -116,22 +116,22 @@
   <div id="quiz-container"></div>
 
   <div class="contact">
-    <p>📩 Like this format? Contact <strong>nursingnexusalliance@gmail.com</strong></p>
-    <p>📞 <strong>0717517371</strong> | 🧠 <strong>HEARTIQUE</strong></p>
-    <p>💡 Got more content? Let us help you bring it to life here!</p>
+    <p>📩 <strong>Contact:</strong> nursingnexusalliance@gmail.com</p>
+    <p>📞 <strong>0717517371</strong> | 💻 <strong>SimLab: HEARTIQUE CBT</strong></p>
+    <p>🚀 Let's keep learning real & exam-focused.</p>
   </div>
 
   <div id="score-popup"></div>
 
   <script>
     const fileList = [
-      { name: "Part 1", file: "anatomy.json" },
-      { name: "Part 2", file: "anatomy1.json" },
-      { name: "Part 3", file: "anatomy2.json" },
-      { name: "Part 4", file: "anatomy3.json" },
-      { name: "Part 5", file: "anatomy4.json" },
-      { name: "Part 6", file: "anatomy5.json" },
-      { name: "🧪 Profectus Sim", file: "anatomy.json", profectus: true }
+      { name: "Mock 1", file: "mock1.json" },
+      { name: "Mock 2", file: "mock2.json" },
+      { name: "Mock 3", file: "mock3.json" },
+      { name: "NCK Trial 1", file: "nck1.json" },
+      { name: "NCK Trial 2", file: "nck2.json" },
+      { name: "NCK Trial 3", file: "nck3.json" },
+      { name: "🔥 FINAL NCK SELF TEST", file: "final.json" }
     ];
 
     let globalScore = 0;
@@ -149,21 +149,16 @@
         if (prev && window.lastScoreData) {
           showScorePopup(prev, window.lastScoreData.score, window.lastScoreData.total);
         }
-        loadQuiz(item.file, btn, item.profectus);
+        loadQuiz(item.file, btn);
       };
       tabsDiv.appendChild(btn);
       if (i === 0) btn.click();
     });
 
-    function loadQuiz(file, activeBtn, isProfectus = false) {
+    function loadQuiz(file, activeBtn) {
       container.innerHTML = '';
       document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
       activeBtn.classList.add('active');
-
-      if (isProfectus) {
-        fetch(file).then(res => res.json()).then(data => runProfectusCBTMode(data, file));
-        return;
-      }
 
       let score = 0;
       let total = 0;
@@ -176,17 +171,17 @@
         globalTotal = total;
 
         data.forEach((q, i) => {
-          const question = q.question || q.q || q.title || q.ques || "Untitled";
-          const rawOptions = q.options || q.option || q.choices || {};
+          const question = q.question || "Untitled";
+          const rawOptions = q.options || {};
           const options = {};
           for (const [k, v] of Object.entries(rawOptions)) {
             options[k.toUpperCase()] = v;
           }
-          let answer = (q.answer || q.answers || q.correct || q.key || "").toString().match(/[A-D]/i);
+          let answer = (q.answer || "").toString().match(/[A-D]/i);
           answer = answer ? answer[0].toUpperCase() : "";
 
-          const explanation = q.explanation || q.reason || q.why || "";
-          const additional = q.additional || q.notes || q.more || "";
+          const explanation = q.explanation || "";
+          const additional = q.additional || "";
           const qid = `Q${i}`;
 
           if (filterOn && savedProgress[qid]) return;
@@ -257,99 +252,16 @@
       const match = fileList.find(f => f.name === current);
       if (match) {
         localStorage.removeItem(`progress_${match.file}`);
-        localStorage.removeItem(`progress_${match.file}_profectus`);
-        alert("Progress cleared! Reloading quiz...");
-        loadQuiz(match.file, document.querySelector('.tab-btn.active'), match.profectus);
+        alert("Progress cleared! Reloading...");
+        loadQuiz(match.file, document.querySelector('.tab-btn.active'));
       }
     };
 
     document.getElementById('filter-unanswered').onchange = () => {
       const current = document.querySelector('.tab-btn.active').textContent;
       const match = fileList.find(f => f.name === current);
-      if (match) loadQuiz(match.file, document.querySelector('.tab-btn.active'), match.profectus);
+      if (match) loadQuiz(match.file, document.querySelector('.tab-btn.active'));
     };
-
-    function runProfectusCBTMode(questions, file) {
-      container.innerHTML = '';
-      let current = 0;
-      let flagged = new Set();
-      const saved = JSON.parse(localStorage.getItem(`progress_${file}_profectus`) || '{}');
-
-      const wrapper = document.createElement('div');
-      wrapper.innerHTML = `
-        <div id="cbt-box" class="question-box"></div>
-        <div style="text-align:center; margin-top:10px;">
-          <button class="btn" id="prevQ">⬅️ Previous</button>
-          <button class="btn" id="flagQ">🚩 Flag</button>
-          <button class="btn" id="nextQ">Next ➡️</button>
-          <button class="btn" id="submitCBT" style="background:#2ecc71; color:white;">✅ Submit</button>
-        </div>
-        <p style="text-align:center; color:white;">⏳ Time left: <span id="timer">15:00</span></p>
-      `;
-      container.appendChild(wrapper);
-
-      const qBox = document.getElementById('cbt-box');
-
-      function render(index) {
-        const q = questions[index];
-        const question = q.question || "Untitled";
-        const rawOptions = q.options || {};
-        const options = {};
-        for (const [k, v] of Object.entries(rawOptions)) options[k.toUpperCase()] = v;
-        const correct = (q.answer || "").toString().match(/[A-D]/i)?.[0]?.toUpperCase();
-        qBox.innerHTML = `<strong>Q${index + 1}:</strong><br>${question}<br><br>`;
-
-        Object.entries(options).forEach(([k, v]) => {
-          const btn = document.createElement('button');
-          btn.className = 'btn';
-          btn.textContent = `${k}) ${v}`;
-          if (saved[index]) btn.disabled = true;
-          btn.onclick = () => {
-            saved[index] = { selected: k, correct: k === correct };
-            localStorage.setItem(`progress_${file}_profectus`, JSON.stringify(saved));
-            btn.disabled = true;
-          };
-          qBox.appendChild(btn);
-          qBox.appendChild(document.createElement('br'));
-        });
-
-        if (flagged.has(index)) qBox.innerHTML += `<div style="color:blue">🚩 This question is flagged</div>`;
-      }
-
-      document.getElementById('nextQ').onclick = () => {
-        if (current < questions.length - 1) current++;
-        render(current);
-      };
-      document.getElementById('prevQ').onclick = () => {
-        if (current > 0) current--;
-        render(current);
-      };
-      document.getElementById('flagQ').onclick = () => {
-        flagged.has(current) ? flagged.delete(current) : flagged.add(current);
-        render(current);
-      };
-      document.getElementById('submitCBT').onclick = () => {
-        const attempted = Object.values(saved).length;
-        const correct = Object.values(saved).filter(x => x.correct).length;
-        const percent = Math.round((correct / questions.length) * 100);
-        alert(`🎓 You scored ${correct}/${questions.length} (${percent}%)`);
-      };
-
-      // Timer
-      let secs = 15 * 60;
-      const tEl = document.getElementById('timer');
-      const timer = setInterval(() => {
-        if (--secs <= 0) {
-          clearInterval(timer);
-          document.getElementById('submitCBT').click();
-        }
-        const min = String(Math.floor(secs / 60)).padStart(2, '0');
-        const sec = String(secs % 60).padStart(2, '0');
-        tEl.textContent = `${min}:${sec}`;
-      }, 1000);
-
-      render(current);
-    }
   </script>
 </body>
 </html>
