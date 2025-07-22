@@ -1,0 +1,32 @@
+[
+  {
+    "question": "What is the normal range of blood glucose in mg/dL?",
+    "options": {
+      "A": "70–110",
+      "B": "120–160",
+      "C": "50–90",
+      "D": "140–180"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Which organ is primarily responsible for insulin production?",
+    "options": {
+      "A": "Liver",
+      "B": "Kidney",
+      "C": "Pancreas",
+      "D": "Stomach"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Which vitamin is essential for blood clotting?",
+    "options": {
+      "A": "Vitamin A",
+      "B": "Vitamin D",
+      "C": "Vitamin K",
+      "D": "Vitamin C"
+    },
+    "answer": "C"
+  }
+]
