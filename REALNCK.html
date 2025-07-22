@@ -420,7 +420,9 @@ document.body.appendChild(summaryBox);
 
         const text = encodeURIComponent(`Hi, I just completed a test via NCK SIM.\nName: ${userName}\nReason: ${userReason}\n${message}`);
         const url = `https://wa.me/${userPhone}?text=${text}`;
-        window.open(url, "_blank");
+       window.location.href = url; // replaces window.open(url, "_blank");
+
+
 
         clearInterval(timer);
         if (isSimulationMode) exitFullscreen();
@@ -507,12 +509,16 @@ document.body.appendChild(summaryBox);
       weak_areas: weakAreas.length ? weakAreas.join(", ") : "None detected"
     };
 
-    emailjs.send('service_eku55ln', 'template_yei58yl', templateParams)
-      .then(function(response) {
-        console.log('✅ Email sent successfully:', response.status, response.text);
-      }, function(error) {
-        console.error('❌ Failed to send email:', error);
-      });
+   emailjs.send('service_eku55ln', 'template_yei58yl', templateParams)
+  .then(function(response) {
+    alert("✅ Email sent successfully!");
+    console.log('✅ Email sent successfully:', response.status, response.text);
+  })
+  .catch(function(error) {
+    alert("❌ Email failed to send. Check console.");
+    console.error('❌ Failed to send email:', error);
+  });
+
   }
 </script>
 
