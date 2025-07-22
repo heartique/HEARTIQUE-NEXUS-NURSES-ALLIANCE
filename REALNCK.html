@@ -1,9 +1,8 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>NCK CBT Simulation</title>
   <style>
     body {
@@ -125,6 +124,7 @@
 
     let current = 0, flagged = new Set(), questions = [], fileName = "";
     let saved = {}, timer, timeLeft;
+    let isSimulationMode = false;
 
     fileList.forEach((item, i) => {
       const btn = document.createElement('button');
@@ -138,12 +138,16 @@
       clearInterval(timer);
       timerEl.textContent = "Time Left: 00:00";
       timerEl.classList.remove("red");
+
       fileName = file;
       current = 0;
       flagged = new Set();
-      saved = JSON.parse(localStorage.getItem("progress_" + file) || "{}");
+      saved = {};
+      isSimulationMode = file.toLowerCase().includes("nck") || file.toLowerCase().includes("final");
+
       document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
       activeBtn.classList.add('active');
+
       fetch(file).then(res => res.json()).then(data => {
         questions = data;
         startTimer(questions.length);
@@ -156,47 +160,93 @@
       const opts = q.options || {};
       container.innerHTML = `<div class="question-box"><strong>Question ${i + 1}:</strong><br><br>${q.question || "Untitled"}<br><br></div>`;
       const box = container.querySelector('.question-box');
+
       for (const [k, v] of Object.entries(opts)) {
         const b = document.createElement('button');
         b.className = 'btn';
         b.textContent = `${k}) ${v}`;
         if (saved[i]) b.disabled = true;
         b.onclick = () => {
-          saved[i] = { selected: k, correct: k === (q.answer || "").toUpperCase() };
-          localStorage.setItem("progress_" + fileName, JSON.stringify(saved));
+          if (saved[i]) return;
+          saved[i] = { selected: k };
+          if (!isSimulationMode) {
+            saved[i].correct = k === (q.answer || "").toUpperCase();
+          }
+          if (!isSimulationMode) {
+            localStorage.setItem("progress_" + fileName, JSON.stringify(saved));
+          }
           b.disabled = true;
+          if (isSimulationMode) next();
         };
         box.appendChild(b);
       }
-      if (flagged.has(i)) box.innerHTML += "<p style='color:#002147;'>[Flagged for review]</p>";
+
+      if (flagged.has(i) && !isSimulationMode) {
+        box.innerHTML += "<p style='color:#002147;'>[Flagged for review]</p>";
+      }
+
       updateNav();
     }
 
     function updateNav() {
-      navDiv.innerHTML = `
-        <button onclick="prev()">Previous</button>
-        <button onclick="flag()">Flag</button>
-        <button onclick="next()">Next</button>
-        <button onclick="submitTest()">Submit</button>
-      `;
+      const navButtons = [];
+
+      if (!isSimulationMode) {
+        navButtons.push(`<button onclick="prev()">Previous</button>`);
+        navButtons.push(`<button onclick="flag()">Flag</button>`);
+      }
+
+      navButtons.push(`<button onclick="next()">Next</button>`);
+
+      if (!isSimulationMode || allAnswered()) {
+        navButtons.push(`<button onclick="submitTest()">Submit</button>`);
+      }
+
+      navDiv.innerHTML = navButtons.join("");
     }
 
-    function prev() { if (current > 0) { current--; render(current); } }
-    function next() { if (current < questions.length - 1) { current++; render(current); } }
+    function allAnswered() {
+      return questions.every((_, idx) => saved[idx]?.selected);
+    }
+
+    function prev() {
+      if (current > 0) {
+        current--;
+        render(current);
+      }
+    }
+
+    function next() {
+      if (current < questions.length - 1) {
+        current++;
+        render(current);
+      }
+    }
+
     function flag() {
       flagged.has(current) ? flagged.delete(current) : flagged.add(current);
       render(current);
     }
+
     function submitTest() {
-      const correct = Object.values(saved).filter(x => x.correct).length;
-      const total = questions.length;
-      const percent = Math.round((correct / total) * 100);
-      alert(`You scored ${correct} / ${total} (${percent}%)`);
-      clearInterval(timer);
+      if (!isSimulationMode || allAnswered()) {
+        const correct = Object.values(saved).filter(x => x.correct).length;
+        const total = questions.length;
+        const percent = Math.round((correct / total) * 100);
+
+        let message = isSimulationMode
+          ? `Simulation complete.\nYour responses have been recorded.\nYou answered all ${total} questions.`
+          : `You scored ${correct} / ${total} (${percent}%)`;
+
+        alert(message);
+        clearInterval(timer);
+      } else {
+        alert("Please answer all questions before submitting.");
+      }
     }
 
     function startTimer(qCount) {
-      let duration = Math.floor(qCount * 90); // 1.5 min per Q
+      let duration = Math.floor(qCount * 90); // 1.5 min per question
       timeLeft = duration;
       updateTimer();
       timer = setInterval(() => {
