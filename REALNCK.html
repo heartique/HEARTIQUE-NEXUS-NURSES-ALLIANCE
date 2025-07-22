@@ -18,9 +18,6 @@
       padding: 1rem 2rem;
       text-align: center;
     }
-    .tab-bar, .container, #timer, footer, #start-page {
-      display: none;
-    }
     .tab-bar {
       display: flex;
       flex-wrap: wrap;
@@ -42,6 +39,11 @@
     .tab-btn.active {
       background: #002147;
       color: white;
+    }
+    .tab-btn.disabled {
+      background: #999;
+      color: #eee;
+      cursor: not-allowed;
     }
     .container {
       max-width: 900px;
@@ -118,12 +120,37 @@
       margin-top: 10px;
       cursor: pointer;
     }
+    #flagModal {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: white;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+      display: none;
+      z-index: 9999;
+    }
+    #flagModal h3 {
+      margin-top: 0;
+      color: #002147;
+    }
+    #flagModal button {
+      background: #002147;
+      color: white;
+      margin: 10px 5px;
+      border-radius: 4px;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
   </style>
 </head>
 <body>
 
   <div id="intro-page" class="form-page">
-    <h2>Welcome to NCK Simulation Portal</h2>
+    <h2>Welcome to NCK Simulation Heratique Portal</h2>
     <p>Enter your details to begin:</p>
     <input type="text" id="full-name" placeholder="Full Name" required />
     <input type="tel" id="phone-number" placeholder="e.g. 254712345678" required />
@@ -131,13 +158,18 @@
     <button onclick="proceedToInstructions()">Continue</button>
   </div>
 
-  <div id="start-page" class="form-page">
+  <div id="start-page" class="form-page" style="display:none;">
     <h2>Instructions</h2>
     <ul style="text-align:left;max-width:500px;margin:20px auto;">
-      <li>Each question has a timer of 1.5 minutes.</li>
-      <li>Once started, do not reload or go back.</li>
-      <li>NCK simulations activate full-screen mode.</li>
-      <li>Attempt all questions before submitting.</li>
+  <li>Each question is allocated a maximum of <strong>1.5 minutes</strong>. Time management is critical.</li>
+  <li>Once the assessment begins, <strong>do not refresh</strong> or navigate back. This may lead to automatic disqualification.</li>
+  <li>The simulation will launch in <strong>full-screen mode</strong> to mimic the official NCK CBT environment.</li>
+  <li>All questions must be attempted. Incomplete submissions may affect your performance review.</li>
+  <li>Ensure you are in a <strong>quiet, uninterrupted environment</strong> for the duration of the assessment.</li>
+  <li>Use of external resources or switching tabs during the session is discouraged.</li>
+  <li><strong>Click “Start Simulation”</strong> when ready. The timer will begin immediately.</li>
+</ul>
+
     </ul>
     <button onclick="startApp()">Start Simulation</button>
   </div>
@@ -148,52 +180,30 @@
   </header>
 
   <div class="tab-bar" id="quiz-tabs"></div>
-  <div class="container">
+  <div class="container" style="display:none;">
     <div id="quiz-container"></div>
     <div id="navigation"></div>
     <div id="timer">Time Left: 00:00</div>
   </div>
 
-  <footer>© 2025 HEARTIQUE NURSING SIM</footer>
+  <footer style="text-align: center; padding: 10px; font-size: 14px; color: #666;">
+  &copy; 2025 Heartique Nursing Nexus Alliance – Simulation Platform. All rights reserved.<br>
+  Contact: <a href="mailto:nursingnexusalliance@gmail.com" style="color: #666; text-decoration: none;">nursingnexusalliance@gmail.com</a> | 
+  Phone: <a href="tel:0102702271" style="color: #666; text-decoration: none;">0102702271</a>
+</footer>
+
+
+  <div id="flagModal">
+    <h3>Flagged Questions</h3>
+    <div id="flagList"></div>
+    <button onclick="closeFlagModal()">Close</button>
+  </div>
 
   <script>
-    let userName = "";
-    let userPhone = "";
-    let userReason = "";
-
-    function proceedToInstructions() {
-      const name = document.getElementById("full-name").value.trim();
-      const phone = document.getElementById("phone-number").value.trim();
-      const reason = document.getElementById("reason").value.trim();
-
-      if (name.length < 3) {
-        alert("Please enter your full name.");
-        return;
-      }
-      if (!/^2547\d{8}$/.test(phone)) {
-        alert("Enter a valid Kenyan WhatsApp number (e.g. 2547XXXXXXXX)");
-        return;
-      }
-      if (reason.length < 3) {
-        alert("Please enter a valid reason for the test.");
-        return;
-      }
-
-      userName = name;
-      userPhone = phone;
-      userReason = reason;
-
-      document.getElementById("intro-page").style.display = "none";
-      document.getElementById("start-page").style.display = "block";
-    }
-
-    function startApp() {
-      document.getElementById("start-page").style.display = "none";
-      document.querySelector(".tab-bar").style.display = "flex";
-      document.querySelector(".container").style.display = "block";
-      document.getElementById("timer").style.display = "block";
-      document.querySelector("footer").style.display = "block";
-    }
+    let userName = "", userPhone = "", userReason = "";
+    let current = 0, flagged = new Set(), questions = [], fileName = "";
+    let saved = {}, timer, timeLeft;
+    let isSimulationMode = false;
 
     const fileList = [
       { name: "MOCK 1", file: "mock1.json" },
@@ -210,15 +220,50 @@
     const navDiv = document.getElementById('navigation');
     const timerEl = document.getElementById('timer');
 
-    let current = 0, flagged = new Set(), questions = [], fileName = "";
-    let saved = {}, timer, timeLeft;
-    let isSimulationMode = false;
+    window.onload = function () {
+      const savedData = JSON.parse(localStorage.getItem("nckUserData") || "{}");
+      if (savedData.name) document.getElementById("full-name").value = savedData.name;
+      if (savedData.phone) document.getElementById("phone-number").value = savedData.phone;
+      if (savedData.reason) document.getElementById("reason").value = savedData.reason;
+    };
+
+    function proceedToInstructions() {
+      const name = document.getElementById("full-name").value.trim();
+      const phone = document.getElementById("phone-number").value.trim();
+      const reason = document.getElementById("reason").value.trim();
+
+      if (name.length < 3) return alert("Please enter your full name.");
+      if (!/^2547\d{8}$/.test(phone)) return alert("Enter a valid Kenyan WhatsApp number.");
+      if (reason.length < 3) return alert("Please enter a valid reason.");
+
+      userName = name;
+      userPhone = phone;
+      userReason = reason;
+
+      localStorage.setItem("nckUserData", JSON.stringify({ name, phone, reason }));
+
+      document.getElementById("intro-page").style.display = "none";
+      document.getElementById("start-page").style.display = "block";
+    }
+
+    function startApp() {
+      document.getElementById("start-page").style.display = "none";
+      document.querySelector(".tab-bar").style.display = "flex";
+      document.querySelector(".container").style.display = "block";
+      document.getElementById("timer").style.display = "block";
+      document.querySelector("footer").style.display = "block";
+    }
 
     fileList.forEach((item) => {
       const btn = document.createElement('button');
       btn.className = 'tab-btn';
       btn.textContent = item.name;
-      btn.onclick = () => loadQuiz(item.file, btn);
+      btn.onclick = () => {
+        if (!btn.classList.contains("disabled")) {
+          loadQuiz(item.file, btn);
+          btn.classList.add("disabled");
+        }
+      };
       tabsDiv.appendChild(btn);
     });
 
@@ -249,6 +294,7 @@
       const opts = q.options || {};
       container.innerHTML = `<div class="question-box"><strong>Question ${i + 1}:</strong><br><br>${q.question || "Untitled"}<br><br></div>`;
       const box = container.querySelector('.question-box');
+
       for (const [k, v] of Object.entries(opts)) {
         const b = document.createElement('button');
         b.className = 'btn';
@@ -271,8 +317,26 @@
         box.innerHTML += "<p style='color:#002147;'>[Flagged for review]</p>";
       }
 
-      window.scrollTo(0, 0);
       updateNav();
+
+      if (flagged.size && !isSimulationMode) {
+        const jumpBtn = document.createElement("button");
+        jumpBtn.textContent = "📌 Jump to First Flagged";
+        jumpBtn.style = "margin-top:15px;padding:10px;background:#cc0000;color:white;border:none;border-radius:4px;cursor:pointer;";
+        jumpBtn.onclick = () => {
+          current = [...flagged][0];
+          render(current);
+        };
+        container.appendChild(jumpBtn);
+
+        const allFlaggedBtn = document.createElement("button");
+        allFlaggedBtn.textContent = "📝 View All Flagged";
+        allFlaggedBtn.style = "margin-left:10px;padding:10px;background:#666;color:white;border:none;border-radius:4px;cursor:pointer;";
+        allFlaggedBtn.onclick = showFlagModal;
+        container.appendChild(allFlaggedBtn);
+      }
+
+      window.scrollTo(0, 0);
     }
 
     function updateNav() {
@@ -288,27 +352,15 @@
       navDiv.innerHTML = navButtons.join("");
     }
 
-    function allAnswered() {
-      return questions.every((_, idx) => saved[idx]?.selected);
-    }
-
-    function prev() {
-      if (current > 0) {
-        current--;
-        render(current);
-      }
-    }
-
-    function next() {
-      if (current < questions.length - 1) {
-        current++;
-        render(current);
-      }
-    }
-
+    function prev() { if (current > 0) { current--; render(current); } }
+    function next() { if (current < questions.length - 1) { current++; render(current); } }
     function flag() {
       flagged.has(current) ? flagged.delete(current) : flagged.add(current);
       render(current);
+    }
+
+    function allAnswered() {
+      return questions.every((_, idx) => saved[idx]?.selected);
     }
 
     function submitTest() {
@@ -322,8 +374,6 @@
           : `You scored ${correct} / ${total} (${percent}%)`;
 
         alert(message);
-
-        // WhatsApp Message
         const text = encodeURIComponent(`Hi, I just completed a test via NCK SIM.\nName: ${userName}\nReason: ${userReason}\n${message}`);
         const url = `https://wa.me/${userPhone}?text=${text}`;
         window.open(url, "_blank");
@@ -371,15 +421,25 @@
       else if (document.msExitFullscreen) document.msExitFullscreen();
     }
 
+    function showFlagModal() {
+      const list = [...flagged].map(i => `<button onclick="jumpTo(${i})">Go to Q${i + 1}</button>`).join("");
+      document.getElementById("flagList").innerHTML = list || "No flagged questions.";
+      document.getElementById("flagModal").style.display = "block";
+    }
+
+    function closeFlagModal() {
+      document.getElementById("flagModal").style.display = "none";
+    }
+
+    function jumpTo(index) {
+      current = index;
+      closeFlagModal();
+      render(current);
+    }
+
     document.addEventListener("contextmenu", e => e.preventDefault());
     document.addEventListener("keydown", e => {
-      if (
-        e.key === "F12" || 
-        (e.ctrlKey && e.shiftKey && e.key === "I") || 
-        e.key === "F5" || 
-        (e.ctrlKey && e.key === "r") || 
-        e.key === "Backspace" && e.target === document.body
-      ) {
+      if (e.key === "F12" || (e.ctrlKey && e.shiftKey && e.key === "I") || e.key === "F5" || (e.ctrlKey && e.key === "r") || (e.key === "Backspace" && e.target === document.body)) {
         e.preventDefault();
       }
     });
