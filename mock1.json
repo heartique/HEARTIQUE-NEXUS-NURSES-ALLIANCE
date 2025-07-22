@@ -1,32 +1,1176 @@
 [
   {
-    "question": "What is the normal range of blood glucose in mg/dL?",
+    "question": "Eclampsia is diagnosed when the patient presents with",
     "options": {
-      "A": "70–110",
-      "B": "120–160",
-      "C": "50–90",
-      "D": "140–180"
+      "A": "oedema, convulsion, proteinuria",
+      "B": "Proteinuria, oedema, headache",
+      "C": "Proteinuria, low urine output, vomiting",
+      "D": "oedema, polyuria, oedema"
     },
     "answer": "A"
   },
   {
-    "question": "Which organ is primarily responsible for insulin production?",
+    "question": "Mrs B para 0+0 gravida 1 is at 37 weeks 5 days gestation, comes to the clinic complaining of low back pain, abdominal pain and vaginal bleeding after she fell. She has changed two fully soaked perineal pads for the last four hours. She is most likely to have",
     "options": {
-      "A": "Liver",
-      "B": "Kidney",
-      "C": "Pancreas",
-      "D": "Stomach"
+      "A": "Post-partum haemorrhage",
+      "B": "Placenta praevia",
+      "C": "Placenta abruption",
+      "D": "Cord prolapse"
     },
     "answer": "C"
   },
   {
-    "question": "Which vitamin is essential for blood clotting?",
+    "question": "The layers of the uterus are:",
     "options": {
-      "A": "Vitamin A",
-      "B": "Vitamin D",
-      "C": "Vitamin K",
-      "D": "Vitamin C"
+      "A": "Perimetrium, pericardium, fourchette",
+      "B": "Broad ligament, Round ligament, Endocervix",
+      "C": "Endometrium, myometrium, perimetrium",
+      "D": "Round ligament, myometrium, ischiocarvenosus"
     },
     "answer": "C"
+  },
+  {
+    "question": "The most important factors in fracture healing is:",
+    "options": {
+      "A": "Adequate phosphorus intake, Immobilization",
+      "B": "Good alignment, Immobilization",
+      "C": "Adequate calcium intake, wound closure",
+      "D": "Wound closure, adequate potassium intake"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Licensing and registration of Nurses in Kenya is the mandate of:",
+    "options": {
+      "A": "Kenya progressive Nurses Association (KPNA)",
+      "B": "Kenya National Union of Nurses (KNUN)",
+      "C": "National Nurses Association of Kenya (NNAK)",
+      "D": "Nursing Council of Kenya (NCK)"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "One of the following statement best describes a professional nurse in Kenya",
+    "options": {
+      "A": "Trained outside Kenya, communicates well",
+      "B": "Treats clients with dignity, wears clean uniform",
+      "C": "Trained and licensed to practice",
+      "D": "Spiritual, cares about the patients"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "An example of 3rd generation cephalosporin is:",
+    "options": {
+      "A": "Ceftriaxone",
+      "B": "Amikacin",
+      "C": "Erythromycin",
+      "D": "Gentamycin"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Drug bio-availability is described as:",
+    "options": {
+      "A": "Amount of drug accessible at the site of action",
+      "B": "Amount of drug excreted through the kidney",
+      "C": "Amount of drug in the liver",
+      "D": "The dosage"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "A nurse formulates a diagnosis of altered tissue perfusion when a presents with",
+    "options": {
+      "A": "Hypoxia",
+      "B": "Paleness of the extremities",
+      "C": "Jaundice",
+      "D": "Gasps for air"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Self-care Deficit theory in nursing was proposed by",
+    "options": {
+      "A": "Florence Nightingale",
+      "B": "Dorothea Orem",
+      "C": "Virginia Henderson",
+      "D": "Jean Orlando"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "To prevent pressure sores for bedridden patients, the nurse should:",
+    "options": {
+      "A": "Massage the pressure suite, Turn patient regularly",
+      "B": "Administer pain killers, catheterize the patient",
+      "C": "Offer diet rich in vitamins, Monitor vital signs",
+      "D": "Monitor vital signs, Turn patient regularly"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "When making a patient bed, the procedure should end with:",
+    "options": {
+      "A": "Nurse mitering the corners",
+      "B": "Nurse washing the hands",
+      "C": "Nurse adjusting the height of the bed",
+      "D": "Taking linen to the laundry"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "When guiding a patient with loss of sight, the nurse should",
+    "options": {
+      "A": "Ask to hold the nurses hand at the elbow",
+      "B": "Ask them to hold the nurse around the waist",
+      "C": "Hold their hand",
+      "D": "Hold their arm"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "When performing bladder irrigation the nurse should",
+    "options": {
+      "A": "Monitor the input and output chart 24 hourly",
+      "B": "Wash the hands before the procedure and not after",
+      "C": "Unblock the catheter if fluid fails to return",
+      "D": "Call the doctor if active bleeding is noted"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "The main goal of treatment for acute glomerulonephritis is to:",
+    "options": {
+      "A": "Encourage activity",
+      "B": "Encourage a high protein intake",
+      "C": "Maintain a fluid balance",
+      "D": "Teach urinary catheterization"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Which clinical finding would suggest to a nurse that a client with ulcer has an ulcer perforation?",
+    "options": {
+      "A": "Bradycardia",
+      "B": "Numbness in the leg",
+      "C": "Nausea and vomiting",
+      "D": "A rigid board-like abdomen"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "The nursing action important before an x-ray is:",
+    "options": {
+      "A": "Sedate the patient",
+      "B": "Keep the patient nil per oral for 6 hours",
+      "C": "Remove metallic objects from the patient",
+      "D": "Administer a contrast dye"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Which of the following is a classical symptom of pleurisy associated with pneumina",
+    "options": {
+      "A": "Hyperpyrexia",
+      "B": "Pain on breathing",
+      "C": "Cyanotic nails",
+      "D": "Tachycardia"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Which nursing diagnosis takes the highest priority for a female client with hyperthyroidism?",
+    "options": {
+      "A": "Risk for imbalanced nutrition less than body requirements related to thyroid hormone excess",
+      "B": "Risk for impaired skin integrity to oedema and poor wound care",
+      "C": "Body image disturbance related to weight gain",
+      "D": "Imbalanced nutrition less than body requirement related to thyroid hormone excess"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "The antidote for heparin toxicity is:",
+    "options": {
+      "A": "Potassium chloride",
+      "B": "Vitamin K",
+      "C": "Protamine sulfate",
+      "D": "Calcium gluconate"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Severe chest pain that radiates to the left arm and the back is an indication of:",
+    "options": {
+      "A": "Cancer of the neck structures",
+      "B": "Hypertension",
+      "C": "Liver disease",
+      "D": "Myocardial infraction"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Before removing the impacted cerumen, the nurse should instill _______ for 30 minutes:",
+    "options": {
+      "A": "5% dextrose",
+      "B": "Half strength Darrows solution",
+      "C": "Sodium peroxide",
+      "D": "Mineral oil"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "The priority nursing diagnosis for a 4 years old child presenting with diarrhea",
+    "options": {
+      "A": "Altered consciousness",
+      "B": "Fluid volume deficit and electrolyte imbalance",
+      "C": "Fluid volume excess and electrolyte balance",
+      "D": "Elevated body temperatures"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Cyanosis observed on the lips and tongue in sick children indicates:",
+    "options": {
+      "A": "Poor perfusion",
+      "B": "Alter gaseous exchange",
+      "C": "Hypothermia",
+      "D": "Inadequate venous return"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "AVPU as used in the assessment of level of consciousness in children stands for",
+    "options": {
+      "A": "Alertness, Voice response, Pain response, Unresponsiveness",
+      "B": "Awake, Volatile, pain reaction, unconsciousness",
+      "C": "Alert, Voice response, pupil response to light, unconsciousness",
+      "D": "Alertness, Volatile, Pain response, Unresponsiveness"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Examples of cutting instruments in theatre are:",
+    "options": {
+      "A": "Dissecting forceps, scissors",
+      "B": "Dissecting forceps, artery forceps",
+      "C": "Scissors, scalpel",
+      "D": "Abdominal retractor, scalpel"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "The best method for a couple who have met their desired family size would be:",
+    "options": {
+      "A": "Condom",
+      "B": "Sterilization of one partner",
+      "C": "Intrauterine contraceptive device",
+      "D": "Sterilization of both partner"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Infections that spread through contaminated drinking water are classified as",
+    "options": {
+      "A": "Water-borne",
+      "B": "Water-washed",
+      "C": "Water-based",
+      "D": "Water-related"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "One of the following is a pre-renal cause of kidney failure",
+    "options": {
+      "A": "Neurogenic bladder",
+      "B": "Prostrate hypertrophy",
+      "C": "Acute glomerulo-nephritis",
+      "D": "Severe hemorrhage"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "A client who has just been sexually abused remains calm and quiet. This is an example of which type of defense mechanism?",
+    "options": {
+      "A": "Denail",
+      "B": "Dissociation",
+      "C": "Intellectualization",
+      "D": "Projection"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "For Voluntary admission in a hospital, the client must fill form MOH _____ in duplicate",
+    "options": {
+      "A": "306",
+      "B": "314",
+      "C": "308",
+      "D": "400"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "The drug of choice for treating all species of schistosome is:",
+    "options": {
+      "A": "Malathion",
+      "B": "Hydroxchloroquine",
+      "C": "Praziquantel",
+      "D": "Ivermectin"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Management of the spread of cholera in the community involves:",
+    "options": {
+      "A": "Referral of the patient to the hospital for treatment",
+      "B": "Creating a temporary isolation Centre in the community, rehydrating the patients",
+      "C": "Quarantining the health care workers only",
+      "D": "Admitting the patients to the hospital, administering antibiotics"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "A nurse manager motivates the theatre team with a lunch after saving a patient. Which theory is the manager applying?",
+    "options": {
+      "A": "Theory X and Y",
+      "B": "Scientific theory of management",
+      "C": "System management theory",
+      "D": "Human relation"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Sexual relations between children and relatives is termed as:",
+    "options": {
+      "A": "Rape",
+      "B": "Incest",
+      "C": "Bigamy",
+      "D": "Iterrelations"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "The appropriate nursing diagnosis for a client with stage IV cancer of the stomach is",
+    "options": {
+      "A": "Altered body image",
+      "B": "Disturbed sleep",
+      "C": "Acute Pain",
+      "D": "Elevated body temperatures"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Community midwifery encourages",
+    "options": {
+      "A": "Home deliveries",
+      "B": "Home grown solution to pregnancy and child care",
+      "C": "Safe hospital delivery and postnatal follow up",
+      "D": "Pregnant mothers to seek alternative care"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Madam K has gone into shock after caesarian section identify signs of shock",
+    "options": {
+      "A": "Sweating profusely, high urine out put",
+      "B": "Altered mental state, low blood pressure",
+      "C": "Increased blood pressure, reduced pulse rate",
+      "D": "Increased blood pressure, reduced pulse rate"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Vaginal examination during second stage is performed to",
+    "options": {
+      "A": "Confirm full cervical dilatation",
+      "B": "Check presentation",
+      "C": "Rupture membranes",
+      "D": "Prepare for delivery"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "The number of antenatal visit as per the WHO recommendation is",
+    "options": {
+      "A": "3",
+      "B": "2",
+      "C": "1",
+      "D": "4"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Cord care should be done using",
+    "options": {
+      "A": "Methylated Spirit",
+      "B": "Chlorhexidine",
+      "C": "Normal Saline",
+      "D": "Topical steroid"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "The skin changes during pregnancy due to:",
+    "options": {
+      "A": "Good diet",
+      "B": "Increased melanocytes activity",
+      "C": "Reduced vitamin intake in the diet",
+      "D": "Reduced intake of fluids"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "A negative feedback response by the body to hyperthermia is",
+    "options": {
+      "A": "Shivering",
+      "B": "Sweating",
+      "C": "Vasoconstriction of blood vessels in the dermis",
+      "D": "An increase in metabolic rate"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "A theory is a set of concepts, definitions, relationships, and assumptions that:",
+    "options": {
+      "A": "Formulates legislation",
+      "B": "Explains a phenomenon",
+      "C": "Measures nursing function",
+      "D": "Reflects domains of nursing practice"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "The best nursing action when dealing with a patient who does not understand the physician’s earlier explanation of a planned surgery is:",
+    "options": {
+      "A": "Quickly explain the surgery procedure and the risks to the client",
+      "B": "Ask supervisor to explain the surgery procedure and its risks",
+      "C": "Notify the physician",
+      "D": "Cancel the surgery"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "An examination done with a radio opaque dye and x-ray is:",
+    "options": {
+      "A": "Pap smear",
+      "B": "Barium meal",
+      "C": "Sigmoidoscopy",
+      "D": "Laryngoscopy"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "A patient is scheduled for magnetic Resonance (MRI) of the abdomen. The nurse should instruct the patient to avoid",
+    "options": {
+      "A": "Wearing metal objects during the procedure",
+      "B": "Taking oral medication up to 12 hours after the procedure",
+      "C": "Urinating prior to the procedure",
+      "D": "Eating solid food 12 hours prior to the procedure"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "The following is true concerning urinary incontinence",
+    "options": {
+      "A": "Caffeine drinks inhibit bladder function",
+      "B": "Cough stress stimulates accidental urine release",
+      "C": "Diuretics are used to treat incontinence",
+      "D": "Polyuria is a definite cause of incontinence"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Pulmonary edema is associated with failing",
+    "options": {
+      "A": "Right atrium",
+      "B": "Left atrium",
+      "C": "Right ventricle",
+      "D": "Left ventricle"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Pemphigus vulgaris is characterized by:",
+    "options": {
+      "A": "Painful small blisters which form clusters",
+      "B": "Intensive itching blisters of varying sizes",
+      "C": "Chronic firm raised bumps which form a ring with normal sunken skin in the centre",
+      "D": "Formation of tender red bumps under the skin"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Non modifiable risk factors in coronary artery diseases include",
+    "options": {
+      "A": "Hyperlipidemia, hypertension, diabetes mellitus",
+      "B": "Obesity, physical inactivity, family history",
+      "C": "Cigarette smoking, gender, hyperlipidemia",
+      "D": "Increasing age, gender, family history"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Pulmonary disorders that cause finger-clubbing include:",
+    "options": {
+      "A": "Pneumonia, asthma, emphysema",
+      "B": "Lung cancer, lung abscess, pulmonary fibrosis",
+      "C": "Cystic fibrosis, pulmonary hypertension, pneumothorax",
+      "D": "Pleural effusion, beryllium disease, chronic atelectasis"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "The main cause of enlargement of the thyroid gland is:",
+    "options": {
+      "A": "Pregnancy",
+      "B": "Growth hormone",
+      "C": "Deficient intake of iodine",
+      "D": "Autoimmune disease"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Which of these nursing actions will best promote independence for the client in skeletal traction?",
+    "options": {
+      "A": "Instruct the client to call for an analgesic before pain becomes severe",
+      "B": "Encourage leg exercise within the limits of traction",
+      "C": "Provide skin care to prevent skin breakdown",
+      "D": "Provide an overhead trapeze for client use"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Diarrhea takes out too much of water and minerals which causes",
+    "options": {
+      "A": "Lack of energy",
+      "B": "Dryness",
+      "C": "Dehydration",
+      "D": "Hunger"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "The nurse is assessing a comatose client receiving gastric tube feedings. Which of the following assessment findings requires an IMMEDIATE response from the nurse?",
+    "options": {
+      "A": "Aspiration of a residual of loo cc of formula",
+      "B": "Decrease in bowel sounds",
+      "C": "Urine output of 250cc in past eight hours",
+      "D": "Decreased breath sounds"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "An appropriate nursing diagnostic label for a client with renal calculi is:",
+    "options": {
+      "A": "Ineffective tissue perfusion",
+      "B": "Functional urinary incontinence",
+      "C": "Acute pain",
+      "D": "Decreased cardiac output"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "The finding suggestive of a blocked drainage catheter following transurethral resection of the prostate (TURP) is:",
+    "options": {
+      "A": "The urine in the drainage bag appears red to pink",
+      "B": "The client repots bladder spasms and the urge to void",
+      "C": "The normal saline irrigant is infusing at a rate of 50 drops/minute",
+      "D": "About 1,000 ml of irrigant have been instilled; 1,200 ml of drainage have been returned"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Normal fetal heart rate is:",
+    "options": {
+      "A": "120-160b/m",
+      "B": "120-140b/m",
+      "C": "110-160b/m",
+      "D": "110-140B/M"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Factors hindering home visiting by a midwife include:",
+    "options": {
+      "A": "Rejection by family, unfavorable weather conditions, language barrier",
+      "B": "Poor infrastructure, laziness by the midwife, rejection by family",
+      "C": "Lack of privacy, reliable transport facilities, language barrier",
+      "D": "Language barrier, favorable weather conditions, unreliable transport facilities"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Preventive measures of opthalmia neonatorium include",
+    "options": {
+      "A": "Administering systemic penicillin with one hour after birth, isolation of the baby",
+      "B": "Instillation of penicillin eye drops after birth, taking eye swab for culture and sensitivity",
+      "C": "Treatment of all vaginal discharges prenatally, application of 3% tetracycline eye ointment within one hour of birth",
+      "D": "Treatment of abnormal vaginal discharge prenatally, application of 1% tetracycline eye ointment within one hour of birth"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "The management of hypotonic uterine action includes:",
+    "options": {
+      "A": "Intravenous infusion of 10% dextrose",
+      "B": "Intravenous infusion of syntocinon in 5%dextrose",
+      "C": "Intravenous infusion of syntocinon in normal saline",
+      "D": "Intravenous infusion of buscopan 15mgs"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Hegar's sign is a probable sign of pregnancy characterized by:",
+    "options": {
+      "A": "Softening of the cervix",
+      "B": "Periodic uterine tightening",
+      "C": "Colour change of the vagina from pink to violet",
+      "D": "Softening of the lower uterine segment"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "The pelvic joints include the following:",
+    "options": {
+      "A": "One symphysis pubis, two sacroccygeal joint, two sacroiliac joint",
+      "B": "One symphysis pubis, one sacroccygeal joint, one sacroiliac joint",
+      "C": "One symphysis pubis, one sacroccygeal joint, two sacroiliac joint",
+      "D": "One symphysis pubis, two sacroccygeal joint, one sacroiliac joint"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "A client with a diagnosis of schizophrenia refuses to take meals. The nursing action that will be most appropriate will be to:",
+    "options": {
+      "A": "Allow the client to eat whatever is desired at their convenience",
+      "B": "Firmly direct the patient to take meals",
+      "C": "Give appetizers such as multivitamins and force the patient to eat",
+      "D": "Be with the client while the meals are being served and get explanations from the patient."
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Anything that interferes with the communication process is generally referred to as a:",
+    "options": {
+      "A": "Feedback",
+      "B": "Semantic",
+      "C": "Barrier",
+      "D": "Context"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "The population of vectors can be controlled by",
+    "options": {
+      "A": "Environment sanitation",
+      "B": "Chemoprophylaxis",
+      "C": "Isolation",
+      "D": "Vaccination"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "The following vaccines are live attenuated",
+    "options": {
+      "A": "Oral polio, pentavalent",
+      "B": "Pentavalent, BCG",
+      "C": "BCG, Measles",
+      "D": "Yellow fever, pentavalent"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Physical therapy in home based care helps in",
+    "options": {
+      "A": "Reducing loneliness, relaxation, improving circulation",
+      "B": "Improving circulation, preventing muscle wasting, improving digestion",
+      "C": "Reducing loneliness, preventing chest infection, improving digestion",
+      "D": "Socialization, improving breathing, preventing infections"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "The following are examples of “spacing methods” of family planning",
+    "options": {
+      "A": "Natural methods, chemical barriers, vasectomy",
+      "B": "Mechanical barriers, tubectomy, chemical barriers",
+      "C": "Tubectomy, vasectomy, Natural methods",
+      "D": "Chemical barriers, Natural methods, Mechanical barriers"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Active involved in school health include:",
+    "options": {
+      "A": "Vitamin A supplementation",
+      "B": "Youth friendly services",
+      "C": "Minor surgery",
+      "D": "Screening and treatment of minor ailments"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "The declaration of health for all by year 20 was made in the year",
+    "options": {
+      "A": "1978",
+      "B": "1987",
+      "C": "1986",
+      "D": "1976"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Familiarization assessment as a type of community needs assessment involves",
+    "options": {
+      "A": "The researcher focusing on a single problem and studies the community in terms of that problem",
+      "B": "Examining a single facet of community life",
+      "C": "An in-depth survey of the entire community",
+      "D": "Studying data already available in the community and gathering a certain amount of first hand data"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Cold chain management",
+    "options": {
+      "A": "Starts from the health facility to the community",
+      "B": "Starts from the manufacture to the recipient",
+      "C": "Is a system that uses community health workers and equipment",
+      "D": "Enable the use of the various vaccines for a longtime after reconstitution"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Which of the four is NOT a reason for nutrition status assessment:",
+    "options": {
+      "A": "Identify population/individuals at risk of malnutrition",
+      "B": "Develop health care programs that meet community needs which are defined by the assessment",
+      "C": "Management of malaria",
+      "D": "Identify those already malnourished"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "The following are short term methods of family planning",
+    "options": {
+      "A": "Intrauterine contraceptive device and condoms",
+      "B": "Implant insertion and IUCD",
+      "C": "Oral contraceptive and vasectomy",
+      "D": "Microlut and microgynon"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "A community can be broadly defined as:",
+    "options": {
+      "A": "Social unit of any size that shares common values and resources",
+      "B": "Social identity and practice within the community",
+      "C": "Having a common traditional health seeking behavior",
+      "D": "Enhancing the understanding of community health status"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "The cell type responsible for bone maintenance is",
+    "options": {
+      "A": "Osteoclast",
+      "B": "Osteoblast",
+      "C": "Chondrocyte",
+      "D": "Osteocyte"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "The diameter of the lumen of the aorta is mainly controlled by",
+    "options": {
+      "A": "The volume of the blood flowing through it",
+      "B": "The vasomotor centre in the brain",
+      "C": "Nerve stimulation",
+      "D": "The weather condition surrounding the individual"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "A patient has history of fainting at around 10 am. He was doing self-injection on the abdomen about 30 minutes before he fainted. The patient is likely to have injected himself with:",
+    "options": {
+      "A": "A strong antibiotic",
+      "B": "Adrenaline",
+      "C": "Insulin",
+      "D": "Penicillin"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "During handwashing in the prevention of covid-19, the chain is broken at the",
+    "options": {
+      "A": "Reservoir",
+      "B": "Portal of entry",
+      "C": "Susceptible host",
+      "D": "Infectious agent"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "In children, paralytic ileus accompanies the following metabolic abnormalities EXCEPT",
+    "options": {
+      "A": "Hypokalemia",
+      "B": "Hypocalcemia",
+      "C": "Uremia",
+      "D": "Hypermagnesemia"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "A caretaker brings a 5 years child to hospital and bright red blood is seen flowing bilaterally from the nasal opening. The initial action the nurse should take on this child will be",
+    "options": {
+      "A": "Pinch the nostrils over the nasal ridge as child lean forward",
+      "B": "Take child to theare for surgical toileting",
+      "C": "Pinch the nostrils over the nasal ridge as the child lies supine",
+      "D": "Take the vitals of the child"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "While performing bed making, the nurse ensures that the bed linen the patient lies on are well straightened. The great reason for this is to:",
+    "options": {
+      "A": "Have the ward appear neat",
+      "B": "Demonstrate to the client the proper technique of bed making",
+      "C": "Prevent creases that can cause decubitus ulcers",
+      "D": "Avoid tearing the bed linen by having folds on it"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "A patient complains of dysuria and the nurse decides to collect a urine sample from the patient for urinalysis possible findings from the urinalysis will most likely reveal",
+    "options": {
+      "A": "Normal urine composition",
+      "B": "Pus cells in the urine",
+      "C": "Glucose in urine",
+      "D": "Epithelial cells"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "The priority nursing diagnosis for patient with rheumatoid arthritis (RA) who is not responding to nonsteroidal anti-inflammatory drugs (NSAIDs) is:",
+    "options": {
+      "A": "Self-care deficit related to fatigue and joint stiffness",
+      "B": "Ineffective airway clearance related to chronic pain.",
+      "C": "Risk for hopelessness related to body image disturbance",
+      "D": "Anxiety related to chronic joint pain"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "The action that a nurse would do during the evaluation phase of the nursing process is:",
+    "options": {
+      "A": "Have a patient provide input on the quality of care received",
+      "B": "Remove a patient’s surgical staples on the scheduled postoperative day",
+      "C": "Provide information on a follow-up appointment for a postoperative patient",
+      "D": "Document a patient improved air entry with incentive spirometry"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "A patient is due for pyelography the following day. Before the procedure the nurse ensures that:",
+    "options": {
+      "A": "The patient is well fed",
+      "B": "The patient is passing adequate urine",
+      "C": "The patient pays for the procedure",
+      "D": "The relatives have consented to the procedure"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "The nutritional needs of a patient who is comatose are safely met through",
+    "options": {
+      "A": "Small frequent oral feeds",
+      "B": "Nasogastric tube feeding",
+      "C": "Intravenous fluids administration",
+      "D": "Letting patient recover first before any feeding"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "An advantage of balloon valvuloplasty over valve replacement is:",
+    "options": {
+      "A": "Lower doses of antirejection drugs required than with valve replacement",
+      "B": "The procedure is not associated with a risk for infection",
+      "C": "Repaired valves tend to function longer than replaced valve",
+      "D": "The procedure can be performed on an outpatient basis in a physician’s office."
+    },
+    "answer": "D"
+  },
+  {
+    "question": "The therapeutic action of omeprazole is:",
+    "options": {
+      "A": "Reduction in the amount of acid secreted in the stomach",
+      "B": "Reduction of peristaltic movement",
+      "C": "Helping the stomach lining to repair itself",
+      "D": "Making the stomach lining more resistant to damage"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "A clinical manifestation of acute glomerulonephritis is:",
+    "options": {
+      "A": "Hematuria",
+      "B": "Hypotension unresolved by fluid administration",
+      "C": "Glucosuria",
+      "D": "Precipitous decrease in serum creatinine levels"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "The nurse has identified the nursing diagnosis of risk for infection in a patient who undergoes peritoneal dialysis. What nursing action best addresses this risk?",
+    "options": {
+      "A": "Add antibiotics to the dialysate as ordered",
+      "B": "Maintain aseptic technique when administering dialysate",
+      "C": "Administer prophylactic antibiotics by mouth or IV as ordered",
+      "D": "Wash the skin surrounding the catheter site with soap and water prior to each exchange"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "The most appropriate type of traction to apply to a fractured proximal femur is:",
+    "options": {
+      "A": "Russell’s traction",
+      "B": "Cervical head halter",
+      "C": "Dunlop’s traction",
+      "D": "Buck's extension"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "A clinical manifestation of third spacing in a patient with burns is:",
+    "options": {
+      "A": "Metabolic alkalosis",
+      "B": "Hypermagnesemia",
+      "C": "Hypercalcemia",
+      "D": "Hypovolemia"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "A nurse is caring for a patient who has sustained a deep-thickness burn injury. In prioritizing the nursing diagnoses for the plan of care the nurse will give the highest priority to what nursing diagnosis?",
+    "options": {
+      "A": "Activity intolerance",
+      "B": "Ineffective coping",
+      "C": "Acute pain",
+      "D": "Anxiety"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "What is the first action a nurse should take when discovering an unresponsive patient in bed?",
+    "options": {
+      "A": "Check the patient's pulse",
+      "B": "Call for help",
+      "C": "Start chest compressions",
+      "D": "Open the airway"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "When performing chest compressions during cardiopulmonary resuscitation on a patient who is unresponsive the nurse should:",
+    "options": {
+      "A": "Perform high-quality chest compressions as rapidly as possible",
+      "B": "Pause chest compressions to allow for vital signs monitoring every 4 to 5 minutes",
+      "C": "Pause to allow a colleague to provide a breath every 10 compressions",
+      "D": "Perform 100-120 chest compressions per minute."
+    },
+    "answer": "D"
+  },
+  {
+    "question": "A patient with mastoiditis is admitted to the post-surgical unit after undergoing a radical mastoidectomy. The nurse should identify what priority of postoperative care?",
+    "options": {
+      "A": "Assessing for mouth droop and decreases lateral eye gaze",
+      "B": "Assessing for scar tissue and cerumen obstructing the auditory canal",
+      "C": "Assessing for increased middle ear pressure and perforated ear drum",
+      "D": "Assessing for gradual onset of conductive hearing loss and nystagmus"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "The most dangerous complication during induction of spinal anesthesia is",
+    "options": {
+      "A": "Cardiac arrest",
+      "B": "Hypotension",
+      "C": "Hyperthermia",
+      "D": "Respiratory paralysis"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Direct methods of nutritional assessment include",
+    "options": {
+      "A": "Measuring the weight of an individual",
+      "B": "Taking 24 hours recall on diet history",
+      "C": "Taking the economic history of the patient or caregiver",
+      "D": "Enquiring the patient’s food preferences"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Which of the following symptoms in pregnant women is of greatest concern?",
+    "options": {
+      "A": "Vomiting",
+      "B": "Visual disturbances",
+      "C": "Heartburn",
+      "D": "Slight oedema"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "In the part of the 3rd trimester, the mother may experience shortness of breath. This complaint may be explained as",
+    "options": {
+      "A": "A normal occurrence in pregnancy because the fetus is using more oxygen",
+      "B": "The fundus of the uterus is high pushing the diaphragm upwards",
+      "C": "The woman is having allergic reaction to the pregnancy and its hormones",
+      "D": "The woman maybe experiencing complication of pregnancy"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Fetal lie refers to",
+    "options": {
+      "A": "Longitudinal axis of the fetus in relation to the oblique axis of the maternal uterus",
+      "B": "Longitudinal axis of the fetus in relation to the transverse axis of the maternal uterus",
+      "C": "Longitudinal axis of the fetus in relation to the long axis of the maternal uterus",
+      "D": "Longitudinal axis of the fetus in relation to the long axis of the maternal pelvis"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "A woman at 32 weeks gestation is brought to hospital with complaints of headache, and progressive oedema of the lower limbs. Her temperature is 36.8 degrees, blood pressure 220/156 mmHg. On urinalysis, there is proteinuria. The most probable diagnosis for this woman is:",
+    "options": {
+      "A": "Malaria in pregnancy",
+      "B": "Urinary tract infection in pregnancy",
+      "C": "Preeclampsia",
+      "D": "Eclampsia"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "A baby born at 32 weeks through caesarean section due to placenta praevia is brought to the neonatal intensive care unit. On examination the pulse rate is 200 b/m, capillary refill of 4 seconds, cold extremities with a birth weight of 2580mg. After initiation of supplemental oxygen the next most appropriate step in management is:",
+    "options": {
+      "A": "Administration of IV normal saline 10ml/kg over 60 minutes",
+      "B": "Administration of normal saline/ringer lactate 10ml/kg over 10 minutes",
+      "C": "Transfusion of blood 10ml/kg over 30 minutes",
+      "D": "Immediately give 20ml/kg O-negative packed RBS over 30 minutes"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "A 30 years old Gravida 3 par 2+0 at 28 weeks of gestation presents with severe pain in the right flank radiating to her groin, rigors and chills. Urinalysis reveals numerous cells. The most likely diagnosis is",
+    "options": {
+      "A": "Appendicitis",
+      "B": "Pyelonephritis",
+      "C": "Round ligament torsion",
+      "D": "Torsion of the ovarian cyst"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Which of the following is the most common indication for primary cesarean section?",
+    "options": {
+      "A": "Prolapsed cord",
+      "B": "Labor Dystocia",
+      "C": "Diabetes",
+      "D": "Malpresentation"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Which of the following situations has the greatest risk for the mother and infant?",
+    "options": {
+      "A": "Rupture of uterus",
+      "B": "Dehiscence of a uterine scar",
+      "C": "Cervical laceration",
+      "D": "Lack of spontaneous uterine contractions at term"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Application of forceps is appropriate in which of the following situations?",
+    "options": {
+      "A": "Breach at +3 station, cervix completely dilated, membranes ruptured.",
+      "B": "Vertex at +1 station, cervix completely dilated, membranes intact",
+      "C": "Mentum anterior, +3 station, cervix completely dilated, membranes ruptured",
+      "D": "Transverse lie, +3 station, cervix completely dilated, membranes ruptured"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "During history taking for a client who has come to seek VCT services in your health facility, you include paraphrasing as part of your communication skills. This means that",
+    "options": {
+      "A": "You ask the patient to repeat what you tell them to ensure understanding",
+      "B": "You get a language interpreter if you don’t share a common language with the client to ensure understanding.",
+      "C": "You repeat what the client tells you in your own words to ensure understanding",
+      "D": "You provide writing materials if client hearing difficulties"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Which of the following group of diseases is prevented by PCV 10 vaccine?",
+    "options": {
+      "A": "Mumps, pneumonia, diarrhea and sinusitis",
+      "B": "Mastoditis, pneumonia, bacterial meningitis and cellulitis",
+      "C": "Pneumonia, poliomyelitis, cryptococcal meningitis and typhoid fever",
+      "D": "Rhinitis, pneumonia, burns and whooping cough"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "An objective of school health program is?",
+    "options": {
+      "A": "To inspect teacher’s behavior regarding health of school children",
+      "B": "To provide age appropriate about health information to the children in schools",
+      "C": "To interview the children about their family health behavior because children always tell the truth",
+      "D": "To show the teachers how they should implement correct teaching strategies"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Types of environment include",
+    "options": {
+      "A": "Physical, biological, political",
+      "B": "Physical, physiological, political",
+      "C": "Biological, physiological, political",
+      "D": "Economical, biological, psychological"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "The causative organism for bacillary dysentery is",
+    "options": {
+      "A": "Vibro",
+      "B": "Salmonella",
+      "C": "Shigella",
+      "D": "Amoeba"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "According to Sigmund Freud, the structure of the mind is classified as",
+    "options": {
+      "A": "Conscious ID and super ego",
+      "B": "Ego pre-conscious and ID",
+      "C": "ID, ego and super ego",
+      "D": "Conscious, pre-conscious and unconscious"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "The state in which a patient repeats words or phrases spoken to him is referred to as:",
+    "options": {
+      "A": "Echopraxia",
+      "B": "Echolalia",
+      "C": "Neologism",
+      "D": "Word salad"
+    },
+    "answer": "B"
   }
 ]
+
+
+
+
