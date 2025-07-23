@@ -491,12 +491,15 @@ alert("✅ Your score has been sent via email. You may now close this window.");
       e.returnValue = '';
     });
   </script>
+  <!-- Load supported EmailJS SDK -->
 <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
 <script>
+  // Initialize EmailJS
   (function(){
-    emailjs.init("CuSwkmKmhKa7On9pZ");
+    emailjs.init("CuSwkmKmhKa7On9pZ"); // your public key
   })();
 
+  // Function to send score email
   window.sendScoreEmail = function(score, total, percent, weakAreas = []) {
     const templateParams = {
       name: userName,
@@ -510,10 +513,10 @@ alert("✅ Your score has been sent via email. You may now close this window.");
 
     emailjs.send("service_eku55ln", "template_yei58yl", templateParams)
       .then(function(response) {
-        console.log("✅ Email sent successfully:", response.status, response.text);
+        console.log("✅ Email sent:", response.status, response.text);
         alert("📩 Email sent successfully!");
       }, function(error) {
-        console.error("❌ EmailJS error:", error);
+        console.error("❌ Email send error:", error);
         alert("❌ Email failed: " + (error.text || JSON.stringify(error)));
       });
   };
