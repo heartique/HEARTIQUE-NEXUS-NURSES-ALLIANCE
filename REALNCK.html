@@ -1,12 +1,9 @@
-
-i hav ethia ,<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>NCK CBT Simulation</title>
-  <link rel="icon" href="favicon.ico" type="favicon.icon" />
-
   <style>
     html, body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -153,12 +150,11 @@ i hav ethia ,<!DOCTYPE html>
 <body>
 
   <div id="intro-page" class="form-page">
-    <h2>Welcome To Heartique Nursing Nexus NCK Simulation Platform</h2>
+    <h2>Welcome to NCK Simulation Heratique Portal</h2>
     <p>Enter your details to begin:</p>
     <input type="text" id="full-name" placeholder="Full Name" required />
     <input type="tel" id="phone-number" placeholder="e.g. 254712345678" required />
     <input type="text" id="reason" placeholder="Reason (e.g. Revision, Mock...)" required />
-    <input type="email" id="email-address" placeholder="Your Email (for results)" required />
     <button onclick="proceedToInstructions()">Continue</button>
   </div>
 
@@ -204,7 +200,6 @@ i hav ethia ,<!DOCTYPE html>
   </div>
 
   <script>
-    let userEmail = ""
     let userName = "", userPhone = "", userReason = "";
     let current = 0, flagged = new Set(), questions = [], fileName = "";
     let saved = {}, timer, timeLeft;
@@ -232,31 +227,24 @@ i hav ethia ,<!DOCTYPE html>
       if (savedData.reason) document.getElementById("reason").value = savedData.reason;
     };
 
-   function proceedToInstructions() {
-  const name = document.getElementById("full-name").value.trim();
-  const phone = document.getElementById("phone-number").value.trim();
-  const email = document.getElementById("email-address").value.trim(); // ✅ get email here
-  const reason = document.getElementById("reason").value.trim();
+    function proceedToInstructions() {
+      const name = document.getElementById("full-name").value.trim();
+      const phone = document.getElementById("phone-number").value.trim();
+      const reason = document.getElementById("reason").value.trim();
 
-  if (name.length < 3) return alert("Please enter your full name.");
-  if (!/^2547\d{8}$/.test(phone)) return alert("Enter a valid Kenyan WhatsApp number.");
-  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return alert("Please enter a valid email address.");
-  if (reason.length < 3) return alert("Please enter a valid reason.");
+      if (name.length < 3) return alert("Please enter your full name.");
+      if (!/^2547\d{8}$/.test(phone)) return alert("Enter a valid Kenyan WhatsApp number.");
+      if (reason.length < 3) return alert("Please enter a valid reason.");
 
-  // ✅ store them in variables
-  userName = name;
-  userPhone = phone;
-  userReason = reason;
-  userEmail = email;
+      userName = name;
+      userPhone = phone;
+      userReason = reason;
 
-  // ✅ save in localStorage
-  localStorage.setItem("nckUserData", JSON.stringify({ name, phone, email, reason }));
+      localStorage.setItem("nckUserData", JSON.stringify({ name, phone, reason }));
 
-  // ✅ show next screen
-  document.getElementById("intro-page").style.display = "none";
-  document.getElementById("start-page").style.display = "block";
-}
-
+      document.getElementById("intro-page").style.display = "none";
+      document.getElementById("start-page").style.display = "block";
+    }
 
     function startApp() {
       document.getElementById("start-page").style.display = "none";
@@ -297,12 +285,6 @@ i hav ethia ,<!DOCTYPE html>
         questions = data;
         if (isSimulationMode) enterFullscreen();
         startTimer(questions.length);
-        if (!isSimulationMode) {
-  setInterval(() => {
-    localStorage.setItem("progress_" + fileName, JSON.stringify(saved));
-  }, 15000); // every 15 seconds
-}
-
         render(current);
       });
     }
@@ -382,7 +364,6 @@ i hav ethia ,<!DOCTYPE html>
     }
 
     function submitTest() {
-      if (!confirm("Are you sure you want to submit the test?")) return;
       if (!isSimulationMode || allAnswered()) {
         const correct = Object.values(saved).filter(x => x.correct).length;
         const total = questions.length;
@@ -391,40 +372,11 @@ i hav ethia ,<!DOCTYPE html>
         let message = isSimulationMode
           ? `Simulation complete.\nAll ${total} questions attempted.`
           : `You scored ${correct} / ${total} (${percent}%)`;
-const weakAreas = questions
-  .map((q, i) => (!saved[i]?.correct ? `Q${i + 1}` : null))
-  .filter(x => x !== null);
 
-sendScoreEmail(correct, total, percent, weakAreas);
-
-      const summaryBox = document.createElement("div");
-summaryBox.style = `
-  margin-top: 30px;
-  padding: 20px;
-  border: 2px solid #002147;
-  background: #f4f4f4;
-  border-radius: 8px;
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-`;
-summaryBox.innerHTML = `
-  <h3 style="color:#002147;">${isSimulationMode ? "Simulation Complete" : "Test Summary"}</h3>
-  <p><strong>Name:</strong> ${userName}</p>
-  <p><strong>Reason:</strong> ${userReason}</p>
-<p><strong>Score:</strong> ${correct} / ${total} (${percent}%)</p>
-  <p><strong>Weak Areas:</strong> ${weakAreas.length ? weakAreas.join(", ") : "None detected"}</p>
-`;
-
-document.body.appendChild(summaryBox);
-
-}
-
-
-        const text = encodeURIComponent(`Greetings from Heartique Nursing Nexus – NCK Simulation Platform.\n\nI have successfully completed a professional NCK-style simulation.\n\nCandidate Name: ${userName}\nSimulation Purpose: ${userReason}\n\nSummary:\n${message}\n\nPowered by Heartique Nursing Nexus – Committed to Clinical Excellence.`);
+        alert(message);
+        const text = encodeURIComponent(`Hi, I just completed a test via NCK SIM.\nName: ${userName}\nReason: ${userReason}\n${message}`);
         const url = `https://wa.me/${userPhone}?text=${text}`;
-        window.location.href = url; // replaces window.open(url, "_blank");
+        window.open(url, "_blank");
 
         clearInterval(timer);
         if (isSimulationMode) exitFullscreen();
@@ -496,29 +448,5 @@ document.body.appendChild(summaryBox);
       e.returnValue = '';
     });
   </script>
-  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-<script>
-  emailjs.init('CuSwkmKmhKa7On9pZ'); // Your Public Key
-
-  function sendScoreEmail(score, total, percent, weakAreas = []) {
-    const templateParams = {
-      name: userName,
-      phone: userPhone,
-      email: userEmail,
-      reason: userReason,
-      score: `${score} out of ${total}`,
-      percentage: `${percent}%`,
-      weak_areas: weakAreas.length ? weakAreas.join(", ") : "None detected"
-    };
-
-    emailjs.send('service_eku55ln', 'template_yei58yl', templateParams)
-      .then(function(response) {
-        console.log('✅ Email sent successfully:', response.status, response.text);
-      }, function(error) {
-        console.error('❌ Failed to send email:', error);
-      });
-  }
-</script>
-
 </body>
-</html>
+</html> 
