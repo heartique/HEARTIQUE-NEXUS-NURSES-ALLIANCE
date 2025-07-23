@@ -404,7 +404,6 @@ if (percent >= 75) {
   remark = 'Fail – Needs improvement.';
 }
 
-sendScoreEmail(correct, total, percent, weakAreas); // uses remark
 try {
 const summaryBox = document.createElement("div");
 summaryBox.style = `
@@ -430,7 +429,7 @@ summaryBox.innerHTML = `
 } catch (err) {
   console.error("Summary box error:", err);
 }
-
+sendScoreEmail(correct, total, percent, weakAreas); // uses remark
         const text = encodeURIComponent(
   `Greetings from Heartique Nursing Nexus – NCK Simulation Platform.\n\n` +
   `I have successfully completed a professional NCK-style simulation.\n\n` +
@@ -442,11 +441,7 @@ summaryBox.innerHTML = `
   `Powered by Heartique Nursing Nexus – Committed to Clinical Excellence.`
 );
        const url = `https://wa.me/${userPhone}?text=${text}`;
-if (!/^2547\d{8}$/.test(userPhone)) {
-  alert("Invalid WhatsApp number. Must be like 254712345678");
-  return;
-}
-window.open(url, '_blank'); // opens WhatsApp in new tab
+       window.location.href = url;
 
 
         clearInterval(timer);
