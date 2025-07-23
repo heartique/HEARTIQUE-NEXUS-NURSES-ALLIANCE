@@ -229,14 +229,14 @@
       if (savedData.name) document.getElementById("full-name").value = savedData.name;
       if (savedData.phone) document.getElementById("phone-number").value = savedData.phone;
       if (savedData.reason) document.getElementById("reason").value = savedData.reason;
+      if (savedData.email) document.getElementById("email-address").value = savedData.email;
     };
-
    function proceedToInstructions() {
   const name = document.getElementById("full-name").value.trim();
   const phone = document.getElementById("phone-number").value.trim();
   const email = document.getElementById("email-address").value.trim(); // ✅ get email here
   const reason = document.getElementById("reason").value.trim();
-
+     
   if (name.length < 3) return alert("Please enter your full name.");
   if (!/^254(1|7)\d{8}$/.test(phone)) return alert("Enter a valid Kenyan phone number starting with 2547 or 2541.");
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return alert("Please enter a valid email address.");
@@ -255,8 +255,6 @@
   document.getElementById("intro-page").style.display = "none";
   document.getElementById("start-page").style.display = "block";
 }
-
-
     function startApp() {
       document.getElementById("start-page").style.display = "none";
       document.querySelector(".tab-bar").style.display = "flex";
