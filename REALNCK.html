@@ -491,15 +491,12 @@ alert("✅ Your score has been sent via email. You may now close this window.");
       e.returnValue = '';
     });
   </script>
-  <!-- ✅ Use supported EmailJS SDK -->
 <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
 <script>
-  // ✅ Initialize EmailJS with your public key
   (function() {
-    emailjs.init("CuSwkmKmhKa7On9pZ"); // Your Public Key
+    emailjs.init("CuSwkmKmhKa7On9pZ");
   })();
 
-  // ✅ Function to send score via email
   window.sendScoreEmail = function(score, total, percent, weakAreas = []) {
     const templateParams = {
       name: userName,
@@ -521,6 +518,7 @@ alert("✅ Your score has been sent via email. You may now close this window.");
       });
   };
 </script>
+
 
 </body>
 </html>
