@@ -404,7 +404,6 @@ if (percent >= 75) {
   remark = 'Fail – Needs improvement.';
 }
 
-try {
 const summaryBox = document.createElement("div");
 summaryBox.style = `
   margin-top: 30px;
@@ -426,10 +425,9 @@ summaryBox.innerHTML = `
   <p><strong>Weak Areas:</strong> ${weakAreas.length ? weakAreas.join(", ") : "None detected"}</p>
 `;
   document.body.appendChild(summaryBox);
-} catch (err) {
-  console.error("Summary box error:", err);
-}
-sendScoreEmail(correct, total, percent, weakAreas); // uses remark
+} 
+sendScoreEmail(correct, total, percent, weakAreas, remark);
+
         const text = encodeURIComponent(
   `Greetings from Heartique Nursing Nexus – NCK Simulation Platform.\n\n` +
   `I have successfully completed a professional NCK-style simulation.\n\n` +
@@ -523,16 +521,17 @@ sendScoreEmail(correct, total, percent, weakAreas); // uses remark
   };
 
   // Function to send score email
-  function sendScoreEmail(score, total, percent, weakAreas = []) {
-    const templateParams = {
-      name: userName,
-      phone: userPhone,
-      email: userEmail,
-      reason: userReason,
-      score: `${score} out of ${total}`,
-      percentage: `${percent}%`,
-      remark: remark,
-      weak_areas: weakAreas.length ? weakAreas.join(", ") : "None detected"
+function sendScoreEmail(score, total, percent, weakAreas = [], remark = '') {
+  const templateParams = {
+    name: userName,
+    phone: userPhone,
+    email: userEmail,
+    reason: userReason,
+    score: `${score} out of ${total}`,
+    percentage: `${percent}%`,
+    remark: remark,
+    weak_areas: weakAreas.length ? weakAreas.join(", ") : "None detected"
+  };
     };
 
     emailjs.send('service_eku55ln', 'template_yei58yl', templateParams)
