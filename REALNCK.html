@@ -491,9 +491,11 @@ alert("✅ Your score has been sent via email. You may now close this window.");
       e.returnValue = '';
     });
   </script>
- <script type="module">
-  import emailjs from 'https://cdn.emailjs.com/dist/email.min.mjs';
-  emailjs.init('CuSwkmKmhKa7On9pZ');
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+  (function(){
+    emailjs.init("CuSwkmKmhKa7On9pZ");
+  })();
 
   window.sendScoreEmail = function(score, total, percent, weakAreas = []) {
     const templateParams = {
@@ -506,14 +508,13 @@ alert("✅ Your score has been sent via email. You may now close this window.");
       weak_areas: weakAreas.length ? weakAreas.join(", ") : "None detected"
     };
 
-    emailjs.send('service_eku55ln', 'template_yei58yl', templateParams)
+    emailjs.send("service_eku55ln", "template_yei58yl", templateParams)
       .then(function(response) {
-        console.log('✅ Email sent successfully:', response.status, response.text);
+        console.log("✅ Email sent successfully:", response.status, response.text);
         alert("📩 Email sent successfully!");
-      })
-      .catch(function(error) {
-        console.error('❌ EmailJS error:', error);
-        alert("❌ Email failed: " + (error.message || JSON.stringify(error)));
+      }, function(error) {
+        console.error("❌ EmailJS error:", error);
+        alert("❌ Email failed: " + (error.text || JSON.stringify(error)));
       });
   };
 </script>
