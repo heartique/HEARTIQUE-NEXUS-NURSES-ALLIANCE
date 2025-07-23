@@ -395,7 +395,6 @@ const weakAreas = questions
   .filter(x => x !== null);
 
 // ✅ move remark generation up here BEFORE using it
-try {
 let remark = '';
 if (percent >= 75) {
   remark = 'Distinction – Excellent performance.';
@@ -408,7 +407,7 @@ if (percent >= 75) {
 }
 
 sendScoreEmail(correct, total, percent, weakAreas); // uses remark
-
+try {
 const summaryBox = document.createElement("div");
 summaryBox.style = `
   margin-top: 30px;
