@@ -238,7 +238,7 @@
   const reason = document.getElementById("reason").value.trim();
 
   if (name.length < 3) return alert("Please enter your full name.");
-  if (!/^2547\d{8}$/.test(phone)) return alert("Enter a valid Kenyan WhatsApp number.");
+  if (!/^254(1|7)\d{8}$/.test(phone)) return alert("Enter a valid Kenyan phone number starting with 2547 or 2541.");
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return alert("Please enter a valid email address.");
   if (reason.length < 3) return alert("Please enter a valid reason.");
 
