@@ -509,15 +509,15 @@ document.body.appendChild(summaryBox);
       weak_areas: weakAreas.length ? weakAreas.join(", ") : "None detected"
     };
 
-   emailjs.send('service_eku55ln', 'template_yei58yl', templateParams)
+  emailjs.send('service_eku55ln', 'template_yei58yl', templateParams)
   .then(function(response) {
-    alert("✅ Email sent successfully!");
     console.log('✅ Email sent successfully:', response.status, response.text);
   })
   .catch(function(error) {
-    alert("❌ Email failed to send. Check console.");
-    console.error('❌ Failed to send email:', error);
+    console.error('❌ EmailJS error:', error);
+    alert("Email failed: " + JSON.stringify(error));
   });
+
 
   }
 </script>
