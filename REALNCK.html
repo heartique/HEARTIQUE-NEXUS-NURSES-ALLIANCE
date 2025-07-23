@@ -532,15 +532,15 @@ function sendScoreEmail(score, total, percent, weakAreas = [], remark = '') {
     remark: remark,
     weak_areas: weakAreas.length ? weakAreas.join(", ") : "None detected"
   };
-    };
 
-    emailjs.send('service_eku55ln', 'template_yei58yl', templateParams)
-      .then(function (response) {
-        console.log('✅ Email sent successfully:', response.status, response.text);
-      }, function (error) {
-        console.error('❌ Failed to send email:', error);
-      });
-  }
+  emailjs.send('service_eku55ln', 'template_yei58yl', templateParams)
+    .then(function (response) {
+      console.log('✅ Email sent successfully:', response.status, response.text);
+    }, function (error) {
+      console.error('❌ Failed to send email:', error);
+    });
+}
+
 </script>
 </body>
 </html>
