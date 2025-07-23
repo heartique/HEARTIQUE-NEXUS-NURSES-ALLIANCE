@@ -441,9 +441,13 @@ summaryBox.innerHTML = `
   `Remark: ${remark}\n\n` +
   `Powered by Heartique Nursing Nexus – Committed to Clinical Excellence.`
 );
+       const url = `https://wa.me/${userPhone}?text=${text}`;
+if (!/^2547\d{8}$/.test(userPhone)) {
+  alert("Invalid WhatsApp number. Must be like 254712345678");
+  return;
+}
+window.open(url, '_blank'); // opens WhatsApp in new tab
 
-        const url = `https://wa.me/${userPhone}?text=${text}`;
-        window.location.href = url; // replaces window.open(url, "_blank");
 
         clearInterval(timer);
         if (isSimulationMode) exitFullscreen();
