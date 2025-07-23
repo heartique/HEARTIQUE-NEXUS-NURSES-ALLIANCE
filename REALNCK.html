@@ -491,15 +491,11 @@ alert("✅ Your score has been sent via email. You may now close this window.");
       e.returnValue = '';
     });
   </script>
-  <script src="https://cdn.emailjs.com/dist/email.min.mjs"></script>
-<script>
-  // Initialize EmailJS
-  (function(){
-    emailjs.init('CuSwkmKmhKa7On9pZ');
-  })();
+ <script type="module">
+  import emailjs from 'https://cdn.emailjs.com/dist/email.min.mjs';
+  emailjs.init('CuSwkmKmhKa7On9pZ');
 
-  // Global function
-  function sendScoreEmail(score, total, percent, weakAreas = []) {
+  window.sendScoreEmail = function(score, total, percent, weakAreas = []) {
     const templateParams = {
       name: userName,
       phone: userPhone,
@@ -513,16 +509,13 @@ alert("✅ Your score has been sent via email. You may now close this window.");
     emailjs.send('service_eku55ln', 'template_yei58yl', templateParams)
       .then(function(response) {
         console.log('✅ Email sent successfully:', response.status, response.text);
-        alert("📩 Score emailed successfully!");
+        alert("📩 Email sent successfully!");
       })
       .catch(function(error) {
         console.error('❌ EmailJS error:', error);
-        alert("❌ Failed to send email: " + (error.message || JSON.stringify(error)));
+        alert("❌ Email failed: " + (error.message || JSON.stringify(error)));
       });
-  }
-
-  // Attach to window for global access
-  window.sendScoreEmail = sendScoreEmail;
+  };
 </script>
 
 </body>
