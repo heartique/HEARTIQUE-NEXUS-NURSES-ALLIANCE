@@ -413,6 +413,7 @@ summaryBox.innerHTML = `
   <p><strong>Name:</strong> ${userName}</p>
   <p><strong>Reason:</strong> ${userReason}</p>
 <p><strong>Score:</strong> ${correct} / ${total} (${percent}%)</p>
+<p><strong>Remark:</strong> ${remark}</p>
   <p><strong>Weak Areas:</strong> ${weakAreas.length ? weakAreas.join(", ") : "None detected"}</p>
 `;
 
@@ -423,8 +424,27 @@ document.body.appendChild(summaryBox);
   console.error("Summary box error:", err);
 }
 
+        let remark = '';
+if (percent >= 75) {
+  remark = 'Distinction – Excellent performance.';
+} else if (percent >= 65) {
+  remark = 'Credit – Well done.';
+} else if (percent >= 50) {
+  remark = 'Pass – Satisfactory.';
+} else {
+  remark = 'Fail – Needs improvement.';
+}
+        const text = encodeURIComponent(
+  `Greetings from Heartique Nursing Nexus – NCK Simulation Platform.\n\n` +
+  `I have successfully completed a professional NCK-style simulation.\n\n` +
+  `Candidate Name: ${userName}\n` +
+  `Simulation Purpose: ${userReason}\n\n` +
+  `Summary:\n${message}\n` +
+  `Score: ${correct} / ${total} (${percent}%)\n` +
+  `Remark: ${remark}\n\n` +
+  `Powered by Heartique Nursing Nexus – Committed to Clinical Excellence.`
+);
 
-        const text = encodeURIComponent(`Hi, I just completed a test via NCK SIM.\nName: ${userName}\nReason: ${userReason}\n${message}`);
         const url = `https://wa.me/${userPhone}?text=${text}`;
         window.location.href = url; // replaces window.open(url, "_blank");
 
@@ -504,15 +524,15 @@ document.body.appendChild(summaryBox);
 
   function sendScoreEmail(score, total, percent, weakAreas = []) {
     const templateParams = {
-      name: userName,
-      phone: userPhone,
-      email: userEmail,
-      reason: userReason,
-      score: `${score} out of ${total}`,
-      percentage: `${percent}%`,
-      weak_areas: weakAreas.length ? weakAreas.join(", ") : "None detected"
-    };
-
+  name: userName,
+  phone: userPhone,
+  email: userEmail,
+  reason: userReason,
+  score: `${score} out of ${total}`,
+  percentage: `${percent}%`,
+  remark: remark,
+  weak_areas: weakAreas.length ? weakAreas.join(", ") : "None detected"
+};
     emailjs.send('service_eku55ln', 'template_yei58yl', templateParams)
       .then(function(response) {
         console.log('✅ Email sent successfully:', response.status, response.text);
