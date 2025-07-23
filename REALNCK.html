@@ -384,7 +384,16 @@
         const correct = Object.values(saved).filter(x => x.correct).length;
         const total = questions.length;
         const percent = Math.round((correct / total) * 100);
-
+        let category = "";
+if (percent >= 75) {
+  category = "Distinction";
+} else if (percent >= 60) {
+  category = "Credit";
+} else if (percent >= 50) {
+  category = "Pass";
+} else {
+  category = "Fail";
+}
         let message = isSimulationMode
           ? `Simulation complete.\nAll ${total} questions attempted.`
           : `You scored ${correct} / ${total} (${percent}%)`;
@@ -411,6 +420,7 @@ summaryBox.innerHTML = `
   <p><strong>Name:</strong> ${userName}</p>
   <p><strong>Reason:</strong> ${userReason}</p>
 <p><strong>Score:</strong> ${correct} / ${total} (${percent}%)</p>
+<p><strong>Category:</strong> ${category}</p>
   <p><strong>Weak Areas:</strong> ${weakAreas.length ? weakAreas.join(", ") : "None detected"}</p>
 `;
 
@@ -422,8 +432,7 @@ document.body.appendChild(summaryBox);
 }
 
 
-        const text = encodeURIComponent(`Greetings from Heartique Nursing Nexus – NCK Simulation Platform.\n\nI have successfully completed a professional NCK-style simulation.\n\nCandidate Name: ${userName}\nSimulation Purpose: ${userReason}\n\nSummary:\n${message}\n\nPowered by Heartique Nursing Nexus – Committed to Clinical Excellence.`);
-        const url = `https://wa.me/${userPhone}?text=${text}`;
+        const text = encodeURIComponent(`Greetings from Heartique Nursing Nexus – NCK Simulation Platform.\n\nI have successfully completed a professional NCK-style simulation.\n\nCandidate Name: ${userName}\nSimulation Purpose: ${userReason}\n\nSummary:\nScore: ${correct}/${total} (${percent}%)\nCategory: ${category}\n\nPowered by Heartique Nursing Nexus – Committed to Clinical Excellence.`);
         window.location.href = url; // replaces window.open(url, "_blank");
 
         clearInterval(timer);
@@ -508,6 +517,7 @@ document.body.appendChild(summaryBox);
       reason: userReason,
       score: `${score} out of ${total}`,
       percentage: `${percent}%`,
+      category: category,
       weak_areas: weakAreas.length ? weakAreas.join(", ") : "None detected"
     };
 
