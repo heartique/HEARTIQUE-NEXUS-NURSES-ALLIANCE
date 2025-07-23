@@ -152,7 +152,7 @@ i hav ethia ,<!DOCTYPE html>
 <body>
 
   <div id="intro-page" class="form-page">
-    <h2>Welcome To Heartique Nursing Nexus NCK Simulation Platform</h2>
+    <h2>Welcome to NCK Simulation Heratique Portal</h2>
     <p>Enter your details to begin:</p>
     <input type="text" id="full-name" placeholder="Full Name" required />
     <input type="tel" id="phone-number" placeholder="e.g. 254712345678" required />
@@ -238,8 +238,7 @@ i hav ethia ,<!DOCTYPE html>
   const reason = document.getElementById("reason").value.trim();
 
   if (name.length < 3) return alert("Please enter your full name.");
- if (!/^254(1|7)\d{8}$/.test(phone)) {
-  return alert("Enter a valid Kenyan phone number starting with 2547 or 2541.");
+  if (!/^2547\d{8}$/.test(phone)) return alert("Enter a valid Kenyan WhatsApp number.");
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return alert("Please enter a valid email address.");
   if (reason.length < 3) return alert("Please enter a valid reason.");
 
@@ -418,10 +417,6 @@ summaryBox.innerHTML = `
 `;
 
 document.body.appendChild(summaryBox);
-        try {
-  // ... summary box code ...
-} catch (err) {
-  console.error("Summary box error:", err);
 }
 
 
