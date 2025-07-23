@@ -392,8 +392,6 @@ const weakAreas = questions
   .map((q, i) => (!saved[i]?.correct ? `Q${i + 1}` : null))
   .filter(x => x !== null);
 
-sendScoreEmail(correct, total, percent, weakAreas);
-
       const summaryBox = document.createElement("div");
 summaryBox.style = `
   margin-top: 30px;
@@ -418,6 +416,7 @@ document.body.appendChild(summaryBox);
 
         const text = encodeURIComponent(`Hi, I just completed a test via NCK SIM.\nName: ${userName}\nReason: ${userReason}\n${message}`);
         const url = `https://wa.me/${userPhone}?text=${text}`;
+        console.log("✅ Reached submitTest. Redirecting to WhatsApp...");
         window.location.href = url;
 
 
