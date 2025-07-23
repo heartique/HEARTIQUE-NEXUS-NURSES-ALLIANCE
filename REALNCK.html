@@ -200,32 +200,6 @@
     <div id="flagList"></div>
     <button onclick="closeFlagModal()">Close</button>
   </div>
-<script type="module">
-  import emailjs from 'https://cdn.emailjs.com/dist/email.min.js';
-  emailjs.init('CuSwkmKmhKa7On9pZ');
-
-  window.sendScoreEmail = function(score, total, percent, weakAreas = []) {
-    const templateParams = {
-      name: userName,
-      phone: userPhone,
-      email: userEmail,
-      reason: userReason,
-      score: `${score} out of ${total}`,
-      percentage: `${percent}%`,
-      weak_areas: weakAreas.length ? weakAreas.join(", ") : "None detected"
-    };
-
-    emailjs.send('service_eku55ln', 'template_yei58yl', templateParams)
-      .then(function(response) {
-        console.log('✅ Email sent successfully:', response.status, response.text);
-        alert("📩 Email sent successfully!");
-      })
-      .catch(function(error) {
-        console.error('❌ EmailJS error:', error);
-        alert("❌ Email failed: " + (error.message || JSON.stringify(error)));
-      });
-  };
-</script>
   <script>
     let userEmail = ""
     let userName = "", userPhone = "", userReason = "";
@@ -444,7 +418,7 @@ document.body.appendChild(summaryBox);
 
         const text = encodeURIComponent(`Hi, I just completed a test via NCK SIM.\nName: ${userName}\nReason: ${userReason}\n${message}`);
         const url = `https://wa.me/${userPhone}?text=${text}`;
-       window.open(url, "_blank");
+        window.location.href = url;
 
 
 
