@@ -413,6 +413,7 @@ summaryBox.innerHTML = `
 `;
 
 document.body.appendChild(summaryBox);
+       sendScoreEmail(correct, total, percent, weakAreas);
 
         const text = encodeURIComponent(`Hi, I just completed a test via NCK SIM.\nName: ${userName}\nReason: ${userReason}\n${message}`);
         const url = `https://wa.me/${userPhone}?text=${text}`;
@@ -492,5 +493,35 @@ document.body.appendChild(summaryBox);
       e.returnValue = '';
     });
   </script>
+  <script type="module">
+  import emailjs from 'https://cdn.emailjs.com/dist/email.min.js';
+
+  // Initialize EmailJS with your public key
+  emailjs.init('CuSwkmKmhKa7On9pZ');
+
+  // Define the sendScoreEmail function globally
+  window.sendScoreEmail = function(score, total, percent, weakAreas = []) {
+    const templateParams = {
+      name: userName,
+      phone: userPhone,
+      email: userEmail,
+      reason: userReason,
+      score: `${score} out of ${total}`,
+      percentage: `${percent}%`,
+      weak_areas: weakAreas.length ? weakAreas.join(", ") : "None detected"
+    };
+
+    emailjs.send('service_eku55ln', 'template_yei58yl', templateParams)
+      .then(function(response) {
+        console.log('✅ Email sent successfully:', response.status, response.text);
+        alert("📩 Score emailed successfully!");
+      })
+      .catch(function(error) {
+        console.error('❌ EmailJS error:', error);
+        alert("❌ Failed to send email: " + (error.message || JSON.stringify(error)));
+      });
+  };
+</script>
+
 </body>
 </html>
