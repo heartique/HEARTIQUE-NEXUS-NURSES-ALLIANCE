@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+i hav ethia ,<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -152,7 +152,7 @@
 <body>
 
   <div id="intro-page" class="form-page">
-    <h2>Welcome to NCK Simulation Heratique Portal</h2>
+    <h2>Welcome To Heartique Nursing Nexus NCK Simulation Platform</h2>
     <p>Enter your details to begin:</p>
     <input type="text" id="full-name" placeholder="Full Name" required />
     <input type="tel" id="phone-number" placeholder="e.g. 254712345678" required />
@@ -172,6 +172,8 @@
   <li>Use of external resources or switching tabs during the session is discouraged.</li>
   <li><strong>Click “Start Simulation”</strong> when ready. The timer will begin immediately.</li>
 </ul>
+
+    </ul>
     <button onclick="startApp()">Start Simulation</button>
   </div>
 
@@ -392,19 +394,9 @@ const weakAreas = questions
   .map((q, i) => (!saved[i]?.correct ? `Q${i + 1}` : null))
   .filter(x => x !== null);
 
-// ✅ move remark generation up here BEFORE using it
-let remark = '';
-if (percent >= 75) {
-  remark = 'Distinction – Excellent performance.';
-} else if (percent >= 65) {
-  remark = 'Credit – Well done.';
-} else if (percent >= 50) {
-  remark = 'Pass – Satisfactory.';
-} else {
-  remark = 'Fail – Needs improvement.';
-}
+sendScoreEmail(correct, total, percent, weakAreas);
 
-const summaryBox = document.createElement("div");
+      const summaryBox = document.createElement("div");
 summaryBox.style = `
   margin-top: 30px;
   padding: 20px;
@@ -420,27 +412,21 @@ summaryBox.innerHTML = `
   <h3 style="color:#002147;">${isSimulationMode ? "Simulation Complete" : "Test Summary"}</h3>
   <p><strong>Name:</strong> ${userName}</p>
   <p><strong>Reason:</strong> ${userReason}</p>
-  <p><strong>Score:</strong> ${correct} / ${total} (${percent}%)</p>
-  <p><strong>Remark:</strong> ${remark}</p>
+<p><strong>Score:</strong> ${correct} / ${total} (${percent}%)</p>
   <p><strong>Weak Areas:</strong> ${weakAreas.length ? weakAreas.join(", ") : "None detected"}</p>
 `;
-  document.body.appendChild(summaryBox);
-} 
-sendScoreEmail(correct, total, percent, weakAreas, remark);
 
-        const text = encodeURIComponent(
-  `Greetings from Heartique Nursing Nexus – NCK Simulation Platform.\n\n` +
-  `I have successfully completed a professional NCK-style simulation.\n\n` +
-  `Candidate Name: ${userName}\n` +
-  `Simulation Purpose: ${userReason}\n\n` +
-  `Summary:\n${message}\n` +
-  `Score: ${correct} / ${total} (${percent}%)\n` +
-  `Remark: ${remark}\n\n` +
-  `Powered by Heartique Nursing Nexus – Committed to Clinical Excellence.`
-);
-       const url = `https://wa.me/${userPhone}?text=${text}`;
-       window.location.href = url;
+document.body.appendChild(summaryBox);
+        try {
+  // ... summary box code ...
+} catch (err) {
+  console.error("Summary box error:", err);
+}
 
+
+        const text = encodeURIComponent(`Greetings from Heartique Nursing Nexus – NCK Simulation Platform.\n\nI have successfully completed a professional NCK-style simulation.\n\nCandidate Name: ${userName}\nSimulation Purpose: ${userReason}\n\nSummary:\n${message}\n\nPowered by Heartique Nursing Nexus – Committed to Clinical Excellence.`);
+        const url = `https://wa.me/${userPhone}?text=${text}`;
+        window.location.href = url; // replaces window.open(url, "_blank");
 
         clearInterval(timer);
         if (isSimulationMode) exitFullscreen();
@@ -512,35 +498,29 @@ sendScoreEmail(correct, total, percent, weakAreas, remark);
       e.returnValue = '';
     });
   </script>
-  <!-- Latest EmailJS SDK (Placed before </body>) -->
-<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
 <script>
-  window.onload = function () {
-    // Initialize EmailJS with your public key
-    emailjs.init('CuSwkmKmhKa7On9pZ');
-  };
+  emailjs.init('CuSwkmKmhKa7On9pZ'); // Your Public Key
 
-  // Function to send score email
-function sendScoreEmail(score, total, percent, weakAreas = [], remark = '') {
-  const templateParams = {
-    name: userName,
-    phone: userPhone,
-    email: userEmail,
-    reason: userReason,
-    score: `${score} out of ${total}`,
-    percentage: `${percent}%`,
-    remark: remark,
-    weak_areas: weakAreas.length ? weakAreas.join(", ") : "None detected"
-  };
+  function sendScoreEmail(score, total, percent, weakAreas = []) {
+    const templateParams = {
+      name: userName,
+      phone: userPhone,
+      email: userEmail,
+      reason: userReason,
+      score: `${score} out of ${total}`,
+      percentage: `${percent}%`,
+      weak_areas: weakAreas.length ? weakAreas.join(", ") : "None detected"
+    };
 
-  emailjs.send('service_eku55ln', 'template_yei58yl', templateParams)
-    .then(function (response) {
-      console.log('✅ Email sent successfully:', response.status, response.text);
-    }, function (error) {
-      console.error('❌ Failed to send email:', error);
-    });
-}
-
+    emailjs.send('service_eku55ln', 'template_yei58yl', templateParams)
+      .then(function(response) {
+        console.log('✅ Email sent successfully:', response.status, response.text);
+      }, function(error) {
+        console.error('❌ Failed to send email:', error);
+      });
+  }
 </script>
+
 </body>
 </html>
