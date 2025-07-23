@@ -413,12 +413,10 @@ summaryBox.innerHTML = `
 `;
 
 document.body.appendChild(summaryBox);
-       sendScoreEmail(correct, total, percent, weakAreas);
+      sendScoreEmail(correct, total, percent, weakAreas);
 
-        const text = encodeURIComponent(`Hi, I just completed a test via NCK SIM.\nName: ${userName}\nReason: ${userReason}\n${message}`);
-        const url = `https://wa.me/${userPhone}?text=${text}`;
-        console.log("✅ Reached submitTest. Redirecting to WhatsApp...");
-        window.location.href = url;
+// Optional: Let user know the process is complete
+alert("✅ Your score has been sent via email. You may now close this window.");
 
 
 
