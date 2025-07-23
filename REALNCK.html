@@ -172,8 +172,6 @@
   <li>Use of external resources or switching tabs during the session is discouraged.</li>
   <li><strong>Click “Start Simulation”</strong> when ready. The timer will begin immediately.</li>
 </ul>
-
-    </ul>
     <button onclick="startApp()">Start Simulation</button>
   </div>
 
@@ -517,29 +515,34 @@ summaryBox.innerHTML = `
       e.returnValue = '';
     });
   </script>
-  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <!-- Latest EmailJS SDK (Placed before </body>) -->
+<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
 <script>
-  emailjs.init('CuSwkmKmhKa7On9pZ'); // Your Public Key
+  window.onload = function () {
+    // Initialize EmailJS with your public key
+    emailjs.init('CuSwkmKmhKa7On9pZ');
+  };
 
+  // Function to send score email
   function sendScoreEmail(score, total, percent, weakAreas = []) {
     const templateParams = {
-  name: userName,
-  phone: userPhone,
-  email: userEmail,
-  reason: userReason,
-  score: `${score} out of ${total}`,
-  percentage: `${percent}%`,
-  remark: remark,
-  weak_areas: weakAreas.length ? weakAreas.join(", ") : "None detected"
-};
+      name: userName,
+      phone: userPhone,
+      email: userEmail,
+      reason: userReason,
+      score: `${score} out of ${total}`,
+      percentage: `${percent}%`,
+      remark: remark,
+      weak_areas: weakAreas.length ? weakAreas.join(", ") : "None detected"
+    };
+
     emailjs.send('service_eku55ln', 'template_yei58yl', templateParams)
-      .then(function(response) {
+      .then(function (response) {
         console.log('✅ Email sent successfully:', response.status, response.text);
-      }, function(error) {
+      }, function (error) {
         console.error('❌ Failed to send email:', error);
       });
   }
 </script>
-
 </body>
 </html>
