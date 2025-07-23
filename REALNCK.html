@@ -201,7 +201,7 @@
     <button onclick="closeFlagModal()">Close</button>
   </div>
 <script type="module">
-  import emailjs from 'https://cdn.emailjs.com/dist/email.min.mjs';
+  import emailjs from 'https://cdn.emailjs.com/dist/email.min.js';
   emailjs.init('CuSwkmKmhKa7On9pZ');
 
   window.sendScoreEmail = function(score, total, percent, weakAreas = []) {
@@ -444,7 +444,8 @@ document.body.appendChild(summaryBox);
 
         const text = encodeURIComponent(`Hi, I just completed a test via NCK SIM.\nName: ${userName}\nReason: ${userReason}\n${message}`);
         const url = `https://wa.me/${userPhone}?text=${text}`;
-       window.location.href = url; // replaces window.open(url, "_blank");
+       window.open(url, "_blank");
+
 
 
 
