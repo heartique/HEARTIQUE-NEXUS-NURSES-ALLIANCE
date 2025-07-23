@@ -394,9 +394,22 @@ const weakAreas = questions
   .map((q, i) => (!saved[i]?.correct ? `Q${i + 1}` : null))
   .filter(x => x !== null);
 
-sendScoreEmail(correct, total, percent, weakAreas);
+// ✅ move remark generation up here BEFORE using it
+try {
+let remark = '';
+if (percent >= 75) {
+  remark = 'Distinction – Excellent performance.';
+} else if (percent >= 65) {
+  remark = 'Credit – Well done.';
+} else if (percent >= 50) {
+  remark = 'Pass – Satisfactory.';
+} else {
+  remark = 'Fail – Needs improvement.';
+}
 
-      const summaryBox = document.createElement("div");
+sendScoreEmail(correct, total, percent, weakAreas); // uses remark
+
+const summaryBox = document.createElement("div");
 summaryBox.style = `
   margin-top: 30px;
   padding: 20px;
@@ -412,28 +425,15 @@ summaryBox.innerHTML = `
   <h3 style="color:#002147;">${isSimulationMode ? "Simulation Complete" : "Test Summary"}</h3>
   <p><strong>Name:</strong> ${userName}</p>
   <p><strong>Reason:</strong> ${userReason}</p>
-<p><strong>Score:</strong> ${correct} / ${total} (${percent}%)</p>
-<p><strong>Remark:</strong> ${remark}</p>
+  <p><strong>Score:</strong> ${correct} / ${total} (${percent}%)</p>
+  <p><strong>Remark:</strong> ${remark}</p>
   <p><strong>Weak Areas:</strong> ${weakAreas.length ? weakAreas.join(", ") : "None detected"}</p>
 `;
-
-document.body.appendChild(summaryBox);
-        try {
-  // ... summary box code ...
+  document.body.appendChild(summaryBox);
 } catch (err) {
   console.error("Summary box error:", err);
 }
 
-        let remark = '';
-if (percent >= 75) {
-  remark = 'Distinction – Excellent performance.';
-} else if (percent >= 65) {
-  remark = 'Credit – Well done.';
-} else if (percent >= 50) {
-  remark = 'Pass – Satisfactory.';
-} else {
-  remark = 'Fail – Needs improvement.';
-}
         const text = encodeURIComponent(
   `Greetings from Heartique Nursing Nexus – NCK Simulation Platform.\n\n` +
   `I have successfully completed a professional NCK-style simulation.\n\n` +
