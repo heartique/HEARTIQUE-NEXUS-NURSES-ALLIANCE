@@ -586,8 +586,251 @@
     "answer": "b. Citrus fruits",
     "explanation": "Iron absorption in the gut, particularly non-heme iron (from plant sources), is influenced by several dietary factors. Iron is best absorbed in its ferrous (Fe²⁺) state, and an acidic environment helps keep it in this state.\n\nOption (b) is correct. Citrus fruits are rich in Vitamin C (ascorbic acid). Vitamin C is a potent enhancer of non-heme iron absorption because it is an acid and a reducing agent, converting ferric iron (Fe³⁺) to the more readily absorbed ferrous iron (Fe²⁺).\n\nOption (a), Antacids, decrease iron absorption by raising the stomach pH (making it less acidic).\n\nOption (c), Tea and coffee, contain tannins and polyphenols, which bind to iron and significantly inhibit its absorption.\n\nOption (d), Taking iron tablets with meals, can be a double-edged sword. While it reduces the gastric irritation often caused by iron supplements, many foods (especially those high in phytates like whole grains and legumes, and tannins in tea/coffee) can decrease absorption.",
     "additional": "For maximal absorption, iron should be taken on an empty stomach, but this is often not tolerated. Taking it with a source of Vitamin C (like orange juice) is the best compromise.\n\nFactors Affecting Iron Absorption:\n| Enhancers | Inhibitors |\n| :--- | :--- |\n| Vitamin C (ascorbic acid) | Phytates (in legumes, whole grains, nuts) |\n| Acids (e.g., in fruits, vinegar) | Tannins/Polyphenols (in tea, coffee, red wine) |\n| Heme Iron (from meat, poultry, fish is well-absorbed on its own) | Calcium (in dairy products) |\n| | Antacids |\n\nNursing Advice for Patients on Iron Supplements:\n- Take the supplement with a glass of orange juice or a Vitamin C tablet to enhance absorption.\n- Avoid taking it with milk, tea, coffee, or antacids.\n- Warn the patient that iron supplements will turn their stools black and tarry. This is a normal and expected side effect.\n- Inform them about potential GI side effects like constipation or stomach upset. If constipation occurs, advise increasing fluid and fiber intake."
+  },
+  {
+    "question": "What is the primary role of macronutrients in the human diet?",
+    "options": {
+      "A": "Providing essential vitamins and minerals",
+      "B": "Sustaining energy levels and growth",
+      "C": "Enhancing taste and flavor of food",
+      "D": "Supporting immune function"
+    },
+    "answer": "B",
+    "explanation": "The macronutrients are the three main nutrients that the body needs in large amounts: carbohydrates, proteins, and fats. Their primary role is to provide the body with energy (measured in calories or kilojoules) and the building blocks for growth and repair of tissues. While they do contribute to immune function (D), their most fundamental role is providing energy and structure. Vitamins and minerals (A) are micronutrients.",
+    "additional": "Key Point - Caloric Values:\nCarbohydrates: 4 kcal/gram\nProteins: 4 kcal/gram\nFats: 9 kcal/gram (most energy-dense)\nAlcohol: 7 kcal/gram\n\nNCK Twist: \"A patient consumes a meal containing 50g of carbohydrates, 20g of protein, and 10g of fat. How many total kilocalories has the patient consumed?\"\nCarbs: 50 x 4 = 200 kcal\nProtein: 20 x 4 = 80 kcal\nFat: 10 x 9 = 90 kcal\nAnswer: 370 kcal"
+  },
+  {
+    "question": "Which of the following foods is a good source of complete protein, containing all essential amino acids?",
+    "options": {
+      "A": "Rice",
+      "B": "Lentils",
+      "C": "Eggs",
+      "D": "Broccoli"
+    },
+    "answer": "C",
+    "explanation": "A complete protein is a food source that contains an adequate proportion of all nine of the essential amino acids required for the human diet. Animal-based proteins are generally complete.\n\nEggs (C) are considered the \"gold standard\" of protein quality because their amino acid profile is an excellent match for human needs.\n\nRice (A) and Lentils (B) are plant-based proteins and are considered incomplete proteins because they are low in one or more of the essential amino acids. However, when combined (e.g., rice and beans), they form a complete protein through protein complementation.",
+    "additional": "NCK Point: In Kenya, national nutrition protocols emphasize use of eggs, milk, and animal proteins in nutritional rehab for malnourished children due to their completeness in amino acid profile."
+  },
+  {
+    "question": "What is the term for a diet that includes a variety of foods from all food groups in appropriate proportions to meet nutritional needs?",
+    "options": {
+      "A": "Vegetarian diet",
+      "B": "Balanced diet",
+      "C": "Ketogenic diet",
+      "D": "Fasting diet"
+    },
+    "answer": "B",
+    "explanation": "A balanced diet is the cornerstone of healthy eating. It is defined by three key principles:\nVariety: Eating many different types of foods.\nModeration: Eating foods in reasonable portion sizes.\nBalance: Consuming a mix of foods from all the major food groups (fruits, vegetables, grains, protein, dairy) to ensure all nutrient needs are met.",
+    "additional": "NCK Emphasis: Dietary counseling provided by nurses during growth monitoring, ANC, and wellness clinics should stress a balanced diet over trend-based or restrictive diets."
+  },
+  {
+    "question": "Which vitamin is synthesized by the skin upon exposure to sunlight and is essential for bone health and calcium absorption?",
+    "options": {
+      "A": "Vitamin C",
+      "B": "Vitamin D",
+      "C": "Vitamin A",
+      "D": "Vitamin K"
+    },
+    "answer": "B",
+    "explanation": "Vitamin D is unique because it can be synthesized in the skin from cholesterol when exposed to UVB radiation from the sun. Its primary function is to regulate calcium and phosphate metabolism, which is critical for calcium absorption from the gut and for building and maintaining strong bones. Deficiency causes rickets in children and osteomalacia in adults.",
+    "additional": "Key Point: Vitamin D is a fat-soluble vitamin (along with A, E, and K). This means it can be stored in the body's fatty tissues and liver, and excessive intake can lead to toxicity.\n\nNCK Twist: A question might test the difference between fat-soluble and water-soluble vitamins. \"A patient is taking high-dose supplements of a vitamin. The nurse knows that the risk of toxicity is greatest if the vitamin is:\"\na) Vitamin C\nb) Vitamin B12\nc) Vitamin A\nd) Thiamin\nAnswer: c) Vitamin A (because it is fat-soluble, while the others are water-soluble and excess is easily excreted in urine)."
+  },
+  {
+    "question": "What is the term for the minimum amount of energy required to maintain basic bodily functions such as breathing, circulation, and cell production while at rest?",
+    "options": {
+      "A": "Basal metabolic rate (BMR)",
+      "B": "Body mass index (BMI)",
+      "C": "Daily caloric intake",
+      "D": "Total energy expenditure (TEE)"
+    },
+    "answer": "A",
+    "explanation": "Basal Metabolic Rate (BMR) is the energy expended by the body to keep it alive when in a state of complete rest, post-absorptive (not digesting food), and in a thermally neutral environment. It accounts for the largest portion (about 60-75%) of a person's Total Energy Expenditure (TEE).",
+    "additional": "Key Point: BMR vs. TEE. Total Energy Expenditure (TEE) is the BMR plus the energy used for physical activity and the thermic effect of food (digestion). TEE = BMR + Physical Activity + TEF.\n\nNCK Twist: \"A nurse is calculating a patient's total daily energy needs. In addition to the patient's basal metabolic rate, which other factor is most important to consider?\"\nAnswer: The patient's level of physical activity."
+  },
+  {
+    "question": "Which of the following nutrients is a primary source of energy for the body?",
+    "options": {
+      "A": "Protein",
+      "B": "Vitamins",
+      "C": "Carbohydrates",
+      "D": "Minerals"
+    },
+    "answer": "C",
+    "explanation": "While fats and proteins can also provide energy, carbohydrates are the body's preferred and most readily available source of fuel. After digestion, carbohydrates are broken down into glucose, which is the primary energy currency for all cells, especially the brain and red blood cells which rely almost exclusively on it.",
+    "additional": "NCK Insight: In nutritional assessment for PEM (protein-energy malnutrition), a nurse should always assess carbohydrate intake since lack of it forces the body to break down protein for energy, worsening muscle wasting."
+  },
+  {
+    "question": "What is the term for a condition resulting from an insufficient intake of calories or nutrients, often leading to weight loss and fatigue?",
+    "options": {
+      "A": "Malnutrition",
+      "B": "Overnutrition",
+      "C": "Obesity",
+      "D": "Metabolism"
+    },
+    "answer": "A",
+    "explanation": "Malnutrition is a broad term for an imbalance in a person's intake of energy and/or nutrients. It can refer to:\nUndernutrition (A): The condition described in the question, which includes being underweight, stunted (low height for age), wasted (low weight for height), and having micronutrient deficiencies.\nOvernutrition (B): An excess intake of energy, leading to overweight and obesity (C).\nSo, while obesity is a form of malnutrition, the term \"malnutrition\" is most commonly used to refer to undernutrition.",
+    "additional": "NCK Point: Malnutrition screening is part of routine child growth monitoring and must assess weight-for-age, height-for-age, and MUAC. Severe acute malnutrition (SAM) is diagnosed if MUAC <11.5 cm or presence of bilateral pitting edema."
+  },
+  {
+    "question": "Which nutrient is primarily responsible for building and repairing tissues, producing enzymes and hormones, and serving as a source of energy when needed?",
+    "options": {
+      "A": "Carbohydrates",
+      "B": "Fats",
+      "C": "Vitamins",
+      "D": "Proteins"
+    },
+    "answer": "D",
+    "explanation": "Proteins are the primary structural and functional components of every cell in the body. Their main role is building and repair (e.g., muscle tissue, skin, hair). They are also essential for creating enzymes, hormones (like insulin), and antibodies. While they can be used for energy (4 kcal/gram), this is not their primary role; the body prefers to use carbohydrates and fats for fuel and \"spare\" protein for its structural functions.",
+    "additional": "NCK Emphasis: In burns, wounds, and post-surgery cases, protein intake must be increased to enhance healing and prevent catabolism. Nurses should educate patients on dietary protein sources and encourage intake."
+  },
+  {
+    "question": "Which term refers to the process of breaking down food into smaller components that can be absorbed by the body?",
+    "options": {
+      "A": "Digestion",
+      "B": "Assimilation",
+      "C": "Metabolism",
+      "D": "Excretion"
+    },
+    "answer": "A",
+    "explanation": "Digestion is the mechanical and chemical process of breaking down large, insoluble food molecules into small, water-soluble molecules that can be absorbed into the bloodstream. This process occurs along the gastrointestinal tract. Assimilation (B) is the process by which the absorbed nutrients are taken up and used by the body's cells. Metabolism (C) refers to all chemical reactions in the body, and Excretion (D) is the removal of waste.",
+    "additional": "NCK Insight: Nurses should monitor digestion-related complaints like bloating, constipation, or diarrhea especially in children and elderly, as these can signal malabsorption or GI dysfunction requiring further review."
+  },
+  {
+    "question": "Which mineral is essential for maintaining healthy bones and teeth, regulating blood pressure, and supporting muscle and nerve function?",
+    "options": {
+      "A": "Iron",
+      "B": "Calcium",
+      "C": "Vitamin C",
+      "D": "Potassium"
+    },
+    "answer": "B",
+    "explanation": "The question lists the key functions of Calcium. Over 99% of the body's calcium is stored in the bones and teeth, providing their structure and rigidity. The remaining 1% in the blood and soft tissues is crucial for vital physiological processes, including muscle contraction, nerve signal transmission, and blood clotting.",
+    "additional": "Key Point: Calcium regulation involves a delicate interplay with Vitamin D (needed for absorption) and hormones like Parathyroid Hormone (PTH) and Calcitonin.\n\nNCK Twist: A question might test the function of the other minerals. \"A patient with anemia is likely deficient in which mineral?\" (Answer: Iron). \"A patient on a diuretic like furosemide must be monitored for a deficiency of which mineral, which is crucial for cardiac function?\" (Answer: Potassium)."
+  },
+  {
+    "question": "What is the term for the condition characterized by an excessive accumulation of body fat, often resulting in negative health effects?",
+    "options": {
+      "A": "Anemia",
+      "B": "Malnutrition",
+      "C": "Obesity",
+      "D": "Hypertension"
+    },
+    "answer": "C",
+    "explanation": "Obesity is defined as abnormal or excessive fat accumulation that presents a risk to health. It is commonly diagnosed using the Body Mass Index (BMI). A BMI of 30 or greater is classified as obese. It is a major risk factor for numerous non-communicable diseases, including type 2 diabetes, cardiovascular disease, and certain cancers. While it is a form of malnutrition (B), \"obesity\" is the specific term for this condition. Hypertension (D) is a common consequence of obesity, not the condition itself.",
+    "additional": "NCK Twist: In community diagnosis and school health programs, obesity is screened using BMI-for-age charts. Obesity is a growing concern among urban school-aged children in Kenya."
+  },
+  {
+    "question": "Which of the following nutrients is classified as a micronutrient and is essential for normal blood clotting and bone health?",
+    "options": {
+      "A": "Vitamin A",
+      "B": "Vitamin C",
+      "C": "Vitamin D",
+      "D": "Vitamin K"
+    },
+    "answer": "D",
+    "explanation": "Vitamin K is a fat-soluble vitamin whose primary role is as a coenzyme in the synthesis of several proteins needed for blood coagulation (clotting factors II, VII, IX, X). It also plays a role in bone metabolism by helping to produce proteins needed for bone mineralization.\nA is for vision. B is for collagen synthesis and immune function. C is for calcium absorption.",
+    "additional": "Key Point: Newborn infants are routinely given a prophylactic injection of Vitamin K at birth. This is because they have very low stores of Vitamin K, and the gut bacteria that normally produce it are not yet established. This injection prevents a potentially fatal condition called Vitamin K Deficiency Bleeding (VKDB), formerly known as hemorrhagic disease of the newborn.\n\nNCK Twist: \"What is the primary reason for administering an injection of Vitamin K to a newborn shortly after delivery?\" (Answer: \"To prevent Vitamin K Deficiency Bleeding (VKDB).\")"
+  },
+  {
+    "question": "What is the primary function of dietary fiber in the human diet?",
+    "options": {
+      "A": "Providing essential amino acids",
+      "B": "Promoting hydration",
+      "C": "Aiding digestion and regular bowel movements",
+      "D": "Enhancing taste and flavor of food"
+    },
+    "answer": "C",
+    "explanation": "Dietary fiber is a type of carbohydrate that the human body cannot digest. Its primary function relates to its effects on the gastrointestinal tract.\nSoluble fiber dissolves in water to form a gel-like material, which can help lower blood cholesterol and glucose levels.\nInsoluble fiber does not dissolve in water. It adds bulk to the stool and helps food pass more quickly through the stomach and intestines, promoting regularity and preventing constipation. This is its most well-known function.",
+    "additional": "NCK Insight: Nurses advise increased fiber intake in antenatal care (ANC) to reduce constipation during pregnancy, and in elderly clients prone to bowel irregularities. Education includes examples like fruits, vegetables, and whole grains."
+  },
+  {
+    "question": "Which of the following is a primary function of water in the human body?",
+    "options": {
+      "A": "Providing energy",
+      "B": "Regulating body temperature",
+      "C": "Building muscle tissue",
+      "D": "Transporting oxygen in the blood"
+    },
+    "answer": "B",
+    "explanation": "Water is essential for life and has numerous critical functions, but it does not provide energy (A). One of its most important roles is thermoregulation. The body uses sweating (evaporative cooling) to dissipate heat when it's hot, and water's high heat capacity helps the body resist sudden changes in temperature.\nC is a function of protein. D is the function of hemoglobin within red blood cells.",
+    "additional": "Key Point - Other Functions of Water: It acts as a solvent for chemical reactions, a transport medium for nutrients and waste, a lubricant for joints, and a key component of all body cells and fluids.\n\nNCK Twist: \"A patient working outdoors in hot weather is at risk for heat stroke. The nurse advises them to drink plenty of water to support which of the body's primary cooling mechanisms?\" (Answer: \"Sweating\" or \"Evaporation\")."
+  },
+  {
+    "question": "What is the term for the measure of the relative amount of body fat compared to lean body mass?",
+    "options": {
+      "A": "Basal metabolic rate (BMR)",
+      "B": "Body mass index (BMI)",
+      "C": "Daily caloric intake",
+      "D": "Total energy expenditure (TEE)"
+    },
+    "answer": "B",
+    "explanation": "Body Mass Index (BMI) is a simple calculation used to categorize a person's weight status. It is not a direct measure of body fat, but it is a widely used screening tool because it is easy and inexpensive. It provides a measure of weight relative to height.\nFormula: BMI = weight (kg) / [height (m)]^2\nCategories (for adults):\n<18.5: Underweight\n18.5 - 24.9: Normal weight\n25.0 - 29.9: Overweight\n≥30.0: Obese",
+    "additional": "NCK Tip: In maternal and child health (MCH), BMI is monitored in both pregnant mothers and children. In adults, it helps assess nutritional status. In children, BMI-for-age charts are preferred."
+  },
+  {
+    "question": "Which of the following vitamins is essential for maintaining healthy vision and is found in foods like carrots, sweet potatoes, and spinach?",
+    "options": {
+      "A": "Vitamin A",
+      "B": "Vitamin D",
+      "C": "Vitamin K",
+      "D": "Vitamin C"
+    },
+    "answer": "A",
+    "explanation": "Vitamin A (and its precursor, beta-carotene, which gives orange vegetables their color) is a fat-soluble vitamin crucial for several functions, most famously vision. It is a component of rhodopsin, the pigment in the retina that allows us to see in dim light. Deficiency can lead to night blindness and, in severe cases, permanent blindness (xerophthalmia).",
+    "additional": "NCK Emphasis: In child health, Vitamin A supplementation is given every 6 months for children under 5 to prevent blindness and boost immunity. Nurses should advocate and administer it per the national child welfare protocol."
+  },
+  {
+    "question": "What is the term for the process by which the body converts food into energy and builds and repairs tissues?",
+    "options": {
+      "A": "Digestion",
+      "B": "Absorption",
+      "C": "Metabolism",
+      "D": "Excretion"
+    },
+    "answer": "C",
+    "explanation": "Metabolism refers to the sum of all chemical reactions that occur in living organisms to sustain life. It has two main components:\nCatabolism: The breakdown of complex molecules (like food) to release energy.\nAnabolism: The synthesis of complex molecules (like proteins and nucleic acids) from simpler ones, which uses energy.\nThe question describes both of these processes: converting food into energy (catabolism) and building/repairing tissues (anabolism).",
+    "additional": "NCK Point: In metabolic disorders like diabetes, metabolism of carbohydrates is impaired. Nurses must understand both catabolic and anabolic processes for patient education and chronic disease management."
+  },
+  {
+    "question": "Which of the following nutrients is a primary source of long-term energy storage in the body and insulation against temperature extremes?",
+    "options": {
+      "A": "Carbohydrates",
+      "B": "Vitamins",
+      "C": "Fats",
+      "D": "Proteins"
+    },
+    "answer": "C",
+    "explanation": "While carbohydrates provide short-term energy (stored as glycogen), fats (lipids) are the body's primary form of long-term energy storage. They are stored in adipose tissue. Because they are the most energy-dense macronutrient (9 kcal/gram), they are a very efficient way to store large amounts of energy. Adipose tissue also serves as an insulating layer under the skin and provides cushioning for vital organs.",
+    "additional": "NCK Insight: During nutrition counseling for underweight patients, increasing healthy fat intake is advised to promote weight gain and improve insulation, especially in wasting diseases like HIV/AIDS and TB."
+  },
+  {
+    "question": "What is the primary function of vitamins in the human diet?",
+    "options": {
+      "A": "Providing essential amino acids",
+      "B": "Sustaining energy levels",
+      "C": "Regulating body temperature",
+      "D": "Assisting in various metabolic processes"
+    },
+    "answer": "D",
+    "explanation": "Vitamins are organic micronutrients that are essential for normal growth and metabolism. They do not provide energy themselves (B). Their primary function is to act as coenzymes or cofactors for the enzymes that drive the body's countless metabolic reactions. Without the necessary vitamin, a specific metabolic pathway cannot function correctly, leading to a deficiency disease (e.g., without Vitamin C, collagen cannot be synthesized properly, leading to scurvy).",
+    "additional": "NCK Emphasis: Vitamin deficiencies are common in low-income populations. Nurses should screen for signs such as angular stomatitis (Vitamin B2), scurvy (Vitamin C), or night blindness (Vitamin A) during nutritional assessments."
+  },
+  {
+    "question": "Which of the following terms refers to the body's natural mechanism for eliminating waste products and toxins through processes like urination and defecation?",
+    "options": {
+      "A": "Digestion",
+      "B": "Assimilation",
+      "C": "Metabolism",
+      "D": "Excretion"
+    },
+    "answer": "D",
+    "explanation": "Excretion is the process by which metabolic waste products and other non-useful materials are eliminated from an organism. The primary excretory organs are the kidneys (eliminating waste as urine), the large intestine (eliminating waste as feces), the lungs (eliminating carbon dioxide), and the skin (eliminating waste through sweat).",
+    "additional": "NCK Twist: During assessment of renal function, nurses should monitor output (urine, stool) to detect early signs of impaired excretion such as oliguria or constipation—common in hospitalized patients."
   }
 ]
+
+
+
   
 
 
