@@ -1,0 +1,207 @@
+[
+  {
+    "question": "When teaching a community health class, what instructional strategy is most effective for promoting active student participation and engagement?",
+    "options": {
+      "A": "Lecture-based teaching",
+      "B": "Group discussions and problem-solving activities",
+      "C": "Assigning extensive readings and essays",
+      "D": "Multiple-choice tests"
+    },
+    "answer": "B",
+    "explanation": "Group discussions and problem-solving activities are forms of active learning, where learners are not passive recipients but participants who construct their knowledge through interaction, experience, and feedback. These strategies improve retention and critical thinking and help bridge theory to practice.",
+    "additional": "NCK Twist: 'During a health education session, a nurse facilitator divides participants into small groups to analyze a cholera outbreak scenario and propose prevention strategies. What method is being used?' (Answer: Group discussions and problem-solving)."
+  },
+  {
+    "question": "In community health education, what is the primary purpose of a needs assessment?",
+    "options": {
+      "A": "Developing a syllabus",
+      "B": "Determining the qualifications of instructors",
+      "C": "Identifying the health education needs of the community",
+      "D": "Evaluating the effectiveness of teaching methods"
+    },
+    "answer": "C",
+    "explanation": "A needs assessment helps identify the current gaps between the population’s knowledge, attitude, and practices (KAP) and the desired goals of a program. It ensures relevance, accuracy, and community ownership in health education planning.",
+    "additional": "NCK Twist: 'Before launching a maternal health talk in a rural community, the nurse conducts interviews to determine the key concerns of women about childbirth. This is an example of:' (Answer: Needs assessment)."
+  },
+  {
+    "question": "What educational principle in community health emphasizes that teaching should be adapted to the individual needs and characteristics of learners?",
+    "options": {
+      "A": "Andragogy",
+      "B": "Pedagogy",
+      "C": "Differentiation",
+      "D": "Standardization"
+    },
+    "answer": "A",
+    "explanation": "Andragogy is the theory of adult learning. It focuses on how adults are internally motivated, problem-centered, and self-directed. It differs from pedagogy, which is more teacher-directed and suited for children. Adapting to learner needs is core to andragogy.",
+    "additional": "NCK Twist: 'A community health nurse uses real-life examples and encourages mothers to share their experiences during a breastfeeding education session. Which educational principle is being applied?' (Answer: Andragogy)."
+  },
+  {
+    "question": "When teaching community health, what teaching method is most suitable for helping learners acquire practical skills such as first aid or CPR?",
+    "options": {
+      "A": "Lectures",
+      "B": "Role-playing and simulation",
+      "C": "Reading textbooks",
+      "D": "Multiple-choice quizzes"
+    },
+    "answer": "B",
+    "explanation": "Role-play and simulation allow learners to practice hands-on skills in a controlled environment. It helps build confidence and muscle memory for real-life emergencies. It is essential in psychomotor learning.",
+    "additional": "NCK Twist: 'A community health trainer uses a manikin to demonstrate CPR steps and then asks participants to practice the same. What teaching method is being applied?' (Answer: Simulation)."
+  },
+  {
+    "question": "In community health education, what is the primary purpose of a learning contract?",
+    "options": {
+      "A": "Assigning grades to students",
+      "B": "Outlining the instructor's teaching plan",
+      "C": "Defining the roles and responsibilities of both the teacher and the learner",
+      "D": "Standardizing the curriculum"
+    },
+    "answer": "C",
+    "explanation": "A learning contract encourages learner autonomy and responsibility by clearly outlining mutual expectations. It aligns well with adult education and personalized learning approaches.",
+    "additional": "NCK Twist: 'A nurse educator agrees with a youth group on objectives, resources, and timelines for mastering emergency contraception topics. What tool is she using?' (Answer: Learning contract)."
+  },
+  {
+    "question": "What term in community health education refers to the process of determining whether educational objectives have been met?",
+    "options": {
+      "A": "Curriculum development",
+      "B": "Needs assessment",
+      "C": "Evaluation",
+      "D": "Syllabus creation"
+    },
+    "answer": "C",
+    "explanation": "Evaluation measures learning outcomes against set objectives. It helps determine the success of a program and guide decisions on improvement or scale-up. It can be formative (during implementation) or summative (at the end).",
+    "additional": "NCK Twist: 'After a malaria awareness campaign, the nurse uses pre- and post-tests to determine if participants gained knowledge. This is an example of:' (Answer: Summative evaluation)."
+  },
+  {
+    "question": "When teaching a community health class, what is the primary goal of formative assessment?",
+    "options": {
+      "A": "Assigning final grades to students",
+      "B": "Providing feedback for improvement during the learning process",
+      "C": "Evaluating the overall effectiveness of the course",
+      "D": "Developing the course syllabus"
+    },
+    "answer": "B",
+    "explanation": "Formative assessment is used during the learning process to monitor progress and provide feedback. It allows for real-time adjustments to instruction and encourages learners to improve before final evaluations. It is often informal, such as quizzes, question sessions, and observation.",
+    "additional": "NCK Twist: 'During a community nutrition session, the nurse educator asks open-ended questions and corrects misconceptions on the spot. This strategy is an example of:' (Answer: Formative assessment)."
+  },
+  {
+    "question": "In community health education, what does the term 'active learning' signify?",
+    "options": {
+      "A": "Students passively receiving information through lectures",
+      "B": "Learners actively engaging with the content, often through problem-solving or discussions",
+      "C": "The use of multimedia in teaching",
+      "D": "Assigning extensive readings to students"
+    },
+    "answer": "B",
+    "explanation": "Active learning emphasizes engagement, participation, and critical thinking. It involves learners in activities like discussions, simulations, and debates, encouraging ownership of the learning process. This leads to improved understanding and retention of information.",
+    "additional": "NCK Twist: 'A nurse divides community participants into small groups to role-play how to respond to a cholera outbreak. What learning approach is this?' (Answer: Active learning)."
+  },
+  {
+    "question": "When teaching community health, which teaching approach emphasizes the importance of building on learners' prior knowledge and experiences?",
+    "options": {
+      "A": "Behaviorism",
+      "B": "Constructivism",
+      "C": "Cognitivism",
+      "D": "Pedagogy"
+    },
+    "answer": "B",
+    "explanation": "Constructivism holds that learners actively build knowledge based on what they already know. It recognizes that learners bring personal experiences and frameworks, especially in adult learning. Teachers guide and support learners rather than simply transmitting information.",
+    "additional": "NCK Twist: 'A nurse educator begins a session on breastfeeding by asking mothers to share their personal experiences. This strategy reflects which teaching approach?' (Answer: Constructivism)."
+  },
+  {
+    "question": "In community health education, what does 'cultural competence' refer to?",
+    "options": {
+      "A": "Teaching methods designed for a specific culture",
+      "B": "The ability to work with people from different cultural backgrounds effectively",
+      "C": "Providing health education only to one's own culture",
+      "D": "Cultural sensitivity"
+    },
+    "answer": "B",
+    "explanation": "Cultural competence involves understanding and effectively responding to the cultural and language needs of individuals. It encompasses awareness, knowledge, and skills needed to deliver services that respect and respond to diverse cultural perspectives. Cultural sensitivity is just one part of competence.",
+    "additional": "NCK Twist: 'A nurse ensures that health messages about nutrition are tailored to fit the beliefs and food preferences of a Somali community. This is an example of:' (Answer: Cultural competence)."
+  },
+  {
+    "question": "In community health education, what does the 'Socratic method' of teaching emphasize?",
+    "options": {
+      "A": "Lecture-based teaching",
+      "B": "Encouraging students to explore and critically think through questions and answers",
+      "C": "Standardized testing",
+      "D": "Role-playing and simulation"
+    },
+    "answer": "B",
+    "explanation": "The Socratic method focuses on using strategic questioning to stimulate critical thinking and dialogue. Instead of giving direct answers, the facilitator guides learners to reflect, analyze, and arrive at conclusions on their own. It promotes deeper learning, logic, and reasoning.",
+    "additional": "NCK Twist: 'A nurse educator avoids giving direct answers during a health session. Instead, she asks probing questions like, “Why do you think handwashing is important?” to spark discussion. This method of teaching is known as:' (Answer: Socratic method)."
+  },
+  {
+    "question": "When developing a curriculum for community health education, what is the primary purpose of a syllabus?",
+    "options": {
+      "A": "Assigning final grades to students",
+      "B": "Outlining the roles of community partners",
+      "C": "Providing a roadmap for the course, including objectives, assignments, and timelines",
+      "D": "Standardizing the teaching methods"
+    },
+    "answer": "C",
+    "explanation": "A syllabus serves as a detailed course guide outlining what will be taught, how it will be taught, when it will be taught, and how learning will be evaluated. It ensures that both the teacher and learners are aligned in expectations and learning objectives.",
+    "additional": "NCK Twist: 'A nurse creates a document that outlines the health education topics, learning goals, schedule, and types of activities to be used in a school outreach program. This document is referred to as a:' (Answer: Syllabus)."
+  },
+  {
+    "question": "In community health education, what is the primary goal of summative assessment?",
+    "options": {
+      "A": "Evaluating the overall effectiveness of the course",
+      "B": "Providing feedback for improvement during the learning process",
+      "C": "Assigning final grades to students",
+      "D": "Creating a learning contract"
+    },
+    "answer": "C",
+    "explanation": "Summative assessment is done at the end of a learning unit. It is used to determine whether learning outcomes have been achieved. It is commonly used to assign final grades or certificates and assess overall achievement.",
+    "additional": "NCK Twist: 'At the end of a health training session, learners are given a written test to assess their knowledge before graduation. This is an example of:' (Answer: Summative assessment)."
+  },
+  {
+    "question": "What does the 'flipped classroom' teaching approach involve in community health education?",
+    "options": {
+      "A": "Lectures conducted in a traditional classroom setting",
+      "B": "Assigning extensive readings for self-study",
+      "C": "Shifting traditional lecture content outside of class, and using in-class time for interactive activities and discussions",
+      "D": "Exclusively using multimedia materials for teaching"
+    },
+    "answer": "C",
+    "explanation": "The flipped classroom model moves passive learning (e.g., lectures) outside the classroom through videos or reading. Class time is used for active learning: discussions, group work, role-play, or case studies. This allows deeper engagement and practical application.",
+    "additional": "NCK Twist: 'A community health instructor sends students a video on malaria prevention to watch at home and uses class time to discuss and role-play prevention strategies. This is an example of:' (Answer: Flipped classroom)."
+  },
+  {
+    "question": "What is the primary goal of health education in a community setting?",
+    "options": {
+      "A": "To provide medical treatment to community members",
+      "B": "To educate individuals and communities on health-related topics and promote healthy behaviors",
+      "C": "To conduct research on community health issues",
+      "D": "To enforce public health policies"
+    },
+    "answer": "B",
+    "explanation": "Health education empowers individuals and communities with knowledge, skills, and attitudes needed to make informed decisions for healthy living. It focuses on prevention, behavior change, and capacity building rather than treatment or enforcement.",
+    "additional": "NCK Twist: 'A nurse visits households to educate families on how to prevent diarrheal diseases through proper hand hygiene. This is an example of:' (Answer: Community health education)."
+  },
+  {
+    "question": "When teaching community health, what is the primary purpose of a 'teaching aid'?",
+    "options": {
+      "A": "Administering medications to students",
+      "B": "Facilitating classroom discipline",
+      "C": "Enhancing the learning experience and understanding of students",
+      "D": "Creating an interactive syllabus"
+    },
+    "answer": "C",
+    "explanation": "Teaching aids make concepts easier to understand by engaging learners' senses. They clarify abstract ideas and increase learner retention. Examples include models, posters, flip charts, videos, and real-life demonstrations.",
+    "additional": "NCK Twist: 'A nurse uses a banana and a condom to demonstrate proper condom use during a youth outreach session. This demonstration is an example of using:' (Answer: Teaching aid)."
+  },
+  {
+    "question": "In community health education, what does 'health literacy' refer to?",
+    "options": {
+      "A": "The ability to read and write in a healthcare context",
+      "B": "The capacity to understand and use health information for making informed decisions",
+      "C": "The proficiency in medical coding",
+      "D": "The process of obtaining a medical degree"
+    },
+    "answer": "B",
+    "explanation": "Health literacy is about a person's ability to find, understand, and use health information to make decisions. It includes reading prescriptions, following medical instructions, and navigating healthcare systems. It affects patient safety, outcomes, and service utilization.",
+    "additional": "NCK Twist: 'A patient misunderstands their antibiotic dosage and stops treatment early. This situation reflects a gap in:' (Answer: Health literacy)."
+  }
+]
+
