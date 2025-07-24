@@ -1,0 +1,220 @@
+[
+  {
+    "question": "In a healthcare facility, who is responsible for coordinating various departments and ensuring that patient care is efficient and of high quality?",
+    "options": {
+      "A": "Nurse",
+      "B": "Physician",
+      "C": "Hospital administrator",
+      "D": "Pharmacist"
+    },
+    "answer": "C",
+    "explanation": "The Hospital Administrator (or Healthcare Manager) is responsible for the overall operational and strategic management of the facility. While nurses, physicians, and pharmacists are responsible for direct patient care, the administrator's role is to manage the system—coordinating departments, managing budgets, ensuring compliance with regulations, and implementing policies to ensure the entire organization runs efficiently and provides high-quality care.",
+    "additional": "NCK Twist: During a staff meeting, a nurse raises concerns about delayed patient transfers due to inefficient interdepartmental coordination. Who should take the lead in resolving this systemic issue? (Answer: The hospital administrator, because they oversee coordination among departments and resource allocation.)"
+  },
+  {
+    "question": "What is the primary purpose of a health information system in healthcare management?",
+    "options": {
+      "A": "Administering medications to patients",
+      "B": "Managing finances and budgets",
+      "C": "Storing, managing, and sharing patient information",
+      "D": "Overseeing staff scheduling"
+    },
+    "answer": "C",
+    "explanation": "A Health Information System (HIS), which includes Electronic Health Records (EHRs), is the digital infrastructure for patient data. Its primary purpose is to create a centralized, secure, and accessible record of a patient's health information. This supports clinical decision-making, improves coordination of care between different providers, reduces errors, and provides data for quality improvement and public health surveillance. While an HIS can support functions like billing (B) and scheduling (D), its core purpose is managing clinical patient information.",
+    "additional": "NCK Twist: A nurse is unable to retrieve updated lab results for a patient because of an outage in the hospital’s health information system. What is the most immediate impact of this failure? (Answer: It disrupts timely clinical decision-making due to inaccessible patient information.)"
+  },
+  {
+    "question": "A healthcare facility's quality improvement team is using the Plan-Do-Study-Act (PDSA) cycle. In which phase does the team implement changes and gather data for evaluation?",
+    "options": {
+      "A": "Plan",
+      "B": "Do",
+      "C": "Study",
+      "D": "Act"
+    },
+    "answer": "B",
+    "explanation": "The PDSA cycle is a four-stage iterative method for continuous quality improvement.\n\nPlan: The team identifies a problem and plans a small-scale change or test.\n\nDo (B): The team implements the planned change on a small scale and collects data on its effect. This is the action/testing phase.\n\nStudy: The team analyzes the collected data to see if the change resulted in an improvement.\n\nAct: Based on the results, the team decides to adopt the change, adapt it, or abandon it and plan a new cycle.",
+    "additional": "NCK Twist: A nursing quality improvement team introduces a new shift handover tool in one department for a trial period. This step corresponds to which phase of the PDSA cycle? (Answer: Do — this is the small-scale testing and data collection phase.)"
+  },
+  {
+    "question": "What term describes the process of evaluating and comparing the quality and performance of healthcare organizations, providers, or services?",
+    "options": {
+      "A": "Cost analysis",
+      "B": "Quality improvement",
+      "C": "Healthcare accreditation",
+      "D": "Benchmarking"
+    },
+    "answer": "D",
+    "explanation": "Benchmarking is the process of comparing your own organization's processes and performance metrics to those of other organizations that are recognized as leaders or 'best in class.' The goal is to identify best practices, understand how your performance stacks up, and find specific areas for improvement. For example, a hospital might benchmark its surgical site infection rate against the national average or against the rate at a top-performing hospital.",
+    "additional": "NCK Twist: A hospital finds that its average patient length of stay is longer than peer institutions. What management tool should be used to compare and address this gap? (Answer: Benchmarking — to identify performance differences and adopt best practices.)"
+  },
+  {
+    "question": "In healthcare management, what is the purpose of a formulary?",
+    "options": {
+      "A": "Managing staff schedules",
+      "B": "Controlling healthcare costs",
+      "C": "Storing patient medical records",
+      "D": "Standardizing medication choices and usage"
+    },
+    "answer": "D",
+    "explanation": "A formulary is an official list of medications that may be prescribed and dispensed at a specific hospital or through a specific health insurance plan. It is developed by a committee of physicians and pharmacists. The primary purpose is to ensure that the medications used are clinically effective, safe, and cost-effective. By standardizing the list of available drugs, a formulary helps to guide rational prescribing, manage inventory, and control costs (making B a key outcome, but D is the direct purpose).",
+    "additional": "NCK Twist: A nurse realizes a prescribed antibiotic is not on the hospital's formulary. What should the nurse do first? (Answer: Notify the prescriber and suggest an alternative within the formulary to ensure policy compliance and cost control.)"
+  },
+  {
+    "question": "A healthcare facility has adopted Lean management principles. What is the primary goal of Lean management in healthcare?",
+    "options": {
+      "A": "Maximizing profits",
+      "B": "Minimizing patient satisfaction",
+      "C": "Reducing waste and improving efficiency",
+      "D": "Expanding the facility's physical size"
+    },
+    "answer": "C",
+    "explanation": "Lean is a management philosophy originally developed by Toyota for manufacturing. In healthcare, its primary goal is to eliminate 'waste' in every process to improve efficiency, quality, and patient value. Waste is defined as any step or action in a process that does not add value from the patient's perspective. The goal is to create a smooth, efficient flow of care.",
+    "additional": "Key Point - The 8 Wastes of Lean in Healthcare: Use the acronym DOWNTIME — Defects, Overproduction, Waiting, Non-utilized talent, Transportation, Inventory, Motion, Extra-processing.\nNCK Twist: 'A hospital redesigns a ward to place frequently used supplies inside each patient's room, reducing the number of steps nurses have to walk. This is a Lean management strategy aimed at reducing which type of waste?' (Answer: Motion)"
+  },
+  {
+    "question": "In healthcare management, what term refers to the evaluation of a healthcare provider's qualifications, performance, and adherence to standards?",
+    "options": {
+      "A": "Credentialing",
+      "B": "Budgeting",
+      "C": "Infection control",
+      "D": "Medical coding"
+    },
+    "answer": "A",
+    "explanation": "Credentialing is the formal process used to verify a healthcare provider’s qualifications to ensure they are competent to provide care. This includes checking their education, license, training, work history, and board certifications. It is a critical component of patient safety and clinical governance.",
+    "additional": "NCK Twist: 'Before granting admitting privileges to a newly hired surgeon, which management process must the hospital complete to verify the provider’s qualifications?' (Answer: Credentialing)"
+  },
+  {
+    "question": "What concept in healthcare management involves ensuring that a patient receives care in the most appropriate setting and by the right provider?",
+    "options": {
+      "A": "Managed care",
+      "B": "Fee-for-service",
+      "C": "Informed consent",
+      "D": "Health insurance"
+    },
+    "answer": "A",
+    "explanation": "Managed care refers to systems that aim to reduce unnecessary healthcare costs and improve quality by managing how healthcare services are delivered. It promotes efficiency by using networks of providers, pre-authorization protocols, and case management to ensure care is appropriate and cost-effective.",
+    "additional": "NCK Twist: 'A nurse questions a physician about admitting a stable patient for an outpatient procedure. Which model of care emphasizes placing patients in the most appropriate and cost-effective setting?' (Answer: Managed care)"
+  },
+  {
+    "question": "In healthcare management, what is the purpose of health policy analysis?",
+    "options": {
+      "A": "Administering medications to patients",
+      "B": "Evaluating the effectiveness of healthcare policies",
+      "C": "Managing healthcare finances",
+      "D": "Providing direct patient care"
+    },
+    "answer": "B",
+    "explanation": "Health policy analysis involves evaluating existing or proposed health policies to determine their outcomes, efficiency, equity, and overall impact on public health. It is a tool used by health administrators and policymakers to guide decision-making based on evidence.",
+    "additional": "NCK Twist: 'The Ministry of Health introduces a national free maternity care program. What tool would be used to assess whether this policy improved maternal outcomes across counties?' (Answer: Health policy analysis)"
+  },
+  {
+    "question": "In healthcare management, what is the primary role of a healthcare compliance officer?",
+    "options": {
+      "A": "Administering medications to patients",
+      "B": "Ensuring that the facility follows laws and regulations",
+      "C": "Managing healthcare finances",
+      "D": "Conducting medical research"
+    },
+    "answer": "B",
+    "explanation": "A healthcare compliance officer ensures that the healthcare organization and all its employees are complying with applicable laws, regulations, and ethical standards. This includes patient privacy laws, billing regulations, accreditation standards, and internal policies. The role includes auditing, training staff, and responding to compliance concerns.",
+    "additional": "NCK Twist: 'A hospital is preparing for an external audit to evaluate adherence to patient safety and documentation protocols. Who is responsible for overseeing this compliance effort?' (Answer: Healthcare compliance officer)"
+  },
+  {
+    "question": "What term in healthcare management refers to the systematic monitoring, assessment, and improvement of the quality and safety of healthcare services?",
+    "options": {
+      "A": "Clinical audit",
+      "B": "Medical coding",
+      "C": "Managed care",
+      "D": "Quality assurance"
+    },
+    "answer": "D",
+    "explanation": "Quality Assurance (QA) refers to a proactive and continuous process of ensuring that healthcare services meet established standards. It involves monitoring performance indicators, assessing outcomes, and making improvements through structured methods like audits or PDSA cycles. A clinical audit (A) is just one component of QA.",
+    "additional": "Key Point: QA is system-focused, unlike audits which are more individual or event-based.\nNCK Twist: 'A nurse manager collects data on patient falls in the ward and starts a team to implement preventive measures. This activity is best described as:' (Answer: Quality assurance)."
+  },
+  {
+    "question": "In healthcare management, what does the term 'HIPAA' stand for?",
+    "options": {
+      "A": "Hospital Information Policy and Administrative Act",
+      "B": "Health Insurance Portability and Accountability Act",
+      "C": "Healthcare Institution Privacy and Administration Act",
+      "D": "Hospital Insurance and Patient Accessibility Act"
+    },
+    "answer": "B",
+    "explanation": "HIPAA is a U.S. federal law enacted in 1996 to protect patients' health information and to ensure health insurance coverage when changing jobs. Its most famous part—the Privacy Rule—protects the confidentiality of health data. Nurses are especially expected to follow the 'minimum necessary' rule when handling PHI (Protected Health Information).",
+    "additional": "NCK Twist (Kenyan Context): 'A student nurse is overheard discussing a patient's HIV status outside the ward. This violates which principle?' (Answer: Patient confidentiality under the Data Protection Act 2019)."
+  },
+  {
+    "question": "What concept in healthcare management involves a predetermined fixed amount paid for covered services regardless of the actual cost of those services?",
+    "options": {
+      "A": "Managed care",
+      "B": "Fee-for-service",
+      "C": "Capitation",
+      "D": "Health insurance"
+    },
+    "answer": "C",
+    "explanation": "Capitation is a payment method where providers are paid a fixed fee per enrolled person, regardless of the number or nature of services provided. It incentivizes cost-efficiency and preventative care. This model is often used within managed care systems.",
+    "additional": "NCK Twist: 'A healthcare center receives KES 500 per patient monthly, regardless of how many times the patient visits. What financing model is this?' (Answer: Capitation)."
+  },
+  {
+    "question": "In healthcare management, what term describes the systematic approach to controlling costs and improving quality in the delivery of healthcare services?",
+    "options": {
+      "A": "Risk management",
+      "B": "Managed care",
+      "C": "Utilization review",
+      "D": "Health economics"
+    },
+    "answer": "B",
+    "explanation": "Managed care is a system that integrates the delivery and financing of healthcare services. Its aim is to control costs while maintaining or improving quality. It uses techniques like provider networks, utilization reviews, and capitation to achieve these goals.",
+    "additional": "NCK Twist: 'A nurse working in an NHIF-accredited facility notices that certain lab tests require prior authorization. This is an example of which healthcare management strategy?' (Answer: Managed care)."
+  },
+  {
+    "question": "A healthcare facility is implementing a performance improvement plan. What is the primary purpose of such a plan in healthcare management?",
+    "options": {
+      "A": "Maximizing profits",
+      "B": "Ensuring job security for employees",
+      "C": "Identifying and addressing areas for quality improvement",
+      "D": "Expanding the facility's physical size"
+    },
+    "answer": "C",
+    "explanation": "A Performance Improvement Plan (PIP) in healthcare identifies areas where performance falls below the expected standards and outlines corrective actions. It focuses on patient outcomes, efficiency, and quality indicators, such as medication errors or patient satisfaction.",
+    "additional": "NCK Twist: 'Patient satisfaction scores in a maternity ward are low. The nurse manager leads a task force to investigate and propose corrective actions. This initiative is an example of:' (Answer: Performance improvement plan)."
+  },
+  {
+    "question": "In healthcare management, what is the primary purpose of a healthcare ethics committee?",
+    "options": {
+      "A": "Administering medications to patients",
+      "B": "Managing healthcare finances",
+      "C": "Providing legal advice to patients",
+      "D": "Addressing ethical dilemmas and ensuring ethical decision-making"
+    },
+    "answer": "D",
+    "explanation": "A Healthcare Ethics Committee (HEC) exists to support decision-making in situations where healthcare providers, patients, or families face difficult moral choices. These committees promote ethical principles like autonomy, beneficence, and justice, especially in complex cases such as end-of-life decisions, withdrawing life support, or refusing treatment. They don't impose decisions but offer guidance and clarity.",
+    "additional": "NCK Twist: 'A nurse is caring for a terminally ill patient whose family insists on continuing aggressive treatment, but the patient has an advance directive refusing such care. Which body can be consulted for guidance?' (Answer: Healthcare ethics committee)."
+  },
+  {
+    "question": "What does 'DRG' stand for in healthcare management?",
+    "options": {
+      "A": "Doctor's Recommended Guidelines",
+      "B": "Diagnostic Resource Group",
+      "C": "Disease-Related Group",
+      "D": "Drug Reference Guide"
+    },
+    "answer": "C",
+    "explanation": "Diagnosis-Related Groups (DRGs) are part of a prospective payment system where hospitals are reimbursed a fixed amount for patient care based on diagnosis and severity, not on the actual length of stay or services used. DRGs encourage cost-effectiveness, but if not well-managed, may risk under-treatment.",
+    "additional": "NCK Twist: 'A hospital receives the same payment for all patients admitted with uncomplicated pneumonia regardless of the length of stay. What system is this based on?' (Answer: DRG – Diagnosis-Related Group)."
+  },
+  {
+    "question": "In healthcare management, what is the primary goal of telemedicine?",
+    "options": {
+      "A": "Maximizing in-person consultations",
+      "B": "Expanding physical healthcare facilities",
+      "C": "Providing healthcare services at a distance using technology",
+      "D": "Reducing patient access to medical information"
+    },
+    "answer": "C",
+    "explanation": "Telemedicine leverages technology to provide medical care remotely. It is particularly effective in increasing access to health services for patients in remote, rural, or underserved areas. It also reduces congestion in physical facilities and supports continuity of care through virtual follow-ups and consultations.",
+    "additional": "NCK Twist (Kenya Context): 'A nurse in Turkana uses a tablet to consult with a specialist in Nairobi about a patient with suspected cardiac disease. This is an example of:' (Answer: Telemedicine)."
+  }
+]
+
+
