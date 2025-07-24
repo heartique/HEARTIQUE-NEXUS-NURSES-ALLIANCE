@@ -558,8 +558,130 @@
     "answer": "B",
     "explanation": "This question is a repeat of the concept from Q206, emphasizing the importance of vector control in environmental health.\n\nVector-Borne Diseases: Illnesses caused by pathogens and parasites transmitted by vectors like mosquitoes (e.g., malaria, dengue), ticks (e.g., Lyme disease), and flies (e.g., trachoma).\n\nVector Control: A set of interventions aimed at reducing or eliminating the populations of these vectors, or preventing their contact with humans, to break the chain of disease transmission.\n\nPrimary Focus: The focus is on environmental management and personal protection strategies. Examples include draining stagnant water where mosquitoes breed, using insecticide-treated nets, clearing brush where ticks live, and improving sanitation to reduce fly populations. This is a classic example of how modifying the environment can directly improve public health.",
     "additional": "NCK Focus August 2025:\n\n1. Strategies:\n- Larval source reduction\n- Indoor residual spraying (IRS)\n- Use of repellents and protective clothing\n\n2. Nurse’s Role:\n- Educate families on mosquito breeding\n- Participate in distribution of ITNs and IRS campaigns\n\nFuture Question Idea: \"A health team removes standing water and distributes mosquito nets. This is an example of:\" (Answer: Vector-borne disease control)."
+  },
+  {
+    "question": "What is the primary focus of \"substance abuse prevention programs\" in health promotion?",
+    "options": {
+      "A": "Promoting substance abuse",
+      "B": "Implementing strategies to prevent the misuse and addiction to harmful substances",
+      "C": "Ignoring the importance of substance abuse prevention",
+      "D": "Focusing exclusively on substance treatment programs"
+    },
+    "answer": "B",
+    "explanation": "This is a core primary prevention activity. The focus of prevention programs is to stop substance abuse before it starts or to delay its onset. This is different from treatment programs (D), which are secondary/tertiary prevention for individuals who already have a substance use disorder. Strategies include school-based education, media campaigns, and policies that limit access to substances (e.g., age limits for alcohol).",
+    "additional": "Key Point: Modern prevention focuses on building \"protective factors\" (like strong family bonds, school connectedness) and reducing \"risk factors\" (like peer use, trauma). It's not just about saying \"Just Say No.\"\nNCK Twist: \"A program that provides after-school activities and mentorship for at-risk youth to foster positive social connections and reduce unstructured time is an example of what type of substance abuse prevention?\" (Answer: An environmental or selective primary prevention strategy, as it aims to change the context and build protective factors)."
+  },
+  {
+    "question": "In health promotion, what does \"mental health awareness\" primarily aim to achieve?",
+    "options": {
+      "A": "Promoting stigma around mental health",
+      "B": "Increasing awareness and understanding of mental health issues to reduce stigma and encourage seeking help",
+      "C": "Ignoring the importance of mental health awareness",
+      "D": "Focusing exclusively on mental illness"
+    },
+    "answer": "B",
+    "explanation": "Mental health awareness campaigns are designed to combat the two biggest barriers to care: lack of knowledge and stigma. The primary aim is to increase mental health literacy (understanding that mental health issues are real, common, and treatable medical conditions) and to reduce stigma (the negative attitudes and discrimination associated with mental illness). By achieving this, the ultimate goal is to encourage people who are struggling to seek help.",
+    "additional": "Key Point: Mental health promotion is also about promoting mental well-being in the entire population, not just focusing on illness (D). It involves fostering resilience, coping skills, and supportive communities.\nNCK Twist: A question might ask you to differentiate between mental health promotion and mental illness treatment. \"A workplace program that teaches all employees stress management and mindfulness techniques is an example of:\" (Answer: Mental health promotion)."
+  },
+  {
+    "question": "What is the primary goal of \"environmental conservation\" in health promotion?",
+    "options": {
+      "A": "Promoting environmental degradation",
+      "B": "Promoting sustainable practices and protecting the environment to ensure a healthy and safe living environment",
+      "C": "Ignoring the importance of environmental conservation",
+      "D": "Focusing exclusively on resource depletion"
+    },
+    "answer": "B",
+    "explanation": "This question links environmental health to health promotion. The primary goal is to recognize that human health is inextricably linked to the health of the planet. Protecting the environment (e.g., ensuring clean air and water, a stable climate, biodiversity) is a fundamental upstream health promotion strategy. It's about preserving the ecological determinants of health for current and future generations.",
+    "additional": "Revist notes for additional point"
+  },
+  {
+    "question": "In health promotion, what is the primary objective of \"health equity initiatives\"?",
+    "options": {
+      "A": "Promoting health disparities",
+      "B": "Addressing and reducing health disparities to ensure equitable access to healthcare and health outcomes",
+      "C": "Ignoring the importance of health equity",
+      "D": "Focusing exclusively on individual health outcomes"
+    },
+    "answer": "B",
+    "explanation": "Health equity initiatives are designed to close the health gaps between different population groups. The objective is to identify health disparities (systematic, unjust differences in health outcomes) and implement targeted interventions to address their root causes. This is about achieving social justice in health.",
+    "additional": "Key Point: This requires focusing on the social determinants of health (income, education, housing, discrimination).\nNCK Twist: \"A health department launches a program to provide free antenatal care specifically in low-income communities where maternal mortality is highest. The primary objective of this program is to:\"\na) Promote health equality\nb) Promote health equity\nc) Provide tertiary prevention\nd) Study maternal mortality\nAnswer: b) Promote health equity (because it provides more resources to the disadvantaged group to achieve a more equal outcome)."
+  },
+  {
+    "question": "What is the primary focus of \"community engagement\" in health promotion?",
+    "options": {
+      "A": "Promoting community isolation",
+      "B": "Involving communities in decision-making and actions to improve health and well-being",
+      "C": "Ignoring the importance of community engagement",
+      "D": "Focusing exclusively on individual health actions"
+    },
+    "answer": "B",
+    "explanation": "This is a core principle of health promotion. It means moving away from a \"top-down\" model where experts tell communities what to do. Instead, it's a collaborative, \"bottom-up\" process where community members are active partners in identifying problems, planning solutions, and implementing programs. This ensures interventions are culturally appropriate and sustainable.",
+    "additional": "Revist Note for additional point"
+  },
+  {
+    "question": "In health promotion, what is the primary goal of \"health literacy programs\"?",
+    "options": {
+      "A": "Promoting health illiteracy",
+      "B": "Promoting the understanding and utilization of health information to make informed health-related decisions",
+      "C": "Ignoring the importance of health literacy",
+      "D": "Focusing exclusively on health knowledge"
+    },
+    "answer": "B",
+    "explanation": "Health literacy is more than just being able to read (health knowledge - D). It is the degree to which individuals have the capacity to obtain, process, and understand basic health information and services needed to make appropriate health decisions and take action. Programs aim to improve these skills in the public and also to make health systems easier to navigate.",
+    "additional": "Revist notes for additinal points"
+  },
+  {
+    "question": "What is the primary objective of \"cultural competence training\" in health promotion?",
+    "options": {
+      "A": "Promoting cultural insensitivity",
+      "B": "Enhancing the ability of healthcare professionals to provide care that respects and responds to diverse cultural backgrounds",
+      "C": "Ignoring the importance of cultural competence",
+      "D": "Focusing exclusively on standard care practices"
+    },
+    "answer": "B",
+    "explanation": "The primary objective is to equip healthcare professionals with the awareness, knowledge, and skills to provide effective and respectful care to patients from diverse cultural and linguistic backgrounds. This is essential for reducing health disparities and improving the quality of care for all.",
+    "additional": "Key Point: The modern evolution of this concept is cultural humility, which emphasizes a lifelong commitment to self-evaluation and critique, recognizing power imbalances, and developing partnerships with communities. It's about being a humble learner, not an \"expert\" on another culture.\nNCK Twist: \"A nurse, when caring for a patient from a different cultural background, asks them, 'Is there anything about your cultural or spiritual beliefs that I should know to provide you with the best care?' This question demonstrates:\" (Answer: Cultural humility)."
+  },
+  {
+    "question": "In health promotion, what is the primary focus of \"social marketing campaigns\"?",
+    "options": {
+      "A": "Promoting unhealthy behaviors",
+      "B": "Using marketing techniques to promote health behaviors and encourage positive actions",
+      "C": "Ignoring the importance of marketing in health promotion",
+      "D": "Focusing exclusively on direct healthcare services"
+    },
+    "answer": "B",
+    "explanation": "Social marketing applies the principles and techniques of commercial marketing to \"sell\" a behavior change or a health idea. It goes beyond just awareness; it uses audience research, segmentation, and the \"4 Ps\" of marketing (Product, Price, Place, Promotion) to influence behavior for social good.",
+    "additional": ""
+  },
+  {
+    "question": "What is the primary goal of \"advocacy for policy change\" in health promotion?",
+    "options": {
+      "A": "Promoting the status quo in healthcare policies",
+      "B": "Advocating for changes in policies to create environments that support health and well-being",
+      "C": "Ignoring the importance of policy change",
+      "D": "Focusing exclusively on individual advocacy"
+    },
+    "answer": "B",
+    "explanation": "This is a key upstream health promotion strategy. It involves activities aimed at influencing policymakers to create or change laws, regulations, and resource allocations in ways that make communities healthier. It is a powerful tool for creating large-scale, sustainable health improvements.",
+    "additional": ""
+  },
+  {
+    "question": "In the context of health promotion, what does \"social determinants of health\" primarily refer to?",
+    "options": {
+      "A": "Promoting individual health determinants",
+      "B": "The social, economic, and environmental factors that influence health and well-being",
+      "C": "Ignoring the importance of social determinants",
+      "D": "Focusing exclusively on individual choices"
+    },
+    "answer": "B",
+    "explanation": "The Social Determinants of Health (SDOH) are the conditions in which people are born, grow, live, work, and age. These factors—such as income, education level, housing quality, and access to healthy food—are the primary drivers of health outcomes and are the root cause of most health inequities. Health promotion efforts increasingly focus on addressing these upstream factors.",
+    "additional": "Revist notes."
   }
 ]
+
+
 
 
   
