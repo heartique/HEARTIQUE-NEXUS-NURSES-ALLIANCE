@@ -184,7 +184,7 @@
 
   <div class="summary">
     <h2>Progress Summary</h2>
-    <p id="progressText">Loading summary...</p>
+    <p id="progressText" class="loading">Loading summary...</p>
     <div id="chartContainer"><canvas id="progressChart"></canvas></div>
     <button id="exportBtn" onclick="exportPDF()">Export to PDF</button>
     <button id="resetBtn" onclick="resetAll()">Reset All</button>
@@ -260,7 +260,9 @@
       });
       const avg = starUnits ? (starsTotal / starUnits).toFixed(1) : "0.0";
       const percent = ((covered / total) * 100).toFixed(1);
-      document.getElementById('progressText').innerHTML = `
+      const pt = document.getElementById('progressText');
+      pt.classList.remove('loading');
+      pt.innerHTML = `
         Units Covered: ${covered}/${total} (${percent}%)<br>
         Avg. Understanding: ${avg} ★<br>
         Emergency Units: ${flags}
@@ -277,15 +279,15 @@
     function exportPDF() {
       html2pdf().from(document.body).save("NCK_Study_Progress.pdf");
     }
-function resetAll() {
-  if (confirm("Reset your NCK study data only?")) {
-    Object.keys(localStorage).forEach(key => {
-      if (key.startsWith("tab0_unit") || key.startsWith("tab1_unit") || key === "nck_timer") {
-        localStorage.removeItem(key);
-      }
-    });
-    location.reload();
-  }
+
+    function resetAll() {
+      if (confirm("Reset your NCK study data only?")) {
+        Object.keys(localStorage).forEach(key => {
+          if (key.startsWith("tab0_unit") || key.startsWith("tab1_unit") || key === "nck_timer") {
+            localStorage.removeItem(key);
+          }
+        });
+        location.reload();
       }
     }
 
@@ -351,7 +353,7 @@ function resetAll() {
     // Init
     createUnits(paper1, "tab0");
     createUnits(paper2, "tab1");
-    updateSummary();
+    setTimeout(() => updateSummary(), 100);
   </script>
 </body>
 </html>
