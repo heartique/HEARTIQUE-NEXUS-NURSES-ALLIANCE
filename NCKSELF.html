@@ -277,11 +277,15 @@
     function exportPDF() {
       html2pdf().from(document.body).save("NCK_Study_Progress.pdf");
     }
-
-    function resetAll() {
-      if (confirm("Reset everything?")) {
-        localStorage.clear();
-        location.reload();
+function resetAll() {
+  if (confirm("Reset your NCK study data only?")) {
+    Object.keys(localStorage).forEach(key => {
+      if (key.startsWith("tab0_unit") || key.startsWith("tab1_unit") || key === "nck_timer") {
+        localStorage.removeItem(key);
+      }
+    });
+    location.reload();
+  }
       }
     }
 
