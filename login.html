@@ -143,6 +143,7 @@
     <div class="form" id="form-login">
       <h2 id="form-title-login">LOGIN TO HEARTIQUE NURSING NEXUS PORTAL</h2>
       <input type="email" id="login-email" placeholder="Email" required />
+      <input type="text" id="login-name" placeholder="Your Name (if first time)" style="display: none;" />
       <div class="pw-wrapper">
         <input type="password" id="login-password" placeholder="Password" required style="padding-right: 2rem;" />
         <span class="pw-toggle" onclick="togglePassword('login-password', this)">👁️</span>
@@ -227,6 +228,18 @@
     let result;
     if (mode === 'login') {
       result = await supabase.auth.signInWithPassword({ email, password });
+
+      // Handle name storage if entered
+      const nameInput = document.getElementById('login-name');
+      const enteredName = nameInput?.value.trim();
+      if (enteredName) {
+        localStorage.setItem('full_name', enteredName);
+        const sessionCheck = await supabase.auth.getSession();
+        const userId = sessionCheck?.data?.session?.user?.id;
+        if (userId) {
+          await supabase.from('user').update({ full_name: enteredName }).eq('id', userId);
+        }
+      }
     } else {
       const fullName = document.getElementById('signup-fullname').value.trim();
       if (!fullName) {
@@ -277,21 +290,17 @@
           .eq('id', userId)
           .single();
 
-     let fullName = profile?.full_name;
+        let fullName = profile?.full_name;
+        if (!fullName) {
+          fullName = prompt("👋 What's your name? (for greetings)");
+          if (fullName) {
+            await supabase.from('user').update({ full_name: fullName }).eq('id', userId);
+          }
+        }
 
-if (!fullName) {
-  fullName = prompt("👋 What's your name? (For greetings)");
-  if (fullName) {
-    await supabase
-      .from('user')
-      .update({ full_name: fullName })
-      .eq('id', userId);
-
-    localStorage.setItem('full_name', fullName);
-  }
-} else {
-  localStorage.setItem('full_name', fullName);
-}
+        if (fullName) {
+          localStorage.setItem('full_name', fullName);
+        }
 
         window.location.href = 'index.html';
         return;
@@ -304,9 +313,15 @@ if (!fullName) {
 
   window.addEventListener('DOMContentLoaded', () => {
     const saved = localStorage.getItem('savedEmail');
+    const savedName = localStorage.getItem('full_name');
+
     if (saved) {
       document.getElementById('login-email').value = saved;
       document.getElementById('remember-me').checked = true;
+    }
+
+    if (!savedName) {
+      document.getElementById('login-name').style.display = 'block';
     }
   });
 </script>
