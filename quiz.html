@@ -117,7 +117,50 @@
   transform: scale(1.05);
   box-shadow: 0 6px 18px rgba(0,0,0,0.3);
 } 
-  </style>
+    <style>
+  .ncktab-link {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #1976d2;
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 1rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .ncktab-link::before {
+    content: '';
+    position: absolute;
+    top: 0; left: -100%;
+    width: 100%; height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    transform: skewX(-30deg);
+    transition: left 0.5s ease;
+  }
+
+  .ncktab-link:hover::before {
+    left: 100%;
+  }
+
+  .ncktab-link:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+  }
+
+  .ncktab-msg {
+    text-align: center;
+    margin-top: 0.5rem;
+    font-size: 0.95rem;
+    color: #555;
+    font-style: italic;
+  }
+</style>
+
 </head>
 <body>
   <div class="home-bar">
@@ -131,8 +174,11 @@
 </a>
 
   <button id="reload-btn">🎉 Reload Page</button>
-<a href="NCKSELF.html" class="nav-tab">NCK Self-Study</a>
-  
+<!-- ✅ Insert this block where needed -->
+<div style="text-align:center; margin: 2rem 0;">
+  <a href="NCKSELF.html" class="ncktab-link">NCK Self-Study Evaluation Page</a>
+  <div class="ncktab-msg">Track your knowledge before NCK</div>
+</div>
   <!-- PAPER ONE -->
   <div class="paper-section">
   <h2 id="paper-one-title"><strong>📘 PAPER ONE UNITS</strong></h2>
