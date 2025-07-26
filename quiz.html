@@ -132,32 +132,72 @@
     position: relative;
     overflow: hidden;
   }
+  .nckbox-tab {
+    display: inline-block;
+    padding: 1.2rem 2rem;
+    margin: 1rem auto;
+    background-color: #1976d2;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 16px;
+    box-shadow: 0 6px 14px rgba(0,0,0,0.2);
+    transition: all 0.4s ease;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid transparent;
+  }
 
-  .ncktab-link::before {
+  .nckbox-tab:hover {
+    transform: scale(1.03);
+    border-color: #42a5f5;
+    box-shadow: 0 0 20px rgba(66,165,245,0.6);
+  }
+
+  .nckbox-tab::before {
     content: '';
     position: absolute;
-    top: 0; left: -100%;
-    width: 100%; height: 100%;
-    background: rgba(255, 255, 255, 0.1);
-    transform: skewX(-30deg);
-    transition: left 0.5s ease;
+    width: 100%;
+    height: 300%;
+    top: -100%;
+    left: -100%;
+    background: radial-gradient(circle, rgba(255,255,255,0.15) 10%, transparent 10.01%);
+    background-size: 10px 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 0;
   }
 
-  .ncktab-link:hover::before {
-    left: 100%;
+  .nckbox-tab:hover::before {
+    opacity: 1;
+    animation: waveFlash 1.5s linear infinite;
   }
 
-  .ncktab-link:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+  @keyframes waveFlash {
+    0% { background-position: 0 0; }
+    100% { background-position: 100px 100px; }
   }
 
-  .ncktab-msg {
-    text-align: center;
-    margin-top: 0.5rem;
-    font-size: 0.95rem;
-    color: #555;
-    font-style: italic;
+  .nckbox-tab span.hello {
+    position: absolute;
+    bottom: -2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #424242;
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+  }
+
+  .nckbox-tab:hover span.hello {
+    opacity: 1;
+    bottom: -2.5rem;
   }
 </style>
 
@@ -174,10 +214,12 @@
 </a>
 
   <button id="reload-btn">🎉 Reload Page</button>
-<!-- ✅ Insert this block where needed -->
-<div style="text-align:center; margin: 2rem 0;">
-  <a href="NCKSELF.html" class="ncktab-link">NCK Self-Study Evaluation Page</a>
-  <div class="ncktab-msg">Track your knowledge before NCK</div>
+<!--  Insert this block where needed -->
+<div style="text-align: center;">
+  <a href="NCKSELF.html" class="nckbox-tab">
+    NCK Self-Study
+    <span class="hello">Hello 👋</span>
+  </a>
 </div>
   <!-- PAPER ONE -->
   <div class="paper-section">
