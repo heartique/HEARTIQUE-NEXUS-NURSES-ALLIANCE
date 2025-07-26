@@ -5,55 +5,54 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>NCK Study Tracker</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <style>
     :root {
       --bg: #f4f6f8;
-      --fg: #1a1a1a;
-      --white: #ffffff;
-      --primary: #1976d2;
-      --hover: #004ba0;
-      --warn: #ff4d4d;
-      --warn-dark: #b71c1c;
-      --light: #e0e0e0;
+      --text: #1a1a1a;
+      --card: white;
     }
-    [data-theme="dark"] {
-      --bg: #1e1e1e;
-      --fg: #eeeeee;
-      --white: #2c2c2c;
-      --primary: #2196f3;
-      --hover: #1565c0;
-      --warn: #e53935;
-      --warn-dark: #c62828;
-      --light: #444;
+    body.dark {
+      --bg: #121212;
+      --text: #e0e0e0;
+      --card: #1e1e1e;
     }
     body {
       font-family: 'Inter', sans-serif;
       margin: 0;
       background: var(--bg);
-      color: var(--fg);
+      color: var(--text);
       padding: 2rem;
     }
     h1 {
       text-align: center;
+      margin-bottom: 1rem;
     }
-    .tabs, .controls {
+    .tabs {
       display: flex;
       justify-content: center;
-      flex-wrap: wrap;
+      margin-bottom: 1rem;
       gap: 1rem;
-      margin: 1rem 0;
     }
     .tab {
-      padding: 0.7rem 1.5rem;
-      background: var(--light);
+      padding: 1rem 2rem;
+      background: #e0e0e0;
       border: none;
-      border-radius: 6px;
       font-weight: 600;
+      border-radius: 8px;
       cursor: pointer;
     }
-    .tab:hover, .active {
-      background: var(--fg);
-      color: var(--bg);
+    .tab:hover {
+      background: #424242;
+      color: white;
+    }
+    .tab.active {
+      background: #1a1a1a;
+      color: white;
+    }
+    .filters {
+      text-align: center;
+      margin-bottom: 1rem;
     }
     .tab-content {
       display: none;
@@ -62,74 +61,112 @@
       display: block;
     }
     .unit {
-      background: var(--white);
+      background: var(--card);
+      margin-bottom: 1rem;
       padding: 1rem;
       border-radius: 10px;
-      margin-bottom: 1rem;
-      display: flex;
-      flex-direction: column;
-      gap: 0.5rem;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
     }
-    .unit-actions {
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 0.5rem;
+    .unit label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: 600;
     }
-    .stars span {
+    .stars {
+      display: flex;
+      gap: 5px;
+      margin: 0.5rem 0;
+    }
+    .star {
       font-size: 1.2rem;
       cursor: pointer;
       color: #ccc;
     }
-    .stars .selected {
+    .star.selected {
       color: gold;
     }
-    .comment-box {
-      width: 100%;
-      padding: 0.5rem;
-      border-radius: 6px;
-      border: 1px solid #ccc;
-    }
     .emergency {
-      background: var(--warn);
-      color: white;
       border: none;
+      background: #ff4d4d;
+      color: white;
       padding: 5px 10px;
       border-radius: 6px;
       cursor: pointer;
     }
     .emergency.active {
-      background: var(--warn-dark);
+      background: #b71c1c;
     }
-    .summary, .chart, .theme-toggle {
-      background: var(--white);
+    textarea {
+      width: 100%;
+      margin-top: 0.5rem;
+      padding: 0.5rem;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+    .summary {
+      background: var(--card);
+      margin-top: 2rem;
       padding: 1rem;
       border-radius: 10px;
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-      margin-top: 2rem;
+    }
+    #chartContainer {
+      max-width: 400px;
+      margin: 1rem auto;
     }
     button {
-      background: var(--primary);
-      color: white;
+      margin-top: 1rem;
+      margin-right: 0.5rem;
+      padding: 10px 20px;
       border: none;
-      padding: 10px 15px;
       border-radius: 6px;
+      font-weight: 600;
       cursor: pointer;
     }
-    button:hover {
-      background: var(--hover);
+    #exportBtn, #resetBtn, #quizBtn, #darkBtn, #downloadNotes {
+      background: #1976d2;
+      color: white;
     }
     #timer {
       text-align: center;
       font-weight: bold;
       margin-bottom: 1rem;
     }
-    canvas { max-width: 100%; }
+    .nav-link {
+      display: inline-block;
+      padding: 1rem 2rem;
+      background: #1976d2;
+      color: white;
+      text-decoration: none;
+      border-radius: 12px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      position: relative;
+      overflow: hidden;
+    }
+    .nav-link::before {
+      content: '';
+      position: absolute;
+      top: 0; left: -100%;
+      width: 100%; height: 100%;
+      background: rgba(255, 255, 255, 0.2);
+      transform: skewX(-30deg);
+      transition: left 0.5s ease;
+    }
+    .nav-link:hover::before {
+      left: 100%;
+    }
+    .nav-msg {
+      text-align: center;
+      margin-top: 0.5rem;
+      font-style: italic;
+      font-size: 0.9rem;
+    }
   </style>
 </head>
 <body>
-  <h1>NCK Study Progress Tracker</h1>
+  <h1>NCK Study Tracker</h1>
   <div id="timer">Time spent: 00:00:00</div>
 
   <div class="tabs">
@@ -137,169 +174,179 @@
     <button class="tab" onclick="showTab(1)">Paper 2</button>
   </div>
 
-  <div class="controls">
-    <label><input type="checkbox" onchange="applyFilter('emergency')"> Show Emergency Only</label>
-    <label><input type="checkbox" onchange="applyFilter('completed')"> Show Completed Only</label>
-    <button onclick="toggleTheme()">Toggle Dark Mode</button>
-    <button onclick="downloadNotes()">Download Comments</button>
+  <div class="filters">
+    <label><input type="checkbox" id="filterEmergency" onchange="filterUnits()"> Show Emergency Only</label>
+    <label><input type="checkbox" id="filterCompleted" onchange="filterUnits()"> Show Completed Only</label>
   </div>
 
   <div id="tab0" class="tab-content active"></div>
   <div id="tab1" class="tab-content"></div>
 
   <div class="summary">
-    <h2>Summary</h2>
-    <p id="progressText"></p>
-    <button onclick="exportPDF()">Export to PDF</button>
-    <button onclick="resetTracker()">Reset Tracker</button>
-    <button onclick="window.location.href='quiz.html'">Go to Quiz</button>
+    <h2>Progress Summary</h2>
+    <p id="progressText">Loading summary...</p>
+    <div id="chartContainer"><canvas id="progressChart"></canvas></div>
+    <button id="exportBtn" onclick="exportPDF()">Export to PDF</button>
+    <button id="resetBtn" onclick="resetAll()">Reset All</button>
+    <button id="downloadNotes" onclick="downloadNotes()">Download Notes</button>
+    <button id="quizBtn" onclick="window.location.href='quiz.html'">Go to Quiz</button>
+    <button id="darkBtn" onclick="toggleDark()">Toggle Dark Mode</button>
   </div>
 
-  <div class="chart">
-    <h3>Progress Chart</h3>
-    <canvas id="progressChart"></canvas>
+  <div style="text-align:center; margin-top:2rem;">
+    <a href="NCKSELF.html" class="nav-link">NCK Self-Study</a>
+    <div class="nav-msg">Track your knowledge before NCK</div>
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script>
-    const paper1Units = ["Anatomy", "Basic Nursing", "Pharmacology", "Microbiology"];
-    const paper2Units = ["Community Health", "PHC", "Growth & Development", "Immunization"];
+    const paper1 = [..."Anatomy and Physiology,Basic Nursing,Pharmacology,Microbiology,First Aid,GIT,Respiratory Disorders,Orthopedics,CVD,GUD (Genitourinary Disorders),ENT,Oral & Dental Disorders,Gynecology,Theater Nursing,Dermatology,Neurology,Endocrine Disorders,Trauma & Emergency,Ophthalmology,Obstetric,Neonatal Disorders,Critical Care Nursing".split(",")];
+    const paper2 = [..."Community Health,PHC (Primary Health Care),Growth & Development,Immunization,Communicable Diseases,STI,Home Visiting,Family Planning,Community Diagnosis,School Health,Social Services,Home Based Care,Pediatric IMNC,Psychiatry,Teaching Methodology,Research,Pharmacology,Community Skills,Community Development,Sociology,Managements".split(",")];
 
-    let filters = { emergency: false, completed: false };
+    let chart;
 
-    function createUnits(units, containerId) {
-      const container = document.getElementById(containerId);
-      units.forEach((unit, index) => {
-        const id = `${containerId}_unit${index}`;
+    function createUnits(units, tabId) {
+      const tab = document.getElementById(tabId);
+      units.forEach((name, i) => {
+        const id = `${tabId}_unit${i}`;
         const saved = JSON.parse(localStorage.getItem(id)) || {};
-
-        const div = document.createElement('div');
-        div.className = 'unit';
-        div.setAttribute('data-id', id);
+        const div = document.createElement("div");
+        div.className = "unit";
+        div.dataset.id = id;
         div.innerHTML = `
-          <label><input type="checkbox" ${saved.checked ? 'checked' : ''} onchange="saveState('${id}')"> ${unit}</label>
-          <div class="unit-actions">
-            <div class="stars">
-              ${[1,2,3,4,5].map(i => `<span class="star ${saved.stars >= i ? 'selected' : ''}" onclick="rateStar(this, ${i}, '${id}')">★</span>`).join('')}
-            </div>
-            <button class="emergency ${saved.flagged ? 'active' : ''}" onclick="toggleEmergency(this, '${id}')">Flag</button>
+          <label><input type="checkbox" ${saved.checked ? 'checked' : ''} onchange="saveUnit('${id}')"> ${name}</label>
+          <div class="stars">
+            ${[1,2,3,4,5].map(n => `<span class="star ${saved.stars >= n ? 'selected':''}" onclick="rate(this, ${n}, '${id}')">&#9733;</span>`).join('')}
           </div>
-          <textarea class="comment-box" placeholder="Comment..." oninput="saveState('${id}')">${saved.comment || ''}</textarea>
+          <button class="emergency ${saved.flag ? 'active':''}" onclick="toggleFlag(this,'${id}')">Flag</button>
+          <textarea placeholder="Comment..." oninput="saveUnit('${id}')">${saved.note || ''}</textarea>
         `;
-        container.appendChild(div);
+        tab.appendChild(div);
       });
     }
 
-    function rateStar(el, val, id) {
-      const stars = el.parentNode.querySelectorAll('span');
+    function rate(el, val, id) {
+      const stars = el.parentNode.querySelectorAll('.star');
       stars.forEach((s, i) => s.classList.toggle('selected', i < val));
-      saveState(id);
+      saveUnit(id);
     }
 
-    function toggleEmergency(btn, id) {
+    function toggleFlag(btn, id) {
       btn.classList.toggle('active');
-      saveState(id);
+      saveUnit(id);
     }
 
-    function saveState(id) {
-      const unit = document.querySelector(`[data-id='${id}']`);
-      const checked = unit.querySelector('input[type=checkbox]').checked;
-      const stars = unit.querySelectorAll('.star.selected').length;
-      const flagged = unit.querySelector('.emergency').classList.contains('active');
-      const comment = unit.querySelector('.comment-box').value;
-      localStorage.setItem(id, JSON.stringify({ checked, stars, flagged, comment }));
+    function saveUnit(id) {
+      const el = document.querySelector(`[data-id="${id}"]`);
+      const checked = el.querySelector('input').checked;
+      const stars = el.querySelectorAll('.star.selected').length;
+      const flag = el.querySelector('.emergency').classList.contains('active');
+      const note = el.querySelector('textarea').value;
+      localStorage.setItem(id, JSON.stringify({ checked, stars, flag, note }));
       updateSummary();
-      applyFilter();
     }
 
-    function applyFilter() {
-      document.querySelectorAll('.unit').forEach(unit => {
-        const id = unit.getAttribute('data-id');
-        const data = JSON.parse(localStorage.getItem(id)) || {};
-        const matchesEmergency = !filters.emergency || data.flagged;
-        const matchesCompleted = !filters.completed || data.checked;
-        unit.style.display = (matchesEmergency && matchesCompleted) ? 'flex' : 'none';
+    function updateSummary() {
+      const all = [...document.querySelectorAll('.unit')];
+      let total = all.length, covered = 0, starsTotal = 0, starUnits = 0, flags = 0;
+      all.forEach(el => {
+        if (el.querySelector('input').checked) covered++;
+        let s = el.querySelectorAll('.star.selected').length;
+        if (s > 0) {
+          starsTotal += s;
+          starUnits++;
+        }
+        if (el.querySelector('.emergency').classList.contains('active')) flags++;
       });
+      const avg = starUnits ? (starsTotal / starUnits).toFixed(1) : "0.0";
+      const percent = ((covered / total) * 100).toFixed(1);
+      document.getElementById('progressText').innerHTML = `
+        Units Covered: ${covered}/${total} (${percent}%)<br>
+        Avg. Understanding: ${avg} ★<br>
+        Emergency Units: ${flags}
+      `;
+      updateChart(covered, total - covered);
     }
 
-    function applyFilter(type) {
-      filters[type] = !filters[type];
-      applyFilter();
+    function showTab(i) {
+      document.querySelectorAll('.tab').forEach((t, x) => t.classList.toggle('active', x===i));
+      document.querySelectorAll('.tab-content').forEach((tab, x) => tab.classList.toggle('active', x===i));
+      updateSummary();
     }
 
-    function resetTracker() {
-      if (confirm("Reset all progress?")) {
+    function exportPDF() {
+      html2pdf().from(document.body).save("NCK_Study_Progress.pdf");
+    }
+
+    function resetAll() {
+      if (confirm("Reset everything?")) {
         localStorage.clear();
         location.reload();
       }
     }
 
-    function exportPDF() {
-      html2pdf().from(document.body).save('NCK_Progress.pdf');
-    }
-
-    function updateSummary() {
-      const units = document.querySelectorAll('.unit');
-      let covered = 0, total = units.length, flagged = 0, stars = 0, count = 0;
-      units.forEach(unit => {
-        const id = unit.getAttribute('data-id');
-        const data = JSON.parse(localStorage.getItem(id)) || {};
-        if (data.checked) covered++;
-        if (data.flagged) flagged++;
-        if (data.stars) { stars += data.stars; count++; }
+    function filterUnits() {
+      const showEmerg = document.getElementById("filterEmergency").checked;
+      const showDone = document.getElementById("filterCompleted").checked;
+      document.querySelectorAll('.unit').forEach(unit => {
+        const isFlag = unit.querySelector('.emergency').classList.contains('active');
+        const isCheck = unit.querySelector('input').checked;
+        unit.style.display = 
+          (!showEmerg || isFlag) && (!showDone || isCheck) ? "block" : "none";
       });
-      const avg = count ? (stars / count).toFixed(1) : '0.0';
-      const percent = ((covered / total) * 100).toFixed(1);
-      document.getElementById('progressText').innerHTML =
-        `Covered: ${covered}/${total} (${percent}%)<br>Avg Stars: ${avg}<br>Emergencies: ${flagged}`;
-      updateChart(covered, total);
     }
 
-    function updateChart(done, total) {
-      const ctx = document.getElementById('progressChart').getContext('2d');
-      if (window.chart) window.chart.destroy();
-      window.chart = new Chart(ctx, {
+    function toggleDark() {
+      document.body.classList.toggle("dark");
+    }
+
+    function downloadNotes() {
+      const all = [...document.querySelectorAll('.unit')];
+      let data = {};
+      all.forEach(el => {
+        const label = el.querySelector('label').innerText.trim();
+        const note = el.querySelector('textarea').value.trim();
+        if (note) data[label] = note;
+      });
+      const blob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(blob);
+      a.download = "NCK_Notes.json";
+      a.click();
+    }
+
+    function updateChart(done, left) {
+      const ctx = document.getElementById("progressChart").getContext("2d");
+      if (chart) chart.destroy();
+      chart = new Chart(ctx, {
         type: 'doughnut',
         data: {
-          labels: ['Done', 'Remaining'],
-          datasets: [{ data: [done, total - done], backgroundColor: ['#1976d2', '#ccc'] }]
+          labels: ["Covered", "Remaining"],
+          datasets: [{
+            data: [done, left],
+            backgroundColor: ["#1976d2", "#e0e0e0"]
+          }]
+        },
+        options: {
+          responsive: true,
+          plugins: { legend: { position: "bottom" } }
         }
       });
     }
 
-    function toggleTheme() {
-      const body = document.body;
-      const theme = body.getAttribute('data-theme') === 'dark' ? '' : 'dark';
-      body.setAttribute('data-theme', theme);
-    }
-
-    function downloadNotes() {
-      let data = {};
-      document.querySelectorAll('.unit').forEach(unit => {
-        const id = unit.getAttribute('data-id');
-        const obj = JSON.parse(localStorage.getItem(id));
-        if (obj?.comment?.trim()) data[id] = obj.comment;
-      });
-      const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
-      const link = document.createElement('a');
-      link.href = URL.createObjectURL(blob);
-      link.download = 'unit_comments.json';
-      link.click();
-    }
-
-    let seconds = localStorage.getItem('studySeconds') || 0;
+    let seconds = localStorage.getItem("nck_timer") || 0;
     setInterval(() => {
       seconds++;
-      localStorage.setItem('studySeconds', seconds);
-      const h = String(Math.floor(seconds / 3600)).padStart(2, '0');
-      const m = String(Math.floor((seconds % 3600) / 60)).padStart(2, '0');
-      const s = String(seconds % 60).padStart(2, '0');
-      document.getElementById('timer').textContent = `Time spent: ${h}:${m}:${s}`;
+      localStorage.setItem("nck_timer", seconds);
+      const h = String(Math.floor(seconds/3600)).padStart(2,'0');
+      const m = String(Math.floor((seconds%3600)/60)).padStart(2,'0');
+      const s = String(seconds%60).padStart(2,'0');
+      document.getElementById("timer").textContent = `Time spent: ${h}:${m}:${s}`;
     }, 1000);
 
-    createUnits(paper1Units, 'tab0');
-    createUnits(paper2Units, 'tab1');
+    // Init
+    createUnits(paper1, "tab0");
+    createUnits(paper2, "tab1");
     updateSummary();
   </script>
 </body>
