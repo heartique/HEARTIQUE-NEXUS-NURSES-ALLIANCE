@@ -292,7 +292,7 @@
 
         let fullName = profile?.full_name;
         if (!fullName) {
-          fullName = prompt("👋 What's your name? (for greetings)");
+          fullName = prompt("👋Can you confirm your name for our system update? We'd also love to greet you by name!");
           if (fullName) {
             await supabase.from('user').update({ full_name: fullName }).eq('id', userId);
           }
