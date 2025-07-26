@@ -997,7 +997,7 @@
     return session.expires_at && session.expires_at < now;
   }
 
-  async function loadUser() {
+ async function loadUser() {
   const greetingEl = document.getElementById('greeting');
   const welcomeUser = document.getElementById('welcomeUser');
   const modalName = document.getElementById('modalName');
@@ -1020,22 +1020,21 @@
   const userEmail = session.user.email;
   let fullName = localStorage.getItem('full_name');
 
-  // 🔍 Check if the user exists in your 'user' table by email
-  const { data: exists, error: existsError } = await supabase
-    .from('user')
-    .select('id')
-    .eq('email', userEmail)
-    .maybeSingle();
-
-  if (!exists) {
-    // ❌ Deleted or invalid user — force logout
-    await supabase.auth.signOut();
-    localStorage.clear();
-    return window.location.href = 'login.html';
-  }
-
-  // ✅ Load name if not already saved
+  // ✅ Light check: if name not found, confirm user still exists via email
   if (!fullName) {
+    const { data: checkUser } = await supabase
+      .from('user')
+      .select('id')
+      .eq('email', userEmail)
+      .maybeSingle();
+
+    if (!checkUser) {
+      await supabase.auth.signOut();
+      localStorage.clear();
+      return window.location.href = 'login.html';
+    }
+
+    // ✅ Then fetch full name
     const { data: userData, error } = await supabase
       .from('user')
       .select('full_name')
@@ -1045,22 +1044,6 @@
     if (!error && userData?.full_name) {
       fullName = userData.full_name;
       localStorage.setItem('full_name', fullName);
-    }
-  }
-
-  // ✅ Update UI elements if values are available
-  if (fullName) {
-    if (greetingEl) greetingEl.textContent = `Welcome, ${fullName}!`;
-    if (welcomeUser) welcomeUser.textContent = `Hello ${fullName}, we're glad to have you on the Nursing Nexus Portal 👋`;
-    if (modalName) modalName.textContent = fullName;
-  }
-
-  if (modalEmail) modalEmail.textContent = userEmail;
-
-  // ✅ Show the app, hide loading screen
-  document.getElementById('loading')?.style.setProperty('display', 'none');
-  document.getElementById('app')?.style.setProperty('display', 'block');
-}
     }
 
     if (fullName) {
