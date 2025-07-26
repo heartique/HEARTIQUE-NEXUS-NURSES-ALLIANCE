@@ -1016,20 +1016,30 @@
       }
     }
 
-    const userId = session.user.id;
-    const userEmail = session.user.email;
-    let fullName = localStorage.getItem('full_name');
+    // 🛡️ Confirm the user still exists in Supabase Auth
+const { data: authUser, error: authError } = await supabase.auth.getUser();
+if (authError || !authUser) {
+  // If deleted or invalid, sign out and redirect
+  await supabase.auth.signOut();
+  localStorage.clear();
+  return window.location.href = 'login.html';
+}
 
-    if (!fullName) {
-      const { data: userData, error } = await supabase
-  .from('user')
-  .select('full_name')
-  .eq('id', userId)
-  .single();
+const userId = authUser.id;
+const userEmail = authUser.email;
+let fullName = localStorage.getItem('full_name');
 
-if (!error && userData?.full_name) {
-  fullName = userData.full_name;
-  localStorage.setItem('full_name', fullName);
+if (!fullName) {
+  const { data: userData, error } = await supabase
+    .from('user')
+    .select('full_name')
+    .eq('id', userId)
+    .single();
+
+  if (!error && userData?.full_name) {
+    fullName = userData.full_name;
+    localStorage.setItem('full_name', fullName);
+  }
 }
 
     }
