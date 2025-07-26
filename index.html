@@ -998,56 +998,69 @@
   }
 
   async function loadUser() {
-    const greetingEl = document.getElementById('greeting');
-    const welcomeUser = document.getElementById('welcomeUser');
-    const modalName = document.getElementById('modalName');
-    const modalEmail = document.getElementById('modalEmail');
+  const greetingEl = document.getElementById('greeting');
+  const welcomeUser = document.getElementById('welcomeUser');
+  const modalName = document.getElementById('modalName');
+  const modalEmail = document.getElementById('modalEmail');
 
-    let sessionData = localStorage.getItem('supabaseSession');
-    let session = sessionData ? JSON.parse(sessionData) : null;
+  let sessionData = localStorage.getItem('supabaseSession');
+  let session = sessionData ? JSON.parse(sessionData) : null;
 
-    if (!session || isSessionExpired(session)) {
-      const { data } = await supabase.auth.getSession();
-      session = data?.session;
-      if (session) {
-        localStorage.setItem('supabaseSession', JSON.stringify(session));
-      } else {
-        return window.location.href = 'login.html';
-      }
+  if (!session || isSessionExpired(session)) {
+    const { data } = await supabase.auth.getSession();
+    session = data?.session;
+    if (session) {
+      localStorage.setItem('supabaseSession', JSON.stringify(session));
+    } else {
+      return window.location.href = 'login.html';
     }
-const userId = session.user.id;
-const userEmail = session.user.email;
-let fullName = localStorage.getItem('full_name');
-
-// 🔍 Optional safety check: confirm this email exists in your 'user' table
-const { data: exists, error: existsError } = await supabase
-  .from('user')
-  .select('id')
-  .eq('email', userEmail)
-  .maybeSingle();
-
-if (!exists && !fullName) {
-  // Email not found and no saved name — user is invalid or deleted
-  await supabase.auth.signOut();
-  localStorage.clear();
-  return window.location.href = 'login.html';
-}
-
-// ✅ Continue with full name fetch if not already cached
-if (!fullName) {
-  const { data: userData, error } = await supabase
-    .from('user')
-    .select('full_name')
-    .eq('id', userId)
-    .single();
-
-  if (!error && userData?.full_name) {
-    fullName = userData.full_name;
-    localStorage.setItem('full_name', fullName);
   }
-}
 
-    
+  const userId = session.user.id;
+  const userEmail = session.user.email;
+  let fullName = localStorage.getItem('full_name');
+
+  // 🔍 Check if the user exists in your 'user' table by email
+  const { data: exists, error: existsError } = await supabase
+    .from('user')
+    .select('id')
+    .eq('email', userEmail)
+    .maybeSingle();
+
+  if (!exists) {
+    // ❌ Deleted or invalid user — force logout
+    await supabase.auth.signOut();
+    localStorage.clear();
+    return window.location.href = 'login.html';
+  }
+
+  // ✅ Load name if not already saved
+  if (!fullName) {
+    const { data: userData, error } = await supabase
+      .from('user')
+      .select('full_name')
+      .eq('id', userId)
+      .single();
+
+    if (!error && userData?.full_name) {
+      fullName = userData.full_name;
+      localStorage.setItem('full_name', fullName);
+    }
+  }
+
+  // ✅ Update UI elements if values are available
+  if (fullName) {
+    if (greetingEl) greetingEl.textContent = `Welcome, ${fullName}!`;
+    if (welcomeUser) welcomeUser.textContent = `Hello ${fullName}, we're glad to have you on the Nursing Nexus Portal 👋`;
+    if (modalName) modalName.textContent = fullName;
+  }
+
+  if (modalEmail) modalEmail.textContent = userEmail;
+
+  // ✅ Show the app, hide loading screen
+  document.getElementById('loading')?.style.setProperty('display', 'none');
+  document.getElementById('app')?.style.setProperty('display', 'block');
+}
     }
 
     if (fullName) {
