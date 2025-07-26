@@ -1015,20 +1015,25 @@
         return window.location.href = 'login.html';
       }
     }
+const userId = session.user.id;
+const userEmail = session.user.email;
+let fullName = localStorage.getItem('full_name');
 
-    // 🛡️ Confirm the user still exists in Supabase Auth
-const { data: authUser, error: authError } = await supabase.auth.getUser();
-if (authError || !authUser) {
-  // If deleted or invalid, sign out and redirect
+// 🔍 Optional safety check: confirm this email exists in your 'user' table
+const { data: exists, error: existsError } = await supabase
+  .from('user')
+  .select('id')
+  .eq('email', userEmail)
+  .maybeSingle();
+
+if (!exists && !fullName) {
+  // Email not found and no saved name — user is invalid or deleted
   await supabase.auth.signOut();
   localStorage.clear();
   return window.location.href = 'login.html';
 }
 
-const userId = authUser.id;
-const userEmail = authUser.email;
-let fullName = localStorage.getItem('full_name');
-
+// ✅ Continue with full name fetch if not already cached
 if (!fullName) {
   const { data: userData, error } = await supabase
     .from('user')
@@ -1042,6 +1047,7 @@ if (!fullName) {
   }
 }
 
+    
     }
 
     if (fullName) {
