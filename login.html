@@ -277,9 +277,21 @@
           .eq('id', userId)
           .single();
 
-        if (profile?.full_name) {
-          localStorage.setItem('full_name', profile.full_name);
-        }
+     let fullName = profile?.full_name;
+
+if (!fullName) {
+  fullName = prompt("👋 What's your name? (For greetings)");
+  if (fullName) {
+    await supabase
+      .from('user')
+      .update({ full_name: fullName })
+      .eq('id', userId);
+
+    localStorage.setItem('full_name', fullName);
+  }
+} else {
+  localStorage.setItem('full_name', fullName);
+}
 
         window.location.href = 'index.html';
         return;
