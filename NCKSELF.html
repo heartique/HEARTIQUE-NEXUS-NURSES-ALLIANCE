@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NCK Study Tracker</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      background: #f4f6f8;
+      color: #1a1a1a;
+      padding: 2rem;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .tabs {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 1rem;
+    }
+    .tab {
+      padding: 1rem 2rem;
+      margin: 0 0.5rem;
+      border: none;
+      background: #e0e0e0;
+      cursor: pointer;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      border-radius: 8px;
+    }
+    .tab:hover {
+      background: #424242;
+      color: white;
+      transform: scale(1.05);
+    }
+    .tab.active {
+      background: #1a1a1a;
+      color: white;
+    }
+    .tab-content {
+      display: none;
+    }
+    .tab-content.active {
+      display: block;
+    }
+    .unit {
+      background: white;
+      margin-bottom: 1rem;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+      display: flex;
+      flex-direction: column;
+    }
+    .unit label {
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+    .unit-actions {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .stars {
+      display: flex;
+      gap: 4px;
+    }
+    .star {
+      font-size: 1.2rem;
+      cursor: pointer;
+      color: #ccc;
+    }
+    .star.selected {
+      color: gold;
+    }
+    .emergency {
+      border: none;
+      background: #ff4d4d;
+      color: white;
+      padding: 5px 10px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .emergency.active {
+      background: #b71c1c;
+    }
+    .comment-box {
+      width: 100%;
+      margin-top: 0.5rem;
+      font-size: 0.9rem;
+      padding: 0.5rem;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+    .summary {
+      margin-top: 2rem;
+      background: #ffffff;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .summary p {
+      margin: 0.5rem 0;
+    }
+    button {
+      font-family: 'Inter', sans-serif;
+    }
+    #exportBtn, #resetBtn, #quizBtn {
+      margin-top: 1rem;
+      margin-right: 0.5rem;
+      background: #1976d2;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    #exportBtn:hover, #resetBtn:hover, #quizBtn:hover {
+      background: #004ba0;
+    }
+    #timer {
+      text-align: center;
+      font-weight: 600;
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>NCK Study Progress Tracker</h1>
+  <div id="timer">Time spent: 00:00:00</div>
+
+  <div class="tabs">
+    <button class="tab active" onclick="showTab(0)">Paper 1</button>
+    <button class="tab" onclick="showTab(1)">Paper 2</button>
+  </div>
+
+  <div id="tab0" class="tab-content active"></div>
+  <div id="tab1" class="tab-content"></div>
+
+  <div class="summary">
+    <h2>Progress Summary</h2>
+    <p id="progressText">Loading summary...</p>
+    <button id="exportBtn" onclick="exportPDF()">Export to PDF</button>
+    <button id="resetBtn" onclick="resetTracker()">Reset Tracker</button>
+    <button id="quizBtn" onclick="window.location.href='quiz.html'">Go to Quiz</button>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <script>
+    const paper1Units = [
+      "Anatomy and Physiology", "Basic Nursing", "Pharmacology", "Microbiology", "First Aid", "GIT", "Respiratory Disorders", "Orthopedics", "CVD", "GUD (Genitourinary Disorders)", "ENT", "Oral & Dental Disorders", "Gynecology", "Theater Nursing", "Dermatology", "Neurology", "Endocrine Disorders", "Trauma & Emergency", "Ophthalmology", "Obstetric", "Neonatal Disorders", "Critical Care Nursing"
+    ];
+    const paper2Units = [
+      "Community Health", "PHC (Primary Health Care)", "Growth & Development", "Immunization", "Communicable Diseases", "STI", "Home Visiting", "Family Planning", "Community Diagnosis", "School Health", "Social Services", "Home Based Care", "Pediatric IMNC", "Psychiatry", "Teaching Methodology", "Research", "Pharmacology", "Community Skills", "Community Development", "Sociology", "Managements"
+    ];
+
+    function createUnits(units, containerId) {
+      const container = document.getElementById(containerId);
+      units.forEach((unit, idx) => {
+        const id = containerId + "_unit" + idx;
+        const saved = JSON.parse(localStorage.getItem(id)) || {};
+        const div = document.createElement('div');
+        div.className = 'unit';
+        div.innerHTML = `
+          <label><input type="checkbox" ${saved.checked ? "checked" : ""} onchange="saveState('${id}')"> ${unit}</label>
+          <div class="unit-actions">
+            <div class="stars">
+              ${[1,2,3,4,5].map(i => `<span class="star ${saved.stars >= i ? 'selected' : ''}" onclick="rateStar(this, ${i}, '${id}')">&#9733;</span>`).join('')}
+            </div>
+            <button class="emergency ${saved.flagged ? 'active' : ''}" onclick="toggleEmergency(this, '${id}')">Flag</button>
+          </div>
+          <textarea class="comment-box" placeholder="Write a note or comment..." oninput="saveState('${id}')">${saved.comment || ''}</textarea>
+        `;
+        container.appendChild(div);
+      });
+    }
+
+    function rateStar(el, value, id) {
+      const stars = el.parentNode.querySelectorAll('.star');
+      stars.forEach((star, index) => {
+        star.classList.toggle('selected', index < value);
+      });
+      saveState(id);
+    }
+
+    function toggleEmergency(btn, id) {
+      btn.classList.toggle('active');
+      saveState(id);
+    }
+
+    function saveState(id) {
+      const unit = document.querySelector(`#${id}`) || document.querySelector(`[id^="${id}"]`);
+      const checkbox = unit.querySelector('input[type=checkbox]');
+      const stars = unit.querySelectorAll('.star.selected').length;
+      const flag = unit.querySelector('.emergency').classList.contains('active');
+      const comment = unit.querySelector('.comment-box').value;
+      localStorage.setItem(id, JSON.stringify({ checked: checkbox.checked, stars, flagged: flag, comment }));
+      updateSummary();
+    }
+
+    function resetTracker() {
+      if (confirm("Are you sure you want to reset everything?")) {
+        localStorage.clear();
+        location.reload();
+      }
+    }
+
+    function updateSummary() {
+      const units = document.querySelectorAll('.unit');
+      let covered = 0, total = units.length, starsTotal = 0, starCount = 0, emergencies = 0;
+      units.forEach(unit => {
+        if (unit.querySelector('input[type=checkbox]').checked) covered++;
+        const selectedStars = unit.querySelectorAll('.star.selected').length;
+        if (selectedStars > 0) {
+          starsTotal += selectedStars;
+          starCount++;
+        }
+        if (unit.querySelector('.emergency').classList.contains('active')) emergencies++;
+      });
+      const avgUnderstanding = starCount ? (starsTotal / starCount).toFixed(1) : '0.0';
+      const percent = ((covered / total) * 100).toFixed(1);
+      document.getElementById('progressText').innerHTML = `
+        Units Covered: ${covered} / ${total} (${percent}%)<br>
+        Average Understanding: ${avgUnderstanding} ★<br>
+        Emergency Units: ${emergencies}
+      `;
+    }
+
+    function showTab(index) {
+      document.querySelectorAll('.tab').forEach((tab, i) => {
+        tab.classList.toggle('active', i === index);
+      });
+      document.querySelectorAll('.tab-content').forEach((tab, i) => {
+        tab.classList.toggle('active', i === index);
+      });
+      updateSummary();
+    }
+
+    function exportPDF() {
+      const element = document.body;
+      html2pdf().from(element).save('NCK_Study_Progress.pdf');
+    }
+
+    // Timer
+    let seconds = 0;
+    setInterval(() => {
+      seconds++;
+      const hrs = String(Math.floor(seconds / 3600)).padStart(2, '0');
+      const mins = String(Math.floor((seconds % 3600) / 60)).padStart(2, '0');
+      const secs = String(seconds % 60).padStart(2, '0');
+      document.getElementById('timer').textContent = `Time spent: ${hrs}:${mins}:${secs}`;
+    }, 1000);
+
+    // Init
+    createUnits(paper1Units, 'tab0');
+    createUnits(paper2Units, 'tab1');
+    updateSummary();
+  </script>
+</body>
+</html>
