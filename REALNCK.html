@@ -318,55 +318,68 @@
         }
         render(current);
       });
-      
- function render(i) {
-      const q = questions[i];
-      const opts = q.options || {};
-      container.innerHTML = `<div class="question-box"><strong>Question ${i + 1}:</strong><br><br>${q.question || "Untitled"}<br><br></div>`;
-      const box = container.querySelector('.question-box');
+      function render(i) {
+  const q = questions[i];
+  const opts = q.options || {};
+  container.innerHTML = `<div class="question-box"><strong>Question ${i + 1}:</strong><br><br>${q.question || "Untitled"}<br><br></div>`;
+  const box = container.querySelector('.question-box');
+  for (const [k, v] of Object.entries(opts)) {
+  const b = document.createElement('button');
+  b.className = 'btn';
+  b.textContent = `${k}) ${v}`;
 
-      for (const [k, v] of Object.entries(opts)) {
-        const b = document.createElement('button');
-        b.className = 'btn';
-        b.textContent = `${k}) ${v}`;
-        if (saved[i]) b.disabled = true;
-        b.onclick = () => {
-          if (saved[i]) return;
-          saved[i] = { selected: k };
-          if (!isSimulationMode) {
-            saved[i].correct = k === (q.answer || "").toUpperCase();
-            localStorage.setItem("progress_" + fileName, JSON.stringify(saved));
-          }
-          b.disabled = true;
-          if (isSimulationMode) next();
-        };
-        box.appendChild(b);
-      }
+  if (saved[i]?.selected) {
+    if (saved[i].selected === k) {
+      b.style.backgroundColor = "#bde5ff";
+    }
+  }
 
-      if (flagged.has(i) && !isSimulationMode) {
-        box.innerHTML += "<p style='color:#002147;'>[Flagged for review]</p>";
-      }
+  b.onclick = () => {
+    if (saved[i]?.selected) return;
 
-      updateNav();
+    saved[i] = {
+      selected: k,
+      correct: k === (q.answer || "").toUpperCase()
+    };
 
-      if (flagged.size && !isSimulationMode) {
-        const jumpBtn = document.createElement("button");
-        jumpBtn.textContent = "📌 Jump to First Flagged";
-        jumpBtn.style = "margin-top:15px;padding:10px;background:#cc0000;color:white;border:none;border-radius:4px;cursor:pointer;";
-        jumpBtn.onclick = () => {
-          current = [...flagged][0];
-          render(current);
-        };
-        container.appendChild(jumpBtn);
+    flagged.delete(i);
+    localStorage.setItem("progress_" + fileName, JSON.stringify(saved));
 
-        const allFlaggedBtn = document.createElement("button");
-        allFlaggedBtn.textContent = "📝 View All Flagged";
-        allFlaggedBtn.style = "margin-left:10px;padding:10px;background:#666;color:white;border:none;border-radius:4px;cursor:pointer;";
-        allFlaggedBtn.onclick = showFlagModal;
-        container.appendChild(allFlaggedBtn);
-      }
+    if (isSimulationMode) {
+      next(); // ✅ skip re-render, just move forward
+    } else {
+      render(i); // ✅ re-render only if not simulation
+    }
+  };
 
-      window.scrollTo(0, 0);
+  box.appendChild(b);
+}
+
+  if (flagged.has(i) && !isSimulationMode) {
+    box.innerHTML += "<p style='color:#002147;'>[Flagged for review]</p>";
+  }
+
+  updateNav();
+
+  if (flagged.size && !isSimulationMode) {
+    const jumpBtn = document.createElement("button");
+    jumpBtn.textContent = "📌 Jump to First Flagged";
+    jumpBtn.style = "margin-top:15px;padding:10px;background:#cc0000;color:white;border:none;border-radius:4px;cursor:pointer;";
+    jumpBtn.onclick = () => {
+      current = [...flagged][0];
+      render(current);
+    };
+    container.appendChild(jumpBtn);
+
+    const allFlaggedBtn = document.createElement("button");
+    allFlaggedBtn.textContent = "📝 View All Flagged";
+    allFlaggedBtn.style = "margin-left:10px;padding:10px;background:#666;color:white;border:none;border-radius:4px;cursor:pointer;";
+    allFlaggedBtn.onclick = showFlagModal;
+    container.appendChild(allFlaggedBtn);
+  }
+
+  window.scrollTo(0, 0);
+}
 
     }
       function updateNav() {
