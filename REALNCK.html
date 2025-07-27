@@ -320,54 +320,67 @@
       });
     }
 
-    function render(i) {
-      const q = questions[i];
-      const opts = q.options || {};
-      container.innerHTML = `<div class="question-box"><strong>Question ${i + 1}:</strong><br><br>${q.question || "Untitled"}<br><br></div>`;
-      const box = container.querySelector('.question-box');
+   function render(i) {
+  const q = questions[i];
+  const opts = q.options || {};
+  container.innerHTML = `<div class="question-box"><strong>Question ${i + 1}:</strong><br><br>${q.question || "Untitled"}<br><br></div>`;
+  const box = container.querySelector('.question-box');
 
-      for (const [k, v] of Object.entries(opts)) {
-        const b = document.createElement('button');
-        b.className = 'btn';
-        b.textContent = `${k}) ${v}`;
-        if (saved[i]) b.disabled = true;
-        b.onclick = () => {
-          if (saved[i]) return;
-          saved[i] = { selected: k };
-          if (!isSimulationMode) {
-            saved[i].correct = k === (q.answer || "").toUpperCase();
-            localStorage.setItem("progress_" + fileName, JSON.stringify(saved));
-          }
-          b.disabled = true;
-          if (isSimulationMode) next();
-        };
-        box.appendChild(b);
-      }
+  for (const [k, v] of Object.entries(opts)) {
+    const b = document.createElement('button');
+    b.className = 'btn';
+    b.textContent = `${k}) ${v}`;
 
-      if (flagged.has(i) && !isSimulationMode) {
-        box.innerHTML += "<p style='color:#002147;'>[Flagged for review]</p>";
-      }
+    // Disable if already selected
+    if (saved[i]?.selected === k) {
+      b.disabled = true;
+      b.style.backgroundColor = "#bde5ff"; // highlight selected
+    }
 
-      updateNav();
+    b.onclick = () => {
+      if (saved[i]?.selected) return;
 
-      if (flagged.size && !isSimulationMode) {
-        const jumpBtn = document.createElement("button");
-        jumpBtn.textContent = "📌 Jump to First Flagged";
-        jumpBtn.style = "margin-top:15px;padding:10px;background:#cc0000;color:white;border:none;border-radius:4px;cursor:pointer;";
-        jumpBtn.onclick = () => {
-          current = [...flagged][0];
-          render(current);
-        };
-        container.appendChild(jumpBtn);
+      saved[i] = {
+        selected: k,
+        correct: k === (q.answer || "").toUpperCase()
+      };
 
-        const allFlaggedBtn = document.createElement("button");
-        allFlaggedBtn.textContent = "📝 View All Flagged";
-        allFlaggedBtn.style = "margin-left:10px;padding:10px;background:#666;color:white;border:none;border-radius:4px;cursor:pointer;";
-        allFlaggedBtn.onclick = showFlagModal;
-        container.appendChild(allFlaggedBtn);
-      }
+      flagged.delete(i);
+      localStorage.setItem("progress_" + fileName, JSON.stringify(saved));
+      render(i); // re-render to update UI
 
-      window.scrollTo(0, 0);
+      if (isSimulationMode) next();
+    };
+
+    box.appendChild(b);
+  }
+
+  if (flagged.has(i) && !isSimulationMode) {
+    box.innerHTML += "<p style='color:#002147;'>[Flagged for review]</p>";
+  }
+
+  updateNav();
+
+  if (flagged.size && !isSimulationMode) {
+    const jumpBtn = document.createElement("button");
+    jumpBtn.textContent = "📌 Jump to First Flagged";
+    jumpBtn.style = "margin-top:15px;padding:10px;background:#cc0000;color:white;border:none;border-radius:4px;cursor:pointer;";
+    jumpBtn.onclick = () => {
+      current = [...flagged][0];
+      render(current);
+    };
+    container.appendChild(jumpBtn);
+
+    const allFlaggedBtn = document.createElement("button");
+    allFlaggedBtn.textContent = "📝 View All Flagged";
+    allFlaggedBtn.style = "margin-left:10px;padding:10px;background:#666;color:white;border:none;border-radius:4px;cursor:pointer;";
+    allFlaggedBtn.onclick = showFlagModal;
+    container.appendChild(allFlaggedBtn);
+  }
+
+  window.scrollTo(0, 0);
+}
+ 
     }
       function updateNav() {
         const navButtons = [];
