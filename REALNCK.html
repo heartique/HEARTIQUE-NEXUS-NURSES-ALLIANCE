@@ -321,54 +321,71 @@
     }
 
     function render(i) {
-      const q = questions[i];
-      const opts = q.options || {};
-      container.innerHTML = `<div class="question-box"><strong>Question ${i + 1}:</strong><br><br>${q.question || "Untitled"}<br><br></div>`;
-      const box = container.querySelector('.question-box');
+  const q = questions[i];
+  const opts = q.options || {};
+  container.innerHTML = `<div class="question-box"><strong>Question ${i + 1}:</strong><br><br>${q.question || "Untitled"}<br><br></div>`;
+  const box = container.querySelector('.question-box');
 
-      for (const [k, v] of Object.entries(opts)) {
-        const b = document.createElement('button');
-        b.className = 'btn';
-        b.textContent = `${k}) ${v}`;
-        if (saved[i]?.selected) b.disabled = true;
-        b.onclick = () => {
-         if (saved[i]?.selected) return;
-          saved[i] = { selected: k };
-          flagged.delete(i);
-          if (!isSimulationMode) {
-            saved[i].correct = k === (q.answer || "").toUpperCase();
-            localStorage.setItem("progress_" + fileName, JSON.stringify(saved));
-          }
-          b.disabled = true;
-          if (isSimulationMode) next();
-        };
-        box.appendChild(b);
-      }
+  for (const [k, v] of Object.entries(opts)) {
+    const b = document.createElement('button');
+    b.className = 'btn';
+    b.textContent = `${k}) ${v}`;
 
-      if (flagged.has(i) && !isSimulationMode) {
-        box.innerHTML += "<p style='color:#002147;'>[Flagged for review]</p>";
-      }
+    // Show if this was the selected answer
+    if (saved[i]?.selected === k) {
+      b.style.backgroundColor = "#bde5ff"; // Highlight selected
+      b.disabled = true;
+    }
 
-      updateNav();
+    b.onclick = () => {
+      if (saved[i]?.selected) return; // Stop if already answered
 
-      if (flagged.size && !isSimulationMode) {
-        const jumpBtn = document.createElement("button");
-        jumpBtn.textContent = "📌 Jump to First Flagged";
-        jumpBtn.style = "margin-top:15px;padding:10px;background:#cc0000;color:white;border:none;border-radius:4px;cursor:pointer;";
-        jumpBtn.onclick = () => {
-          current = [...flagged][0];
-          render(current);
-        };
-        container.appendChild(jumpBtn);
+      // Save the answer
+      saved[i] = {
+        selected: k,
+        correct: k === (q.answer || "").toUpperCase()
+      };
 
-        const allFlaggedBtn = document.createElement("button");
-        allFlaggedBtn.textContent = "📝 View All Flagged";
-        allFlaggedBtn.style = "margin-left:10px;padding:10px;background:#666;color:white;border:none;border-radius:4px;cursor:pointer;";
-        allFlaggedBtn.onclick = showFlagModal;
-        container.appendChild(allFlaggedBtn);
-      }
+      flagged.delete(i); // Unflag once answered
 
-      window.scrollTo(0, 0);
+      localStorage.setItem("progress_" + fileName, JSON.stringify(saved));
+
+      b.disabled = true;
+
+      // Move on if in simulation mode
+      if (isSimulationMode) next();
+      else render(i); // re-render to disable buttons and show highlight
+    };
+
+    box.appendChild(b);
+  }
+
+  if (flagged.has(i) && !isSimulationMode) {
+    box.innerHTML += "<p style='color:#002147;'>[Flagged for review]</p>";
+  }
+
+  updateNav();
+
+  if (flagged.size && !isSimulationMode) {
+    const jumpBtn = document.createElement("button");
+    jumpBtn.textContent = "📌 Jump to First Flagged";
+    jumpBtn.style = "margin-top:15px;padding:10px;background:#cc0000;color:white;border:none;border-radius:4px;cursor:pointer;";
+    jumpBtn.onclick = () => {
+      current = [...flagged][0];
+      render(current);
+    };
+    container.appendChild(jumpBtn);
+
+    const allFlaggedBtn = document.createElement("button");
+    allFlaggedBtn.textContent = "📝 View All Flagged";
+    allFlaggedBtn.style = "margin-left:10px;padding:10px;background:#666;color:white;border:none;border-radius:4px;cursor:pointer;";
+    allFlaggedBtn.onclick = showFlagModal;
+    container.appendChild(allFlaggedBtn);
+  }
+
+  window.scrollTo(0, 0);
+}
+
     }
       function updateNav() {
         const navButtons = [];
