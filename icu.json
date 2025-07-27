@@ -1,0 +1,122 @@
+[
+  {
+    "question": "1. What is the priority action when a critically ill patient develops sudden chest pain and shortness of breath?",
+    "options": {
+      "A": "Administer antacids",
+      "B": "Encourage deep breathing",
+      "C": "Assess vital signs and initiate oxygen therapy",
+      "D": "Give oral fluids"
+    },
+    "answer": "C",
+    "explanation": "Sudden chest pain and dyspnea may indicate life-threatening conditions like pulmonary embolism or myocardial infarction. Immediate assessment and oxygen support are critical.",
+    "additional": "Monitoring vitals helps identify deterioration early, guiding further urgent interventions such as ECG, cardiac enzymes, or imaging."
+  },
+  {
+    "question": "2. Which assessment finding indicates possible shock in a critically ill patient?",
+    "options": {
+      "A": "Bounding pulse",
+      "B": "Warm, dry skin",
+      "C": "Hypotension and cold, clammy skin",
+      "D": "Bradycardia"
+    },
+    "answer": "C",
+    "explanation": "Shock reduces tissue perfusion. Early signs include hypotension, tachycardia, and cool, clammy skin due to vasoconstriction.",
+    "additional": "If untreated, shock can lead to multi-organ failure. Early recognition and intervention are vital."
+  },
+  {
+    "question": "3. A patient on mechanical ventilation develops high pressure alarms. What should the nurse do first?",
+    "options": {
+      "A": "Silence the alarm and ignore",
+      "B": "Check for kinked or blocked tubing",
+      "C": "Increase tidal volume",
+      "D": "Reintubate the patient"
+    },
+    "answer": "B",
+    "explanation": "High pressure alarms are often caused by kinks, mucus plugs, or patient biting the tube. Always assess the system before altering ventilator settings.",
+    "additional": "Clearing obstruction or suctioning the airway may resolve the issue. Alarms must never be ignored."
+  },
+  {
+    "question": "4. What is the primary goal of care in a critically ill patient with sepsis?",
+    "options": {
+      "A": "Increase fluid excretion",
+      "B": "Support circulation and treat infection",
+      "C": "Restrict fluids",
+      "D": "Delay antibiotics until cultures return"
+    },
+    "answer": "B",
+    "explanation": "Sepsis causes systemic inflammation, hypotension, and impaired perfusion. Fluid resuscitation and early antibiotics are essential.",
+    "additional": "Guidelines recommend administering broad-spectrum antibiotics within 1 hour and using vasopressors if needed."
+  },
+  {
+    "question": "5. What is an early sign of increased intracranial pressure in a critically ill patient?",
+    "options": {
+      "A": "Low blood pressure",
+      "B": "Slurred speech",
+      "C": "Irritability and altered level of consciousness",
+      "D": "Constriction of pupils"
+    },
+    "answer": "C",
+    "explanation": "Early signs of increased ICP include changes in mental status like restlessness or confusion due to cerebral hypoxia.",
+    "additional": "Later signs include bradycardia, hypertension, and widened pulse pressure (Cushing’s triad)."
+  },
+  {
+    "question": "6. A critically ill patient with metabolic acidosis will show which compensatory mechanism?",
+    "options": {
+      "A": "Shallow breathing",
+      "B": "Increased respiratory rate",
+      "C": "Decreased urine output",
+      "D": "Bradycardia"
+    },
+    "answer": "B",
+    "explanation": "To compensate for metabolic acidosis, the respiratory system increases ventilation to blow off CO₂ (Kussmaul respirations).",
+    "additional": "This lowers blood CO₂ and helps raise pH. ABG analysis confirms the type and degree of acidosis."
+  },
+  {
+    "question": "7. Which electrolyte imbalance is most dangerous in critically ill patients?",
+    "options": {
+      "A": "Hypocalcemia",
+      "B": "Hyperkalemia",
+      "C": "Hyponatremia",
+      "D": "Hypomagnesemia"
+    },
+    "answer": "B",
+    "explanation": "Hyperkalemia can cause fatal arrhythmias due to its effect on cardiac conduction. It requires urgent treatment.",
+    "additional": "Signs include muscle weakness, ECG changes (peaked T-waves), and bradycardia. Calcium gluconate, insulin/glucose may be used."
+  },
+  {
+    "question": "8. What nursing action prevents ventilator-associated pneumonia (VAP)?",
+    "options": {
+      "A": "Maintaining patient in supine position",
+      "B": "Daily sedation interruption and oral care",
+      "C": "Frequent suctioning only",
+      "D": "Avoiding patient turning"
+    },
+    "answer": "B",
+    "explanation": "Daily sedation breaks, head elevation, and regular oral care (chlorhexidine) reduce VAP risk in ventilated patients.",
+    "additional": "VAP bundles are evidence-based protocols to reduce infection in ICU settings."
+  },
+  {
+    "question": "9. A patient with a central venous line develops fever and redness at the site. What is the likely complication?",
+    "options": {
+      "A": "Deep vein thrombosis",
+      "B": "Local hematoma",
+      "C": "Catheter-related bloodstream infection",
+      "D": "Allergic reaction"
+    },
+    "answer": "C",
+    "explanation": "Signs of infection at the insertion site plus fever suggest CRBSI. Immediate action is required.",
+    "additional": "Blood cultures and catheter removal or replacement may be necessary. Aseptic technique during insertion is critical."
+  },
+  {
+    "question": "10. Which parameter best reflects tissue perfusion in critically ill patients?",
+    "options": {
+      "A": "Respiratory rate",
+      "B": "Blood pressure",
+      "C": "Capillary refill and urine output",
+      "D": "Pulse oximetry"
+    },
+    "answer": "C",
+    "explanation": "Tissue perfusion is best monitored by capillary refill (<2s), urine output (>0.5 mL/kg/hr), and lactate levels.",
+    "additional": "Low urine output and delayed cap refill indicate poor perfusion even if BP is normal."
+  },
+  
