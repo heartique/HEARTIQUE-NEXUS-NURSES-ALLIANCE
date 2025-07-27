@@ -137,7 +137,7 @@
       "C": "Obstructed labour, cord prolapse, prolonged labour",
       "D": "Maternal distress, prolonged labour, cord presentation"
     },
-    "answer": "A"
+    "answer": "B"
   },
   {
     "question": "In brow presentation, the engaging diameter is:",
@@ -180,7 +180,7 @@
     "answer": "B"
   },
   {
-    "question": "Which diameter allows the fetal head to fit the widest AP diameter of pelvis?",
+    "question": "which mechanism of labor allows the smallest fetal head diameter to present?",
     "options": {
       "A": "Flexion",
       "B": "Descent",
@@ -206,16 +206,6 @@
       "B": "Persistent occipito-posterior position",
       "C": "Large presenting mentovertical diameter",
       "D": "Large presenting occipito-frontal diameter"
-    },
-    "answer": "C"
-  },
-  {
-    "question": "The anti-opioid drug used in neonatal resuscitation is:",
-    "options": {
-      "A": "Konakion",
-      "B": "Dexamethasone",
-      "C": "Narcan 0.1mg/kg IV",
-      "D": "Naloxone 0.5mg IV"
     },
     "answer": "C"
   },
@@ -300,16 +290,6 @@
     "answer": "D"
   },
   {
-    "question": "Lochia serosa typically contains:",
-    "options": {
-      "A": "Fetal cells and mucus",
-      "B": "Erythrocytes and vernix",
-      "C": "Leucocytes, cervical mucus and decidua",
-      "D": "Amniotic fluid and blood"
-    },
-    "answer": "C"
-  },
-  {
     "question": "The posterior fontanelle typically closes by:",
     "options": {
       "A": "2 weeks",
@@ -370,16 +350,6 @@
     "answer": "C"
   },
   {
-    "question": "The engaging diameter in a face presentation is:",
-    "options": {
-      "A": "Occipito-frontal",
-      "B": "Mento-vertical",
-      "C": "Submento-bregmatic",
-      "D": "Submento-vertical"
-    },
-    "answer": "C"
-  },
-  {
     "question": "In focused antenatal care, second dose of SP is given at:",
     "options": {
       "A": "16–28 weeks",
@@ -407,7 +377,7 @@
       "C": "4",
       "D": "5"
     },
-    "answer": "A"
+    "answer": "B"
   },
   {
     "question": "Which is NOT a precaution when administering tocolytics?",
@@ -420,32 +390,12 @@
     "answer": "D"
   },
   {
-    "question": "Which activity should a patient avoid to prevent raised intracranial pressure?",
-    "options": {
-      "A": "Deep breathing",
-      "B": "Coughing",
-      "C": "Turning",
-      "D": "Passive ROM"
-    },
-    "answer": "B"
-  },
-  {
     "question": "A woman in labour with contractions every 2 minutes is likely in which stage?",
     "options": {
       "A": "First",
       "B": "Second",
       "C": "Third",
       "D": "Fourth"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "The engaging diameter in brow presentation is:",
-    "options": {
-      "A": "Occipito-frontal",
-      "B": "Mento-vertical",
-      "C": "Submento-vertical",
-      "D": "Submento-bregmatic"
     },
     "answer": "B"
   },
@@ -458,16 +408,6 @@
       "D": "Tibia and fibula fracture"
     },
     "answer": "B"
-  },
-  {
-    "question": "The primary concern after subtotal thyroidectomy is:",
-    "options": {
-      "A": "Hemorrhage",
-      "B": "Thyrotoxic crisis",
-      "C": "Airway obstruction",
-      "D": "Hypocalcemia"
-    },
-    "answer": "C"
   },
   {
     "question": "What is the engaging diameter in a complete breech presentation?",
@@ -490,16 +430,6 @@
     "answer": "C"
   },
   {
-    "question": "During brow presentation, which diameter engages the maternal pelvis?",
-    "options": {
-      "A": "Occipito-frontal",
-      "B": "Mento-vertical",
-      "C": "Submento-vertical",
-      "D": "Submento-bregmatic"
-    },
-    "answer": "B"
-  },
-  {
     "question": "The best way to count contraction frequency is:",
     "options": {
       "A": "From beginning to end of one contraction",
@@ -518,16 +448,6 @@
       "D": "Oxytocin"
     },
     "answer": "D"
-  },
-  {
-    "question": "Which is the engaging diameter in a face presentation?",
-    "options": {
-      "A": "Mento-vertical",
-      "B": "Submento-bregmatic",
-      "C": "Occipito-frontal",
-      "D": "Submento-vertical"
-    },
-    "answer": "B"
   },
   {
     "question": "Which of the following structures does the ectoderm form?",
@@ -550,16 +470,6 @@
     "answer": "C"
   },
   {
-    "question": "Which hormone ensures vascularization of the endometrium?",
-    "options": {
-      "A": "Estrogen",
-      "B": "Progesterone",
-      "C": "hPL",
-      "D": "FSH"
-    },
-    "answer": "B"
-  },
-  {
     "question": "The initial fetal structure forming the placenta is the:",
     "options": {
       "A": "Amnion",
@@ -568,16 +478,6 @@
       "D": "Yolk sac"
     },
     "answer": "B"
-  },
-  {
-    "question": "Which is the correct route for assessing fetal heart rate via Doppler?",
-    "options": {
-      "A": "Over the fundus",
-      "B": "On maternal chest",
-      "C": "On lower abdomen",
-      "D": "Via stethoscope"
-    },
-    "answer": "C"
   },
   {
     "question": "The leading sign of postpartum infection is:",
@@ -607,7 +507,7 @@
       "C": "Meet fluid & dietary needs and prevent aspiration",
       "D": "Prevent fistula formation and reduce aspiration"
     },
-    "answer": "A"
+    "answer": "C"
   },
   {
     "question": "What is the correct initial treatment for a patient who avoids shaving part of their face due to pain?",
@@ -700,16 +600,6 @@
     "answer": "B"
   },
   {
-    "question": "The hormone that initiates uterine contractions at labor onset is:",
-    "options": {
-      "A": "Progesterone",
-      "B": "Oxytocin",
-      "C": "Estrogen",
-      "D": "Prostaglandins"
-    },
-    "answer": "D"
-  },
-  {
     "question": "The hormone that ensures uterine quiescence during pregnancy is:",
     "options": {
       "A": "Estrogen",
@@ -790,46 +680,6 @@
     "answer": "B"
   },
   {
-    "question": "What is the origin of the placenta from the fertilized ovum?",
-    "options": {
-      "A": "Inner cell mass",
-      "B": "Yolk sac",
-      "C": "Trophoblast",
-      "D": "Blastocyst cavity"
-    },
-    "answer": "C"
-  },
-  {
-    "question": "Which hormone is primarily responsible for uterine quiescence during pregnancy?",
-    "options": {
-      "A": "Estrogen",
-      "B": "Oxytocin",
-      "C": "Progesterone",
-      "D": "Prostaglandins"
-    },
-    "answer": "C"
-  },
-  {
-    "question": "Which of the following is the correct route for assessing fetal heart rate using a Doppler?",
-    "options": {
-      "A": "Over the mother's chest",
-      "B": "On the lower abdomen",
-      "C": "On the fundus",
-      "D": "Through vaginal auscultation"
-    },
-    "answer": "B"
-  },
-  {
-    "question": "The structure that connects the umbilical vein to the inferior vena cava in fetal circulation is the:",
-    "options": {
-      "A": "Ductus arteriosus",
-      "B": "Foramen ovale",
-      "C": "Ductus venosus",
-      "D": "Umbilical artery"
-    },
-    "answer": "C"
-  },
-  {
     "question": "Which of the following conditions predisposes a neonate to meconium aspiration syndrome?",
     "options": {
       "A": "Prematurity",
@@ -870,16 +720,6 @@
     "answer": "B"
   },
   {
-    "question": "Which maternal hormone ensures endometrial vascularization and supports breast alveolar development?",
-    "options": {
-      "A": "Estrogen",
-      "B": "Progesterone",
-      "C": "hCG",
-      "D": "hPL"
-    },
-    "answer": "B"
-  },
-  {
     "question": "What is the earliest reliable clinical sign of pregnancy?",
     "options": {
       "A": "Amenorrhea",
@@ -888,16 +728,6 @@
       "D": "Ballottement"
     },
     "answer": "B"
-  },
-  {
-    "question": "Which hormone rises to stimulate uterine contractions at term?",
-    "options": {
-      "A": "Estrogen",
-      "B": "Progesterone",
-      "C": "Prostaglandins",
-      "D": "Relaxin"
-    },
-    "answer": "C"
   },
   {
     "question": "Which assessment is crucial for a baby with meconium-stained liquor?",
@@ -930,16 +760,6 @@
     "answer": "B"
   },
   {
-    "question": "The placenta is formed from which fetal structure?",
-    "options": {
-      "A": "Chorion",
-      "B": "Trophoblast",
-      "C": "Amnion",
-      "D": "Blastocyst"
-    },
-    "answer": "B"
-  },
-  {
     "question": "Which of the following is a presumptive sign of pregnancy?",
     "options": {
       "A": "Chadwick’s sign",
@@ -966,16 +786,6 @@
       "B": "Tracks fetal heart rate",
       "C": "Indicates need for transfer if crossed",
       "D": "Shows contraction strength"
-    },
-    "answer": "C"
-  },
-  {
-    "question": "Which vitamin deficiency is most likely to cause night blindness in pregnancy?",
-    "options": {
-      "A": "Vitamin B1",
-      "B": "Vitamin D",
-      "C": "Vitamin A",
-      "D": "Vitamin K"
     },
     "answer": "C"
   },
@@ -1198,8 +1008,8 @@
       "D": "Monitor urine output"
     },
     "answer": "C"
-  }
-]
+  },
+  
 
 
 
