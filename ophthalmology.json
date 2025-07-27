@@ -1,0 +1,605 @@
+[
+  {
+    "question": "A 60-year-old male presents with blurry vision and halos around lights. On examination, his intraocular pressure is elevated. What is the most likely diagnosis?",
+    "options": {
+      "A": "Cataracts",
+      "B": "Glaucoma",
+      "C": "Retinal detachment",
+      "D": "Macular degeneration"
+    },
+    "answer": "B",
+    "explanation": "The combination of blurry vision, seeing halos around lights, and elevated intraocular pressure (IOP) is the classic presentation of acute angle-closure glaucoma. This is an ophthalmologic emergency where the drainage angle for aqueous humor in the eye becomes blocked, causing a rapid and painful rise in IOP.",
+    "additional": "Types of Glaucoma:\nAcute Angle-Closure (this case): Presents with a painful, red eye, blurred vision, halos, headache, nausea, and a fixed, mid-dilated pupil. It is an emergency.\nOpen-Angle Glaucoma: The most common type. It is chronic, painless, and causes a gradual loss of peripheral vision (tunnel vision) over time. Elevated IOP is a major risk factor, but the onset is insidious.\nCataracts (Option A): Also cause blurry vision and glare/halos but are due to a clouding of the lens and are not associated with elevated IOP or pain."
+  },
+  {
+    "question": "A 35-year-old female presents with eye redness, itchiness, and watery discharge. She has a history of allergic rhinitis. What is the most likely diagnosis?",
+    "options": {
+      "A": "Conjunctivitis",
+      "B": "Uveitis",
+      "C": "Keratitis",
+      "D": "Blepharitis"
+    },
+    "answer": "A",
+    "explanation": "This presentation is classic for allergic conjunctivitis. The key features are intense itching (pruritus), watery discharge, and redness, often occurring bilaterally. The strong association with a history of atopy (like allergic rhinitis) makes this diagnosis highly likely.",
+    "additional": "Differentiating Types of Conjunctivitis (Pink Eye):\nAllergic: Itching is the hallmark symptom. Watery discharge.\nViral: Often caused by adenovirus. Starts in one eye and spreads to the other. Watery discharge, gritty sensation, and often associated with a preceding upper respiratory infection. Highly contagious.\nBacterial: Purulent (pus-like) discharge, causing the eyelids to be matted shut in the morning.\nUveitis and Keratitis are more serious and are associated with significant eye pain and photophobia, not just itching. Blepharitis is inflammation of the eyelid margins."
+  },
+  {
+    "question": "A 10-year-old child is diagnosed with strabismus. Which of the following is the most appropriate treatment?",
+    "options": {
+      "A": "Antibiotics",
+      "B": "Corrective lenses",
+      "C": "Surgical alignment",
+      "D": "Patch therapy"
+    },
+    "answer": "D",
+    "explanation": "Strabismus is a misalignment of the eyes. A major goal of treatment in children is to prevent amblyopia (\"lazy eye\"), a condition where the brain starts to ignore the input from the misaligned eye, leading to poor vision development. Patch therapy, where the \"good\" eye is covered with a patch, forces the brain to use and strengthen the weaker, misaligned eye.",
+    "additional": "Comprehensive Management: Treatment for strabismus is often multi-faceted.\nCorrective Lenses (Glasses): Are often a first step, as uncorrected refractive errors can cause the eyes to misalign.\nPatch Therapy/Atropine Drops: Used to treat or prevent amblyopia.\nVision Therapy (Eye Exercises): Can help improve eye coordination.\nSurgical Alignment: May be required to surgically realign the extraocular muscles if other methods fail."
+  },
+  {
+    "question": "A 45-year-old male complains of night blindness and difficulty seeing in dim light. His retina appears pale and he has a history of progressive vision loss. What is the most likely diagnosis?",
+    "options": {
+      "A": "Diabetic retinopathy",
+      "B": "Macular degeneration",
+      "C": "Retinitis pigmentosa",
+      "D": "Glaucoma"
+    },
+    "answer": "C",
+    "explanation": "Retinitis Pigmentosa (RP) is a group of inherited retinal diseases. The classic triad of symptoms is night blindness (nyctalopia), progressive peripheral vision loss (leading to tunnel vision), and eventual loss of central vision. Fundoscopic examination often reveals characteristic findings like bone spicule pigmentation, attenuated retinal vessels, and optic disc pallor.",
+    "additional": "Pathophysiology: RP is caused by the progressive degeneration of the rod and cone photoreceptors in the retina. Rods (responsible for night and peripheral vision) are typically affected first.\nDifferential:\nMacular Degeneration: Affects central vision first.\nGlaucoma: Affects peripheral vision but is an optic neuropathy, not a photoreceptor disease.\nDiabetic Retinopathy: Presents with microaneurysms and hemorrhages."
+  },
+  {
+    "question": "A patient presents with sudden loss of vision in one eye, along with pain during eye movement. The optic disc appears swollen on fundoscopic examination. What is the most likely diagnosis?",
+    "options": {
+      "A": "Optic neuritis",
+      "B": "Diabetic retinopathy",
+      "C": "Macular degeneration",
+      "D": "Cataract"
+    },
+    "answer": "A",
+    "explanation": "This is the classic presentation of optic neuritis, which is inflammation of the optic nerve. Key features include:\nSudden, monocular vision loss.\nPain with eye movements (because the optic nerve sheath is attached to the extraocular muscles).\nSwollen optic disc (papillitis) on fundoscopy (in about one-third of cases).",
+    "additional": "Strong Association with Multiple Sclerosis (MS): Optic neuritis is the presenting symptom of MS in about 20% of cases. It is a very common finding during the course of the disease.\nOther Exam Findings: A relative afferent pupillary defect (RAPD) is a classic and important sign.\nTreatment: High-dose intravenous corticosteroids are often used to speed up visual recovery, though they may not change the final visual outcome."
+  },
+  {
+    "question": "A 70-year-old female presents with central vision loss and a distorted central field of vision. Fundoscopy reveals drusen deposits in the macula. What is the most likely diagnosis?",
+    "options": {
+      "A": "Macular degeneration",
+      "B": "Cataracts",
+      "C": "Diabetic retinopathy",
+      "D": "Retinitis pigmentosa"
+    },
+    "answer": "A",
+    "explanation": "The symptoms of central vision loss and metamorphopsia (distorted vision, where straight lines appear wavy) in an elderly patient are highly suggestive of Age-Related Macular Degeneration (AMD). The finding of drusen (yellowish deposits under the retina) in the macula is pathognomonic for this condition.",
+    "additional": "Amsler Grid: A simple tool used to test for metamorphopsia.\nTwo Types of AMD:\nDry (Atrophic) AMD (more common): Characterized by the slow accumulation of drusen and gradual loss of central vision.\nWet (Exudative/Neovascular) AMD: Characterized by the abnormal growth of new blood vessels under the macula (choroidal neovascularization). These vessels can leak fluid and blood, causing rapid and severe central vision loss.\nTreatment: There is no cure for dry AMD, but certain vitamin formulations (AREDS2) can slow its progression. Wet AMD is treated with intravitreal injections of anti-VEGF agents (e.g., ranibizumab, bevacizumab) to inhibit the growth of abnormal blood vessels."
+  },
+  {
+    "question": "A 25-year-old female presents with painful red eye, photophobia, and a small pupil. The anterior chamber is filled with white cells. What is the most likely diagnosis?",
+    "options": {
+      "A": "Uveitis",
+      "B": "Glaucoma",
+      "C": "Conjunctivitis",
+      "D": "Keratitis"
+    },
+    "answer": "A",
+    "explanation": "This presentation is classic for anterior uveitis (also called iritis or iridocyclitis), which is inflammation of the uveal tract (iris and ciliary body). The key signs are:\nPain, photophobia, and redness (often a ciliary flush - redness concentrated around the cornea).\nMiosis (small pupil).\n\"Cells and flare\" in the anterior chamber on slit-lamp examination (white cells and proteinaceous fluid).",
+    "additional": "Systemic Associations: Anterior uveitis is often associated with systemic autoimmune diseases, particularly the HLA-B27-associated spondyloarthropathies (e.g., ankylosing spondylitis, reactive arthritis).\nTreatment: Requires prompt ophthalmologic evaluation. Treatment involves topical corticosteroids to reduce inflammation and cycloplegic/mydriatic drops (e.g., atropine) to dilate the pupil, which relieves pain and prevents the iris from scarring down to the lens (posterior synechiae)."
+  },
+  {
+    "question": "A 50-year-old male with diabetes mellitus presents with blurred vision and floating spots in his vision. Fundoscopic exam shows neovascularization in the retina. What is the most likely diagnosis?",
+    "options": {
+      "A": "Diabetic retinopathy",
+      "B": "Retinal detachment",
+      "C": "Glaucoma",
+      "D": "Cataract"
+    },
+    "answer": "A",
+    "explanation": "The presence of neovascularization (abnormal new blood vessel growth) on the retina in a patient with diabetes is the defining feature of proliferative diabetic retinopathy (PDR), the most advanced stage of the disease. These new vessels are fragile and can bleed into the vitreous humor, causing the symptom of floaters and blurred vision.",
+    "additional": "Stages of Diabetic Retinopathy:\nNon-Proliferative (NPDR): Characterized by microaneurysms, dot-and-blot hemorrhages, and hard exudates.\nProliferative (PDR): Characterized by neovascularization. This is a response to widespread retinal ischemia.\nDiabetic Macular Edema (DME): Can occur at any stage and is a major cause of vision loss.\nTreatment: PDR is treated with pan-retinal photocoagulation (PRP), a laser therapy that destroys peripheral retinal tissue to reduce oxygen demand and inhibit the stimulus for neovascularization. Anti-VEGF injections are also used."
+  },
+  {
+    "question": "A 40-year-old male complains of eye pain and a sensation of foreign body in his eye. Examination reveals a scratched cornea. What is the most appropriate management?",
+    "options": {
+      "A": "Topical corticosteroids",
+      "B": "Antibiotic ointment",
+      "C": "Artificial tears",
+      "D": "Corneal transplant"
+    },
+    "answer": "B",
+    "explanation": "A scratched cornea is a corneal abrasion. The primary goals of management are to prevent infection and promote healing. A topical antibiotic ointment (e.g., erythromycin) is prescribed to prevent opportunistic bacteria from infecting the epithelial defect.",
+    "additional": "Diagnosis: A corneal abrasion is best visualized by instilling a drop of fluorescein dye and examining the eye under a cobalt blue light. The abrasion will stain bright green.\nManagement: In addition to antibiotics, a topical cycloplegic drop may be used to relieve pain from ciliary spasm. Patching the eye is generally no longer recommended for simple abrasions.\nContraindication: Topical corticosteroids are contraindicated in an uncomplicated corneal abrasion as they can inhibit healing and increase the risk of infection, particularly fungal or herpetic superinfection."
+  },
+  {
+    "question": "A 45-year-old patient with a history of chronic smoking presents with visual disturbances and dark spots in their vision. The fundus exam shows a swollen optic disc. What is the most likely diagnosis?",
+    "options": {
+      "A": "Optic neuropathy",
+      "B": "Papilledema",
+      "C": "Diabetic retinopathy",
+      "D": "Hypertensive retinopathy"
+    },
+    "answer": "B",
+    "explanation": "Papilledema is defined as swelling of the optic disc due to increased intracranial pressure (ICP). It is almost always bilateral. The visual disturbances can include transient visual obscurations (vision \"graying out\" for a few seconds) and an enlarged blind spot. Chronic smoking is a risk factor for conditions that can raise ICP, like stroke.",
+    "additional": "Papilledema vs. Optic Neuritis:\nPapilledema: Disc swelling due to high ICP. Usually bilateral. Vision is often preserved early on. Not painful.\nOptic Neuritis: Disc swelling due to inflammation of the nerve. Usually unilateral. Causes profound vision loss. Painful with eye movements.\nCauses of Increased ICP: Brain tumors, intracerebral hemorrhage, hydrocephalus, meningitis, or idiopathic intracranial hypertension (pseudotumor cerebri).\nEmergency: Papilledema is an emergency that requires an urgent search for the underlying cause of the elevated ICP. Neuroimaging (CT or MRI) is mandatory."
+  },
+  {
+    "question": "A 5-year-old child presents with a red, swollen, painful eye and purulent discharge. The child has a history of upper respiratory infection. What is the most likely diagnosis?",
+    "options": {
+      "A": "Conjunctivitis",
+      "B": "Keratitis",
+      "C": "Blepharitis",
+      "D": "Iritis"
+    },
+    "answer": "A",
+    "explanation": "The combination of a red eye with purulent (pus-like) discharge is the hallmark of bacterial conjunctivitis. It is extremely common in young children and is often associated with a preceding or concurrent upper respiratory infection, as bacteria like Streptococcus pneumoniae and Haemophilus influenzae can cause both.",
+    "additional": "Key Differentiator: The purulent discharge strongly points away from viral or allergic conjunctivitis (which have watery discharge) and toward a bacterial cause.\nKeratitis (inflammation of the cornea): Presents with more severe pain, photophobia, and blurred vision.\nBlepharitis: Inflammation is localized to the eyelid margins.\nIritis (anterior uveitis): Presents with deep pain, photophobia, and a small pupil, but not typically with a large amount of purulent discharge."
+  },
+  {
+    "question": "A patient complains of a gritty sensation in their eye and has tearing and photophobia. Slit-lamp examination shows an epithelial defect on the cornea. What is the most likely diagnosis?",
+    "options": {
+      "A": "Keratitis",
+      "B": "Cataracts",
+      "C": "Uveitis",
+      "D": "Conjunctivitis"
+    },
+    "answer": "A",
+    "explanation": "Keratitis is inflammation of the cornea. The classic symptoms include pain (often described as a gritty or foreign body sensation), photophobia (light sensitivity), tearing, and blurred vision. The presence of an epithelial defect on the cornea (an area where the surface cells are missing), often visualized with fluorescein stain, is a definitive sign of corneal pathology like keratitis or a corneal abrasion.",
+    "additional": "Causes of Keratitis: Can be infectious (bacterial, viral - especially Herpes Simplex, fungal, amoebic) or non-infectious (e.g., from UV light exposure, severe dry eye).\nUrgency: Keratitis is an urgent condition because it can lead to corneal scarring, ulceration, and permanent vision loss if not treated appropriately and promptly.\nConjunctivitis vs. Keratitis: A key distinction is that uncomplicated conjunctivitis does not typically cause significant pain or photophobia and does not involve an epithelial defect on the cornea."
+  },
+  {
+    "question": "A 72-year-old male complains of difficulties reading small print and seeing in dim light. On examination, the pupillary reflex is normal. Which of the following is the most likely diagnosis?",
+    "options": {
+      "A": "Presbyopia",
+      "B": "Cataract",
+      "C": "Glaucoma",
+      "D": "Macular degeneration"
+    },
+    "answer": "A",
+    "explanation": "Presbyopia is the age-related, progressive loss of the eye's ability to focus on near objects. It is a normal part of aging, typically becoming noticeable in the mid-40s. The primary symptom is difficulty with near tasks like reading small print, especially in dim light. It is caused by the hardening of the lens and weakening of the ciliary muscle.",
+    "additional": "This question is slightly tricky. While cataracts (Option B) also cause difficulty seeing in dim light, and macular degeneration (Option D) affects reading, presbyopia is the most direct and universal cause of difficulty reading small print in an older individual. The term specifically describes the loss of near focusing ability.\nCorrection: Presbyopia is corrected with reading glasses or bifocal/progressive lenses.\nThe normal pupillary reflex helps rule out significant optic nerve or neurological issues."
+  },
+  {
+    "question": "A 60-year-old female presents with sudden, painless loss of vision in one eye. Fundoscopic examination reveals a cherry red spot at the macula. What is the most likely diagnosis?",
+    "options": {
+      "A": "Retinal artery occlusion",
+      "B": "Retinal vein occlusion",
+      "C": "Diabetic retinopathy",
+      "D": "Macular degeneration"
+    },
+    "answer": "A",
+    "explanation": "This is the classic, textbook presentation of a Central Retinal Artery Occlusion (CRAO). This is an ophthalmologic emergency, equivalent to a stroke of the eye.\nSudden, painless, profound vision loss is the key symptom.\nThe \"cherry-red spot\" is a pathognomonic fundoscopic sign. It occurs because the occluded artery causes the inner retina to become pale and opaque due to ischemia, making the underlying choroidal circulation visible through the thin fovea, which appears as a reddish spot.",
+    "additional": "Etiology: Usually caused by an embolus (e.g., from a carotid artery plaque or the heart in atrial fibrillation) or thrombosis.\nManagement: This is a dire emergency. Immediate attempts to dislodge the clot (e.g., ocular massage, lowering IOP) may be tried, but the prognosis for vision recovery is very poor. A workup for the embolic source is crucial.\nRetinal Vein Occlusion: Presents with sudden, painless vision loss but the fundus exam shows a dramatic \"blood and thunder\" appearance with widespread retinal hemorrhages, not a cherry-red spot."
+  },
+  {
+    "question": "A patient presents with a decreased visual field, especially peripheral vision, and elevated intraocular pressure on tonometry. What is the most likely diagnosis?",
+    "options": {
+      "A": "Glaucoma",
+      "B": "Cataracts",
+      "C": "Macular degeneration",
+      "D": "Retinitis pigmentosa"
+    },
+    "answer": "A",
+    "explanation": "This question describes the classic features of primary open-angle glaucoma (POAG), the most common form of glaucoma. It is characterized by:\nElevated Intraocular Pressure (IOP): A major risk factor.\nProgressive Optic Neuropathy: Damage to the optic nerve.\nCharacteristic Visual Field Loss: Typically starts with loss of peripheral vision, which can progress to \"tunnel vision.\"",
+    "additional": "Insidious Nature: POAG is often called the \"silent thief of sight\" because the peripheral vision loss is so gradual that it often goes unnoticed by the patient until it is advanced.\nFundoscopy: Examination shows increased optic cup-to-disc ratio (\"cupping\") and optic nerve pallor.\nTreatment: Aims to lower IOP to prevent further nerve damage. First-line treatments are typically prostaglandin analog eye drops (e.g., latanoprost). Laser therapy and surgery are also options."
+  },
+  {
+    "question": "A 15-year-old boy presents with itchy eyes, nasal congestion, and sneezing. Examination reveals conjunctival redness and edema. What is the most likely diagnosis?",
+    "options": {
+      "A": "Allergic conjunctivitis",
+      "B": "Bacterial conjunctivitis",
+      "C": "Viral conjunctivitis",
+      "D": "Dry eyes"
+    },
+    "answer": "A",
+    "explanation": "This is a repeat of the concept from question #2. The constellation of intense itching, watery discharge, conjunctival edema (chemosis), and associated allergic symptoms (nasal congestion, sneezing) is the hallmark of allergic conjunctivitis.",
+    "additional": "Pathophysiology: It is a Type I hypersensitivity reaction triggered by an allergen (like pollen, dust mites, or animal dander) binding to IgE on mast cells, causing them to degranulate and release histamine.\nTreatment: Includes topical antihistamines, mast cell stabilizers, and avoiding the offending allergen."
+  },
+  {
+    "question": "A 50-year-old diabetic patient presents with blurred vision, floaters, and fluctuating vision. Fundoscopic examination shows microaneurysms and hard exudates. What is the most likely diagnosis?",
+    "options": {
+      "A": "Diabetic retinopathy",
+      "B": "Hypertensive retinopathy",
+      "C": "Macular degeneration",
+      "D": "Retinal detachment"
+    },
+    "answer": "A",
+    "explanation": "The patient's history of diabetes combined with the fundoscopic findings of microaneurysms (small bulges in retinal capillaries) and hard exudates (lipid deposits from leaky vessels) are classic signs of non-proliferative diabetic retinopathy (NPDR). The blurred vision is likely due to diabetic macular edema.",
+    "additional": "This question describes NPDR, while question #8 described proliferative diabetic retinopathy (PDR). It's important to know the features of both stages.\nHypertensive Retinopathy: Fundoscopy would show arteriolar narrowing (\"copper wiring\"), AV nicking, cotton-wool spots, and hemorrhages, but microaneurysms are more characteristic of diabetes."
+  },
+  {
+    "question": "A 25-year-old patient complains of pain and a sensation of something in their eye. Slit-lamp examination reveals a small, round defect in the cornea. What is the most likely diagnosis?",
+    "options": {
+      "A": "Corneal abrasion",
+      "B": "Keratitis",
+      "C": "Conjunctivitis",
+      "D": "Uveitis"
+    },
+    "answer": "A",
+    "explanation": "A corneal abrasion is a mechanical scratch or injury to the surface (epithelium) of the cornea. It typically presents with a foreign body sensation, pain, tearing, and photophobia. The finding of a well-defined epithelial defect on the cornea is diagnostic.",
+    "additional": "Distinguishing from Keratitis: While both can have an epithelial defect, an abrasion is typically due to trauma and is non-infiltrated. Keratitis (infection/inflammation) often has an associated infiltrate (a collection of white blood cells) in the stroma beneath the defect.\nManagement: Prophylactic antibiotic ointment and pain control. Most simple abrasions heal quickly within 24-48 hours."
+  },
+  {
+    "question": "A 60-year-old patient presents with difficulty seeing at night and blurry vision in the center of the visual field. What is the most likely diagnosis?",
+    "options": {
+      "A": "Macular degeneration",
+      "B": "Cataract",
+      "C": "Retinitis pigmentosa",
+      "D": "Glaucoma"
+    },
+    "answer": "A",
+    "explanation": "Age-related macular degeneration (AMD) specifically affects the macula, the part of the retina responsible for sharp, detailed central vision. Therefore, the hallmark symptoms are blurry or distorted central vision and difficulty with tasks requiring fine vision, like reading and recognizing faces. Night vision can also be affected.",
+    "additional": "Cataract vs. AMD: Cataracts cause a more generalized blurring of vision, glare, and halos, whereas AMD's effect is primarily on the central field.\nGlaucoma vs. AMD: Glaucoma affects peripheral vision first, while AMD affects central vision first."
+  },
+  {
+    "question": "A patient presents with severe pain in the eye, photophobia, and a reddened eye. Examination reveals inflammation of the anterior chamber. What is the most likely diagnosis?",
+    "options": {
+      "A": "Uveitis",
+      "B": "Keratitis",
+      "C": "Conjunctivitis",
+      "D": "Glaucoma"
+    },
+    "answer": "A",
+    "explanation": "This is a repeat of the classic presentation of anterior uveitis (iritis) from question #7. The key findings are severe pain, photophobia, a red eye (ciliary flush), and signs of inflammation within the anterior chamber (cells and flare).",
+    "additional": "This repetition emphasizes the importance of recognizing the \"red flag\" symptoms (severe pain, photophobia, vision loss) that differentiate a dangerous condition like uveitis from a more benign condition like simple conjunctivitis."
+  },
+  {
+    "question": "A patient presents with a history of trauma to the eye and complains of blurry vision and halo vision. Slit-lamp examination reveals a white opacity in the lens. What is the most likely diagnosis?",
+    "options": {
+      "A": "Cataract",
+      "B": "Glaucoma",
+      "C": "Keratitis",
+      "D": "Macular degeneration"
+    },
+    "answer": "A",
+    "explanation": "The key finding here is the white opacity in the lens. This is the definition of a cataract. While cataracts are most commonly age-related, trauma is a well-known cause of cataract formation (traumatic cataract). Symptoms like blurry vision and seeing halos/glare are classic for a cataract, as the opacified lens scatters light.",
+    "additional": "Pathophysiology: A cataract is any clouding or opacification of the eye's natural lens.\nOther Causes of Cataracts:\nAge-related (senile): Most common.\nCongenital: Present at birth.\nSecondary: Due to other diseases (e.g., diabetes) or medications (e.g., long-term steroid use).\nTreatment: The only definitive treatment is surgical removal of the cloudy lens and replacement with a clear, artificial intraocular lens (IOL)."
+  },
+  {
+    "question": "A patient reports sudden vision loss in one eye, with a history of carotid artery disease. On fundoscopic examination, there is a pale retina and a cherry-red spot. What is the most likely diagnosis?",
+    "options": {
+      "A": "Central retinal artery occlusion",
+      "B": "Retinal detachment",
+      "C": "Macular degeneration",
+      "D": "Diabetic retinopathy"
+    },
+    "answer": "A",
+    "explanation": "This is a repeat of the classic presentation from question #14. The triad of sudden, painless, monocular vision loss, a pale retina, and a cherry-red spot is pathognomonic for Central Retinal Artery Occlusion (CRAO). The history of carotid artery disease is a major risk factor, as an embolus from a carotid plaque can travel to and block the retinal artery.",
+    "additional": "Repetition Significance: The repetition of this classic presentation highlights its importance as a \"must-know\" ophthalmologic emergency.\nWorkup: A patient with CRAO requires an immediate workup to find the embolic source, including a carotid ultrasound and an echocardiogram, to prevent a subsequent stroke to the brain."
+  },
+  {
+    "question": "A patient presents with eye redness, pain, and a feeling of sand in the eye. The cornea shows fine, superficial punctate staining with fluorescein. What is the most likely diagnosis?",
+    "options": {
+      "A": "Keratitis",
+      "B": "Conjunctivitis",
+      "C": "Corneal abrasion",
+      "D": "Uveitis"
+    },
+    "answer": "A",
+    "explanation": "Superficial Punctate Keratitis (SPK) describes a finding of fine, dot-like epithelial defects on the corneal surface that stain with fluorescein. This is a sign of corneal surface inflammation or injury, i.e., keratitis. The symptoms of pain, redness, and a sandy/foreign body sensation are all consistent with this diagnosis.",
+    "additional": "Causes of SPK: It is a non-specific finding with many causes, including:\nViral Keratitis (e.g., Adenovirus).\nDry Eye Syndrome (most common cause).\nBlepharitis (inflammation of the eyelids).\nTopical medication toxicity.\nContact lens overwear.\nWhile a corneal abrasion (Option C) also involves an epithelial defect, \"abrasion\" usually implies a single, larger defect from mechanical trauma, whereas \"keratitis\" with SPK implies a more diffuse inflammatory or disease process."
+  },
+  {
+    "question": "A patient with diabetes presents with fluctuating vision, and fundoscopy shows hard exudates and microaneurysms. What is the most likely diagnosis?",
+    "options": {
+      "A": "Diabetic retinopathy",
+      "B": "Hypertensive retinopathy",
+      "C": "Retinal vein occlusion",
+      "D": "Macular degeneration"
+    },
+    "answer": "A",
+    "explanation": "This is a repeat of the classic findings from question #17. The presence of microaneurysms and hard exudates in a patient with diabetes is diagnostic of diabetic retinopathy. Fluctuating vision is also a common symptom, often related to changes in blood sugar levels affecting the lens or the presence of macular edema.",
+    "additional": "Hard Exudates: These are waxy, yellow deposits of lipids and proteins that leak from damaged capillaries. Their presence is a sign of retinal edema.\nCotton-Wool Spots: These are fluffy, white patches on the retina that represent areas of nerve fiber layer infarction (a mini-stroke in the retina). They can be seen in both diabetic and hypertensive retinopathy."
+  },
+  {
+    "question": "A 45-year-old patient complains of blurred vision in the morning, which improves throughout the day. They also report glare and halo vision. What is the most likely diagnosis?",
+    "options": {
+      "A": "Cataract",
+      "B": "Glaucoma",
+      "C": "Macular degeneration",
+      "D": "Retinal detachment"
+    },
+    "answer": "A",
+    "explanation": "Glare and halos around lights are classic symptoms of cataracts. The opacified lens scatters incoming light, causing these visual phenomena. Blurred vision is the primary symptom. While the \"morning blurriness\" is less specific, it can be associated with some types of cataracts.",
+    "additional": "Differentiating Symptoms:\nCataract: Glare, halos, cloudy/blurry vision, difficulty with night driving, faded colors.\nGlaucoma (open-angle): Gradual loss of peripheral vision (often asymptomatic).\nMacular Degeneration: Loss/distortion of central vision.\nRetinal Detachment: Floaters, flashes of light, and a curtain-like shadow over the vision."
+  },
+  {
+    "question": "A patient with allergic rhinitis develops itchy, watery eyes. The conjunctiva appears edematous and reddened. What is the most likely diagnosis?",
+    "options": {
+      "A": "Allergic conjunctivitis",
+      "B": "Bacterial conjunctivitis",
+      "C": "Viral conjunctivitis",
+      "D": "Dry eye syndrome"
+    },
+    "answer": "A",
+    "explanation": "This question is a repeat of the classic presentation from questions #2 and #16. The key features are the intense itching, association with allergic rhinitis, and conjunctival edema (chemosis). This is a clear case of allergic conjunctivitis.",
+    "additional": "Repetition Emphasis: The repeated appearance of this common clinical scenario highlights its importance for general medical and nursing knowledge."
+  },
+  {
+    "question": "A patient with trauma to the eye presents with sudden, painless vision loss. On examination, a veil-like shadow is seen in the visual field. What is the most likely diagnosis?",
+    "options": {
+      "A": "Retinal detachment",
+      "B": "Central retinal vein occlusion",
+      "C": "Macular degeneration",
+      "D": "Optic neuritis"
+    },
+    "answer": "A",
+    "explanation": "The classic symptom of a retinal detachment is the perception of a shadow, curtain, or veil moving across the field of vision. This is often preceded by a sudden increase in floaters and photopsia (flashes of light). The vision loss is painless. A history of trauma is a significant risk factor.",
+    "additional": "Pathophysiology: A retinal detachment occurs when the neurosensory retina separates from the underlying retinal pigment epithelium. This is an ophthalmologic emergency.\nRisk Factors: Myopia (nearsightedness), previous cataract surgery, trauma, and family history.\nFundoscopy: The detached retina appears elevated and may have folds.\nTreatment: Requires surgical reattachment of the retina (e.g., with laser photocoagulation, cryopexy, or vitrectomy). The prognosis for vision depends on whether the macula has detached."
+  },
+  {
+    "question": "A 70-year-old patient presents with difficulty reading, distorted central vision, and a decrease in color perception. What is the most likely diagnosis?",
+    "options": {
+      "A": "Age-related macular degeneration",
+      "B": "Glaucoma",
+      "C": "Cataract",
+      "D": "Retinitis pigmentosa"
+    },
+    "answer": "A",
+    "explanation": "This question describes the key functional deficits caused by Age-Related Macular Degeneration (AMD). The macula is responsible for central, high-acuity vision and color vision. Therefore, its degeneration leads to difficulty reading, distorted central vision (metamorphopsia), and impaired color perception.",
+    "additional": "This is a repeat of the concept from questions #6 and #19, focusing on the functional impact of the disease.\nAMD is the leading cause of irreversible blindness in the elderly in developed countries."
+  },
+  {
+    "question": "A 10-year-old patient with a history of frequent ear infections presents with hearing loss. Examination reveals fluid in the middle ear and a retracted tympanic membrane. What is the most likely diagnosis?",
+    "options": {
+      "A": "Otitis media with effusion",
+      "B": "Acute otitis media",
+      "C": "Chronic otitis media",
+      "D": "Meniere's disease"
+    },
+    "answer": "A",
+    "explanation": "Otitis Media with Effusion (OME), also known as serous otitis media or \"glue ear,\" is characterized by the presence of fluid (effusion) in the middle ear space without signs of acute infection. This fluid buildup impairs the movement of the eardrum and ossicles, causing conductive hearing loss. A retracted tympanic membrane is a common sign of the chronic negative pressure that causes the fluid to accumulate.",
+    "additional": "Clarification: This question appears to be misplaced from the Ear, Nose, and Throat (ENT) section, but we will answer it as presented.\nDistinguishing OME from AOM:\nAcute Otitis Media (AOM): Is an acute infection with signs of inflammation (bulging, red eardrum) and symptoms of pain and fever.\nOtitis Media with Effusion (OME): Is not an acute infection. The key finding is fluid, and the primary symptom is hearing loss, not pain. OME can occur after an episode of AOM resolves."
+  },
+  {
+    "question": "A patient complains of ringing in the ears and a feeling of fullness in the ear, along with dizziness. What is the most likely diagnosis?",
+    "options": {
+      "A": "Meniere's disease",
+      "B": "Otitis externa",
+      "C": "Acoustic neuroma",
+      "D": "Chronic otitis media"
+    },
+    "answer": "A",
+    "explanation": "The classic triad of symptoms for Meniere's disease consists of:\nEpisodic Vertigo: Spells of severe, spinning dizziness that last for hours.\nTinnitus: Ringing or roaring sound in the ear.\nSensorineural Hearing Loss: Typically fluctuating and low-frequency.\nAural Fullness: A sensation of pressure or fullness in the affected ear.",
+    "additional": "Clarification: This is another question that belongs in the ENT section.\nPathophysiology: Believed to be caused by an excess of endolymphatic fluid in the inner ear (endolymphatic hydrops).\nAcoustic Neuroma (Option C): Also causes tinnitus and hearing loss, but the dysequilibrium is typically more gradual and constant, not episodic vertigo spells."
+  },
+  {
+    "question": "A patient presents with painful swallowing, fever, and redness in the throat. Examination reveals swollen tonsils with pus. What is the most likely diagnosis?",
+    "options": {
+      "A": "Tonsillitis",
+      "B": "Pharyngitis",
+      "C": "Laryngitis",
+      "D": "Esophagitis"
+    },
+    "answer": "A",
+    "explanation": "Tonsillitis is the specific inflammation of the tonsils. The key findings described—swollen tonsils with exudates (pus), fever, and painful swallowing (odynophagia)—are the classic signs of acute tonsillitis.",
+    "additional": "Clarification: This is another question that belongs in the Ear, Nose, and Throat (ENT) section.\nEtiology: Can be viral (most common) or bacterial. The most important bacterial cause is Streptococcus pyogenes (Group A Strep), as it can lead to complications like rheumatic fever and post-streptococcal glomerulonephritis.\nPharyngitis is a more general term for inflammation of the pharynx (throat), which includes the tonsils, but \"tonsillitis\" is more specific given the findings."
+  },
+  {
+    "question": "A patient with chronic dry eye syndrome complains of itchy, burning eyes and a feeling of foreign body sensation. Which of the following treatments is most likely to improve their symptoms?",
+    "options": {
+      "A": "Artificial tears",
+      "B": "Topical steroids",
+      "C": "Oral antibiotics",
+      "D": "Surgical repair of the lacrimal ducts"
+    },
+    "answer": "A",
+    "explanation": "Dry Eye Syndrome (Keratoconjunctivitis Sicca) results from inadequate tear production or excessive tear evaporation. The primary symptoms are burning, grittiness, and a foreign body sensation. The first-line and most fundamental treatment is to supplement the tear film with lubricating eye drops (artificial tears).",
+    "additional": "Management Ladder:\nLevel 1: Education, environmental modifications, and artificial tears.\nLevel 2: Add anti-inflammatory agents like topical cyclosporine, lifitegrast, or short-term topical steroids (Option B). Punctal plugs can be inserted to block tear drainage.\nLevel 3 & 4: Involve oral secretagogues, therapeutic contact lenses, and other advanced therapies.\nOral antibiotics are not used unless there is associated blepharitis. Surgical repair is not a standard treatment for dry eye."
+  },
+  {
+    "question": "A patient is diagnosed with open-angle glaucoma. Which of the following is a common first-line treatment option?",
+    "options": {
+      "A": "Beta-blockers",
+      "B": "Topical steroids",
+      "C": "Antibiotics",
+      "D": "Nonsteroidal anti-inflammatory drugs (NSAIDs)"
+    },
+    "answer": "A",
+    "explanation": "The goal of treatment for open-angle glaucoma is to lower the intraocular pressure (IOP). Topical beta-blockers (e.g., timolol) were historically a very common first-line treatment. They work by decreasing the production of aqueous humor.",
+    "additional": "Current First-Line Treatment: While beta-blockers are still widely used, prostaglandin analogs (e.g., latanoprost) are now often considered the preferred first-line agent in many cases. They are highly effective and are dosed only once a day. They work by increasing the outflow of aqueous humor.\nSystemic Side Effects of Beta-Blocker Eye Drops: Because the drops can be absorbed systemically, they can cause bradycardia, bronchospasm (caution in asthmatics), and fatigue.\nSteroids (Option B) can cause glaucoma (steroid-induced glaucoma) and are not used to treat it."
+  },
+  {
+    "question": "A patient with recent trauma to the eye presents with unilateral blurred vision, pain, and photophobia. On examination, there is a corneal epithelial defect. What is the most likely diagnosis?",
+    "options": {
+      "A": "Corneal abrasion",
+      "B": "Uveitis",
+      "C": "Cataract",
+      "D": "Retinal detachment"
+    },
+    "answer": "A",
+    "explanation": "This question is a repeat of the concept from question #18. A history of trauma followed by pain, photophobia, and the finding of a corneal epithelial defect is the classic presentation of a corneal abrasion.",
+    "additional": "Key Differentiator: The presence of a corneal epithelial defect is the objective finding that points to a corneal surface problem (abrasion or keratitis) rather than an internal problem like uveitis, cataract, or retinal detachment. The history of trauma makes an abrasion the most likely cause."
+  },
+  {
+    "question": "A 65-year-old patient presents with blurred central vision and difficulty seeing at night. Fundus examination reveals drusen and macular atrophy. What is the most likely diagnosis?",
+    "options": {
+      "A": "Age-related macular degeneration",
+      "B": "Diabetic retinopathy",
+      "C": "Retinal vein occlusion",
+      "D": "Retinitis pigmentosa"
+    },
+    "answer": "A",
+    "explanation": "This is a repeat of the classic presentation from question #6. The combination of symptoms (blurred central vision, difficulty with night vision) and findings (drusen, macular atrophy) in an elderly patient is diagnostic of dry age-related macular degeneration (AMD).",
+    "additional": "Drusen: These are the key pathological hallmark. They are extracellular deposits of lipids and proteins that accumulate between the retinal pigment epithelium and Bruch's membrane.\nMacular Atrophy: In advanced dry AMD, there is a loss of photoreceptors and retinal pigment epithelium in the macula, known as geographic atrophy, which causes permanent central vision loss."
+  },
+  {
+    "question": "A patient with blurred vision and a sudden onset of floaters is diagnosed with vitreous hemorrhage. Which of the following is the most likely cause?",
+    "options": {
+      "A": "Diabetic retinopathy",
+      "B": "Glaucoma",
+      "C": "Cataract",
+      "D": "Keratitis"
+    },
+    "answer": "A",
+    "explanation": "A vitreous hemorrhage is bleeding into the vitreous gel that fills the back of the eye. The most common cause of spontaneous vitreous hemorrhage is proliferative diabetic retinopathy (PDR). In PDR, abnormal, fragile new blood vessels (neovascularization) grow on the retinal surface. These vessels can easily rupture and bleed into the vitreous, causing a sudden shower of floaters and significant vision loss.",
+    "additional": "Other Causes of Vitreous Hemorrhage:\nPosterior Vitreous Detachment (PVD) with a retinal tear.\nRetinal Vein Occlusion.\nTrauma.\nManagement: Requires urgent ophthalmology consultation. A B-scan ultrasound may be needed to visualize the retina if the blood obscures the view. Treatment is aimed at the underlying cause (e.g., laser for diabetic retinopathy)."
+  },
+  {
+    "question": "A patient complains of a painful red eye, decreased vision, and a cloudy cornea. On examination, there is increased intraocular pressure. What is the most likely diagnosis?",
+    "options": {
+      "A": "Acute angle-closure glaucoma",
+      "B": "Conjunctivitis",
+      "C": "Corneal ulcer",
+      "D": "Uveitis"
+    },
+    "answer": "A",
+    "explanation": "This question presents the classic signs and symptoms of an acute angle-closure glaucoma attack. The sudden, severe increase in IOP causes intense pain, decreased vision, a cloudy or \"steamy\" cornea (due to corneal edema), and a red eye.",
+    "additional": "This is a repeat of the concept from question #1, reinforcing the presentation of this ophthalmologic emergency.\nOther Findings: The pupil is typically mid-dilated and non-reactive to light. The patient may also have systemic symptoms like headache, nausea, and vomiting.\nImmediate Treatment: The goal is to rapidly lower the IOP with a combination of topical eye drops (e.g., beta-blockers, alpha-agonists), systemic medication (e.g., acetazolamide), and ultimately a laser iridotomy to create a new drainage pathway."
+  },
+  {
+    "question": "A patient presents with periorbital swelling, pain, and a fever. The patient has a history of sinusitis. What is the most likely diagnosis?",
+    "options": {
+      "A": "Orbital cellulitis",
+      "B": "Conjunctivitis",
+      "C": "Blepharitis",
+      "D": "Chalazion"
+    },
+    "answer": "A",
+    "explanation": "Orbital cellulitis is a serious infection of the fat and muscles surrounding the eye, posterior to the orbital septum. A major risk factor is the spread of infection from the adjacent paranasal sinuses (sinusitis). The presentation includes periorbital swelling, fever, and pain. Critically, it also involves signs of orbital involvement, such as pain with eye movements, proptosis (bulging eye), and decreased vision.",
+    "additional": "Preseptal vs. Orbital Cellulitis:\nPreseptal Cellulitis: Infection is anterior to the orbital septum (in the eyelid). There is eyelid swelling and redness, but vision and eye movements are normal.\nOrbital Cellulitis: Infection is posterior to the septum. Vision and eye movements are impaired. This is a true emergency requiring hospitalization and IV antibiotics to prevent vision loss or intracranial spread of infection.\nA head/orbital CT scan is essential to differentiate between the two and to identify any abscess that may require surgical drainage."
+  },
+  {
+    "question": "A patient presents with sudden vision loss, and fundoscopic examination reveals papilledema. What is the most likely underlying cause?",
+    "options": {
+      "A": "Increased intracranial pressure",
+      "B": "Retinal artery occlusion",
+      "C": "Macular degeneration",
+      "D": "Optic neuritis"
+    },
+    "answer": "A",
+    "explanation": "Papilledema is swelling of both optic discs specifically caused by increased intracranial pressure (ICP). While vision may be normal initially, severe or chronic papilledema can lead to optic nerve damage and vision loss. Therefore, finding papilledema necessitates an urgent search for the cause of the high ICP.",
+    "additional": "This is a repeat of the concept from question #10.\nKey Point: The term \"papilledema\" should be reserved for optic disc swelling due to high ICP. Optic disc swelling from other causes (like inflammation in optic neuritis or ischemia) is more broadly termed \"optic disc edema.\""
+  },
+  {
+    "question": "A patient with a history of chronic sinusitis presents with recurrent ear infections and hearing loss. What is the most likely cause of these symptoms?",
+    "options": {
+      "A": "Eustachian tube dysfunction",
+      "B": "Meniere's disease",
+      "C": "Otitis externa",
+      "D": "Cholesteatoma"
+    },
+    "answer": "A",
+    "explanation": "The Eustachian tube connects the middle ear to the nasopharynx and is responsible for equalizing pressure and draining fluid from the middle ear. Inflammation from chronic sinusitis can cause the Eustachian tube to become blocked or dysfunctional. This leads to negative pressure and fluid buildup in the middle ear (otitis media with effusion), causing a feeling of fullness, hearing loss, and creating an environment where recurrent ear infections (acute otitis media) can occur.",
+    "additional": "Clarification: This is another question that belongs in the ENT section but is included here.\nThis is a very common clinical connection. Patients with chronic nasal congestion or sinus problems frequently experience related ear problems due to this anatomical link."
+  },
+  {
+    "question": "A patient presents with painful swallowing, fever, and white exudates on the tonsils. What is the most likely diagnosis?",
+    "options": {
+      "A": "Tonsillitis",
+      "B": "Pharyngitis",
+      "C": "Laryngitis",
+      "D": "Esophagitis"
+    },
+    "answer": "A",
+    "explanation": "This question is a repeat from the previous set (#31) and is misplaced from the ENT section. The specific findings of fever, painful swallowing, and white exudates localized to the tonsils are the classic signs of acute tonsillitis.",
+    "additional": "Centor Criteria: For suspected Group A Strep tonsillitis, the Centor criteria can be used to estimate probability:\nTonsillar exudates (+1)\nTender anterior cervical lymphadenopathy (+1)\nHistory of fever (+1)\nAbsence of cough (+1)\nA high score suggests a higher likelihood of strep and warrants a rapid strep test or throat culture."
+  },
+  {
+    "question": "A patient with severe vertigo, tinnitus, and aural fullness is diagnosed with Meniere’s disease. What is the most appropriate first-line treatment?",
+    "options": {
+      "A": "Diuretics",
+      "B": "Steroids",
+      "C": "Antibiotics",
+      "D": "Antihistamines"
+    },
+    "answer": "A",
+    "explanation": "This question is misplaced from the ENT section. Meniere's disease is thought to be caused by endolymphatic hydrops (an excess of fluid in the inner ear). Therefore, a primary first-line treatment strategy is to reduce the body's overall fluid volume. Diuretics (e.g., hydrochlorothiazide), combined with a low-salt diet, are used to decrease the fluid pressure within the inner ear and reduce the frequency and severity of attacks.",
+    "additional": "Acute Attack Management: During a severe vertigo attack, treatment is symptomatic and includes vestibular suppressants (e.g., meclizine, benzodiazepines) and antiemetics (e.g., promethazine).\nLong-Term Management: In addition to diuretics and salt restriction, lifestyle changes like avoiding caffeine, alcohol, and nicotine are recommended. Betahistine is also commonly used in many countries. For refractory cases, procedures like intratympanic steroid injections or surgery may be considered."
+  },
+  {
+    "question": "A 25-year-old patient presents with sudden loss of vision, and fundus examination shows a bull’s eye appearance of the macula. What is the most likely diagnosis?",
+    "options": {
+      "A": "Macular degeneration",
+      "B": "Diabetic retinopathy",
+      "C": "Central retinal vein occlusion",
+      "D": "Retinitis pigmentosa"
+    },
+    "answer": "D",
+    "explanation": "While the classic presentation of Retinitis Pigmentosa (RP) involves progressive peripheral vision loss, in some advanced cases, the macula can be affected, leading to a pattern known as bull's-eye maculopathy. This is less common than the classic bone-spicule pigmentation but is a recognized finding. The \"sudden\" vision loss is atypical for RP but could represent a rapid decline.",
+    "additional": "Bull's-Eye Maculopathy: This finding is more famously associated with chloroquine or hydroxychloroquine toxicity and some cone-rod dystrophies. However, among the given choices, it is most closely linked to a variant of Retinitis Pigmentosa.\nThe question's combination of \"sudden\" vision loss and a \"bull's-eye\" macula is slightly unusual, but RP is the best fit among the options provided."
+  },
+  {
+    "question": "A patient presents with severe eye pain, decreased vision, and a red eye following trauma. The intraocular pressure is elevated. What is the most likely diagnosis?",
+    "options": {
+      "A": "Traumatic glaucoma",
+      "B": "Acute angle-closure glaucoma",
+      "C": "Keratitis",
+      "D": "Endophthalmitis"
+    },
+    "answer": "A",
+    "explanation": "The key elements here are the history of trauma and the resulting elevated intraocular pressure (IOP). This is the definition of traumatic glaucoma. The trauma can damage the eye's aqueous humor drainage structures (the trabecular meshwork), leading to a buildup of fluid and a rise in pressure, causing pain and decreased vision.",
+    "additional": "Mechanism: Trauma can cause bleeding into the anterior chamber (hyphema) or inflammation (traumatic uveitis), both of which can block the drainage angle and cause a secondary glaucoma.\nAcute Angle-Closure Glaucoma (Option B): This is typically a primary event not caused by trauma, occurring in anatomically predisposed eyes.\nManagement: Treatment is aimed at lowering the IOP with medications and addressing the underlying traumatic injuries."
+  },
+  {
+    "question": "A patient with a recent sinus infection complains of pain around the eyes, fever, and nasal congestion. What is the most likely diagnosis?",
+    "options": {
+      "A": "Sinusitis",
+      "B": "Orbital cellulitis",
+      "C": "Conjunctivitis",
+      "D": "Keratitis"
+    },
+    "answer": "A",
+    "explanation": "This question is misplaced from the ENT section. The core symptoms of pain and pressure around the eyes/face, nasal congestion, and fever are the classic presentation of acute bacterial sinusitis.",
+    "additional": "Important Distinction: It is crucial to differentiate simple sinusitis from its dangerous complication, orbital cellulitis (Option B). While both share these symptoms, orbital cellulitis would also have signs specific to the eye orbit, such as pain with eye movement, proptosis (bulging eye), and decreased vision. Since those are not mentioned, uncomplicated sinusitis is the most likely diagnosis."
+  },
+  {
+    "question": "A 30-year-old patient presents with severe eye pain, photophobia, and blurred vision following a recent cold. Slit-lamp examination reveals a dendritic ulcer. What is the most likely diagnosis?",
+    "options": {
+      "A": "Herpes simplex keratitis",
+      "B": "Bacterial keratitis",
+      "C": "Fungal keratitis",
+      "D": "Uveitis"
+    },
+    "answer": "A",
+    "explanation": "A dendritic ulcer is pathognomonic for Herpes Simplex Keratitis (HSK). The \"dendrite\" is a branching, tree-like epithelial defect on the cornea that stains with fluorescein. The virus, often reactivated by a stressor like a cold or fever, travels down the trigeminal nerve to infect the cornea.",
+    "additional": "Urgency: HSK is a serious infection that can lead to corneal scarring, neovascularization, and blindness if not treated properly.\nTreatment: The mainstay of treatment is topical antiviral agents (e.g., trifluridine drops or ganciclovir gel). Oral antivirals (e.g., acyclovir) may also be used.\nContraindication: Topical corticosteroids are strictly contraindicated in active epithelial HSK as they can worsen the infection, leading to a larger, more destructive \"geographic ulcer.\""
+  },
+  {
+    "question": "A patient with unilateral sudden loss of vision and a pale retina with a cherry red spot on fundoscopic examination is most likely suffering from which condition?",
+    "options": {
+      "A": "Central retinal artery occlusion",
+      "B": "Central retinal vein occlusion",
+      "C": "Macular degeneration",
+      "D": "Retinal detachment"
+    },
+    "answer": "A",
+    "explanation": "This is a third repeat of this classic presentation (see #14 and #22). Sudden, painless, unilateral vision loss + pale retina + cherry-red spot = Central Retinal Artery Occlusion (CRAO).",
+    "additional": "Exam Tactic: When you see a question with this exact triad of findings, the answer is always CRAO. It is one of the most classic and frequently tested presentations in ophthalmology."
+  },
+  {
+    "question": "A patient presents with a history of severe headache, nausea, and decreased vision. On fundoscopy, there is optic disc swelling with flame-shaped hemorrhages. What is the most likely cause of these findings?",
+    "options": {
+      "A": "Increased intracranial pressure",
+      "B": "Hypertension",
+      "C": "Diabetic retinopathy",
+      "D": "Optic neuritis"
+    },
+    "answer": "B",
+    "explanation": "The fundoscopic findings described—optic disc swelling and flame-shaped hemorrhages—are characteristic of severe, malignant hypertensive retinopathy. In a hypertensive crisis, the extremely high blood pressure damages the retinal arterioles, leading to fluid leakage (causing disc swelling and macular edema) and vessel rupture (causing hemorrhages). The systemic symptoms of headache and nausea are also consistent with a hypertensive emergency.",
+    "additional": "While increased ICP (Option A) causes papilledema (optic disc swelling), the addition of flame hemorrhages and the context of headache/nausea strongly points to malignant hypertension as the underlying cause of the high ICP and the retinal findings.\nKeith-Wagener-Barker Classification of Hypertensive Retinopathy:\nGrade 1: Arteriolar narrowing.\nGrade 2: AV nicking.\nGrade 3: Hemorrhages, cotton-wool spots, hard exudates.\nGrade 4: Grade 3 findings + papilledema. Grade 4 is a medical emergency."
+  },
+  {
+    "question": "A patient presents with unilateral vision loss, eye pain, and a relative afferent pupillary defect. The fundus exam is normal. What is the most likely diagnosis?",
+    "options": {
+      "A": "Optic neuritis",
+      "B": "Macular degeneration",
+      "C": "Retinal vein occlusion",
+      "D": "Cataract"
+    },
+    "answer": "A",
+    "explanation": "This constellation of findings is highly specific for retrobulbar optic neuritis.\nUnilateral vision loss and eye pain (especially with movement) are key symptoms.\nA Relative Afferent Pupillary Defect (RAPD) indicates a problem with the optic nerve's ability to sense light.\nA normal fundus exam is crucial. It means the inflammation is occurring in the part of the optic nerve behind the eyeball (\"retrobulbar\"), so the optic disc does not appear swollen initially. This presentation is often described as \"the patient sees nothing, and the doctor sees nothing.\"",
+    "additional": "This contrasts with papillitis (a form of optic neuritis where the disc is swollen), as seen in question #5.\nThis presentation is still very strongly associated with Multiple Sclerosis."
+  },
+  {
+    "question": "A patient with acute, painless vision loss and a history of diabetes mellitus presents with cotton-wool spots and microaneurysms on fundus examination. What is the most likely diagnosis?",
+    "options": {
+      "A": "Diabetic retinopathy",
+      "B": "Retinal vein occlusion",
+      "C": "Age-related macular degeneration",
+      "D": "Hypertensive retinopathy"
+    },
+    "answer": "A",
+    "explanation": "The combination of a history of diabetes and the fundoscopic findings of cotton-wool spots and microaneurysms is diagnostic of diabetic retinopathy. While the vision loss is described as \"acute,\" it could be due to a sudden vitreous hemorrhage from proliferative disease or the rapid onset of macular edema.",
+    "additional": "This question combines features of both non-proliferative (microaneurysms) and potentially more advanced (cotton-wool spots, acute vision loss) diabetic eye disease.\nRetinal Vein Occlusion (Option B) can cause acute painless vision loss and cotton-wool spots, but microaneurysms are far more characteristic of diabetes. Also, the history of diabetes makes diabetic retinopathy the most likely culprit.\nThis concludes the Ophthalmology unit. We can now proceed to the next subject area."
+  }
+]
+
+
+
