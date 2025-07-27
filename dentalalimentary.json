@@ -1,0 +1,122 @@
+[
+  {
+    "question": "1. A patient with a history of peptic ulcer disease is admitted with sudden severe abdominal pain and a rigid board-like abdomen. What complication should the nurse suspect?",
+    "options": {
+      "A": "Gastroesophageal reflux",
+      "B": "Gastric outlet obstruction",
+      "C": "Perforation",
+      "D": "Hemorrhage"
+    },
+    "answer": "C",
+    "explanation": "Perforation of a peptic ulcer causes sudden, severe pain and a rigid abdomen due to peritonitis.",
+    "additional": "This is a medical emergency and requires immediate surgical consultation and supportive care."
+  },
+  {
+    "question": "2. Which of the following is a common symptom of gastroesophageal reflux disease (GERD)?",
+    "options": {
+      "A": "Weight gain",
+      "B": "Hematemesis",
+      "C": "Heartburn",
+      "D": "Constipation"
+    },
+    "answer": "C",
+    "explanation": "Heartburn or retrosternal burning pain is the hallmark symptom of GERD caused by acid reflux.",
+    "additional": "Symptoms worsen with lying down or after meals. Lifestyle and dietary changes are first-line interventions."
+  },
+  {
+    "question": "3. The nurse should anticipate which finding in a patient with chronic gastritis?",
+    "options": {
+      "A": "Elevated blood pressure",
+      "B": "Increased appetite",
+      "C": "Vitamin B12 deficiency",
+      "D": "Increased gastric acid production"
+    },
+    "answer": "C",
+    "explanation": "Chronic gastritis can damage parietal cells leading to reduced intrinsic factor and vitamin B12 deficiency.",
+    "additional": "Patients may require lifelong B12 supplementation."
+  },
+  {
+    "question": "4. A patient with cirrhosis presents with confusion, asterixis, and lethargy. What condition should the nurse suspect?",
+    "options": {
+      "A": "Hypoglycemia",
+      "B": "Hepatic encephalopathy",
+      "C": "Ascites",
+      "D": "Variceal bleeding"
+    },
+    "answer": "B",
+    "explanation": "Hepatic encephalopathy is caused by accumulation of toxins like ammonia due to liver dysfunction.",
+    "additional": "Lactulose is often used to reduce ammonia levels."
+  },
+  {
+    "question": "5. What is a priority nursing intervention for a patient with bleeding esophageal varices?",
+    "options": {
+      "A": "Encourage oral fluids",
+      "B": "Insert a nasogastric tube",
+      "C": "Administer beta-blockers",
+      "D": "Monitor airway and prepare for emergency endoscopy"
+    },
+    "answer": "D",
+    "explanation": "Bleeding varices pose a risk for airway obstruction and shock. Airway protection and endoscopy are urgent.",
+    "additional": "IV fluids and vasopressors may also be needed."
+  },
+  {
+    "question": "6. Which lab value would the nurse expect to be elevated in a patient with obstructive jaundice?",
+    "options": {
+      "A": "Hemoglobin",
+      "B": "Albumin",
+      "C": "Direct (conjugated) bilirubin",
+      "D": "Ammonia"
+    },
+    "answer": "C",
+    "explanation": "Obstructive jaundice causes backup of conjugated bilirubin into the bloodstream.",
+    "additional": "It can be caused by gallstones, tumors, or bile duct strictures."
+  },
+  {
+    "question": "7. The nurse should monitor for which complication after a liver biopsy?",
+    "options": {
+      "A": "Respiratory depression",
+      "B": "Bleeding",
+      "C": "Electrolyte imbalance",
+      "D": "Infection"
+    },
+    "answer": "B",
+    "explanation": "The liver is highly vascular; bleeding is the most serious post-biopsy complication.",
+    "additional": "Vital signs and signs of internal bleeding should be closely monitored."
+  },
+  {
+    "question": "8. Which of the following symptoms is most associated with cholecystitis?",
+    "options": {
+      "A": "Left lower quadrant pain",
+      "B": "Periumbilical pain",
+      "C": "Right upper quadrant pain after fatty meals",
+      "D": "Lower back pain"
+    },
+    "answer": "C",
+    "explanation": "Cholecystitis causes inflammation of the gallbladder, often triggered by fatty meals.",
+    "additional": "Pain may radiate to the right shoulder and is associated with nausea and vomiting."
+  },
+  {
+    "question": "9. What diet instruction should be given to a patient with diverticulosis?",
+    "options": {
+      "A": "Low-fiber, high-fat diet",
+      "B": "Low-protein, low-fat diet",
+      "C": "High-fiber, increased fluid intake",
+      "D": "No dairy products"
+    },
+    "answer": "C",
+    "explanation": "A high-fiber diet prevents constipation and reduces pressure in the colon, decreasing diverticular flare-ups.",
+    "additional": "Adequate hydration is also essential."
+  },
+  {
+    "question": "10. Which of the following is an expected finding in a patient with advanced cirrhosis?",
+    "options": {
+      "A": "Hypoalbuminemia",
+      "B": "Polycythemia",
+      "C": "Elevated platelet count",
+      "D": "Hypernatremia"
+    },
+    "answer": "A",
+    "explanation": "Cirrhosis impairs protein synthesis in the liver, resulting in decreased albumin levels.",
+    "additional": "This contributes to edema and ascites in affected patients."
+  }
+]
