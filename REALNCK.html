@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Heartique Nursing Nexus NCK Simulation Platform</title>
-  <link rel="icon" href="favicon.png" />
+  <link rel="icon" href="favicon.png" type="image/png" />
   <style>
     html, body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -20,7 +20,7 @@
       text-align: center;
     }
     .tab-bar {
-      display: none;
+      display: flex;
       flex-wrap: wrap;
       justify-content: center;
       background: #f0f0f0;
@@ -47,7 +47,6 @@
       cursor: not-allowed;
     }
     .container {
-      display: none;
       max-width: 900px;
       margin: 20px auto;
       padding: 20px;
@@ -55,7 +54,9 @@
       border-radius: 8px;
       box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     }
-    .question-box { margin-bottom: 20px; }
+    .question-box {
+      margin-bottom: 20px;
+    }
     .btn {
       margin: 5px 0;
       padding: 10px;
@@ -120,240 +121,409 @@
       margin-top: 10px;
       cursor: pointer;
     }
-    #transcript {
-      display: none;
-      padding: 30px;
-      max-width: 800px;
-      margin: auto;
+    #flagModal {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
       background: white;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+      display: none;
+      z-index: 9999;
     }
-    #transcript button {
-      float: right;
+    #flagModal h3 {
+      margin-top: 0;
+      color: #002147;
+    }
+    #flagModal button {
+      background: #002147;
+      color: white;
+      margin: 10px 5px;
+      border-radius: 4px;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+    .green { color: green; font-weight: bold; }
+    .red { color: red; font-weight: bold; }
+    .chosen { background-color: #fff3cd; }
+    .transcript-container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: white;
+      padding: 20px;
+      border: 2px solid #002147;
+      border-radius: 8px;
+    }
+    .transcript-container h2 {
+      color: #002147;
+    }
+    .transcript-section {
+      margin-bottom: 40px;
+    }
+    .print-button {
+      display: block;
+      margin: 20px auto;
+      padding: 12px 24px;
+      font-size: 16px;
       background: #002147;
       color: white;
       border: none;
-      padding: 10px 20px;
-      border-radius: 6px;
-      margin-bottom: 20px;
+      border-radius: 5px;
       cursor: pointer;
     }
   </style>
 </head>
 <body>
 
-<div id="intro-page" class="form-page">
-  <h2>Welcome To Heartique Nursing Nexus NCK Simulation Platform</h2>
-  <p>Enter your details to begin:</p>
-  <input type="text" id="full-name" placeholder="Full Name" required />
-  <input type="tel" id="phone-number" placeholder="WhatsApp Number (e.g. 254712345678)" required />
-  <input type="text" id="reason" placeholder="Reason (e.g. Revision, Mock...)" required />
-  <button onclick="proceedToInstructions()">Continue</button>
-</div>
+  <div id="intro-page" class="form-page">
+    <h2>Welcome To Heartique Nursing Nexus NCK Simulation Platform</h2>
+    <p>Enter your details to begin:</p>
+    <input type="text" id="full-name" placeholder="Full Name" required />
+    <input type="tel" id="phone-number" placeholder="WhatsApp Number (e.g. 254712345678)" required />
+    <input type="text" id="reason" placeholder="Reason (e.g. Revision, Mock...)" required />
+    <button onclick="proceedToInstructions()">Continue</button>
+  </div>
 
-<div id="start-page" class="form-page" style="display:none;">
-  <h2>Instructions</h2>
-  <ul style="text-align:left;max-width:500px;margin:20px auto;">
-    <li>Each question is allocated 1.5 minutes.</li>
-    <li>Do not refresh the page.</li>
-    <li>Use full-screen mode during the simulation.</li>
-    <li>Attempt all questions.</li>
-    <li>Stay in a quiet environment.</li>
-  </ul>
-  <button onclick="startApp()">Start Simulation</button>
-</div>
+  <div id="start-page" class="form-page" style="display:none;">
+    <h2>Instructions</h2>
+    <ul style="text-align:left;max-width:500px;margin:20px auto;">
+      <li>Each question is allocated a maximum of <strong>1.5 minutes</strong>. Time management is critical.</li>
+      <li>Once the assessment begins, <strong>do not refresh</strong> or navigate back. This may lead to automatic disqualification.</li>
+      <li>The simulation will launch in <strong>full-screen mode</strong> to mimic the official NCK CBT environment.</li>
+      <li>All questions must be attempted. Incomplete submissions may affect your performance review.</li>
+      <li>Ensure you are in a <strong>quiet, uninterrupted environment</strong> for the duration of the assessment.</li>
+      <li>Use of external resources or switching tabs during the session is discouraged.</li>
+      <li><strong>Click “Start Simulation”</strong> when ready. The timer will begin immediately.</li>
+    </ul>
+    <button onclick="startApp()">Start Simulation</button>
+  </div>
 
-<header>
-  <h1>Heartique Nursing Nexus NCK Simulation Platform</h1>
-  <p>Simulated Environment for Mock and Main Exam Preparation</p>
-</header>
+  <header>
+    <h1>Heartique Nursing Nexus NCK Simulation Platform</h1>
+    <p>Simulated Environment for Mock and Main Exam Preparation</p>
+  </header>
+  <div class="tab-bar" id="quiz-tabs"></div>
 
-<div class="tab-bar" id="quiz-tabs"></div>
-<div class="container" id="quiz-container"></div>
-<div id="navigation"></div>
-<div id="timer">Time Left: 00:00</div>
+  <div class="container" style="display:none;">
+    <div id="quiz-container"></div>
+    <div id="navigation"></div>
+    <div id="timer">Time Left: 00:00</div>
+  </div>
 
-<footer>
-  &copy; 2025 Heartique Nursing Nexus Alliance – Simulation Platform.<br>
-  Contact: <a href="mailto:nursingnexusalliance@gmail.com">nursingnexusalliance@gmail.com</a> | 
-  Phone: <a href="tel:0102702271">0102702271</a>
-</footer>
+  <footer style="text-align: center; padding: 10px; font-size: 14px; color: #666;">
+    &copy; 2025 Heartique Nursing Nexus Alliance – Simulation Platform. All rights reserved.<br>
+    Contact: <a href="mailto:nursingnexusalliance@gmail.com" style="color: #666; text-decoration: none;">nursingnexusalliance@gmail.com</a> |
+    Phone: <a href="tel:0102702271" style="color: #666; text-decoration: none;">0102702271</a>
+  </footer>
 
-<div id="transcript">
-  <button onclick="window.print()">📄 Download / Print Transcript</button>
-  <div id="transcriptContent"></div>
-</div>
+  <div id="flagModal">
+    <h3>Flagged Questions</h3>
+    <div id="flagList"></div>
+    <button onclick="closeFlagModal()">Close</button>
+  </div>
 
-<script>
-let userName = "", userPhone = "", userReason = "";
-let current = 0, flagged = new Set(), questions = [], fileName = "";
-let saved = {}, timer, timeLeft;
-let isSimulationMode = false;
+  <script>
+    let userName = "", userPhone = "", userReason = "";
+    let current = 0, flagged = new Set(), questions = [], fileName = "";
+    let saved = {}, timer, timeLeft;
+    let isSimulationMode = false;
 
-const fileList = [
-  { name: "MOCK 1", file: "mock1.json" },
-  { name: "MOCK 2", file: "mock2.json" },
-  { name: "NCK 1", file: "nck1.json" },
-  { name: "FINAL TEST", file: "final.json" }
-];
+    const fileList = [
+      { name: "MOCK 1", file: "mock1.json" },
+      { name: "MOCK 2", file: "mock2.json" },
+      { name: "MOCK 3", file: "mock3.json" },
+      { name: "NCK 1", file: "nck1.json" },
+      { name: "NCK 2", file: "nck2.json" },
+      { name: "NCK 3", file: "nck3.json" },
+      { name: "FINAL SELF TEST", file: "final_nck_self.json" }
+    ];
 
-window.onload = () => {
-  const savedData = JSON.parse(localStorage.getItem("nckUserData") || "{}");
-  if (savedData.name) document.getElementById("full-name").value = savedData.name;
-  if (savedData.phone) document.getElementById("phone-number").value = savedData.phone;
-  if (savedData.reason) document.getElementById("reason").value = savedData.reason;
-};
+    const tabsDiv = document.getElementById('quiz-tabs');
+    const container = document.getElementById('quiz-container');
+    const navDiv = document.getElementById('navigation');
+    const timerEl = document.getElementById('timer');
 
-function proceedToInstructions() {
-  const name = document.getElementById("full-name").value.trim();
-  const phone = document.getElementById("phone-number").value.trim();
-  const reason = document.getElementById("reason").value.trim();
-
-  if (name.length < 3) return alert("Enter full name");
-  if (!/^254(1|7)\d{8}$/.test(phone)) return alert("Enter valid Kenyan number");
-  if (reason.length < 3) return alert("Enter a reason");
-
-  userName = name;
-  userPhone = phone;
-  userReason = reason;
-  localStorage.setItem("nckUserData", JSON.stringify({ name, phone, reason }));
-
-  document.getElementById("intro-page").style.display = "none";
-  document.getElementById("start-page").style.display = "block";
-}
-
-function startApp() {
-  document.getElementById("start-page").style.display = "none";
-  document.querySelector(".tab-bar").style.display = "flex";
-  document.querySelector(".container").style.display = "block";
-}
-
-const tabsDiv = document.getElementById('quiz-tabs');
-fileList.forEach((item) => {
-  const btn = document.createElement('button');
-  btn.className = 'tab-btn';
-  btn.textContent = item.name;
-  btn.onclick = () => loadQuiz(item.file, btn);
-  tabsDiv.appendChild(btn);
-});
-
-function loadQuiz(file, activeBtn) {
-  clearInterval(timer);
-  fileName = file;
-  current = 0;
-  flagged = new Set();
-  saved = {};
-  isSimulationMode = file.toLowerCase().includes("nck") || file.toLowerCase().includes("final");
-
-  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-  activeBtn.classList.add('active');
-
-  fetch(file).then(res => res.json()).then(data => {
-    questions = data;
-    startTimer(questions.length);
-    render(current);
-  });
-}
-
-function render(i) {
-  const q = questions[i];
-  const opts = q.options || {};
-  const container = document.getElementById("quiz-container");
-  container.innerHTML = `<div class="question-box"><strong>Question ${i + 1}:</strong><br><br>${q.question}<br><br></div>`;
-  const box = container.querySelector('.question-box');
-
-  for (const [k, v] of Object.entries(opts)) {
-    const b = document.createElement('button');
-    b.className = 'btn';
-    b.textContent = `${k}) ${v}`;
-    if (saved[i]) b.disabled = true;
-    b.onclick = () => {
-      if (saved[i]) return;
-      saved[i] = { selected: k, correct: k === q.answer };
-      b.disabled = true;
-      if (isSimulationMode) next();
+    window.onload = function () {
+      const savedData = JSON.parse(localStorage.getItem("nckUserData") || "{}");
+      if (savedData.name) document.getElementById("full-name").value = savedData.name;
+      if (savedData.phone) document.getElementById("phone-number").value = savedData.phone;
+      if (savedData.reason) document.getElementById("reason").value = savedData.reason;
     };
-    box.appendChild(b);
-  }
 
-  document.getElementById("navigation").innerHTML = `
-    ${i > 0 ? `<button onclick="prev()">Previous</button>` : ""}
-    <button onclick="next()">Next</button>
-    <button onclick="submitTest()">Submit</button>
-  `;
-}
+    function proceedToInstructions() {
+      const name = document.getElementById("full-name").value.trim();
+      const phone = document.getElementById("phone-number").value.trim();
+      const reason = document.getElementById("reason").value.trim();
 
-function prev() { if (current > 0) { current--; render(current); } }
-function next() { if (current < questions.length - 1) { current++; render(current); } }
+      if (name.length < 3) return alert("Please enter your full name.");
+      if (!/^254(1|7)\\d{8}$/.test(phone)) return alert("Enter a valid Kenyan phone number starting with 2547 or 2541.");
+      if (reason.length < 3) return alert("Please enter a valid reason.");
 
-function startTimer(qCount) {
-  timeLeft = qCount * 90;
-  const timerEl = document.getElementById("timer");
-  timer = setInterval(() => {
-    timeLeft--;
-    const min = String(Math.floor(timeLeft / 60)).padStart(2, '0');
-    const sec = String(timeLeft % 60).padStart(2, '0');
-    timerEl.textContent = `Time Left: ${min}:${sec}`;
-    if (timeLeft <= 30) timerEl.classList.add("red");
-    if (timeLeft <= 0) {
-      clearInterval(timer);
-      submitTest();
+      userName = name;
+      userPhone = phone;
+      userReason = reason;
+
+      localStorage.setItem("nckUserData", JSON.stringify({ name, phone, reason }));
+
+      document.getElementById("intro-page").style.display = "none";
+      document.getElementById("start-page").style.display = "block";
     }
-  }, 1000);
-}
 
-function submitTest() {
-  if (!confirm("Submit test?")) return;
-  const correct = Object.values(saved).filter(x => x.correct).length;
-  const total = questions.length;
-  const percent = Math.round((correct / total) * 100);
-  const weakAreas = questions.map((q, i) => (!saved[i]?.correct ? `Q${i + 1}` : null)).filter(x => x);
+    function startApp() {
+      document.getElementById("start-page").style.display = "none";
+      document.querySelector(".tab-bar").style.display = "flex";
+      document.querySelector(".container").style.display = "block";
+      document.getElementById("timer").style.display = "block";
+      document.querySelector("footer").style.display = "block";
+    }
 
-  buildTranscript(correct, total, percent, weakAreas);
+    fileList.forEach((item) => {
+      const btn = document.createElement('button');
+      btn.className = 'tab-btn';
+      btn.textContent = item.name;
+      btn.onclick = () => {
+        if (!btn.classList.contains("disabled")) {
+          loadQuiz(item.file, btn);
+          btn.classList.add("disabled");
+        }
+      };
+      tabsDiv.appendChild(btn);
+    });
 
-  const message = `Score: ${correct}/${total} (${percent}%)\nWeak Areas: ${weakAreas.join(", ") || "None"}`;
-  const text = encodeURIComponent(`Greetings from Heartique Nursing Nexus.\n\nCandidate: ${userName}\nReason: ${userReason}\n\n${message}`);
-  const url = `https://wa.me/${userPhone}?text=${text}`;
+    function loadQuiz(file, activeBtn) {
+      clearInterval(timer);
+      timerEl.textContent = "Time Left: 00:00";
+      timerEl.classList.remove("red");
 
-  if (confirm("Note: This is only a preview. Proceed to WhatsApp?")) {
-    window.open(url, "_blank");
-  }
+      fileName = file;
+      current = 0;
+      flagged = new Set();
+      saved = {};
+      isSimulationMode = file.toLowerCase().includes("nck") || file.toLowerCase().includes("final");
 
-  clearInterval(timer);
-}
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      activeBtn.classList.add('active');
 
-function buildTranscript(score, total, percent, weakAreas) {
-  const fullAnswers = questions.map((q, i) => {
-    const user = saved[i]?.selected || "Not answered";
-    const correct = q.answer;
-    const isCorrect = user === correct;
-    const style = isCorrect ? "" : "background: #ffdddd;";
-    return `
-      <div style="margin-bottom:20px; padding:10px; border:1px solid #ccc; ${style}">
-        <p><strong>Q${i + 1}:</strong> ${q.question}</p>
-        <p><strong>Your Answer:</strong> ${user}</p>
-        <p><strong>Correct Answer:</strong> ${correct}</p>
-      </div>
-    `;
-  }).join("");
+      fetch(file).then(res => res.json()).then(data => {
+        questions = data;
+        if (isSimulationMode) enterFullscreen();
+        startTimer(questions.length);
+        if (!isSimulationMode) {
+          setInterval(() => {
+            localStorage.setItem("progress_" + fileName, JSON.stringify(saved));
+          }, 15000);
+        }
+        render(current);
+      });
+    }
 
-  const html = `
-    <h2 style="color:#002147;">Heartique Nursing Nexus</h2>
-    <h4>NCK Simulation Transcript</h4><hr>
-    <p><strong>Name:</strong> ${userName}</p>
-    <p><strong>Phone:</strong> ${userPhone}</p>
-    <p><strong>Reason:</strong> ${userReason}</p>
-    <p><strong>Score:</strong> ${score}/${total}</p>
-    <p><strong>Percentage:</strong> ${percent}%</p>
-    <p><strong>Weak Areas:</strong> ${weakAreas.join(", ") || "None"}</p><br>
-    <h3>📖 Full Review</h3>${fullAnswers}
-  `;
-  document.getElementById("transcriptContent").innerHTML = html;
-  document.getElementById("transcript").style.display = "block";
-  document.querySelector(".tab-bar").style.display = "none";
-  document.querySelector(".container").style.display = "none";
-  document.getElementById("timer").style.display = "none";
-  document.querySelector("footer").style.display = "none";
-}
-</script>
+    function render(i) {
+      const q = questions[i];
+      const opts = q.options || {};
+      container.innerHTML = `<div class="question-box"><strong>Question ${i + 1}:</strong><br><br>${q.question || "Untitled"}<br><br></div>`;
+      const box = container.querySelector('.question-box');
+
+      for (const [k, v] of Object.entries(opts)) {
+        const b = document.createElement('button');
+        b.className = 'btn';
+        b.textContent = `${k}) ${v}`;
+        if (saved[i]) b.disabled = true;
+        b.onclick = () => {
+          if (saved[i]) return;
+          saved[i] = { selected: k };
+          if (!isSimulationMode) {
+            saved[i].correct = k === (q.answer || "").toUpperCase();
+            localStorage.setItem("progress_" + fileName, JSON.stringify(saved));
+          }
+          b.disabled = true;
+          if (isSimulationMode) next();
+        };
+        box.appendChild(b);
+      }
+
+      if (flagged.has(i) && !isSimulationMode) {
+        box.innerHTML += "<p style='color:#002147;'>[Flagged for review]</p>";
+      }
+
+      updateNav();
+
+      if (flagged.size && !isSimulationMode) {
+        const jumpBtn = document.createElement("button");
+        jumpBtn.textContent = "📌 Jump to First Flagged";
+        jumpBtn.style = "margin-top:15px;padding:10px;background:#cc0000;color:white;border:none;border-radius:4px;cursor:pointer;";
+        jumpBtn.onclick = () => {
+          current = [...flagged][0];
+          render(current);
+        };
+        container.appendChild(jumpBtn);
+
+        const allFlaggedBtn = document.createElement("button");
+        allFlaggedBtn.textContent = "📝 View All Flagged";
+        allFlaggedBtn.style = "margin-left:10px;padding:10px;background:#666;color:white;border:none;border-radius:4px;cursor:pointer;";
+        allFlaggedBtn.onclick = showFlagModal;
+        container.appendChild(allFlaggedBtn);
+      }
+
+      window.scrollTo(0, 0);
+    }
+      function updateNav() {
+        const navButtons = [];
+        if (!isSimulationMode) {
+          navButtons.push(`<button onclick="prev()">Previous</button>`);
+          navButtons.push(`<button onclick="flag()">Flag</button>`);
+        }
+        navButtons.push(`<button onclick="next()">Next</button>`);
+        if (!isSimulationMode || allAnswered()) {
+          navButtons.push(`<button onclick="submitTest()">Submit</button>`);
+        }
+        navDiv.innerHTML = navButtons.join("");
+      }
+
+      function prev() { if (current > 0) { current--; render(current); } }
+      function next() { if (current < questions.length - 1) { current++; render(current); } }
+      function flag() {
+        flagged.has(current) ? flagged.delete(current) : flagged.add(current);
+        render(current);
+      }
+
+      function allAnswered() {
+        return questions.every((_, idx) => saved[idx]?.selected);
+      }
+
+      function submitTest() {
+        if (!confirm("Are you sure you want to submit the test?")) return;
+        if (!isSimulationMode || allAnswered()) {
+          const correct = Object.values(saved).filter(x => x.correct).length;
+          const total = questions.length;
+          const percent = Math.round((correct / total) * 100);
+          const weakAreas = questions
+            .map((q, i) => (!saved[i]?.correct ? `Q${i + 1}` : null))
+            .filter(x => x !== null);
+
+          // ✅ CLEAR MAIN PAGE, BUILD TRANSCRIPT
+          document.body.innerHTML = `
+            <div style="padding:20px;max-width:1000px;margin:auto;" id="transcript">
+              <h2 style="color:#002147;">Heartique Nursing Nexus NCK Simulation Transcript</h2>
+              <button onclick="window.print()" style="float:right;margin:10px;padding:8px 16px;background:#002147;color:white;border:none;border-radius:4px;">📄 Download/Print Transcript</button>
+
+              <hr><h3>📌 Page 1: Candidate Details</h3>
+              <p><strong>Candidate Name:</strong> ${userName}</p>
+              <p><strong>Phone Number:</strong> ${userPhone}</p>
+              <p><strong>Simulation Purpose:</strong> ${userReason}</p>
+              <p><strong>Date:</strong> ${new Date().toLocaleDateString()}</p>
+
+              <hr><h3>📊 Page 2: Summary</h3>
+              <p><strong>Score:</strong> ${correct} / ${total}</p>
+              <p><strong>Percentage:</strong> ${percent}%</p>
+              <p><strong>Weak Questions:</strong> ${weakAreas.length ? weakAreas.join(", ") : "None"}</p>
+
+              <hr><h3>🧠 Page 3: Full Review</h3>
+              ${questions.map((q, i) => {
+                const selected = saved[i]?.selected;
+                const correct = (q.answer || "").toUpperCase();
+                const optionsHTML = Object.entries(q.options).map(([key, val]) => {
+                  let color = "#000";
+                  if (key === correct) color = "green";
+                  else if (key !== correct) color = "red";
+                  const label = key === selected ? " <strong>[Your Choice]</strong>" : "";
+                  return `<li style="color:${color};margin:5px 0;">${key}) ${val}${label}</li>`;
+                }).join("");
+                return `
+                  <div style="margin-bottom:25px;padding:10px;border:1px solid #ccc;border-radius:8px;">
+                    <strong>Q${i + 1}:</strong> ${q.question || "Untitled"}<br><ul>${optionsHTML}</ul>
+                  </div>`;
+              }).join("")}
+            </div>
+
+            <div style="text-align:center;margin-top:30px;">
+              <p>📢 <strong>NOTE:</strong> This transcript is a preview of your simulation. For full analysis, save or print it now.</p>
+              <p><strong>Share via WhatsApp (Preview Only):</strong></p>
+              <button onclick="whatsappShare()" style="padding:10px 20px;background:#25d366;color:white;border:none;border-radius:4px;">Share WhatsApp Summary</button>
+              <p style="color:#a00;margin-top:10px;">⚠️ Note: This is only a preview link. To receive the full analysis, complete and submit your simulation properly.</p>
+            </div>
+          `;
+        } else {
+          alert("Please answer all questions before submitting.");
+        }
+      }
+
+      function whatsappShare() {
+        const msg = encodeURIComponent(`📝 NCK SIMULATION PREVIEW\n\nName: ${userName}\nPurpose: ${userReason}\n\nThis is a transcript preview of my NCK-style simulation attempt on Heartique Nursing Nexus platform. Thank you!`);
+        window.open(`https://wa.me/${userPhone}?text=${msg}`, '_blank');
+      }
+
+      function startTimer(qCount) {
+        let duration = Math.floor(qCount * 90);
+        timeLeft = duration;
+        updateTimer();
+        timer = setInterval(() => {
+          timeLeft--;
+          updateTimer();
+          if (timeLeft <= 0) {
+            clearInterval(timer);
+            submitTest();
+          }
+        }, 1000);
+      }
+
+      function updateTimer() {
+        const min = String(Math.floor(timeLeft / 60)).padStart(2, '0');
+        const sec = String(timeLeft % 60).padStart(2, '0');
+        timerEl.textContent = `Time Left: ${min}:${sec}`;
+        if (timeLeft <= 30) timerEl.classList.add("red");
+      }
+
+      function enterFullscreen() {
+        const el = document.documentElement;
+        if (el.requestFullscreen) el.requestFullscreen();
+        else if (el.mozRequestFullScreen) el.mozRequestFullScreen();
+        else if (el.webkitRequestFullscreen) el.webkitRequestFullscreen();
+        else if (el.msRequestFullscreen) el.msRequestFullscreen();
+      }
+
+      function exitFullscreen() {
+        if (document.exitFullscreen) document.exitFullscreen();
+        else if (document.webkitExitFullscreen) document.webkitExitFullscreen();
+        else if (document.mozCancelFullScreen) document.mozCancelFullScreen();
+        else if (document.msExitFullscreen) document.msExitFullscreen();
+      }
+
+      function showFlagModal() {
+        const list = [...flagged].map(i => `<button onclick="jumpTo(${i})">Go to Q${i + 1}</button>`).join("");
+        document.getElementById("flagList").innerHTML = list || "No flagged questions.";
+        document.getElementById("flagModal").style.display = "block";
+      }
+
+      function closeFlagModal() {
+        document.getElementById("flagModal").style.display = "none";
+      }
+
+      function jumpTo(index) {
+        current = index;
+        closeFlagModal();
+        render(current);
+      }
+
+      document.addEventListener("contextmenu", e => e.preventDefault());
+      document.addEventListener("keydown", e => {
+        if (
+          e.key === "F12" ||
+          (e.ctrlKey && e.shiftKey && e.key === "I") ||
+          e.key === "F5" ||
+          (e.ctrlKey && e.key === "r") ||
+          (e.key === "Backspace" && e.target === document.body)
+        ) {
+          e.preventDefault();
+        }
+      });
+
+      window.addEventListener("beforeunload", function (e) {
+        e.preventDefault();
+        e.returnValue = '';
+      });
+  </script>
 </body>
 </html>
