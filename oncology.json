@@ -154,6 +154,611 @@
   "answer": "D",
   "explanation": "Megaloblastic anemia is a type of macrocytic (large red blood cell) anemia caused by impaired DNA synthesis. The two main causes are deficiency of Vitamin B12 or Folic Acid (Folate).\n\nTreatment Strategy: The treatment is to replace the deficient nutrient.\n\nFolate Supplements: If the cause is folic acid deficiency, folate supplements are given.\n\nAlcohol Restriction: Chronic alcohol use is a major cause of folate deficiency because it interferes with its absorption and metabolism. Therefore, restricting alcohol is a key part of the treatment.\n\nOxygen Therapy: If the anemia is severe enough to cause symptoms of hypoxia (e.g., shortness of breath, dizziness), supplemental oxygen is administered.\n\nAnalyzing Other Options:\n(a) Chemotherapy and radiotherapy are cancer treatments.\n(b, c) Iron supplements are incorrect. Giving iron to a patient with megaloblastic anemia without addressing the underlying B12/folate deficiency is ineffective. This is not an iron deficiency anemia.\n(c) Splenectomy is not a treatment for this type of anemia.",
   "additional": "Additional Content & Future Testables:\n\nVitamin B12 Deficiency (Pernicious Anemia): This is the other major cause of megaloblastic anemia. It is often due to a lack of intrinsic factor, a substance produced by the stomach that is necessary for B12 absorption in the ileum.\n\nKey Differentiator: Vitamin B12 deficiency, unlike folate deficiency, causes irreversible neurological symptoms (e.g., peripheral neuropathy, paresthesias, balance problems).\n\nTreatment: Because the problem is absorption, oral B12 is ineffective. Treatment requires lifelong intramuscular or subcutaneous injections of Vitamin B12.\n\nSchilling Test: An older, classic diagnostic test used to differentiate between pernicious anemia and other causes of B12 malabsorption.\n\nFood Sources:\nFolate: Leafy green vegetables, legumes, fortified grains.\nVitamin B12: Found almost exclusively in animal products (meat, fish, dairy, eggs). Strict vegans are at risk for deficiency.\n\nTextbook Reference: Brunner & Suddarth's Textbook of Medical-Surgical Nursing, Chapter 32: Management of Patients With Hematologic Neoplasms."
-}
+},
+  {
+    "question": "1. A patient with a history of sickle cell disease presents with sudden onset of bone pain, fever, and swelling. What is the most likely diagnosis?",
+    "options": {
+      "A": "Osteoarthritis",
+      "B": "Septic arthritis",
+      "C": "Osteomyelitis",
+      "D": "Gout"
+    },
+    "answer": "C",
+    "explanation": "Osteomyelitis is a common complication in patients with sickle cell disease due to bone infarctions and susceptibility to infection. They may present with localized bone pain, fever, swelling, and elevated inflammatory markers.",
+    "additional": "Salmonella species are a common cause of osteomyelitis in sickle cell patients. Blood cultures and imaging (MRI) help confirm the diagnosis."
+  },
+  {
+    "question": "2. What is the first-line treatment for iron deficiency anemia?",
+    "options": {
+      "A": "Intramuscular iron",
+      "B": "Dietary changes only",
+      "C": "Oral ferrous sulfate",
+      "D": "Iron dextran infusion"
+    },
+    "answer": "C",
+    "explanation": "Oral ferrous sulfate is the first-line treatment for iron deficiency anemia. It is inexpensive, effective, and usually well-absorbed when taken on an empty stomach.",
+    "additional": "Common side effects include gastrointestinal discomfort and constipation. Vitamin C enhances absorption. Monitor reticulocyte count and hemoglobin for treatment response."
+  },
+  {
+    "question": "3. A patient with chronic kidney disease develops normocytic, normochromic anemia. What is the most likely cause?",
+    "options": {
+      "A": "Iron deficiency",
+      "B": "Vitamin B12 deficiency",
+      "C": "Erythropoietin deficiency",
+      "D": "Hemolysis"
+    },
+    "answer": "C",
+    "explanation": "Erythropoietin deficiency is the primary cause of anemia in chronic kidney disease. The kidneys fail to produce adequate erythropoietin, a hormone necessary for red blood cell production.",
+    "additional": "Treatment involves erythropoiesis-stimulating agents (ESAs) and ensuring adequate iron stores for optimal response."
+  },
+  {
+    "question": "4. Which of the following is a common complication of polycythemia vera?",
+    "options": {
+      "A": "Bleeding diathesis",
+      "B": "Seizures",
+      "C": "Thrombosis",
+      "D": "Heart failure"
+    },
+    "answer": "C",
+    "explanation": "Thrombosis is a common and serious complication of polycythemia vera due to increased blood viscosity and abnormal platelet function.",
+    "additional": "Symptoms include headaches, dizziness, pruritus, and visual disturbances. Management includes phlebotomy, aspirin, and hydroxyurea."
+  },
+  {
+    "question": "5. What lab finding is characteristic of hemolytic anemia?",
+    "options": {
+      "A": "Low reticulocyte count",
+      "B": "Decreased LDH",
+      "C": "Increased haptoglobin",
+      "D": "Elevated indirect bilirubin"
+    },
+    "answer": "D",
+    "explanation": "Elevated indirect (unconjugated) bilirubin is seen in hemolytic anemia due to increased breakdown of red blood cells.",
+    "additional": "Other findings include elevated LDH, low haptoglobin, and increased reticulocyte count. Peripheral smear may show schistocytes or spherocytes."
+  },
+  {
+    "question": "6. A 5-year-old boy presents with fatigue, pallor, and petechiae. Bone marrow biopsy shows >25% blasts. What is the likely diagnosis?",
+    "options": {
+      "A": "Aplastic anemia",
+      "B": "Acute lymphoblastic leukemia (ALL)",
+      "C": "Thalassemia major",
+      "D": "Immune thrombocytopenia"
+    },
+    "answer": "B",
+    "explanation": "Acute lymphoblastic leukemia is the most common childhood cancer. It presents with fatigue, pallor, bruising, and frequent infections. Bone marrow with >25% lymphoblasts confirms diagnosis.",
+    "additional": "Flow cytometry, cytogenetics, and lumbar puncture help determine prognosis and guide treatment."
+  },
+  {
+    "question": "7. What is the mechanism of action of warfarin?",
+    "options": {
+      "A": "Inhibits thrombin directly",
+      "B": "Inhibits platelet aggregation",
+      "C": "Inhibits vitamin K-dependent clotting factors",
+      "D": "Activates antithrombin III"
+    },
+    "answer": "C",
+    "explanation": "Warfarin inhibits vitamin K epoxide reductase, which impairs synthesis of vitamin K-dependent clotting factors (II, VII, IX, and X).",
+    "additional": "Monitoring is done using INR. It has a narrow therapeutic window and interacts with many drugs and foods."
+  },
+  {
+    "question": "8. Which of the following conditions is associated with microcytic hypochromic anemia?",
+    "options": {
+      "A": "Folate deficiency",
+      "B": "Iron deficiency anemia",
+      "C": "Vitamin B12 deficiency",
+      "D": "Aplastic anemia"
+    },
+    "answer": "B",
+    "explanation": "Iron deficiency anemia is classically microcytic and hypochromic due to impaired hemoglobin synthesis.",
+    "additional": "Common causes include chronic blood loss, poor diet, and increased demand during pregnancy. Confirm with low serum ferritin and high TIBC."
+  },
+  {
+    "question": "9. What is the gold standard test for diagnosing thalassemia?",
+    "options": {
+      "A": "Peripheral blood smear",
+      "B": "Serum ferritin",
+      "C": "Hemoglobin electrophoresis",
+      "D": "Bone marrow biopsy"
+    },
+    "answer": "C",
+    "explanation": "Hemoglobin electrophoresis is the gold standard for diagnosing thalassemia. It identifies abnormal hemoglobin variants such as HbA2 and HbF.",
+    "additional": "Peripheral smear may show target cells. Thalassemia major often presents in infancy with severe anemia and hepatosplenomegaly."
+  },
+  {
+    "question": "10. Which of the following lab results is expected in a patient with vitamin B12 deficiency?",
+    "options": {
+      "A": "Microcytosis",
+      "B": "Hypersegmented neutrophils",
+      "C": "Increased reticulocyte count",
+      "D": "Low MCV"
+    },
+    "answer": "B",
+    "explanation": "Vitamin B12 deficiency causes megaloblastic anemia with hypersegmented neutrophils seen on peripheral smear. It also leads to macrocytosis (elevated MCV).",
+    "additional": "Neurologic symptoms such as paresthesia and ataxia may occur. Confirm with low serum B12 and elevated methylmalonic acid levels."
+  },
+  {
+    "question": "11. Which clotting factor is deficient in Hemophilia A?",
+    "options": {
+      "A": "Factor VII",
+      "B": "Factor VIII",
+      "C": "Factor IX",
+      "D": "Factor X"
+    },
+    "answer": "B",
+    "explanation": "Hemophilia A is a genetic bleeding disorder caused by deficiency of clotting factor VIII. It leads to prolonged bleeding, especially into joints and muscles.",
+    "additional": "It is inherited in an X-linked recessive manner. Treatment involves factor VIII replacement and avoiding trauma."
+  },
+  {
+    "question": "12. Which test is used to monitor warfarin therapy?",
+    "options": {
+      "A": "APTT",
+      "B": "Bleeding time",
+      "C": "INR",
+      "D": "Platelet count"
+    },
+    "answer": "C",
+    "explanation": "INR (International Normalized Ratio) is used to monitor the effectiveness and safety of warfarin therapy. It reflects the prothrombin time (PT).",
+    "additional": "Target INR is typically 2–3 for most indications. It must be monitored regularly due to warfarin’s narrow therapeutic window."
+  },
+  {
+    "question": "13. A patient with thrombocytopenia and elevated PT and APTT is suspected to have which condition?",
+    "options": {
+      "A": "ITP",
+      "B": "DIC",
+      "C": "TTP",
+      "D": "Hemophilia B"
+    },
+    "answer": "B",
+    "explanation": "Disseminated intravascular coagulation (DIC) is a condition characterized by widespread activation of clotting, leading to consumption of clotting factors and platelets. Lab results include prolonged PT, APTT, low platelets, and elevated D-dimers.",
+    "additional": "It occurs in sepsis, trauma, malignancy, and obstetric complications. Management focuses on treating the underlying cause and supportive care."
+  },
+  {
+    "question": "14. Which of the following is characteristic of multiple myeloma?",
+    "options": {
+      "A": "Hypocalcemia",
+      "B": "Elevated IgM levels",
+      "C": "Bence Jones proteins in urine",
+      "D": "Increased platelet count"
+    },
+    "answer": "C",
+    "explanation": "Multiple myeloma is a plasma cell malignancy that produces abnormal immunoglobulin light chains (Bence Jones proteins) detectable in the urine.",
+    "additional": "Other features include hypercalcemia, renal failure, anemia, and lytic bone lesions (CRAB criteria). Diagnosis includes serum electrophoresis and bone marrow biopsy."
+  },
+  {
+    "question": "15. A child presents with easy bruising and a normal platelet count. What is the most likely diagnosis?",
+    "options": {
+      "A": "ITP",
+      "B": "von Willebrand disease",
+      "C": "Hemophilia A",
+      "D": "Aplastic anemia"
+    },
+    "answer": "B",
+    "explanation": "von Willebrand disease is a common inherited bleeding disorder. Patients may have normal platelet counts but prolonged bleeding due to defective platelet adhesion.",
+    "additional": "It is due to deficiency or dysfunction of von Willebrand factor. Diagnosis includes bleeding time, vWF antigen, and ristocetin cofactor activity."
+  },
+  {
+    "question": "16. What is the treatment of choice for sickle cell crisis?",
+    "options": {
+      "A": "NSAIDs",
+      "B": "Steroids",
+      "C": "Hydration and opioids",
+      "D": "Aspirin and diuretics"
+    },
+    "answer": "C",
+    "explanation": "Sickle cell crisis is managed with hydration to reduce sickling and opioids for pain control. Oxygen may be given if hypoxic.",
+    "additional": "Hydroxyurea is used for prevention by increasing fetal hemoglobin. Vaccinations and antibiotics are important for infection prevention."
+  },
+  {
+    "question": "17. Which blood component should be given to a patient with massive blood loss and prolonged PT and APTT?",
+    "options": {
+      "A": "Platelets",
+      "B": "Packed RBCs",
+      "C": "Fresh frozen plasma (FFP)",
+      "D": "Cryoprecipitate"
+    },
+    "answer": "C",
+    "explanation": "Fresh frozen plasma contains all clotting factors and is used to correct coagulopathy in patients with prolonged PT and APTT after massive transfusion.",
+    "additional": "It is also used in DIC and liver failure. Monitor coagulation profile during replacement."
+  },
+  {
+    "question": "18. Which anemia presents with neurological symptoms such as paresthesia and ataxia?",
+    "options": {
+      "A": "Iron deficiency anemia",
+      "B": "Sickle cell anemia",
+      "C": "Vitamin B12 deficiency",
+      "D": "Folate deficiency"
+    },
+    "answer": "C",
+    "explanation": "Vitamin B12 deficiency leads to subacute combined degeneration of the spinal cord, causing paresthesia, gait disturbances, and ataxia.",
+    "additional": "It also causes macrocytic anemia with hypersegmented neutrophils. Folate deficiency does not cause neurologic symptoms."
+  },
+  {
+    "question": "19. Which of the following findings is characteristic of aplastic anemia?",
+    "options": {
+      "A": "Increased reticulocyte count",
+      "B": "Hypercellular bone marrow",
+      "C": "Pancytopenia with hypocellular marrow",
+      "D": "Hemolysis with elevated LDH"
+    },
+    "answer": "C",
+    "explanation": "Aplastic anemia presents with pancytopenia (low RBCs, WBCs, and platelets) and hypocellular bone marrow due to failure of hematopoiesis.",
+    "additional": "It may be idiopathic or due to toxins, drugs, or viral infections. Treatment includes immunosuppressants or bone marrow transplant."
+  },
+  {
+    "question": "20. Which medication can cause folate deficiency?",
+    "options": {
+      "A": "Ciprofloxacin",
+      "B": "Phenytoin",
+      "C": "Metoprolol",
+      "D": "Amoxicillin"
+    },
+    "answer": "B",
+    "explanation": "Phenytoin interferes with folate metabolism and absorption, leading to folate deficiency over time.",
+    "additional": "Other drugs like methotrexate, trimethoprim, and sulfasalazine also cause folate deficiency. Supplementation is often required."
+  },
+  {
+    "question": "21. Which type of anemia is most likely in a vegetarian with fatigue and glossitis?",
+    "options": {
+      "A": "Iron deficiency anemia",
+      "B": "Vitamin B12 deficiency",
+      "C": "Folate deficiency",
+      "D": "Anemia of chronic disease"
+    },
+    "answer": "B",
+    "explanation": "Vitamin B12 deficiency is common in strict vegetarians due to lack of animal products in the diet. It presents with fatigue, glossitis, and sometimes neurologic symptoms.",
+    "additional": "Lab findings include macrocytic anemia, hypersegmented neutrophils, and elevated methylmalonic acid levels. Treated with intramuscular B12 injections."
+  },
+  {
+    "question": "22. What type of hypersensitivity reaction is seen in autoimmune hemolytic anemia?",
+    "options": {
+      "A": "Type I",
+      "B": "Type II",
+      "C": "Type III",
+      "D": "Type IV"
+    },
+    "answer": "B",
+    "explanation": "Autoimmune hemolytic anemia (AIHA) is a Type II hypersensitivity reaction where antibodies bind to red blood cells, leading to their destruction.",
+    "additional": "The Coombs test is used to confirm AIHA. Treatment includes steroids and immunosuppressants."
+  },
+  {
+    "question": "23. A 4-year-old child presents with fever, bleeding gums, and pallor. CBC shows pancytopenia. What is the likely diagnosis?",
+    "options": {
+      "A": "Thalassemia minor",
+      "B": "ALL",
+      "C": "Iron deficiency anemia",
+      "D": "G6PD deficiency"
+    },
+    "answer": "B",
+    "explanation": "Acute lymphoblastic leukemia is the most common childhood malignancy. It presents with bone marrow suppression symptoms like anemia, bleeding, and infection.",
+    "additional": "Bone marrow biopsy and flow cytometry are essential for diagnosis. Treatment is chemotherapy-based and has good prognosis in children."
+  },
+  {
+    "question": "24. What is the characteristic cell seen in Hodgkin lymphoma?",
+    "options": {
+      "A": "Smudge cell",
+      "B": "Reed-Sternberg cell",
+      "C": "Auer rod",
+      "D": "Target cell"
+    },
+    "answer": "B",
+    "explanation": "Reed-Sternberg cells are large, bilobed or multinucleated cells with 'owl’s eye' appearance seen in Hodgkin lymphoma.",
+    "additional": "They are derived from B cells. Common presentation includes painless cervical lymphadenopathy and systemic 'B' symptoms like fever and night sweats."
+  },
+  {
+    "question": "25. Which vitamin is required for proper clotting factor synthesis in the liver?",
+    "options": {
+      "A": "Vitamin A",
+      "B": "Vitamin C",
+      "C": "Vitamin K",
+      "D": "Vitamin D"
+    },
+    "answer": "C",
+    "explanation": "Vitamin K is necessary for γ-carboxylation of clotting factors II, VII, IX, and X in the liver.",
+    "additional": "Deficiency can result from poor intake, malabsorption, or use of warfarin. Presents with bleeding and prolonged PT."
+  },
+  {
+    "question": "26. What is the commonest inherited bleeding disorder?",
+    "options": {
+      "A": "Hemophilia A",
+      "B": "von Willebrand disease",
+      "C": "Hemophilia B",
+      "D": "Factor V Leiden mutation"
+    },
+    "answer": "B",
+    "explanation": "von Willebrand disease is the most common inherited bleeding disorder. It affects both platelet function and the intrinsic pathway of the clotting cascade.",
+    "additional": "Presents with mucocutaneous bleeding. Diagnosis is via vWF antigen and ristocetin cofactor activity. Treated with desmopressin (DDAVP)."
+  },
+  {
+    "question": "27. A patient with sickle cell anemia is started on hydroxyurea. What is the drug's main mechanism?",
+    "options": {
+      "A": "Stimulates erythropoietin",
+      "B": "Increases fetal hemoglobin production",
+      "C": "Improves iron absorption",
+      "D": "Prevents sickling of red blood cells"
+    },
+    "answer": "B",
+    "explanation": "Hydroxyurea increases production of fetal hemoglobin (HbF), which inhibits polymerization of sickle hemoglobin and reduces sickling.",
+    "additional": "It decreases frequency of painful crises and need for transfusions. Monitor for bone marrow suppression."
+  },
+  {
+    "question": "28. Which finding is characteristic of iron deficiency anemia?",
+    "options": {
+      "A": "Elevated serum ferritin",
+      "B": "Low total iron-binding capacity (TIBC)",
+      "C": "Low serum iron and high TIBC",
+      "D": "Normal transferrin saturation"
+    },
+    "answer": "C",
+    "explanation": "Iron deficiency anemia shows low serum iron and elevated total iron-binding capacity (TIBC) due to increased transferrin.",
+    "additional": "Ferritin is typically low. Treatment involves identifying the cause and replacing iron stores."
+  },
+  {
+    "question": "29. A patient presents with fatigue and spoon-shaped nails. What is the likely cause?",
+    "options": {
+      "A": "Iron deficiency anemia",
+      "B": "Pernicious anemia",
+      "C": "Sickle cell disease",
+      "D": "Hemophilia"
+    },
+    "answer": "A",
+    "explanation": "Koilonychia (spoon nails) is a classical sign of iron deficiency anemia. Other features include fatigue, pallor, and pica.",
+    "additional": "Confirm diagnosis with low hemoglobin, low serum ferritin, and microcytic hypochromic RBCs on smear."
+  },
+  {
+    "question": "30. Which of the following is a myeloproliferative disorder?",
+    "options": {
+      "A": "Leukemoid reaction",
+      "B": "Polycythemia vera",
+      "C": "Aplastic anemia",
+      "D": "Thalassemia minor"
+    },
+    "answer": "B",
+    "explanation": "Polycythemia vera is a myeloproliferative disorder characterized by increased red cell mass, often associated with JAK2 mutation.",
+    "additional": "Symptoms include headache, pruritus (especially after hot showers), and thrombotic events. Managed with phlebotomy and hydroxyurea."
+  },
+  {
+    "question": "31. What type of anemia results from chronic blood loss due to heavy menstruation?",
+    "options": {
+      "A": "Megaloblastic anemia",
+      "B": "Iron deficiency anemia",
+      "C": "Aplastic anemia",
+      "D": "Sickle cell anemia"
+    },
+    "answer": "B",
+    "explanation": "Iron deficiency anemia commonly results from chronic blood loss, including heavy menstrual bleeding. It is characterized by microcytic, hypochromic anemia.",
+    "additional": "Treatment involves identifying and addressing the cause of bleeding and oral iron supplementation."
+  },
+  {
+    "question": "32. Which condition is associated with Howell-Jolly bodies in peripheral blood smear?",
+    "options": {
+      "A": "G6PD deficiency",
+      "B": "Asplenia",
+      "C": "Iron deficiency",
+      "D": "Leukemia"
+    },
+    "answer": "B",
+    "explanation": "Howell-Jolly bodies are nuclear remnants in RBCs that are typically removed by the spleen. Their presence suggests functional or anatomical asplenia.",
+    "additional": "Seen in post-splenectomy patients or those with sickle cell disease. Patients require vaccinations against encapsulated organisms."
+  },
+  {
+    "question": "33. What is the most likely diagnosis in a child with low hemoglobin, elevated MCV, and poor dietary intake?",
+    "options": {
+      "A": "Iron deficiency anemia",
+      "B": "Lead poisoning",
+      "C": "Folate deficiency",
+      "D": "Vitamin B12 deficiency"
+    },
+    "answer": "C",
+    "explanation": "Folate deficiency causes macrocytic anemia (elevated MCV) and may occur in children with poor nutrition. Unlike B12 deficiency, it does not cause neurologic symptoms.",
+    "additional": "Diagnosis is based on serum folate levels. Treated with oral folic acid supplementation."
+  },
+  {
+    "question": "34. Which laboratory finding is most specific for hemolysis?",
+    "options": {
+      "A": "Elevated LDH",
+      "B": "Increased haptoglobin",
+      "C": "Elevated reticulocyte count",
+      "D": "Low haptoglobin"
+    },
+    "answer": "D",
+    "explanation": "Low haptoglobin is a specific marker of hemolysis as it binds free hemoglobin released during red cell destruction.",
+    "additional": "Other findings include elevated LDH, indirect bilirubin, and reticulocytosis. Peripheral smear may show schistocytes."
+  },
+  {
+    "question": "35. A patient presents with spontaneous nosebleeds and gum bleeding. Platelet count is 20,000. Diagnosis?",
+    "options": {
+      "A": "Hemophilia",
+      "B": "Leukemia",
+      "C": "Immune thrombocytopenic purpura (ITP)",
+      "D": "von Willebrand disease"
+    },
+    "answer": "C",
+    "explanation": "ITP is an autoimmune condition where antibodies destroy platelets, leading to mucocutaneous bleeding with low platelet counts.",
+    "additional": "Treated with corticosteroids or IVIG. Splenectomy is considered for chronic cases."
+  },
+  {
+    "question": "36. Which inherited condition leads to hemolytic anemia after taking fava beans?",
+    "options": {
+      "A": "G6PD deficiency",
+      "B": "Sickle cell disease",
+      "C": "Thalassemia",
+      "D": "Hereditary spherocytosis"
+    },
+    "answer": "A",
+    "explanation": "G6PD deficiency is an X-linked disorder where oxidative stress (from drugs, infections, or fava beans) triggers hemolysis.",
+    "additional": "Diagnosed with G6PD enzyme assay. Management includes avoiding triggers and supportive care during crises."
+  },
+  {
+    "question": "37. Which factor is deficient in Hemophilia B?",
+    "options": {
+      "A": "Factor VII",
+      "B": "Factor VIII",
+      "C": "Factor IX",
+      "D": "Factor X"
+    },
+    "answer": "C",
+    "explanation": "Hemophilia B (Christmas disease) is caused by deficiency of clotting factor IX and presents similarly to Hemophilia A.",
+    "additional": "Managed with factor IX concentrates. It is X-linked recessive and affects mostly males."
+  },
+  {
+    "question": "38. What does the presence of target cells on blood smear suggest?",
+    "options": {
+      "A": "Iron deficiency anemia",
+      "B": "Vitamin B12 deficiency",
+      "C": "Thalassemia",
+      "D": "Aplastic anemia"
+    },
+    "answer": "C",
+    "explanation": "Target cells are commonly seen in thalassemia due to excess membrane relative to hemoglobin content.",
+    "additional": "Also seen in liver disease and post-splenectomy. Confirm thalassemia with hemoglobin electrophoresis."
+  },
+  {
+    "question": "39. What is the main concern in patients with chronic lymphocytic leukemia (CLL)?",
+    "options": {
+      "A": "Anemia",
+      "B": "Infections",
+      "C": "Bleeding",
+      "D": "Bone pain"
+    },
+    "answer": "B",
+    "explanation": "CLL leads to hypogammaglobulinemia, predisposing patients to recurrent infections, particularly respiratory and urinary tract infections.",
+    "additional": "Management may involve IVIG replacement in those with severe recurrent infections."
+  },
+  {
+    "question": "40. Which test is used to confirm paroxysmal nocturnal hemoglobinuria (PNH)?",
+    "options": {
+      "A": "Coombs test",
+      "B": "Osmotic fragility test",
+      "C": "Flow cytometry for CD55/CD59",
+      "D": "Schilling test"
+    },
+    "answer": "C",
+    "explanation": "PNH is diagnosed by flow cytometry showing absence of CD55 and CD59 on red blood cells, which protect cells from complement.",
+    "additional": "PNH causes hemolysis, thrombosis, and pancytopenia. Eculizumab is a monoclonal antibody used in treatment."
+  },
+  {
+    "question": "41. Which hematological disorder is characterized by pancytopenia and a hypocellular bone marrow?",
+    "options": {
+      "A": "Aplastic anemia",
+      "B": "Thalassemia",
+      "C": "Iron deficiency anemia",
+      "D": "Polycythemia vera"
+    },
+    "answer": "A",
+    "explanation": "Aplastic anemia involves failure of bone marrow to produce adequate blood cells, resulting in pancytopenia with a hypocellular marrow.",
+    "additional": "Causes include viral infections, drugs (e.g., chloramphenicol), autoimmune conditions. Treated with immunosuppression or bone marrow transplant."
+  },
+  {
+    "question": "42. What is the best initial test for evaluating anemia?",
+    "options": {
+      "A": "Reticulocyte count",
+      "B": "Bone marrow biopsy",
+      "C": "Peripheral blood smear",
+      "D": "Hemoglobin electrophoresis"
+    },
+    "answer": "C",
+    "explanation": "A peripheral blood smear provides immediate visual clues to the type of anemia, such as cell size, shape, and presence of abnormal cells.",
+    "additional": "It helps distinguish between microcytic, macrocytic, and normocytic anemia and guides further testing."
+  },
+  {
+    "question": "43. A patient with fatigue and pallor is found to have hemoglobin of 6 g/dL. What is the most appropriate initial treatment?",
+    "options": {
+      "A": "Iron supplements",
+      "B": "Blood transfusion",
+      "C": "Vitamin B12 injection",
+      "D": "Folic acid"
+    },
+    "answer": "B",
+    "explanation": "Severe anemia (Hb <7 g/dL) with symptoms warrants urgent blood transfusion for stabilization before definitive therapy.",
+    "additional": "Monitor for transfusion reactions and follow up with investigation to determine the cause of anemia."
+  },
+  {
+    "question": "44. What test is used to detect hereditary spherocytosis?",
+    "options": {
+      "A": "Coombs test",
+      "B": "Ham test",
+      "C": "Osmotic fragility test",
+      "D": "Bone marrow aspiration"
+    },
+    "answer": "C",
+    "explanation": "The osmotic fragility test detects increased RBC fragility in hereditary spherocytosis, where RBCs are more prone to lysis in hypotonic solutions.",
+    "additional": "Peripheral smear shows spherocytes. Splenectomy is often curative."
+  },
+  {
+    "question": "45. A patient on chemotherapy develops fever and neutropenia. What is the next step?",
+    "options": {
+      "A": "Start steroids",
+      "B": "Wait for culture results",
+      "C": "Start empiric broad-spectrum antibiotics",
+      "D": "Order chest X-ray"
+    },
+    "answer": "C",
+    "explanation": "Febrile neutropenia is a medical emergency. Empiric broad-spectrum antibiotics should be started immediately to prevent sepsis.",
+    "additional": "Common regimens include antipseudomonal beta-lactams. Continue evaluation for infection source while initiating treatment."
+  },
+  {
+    "question": "46. Which blood disorder shows elevated hemoglobin and hematocrit with low erythropoietin levels?",
+    "options": {
+      "A": "Secondary polycythemia",
+      "B": "Iron deficiency anemia",
+      "C": "Polycythemia vera",
+      "D": "Thalassemia trait"
+    },
+    "answer": "C",
+    "explanation": "Polycythemia vera is a myeloproliferative neoplasm characterized by increased red cell mass with low EPO levels due to negative feedback.",
+    "additional": "Symptoms include headache, pruritus, and thrombotic events. JAK2 mutation is commonly present."
+  },
+  {
+    "question": "47. What is the main side effect of iron therapy?",
+    "options": {
+      "A": "Nausea",
+      "B": "Fatigue",
+      "C": "Constipation",
+      "D": "Increased appetite"
+    },
+    "answer": "C",
+    "explanation": "Oral iron therapy commonly causes gastrointestinal side effects, especially constipation. Nausea and dark stools may also occur.",
+    "additional": "Advise patients to take with vitamin C for better absorption and consider stool softeners if needed."
+  },
+  {
+    "question": "48. What is the first-line treatment for ITP in adults with severe thrombocytopenia and bleeding?",
+    "options": {
+      "A": "Platelet transfusion",
+      "B": "Splenectomy",
+      "C": "IVIG or corticosteroids",
+      "D": "Observation only"
+    },
+    "answer": "C",
+    "explanation": "Corticosteroids or intravenous immunoglobulin (IVIG) are first-line treatments for immune thrombocytopenia (ITP) in patients with significant bleeding.",
+    "additional": "Platelet transfusions are used in life-threatening bleeding. Splenectomy is considered for chronic or refractory cases."
+  },
+  {
+    "question": "49. A 2-year-old child has pallor, irritability, and pica. Labs show low hemoglobin and microcytosis. Likely cause?",
+    "options": {
+      "A": "Lead poisoning",
+      "B": "Thalassemia",
+      "C": "Iron deficiency anemia",
+      "D": "Vitamin B12 deficiency"
+    },
+    "answer": "C",
+    "explanation": "Iron deficiency anemia is common in toddlers due to dietary insufficiency. Pica (eating non-food items) is a classic symptom.",
+    "additional": "Treatment includes dietary counseling and oral iron supplementation. Screen for blood loss or malabsorption if recurrent."
+  },
+  {
+    "question": "50. Which leukemia is characterized by the presence of Auer rods?",
+    "options": {
+      "A": "ALL",
+      "B": "CLL",
+      "C": "AML",
+      "D": "CML"
+    },
+    "answer": "C",
+    "explanation": "Auer rods are needle-shaped inclusions seen in the cytoplasm of myeloblasts and are characteristic of acute myeloid leukemia (AML).",
+    "additional": "Diagnosis is confirmed by bone marrow biopsy. Treatment involves chemotherapy and possibly stem cell transplant."
+  }
 ]
+
+
+
+
+  
 
