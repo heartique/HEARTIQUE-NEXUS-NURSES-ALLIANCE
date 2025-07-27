@@ -330,9 +330,9 @@
         const b = document.createElement('button');
         b.className = 'btn';
         b.textContent = `${k}) ${v}`;
-        if (saved[i]) b.disabled = true;
+        if (saved[i]?.selected) b.disabled = true;
         b.onclick = () => {
-          if (saved[i]) return;
+         if (saved[i]?.selected) return;
           saved[i] = { selected: k };
           if (!isSimulationMode) {
             saved[i].correct = k === (q.answer || "").toUpperCase();
