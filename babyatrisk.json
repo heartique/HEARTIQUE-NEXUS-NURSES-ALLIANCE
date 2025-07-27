@@ -1,0 +1,607 @@
+[
+  {
+    "question": "Which of the following conditions is most likely to result in respiratory distress in a newborn?",
+    "options": {
+      "A": "Hyperbilirubinemia",
+      "B": "Meconium aspiration",
+      "C": "Hypoglycemia",
+      "D": "Sepsis"
+    },
+    "answer": "B",
+    "explanation": "Meconium Aspiration Syndrome (MAS) is a direct cause of respiratory distress. It occurs when a fetus, often under stress, passes meconium (first stool) into the amniotic fluid and then inhales it. The meconium can cause mechanical airway obstruction, chemical pneumonitis (inflammation), and inactivation of surfactant, leading to severe breathing difficulty after birth.",
+    "additional": "While sepsis (Option D) can also cause respiratory distress, MAS is a primary pulmonary condition. Hypoglycemia can cause apnea (cessation of breathing), but MAS is a more common cause of classic respiratory distress signs. Hyperbilirubinemia (jaundice) does not directly cause respiratory distress.\nRisk Factors for MAS: Post-term pregnancy, fetal distress during labor, maternal hypertension or diabetes.\nManagement: May require immediate suctioning of the airway at birth, oxygen support, and sometimes mechanical ventilation."
+  },
+  {
+    "question": "What is the most important immediate intervention for a newborn with an Apgar score of 4 at 1 minute?",
+    "options": {
+      "A": "Provide intravenous fluids",
+      "B": "Administer oxygen and stimulate",
+      "C": "Assess for congenital defects",
+      "D": "Begin breastfeeding immediately"
+    },
+    "answer": "B",
+    "explanation": "An Apgar score assesses a newborn's transition to extrauterine life. A score of 4 (out of 10) indicates moderate depression and distress, requiring immediate intervention. The priorities are to establish breathing and improve oxygenation. This is done by providing oxygen (usually via positive pressure ventilation with a bag-mask) and tactile stimulation (e.g., rubbing the back, flicking the soles of the feet) to encourage breathing.",
+    "additional": "Apgar Scoring (0, 1, or 2 points for each):\nAppearance (Color)\nPulse (Heart Rate)\nGrimace (Reflex irritability)\nActivity (Muscle tone)\nRespiration (Breathing effort)\nScore Interpretation:\n7-10: Normal, routine care.\n4-6: Moderate depression, requires stimulation and oxygen.\n0-3: Severe depression, requires immediate, full resuscitation (PPV, possibly chest compressions).\nIV fluids, assessment for defects, and feeding are all secondary to immediate resuscitation."
+  },
+  {
+    "question": "Which of the following is a common sign of neonatal hypoglycemia?",
+    "options": {
+      "A": "Jaundice",
+      "B": "High-pitched cry",
+      "C": "Hypotonia",
+      "D": "Tachypnea"
+    },
+    "answer": "C",
+    "explanation": "Neonatal hypoglycemia (low blood sugar) presents with non-specific neurological symptoms because the brain is deprived of its primary fuel. Hypotonia (floppiness or poor muscle tone), along with lethargy, jitteriness, and poor feeding, are classic signs.",
+    "additional": "Signs of Hypoglycemia: Can be vague. Remember \"JITTERY\": Jitteriness, Irritability, Tremors, Temperature instability, Eye rolling, Respiratory distress (apnea/tachypnea), Yawning/poor feeding. Hypotonia and seizures are also key signs.\nRisk Factors: Infants of diabetic mothers, premature infants, small-for-gestational-age (SGA) or large-for-gestational-age (LGA) infants, and infants with sepsis or hypothermia.\nScreening: Blood glucose screening is routine for all at-risk newborns."
+  },
+  {
+    "question": "Which of the following newborn conditions requires immediate resuscitation?",
+    "options": {
+      "A": "Gestational age of 37 weeks",
+      "B": "Heart rate of 60 bpm and not responding to resuscitation efforts",
+      "C": "Mild cyanosis that resolves with crying",
+      "D": "Temperature of 36.6°C (97.9°F)"
+    },
+    "answer": "B",
+    "explanation": "Heart rate is the single most important indicator of the need for resuscitation in a newborn. A heart rate below 100 bpm requires positive pressure ventilation. A heart rate that remains below 60 bpm despite adequate ventilation is a critical emergency requiring the immediate start of chest compressions and consideration of epinephrine.",
+    "additional": "Neonatal Resuscitation Program (NRP) Algorithm:\nHR > 100: Routine care.\nHR < 100: Start positive pressure ventilation (PPV).\nHR < 60 (despite 30 seconds of effective PPV): Start chest compressions and continue PPV.\nAcrocyanosis (bluish hands and feet) is a normal finding. Central cyanosis (blue lips/trunk) that resolves with crying is less concerning than persistent cyanosis. A temperature of 36.6°C is at the low end of normal but does not require full resuscitation."
+  },
+  {
+    "question": "Which of the following factors is most commonly associated with neonatal sepsis?",
+    "options": {
+      "A": "Prematurity",
+      "B": "Normal birth weight",
+      "C": "Breastfeeding",
+      "D": "Vaginal delivery"
+    },
+    "answer": "A",
+    "explanation": "Prematurity is the most significant risk factor for neonatal sepsis. Preterm infants have an immature immune system (e.g., lower levels of maternal IgG antibodies), thin and fragile skin, and are more likely to require invasive procedures (like IV lines and ventilation), all of which increase their susceptibility to infection.",
+    "additional": "Types of Neonatal Sepsis:\nEarly-onset Sepsis (EOS): Occurs within the first 72 hours of life. Pathogens are acquired from the mother during labor/delivery. The most common cause is Group B Streptococcus (GBS).\nLate-onset Sepsis (LOS): Occurs after 72 hours. Pathogens are acquired from the environment (e.g., in the hospital).\nOther Risk Factors: Maternal GBS colonization, chorioamnionitis, prolonged rupture of membranes (>18 hours).\nBreastfeeding (Option C) is protective against sepsis."
+  },
+  {
+    "question": "A newborn with a high-pitched cry, tremors, and irritability may be experiencing which condition?",
+    "options": {
+      "A": "Neonatal jaundice",
+      "B": "Neonatal abstinence syndrome",
+      "C": "Birth asphyxia",
+      "D": "Meningitis"
+    },
+    "answer": "B",
+    "explanation": "This triad of symptoms—a high-pitched, incessant cry, tremors/jitteriness, and irritability—is the classic presentation of Neonatal Abstinence Syndrome (NAS). NAS is a withdrawal syndrome that occurs in newborns who were exposed to addictive substances (most commonly opioids) in utero.",
+    "additional": "Other Symptoms of NAS: Poor feeding, vomiting, diarrhea, sweating, fever, and seizures.\nManagement: Involves supportive care (e.g., swaddling, minimizing stimulation) and pharmacological treatment (e.g., with morphine or methadone) to control withdrawal symptoms, which are gradually tapered. The Finnegan scoring system is often used to assess the severity of withdrawal and guide treatment.\nMeningitis can also cause irritability and a high-pitched cry, but the combination with tremors strongly points to NAS."
+  },
+  {
+    "question": "Which of the following is a common cause of jaundice in the first 24 hours of life?",
+    "options": {
+      "A": "Physiological jaundice",
+      "B": "Breastfeeding jaundice",
+      "C": "Hemolytic disease of the newborn",
+      "D": "Neonatal hepatitis"
+    },
+    "answer": "C",
+    "explanation": "Jaundice appearing within the first 24 hours of life is always considered pathological and requires immediate investigation. The most common cause is hemolytic disease of the newborn, where there is rapid destruction (hemolysis) of red blood cells. This leads to a rapid buildup of bilirubin that the immature liver cannot handle.",
+    "additional": "Causes of Early Hemolysis:\nRh incompatibility: Rh-negative mother has an Rh-positive baby.\nABO incompatibility: Type O mother has a Type A or B baby (most common cause of hemolytic disease, but often milder than Rh).\nInherited RBC defects like G6PD deficiency or spherocytosis.\nPhysiological Jaundice (Option A): This is the most common type of jaundice overall, but it appears after 24 hours (typically on day 2-3).\nBreastfeeding Jaundice (Option B): Also appears after 24 hours and is related to suboptimal milk intake in the first few days."
+  },
+  {
+    "question": "What is the primary concern for a newborn with a congenital diaphragmatic hernia?",
+    "options": {
+      "A": "Gastrointestinal bleeding",
+      "B": "Respiratory distress",
+      "C": "Cardiac arrhythmia",
+      "D": "Neurological deficits"
+    },
+    "answer": "B",
+    "explanation": "A Congenital Diaphragmatic Hernia (CDH) is a birth defect where there is a hole in the diaphragm, allowing abdominal organs (stomach, intestines, liver) to move into the chest cavity. This severely restricts lung development (pulmonary hypoplasia) and causes severe respiratory distress immediately after birth.",
+    "additional": "Clinical Findings: A scaphoid (sunken) abdomen, barrel-shaped chest, and bowel sounds heard in the chest are classic signs.\nImmediate Management: This is a surgical emergency. The immediate priority is to intubate the infant and provide respiratory support. Bag-mask ventilation is contraindicated as it can pump air into the stomach and intestines, further compressing the lungs. A nasogastric tube should be placed to decompress the stomach."
+  },
+  {
+    "question": "A baby born to a diabetic mother is at risk for which of the following conditions?",
+    "options": {
+      "A": "Neonatal hypoglycemia",
+      "B": "Neonatal hyperkalemia",
+      "C": "Neonatal sepsis",
+      "D": "Neonatal jaundice"
+    },
+    "answer": "A",
+    "explanation": "Infants of diabetic mothers (IDMs) are at high risk for neonatal hypoglycemia shortly after birth. During pregnancy, the fetus is exposed to high maternal glucose levels, causing the fetal pancreas to produce high levels of insulin (hyperinsulinemia). After birth, the maternal glucose supply is cut off, but the infant's high insulin levels persist, causing a rapid drop in their blood sugar.",
+    "additional": "Other Risks for IDMs:\nMacrosomia (large for gestational age) due to the growth-promoting effects of high insulin.\nRespiratory Distress Syndrome (high insulin levels can delay surfactant production).\nHypocalcemia and Hypomagnesemia.\nPolycythemia (high red blood cell count).\nHyperbilirubinemia (jaundice).\nIncreased risk of birth trauma due to large size."
+  },
+  {
+    "question": "Which of the following is the most important early indicator of neonatal distress in the first hours after birth?",
+    "options": {
+      "A": "Color changes, particularly cyanosis",
+      "B": "Increased body temperature",
+      "C": "Skin rashes",
+      "D": "Low birth weight"
+    },
+    "answer": "A",
+    "explanation": "Abnormal skin color is one of the most visible and earliest signs of neonatal distress. Central cyanosis (a bluish discoloration of the trunk, lips, and mucous membranes) indicates hypoxemia and is a critical sign of respiratory or cardiac compromise that requires immediate attention.",
+    "additional": "Distinguishing Central vs. Acrocyanosis:\nAcrocyanosis: Bluish discoloration of only the hands and feet. This is common and usually benign in the first hours after birth due to peripheral vasoconstriction.\nCentral Cyanosis: Always abnormal and indicates a problem with oxygenation.\nOther early signs of distress include grunting, nasal flaring, and retractions (signs of increased work of breathing)."
+  },
+  {
+    "question": "What is the most appropriate action for a neonate presenting with a poor feeding reflex and lethargy?",
+    "options": {
+      "A": "Monitor temperature and hydration status",
+      "B": "Immediately initiate formula feeding",
+      "C": "Place the infant under observation for 24 hours",
+      "D": "Check blood glucose levels"
+    },
+    "answer": "D",
+    "explanation": "Lethargy and poor feeding are classic, albeit non-specific, signs of several serious neonatal conditions. However, they are hallmark symptoms of neonatal hypoglycemia. Because untreated hypoglycemia can cause irreversible brain damage, a heel-stick blood glucose test is the most critical immediate action to rule out or confirm this dangerous and treatable condition.",
+    "additional": "Differential Diagnosis: The same symptoms (lethargy, poor feeding) are also key signs of neonatal sepsis. If the blood glucose is normal, an investigation for sepsis would be the next priority.\nClinical Pathway: In practice, a nurse encountering a lethargic, poor-feeding infant would likely check vital signs (including temperature), check the blood glucose, and notify the physician, who would then initiate a workup that might include blood cultures for sepsis. Checking the glucose is the fastest and most crucial first step."
+  },
+  {
+    "question": "What is the most common cause of respiratory distress in a term infant?",
+    "options": {
+      "A": "Meconium aspiration",
+      "B": "Respiratory distress syndrome",
+      "C": "Transient tachypnea of the newborn",
+      "D": "Pneumothorax"
+    },
+    "answer": "C",
+    "explanation": "Transient Tachypnea of the Newborn (TTN) is the most common cause of respiratory distress in full-term infants. It is a benign, self-limiting condition caused by the delayed clearance of fetal lung fluid after birth. This results in rapid breathing (tachypnea), which typically resolves within 48-72 hours with supportive care (like oxygen).",
+    "additional": "Contrasting Causes of Respiratory Distress:\nRespiratory Distress Syndrome (RDS): This is the most common cause in preterm infants, due to surfactant deficiency. It is much less common in term infants.\nMeconium Aspiration Syndrome (MAS): Occurs in term or post-term infants, but is less common than TTN.\nPneumothorax: Can occur but is not the most common cause.\nRisk Factors for TTN: Delivery by cesarean section without labor (as the \"thoracic squeeze\" of vaginal birth, which helps clear fluid, does not occur), maternal diabetes, and male gender.\nChest X-ray: Typically shows prominent pulmonary vascular markings, fluid in the fissures, and sometimes pleural effusions."
+  },
+  {
+    "question": "A newborn is diagnosed with a cleft lip. What is the most important first step in management?",
+    "options": {
+      "A": "Surgical repair within the first month",
+      "B": "Start feeding with a cleft lip bottle",
+      "C": "Refer to a genetic counselor",
+      "D": "Administer antibiotics to prevent infection"
+    },
+    "answer": "B",
+    "explanation": "The most immediate challenge for a newborn with a cleft lip (with or without a cleft palate) is achieving adequate nutrition. The anatomical defect can make it difficult for the infant to create a proper seal for sucking. Therefore, the most important initial step is to establish an effective feeding method, often using specialized equipment like a cleft lip bottle and nipple (e.g., Haberman feeder, Dr. Brown's specialty feeder).",
+    "additional": "Multidisciplinary Team: Management of a cleft lip/palate is a long-term process involving a team of specialists, including a plastic surgeon, pediatrician, orthodontist, speech therapist, and social worker.\nSurgical Timing: Surgical repair of a cleft lip is typically done at around 3 months of age (following the \"rule of 10s\" - 10 weeks old, 10 pounds, hemoglobin of 10). Cleft palate repair is usually done later, around 9-12 months of age.\nParental Support: Providing emotional support and education to the parents is a critical nursing role."
+  },
+  {
+    "question": "Which of the following is the most common cause of jaundice in a newborn after 24 hours of life?",
+    "options": {
+      "A": "Physiological jaundice",
+      "B": "Hemolytic jaundice",
+      "C": "Biliary atresia",
+      "D": "Sepsis"
+    },
+    "answer": "A",
+    "explanation": "Jaundice that appears after the first 24 hours of life is most commonly physiological. This is a normal, transient condition that occurs in the majority of newborns. It is caused by a combination of increased bilirubin production (from the breakdown of fetal red blood cells) and the temporary immaturity of the newborn's liver, which cannot conjugate and excrete the bilirubin efficiently.",
+    "additional": "Pathological vs. Physiological Jaundice (Key Distinction):\nPathological: Appears within 24 hours, bilirubin rises very quickly, or persists for too long. Usually caused by hemolysis (as in question #7).\nPhysiological: Appears after 24 hours, peaks around day 3-5, and resolves within 1-2 weeks.\nBiliary atresia is a rare but serious cause of prolonged conjugated (direct) hyperbilirubinemia."
+  },
+  {
+    "question": "Which of the following conditions is most commonly associated with an increased risk of neonatal infections?",
+    "options": {
+      "A": "Vaginal delivery",
+      "B": "Prematurity",
+      "C": "Full-term birth",
+      "D": "Exclusive breastfeeding"
+    },
+    "answer": "B",
+    "explanation": "This is a repeat of question #5, emphasizing a core concept. Prematurity is the single greatest risk factor for neonatal infections (sepsis). Preterm infants have an underdeveloped immune system, a fragile skin barrier, and receive fewer protective antibodies from their mother.",
+    "additional": "Protective Factors: Exclusive breastfeeding (Option D) is highly protective against infections as it provides maternal antibodies (especially IgA) and other immune factors.\nRisk Factors: Other risk factors include prolonged rupture of membranes, maternal infection (chorioamnionitis), and the need for invasive procedures."
+  },
+  {
+    "question": "Which of the following would most likely cause a newborn to exhibit abnormal, persistent vomiting?",
+    "options": {
+      "A": "Gastroesophageal reflux",
+      "B": "Pyloric stenosis",
+      "C": "Physiological jaundice",
+      "D": "Neonatal hypoglycemia"
+    },
+    "answer": "B",
+    "explanation": "Pyloric stenosis is a condition where the pylorus (the muscular valve between the stomach and small intestine) becomes thickened, obstructing the passage of food. This leads to forceful, non-bilious, projectile vomiting, which typically starts at 3-6 weeks of age. The infant is often hungry immediately after vomiting.",
+    "additional": "Gastroesophageal Reflux (GER): This is common in infants and involves spitting up or effortless regurgitation. It is not usually forceful or projectile like the vomiting in pyloric stenosis.\nClinical Findings: A palpable \"olive-shaped\" mass may be felt in the epigastrium. An abdominal ultrasound is the diagnostic test of choice.\nMetabolic Consequences: Persistent vomiting leads to a characteristic hypochloremic, hypokalemic metabolic alkalosis.\nTreatment: Requires surgical correction (pyloromyotomy)."
+  },
+  {
+    "question": "What is the most appropriate intervention for a neonate with a temperature of 36.0°C (96.8°F)?",
+    "options": {
+      "A": "Provide fluids and monitor the temperature",
+      "B": "Administer a dose of acetaminophen",
+      "C": "Wrap the baby in a warm blanket and monitor closely",
+      "D": "Start intravenous antibiotics immediately"
+    },
+    "answer": "C",
+    "explanation": "A rectal temperature of 36.0°C is defined as mild to moderate hypothermia in a newborn (normal is 36.5-37.5°C). The priority is to rewarm the infant. This can be done by wrapping the baby in warm blankets, placing a hat on their head, and promoting skin-to-skin contact with the mother. Close monitoring is essential.",
+    "additional": "Consequences of Hypothermia (\"Cold Stress\"): Hypothermia increases metabolic rate and oxygen consumption, which can lead to hypoglycemia, metabolic acidosis, and respiratory distress.\nWarming Methods: For more severe hypothermia, a radiant warmer or an incubator may be required.\nAcetaminophen is for fever, not hypothermia. Antibiotics are for suspected infection, which can cause temperature instability, but warming is the immediate intervention for the low temperature itself."
+  },
+  {
+    "question": "Which of the following is a major concern for a neonate with an umbilical cord prolapse?",
+    "options": {
+      "A": "Fetal heart rate decelerations",
+      "B": "Respiratory distress",
+      "C": "Hyperbilirubinemia",
+      "D": "High blood pressure"
+    },
+    "answer": "A",
+    "explanation": "Umbilical cord prolapse is an obstetric emergency. The major and immediate concern is compression of the umbilical cord between the presenting fetal part and the maternal pelvis. This compression cuts off blood flow and oxygen to the fetus, which is reflected on the fetal monitor as severe, prolonged fetal heart rate decelerations or bradycardia.",
+    "additional": "This is a question about an intrapartum (during labor) risk, but its consequences directly impact the baby at birth.\nManagement: This situation requires immediate intervention to relieve pressure on the cord (e.g., knee-chest position, manually elevating the presenting part) followed by an emergency cesarean section.\nThe outcome for the baby is directly related to how quickly the compression is relieved and delivery is accomplished."
+  },
+  {
+    "question": "Which of the following complications can occur in newborns with a patent ductus arteriosus?",
+    "options": {
+      "A": "Heart failure",
+      "B": "Hypoglycemia",
+      "C": "Jaundice",
+      "D": "Respiratory distress syndrome"
+    },
+    "answer": "A",
+    "explanation": "The ductus arteriosus is a fetal blood vessel that connects the pulmonary artery to the aorta, allowing blood to bypass the lungs. It normally closes shortly after birth. A Patent Ductus Arteriosus (PDA) is when it fails to close. This allows oxygenated blood from the high-pressure aorta to flow back into the pulmonary artery (left-to-right shunt). This extra blood flow to the lungs increases the workload on the heart, which can lead to heart failure.",
+    "additional": "Prevalence: PDA is much more common in preterm infants.\nClinical Signs: A characteristic \"machinery-like\" continuous murmur heard best at the left upper sternal border, bounding pulses, and a wide pulse pressure.\nTreatment: Can be managed with medications like indomethacin or ibuprofen (prostaglandin inhibitors that promote closure) or with surgical/catheter-based closure.\nWhile a large PDA can cause respiratory symptoms, heart failure is the key underlying complication."
+  },
+  {
+    "question": "A newborn with a history of a difficult delivery is at high risk for which of the following?",
+    "options": {
+      "A": "Retinopathy of prematurity",
+      "B": "Brachial plexus injury",
+      "C": "Hyperbilirubinemia",
+      "D": "Hypoglycemia"
+    },
+    "answer": "B",
+    "explanation": "A difficult delivery, particularly one involving shoulder dystocia (where the shoulder gets stuck) or excessive traction on the head and neck, puts the infant at high risk for a brachial plexus injury. The brachial plexus is a network of nerves that supplies the arm. Stretching or tearing these nerves can cause weakness or paralysis of the arm.",
+    "additional": "Types of Brachial Plexus Injury:\nErb's Palsy (most common): Injury to the upper plexus (C5-C6). Results in a characteristic \"waiter's tip\" posture, where the arm hangs at the side, internally rotated, with the wrist flexed.\nKlumpke's Palsy (rare): Injury to the lower plexus (C8-T1). Results in a \"claw hand.\"\nOther Birth Traumas: A difficult delivery also increases the risk of cephalohematoma, clavicle fractures, and facial nerve palsy.\nRetinopathy of prematurity (Option A) is a risk for premature infants, not directly related to a difficult delivery."
+  },
+  {
+    "question": "A newborn born at 32 weeks gestation is at high risk for which of the following?",
+    "options": {
+      "A": "Respiratory distress syndrome",
+      "B": "Sepsis",
+      "C": "Neonatal jaundice",
+      "D": "Neonatal abstinence syndrome"
+    },
+    "answer": "A",
+    "explanation": "Respiratory Distress Syndrome (RDS), formerly known as hyaline membrane disease, is a primary complication of prematurity. Infants born at 32 weeks gestation have immature lungs and have not yet produced sufficient amounts of surfactant—a substance that reduces surface tension and keeps the alveoli open. Without enough surfactant, the alveoli collapse, leading to poor gas exchange, increased work of breathing, and respiratory failure.",
+    "additional": "While a 32-weeker is also at high risk for sepsis (Option B) and jaundice (Option C), RDS is the most direct and characteristic pulmonary complication of this degree of prematurity.\nPrevention: Antenatal corticosteroids (e.g., betamethasone) given to the mother before a predicted preterm birth can accelerate fetal lung maturity and surfactant production.\nTreatment: Involves administering exogenous surfactant directly into the infant's trachea and providing respiratory support (e.g., CPAP or mechanical ventilation)."
+  },
+  {
+    "question": "Which of the following interventions is most appropriate for a newborn who is not breathing and has a heart rate of 50 bpm?",
+    "options": {
+      "A": "Intubate and administer surfactant",
+      "B": "Start chest compressions and administer epinephrine",
+      "C": "Provide resuscitation with positive pressure ventilation",
+      "D": "Administer a bolus of saline intravenously"
+    },
+    "answer": "B",
+    "explanation": "This question tests knowledge of the Neonatal Resuscitation Program (NRP) algorithm. A heart rate below 60 bpm in a newborn that persists despite initial steps (like effective positive pressure ventilation) is a critical emergency. The correct intervention is to start coordinated chest compressions and continue positive pressure ventilation. Epinephrine should be prepared and administered if the heart rate does not respond promptly.",
+    "additional": "NRP Sequence Review:\nInitial steps (Warm, dry, stimulate, clear airway).\nIf apneic or HR < 100 bpm: Start Positive Pressure Ventilation (PPV).\nIf HR remains < 60 bpm after 30 seconds of effective PPV: Start chest compressions (3 compressions to 1 breath ratio).\nIf HR remains < 60 bpm after compressions and PPV: Administer epinephrine.\nSurfactant (Option A) is for RDS, not primarily for initial resuscitation of bradycardia. PPV alone (Option C) is insufficient when the heart rate is this low."
+  },
+  {
+    "question": "What is the most common reason for a newborn to experience an elevated bilirubin level?",
+    "options": {
+      "A": "Immature liver function",
+      "B": "Blood type incompatibility",
+      "C": "Hypoglycemia",
+      "D": "Infection"
+    },
+    "answer": "A",
+    "explanation": "The most common cause of neonatal jaundice (elevated bilirubin) is physiological jaundice. This is due to the immaturity of the newborn's liver enzymes, particularly UDP-glucuronosyltransferase (UGT). This enzyme is responsible for conjugating bilirubin, making it water-soluble for excretion. The newborn liver is temporarily inefficient at this process, leading to a buildup of unconjugated bilirubin.",
+    "additional": "Combined Factors in Physiological Jaundice:\nIncreased Bilirubin Production: Newborns have a higher red blood cell mass and a shorter RBC lifespan, leading to more bilirubin being produced.\nDecreased Bilirubin Clearance: The immature liver has low levels of the UGT enzyme needed to process the bilirubin.\nThis contrasts with pathological jaundice (e.g., from hemolysis, Option B), which involves a disease process causing an excessive bilirubin load, though liver immaturity still plays a role in the ability to cope."
+  },
+  {
+    "question": "Which of the following is the most common cause of neonatal sepsis?",
+    "options": {
+      "A": "Group B Streptococcus",
+      "B": "Escherichia coli",
+      "C": "Listeria monocytogenes",
+      "D": "Staphylococcus aureus"
+    },
+    "answer": "A",
+    "explanation": "Group B Streptococcus (GBS) is the leading cause of early-onset neonatal sepsis (sepsis within the first 72 hours of life). The infant acquires the bacteria from the mother's genital tract during labor and delivery.",
+    "additional": "Prevention is Key: Because of the high morbidity and mortality, universal prenatal screening for GBS is standard practice in many countries. Pregnant women are screened with a vaginal-rectal swab at 35-37 weeks gestation.\nIntrapartum Antibiotic Prophylaxis (IAP): If a mother tests positive for GBS, she is given intravenous antibiotics (typically Penicillin) during labor to prevent transmission to the newborn.\nLate-Onset Sepsis: E. coli is also a significant cause of early-onset sepsis and a more common cause of late-onset sepsis. Listeria is a less common but very serious cause."
+  },
+  {
+    "question": "Which of the following is a common consequence of untreated hypoglycemia in a neonate?",
+    "options": {
+      "A": "Jaundice",
+      "B": "Seizures",
+      "C": "Cardiac arrhythmias",
+      "D": "Diarrhea"
+    },
+    "answer": "B",
+    "explanation": "Glucose is the primary energy source for the brain. Severe or prolonged hypoglycemia in a newborn can lead to significant neurological injury. Seizures are a common and serious manifestation of this neuroglycopenia (lack of glucose in the brain). If left untreated, it can result in permanent brain damage, cerebral palsy, and developmental delays.",
+    "additional": "Mechanism: Insufficient glucose supply impairs neuronal function and can lead to neuronal death.\nUrgency: Neonatal hypoglycemia is a true medical emergency requiring prompt recognition and treatment to prevent these devastating neurological consequences."
+  },
+  {
+    "question": "A baby born with a low birth weight is at risk for which of the following complications?",
+    "options": {
+      "A": "Hypoglycemia",
+      "B": "Hyperthermia",
+      "C": "Hyperbilirubinemia",
+      "D": "Hypernatremia"
+    },
+    "answer": "A",
+    "explanation": "Low Birth Weight (LBW) infants, whether they are premature or small-for-gestational-age (SGA), are at a significantly higher risk for hypoglycemia. This is because they have inadequate glycogen and fat stores to maintain glucose homeostasis, coupled with a relatively higher metabolic rate.",
+    "additional": "LBW infants are also at high risk for many other complications, including:\nHypothermia (not hyperthermia) due to a larger surface area-to-mass ratio and less brown fat.\nRespiratory Distress Syndrome (if premature).\nHyperbilirubinemia (jaundice).\nFeeding difficulties."
+  },
+  {
+    "question": "What is the most appropriate first intervention for a neonate with a temperature of 35°C (95°F)?",
+    "options": {
+      "A": "Administer intravenous fluids",
+      "B": "Place the baby in an incubator for warming",
+      "C": "Start a course of antibiotics",
+      "D": "Perform a head-to-toe physical examination"
+    },
+    "answer": "B",
+    "explanation": "A temperature of 35°C represents moderate hypothermia and is a medical emergency for a neonate. The immediate priority is active rewarming. Placing the baby in a pre-warmed incubator or under a radiant warmer provides a controlled thermal environment to safely and effectively raise the baby's core temperature.",
+    "additional": "Passive vs. Active Rewarming:\nPassive: Skin-to-skin contact, warm blankets. Used for mild hypothermia.\nActive: Radiant warmer, incubator. Used for moderate to severe hypothermia.\nWhile an underlying cause like sepsis might need to be investigated (Option C), the immediate life-threatening problem of hypothermia must be addressed first."
+  },
+  {
+    "question": "What is a major risk factor for neonatal jaundice within the first 24 hours of birth?",
+    "options": {
+      "A": "Breastfeeding",
+      "B": "Hemolytic disease of the newborn",
+      "C": "Vitamin D deficiency",
+      "D": "Prematurity"
+    },
+    "answer": "B",
+    "explanation": "This question is a repeat of #7, emphasizing the concept of pathological jaundice. Jaundice appearing within the first 24 hours is always abnormal. The most common cause is a rapid rate of red blood cell breakdown (hemolysis), which overwhelms the liver's capacity to process bilirubin. This is the hallmark of hemolytic disease of the newborn (e.g., from Rh/ABO incompatibility).",
+    "additional": "Kernicterus: The major risk of severe, untreated hyperbilirubinemia is kernicterus, where unconjugated bilirubin crosses the blood-brain barrier and causes permanent brain damage. This is why early jaundice is taken so seriously."
+  },
+  {
+    "question": "Which of the following is a typical sign of respiratory distress in a neonate?",
+    "options": {
+      "A": "Tachypnea",
+      "B": "Cyanosis around the lips",
+      "C": "Grunting",
+      "D": "All of the above"
+    },
+    "answer": "D",
+    "explanation": "Newborns exhibit several classic signs when they are experiencing respiratory distress. All the options listed are key indicators:\nTachypnea: Abnormally rapid breathing (respiratory rate > 60 breaths/minute).\nCyanosis: A bluish discoloration, especially central cyanosis around the lips and trunk, indicating low oxygen levels.\nGrunting: An audible sound made during expiration as the infant tries to keep their alveoli open by breathing against a partially closed glottis.\nOther signs: Nasal flaring and intercostal/subcostal retractions (sinking in of the chest wall).",
+    "additional": "Recognizing these signs promptly is a critical nursing skill, as they indicate the need for immediate respiratory support and investigation of the underlying cause."
+  },
+  {
+    "question": "Which of the following is a risk factor for neonatal hypothermia?",
+    "options": {
+      "A": "High birth weight",
+      "B": "Prematurity",
+      "C": "Breastfeeding",
+      "D": "Full-term birth"
+    },
+    "answer": "B",
+    "explanation": "Prematurity is a major risk factor for hypothermia. Preterm infants have several disadvantages that make it difficult for them to maintain their body temperature:\nA larger surface area-to-volume ratio, leading to greater heat loss.\nLess subcutaneous fat for insulation.\nImmature thermoregulatory control in the brain.\nLimited stores of brown fat, which is specialized for heat production.",
+    "additional": "Other infants at risk for hypothermia include those who are small-for-gestational-age (SGA), sick (e.g., with sepsis or hypoglycemia), or who have experienced a prolonged resuscitation."
+  },
+  {
+    "question": "What is the most appropriate management for a neonate presenting with a persistent high-pitched cry and abnormal movements?",
+    "options": {
+      "A": "Monitor for feeding issues",
+      "B": "Assess for signs of meningitis or neurological issues",
+      "C": "Provide analgesia for suspected injury",
+      "D": "Administer intravenous glucose"
+    },
+    "answer": "B",
+    "explanation": "A persistent, high-pitched cry (often described as a \"neuro cry\") combined with abnormal movements (like seizures or excessive jitteriness) is a significant red flag for serious central nervous system (CNS) irritation or injury. This presentation requires an immediate and thorough neurological assessment to rule out conditions like meningitis, intracranial hemorrhage, or severe hypoxic-ischemic encephalopathy.",
+    "additional": "Meningitis in Newborns: Signs can be subtle and non-specific. Besides a high-pitched cry, look for lethargy, poor feeding, temperature instability (fever or hypothermia), and a bulging fontanelle. A lumbar puncture is required for diagnosis.\nHypoglycemia (Option D): While it can cause jitteriness and seizures, the high-pitched cry is more indicative of CNS irritation like meningitis. Glucose should still be checked, but the primary workup is neurological."
+  },
+  {
+    "question": "What is the key factor for successful management of neonatal jaundice in the first 24 hours of life?",
+    "options": {
+      "A": "Early feeding",
+      "B": "Monitoring bilirubin levels",
+      "C": "Phototherapy",
+      "D": "Avoiding breastfeeding"
+    },
+    "answer": "A",
+    "explanation": "For physiological jaundice (which starts after 24 hours), early and frequent feeding is the key to management and prevention. Early feeding stimulates gut motility, which promotes the passage of meconium. Bilirubin is excreted in the stool, so establishing regular bowel movements is crucial for clearing bilirubin from the body.",
+    "additional": "Important Distinction: The question asks about jaundice in the first 24 hours, which is pathological (likely hemolytic). In that case, the key factor is identifying the underlying cause and starting treatment like phototherapy or exchange transfusion. However, the provided answer is \"Early feeding.\" This suggests the question may be poorly worded and is likely referring to the prevention of the more common physiological jaundice. For exam purposes, remember that early, frequent feeding is the primary strategy to prevent and manage mild physiological jaundice.\nBreastfeeding vs. Breast Milk Jaundice:\nBreastfeeding Jaundice: Early onset (first week), due to insufficient milk intake and dehydration. The solution is to improve breastfeeding technique and frequency.\nBreast Milk Jaundice: Later onset (after first week), due to a substance in breast milk that inhibits bilirubin conjugation. It is benign, and breastfeeding should continue."
+  },
+  {
+    "question": "Which of the following is the most likely complication of a preterm neonate with prolonged respiratory distress?",
+    "options": {
+      "A": "Pulmonary hypertension",
+      "B": "Apnea",
+      "C": "Renal failure",
+      "D": "Hypoglycemia"
+    },
+    "answer": "B",
+    "explanation": "Apnea of prematurity is a common complication in preterm infants. It is defined as a pause in breathing for more than 20 seconds, often accompanied by bradycardia or desaturation. The immature respiratory control center in the brain of a preterm infant is easily fatigued, especially when under stress from a condition like prolonged respiratory distress syndrome (RDS).",
+    "additional": "Other Complications: Prolonged respiratory distress and the necessary treatments (high oxygen, mechanical ventilation) can also lead to:\nBronchopulmonary Dysplasia (BPD): A chronic lung disease caused by lung injury from ventilation and oxygen.\nPulmonary Hypertension (Option A): Can be a consequence of BPD.\nRetinopathy of Prematurity (ROP): Related to oxygen toxicity.\nThe primary complication related to the immature respiratory drive itself is apnea."
+  },
+  {
+    "question": "A neonate who has experienced prolonged labor is at risk for which of the following?",
+    "options": {
+      "A": "Birth asphyxia",
+      "B": "Hyperglycemia",
+      "C": "Hyperbilirubinemia",
+      "D": "Neonatal sepsis"
+    },
+    "answer": "A",
+    "explanation": "Prolonged labor can lead to periods of reduced blood flow through the umbilical cord and placenta due to repeated, lengthy uterine contractions. This can result in birth asphyxia, a condition of insufficient oxygen supply to the fetus/newborn, which can lead to hypoxic-ischemic encephalopathy (HIE) and long-term neurological damage.",
+    "additional": "Cascade of Risks: Prolonged labor -> Fetal Distress -> Birth Asphyxia -> HIE.\nOther Risks of Prolonged Labor:\nNeonatal Sepsis (Option D): Increased risk, especially if membranes are ruptured for a long time.\nBirth Trauma: Increased risk of caput succedaneum, cephalohematoma, or nerve injuries.\nAsphyxia is the most direct and severe consequence related to compromised oxygenation during the prolonged labor process."
+  },
+  {
+    "question": "Which of the following is a major risk factor for congenital hypothyroidism in a neonate?",
+    "options": {
+      "A": "Maternal iodine deficiency",
+      "B": "Prematurity",
+      "C": "Intrauterine growth restriction",
+      "D": "Family history of diabetes"
+    },
+    "answer": "A",
+    "explanation": "Iodine is an essential component of thyroid hormones (T3 and T4). Severe maternal iodine deficiency during pregnancy means the mother cannot produce enough thyroid hormone for herself or the developing fetus. The fetus is entirely dependent on maternal thyroid hormone in early pregnancy. This deficiency leads to congenital hypothyroidism in the newborn, which can cause severe intellectual disability (cretinism) if not detected and treated early.",
+    "additional": "Newborn Screening: Congenital hypothyroidism is one of the conditions screened for in routine newborn screening programs (heel-prick blood test). Early detection and treatment with levothyroxine can prevent the devastating neurological consequences.\nOther Causes: Other causes include thyroid dysgenesis (abnormal development of the thyroid gland), which is the most common cause in iodine-sufficient regions."
+  },
+  {
+    "question": "Which of the following is the most appropriate way to prevent neonatal tetanus in resource-limited settings?",
+    "options": {
+      "A": "Administer a tetanus vaccination to the newborn",
+      "B": "Ensure clean and sterile delivery conditions",
+      "C": "Provide antibiotics to the newborn",
+      "D": "Administer vitamin K to the newborn"
+    },
+    "answer": "B",
+    "explanation": "Neonatal tetanus is caused by contamination of the umbilical stump with spores of Clostridium tetani, which is commonly found in soil. The most effective prevention strategy at the time of birth is ensuring a clean delivery. This includes using sterile instruments to cut the cord and practicing clean cord care after birth.",
+    "additional": "The \"Three Cleans\": A key public health message:\nClean hands (of the birth attendant).\nClean delivery surface.\nClean cord-cutting instrument and clean cord care.\nMaternal Immunization: The other critical strategy is ensuring mothers are immunized with the tetanus toxoid vaccine before or during pregnancy. This provides passive immunity to the newborn, protecting them in the first few months of life. Newborns themselves do not typically receive a tetanus shot at birth."
+  },
+  {
+    "question": "What is the most important management for a neonate with persistent vomiting and failure to pass meconium?",
+    "options": {
+      "A": "Intravenous hydration",
+      "B": "Surgical consultation for possible intestinal obstruction",
+      "C": "Early breastfeeding",
+      "D": "Routine monitoring for jaundice"
+    },
+    "answer": "B",
+    "explanation": "The combination of persistent vomiting (especially if bilious - green) and failure to pass meconium within the first 24-48 hours of life is highly suggestive of a distal intestinal obstruction. This is a surgical emergency. While hydration is important, the definitive management is to identify and correct the blockage.",
+    "additional": "Differential Diagnosis for Distal Obstruction:\nHirschsprung's Disease: Absence of ganglion cells in the distal colon, leading to a functional obstruction.\nMeconium Ileus: Thick, impacted meconium obstructing the ileum. This is pathognomonic for cystic fibrosis.\nIntestinal Atresia: Congenital absence or closure of a portion of the intestine.\nInitial Steps: The infant should be made NPO (nothing by mouth), a nasogastric tube placed for decompression, IV fluids started, and an urgent surgical consultation obtained."
+  },
+  {
+    "question": "Which of the following conditions is a leading cause of neonatal hypoxia during labor and delivery?",
+    "options": {
+      "A": "Umbilical cord prolapse",
+      "B": "Hyperbilirubinemia",
+      "C": "Meconium aspiration",
+      "D": "Hyperglycemia"
+    },
+    "answer": "A",
+    "explanation": "Umbilical cord prolapse is a direct and immediate cause of severe neonatal hypoxia. When the cord descends ahead of the baby, it becomes compressed, cutting off the flow of oxygenated blood from the placenta to the fetus. This leads to profound and rapid hypoxia if not managed immediately.",
+    "additional": "While meconium aspiration (Option C) is a result of hypoxia, cord prolapse is a primary cause of hypoxia during delivery.\nHyperbilirubinemia and hyperglycemia do not cause hypoxia."
+  },
+  {
+    "question": "Which of the following is the most appropriate treatment for neonatal hypoglycemia?",
+    "options": {
+      "A": "Administer glucose intravenously",
+      "B": "Perform a lumbar puncture",
+      "C": "Increase maternal breastfeeding",
+      "D": "Start antibiotics"
+    },
+    "answer": "A",
+    "explanation": "For a newborn with symptomatic or severe hypoglycemia, intravenous (IV) glucose is the most appropriate and rapid treatment. This bypasses the gut and directly corrects the low blood sugar, preventing neurological damage. While early breastfeeding is important for prevention and management of mild cases, IV therapy is required for severe or symptomatic cases.",
+    "additional": "Management Steps:\nAsymptomatic with mild hypoglycemia: Can often be managed with early feeding (breast milk or formula).\nSymptomatic or severe hypoglycemia: Requires IV glucose, often starting with a bolus (e.g., 2 mL/kg of D10W) followed by a continuous infusion."
+  },
+  {
+    "question": "What is the most important factor to monitor for a neonate born with a congenital heart defect?",
+    "options": {
+      "A": "Heart rate and rhythm",
+      "B": "Temperature regulation",
+      "C": "Weight gain",
+      "D": "Feeding tolerance"
+    },
+    "answer": "A",
+    "explanation": "Infants with Congenital Heart Defects (CHD) are at high risk for cardiac arrhythmias and hemodynamic instability. Therefore, continuous monitoring of the heart rate and rhythm via a cardiorespiratory monitor is the most important factor to detect life-threatening events like bradycardia, tachycardia, or other arrhythmias promptly.",
+    "additional": "Other Key Monitoring:\nOxygen Saturation: Crucial for detecting cyanosis and assessing the severity of the defect.\nRespiratory Rate and Effort: To monitor for signs of heart failure (e.g., tachypnea).\nBlood Pressure: To assess for hemodynamic stability.\nWhile feeding and weight gain are important long-term, managing immediate life-threatening cardiorespiratory instability is the priority."
+  },
+  {
+    "question": "What is the most appropriate management for a neonate presenting with a persistent high-pitched cry and abnormal movements?",
+    "options": {
+      "A": "Monitor for feeding issues",
+      "B": "Assess for signs of meningitis or neurological issues",
+      "C": "Provide analgesia for suspected injury",
+      "D": "Administer intravenous glucose"
+    },
+    "answer": "B",
+    "explanation": "This is a repeat of question #31, emphasizing the importance of recognizing neurological red flags. A persistent, high-pitched \"neuro cry\" along with abnormal movements (seizures, excessive irritability) strongly suggests a central nervous system problem. The top priority is a rapid assessment for serious conditions like meningitis, encephalitis, or intracranial hemorrhage.",
+    "additional": "Actionable Step: Assessment would involve a full neurological exam, checking fontanelles for bulging, and preparing for diagnostic tests like a lumbar puncture and/or cranial ultrasound/CT scan."
+  },
+  {
+    "question": "What is the key factor for successful management of neonatal jaundice in the first 24 hours of life?",
+    "options": {
+      "A": "Early feeding",
+      "B": "Monitoring bilirubin levels",
+      "C": "Phototherapy",
+      "D": "Avoiding breastfeeding"
+    },
+    "answer": "A",
+    "explanation": "As discussed in question #32, this question is slightly ambiguous. Jaundice within the first 24 hours is pathological and its management involves treating the cause (e.g., phototherapy for hemolysis). However, the prevention and management of the far more common physiological jaundice (which appears after 24 hours) relies heavily on early and frequent feeding. This promotes stooling, which is the primary way the body eliminates bilirubin. Given the options, \"early feeding\" is presented as the key factor.",
+    "additional": "Exam Strategy: Recognize that \"early feeding\" is the cornerstone of preventing and managing uncomplicated jaundice. Breastfeeding should never be avoided; in fact, it should be encouraged. Phototherapy is a treatment for high levels, not an initial management factor for all jaundice."
+  },
+  {
+    "question": "Which of the following is the most likely complication of a preterm neonate with prolonged respiratory distress?",
+    "options": {
+      "A": "Pulmonary hypertension",
+      "B": "Apnea",
+      "C": "Renal failure",
+      "D": "Hypoglycemia"
+    },
+    "answer": "B",
+    "explanation": "This is a repeat of question #33. Preterm infants have an immature central nervous system and a weak respiratory drive. When they are already stressed by a condition like prolonged respiratory distress, their respiratory center can fatigue easily, leading to apnea (pauses in breathing >20 seconds).",
+    "additional": "Relationship: Apnea is a direct manifestation of the immature respiratory control system in preterm infants. The other options are also risks for preterm infants but are not as directly linked to respiratory muscle fatigue as apnea is."
+  },
+  {
+    "question": "A neonate who has experienced prolonged labor is at risk for which of the following?",
+    "options": {
+      "A": "Birth asphyxia",
+      "B": "Hyperglycemia",
+      "C": "Hyperbilirubinemia",
+      "D": "Neonatal sepsis"
+    },
+    "answer": "A",
+    "explanation": "This is a repeat of question #34, highlighting another critical concept. Prolonged labor can compromise uteroplacental blood flow due to extended periods of uterine contractions and potential cord compression. This can lead to birth asphyxia (deprivation of oxygen), which can cause hypoxic-ischemic brain injury.",
+    "additional": "Sepsis (Option D) is also a risk, especially with prolonged rupture of membranes, but asphyxia is the more immediate concern related to the mechanical stress of a long labor."
+  },
+  {
+    "question": "Which of the following is a major risk factor for congenital hypothyroidism in a neonate?",
+    "options": {
+      "A": "Maternal iodine deficiency",
+      "B": "Prematurity",
+      "C": "Intrauterine growth restriction",
+      "D": "Family history of diabetes"
+    },
+    "answer": "A",
+    "explanation": "This is a repeat of question #35. Iodine is essential for the synthesis of thyroid hormones. Severe maternal iodine deficiency is a major global cause of congenital hypothyroidism, as the fetus depends on maternal iodine supply. If untreated, it leads to severe cognitive and developmental impairment (cretinism).",
+    "additional": "This underscores the importance of adequate maternal nutrition during pregnancy for proper fetal development."
+  },
+  {
+    "question": "Which of the following is the most appropriate way to prevent neonatal tetanus in resource-limited settings?",
+    "options": {
+      "A": "Administer a tetanus vaccination to the newborn",
+      "B": "Ensure clean and sterile delivery conditions",
+      "C": "Provide antibiotics to the newborn",
+      "D": "Administer vitamin K to the newborn"
+    },
+    "answer": "B",
+    "explanation": "This is a repeat of question #36. Neonatal tetanus is an infection of the umbilical stump. The most effective preventative measure during the birth process is to ensure aseptic technique, including using a sterile blade to cut the cord and keeping the stump clean and dry afterwards.",
+    "additional": "This question highlights a key public health intervention that has dramatically reduced neonatal mortality worldwide. The combination of clean delivery practices and maternal tetanus immunization is the cornerstone of prevention."
+  },
+  {
+    "question": "What is the most important management for a neonate with persistent vomiting and failure to pass meconium?",
+    "options": {
+      "A": "Intravenous hydration",
+      "B": "Surgical consultation for possible intestinal obstruction",
+      "C": "Early breastfeeding",
+      "D": "Routine monitoring for jaundice"
+    },
+    "answer": "B",
+    "explanation": "This is a repeat of question #37. The combination of vomiting and failure to pass meconium in the first 24-48 hours is a classic presentation of a bowel obstruction. This is a surgical emergency, and the most important management step is to get an urgent surgical consultation.",
+    "additional": "While IV hydration (Option A) will be necessary supportive care, it does not address the underlying problem. The priority is to diagnose and treat the cause of the obstruction."
+  },
+  {
+    "question": "Which of the following conditions is a leading cause of neonatal hypoxia during labor and delivery?",
+    "options": {
+      "A": "Umbilical cord prolapse",
+      "B": "Hyperbilirubinemia",
+      "C": "Meconium aspiration",
+      "D": "Hyperglycemia"
+    },
+    "answer": "A",
+    "explanation": "This is a repeat of question #38. Umbilical cord prolapse causes acute, severe hypoxia because the cord, which is the baby's lifeline, gets compressed, cutting off its blood and oxygen supply. It is one of the most urgent obstetric emergencies.",
+    "additional": "This reinforces the difference between a cause of hypoxia (cord prolapse) and a result of hypoxia (meconium aspiration)."
+  },
+  {
+    "question": "Which of the following is the most appropriate treatment for neonatal hypoglycemia?",
+    "options": {
+      "A": "Administer glucose intravenously",
+      "B": "Perform a lumbar puncture",
+      "C": "Increase maternal breastfeeding",
+      "D": "Start antibiotics"
+    },
+    "answer": "A",
+    "explanation": "This is a repeat of question #39. For newborns with significant or symptomatic hypoglycemia, direct correction with intravenous glucose is the most appropriate and rapid treatment to prevent neurological damage.",
+    "additional": "The choice between oral/enteral glucose (e.g., feeding, buccal gel) and IV glucose depends on the severity of the hypoglycemia and the infant's clinical status (e.g., ability to feed, presence of symptoms). IV is for more severe cases."
+  },
+  {
+    "question": "What is the most important factor to monitor for a neonate born with a congenital heart defect?",
+    "options": {
+      "A": "Heart rate and rhythm",
+      "B": "Temperature regulation",
+      "C": "Weight gain",
+      "D": "Feeding tolerance"
+    },
+    "answer": "A",
+    "explanation": "This is a repeat of question #40. Newborns with Congenital Heart Defects (CHD) are at high risk for life-threatening arrhythmias and hemodynamic instability. Therefore, continuous cardiorespiratory monitoring of the heart rate and rhythm, along with oxygen saturation, is the highest priority.",
+    "additional": "Feeding tolerance and weight gain are very important for long-term management, as many infants with CHD have \"failure to thrive.\" However, immediate survival depends on managing cardiorespiratory stability."
+  }
+]
+
+
+
+
+
