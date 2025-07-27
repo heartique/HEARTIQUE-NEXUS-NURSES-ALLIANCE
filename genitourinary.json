@@ -310,8 +310,613 @@
     "answer": "C",
     "explanation": "Albumin maintains oncotic (pulling) pressure in blood vessels. In nephrotic syndrome, albumin is lost in urine (proteinuria), causing hypoalbuminemia. This reduces oncotic pressure and allows fluid to leak into tissues, resulting in edema.",
     "additional": "Key Edema Mechanism:\n- ↓ Albumin → ↓ Oncotic pressure → Fluid shifts into interstitial space\n\nOther Facts:\n- Liver compensates by producing more lipids → hyperlipidemia\n- Despite swelling, patients may be intravascularly dehydrated\n- Diuretics must be used cautiously\n\nCompare Edema Causes:\n- Heart Failure: ↑ Hydrostatic pressure\n- Liver Failure: ↓ Albumin + ↑ Portal pressure\n- Nephrotic Syndrome: ↓ Oncotic pressure only\n\nTextbook Reference: Lewis’s Medical-Surgical Nursing, Chapter 45."
+  },
+  {
+    "question": "1. Which of the following is the most common causative organism for urinary tract infection (UTI)?",
+    "options": {
+      "A": "Streptococcus pneumoniae",
+      "B": "Escherichia coli",
+      "C": "Proteus mirabilis",
+      "D": "Pseudomonas aeruginosa"
+    },
+    "answer": "B",
+    "explanation": "Escherichia coli is the most common causative agent for urinary tract infections (UTIs), especially in women.",
+    "additional": "It originates from the gastrointestinal tract and ascends through the urethra to cause infection."
+  },
+  {
+    "question": "2. Which of the following signs is least likely associated with acute pyelonephritis?",
+    "options": {
+      "A": "Fever",
+      "B": "Flank pain",
+      "C": "Costovertebral angle tenderness",
+      "D": "Chest pain"
+    },
+    "answer": "D",
+    "explanation": "Chest pain is not a common feature of acute pyelonephritis. The condition typically presents with fever, flank pain, and costovertebral angle tenderness.",
+    "additional": "Urinary symptoms such as dysuria and frequency are often present as well."
+  },
+  {
+    "question": "3. What is the primary treatment for nephrotic syndrome?",
+    "options": {
+      "A": "Antibiotics",
+      "B": "High protein diet",
+      "C": "Corticosteroids",
+      "D": "Diuretics alone"
+    },
+    "answer": "C",
+    "explanation": "Corticosteroids are the mainstay of treatment for nephrotic syndrome, especially in minimal change disease.",
+    "additional": "Diuretics may help control edema, but steroids address the underlying inflammation and proteinuria."
+  },
+  {
+    "question": "4. Which condition is characterized by sudden onset of gross hematuria, proteinuria, and hypertension in children?",
+    "options": {
+      "A": "Nephrotic syndrome",
+      "B": "Glomerulonephritis",
+      "C": "UTI",
+      "D": "Renal calculi"
+    },
+    "answer": "B",
+    "explanation": "Acute glomerulonephritis often presents with hematuria, proteinuria, edema, and hypertension in children.",
+    "additional": "It may follow streptococcal throat infection (post-streptococcal glomerulonephritis)."
+  },
+  {
+    "question": "5. A patient with renal calculi is advised to increase fluid intake primarily to:",
+    "options": {
+      "A": "Reduce fever",
+      "B": "Prevent dehydration",
+      "C": "Dilute urine and prevent stone formation",
+      "D": "Improve appetite"
+    },
+    "answer": "C",
+    "explanation": "Increased fluid intake dilutes urine and helps prevent supersaturation of minerals that form kidney stones.",
+    "additional": "Adequate hydration is one of the most important preventive strategies."
+  },
+  {
+    "question": "6. Which of the following is a common complication of benign prostatic hyperplasia (BPH)?",
+    "options": {
+      "A": "Urinary retention",
+      "B": "Renal carcinoma",
+      "C": "Testicular torsion",
+      "D": "Urinary incontinence in females"
+    },
+    "answer": "A",
+    "explanation": "BPH can lead to obstruction of urine flow, resulting in urinary retention, frequent urination, and urgency.",
+    "additional": "In severe cases, it may cause bladder distention or renal damage."
+  },
+  {
+    "question": "7. Which laboratory value would be elevated in a patient with chronic kidney disease (CKD)?",
+    "options": {
+      "A": "Creatinine",
+      "B": "Albumin",
+      "C": "Hemoglobin",
+      "D": "Calcium"
+    },
+    "answer": "A",
+    "explanation": "Serum creatinine rises as kidney function declines. It is a key indicator of renal impairment.",
+    "additional": "CKD also commonly causes elevated BUN, hyperkalemia, and metabolic acidosis."
+  },
+  {
+    "question": "8. What is the priority nursing action for a patient undergoing hemodialysis?",
+    "options": {
+      "A": "Monitor blood glucose",
+      "B": "Assess AV fistula for thrill and bruit",
+      "C": "Encourage fluid intake",
+      "D": "Apply warm compress to fistula site"
+    },
+    "answer": "B",
+    "explanation": "A functioning AV fistula should have a palpable thrill and audible bruit, indicating patency for dialysis.",
+    "additional": "Never use the fistula arm for blood draws or BP measurements to avoid damage."
+  },
+  {
+    "question": "9. Which of the following is the earliest symptom of bladder cancer?",
+    "options": {
+      "A": "Flank pain",
+      "B": "Gross painless hematuria",
+      "C": "Dysuria",
+      "D": "Fever"
+    },
+    "answer": "B",
+    "explanation": "Painless hematuria is often the first and most common symptom of bladder cancer.",
+    "additional": "Further evaluation includes cystoscopy and imaging studies."
+  },
+  {
+    "question": "10. What is the most common cause of acute kidney injury (AKI) in hospitalized patients?",
+    "options": {
+      "A": "Hypertension",
+      "B": "Nephrotic syndrome",
+      "C": "Sepsis and hypotension",
+      "D": "Polycystic kidney disease"
+    },
+    "answer": "C",
+    "explanation": "Sepsis and hypotension reduce renal perfusion, leading to prerenal acute kidney injury.",
+    "additional": "Prompt fluid resuscitation and infection control are essential to reverse the process."
+  },
+  {
+    "question": "11. Which of the following is the best indicator of fluid balance in a patient with renal failure?",
+    "options": {
+      "A": "Daily weight",
+      "B": "Skin turgor",
+      "C": "Mucous membranes",
+      "D": "Pulse rate"
+    },
+    "answer": "A",
+    "explanation": "Daily weight is the most accurate noninvasive indicator of fluid balance, especially in renal failure.",
+    "additional": "A gain of 1 kg equals approximately 1 liter of fluid retention."
+  },
+  {
+    "question": "12. Which electrolyte imbalance is commonly seen in patients with end-stage renal disease (ESRD)?",
+    "options": {
+      "A": "Hypokalemia",
+      "B": "Hyperkalemia",
+      "C": "Hypercalcemia",
+      "D": "Hypophosphatemia"
+    },
+    "answer": "B",
+    "explanation": "Hyperkalemia is a life-threatening complication of ESRD due to impaired excretion of potassium.",
+    "additional": "Monitor ECG changes and treat promptly with insulin, calcium gluconate, or dialysis."
+  },
+  {
+    "question": "13. A patient complains of urgency, frequency, and burning sensation on urination. What is the most likely diagnosis?",
+    "options": {
+      "A": "Renal calculi",
+      "B": "Cystitis",
+      "C": "Prostatitis",
+      "D": "Glomerulonephritis"
+    },
+    "answer": "B",
+    "explanation": "These symptoms are classic for cystitis, a lower urinary tract infection affecting the bladder.",
+    "additional": "Urinalysis shows pyuria, bacteriuria, and sometimes hematuria."
+  },
+  {
+    "question": "14. What is the purpose of Kegel exercises?",
+    "options": {
+      "A": "Improve digestion",
+      "B": "Enhance memory",
+      "C": "Strengthen pelvic floor muscles",
+      "D": "Reduce blood pressure"
+    },
+    "answer": "C",
+    "explanation": "Kegel exercises help strengthen the pelvic floor, improving urinary incontinence and pelvic support.",
+    "additional": "Often recommended postpartum and for patients with stress incontinence."
+  },
+  {
+    "question": "15. Which urine color may suggest the presence of myoglobin due to rhabdomyolysis?",
+    "options": {
+      "A": "Clear",
+      "B": "Bright yellow",
+      "C": "Tea-colored or brown",
+      "D": "Red with clots"
+    },
+    "answer": "C",
+    "explanation": "Myoglobin released from muscle breakdown turns urine tea-colored or brown and can damage kidneys.",
+    "additional": "Treatment includes aggressive IV hydration to prevent acute kidney injury."
+  },
+  {
+    "question": "16. What is the nurse's priority after a patient returns from cystoscopy?",
+    "options": {
+      "A": "Check for constipation",
+      "B": "Monitor urine output and color",
+      "C": "Assess bowel sounds",
+      "D": "Administer antibiotics"
+    },
+    "answer": "B",
+    "explanation": "Blood-tinged urine is normal after cystoscopy, but output should be monitored for obstruction or injury.",
+    "additional": "Encourage fluid intake to flush the urinary tract and prevent infection."
+  },
+  {
+    "question": "17. What condition involves involuntary leakage of urine during activities such as coughing or sneezing?",
+    "options": {
+      "A": "Urge incontinence",
+      "B": "Overflow incontinence",
+      "C": "Stress incontinence",
+      "D": "Functional incontinence"
+    },
+    "answer": "C",
+    "explanation": "Stress incontinence occurs when increased intra-abdominal pressure exceeds urethral resistance.",
+    "additional": "Common in women after childbirth. Kegel exercises and surgery are treatment options."
+  },
+  {
+    "question": "18. Which intervention helps prevent catheter-associated urinary tract infections (CAUTIs)?",
+    "options": {
+      "A": "Routine irrigation",
+      "B": "Sterile insertion and early removal",
+      "C": "Daily antibiotic prophylaxis",
+      "D": "Increasing catheter size"
+    },
+    "answer": "B",
+    "explanation": "Aseptic insertion and minimizing catheter duration reduce the risk of CAUTIs significantly.",
+    "additional": "Use of closed drainage systems and perineal hygiene are also critical."
+  },
+  {
+    "question": "19. What symptom may indicate prostate enlargement?",
+    "options": {
+      "A": "Painful ejaculation",
+      "B": "Weight loss",
+      "C": "Hesitancy and weak stream",
+      "D": "Scrotal swelling"
+    },
+    "answer": "C",
+    "explanation": "Benign prostatic hyperplasia (BPH) leads to obstructed urine flow, causing hesitancy and reduced stream.",
+    "additional": "Other symptoms include nocturia, urgency, and incomplete emptying."
+  },
+  {
+    "question": "20. Which test is commonly used to diagnose urinary retention?",
+    "options": {
+      "A": "CT scan",
+      "B": "Renal biopsy",
+      "C": "Post-void residual (PVR) measurement",
+      "D": "Urine culture"
+    },
+    "answer": "C",
+    "explanation": "PVR uses ultrasound or catheterization after voiding to assess retained urine volume.",
+    "additional": "High PVR suggests obstruction or neurogenic bladder."
+  },
+  {
+    "question": "21. What is the most common cause of urinary obstruction in men over age 50?",
+    "options": {
+      "A": "Bladder stones",
+      "B": "Urethral stricture",
+      "C": "Benign prostatic hyperplasia (BPH)",
+      "D": "Prostatitis"
+    },
+    "answer": "C",
+    "explanation": "BPH is a non-cancerous enlargement of the prostate gland that compresses the urethra and impedes urine flow in older men.",
+    "additional": "Symptoms include hesitancy, weak stream, dribbling, and incomplete bladder emptying."
+  },
+  {
+    "question": "22. Which nursing action is appropriate when caring for a patient with continuous bladder irrigation (CBI)?",
+    "options": {
+      "A": "Clamp the tubing if drainage is pink",
+      "B": "Irrigate rapidly to speed up healing",
+      "C": "Ensure the drainage is light pink without clots",
+      "D": "Discontinue the irrigation once urine appears clear"
+    },
+    "answer": "C",
+    "explanation": "After procedures like TURP, CBI helps prevent clot formation. Light pink output is expected.",
+    "additional": "Bright red bleeding or clots indicate complications and require immediate reporting."
+  },
+  {
+    "question": "23. What finding is typical in nephrotic syndrome?",
+    "options": {
+      "A": "Massive proteinuria",
+      "B": "Hematuria",
+      "C": "Hypernatremia",
+      "D": "Hyperkalemia"
+    },
+    "answer": "A",
+    "explanation": "Nephrotic syndrome is defined by proteinuria >3.5 g/day, hypoalbuminemia, and edema.",
+    "additional": "It results from glomerular damage increasing protein loss through urine."
+  },
+  {
+    "question": "24. A patient with a history of renal stones is advised to avoid which food to prevent calcium oxalate stones?",
+    "options": {
+      "A": "Citrus fruits",
+      "B": "Dairy products",
+      "C": "Spinach",
+      "D": "Rice"
+    },
+    "answer": "C",
+    "explanation": "Spinach is rich in oxalates which can bind calcium and promote stone formation.",
+    "additional": "Patients should also increase fluid intake and reduce sodium and animal protein."
+  },
+  {
+    "question": "25. What is a typical symptom of polycystic kidney disease (PKD)?",
+    "options": {
+      "A": "Sudden weight loss",
+      "B": "Bone pain",
+      "C": "Flank pain and hematuria",
+      "D": "Seizures"
+    },
+    "answer": "C",
+    "explanation": "PKD causes multiple cysts in kidneys, leading to enlarged kidneys, flank pain, hematuria, and hypertension.",
+    "additional": "It is a genetic condition and can progress to kidney failure over time."
+  },
+  {
+    "question": "26. Which urinalysis result is most consistent with urinary tract infection?",
+    "options": {
+      "A": "pH 5.5, no WBCs",
+      "B": "Positive nitrites and leukocyte esterase",
+      "C": "No bacteria, no WBCs",
+      "D": "Positive ketones"
+    },
+    "answer": "B",
+    "explanation": "Nitrites and leukocyte esterase in urine strongly suggest bacterial UTI.",
+    "additional": "Further confirmation via urine culture may guide antibiotic therapy."
+  },
+  {
+    "question": "27. What complication is most associated with untreated urinary retention?",
+    "options": {
+      "A": "Hyperthyroidism",
+      "B": "Urinary tract infection and bladder damage",
+      "C": "Decreased blood pressure",
+      "D": "Improved kidney function"
+    },
+    "answer": "B",
+    "explanation": "Urine stasis in the bladder promotes bacterial growth and overdistention can damage bladder muscle.",
+    "additional": "Prompt catheterization and evaluation of underlying causes are critical."
+  },
+  {
+    "question": "28. Which of the following is a clinical sign of uremia in chronic kidney disease?",
+    "options": {
+      "A": "Skin rash",
+      "B": "Nausea, vomiting, and confusion",
+      "C": "Increased energy",
+      "D": "Improved memory"
+    },
+    "answer": "B",
+    "explanation": "Uremia results from toxin accumulation due to impaired kidney excretion and manifests as anorexia, nausea, fatigue, and mental changes.",
+    "additional": "Dialysis is initiated when symptoms progress or lab thresholds are met."
+  },
+  {
+    "question": "29. Which type of incontinence involves a sudden intense urge to urinate followed by involuntary loss of urine?",
+    "options": {
+      "A": "Stress incontinence",
+      "B": "Overflow incontinence",
+      "C": "Urge incontinence",
+      "D": "Reflex incontinence"
+    },
+    "answer": "C",
+    "explanation": "Urge incontinence occurs due to involuntary bladder contractions and is often seen in overactive bladder syndrome.",
+    "additional": "Treatment includes bladder training and anticholinergic medications."
+  },
+  {
+    "question": "30. What does costovertebral angle tenderness typically indicate?",
+    "options": {
+      "A": "Liver enlargement",
+      "B": "Bladder infection",
+      "C": "Kidney infection (pyelonephritis)",
+      "D": "Gallbladder disease"
+    },
+    "answer": "C",
+    "explanation": "CV angle tenderness is elicited by percussion and is a hallmark sign of pyelonephritis.",
+    "additional": "It should prompt evaluation for infection, urinalysis, and possible imaging."
+  },
+  {
+    "question": "31. Which of the following is an appropriate nursing action for a patient with peritoneal dialysis?",
+    "options": {
+      "A": "Keep the dialysate fluid refrigerated",
+      "B": "Elevate the drainage bag above the abdomen",
+      "C": "Maintain aseptic technique during exchanges",
+      "D": "Use high pressure to flush the catheter"
+    },
+    "answer": "C",
+    "explanation": "Peritoneal dialysis requires strict aseptic technique to prevent peritonitis, a serious complication.",
+    "additional": "Warm dialysate to body temperature before administration. The drainage bag should remain below abdominal level."
+  },
+  {
+    "question": "32. Which urinary diversion requires the creation of an ileal conduit?",
+    "options": {
+      "A": "Orthotopic neobladder",
+      "B": "Cutaneous ureterostomy",
+      "C": "Ileal conduit",
+      "D": "Suprapubic catheter"
+    },
+    "answer": "C",
+    "explanation": "An ileal conduit is a common type of incontinent urinary diversion using a segment of ileum to route urine to a stoma.",
+    "additional": "A urostomy bag is required to collect urine externally."
+  },
+  {
+    "question": "33. What is the most serious complication of peritoneal dialysis?",
+    "options": {
+      "A": "Constipation",
+      "B": "Peritonitis",
+      "C": "Nausea",
+      "D": "Fluid overload"
+    },
+    "answer": "B",
+    "explanation": "Peritonitis is the most serious complication, often indicated by cloudy outflow, abdominal pain, or fever.",
+    "additional": "Prompt reporting and initiation of antibiotics are essential."
+  },
+  {
+    "question": "34. Which finding indicates a successful kidney transplant?",
+    "options": {
+      "A": "Elevated creatinine",
+      "B": "Increased urine output",
+      "C": "Hypertension",
+      "D": "Fever and chills"
+    },
+    "answer": "B",
+    "explanation": "Increased urine output and normalization of lab values suggest good graft function.",
+    "additional": "Monitor for signs of rejection such as fever, pain, and decreased urine."
+  },
+  {
+    "question": "35. Which test is used to measure concentration ability of the kidney?",
+    "options": {
+      "A": "Serum sodium",
+      "B": "Urine specific gravity",
+      "C": "Serum calcium",
+      "D": "Urine ketones"
+    },
+    "answer": "B",
+    "explanation": "Urine specific gravity reflects the kidney’s ability to concentrate or dilute urine.",
+    "additional": "Normal range is approximately 1.010–1.030."
+  },
+  {
+    "question": "36. Which symptom is most associated with lower urinary tract infection (cystitis)?",
+    "options": {
+      "A": "Flank pain",
+      "B": "Fever and chills",
+      "C": "Burning on urination",
+      "D": "Confusion"
+    },
+    "answer": "C",
+    "explanation": "Burning during urination (dysuria), frequency, and urgency are hallmark symptoms of cystitis.",
+    "additional": "Flank pain and fever suggest upper tract involvement (pyelonephritis)."
+  },
+  {
+    "question": "37. Which finding is expected after a nephrectomy?",
+    "options": {
+      "A": "Decreased urine output to zero",
+      "B": "Serum creatinine drops immediately",
+      "C": "Urine output continues from remaining kidney",
+      "D": "Urine becomes red permanently"
+    },
+    "answer": "C",
+    "explanation": "The remaining kidney usually compensates, and urine output continues unless complications arise.",
+    "additional": "Monitor renal function postoperatively with serum creatinine and urine output."
+  },
+  {
+    "question": "38. Which lab test confirms diagnosis of glomerulonephritis?",
+    "options": {
+      "A": "Throat culture",
+      "B": "Urinalysis with RBC casts",
+      "C": "Liver function test",
+      "D": "Serum calcium"
+    },
+    "answer": "B",
+    "explanation": "RBC casts in urine indicate glomerular inflammation and injury, a key feature of glomerulonephritis.",
+    "additional": "Proteinuria and hematuria are also typically present."
+  },
+  {
+    "question": "39. Which condition causes the kidneys to lose ability to concentrate urine, resulting in dilute output?",
+    "options": {
+      "A": "Diabetes mellitus",
+      "B": "Diabetes insipidus",
+      "C": "SIADH",
+      "D": "Cystitis"
+    },
+    "answer": "B",
+    "explanation": "In diabetes insipidus, ADH deficiency leads to large volumes of dilute urine and risk of dehydration.",
+    "additional": "Treat with desmopressin and fluid replacement."
+  },
+  {
+    "question": "40. A patient with renal failure reports metallic taste in the mouth. This is due to:",
+    "options": {
+      "A": "Low iron",
+      "B": "Uremic toxins",
+      "C": "Calcium supplements",
+      "D": "Vitamin deficiency"
+    },
+    "answer": "B",
+    "explanation": "Uremia causes buildup of toxins, resulting in metallic taste, anorexia, nausea, and halitosis.",
+    "additional": "These are signs that dialysis may be needed."
+  },
+  {
+    "question": "41. Which hormone primarily regulates water reabsorption in the kidney?",
+    "options": {
+      "A": "Aldosterone",
+      "B": "Parathyroid hormone",
+      "C": "Antidiuretic hormone (ADH)",
+      "D": "Cortisol"
+    },
+    "answer": "C",
+    "explanation": "ADH acts on the distal tubules and collecting ducts to increase water reabsorption, thereby concentrating urine.",
+    "additional": "Deficiency leads to diabetes insipidus, while excess contributes to SIADH."
+  },
+  {
+    "question": "42. What is the primary function of the glomerulus?",
+    "options": {
+      "A": "Urine storage",
+      "B": "Water reabsorption",
+      "C": "Filtration of blood",
+      "D": "Hormone secretion"
+    },
+    "answer": "C",
+    "explanation": "The glomerulus is a capillary network responsible for filtering blood to form urine filtrate.",
+    "additional": "It is part of the nephron, the kidney’s functional unit."
+  },
+  {
+    "question": "43. What medication is commonly used to reduce potassium levels in renal failure?",
+    "options": {
+      "A": "Spironolactone",
+      "B": "Calcium gluconate",
+      "C": "Sodium polystyrene sulfonate (Kayexalate)",
+      "D": "Furosemide"
+    },
+    "answer": "C",
+    "explanation": "Kayexalate promotes potassium excretion via the gastrointestinal tract in cases of hyperkalemia.",
+    "additional": "Other interventions include insulin/glucose infusion and dialysis."
+  },
+  {
+    "question": "44. Which type of catheter is inserted through the abdominal wall for peritoneal dialysis?",
+    "options": {
+      "A": "Foley catheter",
+      "B": "Tenckhoff catheter",
+      "C": "Suprapubic catheter",
+      "D": "Nephrostomy tube"
+    },
+    "answer": "B",
+    "explanation": "The Tenckhoff catheter is specifically designed for peritoneal dialysis access.",
+    "additional": "Aseptic technique is crucial to prevent peritonitis."
+  },
+  {
+    "question": "45. What is the primary concern after a renal biopsy?",
+    "options": {
+      "A": "Fever",
+      "B": "Bleeding",
+      "C": "Infection",
+      "D": "Hypertension"
+    },
+    "answer": "B",
+    "explanation": "Bleeding is the most common and serious complication following renal biopsy due to the vascular nature of the kidneys.",
+    "additional": "Monitor for flank pain, hematuria, and hypotension post-procedure."
+  },
+  {
+    "question": "46. What dietary change is often necessary in chronic kidney disease (CKD)?",
+    "options": {
+      "A": "High protein intake",
+      "B": "Increased potassium",
+      "C": "Reduced sodium and protein intake",
+      "D": "Increased phosphorus"
+    },
+    "answer": "C",
+    "explanation": "CKD patients are advised to reduce sodium and protein to slow disease progression and control blood pressure.",
+    "additional": "Phosphorus and potassium may also be restricted based on lab values."
+  },
+  {
+    "question": "47. Which lab value is the best indicator of kidney function?",
+    "options": {
+      "A": "Serum sodium",
+      "B": "Serum creatinine",
+      "C": "Urine glucose",
+      "D": "Serum calcium"
+    },
+    "answer": "B",
+    "explanation": "Serum creatinine is a reliable marker of glomerular filtration rate and overall renal function.",
+    "additional": "BUN is also used but may be affected by other factors like protein intake or hydration."
+  },
+  {
+    "question": "48. Which condition is characterized by glomerular inflammation following streptococcal infection?",
+    "options": {
+      "A": "Nephrotic syndrome",
+      "B": "Acute glomerulonephritis",
+      "C": "Pyelonephritis",
+      "D": "Cystitis"
+    },
+    "answer": "B",
+    "explanation": "Post-streptococcal glomerulonephritis presents 1–2 weeks after a throat infection, with hematuria, edema, and hypertension.",
+    "additional": "Supportive care includes fluid management and antihypertensives."
+  },
+  {
+    "question": "49. What is a key teaching point for a patient with an indwelling urinary catheter?",
+    "options": {
+      "A": "Disconnect drainage bag frequently",
+      "B": "Clean catheter tip with alcohol daily",
+      "C": "Keep drainage bag below bladder level",
+      "D": "Clamp catheter overnight"
+    },
+    "answer": "C",
+    "explanation": "Keeping the drainage bag below bladder level prevents backflow and reduces infection risk.",
+    "additional": "Regular hygiene and avoiding unnecessary disconnections are also important."
+  },
+  {
+    "question": "50. What symptom in older adults may indicate a urinary tract infection?",
+    "options": {
+      "A": "Severe abdominal pain",
+      "B": "Fever and chills",
+      "C": "Confusion or altered mental status",
+      "D": "Vomiting"
+    },
+    "answer": "C",
+    "explanation": "In elderly patients, confusion or delirium is often the first sign of a UTI.",
+    "additional": "Prompt diagnosis is critical to prevent sepsis or further decline."
   }
 ]
+
+
+
+
+
 
 
 
