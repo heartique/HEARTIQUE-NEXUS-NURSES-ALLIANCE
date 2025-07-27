@@ -1,0 +1,605 @@
+[
+  {
+    "question": "1. What is the main goal of palliative care?",
+    "options": {
+      "A": "Cure chronic diseases",
+      "B": "Prolong life at all costs",
+      "C": "Improve quality of life for patients and families",
+      "D": "Support active euthanasia"
+    },
+    "answer": "C",
+    "explanation": "Palliative care focuses on relieving suffering and improving the quality of life for patients with serious illness and their families.",
+    "additional": "It addresses physical, emotional, social, and spiritual needs and can be provided alongside curative treatment or as a primary focus of care."
+  },
+  {
+    "question": "2. Which of the following is a key principle of palliative care?",
+    "options": {
+      "A": "Focus only on physical symptoms",
+      "B": "Provide care only during end-of-life",
+      "C": "Support the family as well as the patient",
+      "D": "Limit communication about diagnosis"
+    },
+    "answer": "C",
+    "explanation": "A core principle of palliative care is holistic support, including emotional and psychological care for the family.",
+    "additional": "This helps families cope with illness, caregiving, and bereavement. Communication is open and continuous."
+  },
+  {
+    "question": "3. What is the most appropriate intervention for a patient experiencing refractory pain in palliative care?",
+    "options": {
+      "A": "Increase the dose of paracetamol",
+      "B": "Add antidepressants",
+      "C": "Initiate opioid therapy or titrate existing opioid",
+      "D": "Withhold analgesia to prevent addiction"
+    },
+    "answer": "C",
+    "explanation": "Opioids are the mainstay for managing moderate to severe pain in palliative care. Titration helps achieve adequate relief.",
+    "additional": "Fear of addiction should not prevent pain relief in palliative patients. WHO pain ladder is often used as a guide."
+  },
+  {
+    "question": "4. A patient in hospice care has noisy breathing due to secretions. What is the best initial management?",
+    "options": {
+      "A": "Administer intravenous fluids",
+      "B": "Suction the airway aggressively",
+      "C": "Use anticholinergic medication",
+      "D": "Insert a nasogastric tube"
+    },
+    "answer": "C",
+    "explanation": "Anticholinergic drugs (e.g., glycopyrrolate) reduce secretions that cause noisy breathing or 'death rattle' in terminally ill patients.",
+    "additional": "Aggressive suctioning can cause discomfort and is not routinely recommended. Reassure the family as this symptom is common."
+  },
+  {
+    "question": "5. What is the most appropriate way to assess pain in a non-verbal palliative care patient?",
+    "options": {
+      "A": "Ask the family",
+      "B": "Use a behavioral pain scale",
+      "C": "Assume there is no pain",
+      "D": "Wait for patient to speak"
+    },
+    "answer": "B",
+    "explanation": "Behavioral pain scales (like the PAINAD scale) help assess pain based on facial expressions, movements, and vital signs in non-verbal patients.",
+    "additional": "Family input is helpful, but validated tools provide a more systematic assessment."
+  },
+  {
+    "question": "6. A terminal cancer patient asks, 'Am I going to die soon?' What is the best response?",
+    "options": {
+      "A": \"Change the subject quickly\",
+      "B": "Provide false reassurance",
+      "C": "Respond honestly and empathetically",
+      "D": "Avoid the topic completely"
+    },
+    "answer": "C",
+    "explanation": "Honest, compassionate communication is vital in palliative care. It helps the patient prepare and feel supported.",
+    "additional": "Avoiding the conversation may increase anxiety. Use open-ended questions and active listening."
+  },
+  {
+    "question": "7. What is an ethical principle that underpins palliative care?",
+    "options": {
+      "A": "Beneficence",
+      "B": "Maleficence",
+      "C": "Paternalism",
+      "D": "Negligence"
+    },
+    "answer": "A",
+    "explanation": "Beneficence means acting in the best interest of the patient, promoting comfort and quality of life — a cornerstone of palliative care.",
+    "additional": "Autonomy and non-maleficence are also key principles. Palliative care prioritizes dignity and patient-centered goals."
+  },
+  {
+    "question": "8. Which statement best describes hospice care?",
+    "options": {
+      "A": "It is the same as palliative care for any illness",
+      "B": "It is curative treatment for terminal illness",
+      "C": "It is comfort care for those with a life expectancy of 6 months or less",
+      "D": "It excludes family members from decision making"
+    },
+    "answer": "C",
+    "explanation": "Hospice care is a form of palliative care provided when life expectancy is ≤6 months and the focus is comfort, not cure.",
+    "additional": "It includes interdisciplinary care, pain control, and emotional/spiritual support for patient and family."
+  },
+  {
+    "question": "9. Which route is preferred for opioid administration in a palliative care patient with difficulty swallowing?",
+    "options": {
+      "A": "Oral",
+      "B": "Subcutaneous",
+      "C": "Intramuscular",
+      "D": "Topical"
+    },
+    "answer": "B",
+    "explanation": "The subcutaneous route is commonly used in palliative care when oral intake is not possible. It is less painful than IM and effective for symptom control.",
+    "additional": "Continuous subcutaneous infusion may be used for sustained delivery."
+  },
+  {
+    "question": "10. What is anticipatory grief?",
+    "options": {
+      "A": "Grief that occurs after death",
+      "B": "Pathologic grief",
+      "C": "Grief experienced before the actual loss",
+      "D": "Grief that requires medication"
+    },
+    "answer": "C",
+    "explanation": "Anticipatory grief is the mourning that occurs before the loss, such as when a terminal diagnosis is given.",
+    "additional": "Acknowledging this helps caregivers and families begin coping before death and may ease post-loss adjustment."
+  },
+  {
+    "question": "11. What is a common psychological symptom in patients receiving palliative care?",
+    "options": {
+      "A": "Euphoria",
+      "B": "Delirium",
+      "C": "Hyperactivity",
+      "D": "Aggression"
+    },
+    "answer": "B",
+    "explanation": "Delirium is common in terminally ill patients due to medications, infections, organ failure, or metabolic disturbances.",
+    "additional": "Management includes identifying the cause, optimizing environment, and possibly using antipsychotics for severe agitation."
+  },
+  {
+    "question": "12. Which of the following is an advance care planning document?",
+    "options": {
+      "A": "ECG report",
+      "B": "CT scan",
+      "C": "Living will",
+      "D": "Hospital discharge summary"
+    },
+    "answer": "C",
+    "explanation": "A living will outlines a person's wishes for medical treatment in case they are unable to communicate them in the future.",
+    "additional": "Advance directives also include durable power of attorney and DNR (do-not-resuscitate) orders."
+  },
+  {
+    "question": "13. Which drug is most appropriate to manage terminal dyspnea?",
+    "options": {
+      "A": "Paracetamol",
+      "B": "Morphine",
+      "C": "Aspirin",
+      "D": "Diazepam"
+    },
+    "answer": "B",
+    "explanation": "Low-dose morphine reduces the perception of breathlessness by altering central respiratory drive.",
+    "additional": "This improves comfort even if oxygen levels are normal. Other supportive measures include positioning and fan therapy."
+  },
+  {
+    "question": "14. A patient nearing death shows mottled skin, cool extremities, and decreased urine output. What is this stage called?",
+    "options": {
+      "A": "Refractory stage",
+      "B": "Active dying phase",
+      "C": "Post-mortem stage",
+      "D": "Terminal sedation"
+    },
+    "answer": "B",
+    "explanation": "The active dying phase is the final hours or days before death, marked by circulatory decline, altered consciousness, and skin changes.",
+    "additional": "Education of family and symptom management is critical. Reassure that these are natural processes."
+  },
+  {
+    "question": "15. What is the role of the interdisciplinary team in palliative care?",
+    "options": {
+      "A": "Only physicians make decisions",
+      "B": "Only nurses provide care",
+      "C": "Collaboratively address physical, emotional, and spiritual needs",
+      "D": "Focus on financial aspects only"
+    },
+    "answer": "C",
+    "explanation": "Palliative care is best delivered by a team including doctors, nurses, social workers, chaplains, and therapists.",
+    "additional": "Each member addresses specific aspects of the patient's and family's needs, ensuring comprehensive care."
+  },
+  {
+    "question": "16. Which principle is followed when the goal is comfort, not life prolongation?",
+    "options": {
+      "A": "Euthanasia",
+      "B": "Aggressive treatment",
+      "C": "Comfort care",
+      "D": "Prolonged hospitalization"
+    },
+    "answer": "C",
+    "explanation": "Comfort care (or supportive care) emphasizes symptom management, emotional support, and quality of life without aiming to cure.",
+    "additional": "It respects the patient’s wishes and values, especially when curative treatment is no longer beneficial."
+  },
+  {
+    "question": "17. Which is the most appropriate action when a patient refuses food near end-of-life?",
+    "options": {
+      "A": "Force feeding",
+      "B": "Start enteral nutrition",
+      "C": "Respect the patient's decision and provide mouth care",
+      "D": "Give IV nutrition immediately"
+    },
+    "answer": "C",
+    "explanation": "Decreased appetite is a natural part of dying. Forcing food may cause discomfort. Supportive care and dignity are priorities.",
+    "additional": "Provide sips, moistened swabs, and oral care to ensure comfort. Explain to the family this is expected."
+  },
+  {
+    "question": "18. How should existential distress be addressed in palliative care?",
+    "options": {
+      "A": "Ignore it as non-medical",
+      "B": "Refer only to psychiatry",
+      "C": "Use empathetic listening and spiritual support",
+      "D": "Prescribe strong sedatives"
+    },
+    "answer": "C",
+    "explanation": "Existential distress involves questioning life’s meaning and suffering. Support includes compassionate communication and spiritual counseling.",
+    "additional": "Chaplains or spiritual advisors are often part of the care team. Addressing this helps relieve suffering."
+  },
+  {
+    "question": "19. A terminal patient has restlessness and moaning in sleep. What could this indicate?",
+    "options": {
+      "A": "They are dreaming",
+      "B": "Uncontrolled pain or delirium",
+      "C": "Deep sleep stage",
+      "D": "Approaching recovery"
+    },
+    "answer": "B",
+    "explanation": "Non-verbal signs like moaning, grimacing, and agitation can indicate pain or delirium in non-communicative patients.",
+    "additional": "Assessment with behavioral tools and symptom control (analgesia, antipsychotics) is essential."
+  },
+  {
+    "question": "20. Which is a non-pharmacologic intervention for anxiety in palliative care?",
+    "options": {
+      "A": "IV opioids",
+      "B": "Cognitive-behavioral therapy",
+      "C": "Haloperidol",
+      "D": "Midazolam"
+    },
+    "answer": "B",
+    "explanation": "CBT, counseling, relaxation techniques, and spiritual care are effective non-drug interventions for anxiety.",
+    "additional": "Pharmacologic options may be used when non-pharmacologic methods are insufficient, but holistic care is emphasized."
+  },
+  {
+    "question": "21. What is the role of family in palliative care decision-making?",
+    "options": {
+      "A": "They have no role",
+      "B": "They make decisions without the patient",
+      "C": "They collaborate with the patient and team",
+      "D": "They decide based on hospital policy"
+    },
+    "answer": "C",
+    "explanation": "Family plays an important collaborative role in decisions, especially when patients are unable to speak for themselves.",
+    "additional": "Open communication ensures that care aligns with the patient’s values, beliefs, and previously expressed wishes."
+  },
+  {
+    "question": "22. Which sign is most indicative of imminent death?",
+    "options": {
+      "A": "Increased appetite",
+      "B": "Noisy breathing",
+      "C": "Alert mental state",
+      "D": "Regular bowel movements"
+    },
+    "answer": "B",
+    "explanation": "Noisy breathing or ‘death rattle’ results from pooled secretions and is a common sign in the final hours of life.",
+    "additional": "Other signs include mottled skin, decreased consciousness, and irregular breathing."
+  },
+  {
+    "question": "23. What is the primary focus of spiritual care in palliative settings?",
+    "options": {
+      "A": "Promote one religion",
+      "B": "Convert the patient",
+      "C": "Support the patient’s meaning and values",
+      "D": "Avoid discussing spiritual concerns"
+    },
+    "answer": "C",
+    "explanation": "Spiritual care respects and supports the patient's beliefs, values, and sources of meaning during illness and dying.",
+    "additional": "Chaplains or trained counselors may assist. It's not about religion alone, but meaning, purpose, and connection."
+  },
+  {
+    "question": "24. What best defines terminal sedation?",
+    "options": {
+      "A": "Use of sleeping pills at bedtime",
+      "B": "Sedation given to control anxiety during surgery",
+      "C": "Deliberate sedation to relieve intractable suffering near death",
+      "D": "Sedation used to cure illness"
+    },
+    "answer": "C",
+    "explanation": "Terminal sedation is an ethical intervention used to relieve severe distress in dying patients when symptoms are refractory.",
+    "additional": "It may reduce consciousness but focuses on comfort, not hastening death. Informed consent is essential."
+  },
+  {
+    "question": "25. How should healthcare providers approach cultural differences in palliative care?",
+    "options": {
+      "A": "Ignore them to be fair to all",
+      "B": "Impose standard protocols",
+      "C": "Respect and integrate cultural values in care",
+      "D": "Assume all patients have the same beliefs"
+    },
+    "answer": "C",
+    "explanation": "Culturally competent care considers language, customs, and spiritual beliefs, ensuring respect and personalized care.",
+    "additional": "Cultural sensitivity improves trust, satisfaction, and adherence to care plans."
+  },
+  {
+    "question": "26. What is the most appropriate strategy for managing constipation in palliative care patients on opioids?",
+    "options": {
+      "A": "Wait for natural bowel movement",
+      "B": "Stop opioid",
+      "C": "Start stimulant and/or osmotic laxatives prophylactically",
+      "D": "Use enemas only when needed"
+    },
+    "answer": "C",
+    "explanation": "Opioids commonly cause constipation, so laxatives are initiated routinely to prevent discomfort and impaction.",
+    "additional": "Stimulant (e.g., senna) and osmotic (e.g., lactulose) combinations are effective. Enemas are a last resort."
+  },
+  {
+    "question": "27. How can fatigue in palliative care be managed?",
+    "options": {
+      "A": "Force the patient to be active",
+      "B": "Ignore it",
+      "C": "Balance rest with light activity and nutrition",
+      "D": "Prescribe antibiotics"
+    },
+    "answer": "C",
+    "explanation": "Fatigue is common in advanced illness. Gentle activity, nutritional support, and addressing underlying causes can help.",
+    "additional": "Energy conservation techniques and reassurance are also beneficial."
+  },
+  {
+    "question": "28. What is the role of a palliative care nurse?",
+    "options": {
+      "A": "Only administer medications",
+      "B": "Coordinate care and support patients and families",
+      "C": "Perform surgery",
+      "D": "Prescribe chemotherapy"
+    },
+    "answer": "B",
+    "explanation": "Palliative nurses assess symptoms, educate families, offer emotional support, and help coordinate interdisciplinary care.",
+    "additional": "They are key advocates for comfort and dignity in care."
+  },
+  {
+    "question": "29. What is the best approach to feeding in late-stage palliative patients with reduced intake?",
+    "options": {
+      "A": "Force feeding with tube",
+      "B": "Offer small, frequent, preferred foods",
+      "C": "Start TPN immediately",
+      "D": "Ignore nutrition needs"
+    },
+    "answer": "B",
+    "explanation": "Patient-preferred, small frequent meals help maintain comfort. Forcing food may cause distress and is not beneficial.",
+    "additional": "Respect patient cues. Family education is vital to reduce anxiety about reduced intake."
+  },
+  {
+    "question": "30. What is the most appropriate communication style in palliative care?",
+    "options": {
+      "A": "Authoritative and rushed",
+      "B": "Technical and detached",
+      "C": "Empathetic and clear",
+      "D": "Avoidant and vague"
+    },
+    "answer": "C",
+    "explanation": "Empathetic, clear, and honest communication builds trust and supports shared decision-making in palliative care.",
+    "additional": "Use open-ended questions and validate emotions. Silence can be therapeutic too."
+  },
+  {
+    "question": "31. What is the main goal when managing terminal delirium?",
+    "options": {
+      "A": "Cure the underlying illness",
+      "B": "Sedate the patient completely",
+      "C": "Reduce distress and provide comfort",
+      "D": "Perform diagnostic imaging"
+    },
+    "answer": "C",
+    "explanation": "Terminal delirium is often irreversible near death. The priority is symptom control and minimizing patient distress.",
+    "additional": "Medications like haloperidol may be used. Environment should be calm and supportive."
+  },
+  {
+    "question": "32. What should be done if a patient expresses a desire to die?",
+    "options": {
+      "A": "Ignore the statement",
+      "B": "Report immediately and assess for depression or suffering",
+      "C": "Tell the family to handle it",
+      "D": "Assume it's a joke"
+    },
+    "answer": "B",
+    "explanation": "Expressions of a wish to die must be taken seriously. They may reflect pain, depression, or existential distress.",
+    "additional": "Prompt psychological and medical evaluation is essential. Support and counseling are key."
+  },
+  {
+    "question": "33. Which intervention best supports anticipatory grief?",
+    "options": {
+      "A": "Telling the family not to cry",
+      "B": "Providing time, support, and open discussion",
+      "C": "Avoiding the topic of death",
+      "D": "Prescribing sedatives"
+    },
+    "answer": "B",
+    "explanation": "Anticipatory grief is best supported by honest conversations, emotional presence, and compassionate care.",
+    "additional": "Acknowledging grief as normal helps families process their emotions before the loss."
+  },
+  {
+    "question": "34. What is a good indicator of effective palliative care?",
+    "options": {
+      "A": "Frequent hospitalization",
+      "B": "Aggressive treatments",
+      "C": "Patient and family satisfaction",
+      "D": "Use of experimental drugs"
+    },
+    "answer": "C",
+    "explanation": "Effective palliative care is reflected in improved comfort, symptom control, and positive feedback from patients and families.",
+    "additional": "Quality of life is the core outcome, not survival or aggressive interventions."
+  },
+  {
+    "question": "35. When should palliative care begin?",
+    "options": {
+      "A": "Only during end-of-life stage",
+      "B": "At diagnosis of terminal illness",
+      "C": "When patient is unconscious",
+      "D": "Post-mortem"
+    },
+    "answer": "B",
+    "explanation": "Palliative care should start early in the course of serious illness to address physical, emotional, and psychosocial needs.",
+    "additional": "Early integration improves outcomes, including symptom control and satisfaction."
+  },
+  {
+    "question": "36. What is the best approach to managing spiritual distress?",
+    "options": {
+      "A": "Refer to a psychiatrist immediately",
+      "B": "Ignore it unless patient insists",
+      "C": "Offer spiritual support and explore meaning",
+      "D": "Administer anxiolytics"
+    },
+    "answer": "C",
+    "explanation": "Spiritual distress involves loss of meaning or connection. Addressing it with empathy and spiritual care is key.",
+    "additional": "Support can come from chaplains, counselors, or the care team depending on beliefs."
+  },
+  {
+    "question": "37. What should healthcare workers do when families demand aggressive treatment that contradicts palliative goals?",
+    "options": {
+      "A": "Comply without discussion",
+      "B": "Ignore the request",
+      "C": "Engage in respectful dialogue to align care goals",
+      "D": "Discharge the patient"
+    },
+    "answer": "C",
+    "explanation": "Open communication can clarify goals, educate about prognosis, and help reach consensus on care plans.",
+    "additional": "Conflict resolution and ethics consultation may help when disagreements persist."
+  },
+  {
+    "question": "38. What is the significance of the WHO pain ladder in palliative care?",
+    "options": {
+      "A": "It guides cancer screening",
+      "B": "It categorizes end-of-life stages",
+      "C": "It provides a stepwise approach to pain management",
+      "D": "It ranks cancer types"
+    },
+    "answer": "C",
+    "explanation": "The WHO pain ladder offers a 3-step model: non-opioids, then weak opioids, then strong opioids for increasing pain severity.",
+    "additional": "Adjuvants can be used at any step. The approach is patient-centered and tailored to pain level."
+  },
+  {
+    "question": "39. What is the benefit of early referral to palliative care?",
+    "options": {
+      "A": "Prolongs hospital stay",
+      "B": "Increases treatment burden",
+      "C": "Improves quality of life and symptom control",
+      "D": "Delays diagnosis"
+    },
+    "answer": "C",
+    "explanation": "Early palliative care improves symptom management, patient satisfaction, and may even prolong life in some cases.",
+    "additional": "It complements curative treatments and aids in planning and support."
+  },
+  {
+    "question": "40. What is the nurse’s role in end-of-life decision-making?",
+    "options": {
+      "A": "Make decisions on behalf of patient",
+      "B": "Avoid discussing care plans",
+      "C": "Advocate for patient’s wishes and facilitate communication",
+      "D": "Refer only to physician"
+    },
+    "answer": "C",
+    "explanation": "Nurses play a critical role in supporting informed decisions, clarifying patient preferences, and promoting dignity.",
+    "additional": "They often act as liaisons between the patient, family, and the care team."
+  },
+  {
+    "question": "41. Which symptom is most distressing to families during the dying process?",
+    "options": {
+      "A": "Skin pallor",
+      "B": "Noisy breathing",
+      "C": "Hair loss",
+      "D": "Dry lips"
+    },
+    "answer": "B",
+    "explanation": "Noisy breathing or 'death rattle' can be very distressing to families, even though it may not cause discomfort to the patient.",
+    "additional": "Education and reassurance, along with medications like anticholinergics, help manage the symptom and reduce family anxiety."
+  },
+  {
+    "question": "42. What is the role of bereavement support in palliative care?",
+    "options": {
+      "A": "It is not necessary",
+      "B": "It focuses only on finances",
+      "C": "It supports family emotionally after the patient's death",
+      "D": "It replaces funeral arrangements"
+    },
+    "answer": "C",
+    "explanation": "Bereavement support offers counseling and emotional care to help families cope with grief and adjust after loss.",
+    "additional": "Services may include individual support, group therapy, and spiritual care."
+  },
+  {
+    "question": "43. What is the best approach when a patient expresses fear of dying?",
+    "options": {
+      "A": "Avoid the topic",
+      "B": "Provide an honest and empathetic conversation",
+      "C": "Tell them not to worry",
+      "D": "Change the subject"
+    },
+    "answer": "B",
+    "explanation": "Fear of death is common. Active listening, empathy, and honest communication help address emotional distress.",
+    "additional": "Support may also involve spiritual care, counseling, or presence of loved ones."
+  },
+  {
+    "question": "44. What defines a 'good death' in palliative care?",
+    "options": {
+      "A": "Sudden and unexpected",
+      "B": "In ICU with machines",
+      "C": "Pain-free, dignified, and aligned with patient’s wishes",
+      "D": "Prolonged and medicalized"
+    },
+    "answer": "C",
+    "explanation": "A 'good death' includes pain control, respect for the patient’s values, family involvement, and psychological/spiritual peace.",
+    "additional": "It’s the central goal of high-quality palliative care."
+  },
+  {
+    "question": "45. What is the most common cause of pain in cancer patients?",
+    "options": {
+      "A": "Bone metastases",
+      "B": "Neuropathy",
+      "C": "Wound infection",
+      "D": "Ascites"
+    },
+    "answer": "A",
+    "explanation": "Bone metastases are a common source of severe pain in cancer patients, especially in breast, prostate, and lung cancers.",
+    "additional": "Opioids, bisphosphonates, and radiation may be used to manage pain."
+  },
+  {
+    "question": "46. What intervention improves sleep in palliative care without medication?",
+    "options": {
+      "A": "High caffeine intake",
+      "B": "Bright lights at night",
+      "C": "Establishing a calming bedtime routine",
+      "D": "Administering morphine"
+    },
+    "answer": "C",
+    "explanation": "Sleep hygiene measures such as a quiet environment, dim lights, and relaxing routines help improve rest naturally.",
+    "additional": "Medications are considered if non-drug measures fail."
+  },
+  {
+    "question": "47. How can nausea be managed in palliative care patients?",
+    "options": {
+      "A": "Withhold food permanently",
+      "B": "Use antiemetics based on cause",
+      "C": "Increase fluid intake only",
+      "D": "Wait for it to resolve"
+    },
+    "answer": "B",
+    "explanation": "Antiemetics should be selected based on the likely cause (e.g., opioids, gastric stasis, brain metastases).",
+    "additional": "Options include metoclopramide, haloperidol, or ondansetron depending on pathophysiology."
+  },
+  {
+    "question": "48. What is a comfort measure in palliative wound care?",
+    "options": {
+      "A": "Frequent debridement",
+      "B": "Use of antiseptics only",
+      "C": "Pain-free, moist wound dressing with odor control",
+      "D": "Daily irrigation with alcohol"
+    },
+    "answer": "C",
+    "explanation": "The goal is to reduce pain, prevent odor, and maintain dignity. Dressings should be non-adherent and moist.",
+    "additional": "Avoid aggressive procedures unless absolutely necessary. Compassionate care is prioritized."
+  },
+  {
+    "question": "49. When a patient is non-responsive but breathing, what should the care focus be?",
+    "options": {
+      "A": "Start CPR",
+      "B": "Check for brain death",
+      "C": "Provide comfort and symptom management",
+      "D": "Refer to ICU"
+    },
+    "answer": "C",
+    "explanation": "In palliative care, a non-responsive patient near death should receive comfort-focused care, not aggressive interventions.",
+    "additional": "This includes mouth care, repositioning, and family support."
+  },
+  {
+    "question": "50. What is the nurse’s key role during the active dying phase?",
+    "options": {
+      "A": "Prolong life through intervention",
+      "B": "Avoid family interaction",
+      "C": "Provide presence, comfort, and support",
+      "D": "Transfer patient to another unit"
+    },
+    "answer": "C",
+    "explanation": "The nurse provides physical care, emotional support, and ensures a peaceful environment for both the patient and family.",
+    "additional": "Being present, maintaining dignity, and addressing last needs are central to compassionate nursing care."
+  }
+]
+
+
+
