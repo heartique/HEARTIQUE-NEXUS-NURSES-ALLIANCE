@@ -382,8 +382,611 @@
   "answer": "C",
   "explanation": "Meniere's disease is a disorder of the inner ear characterized by a classic triad of symptoms: episodic vertigo, tinnitus (ringing in the ear), and fluctuating sensorineural hearing loss. It is thought to be caused by an excess of endolymphatic fluid in the inner ear (endolymphatic hydrops).\n\nTreatment Strategy: Management focuses on controlling the underlying fluid problem and managing the acute symptoms during an attack.\n\nDiuretics: Drugs like hydrochlorothiazide are used long-term to reduce the overall fluid volume in the body, which can help decrease the endolymphatic fluid pressure in the inner ear. This is paired with a low-sodium diet.\n\nAntiemetics: During an acute vertigo attack, severe nausea and vomiting are common. Antiemetics like prochlorperazine (Compazine) or ondansetron (Zofran) are used for symptom relief.\n\nAntihistamines/Antivertigo: Certain antihistamines have central anticholinergic effects that help suppress the vestibular system and reduce vertigo. Meclizine (Antivert) and dimenhydrinate (Dramamine) are commonly used. Benzodiazepines (e.g., diazepam) may also be used for their central vestibular suppressant effects.\n\nConclusion: Option (c) correctly lists the three main classes of drugs used for symptomatic and prophylactic management. Glucocorticoids (steroids) may be used in some cases for their anti-inflammatory effects, but they are not a first-line or universal treatment like the other three.",
   "additional": "Additional Content & Future Testables:\n\nPatient Safety during an Attack: The priority is safety. The vertigo can be debilitating and sudden. Instruct the patient to lie down in a dark, quiet room and avoid sudden head movements during an attack to minimize the risk of falls.\n\nDietary Management: A low-sodium diet (e.g., 1-2 grams/day) is a cornerstone of long-term management to help prevent fluid retention. Patients should also be advised to avoid caffeine, nicotine, and alcohol, which can act as triggers.\n\nSurgical Management: For intractable, debilitating cases, surgical options exist, such as endolymphatic sac decompression or vestibular nerve section, but these are reserved for when medical management fails.\n\nTextbook Reference: Lewis's Medical-Surgical Nursing: Assessment and Management of Clinical Problems, Chapter 47: Nursing Management: Auditory and Vestibular Problems."
-}
+},
+  {
+    "question": "1. A 45-year-old woman presents with weight gain, cold intolerance, and dry skin. Which lab result would confirm the suspected diagnosis?",
+    "options": {
+      "A": "Low TSH",
+      "B": "High T3 and T4",
+      "C": "High TSH and low T4",
+      "D": "Low TSH and high T4"
+    },
+    "answer": "C",
+    "explanation": "High TSH and low T4 indicate primary hypothyroidism, where the thyroid gland is underactive, and the pituitary tries to compensate by increasing TSH.",
+    "additional": "Common causes include Hashimoto's thyroiditis, iodine deficiency, or thyroidectomy. Symptoms include bradycardia, fatigue, and constipation."
+  },
+  {
+    "question": "2. What is the most common cause of hyperthyroidism?",
+    "options": {
+      "A": "Toxic multinodular goiter",
+      "B": "Thyroiditis",
+      "C": "Graves' disease",
+      "D": "Thyroid carcinoma"
+    },
+    "answer": "C",
+    "explanation": "Graves' disease is an autoimmune condition where antibodies stimulate the TSH receptor, leading to increased T3 and T4.",
+    "additional": "Symptoms include weight loss, heat intolerance, palpitations, and exophthalmos. Treated with antithyroid drugs, radioactive iodine, or surgery."
+  },
+  {
+    "question": "3. A patient with diabetes presents with confusion, sweating, and palpitations. What is the most likely cause?",
+    "options": {
+      "A": "Diabetic ketoacidosis",
+      "B": "Hypoglycemia",
+      "C": "Hyperosmolar hyperglycemic state",
+      "D": "Hyponatremia"
+    },
+    "answer": "B",
+    "explanation": "These are classic symptoms of hypoglycemia, especially in insulin-treated diabetics. It is a medical emergency that requires prompt glucose administration.",
+    "additional": "Confirm with blood glucose <70 mg/dL. Long-acting insulin or missed meals are common causes."
+  },
+  {
+    "question": "4. Which hormone is secreted by the posterior pituitary?",
+    "options": {
+      "A": "TSH",
+      "B": "ACTH",
+      "C": "ADH",
+      "D": "LH"
+    },
+    "answer": "C",
+    "explanation": "The posterior pituitary stores and releases ADH (antidiuretic hormone) and oxytocin. ADH regulates water balance in the kidneys.",
+    "additional": "Deficiency leads to diabetes insipidus. Oxytocin stimulates uterine contractions and milk ejection."
+  },
+  {
+    "question": "5. A patient presents with moon face, central obesity, and purple striae. What is the likely diagnosis?",
+    "options": {
+      "A": "Addison's disease",
+      "B": "Cushing's syndrome",
+      "C": "Graves' disease",
+      "D": "Pheochromocytoma"
+    },
+    "answer": "B",
+    "explanation": "Cushing’s syndrome is caused by chronic exposure to excess cortisol. Features include truncal obesity, moon face, striae, hypertension, and muscle weakness.",
+    "additional": "Causes include exogenous steroids, pituitary adenoma (Cushing’s disease), or adrenal tumor. Diagnosis via dexamethasone suppression test."
+  },
+  {
+    "question": "6. Which electrolyte abnormality is seen in Addison’s disease?",
+    "options": {
+      "A": "Hypernatremia and hypokalemia",
+      "B": "Hyponatremia and hyperkalemia",
+      "C": "Hypocalcemia and hypokalemia",
+      "D": "Hypernatremia and hypercalcemia"
+    },
+    "answer": "B",
+    "explanation": "Addison’s disease involves adrenal insufficiency with decreased aldosterone, leading to sodium loss (hyponatremia) and potassium retention (hyperkalemia).",
+    "additional": "Symptoms include fatigue, hypotension, hyperpigmentation, and salt craving. Treatment is with corticosteroid and mineralocorticoid replacement."
+  },
+  {
+    "question": "7. Which hormone increases blood calcium levels?",
+    "options": {
+      "A": "Calcitonin",
+      "B": "Insulin",
+      "C": "Parathyroid hormone (PTH)",
+      "D": "Glucagon"
+    },
+    "answer": "C",
+    "explanation": "PTH increases serum calcium by stimulating bone resorption, increasing renal reabsorption, and activating vitamin D.",
+    "additional": "Opposed by calcitonin, which lowers calcium levels. Hyperparathyroidism leads to hypercalcemia and bone loss."
+  },
+  {
+    "question": "8. What is the hallmark of diabetic ketoacidosis (DKA)?",
+    "options": {
+      "A": "Hypoglycemia, ketonuria, and alkalosis",
+      "B": "Hyperglycemia, ketonuria, and metabolic acidosis",
+      "C": "Normoglycemia, ketonuria, and respiratory alkalosis",
+      "D": "Hyperglycemia, proteinuria, and respiratory acidosis"
+    },
+    "answer": "B",
+    "explanation": "DKA is characterized by high blood glucose, ketones in urine, and a high anion gap metabolic acidosis.",
+    "additional": "Seen in type 1 diabetics with insulin deficiency. Symptoms include polyuria, vomiting, fruity breath, and Kussmaul breathing."
+  },
+  {
+    "question": "9. Which test is used to monitor long-term glycemic control in diabetics?",
+    "options": {
+      "A": "Fasting glucose",
+      "B": "Random glucose",
+      "C": "Oral glucose tolerance test",
+      "D": "HbA1c"
+    },
+    "answer": "D",
+    "explanation": "HbA1c reflects average blood glucose over the past 2–3 months. It is used to assess long-term glycemic control.",
+    "additional": "Target HbA1c is usually <7%. It is less useful in conditions affecting red blood cell turnover (e.g., anemia)."
+  },
+  {
+    "question": "10. Which condition is characterized by polyuria, polydipsia, and dilute urine despite normal blood glucose?",
+    "options": {
+      "A": "Diabetes mellitus",
+      "B": "Syndrome of inappropriate ADH (SIADH)",
+      "C": "Diabetes insipidus",
+      "D": "Hypothyroidism"
+    },
+    "answer": "C",
+    "explanation": "Diabetes insipidus is due to ADH deficiency (central) or renal resistance to ADH (nephrogenic), causing excessive dilute urine.",
+    "additional": "Diagnosed with water deprivation test. Treated with desmopressin for central DI and thiazides for nephrogenic DI."
+  },
+  {
+    "question": "11. What is the function of insulin?",
+    "options": {
+      "A": "Increases blood glucose",
+      "B": "Promotes glycogen breakdown",
+      "C": "Facilitates glucose uptake by cells",
+      "D": "Stimulates glucagon release"
+    },
+    "answer": "C",
+    "explanation": "Insulin lowers blood glucose by facilitating glucose uptake in muscle and fat cells and promoting glycogen synthesis in the liver.",
+    "additional": "It is secreted by pancreatic beta cells in response to high blood glucose. Lack of insulin leads to diabetes mellitus."
+  },
+  {
+    "question": "12. Which gland produces cortisol?",
+    "options": {
+      "A": "Pituitary",
+      "B": "Thyroid",
+      "C": "Adrenal cortex",
+      "D": "Pancreas"
+    },
+    "answer": "C",
+    "explanation": "The adrenal cortex produces cortisol, a glucocorticoid involved in metabolism, immune response, and stress adaptation.",
+    "additional": "Its secretion is regulated by ACTH from the pituitary. Excess causes Cushing’s syndrome; deficiency causes Addison’s disease."
+  },
+  {
+    "question": "13. A 50-year-old woman has elevated calcium, low phosphorus, and elevated PTH. Likely diagnosis?",
+    "options": {
+      "A": "Secondary hyperparathyroidism",
+      "B": "Primary hyperparathyroidism",
+      "C": "Vitamin D deficiency",
+      "D": "Hypoparathyroidism"
+    },
+    "answer": "B",
+    "explanation": "Primary hyperparathyroidism involves autonomous PTH secretion (often from an adenoma), causing hypercalcemia and hypophosphatemia.",
+    "additional": "Symptoms include bone pain, stones, abdominal discomfort, and psychiatric manifestations. Surgery is the treatment of choice."
+  },
+  {
+    "question": "14. Which condition is associated with exophthalmos?",
+    "options": {
+      "A": "Hashimoto's thyroiditis",
+      "B": "Subacute thyroiditis",
+      "C": "Graves' disease",
+      "D": "Toxic multinodular goiter"
+    },
+    "answer": "C",
+    "explanation": "Graves' disease causes autoimmune stimulation of the thyroid and orbital fibroblasts, leading to exophthalmos (proptosis).",
+    "additional": "It is unique to Graves’ and not seen in other causes of hyperthyroidism. Treat with antithyroid drugs, steroids, or surgery."
+  },
+  {
+    "question": "15. A patient has high blood pressure, low potassium, and metabolic alkalosis. Likely cause?",
+    "options": {
+      "A": "Hypothyroidism",
+      "B": "Addison’s disease",
+      "C": "Pheochromocytoma",
+      "D": "Primary hyperaldosteronism"
+    },
+    "answer": "D",
+    "explanation": "Primary hyperaldosteronism (Conn’s syndrome) causes increased sodium reabsorption and potassium/H+ loss, leading to hypertension, hypokalemia, and alkalosis.",
+    "additional": "Diagnosed via aldosterone-renin ratio. Treatment involves adrenalectomy or aldosterone antagonists (e.g., spironolactone)."
+  },
+  {
+    "question": "16. What is the most common cause of secondary hyperparathyroidism?",
+    "options": {
+      "A": "Vitamin D excess",
+      "B": "Chronic kidney disease",
+      "C": "Primary hyperparathyroidism",
+      "D": "Parathyroid carcinoma"
+    },
+    "answer": "B",
+    "explanation": "Chronic kidney disease reduces phosphate excretion and vitamin D activation, causing hypocalcemia and reactive PTH elevation (secondary hyperparathyroidism).",
+    "additional": "It is managed with phosphate binders, vitamin D analogs, and dietary restrictions."
+  },
+  {
+    "question": "17. Which hormone is deficient in diabetes insipidus?",
+    "options": {
+      "A": "Aldosterone",
+      "B": "Insulin",
+      "C": "ADH",
+      "D": "Cortisol"
+    },
+    "answer": "C",
+    "explanation": "Diabetes insipidus is caused by deficiency or insensitivity to antidiuretic hormone (ADH), leading to polyuria and dilute urine.",
+    "additional": "Central DI responds to desmopressin, while nephrogenic DI does not. Water deprivation test helps differentiate."
+  },
+  {
+    "question": "18. A 35-year-old woman presents with fatigue, hypotension, and hyperpigmentation. What is the most likely diagnosis?",
+    "options": {
+      "A": "Graves’ disease",
+      "B": "Cushing’s syndrome",
+      "C": "Addison’s disease",
+      "D": "Hypothyroidism"
+    },
+    "answer": "C",
+    "explanation": "Addison’s disease (primary adrenal insufficiency) presents with fatigue, hypotension, and hyperpigmentation due to increased ACTH.",
+    "additional": "Confirmed by low cortisol and high ACTH. Treatment includes hydrocortisone and fludrocortisone replacement."
+  },
+  {
+    "question": "19. What is the preferred treatment for thyroid storm?",
+    "options": {
+      "A": "Levothyroxine",
+      "B": "Methimazole and beta-blockers",
+      "C": "Calcium gluconate",
+      "D": "Diuretics and steroids"
+    },
+    "answer": "B",
+    "explanation": "Thyroid storm is a life-threatening complication of hyperthyroidism. It is treated with antithyroid drugs (e.g., methimazole), beta-blockers, and supportive care.",
+    "additional": "Steroids and iodine may also be used to block hormone release. Monitor cardiac and neurologic status closely."
+  },
+  {
+    "question": "20. What is the most common complication of diabetes mellitus?",
+    "options": {
+      "A": "Blindness",
+      "B": "Renal failure",
+      "C": "Neuropathy",
+      "D": "Cardiovascular disease"
+    },
+    "answer": "D",
+    "explanation": "Cardiovascular disease is the leading cause of morbidity and mortality in diabetics. Hyperglycemia accelerates atherosclerosis.",
+    "additional": "Prevention includes glycemic control, lipid-lowering therapy, BP control, and lifestyle modifications."
+  },
+  {
+    "question": "21. What is the function of glucagon?",
+    "options": {
+      "A": "Promotes glucose uptake",
+      "B": "Lowers blood glucose",
+      "C": "Stimulates glycogen breakdown",
+      "D": "Inhibits gluconeogenesis"
+    },
+    "answer": "C",
+    "explanation": "Glucagon, secreted by pancreatic alpha cells, increases blood glucose by promoting glycogenolysis and gluconeogenesis in the liver.",
+    "additional": "It works antagonistically to insulin. It is especially important during fasting or hypoglycemia."
+  },
+  {
+    "question": "22. A diabetic patient presents with polyuria, polydipsia, and weight loss. His blood sugar is 480 mg/dL and urine ketones are positive. Diagnosis?",
+    "options": {
+      "A": "Type 2 diabetes",
+      "B": "Type 1 diabetes",
+      "C": "Diabetes insipidus",
+      "D": "SIADH"
+    },
+    "answer": "B",
+    "explanation": "The presence of ketones with hyperglycemia indicates insulin deficiency, which is characteristic of type 1 diabetes mellitus.",
+    "additional": "Patients may develop diabetic ketoacidosis (DKA), a medical emergency. Insulin is the mainstay of treatment."
+  },
+  {
+    "question": "23. Which of the following is a feature of hyperthyroidism?",
+    "options": {
+      "A": "Bradycardia",
+      "B": "Cold intolerance",
+      "C": "Weight gain",
+      "D": "Heat intolerance"
+    },
+    "answer": "D",
+    "explanation": "Hyperthyroidism increases metabolic rate, causing symptoms like heat intolerance, weight loss, anxiety, and tachycardia.",
+    "additional": "Graves’ disease is the most common cause. Treated with antithyroid medications, beta-blockers, or surgery."
+  },
+  {
+    "question": "24. A patient with a thyroid nodule undergoes fine needle aspiration, which shows amyloid deposits. What is the likely diagnosis?",
+    "options": {
+      "A": "Papillary thyroid carcinoma",
+      "B": "Follicular carcinoma",
+      "C": "Medullary thyroid carcinoma",
+      "D": "Anaplastic carcinoma"
+    },
+    "answer": "C",
+    "explanation": "Medullary thyroid carcinoma arises from parafollicular C cells and produces calcitonin. Amyloid deposits are due to calcitonin aggregation.",
+    "additional": "It may be sporadic or part of MEN 2 syndromes. Calcitonin and carcinoembryonic antigen (CEA) are tumor markers."
+  },
+  {
+    "question": "25. Which endocrine disorder is associated with truncal obesity, muscle wasting, and a buffalo hump?",
+    "options": {
+      "A": "Hypothyroidism",
+      "B": "Cushing’s syndrome",
+      "C": "Acromegaly",
+      "D": "Addison’s disease"
+    },
+    "answer": "B",
+    "explanation": "Cushing’s syndrome results from prolonged cortisol excess and presents with characteristic fat redistribution, proximal muscle weakness, and skin changes.",
+    "additional": "Causes include exogenous steroids, ACTH-producing tumors, and adrenal adenomas. Diagnosed with dexamethasone suppression or 24-hr urinary cortisol."
+  },
+  {
+    "question": "26. What lab finding is expected in a patient with SIADH?",
+    "options": {
+      "A": "Hypernatremia and low urine osmolality",
+      "B": "Hyponatremia and high urine osmolality",
+      "C": "Hyperkalemia and hypernatremia",
+      "D": "Hypokalemia and hypocalcemia"
+    },
+    "answer": "B",
+    "explanation": "SIADH leads to water retention without sodium retention, resulting in dilutional hyponatremia and concentrated urine.",
+    "additional": "Management includes fluid restriction and addressing the underlying cause. Severe cases may need hypertonic saline."
+  },
+  {
+    "question": "27. Which hormone inhibits prolactin secretion?",
+    "options": {
+      "A": "TSH",
+      "B": "Dopamine",
+      "C": "Oxytocin",
+      "D": "LH"
+    },
+    "answer": "B",
+    "explanation": "Dopamine from the hypothalamus inhibits prolactin release from the anterior pituitary. Disruption leads to hyperprolactinemia.",
+    "additional": "Antipsychotics can increase prolactin by blocking dopamine receptors. Symptoms include galactorrhea and menstrual disturbances."
+  },
+  {
+    "question": "28. A 25-year-old male presents with tall stature, large hands, and coarse facial features. What hormone is likely elevated?",
+    "options": {
+      "A": "ACTH",
+      "B": "GH",
+      "C": "TSH",
+      "D": "ADH"
+    },
+    "answer": "B",
+    "explanation": "Elevated growth hormone (GH) after epiphyseal closure causes acromegaly. Features include large hands, feet, jaw, and coarse features.",
+    "additional": "Confirmed with IGF-1 levels and failure to suppress GH on oral glucose tolerance test. Pituitary adenoma is the usual cause."
+  },
+  {
+    "question": "29. What is the cause of hyperpigmentation in Addison’s disease?",
+    "options": {
+      "A": "Elevated cortisol",
+      "B": "Low aldosterone",
+      "C": "Elevated ACTH",
+      "D": "High insulin"
+    },
+    "answer": "C",
+    "explanation": "In Addison’s disease, low cortisol leads to increased ACTH, which shares a precursor with MSH (melanocyte-stimulating hormone), causing pigmentation.",
+    "additional": "It is especially seen in areas exposed to friction. Hyperpigmentation helps differentiate primary from secondary adrenal insufficiency."
+  },
+  {
+    "question": "30. What is the best initial screening test for acromegaly?",
+    "options": {
+      "A": "Serum GH",
+      "B": "IGF-1 level",
+      "C": "MRI brain",
+      "D": "CT pituitary"
+    },
+    "answer": "B",
+    "explanation": "IGF-1 levels are stable and elevated in acromegaly, making them the best initial screening test.",
+    "additional": "Confirm diagnosis with an oral glucose suppression test. MRI pituitary is used for tumor localization."
+  },
+  {
+    "question": "31. What is the mechanism of action of metformin?",
+    "options": {
+      "A": "Increases insulin secretion",
+      "B": "Stimulates insulin receptors",
+      "C": "Decreases hepatic glucose production",
+      "D": "Delays carbohydrate absorption"
+    },
+    "answer": "C",
+    "explanation": "Metformin reduces hepatic gluconeogenesis and increases peripheral glucose uptake, improving insulin sensitivity.",
+    "additional": "It is first-line therapy for type 2 diabetes and does not cause hypoglycemia. Contraindicated in renal insufficiency due to lactic acidosis risk."
+  },
+  {
+    "question": "32. Which test confirms the diagnosis of pheochromocytoma?",
+    "options": {
+      "A": "Dexamethasone suppression test",
+      "B": "Urinary vanillylmandelic acid (VMA)",
+      "C": "ACTH stimulation test",
+      "D": "Serum cortisol"
+    },
+    "answer": "B",
+    "explanation": "Pheochromocytoma is diagnosed by elevated catecholamine metabolites like metanephrines or VMA in 24-hour urine.",
+    "additional": "Symptoms include episodic hypertension, palpitations, sweating, and headache. Confirm location with imaging (CT/MRI)."
+  },
+  {
+    "question": "33. What is the most common cause of hypocalcemia after thyroid surgery?",
+    "options": {
+      "A": "Recurrent laryngeal nerve injury",
+      "B": "Hypothyroidism",
+      "C": "Parathyroid gland injury",
+      "D": "Vitamin D deficiency"
+    },
+    "answer": "C",
+    "explanation": "Accidental removal or damage to the parathyroid glands during thyroidectomy can lead to hypocalcemia.",
+    "additional": "Symptoms include perioral numbness, muscle cramps, and Chvostek’s sign. Treat with calcium and vitamin D supplements."
+  },
+  {
+    "question": "34. What electrolyte abnormality is commonly seen in DKA?",
+    "options": {
+      "A": "Hypercalcemia",
+      "B": "Hyperkalemia",
+      "C": "Hypoglycemia",
+      "D": "Hypernatremia"
+    },
+    "answer": "B",
+    "explanation": "DKA often presents with total body potassium depletion but serum hyperkalemia due to acidosis and insulin deficiency shifting K+ extracellularly.",
+    "additional": "Insulin therapy drives K+ into cells, risking hypokalemia unless potassium is supplemented."
+  },
+  {
+    "question": "35. Which drug class is most appropriate for treating hyperthyroidism in pregnancy?",
+    "options": {
+      "A": "Methimazole throughout",
+      "B": "Propylthiouracil (PTU) in the first trimester",
+      "C": "Radioactive iodine",
+      "D": "Beta blockers only"
+    },
+    "answer": "B",
+    "explanation": "PTU is preferred in the first trimester due to lower teratogenicity, then switched to methimazole later in pregnancy.",
+    "additional": "Radioactive iodine is contraindicated in pregnancy. Beta blockers may be used for symptom control."
+  },
+  {
+    "question": "36. What is the preferred treatment for prolactinoma?",
+    "options": {
+      "A": "Radiation therapy",
+      "B": "Surgical resection",
+      "C": "Dopamine agonists (e.g., bromocriptine)",
+      "D": "Estrogen therapy"
+    },
+    "answer": "C",
+    "explanation": "Dopamine agonists suppress prolactin production and shrink prolactinomas. Surgery is reserved for resistant or large tumors.",
+    "additional": "Cabergoline and bromocriptine are effective. Monitor prolactin levels and MRI for response."
+  },
+  {
+    "question": "37. Which hormone is responsible for milk ejection in lactating mothers?",
+    "options": {
+      "A": "Prolactin",
+      "B": "Oxytocin",
+      "C": "Estrogen",
+      "D": "FSH"
+    },
+    "answer": "B",
+    "explanation": "Oxytocin, released from the posterior pituitary, causes contraction of myoepithelial cells in the breast, ejecting milk.",
+    "additional": "Prolactin is responsible for milk production. Both hormones are stimulated by infant suckling."
+  },
+  {
+    "question": "38. What is the most likely cause of hirsutism, irregular menses, and obesity in a young woman?",
+    "options": {
+      "A": "Cushing’s syndrome",
+      "B": "Hyperprolactinemia",
+      "C": "Polycystic ovarian syndrome (PCOS)",
+      "D": "Thyroid disease"
+    },
+    "answer": "C",
+    "explanation": "PCOS presents with hyperandrogenism, menstrual irregularities, and insulin resistance. It is the most common endocrine disorder in women of reproductive age.",
+    "additional": "Diagnosis is clinical and supported by ultrasound findings of polycystic ovaries. Managed with weight loss, metformin, and hormonal therapy."
+  },
+  {
+    "question": "39. What is the treatment of choice for myxedema coma?",
+    "options": {
+      "A": "Methimazole and beta blockers",
+      "B": "IV levothyroxine and supportive care",
+      "C": "Oral T3",
+      "D": "Observation and fluids only"
+    },
+    "answer": "B",
+    "explanation": "Myxedema coma is a life-threatening form of hypothyroidism requiring IV thyroid hormone replacement and supportive care.",
+    "additional": "Patients often require warming, correction of electrolytes, and corticosteroids until adrenal insufficiency is ruled out."
+  },
+  {
+    "question": "40. Which condition is associated with increased risk of medullary thyroid carcinoma?",
+    "options": {
+      "A": "MEN type 2",
+      "B": "MEN type 1",
+      "C": "Graves’ disease",
+      "D": "Hashimoto’s thyroiditis"
+    },
+    "answer": "A",
+    "explanation": "MEN type 2 (both 2A and 2B) includes medullary thyroid carcinoma as a core component due to RET proto-oncogene mutation.",
+    "additional": "Genetic testing is recommended for at-risk individuals. Prophylactic thyroidectomy is sometimes performed in childhood."
+  },
+  {
+    "question": "41. What is the primary cause of diabetic retinopathy?",
+    "options": {
+      "A": "Hyperlipidemia",
+      "B": "Prolonged hypertension",
+      "C": "Chronic hyperglycemia",
+      "D": "Recurrent infections"
+    },
+    "answer": "C",
+    "explanation": "Diabetic retinopathy is caused by microvascular damage from chronic hyperglycemia leading to retinal ischemia and neovascularization.",
+    "additional": "Regular ophthalmic screening is critical. Tight glucose control helps prevent progression."
+  },
+  {
+    "question": "42. Which endocrine disorder is associated with delayed bone age in children?",
+    "options": {
+      "A": "Hyperthyroidism",
+      "B": "Congenital adrenal hyperplasia",
+      "C": "Hypothyroidism",
+      "D": "Pheochromocytoma"
+    },
+    "answer": "C",
+    "explanation": "Hypothyroidism causes delayed skeletal maturation, leading to delayed bone age and growth retardation in children.",
+    "additional": "Newborn screening helps early detection. Treatment is with levothyroxine."
+  },
+  {
+    "question": "43. What is the primary defect in type 2 diabetes mellitus?",
+    "options": {
+      "A": "Autoimmune destruction of beta cells",
+      "B": "Insulin resistance",
+      "C": "Impaired glucagon secretion",
+      "D": "Defective ADH action"
+    },
+    "answer": "B",
+    "explanation": "Type 2 diabetes is primarily due to insulin resistance in peripheral tissues, followed by relative insulin deficiency.",
+    "additional": "Associated with obesity, sedentary lifestyle, and genetics. Managed with diet, exercise, oral agents, and sometimes insulin."
+  },
+  {
+    "question": "44. What hormone is elevated in acromegaly?",
+    "options": {
+      "A": "TSH",
+      "B": "Growth hormone",
+      "C": "Cortisol",
+      "D": "Prolactin"
+    },
+    "answer": "B",
+    "explanation": "Excess growth hormone after epiphyseal closure leads to acromegaly. Often due to a pituitary adenoma.",
+    "additional": "IGF-1 is also elevated. Confirm with glucose suppression test and imaging."
+  },
+  {
+    "question": "45. Which of the following is an example of a negative feedback mechanism?",
+    "options": {
+      "A": "Oxytocin release during labor",
+      "B": "ADH release during dehydration",
+      "C": "TSH inhibition by high T3/T4 levels",
+      "D": "Insulin release after glucose intake"
+    },
+    "answer": "C",
+    "explanation": "High levels of thyroid hormones (T3/T4) inhibit TSH release from the pituitary — a classic example of negative feedback.",
+    "additional": "Negative feedback helps maintain hormone balance in most endocrine systems."
+  },
+  {
+    "question": "46. What condition is characterized by elevated blood pressure, palpitations, and episodic headaches?",
+    "options": {
+      "A": "Cushing’s syndrome",
+      "B": "Pheochromocytoma",
+      "C": "Graves’ disease",
+      "D": "Addison’s disease"
+    },
+    "answer": "B",
+    "explanation": "Pheochromocytoma is a catecholamine-secreting tumor causing episodic hypertension, headaches, and palpitations.",
+    "additional": "Diagnosed by metanephrines in urine or plasma. Treated with surgical removal after alpha blockade."
+  },
+  {
+    "question": "47. What is the hallmark of Hashimoto’s thyroiditis?",
+    "options": {
+      "A": "Granulomatous inflammation",
+      "B": "Hurthle cells and lymphocytic infiltration",
+      "C": "Amyloid deposits",
+      "D": "Multinodular goiter"
+    },
+    "answer": "B",
+    "explanation": "Hashimoto’s is an autoimmune thyroiditis showing lymphocytic infiltration and Hurthle cells on histology.",
+    "additional": "It is the most common cause of hypothyroidism in iodine-sufficient areas. Anti-TPO antibodies are usually present."
+  },
+  {
+    "question": "48. Which metabolic abnormality is associated with parathyroid hormone excess?",
+    "options": {
+      "A": "Hypocalcemia",
+      "B": "Hyperphosphatemia",
+      "C": "Hypercalcemia",
+      "D": "Hyponatremia"
+    },
+    "answer": "C",
+    "explanation": "Excess PTH increases calcium resorption from bone, renal reabsorption, and intestinal absorption, leading to hypercalcemia.",
+    "additional": "Primary hyperparathyroidism presents with ‘bones, stones, groans, and psychiatric overtones.’"
+  },
+  {
+    "question": "49. Which is a common long-term complication of untreated hypothyroidism?",
+    "options": {
+      "A": "Heart failure",
+      "B": "Liver cirrhosis",
+      "C": "Seizures",
+      "D": "Pulmonary embolism"
+    },
+    "answer": "A",
+    "explanation": "Hypothyroidism can lead to bradycardia, decreased cardiac output, and eventually heart failure if untreated.",
+    "additional": "Other complications include infertility, myxedema coma, and dyslipidemia."
+  },
+  {
+    "question": "50. Which test is best for confirming Cushing’s syndrome?",
+    "options": {
+      "A": "Random serum cortisol",
+      "B": "Low-dose dexamethasone suppression test",
+      "C": "Serum aldosterone",
+      "D": "ACTH stimulation test"
+    },
+    "answer": "B",
+    "explanation": "The low-dose dexamethasone suppression test helps confirm Cushing’s by evaluating failure to suppress cortisol levels.",
+    "additional": "If positive, further tests are needed to differentiate between causes (ACTH-dependent vs independent)."
+  }
 ]
+
+
+ 
 
 
 
