@@ -119,4 +119,487 @@
     "explanation": "Tissue perfusion is best monitored by capillary refill (<2s), urine output (>0.5 mL/kg/hr), and lactate levels.",
     "additional": "Low urine output and delayed cap refill indicate poor perfusion even if BP is normal."
   },
-  
+  {
+    "question": "11. In a critically ill diabetic patient, which condition is indicated by rapid breathing, fruity odor, and confusion?",
+    "options": {
+      "A": "Hypoglycemia",
+      "B": "Diabetic ketoacidosis (DKA)",
+      "C": "Hyperosmolar hyperglycemic state (HHS)",
+      "D": "Lactic acidosis"
+    },
+    "answer": "B",
+    "explanation": "DKA presents with metabolic acidosis, hyperglycemia, ketones, and compensatory Kussmaul respirations with fruity odor.",
+    "additional": "DKA is a medical emergency treated with insulin, fluids, and electrolyte correction."
+  },
+  {
+    "question": "12. What is the purpose of the Glasgow Coma Scale in critical care?",
+    "options": {
+      "A": "Assess liver function",
+      "B": "Determine sedation depth",
+      "C": "Evaluate level of consciousness",
+      "D": "Predict renal function"
+    },
+    "answer": "C",
+    "explanation": "The GCS assesses eye, verbal, and motor responses to quantify neurologic function. Score ranges from 3–15.",
+    "additional": "A score ≤8 indicates coma. Regular assessment helps track neurologic changes."
+  },
+  {
+    "question": "13. What does a sudden drop in oxygen saturation in a ventilated patient suggest?",
+    "options": {
+      "A": "Improvement",
+      "B": "Ventilator malfunction or lung issue",
+      "C": "Bradycardia",
+      "D": "Renal failure"
+    },
+    "answer": "B",
+    "explanation": "A rapid desaturation may indicate tube dislodgement, pneumothorax, atelectasis, or obstruction.",
+    "additional": "Immediate assessment of the patient and ventilator system is crucial to restore oxygenation."
+  },
+  {
+    "question": "14. What should the nurse monitor closely in a patient on vasopressors?",
+    "options": {
+      "A": "Bowel sounds",
+      "B": "Urine output and extremity perfusion",
+      "C": "Appetite",
+      "D": "Hair loss"
+    },
+    "answer": "B",
+    "explanation": "Vasopressors may reduce perfusion to kidneys and extremities, leading to ischemia.",
+    "additional": "Monitor for decreased urine, cold limbs, or mottling. Adjust dosing accordingly."
+  },
+  {
+    "question": "15. Which is the best indicator of adequate fluid resuscitation?",
+    "options": {
+      "A": "High respiratory rate",
+      "B": "Decreased blood pressure",
+      "C": "Increased urine output",
+      "D": "Peripheral edema"
+    },
+    "answer": "C",
+    "explanation": "Urine output >0.5 mL/kg/hr reflects adequate renal perfusion and overall fluid resuscitation.",
+    "additional": "Other signs include improved BP, mentation, and warm extremities."
+  },
+  {
+    "question": "16. Which medication reverses opioid overdose?",
+    "options": {
+      "A": "Naloxone",
+      "B": "Flumazenil",
+      "C": "Atropine",
+      "D": "Furosemide"
+    },
+    "answer": "A",
+    "explanation": "Naloxone is an opioid antagonist that rapidly reverses opioid-induced respiratory depression.",
+    "additional": "Monitor for recurrence of symptoms as its half-life may be shorter than the opioid involved."
+  },
+  {
+    "question": "17. What is the most appropriate action during a code blue in the ICU?",
+    "options": {
+      "A": "Leave the room",
+      "B": "Wait for orders",
+      "C": "Initiate CPR and call for help",
+      "D": "Check emails"
+    },
+    "answer": "C",
+    "explanation": "Immediate CPR is critical in cardiac arrest. Early defibrillation and team response improve survival.",
+    "additional": "Every second counts. Follow Advanced Cardiac Life Support (ACLS) protocols."
+  },
+  {
+    "question": "18. What is a risk of prolonged immobility in the critically ill?",
+    "options": {
+      "A": "Improved appetite",
+      "B": "Increased muscle strength",
+      "C": "Pressure ulcers and DVT",
+      "D": "Faster recovery"
+    },
+    "answer": "C",
+    "explanation": "Lack of movement leads to venous stasis and skin breakdown, increasing risk for DVT and pressure injuries.",
+    "additional": "Repositioning, anticoagulation, and skin care are essential."
+  },
+  {
+    "question": "19. Which device is used to continuously monitor cardiac rhythm?",
+    "options": {
+      "A": "Pulse oximeter",
+      "B": "Thermometer",
+      "C": "Cardiac monitor (ECG)",
+      "D": "Sphygmomanometer"
+    },
+    "answer": "C",
+    "explanation": "A cardiac monitor displays real-time ECG to detect arrhythmias and guide treatment.",
+    "additional": "Vital for ICU patients at risk of cardiac events."
+  },
+  {
+    "question": "20. Why is blood glucose monitoring important in critically ill patients?",
+    "options": {
+      "A": "Hyperglycemia improves outcomes",
+      "B": "To diagnose anemia",
+      "C": "Stress-induced hyperglycemia can worsen prognosis",
+      "D": "To check for infection"
+    },
+    "answer": "C",
+    "explanation": "Stress, illness, and medications can raise blood glucose, leading to poor healing and increased mortality.",
+    "additional": "Tight glucose control may reduce complications in ICU patients."
+  },
+  {
+    "question": "21. Which lab value best indicates renal function in the critically ill?",
+    "options": {
+      "A": "Hemoglobin",
+      "B": "Creatinine",
+      "C": "Platelet count",
+      "D": "Amylase"
+    },
+    "answer": "B",
+    "explanation": "Serum creatinine is the most reliable indicator of renal function. Elevated levels suggest impaired kidney filtration.",
+    "additional": "Monitor urine output and creatinine trends for early detection of acute kidney injury (AKI)."
+  },
+  {
+    "question": "22. What condition is suggested by distended neck veins, muffled heart sounds, and hypotension?",
+    "options": {
+      "A": "Congestive heart failure",
+      "B": "Cardiac tamponade",
+      "C": "Septic shock",
+      "D": "Pulmonary embolism"
+    },
+    "answer": "B",
+    "explanation": "These are classic signs of Beck’s triad in cardiac tamponade, where fluid in the pericardium restricts heart function.",
+    "additional": "Requires urgent pericardiocentesis. Suspect in trauma or post-surgical patients."
+  },
+  {
+    "question": "23. Which finding indicates effective CPR in a critically ill patient?",
+    "options": {
+      "A": "Flat ECG line",
+      "B": "Carotid pulse with chest compressions",
+      "C": "Dilated pupils",
+      "D": "No response to stimuli"
+    },
+    "answer": "B",
+    "explanation": "A palpable carotid pulse during compressions confirms mechanical effectiveness of chest compressions.",
+    "additional": "Also monitor end-tidal CO2 (>10 mmHg) for effectiveness."
+  },
+  {
+    "question": "24. What is a critical safety check before administering IV potassium?",
+    "options": {
+      "A": "Confirm BP is normal",
+      "B": "Ensure patient is NPO",
+      "C": "Verify adequate urine output",
+      "D": "Measure respiratory rate"
+    },
+    "answer": "C",
+    "explanation": "Potassium should never be given without confirming renal function. Reduced urine output increases risk of hyperkalemia.",
+    "additional": "Administer slowly via infusion pump; never IV push."
+  },
+  {
+    "question": "25. Which nursing action reduces the risk of aspiration in unconscious patients?",
+    "options": {
+      "A": "Place in prone position",
+      "B": "Administer food orally",
+      "C": "Maintain head-of-bed elevation",
+      "D": "Use sedatives regularly"
+    },
+    "answer": "C",
+    "explanation": "Elevating the head of the bed (30–45°) helps prevent aspiration of secretions or gastric contents.",
+    "additional": "Suction equipment and oral care also reduce aspiration risk."
+  },
+  {
+    "question": "26. What is the priority nursing action for a patient with acute pulmonary edema?",
+    "options": {
+      "A": "Administer antihistamines",
+      "B": "Lay the patient flat",
+      "C": "Sit the patient upright and give oxygen",
+      "D": "Encourage oral fluids"
+    },
+    "answer": "C",
+    "explanation": "Upright positioning improves lung expansion, and oxygen relieves hypoxia in pulmonary edema.",
+    "additional": "Diuretics and vasodilators may be needed. Monitor oxygen saturation closely."
+  },
+  {
+    "question": "27. Which infection control measure is essential in the ICU?",
+    "options": {
+      "A": "Hand hygiene before and after patient contact",
+      "B": "Using gloves only when blood is visible",
+      "C": "Sterilizing food trays",
+      "D": "Cleaning floors hourly"
+    },
+    "answer": "A",
+    "explanation": "Hand hygiene is the most effective method to prevent hospital-acquired infections (HAIs), including multidrug-resistant organisms.",
+    "additional": "Alcohol-based hand rubs or soap and water should be used consistently."
+  },
+  {
+    "question": "28. A patient develops sudden confusion and agitation. What should the nurse assess first?",
+    "options": {
+      "A": "Family history",
+      "B": "Cultural background",
+      "C": "Oxygen saturation and glucose",
+      "D": "Recent meals"
+    },
+    "answer": "C",
+    "explanation": "Hypoxia or hypoglycemia are common reversible causes of acute confusion in critically ill patients.",
+    "additional": "Check vital signs, ABG, and glucose urgently. Address underlying cause."
+  },
+  {
+    "question": "29. What is the best nursing response to family anxiety in the ICU?",
+    "options": {
+      "A": "Avoid giving updates",
+      "B": "Provide clear, honest information",
+      "C": "Ignore their presence",
+      "D": "Refer all questions to doctors only"
+    },
+    "answer": "B",
+    "explanation": "Frequent, compassionate updates reduce anxiety and foster trust during critical illness.",
+    "additional": "Use simple language, be empathetic, and allow questions."
+  },
+  {
+    "question": "30. In critical care, what does CVP (central venous pressure) monitoring assess?",
+    "options": {
+      "A": "Cardiac contractility",
+      "B": "Pulmonary oxygenation",
+      "C": "Right ventricular preload and fluid status",
+      "D": "Renal perfusion"
+    },
+    "answer": "C",
+    "explanation": "CVP reflects right atrial pressure and helps determine fluid volume status. High CVP suggests fluid overload.",
+    "additional": "Normal range: 2–6 mmHg. Used to guide fluid therapy in shock or sepsis."
+  },
+  {
+    "question": "31. Which sign is an early indication of hypoxia in a critically ill patient?",
+    "options": {
+      "A": "Cyanosis",
+      "B": "Confusion or restlessness",
+      "C": "Bradycardia",
+      "D": "Hypotension"
+    },
+    "answer": "B",
+    "explanation": "Mental status changes such as agitation or confusion often appear before visible cyanosis in hypoxia.",
+    "additional": "Other early signs include tachypnea and tachycardia. Oxygen therapy and cause correction are urgent."
+  },
+  {
+    "question": "32. What should the nurse monitor in a patient receiving blood transfusion?",
+    "options": {
+      "A": "Appetite",
+      "B": "Sleep pattern",
+      "C": "Fever, chills, and urticaria",
+      "D": "Skin dryness"
+    },
+    "answer": "C",
+    "explanation": "Transfusion reactions often manifest as fever, chills, rash, or back pain. Stop transfusion immediately if suspected.",
+    "additional": "Check vital signs frequently. Administer antihistamines or antipyretics as prescribed."
+  },
+  {
+    "question": "33. What is a priority intervention for a patient with a tension pneumothorax?",
+    "options": {
+      "A": "Give cough syrup",
+      "B": "Insert nasogastric tube",
+      "C": "Needle decompression",
+      "D": "Encourage deep breathing"
+    },
+    "answer": "C",
+    "explanation": "Tension pneumothorax is a life-threatening emergency. Immediate needle decompression relieves intrathoracic pressure.",
+    "additional": "Follow up with chest tube insertion. Monitor for respiratory and hemodynamic improvement."
+  },
+  {
+    "question": "34. Why are critically ill patients at high risk of stress ulcers?",
+    "options": {
+      "A": "Lack of mobility",
+      "B": "Increased gastric acid and poor perfusion",
+      "C": "Frequent eating",
+      "D": "Excess vitamin intake"
+    },
+    "answer": "B",
+    "explanation": "Physiologic stress increases gastric acid production and mucosal ischemia, predisposing to ulcers.",
+    "additional": "Prophylaxis includes PPIs or H2 blockers. Monitor for signs of GI bleeding."
+  },
+  {
+    "question": "35. Which is the most reliable sign of end-organ perfusion?",
+    "options": {
+      "A": "Pulse rate",
+      "B": "Skin turgor",
+      "C": "Urine output",
+      "D": "Capillary refill"
+    },
+    "answer": "C",
+    "explanation": "Urine output reflects renal perfusion and is a key marker of adequate cardiac output.",
+    "additional": "Oliguria (<0.5 mL/kg/hr) suggests hypoperfusion. Monitor fluid balance closely."
+  },
+  {
+    "question": "36. What is the primary reason for using sedation in critically ill patients on mechanical ventilation?",
+    "options": {
+      "A": "To decrease urine output",
+      "B": "To promote ventilator synchrony and comfort",
+      "C": "To cure infection",
+      "D": "To increase mobility"
+    },
+    "answer": "B",
+    "explanation": "Sedation ensures patient comfort, reduces anxiety, and improves synchronization with the ventilator.",
+    "additional": "Use sedation scales and daily interruptions to prevent over-sedation."
+  },
+  {
+    "question": "37. What condition is suggested by hypotension, distended neck veins, and muffled heart sounds?",
+    "options": {
+      "A": "Cardiogenic shock",
+      "B": "Tension pneumothorax",
+      "C": "Cardiac tamponade",
+      "D": "Pulmonary embolism"
+    },
+    "answer": "C",
+    "explanation": "These symptoms (Beck’s triad) are classic for cardiac tamponade where pericardial fluid restricts cardiac filling.",
+    "additional": "Urgent pericardiocentesis is required to relieve pressure."
+  },
+  {
+    "question": "38. What is the main goal of nutritional support in critically ill patients?",
+    "options": {
+      "A": "Weight gain",
+      "B": "Immune support and healing",
+      "C": "Improved taste",
+      "D": "Relieving boredom"
+    },
+    "answer": "B",
+    "explanation": "Adequate nutrition enhances immune function, maintains lean body mass, and supports recovery.",
+    "additional": "Enteral feeding is preferred unless contraindicated. Monitor glucose and electrolytes."
+  },
+  {
+    "question": "39. What ECG change is expected in severe hyperkalemia?",
+    "options": {
+      "A": "Peaked T waves",
+      "B": "Flat T waves",
+      "C": "ST depression",
+      "D": "Short PR interval"
+    },
+    "answer": "A",
+    "explanation": "Tall, peaked T waves are a hallmark of hyperkalemia and may precede life-threatening arrhythmias.",
+    "additional": "Urgent treatment with calcium gluconate, insulin with glucose, and diuretics or dialysis."
+  },
+  {
+    "question": "40. What is the nurse’s priority when a critically ill patient becomes unresponsive?",
+    "options": {
+      "A": "Take blood pressure",
+      "B": "Call family",
+      "C": "Assess airway, breathing, circulation (ABCs)",
+      "D": "Write a note"
+    },
+    "answer": "C",
+    "explanation": "The ABCs are the foundation of emergency response. Ensure airway patency, provide ventilation, and restore circulation.",
+    "additional": "Activate emergency response, start CPR if needed, and notify physician immediately."
+  },
+  {
+    "question": "41. What is the most appropriate nursing action during weaning from mechanical ventilation?",
+    "options": {
+      "A": "Ignore respiratory effort",
+      "B": "Monitor respiratory rate and oxygen saturation",
+      "C": "Restrict fluids",
+      "D": "Increase sedation"
+    },
+    "answer": "B",
+    "explanation": "During weaning, the nurse monitors for signs of distress, tachypnea, desaturation, or fatigue to ensure the patient is tolerating the process.",
+    "additional": "Weaning trials are guided by patient’s readiness, stability, and ABG results."
+  },
+  {
+    "question": "42. What is a complication of central line insertion?",
+    "options": {
+      "A": "Pneumothorax",
+      "B": "Liver failure",
+      "C": "Hemorrhoids",
+      "D": "Constipation"
+    },
+    "answer": "A",
+    "explanation": "During subclavian or internal jugular central line insertion, accidental puncture of the pleura can cause pneumothorax.",
+    "additional": "Post-procedure chest X-ray is required to confirm placement and rule out complications."
+  },
+  {
+    "question": "43. What is the rationale for cluster care in the ICU?",
+    "options": {
+      "A": "Reduce patient contact",
+      "B": "Promote uninterrupted rest",
+      "C": "Increase nurse documentation",
+      "D": "Enhance noise levels"
+    },
+    "answer": "B",
+    "explanation": "Critically ill patients need rest to recover. Clustering tasks minimizes disruptions and allows longer rest periods.",
+    "additional": "Coordinate assessments, medications, and hygiene activities to preserve sleep cycles."
+  },
+  {
+    "question": "44. What is the priority assessment for a patient with a chest tube?",
+    "options": {
+      "A": "Hair distribution",
+      "B": "Drainage color and air leak",
+      "C": "Mouth hygiene",
+      "D": "Calcium level"
+    },
+    "answer": "B",
+    "explanation": "Chest tube assessment includes monitoring drainage type/amount and checking for bubbling (air leak), which may indicate disconnection or lung leak.",
+    "additional": "Also inspect for kinks, occlusion, or dislodgement. Ensure system is below chest level."
+  },
+  {
+    "question": "45. Which action helps reduce ICU delirium?",
+    "options": {
+      "A": "Continuous sedation",
+      "B": "Sensory deprivation",
+      "C": "Reorienting the patient frequently",
+      "D": "Avoiding family visits"
+    },
+    "answer": "C",
+    "explanation": "Delirium is common in ICUs. Reorientation with clocks, windows, conversation, and family interaction improves cognition.",
+    "additional": "Avoid over-sedation. Maintain sleep-wake cycles and provide familiar objects."
+  },
+  {
+    "question": "46. What is the nurse's responsibility during defibrillation?",
+    "options": {
+      "A": "Apply oxygen mask",
+      "B": "Ensure no one is touching the patient",
+      "C": "Give IV fluids",
+      "D": "Document pulse manually"
+    },
+    "answer": "B",
+    "explanation": "Before shock delivery, clear everyone from contact with the patient to avoid accidental injury.",
+    "additional": "Announce “Clear!” loudly, check visually and verbally before pressing shock button."
+  },
+  {
+    "question": "47. What is the appropriate action for high-pressure alarm in a ventilator?",
+    "options": {
+      "A": "Ignore alarm",
+      "B": "Increase oxygen",
+      "C": "Check for kink or obstruction",
+      "D": "Silence alarm only"
+    },
+    "answer": "C",
+    "explanation": "High pressure may be due to mucus plugs, biting the tube, or kinks. Immediate assessment is needed.",
+    "additional": "Suction or reposition as needed. Always check patient first, then machine."
+  },
+  {
+    "question": "48. What is an important consideration when giving total parenteral nutrition (TPN)?",
+    "options": {
+      "A": "Use oral route simultaneously",
+      "B": "Use peripheral line only",
+      "C": "Monitor glucose and electrolytes regularly",
+      "D": "Avoid checking labs"
+    },
+    "answer": "C",
+    "explanation": "TPN is high in glucose and electrolytes. Regular monitoring is needed to avoid complications like hyperglycemia and electrolyte imbalance.",
+    "additional": "Central line is required for long-term TPN. Maintain strict aseptic technique."
+  },
+  {
+    "question": "49. What is the nurse's role in preventing ICU-acquired infections?",
+    "options": {
+      "A": "Limit patient interaction",
+      "B": "Follow infection control protocols strictly",
+      "C": "Administer multiple antibiotics",
+      "D": "Use foley catheters for all patients"
+    },
+    "answer": "B",
+    "explanation": "Hand hygiene, sterile techniques, catheter care, and VAP bundles are key to preventing ICU infections.",
+    "additional": "Regular staff education and audits help sustain compliance."
+  },
+  {
+    "question": "50. What does an elevated lactate level indicate in critical illness?",
+    "options": {
+      "A": "Improved perfusion",
+      "B": "Hyperventilation",
+      "C": "Tissue hypoxia or poor perfusion",
+      "D": "Normal metabolic activity"
+    },
+    "answer": "C",
+    "explanation": "Lactate rises when cells undergo anaerobic metabolism due to hypoperfusion, as seen in sepsis or shock.",
+    "additional": "Serial lactate levels help monitor response to resuscitation. Normal range: 0.5–2.2 mmol/L."
+  }
+]
+
+
+
