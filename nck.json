@@ -1009,7 +1009,208 @@
     },
     "answer": "C"
   },
-  
+  {
+    "question": "What is the most effective method to confirm endotracheal tube placement after intubation?",
+    "options": {
+      "A": "Auscultation of bilateral breath sounds",
+      "B": "Observation of chest rise",
+      "C": "Capnography",
+      "D": "Fogging in the tube"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "A newborn with respiratory distress should first be managed by:",
+    "options": {
+      "A": "Providing oxygen therapy",
+      "B": "Warming the baby",
+      "C": "Suctioning the airway",
+      "D": "Initiating antibiotics"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Which action helps prevent hypothermia in a newborn immediately after delivery?",
+    "options": {
+      "A": "Giving vitamin K",
+      "B": "Delaying cord clamping",
+      "C": "Covering the baby with warm towels",
+      "D": "Immediate breastfeeding"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Which of the following is a sign of magnesium sulfate toxicity?",
+    "options": {
+      "A": "Seizures",
+      "B": "Hypertension",
+      "C": "Absent deep tendon reflexes",
+      "D": "Increased urinary output"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Which is the recommended position for a patient in shock?",
+    "options": {
+      "A": "High Fowler's",
+      "B": "Prone",
+      "C": "Trendelenburg",
+      "D": "Supine with legs elevated"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "In the third stage of labor, which sign indicates placental separation?",
+    "options": {
+      "A": "Onset of strong contractions",
+      "B": "Lengthening of the cord",
+      "C": "Rupture of membranes",
+      "D": "Absence of pain"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "What is the correct angle for administering an intramuscular injection in an adult?",
+    "options": {
+      "A": "90 degrees",
+      "B": "60 degrees",
+      "C": "45 degrees",
+      "D": "15 degrees"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Which laboratory finding confirms iron-deficiency anemia?",
+    "options": {
+      "A": "Low WBC count",
+      "B": "Low serum ferritin",
+      "C": "High platelet count",
+      "D": "Elevated reticulocyte count"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Which complication is common with preeclampsia?",
+    "options": {
+      "A": "Pulmonary embolism",
+      "B": "Eclampsia",
+      "C": "Hypoglycemia",
+      "D": "Gestational diabetes"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "What is the most common site for deep vein thrombosis after surgery?",
+    "options": {
+      "A": "Upper arms",
+      "B": "Abdomen",
+      "C": "Lower limbs",
+      "D": "Neck"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Which intervention is crucial during a tonic-clonic seizure?",
+    "options": {
+      "A": "Insert oral airway",
+      "B": "Restrain the patient",
+      "C": "Ensure airway patency",
+      "D": "Place patient in prone position"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Which of the following is a reliable sign of dehydration in infants?",
+    "options": {
+      "A": "Tearless crying",
+      "B": "Sunken eyes",
+      "C": "Fever",
+      "D": "Hypotension"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Which condition is an indication for cesarean section?",
+    "options": {
+      "A": "Cephalopelvic disproportion",
+      "B": "Maternal request",
+      "C": "Postmaturity",
+      "D": "Premature rupture of membranes"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "What is the most appropriate management for a child with severe dehydration?",
+    "options": {
+      "A": "Oral rehydration therapy",
+      "B": "Antibiotics",
+      "C": "Intravenous rehydration",
+      "D": "Diuretics"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "The APGAR score evaluates all the following EXCEPT:",
+    "options": {
+      "A": "Appearance",
+      "B": "Pulse",
+      "C": "Activity",
+      "D": "Feeding"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Which finding is most typical in a patient with pulmonary tuberculosis?",
+    "options": {
+      "A": "Shortness of breath",
+      "B": "Hemoptysis",
+      "C": "Cyanosis",
+      "D": "Bradycardia"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Which vitamin is essential for clotting?",
+    "options": {
+      "A": "Vitamin A",
+      "B": "Vitamin B12",
+      "C": "Vitamin C",
+      "D": "Vitamin K"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "A child with kwashiorkor is likely to have:",
+    "options": {
+      "A": "Wasting and stunting",
+      "B": "Moon face and edema",
+      "C": "Pale skin and bleeding gums",
+      "D": "Dry scaly skin"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Which of the following is a common side effect of furosemide?",
+    "options": {
+      "A": "Hyperkalemia",
+      "B": "Hypokalemia",
+      "C": "Hypernatremia",
+      "D": "Bradycardia"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "In diabetes mellitus, polyuria occurs due to:",
+    "options": {
+      "A": "Increased ADH secretion",
+      "B": "Osmotic diuresis",
+      "C": "Decreased insulin sensitivity",
+      "D": "Glucagon deficiency"
+    },
+    "answer": "B"
+  }
+]
+
 
 
 
