@@ -154,6 +154,609 @@
   "answer": "A",
   "explanation": "This question asks for the leading causes of new cases of blindness and significant visual impairment in the adult population.\n\nThe \"Big Three\" Age-Related Eye Diseases:\n\nCataracts: A clouding of the eye's natural lens. This is the leading cause of reversible blindness worldwide. The primary risk factor is age. Treatment is surgical removal of the cloudy lens and replacement with an artificial intraocular lens.\n\nGlaucoma: A group of diseases characterized by progressive damage to the optic nerve, often associated with increased intraocular pressure (IOP). It causes a gradual loss of peripheral vision and can lead to irreversible blindness if untreated.\n\nDiabetic Retinopathy: A complication of diabetes mellitus where high blood sugar levels damage the blood vessels in the retina. It is a leading cause of new blindness among working-age adults.\n\nAge-Related Macular Degeneration (ARMD): This is another major cause, especially in older adults (>60), that causes loss of central vision. While not listed in the correct option, it's the fourth major cause.\n\nConclusion: Option (a) correctly lists three of the most significant and common causes of vision loss in adults. Conjunctivitis (c) is inflammation that doesn't typically cause permanent impairment. Astigmatism (d) is a refractive error, not a disease process.",
   "additional": "Textbook Reference: Brunner & Suddarth's Textbook of Medical-Surgical Nursing, Chapter 63: Assessment and Management of Patients With Eye and Vision Disorders."
-}
+},
+  {
+    "question": "1. A patient with Ménière’s disease is most likely to report which symptom?",
+    "options": {
+      "A": "Hearing voices",
+      "B": "Ringing in the ears and vertigo",
+      "C": "Runny nose",
+      "D": "Dry cough"
+    },
+    "answer": "B",
+    "explanation": "Ménière’s disease presents with a triad of symptoms: vertigo, tinnitus (ringing in the ears), and fluctuating hearing loss due to inner ear fluid imbalance.",
+    "additional": "Attacks can last for hours, and treatment focuses on dietary changes and symptom control."
+  },
+  {
+    "question": "2. What is the primary purpose of performing a Rinne test?",
+    "options": {
+      "A": "To assess pupil reaction",
+      "B": "To determine nasal patency",
+      "C": "To compare air and bone conduction of sound",
+      "D": "To assess throat symmetry"
+    },
+    "answer": "C",
+    "explanation": "The Rinne test evaluates hearing loss by comparing air conduction (AC) and bone conduction (BC). Normally, AC > BC.",
+    "additional": "It helps differentiate conductive vs sensorineural hearing loss."
+  },
+  {
+    "question": "3. Which instruction is most appropriate for a patient after nasal surgery?",
+    "options": {
+      "A": "Forcefully blow your nose to remove clots",
+      "B": "Keep head elevated and avoid strenuous activity",
+      "C": "Drink only cold liquids",
+      "D": "Apply warm compresses to the nose"
+    },
+    "answer": "B",
+    "explanation": "Elevating the head reduces swelling and bleeding risk. Strenuous activity increases pressure and should be avoided.",
+    "additional": "Nasal packing may also be used, and mouth breathing may be necessary temporarily."
+  },
+  {
+    "question": "4. The nurse suspects otitis externa. What is a classic symptom?",
+    "options": {
+      "A": "Pain with manipulation of the pinna",
+      "B": "Postnasal drip",
+      "C": "Loss of balance",
+      "D": "Sore throat"
+    },
+    "answer": "A",
+    "explanation": "Otitis externa (swimmer’s ear) is an inflammation of the external auditory canal, often causing pain when the outer ear is touched.",
+    "additional": "May also present with discharge or itching; typically treated with antibiotic ear drops."
+  },
+  {
+    "question": "5. Which position helps reduce epistaxis (nosebleed)?",
+    "options": {
+      "A": "Supine with head down",
+      "B": "Side-lying with neck extended",
+      "C": "Sitting upright leaning forward",
+      "D": "Trendelenburg position"
+    },
+    "answer": "C",
+    "explanation": "Leaning forward prevents blood from draining into the throat and allows it to exit the nose.",
+    "additional": "Nasal pressure and ice may help stop bleeding."
+  },
+  {
+    "question": "6. The nurse is teaching a patient with tonsillitis. Which symptom requires immediate medical attention?",
+    "options": {
+      "A": "Sore throat",
+      "B": "White patches on tonsils",
+      "C": "Difficulty breathing or swallowing",
+      "D": "Mild fever"
+    },
+    "answer": "C",
+    "explanation": "Airway obstruction is a medical emergency. Severe swelling may require hospitalization or surgical intervention.",
+    "additional": "Other signs like drooling or muffled voice are red flags."
+  },
+  {
+    "question": "7. A patient has been diagnosed with sinusitis. What symptom is expected?",
+    "options": {
+      "A": "Severe neck stiffness",
+      "B": "Loss of peripheral vision",
+      "C": "Facial pain and nasal congestion",
+      "D": "Photophobia"
+    },
+    "answer": "C",
+    "explanation": "Sinusitis causes pressure and pain over affected sinuses, congestion, and nasal discharge.",
+    "additional": "Treatment may involve nasal sprays, decongestants, and antibiotics."
+  },
+  {
+    "question": "8. What is an appropriate hearing aid teaching point?",
+    "options": {
+      "A": "Store in a warm, moist place",
+      "B": "Turn the volume all the way up before inserting",
+      "C": "Remove battery if not in use for a long period",
+      "D": "Use water to clean it daily"
+    },
+    "answer": "C",
+    "explanation": "Removing the battery prolongs hearing aid life when not in use. Moisture can damage the device.",
+    "additional": "Clean with a dry cloth; avoid water exposure."
+  },
+  {
+    "question": "9. A patient reports ear fullness, popping sounds, and mild hearing loss after a flight. What is the likely cause?",
+    "options": {
+      "A": "Acoustic neuroma",
+      "B": "Barotrauma from pressure changes",
+      "C": "Cerumen impaction",
+      "D": "Otitis media"
+    },
+    "answer": "B",
+    "explanation": "Air pressure changes can cause temporary Eustachian tube dysfunction, leading to these symptoms.",
+    "additional": "Yawning, swallowing, or chewing gum can relieve pressure."
+  },
+  {
+    "question": "10. What is the appropriate action for a patient with a foreign object in the ear canal?",
+    "options": {
+      "A": "Attempt to remove it with tweezers",
+      "B": "Irrigate vigorously with cold water",
+      "C": "Have it removed by a trained healthcare provider",
+      "D": "Ignore unless painful"
+    },
+    "answer": "C",
+    "explanation": "Improper removal can push the object deeper or damage the canal. Referral is safest.",
+    "additional": "Removal may require special tools or irrigation by trained personnel."
+  },
+  {
+    "question": "11. A patient presents with sudden sensorineural hearing loss. Which action is most appropriate?",
+    "options": {
+      "A": "Reassure and monitor for 72 hours",
+      "B": "Refer immediately for corticosteroid therapy",
+      "C": "Prescribe antihistamines and rest",
+      "D": "Advise increased fluid intake"
+    },
+    "answer": "B",
+    "explanation": "Sudden sensorineural hearing loss is a medical emergency. Corticosteroids may improve recovery if started early.",
+    "additional": "Delay in treatment reduces the chance of regaining hearing."
+  },
+  {
+    "question": "12. What symptom is most typical in a child with acute otitis media?",
+    "options": {
+      "A": "Frequent nosebleeds",
+      "B": "Itching in the outer ear",
+      "C": "Ear tugging and irritability",
+      "D": "Hoarseness"
+    },
+    "answer": "C",
+    "explanation": "Children with acute otitis media often tug at the affected ear due to pain and pressure. They may also have fever or crying spells.",
+    "additional": "Common after upper respiratory infections."
+  },
+  {
+    "question": "13. A patient complains of hoarseness for 3 weeks. What should the nurse do?",
+    "options": {
+      "A": "Suggest saltwater gargles",
+      "B": "Encourage vocal rest and hydration",
+      "C": "Refer for laryngoscopy",
+      "D": "Advise antibiotics"
+    },
+    "answer": "C",
+    "explanation": "Persistent hoarseness longer than 2 weeks may indicate laryngeal pathology, including cancer.",
+    "additional": "Laryngoscopy is essential to visualize vocal cords and rule out malignancy."
+  },
+  {
+    "question": "14. A nurse is caring for a patient post-tonsillectomy. What is a sign of hemorrhage?",
+    "options": {
+      "A": "Drooling with clear saliva",
+      "B": "Frequent swallowing or clearing throat",
+      "C": "Low-grade fever",
+      "D": "Mild throat pain"
+    },
+    "answer": "B",
+    "explanation": "Frequent swallowing may indicate bleeding trickling down the throat. It is a sign of post-op hemorrhage.",
+    "additional": "Other signs include tachycardia, restlessness, and visible blood in the mouth."
+  },
+  {
+    "question": "15. Which teaching is appropriate after tympanoplasty?",
+    "options": {
+      "A": "Blow nose frequently to clear drainage",
+      "B": "Avoid sudden head movements",
+      "C": "Keep head lower than chest",
+      "D": "Use cotton swabs to clean the ear"
+    },
+    "answer": "B",
+    "explanation": "After tympanoplasty, sudden head movement or pressure changes may dislodge the graft.",
+    "additional": "Patients should avoid straining, flying, or heavy lifting."
+  },
+  {
+    "question": "16. What is the priority nursing action for a patient with a suspected peritonsillar abscess?",
+    "options": {
+      "A": "Administer throat lozenges",
+      "B": "Perform oral suctioning",
+      "C": "Assess airway and prepare for drainage",
+      "D": "Offer warm fluids"
+    },
+    "answer": "C",
+    "explanation": "A peritonsillar abscess can obstruct the airway. Assessment and possible drainage are urgent priorities.",
+    "additional": "Other symptoms include uvular deviation, trismus, and muffled voice."
+  },
+  {
+    "question": "17. What is the function of the Eustachian tube?",
+    "options": {
+      "A": "Transmit sound waves to the brain",
+      "B": "Regulate balance in the inner ear",
+      "C": "Equalize pressure between middle ear and pharynx",
+      "D": "Produce earwax for protection"
+    },
+    "answer": "C",
+    "explanation": "The Eustachian tube helps maintain equal pressure on both sides of the eardrum, preventing rupture.",
+    "additional": "It also drains secretions from the middle ear into the nasopharynx."
+  },
+  {
+    "question": "18. A nurse is teaching about preventing otitis media in infants. Which suggestion is correct?",
+    "options": {
+      "A": "Allow bottle-feeding while lying flat",
+      "B": "Encourage pacifier use during sleep",
+      "C": "Keep the child in upright position during feedings",
+      "D": "Delay vaccinations until 2 years old"
+    },
+    "answer": "C",
+    "explanation": "Upright positioning prevents milk from entering the Eustachian tube, reducing the risk of ear infections.",
+    "additional": "Breastfeeding and avoiding second-hand smoke also help."
+  },
+  {
+    "question": "19. What is a likely complication of untreated nasal fracture?",
+    "options": {
+      "A": "Perforated eardrum",
+      "B": "Facial paralysis",
+      "C": "Septal hematoma and airway obstruction",
+      "D": "Tracheal deviation"
+    },
+    "answer": "C",
+    "explanation": "Untreated septal hematomas may lead to necrosis, infection, and airway compromise.",
+    "additional": "Prompt evaluation and drainage are required."
+  },
+  {
+    "question": "20. A patient experiences dizziness when turning their head quickly. Which test might be indicated?",
+    "options": {
+      "A": "Babinski test",
+      "B": "Romberg test",
+      "C": "Tinel’s sign",
+      "D": "Murphy’s sign"
+    },
+    "answer": "B",
+    "explanation": "The Romberg test assesses balance and proprioception, useful in evaluating dizziness and vertigo.",
+    "additional": "A positive Romberg suggests sensory ataxia."
+  },
+  {
+    "question": "21. A nurse is caring for a patient with mastoiditis. Which complication is most concerning?",
+    "options": {
+      "A": "Sinusitis",
+      "B": "Facial nerve paralysis",
+      "C": "Recurrent nosebleeds",
+      "D": "Conjunctivitis"
+    },
+    "answer": "B",
+    "explanation": "Mastoiditis, an infection of the mastoid bone, can lead to facial nerve involvement causing paralysis.",
+    "additional": "Other serious complications include meningitis or brain abscess."
+  },
+  {
+    "question": "22. What is the purpose of a myringotomy?",
+    "options": {
+      "A": "To remove earwax",
+      "B": "To treat nasal polyps",
+      "C": "To drain fluid from the middle ear",
+      "D": "To repair a perforated eardrum"
+    },
+    "answer": "C",
+    "explanation": "A myringotomy involves making a small incision in the tympanic membrane to relieve pressure or drain fluid.",
+    "additional": "It’s commonly performed in children with recurrent otitis media."
+  },
+  {
+    "question": "23. Which assessment finding suggests a ruptured tympanic membrane?",
+    "options": {
+      "A": "Gradual hearing loss over months",
+      "B": "Clear nasal drainage",
+      "C": "Sudden ear pain relief followed by discharge",
+      "D": "Dull red pharynx"
+    },
+    "answer": "C",
+    "explanation": "A sudden decrease in pain with drainage from the ear may indicate rupture of the eardrum.",
+    "additional": "Hearing loss and vertigo may also occur."
+  },
+  {
+    "question": "24. Which is a common side effect of antihistamines like diphenhydramine?",
+    "options": {
+      "A": "Diarrhea",
+      "B": "Sedation",
+      "C": "Increased salivation",
+      "D": "Tachypnea"
+    },
+    "answer": "B",
+    "explanation": "Diphenhydramine is a first-generation antihistamine that readily crosses the blood-brain barrier, causing sedation.",
+    "additional": "Other side effects include dry mouth, dizziness, and urinary retention."
+  },
+  {
+    "question": "25. A patient reports muffled hearing and a sensation of fullness after swimming. What is the likely cause?",
+    "options": {
+      "A": "Eustachian tube cancer",
+      "B": "Otitis externa",
+      "C": "Impacted cerumen",
+      "D": "Barotrauma"
+    },
+    "answer": "C",
+    "explanation": "Water exposure can cause cerumen to swell and block the canal, leading to muffled hearing.",
+    "additional": "Irrigation or cerumenolytics may be used for removal."
+  },
+  {
+    "question": "26. What is the initial nursing action for a patient with facial trauma and suspected nasal fracture?",
+    "options": {
+      "A": "Insert a nasogastric tube",
+      "B": "Assess airway and breathing",
+      "C": "Apply warm compress",
+      "D": "Offer ice chips"
+    },
+    "answer": "B",
+    "explanation": "Facial trauma can compromise the airway, making immediate airway assessment the priority.",
+    "additional": "Control bleeding and prepare for imaging."
+  },
+  {
+    "question": "27. A patient is diagnosed with allergic rhinitis. What symptom supports this diagnosis?",
+    "options": {
+      "A": "Thick green nasal discharge",
+      "B": "Fever and chills",
+      "C": "Itchy nose and watery eyes",
+      "D": "Unilateral sinus pain"
+    },
+    "answer": "C",
+    "explanation": "Allergic rhinitis causes sneezing, itching, nasal congestion, and watery discharge due to histamine release.",
+    "additional": "Common allergens include pollen, dust mites, and pet dander."
+  },
+  {
+    "question": "28. A patient is using nasal decongestant sprays daily for 2 weeks. Which concern should the nurse address?",
+    "options": {
+      "A": "Dry mouth",
+      "B": "Rebound nasal congestion",
+      "C": "Sinus infection",
+      "D": "Nasal polyps"
+    },
+    "answer": "B",
+    "explanation": "Prolonged use of topical decongestants like oxymetazoline can lead to rebound congestion, worsening symptoms.",
+    "additional": "Limit use to 3–5 days."
+  },
+  {
+    "question": "29. What is the correct technique for otoscopic examination in an adult?",
+    "options": {
+      "A": "Pull pinna down and back",
+      "B": "Insert otoscope quickly and deeply",
+      "C": "Pull pinna up and back",
+      "D": "Use the largest speculum available"
+    },
+    "answer": "C",
+    "explanation": "Pulling the pinna up and back straightens the ear canal in adults for better visualization.",
+    "additional": "For children under 3, pull the ear down and back."
+  },
+  {
+    "question": "30. A patient has been prescribed antibiotics for streptococcal pharyngitis. What is the priority teaching point?",
+    "options": {
+      "A": "Stop the drug when symptoms improve",
+      "B": "Avoid cold drinks",
+      "C": "Complete the full course of antibiotics",
+      "D": "Take with antacids"
+    },
+    "answer": "C",
+    "explanation": "Finishing the entire antibiotic course prevents recurrence and complications like rheumatic fever.",
+    "additional": "Failure to complete treatment may result in resistance or chronic infection."
+  },
+  {
+    "question": "31. The nurse suspects a patient has a deviated nasal septum. What finding supports this?",
+    "options": {
+      "A": "Equal bilateral nasal airflow",
+      "B": "Persistent unilateral nasal obstruction",
+      "C": "Clear postnasal drip",
+      "D": "Frontal headache"
+    },
+    "answer": "B",
+    "explanation": "Unilateral obstruction is a common symptom of a deviated septum, often causing breathing difficulty.",
+    "additional": "Other findings may include snoring, nosebleeds, and sinus infections."
+  },
+  {
+    "question": "32. Which symptom suggests a serious complication from untreated strep throat?",
+    "options": {
+      "A": "Mild sore throat",
+      "B": "Maculopapular rash",
+      "C": "Chest pain and dyspnea",
+      "D": "Ear itching"
+    },
+    "answer": "C",
+    "explanation": "Rheumatic fever and endocarditis can result from untreated strep throat, presenting as chest pain, dyspnea, or heart murmur.",
+    "additional": "Prompt antibiotic treatment prevents these complications."
+  },
+  {
+    "question": "33. A patient complains of a foreign body sensation in the throat and persistent coughing. What is a likely cause?",
+    "options": {
+      "A": "Vocal cord paralysis",
+      "B": "Tonsillitis",
+      "C": "Postnasal drip",
+      "D": "Pharyngitis"
+    },
+    "answer": "C",
+    "explanation": "Postnasal drip causes mucus to irritate the throat, leading to cough and the feeling of a lump or tickle.",
+    "additional": "Often associated with allergies or sinusitis."
+  },
+  {
+    "question": "34. Which condition may cause vertigo when turning the head or changing position quickly?",
+    "options": {
+      "A": "Tinnitus",
+      "B": "Benign paroxysmal positional vertigo (BPPV)",
+      "C": "Otitis externa",
+      "D": "Barotrauma"
+    },
+    "answer": "B",
+    "explanation": "BPPV results from displaced inner ear crystals affecting balance. Sudden head movement triggers dizziness.",
+    "additional": "The Dix-Hallpike maneuver confirms the diagnosis."
+  },
+  {
+    "question": "35. What is the correct post-procedure care for a patient who just underwent nasal packing for epistaxis?",
+    "options": {
+      "A": "Remove packing after 6 hours",
+      "B": "Encourage frequent nose blowing",
+      "C": "Monitor for signs of respiratory distress",
+      "D": "Keep the patient in Trendelenburg position"
+    },
+    "answer": "C",
+    "explanation": "Nasal packing can obstruct the airway or shift, so close monitoring for respiratory distress is essential.",
+    "additional": "Assess for bleeding and instruct the patient not to disturb the packing."
+  },
+  {
+    "question": "36. Which finding is expected in a patient with conductive hearing loss?",
+    "options": {
+      "A": "Improved hearing in noisy environments",
+      "B": "Poor speech discrimination",
+      "C": "Positive Romberg test",
+      "D": "No response to tuning fork tests"
+    },
+    "answer": "A",
+    "explanation": "Conductive hearing loss often improves in noisy environments, unlike sensorineural loss.",
+    "additional": "It involves obstruction or damage to outer/middle ear structures."
+  },
+  {
+    "question": "37. Which symptom is most associated with acute laryngitis?",
+    "options": {
+      "A": "Painful swallowing",
+      "B": "Hoarseness or loss of voice",
+      "C": "Pus on tonsils",
+      "D": "Swollen lymph nodes"
+    },
+    "answer": "B",
+    "explanation": "Acute laryngitis causes inflammation of the vocal cords, leading to hoarseness or aphonia.",
+    "additional": "Voice rest and hydration are key treatments."
+  },
+  {
+    "question": "38. Which complication can arise from untreated chronic sinusitis?",
+    "options": {
+      "A": "Mastoiditis",
+      "B": "Otitis externa",
+      "C": "Orbital cellulitis",
+      "D": "Pharyngitis"
+    },
+    "answer": "C",
+    "explanation": "Orbital cellulitis is a serious infection of the tissues around the eye, potentially resulting from sinus infection spread.",
+    "additional": "Requires urgent IV antibiotics and possible surgery."
+  },
+  {
+    "question": "39. What should the nurse include when teaching a patient about preventing cerumen impaction?",
+    "options": {
+      "A": "Use cotton swabs daily",
+      "B": "Irrigate ears with hydrogen peroxide regularly",
+      "C": "Use earplugs at all times",
+      "D": "Avoid inserting objects into ears"
+    },
+    "answer": "D",
+    "explanation": "Inserting objects like swabs or keys can push wax deeper, increasing risk of impaction.",
+    "additional": "Letting warm water enter during showers is often sufficient for ear hygiene."
+  },
+  {
+    "question": "40. A child with repeated ear infections is scheduled for tympanostomy tube placement. What is the purpose of the tubes?",
+    "options": {
+      "A": "Prevent future throat infections",
+      "B": "Improve nasal airflow",
+      "C": "Ventilate the middle ear and prevent fluid buildup",
+      "D": "Drain the Eustachian tube"
+    },
+    "answer": "C",
+    "explanation": "Tympanostomy tubes allow air into the middle ear and prevent chronic fluid accumulation that causes infections.",
+    "additional": "Tubes often fall out on their own as the child grows."
+  },
+  {
+    "question": "41. Which of the following conditions is most likely to cause a sore throat with white exudate on the tonsils and a fever?",
+    "options": {
+      "A": "Laryngitis",
+      "B": "Viral rhinitis",
+      "C": "Streptococcal pharyngitis",
+      "D": "Sinusitis"
+    },
+    "answer": "C",
+    "explanation": "Streptococcal pharyngitis (strep throat) often presents with sudden sore throat, fever, and white patches on the tonsils.",
+    "additional": "Prompt antibiotic treatment prevents complications like rheumatic fever."
+  },
+  {
+    "question": "42. A patient is diagnosed with nasal polyps. What symptom is expected?",
+    "options": {
+      "A": "Epistaxis",
+      "B": "Bilateral nasal obstruction and decreased sense of smell",
+      "C": "Hoarseness",
+      "D": "Purulent ear discharge"
+    },
+    "answer": "B",
+    "explanation": "Nasal polyps cause chronic congestion, breathing difficulty, and reduced smell sensation due to blockage.",
+    "additional": "They are soft, painless, and often linked to allergies or asthma."
+  },
+  {
+    "question": "43. What is the most appropriate care for a child with acute epiglottitis?",
+    "options": {
+      "A": "Lay child flat and apply warm compresses",
+      "B": "Inspect the throat with a tongue depressor",
+      "C": "Keep the child calm and prepare for emergency airway",
+      "D": "Encourage oral fluids"
+    },
+    "answer": "C",
+    "explanation": "Epiglottitis can cause sudden airway obstruction. Disturbing the child may worsen the situation. Emergency airway support is critical.",
+    "additional": "Signs include drooling, stridor, and tripod positioning."
+  },
+  {
+    "question": "44. A patient complains of ear pain and visible blisters on the outer ear. What is a likely diagnosis?",
+    "options": {
+      "A": "Otitis media",
+      "B": "Ramsay Hunt syndrome",
+      "C": "Chronic mastoiditis",
+      "D": "Labyrinthitis"
+    },
+    "answer": "B",
+    "explanation": "Ramsay Hunt syndrome is caused by herpes zoster infection of the facial nerve. It presents with ear pain, vesicles, and possibly facial paralysis.",
+    "additional": "Prompt antiviral treatment is recommended to reduce complications."
+  },
+  {
+    "question": "45. Which patient behavior increases the risk of developing oral candidiasis?",
+    "options": {
+      "A": "Frequent gum chewing",
+      "B": "Use of inhaled corticosteroids without rinsing the mouth",
+      "C": "Wearing braces",
+      "D": "High vitamin C intake"
+    },
+    "answer": "B",
+    "explanation": "Inhaled corticosteroids suppress local immunity in the mouth. If the mouth isn’t rinsed, yeast (Candida) can overgrow.",
+    "additional": "Other risk factors include antibiotics, immunosuppression, and diabetes."
+  },
+  {
+    "question": "46. The nurse is evaluating a patient with a history of frequent hoarseness. Which diagnostic test is most useful?",
+    "options": {
+      "A": "Chest X-ray",
+      "B": "Tympanometry",
+      "C": "Laryngoscopy",
+      "D": "CT scan of the brain"
+    },
+    "answer": "C",
+    "explanation": "Laryngoscopy allows direct visualization of vocal cords to identify lesions or inflammation.",
+    "additional": "Persistent hoarseness warrants further evaluation for malignancy."
+  },
+  {
+    "question": "47. A child is diagnosed with otitis media with effusion. What would the nurse expect to assess?",
+    "options": {
+      "A": "Purulent ear drainage",
+      "B": "Bulging red tympanic membrane with fever",
+      "C": "Painless hearing difficulty with fluid behind eardrum",
+      "D": "Pain when pulling on the outer ear"
+    },
+    "answer": "C",
+    "explanation": "Otitis media with effusion presents as fluid in the middle ear without infection. The child may have trouble hearing but no pain.",
+    "additional": "The tympanic membrane appears dull or with air bubbles."
+  },
+  {
+    "question": "48. What is a classic feature of labyrinthitis?",
+    "options": {
+      "A": "Sudden vision loss",
+      "B": "Severe vertigo with nausea and hearing loss",
+      "C": "Tinnitus without dizziness",
+      "D": "Itching of the external ear"
+    },
+    "answer": "B",
+    "explanation": "Labyrinthitis is inner ear inflammation affecting balance and hearing, causing vertigo and nausea.",
+    "additional": "Often follows viral infections. Treated with rest, fluids, and sometimes steroids."
+  },
+  {
+    "question": "49. The nurse is assessing cranial nerve VIII. What is the appropriate test?",
+    "options": {
+      "A": "Check facial symmetry",
+      "B": "Ask patient to stick out tongue",
+      "C": "Perform whisper or tuning fork test",
+      "D": "Assess gag reflex"
+    },
+    "answer": "C",
+    "explanation": "Cranial nerve VIII (vestibulocochlear) controls hearing and balance. Whisper or tuning fork tests assess hearing.",
+    "additional": "Romberg test may also be used for balance."
+  },
+  {
+    "question": "50. Which symptom in a patient with nasal packing after surgery should be reported immediately?",
+    "options": {
+      "A": "Slight headache",
+      "B": "Mouth breathing",
+      "C": "Difficulty breathing through nose",
+      "D": "Frequent swallowing and restlessness"
+    },
+    "answer": "D",
+    "explanation": "Frequent swallowing and restlessness may indicate posterior nasal bleeding or aspiration risk.",
+    "additional": "Notify the provider and assess the airway urgently."
+  }
 ]
+
+
+
 
