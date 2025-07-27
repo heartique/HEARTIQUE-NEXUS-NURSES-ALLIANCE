@@ -1,0 +1,604 @@
+[
+  {
+    "question": "1. Which of the following conditions presents with a silvery scale over extensor surfaces and is associated with Auspitz sign?",
+    "options": {
+      "A": "Eczema",
+      "B": "Psoriasis",
+      "C": "Lichen planus",
+      "D": "Tinea corporis"
+    },
+    "answer": "B",
+    "explanation": "Psoriasis is characterized by well-demarcated erythematous plaques with a silvery scale, typically on extensor surfaces (like elbows and knees). The Auspitz sign, which is pinpoint bleeding when scales are scraped off, is classically seen in psoriasis.",
+    "additional": "Differentiating features: Eczema tends to affect flexural surfaces and is more exudative; Lichen planus has flat-topped, purple, polygonal papules; Tinea corporis is a fungal infection with annular lesions and central clearing."
+  },
+  {
+    "question": "2. A child presents with honey-colored crusted lesions around the mouth and nose. What is the most likely diagnosis?",
+    "options": {
+      "A": "Scabies",
+      "B": "Herpes simplex",
+      "C": "Impetigo",
+      "D": "Varicella"
+    },
+    "answer": "C",
+    "explanation": "Impetigo, especially non-bullous impetigo caused by Staphylococcus aureus or Streptococcus pyogenes, presents with characteristic honey-colored crusts. It commonly affects children around the nose and mouth.",
+    "additional": "Treatment typically involves topical mupirocin or oral antibiotics if widespread. It is highly contagious and often spread in close-contact environments like schools."
+  },
+  {
+    "question": "3. Which of the following skin infections is caused by a mite and presents with intense nocturnal pruritus and burrows in web spaces?",
+    "options": {
+      "A": "Scabies",
+      "B": "Tinea corporis",
+      "C": "Contact dermatitis",
+      "D": "Psoriasis"
+    },
+    "answer": "A",
+    "explanation": "Scabies is caused by the Sarcoptes scabiei mite and is characterized by severe itching that worsens at night. It often presents with burrows and papules, especially in the web spaces of fingers.",
+    "additional": "Diagnosis is clinical or via skin scraping. Treatment includes permethrin cream or oral ivermectin. Bedding and clothes should also be treated due to high infectivity."
+  },
+  {
+    "question": "4. A 25-year-old female presents with depigmented patches on her hands and face. The most probable diagnosis is:",
+    "options": {
+      "A": "Melasma",
+      "B": "Vitiligo",
+      "C": "Tinea versicolor",
+      "D": "Lichen sclerosus"
+    },
+    "answer": "B",
+    "explanation": "Vitiligo is an acquired disorder characterized by depigmented macules and patches resulting from the destruction of melanocytes. Common sites include the face, hands, and genitalia.",
+    "additional": "It is associated with autoimmune diseases like thyroid disorders. Treatment includes topical corticosteroids, calcineurin inhibitors, and phototherapy."
+  },
+  {
+    "question": "5. A fungal infection presenting with hypopigmented, scaly macules on the upper trunk in a young adult is likely:",
+    "options": {
+      "A": "Vitiligo",
+      "B": "Pityriasis alba",
+      "C": "Tinea versicolor",
+      "D": "Psoriasis"
+    },
+    "answer": "C",
+    "explanation": "Tinea versicolor (pityriasis versicolor) is caused by Malassezia species. It presents with hypo- or hyperpigmented scaly macules, often on the trunk, especially in young adults in hot, humid climates.",
+    "additional": "KOH preparation shows 'spaghetti and meatballs' appearance (hyphae and spores). Treated with topical or oral antifungals such as ketoconazole."
+  },
+  {
+    "question": "6. A 40-year-old man presents with thickened, hyperpigmented skin behind his knees and on the neck. He has a history of asthma. What is the most likely diagnosis?",
+    "options": {
+      "A": "Psoriasis",
+      "B": "Atopic dermatitis",
+      "C": "Lichen planus",
+      "D": "Seborrheic dermatitis"
+    },
+    "answer": "B",
+    "explanation": "Atopic dermatitis, particularly in adults, commonly presents with lichenified, itchy plaques in flexural areas. It is associated with a history of asthma and allergic rhinitis, forming part of the atopic triad.",
+    "additional": "Treatment includes emollients, topical corticosteroids, and antihistamines for itch relief. Chronic cases may require phototherapy or systemic immunosuppressants."
+  },
+  {
+    "question": "7. Which of the following is the first-line treatment for mild acne vulgaris?",
+    "options": {
+      "A": "Topical retinoids",
+      "B": "Oral isotretinoin",
+      "C": "Oral antibiotics",
+      "D": "Oral contraceptives"
+    },
+    "answer": "A",
+    "explanation": "Topical retinoids such as adapalene or tretinoin are the first-line treatment for mild acne. They normalize follicular keratinization and reduce inflammation.",
+    "additional": "Oral antibiotics and isotretinoin are reserved for moderate to severe cases. Hormonal therapy like oral contraceptives may be used in females with hormonal acne."
+  },
+  {
+    "question": "8. A patient with systemic lupus erythematosus develops a red, butterfly-shaped rash over the cheeks and bridge of the nose. This rash is called:",
+    "options": {
+      "A": "Malar rash",
+      "B": "Erythema nodosum",
+      "C": "Contact dermatitis",
+      "D": "Urticaria"
+    },
+    "answer": "A",
+    "explanation": "Malar rash is a classic manifestation of systemic lupus erythematosus (SLE). It appears as a fixed erythematous rash over the cheeks and nasal bridge, sparing the nasolabial folds.",
+    "additional": "It is photosensitive and often worsens with sun exposure. Other skin manifestations of SLE include discoid rash and photosensitivity."
+  },
+  {
+    "question": "9. Which of the following conditions presents with grouped vesicles on an erythematous base, commonly around the lips?",
+    "options": {
+      "A": "Herpes simplex virus",
+      "B": "Varicella",
+      "C": "Hand-foot-mouth disease",
+      "D": "Impetigo"
+    },
+    "answer": "A",
+    "explanation": "Herpes simplex virus (HSV-1) infection typically presents as painful, grouped vesicles on an erythematous base, usually around the oral mucosa. It's often preceded by tingling or burning sensation.",
+    "additional": "Diagnosis is clinical or confirmed by PCR or Tzanck smear. Treatment involves oral antivirals like acyclovir, especially if started early."
+  },
+  {
+    "question": "10. A patient presents with a herald patch followed by multiple smaller lesions in a Christmas tree pattern on the trunk. What is the diagnosis?",
+    "options": {
+      "A": "Pityriasis rosea",
+      "B": "Psoriasis",
+      "C": "Lichen planus",
+      "D": "Tinea corporis"
+    },
+    "answer": "A",
+    "explanation": "Pityriasis rosea is a self-limiting skin condition starting with a 'herald patch' followed by multiple oval pink patches distributed along skin cleavage lines, giving a 'Christmas tree' appearance.",
+    "additional": "The cause is likely viral. Treatment is usually not required, but antihistamines or topical steroids may help with itching."
+  },
+  {
+    "question": "11. Which condition is characterized by intensely pruritic, purple, polygonal, flat-topped papules?",
+    "options": {
+      "A": "Psoriasis",
+      "B": "Lichen planus",
+      "C": "Scabies",
+      "D": "Atopic dermatitis"
+    },
+    "answer": "B",
+    "explanation": "Lichen planus presents with the 6 P's: pruritic, purple, polygonal, planar, papules, and plaques. Commonly affects the wrists, ankles, and oral mucosa.",
+    "additional": "Wickham striae (fine white lines) may be seen on the lesions. It may be associated with hepatitis C. Treatment includes topical steroids and antihistamines."
+  },
+  {
+    "question": "12. A patient has large flaccid bullae that rupture easily and are positive for Nikolsky sign. What is the diagnosis?",
+    "options": {
+      "A": "Bullous pemphigoid",
+      "B": "Pemphigus vulgaris",
+      "C": "Dermatitis herpetiformis",
+      "D": "Stevens-Johnson syndrome"
+    },
+    "answer": "B",
+    "explanation": "Pemphigus vulgaris is an autoimmune blistering disorder characterized by flaccid intraepidermal bullae and erosions. Nikolsky sign is positive (skin shears off with pressure).",
+    "additional": "Caused by antibodies against desmoglein. Requires systemic corticosteroids and immunosuppressants for treatment."
+  },
+  {
+    "question": "13. What is the first-line treatment for tinea capitis in children?",
+    "options": {
+      "A": "Topical terbinafine",
+      "B": "Topical ketoconazole",
+      "C": "Oral griseofulvin",
+      "D": "Oral fluconazole"
+    },
+    "answer": "C",
+    "explanation": "Tinea capitis affects hair-bearing areas of the scalp and requires systemic therapy for effective treatment. Oral griseofulvin is the first-line treatment in children.",
+    "additional": "Topical treatments alone are ineffective as the fungus penetrates deep into the hair follicle. Diagnosis is clinical or by KOH test."
+  },
+  {
+    "question": "14. Which condition is associated with a positive Koebner phenomenon (lesions appearing at sites of trauma)?",
+    "options": {
+      "A": "Psoriasis",
+      "B": "Eczema",
+      "C": "Acne vulgaris",
+      "D": "Urticaria"
+    },
+    "answer": "A",
+    "explanation": "The Koebner phenomenon refers to the appearance of new skin lesions on previously unaffected skin secondary to trauma. It is characteristic of psoriasis.",
+    "additional": "Other conditions with this phenomenon include lichen planus and vitiligo."
+  },
+  {
+    "question": "15. What type of hypersensitivity reaction is urticaria?",
+    "options": {
+      "A": "Type I",
+      "B": "Type II",
+      "C": "Type III",
+      "D": "Type IV"
+    },
+    "answer": "A",
+    "explanation": "Urticaria (hives) is a Type I hypersensitivity reaction mediated by IgE and mast cell degranulation, leading to histamine release.",
+    "additional": "It results in transient, pruritic wheals. Common triggers include foods, drugs, and insect bites."
+  },
+  {
+    "question": "16. A young adult presents with acne, hirsutism, and irregular menses. What is the likely underlying cause?",
+    "options": {
+      "A": "Hypothyroidism",
+      "B": "Cushing's syndrome",
+      "C": "Polycystic ovary syndrome (PCOS)",
+      "D": "Hyperprolactinemia"
+    },
+    "answer": "C",
+    "explanation": "PCOS is associated with hyperandrogenism, which causes acne and hirsutism. Irregular menses result from anovulation.",
+    "additional": "Diagnosis involves clinical features and elevated LH/FSH ratio. Treatment includes weight loss, OCPs, and anti-androgens like spironolactone."
+  },
+  {
+    "question": "17. Which of the following is a common trigger for rosacea flare-ups?",
+    "options": {
+      "A": "Sweating",
+      "B": "Cold weather",
+      "C": "Spicy foods",
+      "D": "Salt intake"
+    },
+    "answer": "C",
+    "explanation": "Spicy foods, alcohol, sun exposure, and emotional stress are known triggers for rosacea.",
+    "additional": "Rosacea is a chronic inflammatory condition affecting the face, causing flushing, telangiectasia, and sometimes papules or pustules."
+  },
+  {
+    "question": "18. A 70-year-old man has a pearly papule with telangiectasias on the upper lip. What is the most likely diagnosis?",
+    "options": {
+      "A": "Squamous cell carcinoma",
+      "B": "Melanoma",
+      "C": "Basal cell carcinoma",
+      "D": "Actinic keratosis"
+    },
+    "answer": "C",
+    "explanation": "Basal cell carcinoma (BCC) is the most common skin cancer. It presents as a pearly or translucent papule with central ulceration and surface telangiectasias.",
+    "additional": "BCC is associated with sun exposure and rarely metastasizes but can be locally invasive."
+  },
+  {
+    "question": "19. Which skin condition is associated with gluten sensitivity and presents with grouped vesicles on elbows and knees?",
+    "options": {
+      "A": "Lichen planus",
+      "B": "Psoriasis",
+      "C": "Dermatitis herpetiformis",
+      "D": "Contact dermatitis"
+    },
+    "answer": "C",
+    "explanation": "Dermatitis herpetiformis is associated with celiac disease and presents with grouped pruritic vesicles on extensor surfaces like elbows and knees.",
+    "additional": "Diagnosis is by skin biopsy and IgA deposition. Treated with a gluten-free diet and dapsone."
+  },
+  {
+    "question": "20. Which of the following is a premalignant lesion that may progress to squamous cell carcinoma?",
+    "options": {
+      "A": "Actinic keratosis",
+      "B": "Basal cell carcinoma",
+      "C": "Seborrheic keratosis",
+      "D": "Cherry angioma"
+    },
+    "answer": "A",
+    "explanation": "Actinic keratosis is a scaly, rough lesion found on sun-exposed areas, considered premalignant with potential progression to squamous cell carcinoma.",
+    "additional": "Treatment options include cryotherapy, topical 5-fluorouracil, and photodynamic therapy."
+  },
+  {
+    "question": "21. Which of the following is a characteristic feature of seborrheic dermatitis?",
+    "options": {
+      "A": "Painful nodules on the scalp",
+      "B": "Greasy scales over erythematous skin",
+      "C": "Bullae formation on the trunk",
+      "D": "Purpura on lower limbs"
+    },
+    "answer": "B",
+    "explanation": "Seborrheic dermatitis presents with greasy, yellowish scales over erythematous skin, commonly on the scalp (dandruff), nasolabial folds, and behind ears.",
+    "additional": "It is associated with Malassezia yeast and may flare under stress or in immunocompromised states. Treated with antifungal shampoos and topical steroids."
+  },
+  {
+    "question": "22. A young adult presents with a target-like lesion after taking antibiotics. What is the most likely diagnosis?",
+    "options": {
+      "A": "Psoriasis",
+      "B": "Erythema multiforme",
+      "C": "Urticaria",
+      "D": "Lichen planus"
+    },
+    "answer": "B",
+    "explanation": "Erythema multiforme is characterized by target or iris lesions, often triggered by infections (e.g., HSV) or medications like antibiotics or anticonvulsants.",
+    "additional": "It can range from mild forms to severe ones like Stevens-Johnson syndrome. Management includes stopping the offending drug and supportive care."
+  },
+  {
+    "question": "23. Which vitamin deficiency is associated with perifollicular hemorrhages and corkscrew hairs?",
+    "options": {
+      "A": "Vitamin B12",
+      "B": "Vitamin K",
+      "C": "Vitamin C",
+      "D": "Vitamin D"
+    },
+    "answer": "C",
+    "explanation": "Vitamin C deficiency (scurvy) presents with perifollicular hemorrhages, corkscrew hairs, gingival bleeding, and impaired wound healing.",
+    "additional": "Vitamin C is essential for collagen synthesis. Common in malnourished individuals, alcoholics, or elderly with poor diets."
+  },
+  {
+    "question": "24. Which of the following conditions presents with café-au-lait spots and axillary freckling?",
+    "options": {
+      "A": "Tuberous sclerosis",
+      "B": "Neurofibromatosis type 1",
+      "C": "Sturge-Weber syndrome",
+      "D": "Ichthyosis vulgaris"
+    },
+    "answer": "B",
+    "explanation": "Neurofibromatosis type 1 (NF1) is characterized by café-au-lait macules, axillary or inguinal freckling, and neurofibromas.",
+    "additional": "It is an autosomal dominant condition associated with mutations in the NF1 gene on chromosome 17. Lisch nodules (iris hamartomas) are also diagnostic."
+  },
+  {
+    "question": "25. Which of the following is the most appropriate treatment for mild tinea pedis?",
+    "options": {
+      "A": "Oral terbinafine",
+      "B": "Topical clotrimazole",
+      "C": "Topical acyclovir",
+      "D": "Oral fluconazole"
+    },
+    "answer": "B",
+    "explanation": "Topical antifungals such as clotrimazole or terbinafine are first-line treatments for mild tinea pedis (athlete’s foot).",
+    "additional": "Oral antifungals are reserved for extensive or refractory cases. Patient education on foot hygiene is important."
+  },
+  {
+    "question": "26. A patient presents with scaly, annular lesions with central clearing on the thigh. What is the likely diagnosis?",
+    "options": {
+      "A": "Erythema multiforme",
+      "B": "Tinea corporis",
+      "C": "Pityriasis rosea",
+      "D": "Psoriasis"
+    },
+    "answer": "B",
+    "explanation": "Tinea corporis (ringworm) presents as annular, erythematous, scaly lesions with central clearing and an advancing border.",
+    "additional": "Diagnosis is clinical and confirmed by KOH microscopy. Treated with topical antifungals like clotrimazole or terbinafine."
+  },
+  {
+    "question": "27. Which of the following drugs is commonly associated with fixed drug eruption?",
+    "options": {
+      "A": "Paracetamol",
+      "B": "Tetracycline",
+      "C": "Aspirin",
+      "D": "Metformin"
+    },
+    "answer": "B",
+    "explanation": "Fixed drug eruption typically presents as solitary, well-demarcated, erythematous patches that recur at the same site upon re-exposure to a drug. Tetracyclines, sulfonamides, and NSAIDs are common culprits.",
+    "additional": "Lesions often leave post-inflammatory hyperpigmentation. Management includes drug discontinuation and topical steroids."
+  },
+  {
+    "question": "28. What is the most common cause of onychomycosis (fungal nail infection)?",
+    "options": {
+      "A": "Candida albicans",
+      "B": "Malassezia furfur",
+      "C": "Trichophyton rubrum",
+      "D": "Epidermophyton floccosum"
+    },
+    "answer": "C",
+    "explanation": "Trichophyton rubrum is the most common dermatophyte responsible for onychomycosis, especially affecting toenails.",
+    "additional": "Diagnosis is confirmed with KOH prep or fungal culture. Treatment includes oral antifungals like terbinafine for several weeks."
+  },
+  {
+    "question": "29. A child with atopic dermatitis is most at risk of developing which of the following viral infections?",
+    "options": {
+      "A": "Herpes simplex (eczema herpeticum)",
+      "B": "Varicella zoster",
+      "C": "Measles",
+      "D": "Molluscum contagiosum"
+    },
+    "answer": "A",
+    "explanation": "Children with atopic dermatitis are at increased risk of eczema herpeticum, a disseminated HSV infection. It presents with painful vesicles, fever, and lymphadenopathy.",
+    "additional": "It is a dermatologic emergency. Treatment is with IV acyclovir. Prompt recognition is essential."
+  },
+  {
+    "question": "30. Which of the following skin conditions is caused by an autoimmune reaction to the dermoepidermal junction and presents with tense bullae?",
+    "options": {
+      "A": "Pemphigus vulgaris",
+      "B": "Bullous pemphigoid",
+      "C": "Stevens-Johnson syndrome",
+      "D": "Erythema multiforme"
+    },
+    "answer": "B",
+    "explanation": "Bullous pemphigoid is an autoimmune blistering disease in elderly patients. It involves antibodies against hemidesmosomes at the basement membrane, leading to tense bullae.",
+    "additional": "Unlike pemphigus vulgaris, Nikolsky sign is negative. Treated with topical or systemic corticosteroids."
+  },
+  {
+    "question": "31. A 3-year-old child presents with multiple dome-shaped, umbilicated papules on the trunk. What is the most likely diagnosis?",
+    "options": {
+      "A": "Warts",
+      "B": "Molluscum contagiosum",
+      "C": "Chickenpox",
+      "D": "Scabies"
+    },
+    "answer": "B",
+    "explanation": "Molluscum contagiosum is caused by a poxvirus and presents with small, dome-shaped, umbilicated papules. Common in children and spread via direct contact.",
+    "additional": "Lesions are usually self-limiting. In immunocompromised patients, lesions may be numerous and persistent."
+  },
+  {
+    "question": "32. Which of the following statements about melanoma is true?",
+    "options": {
+      "A": "It rarely metastasizes",
+      "B": "Depth of invasion is not prognostic",
+      "C": "It is often symmetrical with uniform color",
+      "D": "ABCDE criteria are used for assessment"
+    },
+    "answer": "D",
+    "explanation": "Melanoma is a malignant tumor of melanocytes. The ABCDE criteria (Asymmetry, Border irregularity, Color variation, Diameter >6mm, Evolving) are used for early detection.",
+    "additional": "Breslow depth is the most important prognostic factor. Melanoma can metastasize early and widely."
+  },
+  {
+    "question": "33. What is the hallmark histological feature of psoriasis?",
+    "options": {
+      "A": "Granulomas",
+      "B": "Acantholysis",
+      "C": "Munro microabscesses",
+      "D": "Basal cell degeneration"
+    },
+    "answer": "C",
+    "explanation": "Munro microabscesses, which are collections of neutrophils in the stratum corneum, are a hallmark of psoriasis.",
+    "additional": "Other features include parakeratosis, acanthosis, and elongation of rete ridges."
+  },
+  {
+    "question": "34. A patient presents with thick, fish-like scales on the skin since childhood. What is the most likely diagnosis?",
+    "options": {
+      "A": "Psoriasis",
+      "B": "Ichthyosis vulgaris",
+      "C": "Eczema",
+      "D": "Xerosis"
+    },
+    "answer": "B",
+    "explanation": "Ichthyosis vulgaris is a disorder of keratinization presenting with dry, scaly skin resembling fish scales, typically on the extensor surfaces.",
+    "additional": "It is often inherited and may improve with age. Treatment includes emollients and keratolytic agents."
+  },
+  {
+    "question": "35. Which of the following is a characteristic finding in patients with acanthosis nigricans?",
+    "options": {
+      "A": "Scaly, hypopigmented macules",
+      "B": "Violaceous papules on the wrists",
+      "C": "Velvety hyperpigmented plaques in body folds",
+      "D": "Annular plaques with central clearing"
+    },
+    "answer": "C",
+    "explanation": "Acanthosis nigricans presents as velvety, hyperpigmented thickening of the skin, especially in body folds like the neck and axilla.",
+    "additional": "It is associated with insulin resistance, obesity, and sometimes malignancy (especially gastric cancer)."
+  },
+  {
+    "question": "36. Which of the following lesions is most likely to show Koilocytes on histopathology?",
+    "options": {
+      "A": "Seborrheic keratosis",
+      "B": "Verruca vulgaris",
+      "C": "Lichen planus",
+      "D": "Melanoma"
+    },
+    "answer": "B",
+    "explanation": "Koilocytes (cells with perinuclear clearing and nuclear enlargement) are characteristic of HPV infection, seen in verruca vulgaris (common warts).",
+    "additional": "These lesions are hyperkeratotic and usually found on hands and fingers. HPV types 2 and 4 are commonly involved."
+  },
+  {
+    "question": "37. Which dermatologic condition is most commonly associated with celiac disease?",
+    "options": {
+      "A": "Psoriasis",
+      "B": "Dermatitis herpetiformis",
+      "C": "Seborrheic dermatitis",
+      "D": "Contact dermatitis"
+    },
+    "answer": "B",
+    "explanation": "Dermatitis herpetiformis is a chronic blistering skin condition associated with gluten sensitivity and celiac disease. It presents with itchy, grouped vesicles on extensor surfaces.",
+    "additional": "Diagnosis involves skin biopsy with granular IgA deposits. Treatment includes a gluten-free diet and dapsone."
+  },
+  {
+    "question": "38. A patient presents with depigmented macules that fluoresce under Wood’s lamp. What is the likely cause?",
+    "options": {
+      "A": "Vitiligo",
+      "B": "Tinea versicolor",
+      "C": "Pityriasis alba",
+      "D": "Melasma"
+    },
+    "answer": "B",
+    "explanation": "Tinea versicolor caused by Malassezia spp. fluoresces yellow-green under Wood’s lamp due to the presence of fungal elements.",
+    "additional": "It causes hypopigmented or hyperpigmented scaly patches. Diagnosis is confirmed by KOH prep. Treated with antifungals."
+  },
+  {
+    "question": "39. Which type of skin lesion is described as a small, solid, elevated lesion less than 1 cm in diameter?",
+    "options": {
+      "A": "Macule",
+      "B": "Papule",
+      "C": "Nodule",
+      "D": "Plaque"
+    },
+    "answer": "B",
+    "explanation": "A papule is a small, solid, raised lesion less than 1 cm in diameter. Common in conditions like acne and warts.",
+    "additional": "Plaques are larger flat-topped lesions. Nodules are deeper and larger. Macules are flat discolorations."
+  },
+  {
+    "question": "40. What is the most appropriate diagnostic test for suspected tinea infection?",
+    "options": {
+      "A": "Gram stain",
+      "B": "Wood’s lamp only",
+      "C": "KOH preparation",
+      "D": "Fungal culture only"
+    },
+    "answer": "C",
+    "explanation": "KOH preparation is a quick and inexpensive diagnostic test that shows fungal hyphae in skin scrapings from suspected lesions.",
+    "additional": "Wood’s lamp may assist in some types. Fungal culture confirms the diagnosis but takes longer."
+  },
+  {
+    "question": "41. A young man presents with painful nodules in the groin and axilla that eventually drain pus and scar. What is the most likely diagnosis?",
+    "options": {
+      "A": "Furunculosis",
+      "B": "Hidradenitis suppurativa",
+      "C": "Cellulitis",
+      "D": "Folliculitis"
+    },
+    "answer": "B",
+    "explanation": "Hidradenitis suppurativa is a chronic inflammatory condition of apocrine glands characterized by painful nodules, abscesses, and sinus tract formation. Commonly affects the axilla and groin.",
+    "additional": "Risk factors include obesity and smoking. Management involves antibiotics, retinoids, and sometimes surgical intervention."
+  },
+  {
+    "question": "42. Which of the following skin conditions is associated with intense pruritus and a linear burrow between fingers?",
+    "options": {
+      "A": "Tinea corporis",
+      "B": "Eczema",
+      "C": "Scabies",
+      "D": "Psoriasis"
+    },
+    "answer": "C",
+    "explanation": "Scabies presents with intense nocturnal pruritus and classic burrows, especially in finger webs, wrists, and genital area. Caused by Sarcoptes scabiei mite.",
+    "additional": "Diagnosis is clinical or confirmed with skin scraping. Treated with permethrin cream or oral ivermectin."
+  },
+  {
+    "question": "43. Which of the following conditions shows Wickham striae on examination?",
+    "options": {
+      "A": "Psoriasis",
+      "B": "Lichen planus",
+      "C": "Tinea versicolor",
+      "D": "Actinic keratosis"
+    },
+    "answer": "B",
+    "explanation": "Lichen planus features Wickham striae—fine white lines on the surface of purple, polygonal, flat-topped papules.",
+    "additional": "Commonly affects the flexor wrists and oral mucosa. May be associated with hepatitis C."
+  },
+  {
+    "question": "44. A man presents with painful grouped vesicles on an erythematous base on his genitalia. What is the likely diagnosis?",
+    "options": {
+      "A": "Syphilis",
+      "B": "Candidiasis",
+      "C": "Genital herpes",
+      "D": "Chancroid"
+    },
+    "answer": "C",
+    "explanation": "Genital herpes (usually HSV-2) presents with painful, grouped vesicles or ulcers on an erythematous base. May be accompanied by fever and lymphadenopathy.",
+    "additional": "Diagnosis confirmed with PCR or viral culture. Treated with antivirals such as acyclovir."
+  },
+  {
+    "question": "45. What is the treatment of choice for nodulocystic acne?",
+    "options": {
+      "A": "Topical clindamycin",
+      "B": "Oral doxycycline",
+      "C": "Oral isotretinoin",
+      "D": "Topical benzoyl peroxide"
+    },
+    "answer": "C",
+    "explanation": "Oral isotretinoin is the treatment of choice for severe nodulocystic acne. It reduces sebum production, comedogenesis, and inflammation.",
+    "additional": "Requires monitoring for teratogenicity, liver enzymes, and lipid profile. Patients must adhere to contraception guidelines."
+  },
+  {
+    "question": "46. A 5-year-old child presents with multiple verrucous warts on hands. What is the most likely causative agent?",
+    "options": {
+      "A": "HSV",
+      "B": "HPV",
+      "C": "Coxsackie virus",
+      "D": "Varicella-zoster virus"
+    },
+    "answer": "B",
+    "explanation": "Human papillomavirus (HPV), especially types 1–4, causes verruca vulgaris (common warts) in children, typically on hands and fingers.",
+    "additional": "Spontaneous resolution can occur. Treatments include cryotherapy, salicylic acid, or electrocautery."
+  },
+  {
+    "question": "47. Which condition is treated with topical permethrin 5% cream applied overnight?",
+    "options": {
+      "A": "Candidiasis",
+      "B": "Scabies",
+      "C": "Psoriasis",
+      "D": "Tinea pedis"
+    },
+    "answer": "B",
+    "explanation": "Permethrin 5% cream is first-line treatment for scabies. It should be applied from the neck down and left overnight before washing off.",
+    "additional": "All close contacts should be treated simultaneously. Bedding and clothing should be decontaminated."
+  },
+  {
+    "question": "48. A 65-year-old man has a slow-growing, crusted nodule on the scalp that bleeds easily. What is the likely diagnosis?",
+    "options": {
+      "A": "Actinic keratosis",
+      "B": "Basal cell carcinoma",
+      "C": "Squamous cell carcinoma",
+      "D": "Melanoma"
+    },
+    "answer": "C",
+    "explanation": "Squamous cell carcinoma (SCC) presents as a firm, crusted nodule that may ulcerate or bleed, especially on sun-exposed areas like scalp and ears.",
+    "additional": "Risk factors include UV exposure, immunosuppression, and chronic wounds. Biopsy confirms diagnosis."
+  },
+  {
+    "question": "49. A child with atopic dermatitis has sudden onset of numerous painful, punched-out erosions. What is the likely diagnosis?",
+    "options": {
+      "A": "Impetigo",
+      "B": "Eczema herpeticum",
+      "C": "Scabies",
+      "D": "Contact dermatitis"
+    },
+    "answer": "B",
+    "explanation": "Eczema herpeticum is a disseminated HSV infection superimposed on atopic dermatitis. It presents with painful, monomorphic vesicles or punched-out erosions and systemic symptoms.",
+    "additional": "Treated urgently with acyclovir. Can become life-threatening if untreated."
+  },
+  {
+    "question": "50. Which of the following is a benign skin lesion often described as 'stuck-on' in appearance?",
+    "options": {
+      "A": "Melanoma",
+      "B": "Seborrheic keratosis",
+      "C": "Basal cell carcinoma",
+      "D": "Squamous cell carcinoma"
+    },
+    "answer": "B",
+    "explanation": "Seborrheic keratoses are benign epidermal tumors with a 'stuck-on,' waxy appearance. They vary in color from light tan to black.",
+    "additional": "Common in older adults and require no treatment unless irritated or for cosmetic reasons."
+  }
+]
+
+
