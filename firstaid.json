@@ -1,0 +1,548 @@
+[
+  {
+    "question": "A 30-year-old male is found unconscious at the scene of an accident with shallow breathing. What should be the first step in his management?",
+    "options": {
+      "A": "Administer oxygen",
+      "B": "Check for a pulse",
+      "C": "Perform chest compressions",
+      "D": "Open the airway"
+    },
+    "answer": "D",
+    "explanation": "In the initial management of any unconscious patient, the ABC (Airway, Breathing, Circulation) approach is paramount. The very first priority is to ensure a patent Airway. An obstructed airway (e.g., by the tongue falling back) will make breathing impossible, and any other intervention will be futile.",
+    "additional": "Airway Maneuvers:\nHead-Tilt, Chin-Lift: The standard method for opening the airway in a non-trauma patient.\nJaw-Thrust Maneuver: Used if a cervical spine injury is suspected (as in an accident scene) to open the airway without moving the neck.\nAfter opening the airway, you would then assess for Breathing (Look, Listen, and Feel) and then Circulation (check for a pulse)."
+  },
+  {
+    "question": "A patient presents with a deep laceration to the arm. What is the first thing you should do?",
+    "options": {
+      "A": "Apply a tourniquet",
+      "B": "Apply pressure to the wound",
+      "C": "Elevate the arm above the head",
+      "D": "Clean the wound with water"
+    },
+    "answer": "B",
+    "explanation": "The immediate priority for controlling severe external bleeding is to apply firm, direct pressure to the wound using a clean cloth, bandage, or gloved hand. This is the most effective initial step to promote hemostasis (stopping the flow of blood).",
+    "additional": "Hemorrhage Control Steps:\nDirect Pressure: Apply firm pressure directly on the wound.\nElevation: If direct pressure is not enough and there is no suspected fracture, elevate the limb above the level of the heart.\nTourniquet: A tourniquet is a last resort, used only for life-threatening extremity hemorrhage that cannot be controlled by direct pressure. It should be applied proximal to the wound and tightened until bleeding stops. Note the time of application."
+  },
+  {
+    "question": "A child is choking on a small object. What should you do if the child is unable to cough or breathe?",
+    "options": {
+      "A": "Perform abdominal thrusts",
+      "B": "Perform back blows only",
+      "C": "Perform chest compressions",
+      "D": "Wait for the object to dislodge"
+    },
+    "answer": "A",
+    "explanation": "For a conscious child (over 1 year old) with a severe airway obstruction (unable to cough, speak, or breathe), the standard first aid procedure is to perform abdominal thrusts (the Heimlich maneuver). This action uses air trapped in the lungs to forcefully expel the object.",
+    "additional": "Management Sequence:\nConscious Child/Adult: Alternate between 5 back blows and 5 abdominal thrusts.\nConscious Infant (<1 year old): Use a combination of 5 back blows and 5 chest thrusts. Abdominal thrusts are not used due to the risk of internal organ damage.\nIf the person becomes unconscious: Lower them to the ground, call for help, and begin CPR, starting with chest compressions. Before giving breaths, check the mouth for a visible object."
+  },
+  {
+    "question": "What is the most important action to take when managing a burn patient?",
+    "options": {
+      "A": "Apply ice directly to the burn",
+      "B": "Remove the patient from the source of heat",
+      "C": "Apply ointment immediately",
+      "D": "Give the patient fluids"
+    },
+    "answer": "B",
+    "explanation": "The absolute first priority in any burn situation is to stop the burning process. This means safely removing the patient from the source of the heat (e.g., fire, hot liquid, electricity) to prevent further tissue damage. All subsequent first aid measures depend on this initial step.",
+    "additional": "Burn Management Sequence:\nStop the Burn: Remove from source, extinguish flames (\"stop, drop, and roll\").\nCool the Burn: Apply cool (not ice-cold) running water for at least 10-20 minutes. This helps reduce pain and limit the depth of the burn. Never use ice, as it can cause vasoconstriction and further tissue damage.\nRemove Clothing/Jewelry: Gently remove any items from the burned area, unless they are stuck to the skin.\nCover the Burn: Use a clean, dry dressing or plastic wrap (cling film) to cover the burn, which helps prevent infection and reduce pain from air exposure.\nDo not apply ointments, butter, or grease, as these can trap heat and increase the risk of infection."
+  },
+  {
+    "question": "A person has been found with an open fracture of the leg. What should you do first?",
+    "options": {
+      "A": "Apply a splint",
+      "B": "Clean the wound",
+      "C": "Control bleeding",
+      "D": "Administer pain medication"
+    },
+    "answer": "C",
+    "explanation": "In managing an open fracture (where the bone has broken through the skin), the most immediate life-threatening concern is hemorrhage. Before splinting or cleaning, any significant bleeding must be controlled by applying direct pressure around the wound, not directly on the protruding bone.",
+    "additional": "Open Fracture Management Priorities:\nControl Bleeding: Address life-threatening hemorrhage first.\nCover the Wound: Use a sterile or clean dressing to cover the wound to minimize contamination.\nImmobilize: Splint the limb in the position it was found to prevent further damage to nerves, blood vessels, and soft tissues. Do not attempt to push the bone back in.\nSeek Medical Help: Open fractures require urgent medical attention for surgical cleaning (debridement) and antibiotic administration to prevent osteomyelitis (bone infection)."
+  },
+  {
+    "question": "A 45-year-old man collapses suddenly while jogging. What should be your first action?",
+    "options": {
+      "A": "Check for a pulse",
+      "B": "Perform CPR",
+      "C": "Call for emergency help",
+      "D": "Apply an AED (automated external defibrillator)"
+    },
+    "answer": "C",
+    "explanation": "In the chain of survival for an out-of-hospital cardiac arrest, the first step for a lay rescuer after ensuring the scene is safe is to check for responsiveness. If the person is unresponsive, you must immediately activate the emergency response system (call for emergency help) and get an AED if one is available. This ensures that advanced help is on the way as soon as possible.",
+    "additional": "Basic Life Support (BLS) Sequence for an Unresponsive Adult:\nEnsure scene safety.\nCheck for responsiveness (tap and shout).\nCall for help / Activate emergency services and get an AED.\nCheck for breathing and pulse simultaneously (for no more than 10 seconds).\nIf no breathing/gasping and no pulse, start high-quality CPR (chest compressions first).\nUse the AED as soon as it arrives."
+  },
+  {
+    "question": "A patient is having a severe allergic reaction after an insect sting. What is the first treatment step?",
+    "options": {
+      "A": "Administer antihistamines",
+      "B": "Give the patient fluids",
+      "C": "Use an epinephrine injector",
+      "D": "Apply ice to the sting area"
+    },
+    "answer": "C",
+    "explanation": "A severe allergic reaction, or anaphylaxis, is a life-threatening emergency characterized by airway compromise (swelling, wheezing) and circulatory collapse (hypotension). The first-line and most critical treatment is the immediate administration of epinephrine (adrenaline). Epinephrine acts rapidly to reverse the effects by causing vasoconstriction, reducing swelling, and opening the airways (bronchodilation).",
+    "additional": "Role of Other Medications:\nAntihistamines (e.g., diphenhydramine) and corticosteroids are second-line treatments. They help with skin symptoms (hives, itching) but work much more slowly and do not reverse airway obstruction or shock.\nEpinephrine Administration: Administered into the anterolateral thigh muscle. The dose may need to be repeated every 5-15 minutes if symptoms persist.\nPriority: Even if you have already called for help, if an epinephrine auto-injector is available, it should be used immediately."
+  },
+  {
+    "question": "A 60-year-old patient presents with sudden chest pain and difficulty breathing. What is your initial action?",
+    "options": {
+      "A": "Administer aspirin",
+      "B": "Perform CPR",
+      "C": "Monitor vital signs",
+      "D": "Call for emergency help"
+    },
+    "answer": "D",
+    "explanation": "Sudden chest pain and dyspnea are classic symptoms of a potential Acute Myocardial Infarction (MI) or Pulmonary Embolism (PE), both of which are medical emergencies. The most crucial initial action is to call for emergency help to ensure the patient gets definitive medical care as quickly as possible. Time is critical in these conditions.",
+    "additional": "Initial First Aid for Suspected MI (after calling for help):\nHave the patient rest in a comfortable position (often semi-sitting).\nLoosen any tight clothing.\nAdminister aspirin (if not contraindicated) as it can help inhibit clot formation.\nIf the patient is prescribed nitroglycerin, assist them in taking it.\nCPR (Option B) is only performed if the patient becomes unresponsive and has no pulse."
+  },
+  {
+    "question": "A person falls and hits their head. They are conscious but disoriented. What should you do?",
+    "options": {
+      "A": "Encourage them to walk around",
+      "B": "Check for a skull fracture",
+      "C": "Keep them lying down and monitor their condition",
+      "D": "Give them pain relief immediately"
+    },
+    "answer": "C",
+    "explanation": "Any head injury that results in disorientation or altered consciousness could be a concussion or a more severe traumatic brain injury. The priority is to prevent further injury and monitor for worsening symptoms. The person should be kept still, preferably lying down with the head and shoulders slightly elevated, and closely observed for any changes in their level of consciousness, pupil size, or new symptoms (e.g., vomiting, seizure).",
+    "additional": "Signs of Worsening Head Injury (Seek Immediate Help):\nDecreasing level of consciousness.\nUnequal pupils.\nSevere or worsening headache.\nRepeated vomiting.\nSeizures.\nClear fluid (CSF) leaking from the nose or ears.\nIt is important not to give them anything to eat or drink until they have been medically evaluated."
+  },
+  {
+    "question": "You find a patient who is unresponsive and not breathing. What should you do next?",
+    "options": {
+      "A": "Check their blood pressure",
+      "B": "Open the airway and begin rescue breaths",
+      "C": "Check for a pulse",
+      "D": "Perform CPR with chest compressions"
+    },
+    "answer": "C",
+    "explanation": "Following the BLS algorithm, after determining a patient is unresponsive and not breathing (or only gasping), the next critical step is to check for a pulse (e.g., carotid pulse in an adult) for no more than 10 seconds. The presence or absence of a pulse determines the next action.",
+    "additional": "Algorithm Fork:\nIf there IS a pulse but NO breathing: The patient is in respiratory arrest. You should open the airway and begin rescue breathing (1 breath every 5-6 seconds for an adult).\nIf there is NO pulse and NO breathing: The patient is in cardiac arrest. You must immediately begin CPR, starting with high-quality chest compressions.\nThe options in the question are slightly confusing. Option B would be correct if a pulse was present. Since we don't know, checking the pulse (Option C) is the correct next step to decide what to do. If the question implies cardiac arrest, Option D would be the subsequent action. Given the sequence, C is the most logical next assessment."
+  },
+  {
+    "question": "A person is experiencing a seizure. What should you do first?",
+    "options": {
+      "A": "Place something in their mouth to prevent biting their tongue",
+      "B": "Call for medical help",
+      "C": "Hold them down to prevent injury",
+      "D": "Protect them from injury and time the seizure"
+    },
+    "answer": "D",
+    "explanation": "The immediate priority during a seizure is patient safety. This involves clearing the area of any hard or sharp objects to protect the person from injury. It is also crucial to time the seizure from start to finish, as the duration is important medical information.",
+    "additional": "What NOT to Do (Common Misconceptions):\nDo NOT restrain the person. Holding them down can cause musculoskeletal injuries.\nDo NOT put anything in their mouth. This is a dangerous myth. It can cause broken teeth, jaw injuries, or obstruct the airway. A person cannot swallow their tongue.\nSeizure First Aid Steps:\nEase the person to the floor and turn them gently onto one side to help them breathe.\nClear the area of hard or sharp objects.\nPut something soft under their head.\nRemove eyeglasses and loosen ties or anything around the neck.\nTime the seizure.\nWhen to Call for Emergency Help: Call immediately if the seizure lasts longer than 5 minutes, if the person has another seizure soon after the first, if they are injured, have trouble breathing, or if they have a known condition like diabetes or heart disease."
+  },
+  {
+    "question": "You are treating a patient with a suspected heart attack. They have chest pain, sweating, and nausea. What should you administer first?",
+    "options": {
+      "A": "Oxygen",
+      "B": "Aspirin",
+      "C": "Nitroglycerin",
+      "D": "Morphine"
+    },
+    "answer": "B",
+    "explanation": "In the initial management of a suspected Acute Myocardial Infarction (AMI), aspirin should be administered as soon as possible (if not contraindicated). Aspirin is an antiplatelet agent that inhibits thromboxane A2, reducing platelet aggregation and preventing the progression of the coronary artery thrombus.",
+    "additional": "MONA Mnemonic (for AMI treatment, but sequence matters):\nOxygen: Administer if the patient is hypoxic (SpO2 < 90-94%). It is no longer recommended for all patients.\nAspirin: Give this first! A chewable 162-325 mg dose is preferred for rapid absorption.\nNitroglycerin: A vasodilator that reduces cardiac preload and chest pain. It is given sublingually but is contraindicated in right ventricular infarction or hypotension.\nMorphine: An analgesic for pain relief that also has some venodilating effects, reducing preload. It is used if pain is not relieved by nitroglycerin.\nThe correct sequence is critical. Aspirin is the only intervention among these that directly addresses the underlying pathophysiology (the clot) and has a mortality benefit."
+  },
+  {
+    "question": "A child has a fever of 104°F (40°C). What is the first step in treatment?",
+    "options": {
+      "A": "Administer ibuprofen",
+      "B": "Place the child in a cold bath",
+      "C": "Give the child fluids",
+      "D": "Call for emergency medical help"
+    },
+    "answer": "C",
+    "explanation": "The primary goal in managing a fever is to prevent dehydration, which is a significant risk due to increased insensible water loss (from sweating and rapid breathing). Ensuring the child is well-hydrated is the most important initial step.",
+    "additional": "Fever Management:\nHydration: Offer plenty of fluids (water, electrolyte solutions).\nComfort: Dress the child in light clothing.\nAntipyretics: Administer age-appropriate doses of acetaminophen (paracetamol) or ibuprofen to reduce the fever and improve comfort.\nCooling Methods: A lukewarm (not cold) bath or sponge bath can help. Never use a cold bath or alcohol rubs, as this can cause shivering, which paradoxically raises core body temperature.\nWhen to Seek Medical Help: A high fever in an infant (<3 months), or a fever associated with a stiff neck, persistent vomiting, rash, or difficulty breathing requires urgent medical attention."
+  },
+  {
+    "question": "A person has been severely burned on the arm by hot liquid. What is your first action?",
+    "options": {
+      "A": "Apply cold water to the burn",
+      "B": "Remove any clothing from the area",
+      "C": "Wrap the burn with a sterile bandage",
+      "D": "Cover the burn with butter or ointment"
+    },
+    "answer": "A",
+    "explanation": "After ensuring the scene is safe and the person is no longer in contact with the hot liquid, the immediate first aid action is to cool the burn with cool (not icy) running water for at least 10-20 minutes. This stops the burning process in the deeper tissues, reduces pain, and minimizes swelling.",
+    "additional": "This question is a slight variation of #4. While removing the source is the absolute first step, \"applying cold water\" is the first treatment step for the burn itself.\nRemoving Clothing: Clothing soaked in the hot liquid should be removed immediately. However, if clothing is stuck to the burn, leave it in place and cool it with water to avoid further skin damage.\nCovering the Burn: After cooling, the burn should be covered with a non-adherent sterile dressing or clean plastic wrap. This protects the area from infection and reduces pain."
+  },
+  {
+    "question": "A person presents with difficulty breathing, a wheezing sound, and a history of asthma. What should you do?",
+    "options": {
+      "A": "Perform chest compressions",
+      "B": "Administer a bronchodilator (inhaler)",
+      "C": "Give them water",
+      "D": "Perform CPR"
+    },
+    "answer": "B",
+    "explanation": "This clinical picture is classic for an acute asthma exacerbation. The priority is to reverse the bronchoconstriction. The first-line treatment is to help the person use their short-acting beta-agonist (SABA) rescue inhaler (e.g., albuterol/salbutamol).",
+    "additional": "Positioning: Have the person sit upright, as this can make breathing easier.\nWhen to Call for Help: If the person's symptoms do not improve after using the inhaler, if they do not have their inhaler, if their breathing becomes worse, or if they are too breathless to speak, call for emergency medical help immediately.\nCPR is only indicated if the person becomes unresponsive and stops breathing."
+  },
+  {
+    "question": "You witness a car accident and find a person with severe head trauma. What should you do first?",
+    "options": {
+      "A": "Apply pressure to any open wounds",
+      "B": "Keep the person still and check for signs of shock",
+      "C": "Elevate the person's legs to improve circulation",
+      "D": "Administer oxygen immediately"
+    },
+    "answer": "B",
+    "explanation": "In a trauma victim with a suspected severe head injury, the highest priority is to prevent secondary injury to the spinal cord. This is achieved by keeping the person still and manually stabilizing the head and neck (C-spine immobilization). Assessing for signs of shock (e.g., pale, cool, clammy skin; rapid, weak pulse) is also a critical early step.",
+    "additional": "Do Not Move the Patient: Unless they are in immediate danger (e.g., fire, oncoming traffic).\nBleeding: If there is severe bleeding from the head, apply pressure with a clean cloth, but do so gently and do not press directly on a potential skull fracture.\nElevation: Do NOT elevate the legs if a head, neck, or spinal injury is suspected, as this can worsen the injury.\nABCDE of Trauma: The professional approach follows this sequence: Airway (with C-spine protection), Breathing, Circulation (and hemorrhage control), Disability (neurological status), Exposure/Environment."
+  },
+  {
+    "question": "You arrive at the scene of a fire and find a person with burns on their hands. What is the first step you should take?",
+    "options": {
+      "A": "Remove the person from the source of heat",
+      "B": "Apply a wet cloth to the burns",
+      "C": "Call for emergency help",
+      "D": "Wrap the hands in a bandage"
+    },
+    "answer": "A",
+    "explanation": "This is another variation of question #4. The absolute, undeniable first priority is scene safety and stopping the primary injury process. You must remove the person from the hazardous environment (the fire) before any other aid can be rendered.",
+    "additional": "This principle applies to all emergency scenes: electricity (turn off the power), chemical spills (remove from the area), etc. The rescuer's safety is also part of this step. You cannot help if you also become a victim."
+  },
+  {
+    "question": "A person is found unconscious and has a weak pulse. What is the immediate course of action?",
+    "options": {
+      "A": "Begin CPR with chest compressions",
+      "B": "Open the airway and monitor for breathing",
+      "C": "Give the person fluids",
+      "D": "Call for emergency help"
+    },
+    "answer": "B",
+    "explanation": "If a person is unconscious but still has a pulse, they are not in cardiac arrest. Therefore, CPR (chest compressions) is not indicated. The immediate priority is to manage the Airway and Breathing. Open the airway (using head-tilt, chin-lift or jaw-thrust) and check for effective breathing. If they are not breathing or are breathing inadequately (e.g., agonal gasps), you should provide rescue breaths.",
+    "additional": "Key Distinction: The presence of a pulse is the critical decision point that separates the need for rescue breathing alone from the need for full CPR (compressions + breaths).\nRecovery Position: If the person is unconscious but has a pulse and is breathing adequately on their own, place them in the recovery position to maintain an open airway and prevent aspiration."
+  },
+  {
+    "question": "A child presents with difficulty breathing and a hoarse voice following a recent cold. What is the most likely diagnosis?",
+    "options": {
+      "A": "Asthma",
+      "B": "Croup",
+      "C": "Pneumonia",
+      "D": "Bronchiolitis"
+    },
+    "answer": "B",
+    "explanation": "The combination of a preceding upper respiratory infection (a cold), hoarseness, and difficulty breathing in a child is classic for croup (laryngotracheobronchitis). This is a viral infection that causes inflammation and swelling of the larynx and trachea, narrowing the airway.",
+    "additional": "Hallmark Signs of Croup:\nBarking Cough: Often described as sounding like a seal.\nInspiratory Stridor: A high-pitched sound heard during inspiration due to the narrowed airway.\nHoarseness.\nTiming: Symptoms are characteristically worse at night.\nTreatment: Mild croup is managed at home with humidity and cool air. Moderate to severe croup requires medical attention, with treatment including corticosteroids (to reduce inflammation) and nebulized epinephrine (to reduce airway swelling)."
+  },
+  {
+    "question": "A patient presents with a deep, puncture wound from stepping on a nail. What is the immediate concern?",
+    "options": {
+      "A": "Infection risk",
+      "B": "Severe bleeding",
+      "C": "Shock",
+      "D": "Fracture"
+    },
+    "answer": "A",
+    "explanation": "Puncture wounds, especially those from dirty objects like nails, carry a very high risk of infection. The narrow, deep nature of the wound traps bacteria in an anaerobic environment, creating ideal conditions for pathogens like Clostridium tetani (causing tetanus) and other bacteria to thrive.",
+    "additional": "First Aid: The wound should be cleaned thoroughly with soap and water and a sterile dressing applied. The patient should seek prompt medical evaluation.\nMedical Management:\nTetanus Prophylaxis: The patient's tetanus immunization status must be determined. A tetanus booster (and possibly Tetanus Immune Globulin) may be required.\nAntibiotics: Prophylactic antibiotics may be prescribed to prevent infection.\nWound Care: The wound may need to be professionally irrigated or debrided."
+  },
+  {
+    "question": "A person has been stung by a bee and is showing signs of swelling, redness, and difficulty breathing. What is the most important first step?",
+    "options": {
+      "A": "Apply ice to the sting",
+      "B": "Administer epinephrine",
+      "C": "Call for emergency medical help",
+      "D": "Remove the stinger"
+    },
+    "answer": "B",
+    "explanation": "The combination of localized swelling with a systemic symptom like difficulty breathing indicates a severe, life-threatening allergic reaction (anaphylaxis). The absolute priority is to administer epinephrine. This is the only medication that can rapidly reverse the life-threatening features of anaphylaxis (airway swelling and hypotension).",
+    "additional": "Priorities in Anaphylaxis:\nAdminister Epinephrine: Do this immediately if an auto-injector is available.\nCall for Emergency Help: Do this simultaneously or immediately after giving epinephrine.\nPositioning: Lay the person flat with their legs elevated to manage shock. If they are having trouble breathing, they may be more comfortable sitting up.\nRemove the Stinger: If it's a bee sting, scrape the stinger out with a credit card or fingernail. Do not squeeze it, as this can inject more venom. This is important but secondary to administering epinephrine.\nThe correct answer prioritizes the life-saving intervention. While removing the stinger and calling for help are crucial, epinephrine is the immediate treatment."
+  },
+  {
+    "question": "You find a patient who has been involved in a car accident. They are bleeding profusely from the leg. What is your first step in management?",
+    "options": {
+      "A": "Apply a tourniquet",
+      "B": "Elevate the leg",
+      "C": "Apply pressure to the wound",
+      "D": "Clean the wound"
+    },
+    "answer": "C",
+    "explanation": "This is a repeat of the concept from question #2. For profuse, life-threatening external bleeding, the immediate and most effective first step is to apply firm, direct pressure directly over the wound. This action is the cornerstone of hemorrhage control.",
+    "additional": "Reinforcing the Principle: This repetition emphasizes the fundamental \"direct pressure first\" rule in bleeding control.\nWhy not tourniquet first? A tourniquet is a more advanced intervention with potential complications (e.g., nerve damage, limb ischemia). It is reserved for when direct pressure fails or is not possible (e.g., in a mass casualty situation where you cannot stay with one victim)."
+  },
+  {
+    "question": "A patient presents with sudden severe headache, nausea, and vomiting. What is the most likely emergency condition?",
+    "options": {
+      "A": "Migraine",
+      "B": "Stroke",
+      "C": "Tension headache",
+      "D": "Meningitis"
+    },
+    "answer": "B",
+    "explanation": "A sudden, severe headache (\"thunderclap headache\") is a red flag for a serious intracranial event. When accompanied by nausea and vomiting, it is highly suspicious for a hemorrhagic stroke, particularly a subarachnoid hemorrhage (SAH). While meningitis can also cause these symptoms, the abrupt onset is more characteristic of a vascular event like a stroke.",
+    "additional": "Differential Diagnosis of \"Worst Headache of Life\":\nSubarachnoid Hemorrhage: Most critical to rule out. Often associated with neck stiffness.\nIntracerebral Hemorrhage: Another type of hemorrhagic stroke.\nCerebral Venous Sinus Thrombosis.\nMeningitis: Usually associated with fever and a more gradual onset than a thunderclap headache.\nMigraine: Can be severe but is typically a diagnosis of exclusion after ruling out more dangerous causes.\nAny patient with these symptoms requires immediate transport to an emergency department for a non-contrast head CT scan."
+  },
+  {
+    "question": "A child with an injury to the abdomen is complaining of severe pain. What should you do first?",
+    "options": {
+      "A": "Apply a cold compress",
+      "B": "Assess for signs of internal bleeding",
+      "C": "Give the child pain medication",
+      "D": "Allow the child to walk around"
+    },
+    "answer": "B",
+    "explanation": "Following blunt abdominal trauma, severe pain is a major warning sign for internal injury and bleeding. The first priority is to assess for this life-threatening condition. Giving pain medication before a proper assessment can mask worsening symptoms.",
+    "additional": "Signs of Internal Bleeding / Shock:\nAbdominal signs: Guarding (tensing of abdominal muscles), rigidity (hard abdomen), distention (swelling).\nSystemic signs (shock): Tachycardia (fast heart rate), hypotension (low blood pressure), pallor (pale skin), cool and clammy skin, altered mental status.\nManagement:\nCall for emergency help.\nHave the child lie down with their legs elevated (if no spinal injury suspected).\nKeep them warm.\nDo not give anything to eat or drink."
+  },
+  {
+    "question": "A person is experiencing a seizure. What is the safest position for them to be in?",
+    "options": {
+      "A": "Lying on their back with a pillow under the head",
+      "B": "Lying on their side with the head supported",
+      "C": "Lying on their stomach with the head turned",
+      "D": "Sitting upright with support"
+    },
+    "answer": "B",
+    "explanation": "This is a repeat of the concept from question #11. The safest position for someone having a tonic-clonic seizure is the recovery position (lying on their side). This position helps keep the airway open by allowing saliva or vomit to drain out of the mouth, preventing aspiration. Supporting the head with something soft helps prevent injury.",
+    "additional": "The supine position (on the back) is dangerous because the tongue can obstruct the airway and there is a high risk of aspirating secretions."
+  },
+  {
+    "question": "A person presents with a suspected spinal injury after a fall. What should be your first action?",
+    "options": {
+      "A": "Immobilize the neck and spine",
+      "B": "Check for responsiveness",
+      "C": "Perform CPR if needed",
+      "D": "Administer pain relief"
+    },
+    "answer": "A",
+    "explanation": "If you suspect a spinal injury based on the mechanism of injury (e.g., a fall from height, a diving accident, a car crash), the absolute first priority is to immobilize the head, neck, and spine to prevent any movement that could cause or worsen a spinal cord injury. This is typically done by holding the head in a neutral, in-line position.",
+    "additional": "When to Suspect Spinal Injury:\nAny significant trauma to the head or neck.\nThe patient is unconscious.\nThe patient complains of neck or back pain, numbness, or weakness.\nThe ABCs with C-Spine Control: In professional trauma care, the \"A\" for Airway always includes \"maintaining cervical spine stabilization.\" This principle is what is being tested here. You assess responsiveness and ABCs while ensuring the spine is not moved."
+  },
+  {
+    "question": "A person is having a panic attack, with hyperventilation and dizziness. What is your best course of action?",
+    "options": {
+      "A": "Administer oxygen",
+      "B": "Reassure them and encourage slow breathing",
+      "C": "Call for emergency help immediately",
+      "D": "Apply a cold compress to the forehead"
+    },
+    "answer": "B",
+    "explanation": "A panic attack is a psychological event, not a primary respiratory failure. The hyperventilation is causing a drop in blood CO2 levels (respiratory alkalosis), which leads to dizziness and tingling. The best course of action is to provide calm reassurance and help them gain control of their breathing by encouraging them to breathe slowly and deeply (e.g., \"breathe in for 4 seconds, out for 6 seconds\").",
+    "additional": "Techniques:\nCoaching Breathing: Guide them through slow, deliberate breaths.\nGrounding Techniques: Have them focus on their senses (e.g., name 5 things you can see, 4 things you can feel).\nPaper Bag Myth: Breathing into a paper bag was once recommended to \"rebreathe\" CO2, but it is no longer advised due to the risk of hypoxia and because it's crucial to first rule out a true medical emergency (like an MI or PE) that could be causing the symptoms."
+  },
+  {
+    "question": "A patient is suspected of having a stroke and presents with facial drooping and slurred speech. What is the most important action?",
+    "options": {
+      "A": "Perform a neurological assessment",
+      "B": "Administer aspirin",
+      "C": "Call for emergency medical help immediately",
+      "D": "Position the patient on their side"
+    },
+    "answer": "C",
+    "explanation": "In a suspected stroke, \"Time is Brain.\" The most critical action is to activate the emergency medical system immediately. Early recognition and rapid transport to a stroke-capable hospital are essential for the patient to be eligible for time-sensitive treatments like thrombolysis (clot-busting drugs), which must be given within a narrow time window (e.g., 3 to 4.5 hours from symptom onset).",
+    "additional": "FAST Mnemonic for Stroke Recognition:\nFace Drooping\nArm Weakness\nSpeech Difficulty\nTime to call emergency services.\nWhile a neurological assessment (like the Cincinnati Prehospital Stroke Scale, which is essentially FAST) is done to confirm suspicion, the action required is to call for help."
+  },
+  {
+    "question": "A person who has suffered an electrical burn is conscious but has severe burns on their hand. What is the first thing you should do?",
+    "options": {
+      "A": "Apply a burn ointment",
+      "B": "Remove the person from the electrical source",
+      "C": "Immerse the hand in cold water",
+      "D": "Elevate the hand"
+    },
+    "answer": "B",
+    "explanation": "This is another question emphasizing scene safety. Before touching a victim of an electrical injury, you must first ensure your own safety by making sure the electrical source is turned off or the person is no longer in contact with it. Touching the person while they are still connected to the current can result in your own electrocution.",
+    "additional": "Safety First: If you cannot turn off the power, use a non-conductive object (e.g., a dry wooden stick) to move the source away from the person or the person away from the source.\nHidden Injuries: Electrical burns can cause severe internal damage that is not visible on the surface. They can also cause cardiac arrhythmias. All victims of significant electrical shock require immediate medical evaluation, even if they look fine."
+  },
+  {
+    "question": "A person has been bitten by a snake. What is the first step in their treatment?",
+    "options": {
+      "A": "Apply a tourniquet above the bite",
+      "B": "Administer an antihistamine",
+      "C": "Keep the affected limb still and below the level of the heart",
+      "D": "Cut the wound to drain the venom"
+    },
+    "answer": "C",
+    "explanation": "The primary first aid goal for a venomous snakebite is to slow the spread of venom while awaiting medical help. This is best achieved by having the person remain calm, keeping the affected limb as still as possible, and positioning it at or below the level of the heart.",
+    "additional": "What NOT to Do (Outdated and Harmful Methods):\nDo NOT apply a tourniquet. This can cut off blood flow and concentrate the venom, causing more severe local tissue damage and potentially leading to the loss of the limb.\nDo NOT cut the wound or try to suck out the venom. This is ineffective and increases the risk of infection and tissue damage.\nDo NOT apply ice. This can worsen local tissue damage.\nCorrect First Aid:\nCall for emergency help immediately.\nKeep the person calm and still.\nPosition the affected limb below the heart.\nRemove any tight clothing or jewelry from the limb, as swelling is likely.\nA pressure immobilization bandage may be recommended for some types of snakebites (e.g., elapids like cobras), but not for others (e.g., vipers). If unsure, focus on keeping the limb still."
+  },
+  {
+    "question": "A person has a suspected broken leg. What is your first action?",
+    "options": {
+      "A": "Apply ice to reduce swelling",
+      "B": "Immobilize the leg with a splint",
+      "C": "Allow the person to walk",
+      "D": "Check for signs of infection"
+    },
+    "answer": "B",
+    "explanation": "For any suspected fracture, the primary first aid goal is to prevent further injury. This is achieved by immobilizing the limb in the position it was found. A splint stabilizes the bone, which reduces pain and prevents the sharp bone ends from damaging surrounding nerves, blood vessels, and muscles.",
+    "additional": "Splinting Principles:\nImmobilize the joints above and below the fracture site.\nCheck for circulation, sensation, and movement (CSM) in the extremity before and after applying the splint.\nPad the splint to ensure it is comfortable and does not apply direct pressure on bony prominences.\nNever attempt to straighten a deformed limb or push a protruding bone back in.\nApplying ice is a useful secondary step to reduce swelling, but immobilization is the priority. Allowing the person to walk is contraindicated."
+  },
+  {
+    "question": "A person presents with a severe allergic reaction after eating peanuts. What should be your first step in treatment?",
+    "options": {
+      "A": "Administer antihistamines",
+      "B": "Call for emergency help",
+      "C": "Administer epinephrine",
+      "D": "Apply a cold compress to the affected area"
+    },
+    "answer": "C",
+    "explanation": "This is a repeat of the concept from question #7 and #21, reinforcing the critical nature of this intervention. A severe allergic reaction (anaphylaxis) requires immediate administration of epinephrine. It is the only treatment that can rapidly counter the life-threatening effects of airway swelling and circulatory collapse.",
+    "additional": "Food Allergies: Peanuts, tree nuts, shellfish, milk, and eggs are common causes of food-induced anaphylaxis.\nBiphasic Reaction: It's important to know that after the initial symptoms of anaphylaxis are treated, a second wave of symptoms (a biphasic reaction) can occur hours later. Therefore, anyone who has received epinephrine for anaphylaxis must be transported to a hospital for observation."
+  },
+  {
+    "question": "A person is experiencing heatstroke with a body temperature of 104°F (40°C). What is your first step in treatment?",
+    "options": {
+      "A": "Give the person fluids to drink",
+      "B": "Apply cold compresses to the body",
+      "C": "Move the person to a cool environment and begin cooling",
+      "D": "Administer aspirin to lower the temperature"
+    },
+    "answer": "C",
+    "explanation": "Heatstroke is a life-threatening emergency defined by a high core body temperature (>40°C or 104°F) and central nervous system dysfunction (e.g., confusion, seizure, coma). The absolute priority is immediate and rapid cooling. The first step is to move the person out of the hot environment into the shade or an air-conditioned space and then begin active cooling measures.",
+    "additional": "Cooling Methods:\nBest Method: Cold water immersion (if possible).\nPractical First Aid: Spray the person with cool water and fan them to promote evaporative cooling. Apply cool, wet cloths or ice packs to the neck, armpits, and groin where large blood vessels are close to the surface.\nWhat NOT to Do:\nDo not give fluids by mouth if the person has an altered mental status, due to the risk of aspiration. IV fluids will be started by medical personnel.\nDo not give antipyretics like aspirin or acetaminophen. The high temperature in heatstroke is due to a failure of the body's thermoregulatory system, not a change in the hypothalamic set point (like in a fever from infection). These drugs are ineffective and may be harmful."
+  },
+  {
+    "question": "A person presents with severe chest pain radiating to the left arm. What should you suspect as the most likely cause?",
+    "options": {
+      "A": "Acute myocardial infarction (heart attack)",
+      "B": "Pneumonia",
+      "C": "Anxiety attack",
+      "D": "Gallbladder attack"
+    },
+    "answer": "A",
+    "explanation": "Severe, central, crushing chest pain that radiates to the left arm, jaw, or neck is the classic presentation of an Acute Myocardial Infarction (AMI). This symptom is caused by ischemia (lack of oxygen) in the heart muscle.",
+    "additional": "Atypical Presentations: Not all heart attacks present this way. Women, the elderly, and people with diabetes may have atypical symptoms, such as shortness of breath, nausea, extreme fatigue, or epigastric (upper abdominal) pain. It's crucial to maintain a high index of suspicion.\nAngina vs. MI:\nStable Angina: Chest pain that is predictable, occurs on exertion, and is relieved by rest or nitroglycerin.\nMyocardial Infarction: Pain is typically more severe, occurs at rest, and is not fully relieved by nitroglycerin."
+  },
+  {
+    "question": "You witness a person collapse and they are unresponsive. What should be your immediate action?",
+    "options": {
+      "A": "Check for a pulse",
+      "B": "Start CPR",
+      "C": "Call for emergency help",
+      "D": "Open the airway and give rescue breaths"
+    },
+    "answer": "C",
+    "explanation": "This is a repeat of the concept from question #6. In any situation with an unresponsive victim, after ensuring the scene is safe, the immediate priority is to activate the emergency response system. This single action is the most critical step in the chain of survival, as it ensures that professional help with advanced equipment is dispatched as quickly as possible.",
+    "additional": "Rationale: You cannot manage a cardiac arrest alone indefinitely. Early activation of emergency services brings defibrillation and advanced care to the patient, which are the most important factors for survival. All other BLS actions (checking pulse, starting CPR) are done while waiting for that help to arrive."
+  },
+  {
+    "question": "A person has been involved in a car accident and has severe internal bleeding. What should you do?",
+    "options": {
+      "A": "Administer fluids orally",
+      "B": "Apply pressure to the abdomen",
+      "C": "Elevate the legs to improve circulation",
+      "D": "Monitor the vital signs and call for help"
+    },
+    "answer": "D",
+    "explanation": "Internal bleeding is a life-threatening emergency that cannot be controlled with direct pressure or other simple first aid measures. The most important actions are to recognize the signs of shock, call for immediate emergency medical help, and provide supportive care until help arrives.",
+    "additional": "Management of Shock:\nCall for Help: This is the most critical step.\nPositioning: Have the person lie down. Elevating the legs about 12 inches (the \"shock position\") can help improve blood flow to the vital organs, but this should be avoided if a head, neck, spine, or leg injury is suspected.\nWarmth: Keep the person warm with a blanket to prevent hypothermia.\nNothing by Mouth: Do not give the person anything to eat or drink.\nMonitor: Continuously monitor their breathing, pulse, and level of consciousness."
+  },
+  {
+    "question": "You find a person who has collapsed and is not breathing. What should you do first?",
+    "options": {
+      "A": "Open the airway and perform rescue breathing",
+      "B": "Start CPR immediately",
+      "C": "Call for emergency help",
+      "D": "Check for a pulse"
+    },
+    "answer": "C",
+    "explanation": "This question is almost identical to question #35 and reinforces the same critical principle. For any collapsed, unresponsive, and non-breathing victim, the first action after checking for responsiveness is to call for emergency help.",
+    "additional": "The \"Why\": The most common cause of sudden collapse in an adult is a ventricular fibrillation (VF) cardiac arrest. The only effective treatment for VF is defibrillation. By calling for help first, you ensure that an AED/defibrillator is on its way. Starting CPR immediately without calling for help delays the most important therapy."
+  },
+  {
+    "question": "A person has a serious nosebleed that won't stop. What is the first thing you should do?",
+    "options": {
+      "A": "Tilt the head back",
+      "B": "Apply a cold compress to the back of the neck",
+      "C": "Pinch the nostrils together and lean forward",
+      "D": "Lie the person flat"
+    },
+    "answer": "C",
+    "explanation": "The correct first aid for a nosebleed (epistaxis) is to have the person sit down, lean forward (to prevent swallowing blood), and pinch the soft, fleshy part of their nostrils firmly together for at least 10-15 minutes without releasing the pressure.",
+    "additional": "Why Lean Forward? Tilting the head back causes blood to drain down the throat, which can lead to nausea, vomiting, or aspiration.\nWhy Pinch the Nostrils? Most nosebleeds originate from a network of vessels in the anterior part of the nasal septum called Kiesselbach's plexus. Direct pressure here is the most effective way to stop the bleeding.\nWhen to Seek Help: If the bleeding does not stop after 15-20 minutes of continuous pressure, or if the bleeding is very heavy or resulted from a significant injury, seek medical attention."
+  },
+  {
+    "question": "A person has fainted and is now conscious but dizzy. What should you do first?",
+    "options": {
+      "A": "Give them something to eat or drink",
+      "B": "Allow them to rest in a sitting position",
+      "C": "Have them lie down with their legs elevated",
+      "D": "Call for medical help"
+    },
+    "answer": "C",
+    "explanation": "Fainting (syncope) is a temporary loss of consciousness caused by a brief decrease in blood flow to the brain. After regaining consciousness, the person may still be dizzy and at risk of fainting again. The best immediate action is to have them lie down flat with their legs elevated. This position uses gravity to help restore adequate blood flow to the brain.",
+    "additional": "Recovery: The person should remain lying down until they feel completely better, then sit up slowly before attempting to stand.\nSafety: Check for any injuries sustained during the fall.\nUnderlying Cause: While most fainting is benign (vasovagal syncope), it can sometimes be a sign of a more serious underlying cardiac or neurological condition. Medical evaluation is recommended, especially for a first episode or recurrent episodes."
+  },
+  {
+    "question": "A person has a foreign object stuck in their eye. What is the first step in managing this situation?",
+    "options": {
+      "A": "Try to remove the object using your fingers",
+      "B": "Flush the eye with water",
+      "C": "Apply a cold compress to the eye",
+      "D": "Close the eye and wait for medical assistance"
+    },
+    "answer": "B",
+    "explanation": "For a small, loose foreign object in the eye (like a speck of dust or sand), the best first aid measure is to gently flush the eye with clean, cool water or a sterile saline solution. This can often wash the particle out without causing further damage.",
+    "additional": "Important Caveat: This advice is only for small, superficial objects. If an object is embedded in the eyeball or is a large object penetrating the eye, DO NOT attempt to remove it. Do not flush the eye. Instead, stabilize the object, cover both eyes (to prevent sympathetic eye movement), and seek immediate emergency medical help.\nHow to Flush: Have the person tilt their head to the side of the affected eye and pour water gently from the inner corner outwards, allowing it to drain away from the other eye"
+  },
+  {
+    "question": "A person is having difficulty breathing and you suspect an asthma attack. What is the first thing you should do?",
+    "options": {
+      "A": "Administer oral medications",
+      "B": "Help the person use their inhaler",
+      "C": "Apply oxygen",
+      "D": "Call for emergency assistance"
+    },
+    "answer": "B",
+    "explanation": "This question is a repeat of the concept in question #15. For a conscious person experiencing an asthma attack, the immediate, first-line intervention is to use a short-acting bronchodilator (rescue inhaler), such as salbutamol or albuterol. This medication provides rapid relief by relaxing the muscles around the airways.",
+    "additional": "Steps:\nReassure the person and help them sit upright.\nAssist them in using their rescue inhaler, often with a spacer if available.\nIf symptoms persist or worsen after a few minutes, or if they have no inhaler, call for emergency assistance.\nOxygen is a supportive measure that would be administered by emergency medical services, not typically a first aid step for a layperson."
+  },
+  {
+    "question": "A person is experiencing a diabetic emergency and has a blood sugar of 40 mg/dL. What should you do first?",
+    "options": {
+      "A": "Give the person insulin",
+      "B": "Provide a sugary drink or food",
+      "C": "Call for emergency help",
+      "D": "Have the person rest and monitor their symptoms"
+    },
+    "answer": "B",
+    "explanation": "A blood sugar of 40 mg/dL is severe hypoglycemia, a medical emergency. The immediate priority is to rapidly raise the blood glucose level. If the person is conscious and able to swallow, give them a fast-acting source of sugar.",
+    "additional": "The \"Rule of 15\":\nGive 15 grams of a fast-acting carbohydrate. Examples include: 4 glucose tablets, half a cup (120 mL) of juice or regular soda, or a tablespoon of sugar or honey.\nWait 15 minutes and recheck the blood sugar.\nIf it's still low, repeat the process.\nOnce the blood sugar is normal, have the person eat a small snack with protein and complex carbohydrates to prevent it from dropping again.\nCrucial Error to Avoid: Never give insulin to someone with hypoglycemia; it will lower their blood sugar even further and can be fatal.\nUnconscious Patient: If the person is unconscious or unable to swallow, do not give anything by mouth. Call for emergency help and administer glucagon if available and you are trained to do so."
+  },
+  {
+    "question": "You are dealing with a burn victim. What is the first step in treatment?",
+    "options": {
+      "A": "Immerse the burn in cold water",
+      "B": "Apply butter to the burn",
+      "C": "Cover the burn with a sterile dressing",
+      "D": "Administer painkillers"
+    },
+    "answer": "A",
+    "explanation": "This question is a repeat of the concept from question #14. The first treatment step for a thermal burn, after stopping the burning process, is to cool the burn with cool (not ice-cold) running water. This helps to dissipate heat, reduce pain, and limit the extent of tissue damage.",
+    "additional": "The Three \"C's\" of Burn Care:\nCool: Cool the burn with running water for 10-20 minutes.\nCover: Cover with a clean, non-adherent dressing (like plastic wrap/cling film).\nCall: Call for medical help for any burn that is large, deep, or affects the hands, feet, face, genitals, or major joints.\nApplying butter, oils, or ointments (Option B) is contraindicated as it traps heat and increases infection risk."
+  },
+  {
+    "question": "A person is suffering from shock after severe blood loss. What is your first step?",
+    "options": {
+      "A": "Apply a tourniquet to stop bleeding",
+      "B": "Place the person in a comfortable position",
+      "C": "Offer fluids to drink",
+      "D": "Keep the person warm and call for emergency help"
+    },
+    "answer": "D",
+    "explanation": "Shock is a life-threatening condition of inadequate tissue perfusion. In the case of hemorrhagic shock (from blood loss), the priorities are to control any external bleeding and activate the emergency medical system. While waiting for help, providing supportive care is crucial. This includes keeping the person warm to prevent hypothermia, which can worsen shock and coagulopathy.",
+    "additional": "Full First Aid for Shock:\nCall for help.\nControl any obvious bleeding with direct pressure.\nLay the person down flat.\nElevate their legs (if no spinal/leg injury).\nKeep them warm with a coat or blanket.\nDo not give them anything to eat or drink.\nThe option \"Keep the person warm and call for emergency help\" combines two of the most critical actions."
+  },
+  {
+    "question": "A person has been bitten by a dog and the wound is bleeding. What is the first thing you should do?",
+    "options": {
+      "A": "Apply pressure to the wound",
+      "B": "Clean the wound with alcohol",
+      "C": "Call for emergency help",
+      "D": "Administer a tetanus shot"
+    },
+    "answer": "A",
+    "explanation": "As with any bleeding wound, the immediate priority is to control the hemorrhage. This is done by applying firm, direct pressure to the wound with a clean cloth. Cleaning the wound and assessing the need for medical care (including tetanus prophylaxis) are important secondary steps.",
+    "additional": "Wound Care for Bites: After controlling the bleeding, animal bites should be washed thoroughly with soap and water to reduce the risk of infection.\nInfection Risk: Animal bites, especially from dogs and cats, carry a high risk of bacterial infection (e.g., Pasteurella multocida). All significant bites require medical evaluation.\nRabies: The risk of rabies must be assessed. The animal's vaccination status and behavior should be noted. If the animal is a stray or cannot be observed, post-exposure prophylaxis for rabies may be necessary."
+  }
+]
+
+
+
+
+
+
