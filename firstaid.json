@@ -538,8 +538,69 @@
     "answer": "A",
     "explanation": "As with any bleeding wound, the immediate priority is to control the hemorrhage. This is done by applying firm, direct pressure to the wound with a clean cloth. Cleaning the wound and assessing the need for medical care (including tetanus prophylaxis) are important secondary steps.",
     "additional": "Wound Care for Bites: After controlling the bleeding, animal bites should be washed thoroughly with soap and water to reduce the risk of infection.\nInfection Risk: Animal bites, especially from dogs and cats, carry a high risk of bacterial infection (e.g., Pasteurella multocida). All significant bites require medical evaluation.\nRabies: The risk of rabies must be assessed. The animal's vaccination status and behavior should be noted. If the animal is a stray or cannot be observed, post-exposure prophylaxis for rabies may be necessary."
+  },
+  {
+    "question": "A person has collapsed and is not breathing, but there is no pulse. What should be your next step after calling for emergency help?",
+    "options": {
+      "A": "Start chest compressions (CPR)",
+      "B": "Perform rescue breathing only",
+      "C": "Check for signs of life",
+      "D": "Use an automated external defibrillator (AED)"
+    },
+    "answer": "A",
+    "explanation": "If a person is unresponsive, not breathing, and has no pulse, they are in cardiac arrest. After calling for help, the immediate next step is to begin high-quality cardiopulmonary resuscitation (CPR), starting with chest compressions. Early CPR is a critical link in the chain of survival.",
+    "additional": "CPR Sequence (C-A-B): The current guideline for adult CPR is to prioritize Compressions, then Airway, then Breathing.\n\nHigh-Quality CPR:\nRate: 100-120 compressions per minute.\nDepth: At least 2 inches (5 cm) for an adult.\nRecoil: Allow for full chest recoil between compressions.\nMinimize Interruptions.\nThe AED (Option D) should be used as soon as it becomes available, but you should not delay starting compressions to wait for it."
+  },
+  {
+    "question": "A person has been exposed to a chemical spill. What should you do first?",
+    "options": {
+      "A": "Call for emergency help",
+      "B": "Remove the person from the contaminated area",
+      "C": "Begin CPR if needed",
+      "D": "Flush the person’s skin with water"
+    },
+    "answer": "B",
+    "explanation": "The first and most critical step in a chemical exposure is to stop the exposure. This means safely removing the person from the contaminated area to a safe location with fresh air. This prevents further absorption of the chemical through the skin or inhalation.",
+    "additional": "Decontamination: After removing the person from the source, the next step is decontamination. This usually involves removing contaminated clothing and flushing the affected skin or eyes with large amounts of water for at least 15-20 minutes.\n\nSafety: The rescuer must be careful not to become contaminated themselves. Personal protective equipment (PPE) should be used if available."
+  },
+  {
+    "question": "A person has a fractured arm. They are in severe pain. What is the first thing you should do?",
+    "options": {
+      "A": "Apply a splint to immobilize the arm",
+      "B": "Elevate the arm above the heart",
+      "C": "Give the person painkillers",
+      "D": "Allow the person to move the arm slowly"
+    },
+    "answer": "A",
+    "explanation": "This question is a repeat of the concept from question #31. For a suspected fracture, the first aid priority is to immobilize the limb. Splinting prevents movement of the broken bone ends, which is the primary source of pain and also prevents further damage to surrounding tissues.",
+    "additional": "Pain management (Option C) is important but comes after stabilization. In a first aid setting, you generally would not administer painkillers other than over-the-counter options, and only after the primary injuries are addressed. Immobilization itself is a powerful pain-relieving measure."
+  },
+  {
+    "question": "A person is experiencing a severe asthma attack and their inhaler is not helping. What should you do next?",
+    "options": {
+      "A": "Call for emergency help",
+      "B": "Apply a cold compress to the face",
+      "C": "Have the person lie down and rest",
+      "D": "Give the person water to drink"
+    },
+    "answer": "A",
+    "explanation": "If a person's rescue inhaler is not providing relief during an asthma attack, it signifies a severe exacerbation that is a medical emergency. The immediate next step is to call for emergency medical services. The person requires advanced care, which may include continuous nebulized bronchodilators, systemic corticosteroids, and oxygen.",
+    "additional": "Signs of a Severe Attack:\nDifficulty speaking in full sentences.\nUse of accessory muscles to breathe (e.g., neck muscles).\nCyanosis (bluish lips or fingernails).\nDrowsiness or confusion.\nSilent chest (no wheezing heard because airflow is too low) - this is a very ominous sign."
+  },
+  {
+    "question": "A person has a suspected head injury and is conscious but complaining of neck pain. What is the first thing you should do?",
+    "options": {
+      "A": "Apply a cervical collar and immobilize the neck",
+      "B": "Administer pain relief",
+      "C": "Allow the person to move their head to check for movement",
+      "D": "Have the person lie down and elevate their legs"
+    },
+    "answer": "A",
+    "explanation": "The presence of neck pain after a head injury is a major red flag for a cervical spine injury. The absolute first priority is to immobilize the neck to prevent any movement that could damage the spinal cord. If a cervical collar is not available, this should be done by manually holding the head and neck in a neutral, in-line position.",
+    "additional": "Do No Harm: The most important principle here is to avoid causing further injury. Never allow the person to move their head or neck.\nThis question is a variation of #26, specifically highlighting neck pain as the key indicator for C-spine precautions.\nThis concludes the First Aid, Trauma, and Emergency unit. We can now proceed to the next subject area."
   }
 ]
+
 
 
 
