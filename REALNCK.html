@@ -318,40 +318,39 @@
         }
         render(current);
       });
-   function render(i) {
+  function render(i) {
   const q = questions[i];
   const opts = q.options || {};
   container.innerHTML = `<div class="question-box"><strong>Question ${i + 1}:</strong><br><br>${q.question || "Untitled"}<br><br></div>`;
   const box = container.querySelector('.question-box');
 
-  const answered = saved[i]?.selected;
+  const selected = saved[i]?.selected;
 
   for (const [k, v] of Object.entries(opts)) {
     const b = document.createElement('button');
     b.className = 'btn';
     b.textContent = `${k}) ${v}`;
 
-    if (answered && k === answered) {
-      b.disabled = true;
-      b.style.backgroundColor = "#bde5ff"; // highlight selected
-    }
+    // Disable only if answered
+    if (selected) b.disabled = true;
+    if (selected === k) b.style.backgroundColor = "#bde5ff";
 
     b.onclick = () => {
-      if (saved[i]?.selected) return; // block repeat answers
+      if (saved[i]?.selected) return; // ❌ block repeat answering
 
+      // ✅ Save the selected answer
       saved[i] = {
         selected: k,
         correct: k === (q.answer || "").toUpperCase()
       };
 
-      flagged.delete(i); // auto unflag when answered
-      localStorage.setItem("progress_" + fileName, JSON.stringify(saved));
+      flagged.delete(i); // optional: unflag when answered
 
-      render(i); // update view
-      if (isSimulationMode) next();
+      localStorage.setItem("progress_" + fileName, JSON.stringify(saved));
+      render(i); // re-render to lock and show
+      if (isSimulationMode) next(); // auto move in simulation
     };
 
-    if (answered) b.disabled = true;
     box.appendChild(b);
   }
 
@@ -361,6 +360,7 @@
 
   updateNav();
 
+  // flagged navigation buttons
   if (flagged.size && !isSimulationMode) {
     const jumpBtn = document.createElement("button");
     jumpBtn.textContent = "📌 Jump to First Flagged";
