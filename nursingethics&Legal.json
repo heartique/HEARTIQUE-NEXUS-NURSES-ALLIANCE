@@ -272,8 +272,611 @@
     "answer": "B",
     "explanation": "Survivor support services provide holistic assistance—medical, psychological, social, and legal—to individuals affected by gender-based violence (GBV). These services aim to restore safety, dignity, and well-being. Survivor-centered care prioritizes empathy, confidentiality, and empowerment, not just legal justice.",
     "additional": "NCK Focus August 2025:\n\n1. Key Services:\n- Medical treatment (injuries, emergency contraception, HIV PEP)\n- Psychosocial support (counseling, crisis helplines)\n- Shelter/safety planning\n- Legal support (guidance, referrals)\n\n2. Nurse's First-Line Response:\n- LIVES: Listen, Inquire, Validate, Enhance safety, Support\n\nFuture Question Idea: \"A survivor of IPV visits a health center. The nurse listens empathetically and refers them to shelter and counseling. This is an example of:\" (Answer: GBV survivor-centered support)"
+  },
+  {
+    "question": "1. The nursing principle of beneficence requires the nurse to:",
+    "options": {
+      "A": "Act in ways that promote the well-being of others",
+      "B": "Avoid all risks regardless of benefit",
+      "C": "Tell the whole truth regardless of the consequences",
+      "D": "Protect the institution over the patient"
+    },
+    "answer": "A",
+    "explanation": "Beneficence is a core ethical principle that requires nurses to act in ways that promote the health, safety, and well-being of patients.",
+    "additional": "This includes providing competent care, comforting the patient, and acting in the patient’s best interest."
+  },
+  {
+    "question": "2. A nurse who refuses to care for a patient with HIV/AIDS is violating which ethical principle?",
+    "options": {
+      "A": "Justice",
+      "B": "Autonomy",
+      "C": "Veracity",
+      "D": "Nonmaleficence"
+    },
+    "answer": "A",
+    "explanation": "Justice requires fair and equal treatment for all patients, regardless of their condition or background.",
+    "additional": "Refusing care based on a patient’s diagnosis is discriminatory and unethical."
+  },
+  {
+    "question": "3. Which of the following is an example of the ethical principle of autonomy?",
+    "options": {
+      "A": "A nurse making all care decisions for an unconscious patient",
+      "B": "A patient signing an informed consent form before surgery",
+      "C": "A family member choosing treatment without consulting the patient",
+      "D": "Withholding a diagnosis from a patient to prevent distress"
+    },
+    "answer": "B",
+    "explanation": "Autonomy refers to a patient’s right to make decisions about their own health care.",
+    "additional": "Obtaining informed consent honors this principle by ensuring patients are educated and freely consenting."
+  },
+  {
+    "question": "4. What is the primary purpose of the nursing code of ethics?",
+    "options": {
+      "A": "To protect hospital policies",
+      "B": "To promote scientific research",
+      "C": "To provide guidelines for safe patient care",
+      "D": "To guide nurses in ethical decision-making and conduct"
+    },
+    "answer": "D",
+    "explanation": "The code of ethics serves as a framework for professional behavior and moral responsibility in nursing.",
+    "additional": "It helps nurses uphold values such as respect, honesty, and compassion."
+  },
+  {
+    "question": "5. The principle of nonmaleficence means the nurse must:",
+    "options": {
+      "A": "Tell the patient the whole truth",
+      "B": "Act in the best interest of the hospital",
+      "C": "Do no harm",
+      "D": "Respect the patient’s beliefs"
+    },
+    "answer": "C",
+    "explanation": "Nonmaleficence obligates nurses to avoid actions that cause harm to patients.",
+    "additional": "This includes avoiding negligence, inappropriate treatment, and unnecessary pain."
+  },
+  {
+    "question": "6. A nurse who discloses patient information to unauthorized individuals has violated:",
+    "options": {
+      "A": "Confidentiality",
+      "B": "Justice",
+      "C": "Fidelity",
+      "D": "Autonomy"
+    },
+    "answer": "A",
+    "explanation": "Confidentiality means keeping patient information private unless the patient has given consent or it’s legally required to share.",
+    "additional": "Breaching confidentiality is both unethical and potentially illegal."
+  },
+  {
+    "question": "7. Which of the following is an example of fidelity in nursing?",
+    "options": {
+      "A": "Disclosing a medical error honestly",
+      "B": "Sticking to promised care plans and responsibilities",
+      "C": "Ensuring informed consent",
+      "D": "Avoiding harm to the patient"
+    },
+    "answer": "B",
+    "explanation": "Fidelity refers to faithfulness and keeping promises in the nurse–patient relationship.",
+    "additional": "It includes being dependable and trustworthy in fulfilling professional duties."
+  },
+  {
+    "question": "8. Veracity is best described as:",
+    "options": {
+      "A": "Maintaining confidentiality",
+      "B": "Telling the truth",
+      "C": "Preventing harm",
+      "D": "Providing equal treatment"
+    },
+    "answer": "B",
+    "explanation": "Veracity is the obligation to tell the truth and not deceive patients.",
+    "additional": "It builds trust between the nurse and the patient and supports informed decision-making."
+  },
+  {
+    "question": "9. A patient refuses a blood transfusion for religious reasons. Respecting this decision is an example of:",
+    "options": {
+      "A": "Justice",
+      "B": "Autonomy",
+      "C": "Fidelity",
+      "D": "Beneficence"
+    },
+    "answer": "B",
+    "explanation": "Respecting a patient’s personal beliefs and choices upholds the principle of autonomy.",
+    "additional": "Even if the healthcare team disagrees, patient choice must be respected unless it poses risk to others."
+  },
+  {
+    "question": "10. What ethical principle is violated when a nurse intentionally withholds relevant information from a patient?",
+    "options": {
+      "A": "Autonomy",
+      "B": "Nonmaleficence",
+      "C": "Fidelity",
+      "D": "Veracity"
+    },
+    "answer": "D",
+    "explanation": "Withholding information is a violation of veracity, as it prevents patients from making fully informed decisions.",
+    "additional": "Honesty is essential to maintaining trust in the nurse–patient relationship."
+  },
+  {
+    "question": "11. A nurse witnessing another nurse stealing narcotics should first:",
+    "options": {
+      "A": "Confront the nurse immediately",
+      "B": "Report the incident to the nurse manager",
+      "C": "Ignore it to avoid conflict",
+      "D": "Tell another colleague"
+    },
+    "answer": "B",
+    "explanation": "Ethical and professional responsibility requires the nurse to report unsafe or illegal behavior to the appropriate authority.",
+    "additional": "In this case, reporting to the nurse manager or supervisor maintains patient safety and accountability."
+  },
+  {
+    "question": "12. What is the ethical concern when a nurse accepts a gift from a patient?",
+    "options": {
+      "A": "Cultural insensitivity",
+      "B": "Violation of confidentiality",
+      "C": "Conflict of interest",
+      "D": "Negligence"
+    },
+    "answer": "C",
+    "explanation": "Accepting gifts may create a conflict of interest, affect professional judgment, or lead to favoritism.",
+    "additional": "Nurses should follow institutional policies regarding gifts."
+  },
+  {
+    "question": "13. A nurse delegates a task to an unlicensed assistive personnel (UAP). What is the nurse still responsible for?",
+    "options": {
+      "A": "Only documentation",
+      "B": "The outcome of the delegated task",
+      "C": "Nothing once delegated",
+      "D": "The UAP’s salary"
+    },
+    "answer": "B",
+    "explanation": "The nurse retains accountability for the task’s outcome, even after delegating.",
+    "additional": "Appropriate delegation includes assessing the task, the skill level required, and supervision."
+  },
+  {
+    "question": "14. Which of the following situations requires informed consent?",
+    "options": {
+      "A": "Checking vital signs",
+      "B": "Administering medications",
+      "C": "Blood transfusion",
+      "D": "Measuring height and weight"
+    },
+    "answer": "C",
+    "explanation": "Informed consent is needed for invasive or high-risk procedures like blood transfusions.",
+    "additional": "Patients must understand the benefits, risks, and alternatives before consenting."
+  },
+  {
+    "question": "15. What is the nurse’s primary ethical responsibility when a terminally ill patient asks for assistance in dying?",
+    "options": {
+      "A": "Provide the medication",
+      "B": "Ignore the request",
+      "C": "Provide emotional support and report the request",
+      "D": "Refer the patient to another nurse"
+    },
+    "answer": "C",
+    "explanation": "While assisted dying may be illegal in some areas, the nurse must respond compassionately and follow ethical and legal guidelines.",
+    "additional": "Emotional support and notifying the care team is crucial."
+  },
+  {
+    "question": "16. What is the primary role of the nursing council in maintaining professionalism?",
+    "options": {
+      "A": "Providing medications",
+      "B": "Issuing hospital rules",
+      "C": "Licensing and disciplining nurses",
+      "D": "Recruiting new students"
+    },
+    "answer": "C",
+    "explanation": "Nursing regulatory bodies protect public safety through licensure, discipline, and scope of practice enforcement.",
+    "additional": "They uphold professional standards and handle complaints or misconduct."
+  },
+  {
+    "question": "17. A nurse who falsifies patient records is violating which principle?",
+    "options": {
+      "A": "Beneficence",
+      "B": "Veracity",
+      "C": "Justice",
+      "D": "Autonomy"
+    },
+    "answer": "B",
+    "explanation": "Falsifying records breaches veracity, the ethical duty to be honest and accurate.",
+    "additional": "It can lead to legal consequences and undermine trust in healthcare."
+  },
+  {
+    "question": "18. Which action best promotes accountability in nursing practice?",
+    "options": {
+      "A": "Blaming others for errors",
+      "B": "Documenting care honestly and accepting responsibility for actions",
+      "C": "Avoiding difficult situations",
+      "D": "Staying silent about concerns"
+    },
+    "answer": "B",
+    "explanation": "Accountability means owning one’s actions, including errors, and ensuring safe, ethical practice.",
+    "additional": "It builds professional credibility and improves patient outcomes."
+  },
+  {
+    "question": "19. Which of the following demonstrates advocacy in nursing?",
+    "options": {
+      "A": "Telling a patient what to do",
+      "B": "Ignoring patient complaints",
+      "C": "Supporting the patient’s decision, even if others disagree",
+      "D": "Choosing treatment on behalf of a competent patient"
+    },
+    "answer": "C",
+    "explanation": "Advocacy involves respecting and supporting the patient’s right to make decisions about their care.",
+    "additional": "It’s a central role in maintaining autonomy and trust."
+  },
+  {
+    "question": "20. What should a nurse do if asked to perform a procedure outside their scope of practice?",
+    "options": {
+      "A": "Proceed carefully",
+      "B": "Perform it if the doctor insists",
+      "C": "Politely decline and notify the supervisor",
+      "D": "Ask a peer to perform it"
+    },
+    "answer": "C",
+    "explanation": "Performing tasks beyond one’s scope can cause harm and legal liability. Nurses must practice within legal and professional boundaries.",
+    "additional": "Informing the supervisor ensures patient safety and adherence to regulations."
+  },
+  {
+    "question": "21. What action best upholds the ethical principle of justice in nursing practice?",
+    "options": {
+      "A": "Giving more time to patients who are more talkative",
+      "B": "Prioritizing care based only on patient preferences",
+      "C": "Providing equal quality of care to all patients regardless of their background",
+      "D": "Treating family members of staff before others"
+    },
+    "answer": "C",
+    "explanation": "Justice refers to fairness and equality in care delivery. Nurses must treat all patients equitably, without discrimination.",
+    "additional": "This includes respecting all patients’ rights regardless of race, gender, religion, or socioeconomic status."
+  },
+  {
+    "question": "22. Which of the following is considered professional misconduct?",
+    "options": {
+      "A": "Giving health education",
+      "B": "Attending continuing education",
+      "C": "Practicing without a valid license",
+      "D": "Following institutional policies"
+    },
+    "answer": "C",
+    "explanation": "Practicing without a valid license is illegal and unethical. It endangers patient safety and violates nursing regulations.",
+    "additional": "Professional nurses must maintain current licensure and meet continuing education requirements."
+  },
+  {
+    "question": "23. What is the nurse’s role during the informed consent process?",
+    "options": {
+      "A": "Explaining risks and benefits of a procedure",
+      "B": "Ensuring the patient signs the form regardless of understanding",
+      "C": "Witnessing the patient’s signature and confirming understanding",
+      "D": "Filling out the consent form independently"
+    },
+    "answer": "C",
+    "explanation": "The physician provides full disclosure, but the nurse ensures the patient signs voluntarily and understands what they’re consenting to.",
+    "additional": "If the patient has questions or lacks understanding, the nurse should refer back to the physician."
+  },
+  {
+    "question": "24. A nurse who shares a patient’s condition on social media violates:",
+    "options": {
+      "A": "Fidelity",
+      "B": "Autonomy",
+      "C": "Veracity",
+      "D": "Confidentiality"
+    },
+    "answer": "D",
+    "explanation": "Confidentiality protects patient privacy. Social media sharing breaches ethical and legal standards.",
+    "additional": "Even without naming the patient, enough detail may identify them and violate HIPAA or institutional rules."
+  },
+  {
+    "question": "25. The principle of advocacy in nursing is demonstrated by:",
+    "options": {
+      "A": "Telling the patient what treatment to choose",
+      "B": "Making decisions for the patient",
+      "C": "Ensuring the patient’s voice is heard in decision-making",
+      "D": "Avoiding patient involvement to reduce stress"
+    },
+    "answer": "C",
+    "explanation": "Nurses advocate by empowering patients and supporting their rights and informed choices.",
+    "additional": "It includes speaking up on behalf of patients and facilitating access to information."
+  },
+  {
+    "question": "26. What behavior demonstrates professionalism in nursing?",
+    "options": {
+      "A": "Refusing feedback",
+      "B": "Gossiping about coworkers",
+      "C": "Being punctual, competent, and respectful",
+      "D": "Leaving work early without notice"
+    },
+    "answer": "C",
+    "explanation": "Professionalism includes being reliable, respectful, ethical, and maintaining competence.",
+    "additional": "It strengthens team dynamics and promotes patient trust."
+  },
+  {
+    "question": "27. Which nursing action demonstrates cultural competence?",
+    "options": {
+      "A": "Applying one’s own values to all patients",
+      "B": "Providing care based on each patient’s beliefs and values",
+      "C": "Assuming all patients have the same beliefs",
+      "D": "Avoiding discussions about culture"
+    },
+    "answer": "B",
+    "explanation": "Cultural competence means respecting and incorporating the patient's cultural preferences into care.",
+    "additional": "This promotes patient comfort, compliance, and trust."
+  },
+  {
+    "question": "28. What should a nurse do if a patient is not competent to give informed consent?",
+    "options": {
+      "A": "Proceed with care immediately",
+      "B": "Obtain consent from a legal representative",
+      "C": "Ignore and ask later",
+      "D": "Ask a nurse colleague to consent"
+    },
+    "answer": "B",
+    "explanation": "If a patient lacks capacity, consent must be obtained from a legal guardian or healthcare proxy.",
+    "additional": "The nurse should not proceed until valid consent is secured."
+  },
+  {
+    "question": "29. What is the first step in ethical decision-making?",
+    "options": {
+      "A": "Ignore the problem",
+      "B": "Identify the ethical dilemma",
+      "C": "Choose based on emotion",
+      "D": "Take immediate action"
+    },
+    "answer": "B",
+    "explanation": "Ethical decision-making begins with identifying the problem and understanding the values in conflict.",
+    "additional": "This helps guide appropriate analysis and action."
+  },
+  {
+    "question": "30. A nurse fails to notify the physician about a patient’s deteriorating condition. This is an example of:",
+    "options": {
+      "A": "Professional competence",
+      "B": "Ethical advocacy",
+      "C": "Negligence",
+      "D": "Patient-centered care"
+    },
+    "answer": "C",
+    "explanation": "Negligence involves failure to take appropriate action, resulting in potential or actual harm.",
+    "additional": "Nurses must monitor and report changes in condition promptly."
+  },
+  {
+    "question": "31. Which of the following demonstrates accountability in nursing?",
+    "options": {
+      "A": "Blaming a colleague for an error",
+      "B": "Documenting care honestly and accurately",
+      "C": "Avoiding high-risk patients",
+      "D": "Keeping errors hidden to protect reputation"
+    },
+    "answer": "B",
+    "explanation": "Accountability involves taking responsibility for one’s actions, including accurate documentation and error reporting.",
+    "additional": "This builds trust and ensures patient safety."
+  },
+  {
+    "question": "32. A nurse who withholds treatment because of personal beliefs violates which ethical principle?",
+    "options": {
+      "A": "Fidelity",
+      "B": "Nonmaleficence",
+      "C": "Justice",
+      "D": "Autonomy"
+    },
+    "answer": "C",
+    "explanation": "Justice requires fair and unbiased care. Withholding care based on personal values is discriminatory and unethical.",
+    "additional": "Nurses must provide care regardless of personal views."
+  },
+  {
+    "question": "33. In ethical decision-making, what should guide a nurse’s action?",
+    "options": {
+      "A": "Personal beliefs alone",
+      "B": "Institutional politics",
+      "C": "Ethical principles and patient-centered care",
+      "D": "Avoidance of confrontation"
+    },
+    "answer": "C",
+    "explanation": "Ethical decisions should be guided by nursing ethics, laws, and patient interests—not personal or political factors.",
+    "additional": "The nurse’s responsibility is to advocate for ethical, safe, and effective care."
+  },
+  {
+    "question": "34. What should a nurse do if a physician orders treatment that the patient has refused?",
+    "options": {
+      "A": "Follow the order anyway",
+      "B": "Encourage the patient to agree",
+      "C": "Respect the patient's decision and notify the physician",
+      "D": "Ignore the patient’s refusal"
+    },
+    "answer": "C",
+    "explanation": "Respecting the patient's autonomy means honoring their right to refuse treatment. The physician must be informed.",
+    "additional": "Proceeding without consent is unethical and potentially illegal."
+  },
+  {
+    "question": "35. What does the term 'scope of practice' mean in nursing?",
+    "options": {
+      "A": "Tasks assigned by patients",
+      "B": "All procedures available in the hospital",
+      "C": "Activities legally permitted by a nurse’s licensure and training",
+      "D": "Anything taught in nursing school"
+    },
+    "answer": "C",
+    "explanation": "Scope of practice refers to duties nurses are trained, licensed, and authorized to perform by law and regulation.",
+    "additional": "Staying within scope ensures safety and legal compliance."
+  },
+  {
+    "question": "36. The nursing code of ethics is enforced by:",
+    "options": {
+      "A": "The public",
+      "B": "The Ministry of Health only",
+      "C": "The nursing regulatory body or council",
+      "D": "The patient's family"
+    },
+    "answer": "C",
+    "explanation": "Nursing councils or boards enforce professional standards and discipline ethical violations.",
+    "additional": "They issue licenses, review complaints, and uphold public trust."
+  },
+  {
+    "question": "37. Why is continuing professional development (CPD) important in nursing?",
+    "options": {
+      "A": "To fulfill hospital quotas",
+      "B": "To avoid patient contact",
+      "C": "To maintain competence and improve patient care",
+      "D": "To get promoted quickly"
+    },
+    "answer": "C",
+    "explanation": "CPD ensures nurses remain knowledgeable and skilled in a changing healthcare environment.",
+    "additional": "It supports quality care, safety, and ethical practice."
+  },
+  {
+    "question": "38. A nurse’s refusal to administer a medication because it is against their religious beliefs should be:",
+    "options": {
+      "A": "Done secretly without telling anyone",
+      "B": "Reported and reassigned according to institutional policy",
+      "C": "Forced regardless of belief",
+      "D": "Ignored unless a patient complains"
+    },
+    "answer": "B",
+    "explanation": "While beliefs are respected, the nurse must notify a supervisor to ensure patient care is not compromised.",
+    "additional": "Reassignment allows continuity of care without ethical conflict."
+  },
+  {
+    "question": "39. What is the purpose of professional boundaries in nursing?",
+    "options": {
+      "A": "To avoid talking to patients",
+      "B": "To maintain therapeutic and respectful relationships",
+      "C": "To control patients’ choices",
+      "D": "To make personal friendships"
+    },
+    "answer": "B",
+    "explanation": "Professional boundaries maintain respectful, therapeutic, and safe nurse–patient relationships.",
+    "additional": "Crossing boundaries can lead to ethical and legal violations."
+  },
+  {
+    "question": "40. When a nurse respects a competent patient's right to refuse treatment, this reflects:",
+    "options": {
+      "A": "Justice",
+      "B": "Fidelity",
+      "C": "Autonomy",
+      "D": "Accountability"
+    },
+    "answer": "C",
+    "explanation": "Autonomy means the right to make personal healthcare decisions, including refusal.",
+    "additional": "Nurses must support this even when they disagree with the patient’s choice."
+  },
+  {
+    "question": "41. If a nurse posts a patient’s picture on social media without consent, what principle is violated?",
+    "options": {
+      "A": "Fidelity",
+      "B": "Confidentiality",
+      "C": "Advocacy",
+      "D": "Accountability"
+    },
+    "answer": "B",
+    "explanation": "Sharing patient information or images without consent is a clear breach of confidentiality and privacy.",
+    "additional": "Even de-identified photos can lead to identification and are considered unprofessional and unethical."
+  },
+  {
+    "question": "42. What is the nurse's ethical obligation if they observe discrimination in patient care?",
+    "options": {
+      "A": "Ignore it to avoid conflict",
+      "B": "Join in to fit in with peers",
+      "C": "Report the behavior and advocate for the patient",
+      "D": "Tell the patient not to worry about it"
+    },
+    "answer": "C",
+    "explanation": "Ethical practice requires nurses to speak out against discrimination and protect patient rights.",
+    "additional": "Advocacy includes addressing inequality and ensuring fairness in care delivery."
+  },
+  {
+    "question": "43. A nurse caring for a terminally ill patient focuses on comfort rather than cure. This approach demonstrates:",
+    "options": {
+      "A": "Justice",
+      "B": "Beneficence",
+      "C": "Veracity",
+      "D": "Confidentiality"
+    },
+    "answer": "B",
+    "explanation": "Beneficence involves doing good and promoting the patient’s well-being, especially in palliative care.",
+    "additional": "It includes pain relief, emotional support, and preserving dignity at the end of life."
+  },
+  {
+    "question": "44. What does whistleblowing mean in nursing ethics?",
+    "options": {
+      "A": "Informing patients of their diagnosis",
+      "B": "Reporting unsafe or unethical practices",
+      "C": "Telling on a friend",
+      "D": "Resigning from a job"
+    },
+    "answer": "B",
+    "explanation": "Whistleblowing is the ethical and sometimes legal obligation to report unsafe, illegal, or unethical behaviors in the healthcare setting.",
+    "additional": "It protects patients and upholds professional standards."
+  },
+  {
+    "question": "45. Which action by a nurse supports ethical teamwork?",
+    "options": {
+      "A": "Refusing help to new staff",
+      "B": "Undermining colleagues",
+      "C": "Collaborating and respecting team members",
+      "D": "Avoiding communication"
+    },
+    "answer": "C",
+    "explanation": "Effective teamwork relies on respect, collaboration, and ethical communication among healthcare professionals.",
+    "additional": "It improves patient safety and job satisfaction."
+  },
+  {
+    "question": "46. Nurses who participate in continuing education fulfill which ethical responsibility?",
+    "options": {
+      "A": "Veracity",
+      "B": "Autonomy",
+      "C": "Competence",
+      "D": "Advocacy"
+    },
+    "answer": "C",
+    "explanation": "Ongoing education ensures nurses maintain current knowledge and deliver competent care.",
+    "additional": "Professional growth is essential to ethical and safe practice."
+  },
+  {
+    "question": "47. When is a nurse legally and ethically required to breach confidentiality?",
+    "options": {
+      "A": "If the patient is famous",
+      "B": "If the patient threatens harm to self or others",
+      "C": "If the patient is rude",
+      "D": "If the nurse disagrees with patient behavior"
+    },
+    "answer": "B",
+    "explanation": "When patients pose a danger to themselves or others, confidentiality may be breached to prevent harm.",
+    "additional": "This is an exception under the law and ethics."
+  },
+  {
+    "question": "48. Which of the following promotes ethical nursing leadership?",
+    "options": {
+      "A": "Micromanaging staff",
+      "B": "Favoring certain team members",
+      "C": "Demonstrating integrity and accountability",
+      "D": "Ignoring staff concerns"
+    },
+    "answer": "C",
+    "explanation": "Ethical leaders act with integrity, foster fairness, and model accountability in decision-making.",
+    "additional": "They support ethical practice and positive team culture."
+  },
+  {
+    "question": "49. What is the best action when a patient requests spiritual care the nurse does not personally believe in?",
+    "options": {
+      "A": "Refuse the request",
+      "B": "Mock the belief",
+      "C": "Respect the request and notify appropriate spiritual care services",
+      "D": "Change the topic"
+    },
+    "answer": "C",
+    "explanation": "Cultural and spiritual respect is part of holistic, ethical care. Nurses must support patient beliefs regardless of their own.",
+    "additional": "Notify chaplaincy or appropriate spiritual support services."
+  },
+  {
+    "question": "50. A nurse assisting a colleague with a mistake should prioritize which action?",
+    "options": {
+      "A": "Cover up the mistake to protect the colleague",
+      "B": "Report it honestly and support resolution",
+      "C": "Blame the patient",
+      "D": "Ignore the error"
+    },
+    "answer": "B",
+    "explanation": "Patient safety and ethical practice demand that all errors be reported and addressed constructively.",
+    "additional": "Honest reporting fosters a culture of safety and learning."
   }
 ]
+
+
+
 
 
 
