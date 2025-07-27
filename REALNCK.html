@@ -319,7 +319,10 @@
         render(current);
       });
     }
-      function render(i) {
+
+   
+}
+    function render(i) {
       const q = questions[i];
       const opts = q.options || {};
       container.innerHTML = `<div class="question-box"><strong>Question ${i + 1}:</strong><br><br>${q.question || "Untitled"}<br><br></div>`;
@@ -368,7 +371,6 @@
 
       window.scrollTo(0, 0);
     }
-
     }
       function updateNav() {
         const navButtons = [];
