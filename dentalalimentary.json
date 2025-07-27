@@ -118,5 +118,489 @@
     "answer": "A",
     "explanation": "Cirrhosis impairs protein synthesis in the liver, resulting in decreased albumin levels.",
     "additional": "This contributes to edema and ascites in affected patients."
+  },
+  {
+    "question": "11. Which of the following findings is most concerning in a patient with ulcerative colitis?",
+    "options": {
+      "A": "Abdominal cramping after meals",
+      "B": "Mucus in the stool",
+      "C": "Tenesmus",
+      "D": "Tachycardia and hypotension"
+    },
+    "answer": "D",
+    "explanation": "Tachycardia and hypotension suggest fluid loss or hemorrhage, which are serious complications of ulcerative colitis.",
+    "additional": "This may indicate hypovolemia or toxic megacolon requiring urgent care."
+  },
+  {
+    "question": "12. A client with a history of duodenal ulcer reports awakening at night with epigastric pain that is relieved by eating. What is the most likely cause?",
+    "options": {
+      "A": "Peptic ulcer healing",
+      "B": "Gastric outlet obstruction",
+      "C": "Duodenal ulcer exacerbation",
+      "D": "Gastroenteritis"
+    },
+    "answer": "C",
+    "explanation": "Duodenal ulcers typically cause pain several hours after meals and are relieved by food or antacids.",
+    "additional": "Nighttime symptoms are common. Diagnosis is confirmed via endoscopy."
+  },
+  {
+    "question": "13. In caring for a client with a Sengstaken-Blakemore tube, which action is most important?",
+    "options": {
+      "A": "Irrigating the tube frequently",
+      "B": "Keeping scissors at the bedside",
+      "C": "Feeding the client orally",
+      "D": "Suctioning the oral cavity every hour"
+    },
+    "answer": "B",
+    "explanation": "Scissors must be kept at the bedside to cut the tube in case of airway obstruction.",
+    "additional": "This tube is used to control esophageal variceal bleeding and poses a risk for airway compromise."
+  },
+  {
+    "question": "14. What is the priority nursing assessment for a patient with appendicitis?",
+    "options": {
+      "A": "Bowel sounds",
+      "B": "Rebound tenderness",
+      "C": "Location of pain",
+      "D": "Signs of peritonitis"
+    },
+    "answer": "D",
+    "explanation": "Peritonitis is a life-threatening complication of appendicitis, characterized by rigid abdomen and rebound tenderness.",
+    "additional": "Immediate medical attention is required if suspected."
+  },
+  {
+    "question": "15. Which of the following symptoms suggests a complication of endoscopic retrograde cholangiopancreatography (ERCP)?",
+    "options": {
+      "A": "Mild abdominal bloating",
+      "B": "Fever and severe abdominal pain",
+      "C": "Nausea and dizziness",
+      "D": "Sore throat"
+    },
+    "answer": "B",
+    "explanation": "Fever and severe abdominal pain may indicate pancreatitis or infection, serious ERCP complications.",
+    "additional": "The patient should be evaluated immediately."
+  },
+  {
+    "question": "16. A nurse is caring for a client with stomatitis. What is the best intervention to promote comfort?",
+    "options": {
+      "A": "Brush with a firm toothbrush twice daily",
+      "B": "Use hydrogen peroxide mouthwash",
+      "C": "Provide bland, soft, non-acidic foods",
+      "D": "Encourage citrus juices for vitamin C"
+    },
+    "answer": "C",
+    "explanation": "Soft, non-irritating foods reduce discomfort and promote healing in stomatitis.",
+    "additional": "Avoid spicy, acidic, or coarse foods."
+  },
+  {
+    "question": "17. Which statement by a patient with a colostomy indicates correct understanding of care?",
+    "options": {
+      "A": \"I will eat high-fiber foods right after surgery to promote output\",
+      "B": \"I will change the pouch every 10 days\",
+      "C": \"I will check the stoma for a pink or red color\",
+      "D": \"I will avoid all fluids to reduce stool output\"
+    },
+    "answer": "C",
+    "explanation": "A healthy stoma should appear moist and pink or red, indicating good blood flow.",
+    "additional": "Any dusky or blue coloration requires immediate medical attention."
+  },
+  {
+    "question": "18. The most common cause of chronic pancreatitis is:",
+    "options": {
+      "A": "Cholecystitis",
+      "B": "Alcohol abuse",
+      "C": "Gallstones",
+      "D": "Viral infection"
+    },
+    "answer": "B",
+    "explanation": "Chronic alcohol intake damages pancreatic tissue, leading to inflammation and fibrosis.",
+    "additional": "Patients may require enzyme replacement and dietary modifications."
+  },
+  {
+    "question": "19. What intervention is most important after a patient undergoes paracentesis for ascites?",
+    "options": {
+      "A": "Monitoring for increased bowel sounds",
+      "B": "Restricting fluid intake",
+      "C": "Measuring abdominal girth",
+      "D": "Monitoring blood pressure and for signs of hypovolemia"
+    },
+    "answer": "D",
+    "explanation": "Large-volume fluid removal can cause hypotension; monitoring vital signs is critical.",
+    "additional": "Albumin infusion may be required depending on volume removed."
+  },
+  {
+    "question": "20. Which dietary recommendation is most appropriate for a patient with celiac disease?",
+    "options": {
+      "A": "Avoid dairy products",
+      "B": "Follow a gluten-free diet",
+      "C": "Reduce protein intake",
+      "D": "Limit fruits and vegetables"
+    },
+    "answer": "B",
+    "explanation": "Celiac disease is an autoimmune disorder triggered by gluten; dietary exclusion prevents symptoms and intestinal damage.",
+    "additional": "Common gluten sources include wheat, barley, and rye."
+  },
+  {
+    "question": "21. A nurse suspects a patient with oral cancer. Which finding supports this suspicion?",
+    "options": {
+      "A": "Painless, non-healing ulcer",
+      "B": "Frequent mouth dryness",
+      "C": "Increased salivation",
+      "D": "Painful toothache"
+    },
+    "answer": "A",
+    "explanation": "Oral cancer often presents as a painless ulcer or sore that does not heal.",
+    "additional": "Other signs may include leukoplakia, dysphagia, or a mass in the mouth or neck."
+  },
+  {
+    "question": "22. A patient with portal hypertension is at risk for which life-threatening complication?",
+    "options": {
+      "A": "Gastroesophageal reflux disease",
+      "B": "Constipation",
+      "C": "Esophageal varices",
+      "D": "Gastric ulcers"
+    },
+    "answer": "C",
+    "explanation": "Portal hypertension causes dilated veins (varices) in the esophagus that can rupture and bleed.",
+    "additional": "Prevention includes beta-blockers and avoiding straining or increased abdominal pressure."
+  },
+  {
+    "question": "23. A nurse is caring for a patient post hemorrhoidectomy. Which is the priority nursing intervention?",
+    "options": {
+      "A": "Encourage high-fiber diet immediately",
+      "B": "Apply ice packs and monitor for bleeding",
+      "C": "Assist with ambulation",
+      "D": "Offer a bedpan"
+    },
+    "answer": "B",
+    "explanation": "Ice packs reduce pain and swelling, while bleeding is a common post-op complication requiring close monitoring.",
+    "additional": "Stool softeners may be used to prevent straining during defecation."
+  },
+  {
+    "question": "24. Which condition is most associated with clay-colored stools?",
+    "options": {
+      "A": "Irritable bowel syndrome",
+      "B": "Biliary obstruction",
+      "C": "Crohn’s disease",
+      "D": "Gastroenteritis"
+    },
+    "answer": "B",
+    "explanation": "Obstructed bile flow results in pale or clay-colored stools due to lack of bile pigment.",
+    "additional": "Accompanied by dark urine and jaundice in many cases."
+  },
+  {
+    "question": "25. A nurse is teaching a patient with hepatitis A. Which statement shows correct understanding?",
+    "options": {
+      "A": "I can share my food with others once symptoms disappear",
+      "B": "I need to avoid all dairy",
+      "C": "I should wash my hands thoroughly after using the bathroom",
+      "D": "I must take antibiotics for 6 months"
+    },
+    "answer": "C",
+    "explanation": "Hepatitis A is transmitted via the fecal-oral route. Hand hygiene is the best prevention.",
+    "additional": "No specific treatment; supportive care is usually sufficient."
+  },
+  {
+    "question": "26. What is the expected finding in a patient with upper gastrointestinal bleeding?",
+    "options": {
+      "A": "Bright red blood per rectum",
+      "B": "Coffee-ground emesis",
+      "C": "Clay-colored stool",
+      "D": "Steatorrhea"
+    },
+    "answer": "B",
+    "explanation": "Coffee-ground emesis suggests partially digested blood from upper GI bleeding.",
+    "additional": "Urgent evaluation is needed to determine the source and manage hemodynamic stability."
+  },
+  {
+    "question": "27. Which action helps prevent aspiration in a patient with dysphagia?",
+    "options": {
+      "A": "Feeding the patient lying flat",
+      "B": "Offering liquids before solids",
+      "C": "Positioning upright during and after meals",
+      "D": "Encouraging talking while chewing"
+    },
+    "answer": "C",
+    "explanation": "Upright positioning reduces aspiration risk by promoting effective swallowing and gravity-assisted clearance.",
+    "additional": "Other measures include thickened liquids and supervised feeding."
+  },
+  {
+    "question": "28. A patient with peritonitis is most likely to exhibit which sign?",
+    "options": {
+      "A": "Board-like abdominal rigidity",
+      "B": "Hyperactive bowel sounds",
+      "C": "Abdominal bruit",
+      "D": "Soft, distended abdomen"
+    },
+    "answer": "A",
+    "explanation": "Peritonitis causes inflammation of the peritoneum leading to muscular rigidity and guarding.",
+    "additional": "It is a medical emergency requiring antibiotics and possibly surgery."
+  },
+  {
+    "question": "29. A nurse is caring for a patient who has undergone a liver transplant. What is the most important nursing consideration?",
+    "options": {
+      "A": "Administering anticoagulants",
+      "B": "Monitoring for signs of rejection and infection",
+      "C": "Restricting protein intake",
+      "D": "Increasing fluid intake"
+    },
+    "answer": "B",
+    "explanation": "Post-transplant, patients are immunosuppressed and vulnerable to infection and graft rejection.",
+    "additional": "Fever, RUQ pain, and abnormal liver enzymes may indicate rejection."
+  },
+  {
+    "question": "30. A patient has a diagnosis of irritable bowel syndrome (IBS). Which symptom is most characteristic?",
+    "options": {
+      "A": "Persistent bloody diarrhea",
+      "B": "Alternating diarrhea and constipation",
+      "C": "Steatorrhea",
+      "D": "Weight loss and anorexia"
+    },
+    "answer": "B",
+    "explanation": "IBS often involves fluctuating bowel habits and abdominal discomfort relieved by defecation.",
+    "additional": "It is a functional disorder without structural abnormalities."
+  },
+  {
+    "question": "31. What is the most appropriate position for a patient experiencing severe ascites and dyspnea?",
+    "options": {
+      "A": "Trendelenburg",
+      "B": "Supine",
+      "C": "High Fowler’s",
+      "D": "Prone"
+    },
+    "answer": "C",
+    "explanation": "High Fowler’s position improves respiratory effort in patients with ascites by reducing pressure on the diaphragm.",
+    "additional": "This also promotes venous return and comfort."
+  },
+  {
+    "question": "32. What is a typical sign of small bowel obstruction?",
+    "options": {
+      "A": "Hypoactive bowel sounds",
+      "B": "Projectile vomiting with undigested food",
+      "C": "Bright red blood per rectum",
+      "D": "Clay-colored stool"
+    },
+    "answer": "B",
+    "explanation": "Small bowel obstruction leads to vomiting of gastric contents and even feculent material in severe cases.",
+    "additional": "Other signs include colicky abdominal pain and high-pitched bowel sounds."
+  },
+  {
+    "question": "33. A nurse is caring for a patient with hepatic encephalopathy. What dietary modification is most appropriate?",
+    "options": {
+      "A": "High-protein diet",
+      "B": "Low-protein diet",
+      "C": "Low-fat diet",
+      "D": "High-fiber diet"
+    },
+    "answer": "B",
+    "explanation": "Reducing protein intake lowers ammonia production, improving symptoms of hepatic encephalopathy.",
+    "additional": "Vegetable proteins are often preferred over animal proteins."
+  },
+  {
+    "question": "34. Which intervention is appropriate when inserting a nasogastric (NG) tube?",
+    "options": {
+      "A": "Place the patient flat to prevent aspiration",
+      "B": "Lubricate the tube with petroleum jelly",
+      "C": "Ask the patient to swallow during insertion",
+      "D": "Insert the tube rapidly without pause"
+    },
+    "answer": "C",
+    "explanation": "Swallowing helps the NG tube pass through the oropharynx into the esophagus, reducing gagging and discomfort.",
+    "additional": "Use water-soluble lubricant, and confirm placement before use."
+  },
+  {
+    "question": "35. The nurse is caring for a patient with a gastric ulcer. Which medication is most appropriate?",
+    "options": {
+      "A": "Proton pump inhibitor",
+      "B": "Laxative",
+      "C": "Antibiotic",
+      "D": "Beta-blocker"
+    },
+    "answer": "A",
+    "explanation": "Proton pump inhibitors reduce gastric acid secretion, promoting healing of ulcers.",
+    "additional": "They are often used in combination with antibiotics if H. pylori is present."
+  },
+  {
+    "question": "36. A nurse is assessing a patient with suspected cholelithiasis. Which diagnostic test is commonly used?",
+    "options": {
+      "A": "Colonoscopy",
+      "B": "Upper GI series",
+      "C": "Abdominal ultrasound",
+      "D": "Endoscopy"
+    },
+    "answer": "C",
+    "explanation": "Ultrasound is non-invasive and highly effective for detecting gallstones and gallbladder inflammation.",
+    "additional": "It is often the first-line test for right upper quadrant pain."
+  },
+  {
+    "question": "37. What is a likely complication of chronic constipation in elderly patients?",
+    "options": {
+      "A": "Gastric ulcer",
+      "B": "Hemorrhoids",
+      "C": "Pneumonia",
+      "D": "Appendicitis"
+    },
+    "answer": "B",
+    "explanation": "Straining during defecation can cause or worsen hemorrhoids due to increased rectal venous pressure.",
+    "additional": "Prevention includes fiber, hydration, and physical activity."
+  },
+  {
+    "question": "38. A patient reports severe pain radiating to the back and elevated serum lipase. What is the likely diagnosis?",
+    "options": {
+      "A": "Peptic ulcer",
+      "B": "Pancreatitis",
+      "C": "Cholecystitis",
+      "D": "Appendicitis"
+    },
+    "answer": "B",
+    "explanation": "Acute pancreatitis presents with severe epigastric pain radiating to the back, nausea, and elevated pancreatic enzymes.",
+    "additional": "Common causes include alcohol use and gallstones."
+  },
+  {
+    "question": "39. What is an early sign of colorectal cancer?",
+    "options": {
+      "A": "Fever and chills",
+      "B": "Jaundice",
+      "C": "Change in bowel habits",
+      "D": "Sharp abdominal pain"
+    },
+    "answer": "C",
+    "explanation": "Changes in stool frequency, consistency, or presence of blood are often early signs of colorectal malignancy.",
+    "additional": "Screening with colonoscopy is essential after age 45 or earlier if risk factors exist."
+  },
+  {
+    "question": "40. A patient with a colostomy reports odor concerns. What advice should the nurse provide?",
+    "options": {
+      "A": "Use scented soap inside the pouch",
+      "B": "Avoid cleaning the pouch daily",
+      "C": "Add a commercial deodorizer or charcoal filter",
+      "D": "Drink more citrus juices"
+    },
+    "answer": "C",
+    "explanation": "Commercial deodorizers and charcoal filters help control odor from colostomy pouches.",
+    "additional": "Patients can also avoid gas-producing foods like beans and onions."
+  },
+  {
+    "question": "41. The nurse is reviewing dietary instructions for a patient with a new ileostomy. Which food should the patient avoid initially?",
+    "options": {
+      "A": "Bananas",
+      "B": "Whole kernel corn",
+      "C": "White rice",
+      "D": "Lean chicken"
+    },
+    "answer": "B",
+    "explanation": "Corn is high in fiber and difficult to digest, posing a risk of blockage at the stoma site.",
+    "additional": "Other foods to avoid early include nuts, seeds, and raw vegetables."
+  },
+  {
+    "question": "42. A patient with suspected peritonitis is scheduled for surgery. Which preoperative nursing action has the highest priority?",
+    "options": {
+      "A": "Teach coughing and deep breathing",
+      "B": "Monitor electrolyte values",
+      "C": "Start IV antibiotics",
+      "D": "Check the consent form"
+    },
+    "answer": "C",
+    "explanation": "IV antibiotics help control infection and reduce the risk of sepsis before surgery.",
+    "additional": "Peritonitis is life-threatening and requires urgent intervention."
+  },
+  {
+    "question": "43. Which of the following is a sign of dehydration in a patient with prolonged vomiting?",
+    "options": {
+      "A": "Bradycardia",
+      "B": "Dry mucous membranes",
+      "C": "Increased urinary output",
+      "D": "Hypotonic muscles"
+    },
+    "answer": "B",
+    "explanation": "Dry mucous membranes, poor skin turgor, and low urine output are classic signs of dehydration.",
+    "additional": "Early identification is critical to prevent hypovolemic shock."
+  },
+  {
+    "question": "44. A patient with a PEG tube requires medication administration. What is the best practice?",
+    "options": {
+      "A": "Crush all pills and mix together",
+      "B": "Flush the tube before and after each drug",
+      "C": "Administer medications without checking placement",
+      "D": "Skip flushing to prevent fluid overload"
+    },
+    "answer": "B",
+    "explanation": "Flushing the tube before and after medication ensures patency and prevents clogging.",
+    "additional": "Each medication should be administered separately with appropriate flushing between drugs."
+  },
+  {
+    "question": "45. Which condition is most associated with hematemesis?",
+    "options": {
+      "A": "Gastric ulcer",
+      "B": "Cholecystitis",
+      "C": "Pancreatitis",
+      "D": "Hepatic encephalopathy"
+    },
+    "answer": "A",
+    "explanation": "Bleeding from gastric ulcers can cause hematemesis, which appears as bright red or coffee-ground vomit.",
+    "additional": "Urgent endoscopic evaluation is needed."
+  },
+  {
+    "question": "46. The nurse is teaching about hepatitis B prevention. Which statement is correct?",
+    "options": {
+      "A": "There is no vaccine available",
+      "B": "It is spread only through contaminated food",
+      "C": "Safe sex and avoiding needle sharing prevent transmission",
+      "D": "It does not cause chronic disease"
+    },
+    "answer": "C",
+    "explanation": "Hepatitis B is transmitted via blood, sexual contact, and perinatally. Prevention includes vaccination and avoiding risky behaviors.",
+    "additional": "Unlike hepatitis A, hepatitis B can cause chronic liver damage."
+  },
+  {
+    "question": "47. Which of the following is an appropriate nursing goal for a patient with stomatitis?",
+    "options": {
+      "A": "Encourage acidic foods to stimulate healing",
+      "B": "Maintain oral mucosa integrity",
+      "C": "Increase saltwater rinses to cleanse ulcers",
+      "D": "Apply heat to the affected area"
+    },
+    "answer": "B",
+    "explanation": "Stomatitis causes painful inflammation, and maintaining mucosal integrity is a key goal.",
+    "additional": "Avoid irritating agents; use mild rinses and soft diets."
+  },
+  {
+    "question": "48. A patient reports black, tarry stools. What does the nurse suspect?",
+    "options": {
+      "A": "Lower GI bleed",
+      "B": "Diet rich in iron",
+      "C": "Upper GI bleeding",
+      "D": "Hemorrhoids"
+    },
+    "answer": "C",
+    "explanation": "Melena (black, tarry stools) is a sign of upper GI bleeding where blood is digested before passing.",
+    "additional": "Often seen in gastric or duodenal ulcers."
+  },
+  {
+    "question": "49. What is a common cause of peptic ulcer disease?",
+    "options": {
+      "A": "Viral infection",
+      "B": "High-fiber diet",
+      "C": "Helicobacter pylori infection",
+      "D": "Smoking only"
+    },
+    "answer": "C",
+    "explanation": "H. pylori disrupts mucosal protection, allowing acid to damage the stomach lining.",
+    "additional": "Treatment includes antibiotics and acid suppression therapy."
+  },
+  {
+    "question": "50. What is a priority teaching point for a patient prescribed sucralfate for a gastric ulcer?",
+    "options": {
+      "A": "Take with meals for best absorption",
+      "B": "Do not take with other medications simultaneously",
+      "C": "Take with antacids for enhanced effect",
+      "D": "Avoid all dairy products"
+    },
+    "answer": "B",
+    "explanation": "Sucralfate works by coating the ulcer and should be taken separately to avoid interaction with other drugs.",
+    "additional": "Usually taken 1 hour before meals and at bedtime."
   }
 ]
+
+
+
+
