@@ -1,0 +1,606 @@
+[
+  {
+    "question": "A nurse is preparing a sterile field for a surgical procedure. Which of the following should the nurse avoid when setting up the sterile field?",
+    "options": {
+      "A": "Touching the outer edges of sterile items",
+      "B": "Placing sterile items on the patient’s sterile drape",
+      "C": "Opening sterile packages away from the field",
+      "D": "Allowing sterile items to contact unsterile surfaces"
+    },
+    "answer": "D",
+    "explanation": "The fundamental principle of aseptic technique is the strict separation of sterile and unsterile items. A sterile object becomes unsterile the moment it comes into contact with any unsterile surface. Therefore, allowing a sterile item to contact an unsterile surface is a breach of sterile technique and must be avoided at all costs.",
+    "additional": "Principles of Asepsis:\nThe outer 1-inch border of a sterile field is considered unsterile.\nSterile persons should only touch sterile items; unsterile persons should only touch unsterile items.\nNever turn your back on a sterile field or leave it unattended.\nKeep sterile items above waist level.\nAvoid talking, coughing, or sneezing over a sterile field.\nThe other options are correct procedures: Touching the outer edges (which are considered unsterile) to open a sterile package is correct, placing sterile items on a sterile drape is correct, and opening packages away from yourself prevents your unsterile uniform from contaminating the item."
+  },
+  {
+    "question": "What is the role of the scrub nurse in the operating theatre?",
+    "options": {
+      "A": "Administering anesthesia",
+      "B": "Assisting the surgeon by handling sterile instruments",
+      "C": "Monitoring vital signs during the procedure",
+      "D": "Preparing the operating room for surgery"
+    },
+    "answer": "B",
+    "explanation": "The scrub nurse (or surgical technologist) is a member of the sterile team. Their primary role is to maintain the sterile field, prepare and arrange sterile instruments and supplies, and assist the surgeon by anticipating their needs and passing instruments and other items throughout the procedure.",
+    "additional": "Scrub Nurse vs. Circulating Nurse: This is a critical distinction.\nScrub Nurse: Is \"scrubbed in\" (has performed a surgical hand scrub and is wearing a sterile gown and gloves). Works within the sterile field.\nCirculating Nurse: Is \"unsterile.\" Works outside the sterile field. Their role is to manage the overall nursing care in the OR, including positioning the patient, documenting, retrieving supplies, and being a patient advocate. They are the link between the sterile and unsterile environments.\nAdministering anesthesia is the role of the anesthetist/anesthesiologist. Monitoring vital signs is a shared role, but primarily done by the anesthetist."
+  },
+  {
+    "question": "What is the primary goal of aseptic technique in theatre nursing?",
+    "options": {
+      "A": "Preventing the spread of infections to the healthcare staff",
+      "B": "Ensuring that the patient remains unconscious",
+      "C": "Reducing the risk of infection to the patient",
+      "D": "Minimizing blood loss during surgery"
+    },
+    "answer": "C",
+    "explanation": "The ultimate goal of all aspects of aseptic technique is to prevent the introduction of microorganisms into the surgical wound, thereby reducing the patient's risk of developing a surgical site infection (SSI). While protecting staff is important (achieved through standard precautions), the focus of asepsis is patient safety.",
+    "additional": "Asepsis: The absence of pathogenic microorganisms.\nSterile: The complete absence of all microorganisms, including spores.\nAseptic technique encompasses everything from hand hygiene and sterile gloving to prepping the patient's skin and maintaining the sterile field."
+  },
+  {
+    "question": "During a surgical procedure, the surgeon requests a needle count. What is the purpose of this procedure?",
+    "options": {
+      "A": "To ensure that all instruments are accounted for",
+      "B": "To assess the patient's pain level",
+      "C": "To prevent the loss of needles or sponges in the wound",
+      "D": "To monitor the patient’s vital signs"
+    },
+    "answer": "C",
+    "explanation": "The purpose of surgical counts (which include sponges, sharps like needles and scalpel blades, and instruments) is to ensure that no items are unintentionally left inside the patient's body. This is a critical patient safety measure to prevent retained surgical items (RSIs), which can lead to severe complications.",
+    "additional": "When are counts performed? Counts are typically performed at multiple key times:\nBefore the procedure begins (initial count).\nBefore the closure of a cavity within a cavity (e.g., closing the uterus during a C-section).\nBefore the closure of the primary wound/fascia.\nAt the time of skin closure (final count).\nProcedure: The scrub nurse and circulating nurse perform the counts together, audibly and visibly. Any discrepancy must be resolved before the surgeon completes the closure. This may require a recount, searching the room, or obtaining an X-ray of the patient."
+  },
+  {
+    "question": "The sterile field is compromised during surgery. What should the scrub nurse do first?",
+    "options": {
+      "A": "Ignore the breach and continue working",
+      "B": "Notify the surgeon immediately",
+      "C": "Discard all sterile instruments and start fresh",
+      "D": "Attempt to re-sterilize the compromised area"
+    },
+    "answer": "B",
+    "explanation": "If a breach in sterile technique occurs, it must be addressed immediately. The first and most important action is to verbally communicate the breach to the surgeon and the rest of the sterile team. This is a core principle of patient safety and open communication in the OR.",
+    "additional": "\"Surgical Conscience\": This term refers to the ethical and professional responsibility of every team member to admit and report any break in sterile technique, regardless of who caused it.\nCorrective Action: After notification, the team will decide on the appropriate action. The contaminated item must be removed from the field. If a large area is contaminated, it may need to be re-draped. The principle is: \"When in doubt, throw it out.\"\nIgnoring the breach (Option A) is a serious violation of patient safety."
+  },
+  {
+    "question": "Which of the following actions is part of the role of a circulating nurse in the operating theatre?",
+    "options": {
+      "A": "Assisting the surgeon with the procedure",
+      "B": "Monitoring the patient’s vital signs during the procedure",
+      "C": "Maintaining the sterile field",
+      "D": "Coordinating the overall flow of the surgery and managing supplies"
+    },
+    "answer": "D",
+    "explanation": "The circulating nurse acts as the manager of the operating room. They are not sterile and can move freely around the room. Their key responsibilities include coordinating the procedure's flow, ensuring all necessary equipment and supplies are available, documenting care, and acting as the patient's advocate.",
+    "additional": "Specific Circulating Nurse Tasks:\nPerforming the patient \"time-out\" with the team.\nPositioning the patient safely.\nAssisting the anesthesia provider.\nHandling and labeling surgical specimens.\nPerforming surgical counts with the scrub nurse.\nAnticipating the needs of the sterile team and retrieving additional items.\nAssisting the surgeon directly (A) and maintaining the sterile field (C) are roles of the scrub nurse. Monitoring vital signs (B) is primarily the anesthetist's role, although the circulating nurse also keeps an eye on the overall patient status."
+  },
+  {
+    "question": "What is the purpose of the surgical drape during an operation?",
+    "options": {
+      "A": "To prevent the spread of infection to the surgical team",
+      "B": "To ensure the patient is comfortably positioned",
+      "C": "To maintain a sterile field around the surgical site",
+      "D": "To block the operating lights from shining into the surgeon’s eyes"
+    },
+    "answer": "C",
+    "explanation": "Surgical drapes are used to create a barrier between the surgical site and the rest of the patient's body and non-sterile environment. This establishes and maintains the sterile field, isolating the incision site to prevent contamination by microorganisms.",
+    "additional": "Draping Principles:\nDrapes are placed on a dry, prepped area.\nThey are handled as little as possible.\nOnce a drape is placed, it should not be moved or repositioned, as this can transfer microbes from the unsterile area underneath to the sterile surface.\nAny drape that is penetrated (e.g., by a hole or moisture) is considered contaminated."
+  },
+  {
+    "question": "Which of the following actions would be considered a breach of sterile technique in the operating theatre?",
+    "options": {
+      "A": "Scrubbing in before the procedure",
+      "B": "Wearing sterile gloves while handling instruments",
+      "C": "Passing a sterile instrument over the sterile field from one sterile area to another",
+      "D": "Placing a non-sterile item on a sterile drape"
+    },
+    "answer": "D",
+    "explanation": "This is a direct application of the core principle of asepsis. A sterile field is created using sterile drapes. Placing any non-sterile item onto that sterile surface contaminates the entire field.",
+    "additional": "Options A and B are essential components of sterile technique.\nOption C is acceptable. Sterile team members can move and pass sterile items within the confines of the sterile field."
+  },
+  {
+    "question": "A patient has been placed under general anesthesia. Which of the following is the nurse's primary concern during this stage?",
+    "options": {
+      "A": "Preventing the patient from waking up prematurely",
+      "B": "Monitoring the patient's vital signs",
+      "C": "Ensuring the patient’s skin remains sterile",
+      "D": "Maintaining the sterile field"
+    },
+    "answer": "B",
+    "explanation": "While the question says \"nurse's primary concern,\" the monitoring of the anesthetized patient is the primary responsibility of the anesthesia provider (anesthesiologist or nurse anesthetist). Their main concern is maintaining physiological stability, which involves continuous monitoring of vital signs (heart rate, blood pressure, oxygen saturation, end-tidal CO2) and managing the patient's airway, breathing, and circulation. The circulating nurse supports this role and also monitors the patient's overall status.",
+    "additional": "Maintaining the sterile field is the scrub nurse's role. Skin sterility is achieved during prepping but is not the primary concern after anesthesia induction. Preventing awareness (Option A) is a goal of anesthesia, but it is a component of the broader goal of physiological monitoring and stability."
+  },
+  {
+    "question": "Which of the following statements is true regarding surgical hand scrubbing?",
+    "options": {
+      "A": "The nurse should scrub for at least 5 minutes",
+      "B": "The hands should be scrubbed from fingertips to elbows",
+      "C": "It is unnecessary to scrub if gloves will be worn",
+      "D": "Scrubbing is done only once before the start of the procedure"
+    },
+    "answer": "B",
+    "explanation": "The surgical hand scrub is a systematic process designed to remove debris and reduce the number of resident microorganisms on the hands and forearms. The correct technique involves scrubbing in a specific direction: from the cleanest area (fingertips) to the least clean area (elbows). This prevents re-contaminating the hands.",
+    "additional": "Duration (Option A): The traditional 5-minute scrub is still taught, but evidence-based practice now supports shorter, timed scrubs (e.g., 2-3 minutes) or the use of alcohol-based hand rubs, depending on hospital policy. So, \"at least 5 minutes\" is not universally true anymore.\nGloves (Option C): Scrubbing is absolutely necessary because gloves can develop microscopic tears during a procedure, and the scrub provides an extra layer of protection.\nWhen to Scrub (Option D): A full surgical scrub is done before the first procedure of the day. A shorter scrub may be done between subsequent cases."
+  },
+  {
+    "question": "What is the primary purpose of a surgical safety checklist in the operating room?",
+    "options": {
+      "A": "To ensure all supplies are sterilized",
+      "B": "To ensure that the correct procedure is performed on the correct patient",
+      "C": "To document the types of anesthesia used",
+      "D": "To track the surgery’s progress and duration"
+    },
+    "answer": "B",
+    "explanation": "The WHO Surgical Safety Checklist is a critical communication and patient safety tool. Its primary purpose is to prevent the most common and serious surgical errors, especially wrong-site, wrong-procedure, and wrong-patient surgery. It achieves this by mandating key checks and team communication at critical phases of the operation.",
+    "additional": "The Three Phases of the Checklist:\nSign In: Before induction of anesthesia. Confirms patient identity, site marking, consent, and allergy status.\nTime Out: Before the skin incision. All team members pause to verbally confirm the correct patient, procedure, and site. They also discuss critical steps, anticipated blood loss, and other key concerns.\nSign Out: Before the patient leaves the operating room. The team reviews the procedure performed, confirms that surgical counts are correct, and ensures specimens are correctly labeled.\nWhile the checklist touches on aspects of supplies and documentation, its core function is to prevent catastrophic errors through structured communication."
+  },
+  {
+    "question": "Which of the following is the most important step before transferring a patient to the operating table?",
+    "options": {
+      "A": "Removing the patient’s jewelry and dentures",
+      "B": "Positioning the patient in a comfortable position",
+      "C": "Preoperative site marking",
+      "D": "Administering pain medication"
+    },
+    "answer": "C",
+    "explanation": "To prevent wrong-site surgery, the surgical site must be marked before the patient enters the operating room. This is a crucial final verification step. The marking should be done by the surgeon who will perform the procedure and should ideally involve the patient while they are still awake and able to confirm the site.",
+    "additional": "Universal Protocol: This is a key component of the Universal Protocol for Preventing Wrong Site, Wrong Procedure, and Wrong Person Surgery™.\nMarking Standards: The mark should be unambiguous (e.g., the surgeon's initials), made with a marker that will not wash off during skin prep, and placed at or near the incision site.\nWhile removing jewelry (Option A) is also a necessary preoperative step for safety (to prevent burns from electrosurgery and swelling), site marking is the most critical step listed for preventing a major error."
+  },
+  {
+    "question": "The operating room team should be particularly vigilant about which of the following risks during a procedure?",
+    "options": {
+      "A": "Hypothermia",
+      "B": "Skin irritation",
+      "C": "Bleeding disorders",
+      "D": "Nausea"
+    },
+    "answer": "A",
+    "explanation": "Inadvertent perioperative hypothermia (a drop in core body temperature below 36°C) is a common and serious risk for surgical patients. It is caused by a combination of general anesthesia (which impairs thermoregulation), exposure to a cold OR environment, and infusion of cool IV fluids.",
+    "additional": "Adverse Outcomes of Hypothermia:\nIncreased risk of Surgical Site Infections (SSIs).\nImpaired blood clotting and increased bleeding.\nAdverse cardiac events.\nDelayed wound healing.\nAltered drug metabolism.\nPrevention: Vigilant temperature monitoring and the use of active warming measures (e.g., forced-air warming blankets, warmed IV fluids) are standard of care."
+  },
+  {
+    "question": "Which of the following would be the most appropriate action for the circulating nurse when the sterile field is accidentally compromised during surgery?",
+    "options": {
+      "A": "Replace all contaminated equipment",
+      "B": "Notify the surgical team immediately and correct the breach",
+      "C": "Wait for the surgeon to notice the breach",
+      "D": "Continue as planned, as the breach is minor"
+    },
+    "answer": "B",
+    "explanation": "This question combines concepts from #5 and the role of the circulating nurse. When a break in sterile technique occurs, the circulating nurse must immediately bring it to the attention of the sterile team (if they haven't already noticed) and then take action to correct it. This involves removing the contaminated item and providing a sterile replacement.",
+    "additional": "Team Responsibility: Patient safety is a shared responsibility. The circulating nurse acts as an extra set of eyes to monitor the integrity of the sterile field from outside.\nImmediate communication is key. The phrase \"Notify... and correct\" makes this the most complete and appropriate action."
+  },
+  {
+    "question": "What is the primary responsibility of the anesthetist during surgery?",
+    "options": {
+      "A": "Managing the patient’s airway and anesthesia",
+      "B": "Monitoring vital signs",
+      "C": "Assisting with sterile techniques",
+      "D": "Providing psychological support to the patient"
+    },
+    "answer": "A",
+    "explanation": "The anesthetist (anesthesiologist or nurse anesthetist) has the primary and ultimate responsibility for the patient's physiological well-being during surgery. This includes managing the airway, administering anesthetic agents, and maintaining homeostasis (stable breathing, circulation, and vital signs).",
+    "additional": "While monitoring vital signs (Option B) is a critical task they perform, \"managing the patient's airway and anesthesia\" is their overarching responsibility from which all other tasks derive.\nThey are a non-sterile team member and do not assist with sterile techniques."
+  },
+  {
+    "question": "Question 16\nThe surgical team prepares for an emergency procedure. Which of the following is a critical task for the circulating nurse?",
+    "options": {
+      "A": "Ensuring that the instruments are sterilized",
+      "B": "Preparing the patient for the procedure",
+      "C": "Securing the necessary consent forms",
+      "D": "Verifying patient identity and procedure details"
+    },
+    "answer": "D",
+    "explanation": "Even in a high-pressure emergency situation, the fundamental safety checks must not be skipped. A critical task for the circulating nurse is to lead the team in verifying the correct patient, procedure, and site. This \"Time Out\" confirmation helps prevent catastrophic errors, which are more likely to occur under stress.",
+    "additional": "Consent in Emergencies: While securing a written consent form (Option C) is ideal, in a true life-or-limb emergency where the patient is incapacitated, treatment can often proceed under the principle of implied consent. However, patient identification remains paramount.\nInstrument sterilization (Option A) is handled by the sterile processing department, not the nurse in the OR."
+  },
+  {
+    "question": "Question 17\nWhich of the following is essential when handling sharps in the operating room?",
+    "options": {
+      "A": "Placing all sharps in a non-sterile container immediately after use",
+      "B": "Placing sharps in a sharps container as soon as possible",
+      "C": "Reusing sharps if sterilized properly",
+      "D": "Leaving sharps on the surgical table for easy access"
+    },
+    "answer": "B",
+    "explanation": "Sharps safety is a major concern in the OR to prevent percutaneous injuries and the transmission of blood-borne pathogens. The cardinal rule is to dispose of used sharps immediately in a designated, puncture-resistant sharps container.",
+    "additional": "Safe Practices:\nUsing a \"neutral zone\" or hands-free technique for passing sharps between the surgeon and scrub nurse.\nNever recapping needles.\nAnnouncing verbally when a sharp is being passed (e.g., \"Sharp down\").\nSingle-use sharps, like scalpel blades, are never reused (Option C). Leaving them loose on the table (Option D) is extremely dangerous."
+  },
+  {
+    "question": "Question 18\nDuring a laparotomy, the surgeon notices a potential bowel perforation. What is the immediate action required by the scrub nurse?",
+    "options": {
+      "A": "Assist the surgeon with suturing the perforation",
+      "B": "Prepare additional surgical instruments for closure",
+      "C": "Ensure all sterile drapes are intact",
+      "D": "Inform the anesthetist about the change in the procedure"
+    },
+    "answer": "B",
+    "explanation": "The scrub nurse's role is to anticipate the surgeon's needs. When an unexpected event like a bowel perforation occurs, the surgeon will need specific instruments to manage it, such as different types of sutures, clamps, suction, and irrigation. The scrub nurse's immediate action is to have these additional instruments ready.",
+    "additional": "Communication: While the surgeon will likely be the one to inform the anesthetist (as it may prolong the case or cause hemodynamic changes), the scrub nurse's primary action is related to the sterile field and instrumentation. They must think several steps ahead of the procedure."
+  },
+  {
+    "question": "Question 19\nWhich of the following is considered a sterile item in the operating room?",
+    "options": {
+      "A": "The patient’s skin",
+      "B": "The outer surface of surgical gloves",
+      "C": "The inner surface of sterile drapes",
+      "D": "The back of the surgical gown"
+    },
+    "answer": "B",
+    "explanation": "This question tests the boundaries of the sterile field. Of the options provided, only the outer surface of sterile surgical gloves is considered sterile. Sterile gowns are only considered sterile in the front from the chest to the level of the sterile field, and the sleeves from the fingertips to 2 inches above the elbow.",
+    "additional": "Sterile vs. Unsterile Areas:\nPatient's skin (A): The skin is prepped to be surgically clean, but it can never be made sterile.\nInner surface of drapes (C): The side of the drape touching the unsterile patient or table is considered unsterile.\nBack of the gown (D): The back of a surgical gown is considered unsterile. Scrubbed personnel should never turn their back to the sterile field."
+  },
+  {
+    "question": "Question 20\nHow should a scrub nurse handle an instrument that has dropped onto the floor during surgery?",
+    "options": {
+      "A": "Pick it up immediately and continue using it",
+      "B": "Dispose of it and request a replacement",
+      "C": "Sterilize the instrument before reusing",
+      "D": "Wash it and continue using it"
+    },
+    "answer": "B",
+    "explanation": "Any item that drops below the level of the sterile field (i.e., the table) or touches the floor is considered grossly contaminated and unsterile. It must not be returned to the sterile field. The scrub nurse should ask the circulating nurse to provide a sterile replacement.",
+    "additional": "The scrub nurse should not break sterility to pick up the dropped instrument. The circulating nurse (who is unsterile) will retrieve and handle the contaminated item.\nFlash sterilization is a rapid sterilization method available in some ORs, but it is typically reserved for critical, non-replaceable instruments and would not be the first or best choice for a commonly available instrument. Simply washing or wiping the instrument is completely inadequate."
+  },
+  {
+    "question": "Question 21\nWhich of the following tasks is performed by the anaesthetist during surgery?",
+    "options": {
+      "A": "Monitoring and adjusting the anesthesia dosage",
+      "B": "Passing sterile instruments to the surgeon",
+      "C": "Maintaining the sterile field",
+      "D": "Positioning the patient on the operating table"
+    },
+    "answer": "A",
+    "explanation": "This is a repeat of the concept from question #15. The core responsibility of the anesthetist (or anesthesiologist/nurse anesthetist) is to manage the patient's physiological state. This includes the continuous monitoring of the patient's response to surgery and anesthesia, and adjusting the dosage of anesthetic agents, fluids, and other medications to ensure safety and stability.",
+    "additional": "Passing instruments (B) and maintaining the sterile field (C) are the duties of the scrub nurse.\nPositioning the patient (D) is a shared responsibility, typically led by the surgeon and circulating nurse, with input and final approval from the anesthetist to ensure the position does not compromise the patient's airway or circulation."
+  },
+  {
+    "question": "Question 22\nWhen should the sterile surgical instruments be checked by the scrub nurse?",
+    "options": {
+      "A": "At the start of the procedure only",
+      "B": "Before and after each procedure",
+      "C": "Only after the surgeon requests a specific instrument",
+      "D": "Before the patient enters the operating room"
+    },
+    "answer": "B",
+    "explanation": "Surgical instruments must be carefully managed to ensure both sterility and functionality, and to prevent retained surgical items. The scrub nurse is responsible for checking instruments before the procedure during setup to ensure they are all present, sterile, and in good working order. They are also responsible for participating in the instrument count after the procedure (before closure) to ensure all items are accounted for.",
+    "additional": "This process is part of the surgical count protocol. It's a critical patient safety step.\nChecking instruments \"before the patient enters the room\" is part of the \"before the procedure\" check, but \"before and after\" is a more complete description of the full cycle of responsibility."
+  },
+  {
+    "question": "Question 23\nWhat is the primary role of the surgical technologist during surgery?",
+    "options": {
+      "A": "Administering anesthesia",
+      "B": "Assisting the surgeon by handling instruments and maintaining the sterile field",
+      "C": "Monitoring vital signs",
+      "D": "Positioning the patient"
+    },
+    "answer": "B",
+    "explanation": "A surgical technologist (also known as a surg tech or scrub tech) performs the role of the scrub person. Their primary function is to work within the sterile field, maintaining sterility, preparing instruments, and assisting the surgeon by anticipating their needs and passing the correct instruments and supplies.",
+    "additional": "This question is synonymous with question #2 (\"What is the role of the scrub nurse...\"). In many settings, the role can be filled by either a registered nurse (scrub nurse) or a certified surgical technologist. The tasks and responsibilities within the sterile field are the same."
+  },
+  {
+    "question": "Question 24\nWhich of the following actions is necessary to ensure a sterile environment in the operating room?",
+    "options": {
+      "A": "Leaving the operating room door open during surgery",
+      "B": "Minimizing movement in and out of the sterile field",
+      "C": "Allowing only the surgical team to wear sterile gowns",
+      "D": "Using an air conditioning system to cool the room"
+    },
+    "answer": "B",
+    "explanation": "Air currents and movement can carry microorganisms. To maintain the integrity of the sterile field and the overall sterile environment, traffic and movement should be kept to a minimum. This includes minimizing the number of people entering and leaving the room and limiting unnecessary movement around the sterile field.",
+    "additional": "OR Environment Controls:\nDoors should be kept closed (Option A is incorrect) to maintain positive pressure and limit air turbulence.\nPositive pressure ventilation: Air is pumped into the OR, so it flows out when the door is opened, preventing contaminated air from the hallway from entering.\nAir filtration: High-efficiency particulate air (HEPA) filters are used to clean the air.\nWhile cooling the room is standard (Option D), it's the specific ventilation system, not just cooling, that contributes to sterility."
+  },
+  {
+    "question": "Question 25\nAfter surgery, the scrub nurse needs to ensure that which of the following has been documented accurately?",
+    "options": {
+      "A": "The patient’s personal details",
+      "B": "The surgeon's notes about the procedure",
+      "C": "The count of instruments, sponges, and needles",
+      "D": "The patient’s recovery progress"
+    },
+    "answer": "C",
+    "explanation": "The scrub nurse has direct responsibility for the items within the sterile field. A critical part of their role, performed in conjunction with the circulating nurse, is the surgical count. They must ensure that the final count is correct and that this is accurately documented in the patient's record before the case is completed.",
+    "additional": "Documentation Responsibility: The circulating nurse is typically the primary documenter for the case. However, the scrub nurse is an active participant in the counting process and must verbally confirm and agree that the documented count is correct.\nThe surgeon's operative note (B) and the patient's recovery progress (D) are documented by the surgeon and the post-anesthesia care unit (PACU) nurse, respectively."
+  },
+  {
+    "question": "Question 26\nWhat should be done immediately if a surgical instrument is accidentally dropped on the floor during the procedure?",
+    "options": {
+      "A": "Clean and sterilize it immediately",
+      "B": "Discard it and request a replacement",
+      "C": "Rinse it under sterile water and reuse it",
+      "D": "Leave it and continue without it"
+    },
+    "answer": "B",
+    "explanation": "This question is a repeat of question #20. An instrument that falls on the floor is considered grossly contaminated. It must be removed from the operating field and not be used. The correct action is to request a sterile replacement from the circulating nurse.",
+    "additional": "This repetition emphasizes the non-negotiable nature of this rule in maintaining asepsis. There is no \"five-second rule\" in the operating room."
+  },
+  {
+    "question": "Question 27\nWhich of the following is a function of the circulating nurse during surgery?",
+    "options": {
+      "A": "Maintaining the sterile field",
+      "B": "Administering medications",
+      "C": "Handling surgical instruments",
+      "D": "Ensuring all necessary supplies are available"
+    },
+    "answer": "D",
+    "explanation": "This is a repeat of the concept from question #6. A key role of the circulating nurse is to act as the logistics manager for the procedure. They are responsible for anticipating the needs of the team and ensuring all supplies—both sterile and unsterile—are available when needed. They retrieve items from storage and open sterile supplies for the scrub nurse.",
+    "additional": "Medication Administration (Option B): The circulating nurse can administer certain IV medications as ordered, but anesthetic medications are the domain of the anesthetist. The scrub nurse handles medications that are used on the sterile field (e.g., local anesthetic for injection by the surgeon)."
+  },
+  {
+    "question": "Question 28\nWhich of the following is true regarding the use of surgical drapes?",
+    "options": {
+      "A": "They must cover the entire patient",
+      "B": "Only the area of the incision should be covered",
+      "C": "Sterile drapes are placed over the patient's face",
+      "D": "Drapes can be reused after sterilization"
+    },
+    "answer": "A",
+    "explanation": "Surgical drapes are used to create a large sterile field. The standard practice is to cover the entire patient and the operating table, leaving only the prepared surgical site exposed. This creates a wide sterile barrier, isolating the incision from any potential sources of contamination.",
+    "additional": "Fenestrated Drape: A specific drape with an opening (fenestration) is often placed directly over the incision site.\nAnesthesia Screen: A drape is typically used to create a screen separating the patient's head and the anesthesia team from the sterile surgical field.\nMost modern surgical drapes are single-use and disposable. Reusable linen drapes exist but are less common."
+  },
+  {
+    "question": "Question 29\nWhat is the function of the sterile scrub in the operating theatre?",
+    "options": {
+      "A": "To create a sterile field for the procedure",
+      "B": "To monitor the patient's anesthesia levels",
+      "C": "To prepare the surgical instruments for use",
+      "D": "To prepare the patient for the procedure"
+    },
+    "answer": "A",
+    "explanation": "The term \"sterile scrub\" can refer to two things: the surgical hand scrub (the act of washing) or the person who has scrubbed in (the scrub nurse). In either context, the ultimate function is to create and maintain the sterile field. The hand scrub prepares the individual to safely handle sterile items, and that individual then sets up the sterile instruments and drapes.",
+    "additional": "The question is slightly ambiguous. If it refers to the action of scrubbing, it's about making the hands surgically clean. If it refers to the role, it's about managing the sterile field. Both lead to the same functional goal. Given the options, \"create a sterile field\" is the best and most encompassing answer."
+  },
+  {
+    "question": "Question 30\nWhich of the following is NOT a responsibility of the circulating nurse?",
+    "options": {
+      "A": "Ensuring all surgical instruments are sterile",
+      "B": "Assisting in positioning the patient",
+      "C": "Maintaining a sterile field",
+      "D": "Handling specimens"
+    },
+    "answer": "C",
+    "explanation": "Maintaining the sterile field is the primary responsibility of the scrub nurse/technologist. The circulating nurse is a non-sterile team member and therefore cannot work within or directly maintain the sterile field. Their role is to assist the sterile team from the outside.",
+    "additional": "Circulating Nurse Responsibilities (from the list):\nEnsuring instruments are sterile: They check the integrity of the packaging and indicators before opening them for the scrub nurse.\nAssisting in positioning: This is a key role.\nHandling specimens: The scrub nurse passes the specimen off the sterile field to the circulator, who then handles, labels, and documents it."
+  },
+  {
+    "question": "Question 31\nIn which of the following situations is the scrub nurse responsible for assisting?",
+    "options": {
+      "A": "Passing sterile instruments to the surgeon",
+      "B": "Monitoring the patient's blood pressure",
+      "C": "Sterilizing the surgical area",
+      "D": "Administering anesthetic agents"
+    },
+    "answer": "A",
+    "explanation": "This question directly tests the core function of the scrub nurse. Their primary responsibility is to assist the surgeon within the sterile field. This includes anticipating the surgeon's needs and passing the correct sterile instruments, sutures, and other supplies in a timely and efficient manner.",
+    "additional": "Sterilizing the surgical area (C): The circulating nurse typically performs the \"prep\" (skin preparation), although the surgeon may also be involved. It is done before the sterile drapes are placed. The scrub nurse does not perform this task.\nMonitoring blood pressure (B) and administering anesthesia (D) are the responsibilities of the anesthesia provider."
+  },
+  {
+    "question": "Question 32\nIf a sterile surgical gown becomes contaminated during the procedure, what should the nurse do?",
+    "options": {
+      "A": "Continue using it after re-sterilizing it",
+      "B": "Notify the circulating nurse immediately",
+      "C": "Discard it and proceed without it",
+      "D": "Clean it with antiseptic and continue using it"
+    },
+    "answer": "B",
+    "explanation": "A contaminated surgical gown compromises the entire sterile field and the safety of the procedure. The scrubbed person must immediately notify the circulating nurse of the contamination. The circulating nurse will then assist the individual in removing the contaminated gown and gloving, and will provide a new sterile gown and gloves so they can safely re-join the sterile field.",
+    "additional": "Action Sequence: The contaminated person should step away from the sterile field to prevent further contamination. The circulating nurse will help them de-gown and re-gown.\nIt is impossible to re-sterilize a gown during a procedure (A). Proceeding without a gown (C) is not an option. Wiping with an antiseptic (D) is completely inadequate."
+  },
+  {
+    "question": "Question 33\nHow should a sterile field be established in the operating room?",
+    "options": {
+      "A": "By opening sterile packages and placing them on the floor",
+      "B": "By using sterile drapes to cover the patient and surrounding areas",
+      "C": "By leaving the field open and uncovered",
+      "D": "By covering only the surgical site"
+    },
+    "answer": "B",
+    "explanation": "A sterile field is established by placing sterile drapes over the patient and the equipment stands (like the Mayo stand and back table). This creates a wide, sterile surface upon which sterile instruments and supplies can be placed and used, effectively isolating the surgical site from non-sterile surroundings.",
+    "additional": "This question is a repeat of the concept from question #7.\nThe floor is always considered contaminated (A). Covering only the surgical site provides an insufficient sterile working area (D)."
+  },
+  {
+    "question": "Question 34\nWhich of the following actions is a key part of the scrub nurse's role?",
+    "options": {
+      "A": "Assisting with anesthesia induction",
+      "B": "Sterilizing instruments before use",
+      "C": "Positioning the patient for surgery",
+      "D": "Passing sterile instruments to the surgeon"
+    },
+    "answer": "D",
+    "explanation": "This is another repeat of the core function of the scrub nurse/technologist (see questions #2, #23, and #31). Their key action and contribution to the surgery is the skillful and anticipatory passing of sterile instruments to the surgeon.",
+    "additional": "Repetition Significance: The repeated testing of the basic roles of the scrub nurse, circulating nurse, and anesthetist indicates that these are foundational, \"must-know\" concepts for any exam on this topic."
+  },
+  {
+    "question": "Question 35\nWhich of the following is a characteristic of an ideal surgical instrument?",
+    "options": {
+      "A": "Lightweight and disposable",
+      "B": "Sharp and easily sterilized",
+      "C": "Expensive but durable",
+      "D": "Reusable only after thorough cleaning"
+    },
+    "answer": "B",
+    "explanation": "An ideal surgical instrument must be effective for its purpose and safe for the patient. For cutting instruments, this means being sharp to ensure clean, precise cuts with minimal tissue trauma. For all reusable instruments, the ability to be easily and reliably sterilized is paramount to prevent surgical site infections.",
+    "additional": "While durability is important, \"expensive\" is not an ideal characteristic.\n\"Reusable only after thorough cleaning\" is true, but this is a minimum requirement, not a characteristic of an ideal instrument. The ideal instrument is also durable and resistant to corrosion.\nWhile many items are disposable, the question refers to the general characteristics of an ideal instrument, many of which are reusable."
+  },
+  {
+    "question": "Question 36\nWhat should the scrub nurse do if an instrument is found to be defective or malfunctioning during the surgery?",
+    "options": {
+      "A": "Immediately discard it and request a replacement",
+      "B": "Inform the surgeon and continue using it cautiously",
+      "C": "Use a different method to repair the instrument",
+      "D": "Continue using it, assuming it will function properly"
+    },
+    "answer": "A",
+    "explanation": "Using a defective or malfunctioning instrument poses a significant risk to patient safety. It could break inside the patient, fail at a critical moment, or cause unintended tissue damage. The correct procedure is to immediately remove the instrument from the sterile field, pass it off to the circulating nurse, and request a sterile replacement.",
+    "additional": "Communication: The scrub nurse should clearly communicate the problem to the surgeon (\"This clamp is not holding, I'm taking it off the field\").\nPost-Operative Action: The defective instrument should be tagged and sent to the appropriate department for repair or disposal according to hospital policy. This is important for quality control."
+  },
+  {
+    "question": "Question 37\nWhat is the purpose of the surgical drapes in an operating room?",
+    "options": {
+      "A": "To create a sterile field around the surgical site",
+      "B": "To keep the surgical team warm",
+      "C": "To prevent the patient from moving during surgery",
+      "D": "To cover the sterile instruments after use"
+    },
+    "answer": "A",
+    "explanation": "This is a repeat of question #7. The purpose of surgical drapes is to create a sterile barrier, thereby establishing and maintaining a sterile field around the incision site to prevent microbial contamination.",
+    "additional": "The repetition of this fundamental concept underscores its importance."
+  },
+  {
+    "question": "Question 38\nWhat should be done if there is a significant loss of blood during surgery?",
+    "options": {
+      "A": "Monitor the patient’s vitals and prepare for transfusion",
+      "B": "Continue with the surgery without any changes",
+      "C": "Stop the procedure and immediately consult a different surgeon",
+      "D": "Reposition the patient to allow blood to flow back to the heart"
+    },
+    "answer": "A",
+    "explanation": "Significant blood loss is a surgical emergency. The entire team must respond. The anesthetist will take the lead in managing the patient's hemodynamic stability, which includes closely monitoring vital signs (blood pressure, heart rate) and preparing for a blood transfusion by ensuring IV access is adequate and blood products are available. The surgeon will work to control the source of the bleeding.",
+    "additional": "Team Communication: The surgeon must communicate the extent of the blood loss to the anesthetist. The circulating nurse will assist by getting IV fluids and blood products from the blood bank.\nResponse: This is a coordinated team effort involving the surgeon (stopping the bleed), the anesthetist (managing the patient's volume and vitals), and the nursing staff (facilitating the response)."
+  },
+  {
+    "question": "Question 39\nIn which of the following situations should the scrub nurse not touch sterile instruments?",
+    "options": {
+      "A": "When the instrument is passed to the surgeon",
+      "B": "When setting up the sterile field",
+      "C": "When a non-sterile individual enters the sterile field",
+      "D": "When a sterile instrument is already in the sterile field"
+    },
+    "answer": "C",
+    "explanation": "This question is about recognizing a major break in sterility. If a non-sterile person or item invades the sterile field, the entire field and all items on it must be considered contaminated. The scrub nurse should stop the procedure, announce the contamination, and not touch the instruments until the situation is rectified.",
+    "additional": "\"Enters\" vs. \"Touches\": Even if the non-sterile person doesn't physically touch an instrument, their proximity and movement over the field can shed microorganisms and cause contamination.\nCorrective Action: The team must assess the extent of the contamination. Often, this requires re-draping and using a new set of sterile instruments."
+  },
+  {
+    "question": "Question 40\nWhich of the following is the main responsibility of the circulating nurse during a surgical procedure?",
+    "options": {
+      "A": "Handing instruments to the surgeon",
+      "B": "Monitoring the patient's vital signs",
+      "C": "Ensuring the patient’s positioning",
+      "D": "Maintaining the sterile field"
+    },
+    "answer": "B",
+    "explanation": "This question presents a subtle choice. While the anesthetist has primary responsibility for minute-to-minute vital signs, the circulating nurse also has a key responsibility to monitor the overall status of the patient, including observing the monitors, being aware of blood loss, and noting urine output. Compared to the other options, this is a more accurate description of a nursing function than the others.",
+    "additional": "Role Ambiguity: There can be overlap in roles. However, handing instruments (A) and maintaining the sterile field (D) are definitively the scrub nurse's job. While the circulating nurse is crucial for positioning (C), this is a task done before the main part of the procedure. Ongoing monitoring (B) is a continuous function. In this context, B is the best answer representing a core, ongoing responsibility of the circulator as a patient advocate."
+  },
+  {
+    "question": "During the surgical procedure, if a sterile gown becomes contaminated, what should the scrub nurse do?",
+    "options": {
+      "A": "Wait until the procedure is over to change the gown",
+      "B": "Discard the contaminated gown and don a new sterile gown",
+      "C": "Use antiseptic wipes to clean the gown",
+      "D": "Ask the surgeon to change their gown"
+    },
+    "answer": "B",
+    "explanation": "This question is a slight variation of question #32. A contaminated gown must be dealt with immediately to maintain the integrity of the sterile field. The correct procedure is to have the contaminated gown and gloves removed (with the help of the circulating nurse) and then to don a new sterile gown and gloves before re-engaging in the sterile procedure.",
+    "additional": "Process: The circulating nurse will untie the contaminated gown from the back. The scrub nurse will then be assisted in removing it without contaminating their hands, followed by re-gowning and re-gloving.\nThis demonstrates the principle of surgical conscience and the non-negotiable nature of correcting breaks in asepsis."
+  },
+  {
+    "question": "Which of the following is a method to maintain a sterile environment in the operating room?",
+    "options": {
+      "A": "Frequent air circulation through open windows",
+      "B": "Minimizing unnecessary movement in the sterile field",
+      "C": "Allowing visitors into the operating room to observe the procedure",
+      "D": "Leaving the surgical instruments uncovered until needed"
+    },
+    "answer": "B",
+    "explanation": "This question is a repeat of the concept from question #24. Minimizing traffic and movement is a key principle of OR environmental control. Every movement stirs up air currents that can carry dust and microorganisms (lint, skin squames) and potentially deposit them onto the sterile field.",
+    "additional": "Why other options are wrong:\nWindows are never opened; a specialized positive-pressure ventilation system is used (A).\nVisitors are strictly limited to essential personnel (C).\nSterile instruments must be covered with a sterile drape if they are not going to be used immediately to prevent airborne contamination (D)."
+  },
+  {
+    "question": "Which of the following actions should be taken if there is a fire in the operating room during surgery?",
+    "options": {
+      "A": "Continue with the procedure until the fire dies down",
+      "B": "Evacuate the operating room and assess the fire hazard",
+      "C": "Ask the anesthetist to handle the fire emergency",
+      "D": "Place a sterile drape over the fire"
+    },
+    "answer": "B",
+    "explanation": "An operating room fire is a catastrophic event. The immediate priority is the safety of the patient and the staff. The standard protocol is to follow the RACE acronym:\nRescue: Remove the patient and anyone in immediate danger from the room.\nAlarm: Activate the fire alarm system.\nContain: Close the doors to the OR to contain the fire.\nExtinguish/Evacuate: Use a fire extinguisher if the fire is small and you are trained, otherwise, evacuate the area.",
+    "additional": "Fire Triangle: An OR is a high-risk environment because all three components of the fire triangle are present:\nFuel: Drapes, skin prep solutions (especially alcohol-based), patient's hair, intestinal gas.\nIgnition Source: Electrosurgical units (cautery), lasers, fiber-optic light sources.\nOxidizer: Oxygen and nitrous oxide (anesthesia gases).\nPlacing a drape over a fire (D) would add fuel to it. Continuing the procedure (A) is not safe. The entire team, not just one person, has a role in the emergency response."
+  },
+  {
+    "question": "What is the primary role of the surgical assistant during surgery?",
+    "options": {
+      "A": "To monitor the patient’s fluid balance",
+      "B": "To handle surgical instruments and assist in the procedure",
+      "C": "To maintain sterile conditions by cleaning instruments",
+      "D": "To prepare the operating room prior to surgery"
+    },
+    "answer": "B",
+    "explanation": "The surgical assistant is a sterile team member who works directly with the surgeon. Their primary role is to actively assist in the surgical procedure. This can include holding retractors, providing suction, cutting sutures, and sometimes even performing parts of the procedure under the direct supervision of the primary surgeon.",
+    "additional": "Who can be a surgical assistant? This role can be filled by another surgeon, a resident or medical student, a Physician Assistant (PA), or a Certified Surgical First Assistant (CSFA).\nThey are distinct from the scrub nurse, as the assistant's role is more directly involved in the operative tasks, while the scrub nurse's role is to facilitate the surgeon and assistant by managing the instruments."
+  },
+  {
+    "question": "What action should the scrub nurse take if a sterile instrument is inadvertently dropped on the floor during surgery?",
+    "options": {
+      "A": "Pick it up and continue using it if it appears clean",
+      "B": "Sterilize it quickly and reuse it",
+      "C": "Discard it and request a replacement instrument",
+      "D": "Use it only if it is absolutely necessary"
+    },
+    "answer": "C",
+    "explanation": "This is another repeat of the concept from questions #20 and #26. Any instrument that falls on the floor is contaminated. The correct action is to consider it unsterile, have the circulator remove it, and request a new, sterile replacement.",
+    "additional": "The high frequency of this question type underscores the absolute importance of this safety rule. There is no acceptable deviation from this protocol."
+  },
+  {
+    "question": "What is the purpose of using a sterile drape in the operating room?",
+    "options": {
+      "A": "To protect the patient from physical injury",
+      "B": "To provide a visual barrier for the surgical team",
+      "C": "To maintain the sterile field and protect the patient from infection",
+      "D": "To ensure the patient remains calm during the procedure"
+    },
+    "answer": "C",
+    "explanation": "This is a repeat of the concept from questions #7 and #37. The fundamental purpose of sterile drapes is to create a microbial barrier, establishing a sterile field and protecting the patient's surgical wound from contamination, thereby preventing surgical site infections.",
+    "additional": "The drape isolates the prepared incision site from the rest of the patient's body and the non-sterile environment of the OR."
+  },
+  {
+    "question": "Which of the following is the primary duty of the circulating nurse?",
+    "options": {
+      "A": "Passing instruments to the surgeon",
+      "B": "Assisting in positioning the patient",
+      "C": "Monitoring the patient's vital signs",
+      "D": "Preparing the sterile field"
+    },
+    "answer": "C",
+    "explanation": "This question is a repeat of #40. While there is role overlap, of the choices provided, ongoing monitoring of the patient's overall condition, which includes observing the vital signs monitor, is a key responsibility of the circulating nurse as the patient's primary advocate in the room.",
+    "additional": "Hierarchy of Roles:\nPassing instruments (A) & Preparing the field (D) = Scrub Nurse.\nPositioning the patient (B) = Circulating Nurse (and team).\nMonitoring vitals (C) = Primarily Anesthetist, but also a key nursing function of the Circulator.\nGiven the options, C represents the most critical, continuous nursing assessment function of the circulator during the procedure."
+  },
+  {
+    "question": "How should a scrub nurse react if an item becomes visibly contaminated during surgery?",
+    "options": {
+      "A": "Use antiseptic to clean it and continue",
+      "B": "Notify the surgeon and discard the item",
+      "C": "Rinse it with sterile water and reuse",
+      "D": "Use it only if it is a critical tool"
+    },
+    "answer": "B",
+    "explanation": "If an item on the sterile field becomes contaminated, the scrub nurse must immediately remove the item from the field (discard it) and notify the surgeon and team of the breach. This ensures everyone is aware and that a sterile replacement can be obtained.",
+    "additional": "This combines the principles of communication (notify) and action (discard). Wiping or rinsing a contaminated item is never acceptable.\nEven if the item is critical, it cannot be used. A sterile replacement must be found, or if one is not available, the team must decide on an alternative strategy. Patient safety is never compromised."
+  },
+  {
+    "question": "When should the scrub nurse verify the patient's identification and the procedure to be performed?",
+    "options": {
+      "A": "Before the patient is brought to the operating room",
+      "B": "Once the patient is under anesthesia",
+      "C": "At the beginning of the surgery, before starting the procedure",
+      "D": "During the patient’s recovery phase"
+    },
+    "answer": "C",
+    "explanation": "The verification of patient identity, procedure, and site is a critical part of the \"Time Out\", which is a key component of the Surgical Safety Checklist. The Time Out occurs just before the skin incision, after the patient is prepped and draped but before the procedure begins. The entire team, including the scrub nurse, actively participates in this final verification.",
+    "additional": "Verifying once the patient is under anesthesia (B) is too late for the patient to be involved.\nThe \"Sign In\" part of the checklist occurs before anesthesia, but the final, definitive team verification (Time Out) is just before the procedure starts."
+  },
+  {
+    "question": "What is the primary concern if a sterile surgical field becomes contaminated during surgery?",
+    "options": {
+      "A": "Surgical team members will become fatigued",
+      "B": "The patient will develop a wound infection",
+      "C": "The procedure will be delayed significantly",
+      "D": "The sterile instruments will become ineffective"
+    },
+    "answer": "B",
+    "explanation": "The ultimate consequence and primary concern of a contaminated sterile field is a Surgical Site Infection (SSI) for the patient. Introducing microorganisms into the surgical wound can lead to infection, which causes significant morbidity, prolonged hospital stays, and can even be life-threatening.",
+    "additional": "While contamination does cause delays (C) and renders instruments unsterile (D), these are process issues. The critical patient outcome that everyone is trying to prevent is infection (B). This question asks for the primary concern, which is always the patient's well-being."
+  }
+]
+
+
+
+
