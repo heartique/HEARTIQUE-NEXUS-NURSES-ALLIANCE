@@ -194,10 +194,10 @@
   {
     "question": "17. Which statement by a patient with a colostomy indicates correct understanding of care?",
     "options": {
-      "A": \"I will eat high-fiber foods right after surgery to promote output\",
-      "B": \"I will change the pouch every 10 days\",
-      "C": \"I will check the stoma for a pink or red color\",
-      "D": \"I will avoid all fluids to reduce stool output\"
+      "A": "I will eat high-fiber foods right after surgery to promote output",
+      "B": "I will change the pouch every 10 days",
+      "C": "I will check the stoma for a pink or red color",
+      "D": "I will avoid all fluids to reduce stool output"
     },
     "answer": "C",
     "explanation": "A healthy stoma should appear moist and pink or red, indicating good blood flow.",
