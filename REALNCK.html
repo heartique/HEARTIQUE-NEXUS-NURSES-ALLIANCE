@@ -334,6 +334,7 @@
         b.onclick = () => {
          if (saved[i]?.selected) return;
           saved[i] = { selected: k };
+          flagged.delete(i);
           if (!isSimulationMode) {
             saved[i].correct = k === (q.answer || "").toUpperCase();
             localStorage.setItem("progress_" + fileName, JSON.stringify(saved));
