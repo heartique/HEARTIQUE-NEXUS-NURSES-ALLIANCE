@@ -318,40 +318,40 @@
         }
         render(current);
       });
-    }
-
    function render(i) {
   const q = questions[i];
   const opts = q.options || {};
   container.innerHTML = `<div class="question-box"><strong>Question ${i + 1}:</strong><br><br>${q.question || "Untitled"}<br><br></div>`;
   const box = container.querySelector('.question-box');
 
+  const answered = saved[i]?.selected;
+
   for (const [k, v] of Object.entries(opts)) {
     const b = document.createElement('button');
     b.className = 'btn';
     b.textContent = `${k}) ${v}`;
 
-    // Disable if already selected
-    if (saved[i]?.selected === k) {
+    if (answered && k === answered) {
       b.disabled = true;
       b.style.backgroundColor = "#bde5ff"; // highlight selected
     }
 
     b.onclick = () => {
-      if (saved[i]?.selected) return;
+      if (saved[i]?.selected) return; // block repeat answers
 
       saved[i] = {
         selected: k,
         correct: k === (q.answer || "").toUpperCase()
       };
 
-      flagged.delete(i);
+      flagged.delete(i); // auto unflag when answered
       localStorage.setItem("progress_" + fileName, JSON.stringify(saved));
-      render(i); // re-render to update UI
 
+      render(i); // update view
       if (isSimulationMode) next();
     };
 
+    if (answered) b.disabled = true;
     box.appendChild(b);
   }
 
@@ -379,8 +379,6 @@
   }
 
   window.scrollTo(0, 0);
-}
- 
     }
       function updateNav() {
         const navButtons = [];
