@@ -237,7 +237,611 @@
   "answer": "D",
   "explanation": "Impetigo is a common and highly contagious superficial skin infection.\n\nEtiology: It is a bacterial infection, not allergic (a) or fungal (b). The two main causative organisms are:\nStaphylococcus aureus (most common cause).\nStreptococcus pyogenes (also known as Group A beta-hemolytic streptococcus).\n\nPresentation: It typically presents as vesicles or pustules that rupture, leaving a characteristic honey-colored crust. It is most common in children and often appears on the face around the nose and mouth.\n\nTreatment:\nTopical: For localized, mild infections, topical antibiotics like mupirocin are used.\nSystemic: For widespread or more severe infections, oral antibiotics (e.g., cephalexin, dicloxacillin) are required.\n\nAnalyzing the Options: Option (d) lists one of the two primary bacterial causes, making it the correct answer. Benzyl benzoate (c) is a treatment for scabies, a parasitic mite infestation, not a bacterial infection.",
   "additional": "Additional Content & Future Testables:\n\nComplication of Streptococcal Impetigo: A potential and serious complication is post-streptococcal glomerulonephritis (PSGN). This is an inflammatory kidney disease that can occur 1-2 weeks after a streptococcal skin or throat infection. This is why it is important to treat streptococcal infections effectively.\n\nNursing Interventions & Patient Education:\nContagion: Emphasize that impetigo is highly contagious. Teach strict hand hygiene.\nCare: The patient should not share towels, linens, or utensils. Fingernails should be kept short to prevent scratching and autoinoculation (spreading the infection to other parts of the body).\nTreatment: Instruct on proper application of topical antibiotics or the importance of completing the full course of oral antibiotics. Soaking the crusts with a warm, wet cloth can help to gently remove them before applying ointment.\n\nTextbook Reference: Brunner & Suddarth's Textbook of Medical-Surgical Nursing, Chapter 61: Management of Patients With Dermatologic Problems."
-} 
+},
+  {
+    "question": "1. What is the most common site for osteomyelitis in children?",
+    "options": {
+      "A": "Diaphysis of long bones",
+      "B": "Epiphysis of long bones",
+      "C": "Metaphysis of long bones",
+      "D": "Flat bones"
+    },
+    "answer": "C",
+    "explanation": "In children, the metaphysis of long bones is the most common site for osteomyelitis. The metaphyseal blood vessels form hairpin loops and have slow blood flow, which predisposes them to bacterial seeding.",
+    "additional": "Common organisms include Staphylococcus aureus. Early diagnosis and antibiotic therapy are essential to prevent complications such as chronic osteomyelitis and growth disturbances."
+  },
+  {
+    "question": "2. A 40-year-old man presents with back pain relieved by leaning forward and worsened by extension. What is the likely diagnosis?",
+    "options": {
+      "A": "Lumbar disc herniation",
+      "B": "Spinal stenosis",
+      "C": "Ankylosing spondylitis",
+      "D": "Facet joint syndrome"
+    },
+    "answer": "B",
+    "explanation": "Spinal stenosis causes neurogenic claudication, which manifests as back pain relieved by flexion (leaning forward) and worsened by extension (standing upright or walking downhill).",
+    "additional": "It commonly affects older adults due to degenerative changes. MRI is the investigation of choice. Management includes physical therapy and decompressive surgery if severe."
+  },
+  {
+    "question": "3. Which fracture is most commonly associated with foot drop?",
+    "options": {
+      "A": "Neck of femur fracture",
+      "B": "Tibia fracture",
+      "C": "Fibular neck fracture",
+      "D": "Calcaneal fracture"
+    },
+    "answer": "C",
+    "explanation": "A fracture of the fibular neck can injure the common peroneal nerve, leading to foot drop, which is characterized by weakness in dorsiflexion and eversion of the foot.",
+    "additional": "Examination shows high-stepping gait and inability to walk on heels. Early identification and neuroprotection are crucial."
+  },
+  {
+    "question": "4. Which clinical test is used to assess for anterior cruciate ligament (ACL) injury?",
+    "options": {
+      "A": "Lachman test",
+      "B": "McMurray test",
+      "C": "Drawer test",
+      "D": "Apprehension test"
+    },
+    "answer": "A",
+    "explanation": "The Lachman test is the most sensitive test for diagnosing ACL injury. It assesses anterior translation of the tibia relative to the femur.",
+    "additional": "The anterior drawer test is also used but is less sensitive. MRI confirms the diagnosis. Treatment may be surgical or conservative depending on activity level."
+  },
+  {
+    "question": "5. A patient presents with wrist drop after sustaining a mid-shaft humerus fracture. Which nerve is most likely injured?",
+    "options": {
+      "A": "Median nerve",
+      "B": "Ulnar nerve",
+      "C": "Radial nerve",
+      "D": "Musculocutaneous nerve"
+    },
+    "answer": "C",
+    "explanation": "Radial nerve injury is associated with mid-shaft humeral fractures as it runs in the radial groove of the humerus. Wrist drop results from inability to extend the wrist and fingers.",
+    "additional": "Examination shows weakness of wrist and finger extension and sensory loss over the dorsum of the hand. Nerve conduction studies help in diagnosis and prognosis."
+  },
+  {
+    "question": "6. What is the common complication of supracondylar fracture of the humerus in children?",
+    "options": {
+      "A": "Volkmann ischemic contracture",
+      "B": "Avascular necrosis of humeral head",
+      "C": "Carpal tunnel syndrome",
+      "D": "Anterior interosseous nerve palsy"
+    },
+    "answer": "A",
+    "explanation": "Supracondylar fracture of the humerus in children may compromise the brachial artery, leading to ischemia and Volkmann ischemic contracture of the forearm muscles.",
+    "additional": "Early diagnosis and prompt reduction of the fracture are essential to prevent this complication. Watch for signs of compartment syndrome."
+  },
+  {
+    "question": "7. A 20-year-old male presents with pain and swelling in the knee. X-ray shows a 'sunburst' pattern. What is the likely diagnosis?",
+    "options": {
+      "A": "Ewing sarcoma",
+      "B": "Osteosarcoma",
+      "C": "Osteochondroma",
+      "D": "Chondrosarcoma"
+    },
+    "answer": "B",
+    "explanation": "Osteosarcoma is the most common primary malignant bone tumor in young adults. Radiographic features include a sunburst appearance due to aggressive periosteal reaction.",
+    "additional": "Commonly involves the metaphysis of long bones such as the distal femur. Biopsy is diagnostic. Treatment includes chemotherapy and surgical resection."
+  },
+  {
+    "question": "8. What is the classical deformity seen in Colles' fracture?",
+    "options": {
+      "A": "Dinner fork deformity",
+      "B": "Bayonet deformity",
+      "C": "Claw hand",
+      "D": "Foot drop"
+    },
+    "answer": "A",
+    "explanation": "Colles’ fracture involves the distal radius with dorsal displacement, leading to a characteristic 'dinner fork' deformity of the wrist.",
+    "additional": "Commonly occurs from a fall on an outstretched hand in elderly women. Requires reduction and immobilization. Complications include median nerve injury and malunion."
+  },
+  {
+    "question": "9. What is the most appropriate initial imaging for suspected scaphoid fracture?",
+    "options": {
+      "A": "CT scan",
+      "B": "MRI",
+      "C": "X-ray of the wrist",
+      "D": "Bone scan"
+    },
+    "answer": "C",
+    "explanation": "Initial imaging for suspected scaphoid fracture is an X-ray of the wrist, including scaphoid views. However, early fractures may not be visible, and follow-up imaging or MRI may be needed.",
+    "additional": "Clinical suspicion is high if there is tenderness in the anatomical snuffbox. Untreated fractures risk avascular necrosis."
+  },
+  {
+    "question": "10. A patient complains of pain and tingling in the thumb, index, and middle fingers, worse at night. What is the likely diagnosis?",
+    "options": {
+      "A": "Cubital tunnel syndrome",
+      "B": "Thoracic outlet syndrome",
+      "C": "Carpal tunnel syndrome",
+      "D": "Pronator teres syndrome"
+    },
+    "answer": "C",
+    "explanation": "Carpal tunnel syndrome is caused by compression of the median nerve at the wrist. Symptoms include nocturnal paresthesia in the lateral three and a half fingers and weakness of thumb opposition.",
+    "additional": "Diagnosis is clinical and confirmed with nerve conduction studies. Treatment includes splinting, corticosteroids, or surgical decompression."
+  },
+  {
+    "question": "11. Which orthopedic emergency is characterized by pain out of proportion, pallor, paresthesia, pulselessness, and paralysis?",
+    "options": {
+      "A": "Volkmann contracture",
+      "B": "Compartment syndrome",
+      "C": "Deep vein thrombosis",
+      "D": "Fat embolism syndrome"
+    },
+    "answer": "B",
+    "explanation": "Compartment syndrome occurs when increased pressure within a closed osteofascial compartment compromises circulation and tissue function, leading to the classic 5 P’s: pain, pallor, paresthesia, pulselessness, and paralysis.",
+    "additional": "It is a surgical emergency requiring fasciotomy. Most common in the leg and forearm after trauma or tight casts."
+  },
+  {
+    "question": "12. A young male has anterior shoulder dislocation. What is the most common associated nerve injury?",
+    "options": {
+      "A": "Radial nerve",
+      "B": "Axillary nerve",
+      "C": "Musculocutaneous nerve",
+      "D": "Median nerve"
+    },
+    "answer": "B",
+    "explanation": "The axillary nerve is commonly injured in anterior shoulder dislocations. It innervates the deltoid and teres minor and provides sensation over the lateral shoulder.",
+    "additional": "Symptoms include weakened shoulder abduction and sensory loss. Prompt reduction of the dislocation and neurovascular assessment are essential."
+  },
+  {
+    "question": "13. A 10-year-old child presents with a limp and pain in the hip. X-ray shows avascular necrosis of the femoral head. What is the likely diagnosis?",
+    "options": {
+      "A": "Slipped capital femoral epiphysis",
+      "B": "Perthes disease",
+      "C": "Transient synovitis",
+      "D": "Juvenile arthritis"
+    },
+    "answer": "B",
+    "explanation": "Perthes disease is idiopathic avascular necrosis of the femoral head in children, typically affecting boys aged 4–10 years. Presents with a limp and hip/groin pain.",
+    "additional": "X-ray shows flattening or fragmentation of the femoral head. Treatment is conservative in early stages and surgical in advanced cases."
+  },
+  {
+    "question": "14. What is the most common site for slipped capital femoral epiphysis (SCFE)?",
+    "options": {
+      "A": "Femoral head",
+      "B": "Femoral shaft",
+      "C": "Proximal femoral epiphysis",
+      "D": "Greater trochanter"
+    },
+    "answer": "C",
+    "explanation": "SCFE involves displacement of the proximal femoral epiphysis posteriorly and inferiorly. It is most common in obese adolescents during growth spurts.",
+    "additional": "Presents with limp and hip or knee pain. X-ray shows ice cream slipping off the cone appearance. Requires urgent surgical fixation."
+  },
+  {
+    "question": "15. What is the most common site for avascular necrosis following a fracture?",
+    "options": {
+      "A": "Tibial plateau",
+      "B": "Femoral head",
+      "C": "Scaphoid",
+      "D": "Talus"
+    },
+    "answer": "B",
+    "explanation": "The femoral head is prone to avascular necrosis, especially following neck of femur fractures, due to disruption of the medial circumflex femoral artery.",
+    "additional": "MRI is the most sensitive modality. Management includes core decompression, bisphosphonates, or joint replacement in advanced cases."
+  },
+  {
+    "question": "16. Which of the following fractures is associated with fat embolism syndrome?",
+    "options": {
+      "A": "Humerus",
+      "B": "Tibia",
+      "C": "Pelvis",
+      "D": "Femur"
+    },
+    "answer": "D",
+    "explanation": "Fat embolism syndrome typically occurs after long bone fractures such as the femur. Clinical triad includes respiratory distress, neurologic symptoms, and petechial rash.",
+    "additional": "It usually appears 24–72 hours after injury. Supportive care and early fracture stabilization are key in management."
+  },
+  {
+    "question": "17. What is the first step in management of open fractures?",
+    "options": {
+      "A": "Antibiotics and tetanus prophylaxis",
+      "B": "Fracture reduction",
+      "C": "MRI to assess soft tissue damage",
+      "D": "Delayed surgical debridement"
+    },
+    "answer": "A",
+    "explanation": "Initial management of open fractures includes administration of broad-spectrum antibiotics, tetanus prophylaxis, and urgent surgical debridement.",
+    "additional": "Timely irrigation and debridement reduce infection risk. Definitive fracture fixation is done after soft tissue management."
+  },
+  {
+    "question": "18. A patient has posterior hip dislocation after a car accident. What is the typical limb position?",
+    "options": {
+      "A": "Flexed, adducted, internally rotated",
+      "B": "Extended, abducted, externally rotated",
+      "C": "Flexed, abducted, externally rotated",
+      "D": "Extended, adducted, internally rotated"
+    },
+    "answer": "A",
+    "explanation": "Posterior hip dislocation presents with the limb flexed, adducted, and internally rotated. It is the most common type of hip dislocation, often seen in dashboard injuries.",
+    "additional": "Emergency reduction is needed to prevent avascular necrosis of the femoral head."
+  },
+  {
+    "question": "19. What is the primary treatment for an undisplaced fracture of the clavicle in an adult?",
+    "options": {
+      "A": "Surgical fixation",
+      "B": "Figure-of-eight bandage",
+      "C": "Plaster cast",
+      "D": "Sling support"
+    },
+    "answer": "D",
+    "explanation": "Undisplaced clavicle fractures are managed conservatively with an arm sling or collar-and-cuff support to allow healing.",
+    "additional": "Surgery is reserved for displaced or open fractures or those with neurovascular compromise."
+  },
+  {
+    "question": "20. A 35-year-old construction worker presents with pain and numbness in the lateral thigh. What is the likely diagnosis?",
+    "options": {
+      "A": "Sciatica",
+      "B": "Lumbosacral radiculopathy",
+      "C": "Meralgia paresthetica",
+      "D": "Piriformis syndrome"
+    },
+    "answer": "C",
+    "explanation": "Meralgia paresthetica is caused by compression of the lateral femoral cutaneous nerve, leading to pain, numbness, or burning sensation on the lateral thigh.",
+    "additional": "It is often associated with tight clothing, obesity, or prolonged standing. Treated conservatively with lifestyle changes and analgesics."
+  },
+  {
+    "question": "21. Which imaging modality is best for early detection of avascular necrosis?",
+    "options": {
+      "A": "X-ray",
+      "B": "CT scan",
+      "C": "MRI",
+      "D": "Bone scan"
+    },
+    "answer": "C",
+    "explanation": "MRI is the most sensitive imaging modality for early detection of avascular necrosis (AVN) before changes appear on X-ray.",
+    "additional": "MRI can detect marrow edema and structural changes in the bone. Early diagnosis is crucial for joint preservation."
+  },
+  {
+    "question": "22. What is the most appropriate first-line treatment for adhesive capsulitis (frozen shoulder)?",
+    "options": {
+      "A": "Surgical release",
+      "B": "Manipulation under anesthesia",
+      "C": "NSAIDs and physiotherapy",
+      "D": "Steroid injection"
+    },
+    "answer": "C",
+    "explanation": "Initial management of adhesive capsulitis involves NSAIDs and a structured physiotherapy program to improve range of motion.",
+    "additional": "Steroid injections may help with pain. Surgery is reserved for refractory cases."
+  },
+  {
+    "question": "23. Which bone tumor is associated with a soap-bubble appearance on X-ray?",
+    "options": {
+      "A": "Osteosarcoma",
+      "B": "Chondrosarcoma",
+      "C": "Giant cell tumor",
+      "D": "Ewing sarcoma"
+    },
+    "answer": "C",
+    "explanation": "Giant cell tumor (osteoclastoma) typically occurs in the epiphysis of long bones and appears as a soap-bubble lytic lesion on radiographs.",
+    "additional": "It is benign but locally aggressive. Treatment includes curettage with bone grafting or surgical resection."
+  },
+  {
+    "question": "24. What is the most common complication of femoral neck fracture in the elderly?",
+    "options": {
+      "A": "Non-union",
+      "B": "Avascular necrosis",
+      "C": "Malunion",
+      "D": "Infection"
+    },
+    "answer": "B",
+    "explanation": "Avascular necrosis is the most feared complication of femoral neck fractures due to disruption of the blood supply to the femoral head.",
+    "additional": "Prompt surgical fixation or replacement (hemiarthroplasty) is required in most cases. Delayed treatment increases the risk."
+  },
+  {
+    "question": "25. A patient with a femur fracture develops shortness of breath and petechiae. What is the likely diagnosis?",
+    "options": {
+      "A": "Pulmonary embolism",
+      "B": "Compartment syndrome",
+      "C": "Fat embolism syndrome",
+      "D": "DIC"
+    },
+    "answer": "C",
+    "explanation": "Fat embolism syndrome occurs after long bone fractures, presenting with respiratory distress, petechial rash, and neurological symptoms.",
+    "additional": "Supportive care with oxygen, fluid management, and early fracture stabilization are key to management."
+  },
+  {
+    "question": "26. What is the most common organism causing osteomyelitis in sickle cell disease?",
+    "options": {
+      "A": "Staphylococcus aureus",
+      "B": "Salmonella",
+      "C": "Pseudomonas",
+      "D": "E. coli"
+    },
+    "answer": "B",
+    "explanation": "Salmonella is the most common cause of osteomyelitis in patients with sickle cell disease, although Staph aureus is also possible.",
+    "additional": "Diagnosis includes imaging and blood cultures. Treatment involves appropriate antibiotics and sometimes surgical drainage."
+  },
+  {
+    "question": "27. Which bone disease is characterized by defective mineralization of osteoid in adults?",
+    "options": {
+      "A": "Osteomalacia",
+      "B": "Osteoporosis",
+      "C": "Paget disease",
+      "D": "Rickets"
+    },
+    "answer": "A",
+    "explanation": "Osteomalacia is due to vitamin D deficiency or phosphate metabolism disorders leading to defective mineralization in adults.",
+    "additional": "Symptoms include bone pain, muscle weakness, and fractures. X-ray shows Looser’s zones. Treatment involves vitamin D and calcium supplementation."
+  },
+  {
+    "question": "28. What is the hallmark feature of rickets in children?",
+    "options": {
+      "A": "High bone density",
+      "B": "Metaphyseal cupping and fraying",
+      "C": "Subperiosteal bone resorption",
+      "D": "Cortical thickening"
+    },
+    "answer": "B",
+    "explanation": "Rickets results from vitamin D deficiency in children, leading to metaphyseal cupping and fraying, especially at the wrist and knees.",
+    "additional": "Other signs include bowing of legs, rachitic rosary, and delayed milestones. Treatment involves vitamin D and nutritional support."
+  },
+  {
+    "question": "29. Which of the following is a common feature of osteogenesis imperfecta?",
+    "options": {
+      "A": "Hyperdense bones",
+      "B": "Café-au-lait spots",
+      "C": "Blue sclera",
+      "D": "Spinal bifida"
+    },
+    "answer": "C",
+    "explanation": "Osteogenesis imperfecta is a genetic disorder of collagen synthesis, presenting with bone fragility and blue sclerae.",
+    "additional": "Other features include hearing loss, dental imperfections, and frequent fractures. No cure; treatment is supportive and preventive."
+  },
+  {
+    "question": "30. What is the initial treatment for congenital talipes equinovarus (clubfoot)?",
+    "options": {
+      "A": "Surgery at birth",
+      "B": "Passive stretching only",
+      "C": "Ponseti method (serial casting)",
+      "D": "Orthopedic shoes"
+    },
+    "answer": "C",
+    "explanation": "The Ponseti method, which involves gentle manipulation and serial casting, is the standard initial treatment for clubfoot.",
+    "additional": "Achilles tenotomy may be required in resistant cases. Early treatment ensures better functional outcomes."
+  },
+  {
+    "question": "31. What is the most common cause of pathological fractures in elderly individuals?",
+    "options": {
+      "A": "Trauma",
+      "B": "Osteomalacia",
+      "C": "Metastatic bone disease",
+      "D": "Osteoporosis"
+    },
+    "answer": "D",
+    "explanation": "Osteoporosis is the most common cause of pathological fractures in the elderly, especially involving the vertebrae, femoral neck, and wrist.",
+    "additional": "It results from decreased bone mass and density. Management includes calcium, vitamin D, bisphosphonates, and fall prevention."
+  },
+  {
+    "question": "32. What is the common name for a fracture of the distal radius with dorsal displacement?",
+    "options": {
+      "A": "Smith fracture",
+      "B": "Colles fracture",
+      "C": "Bennett fracture",
+      "D": "Monteggia fracture"
+    },
+    "answer": "B",
+    "explanation": "Colles fracture is a fracture of the distal radius with dorsal (posterior) displacement, often caused by falling on an outstretched hand.",
+    "additional": "It leads to the classic 'dinner fork' deformity. Treated with closed reduction and casting; surgery if unstable."
+  },
+  {
+    "question": "33. Which condition presents with night pain relieved by NSAIDs and shows a radiolucent nidus on X-ray?",
+    "options": {
+      "A": "Ewing sarcoma",
+      "B": "Osteoblastoma",
+      "C": "Osteoid osteoma",
+      "D": "Osteosarcoma"
+    },
+    "answer": "C",
+    "explanation": "Osteoid osteoma typically presents with nocturnal pain relieved by NSAIDs and a small radiolucent nidus on imaging.",
+    "additional": "Commonly affects the long bones in young males. Treatment may involve surgical excision or radiofrequency ablation."
+  },
+  {
+    "question": "34. A child presents with bowing of the legs and rachitic rosary. What is the likely diagnosis?",
+    "options": {
+      "A": "Rickets",
+      "B": "Scurvy",
+      "C": "Osteogenesis imperfecta",
+      "D": "Lead poisoning"
+    },
+    "answer": "A",
+    "explanation": "Rickets is caused by vitamin D deficiency in children and presents with bowing of the legs, delayed milestones, and a rachitic rosary (enlarged costochondral junctions).",
+    "additional": "Management includes vitamin D and calcium supplementation, nutritional education, and sun exposure."
+  },
+  {
+    "question": "35. Which vitamin deficiency is most associated with rickets?",
+    "options": {
+      "A": "Vitamin A",
+      "B": "Vitamin B12",
+      "C": "Vitamin C",
+      "D": "Vitamin D"
+    },
+    "answer": "D",
+    "explanation": "Rickets results from vitamin D deficiency, leading to defective bone mineralization in children.",
+    "additional": "Deficiency may arise from poor diet, inadequate sun exposure, or malabsorption. Supplementation reverses the symptoms."
+  },
+  {
+    "question": "36. Which nerve is injured in anterior dislocation of the shoulder?",
+    "options": {
+      "A": "Radial nerve",
+      "B": "Median nerve",
+      "C": "Ulnar nerve",
+      "D": "Axillary nerve"
+    },
+    "answer": "D",
+    "explanation": "The axillary nerve is commonly injured in anterior shoulder dislocation. It innervates the deltoid and teres minor muscles.",
+    "additional": "Injury causes sensory loss over the lateral shoulder and impaired shoulder abduction."
+  },
+  {
+    "question": "37. A 60-year-old with history of corticosteroid use presents with femoral head collapse. What is the most likely diagnosis?",
+    "options": {
+      "A": "Osteoarthritis",
+      "B": "Osteomyelitis",
+      "C": "Avascular necrosis",
+      "D": "Osteosarcoma"
+    },
+    "answer": "C",
+    "explanation": "Avascular necrosis (AVN) of the femoral head may be induced by corticosteroid use. It leads to bone collapse and joint destruction.",
+    "additional": "MRI is the best early diagnostic tool. Management includes offloading, bisphosphonates, or surgery."
+  },
+  {
+    "question": "38. Which orthopedic emergency requires immediate reduction to prevent avascular necrosis?",
+    "options": {
+      "A": "Posterior hip dislocation",
+      "B": "Clavicle fracture",
+      "C": "Patellar dislocation",
+      "D": "Colles fracture"
+    },
+    "answer": "A",
+    "explanation": "Posterior hip dislocation can disrupt blood supply to the femoral head, leading to AVN if not reduced promptly.",
+    "additional": "Occurs typically in dashboard injuries. Emergency reduction should be done under sedation or anesthesia."
+  },
+  {
+    "question": "39. What is the typical presentation of a greenstick fracture?",
+    "options": {
+      "A": "Fracture extending through entire bone width",
+      "B": "Fracture in metaphysis with angular deformity",
+      "C": "Incomplete fracture with cortical breach on one side",
+      "D": "Comminuted fracture with displacement"
+    },
+    "answer": "C",
+    "explanation": "A greenstick fracture is an incomplete fracture in children where one cortex breaks and the other bends, resembling a bent green twig.",
+    "additional": "Common in pediatric patients due to flexible bones. Managed with immobilization and follow-up X-rays."
+  },
+  {
+    "question": "40. A 45-year-old woman has chronic lateral elbow pain worsened by gripping. Diagnosis?",
+    "options": {
+      "A": "Medial epicondylitis",
+      "B": "Tennis elbow (lateral epicondylitis)",
+      "C": "Olecranon bursitis",
+      "D": "Cubital tunnel syndrome"
+    },
+    "answer": "B",
+    "explanation": "Lateral epicondylitis (tennis elbow) is inflammation of the extensor tendons at the lateral epicondyle. Presents with pain during gripping or wrist extension.",
+    "additional": "Treatment includes rest, physiotherapy, NSAIDs, and sometimes corticosteroid injections."
+  },
+  {
+    "question": "41. What is the first investigation for suspected scoliosis in a child?",
+    "options": {
+      "A": "MRI of the spine",
+      "B": "CT scan",
+      "C": "X-ray (standing, full spine AP and lateral)",
+      "D": "Bone scan"
+    },
+    "answer": "C",
+    "explanation": "A standing X-ray of the full spine in both anteroposterior (AP) and lateral views is the first investigation for suspected scoliosis.",
+    "additional": "It allows measurement of the Cobb angle to assess severity. MRI is reserved for atypical cases or neurological signs."
+  },
+  {
+    "question": "42. A boy presents with limping and knee pain. X-ray shows 'ice cream slipping off the cone' appearance. What is the diagnosis?",
+    "options": {
+      "A": "Perthes disease",
+      "B": "Slipped capital femoral epiphysis",
+      "C": "Septic arthritis",
+      "D": "Juvenile arthritis"
+    },
+    "answer": "B",
+    "explanation": "Slipped capital femoral epiphysis (SCFE) presents with limping, hip or knee pain, and a characteristic 'ice cream slipping off the cone' appearance on X-ray.",
+    "additional": "It typically affects obese adolescent boys. Requires urgent surgical fixation."
+  },
+  {
+    "question": "43. Which of the following injuries most commonly causes scaphoid fractures?",
+    "options": {
+      "A": "Fall on outstretched hand",
+      "B": "Direct trauma to the wrist",
+      "C": "Twisting injury",
+      "D": "Overuse injury"
+    },
+    "answer": "A",
+    "explanation": "A fall on an outstretched hand (FOOSH) is the most common mechanism of injury leading to scaphoid fractures.",
+    "additional": "Pain in the anatomical snuffbox is a classic sign. Risk of avascular necrosis if not promptly diagnosed and treated."
+  },
+  {
+    "question": "44. What is the name of the fracture-dislocation involving the distal radius with dislocation of the radioulnar joint?",
+    "options": {
+      "A": "Monteggia fracture",
+      "B": "Galeazzi fracture",
+      "C": "Colles fracture",
+      "D": "Smith fracture"
+    },
+    "answer": "B",
+    "explanation": "Galeazzi fracture involves a fracture of the distal radius and dislocation of the distal radioulnar joint.",
+    "additional": "It is an unstable injury requiring surgical fixation. Often caused by FOOSH."
+  },
+  {
+    "question": "45. A child presents with swelling of the knee and fever. What is the first investigation?",
+    "options": {
+      "A": "X-ray of the knee",
+      "B": "MRI",
+      "C": "Joint aspiration",
+      "D": "Ultrasound"
+    },
+    "answer": "C",
+    "explanation": "Joint aspiration is the first investigation for a swollen, painful joint with fever to rule out septic arthritis.",
+    "additional": "Analysis of synovial fluid includes Gram stain, culture, and WBC count. Early diagnosis is crucial."
+  },
+  {
+    "question": "46. A 3-year-old has a spiral fracture of the femur. What should be considered?",
+    "options": {
+      "A": "Nutritional deficiency",
+      "B": "Accidental trauma",
+      "C": "Osteogenesis imperfecta",
+      "D": "Non-accidental injury (child abuse)"
+    },
+    "answer": "D",
+    "explanation": "In children under 5, especially non-ambulatory or very young ones, spiral fractures raise suspicion of non-accidental trauma (child abuse).",
+    "additional": "A multidisciplinary approach including safeguarding team and social services is necessary. Full skeletal survey may be warranted."
+  },
+  {
+    "question": "47. What is the most appropriate treatment for midshaft clavicle fracture in a child?",
+    "options": {
+      "A": "Surgical fixation",
+      "B": "Plaster cast",
+      "C": "Arm sling",
+      "D": "Immobilization with traction"
+    },
+    "answer": "C",
+    "explanation": "Most midshaft clavicle fractures in children heal well with conservative treatment using an arm sling.",
+    "additional": "Surgery is rarely required unless there is significant displacement or neurovascular compromise."
+  },
+  {
+    "question": "48. Which of the following tests is used to assess Achilles tendon rupture?",
+    "options": {
+      "A": "Thompson test",
+      "B": "Lachman test",
+      "C": "McMurray test",
+      "D": "Drawer test"
+    },
+    "answer": "A",
+    "explanation": "The Thompson test assesses for Achilles tendon rupture. Absence of plantar flexion when the calf is squeezed indicates rupture.",
+    "additional": "Management includes either surgical repair or functional bracing depending on severity and patient factors."
+  },
+  {
+    "question": "49. A toddler with a history of being pulled by the arm presents with an arm held pronated and flexed. Likely diagnosis?",
+    "options": {
+      "A": "Supracondylar fracture",
+      "B": "Pulled elbow (nursemaid’s elbow)",
+      "C": "Dislocated shoulder",
+      "D": "Clavicle fracture"
+    },
+    "answer": "B",
+    "explanation": "Nursemaid’s elbow is radial head subluxation typically occurring in children due to sudden traction on the extended arm.",
+    "additional": "Treated with supination-flexion technique or hyperpronation maneuver. Avoid pulling arms in young children."
+  },
+  {
+    "question": "50. Which of the following is the classic sign of meniscal injury in the knee?",
+    "options": {
+      "A": "Lachman test positive",
+      "B": "Drawer test positive",
+      "C": "McMurray test positive",
+      "D": "Apprehension test positive"
+    },
+    "answer": "C",
+    "explanation": "The McMurray test elicits a click or pain during rotation and extension of the knee and is indicative of meniscal injury.",
+    "additional": "MRI is the gold standard for confirmation. Arthroscopy may be needed for repair or partial meniscectomy."
+  }
 ]
+
+
+
+
 
 
