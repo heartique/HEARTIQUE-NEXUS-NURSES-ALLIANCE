@@ -156,7 +156,7 @@
     <input type="text" id="full-name" placeholder="Full Name" required />
     <input type="tel" id="phone-number" placeholder="WhatsApp Number (e.g. 254712345678)" required />
     <input type="text" id="reason" placeholder="Reason (e.g. Revision, Mock...)" required />
-    <input type="email" id="email-address" placeholder="Your Email (for results)" required />
+    <!-- Removed email field -->
     <button onclick="proceedToInstructions()">Continue</button>
   </div>
 
@@ -233,26 +233,21 @@
    function proceedToInstructions() {
   const name = document.getElementById("full-name").value.trim();
   const phone = document.getElementById("phone-number").value.trim();
-  const email = document.getElementById("email-address").value.trim(); // ✅ get email here
   const reason = document.getElementById("reason").value.trim();
-     
+
   if (name.length < 3) return alert("Please enter your full name.");
   if (!/^254(1|7)\d{8}$/.test(phone)) return alert("Enter a valid Kenyan phone number starting with 2547 or 2541.");
-  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return alert("Please enter a valid email address.");
   if (reason.length < 3) return alert("Please enter a valid reason.");
 
-  // ✅ store them in variables
   userName = name;
   userPhone = phone;
   userReason = reason;
-  userEmail = email;
 
-  // ✅ save in localStorage
-  localStorage.setItem("nckUserData", JSON.stringify({ name, phone, email, reason }));
+  localStorage.setItem("nckUserData", JSON.stringify({ name, phone, reason }));
 
-  // ✅ show next screen
   document.getElementById("intro-page").style.display = "none";
   document.getElementById("start-page").style.display = "block";
+}
 }
     function startApp() {
       document.getElementById("start-page").style.display = "none";
@@ -376,6 +371,48 @@
     function allAnswered() {
       return questions.every((_, idx) => saved[idx]?.selected);
     }
+function buildTranscript(score, total, percent, weakAreas) {
+  const fullAnswers = questions.map((q, i) => {
+    const user = saved[i]?.selected || "Not answered";
+    const correct = q.answer;
+    const isCorrect = user === correct;
+    const highlight = isCorrect ? "" : "background: #ffdddd;";
+
+    return `
+      <div style="margin-bottom:20px; padding:10px; border:1px solid #ccc; ${highlight}">
+        <p><strong>Q${i + 1}:</strong> ${q.question}</p>
+        <p><strong>Your Answer:</strong> ${user}</p>
+        <p><strong>Correct Answer:</strong> ${correct}</p>
+      </div>
+    `;
+  }).join("");
+
+  const html = `
+    <h2 style="color:#002147;">Heartique Nursing Nexus</h2>
+    <h4 style="color:#444;">NCK Simulation Transcript</h4>
+    <hr><br>
+
+    <h3>🧍 Candidate Details</h3>
+    <p><strong>Name:</strong> ${userName}</p>
+    <p><strong>Phone:</strong> ${userPhone}</p>
+    <p><strong>Reason:</strong> ${userReason}</p><br>
+
+    <h3>📊 Summary</h3>
+    <p><strong>Score:</strong> ${score} / ${total}</p>
+    <p><strong>Percentage:</strong> ${percent}%</p>
+    <p><strong>Weak Areas:</strong> ${weakAreas.length ? weakAreas.join(", ") : "None detected"}</p><br>
+
+    <h3>📖 Full Paper Review</h3>
+    ${fullAnswers}
+  `;
+
+  document.getElementById("transcriptContent").innerHTML = html;
+  document.getElementById("transcript").style.display = "block";
+  document.querySelector(".tab-bar").style.display = "none";
+  document.querySelector(".container").style.display = "none";
+  document.getElementById("timer").style.display = "none";
+  document.querySelector("footer").style.display = "none";
+}
 
     function submitTest() {
       if (!confirm("Are you sure you want to submit the test?")) return;
@@ -390,8 +427,6 @@
 const weakAreas = questions
   .map((q, i) => (!saved[i]?.correct ? `Q${i + 1}` : null))
   .filter(x => x !== null);
-
-sendScoreEmail(correct, total, percent, weakAreas);
 
       const summaryBox = document.createElement("div");
 summaryBox.style = `
@@ -420,11 +455,12 @@ document.body.appendChild(summaryBox);
   console.error("Summary box error:", err);
 }
 
-
+       buildTranscript(correct, total, percent, weakAreas);
         const text = encodeURIComponent(`Greetings from Heartique Nursing Nexus NCK Simulation Platform.\n\nYou have successfully completed a professional NCK-style simulation.\n\nCandidate Name: ${userName}\nSimulation Purpose: ${userReason}\n\nSummary:\n${message}\n\nPowered by Heartique Nursing Nexus  Committed to Clinical Excellence.`);
         const url = `https://wa.me/${userPhone}?text=${text}`;
-        window.location.href = url; // replaces window.open(url, "_blank");
-
+        if (confirm(" Note: This is only a preview link.\n\nIf you want your full transcript with answers, complete the quiz and click ‘Finish’. Proceed to WhatsApp anyway?")) {
+  window.open(url, "_blank");
+}
         clearInterval(timer);
         if (isSimulationMode) exitFullscreen();
       } else {
@@ -495,29 +531,10 @@ document.body.appendChild(summaryBox);
       e.returnValue = '';
     });
   </script>
-  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-<script>
-  emailjs.init('CuSwkmKmhKa7On9pZ'); // Your Public Key
-
-  function sendScoreEmail(score, total, percent, weakAreas = []) {
-    const templateParams = {
-      name: userName,
-      phone: userPhone,
-      email: userEmail,
-      reason: userReason,
-      score: `${score} out of ${total}`,
-      percentage: `${percent}%`,
-      weak_areas: weakAreas.length ? weakAreas.join(", ") : "None detected"
-    };
-
-    emailjs.send('service_eku55ln', 'template_yei58yl', templateParams)
-      .then(function(response) {
-        console.log('✅ Email sent successfully:', response.status, response.text);
-      }, function(error) {
-        console.error('❌ Failed to send email:', error);
-      });
-  }
-</script>
+  <div id="transcript" style="display:none; padding: 30px; max-width: 800px; margin: auto; font-family: Arial, sans-serif; background: white;">
+  <button onclick="window.print()" style="float:right; margin-bottom:20px; background:#002147; color:white; border:none; padding:10px 20px; border-radius:6px;">📄 Download / Print Transcript</button>
+  <div id="transcriptContent"></div>
+</div>
 
 </body>
 </html>
