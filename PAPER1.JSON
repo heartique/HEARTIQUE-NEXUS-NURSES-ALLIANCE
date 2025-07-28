@@ -1,0 +1,1396 @@
+[
+  {
+    "question": "The nurse is aware that rigidity of patient’s chest wall during anesthesia is an adverse effect of which of the following medication",
+    "options": {
+      "A": "Propofol",
+      "B": "Ketamine",
+      "C": "Diazepam",
+      "D": "Fentanyl"
+    },
+    "answer": "D",
+    "explanation": "Fentanyl, a potent opioid analgesic, can cause 'wooden chest syndrome' or thoracic rigidity, especially when administered in high doses or too rapidly. This is a known and potentially serious complication of opioid anesthesia, affecting ventilatory mechanics and requiring prompt intervention. It involves stiffening of respiratory muscles, making ventilation difficult unless managed by muscle relaxants or naloxone.\n\nPropofol (A) is associated with hypotension and apnea, not rigidity. Ketamine (B) causes dissociative anesthesia and maintains respiratory drive. Diazepam (C), a benzodiazepine, causes sedation and muscle relaxation, not rigidity.",
+    "additional": "NCK twist: They may reword this scenario to describe symptoms during surgery, such as 'difficulty ventilating due to chest tightness despite patent airway' — hinting at fentanyl-induced rigidity.\n\nYou may also be asked about the reversal agents: e.g., \"Which drug is used to manage opioid-induced muscle rigidity during anesthesia?\" (Answer: Naloxone or neuromuscular blocker).\n\nAlso remember that rapid IV push of fentanyl increases this risk.\n\nRelated units: Critical care nursing, Pharmacology of anesthetics.\n\nText Ref: Brunner & Suddarth’s Medical-Surgical Nursing, Ch. 17 (Preoperative and Intraoperative Care)"
+  },
+  {
+    "question": "Which one of the following preoperative lab results of a theatre patient may necessitate the nurse to call the surgeon:",
+    "options": {
+      "A": "Platelets count of 250000/mm",
+      "B": "Total cholesterol of 325 mg/dl",
+      "C": "Blood urea nitrogen of 25mg/dl",
+      "D": "Hemoglobin 12.8mg/dl"
+    },
+    "answer": "B",
+    "explanation": "A total cholesterol of 325 mg/dl is significantly elevated and may indicate cardiovascular risk. Although it is not an absolute contraindication for surgery, it is important in cardiac risk stratification. The nurse must report this because it could affect anesthesia safety or require further workup.\n\nThe other lab values are within or near normal ranges: Platelets at 250,000/mm3 is normal; BUN at 25 is slightly elevated but not critical; Hemoglobin 12.8 mg/dl is within normal limits for many adults, especially females.",
+    "additional": "NCK twist: They might describe the scenario in a case format — e.g., 'A 58-year-old obese male scheduled for hernia repair has a cholesterol level of 325 mg/dl. What is the best action?' — Answer: Notify surgeon.\n\nThey may also flip the question to ask 'Which of the following is **not** a priority to report?' or mix lab values across systems (e.g., coagulation profile + BUN + CBC).\n\nAlso review: ASA classification, cardiac risk indicators, and surgical clearance protocols.\n\nRelated topics: Preoperative nursing assessment, Lab interpretation, Surgical risk factors."
+  },
+  {
+    "question": "The best position for kidney, chest, or hip surgery is:",
+    "options": {
+      "A": "Lithotomy",
+      "B": "Trendelenburg",
+      "C": "Supine",
+      "D": "Lateral"
+    },
+    "answer": "D",
+    "explanation": "The lateral position is used for surgeries involving the chest, kidney, or hip. It allows optimal access and visualization of lateral structures. For instance, nephrectomies (kidney removal) or thoracotomies are commonly performed in this position.\n\nLithotomy (A) is for pelvic or perineal procedures. Trendelenburg (B) enhances exposure to lower abdomen and pelvis. Supine (C) is common but does not provide the lateral access needed for kidney, hip, or thoracic surgery.",
+    "additional": "NCK twist: You may see this tested as a match-the-position type, e.g., 'Match the surgery to the correct position.'\n\nAnother variation: 'What position increases risk for brachial plexus injury in lateral surgeries?' — Answer: Lateral decubitus.\n\nAlso expect related questions on pressure areas in lateral position (e.g., trochanter, shoulder, ear).\n\nRelated topics: Operating room safety, Intraoperative positioning complications, OR nursing responsibilities."
+  },
+  {
+    "question": "The baby dies immediately after birth due to presence of",
+    "options": {
+      "A": "Trancus arteriosus",
+      "B": "Ductus arteriosus",
+      "C": "Aorta Coarctation",
+      "D": "Pulmonary stenosis"
+    },
+    "answer": "A",
+    "explanation": "Truncus arteriosus is a congenital heart defect where a single large vessel arises from the heart instead of two separate pulmonary artery and aorta. This causes severe mixing of oxygenated and deoxygenated blood, leading to systemic hypoxia. It is a cyanotic heart lesion and often incompatible with life without urgent surgical intervention, hence why a newborn may die shortly after birth.\n\nThe other conditions are also congenital heart defects but may be compatible with life for a longer period: Patent ductus arteriosus (B), Coarctation of the aorta (C), and Pulmonary stenosis (D) can all lead to varying severity but are not immediately fatal at birth in most cases.",
+    "additional": "NCK twist: The exam may ask for which congenital heart condition leads to 'mixing of oxygenated and deoxygenated blood' or present with 'central cyanosis within minutes of birth'.\n\nThey might also test on which ones are 'acyanotic vs cyanotic defects'.\n\nRelated review: Congenital Heart Defects (CHD), Cyanotic vs Acyanotic lesions, Cardiac anomalies in pediatrics."
+  },
+  {
+    "question": "The recommended prophylactic dosage of Vitamin K for newborns is;",
+    "options": {
+      "A": "1 mg for term and 0.5 mg for preterm baby",
+      "B": "0.5 mg for term baby and 0.25 mg for preterm baby",
+      "C": "1 mg for term baby and 0.01 mg for preterm baby",
+      "D": "0.5 mg for term baby and 1 mg for preterm baby"
+    },
+    "answer": "A",
+    "explanation": "Vitamin K prophylaxis is crucial to prevent Vitamin K Deficiency Bleeding (VKDB) in neonates. The standard dosage is:\n- 1 mg IM for term babies\n- 0.5 mg IM for preterm babies\nThis is because preterm infants are smaller and more vulnerable to overdose or bleeding complications.\n\nVitamin K is essential for hepatic synthesis of clotting factors II, VII, IX, and X. Newborns are deficient due to immature liver enzymes and lack of gut flora.",
+    "additional": "NCK twist: The question might describe a baby with signs of bleeding (e.g., bleeding umbilical stump, bruises, or intracranial hemorrhage) and ask what was missed at birth — answer would be Vitamin K.\n\nMay also appear as a select-all-that-apply: 'What is the importance of Vitamin K in newborns?'\n\nKey related topics: Neonatal pharmacology, Preventive newborn care, Hemorrhagic disease of the newborn (HDN)."
+  },
+  {
+    "question": "Obstetric events that may precipitate disseminated intravascular coagulopathy (DIC) include;",
+    "options": {
+      "A": "Amniotic fluid embolism, placenta abruption, eclampsia",
+      "B": "Eclampsia, fetal post-maturity, placenta abruption",
+      "C": "Incomplete abortion, anaemia, maternal diabetes mellitus",
+      "D": "Placenta abruption, multiple pregnancy, intra-uterine foetal death"
+    },
+    "answer": "A",
+    "explanation": "DIC is a pathological process characterized by widespread activation of clotting cascade, leading to consumption of clotting factors and platelets, resulting in bleeding and thrombosis.\n\nIn obstetrics, key precipitating events include:\n- Amniotic fluid embolism: triggers systemic inflammation\n- Placental abruption: massive tissue factor release\n- Eclampsia: systemic endothelial injury and inflammatory response\n\nOptions C and D contain contributing but not primary precipitating factors.",
+    "additional": "NCK twist: They may ask for lab indicators (e.g., low platelets, prolonged PT/INR, elevated D-dimers) or clinical presentation (e.g., bleeding gums, petechiae, oozing from IV site).\n\nAlternate format: Case-based scenario with postpartum bleeding and lab results pointing to DIC.\n\nYou should also study: Management (Fresh frozen plasma, platelets, treat cause), ICU care, and DIC stages.\n\nRelated Units: Midwifery, Emergency Obstetrics, Hematology."
+  },
+  {
+    "question": "You are providing education to a patient on how to take their prescribed iron supplement. A statement by the patient that requires you to re-educate the patient on how to take this supplement is",
+    "options": {
+      "A": "I will take this medication on an empty stomach",
+      "B": "I will avoid taking this medication with orange juice",
+      "C": "I will wait and take my calcium supplements 2 hours after I take my iron supplement",
+      "D": "This medication can cause constipation. So, I will drink plenty of fluids and take a stool softer as needed"
+    },
+    "answer": "B",
+    "explanation": "Iron absorption is enhanced in an acidic environment — orange juice (rich in Vitamin C) increases iron bioavailability. So, avoiding it would hinder absorption. This statement shows a misunderstanding.\n\nCorrect practices include:\n- Take on empty stomach for better absorption (A), unless GI irritation occurs.\n- Avoid co-administering calcium and iron; they compete for absorption (C).\n- Constipation is a common side effect; fluids/stool softeners help (D).",
+    "additional": "NCK twist: May test food interactions (e.g., 'Which of the following meals should be avoided when taking iron supplements?' — Answer: Milk, tea).\n\nThey may also reverse the question: 'Which statement shows correct understanding?' or give lab data showing persistent anemia despite compliance — indicating poor absorption.\n\nReview related pharmacokinetics, patient counseling points, and drug-nutrient interactions.\n\nConnected units: Pharmacology, Nutritional disorders, Patient education."
+  },
+  {
+    "question": "The physician orders a patient with suspected iron-deficiency anemia a blood smear test to assess the quality of the red blood cells. The appearance of red blood cells if the patient had iron-deficiency anemia is",
+    "options": {
+      "A": "Hyperchromic and macrocytic",
+      "B": "Hypochromic and microcytic",
+      "C": "Hyperchromic and macrocytic",
+      "D": "Hypochromic and macrocytic"
+    },
+    "answer": "B",
+    "explanation": "Iron deficiency anemia results in:\n- Hypochromia: decreased hemoglobin content makes cells pale\n- Microcytosis: cells are smaller than normal due to impaired hemoglobin synthesis\n\nThese changes are classic findings on peripheral blood smear. Hyperchromia and macrocytosis are typical of B12 or folate deficiency anemias.",
+    "additional": "NCK twist: May provide an image or description of a blood smear and ask you to identify the type of anemia.\n\nAlternate format: A case study with symptoms like fatigue, pica (eating clay), brittle nails, and a blood smear showing pale, small RBCs.\n\nAlso know lab findings: Low MCV, low MCHC, high TIBC, low ferritin.\n\nConnected units: Hematology, Nutrition, Pathology."
+  },
+  {
+    "question": "A patient, with a history of gastric bypass surgery 6 months ago, reports feeling very fatigued and is having food cravings for clay and dirt. On assessment, you note the patient has nail changes that look",
+    "options": {
+      "A": "Terry's Nails",
+      "B": "Onychoschizia",
+      "C": "Koilonychias",
+      "D": "Leukonychia"
+    },
+    "answer": "C",
+    "explanation": "Koilonychia (spoon-shaped nails) is a classical sign of chronic iron deficiency anemia. The patient's history of gastric bypass (which impairs iron absorption) and symptoms like pica (eating non-food substances such as clay/dirt) and fatigue strongly support this diagnosis.\n\nOther nail findings:\n- Terry’s nails (A): associated with liver disease\n- Onychoschizia (B): nail splitting\n- Leukonychia (D): white spots, often benign or due to trauma",
+    "additional": "NCK twist: They may not mention 'koilonychia' but describe 'concave nails that can hold a drop of water' — still points to iron deficiency.\n\nMay also test: 'Which micronutrient is malabsorbed post-bariatric surgery?' or symptoms of iron deficiency beyond hemoglobin.\n\nKnow associations: Pica, fatigue, brittle hair/nails, and poor memory.\n\nConnected units: Nutritional disorders, Gastrointestinal surgery, Patient education."
+  },
+  {
+    "question": "The lymphoid organ that contains macrophages that capture and destroy bacteria thereby preventing microbes from breaching the intestinal wall is",
+    "options": {
+      "A": "Tubal tonsils",
+      "B": "Thymus gland",
+      "C": "Spleen",
+      "D": "Peyer’s patches"
+    },
+    "answer": "D",
+    "explanation": "Peyer's patches are lymphoid nodules located in the small intestine, particularly the ileum. They contain macrophages and lymphocytes which help detect and destroy pathogens entering via the gut, thus preventing systemic infection.\n\nThe spleen (C) filters blood, not gut content. Tubal tonsils (A) protect the nasopharynx. Thymus (B) is for T-cell maturation but not gut immune defense.",
+    "additional": "NCK twist: The question may describe function (e.g., 'gut-associated lymphoid tissue') without naming Peyer's patches directly.\n\nAlso expect questions comparing immune functions of different lymphoid organs.\n\nRelated units: Anatomy, Immunology, Medical-Surgical Nursing."
+  },
+  {
+    "question": "A disorder of the middle ear is",
+    "options": {
+      "A": "Otosclerosis",
+      "B": "Motion sickness",
+      "C": "Otitis externa",
+      "D": "Ototoxicity"
+    },
+    "answer": "A",
+    "explanation": "Otosclerosis is a condition affecting the bones of the middle ear, particularly the stapes. It leads to progressive conductive hearing loss due to fixation of the stapes.\n\nMotion sickness (B) is a vestibular (inner ear) problem. Otitis externa (C) is an infection of the external auditory canal. Ototoxicity (D) affects the inner ear (cochlea/vestibule) due to drugs.",
+    "additional": "NCK twist: They may ask which condition causes conductive vs sensorineural hearing loss. Otosclerosis = conductive.\n\nBe ready for matching questions involving parts of the ear and their disorders.\n\nLinked topics: ENT, Pathophysiology of hearing, Pharmacology (aminoglycoside ototoxicity)."
+  },
+  {
+    "question": "Clinical manifestations of Trachoma include",
+    "options": {
+      "A": "Cupped optic disc, raised intraocular pressure",
+      "B": "Entropion, trichiasis",
+      "C": "Raised intraocular pressure, symptomless",
+      "D": "Visual field defects, trichiasis"
+    },
+    "answer": "B",
+    "explanation": "Trachoma is a chronic infectious eye condition caused by *Chlamydia trachomatis*. Repeated infections lead to scarring of the conjunctiva, causing:\n- Entropion: inward turning of eyelid\n- Trichiasis: inward growing lashes that scratch the cornea\nThese cause pain, tearing, and eventual blindness.",
+    "additional": "NCK twist: May test via photo or ask for WHO staging (FISTO) — Follicular, Inflammation, Scarring, Trichiasis, Opacity.\n\nRelated public health concept: SAFE strategy — Surgery, Antibiotics, Facial hygiene, Environmental improvements.\n\nLinked topics: Ophthalmology, Infectious diseases, Community Health."
+  },
+  {
+    "question": "On examining the patient with keratitis you find",
+    "options": {
+      "A": "Photophobia, pain",
+      "B": "Cloudy cornea, signs of inflammation/infection",
+      "C": "Herbert’s pits, pain",
+      "D": "Blurred vision, excessive lacrimation"
+    },
+    "answer": "B",
+    "explanation": "Keratitis is inflammation of the cornea. Key signs include:\n- Cloudy/hazy cornea due to stromal inflammation\n- Redness, pain, photophobia, decreased vision\n- Signs of infection (e.g., discharge, ciliary injection)\n\nPhotophobia and pain (A) are present but nonspecific. Herbert’s pits (C) are specific to trachoma. Excessive lacrimation (D) occurs but is less diagnostic.",
+    "additional": "NCK twist: They may present a case with a contact lens wearer, photophobia, red eye, and blurred vision to test keratitis.\n\nAlso review viral (herpetic) vs bacterial keratitis.\n\nLinked units: Eye diseases, Emergency care, Infectious conditions."
+  },
+  {
+    "question": "A client with an episode of acute-narrow angle glaucoma, will get the following medication",
+    "options": {
+      "A": "Acetazolamide(Diamox)",
+      "B": "Atropine",
+      "C": "Furosemide(Lasix)",
+      "D": "Urokinase(Abbokinase)"
+    },
+    "answer": "A",
+    "explanation": "Acetazolamide (a carbonic anhydrase inhibitor) reduces intraocular pressure by decreasing aqueous humor production. It’s first-line for acute angle-closure glaucoma.\n\nAtropine (B) dilates pupils and worsens the condition. Furosemide (C) is a diuretic with no direct ocular use. Urokinase (D) is a thrombolytic drug unrelated to glaucoma.",
+    "additional": "NCK twist: They may test pupil reactions — e.g., 'Patient presents with fixed mid-dilated pupil and severe eye pain' — suggests acute glaucoma.\n\nBe ready for treatment priorities: Acetazolamide → Topical beta-blocker → Mannitol (if severe).\n\nRelated units: Ophthalmology, Emergency care, Pharmacology."
+  },
+  {
+    "question": "Contraindications for ear syringing are",
+    "options": {
+      "A": "Impacted wax, insect in the ear",
+      "B": "Perforated tympanic membrane, insect in the ear",
+      "C": "Impacted wax, live grain in the ear",
+      "D": "Live grain in the ear, perforated tympanic membrane"
+    },
+    "answer": "D",
+    "explanation": "Syringing is contraindicated in:\n- Perforated tympanic membrane: may introduce infection into middle ear\n- Live insects (grains) in the ear: water may cause them to swell or become more active, risking injury.\n\nImpacted wax can be removed with syringing if the drum is intact.",
+    "additional": "NCK twist: May ask, 'Which of the following patients is safe for ear syringing?' or give case-based clues like 'history of ear discharge, tympanic perforation visible.'\n\nReview ear anatomy and other ear procedures (e.g., wick insertion, suction, microscopy).\n\nLinked topics: ENT, Procedure contraindications, Primary care."
+  },
+  {
+    "question": "Virchow’s triad are factors that cause thrombosis as seen in pulmonary embolism and Deep vein thrombosis has 3 main aspects:",
+    "options": {
+      "A": "Venous damage, coagulation, endothelial stasis",
+      "B": "Endothelial damage, coagulation, venous stasis",
+      "C": "Hyper-coagulation, endothelial damage, venous stasis",
+      "D": "Hyper-coagulation, endothelial stasis, venous damage"
+    },
+    "answer": "C",
+    "explanation": "Virchow's triad outlines the 3 main mechanisms of thrombosis:\n1. Hypercoagulability (e.g., cancer, pregnancy, OCP use)\n2. Endothelial injury (e.g., trauma, surgery)\n3. Venous stasis (e.g., immobility, long flights)\nTogether, these promote clot formation.\n\nOption C is the most accurate arrangement of these components.",
+    "additional": "NCK twist: May give a patient scenario (e.g., long travel, smoker, taking OCPs) and ask which component of the triad is most involved.\n\nAlso expect cross-referencing with DVT signs (calf pain, Homan’s sign), PE symptoms (dyspnea, chest pain), and diagnostics (D-dimer, Doppler, CT angiogram).\n\nRelated units: Cardiovascular system, Emergency medicine, Hematology."
+  },
+  {
+    "question": "The following are complications of burns:",
+    "options": {
+      "A": "Cardiogenic shock, pulmonary embolism",
+      "B": "Pulmonary embolism, Contractures",
+      "C": "Hypovolemic shock, septic shock.",
+      "D": "Anaphylactic shock, contractures"
+    },
+    "answer": "C",
+    "explanation": "Burns cause fluid loss, leading to hypovolemic shock as the most immediate complication. Later, due to compromised skin barrier, the patient becomes prone to infections → septic shock. These are the two primary life-threatening burn complications.\n\nContractures and embolism can occur but are not immediate or primary. Cardiogenic and anaphylactic shocks are not typical burn responses.",
+    "additional": "NCK twist: They may ask about timeline — early (hypovolemia) vs late (infection, contractures). Or describe signs of septic shock in a burn patient.\n\nWatch for airway involvement in facial burns — risk of inhalation injury.\n\nReview burn rule of nines, Parkland formula, fluid resuscitation.\n\nRelated units: Emergency care, Surgical nursing, Critical care."
+  },
+  {
+    "question": "Which of the following definitions best describes primary skin infections.",
+    "options": {
+      "A": "They originate in previously normal-appearing skin and are usually caused by a single organism.",
+      "B": "They arise from a preexisting skin disorder or from disruption of the skin integrity from injury or surgery.",
+      "C": "They originate in previously normal-appearing skin and are usually caused by multiple organisms.",
+      "D": "They arise from existing skin disorder or from disruption of the skin integrity from injury or surgery."
+    },
+    "answer": "A",
+    "explanation": "Primary skin infections develop in previously intact skin, often caused by a single pathogen — e.g., *Staphylococcus aureus* in impetigo or cellulitis.\n\nSecondary infections occur in already damaged skin or chronic skin diseases (e.g., eczema, scabies).\n\nOptions B & D describe secondary infections. C is incorrect because primary infections are usually monomicrobial.",
+    "additional": "NCK twist: May give a photo or description of an 'intact but red, swollen, and painful area' and ask if it's primary or secondary.\n\nThey may ask for common causative agents, or topical vs systemic treatment plans.\n\nLinked topics: Dermatology, Microbiology, Wound care."
+  },
+  {
+    "question": "A nurse was conducting research on the most common species of bacteria causing acne vulgaris. Which of the following bacteria were the most abundant?",
+    "options": {
+      "A": "Staphylococcus acne",
+      "B": "Clostridium difficile",
+      "C": "Propionibacterium acnes",
+      "D": "Bacterium acnes"
+    },
+    "answer": "C",
+    "explanation": "*Propionibacterium acnes* (now reclassified as *Cutibacterium acnes*) is the primary anaerobic bacterium implicated in acne. It colonizes sebaceous glands and promotes inflammation, leading to comedones and pustules.\n\nOther options are incorrect or fictional (e.g., Bacterium acnes isn’t a recognized name).",
+    "additional": "NCK twist: May frame this as a case — '16-year-old with pustular acne... what is the causative bacteria?'\n\nAlso review: Factors aggravating acne (hormones, oily skin, poor hygiene), treatment options (benzoyl peroxide, retinoids, antibiotics).\n\nConnected units: Dermatology, Pharmacology, Microbiology."
+  },
+  {
+    "question": "_____________ is a non-infectious inflammatory dermatosis.",
+    "options": {
+      "A": "Contact dermatitis",
+      "B": "Herpes zoster",
+      "C": "Psoriasis",
+      "D": "Stevens-Johnsons syndrome"
+    },
+    "answer": "C",
+    "explanation": "Psoriasis is a chronic, non-infectious, autoimmune skin disease. It presents as scaly, erythematous plaques, commonly on extensor surfaces (elbows, knees). It involves T-cell mediated keratinocyte proliferation.\n\nHerpes zoster is viral, Stevens-Johnson is hypersensitivity-related, Contact dermatitis is usually allergic/irritant (not autoimmune).",
+    "additional": "NCK twist: They may describe 'silvery white scales on elbows' — a classic psoriasis clue.\n\nOr test for triggers (stress, infection, trauma) and treatment (topical steroids, phototherapy).\n\nAlso be familiar with types: guttate, plaque, pustular, inverse.\n\nRelated areas: Immunology, Dermatology, Autoimmune diseases."
+  },
+  {
+    "question": "Posture indicating severe brain damage is;",
+    "options": {
+      "A": "Decorticate",
+      "B": "High fowlers",
+      "C": "Flaccid",
+      "D": "Decerebrate"
+    },
+    "answer": "D",
+    "explanation": "Decerebrate posture (extension of arms, pronation, plantar flexion) indicates brainstem damage and is more severe than decorticate (flexion of arms). It suggests deep coma or severe brain injury.\n\nFlaccidity (C) may occur after deep damage but lacks reflex response. High Fowlers is a body position, not a neuro sign.",
+    "additional": "NCK twist: They may describe the posture rather than name it. E.g., 'Patient has extended arms, rigid legs, and teeth clenched' — indicates decerebrate.\n\nBe ready to differentiate between GCS levels and motor posturing.\n\nRelated units: Neurology, Critical care, Head injury management."
+  },
+  {
+    "question": "An initial sign of Parkinson’s disease is;-",
+    "options": {
+      "A": "Bradykinesia",
+      "B": "Tremor",
+      "C": "Rigidity",
+      "D": "Akinesia"
+    },
+    "answer": "B",
+    "explanation": "Resting tremor (often 'pill-rolling') is usually the earliest symptom of Parkinson’s disease. Bradykinesia (slowness), rigidity, and postural instability develop as the disease progresses.\n\nAkinesia refers to loss of movement and appears later.",
+    "additional": "NCK twist: May describe signs without naming disease. E.g., 'elderly man with resting tremor, shuffling gait' — identify Parkinsonism.\n\nAlso test medications: Levodopa, carbidopa, dopamine agonists.\n\nReview side effects of therapy (e.g., dyskinesia).\n\nConnected units: Neurology, Pharmacology, Elderly care."
+  },
+  {
+    "question": "You are teaching a client to recognize an aura, you should instruct the client to note:",
+    "options": {
+      "A": "A postictal state of amnesia.",
+      "B": "A symptom that occurs just before a seizure.",
+      "C": "A hallucination that occurs during a seizure.",
+      "D": "A feeling of relaxation as the seizure begins to subside."
+    },
+    "answer": "B",
+    "explanation": "An aura is a subjective sensation (visual changes, strange smells, dizziness) that occurs before certain seizures (especially focal/temporal lobe seizures). Recognizing auras helps patients seek safety.\n\nIt is not the same as postictal (after seizure) confusion or during-seizure activity.",
+    "additional": "NCK twist: May give scenario: 'Client reports smelling burnt rubber before blacking out' — that’s an aura.\n\nAlso test seizure phases: aura → ictal → postictal.\n\nReview safety teaching: lie down, avoid triggers, notify provider.\n\nRelated units: Neurology, Patient Education, Emergency response."
+  },
+  {
+    "question": "A client with Increased intracranial Pressure(ICP) is best put in which position;-",
+    "options": {
+      "A": "Semi fowlers",
+      "B": "Prone",
+      "C": "Fowlers",
+      "D": "Supine"
+    },
+    "answer": "A",
+    "explanation": "Semi-Fowler's position (30–45°) promotes venous drainage from the brain and reduces intracranial pressure without compromising cerebral perfusion. Supine or prone positions can increase ICP.\n\nFull Fowler’s (C) may reduce cerebral perfusion if too elevated. Prone (B) increases pressure and restricts breathing.",
+    "additional": "NCK twist: Expect a case where the patient has head trauma, vomiting, unequal pupils — and you're asked about immediate nursing action.\n\nAlso review other ICP management: avoid suctioning, calm environment, mannitol use, monitor GCS.\n\nLinked topics: Critical care, Neurosurgical nursing, Emergency management."
+  },
+  {
+    "question": "Which one of the following does not put a fetus at increased risk of a deformation",
+    "options": {
+      "A": "Oligohydramnios",
+      "B": "Polyhydramnios.",
+      "C": "Intrauterine growth restriction",
+      "D": "Triplet pregnancy."
+    },
+    "answer": "B",
+    "explanation": "Polyhydramnios (excess amniotic fluid) is more often linked with fetal swallowing or neurological issues, not deformation. Oligohydramnios (low fluid) restricts fetal movement and leads to deformities (e.g., clubfoot).\n\nIUGR and multiple gestations reduce space, increasing deformation risk.",
+    "additional": "NCK twist: May use a photo or describe a baby with joint contractures or limb deformities due to restricted movement — answer will be oligohydramnios.\n\nWatch for terms: Potter sequence, limb abnormalities, amniotic bands.\n\nLinked units: Antenatal complications, Fetal development, Perinatal care."
+  },
+  {
+    "question": "Which of the following is true concerning babies born at 25 weeks with birth weight of 1800g:",
+    "options": {
+      "A": "Has 80% chance of disability",
+      "B": "Have 65-70% chance of survival if admitted to a NICU",
+      "C": "Cannot be fed breastmilk until 34 weeks",
+      "D": "Have 20% chance of blindness from retinopathy of prematurity"
+    },
+    "answer": "B",
+    "explanation": "With modern NICUs, preterm babies born at 25 weeks and weighing >1500g have a survival rate around 65–70%. Breastmilk is safe early on (often via tube feeds). Retinopathy risk is real but not quantified as 20% exactly — depends on oxygen use and gestation.",
+    "additional": "NCK twist: They may phrase it with survival % or long-term outcomes. Know key cutoffs: viability at 24 weeks, surfactant role, kangaroo care.\n\nAlso expect care plans: TPN, incubator, phototherapy.\n\nConnected units: Neonatology, Preterm birth, NICU management."
+  },
+  {
+    "question": "Which one of the following is a clinical sign during the second phase of amniotic fluid embolism?",
+    "options": {
+      "A": "Pulmonary edema",
+      "B": "Tachypnea",
+      "C": "Sudden desaturation",
+      "D": "Hemorrhage"
+    },
+    "answer": "D",
+    "explanation": "Amniotic fluid embolism has two phases:\n1. First (respiratory collapse): hypoxia, desaturation, shock.\n2. Second (hemorrhagic): due to DIC — leads to massive bleeding.\n\nThus, hemorrhage is a key sign in the second phase.",
+    "additional": "NCK twist: You may get a case describing sudden collapse post-delivery, hypoxia, seizures → followed by vaginal bleeding — classic AFE.\n\nAlso review: CPR in pregnancy, oxygenation, blood transfusion protocols.\n\nLinked units: Obstetric emergencies, Coagulopathies, Critical care."
+  },
+  {
+    "question": "During the first examination of a newborn, the midwife noted a vertebral defect located at the 5th lumbar vertebrae and characterised by a small dimple. The defect is likely to be;",
+    "options": {
+      "A": "Meningocele",
+      "B": "Chiari malformation",
+      "C": "Spina bifida",
+      "D": "Meningomyelocele"
+    },
+    "answer": "C",
+    "explanation": "A skin dimple over the lower spine (L5) is a hallmark of spina bifida occulta — a mild form of neural tube defect. Unlike meningocele or meningomyelocele, there’s no protrusion.\n\nChiari malformation affects the brainstem/cerebellum and is not visible externally.",
+    "additional": "NCK twist: May give physical findings like hair tuft, sacral dimple, or ask which test confirms — answer: spinal ultrasound/MRI.\n\nAlso review folic acid role in prevention, screening via AFP in pregnancy.\n\nLinked units: Pediatric neurology, Antenatal care, Neonatal exams."
+  },
+  {
+    "question": "In third degree of uterine inversion;",
+    "options": {
+      "A": "The uterus and cervix are inverted but not visible",
+      "B": "The uterus, cervix and vagina are inverted and visible",
+      "C": "The corpus of the uterus is inverted to the internal os",
+      "D": "The fundus reaches the internal os"
+    },
+    "answer": "B",
+    "explanation": "In 3rd-degree inversion, the entire uterus, cervix, and sometimes vaginal walls prolapse through the vulva and are externally visible.\n\nOption A describes 2nd degree; C and D describe 1st-degree or partial inversion.",
+    "additional": "NCK twist: You may get a case — 'Immediately after placenta delivery, a mass is seen protruding from the vagina, mother is in shock' — think uterine inversion.\n\nManagement: Manual repositioning, tocolytics, surgical repair.\n\nLinked units: Postpartum complications, Emergency obstetrics, Shock management."
+  },
+  {
+    "question": "Indication of dilatation and curettage include",
+    "options": {
+      "A": "Complete abortion",
+      "B": "Incomplete abortion",
+      "C": "Undiagnosed pelvic pain",
+      "D": "Retained intrauterine device"
+    },
+    "answer": "B",
+    "explanation": "D&C is indicated in incomplete abortion to evacuate retained products and prevent infection/bleeding. Complete abortion requires no further intervention.\n\nOther uses include diagnosis of abnormal uterine bleeding, not pain or IUD removal.",
+    "additional": "NCK twist: May provide US findings showing retained tissue or describe bleeding + open cervix in early pregnancy.\n\nAlso review risks: perforation, infection, Asherman’s syndrome.\n\nRelated units: Obstetrics, Gynaecology procedures, Miscarriage management."
+  },
+  {
+    "question": "The priority nursing intervention for a patient with septic abortion is",
+    "options": {
+      "A": "Taking vaginal and cervical swab for culture and sensitivity",
+      "B": "Take relevant history emphasizing on why abortion was done",
+      "C": "Evacuating the infected products of infection as soon as possible",
+      "D": "Starting her on normal saline infusion and intravenous Ceftriaxone"
+    },
+    "answer": "D",
+    "explanation": "In septic abortion, the patient is at risk of progressing to septic shock. The immediate priority is **fluid resuscitation and broad-spectrum IV antibiotics** to stabilize and prevent systemic spread. Evacuation of uterine contents follows once stabilized.\n\nCultures and history are important but not immediate priorities when patient is critically ill.",
+    "additional": "NCK twist: Scenario may include fever, foul vaginal discharge, hypotension, and lower abdominal pain — classic septic abortion. Correct response is to stabilize first, not evacuate immediately.\n\nAlso review: Sepsis protocol, resuscitation measures, and postabortion care guidelines.\n\nRelated units: Emergency obstetrics, Critical care, Infectious diseases."
+  },
+  {
+    "question": "The following blood vessels are found in the umbilical cord: -",
+    "options": {
+      "A": "2 umbilical veins and 2 umbilical arteries",
+      "B": "1 umbilical artery and 1 umbilical vein",
+      "C": "2 umbilical veins and 2 umbilical arteries",
+      "D": "1 umbilical vein and 2 umbilical arteries"
+    },
+    "answer": "D",
+    "explanation": "Normal umbilical cord anatomy includes:\n- **2 arteries** (carry deoxygenated blood from fetus to placenta)\n- **1 vein** (carries oxygenated blood to fetus)\n\nThis 3-vessel cord is vital for fetal circulation.",
+    "additional": "NCK twist: May give a diagram or mention 'cord has only 2 vessels' — suspect congenital anomalies.\n\nAlso tested during newborn assessment: if 2-vessel cord is found, further anomaly screening is needed.\n\nLinked units: Anatomy & Physiology, Obstetrics, Neonatal care."
+  },
+  {
+    "question": "Signs and symptoms of urinary tract infection during puerperium include;",
+    "options": {
+      "A": "Dysuria, raised temperature",
+      "B": "Oliguria, hematuria",
+      "C": "General malaise, raised temperature",
+      "D": "Polyuria, raised temperature"
+    },
+    "answer": "A",
+    "explanation": "UTIs during puerperium typically present as:\n- **Dysuria** (painful urination)\n- **Fever**\n- **Urgency, frequency**\nThese occur due to catheter use, perineal trauma, or urinary stasis post-delivery.",
+    "additional": "NCK twist: They may ask for complications of untreated UTI — e.g., pyelonephritis, sepsis.\n\nAlso watch for vague symptoms like 'new mother with chills and lower abdominal pain' — think infection.\n\nLinked units: Postnatal care, Infection control, Renal system."
+  },
+  {
+    "question": "What is the first line treatment for psychosis?",
+    "options": {
+      "A": "Antipsychotics",
+      "B": "Antidepressants",
+      "C": "Antibiotics",
+      "D": "Anxiolytics"
+    },
+    "answer": "A",
+    "explanation": "Antipsychotics are the cornerstone treatment for psychotic disorders (e.g., schizophrenia, delusional disorder, acute psychotic break). They help reduce hallucinations, delusions, and disorganized thought.\n\nAntidepressants are used for mood disorders. Anxiolytics (like benzodiazepines) are adjuncts for agitation or anxiety, not core treatment.",
+    "additional": "NCK twist: They might describe a case with hallucinations, paranoid delusions, and impaired reality testing — expect 'antipsychotics' as first-line.\n\nKnow examples: Haloperidol, Olanzapine, Risperidone.\n\nLinked units: Mental Health Nursing, Pharmacology, Emergency Psychiatry."
+  },
+  {
+    "question": "Which of the following instructions observed during neonatal resuscitation is correct:",
+    "options": {
+      "A": "By taking adrenaline 1:10000, dilute to make 1:1000, by adding 9mls of water for injection to 1 ml of adrenaline to make 10mls",
+      "B": "Stop after 30 minutes of resuscitation if the baby is not breathing and pulse is absent",
+      "C": "3-4cm of the baby’s chest to avoid complications",
+      "D": "With secretions, never hold an infant upside down to clear secretions."
+    },
+    "answer": "D",
+    "explanation": "Correct: **Never hold a newborn upside down** to clear secretions — it risks injury and is outdated. Suctioning should be done using a bulb syringe or suction catheter while the infant is lying supine with slight neck extension.\n\nThe other statements contain dangerous or incorrect practices, particularly adrenaline dilution and depth of chest compression.",
+    "additional": "NCK twist: May describe incorrect technique (e.g., 'midwife holds infant upside down to slap back') and ask for correction.\n\nAlso review: 30:2 ratio, HR monitoring, correct dosing of adrenaline (1:10,000, NOT 1:1000).\n\nLinked units: Neonatal emergencies, Basic Life Support (NALS), Resuscitation guidelines."
+  },
+  {
+    "question": "The management of physiological jaundice of mild form in a newborn includes;",
+    "options": {
+      "A": "Increasing the frequency of feeding, observing for the degree of jaundice, checking the serum level",
+      "B": "Intravenous fluids, observing for the degree of jaundice, early feeding",
+      "C": "Phototherapy, nasogastric tube feeding, observing the degree of jaundice",
+      "D": "Early feeding, phototherapy, observing for the degree of jaundice"
+    },
+    "answer": "A",
+    "explanation": "In mild physiological jaundice:\n- **Frequent feeding** promotes bilirubin excretion via stool\n- **Observation** is key to monitor progression\n- Serum bilirubin levels guide if further treatment is needed\n\nPhototherapy is for moderate-severe cases.",
+    "additional": "NCK twist: They may give a newborn case with yellowing after day 2 and ask whether it’s physiological or pathological jaundice — physiological usually starts after 24h.\n\nKnow thresholds for phototherapy, breastfeeding impact, and when to escalate.\n\nLinked topics: Neonatal care, Hepatobiliary function, Pediatrics."
+  },
+  {
+    "question": "The classic symptoms of adrenal insufficiency are",
+    "options": {
+      "A": "Moon face, hyperkalemia, hypertension",
+      "B": "Sporadic hypertension, tachycardia, palpitations",
+      "C": "Hypercalcemia, bone pain, Palpitations",
+      "D": "Hyperpigmentation, hyperkalemia, muscle pains"
+    },
+    "answer": "D",
+    "explanation": "Adrenal insufficiency (e.g., Addison’s disease) is characterized by:\n- **Hyperpigmentation** (due to excess ACTH)\n- **Hyperkalemia and hyponatremia** (from aldosterone deficiency)\n- **Muscle pain, fatigue, hypotension**\n\nMoon face is seen in Cushing’s (excess cortisol), not Addison’s.",
+    "additional": "NCK twist: They may describe a darkened-skinned patient with salt craving, low BP, and fatigue. Expect adrenal insufficiency.\n\nAlso be ready for crisis presentation — Addisonian crisis (shock, hypoglycemia).\n\nLinked units: Endocrinology, Fluid-electrolyte balance, Emergency nursing."
+  },
+  {
+    "question": "A positive Trousseau’s sign indicates",
+    "options": {
+      "A": "Hyponatremia",
+      "B": "Hypokalemia",
+      "C": "Hypocalcemia",
+      "D": "Hypercalcemia"
+    },
+    "answer": "C",
+    "explanation": "Trousseau’s sign: carpopedal spasm induced by BP cuff inflation — indicates **hypocalcemia**. It’s a neuromuscular irritability sign.\n\nAlso seen in:\n- Chvostek’s sign (facial twitch)\n- Common in thyroidectomy, pancreatitis, renal failure",
+    "additional": "NCK twist: Case-based: 'After thyroid surgery, patient shows carpal spasm with BP cuff' — identify hypocalcemia.\n\nAlso review: Calcium normal range (8.5–10.5 mg/dL), role of vitamin D and PTH.\n\nLinked units: Electrolyte imbalances, Surgical complications, Neuromuscular assessment."
+  },
+  {
+    "question": "The signs/symptoms a nurse should expect in a client diagnosed with hypothyroidism is",
+    "options": {
+      "A": "Exophthalmos and complaints of nervousness",
+      "B": "Complaints of profuse sweating and flushed skin",
+      "C": "Tetany and complaints of stiffness of the hands",
+      "D": "Complaints of extreme fatigue and hair loss"
+    },
+    "answer": "D",
+    "explanation": "Classic features of **hypothyroidism**:\n- Fatigue, cold intolerance\n- Weight gain\n- **Hair loss, constipation, dry skin**\n\nExophthalmos and nervousness (A) indicate hyperthyroidism.\nTetany (C) is from hypocalcemia, not thyroid issues.",
+    "additional": "NCK twist: May describe a sleepy, overweight patient with brittle hair and bradycardia — hypothyroid picture.\n\nAlso test: TSH high, T3/T4 low in primary hypothyroidism.\n\nReview myxedema (severe hypo) vs thyroid storm (hyper).\n\nLinked topics: Endocrine disorders, Metabolic nursing, Patient education."
+  },
+  {
+    "question": "The condition associated with hypotension is",
+    "options": {
+      "A": "Thyrotoxicosis",
+      "B": "Cushings syndrome",
+      "C": "Addison crisis",
+      "D": "Pheocromocytoma"
+    },
+    "answer": "C",
+    "explanation": "**Addisonian crisis** is marked by sudden drop in cortisol → vasodilation and **severe hypotension**, dehydration, hypoglycemia.\n\nCushing’s causes hypertension from cortisol excess. Pheochromocytoma causes hypertension due to catecholamines. Thyrotoxicosis can cause systolic hypertension or arrhythmias.",
+    "additional": "NCK twist: May describe a patient with vomiting, abdominal pain, low BP, and dark skin patches — Addisonian crisis.\n\nTreatment: IV hydrocortisone, fluids, dextrose.\n\nAlso review stress-dose steroids for patients with known Addison’s undergoing surgery.\n\nLinked units: Emergency care, Hormonal disorders, Shock types."
+  },
+  {
+    "question": "A triple-lumen indwelling urinary catheter is inserted for continuous bladder irrigation following a transurethral resection of the prostate. In addition to balloon inflation, the nurse is aware that the functions of the three lumens include:",
+    "options": {
+      "A": "Continuous inflow and outflow of irrigation solution",
+      "B": "Intermittent inflow and continuous outflow of irrigation solution",
+      "C": "Continuous inflow and intermittent outflow of irrigation solution.",
+      "D": "Intermittent flow of irrigation solution and prevention of hemorrhage"
+    },
+    "answer": "A",
+    "explanation": "The triple-lumen catheter is used in TURP for:\n1. Balloon inflation\n2. Continuous inflow of sterile irrigating solution\n3. Continuous outflow of urine + clots\n\nThis prevents clot retention and maintains catheter patency.",
+    "additional": "NCK twist: They may give a case: 'Patient post-TURP has blood clots in urine bag, what action?' — answer: check irrigation flow.\n\nAlso review: signs of obstruction, bladder spasms, how to manage CBI (continuous bladder irrigation).\n\nLinked units: Surgical nursing, Genitourinary system, Post-op care."
+  },
+  {
+    "question": "Mr. K has been diagnosed with chronic kidney disease and has a glomerular filtration rate (GFR) of 58ml/min, state the stage he is in:",
+    "options": {
+      "A": "Stage 4",
+      "B": "Stage 2",
+      "C": "Stage 3",
+      "D": "Stage 1"
+    },
+    "answer": "C",
+    "explanation": "**Stage 3 CKD** is defined as GFR between 30–59 ml/min. Mr. K’s GFR of 58 places him in **Stage 3A**.\n\nStages:\n- Stage 1: ≥90\n- Stage 2: 60–89\n- Stage 3: 30–59\n- Stage 4: 15–29\n- Stage 5: <15 (ESRD)",
+    "additional": "NCK twist: You might be given lab results (GFR, creatinine, BUN) and asked to stage CKD.\n\nAlso review management: low-protein diet, BP control, nephrology referral at stage 3–4.\n\nLinked topics: Renal system, Lab interpretation, Chronic disease management."
+  },
+  {
+    "question": "A female client with a urinary diversion tells the nurse, This urinary pouch is embarrassing. Everyone will know that I'm not normal. I don't see how I can go out in public anymore. The appropriate nursing diagnosis for her would be;",
+    "options": {
+      "A": "Anxiety related to the presence of urinary diversion.",
+      "B": "Deficient Knowledge about how to care for the urinary diversion.",
+      "C": "Low Self-Esteem related to feelings of worthlessness",
+      "D": "Disturbed Body Image related to creation of a urinary diversion."
+    },
+    "answer": "D",
+    "explanation": "The client’s statements reflect **disturbed body image** — embarrassment, feeling 'not normal', reluctance to socialize. This is common post-diversion (e.g., ileal conduit).\n\nAnxiety or knowledge deficits may coexist but are not the best-fit nursing diagnosis for the emotional/psychological conflict expressed.",
+    "additional": "NCK twist: They may ask about psychosocial nursing priorities in patients with stomas, amputations, mastectomy, etc.\n\nAlso review: therapeutic communication, support group referral, self-care reinforcement.\n\nLinked units: Mental health, Rehabilitation, Urology nursing."
+  },
+  {
+    "question": "The health care provider orders a blood test for prostate-specific antigen (PSA) when an enlarged prostate is palpated during a routine examination of a 56-year-old man. When the patient asks the nurse the purpose of the test, the nurse's response is based on the knowledge that;",
+    "options": {
+      "A": "Elevated levels of PSA are indicative of metastatic cancer of the prostate.",
+      "B": "PSA testing is the gold standard for determining prostrate cancer",
+      "C": "Baseline PSA levels are necessary to determine whether treatment is effective.",
+      "D": "PSA levels are usually elevated in patients with cancer of the prostate."
+    },
+    "answer": "D",
+    "explanation": "PSA (Prostate Specific Antigen) is a protein produced by prostate cells. Elevated PSA levels are **suggestive**, not diagnostic, of prostate cancer. They may also rise in BPH, prostatitis, or recent ejaculation.\n\nPSA levels help in:\n- Screening high-risk patients\n- Monitoring treatment effectiveness\n- Early detection (along with DRE and biopsy)",
+    "additional": "NCK twist: They may ask, 'Which conditions cause PSA elevation aside from cancer?' — BPH and prostatitis.\n\nAlso test age-based PSA thresholds, or interpretation of mild elevation (e.g., 4–10 ng/mL).\n\nLinked topics: Male reproductive system, Oncology screening, Urology nursing."
+  },
+  {
+    "question": "An 18 y/o student is admitted with dark urine, fever, and flank pain and is diagnosed with acute glomerulonephritis. The following is most likely student’s health history:",
+    "options": {
+      "A": "Renal calculi",
+      "B": "Renal trauma",
+      "C": "Recent sore throat",
+      "D": "Family history of acute glomerulonephritis"
+    },
+    "answer": "C",
+    "explanation": "Post-streptococcal glomerulonephritis follows **streptococcal throat or skin infections**, especially in adolescents. Symptoms include:\n- Cola-colored urine\n- Flank pain\n- Edema, hypertension\nImmune complexes deposit in glomeruli → inflammation.",
+    "additional": "NCK twist: Case-based stem: 'Student had untreated sore throat 2 weeks ago, now has facial puffiness and dark urine' → think GN.\n\nReview lab markers: low C3, elevated ASO titer, hematuria with RBC casts.\n\nRelated units: Renal system, Immunology, Pediatrics."
+  },
+  {
+    "question": "Macronutrients,",
+    "options": {
+      "A": "May provide energy but does not support growth and the development of the body",
+      "B": "Includes carbohydrates, fats, proteins and water",
+      "C": "Contain no calories",
+      "D": "Are used in body building"
+    },
+    "answer": "B",
+    "explanation": "**Macronutrients** are nutrients required in large amounts for energy, growth, and body function. They include:\n- Carbohydrates\n- Proteins\n- Fats\n- Water\nMicronutrients include vitamins and minerals.\n\nMacronutrients provide calories and build tissues.",
+    "additional": "NCK twist: They may ask for which macronutrient provides 9 kcal/g (fat), or which builds enzymes (protein).\n\nKnow roles, sources, and deficiencies of each macro.\n\nLinked topics: Nutrition, Growth and development, Health promotion."
+  },
+  {
+    "question": "A surgery that involves the reduction of gastric capacity via laparotomy is known as",
+    "options": {
+      "A": "Fundoplication",
+      "B": "Bariatric surgery",
+      "C": "Vagotomy",
+      "D": "Pyloroplasty"
+    },
+    "answer": "B",
+    "explanation": "**Bariatric surgery** is performed to promote weight loss by reducing stomach size (restrictive) or altering absorption (malabsorptive). Examples include gastric bypass, sleeve gastrectomy.\n\nFundoplication treats GERD. Vagotomy reduces acid production. Pyloroplasty enlarges pyloric opening.",
+    "additional": "NCK twist: Scenario: 'Patient post-gastric bypass develops dumping syndrome' — know complications.\n\nExpect nutrition-based questions: Vitamin B12, iron, protein deficiencies.\n\nLinked units: Gastrointestinal surgery, Obesity management, Nutritional nursing."
+  },
+  {
+    "question": "The main symptom associated with GERD is;",
+    "options": {
+      "A": "Dysphagia",
+      "B": "Heartburn",
+      "C": "Hematemesis",
+      "D": "Melena"
+    },
+    "answer": "B",
+    "explanation": "**Heartburn (pyrosis)** is the hallmark symptom of GERD due to reflux of gastric acid into the esophagus. It may worsen after meals, at night, or lying flat.\n\nDysphagia occurs in advanced GERD. Hematemesis and melena suggest complications like erosions or ulcers.",
+    "additional": "NCK twist: Case stem may say, 'Patient reports retrosternal burning sensation worse at night' — classic GERD.\n\nAlso review: Lifestyle changes (elevate head, avoid caffeine), use of PPIs and H2 blockers.\n\nLinked units: Digestive system, Pharmacology, Lifestyle counseling."
+  },
+  {
+    "question": "A medication is commonly used to suppress acid production in the treatment of gastric disorder is;-",
+    "options": {
+      "A": "Famotidine",
+      "B": "Tetracycline",
+      "C": "Nystatin",
+      "D": "Metronidazole"
+    },
+    "answer": "A",
+    "explanation": "**Famotidine** is an H2 receptor blocker that suppresses gastric acid secretion — used in peptic ulcer disease, GERD, gastritis.\n\nTetracycline (B) is antibiotic (used in H. pylori triple therapy). Nystatin (C) is antifungal. Metronidazole (D) is antiprotozoal/antibacterial.",
+    "additional": "NCK twist: They may ask for which meds cause B12 deficiency (long-term PPIs) or which block histamine receptors.\n\nReview H. pylori eradication regimens and role of acid suppression.\n\nLinked topics: GIT pharmacology, Antimicrobial agents, Peptic ulcer care."
+  },
+  {
+    "question": "A 60-year-old man with liver cirrhosis is admitted with GIT bleeding, the most likely source of his bleeding is;",
+    "options": {
+      "A": "Colorectal cancer",
+      "B": "Esophageal varices",
+      "C": "Peptic ulcer disease",
+      "D": "Diverticulosis"
+    },
+    "answer": "B",
+    "explanation": "**Esophageal varices** develop due to portal hypertension from cirrhosis. They are thin-walled veins prone to rupture → life-threatening bleeding.\n\nMelena, hematemesis, and hypotension are common presentations.\n\nOther causes are possible but less likely in cirrhotic patients.",
+    "additional": "NCK twist: Patient may present with vomiting blood, low BP, and liver stigmata — think variceal bleed.\n\nEmergency treatment: Octreotide, endoscopy banding, beta blockers.\n\nRelated units: Hepatology, Emergency care, Portal hypertension."
+  },
+  {
+    "question": "The nurse is aware that one of the following is the most common complication of blood transfusion",
+    "options": {
+      "A": "Anaphylaxis",
+      "B": "Hemolytic reaction",
+      "C": "Febrile reaction",
+      "D": "Graft versus host reaction"
+    },
+    "answer": "C",
+    "explanation": "**Febrile non-hemolytic reaction** is the most common transfusion reaction. It’s caused by cytokines or antibodies reacting to donor white cells.\nSymptoms: fever, chills, mild discomfort, usually self-limiting.\n\nHemolytic reaction is serious but less common.",
+    "additional": "NCK twist: Case-based — 'Patient develops chills and temp of 38.8°C 20 minutes after starting transfusion' — stop transfusion, report, monitor.\n\nAlso review: ABO incompatibility, urticaria, TACO vs TRALI.\n\nLinked units: Hematology, Emergency nursing, IV therapy."
+  },
+  {
+    "question": "A 10-year-old child presents to the emergency department with wheezing, cough and intercostal recessions. He had previously been given Salbutamol with little relief. The nurse should anticipate administration of:",
+    "options": {
+      "A": "Hydrocortisone",
+      "B": "Epinephrine",
+      "C": "Ipratropium",
+      "D": "Adrenaline"
+    },
+    "answer": "A",
+    "explanation": "In moderate to severe **asthma exacerbation**, after Salbutamol, the next step is systemic **corticosteroids** like Hydrocortisone or Prednisolone to reduce airway inflammation.\n\nEpinephrine and adrenaline are used in anaphylaxis. Ipratropium is adjunct, not first-line.",
+    "additional": "NCK twist: They may describe worsening asthma despite Salbutamol — ask next med. Correct: steroids.\n\nAlso test asthma classification, inhaler technique, peak flow use.\n\nLinked units: Pediatric respiratory, Emergency protocols, Pharmacology."
+  },
+  {
+    "question": "One of the following is most likely to be observed in a child with type 1 diabetes mellitus:",
+    "options": {
+      "A": "Bradycardia",
+      "B": "Weight gain",
+      "C": "Fatigue",
+      "D": "Hyperactivity"
+    },
+    "answer": "C",
+    "explanation": "**Fatigue** is a common early sign of type 1 diabetes in children due to glucose not entering cells. Other signs: polyuria, polydipsia, weight loss, enuresis.\n\nBradycardia and hyperactivity are not typical findings.",
+    "additional": "NCK twist: Expect a stem with fatigue, bedwetting, and thirst in a school-aged child — test for blood sugar.\n\nAlso review insulin regimens, DKA recognition, carb counting.\n\nLinked units: Endocrinology, Pediatric chronic illness, School health nursing."
+  },
+  {
+    "question": "The appropriate dressing for spina bifida lesion in a newborn before surgery is:",
+    "options": {
+      "A": "Moist sterile dressing",
+      "B": "Dry gauze",
+      "C": "A hydrocolloid dressing",
+      "D": "Occlusive Vaseline gauze"
+    },
+    "answer": "A",
+    "explanation": "**Moist sterile dressing (usually saline-soaked)** maintains hydration of exposed neural tissue and prevents infection before surgical closure.\n\nDry dressings can damage tissue. Occlusive Vaseline is not appropriate for neural exposure.",
+    "additional": "NCK twist: They may describe a baby with a sacral lesion leaking fluid — your priority is sterile, moist coverage.\n\nAlso test: positioning (prone), no diaper, early surgery.\n\nLinked topics: Neural tube defects, Neonatal surgery, Infection prevention."
+  },
+  {
+    "question": "Which one of the following is a primary symptom of otitis media in infants",
+    "options": {
+      "A": "Ear discharge",
+      "B": "Crying and irritability",
+      "C": "Swelling around the ear",
+      "D": "Itching in the ear canal"
+    },
+    "answer": "B",
+    "explanation": "**Crying and irritability** are common signs of otitis media in infants, often due to ear pain and pressure.\n\nEar discharge is late or in perforation. Swelling may indicate mastoiditis. Itching is seen more in otitis externa.",
+    "additional": "NCK twist: They may describe night waking, tugging at ear post-cold — classic for acute otitis media.\n\nReview antibiotic choices, when to refer, and complications like hearing loss.\n\nLinked units: Pediatric ENT, Infection, Health assessment."
+  },
+  {
+    "question": "A nurse is caring for a mother in active labor. The best nursing intervention that will promote maternal bearing down reflex includes:",
+    "options": {
+      "A": "Discourage mother from pushing before full dilation",
+      "B": "Encourage the mother to push with the contraction",
+      "C": "Encourage use of panting respiration",
+      "D": "Encourage breathing exercises in latent phase"
+    },
+    "answer": "B",
+    "explanation": "During **active second stage** of labor, the nurse should encourage pushing **with contractions** to promote fetal descent. This enhances the natural bearing-down reflex and reduces labor duration.\n\nPushing before full dilation risks cervical edema.",
+    "additional": "NCK twist: They may give a case: 'Mother fully dilated, urges to push with contractions' — correct action is support and coach pushing.\n\nAlso know stages of labor, contraindications to early pushing.\n\nLinked units: Intrapartum care, Labor mechanics, Midwifery skills."
+  },
+  {
+    "question": "The nurse is assessing a patient with mild preeclampsia. Which finding would the nurse most likely expect?",
+    "options": {
+      "A": "Severe headache and blurred vision",
+      "B": "BP of 180/110 mmHg",
+      "C": "BP of 140/90 mmHg and proteinuria",
+      "D": "Decreased urinary output and epigastric pain"
+    },
+    "answer": "C",
+    "explanation": "**Mild preeclampsia** is diagnosed with:\n- BP ≥140/90 mmHg (on 2 readings)\n- Proteinuria ≥300 mg/24hr\n\nSevere features (headache, visual changes, epigastric pain, oliguria) appear in **severe preeclampsia**.",
+    "additional": "NCK twist: May describe a pregnant woman at 32 weeks with BP 146/92, no complaints — diagnosis? Mild preeclampsia.\n\nReview labs: LFTs, platelets, urinalysis.\n\nLinked units: Obstetrics, Antenatal complications, Maternity triage."
+  },
+  {
+    "question": "A child weighing 20kg is to be given a medication with a dosage of 2.5mg/kg. Calculate the total dose to be administered to the child.",
+    "options": {
+      "A": "25mg",
+      "B": "40mg",
+      "C": "50mg",
+      "D": "45mg"
+    },
+    "answer": "C",
+    "explanation": "To calculate total dose:\n\n2.5 mg/kg × 20 kg = **50 mg**.\n\nAlways use weight-based calculations accurately for pediatric patients to avoid underdosing or overdosing.",
+    "additional": "NCK twist: They might give a distractor unit like '2.5g/kg' or misalign dose units — always cross-check.\n\nAlso be ready to calculate volume: e.g., 'If concentration is 25mg/ml, how many mLs for a 50mg dose?' Answer: 2ml.\n\nLinked units: Pediatric nursing, Drug dosage, Safe medication administration."
+  },
+  {
+    "question": "Which insulin is most appropriate to control blood glucose levels after meals?",
+    "options": {
+      "A": "Lente",
+      "B": "Regular",
+      "C": "NPH",
+      "D": "Glargine"
+    },
+    "answer": "B",
+    "explanation": "**Regular insulin** is short-acting, with onset around 30–60 minutes and peak 2–4 hours. It is commonly administered **before meals** to manage postprandial glucose spikes.\n\nGlargine is long-acting (basal), NPH is intermediate, Lente is rarely used now.",
+    "additional": "NCK twist: They may describe a patient who 'eats lunch at 1pm, and you’re planning insulin at 12:30pm' — correct insulin is regular.\n\nAlso review insulin types, onset-peak-duration, hypoglycemia signs.\n\nLinked units: Endocrinology, Diabetes care, Pharmacology."
+  },
+  {
+    "question": "Which drug requires therapeutic drug level monitoring to avoid toxicity?",
+    "options": {
+      "A": "Paracetamol",
+      "B": "Atenolol",
+      "C": "Digoxin",
+      "D": "Loratidine"
+    },
+    "answer": "C",
+    "explanation": "**Digoxin** has a narrow therapeutic index and requires level monitoring. Toxicity can occur quickly, especially in renal impairment.\nSigns of toxicity: nausea, visual disturbances, bradycardia.\n\nNormal range: 0.5–2.0 ng/mL.",
+    "additional": "NCK twist: Case with 'green-yellow halos, nausea, bradycardia' — think digoxin toxicity.\n\nAlso test interaction with diuretics (hypokalemia ↑ toxicity), monitor HR before giving.\n\nLinked topics: Cardiac drugs, Medication safety, Drug monitoring."
+  },
+  {
+    "question": "Which of the following medications is contraindicated in pregnancy?",
+    "options": {
+      "A": "Methotrexate",
+      "B": "Paracetamol",
+      "C": "Amoxicillin",
+      "D": "Erythromycin"
+    },
+    "answer": "A",
+    "explanation": "**Methotrexate** is teratogenic and contraindicated in pregnancy — it can cause fetal death and malformations. It is used for ectopic pregnancies or autoimmune conditions (outside pregnancy).\n\nParacetamol, Amoxicillin, and Erythromycin are generally safe in pregnancy.",
+    "additional": "NCK twist: May ask for 'drugs that induce abortion or treat ectopic pregnancy' — answer: methotrexate.\n\nAlso test pregnancy categories (A, B, C, D, X).\n\nLinked topics: Obstetric pharmacology, Family planning, Drug safety."
+  },
+  {
+    "question": "Which of the following medications is a common cause of hypokalemia?",
+    "options": {
+      "A": "Furosemide",
+      "B": "Spironolactone",
+      "C": "Enalapril",
+      "D": "Amiloride"
+    },
+    "answer": "A",
+    "explanation": "**Furosemide**, a loop diuretic, causes potassium loss through the kidneys, often leading to **hypokalemia**. It also leads to hypovolemia and metabolic alkalosis if not monitored.\n\nSpironolactone and Amiloride are potassium-sparing.\nEnalapril (an ACE inhibitor) can cause hyperkalemia.",
+    "additional": "NCK twist: Case-based stem: 'Patient on a diuretic has muscle weakness and irregular heartbeat, K+ is 2.9 mmol/L' — identify furosemide.\n\nAlso test K+ normal range, ECG signs, replacement strategies.\n\nLinked units: Renal pharmacology, Electrolyte imbalance, Cardiac care."
+  },
+  {
+    "question": "A patient is to receive 1 liter of IV fluid over 8 hours. The IV giving set delivers 20 drops per ml. Calculate the drip rate per minute.",
+    "options": {
+      "A": "25 drops/min",
+      "B": "42 drops/min",
+      "C": "21 drops/min",
+      "D": "28 drops/min"
+    },
+    "answer": "B",
+    "explanation": "Drip rate formula:\n(Volume × Drop factor) ÷ Time (in minutes)\n= (1000 × 20) ÷ 480 = 20,000 ÷ 480 = **41.6 ≈ 42 drops/min**\n\nAlways round to nearest whole number when calculating drops.",
+    "additional": "NCK twist: May confuse drop factor (20 drops/ml vs 60 microdrops). Always confirm giving set type.\n\nAlso be ready for pediatric IV calculations or ml/hr conversion.\n\nLinked topics: Fluid therapy, Nursing math, Clinical pharmacology."
+  },
+  {
+    "question": "Controlled drugs are kept in a",
+    "options": {
+      "A": "Open shelf",
+      "B": "Nurse’s office",
+      "C": "Locked cupboard",
+      "D": "Medication trolley"
+    },
+    "answer": "C",
+    "explanation": "**Controlled drugs** (CDs) such as opioids and psychotropics must be stored in a **double-locked, secured cupboard** to prevent diversion or misuse.\n\nAccess is restricted and must be documented in a CD register.",
+    "additional": "NCK twist: May ask who has access to CD keys (authorized nurse), or documentation procedure (date, time, dose, balance).\n\nAlso test common CDs: Morphine, Pethidine, Diazepam.\n\nLinked units: Legal nursing practice, Drug regulation, Safety protocols."
+  },
+  {
+    "question": "The antidote for paracetamol overdose is",
+    "options": {
+      "A": "Flumazenil",
+      "B": "Naloxone",
+      "C": "N-acetylcysteine",
+      "D": "Atropine"
+    },
+    "answer": "C",
+    "explanation": "**N-acetylcysteine (NAC)** is the antidote for paracetamol (acetaminophen) overdose. It replenishes glutathione, preventing liver damage.\n\nNaloxone is for opioid overdose. Flumazenil is for benzodiazepines. Atropine is used in bradycardia or organophosphate poisoning.",
+    "additional": "NCK twist: Case stem: 'Patient took 10 tablets of paracetamol 6 hours ago' — immediate answer: start NAC protocol.\n\nAlso test: hepatotoxicity signs, time window for NAC (best within 8 hrs).\n\nLinked topics: Toxicology, Emergency pharmacology, Liver care."
+  },
+  {
+    "question": "Which of the following is the best method to ensure correct pediatric drug dosage?",
+    "options": {
+      "A": "Using adult dose and dividing by two",
+      "B": "Using child’s weight to calculate dose",
+      "C": "Checking child’s age and height",
+      "D": "Giving the standard pediatric dose"
+    },
+    "answer": "B",
+    "explanation": "**Weight-based dosing (mg/kg)** is the safest and most accurate way to determine pediatric drug dosage. Children vary significantly in metabolism and body composition.\n\nStandard doses or age-based guesses increase risk of under/overdose.",
+    "additional": "NCK twist: May give a child’s weight and ask for a calculation, or present a dosing error scenario — choose weight-based correction.\n\nKnow common pediatric formulas: Clark’s rule, Fried’s rule (but mg/kg is most preferred).\n\nLinked units: Pediatric nursing, Drug safety, Growth monitoring."
+  },
+  {
+    "question": "To monitor effectiveness of warfarin therapy, the nurse should monitor:",
+    "options": {
+      "A": "Blood glucose",
+      "B": "Serum creatinine",
+      "C": "PT/INR",
+      "D": "Platelet count"
+    },
+    "answer": "C",
+    "explanation": "**Prothrombin Time (PT) and International Normalized Ratio (INR)** are used to monitor **warfarin** effectiveness.\n\nTarget INR for most conditions: 2.0–3.0.\n\nMonitoring is critical to balance anticoagulation and bleeding risk.",
+    "additional": "NCK twist: Patient may be on warfarin post-DVT, valve surgery — they'll ask for appropriate test or interpretation.\n\nAlso know interaction with vitamin K, antibiotics, NSAIDs.\n\nLinked units: Cardiovascular pharmacology, Lab interpretation, Bleeding risk management."
+  },
+  {
+    "question": "A 24-year-old woman presents to the clinic seeking family planning. She has a history of irregular heavy menstrual bleeding. The most suitable contraceptive method is:",
+    "options": {
+      "A": "Copper IUCD",
+      "B": "Combined oral contraceptive pills",
+      "C": "Levonorgestrel intrauterine system (LNG-IUS)",
+      "D": "Condoms"
+    },
+    "answer": "C",
+    "explanation": "The **Levonorgestrel-releasing intrauterine system (LNG-IUS)** (e.g., Mirena) not only provides long-term contraception but also reduces menstrual bleeding and can treat menorrhagia.\n\nCopper IUCD may worsen bleeding. COCPs are an option, but not first-line if bleeding is heavy and irregular.",
+    "additional": "NCK twist: May describe a woman with menorrhagia and ask for a contraceptive that 'treats and prevents pregnancy' — correct answer is LNG-IUS.\n\nAlso test IUCD complications, insertion timing, and patient eligibility.\n\nLinked units: Family planning, Gynecology, Client counseling."
+  },
+  {
+    "question": "The nurse is caring for a postpartum mother 8 hours after delivery. Which of the following findings should be reported immediately?",
+    "options": {
+      "A": "Fundus firm and at the umbilicus",
+      "B": "Lochia rubra with small clots",
+      "C": "Saturating a pad every 15 minutes",
+      "D": "Cramping sensation during breastfeeding"
+    },
+    "answer": "C",
+    "explanation": "**Saturating a pad every 15 minutes** is a red flag for **postpartum hemorrhage (PPH)**.\n\nNormal: Fundus should be firm, midline, and lochia rubra is expected. Cramping with breastfeeding is due to oxytocin release and is normal.",
+    "additional": "NCK twist: Scenario may say '8 hrs postpartum, soaking pad every 10–15 mins, fundus boggy' — act fast. Massage fundus, call for help.\n\nKnow causes: Tone, Tissue, Trauma, Thrombin.\n\nLinked topics: Postnatal care, Maternal emergencies, Vital sign trends."
+  },
+  {
+    "question": "Which of the following signs indicates true labor?",
+    "options": {
+      "A": "Contractions stop with walking",
+      "B": "Cervical dilation and effacement",
+      "C": "Irregular contractions felt in the abdomen",
+      "D": "No change in vaginal discharge"
+    },
+    "answer": "B",
+    "explanation": "**Cervical changes (dilation and effacement)** confirm **true labor**.\n\nFalse labor (Braxton Hicks) involves irregular, non-progressive contractions that resolve with activity.\n\nTrue labor = regular contractions + progressive cervical change.",
+    "additional": "NCK twist: Watch for case stems comparing false vs true labor. Cervical changes = the decider.\n\nAlso test stages of labor, labor signs (bloody show, ROM), admission criteria.\n\nLinked units: Intrapartum care, Obstetrics, Reproductive health."
+  },
+  {
+    "question": "Which of the following findings in a 39-week fetus during labor requires immediate intervention?",
+    "options": {
+      "A": "Accelerations in fetal heart rate",
+      "B": "Early decelerations",
+      "C": "Variable decelerations",
+      "D": "Late decelerations"
+    },
+    "answer": "D",
+    "explanation": "**Late decelerations** (HR drops after contractions) suggest **uteroplacental insufficiency**, which may cause fetal hypoxia. It requires immediate intervention: reposition mother, oxygen, fluids, stop oxytocin.\n\nAccelerations and early decels are usually benign.",
+    "additional": "NCK twist: FHR tracing with 'deceleration begins after peak of contraction' — late decels.\n\nReview VEAL CHOP mnemonic:\n- Variable = Cord compression\n- Early = Head compression\n- Accel = Okay\n- Late = Placental insufficiency\n\nLinked units: Fetal monitoring, Labor management, Neonatal risk assessment."
+  },
+  {
+    "question": "A client in labor is receiving an oxytocin infusion to stimulate contractions. The nurse observes that the contractions are occurring every 90 seconds and lasting 100 seconds. The appropriate action is:",
+    "options": {
+      "A": "Continue monitoring the client",
+      "B": "Decrease the oxytocin infusion rate",
+      "C": "Turn the client on her back",
+      "D": "Encourage the client to ambulate"
+    },
+    "answer": "B",
+    "explanation": "Contractions lasting longer than 90 seconds or occurring too frequently (less than 2 min apart) indicate **uterine hyperstimulation**, which can compromise fetal oxygenation.\n\nCorrect action: **Reduce oxytocin** and reposition mother (not supine).",
+    "additional": "NCK twist: They may describe contraction pattern + fetal bradycardia — clue to overstimulation.\n\nAlso test oxytocin side effects: hypertonicity, water intoxication, uterine rupture.\n\nLinked units: Pharmacologic labor induction, Fetal distress, Labor monitoring."
+  },
+  {
+    "question": "The nurse should monitor a pregnant woman with iron deficiency anemia for:",
+    "options": {
+      "A": "Polyhydramnios",
+      "B": "Preterm labor",
+      "C": "Gestational diabetes",
+      "D": "Eclampsia"
+    },
+    "answer": "B",
+    "explanation": "**Iron deficiency anemia** in pregnancy is associated with an increased risk of **preterm labor, low birth weight**, and perinatal mortality.\n\nPolyhydramnios is more related to diabetes or fetal anomalies. Eclampsia links with preeclampsia. Anemia is not a direct risk factor for GDM.",
+    "additional": "NCK twist: May phrase as 'pregnant woman has Hb 8.4g/dL at 28 weeks, what are risks?' — answer: preterm, fetal compromise.\n\nReview iron dosing, absorption (with vitamin C), and side effects.\n\nLinked topics: Antenatal care, Maternal nutrition, Fetal growth."
+  },
+  {
+    "question": "A woman at 30 weeks’ gestation is admitted with severe headache, blurred vision and epigastric pain. Her BP is 170/112 mmHg. What is the priority nursing action?",
+    "options": {
+      "A": "Administer paracetamol and observe",
+      "B": "Start IV fluids rapidly",
+      "C": "Initiate magnesium sulfate therapy",
+      "D": "Encourage ambulation and deep breathing"
+    },
+    "answer": "C",
+    "explanation": "The symptoms and BP indicate **severe preeclampsia** with risk of **eclampsia**. Immediate action: **administer magnesium sulfate** to prevent seizures and lower BP with antihypertensives.\n\nParacetamol does not treat the cause. Fluids can worsen edema. Ambulation is not advised in this case.",
+    "additional": "NCK twist: May phrase with altered LOC or clonus — be ready to start MgSO₄ and monitor reflexes.\n\nReview MgSO₄ toxicity signs (↓RR, ↓reflexes, ↓UO) and antidote (calcium gluconate).\n\nLinked topics: Hypertensive disorders in pregnancy, Emergency maternity care."
+  },
+  {
+    "question": "Which of the following indicates that uterine involution is occurring normally during the postpartum period?",
+    "options": {
+      "A": "Fundus is soft and boggy",
+      "B": "Lochia rubra persists for 3 weeks",
+      "C": "Fundus descends about 1 cm per day",
+      "D": "Lochia serosa appears on day 1 postpartum"
+    },
+    "answer": "C",
+    "explanation": "Normal **uterine involution** is characterized by a firm, midline fundus that descends ~1 cm/day. By 10–14 days, the uterus is no longer palpable abdominally.\n\nBoggy fundus = risk of hemorrhage. Rubra persists for 3–4 days, serosa follows.",
+    "additional": "NCK twist: May describe day-by-day changes and ask if involution is on track. Know sequence of lochia: rubra → serosa → alba.\n\nFundus not descending = retained products or infection.\n\nLinked units: Postnatal assessment, Uterine health, Maternity charting."
+  },
+  {
+    "question": "The nurse observes a 2-day-old newborn with yellowish discoloration of the skin and sclera. What should the nurse do first?",
+    "options": {
+      "A": "Reassure the mother that this is normal",
+      "B": "Encourage breastfeeding every 4 hours",
+      "C": "Report findings for bilirubin assessment",
+      "D": "Apply warm compress on the newborn’s abdomen"
+    },
+    "answer": "C",
+    "explanation": "**Jaundice** in a newborn within the first 24–72 hours may be physiologic but should always be assessed.\n\nEarly-onset or severe jaundice can indicate hemolytic disease, infection, or metabolic disorder. Bilirubin levels guide treatment (e.g., phototherapy).",
+    "additional": "NCK twist: May ask 'What is the danger of untreated neonatal jaundice?' — kernicterus.\n\nAlso test timing: pathological (<24h), physiological (after 24h), breastfeeding jaundice.\n\nLinked units: Neonatal care, Hematology, Pediatric emergency."
+  },
+  {
+    "question": "Which cultural belief may affect postpartum care among certain communities?",
+    "options": {
+      "A": "Avoiding breastfeeding for the first three days",
+      "B": "Sleeping in a separate room with the baby",
+      "C": "Early ambulation after delivery",
+      "D": "Use of cold baths during the postpartum period"
+    },
+    "answer": "A",
+    "explanation": "Some cultures believe **colostrum is unclean or harmful**, leading to **delayed initiation of breastfeeding**. This may affect newborn nutrition and immunity.\n\nHealth education should respect beliefs while promoting evidence-based care.",
+    "additional": "NCK twist: Expect case-based cultural dilemmas — e.g., mother refuses colostrum or specific food during postpartum. Correct approach is respectful counseling.\n\nLinked topics: Cultural competence, Health promotion, Breastfeeding support."
+  },
+  {
+    "question": "A postpartum mother tells the nurse she feels sad, cries easily, and is overwhelmed but still cares for her baby. The nurse should recognize this as:",
+    "options": {
+      "A": "Postpartum psychosis",
+      "B": "Normal postpartum blues",
+      "C": "Postpartum depression",
+      "D": "Lack of maternal bonding"
+    },
+    "answer": "B",
+    "explanation": "**Postpartum blues** are mild, self-limiting mood changes that affect up to 70–80% of new mothers. They start within a few days postpartum and resolve within 1–2 weeks. Mothers may feel tearful, irritable, or overwhelmed, but are still able to care for their baby.",
+    "additional": "NCK twist: May phrase as 'mother 3 days postpartum cries, feels emotional but feeds baby well' — answer: postpartum blues.\n\nKnow the difference:\n- Blues = normal, short-term\n- Depression = persists, affects bonding\n- Psychosis = hallucinations, emergency\n\nLinked topics: Mental health in maternity, Psychosocial nursing, Client education."
+  },
+  {
+    "question": "Which of the following fetal positions is most favorable for vaginal delivery?",
+    "options": {
+      "A": "Left occipito-anterior (LOA)",
+      "B": "Occipito-posterior (OP)",
+      "C": "Right sacro-posterior (RSP)",
+      "D": "Breech presentation"
+    },
+    "answer": "A",
+    "explanation": "**LOA (Left Occipito-Anterior)** is the optimal fetal position for vaginal delivery. It aligns the baby’s head for smooth descent through the birth canal.\n\nOP positions can lead to longer labors and back pain. Breech often requires C-section. Sacro-posterior applies to breech positions.",
+    "additional": "NCK twist: May give a case with 'baby’s back on mother’s left front, head flexed' — recognize it as LOA.\n\nAlso be ready to label positions on fetal diagrams or identify malpresentations.\n\nLinked units: Intrapartum care, Mechanism of labor, Delivery planning."
+  },
+  {
+    "question": "A woman in labor is fully dilated, but the fetal head is not descending despite strong contractions. The nurse suspects:",
+    "options": {
+      "A": "Cord prolapse",
+      "B": "Uterine atony",
+      "C": "Cephalopelvic disproportion",
+      "D": "Shoulder dystocia"
+    },
+    "answer": "C",
+    "explanation": "**Cephalopelvic disproportion (CPD)** occurs when the fetal head is too large or the maternal pelvis too small, preventing descent. Despite adequate contractions and full dilation, there is no progress in station.",
+    "additional": "NCK twist: Case may describe 'no descent in active second stage despite effective contractions' — answer: CPD.\n\nKnow management includes C-section, and how to differentiate from uterine inertia.\n\nLinked topics: Labor complications, Decision for C/S, Delivery monitoring."
+  },
+  {
+    "question": "During vacuum-assisted delivery, the nurse should monitor the newborn for:",
+    "options": {
+      "A": "Neonatal sepsis",
+      "B": "Retinopathy",
+      "C": "Caput succedaneum",
+      "D": "Brachial plexus injury"
+    },
+    "answer": "C",
+    "explanation": "**Caput succedaneum** is a soft tissue swelling on the scalp caused by vacuum suction pressure. It crosses suture lines and resolves within days.\n\nCephalohematoma (not the same) is blood under periosteum and does not cross suture lines.",
+    "additional": "NCK twist: May describe 'soft swelling on newborn scalp after vacuum delivery' — choose caput succedaneum.\n\nAlso test maternal indications for vacuum, and when to stop attempts.\n\nLinked units: Operative delivery, Neonatal assessment, Birth trauma."
+  },
+  {
+    "question": "Shoulder dystocia is a delivery emergency where:",
+    "options": {
+      "A": "The fetal head fails to engage",
+      "B": "The fetal shoulder gets stuck behind the pubic bone",
+      "C": "There is prolapse of the umbilical cord",
+      "D": "The uterus ruptures during labor"
+    },
+    "answer": "B",
+    "explanation": "**Shoulder dystocia** is when the fetal anterior shoulder gets stuck behind the maternal pubic symphysis after the head delivers. It is a true obstetric emergency requiring maneuvers (McRoberts, suprapubic pressure) to deliver the shoulders.",
+    "additional": "NCK twist: They may describe 'turtle sign' (head retracts after delivery) — classic sign of shoulder dystocia.\n\nAlso test steps: McRoberts, suprapubic pressure, no fundal pressure!\n\nLinked units: Delivery emergencies, Labor mechanics, Midwifery skills."
+  },
+  {
+    "question": "Which of the following is a key nursing priority when providing post-abortion care?",
+    "options": {
+      "A": "Monitoring ovulation",
+      "B": "Assessing urinary retention",
+      "C": "Preventing infection and hemorrhage",
+      "D": "Encouraging early sexual activity"
+    },
+    "answer": "C",
+    "explanation": "After an abortion (spontaneous or induced), the primary concerns are **infection and hemorrhage**, as the uterus remains vulnerable. Monitoring vital signs, bleeding, uterine tone, and signs of sepsis is crucial.",
+    "additional": "NCK twist: May present a case with fever, foul-smelling lochia after abortion — prompt treatment needed.\n\nAlso test post-abortion family planning, Rhesus status, and psychological support.\n\nLinked units: PAC, Reproductive health rights, Infection control."
+  },
+  {
+    "question": "Exclusive breastfeeding is recommended for how long after birth?",
+    "options": {
+      "A": "2 months",
+      "B": "4 months",
+      "C": "6 months",
+      "D": "12 months"
+    },
+    "answer": "C",
+    "explanation": "**WHO recommends exclusive breastfeeding for the first 6 months** of life. This means no other food or drink (not even water). Breast milk provides all nutrients, boosts immunity, and supports development.",
+    "additional": "NCK twist: May ask age to introduce solids (start at 6 months) or what exclusive breastfeeding includes/excludes.\n\nAlso review advantages for both mother and baby.\n\nLinked topics: Infant nutrition, Maternal-child health, Immunity."
+  },
+  {
+    "question": "Which of the following is true regarding the latent phase of labor?",
+    "options": {
+      "A": "Cervical dilation is 0–3 cm",
+      "B": "It includes delivery of the placenta",
+      "C": "Fetus begins descent into pelvis",
+      "D": "Cervical dilation is 6–10 cm"
+    },
+    "answer": "A",
+    "explanation": "**Latent phase** is the first part of the first stage of labor, with **cervical dilation from 0 to 3 cm**. Contractions begin mildly and gradually intensify.\n\n6–10 cm = active phase. Placenta delivery = third stage.",
+    "additional": "NCK twist: Expect stage identification based on dilation, contraction pattern, and behavior (e.g., talking vs focusing).\n\nAlso test timing of stage durations and interventions per stage.\n\nLinked units: Labor process, Midwifery, Client monitoring."
+  },
+  {
+    "question": "Which of the following is a neonatal danger sign requiring immediate attention?",
+    "options": {
+      "A": "Mild jaundice on day 3",
+      "B": "Sleeping for 3 hours between feeds",
+      "C": "Grunting and chest retractions",
+      "D": "Passing meconium within 12 hours"
+    },
+    "answer": "C",
+    "explanation": "**Grunting and chest retractions** are signs of **respiratory distress** in a newborn. These require urgent assessment and intervention to prevent respiratory failure.\n\nMeconium passage within 24 hrs and mild jaundice after 24 hrs are normal.",
+    "additional": "NCK twist: Expect subtle signs — nasal flaring, cyanosis, poor feeding — always treat as emergency.\n\nLinked topics: Neonatal assessment, Respiratory support, Infection in newborns."
+  },
+  {
+    "question": "Which nursing action promotes bonding immediately after birth?",
+    "options": {
+      "A": "Giving baby glucose water before breastfeeding",
+      "B": "Placing baby in warmer for 30 minutes",
+      "C": "Encouraging skin-to-skin contact",
+      "D": "Keeping mother NPO after delivery"
+    },
+    "answer": "C",
+    "explanation": "**Skin-to-skin contact** between mother and baby right after birth promotes bonding, regulates temperature and glucose, and stimulates breastfeeding.\n\nGlucose water interferes with exclusive breastfeeding. Keeping baby in warmer delays bonding.",
+    "additional": "NCK twist: May describe a birth scenario — first action is often skin-to-skin if both are stable.\n\nAlso test Baby-Friendly Hospital Initiative (BFHI) steps.\n\nLinked units: Postnatal care, Breastfeeding, Emotional bonding."
+  },
+  {
+    "question": "A client with active pulmonary tuberculosis is being admitted to the ward. Which type of room is most appropriate?",
+    "options": {
+      "A": "Semi-private room",
+      "B": "Standard medical ward",
+      "C": "Negative pressure isolation room",
+      "D": "Open cubicle with good lighting"
+    },
+    "answer": "C",
+    "explanation": "**Pulmonary TB** is airborne — a **negative pressure isolation room** is required to prevent spread. This room pulls air inward and filters it before it exits the hospital.\n\nSemi-private or open rooms pose risk to others.",
+    "additional": "NCK twist: May test mask type too — use **N95 respirator** for airborne precautions.\n\nAlso expect TB drug regimen, contact tracing, and discharge planning.\n\nLinked units: Airborne diseases, Isolation nursing, Public health protocols."
+  },
+  {
+    "question": "The correct sequence for donning personal protective equipment (PPE) is:",
+    "options": {
+      "A": "Gown → Mask → Goggles → Gloves",
+      "B": "Mask → Gloves → Gown → Goggles",
+      "C": "Gloves → Gown → Goggles → Mask",
+      "D": "Gown → Gloves → Mask → Goggles"
+    },
+    "answer": "A",
+    "explanation": "Correct donning sequence:\n1. **Gown** (body protection first)\n2. **Mask or respirator** (to cover mouth/nose)\n3. **Goggles or face shield** (eye protection)\n4. **Gloves** (last, after touching all other gear)",
+    "additional": "NCK twist: They also test **doffing** (removal order): Gloves → Goggles → Gown → Mask (GGGM).\n\nAlso apply to various diseases (airborne vs contact vs droplet).\n\nLinked topics: PPE, Infection control, Aseptic practice."
+  },
+  {
+    "question": "Which statement about HIV transmission is accurate?",
+    "options": {
+      "A": "It can be spread through sharing utensils",
+      "B": "It is airborne and spreads in crowded areas",
+      "C": "It can be transmitted via unprotected sex and shared needles",
+      "D": "It spreads through mosquito bites"
+    },
+    "answer": "C",
+    "explanation": "HIV is transmitted via:\n- **Unprotected sexual intercourse**\n- **Blood contact** (shared needles, transfusion)\n- **Mother-to-child** (during birth or breastfeeding)\n\nIt is **not spread through air, casual contact, or insects**.",
+    "additional": "NCK twist: May use emotional distractors — 'patient fears eating with HIV-positive roommate' — educate on transmission routes.\n\nAlso review post-exposure prophylaxis (PEP) and PMTCT protocols.\n\nLinked units: HIV/AIDS care, Counseling, Community health."
+  },
+  {
+    "question": "The main reason for using alcohol-based hand sanitizer in the clinical setting is to:",
+    "options": {
+      "A": "Eliminate all types of microorganisms",
+      "B": "Replace the need for handwashing",
+      "C": "Reduce transient organisms on the skin",
+      "D": "Keep hands smelling clean"
+    },
+    "answer": "C",
+    "explanation": "Alcohol-based hand rubs **reduce transient organisms** — these are microbes picked up by contact and are the primary source of transmission.\n\nIt does **not eliminate spores** (e.g., C. difficile), and **does not replace soap and water** in visibly soiled hands.",
+    "additional": "NCK twist: Watch for wrong claims like 'sanitizer kills all germs' — it doesn’t kill spores.\n\nKnow 5 WHO moments for hand hygiene.\n\nLinked units: Hospital infection control, Asepsis, Nurse safety."
+  },
+  {
+    "question": "Which of the following vaccines is given at birth?",
+    "options": {
+      "A": "Measles",
+      "B": "Pentavalent",
+      "C": "BCG and OPV 0",
+      "D": "Vitamin A"
+    },
+    "answer": "C",
+    "explanation": "**BCG** (for TB) and **OPV 0** (oral polio vaccine) are both given at **birth** as per WHO and Kenyan EPI schedules. Vitamin A starts at 6 months; Measles is given at 9 months.",
+    "additional": "NCK twist: May phrase as 'what vaccines before discharge from maternity ward?' — answer still: BCG and OPV 0.\n\nAlso know injection sites and cold chain requirements.\n\nLinked topics: Immunization schedule, Child health, Disease prevention."
+  },
+  {
+    "question": "A nurse accidentally pricks her finger with a needle used on an HIV-positive patient. What is the nurse’s first action?",
+    "options": {
+      "A": "Wash the area with soap and water",
+      "B": "Apply antiseptic and continue working",
+      "C": "Report the incident after the shift",
+      "D": "Start antiretroviral therapy immediately without reporting"
+    },
+    "answer": "A",
+    "explanation": "First action: **immediate washing of the site with soap and water** for at least 30 seconds. Do not squeeze the wound. Next steps include reporting, documentation, and starting **Post-Exposure Prophylaxis (PEP)** if indicated.",
+    "additional": "NCK twist: They test wrong answers like 'apply antiseptic' or 'delay reporting' — don't fall for it.\n\nKnow PEP timing (within 72 hrs), 28-day duration, and follow-up testing at 6 weeks, 3 months, and 6 months.\n\nLinked units: Occupational safety, HIV care, Hospital policy."
+  },
+  {
+    "question": "Which of the following infections is transmitted through the fecal-oral route?",
+    "options": {
+      "A": "Tuberculosis",
+      "B": "HIV",
+      "C": "Hepatitis A",
+      "D": "Hepatitis B"
+    },
+    "answer": "C",
+    "explanation": "**Hepatitis A** is transmitted via the **fecal-oral route**, often through contaminated food or water. It causes acute hepatitis, especially in crowded or poor sanitation settings.\n\nTB is airborne; HIV and Hepatitis B are bloodborne/sexual.",
+    "additional": "NCK twist: Expect 'outbreak at school from contaminated water' or similar — answer: Hepatitis A.\n\nReview prevention: vaccination, hand hygiene, safe water.\n\nLinked topics: GI infections, Public health, Hepatic nursing."
+  },
+  {
+    "question": "A client with gonorrhea should be advised to:",
+    "options": {
+      "A": "Avoid antibiotics if symptoms disappear",
+      "B": "Complete the full course of treatment",
+      "C": "Share medications with their partner",
+      "D": "Take alcohol with antibiotics to help absorption"
+    },
+    "answer": "B",
+    "explanation": "**Gonorrhea** requires full completion of **prescribed antibiotics** even if symptoms improve early. Failure leads to resistance and reinfection.\n\nSexual partners must also be treated.",
+    "additional": "NCK twist: May say 'symptoms stopped after 2 days, patient stops meds' — reinforce full adherence.\n\nAlso test syndromic STI management, partner tracing, and prevention.\n\nLinked units: STI care, Client counseling, Sexual health."
+  },
+  {
+    "question": "What is the correct action if a nurse observes a patient with open pulmonary TB coughing in a general ward?",
+    "options": {
+      "A": "Ask the patient to wear a surgical mask and notify infection control",
+      "B": "Move the patient to a maternity room temporarily",
+      "C": "Tell them to stop coughing",
+      "D": "Double the patient’s antibiotics"
+    },
+    "answer": "A",
+    "explanation": "Open pulmonary TB requires **airborne precautions**. Until isolated, provide a **surgical mask**, limit movement, and notify the infection control team immediately.",
+    "additional": "NCK twist: Look out for wrong answers like 'move to maternity' or 'increase drugs'. Know priority is infection control.\n\nAlso review TB signs, diagnosis (GeneXpert), and DOTS program.\n\nLinked topics: TB nursing, Public safety, Infection protocols."
+  },
+  {
+    "question": "Which of the following is an early sign of sepsis?",
+    "options": {
+      "A": "Warm, flushed skin",
+      "B": "Severe hypotension and cold extremities",
+      "C": "Sudden cardiac arrest",
+      "D": "Coma"
+    },
+    "answer": "A",
+    "explanation": "**Warm, flushed skin** occurs in early sepsis (hyperdynamic phase) due to vasodilation and increased cardiac output. If not treated, it progresses to hypotension, organ failure, and shock.",
+    "additional": "NCK twist: They’ll phrase a feverish patient with high HR, bounding pulse, and flushed skin — answer: early sepsis.\n\nAlso know sepsis 6 bundle: oxygen, cultures, antibiotics, fluids, lactate, urine output.\n\nLinked units: Emergency nursing, Infectious shock, ICU protocols."
+  },
+  {
+    "question": "Which client should the nurse prioritize for assessment during triage in an emergency department?",
+    "options": {
+      "A": "Client with fever and sore throat",
+      "B": "Client with chest pain radiating to the left arm",
+      "C": "Client with a sprained ankle",
+      "D": "Client with mild abdominal pain"
+    },
+    "answer": "B",
+    "explanation": "Chest pain radiating to the left arm may indicate **acute myocardial infarction (heart attack)** and requires **immediate assessment and intervention**.\n\nTriage systems like the Emergency Severity Index (ESI) prioritize based on threat to life, not duration of complaint.",
+    "additional": "NCK twist: Triage often tests 'who to see first?' — Always choose **airway, breathing, circulation threats**.\n\nAlso know triage colors: Red (immediate), Yellow (delayed), Green (minor), Black (deceased).\n\nLinked units: Emergency triage, Cardiac emergencies, Nurse prioritization."
+  },
+  {
+    "question": "A nurse finds an unconscious patient without a pulse or respiration. What is the first action?",
+    "options": {
+      "A": "Start chest compressions",
+      "B": "Call for help",
+      "C": "Open the airway",
+      "D": "Give rescue breaths"
+    },
+    "answer": "B",
+    "explanation": "In **Basic Life Support (BLS)**, the **first step** is to **call for help or activate emergency response**. Then begin **CPR** starting with **chest compressions** if there's no pulse or breathing.\n\nOpening the airway and rescue breaths come after initial compressions.",
+    "additional": "NCK twist: May say 'nurse alone in ward finds patient unresponsive' — key is activate help immediately.\n\nBLS order: Check responsiveness → Call help → CAB (Compression → Airway → Breathing)\n\nLinked topics: BLS/CPR, ACLS foundations, Unresponsive care."
+  },
+  {
+    "question": "A client in shock has cold, clammy skin, weak pulse, and rapid breathing. What is the immediate nursing action?",
+    "options": {
+      "A": "Administer oral fluids",
+      "B": "Place the client in Trendelenburg position",
+      "C": "Initiate IV fluid resuscitation",
+      "D": "Apply warm compresses to extremities"
+    },
+    "answer": "C",
+    "explanation": "Signs indicate **hypovolemic shock** — cold skin, tachypnea, weak pulse. Immediate action is to **start IV fluids rapidly** to restore circulation and perfusion.\n\nOral fluids are contraindicated. Trendelenburg is outdated and ineffective.",
+    "additional": "NCK twist: Look for signs of low perfusion (↓BP, ↑HR, restlessness). Shock = **Circulatory collapse** → Fluids + oxygen.\n\nAlso know shock types (hypovolemic, distributive, cardiogenic).\n\nLinked units: Emergency nursing, Shock management, IV therapy."
+  },
+  {
+    "question": "What is the most effective way to confirm placement of a nasopharyngeal airway?",
+    "options": {
+      "A": "Auscultate the chest",
+      "B": "Check for bilateral chest rise",
+      "C": "Assess for unobstructed airflow through the tube",
+      "D": "Ask the patient to speak"
+    },
+    "answer": "C",
+    "explanation": "For **nasopharyngeal airways**, placement is confirmed by **unobstructed airflow** through the tube during breathing.\n\nChest rise applies more to endotracheal intubation. Auscultation is supportive but not primary here.",
+    "additional": "NCK twist: Airway devices are tested by how you assess their effectiveness — oral vs nasopharyngeal vs endotracheal.\n\nAlso review sizing, insertion angles, and contraindications.\n\nLinked topics: Airway management, Critical care, O2 delivery systems."
+  },
+  {
+    "question": "In burn management, which of the following is most important during the first 24 hours?",
+    "options": {
+      "A": "Antibiotic therapy",
+      "B": "Nutritional support",
+      "C": "Fluid replacement",
+      "D": "Pain control"
+    },
+    "answer": "C",
+    "explanation": "**Fluid resuscitation** is the **top priority** in the first 24 hours after major burns. Burns cause massive fluid shifts leading to hypovolemic shock.\n\nRule of 9s is used to estimate total body surface area (TBSA) burned to guide fluid needs.",
+    "additional": "NCK twist: Expect % burns case with hypotension, tachycardia — answer is always fluid resuscitation.\n\nParkland formula: 4mL × body weight (kg) × %TBSA burned → Half in first 8 hours.\n\nLinked units: Burn emergencies, Fluid balance, ICU care."
+  },
+  {
+    "question": "A client with head trauma has a Glasgow Coma Scale (GCS) score of 7. What does this indicate?",
+    "options": {
+      "A": "Mild brain injury",
+      "B": "Moderate brain injury",
+      "C": "Severe brain injury",
+      "D": "Fully alert"
+    },
+    "answer": "C",
+    "explanation": "GCS score ranges:\n- 13–15: mild injury\n- 9–12: moderate injury\n- **≤8: severe injury**\n\nA score of 7 means severe brain injury with compromised consciousness — urgent neuro care needed.",
+    "additional": "NCK twist: May give GCS components — e.g., 'Eye opening to pain, no verbal response, flexion to pain' → calculate GCS = 7.\n\nAlso test intubation threshold (GCS ≤8) and ICP monitoring.\n\nLinked units: Neuro ICU, Coma care, Head trauma management."
+  },
+  {
+    "question": "Which sign is most suggestive of internal bleeding in a trauma patient?",
+    "options": {
+      "A": "Hypertension and bounding pulse",
+      "B": "Bradycardia and warm skin",
+      "C": "Tachycardia and low blood pressure",
+      "D": "Normal vital signs"
+    },
+    "answer": "C",
+    "explanation": "**Tachycardia and hypotension** are early signs of **hypovolemic shock** due to internal bleeding. Always suspect in trauma cases with minimal external bleeding.\n\nBradycardia is a late sign.",
+    "additional": "NCK twist: Case may mention 'abdominal trauma, distended belly, low BP, high HR' — suspect internal hemorrhage.\n\nLinked topics: Trauma nursing, Shock pathophysiology, FAST scan."
+  },
+  {
+    "question": "A client arrives after ingesting unknown poison. What is the nurse’s first action?",
+    "options": {
+      "A": "Give activated charcoal",
+      "B": "Identify the poison and time of ingestion",
+      "C": "Induce vomiting",
+      "D": "Insert NG tube immediately"
+    },
+    "answer": "B",
+    "explanation": "First priority is to **identify the substance** and **time of ingestion**, as this determines the treatment plan. Not all poisons are treated the same way.\n\nActivated charcoal is time-sensitive. Vomiting is contraindicated in corrosives.",
+    "additional": "NCK twist: They may hide time details in scenario — charcoal works best within 1 hour of ingestion.\n\nAlso test antidotes (e.g., Naloxone for opioids, Atropine for organophosphates).\n\nLinked units: Poisoning protocols, Emergency toxicology, First aid."
+  },
+  {
+    "question": "In chest trauma, the presence of air in the pleural space is called:",
+    "options": {
+      "A": "Hemothorax",
+      "B": "Pneumothorax",
+      "C": "Empyema",
+      "D": "Pleural effusion"
+    },
+    "answer": "B",
+    "explanation": "**Pneumothorax** is air trapped between the lung and chest wall, collapsing the lung. Common after blunt or penetrating chest injury.\n\nHemothorax = blood, Empyema = pus, Pleural effusion = fluid.",
+    "additional": "NCK twist: May say 'trachea shifted, decreased breath sounds' → suspect **tension pneumothorax** = medical emergency.\n\nAlso know management: chest tube insertion, oxygen therapy.\n\nLinked units: Thoracic injury, Respiratory emergencies, ICU support."
+  },
+  {
+    "question": "Which intervention is most appropriate for a client with suspected cervical spine injury?",
+    "options": {
+      "A": "Turn the head to open airway",
+      "B": "Use a jaw-thrust maneuver",
+      "C": "Hyperextend the neck",
+      "D": "Apply ice to neck"
+    },
+    "answer": "B",
+    "explanation": "**Jaw-thrust maneuver** opens the airway **without moving the neck**, ideal for suspected spinal injuries.\n\nHead tilt–chin lift is contraindicated due to risk of spinal damage.",
+    "additional": "NCK twist: Scene-of-accident questions often test airway in trauma — choose jaw thrust over head tilt.\n\nAlso review spinal board use, log rolling, C-collar application.\n\nLinked topics: Spinal injury, Emergency ABCs, Trauma airway skills."
+  },
+  {
+    "question": "Which of the following is a danger sign in a sick child that requires urgent referral?",
+    "options": {
+      "A": "Mild cough for 2 days",
+      "B": "Drinks eagerly when offered",
+      "C": "Lethargy or unconsciousness",
+      "D": "Mild fever without rash"
+    },
+    "answer": "C",
+    "explanation": "**Lethargy or unconsciousness** is a key danger sign per IMCI (Integrated Management of Childhood Illness) guidelines. It indicates serious systemic illness — urgent referral is needed.",
+    "additional": "NCK twist: Look for signs like 'not waking up to feed' or 'too weak to cry' — red flags!\n\nOther IMCI danger signs: convulsions, inability to drink, vomiting everything, severe respiratory distress.\n\nLinked units: IMCI, Pediatric triage, Emergency child care."
+  },
+  {
+    "question": "A child can sit without support by around what age?",
+    "options": {
+      "A": "3 months",
+      "B": "6 months",
+      "C": "9 months",
+      "D": "12 months"
+    },
+    "answer": "C",
+    "explanation": "By **9 months**, a child can **sit without support**, begins crawling, and responds to simple verbal commands. It’s a key gross motor milestone in development tracking.",
+    "additional": "NCK twist: May use indirect phrases like 'sits up independently, crawls to toys' — infer 9 months.\n\nKnow other milestones: smiles (6 wks), head control (3 mo), walks (12–15 mo).\n\nLinked topics: Growth monitoring, EPI, Pediatric milestones."
+  },
+  {
+    "question": "A patient reports hearing voices telling them to harm themselves. The nurse should:",
+    "options": {
+      "A": "Tell them the voices aren’t real",
+      "B": "Leave the patient alone to calm down",
+      "C": "Ensure safety and notify the mental health team immediately",
+      "D": "Give them reading material to distract them"
+    },
+    "answer": "C",
+    "explanation": "This patient is experiencing **auditory hallucinations** with **suicidal command content** — a psychiatric emergency. Ensure **safety first** and alert the mental health team immediately.",
+    "additional": "NCK twist: They test how nurses manage hallucinations — never challenge the perception, instead ensure safety and support.\n\nAlso know difference between illusion, hallucination, delusion.\n\nLinked topics: Suicide risk, Mental status exam, Safety protocols."
+  },
+  {
+    "question": "A key symptom of schizophrenia is:",
+    "options": {
+      "A": "Persistent sadness",
+      "B": "Hyperactivity",
+      "C": "Delusions and hallucinations",
+      "D": "Mood swings"
+    },
+    "answer": "C",
+    "explanation": "**Schizophrenia** is a **psychotic disorder** marked by **delusions**, **hallucinations**, disorganized speech, and impaired social function. It is chronic and needs lifelong management.",
+    "additional": "NCK twist: They may describe someone 'talking to unseen people, claims someone is after them' — classic schizophrenia.\n\nLinked units: Psych disorders, Antipsychotic meds, Nurse-patient trust."
+  },
+  {
+    "question": "Which nursing intervention is appropriate when using physical restraints in psychiatric care?",
+    "options": {
+      "A": "Apply restraints without informing the client",
+      "B": "Use restraints as a first line to control behavior",
+      "C": "Check circulation and skin integrity regularly",
+      "D": "Leave patient unattended once restrained"
+    },
+    "answer": "C",
+    "explanation": "**Restraints are last resort** interventions used to prevent harm. Nurses must frequently **check circulation, skin, hydration, and comfort** — and document thoroughly.",
+    "additional": "NCK twist: Expect scenarios testing legal/ethical use of restraints.\n\nAlso review de-escalation before restraint, documentation rules, and patients’ rights.\n\nLinked topics: Psychiatric safety, Nurse accountability, Legal nursing."
+  },
+  {
+    "question": "A teenage patient says, 'No one cares if I live or die.' The best initial nursing response is:",
+    "options": {
+      "A": "That’s not true, your family loves you",
+      "B": "Are you thinking of harming yourself?",
+      "C": "Let’s talk about something positive",
+      "D": "You just need some rest"
+    },
+    "answer": "B",
+    "explanation": "This is a **red flag for suicidal ideation**. The nurse should **ask directly** and non-judgmentally about self-harm. Never dismiss or minimize the statement.",
+    "additional": "NCK twist: They test your comfort in asking tough questions. Answer must show risk assessment, not avoidance.\n\nAlso know suicide risk factors: previous attempt, depression, sudden calm.\n\nLinked units: Mental health, Therapeutic communication, Suicide prevention."
+  },
+  {
+    "question": "Which of the following is an example of therapeutic communication?",
+    "options": {
+      "A": "Why did you do that?",
+      "B": "You’re overreacting to your situation",
+      "C": "Tell me more about how you’re feeling",
+      "D": "Let’s not talk about that now"
+    },
+    "answer": "C",
+    "explanation": "**“Tell me more…”** encourages open communication, which is a core skill in **therapeutic interaction**. It promotes trust and expression without judgment.",
+    "additional": "NCK twist: They test your tone — avoid judgment, advice-giving, or closed questions.\n\nLinked topics: Psych nurse skills, Trust building, Mental health interviewing."
+  },
+  {
+    "question": "Which condition is commonly associated with frequent tantrums, hyperactivity, and inattention in children?",
+    "options": {
+      "A": "Conduct disorder",
+      "B": "Autism spectrum disorder",
+      "C": "ADHD",
+      "D": "Bipolar disorder"
+    },
+    "answer": "C",
+    "explanation": "**ADHD (Attention Deficit Hyperactivity Disorder)** presents with **inattention**, **impulsivity**, and **hyperactivity** that interferes with school or home life.\n\nIt’s common in school-aged children and may require behavioral therapy or medication.",
+    "additional": "NCK twist: Expect age-based distractors — if they mention ‘can’t sit still in class, interrupts, daydreams’, think ADHD.\n\nAlso know treatment options: Ritalin, behavior modification, parental support.\n\nLinked units: Pediatric mental health, Behavioral disorders."
+  }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
