@@ -1426,6 +1426,18 @@
     "answer": "B",
     "explanation": "📘 Unit Integration: Fluid & Electrolyte Balance, Lab Interpretation, Medical-Surgical Nursing.\n\n📌 Rationale: In dehydration, there is hemoconcentration — reduced plasma volume leads to increased hematocrit. Urine specific gravity and serum osmolality also increase.\n\n📚 Source Concepts: WHO Dehydration Lab Guide, NCK Fluid Deficit Protocol, Brunner’s Lab Results Interpretation.",
     "additional": "🔄 NCK Variations:\n- May ask for nursing interventions or fluid types.\n- Could present signs like dry mucosa, tachycardia.\n\n💡 Tip: Dry = thick blood. Watch for concentrated labs!"
+  },
+  {
+    "question": "Which nursing action is most important when administering medication via nasogastric (NG) tube?",
+    "options": {
+      "A": "Crush all tablets together and mix in water",
+      "B": "Ensure the tube is in the stomach before administration",
+      "C": "Flush the tube only after all medications are given",
+      "D": "Administer medication while the patient is supine"
+    },
+    "answer": "B",
+    "explanation": "📘 Unit Integration: Pharmacology, Medical-Surgical Nursing, Patient Safety.\n\n📌 Rationale: Verifying NG tube placement before giving medications prevents accidental administration into the lungs (aspiration). This is done by aspirating gastric content and checking pH or confirming radiologically. Crushing extended-release tablets or wrong positioning can be dangerous.\n\n📚 Source Concepts: WHO Enteral Medication Guidelines, NCK Drug Administration Handbook, Brunner’s Nursing Skills for Tube Feeding.",
+    "additional": "🔄 NCK Variations:\n- May ask about methods of confirming NG tube placement.\n- Could test what to do if resistance is felt when flushing.\n\n💡 Tip: No confirm = no give! Always check placement first."
   }
 ]
 
