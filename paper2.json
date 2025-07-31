@@ -1,0 +1,1440 @@
+[
+  {
+    "question": "The prognosis of mental retardation is dependent on:",
+    "options": {
+      "A": "Delayed milestones",
+      "B": "Associated etiological factors",
+      "C": "The child's intelligence quotient (IQ)",
+      "D": "Post-natal interruptions"
+    },
+    "answer": "B",
+    "explanation": "📘 Unit Integration: Pediatric Nursing, Developmental Psychology, Genetics, and Public Health.\n\n📌 Rationale: The prognosis of intellectual disability (formerly 'mental retardation') depends largely on the underlying cause or etiology. Genetic conditions (e.g., Down syndrome), perinatal insults (e.g., asphyxia), and environmental exposures (e.g., lead poisoning) play a central role in determining the trajectory and potential for improvement. IQ is a static measure and doesn't predict outcomes without understanding etiology. Delayed milestones and post-natal factors are often consequences rather than determinants.\n\n📚 Source Concepts: WHO Child Development Milestones, Lewis’s Medical-Surgical Nursing, and NCK syllabus under Pediatric Cognitive Disorders.",
+    "additional": "🔄 NCK Variations:\n- Might replace 'mental retardation' with 'intellectual disability.'\n- Could frame it as: 'Which of the following most strongly influences outcome in a child diagnosed with global developmental delay?'\n- Might reword to test definitions of etiology vs symptoms.\n\n💡 Tip: Focus on primary vs secondary causes. Etiology determines care plan and referral level."
+  },
+  {
+    "question": "In a mother who has preeclampsia, the fetus is in danger of:-",
+    "options": {
+      "A": "Having macrosomia, being with a congenital abnormality",
+      "B": "Being delivered prematurely, being with a congenital abnormality",
+      "C": "Being delivered prematurely, suffering intrauterine growth retardation",
+      "D": "Having macrosomia, being delivered prematurely"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Obstetrics, Pathophysiology, Maternal & Child Health, Pharmacology.\n\n📌 Rationale: Preeclampsia leads to vasospasm and reduced uteroplacental perfusion, which deprives the fetus of oxygen and nutrients. This commonly results in intrauterine growth restriction (IUGR) and increases the risk of premature delivery due to maternal or fetal complications. Macrosomia is not typical in preeclampsia — it's more associated with gestational diabetes.\n\n📚 Source Concepts: WHO Guidelines on Hypertensive Disorders in Pregnancy, NCK Maternal Health Module, and Myles Textbook for Midwives.",
+    "additional": "🔄 NCK Variations:\n- Could change to 'which fetal condition is LEAST likely in preeclampsia?'\n- May present as a scenario: 'A mother at 33 weeks has preeclampsia. What fetal risk is most imminent?'\n\n💡 Tip: Remember — hypertension = IUGR; diabetes = macrosomia."
+  },
+  {
+    "question": "Lower back pain in pregnancy occurs due to the effect of ______ on the ligaments:-",
+    "options": {
+      "A": "Relaxin and estrogen",
+      "B": "Progesterone and estrogen",
+      "C": "Progesterone and relaxin",
+      "D": "Follicle stimulating hormone and progesterone"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Anatomy & Physiology, Obstetrics, Hormonal Regulation.\n\n📌 Rationale: During pregnancy, relaxin and progesterone are responsible for softening the pelvic ligaments and joints in preparation for childbirth. This ligament laxity leads to a shift in posture and strain on the lumbar spine, causing lower back pain. Estrogen also increases but isn't directly linked to ligament relaxation.\n\n📚 Source Concepts: Dutta’s Obstetrics, NCK Reproductive Health Guidelines, and Anatomy of Pregnancy from Marieb's Human Anatomy & Physiology.",
+    "additional": "🔄 NCK Variations:\n- May swap hormones or ask which is LEAST involved in ligament relaxation.\n- Could add a scenario: 'A pregnant woman at 28 weeks complains of backache. Which hormone is most responsible?'\n\n💡 Tip: Relaxin = relaxation. Progesterone = pregnancy support. Together = pelvic prep + discomfort."
+  },
+  {
+    "question": "The continuity of care of postnatal mothers after discharge mainly depends on:-",
+    "options": {
+      "A": "Availability of the health facility",
+      "B": "The number of postnatal visits that a midwife can make",
+      "C": "Adequate health message shared with the mother",
+      "D": "The ability of the midwife to detect problems and intervene."
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Community Health Nursing, Maternal and Child Health, Health Education & Communication.\n\n📌 Rationale: The effectiveness of postnatal care depends heavily on whether the mother has received and understood key health messages regarding hygiene, nutrition, breastfeeding, danger signs, and follow-up. Health education empowers mothers to seek help and practice appropriate self-care. Facility access and midwife visits are important but depend on whether the mother knows what to do.\n\n📚 Source Concepts: WHO Postnatal Guidelines, NCK Maternal & Child Health Manual, and Health Promotion models.",
+    "additional": "🔄 NCK Variations:\n- Might present a case where the mother misses visits and ask why.\n- Could twist into asking about barriers instead of enablers.\n\n💡 Tip: In exams, health education is often the primary solution in community or outpatient cases."
+  },
+  {
+    "question": "An extra uterine pregnancy is suggested by:",
+    "options": {
+      "A": "Lower abdominal pain and vaginal bleeding",
+      "B": "Morning sickness and breast tenderness",
+      "C": "The absence of fetal movements",
+      "D": "A uterus that is larger than expected for the duration of pregnancy"
+    },
+    "answer": "A",
+    "explanation": "📘 Unit Integration: Obstetrics, Emergency Care, Pathophysiology.\n\n📌 Rationale: The hallmark signs of ectopic pregnancy (extra-uterine) are lower abdominal pain and vaginal bleeding, often in the first trimester. These symptoms occur as the growing embryo stretches or ruptures the fallopian tube. Breast tenderness and morning sickness are general pregnancy symptoms. Absence of fetal movements comes later in pregnancy.\n\n📚 Source Concepts: Emergency Obstetric Care by WHO, NCK Emergency Management module, and Myles Textbook for Midwives.",
+    "additional": "🔄 NCK Variations:\n- Might present a ruptured ectopic with signs of hypovolemic shock.\n- Could use a distractor like 'full bladder with no urine output.'\n\n💡 Tip: Always suspect ectopic in 1st-trimester vaginal bleeding + pain. Quick ultrasound saves lives."
+  },
+  {
+    "question": "A 55 year-old female patient with hypertension is to be treated with a vasodilator. Drug X and Y have the same mode of action. Drug X in a dose of 5mg produces the same decrease in blood pressure as 500mg of drug Y. This pharmacological effect is best described as:-",
+    "options": {
+      "A": "Toxicity of drug X is less than that of drug Y",
+      "B": "Drug X has a wider therapeutic window than drug Y",
+      "C": "Drug Y is less efficacious than drug X",
+      "D": "Drug X is more potent than that of drug Y"
+    },
+    "answer": "D",
+    "explanation": "📘 Unit Integration: Pharmacology, Medical-Surgical Nursing, Hypertension Management.\n\n📌 Rationale: Potency refers to the amount of drug needed to produce a given effect. Drug X achieves the same blood pressure reduction at a much smaller dose than Drug Y (5mg vs. 500mg), indicating higher potency. Efficacy refers to the maximum effect a drug can produce, which is not the focus here.\n\n📚 Source Concepts: Pharmacodynamics chapter in Brunner & Suddarth’s Textbook of Medical-Surgical Nursing and NCK pharmacology guide.",
+    "additional": "🔄 NCK Variations:\n- May reframe to ask about efficacy vs. potency or include a dose-response graph.\n- Might test through case scenarios or unfamiliar drug names.\n\n💡 Tip: Potency = smaller dose for same effect. Efficacy = maximum achievable effect."
+  },
+  {
+    "question": "The nurse has attended the morning report on a busy medical unit. The nurse recognizes the patient at the greatest risk for the development of cardiogenic shock is:",
+    "options": {
+      "A": "The patient admitted following a stroke",
+      "B": "The patient admitted following a myocardial infarction",
+      "C": "The patient admitted with acute kidney injury",
+      "D": "The patient admitted following hypertensive urgency"
+    },
+    "answer": "B",
+    "explanation": "📘 Unit Integration: Critical Care Nursing, Pathophysiology, Cardiovascular System.\n\n📌 Rationale: Cardiogenic shock occurs when the heart's pumping ability is compromised, most commonly due to a myocardial infarction (MI). An MI causes damage to the heart muscle, reducing cardiac output and leading to hypoperfusion. Stroke, AKI, and hypertensive urgency do not directly result in reduced cardiac output.\n\n📚 Source Concepts: Lewis’s Medical-Surgical Nursing, NCK critical care protocols, and ACLS guidelines.",
+    "additional": "🔄 NCK Variations:\n- Could use 'cardiac arrest' or 'heart failure' as distractors.\n- Might describe symptoms (low BP, cold extremities, poor capillary refill) instead of naming the shock.\n\n💡 Tip: Cardiogenic = heart pump fails. Think MI = most direct cause."
+  },
+  {
+    "question": "As a midwife, the measure you can take in order to limit the risk of perinatal HIV transmission is:-",
+    "options": {
+      "A": "Encourage amniotomy to hasten labour",
+      "B": "Promote alternative feeds for mothers of unknown status",
+      "C": "Discourage augmentation of labour",
+      "D": "Avoid invasive procedures"
+    },
+    "answer": "D",
+    "explanation": "📘 Unit Integration: Midwifery, Infectious Disease Nursing, HIV Care & PMTCT (Prevention of Mother-To-Child Transmission).\n\n📌 Rationale: Invasive procedures such as artificial rupture of membranes, fetal scalp monitoring, and episiotomy can increase the infant’s exposure to maternal blood and secretions. Avoiding them reduces the risk of perinatal HIV transmission. WHO guidelines support this strategy as part of comprehensive PMTCT.\n\n📚 Source Concepts: WHO PMTCT Guidelines, NCK Maternal & Neonatal Health module, Myles Midwifery.",
+    "additional": "🔄 NCK Variations:\n- Might reverse the question to ask which action INCREASES transmission risk.\n- Could insert a scenario with labor signs and test decision-making.\n\n💡 Tip: Avoid breaking maternal-fetal barriers — minimize exposure to blood!"
+  },
+  {
+    "question": "When the patient comes to the medical clinic with complaints of urgency, frequency, pain in the area of the symphysis pubis, and dark cloudy urine, the nurse suspects that this patient has:",
+    "options": {
+      "A": "Cystitis, probably from bacterial contamination",
+      "B": "A urinary calculi, probably located in the ureter",
+      "C": "A kidney infection, most likely pyelonephritis",
+      "D": "Acute tubulointerstitial nephritis, probably from medication"
+    },
+    "answer": "A",
+    "explanation": "📘 Unit Integration: Adult Health Nursing, Renal System, Pathophysiology, Diagnostics.\n\n📌 Rationale: Cystitis (bladder infection) presents with classic lower urinary tract symptoms like urgency, frequency, suprapubic pain, and cloudy urine. Pyelonephritis typically includes flank pain and systemic signs like fever. Stones cause colicky flank pain. Drug-induced nephritis has a more gradual, systemic presentation.\n\n📚 Source Concepts: Brunner & Suddarth, WHO UTI Guidelines, and NCK Adult Nursing standards.",
+    "additional": "🔄 NCK Variations:\n- May test on symptoms alone, excluding diagnosis.\n- Could ask for next nursing action (e.g., clean-catch urine collection).\n\n💡 Tip: Suprapubic + burning = cystitis. Flank + fever = pyelonephritis."
+  },
+  {
+    "question": "A patient is admitted with shortness of breath, the nurse immediately listens to his breath sounds. The type of assessment the nurse performing is:-",
+    "options": {
+      "A": "Psychosocial assessment",
+      "B": "Comprehensive physical assessment",
+      "C": "Focused physical assessment",
+      "D": "Ongoing assessment"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Fundamentals of Nursing, Assessment Skills, Respiratory Care.\n\n📌 Rationale: A focused assessment zeroes in on the specific problem — here, shortness of breath — prompting the nurse to assess the lungs. Comprehensive assessments are done at admission; ongoing assessments track changes. Psychosocial assessment explores mental/emotional status.\n\n📚 Source Concepts: NANDA nursing assessment types, Potter & Perry's Fundamentals of Nursing, and NCK clinical evaluation tools.",
+    "additional": "🔄 NCK Variations:\n- Could provide a case (e.g., wheezing + cough) and ask what type of assessment is appropriate.\n- May swap in cardiac symptoms or fever.\n\n💡 Tip: Focused = specific complaint. Comprehensive = head-to-toe. Ongoing = monitoring. Psychosocial = emotions."
+  },
+  {
+    "question": "A patient comes to the casualty department with a bleeding wound. The first priority in the management of the wound is:-",
+    "options": {
+      "A": "Reassure the patient",
+      "B": "Control the bleeding",
+      "C": "Prevent contamination",
+      "D": "Clean the wound"
+    },
+    "answer": "B",
+    "explanation": "📘 Unit Integration: Emergency Nursing, Wound Care, First Aid, Trauma Management.\n\n📌 Rationale: In emergency care, life-threatening issues are addressed first. Active bleeding can lead to hypovolemic shock or death if not controlled immediately. According to first aid protocols, stopping the bleeding is the top priority, even before preventing contamination or wound cleaning.\n\n📚 Source Concepts: WHO Emergency Guidelines, NCK First Aid Manual, and Red Cross Trauma Care Standards.",
+    "additional": "🔄 NCK Variations:\n- May present a scenario showing hypotension or shock symptoms.\n- Could use distractors like 'sterile dressing' or 'analgesia first.'\n\n💡 Tip: ABCs of emergency care — Airway, Breathing, Circulation. Bleeding = circulation!"
+  },
+  {
+    "question": "Which of the following is the best method to prevent pressure sores in a bed-ridden patient?",
+    "options": {
+      "A": "Use of an air mattress",
+      "B": "Application of barrier cream",
+      "C": "Turning the patient every 2 hours",
+      "D": "Maintaining a dry bed"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Fundamentals of Nursing, Integumentary Care, Elderly Care.\n\n📌 Rationale: Regular repositioning of a patient every 2 hours alleviates pressure on vulnerable areas, maintaining circulation and preventing ischemia. Though air mattresses and barrier creams help, they are adjuncts, not substitutes.\n\n📚 Source Concepts: NANDA guidelines on skin integrity, Potter & Perry’s Nursing Text, and NCK Geriatric Nursing standards.",
+    "additional": "🔄 NCK Variations:\n- May ask which is LEAST effective method.\n- Could give a case with a stroke patient or spinal injury.\n\n💡 Tip: Turn every 2 hrs = standard prevention. Don't rely on equipment alone!"
+  },
+  {
+    "question": "Which of the following signs is most indicative of early increased intracranial pressure (ICP)?",
+    "options": {
+      "A": "Bradycardia",
+      "B": "Irregular respiration",
+      "C": "Headache and vomiting",
+      "D": "Widened pulse pressure"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Neuroscience Nursing, Pathophysiology, Emergency Care.\n\n📌 Rationale: Headache and vomiting are early signs of rising ICP due to compression of brain tissues and stimulation of the vomiting center. Cushing’s triad (bradycardia, irregular respirations, and widened pulse pressure) appears later.\n\n📚 Source Concepts: Lewis's Med-Surg Nursing, WHO Neuro Emergency Guidelines, NCK Neuro Assessments.",
+    "additional": "🔄 NCK Variations:\n- May use a trauma case scenario.\n- Could ask about late signs or interventions.\n\n💡 Tip: Early = headache, vomiting. Late = Cushing's triad."
+  },
+  {
+    "question": "The primary concern during a generalized seizure is:-",
+    "options": {
+      "A": "Prevent injury",
+      "B": "Maintain fluid balance",
+      "C": "Administer anti-seizure medication",
+      "D": "Monitor level of consciousness"
+    },
+    "answer": "A",
+    "explanation": "📘 Unit Integration: Emergency Nursing, Neurology, Patient Safety.\n\n📌 Rationale: The key risk during a seizure is trauma due to uncontrolled movements or falls. Priority is to keep the environment safe, protect the head, and roll the person to the side. Medication and consciousness monitoring follow afterward.\n\n📚 Source Concepts: WHO Epilepsy Manual, NCK Emergency Nursing Guidelines, Seizure First Aid by Red Cross.",
+    "additional": "🔄 NCK Variations:\n- Might give a child or pregnant woman seizure case.\n- Could list wrong actions like 'insert tongue blade'.\n\n💡 Tip: Clear the area, stay calm, do not restrain."
+  },
+  {
+    "question": "Which immunization is given immediately at birth?",
+    "options": {
+      "A": "DPT",
+      "B": "OPV",
+      "C": "Hepatitis B and BCG",
+      "D": "Measles"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Pediatric Nursing, Immunization Schedules, Public Health.\n\n📌 Rationale: BCG (for TB) and Hepatitis B are given at birth per KEPI and WHO guidelines. OPV 0 is optional in the first 2 weeks; DPT and measles come later.\n\n📚 Source Concepts: KEPI Chart, WHO Immunization Handbook, NCK Child Health Nursing Syllabus.",
+    "additional": "🔄 NCK Variations:\n- Might ask which vaccines are delayed or age-specific.\n- Could flip the question to test 'which is NOT given at birth.'\n\n💡 Tip: BCG = skin TB. Hep B = prevent liver failure. Both given at birth."
+  },
+  {
+    "question": "Which of the following is the most accurate method of monitoring fluid balance?",
+    "options": {
+      "A": "Assessing skin turgor",
+      "B": "Monitoring weight changes",
+      "C": "Measuring blood pressure",
+      "D": "Counting IV fluid intake"
+    },
+    "answer": "B",
+    "explanation": "📘 Unit Integration: Fluid & Electrolyte Management, Nursing Process, Monitoring.\n\n📌 Rationale: Weight change is the most precise indicator of fluid balance, especially in CHF, renal failure, and dehydration. 1 kg weight change equals roughly 1L of fluid. BP and skin signs are less sensitive.\n\n📚 Source Concepts: Brunner & Suddarth, WHO Hydration Protocols, NCK Nursing Process Handbook.",
+    "additional": "🔄 NCK Variations:\n- May frame in chronic illness like nephrotic syndrome.\n- Could ask for interpretation of fluid charts.\n\n💡 Tip: Weigh daily at same time, same scale."
+  },
+  {
+    "question": "What is the primary action of insulin?",
+    "options": {
+      "A": "Enhances fat breakdown",
+      "B": "Stimulates glucagon secretion",
+      "C": "Promotes glucose uptake by cells",
+      "D": "Inhibits protein synthesis"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Endocrinology, Pharmacology, Metabolism.\n\n📌 Rationale: Insulin promotes glucose uptake into cells (especially muscle and fat), decreasing blood glucose. It also supports glycogen and fat storage and protein synthesis.\n\n📚 Source Concepts: WHO Diabetes Care Guidelines, NCK Pharmacology Handbook, Biochemistry for Nurses.",
+    "additional": "🔄 NCK Variations:\n- Might ask what happens in insulin absence.\n- Could give case of diabetic ketoacidosis.\n\n💡 Tip: Insulin = anabolic = builds storage. Opposes glucagon."
+  },
+  {
+    "question": "Which of the following is a cardinal sign of inflammation?",
+    "options": {
+      "A": "Pallor",
+      "B": "Heat",
+      "C": "Coolness",
+      "D": "Numbness"
+    },
+    "answer": "B",
+    "explanation": "📘 Unit Integration: Infection Control, Pathophysiology, Immunology.\n\n📌 Rationale: The five cardinal signs of inflammation are: heat (calor), redness (rubor), swelling (tumor), pain (dolor), and loss of function. Heat arises from increased blood flow to affected tissues.\n\n📚 Source Concepts: Robbins Pathological Basis, NCK Infection & Immunity, WHO Primary Health Guidelines.",
+    "additional": "🔄 NCK Variations:\n- Might ask 'which is NOT a sign of inflammation.'\n- Could be framed as a case of cellulitis or injury.\n\n💡 Tip: Cardinal = core. All 5 signs must be memorized!"
+  },
+  {
+    "question": "Which structure regulates the amount of light entering the eye?",
+    "options": {
+      "A": "Cornea",
+      "B": "Retina",
+      "C": "Iris",
+      "D": "Lens"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Anatomy, Ophthalmology, Physiology.\n\n📌 Rationale: The iris adjusts the size of the pupil, controlling light entry to the retina. The cornea and lens help focus, but only the iris regulates amount of light.\n\n📚 Source Concepts: Marieb’s Anatomy & Physiology, WHO Eye Care Guide, NCK Sensory Nursing Unit.",
+    "additional": "🔄 NCK Variations:\n- May describe the light pathway and ask about components.\n- Could test disorders like iritis.\n\n💡 Tip: Iris = colored part. Think camera shutter."
+  },
+  {
+    "question": "A child with kwashiorkor is most likely to present with:",
+    "options": {
+      "A": "Severe wasting",
+      "B": "Edema and fatty liver",
+      "C": "Hyperactivity",
+      "D": "Increased muscle mass"
+    },
+    "answer": "B",
+    "explanation": "📘 Unit Integration: Pediatric Nutrition, Community Health, Biochemistry.\n\n📌 Rationale: Kwashiorkor is due to severe protein deficiency. Hallmarks include edema (from hypoalbuminemia), fatty liver, and dermatoses. Wasting is more seen in marasmus (total energy deficiency).\n\n📚 Source Concepts: WHO Malnutrition Handbook, NCK Nutrition Curriculum, KEPI Child Health Manual.",
+    "additional": "🔄 NCK Variations:\n- May ask to differentiate kwashiorkor vs marasmus.\n- Could ask about dietary management (F75/F100).\n\n💡 Tip: Kwashiorkor = edema. Marasmus = muscle loss. Easy to confuse — look for key symptoms!"
+  },
+  {
+    "question": "Which of the following conditions is associated with moon face, buffalo hump, and central obesity?",
+    "options": {
+      "A": "Addison’s disease",
+      "B": "Graves’ disease",
+      "C": "Cushing’s syndrome",
+      "D": "Myxedema"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Endocrinology, Pathophysiology, Medical-Surgical Nursing.\n\n📌 Rationale: Cushing’s syndrome results from prolonged exposure to excess cortisol, either endogenous or exogenous. Classic features include moon face, central obesity, thin limbs, buffalo hump (fat pad at the upper back), and skin changes. Addison's is the opposite (hypocortisolism).\n\n📚 Source Concepts: Brunner & Suddarth, WHO Endocrine Disorders Manual, NCK Med-Surg Endocrine System Unit.",
+    "additional": "🔄 NCK Variations:\n- May present a case with corticosteroid use.\n- Could ask about lab results (e.g., high cortisol, glucose).\n\n💡 Tip: Cushing = cushion of fat. Think central obesity + facial swelling."
+  },
+  {
+    "question": "A patient in diabetic ketoacidosis (DKA) is likely to present with which breathing pattern?",
+    "options": {
+      "A": "Apnea",
+      "B": "Kussmaul respirations",
+      "C": "Cheyne-Stokes",
+      "D": "Biot’s respirations"
+    },
+    "answer": "B",
+    "explanation": "📘 Unit Integration: Endocrinology, Respiratory Patterns, Acid-Base Balance.\n\n📌 Rationale: Kussmaul breathing is deep, rapid breathing seen in metabolic acidosis, especially DKA. It’s the body’s way of expelling CO₂ to reduce acidosis. Cheyne-Stokes is periodic breathing; Biot’s is irregular.\n\n📚 Source Concepts: WHO Diabetes Protocols, NCK Acid-Base Balance Module, Lewis’s Med-Surg Nursing.",
+    "additional": "🔄 NCK Variations:\n- Might describe ABG values or fruity breath.\n- Could test causes of different abnormal breathing types.\n\n💡 Tip: Kussmaul = Ketones. Deep + labored = acid exhalation."
+  },
+  {
+    "question": "Which of the following is the most common cause of postpartum hemorrhage?",
+    "options": {
+      "A": "Retained placenta",
+      "B": "Uterine atony",
+      "C": "Lacerations",
+      "D": "Clotting disorder"
+    },
+    "answer": "B",
+    "explanation": "📘 Unit Integration: Midwifery, Obstetrics Emergencies, Reproductive Health.\n\n📌 Rationale: Uterine atony — failure of the uterus to contract after delivery — accounts for the majority of postpartum hemorrhage (PPH) cases. Without contraction, bleeding vessels in the placental site remain open. Retained tissue and trauma are other causes but less common.\n\n📚 Source Concepts: WHO Maternal Health Guide, NCK Obstetric Care Protocols, Myles Textbook for Midwives.",
+    "additional": "🔄 NCK Variations:\n- Could present a case with soft, boggy uterus.\n- Might test uterotonic drug use (e.g., oxytocin).\n\n💡 Tip: Atony = absence of tone. Massage the fundus!"
+  },
+  {
+    "question": "The primary function of hemoglobin is to:",
+    "options": {
+      "A": "Aid in blood clotting",
+      "B": "Fight infection",
+      "C": "Carry oxygen",
+      "D": "Regulate blood pressure"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Anatomy & Physiology, Hematology, Cellular Biology.\n\n📌 Rationale: Hemoglobin is a protein in red blood cells responsible for transporting oxygen from the lungs to tissues and returning carbon dioxide to the lungs. It contains iron, which binds oxygen.\n\n📚 Source Concepts: Marieb’s Anatomy & Physiology, NCK Hematologic System Unit, WHO Anemia Guide.",
+    "additional": "🔄 NCK Variations:\n- May describe anemia case with low Hb.\n- Could test oxygen saturation relationships.\n\n💡 Tip: Hemo = blood, globin = protein. Hb = O₂ taxi."
+  },
+  {
+    "question": "Which electrolyte imbalance is most commonly associated with cardiac arrhythmias?",
+    "options": {
+      "A": "Hypernatremia",
+      "B": "Hypokalemia",
+      "C": "Hypocalcemia",
+      "D": "Hypermagnesemia"
+    },
+    "answer": "B",
+    "explanation": "📘 Unit Integration: Electrolyte Imbalance, Cardiology, Critical Care.\n\n📌 Rationale: Potassium plays a critical role in cardiac conduction. Low potassium (hypokalemia) can cause arrhythmias, muscle weakness, and ECG changes like U-waves. Sodium and calcium are also important but less directly linked to arrhythmias.\n\n📚 Source Concepts: Brunner & Suddarth’s Electrolyte Table, WHO Critical Care Charts, NCK Lab Interpretation Manual.",
+    "additional": "🔄 NCK Variations:\n- May provide ECG readings with U-wave or flat T-waves.\n- Could ask about potassium-rich foods.\n\n💡 Tip: K⁺ = heart rhythm. Low K⁺ = slow or irregular beat."
+  },
+  {
+    "question": "Which hormone controls the reabsorption of water in the kidneys?",
+    "options": {
+      "A": "Aldosterone",
+      "B": "Insulin",
+      "C": "Antidiuretic hormone (ADH)",
+      "D": "Thyroxine"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Endocrinology, Renal Physiology, Homeostasis.\n\n📌 Rationale: ADH, also called vasopressin, increases water reabsorption in the distal tubules and collecting ducts of the kidneys. Aldosterone regulates sodium; insulin affects glucose; thyroxine regulates metabolism.\n\n📚 Source Concepts: Guyton’s Physiology, NCK Renal System, WHO Water Balance Guidelines.",
+    "additional": "🔄 NCK Variations:\n- May describe diabetes insipidus.\n- Could compare with aldosterone.\n\n💡 Tip: ADH = Anti-pee hormone. Saves water."
+  },
+  {
+    "question": "Which of the following symptoms is characteristic of hypoglycemia?",
+    "options": {
+      "A": "Polyuria",
+      "B": "Excessive thirst",
+      "C": "Sweating and trembling",
+      "D": "Flushed, dry skin"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Endocrine Nursing, Emergency Care, Diabetes Management.\n\n📌 Rationale: Hypoglycemia presents with adrenergic symptoms such as sweating, trembling, palpitations, confusion, and dizziness due to low blood sugar. Polyuria and thirst are signs of hyperglycemia.\n\n📚 Source Concepts: WHO Diabetes Guidelines, NCK Hypoglycemia Protocol, Brunner & Suddarth Clinical Signs Tables.",
+    "additional": "🔄 NCK Variations:\n- Might describe a patient with blood glucose <3 mmol/L.\n- Could use confusion and slurred speech as cues.\n\n💡 Tip: Cold and clammy = needs candy."
+  },
+  {
+    "question": "What is the primary mode of HIV transmission in sub-Saharan Africa?",
+    "options": {
+      "A": "Sharing needles",
+      "B": "Blood transfusion",
+      "C": "Heterosexual contact",
+      "D": "Mother-to-child transmission"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Community Health, Infectious Diseases, Epidemiology.\n\n📌 Rationale: The predominant mode of HIV transmission in sub-Saharan Africa is heterosexual intercourse, largely due to unprotected sex and lack of awareness. Other methods contribute but are less common.\n\n📚 Source Concepts: WHO HIV/AIDS Surveillance Reports, NCK Community Health, Kenya Demographic Health Survey.",
+    "additional": "🔄 NCK Variations:\n- Might ask about rising modes among adolescents.\n- Could frame as 'most effective method of prevention.'\n\n💡 Tip: Know your region’s epidemiological trends!"
+  },
+  {
+    "question": "Which of the following drugs is used to treat tuberculosis?",
+    "options": {
+      "A": "Acyclovir",
+      "B": "Rifampicin",
+      "C": "Ceftriaxone",
+      "D": "Amoxicillin"
+    },
+    "answer": "B",
+    "explanation": "📘 Unit Integration: Pharmacology, Communicable Diseases, Public Health.\n\n📌 Rationale: Rifampicin is a first-line anti-TB medication, used in combination therapy. Acyclovir is antiviral, ceftriaxone and amoxicillin are antibiotics but not used in TB protocols.\n\n📚 Source Concepts: WHO TB Treatment Guidelines, NCK Pharmacology Manual, MOH Kenya TB Manual.",
+    "additional": "🔄 NCK Variations:\n- May list multiple TB drugs and ask for side effects.\n- Could use DOTS strategy context.\n\n💡 Tip: RIPE = Rifampicin, Isoniazid, Pyrazinamide, Ethambutol."
+  },
+  {
+    "question": "Which vitamin is essential for clotting?",
+    "options": {
+      "A": "Vitamin A",
+      "B": "Vitamin D",
+      "C": "Vitamin E",
+      "D": "Vitamin K"
+    },
+    "answer": "D",
+    "explanation": "📘 Unit Integration: Nutrition, Hematology, Pharmacology.\n\n📌 Rationale: Vitamin K is vital for the synthesis of clotting factors II, VII, IX, and X. Deficiency can cause bleeding disorders. It is also given to newborns to prevent hemorrhagic disease.\n\n📚 Source Concepts: WHO Vitamin Supplementation Chart, NCK Nutrition Unit, Brunner & Suddarth.",
+    "additional": "🔄 NCK Variations:\n- Might present a bleeding neonate.\n- Could test food sources (e.g., leafy greens).\n\n💡 Tip: K for “koagulation.” Green veggies = natural source."
+  },
+  {
+    "question": "Which of the following is the best site for intramuscular injection in infants?",
+    "options": {
+      "A": "Deltoid muscle",
+      "B": "Vastus lateralis",
+      "C": "Dorsogluteal",
+      "D": "Abdomen"
+    },
+    "answer": "B",
+    "explanation": "📘 Unit Integration: Pediatric Nursing, Pharmacology, Anatomy.\n\n📌 Rationale: The vastus lateralis (thigh) is the preferred site for intramuscular injections in infants under 12 months because it is well-developed and avoids major nerves and blood vessels. The deltoid is too small in infants, and dorsogluteal poses a risk of sciatic nerve injury.\n\n📚 Source Concepts: WHO Immunization Training Manual, NCK Pediatric Guidelines, Drug Administration Protocols.",
+    "additional": "🔄 NCK Variations:\n- Might ask for contraindicated injection sites.\n- Could test needle size and angle of administration.\n\n💡 Tip: Vastus = safe in small legs. Lateral = outside of thigh."
+  },
+  {
+    "question": "The nurse is caring for a patient with iron-deficiency anemia. Which food should the nurse recommend?",
+    "options": {
+      "A": "Citrus fruits",
+      "B": "Milk",
+      "C": "Green leafy vegetables",
+      "D": "White bread"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Nutrition, Hematology, Patient Education.\n\n📌 Rationale: Green leafy vegetables like spinach are rich in non-heme iron, important in treating iron-deficiency anemia. Vitamin C (from citrus) enhances absorption, but the iron must come from dietary sources first. Milk reduces iron absorption due to calcium.\n\n📚 Source Concepts: WHO Anemia Management Guide, NCK Nutrition Module, Clinical Dietetics Texts.",
+    "additional": "🔄 NCK Variations:\n- Could present food combinations and ask best pairing.\n- Might include signs of anemia and dietary planning.\n\n💡 Tip: Iron + C = stronger absorption. Avoid tea/milk with iron meals."
+  },
+  {
+    "question": "Which isolation precaution is most appropriate for a patient with pulmonary tuberculosis?",
+    "options": {
+      "A": "Contact precautions",
+      "B": "Droplet precautions",
+      "C": "Airborne precautions",
+      "D": "Protective isolation"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Infection Control, Communicable Disease Nursing, Respiratory Care.\n\n📌 Rationale: Pulmonary TB spreads via airborne droplets. Airborne precautions require a negative pressure room and N95 masks. Droplet precautions are for larger particles (e.g., influenza).\n\n📚 Source Concepts: WHO TB IPC Manual, CDC Isolation Guidelines, NCK Infection Prevention Protocol.",
+    "additional": "🔄 NCK Variations:\n- May ask about PPE required or room setup.\n- Could flip scenario to test what to do upon TB diagnosis.\n\n💡 Tip: TB = Airborne = AFB = N95!"
+  },
+  {
+    "question": "The main cause of cervical cancer is infection with:",
+    "options": {
+      "A": "HIV",
+      "B": "Herpes simplex virus",
+      "C": "Human papillomavirus",
+      "D": "Hepatitis B"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Reproductive Health, Oncology, Infectious Diseases.\n\n📌 Rationale: Persistent infection with high-risk HPV strains (especially 16 and 18) is the leading cause of cervical cancer. HIV can increase risk, but is not the direct cause.\n\n📚 Source Concepts: WHO Cervical Cancer Strategy, NCK Reproductive Cancer Unit, HPV Vaccine Guidelines.",
+    "additional": "🔄 NCK Variations:\n- May test vaccine target ages.\n- Could present a case with abnormal Pap smear results.\n\n💡 Tip: HPV = high-risk virus = vaccinate early (before sexual debut)."
+  },
+  {
+    "question": "Which organ is most affected in glomerulonephritis?",
+    "options": {
+      "A": "Liver",
+      "B": "Heart",
+      "C": "Kidney",
+      "D": "Lungs"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Renal System, Pathophysiology, Medical Nursing.\n\n📌 Rationale: Glomerulonephritis is inflammation of the glomeruli in the kidneys. It leads to proteinuria, hematuria, edema, and potentially renal failure if untreated.\n\n📚 Source Concepts: WHO Renal Care Booklet, NCK Adult Nursing Manual, Brunner & Suddarth.",
+    "additional": "🔄 NCK Variations:\n- Could use a pediatric case post-strep throat.\n- May test lab values (e.g., creatinine, urinalysis).\n\n💡 Tip: Glomerulo = filter. Kidney damage = protein + blood in urine."
+  },
+  {
+    "question": "The most effective method of preventing malaria in endemic areas is:",
+    "options": {
+      "A": "Wearing long-sleeved clothes",
+      "B": "Chemoprophylaxis",
+      "C": "Use of insecticide-treated nets (ITNs)",
+      "D": "Drainage of stagnant water"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Community Health, Epidemiology, Tropical Medicine.\n\n📌 Rationale: The use of ITNs significantly reduces malaria transmission, especially in pregnant women and children. Chemoprophylaxis is more relevant for travelers; vector control is helpful but less immediate.\n\n📚 Source Concepts: WHO Malaria Strategy, Kenya Malaria Indicator Survey, NCK Community Interventions.",
+    "additional": "🔄 NCK Variations:\n- Might test seasonal interventions.\n- Could use case scenario for MIP (Malaria in Pregnancy).\n\n💡 Tip: Sleep under a net — every night, every household."
+  },
+  {
+    "question": "Which part of the brain is responsible for balance and coordination?",
+    "options": {
+      "A": "Cerebrum",
+      "B": "Cerebellum",
+      "C": "Medulla oblongata",
+      "D": "Hypothalamus"
+    },
+    "answer": "B",
+    "explanation": "📘 Unit Integration: Neuroscience, Anatomy & Physiology, Motor Control.\n\n📌 Rationale: The cerebellum coordinates voluntary movements, maintains balance, and ensures smooth motor function. Cerebrum is for higher functions; medulla handles vital centers; hypothalamus manages endocrine and autonomic regulation.\n\n📚 Source Concepts: Marieb’s A&P, WHO Neuro Manual, NCK Neurophysiology Unit.",
+    "additional": "🔄 NCK Variations:\n- May present stroke symptoms affecting coordination.\n- Could ask about Romberg test or gait disturbance.\n\n💡 Tip: Cerebellum = balance bell. Think gymnasts!"
+  },
+  {
+    "question": "The main function of platelets is to:",
+    "options": {
+      "A": "Carry oxygen",
+      "B": "Fight infection",
+      "C": "Aid in clotting",
+      "D": "Provide energy"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Hematology, Physiology, Emergency Nursing.\n\n📌 Rationale: Platelets (thrombocytes) are involved in hemostasis. They aggregate at sites of injury and initiate clot formation, preventing bleeding. RBCs carry oxygen; WBCs fight infection.\n\n📚 Source Concepts: WHO Blood Disorders Manual, NCK Hematology Unit, Basic Pathophysiology Guides.",
+    "additional": "🔄 NCK Variations:\n- Might describe thrombocytopenia with bleeding gums.\n- Could test platelet count ranges.\n\n💡 Tip: Platelets plug the hole. Low platelets = bleeding risk."
+  },
+  {
+    "question": "Which vitamin enhances calcium absorption from the intestine?",
+    "options": {
+      "A": "Vitamin A",
+      "B": "Vitamin B12",
+      "C": "Vitamin C",
+      "D": "Vitamin D"
+    },
+    "answer": "D",
+    "explanation": "📘 Unit Integration: Nutrition, Musculoskeletal Health, Metabolism.\n\n📌 Rationale: Vitamin D enhances active calcium absorption in the intestines and helps maintain bone mineralization. Deficiency leads to rickets or osteomalacia.\n\n📚 Source Concepts: WHO Nutrient Reference Values, NCK Bone Health Module, Clinical Nutrition Texts.",
+    "additional": "🔄 NCK Variations:\n- Could ask about sources of vitamin D (e.g., sunlight, fish).\n- May frame as osteoporosis case.\n\n💡 Tip: D = Dairy, D = Density. Strong bones need sunshine."
+  },
+  {
+    "question": "Which of the following laboratory results suggests a urinary tract infection?",
+    "options": {
+      "A": "Positive nitrites and leukocyte esterase",
+      "B": "High glucose and ketones",
+      "C": "Low protein and low pH",
+      "D": "Positive bilirubin and urobilinogen"
+    },
+    "answer": "A",
+    "explanation": "📘 Unit Integration: Diagnostics, Urinary System, Infection Control.\n\n📌 Rationale: The presence of nitrites (from bacterial metabolism) and leukocyte esterase (from WBCs) in urine strongly suggests a UTI. Glucose/ketones point to diabetes; bilirubin = liver issues.\n\n📚 Source Concepts: WHO UTI Guidelines, NCK Diagnostic Skills Manual, Brunner’s Lab Interpretation Charts.",
+    "additional": "🔄 NCK Variations:\n- May give symptom case: burning + urgency + cloudy urine.\n- Could ask about first-line antibiotics or sample collection method.\n\n💡 Tip: UTI = leukocytes + nitrites. Confirm with culture if needed."
+  },
+  {
+    "question": "Which of the following methods is used to confirm HIV diagnosis after a positive screening test?",
+    "options": {
+      "A": "ELISA",
+      "B": "Rapid test",
+      "C": "Western blot",
+      "D": "CD4 count"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Infectious Disease Nursing, Laboratory Diagnostics, Public Health.\n\n📌 Rationale: Western blot is the confirmatory test for HIV following a positive ELISA or rapid test. ELISA and rapid tests are screening tools, while CD4 count monitors immune function in diagnosed patients.\n\n📚 Source Concepts: WHO HIV Testing Guidelines, NCK HIV/AIDS Management Protocol, MOH Testing Algorithm.",
+    "additional": "🔄 NCK Variations:\n- May ask about window period or false positives.\n- Could test sequence of testing or interpretation of results.\n\n💡 Tip: Screen with ELISA/rapid. Confirm with Western blot."
+  },
+  {
+    "question": "The nurse understands that the main function of the liver in digestion is to:",
+    "options": {
+      "A": "Produce insulin",
+      "B": "Store bile",
+      "C": "Absorb nutrients",
+      "D": "Produce bile"
+    },
+    "answer": "D",
+    "explanation": "📘 Unit Integration: Digestive System, Anatomy & Physiology, Nutrition.\n\n📌 Rationale: The liver produces bile, which emulsifies fats to aid digestion. Bile is stored in the gallbladder, not the liver. Insulin is produced by the pancreas; absorption occurs mainly in the small intestine.\n\n📚 Source Concepts: Marieb’s A&P, NCK Digestive Physiology Unit, WHO Nutrition Handbook.",
+    "additional": "🔄 NCK Variations:\n- Might ask what happens if bile production is impaired.\n- Could describe fat malabsorption symptoms.\n\n💡 Tip: Liver makes bile, gallbladder stores it. Bile = fat digestion helper."
+  },
+  {
+    "question": "Which of the following is a sign of dehydration in infants?",
+    "options": {
+      "A": "Bulging fontanelle",
+      "B": "Sunken eyes and dry mucous membranes",
+      "C": "Increased urination",
+      "D": "Rapid weight gain"
+    },
+    "answer": "B",
+    "explanation": "📘 Unit Integration: Pediatric Nursing, Fluid & Electrolyte Balance, Assessment Skills.\n\n📌 Rationale: Signs of dehydration in infants include sunken eyes, sunken fontanelle, dry lips/mouth, reduced skin turgor, and decreased urine output. Bulging fontanelle suggests increased ICP.\n\n📚 Source Concepts: WHO IMCI Guidelines, NCK Pediatric Dehydration Protocols, Emergency Child Assessment Tools.",
+    "additional": "🔄 NCK Variations:\n- May frame question as a case with diarrhea.\n- Could ask for classification (some/severe dehydration).\n\n💡 Tip: Sunken features = sunken fluids. Always assess fontanel + output."
+  },
+  {
+    "question": "Which of the following nursing interventions helps prevent deep vein thrombosis (DVT) in a post-operative patient?",
+    "options": {
+      "A": "Encourage deep breathing exercises",
+      "B": "Keep patient in bed until discharge",
+      "C": "Apply TED stockings and promote ambulation",
+      "D": "Place ice packs on legs"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Surgical Nursing, Circulatory System, Preventive Care.\n\n📌 Rationale: DVT prevention includes compression stockings (TEDs), early ambulation, and leg exercises to promote venous return. Deep breathing prevents pneumonia, not DVT. Bedrest increases risk.\n\n📚 Source Concepts: Brunner & Suddarth, WHO Post-Op Care Manual, NCK Perioperative Nursing Unit.",
+    "additional": "🔄 NCK Variations:\n- May present patient with swelling/redness and ask for likely complication.\n- Could test pharmacologic prophylaxis like heparin.\n\n💡 Tip: Move to circulate! Stagnation = clot risk."
+  },
+  {
+    "question": "The best position to place a patient who is unconscious but breathing is:",
+    "options": {
+      "A": "Supine with head extended",
+      "B": "Prone position",
+      "C": "Semi-Fowler’s position",
+      "D": "Lateral recovery position"
+    },
+    "answer": "D",
+    "explanation": "📘 Unit Integration: Emergency Nursing, Airway Management, Patient Safety.\n\n📌 Rationale: The lateral (recovery) position prevents aspiration of secretions or vomit by maintaining a clear airway. Supine risks airway obstruction; prone is unsafe; semi-Fowler’s is not effective in unconscious patients.\n\n📚 Source Concepts: WHO First Aid Guidelines, NCK Emergency Care Manual, Red Cross BLS Protocols.",
+    "additional": "🔄 NCK Variations:\n- Could describe unconscious patient post-seizure.\n- May confuse with semi-conscious scenarios.\n\n💡 Tip: If breathing but unconscious = place on side!"
+  },
+  {
+    "question": "Which nursing diagnosis is most appropriate for a patient with chronic obstructive pulmonary disease (COPD)?",
+    "options": {
+      "A": "Risk for fluid volume deficit",
+      "B": "Impaired gas exchange",
+      "C": "Ineffective thermoregulation",
+      "D": "Impaired physical mobility"
+    },
+    "answer": "B",
+    "explanation": "📘 Unit Integration: Respiratory Nursing, Nursing Process, Pathophysiology.\n\n📌 Rationale: In COPD, the hallmark issue is impaired gas exchange due to damaged alveoli and airway obstruction. While mobility may be affected, the primary concern is oxygenation.\n\n📚 Source Concepts: NANDA Nursing Diagnoses, NCK Chronic Disease Management, WHO COPD Guidelines.",
+    "additional": "🔄 NCK Variations:\n- May test outcome indicators (e.g., oxygen sat improvement).\n- Could be paired with ABG results.\n\n💡 Tip: Start with the ABCs — Airway first!"
+  },
+  {
+    "question": "What is the primary reason for administering Rho(D) immune globulin to an Rh-negative mother?",
+    "options": {
+      "A": "Prevent infection during pregnancy",
+      "B": "Prevent Rh sensitization",
+      "C": "Treat anemia in the newborn",
+      "D": "Stimulate fetal development"
+    },
+    "answer": "B",
+    "explanation": "📘 Unit Integration: Obstetrics, Hematology, Immunology.\n\n📌 Rationale: Rho(D) immune globulin prevents the mother from forming antibodies against Rh-positive fetal blood cells, thereby avoiding hemolytic disease in future pregnancies.\n\n📚 Source Concepts: WHO Maternal Immunization Protocol, NCK Obstetric Hematology Unit, Myles Midwifery.",
+    "additional": "🔄 NCK Variations:\n- May use blood typing chart scenarios.\n- Could ask about timing (e.g., 28 weeks and postpartum).\n\n💡 Tip: Rhogam = Rh shield. Prevents mom from attacking baby’s blood."
+  },
+  {
+    "question": "Which of the following best indicates the effectiveness of iron therapy in an anemic patient?",
+    "options": {
+      "A": "Increased heart rate",
+      "B": "Improved appetite",
+      "C": "Increased hemoglobin levels",
+      "D": "Decreased pallor"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Hematology, Pharmacology, Clinical Evaluation.\n\n📌 Rationale: The most objective and direct measure of iron therapy success is an increase in hemoglobin (Hb) levels. Clinical signs like pallor improve, but lab values confirm effectiveness.\n\n📚 Source Concepts: WHO Iron Supplementation Chart, NCK Hematology Labs, Clinical Therapeutics Handbook.",
+    "additional": "🔄 NCK Variations:\n- May give serial Hb values and ask for interpretation.\n- Could include nutrition alongside meds.\n\n💡 Tip: Always verify with labs — signs follow labs!"
+  },
+  {
+    "question": "The nurse recognizes that the purpose of incentive spirometry is to:",
+    "options": {
+      "A": "Improve appetite",
+      "B": "Prevent atelectasis",
+      "C": "Reduce anxiety",
+      "D": "Measure blood gases"
+    },
+    "answer": "B",
+    "explanation": "📘 Unit Integration: Post-Op Care, Respiratory Therapy, Patient Teaching.\n\n📌 Rationale: Incentive spirometry encourages deep breathing, expanding alveoli and preventing atelectasis (lung collapse), especially after surgery. It does not affect appetite or anxiety directly.\n\n📚 Source Concepts: WHO Pulmonary Rehab Guidelines, NCK Postoperative Nursing Skills Manual, Brunner & Suddarth.",
+    "additional": "🔄 NCK Variations:\n- May test teaching steps or correct usage.\n- Could describe symptoms of atelectasis.\n\n💡 Tip: Use every 1–2 hrs while awake post-op. Breath in, hold, exhale."
+  },
+  {
+    "question": "Which of the following blood components is responsible for carrying oxygen?",
+    "options": {
+      "A": "Platelets",
+      "B": "Plasma",
+      "C": "Red blood cells",
+      "D": "White blood cells"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Hematology, Physiology, Oxygen Transport.\n\n📌 Rationale: Red blood cells contain hemoglobin, the protein that binds and transports oxygen to tissues. White cells fight infection; platelets clot blood; plasma carries nutrients and hormones.\n\n📚 Source Concepts: Marieb’s A&P, NCK Hematologic System Unit, WHO Physiology Primer.",
+    "additional": "🔄 NCK Variations:\n- May pair with anemia or oxygen delivery questions.\n- Could describe lab values (e.g., Hb or RBC count).\n\n💡 Tip: RBC = O₂ taxi. Low RBC = tired tissues."
+  },
+  {
+    "question": "Which of the following is a common side effect of furosemide?",
+    "options": {
+      "A": "Hyperkalemia",
+      "B": "Hypokalemia",
+      "C": "Hypertension",
+      "D": "Bradycardia"
+    },
+    "answer": "B",
+    "explanation": "📘 Unit Integration: Pharmacology, Renal Nursing, Cardiovascular System.\n\n📌 Rationale: Furosemide is a loop diuretic that promotes the excretion of sodium and potassium. A common side effect is hypokalemia, which can cause muscle weakness, fatigue, and arrhythmias.\n\n📚 Source Concepts: NCK Pharmacology Guide, WHO Essential Medicines List, Brunner & Suddarth’s Diuretic Nursing Care Plans.",
+    "additional": "🔄 NCK Variations:\n- May ask for signs/symptoms of low potassium.\n- Could test appropriate nursing interventions (e.g., potassium-rich diet).\n\n💡 Tip: Loop = lose potassium. Monitor electrolytes regularly!"
+  },
+  {
+    "question": "Which of the following vaccines is contraindicated in pregnancy?",
+    "options": {
+      "A": "Tetanus toxoid",
+      "B": "Influenza (inactivated)",
+      "C": "MMR",
+      "D": "Hepatitis B"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Immunization, Maternal Health, Infectious Disease.\n\n📌 Rationale: MMR is a live-attenuated vaccine and is contraindicated in pregnancy due to potential risk to the fetus. Tetanus and inactivated influenza vaccines are safe and recommended.\n\n📚 Source Concepts: WHO Immunization in Pregnancy Guidelines, NCK Maternal & Child Health Protocol, KEPI Policy Manual.",
+    "additional": "🔄 NCK Variations:\n- Could ask which vaccine is SAFE in pregnancy.\n- May present a newly pregnant mother seeking immunization advice.\n\n💡 Tip: Live vaccines = delay until postpartum!"
+  },
+  {
+    "question": "Which cranial nerve is responsible for hearing and balance?",
+    "options": {
+      "A": "Facial nerve (VII)",
+      "B": "Trigeminal nerve (V)",
+      "C": "Vestibulocochlear nerve (VIII)",
+      "D": "Vagus nerve (X)"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Neurosensory System, Anatomy & Physiology, ENT Nursing.\n\n📌 Rationale: The vestibulocochlear nerve (cranial nerve VIII) transmits sound and equilibrium (balance) signals from the inner ear to the brain. Facial controls muscles of expression; trigeminal handles facial sensation; vagus regulates autonomic functions.\n\n📚 Source Concepts: NCK Neuroanatomy Guide, WHO ENT Screening Tools, Marieb’s A&P.",
+    "additional": "🔄 NCK Variations:\n- May describe symptoms of nerve damage (e.g., tinnitus, vertigo).\n- Could ask about cranial nerve testing techniques.\n\n💡 Tip: “Vestibulo” = balance, “cochlear” = hearing. CN VIII does both!"
+  },
+  {
+    "question": "The purpose of the Apgar score is to assess:",
+    "options": {
+      "A": "Fetal growth in pregnancy",
+      "B": "Neonatal resuscitation effectiveness",
+      "C": "Newborn’s transition to extrauterine life",
+      "D": "Genetic abnormalities"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Neonatal Nursing, Obstetrics, Emergency Assessment.\n\n📌 Rationale: The Apgar score evaluates a newborn’s adaptation after birth at 1 and 5 minutes using five parameters: Appearance, Pulse, Grimace, Activity, and Respiration. It does not assess genetics or fetal growth.\n\n📚 Source Concepts: WHO Essential Newborn Care, NCK Newborn Assessment Guidelines, Myles Midwifery Textbook.",
+    "additional": "🔄 NCK Variations:\n- Could present Apgar results and ask for interpretation.\n- Might ask about interventions for low score.\n\n💡 Tip: Apgar is a rapid check, not a predictor of long-term outcome."
+  },
+  {
+    "question": "The most appropriate nursing action for a patient experiencing hypoglycemia is to:",
+    "options": {
+      "A": "Give insulin",
+      "B": "Call the doctor immediately",
+      "C": "Give juice or glucose orally if conscious",
+      "D": "Administer IV fluids only"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Emergency Nursing, Endocrine Disorders, Pharmacology.\n\n📌 Rationale: For conscious patients, rapid-acting glucose like juice, glucose tablets, or sugar should be administered immediately to correct hypoglycemia. IV glucose is used if the patient is unconscious.\n\n📚 Source Concepts: WHO Hypoglycemia Protocol, NCK Emergency Nursing Manual, Diabetes First Aid Charts.",
+    "additional": "🔄 NCK Variations:\n- May include blood glucose readings (e.g., <3 mmol/L).\n- Could present signs like tremors, sweating, or confusion.\n\n💡 Tip: “Cold and clammy, need some candy!”"
+  },
+  {
+    "question": "Which blood group is known as the universal donor?",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "AB",
+      "D": "O negative"
+    },
+    "answer": "D",
+    "explanation": "📘 Unit Integration: Hematology, Transfusion Medicine, Immunology.\n\n📌 Rationale: O negative blood lacks A, B, and Rh antigens, so it can be safely given to most recipients in emergencies. AB is the universal recipient.\n\n📚 Source Concepts: WHO Blood Transfusion Safety Manual, NCK Hematology & Blood Typing Charts, Red Cross Transfusion Protocols.",
+    "additional": "🔄 NCK Variations:\n- Might ask about universal recipient (AB+).\n- Could test compatibility in pregnancy (Rh sensitization).\n\n💡 Tip: O- donates to all, AB+ receives from all."
+  },
+  {
+    "question": "Which symptom is most characteristic of left-sided heart failure?",
+    "options": {
+      "A": "Peripheral edema",
+      "B": "Jugular vein distension",
+      "C": "Pulmonary congestion and dyspnea",
+      "D": "Hepatomegaly"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Cardiovascular System, Pathophysiology, Adult Nursing.\n\n📌 Rationale: In left-sided heart failure, blood backs up into the lungs, leading to pulmonary symptoms like dyspnea, orthopnea, and crackles. Right-sided failure causes systemic congestion (JVD, edema).\n\n📚 Source Concepts: Brunner & Suddarth, WHO Heart Failure Manual, NCK Cardiac Nursing Guidelines.",
+    "additional": "🔄 NCK Variations:\n- May contrast left vs right-sided symptoms.\n- Could include auscultation findings.\n\n💡 Tip: Left = Lungs. Think breathless and bubbly lungs!"
+  },
+  {
+    "question": "Which of the following practices helps prevent nosocomial infections?",
+    "options": {
+      "A": "Restricting patient visitors",
+      "B": "Isolating all patients",
+      "C": "Performing hand hygiene before and after patient contact",
+      "D": "Wearing gloves for all activities"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Infection Control, Patient Safety, Nursing Ethics.\n\n📌 Rationale: Hand hygiene is the most effective and evidence-based method to reduce hospital-acquired (nosocomial) infections. Universal gloving is not necessary and could lead to glove misuse.\n\n📚 Source Concepts: WHO Five Moments for Hand Hygiene, NCK Infection Prevention Training, CDC IPC Manual.",
+    "additional": "🔄 NCK Variations:\n- Might describe poor practices or outbreaks.\n- Could test handwashing technique steps.\n\n💡 Tip: Wash in, wash out. Gel or soap — always!"
+  },
+  {
+    "question": "A patient with bacterial meningitis is most likely to exhibit:",
+    "options": {
+      "A": "Nuchal rigidity, photophobia, fever",
+      "B": "Productive cough, hemoptysis",
+      "C": "Jaundice and right upper quadrant pain",
+      "D": "Polyuria and polydipsia"
+    },
+    "answer": "A",
+    "explanation": "📘 Unit Integration: Neuroscience, Infectious Disease, Emergency Nursing.\n\n📌 Rationale: Meningitis presents with neck stiffness (nuchal rigidity), sensitivity to light, headache, and fever. Early recognition is critical for life-saving treatment.\n\n📚 Source Concepts: WHO Meningitis Surveillance, NCK Acute Infection Guidelines, Emergency Neurology Manuals.",
+    "additional": "🔄 NCK Variations:\n- Could present positive Kernig’s or Brudzinski’s sign.\n- May test isolation precautions (droplet).\n\n💡 Tip: Stiff neck + fever = think meningitis fast!"
+  },
+  {
+    "question": "Which part of the gastrointestinal tract is primarily responsible for nutrient absorption?",
+    "options": {
+      "A": "Stomach",
+      "B": "Large intestine",
+      "C": "Small intestine",
+      "D": "Esophagus"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Digestive System, Nutrition, Physiology.\n\n📌 Rationale: The small intestine (especially jejunum and ileum) is where most nutrients, including proteins, fats, and carbohydrates, are absorbed. The large intestine mainly absorbs water and electrolytes.\n\n📚 Source Concepts: Marieb’s A&P, WHO GI Physiology Manual, NCK Digestive System Overview.",
+    "additional": "🔄 NCK Variations:\n- May test specific nutrients absorbed in each part.\n- Could describe consequences of small bowel disease (e.g., celiac).\n\n💡 Tip: Small = absorb all. Big = absorb water."
+  },
+  {
+    "question": "Which of the following conditions requires contact precautions?",
+    "options": {
+      "A": "Pulmonary tuberculosis",
+      "B": "Measles",
+      "C": "MRSA wound infection",
+      "D": "Influenza"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Infection Control, Communicable Diseases, Hospital Epidemiology.\n\n📌 Rationale: MRSA (Methicillin-resistant Staphylococcus aureus), especially in wounds or secretions, is transmitted via direct or indirect contact. Contact precautions include gloves and gown use, especially during dressing changes or patient care.\n\n📚 Source Concepts: WHO Isolation Precaution Guidelines, NCK IPC Module, CDC Transmission-Based Precautions.",
+    "additional": "🔄 NCK Variations:\n- Might give a case with draining wound and antibiotic resistance.\n- Could ask for PPE choices or room assignment.\n\n💡 Tip: Contact = touch = gown + gloves."
+  },
+  {
+    "question": "Which hormone is responsible for the 'fight or flight' response?",
+    "options": {
+      "A": "Insulin",
+      "B": "Epinephrine",
+      "C": "Estrogen",
+      "D": "Cortisol"
+    },
+    "answer": "B",
+    "explanation": "📘 Unit Integration: Endocrine System, Stress Response, Emergency Physiology.\n\n📌 Rationale: Epinephrine (adrenaline) is released by the adrenal medulla during stress. It increases heart rate, blood pressure, and energy availability. Cortisol also helps but is slower-acting. Insulin and estrogen are unrelated to acute stress.\n\n📚 Source Concepts: Guyton’s Physiology, WHO Stress Response Chart, NCK Endocrinology Unit.",
+    "additional": "🔄 NCK Variations:\n- May describe physical symptoms (e.g., increased HR, pupil dilation).\n- Could test chronic vs acute stress hormone differences.\n\n💡 Tip: Epinephrine = emergency. Think 'E' for escape!"
+  },
+  {
+    "question": "Which nursing action is most appropriate when caring for a patient with a nasogastric (NG) tube receiving enteral feeding?",
+    "options": {
+      "A": "Keep the head of bed flat to prevent discomfort",
+      "B": "Flush the tube with air every 4 hours",
+      "C": "Check tube placement before feeding",
+      "D": "Insert the tube deeper if there's resistance"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Medical-Surgical Nursing, Nutrition Support, Patient Safety.\n\n📌 Rationale: Verifying NG tube placement before feeding prevents aspiration and ensures nutrition reaches the stomach, not the lungs. This can be done by aspirating stomach contents or checking pH.\n\n📚 Source Concepts: WHO Enteral Feeding Protocols, NCK Nursing Fundamentals, Brunner & Suddarth NG Tube Care Guide.",
+    "additional": "🔄 NCK Variations:\n- Might ask about confirming placement methods.\n- Could test complications like aspiration pneumonia.\n\n💡 Tip: No check = no feed! Safety first."
+  },
+  {
+    "question": "Which of the following is a symptom of hyperthyroidism?",
+    "options": {
+      "A": "Weight gain, fatigue, cold intolerance",
+      "B": "Bradycardia, dry skin, constipation",
+      "C": "Heat intolerance, weight loss, palpitations",
+      "D": "Depression, edema, hoarseness"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Endocrinology, Metabolism, Adult Health Nursing.\n\n📌 Rationale: Hyperthyroidism increases metabolic rate, resulting in weight loss, heat intolerance, increased sweating, tremors, and palpitations. The other options reflect hypothyroid features.\n\n📚 Source Concepts: WHO Thyroid Disorder Guidelines, NCK Medical Nursing Systems, Lewis’s Medical-Surgical Nursing.",
+    "additional": "🔄 NCK Variations:\n- May present thyroid hormone lab values.\n- Could describe Graves’ disease presentation.\n\n💡 Tip: Hyper = hot, hyped, high HR. Hypo = slow and cold."
+  },
+  {
+    "question": "What is the primary function of the alveoli in the lungs?",
+    "options": {
+      "A": "Moisten inhaled air",
+      "B": "Warm incoming air",
+      "C": "Facilitate gas exchange",
+      "D": "Filter dust particles"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Respiratory System, Physiology, Anatomy.\n\n📌 Rationale: Alveoli are thin-walled sacs in the lungs where oxygen diffuses into the blood and carbon dioxide diffuses out. They are the key structures for external respiration.\n\n📚 Source Concepts: Marieb’s Anatomy & Physiology, WHO Lung Health Manual, NCK Respiratory Assessment Guide.",
+    "additional": "🔄 NCK Variations:\n- Could frame as ABG interpretation.\n- May describe diseases affecting alveolar integrity (e.g., pneumonia).\n\n💡 Tip: Alveoli = air exchange. Tiny sacs = big job."
+  },
+  {
+    "question": "Which of the following foods is highest in potassium?",
+    "options": {
+      "A": "Apples",
+      "B": "White rice",
+      "C": "Bananas",
+      "D": "Eggs"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Nutrition, Electrolyte Management, Dietary Education.\n\n📌 Rationale: Bananas are rich in potassium, making them ideal for patients with hypokalemia. Apples, rice, and eggs are lower in potassium.\n\n📚 Source Concepts: WHO Dietary Charts, NCK Nutrition for Nurses, Clinical Dietetics Manuals.",
+    "additional": "🔄 NCK Variations:\n- May ask for diet modification in diuretic therapy.\n- Could include food label interpretation.\n\n💡 Tip: Bananas = K+ boost! Know high-potassium foods."
+  },
+  {
+    "question": "Which organ is responsible for producing insulin?",
+    "options": {
+      "A": "Liver",
+      "B": "Pancreas",
+      "C": "Spleen",
+      "D": "Gallbladder"
+    },
+    "answer": "B",
+    "explanation": "📘 Unit Integration: Endocrine Physiology, Metabolism, Diabetes Education.\n\n📌 Rationale: Insulin is produced by the beta cells of the pancreas in the islets of Langerhans. It regulates glucose uptake by cells.\n\n📚 Source Concepts: WHO Diabetes Manual, NCK Endocrine Review Unit, Guyton’s Medical Physiology.",
+    "additional": "🔄 NCK Variations:\n- Could test pancreas structure or diabetes pathophysiology.\n- May ask effects of insulin deficiency.\n\n💡 Tip: Pancreas = insulin factory. Think blood sugar boss!"
+  },
+  {
+    "question": "Which nursing intervention is priority when administering a blood transfusion?",
+    "options": {
+      "A": "Warming the blood before infusion",
+      "B": "Administering via rapid infusion pump",
+      "C": "Monitoring for transfusion reactions",
+      "D": "Flushing with dextrose 5% solution"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Hematology, Emergency Nursing, Pharmacology.\n\n📌 Rationale: The top priority during blood transfusion is monitoring for adverse reactions like fever, chills, or hemolysis, especially during the first 15 minutes. Dextrose is contraindicated due to risk of hemolysis.\n\n📚 Source Concepts: WHO Blood Safety Guidelines, NCK Blood Administration Protocols, Brunner & Suddarth.",
+    "additional": "🔄 NCK Variations:\n- May provide transfusion reaction scenario.\n- Could test compatibility checks and documentation.\n\n💡 Tip: Stay with the patient — first 15 minutes matter most!"
+  },
+  {
+    "question": "Which part of the brain regulates body temperature?",
+    "options": {
+      "A": "Cerebrum",
+      "B": "Cerebellum",
+      "C": "Hypothalamus",
+      "D": "Thalamus"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Neurophysiology, Homeostasis, Pathophysiology.\n\n📌 Rationale: The hypothalamus controls temperature regulation, hunger, thirst, and hormone secretion via the pituitary. Cerebellum handles coordination; cerebrum = thinking; thalamus = sensory relay.\n\n📚 Source Concepts: NCK Anatomy & Physiology, WHO Thermoregulation Chart, Marieb’s Human A&P.",
+    "additional": "🔄 NCK Variations:\n- Could link with fever management.\n- May describe hypothalamic stroke or brain injury.\n\n💡 Tip: Hypothalamus = thermostat of the body!"
+  },
+  {
+    "question": "What is the normal range for adult respiratory rate?",
+    "options": {
+      "A": "8–12 breaths per minute",
+      "B": "12–20 breaths per minute",
+      "C": "20–28 breaths per minute",
+      "D": "28–36 breaths per minute"
+    },
+    "answer": "B",
+    "explanation": "📘 Unit Integration: Vital Signs, Assessment Skills, Respiratory Care.\n\n📌 Rationale: Normal adult respiratory rate ranges from 12 to 20 breaths per minute. Anything below or above this range may indicate respiratory distress, bradypnea, or tachypnea.\n\n📚 Source Concepts: WHO Vital Signs Chart, NCK Assessment Skills Handbook, Clinical Observation Guides.",
+    "additional": "🔄 NCK Variations:\n- May ask what action to take for abnormal rate.\n- Could pair with oxygen saturation interpretation.\n\n💡 Tip: 12–20 = healthy lungs. Always count full minute!"
+  },
+  {
+    "question": "Which of the following is the most appropriate action for a nurse who observes smoke coming from a patient’s room?",
+    "options": {
+      "A": "Pull the fire alarm",
+      "B": "Rescue the patient",
+      "C": "Extinguish the fire",
+      "D": "Close the door"
+    },
+    "answer": "B",
+    "explanation": "📘 Unit Integration: Emergency Preparedness, Patient Safety, Nursing Ethics.\n\n📌 Rationale: According to the RACE protocol (Rescue, Alarm, Contain, Extinguish), the nurse’s first action is to rescue anyone in immediate danger. Once the patient is safe, the nurse can sound the alarm and proceed with containment.\n\n📚 Source Concepts: WHO Disaster Preparedness Guide, NCK Emergency Response Protocols, OSHA Hospital Fire Safety Handbook.",
+    "additional": "🔄 NCK Variations:\n- Could present a fire drill scenario and ask for priority action.\n- Might reverse the order of RACE components to confuse.\n\n💡 Tip: RACE = Rescue, Alarm, Contain, Extinguish."
+  },
+  {
+    "question": "Which electrolyte is essential for muscle contraction and nerve impulse transmission?",
+    "options": {
+      "A": "Sodium",
+      "B": "Calcium",
+      "C": "Phosphate",
+      "D": "Chloride"
+    },
+    "answer": "B",
+    "explanation": "📘 Unit Integration: Electrolyte Balance, Neuromuscular Physiology, Pathophysiology.\n\n📌 Rationale: Calcium plays a critical role in muscle contraction, neurotransmitter release, and nerve impulse transmission. Sodium is essential too, but calcium is the final trigger for muscle movement.\n\n📚 Source Concepts: WHO Electrolyte Charts, NCK Physiology for Nurses, Brunner & Suddarth’s Musculoskeletal Review.",
+    "additional": "🔄 NCK Variations:\n- Could ask symptoms of hypocalcemia (e.g., Chvostek sign).\n- May present ECG changes linked to calcium.\n\n💡 Tip: “C” for Calcium = Contraction."
+  },
+  {
+    "question": "Which of the following is considered a live attenuated vaccine?",
+    "options": {
+      "A": "Tetanus toxoid",
+      "B": "Inactivated polio vaccine (IPV)",
+      "C": "Measles vaccine",
+      "D": "Hepatitis B vaccine"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Immunization, Infectious Disease, Public Health.\n\n📌 Rationale: The measles vaccine is a live attenuated vaccine. Live vaccines use a weakened form of the virus to elicit immune response. Tetanus, Hep B, and IPV are inactivated or subunit vaccines.\n\n📚 Source Concepts: WHO Immunization Guide, KEPI Schedule, NCK Vaccine Administration Manual.",
+    "additional": "🔄 NCK Variations:\n- May ask for contraindications of live vaccines.\n- Could present vaccine storage questions.\n\n💡 Tip: Live = long-lasting immunity but not for immunocompromised."
+  },
+  {
+    "question": "What is the most important nursing action before administering digoxin?",
+    "options": {
+      "A": "Check blood glucose level",
+      "B": "Assess respiratory rate",
+      "C": "Check apical pulse rate",
+      "D": "Evaluate urine output"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Cardiovascular Nursing, Pharmacology, Drug Administration Safety.\n\n📌 Rationale: Digoxin slows conduction through the AV node. If apical pulse is <60 bpm in adults, the drug should be withheld and the doctor notified. Checking apical pulse ensures safety.\n\n📚 Source Concepts: NCK Drug Calculation & Administration Handbook, WHO Cardiac Drug Manual, Lewis’s Cardiac Care Nursing.",
+    "additional": "🔄 NCK Variations:\n- May ask what to do if pulse is below threshold.\n- Could ask signs of digoxin toxicity (e.g., visual disturbances).\n\n💡 Tip: Digoxin = dig heart rate. Always check pulse first!"
+  },
+  {
+    "question": "Which sign is commonly associated with appendicitis?",
+    "options": {
+      "A": "Left lower quadrant pain",
+      "B": "Right upper quadrant tenderness",
+      "C": "Pain at McBurney’s point",
+      "D": "Rebound pain in epigastric region"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Gastrointestinal Nursing, Surgical Nursing, Physical Assessment.\n\n📌 Rationale: McBurney’s point is located in the right lower quadrant (RLQ), one-third of the way from the anterior superior iliac spine to the umbilicus. Tenderness here is a hallmark of appendicitis.\n\n📚 Source Concepts: WHO GI Diagnostic Protocols, NCK Abdominal Assessment Unit, Brunner’s Digestive Disorders Chapter.",
+    "additional": "🔄 NCK Variations:\n- Could include symptoms like nausea, fever, and elevated WBC.\n- Might test for rebound tenderness or Rovsing’s sign.\n\n💡 Tip: RLQ + McBurney's = appendicitis suspect!"
+  },
+  {
+    "question": "Which laboratory test is most indicative of renal function?",
+    "options": {
+      "A": "Hemoglobin",
+      "B": "Serum creatinine",
+      "C": "ALT and AST",
+      "D": "Random blood sugar"
+    },
+    "answer": "B",
+    "explanation": "📘 Unit Integration: Renal Function, Diagnostics, Laboratory Interpretation.\n\n📌 Rationale: Serum creatinine is the most reliable indicator of renal function as it reflects glomerular filtration. ALT/AST indicate liver function; hemoglobin is for anemia; RBS checks glucose.\n\n📚 Source Concepts: WHO Renal Disease Guidelines, NCK Clinical Chemistry Handbook, Brunner & Suddarth Renal Unit.",
+    "additional": "🔄 NCK Variations:\n- Could give values and ask interpretation.\n- May include BUN or eGFR with creatinine.\n\n💡 Tip: Creatinine = kidneys. High = low filtration."
+  },
+  {
+    "question": "Which of the following actions promotes venous return and prevents DVT postoperatively?",
+    "options": {
+      "A": "Applying cold compresses",
+      "B": "Encouraging early ambulation",
+      "C": "Restricting fluid intake",
+      "D": "Keeping legs elevated above the heart at all times"
+    },
+    "answer": "B",
+    "explanation": "📘 Unit Integration: Surgical Nursing, Circulatory Health, Patient Safety.\n\n📌 Rationale: Early ambulation promotes circulation, reducing risk of clot formation. Elevation helps venous return but should be intermittent. Cold compresses do not address DVT risk.\n\n📚 Source Concepts: WHO Postoperative Care Guidelines, NCK Nursing Interventions for DVT, Brunner’s Circulatory Management.",
+    "additional": "🔄 NCK Variations:\n- Might describe patient with post-op immobility.\n- Could ask about TED stockings or leg exercises.\n\n💡 Tip: Move = no clot. Get patients walking ASAP!"
+  },
+  {
+    "question": "Which vitamin deficiency causes rickets in children?",
+    "options": {
+      "A": "Vitamin A",
+      "B": "Vitamin C",
+      "C": "Vitamin D",
+      "D": "Vitamin K"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Nutrition, Pediatric Health, Bone Metabolism.\n\n📌 Rationale: Rickets results from Vitamin D deficiency, leading to impaired calcium absorption and bone deformities in children. Vitamin A affects vision, C affects collagen, and K affects clotting.\n\n📚 Source Concepts: WHO Nutritional Deficiency Chart, NCK Child Health Nutrition, Kenya Micronutrient Strategy.",
+    "additional": "🔄 NCK Variations:\n- May ask about food sources (e.g., oily fish, sunlight).\n- Could describe bowed legs or delayed fontanel closure.\n\n💡 Tip: D = for D-ficiency in bone strength!"
+  },
+  {
+    "question": "Which complication is most associated with immobility in hospitalized patients?",
+    "options": {
+      "A": "Diabetes",
+      "B": "Hypothyroidism",
+      "C": "Pressure ulcers",
+      "D": "Asthma"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Fundamentals of Nursing, Geriatric Care, Integumentary System.\n\n📌 Rationale: Immobility leads to prolonged pressure on bony areas, impairing circulation and causing tissue necrosis. Pressure ulcers (bedsores) are a major concern in bedridden patients.\n\n📚 Source Concepts: WHO Nursing Home Care Manual, NCK Skin Integrity Guidelines, Potter & Perry Nursing Fundamentals.",
+    "additional": "🔄 NCK Variations:\n- May test prevention strategies (e.g., repositioning).\n- Could ask for staging of ulcers.\n\n💡 Tip: Turn every 2 hours = ulcer prevention!"
+  },
+  {
+    "question": "Which of the following assessments best indicates fluid volume overload?",
+    "options": {
+      "A": "Dry mucous membranes",
+      "B": "Bounding pulse and edema",
+      "C": "Hypotension and thirst",
+      "D": "Flat neck veins"
+    },
+    "answer": "B",
+    "explanation": "📘 Unit Integration: Fluid & Electrolyte Balance, Cardiovascular Assessment, Pathophysiology.\n\n📌 Rationale: Fluid overload presents with bounding pulses, pitting edema, crackles in lungs, and elevated BP. Dehydration shows dry mucosa, low BP, and concentrated urine.\n\n📚 Source Concepts: NCK Assessment Skills Handbook, WHO Volume Regulation Chart, Brunner & Suddarth Fluid Balance Unit.",
+    "additional": "🔄 NCK Variations:\n- Might ask for nursing interventions (e.g., fluid restriction).\n- Could describe CHF or renal failure case.\n\n💡 Tip: Fluid in = swelling out. Always auscultate lungs!"
+  },
+  {
+    "question": "Which type of immunity is provided by vaccination?",
+    "options": {
+      "A": "Natural active immunity",
+      "B": "Artificial active immunity",
+      "C": "Natural passive immunity",
+      "D": "Artificial passive immunity"
+    },
+    "answer": "B",
+    "explanation": "📘 Unit Integration: Immunology, Infectious Disease, Public Health.\n\n📌 Rationale: Vaccination introduces antigens into the body, stimulating the immune system to produce antibodies. This is artificial (man-made) and active because the body creates its own immune response. Passive immunity involves giving antibodies directly (e.g., immunoglobulin).\n\n📚 Source Concepts: WHO Immunization Handbook, NCK Communicable Disease Unit, KEPI Training Manual.",
+    "additional": "🔄 NCK Variations:\n- Could ask for examples of passive immunity (e.g., from mother to child).\n- May test on how long each type lasts.\n\n💡 Tip: Active = antibody maker. Passive = antibody taker."
+  },
+  {
+    "question": "Which intervention is most appropriate when caring for a patient with diarrhea?",
+    "options": {
+      "A": "Encourage intake of fatty foods",
+      "B": "Restrict oral fluids",
+      "C": "Monitor for signs of dehydration",
+      "D": "Administer laxatives"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Gastrointestinal Nursing, Fluid & Electrolyte Balance, Pediatric and Adult Care.\n\n📌 Rationale: Diarrhea causes fluid loss, so the nurse must monitor for dehydration signs like decreased skin turgor, low urine output, and dry mucosa. Fluid intake should be encouraged, not restricted. Laxatives worsen diarrhea.\n\n📚 Source Concepts: WHO Diarrheal Disease Management, NCK Dehydration Protocols, Brunner’s GI Nursing Guidelines.",
+    "additional": "🔄 NCK Variations:\n- May present a child with diarrhea and test dehydration classification.\n- Could include electrolyte imbalance labs.\n\n💡 Tip: Diarrhea drains! Watch fluids closely."
+  },
+  {
+    "question": "What is the normal range for adult blood pressure?",
+    "options": {
+      "A": "80/40 mmHg",
+      "B": "90/60 mmHg",
+      "C": "120/80 mmHg",
+      "D": "140/90 mmHg"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Cardiovascular Assessment, Vital Signs, Hypertension Management.\n\n📌 Rationale: The average normal blood pressure for adults is 120/80 mmHg. Readings consistently above 140/90 indicate hypertension; below 90/60 suggest hypotension.\n\n📚 Source Concepts: WHO Cardiovascular Risk Chart, NCK Vital Signs Protocol, Clinical Nursing Assessment Handbook.",
+    "additional": "🔄 NCK Variations:\n- Could describe patient with abnormal vitals and ask for interpretation.\n- May test first aid for hypotension.\n\n💡 Tip: 120/80 = gold standard. Check both arms on initial assessment."
+  },
+  {
+    "question": "Which of the following signs suggests hypovolemic shock?",
+    "options": {
+      "A": "Bradycardia and flushed skin",
+      "B": "Tachycardia and hypotension",
+      "C": "Hypertension and bounding pulses",
+      "D": "Slow capillary refill and bradypnea"
+    },
+    "answer": "B",
+    "explanation": "📘 Unit Integration: Emergency Nursing, Circulatory System, Shock Management.\n\n📌 Rationale: Hypovolemic shock results from blood or fluid loss. Classic signs include rapid heart rate (tachycardia), low blood pressure (hypotension), cold clammy skin, and restlessness.\n\n📚 Source Concepts: WHO Emergency Triage Guidelines, NCK First Aid and Shock Protocols, Lewis's Critical Care Nursing.",
+    "additional": "🔄 NCK Variations:\n- May test causes of fluid loss (e.g., burns, hemorrhage).\n- Could include management steps (e.g., IV fluids).\n\n💡 Tip: Shock = fast heart, low pressure. Think fluid first!"
+  },
+  {
+    "question": "Which type of consent is required before performing a surgical procedure?",
+    "options": {
+      "A": "Verbal consent",
+      "B": "Implied consent",
+      "C": "Informed written consent",
+      "D": "General admission consent"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Legal and Ethical Nursing, Perioperative Care, Patient Rights.\n\n📌 Rationale: Informed written consent ensures the patient understands the procedure, risks, benefits, and alternatives before agreeing. It is legally and ethically required for surgeries.\n\n📚 Source Concepts: NCK Legal Framework for Nurses, WHO Patient Safety Charter, Hospital Consent Policy Guidelines.",
+    "additional": "🔄 NCK Variations:\n- May test scenarios of minors or unconscious patients.\n- Could ask what happens if a patient refuses.\n\n💡 Tip: If it’s invasive — get written consent!"
+  },
+  {
+    "question": "Which organ is primarily responsible for detoxifying harmful substances in the body?",
+    "options": {
+      "A": "Kidneys",
+      "B": "Lungs",
+      "C": "Liver",
+      "D": "Pancreas"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Hepatic System, Pharmacology, Physiology.\n\n📌 Rationale: The liver processes drugs, alcohol, and toxins through enzyme systems (especially cytochrome P450). The kidneys filter waste, but detoxification is primarily hepatic.\n\n📚 Source Concepts: WHO Liver Health Manual, NCK Organ Function Summary, Marieb’s A&P.",
+    "additional": "🔄 NCK Variations:\n- May ask signs of liver dysfunction (e.g., jaundice).\n- Could test drug metabolism effects.\n\n💡 Tip: Liver = detox boss. Yellow skin = liver warning!"
+  },
+  {
+    "question": "Which nutrient is essential for wound healing?",
+    "options": {
+      "A": "Vitamin A",
+      "B": "Vitamin C",
+      "C": "Calcium",
+      "D": "Iron"
+    },
+    "answer": "B",
+    "explanation": "📘 Unit Integration: Nutrition, Surgical Nursing, Integumentary System.\n\n📌 Rationale: Vitamin C is required for collagen formation, tissue repair, and immune function—all vital for wound healing. Vitamin A also helps, but C is the key.\n\n📚 Source Concepts: WHO Micronutrient Guide, NCK Nutrition in Healing Protocol, Brunner & Suddarth Tissue Repair Module.",
+    "additional": "🔄 NCK Variations:\n- May test for dietary sources or symptoms of deficiency.\n- Could ask about pressure ulcer recovery.\n\n💡 Tip: C for collagen, C for cut repair!"
+  },
+  {
+    "question": "Which of the following is an example of a closed wound?",
+    "options": {
+      "A": "Laceration",
+      "B": "Abrasion",
+      "C": "Contusion",
+      "D": "Puncture"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Wound Care, Trauma Nursing, Integumentary Assessment.\n\n📌 Rationale: A contusion (bruise) is a closed wound caused by blunt trauma, resulting in bleeding under the skin without breaking the surface. The others involve skin breakage.\n\n📚 Source Concepts: WHO Wound Classification Guide, NCK First Aid Book, Lewis’s Surgical Nursing Text.",
+    "additional": "🔄 NCK Variations:\n- May describe wound and ask classification.\n- Could ask for wound care interventions.\n\n💡 Tip: Contusion = closed + color change (blue-black)."
+  },
+  {
+    "question": "Which of the following statements best describes a nosocomial infection?",
+    "options": {
+      "A": "An infection acquired outside the hospital",
+      "B": "An infection that is resistant to treatment",
+      "C": "An infection present at admission",
+      "D": "An infection acquired after hospital admission"
+    },
+    "answer": "D",
+    "explanation": "📘 Unit Integration: Infection Prevention, Microbiology, Hospital Epidemiology.\n\n📌 Rationale: A nosocomial (hospital-acquired) infection develops 48 hours or more after admission and was not present or incubating at the time of entry. Examples include catheter-associated infections or MRSA.\n\n📚 Source Concepts: WHO Hospital-Acquired Infection Guidelines, NCK IPC Training, CDC Surveillance Manuals.",
+    "additional": "🔄 NCK Variations:\n- May describe specific HAIs like UTI, pneumonia.\n- Could ask for nurse’s role in prevention.\n\n💡 Tip: Nosocomial = New after you’re admitted!"
+  },
+  {
+    "question": "Which of the following is a sign of increased intracranial pressure (ICP)?",
+    "options": {
+      "A": "Bradycardia, irregular respirations, hypertension",
+      "B": "Tachycardia, high temperature, hypotension",
+      "C": "Hypotension, slow respiration, bounding pulse",
+      "D": "Pale skin, bradypnea, tachycardia"
+    },
+    "answer": "A",
+    "explanation": "📘 Unit Integration: Neuroscience, Emergency Nursing, Critical Care.\n\n📌 Rationale: Cushing's triad—bradycardia, hypertension, and irregular respirations—is a late sign of increased ICP. This indicates the brain is under pressure and herniation risk is imminent.\n\n📚 Source Concepts: WHO Neurotrauma Manual, NCK Critical Care Nursing Guide, Brunner & Suddarth Neurosystem Management.",
+    "additional": "🔄 NCK Variations:\n- May describe a head injury patient.\n- Could ask for nursing interventions (e.g., elevate head of bed).\n\n💡 Tip: Pressure rises = brainstem compromised. Watch vitals closely!"
+  },
+  {
+    "question": "Which drug is used as an antidote for organophosphate poisoning?",
+    "options": {
+      "A": "Atropine",
+      "B": "Naloxone",
+      "C": "Activated charcoal",
+      "D": "Vitamin K"
+    },
+    "answer": "A",
+    "explanation": "📘 Unit Integration: Toxicology, Pharmacology, Emergency Response.\n\n📌 Rationale: Atropine is the antidote for organophosphate (pesticide) poisoning, which causes cholinergic overstimulation (salivation, lacrimation, urination, defecation). It blocks muscarinic receptors.\n\n📚 Source Concepts: WHO Poisoning Protocols, NCK Pharmacology Manual, MOH Kenya Poison Control Guidelines.",
+    "additional": "🔄 NCK Variations:\n- May ask for signs of poisoning (e.g., pinpoint pupils, diarrhea).\n- Could include pralidoxime as secondary antidote.\n\n💡 Tip: Atropine = Anti-drool = blocks cholinergic storm!"
+  },
+  {
+    "question": "Which stage of labor involves full cervical dilation to delivery of the baby?",
+    "options": {
+      "A": "First stage",
+      "B": "Second stage",
+      "C": "Third stage",
+      "D": "Fourth stage"
+    },
+    "answer": "B",
+    "explanation": "📘 Unit Integration: Midwifery, Reproductive Health, Labor & Delivery.\n\n📌 Rationale: The second stage of labor begins at 10 cm cervical dilation and ends with the delivery of the baby. The first stage is cervical dilation; third is delivery of placenta; fourth is postpartum observation.\n\n📚 Source Concepts: WHO Safe Motherhood Guidelines, NCK Labor Management Protocol, Myles Textbook for Midwives.",
+    "additional": "🔄 NCK Variations:\n- May describe station and contraction pattern.\n- Could ask for duration or nursing care during this stage.\n\n💡 Tip: 10 cm = time to push!"
+  },
+  {
+    "question": "What is the most appropriate nursing intervention for a patient having a tonic-clonic seizure?",
+    "options": {
+      "A": "Insert a tongue blade to prevent biting",
+      "B": "Restrain the patient’s movements",
+      "C": "Turn the patient to the side and protect the head",
+      "D": "Give oral medication immediately"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Emergency Nursing, Neurological Care, First Aid.\n\n📌 Rationale: During a seizure, protect the patient from injury by turning them to the side to prevent aspiration and cushion their head. Never put anything in their mouth or restrain their limbs.\n\n📚 Source Concepts: WHO Seizure Management Guidelines, NCK Emergency Response Guide, Brunner’s Neurologic Disorders Care Plan.",
+    "additional": "🔄 NCK Variations:\n- May describe pre-ictal or post-ictal phases.\n- Could ask about priority after seizure ends.\n\n💡 Tip: Side = safety. Keep airway clear!"
+  },
+  {
+    "question": "Which fetal position is most favorable for vaginal delivery?",
+    "options": {
+      "A": "Occiput posterior",
+      "B": "Occiput anterior",
+      "C": "Transverse lie",
+      "D": "Breech presentation"
+    },
+    "answer": "B",
+    "explanation": "📘 Unit Integration: Obstetrics, Fetal Monitoring, Midwifery Practice.\n\n📌 Rationale: The occiput anterior (OA) position aligns the baby’s head optimally for passing through the birth canal. Occiput posterior may cause back labor; breech and transverse often require cesarean.\n\n📚 Source Concepts: WHO Birth Positioning Chart, NCK Normal Labor Protocols, Myles Midwifery Fetal Assessment Chapter.",
+    "additional": "🔄 NCK Variations:\n- May describe fetal heart tones and presenting part.\n- Could ask about complications of malpresentation.\n\n💡 Tip: OA = Okay Ahead! Posterior = Painful Progress."
+  },
+  {
+    "question": "Which lab value best reflects long-term blood glucose control?",
+    "options": {
+      "A": "Fasting blood sugar",
+      "B": "Random blood sugar",
+      "C": "HbA1c",
+      "D": "Urine glucose"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Endocrinology, Diagnostics, Diabetes Management.\n\n📌 Rationale: HbA1c reflects average blood glucose over 2–3 months. Fasting and random glucose show short-term control. Urine glucose is unreliable.\n\n📚 Source Concepts: WHO Diabetes Monitoring Manual, NCK Lab Interpretation Chart, Lewis’s Endocrine Disorders Guide.",
+    "additional": "🔄 NCK Variations:\n- May provide lab values and ask interpretation.\n- Could test lifestyle interventions for control.\n\n💡 Tip: A1c = Average over time. Aim <7%!"
+  },
+  {
+    "question": "Which of the following drugs is used to induce labor?",
+    "options": {
+      "A": "Magnesium sulfate",
+      "B": "Oxytocin",
+      "C": "Betamethasone",
+      "D": "Nifedipine"
+    },
+    "answer": "B",
+    "explanation": "📘 Unit Integration: Midwifery, Pharmacology, Labor Management.\n\n📌 Rationale: Oxytocin stimulates uterine contractions and is commonly used for labor induction or augmentation. Magnesium sulfate is used for preeclampsia; betamethasone for fetal lung maturity; nifedipine for tocolysis.\n\n📚 Source Concepts: WHO Safe Birth Toolkit, NCK Labor Induction Guidelines, Myles Obstetric Drug Chart.",
+    "additional": "🔄 NCK Variations:\n- May ask about dosage titration.\n- Could ask what to monitor (e.g., FHR, contractions).\n\n💡 Tip: Oxytocin = ‘Oxy’ = Out baby!"
+  },
+  {
+    "question": "Which test confirms pregnancy by detecting the hormone hCG?",
+    "options": {
+      "A": "Pap smear",
+      "B": "Urine dipstick test",
+      "C": "Pelvic ultrasound",
+      "D": "Fertility tracking"
+    },
+    "answer": "B",
+    "explanation": "📘 Unit Integration: Reproductive Health, Diagnostic Testing, Antenatal Care.\n\n📌 Rationale: hCG (human chorionic gonadotropin) is secreted after implantation and is detected in urine or blood pregnancy tests. Ultrasound confirms gestation later, not hormone.\n\n📚 Source Concepts: WHO ANC Guidelines, NCK Early Pregnancy Assessment Tools, Myles Midwifery First Trimester Protocol.",
+    "additional": "🔄 NCK Variations:\n- May describe early pregnancy symptoms.\n- Could include missed period case study.\n\n💡 Tip: hCG = Hello, baby is growing!"
+  },
+  {
+    "question": "Which infection is screened using the Mantoux test?",
+    "options": {
+      "A": "Syphilis",
+      "B": "HIV",
+      "C": "Tuberculosis",
+      "D": "Malaria"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Communicable Disease Nursing, Diagnostics, Respiratory Health.\n\n📌 Rationale: The Mantoux (PPD) test involves injecting tuberculin under the skin to check for immune reaction, indicating TB exposure. HIV and syphilis require blood tests; malaria uses microscopy or RDTs.\n\n📚 Source Concepts: WHO TB Diagnostic Manual, NCK TB Screening Protocol, CDC TB Testing Guidelines.",
+    "additional": "🔄 NCK Variations:\n- May test interpretation of induration sizes.\n- Could ask how to handle positive test.\n\n💡 Tip: Mantoux = Measure after 48–72 hrs. Look for swelling!"
+  },
+  {
+    "question": "Which food is best for a patient with iron-deficiency anemia?",
+    "options": {
+      "A": "Boiled rice",
+      "B": "Spinach",
+      "C": "Whole milk",
+      "D": "Orange juice"
+    },
+    "answer": "B",
+    "explanation": "📘 Unit Integration: Nutrition, Hematology, Dietary Counseling.\n\n📌 Rationale: Spinach and other green leafy vegetables are rich in non-heme iron. Vitamin C (from orange juice) helps absorb iron but doesn’t contain it. Milk inhibits iron absorption.\n\n📚 Source Concepts: WHO Nutrition Guide, NCK Iron Deficiency Protocol, Clinical Nutrition Manuals.",
+    "additional": "🔄 NCK Variations:\n- May ask best food pairings (e.g., spinach + citrus).\n- Could present anemia case with symptoms.\n\n💡 Tip: Iron + C = Strong blood. Avoid tea and milk with iron meals."
+  },
+  {
+    "question": "Which of the following positions is best for a patient experiencing difficulty breathing?",
+    "options": {
+      "A": "Supine",
+      "B": "Lateral",
+      "C": "High Fowler’s",
+      "D": "Trendelenburg"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Respiratory Nursing, Patient Positioning, Emergency Care.\n\n📌 Rationale: High Fowler’s position (sitting upright at 60–90°) allows for maximum lung expansion, easing breathing. Supine may worsen dyspnea, and Trendelenburg impairs ventilation.\n\n📚 Source Concepts: WHO Respiratory Distress Protocols, NCK Positioning in Patient Care Manual, Lewis’s Respiratory Disorders.",
+    "additional": "🔄 NCK Variations:\n- May ask position for specific respiratory diseases (e.g., COPD).\n- Could test rationale for use with oxygen therapy.\n\n💡 Tip: High = head up = happy lungs."
+  },
+  {
+    "question": "Which of the following findings is most associated with hypokalemia?",
+    "options": {
+      "A": "Muscle cramps and irregular heartbeat",
+      "B": "Hypertension and flushed skin",
+      "C": "Weight gain and bradycardia",
+      "D": "Hypotension and slow reflexes"
+    },
+    "answer": "A",
+    "explanation": "📘 Unit Integration: Electrolyte Balance, Cardiac Nursing, Clinical Assessment.\n\n📌 Rationale: Low potassium causes neuromuscular and cardiac disturbances including weakness, cramps, and arrhythmias (flattened T waves on ECG).\n\n📚 Source Concepts: WHO Electrolyte Chart, NCK Electrolyte Imbalance Manual, Brunner’s Fluid and Electrolyte Disorders.",
+    "additional": "🔄 NCK Variations:\n- May present ECG strip or lab values.\n- Could test foods high in potassium.\n\n💡 Tip: Potassium = pulse regulator. Low K = cramps + chaos in heart."
+  },
+  {
+    "question": "Which of the following is an example of tertiary prevention?",
+    "options": {
+      "A": "Health education on HIV prevention",
+      "B": "Immunization for measles",
+      "C": "Rehabilitation after stroke",
+      "D": "Regular screening for cervical cancer"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Community Health Nursing, Public Health, Preventive Medicine.\n\n📌 Rationale: Tertiary prevention focuses on minimizing disability and promoting recovery after disease occurs. Rehabilitation (e.g., physiotherapy post-stroke) is a classic example.\n\n📚 Source Concepts: WHO Levels of Prevention Chart, NCK Community Health Textbook, Public Health Strategies Manual.",
+    "additional": "🔄 NCK Variations:\n- May ask to match primary, secondary, tertiary to examples.\n- Could reverse definitions to confuse.\n\n💡 Tip: Tertiary = Treat after trouble."
+  },
+  {
+    "question": "What is the correct size of a normal adult urinary catheter (Foley) in females?",
+    "options": {
+      "A": "8–10 Fr",
+      "B": "12–14 Fr",
+      "C": "16–18 Fr",
+      "D": "20–22 Fr"
+    },
+    "answer": "B",
+    "explanation": "📘 Unit Integration: Medical-Surgical Nursing, Urologic Care, Nursing Procedures.\n\n📌 Rationale: The recommended size for adult females is 12–14 French. Larger sizes are typically used for males or when clots need to be evacuated.\n\n📚 Source Concepts: WHO Urinary Care Manual, NCK Procedure Guidelines, Brunner’s Skills and Techniques in Nursing.",
+    "additional": "🔄 NCK Variations:\n- May ask about insertion steps or complications (e.g., UTI).\n- Could include Foley size for special populations.\n\n💡 Tip: Female Foley = Fourteen is fine."
+  },
+  {
+    "question": "Which test is used to monitor long-term use of warfarin therapy?",
+    "options": {
+      "A": "Bleeding time",
+      "B": "Prothrombin time (PT)/INR",
+      "C": "Activated partial thromboplastin time (aPTT)",
+      "D": "Platelet count"
+    },
+    "answer": "B",
+    "explanation": "📘 Unit Integration: Hematology, Anticoagulant Therapy, Pharmacology.\n\n📌 Rationale: PT/INR is used to monitor warfarin’s anticoagulant effect. aPTT is for heparin. Warfarin prolongs PT, and INR standardizes the result.\n\n📚 Source Concepts: WHO Anticoagulation Guidelines, NCK Drug Monitoring Protocols, Clinical Lab Values Handbook.",
+    "additional": "🔄 NCK Variations:\n- May give high/low INR scenarios.\n- Could ask what to do before surgery.\n\n💡 Tip: Warfarin = Watch PT/INR!"
+  },
+  {
+    "question": "Which of the following assessments best determines cyanosis in dark-skinned patients?",
+    "options": {
+      "A": "Lips and cheeks",
+      "B": "Nail beds and palms",
+      "C": "Tongue and mucous membranes",
+      "D": "Forehead and arms"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Clinical Assessment, Multicultural Care, Respiratory System.\n\n📌 Rationale: In dark-skinned individuals, mucous membranes and the tongue are better indicators of cyanosis than skin tone. Nail beds may be misleading.\n\n📚 Source Concepts: WHO Cultural Assessment Guide, NCK Vital Signs and Observations Manual, Brunner & Suddarth Multisystem Approach.",
+    "additional": "🔄 NCK Variations:\n- May ask about other signs of hypoxia.\n- Could describe a hypoxic patient and ask for priority assessment.\n\n💡 Tip: Look inside — tongue tells the truth!"
+  },
+  {
+    "question": "Which of the following is an appropriate nursing action before surgery?",
+    "options": {
+      "A": "Shave the surgical site dry with a razor",
+      "B": "Allow the patient to eat 1 hour before surgery",
+      "C": "Verify patient identity and surgical consent",
+      "D": "Remove all IV lines"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Perioperative Nursing, Legal-Ethical Practice, Patient Safety.\n\n📌 Rationale: Before surgery, the nurse must verify consent and ensure correct patient and procedure identification. Shaving dry causes micro-abrasions. NPO status should be maintained.\n\n📚 Source Concepts: WHO Safe Surgery Checklist, NCK Preoperative Guidelines, Legal Frameworks in Nursing Care.",
+    "additional": "🔄 NCK Variations:\n- May describe wrong-patient scenario.\n- Could ask about time-out procedures.\n\n💡 Tip: Right patient + Right site = Safe surgery!"
+  },
+  {
+    "question": "Which condition is most commonly associated with frothy, foul-smelling, greenish vaginal discharge?",
+    "options": {
+      "A": "Candidiasis",
+      "B": "Trichomoniasis",
+      "C": "Bacterial vaginosis",
+      "D": "Chlamydia"
+    },
+    "answer": "B",
+    "explanation": "📘 Unit Integration: Reproductive Health, STI Management, Microbiology.\n\n📌 Rationale: Trichomoniasis, a protozoal infection, causes a characteristic frothy, green-yellow, foul-smelling vaginal discharge. Candidiasis = thick white; BV = fishy gray; Chlamydia may be asymptomatic.\n\n📚 Source Concepts: WHO STI Management Guidelines, NCK Reproductive Health Unit, Gynecologic Infection Charts.",
+    "additional": "🔄 NCK Variations:\n- May ask for treatment (e.g., metronidazole).\n- Could provide wet mount microscopy findings.\n\n💡 Tip: Frothy + foul = Think Trich!"
+  },
+  {
+    "question": "Which part of the stethoscope is used to auscultate high-pitched lung sounds?",
+    "options": {
+      "A": "Bell",
+      "B": "Diaphragm",
+      "C": "Tubing",
+      "D": "Ear tips"
+    },
+    "answer": "B",
+    "explanation": "📘 Unit Integration: Clinical Skills, Respiratory Assessment, Medical Devices.\n\n📌 Rationale: The diaphragm of the stethoscope is used for high-pitched sounds like breath, bowel, and normal heart sounds. The bell is better for low-pitched sounds (e.g., murmurs).\n\n📚 Source Concepts: NCK Physical Assessment Manual, WHO Lung Examination Charts, Brunner & Suddarth’s Auscultation Techniques.",
+    "additional": "🔄 NCK Variations:\n- Could test sounds heard with bell vs diaphragm.\n- May ask for steps in respiratory assessment.\n\n💡 Tip: Diaphragm = detect daily sounds. Bell = base tones."
+  },
+  {
+    "question": "Which finding is most consistent with left-sided heart failure?",
+    "options": {
+      "A": "Crackles in lungs",
+      "B": "Hepatomegaly",
+      "C": "Peripheral edema",
+      "D": "Jugular vein distention"
+    },
+    "answer": "A",
+    "explanation": "📘 Unit Integration: Cardiovascular Nursing, Pathophysiology, Respiratory Assessment.\n\n📌 Rationale: Left-sided heart failure causes blood to back up into the lungs, resulting in pulmonary congestion, crackles, dyspnea, and orthopnea. Right-sided failure causes systemic symptoms.\n\n📚 Source Concepts: WHO CHF Care Manual, NCK Cardiac Assessment Chart, Lewis’s Cardiac Disorders Nursing.",
+    "additional": "🔄 NCK Variations:\n- May contrast left vs right failure findings.\n- Could include auscultation scenario.\n\n💡 Tip: Left = Lungs. Listen for crackles!"
+  },
+  [
+  {
+    "question": "Which of the following conditions is most associated with night sweats, weight loss, and a persistent cough?",
+    "options": {
+      "A": "Asthma",
+      "B": "Tuberculosis",
+      "C": "Bronchitis",
+      "D": "Pneumonia"
+    },
+    "answer": "B",
+    "explanation": "📘 Unit Integration: Respiratory Nursing, Communicable Diseases, Public Health.\n\n📌 Rationale: Tuberculosis (TB) commonly presents with chronic productive cough, night sweats, fatigue, and unexplained weight loss. Asthma and bronchitis involve inflammation but lack systemic symptoms like weight loss.\n\n📚 Source Concepts: WHO TB Screening Guidelines, NCK Respiratory Infection Protocols, Kenya National TB Program Manual.",
+    "additional": "🔄 NCK Variations:\n- May ask what PPE to wear or steps in sputum collection.\n- Could ask about DOTS and treatment adherence.\n\n💡 Tip: Night sweats + weight loss = suspect TB until proven otherwise!"
+  },
+  {
+    "question": "Which of the following best describes informed consent?",
+    "options": {
+      "A": "Consent given without explanation",
+      "B": "Consent given under pressure",
+      "C": "Voluntary agreement after full disclosure",
+      "D": "Consent obtained by a relative"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Nursing Ethics, Legal Frameworks, Patient Rights.\n\n📌 Rationale: Informed consent requires that the patient be fully educated about the procedure, risks, benefits, and alternatives, and must give consent voluntarily. Coercion or lack of understanding invalidates consent.\n\n📚 Source Concepts: NCK Ethics & Legal Practice Manual, WHO Patient Rights Charter, Hospital Informed Consent Guidelines.",
+    "additional": "🔄 NCK Variations:\n- May present scenarios involving unconscious or mentally impaired patients.\n- Could test nurse’s responsibility in ensuring understanding.\n\n💡 Tip: Consent = choice + clarity + comprehension."
+  },
+  {
+    "question": "Which nursing diagnosis is most appropriate for a patient with limited mobility and at risk of pressure ulcers?",
+    "options": {
+      "A": "Impaired gas exchange",
+      "B": "Risk for impaired skin integrity",
+      "C": "Ineffective breathing pattern",
+      "D": "Acute pain"
+    },
+    "answer": "B",
+    "explanation": "📘 Unit Integration: Fundamentals of Nursing, Integumentary System, Risk Management.\n\n📌 Rationale: Limited mobility leads to pressure on bony areas, increasing risk of skin breakdown. Preventative care includes repositioning, skin care, and pressure relief devices.\n\n📚 Source Concepts: NANDA Nursing Diagnoses, NCK Pressure Ulcer Prevention Guidelines, WHO Bedridden Patient Care Chart.",
+    "additional": "🔄 NCK Variations:\n- May include Braden scale scoring.\n- Could ask interventions for stage 1 pressure area.\n\n💡 Tip: Skin risk = reposition, assess, protect!"
+  },
+  {
+    "question": "Which contraceptive method provides protection against both pregnancy and STIs?",
+    "options": {
+      "A": "Oral contraceptive pills",
+      "B": "Implants",
+      "C": "Intrauterine device",
+      "D": "Male condom"
+    },
+    "answer": "D",
+    "explanation": "📘 Unit Integration: Family Planning, STI Prevention, Reproductive Health.\n\n📌 Rationale: The male condom is the only listed method that provides dual protection: prevents pregnancy and reduces risk of sexually transmitted infections. Others are only contraceptive.\n\n📚 Source Concepts: WHO Family Planning Handbook, NCK Contraceptive Counseling Module, KEPI Reproductive Health Training.",
+    "additional": "🔄 NCK Variations:\n- Could test effectiveness rates or user teaching.\n- May present a counseling case scenario.\n\n💡 Tip: Latex = love + limit risk!"
+  },
+  {
+    "question": "Which symptom is most indicative of hypoglycemia?",
+    "options": {
+      "A": "Flushed skin and dry mouth",
+      "B": "Cold sweats and confusion",
+      "C": "Deep rapid breathing and fruity breath",
+      "D": "Polyuria and polydipsia"
+    },
+    "answer": "B",
+    "explanation": "📘 Unit Integration: Endocrine System, Emergency Care, Diabetes Management.\n\n📌 Rationale: Hypoglycemia (low blood sugar) presents with cold clammy skin, shakiness, confusion, and irritability. Option C is classic for diabetic ketoacidosis (hyperglycemia).\n\n📚 Source Concepts: WHO Hypoglycemia Guidelines, NCK Emergency Nursing Manual, Lewis’s Endocrine Disorders.",
+    "additional": "🔄 NCK Variations:\n- May describe a diabetic patient on insulin.\n- Could test immediate nursing response.\n\n💡 Tip: Cold + confused = give glucose!"
+  },
+  {
+    "question": "Which vaccine is administered at birth according to the KEPI schedule?",
+    "options": {
+      "A": "Pentavalent",
+      "B": "OPV-1",
+      "C": "BCG and OPV-0",
+      "D": "Measles-Rubella"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Immunization, Neonatal Care, Public Health.\n\n📌 Rationale: At birth, infants receive BCG (for TB) and OPV-0 (oral polio vaccine) under the KEPI program. Pentavalent is started at 6 weeks; measles at 9 months.\n\n📚 Source Concepts: KEPI Immunization Schedule, NCK MCH Guidelines, WHO Immunization Timing Handbook.",
+    "additional": "🔄 NCK Variations:\n- May ask for site or route (e.g., BCG = intradermal, right arm).\n- Could present missed vaccine scenario.\n\n💡 Tip: Birth = BCG + OPV-0. Think ‘B’ for Baby and BCG!"
+  },
+  {
+    "question": "What is the most common site for intramuscular injection in adults?",
+    "options": {
+      "A": "Deltoid muscle",
+      "B": "Vastus lateralis",
+      "C": "Dorsogluteal muscle",
+      "D": "Ventrogluteal muscle"
+    },
+    "answer": "A",
+    "explanation": "📘 Unit Integration: Pharmacology, Nursing Procedures, Musculoskeletal System.\n\n📌 Rationale: The deltoid is commonly used for small-volume IM injections in adults, especially vaccines. Vastus lateralis is preferred in infants. Ventrogluteal is safest for larger volumes in adults.\n\n📚 Source Concepts: WHO Injection Safety Manual, NCK Injection Skills Booklet, Clinical Skills Reference Guide.",
+    "additional": "🔄 NCK Variations:\n- Could test landmarks or safe techniques.\n- May ask about complications or maximum volume.\n\n💡 Tip: Deltoid = direct dose for adults!"
+  },
+  {
+    "question": "Which test is used to assess renal glucose reabsorption?",
+    "options": {
+      "A": "Serum glucose",
+      "B": "Urine glucose",
+      "C": "Creatinine clearance",
+      "D": "Blood urea nitrogen"
+    },
+    "answer": "B",
+    "explanation": "📘 Unit Integration: Renal Physiology, Diabetes, Diagnostics.\n\n📌 Rationale: The presence of glucose in urine (glucosuria) suggests that renal threshold for glucose reabsorption has been exceeded — often due to diabetes mellitus. Serum glucose reflects current level, not renal handling.\n\n📚 Source Concepts: WHO Diabetes Screening Tools, NCK Renal Diagnostics Manual, Brunner’s Renal Function Monitoring.",
+    "additional": "🔄 NCK Variations:\n- May ask for other indicators of renal involvement in diabetes.\n- Could present urinalysis strip results.\n\n💡 Tip: Glucose in urine = glucose overload or renal tubule trouble!"
+  },
+  {
+    "question": "Which clinical manifestation is common in patients with anemia?",
+    "options": {
+      "A": "Red flushed skin",
+      "B": "Slow heart rate",
+      "C": "Pale conjunctiva",
+      "D": "Jaundiced sclera"
+    },
+    "answer": "C",
+    "explanation": "📘 Unit Integration: Hematology, Physical Assessment, Pathophysiology.\n\n📌 Rationale: Pale conjunctiva and pallor are classic signs of anemia due to decreased oxygen-carrying capacity of hemoglobin. Jaundice may suggest hemolysis, but not all anemia types show it.\n\n📚 Source Concepts: WHO Anemia Screening Chart, NCK Clinical Assessment Protocols, Lewis’s Blood Disorders Review.",
+    "additional": "🔄 NCK Variations:\n- May present full blood count values.\n- Could test nursing care plan for fatigue.\n\n💡 Tip: Pale = poor perfusion. Check conjunctiva in all anemia suspects!"
+  },
+  {
+    "question": "Which of the following lab results would you expect in a patient with dehydration?",
+    "options": {
+      "A": "Low urine specific gravity",
+      "B": "Elevated hematocrit",
+      "C": "Decreased serum sodium",
+      "D": "Low serum osmolality"
+    },
+    "answer": "B",
+    "explanation": "📘 Unit Integration: Fluid & Electrolyte Balance, Lab Interpretation, Medical-Surgical Nursing.\n\n📌 Rationale: In dehydration, there is hemoconcentration — reduced plasma volume leads to increased hematocrit. Urine specific gravity and serum osmolality also increase.\n\n📚 Source Concepts: WHO Dehydration Lab Guide, NCK Fluid Deficit Protocol, Brunner’s Lab Results Interpretation.",
+    "additional": "🔄 NCK Variations:\n- May ask for nursing interventions or fluid types.\n- Could present signs like dry mucosa, tachycardia.\n\n💡 Tip: Dry = thick blood. Watch for concentrated labs!"
+  }
+]
+
+
+
+
+
+
+
+
+
