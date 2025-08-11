@@ -238,8 +238,2300 @@
     "answer": "C",
     "explanation": "The question provides the classic definition of a specific phobia.\n\nSpecific Phobia: An anxiety disorder characterized by a marked, persistent, and excessive or unreasonable fear when in the presence of, or anticipating an encounter with, a specific object or situation.\n\nKey Features:\n\nThe fear is out of proportion to the actual danger posed.\n\nExposure to the phobic stimulus almost invariably provokes an immediate anxiety response (which may take the form of a panic attack).\n\nThe object or situation is actively avoided or endured with intense fear or anxiety.\n\nGAD (B) involves excessive, uncontrollable worry about a number of different things, not a specific object. OCD (A) involves obsessions and compulsions. Depression (D) is a mood disorder.",
     "additional": "ADDITIONAL CONTENT & FUTURE FOCUS (NCK August 2025)\n\n1. Common Types of Specific Phobias:\n\nAnimal Type: e.g., fear of spiders (arachnophobia), snakes, dogs.\n\nNatural Environment Type: e.g., fear of heights (acrophobia), storms, water.\n\nBlood-Injection-Injury (BII) Type: Fear of seeing blood, receiving an injection, or other medical procedures. This type is unique because it often causes a vasovagal response (fainting), whereas other phobias cause a \"fight-or-flight\" response.\n\nSituational Type: e.g., fear of flying, elevators, enclosed spaces (claustrophobia).\n\nOther Type: e.g., fear of choking, vomiting, or clowns.\n\nFuture Question Idea: \"A patient reports an intense fear of receiving injections, and states that they often feel dizzy and faint during blood draws. This presentation is characteristic of which type of specific phobia?\" (Answer: Blood-Injection-Injury type)."
+  },
+  {
+    "question": "Which psychological theory would best support the use of stress management techniques in critical care settings to improve patient outcomes?",
+    "options": {
+      "A": "Cognitive Behavioral Theory",
+      "B": "Humanistic Theory",
+      "C": "Psychoanalytic Theory",
+      "D": "Operant Conditioning Theory"
+    },
+    "answer": "A",
+    "explanation": "Cognitive Behavioral Theory (CBT) is based on the idea that cognitive processes influence behavior and emotional responses. In critical care, CBT can be applied to help patients manage stress by changing negative thought patterns and promoting adaptive coping strategies. This approach has empirical support for improving patient outcomes in high-stress environments.",
+    "additional": "NCK Possible Twist: They may test on **CBT vs other therapies** — e.g., difference between CBT (thought patterns) and psychoanalysis (unconscious conflicts) or operant conditioning (behavior modification through reinforcement). Mnemonic: 'CBT = Change Beliefs & Thoughts'. In ICU nursing context, they could ask: 'Which therapy helps patients replace catastrophic thinking with realistic coping statements?'"
+  },
+  {
+    "question": "In a critical care setting, if a patient exhibits signs of severe anxiety, what would be the most effective psychological assessment tool to determine the severity and appropriate intervention?",
+    "options": {
+      "A": "Beck Depression Inventory",
+      "B": "Hamilton Anxiety Rating Scale",
+      "C": "Mini-Mental State Examination",
+      "D": "Patient Health Questionnaire-9"
+    },
+    "answer": "B",
+    "explanation": "The Hamilton Anxiety Rating Scale (HAM-A) is specifically designed to assess the severity of anxiety symptoms. It includes both psychological and physical symptoms, making it suitable for evaluating anxiety in critical care patients. This tool helps in determining the severity and guiding the appropriate intervention.",
+    "additional": "NCK Possible Twist: They may give a scenario describing physical anxiety signs (tachycardia, sweating) and psychological symptoms (worry, tension) — the answer would be HAM-A. Mnemonic: 'HAM-A hammers anxiety'. Watch out for PHQ-9 (for depression) and MMSE (for cognitive function)."
+  },
+  {
+    "question": "How might integrating mindfulness-based stress reduction (MBSR) into a critical care unit impact patient recovery and staff well-being?",
+    "options": {
+      "A": "It would likely increase patient anxiety but improve staff focus.",
+      "B": "It would likely enhance both patient recovery and staff well-being.",
+      "C": "It would have no significant impact on either patients or staff.",
+      "D": "It would likely decrease patient recovery time but increase staff stress."
+    },
+    "answer": "B",
+    "explanation": "Mindfulness-based stress reduction (MBSR) has been shown to improve both psychological well-being and stress management. For patients, MBSR can reduce anxiety and pain perception, contributing to better recovery outcomes. For staff, it can reduce burnout and improve overall well-being, creating a more supportive work environment.",
+    "additional": "NCK Possible Twist: They might give a stem about 'breathing exercises, body scanning, and focusing on present moment' — that's MBSR. Mnemonic: 'Mindfulness Makes Mind More Steady'. In ICU, could also relate to reducing BP and HR by activating parasympathetic response."
+  },
+  {
+    "question": "Evaluate the effectiveness of cognitive-behavioral therapy (CBT) compared to pharmacotherapy for managing depression in critically ill patients.",
+    "options": {
+      "A": "CBT is less effective than pharmacotherapy.",
+      "B": "CBT is equally effective as pharmacotherapy.",
+      "C": "CBT is more effective than pharmacotherapy.",
+      "D": "The effectiveness of CBT versus pharmacotherapy is inconclusive."
+    },
+    "answer": "D",
+    "explanation": "The effectiveness of cognitive-behavioral therapy (CBT) compared to pharmacotherapy for depression in critically ill patients varies. While CBT can be highly effective for some patients, pharmacotherapy might be more appropriate for others, depending on individual circumstances. A combination of both approaches might often provide the best outcomes, but the relative effectiveness can depend on the specific context and patient needs.",
+    "additional": "NCK Possible Twist: They may try to trick by asking 'Which is superior in all cases?' — correct is inconclusive. Mnemonic: 'CBT + meds = best buddies'."
+  },
+  {
+    "question": "How should a critical care nurse apply principles of Maslow's Hierarchy of Needs to address a patient's basic needs in the ICU?",
+    "options": {
+      "A": "Focus only on physiological needs.",
+      "B": "Address safety needs before meeting physiological needs.",
+      "C": "Prioritize safety needs over physiological needs.",
+      "D": "Ensure all levels of needs are addressed simultaneously."
+    },
+    "answer": "B",
+    "explanation": "According to Maslow's Hierarchy of Needs, safety needs (e.g., security and protection) must be addressed before physiological needs (e.g., food, water) can be effectively met. In the ICU, ensuring that the patient feels secure and protected is crucial before focusing solely on basic physiological needs, thereby creating a foundation for better overall care.",
+    "additional": "NCK Possible Twist: They may give you a patient scenario where airway is intact but patient is anxious due to equipment — safety is addressed first. Mnemonic: 'Airway before anxiety, safety before sandwich'."
+  },
+  {
+    "question": "In evaluating patient satisfaction in a critical care unit, which factor is most likely to contribute to a positive perception of care?",
+    "options": {
+      "A": "Length of stay in the unit",
+      "B": "Number of medical procedures performed",
+      "C": "Quality of communication with healthcare providers",
+      "D": "Type of medication administered"
+    },
+    "answer": "C",
+    "explanation": "Quality of communication significantly impacts patient satisfaction. Effective communication helps patients feel informed, understood, and supported, leading to a more positive perception of care. While other factors such as length of stay and medical procedures may influence satisfaction, communication is often the most directly related to patient perceptions.",
+    "additional": "NCK Possible Twist: They might disguise this with a stem describing a patient who 'felt respected and informed' — answer is communication. Mnemonic: 'Talk heals as much as treatment'."
+  },
+  {
+    "question": "How might implementing a patient-centered care approach in a critical care unit alter the traditional roles of healthcare professionals?",
+    "options": {
+      "A": "It would reinforce traditional hierarchical roles.",
+      "B": "It would lead to more collaborative and flexible roles.",
+      "C": "It would diminish the importance of medical expertise.",
+      "D": "It would cause confusion among staff regarding responsibilities."
+    },
+    "answer": "B",
+    "explanation": "A patient-centered care approach promotes collaboration among healthcare professionals and encourages flexibility in roles to better meet patient needs. This approach fosters teamwork and communication, allowing for a more integrated and responsive care model that adapts to the evolving needs of patients.",
+    "additional": "NCK Possible Twist: They might test on difference between 'patient-centered' vs 'disease-centered'. Mnemonic: 'Patient-centered = Team adjusts, not patient'."
+  },
+  {
+    "question": "Evaluate the role of family involvement in critical care settings. What is its most significant benefit?",
+    "options": {
+      "A": "It decreases the need for medical interventions.",
+      "B": "It minimizes the psychological impact of illness on patients.",
+      "C": "It reduces the length of hospital stays.",
+      "D": "It eliminates the need for specialized care teams."
+    },
+    "answer": "B",
+    "explanation": "Family involvement in critical care settings can significantly reduce the psychological impact of illness on patients. Family presence provides emotional support, helps patients maintain a sense of connection, and can contribute to better mental health outcomes. While it may influence other aspects of care, its most significant benefit is its impact on the patient's emotional well-being.",
+    "additional": "NCK Possible Twist: Watch for wording — they may try to trick by suggesting physical recovery is the main benefit. Emotional impact is key. Mnemonic: 'Family fuels feelings'."
+  },
+  {
+    "question": "If a patient in critical care is exhibiting signs of delirium, what immediate psychological intervention should be prioritized?",
+    "options": {
+      "A": "Administering antidepressants",
+      "B": "Ensuring a quiet and calm environment",
+      "C": "Increasing physical activity",
+      "D": "Initiating cognitive-behavioral therapy"
+    },
+    "answer": "B",
+    "explanation": "Delirium often arises from environmental stressors, so ensuring a quiet and calm environment is crucial. This immediate intervention helps reduce sensory overload and confusion, which can alleviate symptoms of delirium. While other interventions like cognitive-behavioral therapy might be beneficial, creating a serene environment is a practical first step.",
+    "additional": "NCK Possible Twist: They might add noise, bright lights, or staff rushing around in scenario — correct action is environmental control. Mnemonic: 'Delirium dislikes disorder'."
+  },
+  {
+    "question": "What is the primary reason for the high incidence of post-traumatic stress disorder (PTSD) among ICU survivors?",
+    "options": {
+      "A": "Lack of physical rehabilitation",
+      "B": "Exposure to severe illness and life-threatening situations",
+      "C": "Ineffective medication management",
+      "D": "Insufficient follow-up care"
+    },
+    "answer": "B",
+    "explanation": "ICU survivors often experience PTSD due to the intense stress and trauma associated with life-threatening illnesses and critical interventions. The severity of the experience, combined with the potential for physical and emotional suffering, makes PTSD a common issue. While other factors like follow-up care are important, the primary cause is the traumatic nature of the ICU experience.",
+    "additional": "NCK Possible Twist: They may mix PTSD with acute stress disorder (duration difference: acute stress <1 month, PTSD >1 month). Mnemonic: 'PTSD = Persistent Trauma Stress Disorder'."
+  },
+  {
+    "question": "How could integrating resilience training into the critical care staff's professional development affect patient care outcomes?",
+    "options": {
+      "A": "It would have no effect on patient care outcomes.",
+      "B": "It would likely improve patient care outcomes by enhancing staff stress management and coping skills.",
+      "C": "It would decrease the quality of patient care due to increased staff focus on personal development.",
+      "D": "It would create unnecessary additional stress for staff."
+    },
+    "answer": "B",
+    "explanation": "Resilience training focuses on developing an individual's capacity to cope with stress, adapt to challenges, and recover from setbacks. In critical care settings, where nurses and doctors frequently face emotionally charged situations, high patient acuity, and life-or-death decision-making, these skills are essential. By enhancing staff resilience, healthcare workers are better able to maintain emotional stability, think clearly under pressure, and provide consistent, high-quality care. Resilience also helps prevent compassion fatigue and burnout, which directly impacts patient interactions and care quality.",
+    "additional": "NCK Possible Twist: They may try to distract by giving an answer that focuses purely on patient resilience — here, the focus is staff resilience impacting patient care. Mnemonic: 'Resilient Staff → Resilient Patients'. Cross-link: This overlaps with occupational health, burnout prevention, and leadership in nursing management."
+  },
+  {
+    "question": "Assess the impact of implementing a structured psychological debriefing program for critical care staff after traumatic incidents. What is the most likely outcome?",
+    "options": {
+      "A": "Increased staff turnover",
+      "B": "Enhanced psychological well-being and reduced burnout",
+      "C": "Increased absenteeism among staff",
+      "D": "Decreased overall job satisfaction"
+    },
+    "answer": "B",
+    "explanation": "Structured psychological debriefing is a formal, guided process allowing staff to reflect on and process a traumatic incident shortly after it occurs. In critical care, this could be following patient deaths, mass casualty incidents, or resuscitation failures. Debriefing provides emotional ventilation, peer support, and coping strategies, which help reduce the accumulation of unresolved stress. Research shows it can improve mental well-being, reduce burnout rates, and increase staff retention. While not a substitute for long-term therapy, it is an essential preventive strategy in high-stress healthcare environments.",
+    "additional": "NCK Possible Twist: They might insert a distractor about 'avoiding discussion after trauma to prevent re-living it' — wrong; structured, controlled discussion is beneficial. Mnemonic: 'Debrief = Deburden the mind'. Cross-link: Psychiatric nursing crisis intervention principles."
+  },
+  {
+    "question": "How should a nurse apply the principles of operant conditioning to improve adherence to treatment protocols in a critical care setting?",
+    "options": {
+      "A": "By providing immediate rewards for compliance and using corrective feedback for non-compliance",
+      "B": "By focusing solely on corrective feedback for non-compliance",
+      "C": "By ignoring patient behavior and relying on medical interventions",
+      "D": "By providing rewards for non-compliance and corrective feedback for adherence"
+    },
+    "answer": "A",
+    "explanation": "Operant conditioning, developed by B.F. Skinner, is based on reinforcing desired behaviors and discouraging undesired ones. In an ICU, nurses can apply this by giving immediate positive reinforcement (verbal praise, small privileges) when a patient follows treatment protocols such as medication schedules, breathing exercises, or dietary restrictions. Conversely, corrective feedback can be given for non-compliance, focusing on educating the patient about risks rather than punitive measures. Immediate reinforcement strengthens the connection between the behavior and the positive outcome.",
+    "additional": "NCK Possible Twist: They may confuse operant conditioning with classical conditioning (Pavlov). Mnemonic: 'Operant = Operates on consequence'. Cross-link: Behavioral sciences, patient education strategies."
+  },
+  {
+    "question": "In evaluating the effectiveness of group therapy versus individual therapy for ICU patients, which factor is most likely to influence the choice of therapy type?",
+    "options": {
+      "A": "The number of therapeutic sessions available",
+      "B": "The severity and nature of the patient's psychological issues",
+      "C": "The availability of therapy professionals",
+      "D": "The patient’s physical condition"
+    },
+    "answer": "B",
+    "explanation": "The severity and type of psychological condition play a decisive role in therapy selection. Group therapy offers peer support, normalization of feelings, and shared experiences — useful for moderate distress or adjustment issues. However, for severe depression, PTSD, or complex trauma, individual therapy provides privacy, deeper exploration, and tailored intervention. In ICU survivors, severe emotional distress or trauma often necessitates one-on-one counseling before group work can be beneficial.",
+    "additional": "NCK Possible Twist: They may try to make you choose based on resource availability — remember, patient’s psychological needs come first. Mnemonic: 'Severity Selects the Setting'."
+  },
+  {
+    "question": "How might a critical care unit benefit from implementing a trauma-informed care approach?",
+    "options": {
+      "A": "It would likely create unnecessary complexity in patient care.",
+      "B": "It would enhance staff training and improve patient interactions by acknowledging the impact of trauma.",
+      "C": "It would reduce the need for any psychological interventions.",
+      "D": "It would decrease the focus on evidence-based practices."
+    },
+    "answer": "B",
+    "explanation": "Trauma-informed care recognizes that many patients, especially in ICU settings, may have experienced significant trauma before or during hospitalization. This approach trains staff to identify trauma triggers, avoid re-traumatization, and use language and actions that promote safety and trust. Examples include explaining procedures in advance, allowing patient control where possible, and creating a calm environment. This leads to improved trust, compliance, and overall patient experience.",
+    "additional": "NCK Possible Twist: They may present trauma-informed care as only relevant in psychiatry — in fact, it's relevant across all nursing specialties. Mnemonic: 'See the trauma before you see the patient’s reaction'."
+  },
+  {
+    "question": "Evaluate the effectiveness of using electronic health records (EHR) in documenting psychological assessments in critical care settings. What is the primary advantage?",
+    "options": {
+      "A": "It reduces the need for psychological assessments.",
+      "B": "It enhances the accuracy and accessibility of psychological documentation.",
+      "C": "It increases the administrative burden on staff.",
+      "D": "It decreases the quality of patient care documentation."
+    },
+    "answer": "B",
+    "explanation": "EHR systems consolidate and centralize patient information, making psychological assessment data accessible to all relevant care providers in real-time. In ICU settings, this ensures continuity of care, prevents information loss during shift changes, and facilitates rapid decision-making. Accurate and easily retrievable records help in identifying patterns, evaluating treatment response, and making timely referrals.",
+    "additional": "NCK Possible Twist: They may make an option that says 'EHR replaces the need for psychological assessment' — wrong. Mnemonic: 'EHR = Everyone Has the Record'."
+  },
+  {
+    "question": "How should a nurse apply the principles of positive reinforcement to encourage adherence to therapeutic interventions in critically ill patients?",
+    "options": {
+      "A": "By using threats to enforce compliance.",
+      "B": "By providing rewards for adhering to interventions.",
+      "C": "By focusing solely on the negative consequences of non-compliance.",
+      "D": "By ignoring patient behavior and focusing only on medical procedures."
+    },
+    "answer": "B",
+    "explanation": "Positive reinforcement involves adding a rewarding stimulus to increase the likelihood of a desired behavior. In ICU care, this could be as simple as verbal praise, acknowledging patient effort, or allowing a preferred activity after therapy participation. Over time, this reinforcement strengthens adherence to care plans, improves motivation, and supports recovery.",
+    "additional": "NCK Possible Twist: They may confuse positive reinforcement with negative reinforcement (removal of an unpleasant stimulus). Mnemonic: 'Positive = Add a Prize'."
+  },
+  {
+    "question": "What is the most significant psychological factor contributing to the development of chronic pain in ICU survivors?",
+    "options": {
+      "A": "Acute physical injury",
+      "B": "Inadequate pain management during the ICU stay",
+      "C": "Lack of physical rehabilitation",
+      "D": "Genetic predisposition"
+    },
+    "answer": "B",
+    "explanation": "Poorly controlled acute pain can cause long-term changes in the nervous system, a process called central sensitization, which maintains pain perception even after tissue healing. In ICU patients, delays in analgesia, underdosing, or inappropriate pain assessment tools can contribute significantly to this. Effective pain control in ICU is not only humane but preventive for chronic pain syndromes.",
+    "additional": "NCK Possible Twist: They might present a patient with no severe injury but chronic pain post-ICU — key clue is inadequate acute pain control. Mnemonic: 'Pain today, pain tomorrow if ignored'."
+  },
+  {
+    "question": "How could integrating psychological resilience training into critical care staff orientation programs impact patient care outcomes?",
+    "options": {
+      "A": "It would decrease the focus on clinical skills development.",
+      "B": "It would enhance staff resilience and improve patient care by reducing staff stress and burnout.",
+      "C": "It would create additional stress for staff members.",
+      "D": "It would have no impact on patient care outcomes."
+    },
+    "answer": "B",
+    "explanation": "Starting resilience training from day one of employment sets a foundation for healthy coping habits in high-stress environments. This prevents maladaptive stress responses, reduces turnover, and enhances patient care quality. Staff trained early in stress management and emotional regulation can better handle acute emergencies without performance decline.",
+    "additional": "NCK Possible Twist: They may frame this as 'resilience training only benefits staff' — wrong, patient care also benefits. Mnemonic: 'Strong staff, strong service'."
+  },
+  {
+    "question": "Assess the impact of using narrative therapy techniques with ICU patients who have experienced trauma. What is the most significant benefit?",
+    "options": {
+      "A": "It provides an opportunity for patients to rewrite their trauma narratives and gain new perspectives.",
+      "B": "It increases the complexity of patient care without clear benefits.",
+      "C": "It reduces the need for other therapeutic interventions.",
+      "D": "It may lead to increased distress if not managed properly."
+    },
+    "answer": "A",
+    "explanation": "Narrative therapy allows patients to externalize their trauma, separating themselves from the event and seeing it as only part of their life story. By reframing experiences, patients can gain control over their interpretation, fostering empowerment and healing. In ICU survivors, this is especially valuable in integrating the ICU experience without it defining their identity.",
+    "additional": "NCK Possible Twist: They may confuse narrative therapy with supportive counseling (more general). Mnemonic: 'Rewrite to Re-right'."
+  },
+  [
+  {
+    "question": "How could incorporating peer support programs for ICU patients and their families improve psychological outcomes?",
+    "options": {
+      "A": "By providing emotional validation, shared experiences, and practical coping strategies",
+      "B": "By reducing the need for professional psychological interventions",
+      "C": "By replacing the role of healthcare providers",
+      "D": "By discouraging family involvement in patient care"
+    },
+    "answer": "A",
+    "explanation": "Peer support programs connect patients and families with individuals who have gone through similar experiences. In ICU contexts, this may involve survivors or family members of former ICU patients sharing coping strategies, offering reassurance, and normalizing emotional reactions. Such programs can reduce isolation, foster hope, and encourage active participation in recovery. While they complement professional mental health care, they do not replace it.",
+    "additional": "NCK Possible Twist: They may suggest peer support replaces professional care — wrong. Mnemonic: 'Peers provide presence, pros provide treatment'. Cross-link: Psychosocial support in rehabilitation nursing."
+  },
+  {
+    "question": "Evaluate the benefits of implementing art therapy for ICU patients experiencing anxiety or depression.",
+    "options": {
+      "A": "It allows patients to process emotions non-verbally and can reduce symptoms of anxiety and depression",
+      "B": "It increases patient distress by focusing attention on their illness",
+      "C": "It delays medical interventions",
+      "D": "It provides entertainment without therapeutic value"
+    },
+    "answer": "A",
+    "explanation": "Art therapy uses creative expression as a way for patients to process thoughts and emotions, especially when verbal communication is difficult due to intubation, fatigue, or trauma. In ICU patients, it offers a sense of agency, reduces stress hormone levels, and can improve mood by activating brain regions associated with positive emotions. It has measurable benefits for mental health, particularly in reducing anxiety and depression symptoms.",
+    "additional": "NCK Possible Twist: They might test by describing 'non-verbal emotional processing' — that’s art therapy. Mnemonic: 'Art heals the heart'. Cross-link: Complementary and alternative therapies."
+  },
+  {
+    "question": "What is the primary advantage of providing ICU patients with structured journaling opportunities during their recovery?",
+    "options": {
+      "A": "It helps patients organize their thoughts, process trauma, and track recovery progress",
+      "B": "It distracts patients from medical care",
+      "C": "It reduces the need for medication",
+      "D": "It limits patient interaction with staff"
+    },
+    "answer": "A",
+    "explanation": "Structured journaling involves guided prompts or daily reflections to help patients make sense of their ICU experience. It allows emotional processing, helps in memory reconstruction (important for patients with delirium or sedation gaps), and creates a tangible record of progress. Studies show that such journaling can reduce symptoms of post-ICU syndrome and enhance patient engagement in recovery.",
+    "additional": "NCK Possible Twist: They may give a stem about 'reconstructing ICU memories' — journaling is the answer. Mnemonic: 'Write it, right it'."
+  },
+  {
+    "question": "How might the integration of virtual reality (VR) therapy in ICU settings support patient rehabilitation?",
+    "options": {
+      "A": "By providing immersive environments that reduce pain perception, anxiety, and improve motivation for rehabilitation",
+      "B": "By replacing all physical therapy",
+      "C": "By distracting patients from medical treatment plans",
+      "D": "By limiting patient social interactions"
+    },
+    "answer": "A",
+    "explanation": "Virtual reality therapy can immerse patients in calming, engaging, or rehabilitative environments. Research shows VR can lower perceived pain during procedures, reduce anxiety, and increase participation in physical therapy exercises. It also offers cognitive stimulation for patients at risk of delirium. In ICU rehabilitation, VR is a powerful adjunct, not a replacement, for traditional care.",
+    "additional": "NCK Possible Twist: They may present VR as a replacement for rehab — it’s an adjunct. Mnemonic: 'Virtual relief, real results'."
+  },
+  {
+    "question": "What is the most significant benefit of involving ICU patients in shared decision-making about their care?",
+    "options": {
+      "A": "It increases patient autonomy, satisfaction, and adherence to care plans",
+      "B": "It reduces the need for informed consent",
+      "C": "It speeds up medical procedures",
+      "D": "It decreases the importance of medical expertise"
+    },
+    "answer": "A",
+    "explanation": "Shared decision-making means involving the patient in discussions about their treatment, weighing options, and aligning care with their values and preferences. It fosters trust, increases adherence to treatment plans, and improves emotional well-being by reinforcing the patient’s sense of control. In ICU, where patients often feel powerless, this approach can be particularly empowering.",
+    "additional": "NCK Possible Twist: They may frame it as bypassing informed consent — wrong; it enhances it. Mnemonic: 'Decide together, heal better'."
+  },
+  {
+    "question": "Assess the psychological benefit of implementing music therapy in critical care settings.",
+    "options": {
+      "A": "It can reduce anxiety, lower heart rate, and improve overall patient mood",
+      "B": "It increases agitation and patient discomfort",
+      "C": "It delays medical procedures",
+      "D": "It serves as background noise without therapeutic value"
+    },
+    "answer": "A",
+    "explanation": "Music therapy involves the intentional use of music interventions to achieve therapeutic goals. In ICU patients, it can lower stress hormones, reduce anxiety, improve sleep quality, and distract from pain. Personalized music selections can enhance these effects, especially when chosen based on the patient’s preferences.",
+    "additional": "NCK Possible Twist: They might include 'background noise' as an option — music therapy is structured and intentional, not just sound. Mnemonic: 'Music soothes mind and body'."
+  },
+  {
+    "question": "How does guided imagery benefit ICU patients in terms of psychological recovery?",
+    "options": {
+      "A": "It helps patients visualize calming or healing scenarios, reducing stress and promoting relaxation",
+      "B": "It increases patient confusion",
+      "C": "It replaces all medical interventions",
+      "D": "It serves as a distraction with no therapeutic value"
+    },
+    "answer": "A",
+    "explanation": "Guided imagery uses mental visualization to promote relaxation and healing. Patients are led through scenarios involving safe, calm, and positive imagery, which can reduce anxiety, lower BP, and improve coping. In ICU recovery, it helps counter the high-stress environment and supports mental resilience.",
+    "additional": "NCK Possible Twist: They may confuse guided imagery with daydreaming — guided imagery is structured and therapeutic. Mnemonic: 'Picture peace, feel peace'."
+  },
+  {
+    "question": "Evaluate the effectiveness of cognitive reframing in managing ICU patients’ fear and anxiety.",
+    "options": {
+      "A": "It allows patients to reinterpret negative situations in a more positive and realistic way",
+      "B": "It denies the patient’s emotions",
+      "C": "It encourages avoidance of medical procedures",
+      "D": "It replaces factual medical information with false reassurance"
+    },
+    "answer": "A",
+    "explanation": "Cognitive reframing is a CBT technique where patients learn to view situations from a different perspective. For example, instead of thinking 'I am trapped on this ventilator', a patient may reframe it as 'This ventilator is keeping me alive while I heal'. This reduces anxiety and fosters a sense of purpose in treatment.",
+    "additional": "NCK Possible Twist: They may try to disguise this as 'denial' — reframe is about realistic positivity, not ignoring facts. Mnemonic: 'Reframe to reclaim calm'."
+  },
+  {
+    "question": "What is the primary benefit of involving ICU patients in early mobilization programs from a psychological perspective?",
+    "options": {
+      "A": "It enhances patient confidence, reduces depression, and fosters a sense of progress",
+      "B": "It replaces the need for physical rehabilitation",
+      "C": "It increases patient anxiety about their condition",
+      "D": "It delays recovery due to exhaustion"
+    },
+    "answer": "A",
+    "explanation": "Early mobilization in ICU patients — such as assisted sitting, standing, or walking — improves both physical and mental health. Psychologically, it provides visible proof of recovery, boosting morale and reducing feelings of helplessness. It also reduces depression risk by promoting independence.",
+    "additional": "NCK Possible Twist: They may frame mobilization as purely physical — remember the mental health boost. Mnemonic: 'Move body, lift mind'."
+  },
+  {
+    "question": "How might involving ICU patients in relaxation breathing techniques influence their recovery?",
+    "options": {
+      "A": "It reduces sympathetic nervous system activation, lowers anxiety, and promotes calm",
+      "B": "It increases heart rate and stress",
+      "C": "It replaces medication",
+      "D": "It causes hyperventilation"
+    },
+    "answer": "A",
+    "explanation": "Relaxation breathing techniques stimulate the parasympathetic nervous system, lowering heart rate, BP, and stress hormone release. For ICU patients, this not only improves emotional control but also aids oxygenation and recovery. It's especially useful before procedures or during pain episodes.",
+    "additional": "NCK Possible Twist: They may confuse this with hyperventilation — proper guided breathing avoids this. Mnemonic: 'Breathe slow, heal more'."
+  },
+  {
+    "question": "How could incorporating peer support programs for ICU patients and their families improve psychological outcomes?",
+    "options": {
+      "A": "By providing emotional validation, shared experiences, and practical coping strategies",
+      "B": "By reducing the need for professional psychological interventions",
+      "C": "By replacing the role of healthcare providers",
+      "D": "By discouraging family involvement in patient care"
+    },
+    "answer": "A",
+    "explanation": "Peer support programs connect patients and families with individuals who have gone through similar experiences. In ICU contexts, this may involve survivors or family members of former ICU patients sharing coping strategies, offering reassurance, and normalizing emotional reactions. Such programs can reduce isolation, foster hope, and encourage active participation in recovery. While they complement professional mental health care, they do not replace it.",
+    "additional": "NCK Possible Twist: They may suggest peer support replaces professional care — wrong. Mnemonic: 'Peers provide presence, pros provide treatment'. Cross-link: Psychosocial support in rehabilitation nursing."
+  },
+  {
+    "question": "Evaluate the benefits of implementing art therapy for ICU patients experiencing anxiety or depression.",
+    "options": {
+      "A": "It allows patients to process emotions non-verbally and can reduce symptoms of anxiety and depression",
+      "B": "It increases patient distress by focusing attention on their illness",
+      "C": "It delays medical interventions",
+      "D": "It provides entertainment without therapeutic value"
+    },
+    "answer": "A",
+    "explanation": "Art therapy uses creative expression as a way for patients to process thoughts and emotions, especially when verbal communication is difficult due to intubation, fatigue, or trauma. In ICU patients, it offers a sense of agency, reduces stress hormone levels, and can improve mood by activating brain regions associated with positive emotions. It has measurable benefits for mental health, particularly in reducing anxiety and depression symptoms.",
+    "additional": "NCK Possible Twist: They might test by describing 'non-verbal emotional processing' — that’s art therapy. Mnemonic: 'Art heals the heart'. Cross-link: Complementary and alternative therapies."
+  },
+  {
+    "question": "What is the primary advantage of providing ICU patients with structured journaling opportunities during their recovery?",
+    "options": {
+      "A": "It helps patients organize their thoughts, process trauma, and track recovery progress",
+      "B": "It distracts patients from medical care",
+      "C": "It reduces the need for medication",
+      "D": "It limits patient interaction with staff"
+    },
+    "answer": "A",
+    "explanation": "Structured journaling involves guided prompts or daily reflections to help patients make sense of their ICU experience. It allows emotional processing, helps in memory reconstruction (important for patients with delirium or sedation gaps), and creates a tangible record of progress. Studies show that such journaling can reduce symptoms of post-ICU syndrome and enhance patient engagement in recovery.",
+    "additional": "NCK Possible Twist: They may give a stem about 'reconstructing ICU memories' — journaling is the answer. Mnemonic: 'Write it, right it'."
+  },
+  {
+    "question": "How might the integration of virtual reality (VR) therapy in ICU settings support patient rehabilitation?",
+    "options": {
+      "A": "By providing immersive environments that reduce pain perception, anxiety, and improve motivation for rehabilitation",
+      "B": "By replacing all physical therapy",
+      "C": "By distracting patients from medical treatment plans",
+      "D": "By limiting patient social interactions"
+    },
+    "answer": "A",
+    "explanation": "Virtual reality therapy can immerse patients in calming, engaging, or rehabilitative environments. Research shows VR can lower perceived pain during procedures, reduce anxiety, and increase participation in physical therapy exercises. It also offers cognitive stimulation for patients at risk of delirium. In ICU rehabilitation, VR is a powerful adjunct, not a replacement, for traditional care.",
+    "additional": "NCK Possible Twist: They may present VR as a replacement for rehab — it’s an adjunct. Mnemonic: 'Virtual relief, real results'."
+  },
+  {
+    "question": "What is the most significant benefit of involving ICU patients in shared decision-making about their care?",
+    "options": {
+      "A": "It increases patient autonomy, satisfaction, and adherence to care plans",
+      "B": "It reduces the need for informed consent",
+      "C": "It speeds up medical procedures",
+      "D": "It decreases the importance of medical expertise"
+    },
+    "answer": "A",
+    "explanation": "Shared decision-making means involving the patient in discussions about their treatment, weighing options, and aligning care with their values and preferences. It fosters trust, increases adherence to treatment plans, and improves emotional well-being by reinforcing the patient’s sense of control. In ICU, where patients often feel powerless, this approach can be particularly empowering.",
+    "additional": "NCK Possible Twist: They may frame it as bypassing informed consent — wrong; it enhances it. Mnemonic: 'Decide together, heal better'."
+  },
+  {
+    "question": "Assess the psychological benefit of implementing music therapy in critical care settings.",
+    "options": {
+      "A": "It can reduce anxiety, lower heart rate, and improve overall patient mood",
+      "B": "It increases agitation and patient discomfort",
+      "C": "It delays medical procedures",
+      "D": "It serves as background noise without therapeutic value"
+    },
+    "answer": "A",
+    "explanation": "Music therapy involves the intentional use of music interventions to achieve therapeutic goals. In ICU patients, it can lower stress hormones, reduce anxiety, improve sleep quality, and distract from pain. Personalized music selections can enhance these effects, especially when chosen based on the patient’s preferences.",
+    "additional": "NCK Possible Twist: They might include 'background noise' as an option — music therapy is structured and intentional, not just sound. Mnemonic: 'Music soothes mind and body'."
+  },
+  {
+    "question": "How does guided imagery benefit ICU patients in terms of psychological recovery?",
+    "options": {
+      "A": "It helps patients visualize calming or healing scenarios, reducing stress and promoting relaxation",
+      "B": "It increases patient confusion",
+      "C": "It replaces all medical interventions",
+      "D": "It serves as a distraction with no therapeutic value"
+    },
+    "answer": "A",
+    "explanation": "Guided imagery uses mental visualization to promote relaxation and healing. Patients are led through scenarios involving safe, calm, and positive imagery, which can reduce anxiety, lower BP, and improve coping. In ICU recovery, it helps counter the high-stress environment and supports mental resilience.",
+    "additional": "NCK Possible Twist: They may confuse guided imagery with daydreaming — guided imagery is structured and therapeutic. Mnemonic: 'Picture peace, feel peace'."
+  },
+  {
+    "question": "Evaluate the effectiveness of cognitive reframing in managing ICU patients’ fear and anxiety.",
+    "options": {
+      "A": "It allows patients to reinterpret negative situations in a more positive and realistic way",
+      "B": "It denies the patient’s emotions",
+      "C": "It encourages avoidance of medical procedures",
+      "D": "It replaces factual medical information with false reassurance"
+    },
+    "answer": "A",
+    "explanation": "Cognitive reframing is a CBT technique where patients learn to view situations from a different perspective. For example, instead of thinking 'I am trapped on this ventilator', a patient may reframe it as 'This ventilator is keeping me alive while I heal'. This reduces anxiety and fosters a sense of purpose in treatment.",
+    "additional": "NCK Possible Twist: They may try to disguise this as 'denial' — reframe is about realistic positivity, not ignoring facts. Mnemonic: 'Reframe to reclaim calm'."
+  },
+  {
+    "question": "What is the primary benefit of involving ICU patients in early mobilization programs from a psychological perspective?",
+    "options": {
+      "A": "It enhances patient confidence, reduces depression, and fosters a sense of progress",
+      "B": "It replaces the need for physical rehabilitation",
+      "C": "It increases patient anxiety about their condition",
+      "D": "It delays recovery due to exhaustion"
+    },
+    "answer": "A",
+    "explanation": "Early mobilization in ICU patients — such as assisted sitting, standing, or walking — improves both physical and mental health. Psychologically, it provides visible proof of recovery, boosting morale and reducing feelings of helplessness. It also reduces depression risk by promoting independence.",
+    "additional": "NCK Possible Twist: They may frame mobilization as purely physical — remember the mental health boost. Mnemonic: 'Move body, lift mind'."
+  },
+  {
+    "question": "How might involving ICU patients in relaxation breathing techniques influence their recovery?",
+    "options": {
+      "A": "It reduces sympathetic nervous system activation, lowers anxiety, and promotes calm",
+      "B": "It increases heart rate and stress",
+      "C": "It replaces medication",
+      "D": "It causes hyperventilation"
+    },
+    "answer": "A",
+    "explanation": "Relaxation breathing techniques stimulate the parasympathetic nervous system, lowering heart rate, BP, and stress hormone release. For ICU patients, this not only improves emotional control but also aids oxygenation and recovery. It's especially useful before procedures or during pain episodes.",
+    "additional": "NCK Possible Twist: They may confuse this with hyperventilation — proper guided breathing avoids this. Mnemonic: 'Breathe slow, heal more'."
+  },
+  {
+    "question": "What is the main psychological benefit of providing ICU patients with access to nature views or nature-based stimuli?",
+    "options": {
+      "A": "It reduces stress, lowers blood pressure, and improves mood",
+      "B": "It distracts patients from their care plan",
+      "C": "It replaces medication",
+      "D": "It delays recovery"
+    },
+    "answer": "A",
+    "explanation": "Exposure to natural elements — even through windows, photographs, or videos — has been shown to reduce cortisol levels, decrease blood pressure, and improve emotional well-being. In high-stress ICU settings, access to nature-based stimuli provides a calming environment, which may enhance healing. The effect is partly due to the activation of the parasympathetic nervous system and positive emotional association with natural environments.",
+    "additional": "NCK Possible Twist: They may describe a patient feeling calmer after being moved to a bed with a window view — the correct link is nature exposure reducing stress. Mnemonic: 'Nature nurtures'. Cross-link: Environmental psychology in patient care."
+  },
+  {
+    "question": "How does providing ICU patients with consistent daily orientation cues impact their psychological health?",
+    "options": {
+      "A": "It reduces confusion, supports cognitive function, and lowers delirium risk",
+      "B": "It replaces all memory aids",
+      "C": "It delays recovery",
+      "D": "It increases anxiety"
+    },
+    "answer": "A",
+    "explanation": "Daily orientation cues, such as clocks, calendars, and regular updates about the date, time, and location, help ICU patients maintain cognitive clarity. This practice combats disorientation, a common contributor to ICU delirium, and supports overall mental stability. It also reassures patients and maintains their connection to reality in an otherwise disorienting environment.",
+    "additional": "NCK Possible Twist: They may confuse orientation cues with reorientation therapy in dementia — in ICU, it’s a preventive cognitive measure. Mnemonic: 'Clear time, clear mind'."
+  },
+  {
+    "question": "What is the primary purpose of integrating humor therapy into ICU patient care?",
+    "options": {
+      "A": "It reduces stress, improves mood, and enhances the patient-provider relationship",
+      "B": "It distracts from treatment plans",
+      "C": "It replaces necessary medical interventions",
+      "D": "It increases patient agitation"
+    },
+    "answer": "A",
+    "explanation": "Humor therapy uses appropriate, lighthearted interactions to trigger positive emotions, reduce tension, and create a more relaxed care environment. In ICU, humor must be sensitive to the patient’s physical state and emotional readiness. Laughter can release endorphins, reduce pain perception, and foster trust between patient and staff.",
+    "additional": "NCK Possible Twist: They may disguise it as 'making jokes' — but humor therapy is intentional and therapeutic. Mnemonic: 'Laughter is low-cost medicine'."
+  },
+  {
+    "question": "Evaluate the benefit of providing ICU patients with personalized care plans from a psychological standpoint.",
+    "options": {
+      "A": "It increases patient engagement, adherence, and feelings of control",
+      "B": "It reduces the need for patient education",
+      "C": "It allows staff to standardize all patient care",
+      "D": "It delays care delivery"
+    },
+    "answer": "A",
+    "explanation": "Personalized care plans align medical interventions with the patient’s unique values, cultural background, and emotional needs. This creates a sense of partnership, reinforces patient autonomy, and increases motivation to participate in their own recovery. In ICU patients, where helplessness is common, personalization improves psychological resilience.",
+    "additional": "NCK Possible Twist: They may try to sell standardized plans as more efficient — but personalization increases engagement. Mnemonic: 'Personal care = personal recovery'."
+  },
+  {
+    "question": "How does the use of patient diaries in ICU support post-discharge psychological adjustment?",
+    "options": {
+      "A": "It helps reconstruct ICU events, reducing anxiety and PTSD risk",
+      "B": "It replaces medical follow-up",
+      "C": "It increases patient confusion",
+      "D": "It prolongs recovery time"
+    },
+    "answer": "A",
+    "explanation": "ICU diaries document daily events, procedures, and staff notes, helping patients fill in memory gaps that often occur due to sedation, delirium, or trauma. Reviewing the diary after discharge helps make sense of their hospital stay, reducing uncertainty, fear, and PTSD risk. It’s especially valuable in mitigating distress caused by fragmented or false memories.",
+    "additional": "NCK Possible Twist: They may present diary-keeping as only for staff use — here, it’s a therapeutic patient resource. Mnemonic: 'Write to heal the mind'."
+  },
+  {
+    "question": "How can implementing family presence during ICU procedures impact patient anxiety levels?",
+    "options": {
+      "A": "It often reduces anxiety by providing emotional reassurance",
+      "B": "It increases anxiety by distracting the care team",
+      "C": "It replaces sedation",
+      "D": "It prolongs procedures"
+    },
+    "answer": "A",
+    "explanation": "Family presence offers emotional support, reduces feelings of isolation, and may improve patient cooperation during procedures. While not appropriate in all cases (e.g., emergency situations requiring full sterile field), when possible it can lower stress hormone release and improve the patient’s overall psychological state.",
+    "additional": "NCK Possible Twist: They may ask when not to allow family — think safety and sterility concerns. Mnemonic: 'Familiar faces calm fearful hearts'."
+  },
+  {
+    "question": "What is the psychological benefit of incorporating spiritual care services into ICU patient management?",
+    "options": {
+      "A": "It provides emotional comfort, enhances hope, and aligns care with personal beliefs",
+      "B": "It replaces medical treatment",
+      "C": "It increases patient dependence on staff",
+      "D": "It delays recovery"
+    },
+    "answer": "A",
+    "explanation": "Spiritual care can address existential distress, enhance meaning-making, and support patients through uncertainty. Chaplaincy services or culturally appropriate spiritual practices can be integrated into care, improving psychological well-being, especially in critically ill or end-of-life patients. Spiritual support often improves patient satisfaction and emotional resilience.",
+    "additional": "NCK Possible Twist: They may suggest spiritual care is only for religious patients — it also includes secular meaning-making. Mnemonic: 'Spirit strong, mind strong'."
+  },
+  {
+    "question": "How might structured goal-setting improve psychological outcomes in ICU patients?",
+    "options": {
+      "A": "It enhances motivation, sense of progress, and self-efficacy",
+      "B": "It reduces the need for staff involvement",
+      "C": "It increases patient dependency",
+      "D": "It limits patient autonomy"
+    },
+    "answer": "A",
+    "explanation": "Setting small, achievable goals — such as sitting upright for meals or walking a few steps — fosters a sense of accomplishment and control. This combats learned helplessness and boosts confidence. In ICU rehabilitation, goal-setting also encourages active participation and optimism.",
+    "additional": "NCK Possible Twist: They may confuse goal-setting with unrealistic expectations — here, goals are achievable and progressive. Mnemonic: 'Small goals, big gains'."
+  },
+  {
+    "question": "What is the psychological impact of providing ICU patients with choices in their care (e.g., meal selection, therapy times)?",
+    "options": {
+      "A": "It increases autonomy, reduces helplessness, and improves mood",
+      "B": "It replaces staff decision-making",
+      "C": "It delays care delivery",
+      "D": "It confuses patients"
+    },
+    "answer": "A",
+    "explanation": "Allowing patients to make small choices restores a sense of control that is often lost in ICU environments. This can reduce anxiety, combat depression, and improve cooperation with the care plan. Even minor decisions can have a significant psychological benefit.",
+    "additional": "NCK Possible Twist: They may suggest choice-giving slows care — in reality, it improves engagement. Mnemonic: 'Choice changes mindset'."
+  },
+  {
+    "question": "How does early psychological screening for ICU patients affect recovery outcomes?",
+    "options": {
+      "A": "It allows early identification and intervention for anxiety, depression, and PTSD",
+      "B": "It replaces physical assessments",
+      "C": "It delays medical treatment",
+      "D": "It increases patient distress"
+    },
+    "answer": "A",
+    "explanation": "Psychological distress often emerges during and after ICU stays. Early screening allows for timely counseling, psychiatric referral, and integration of coping strategies into care. This can reduce chronic mental health issues and improve overall quality of life post-discharge.",
+    "additional": "NCK Possible Twist: They may present screening as harmful due to 'reminding patients of trauma' — evidence shows proactive screening is protective. Mnemonic: 'Screen early, heal early'."
+  },
+  {
+    "question": "What is the main benefit of implementing ICU follow-up clinics for discharged patients?",
+    "options": {
+      "A": "It improves long-term psychological health and reduces post-ICU syndrome",
+      "B": "It replaces the need for primary care visits",
+      "C": "It delays recovery",
+      "D": "It increases patient confusion"
+    },
+    "answer": "A",
+    "explanation": "ICU follow-up clinics provide structured physical, psychological, and cognitive assessments after discharge. This helps identify post-ICU syndrome early — a cluster of issues including PTSD, depression, anxiety, and cognitive decline. Timely interventions offered in these clinics improve quality of life, functional recovery, and emotional well-being.",
+    "additional": "NCK Possible Twist: They may frame this as purely physical rehab — but the psychological screening is equally vital. Mnemonic: 'Follow-up to follow through'."
+  },
+  {
+    "question": "How does providing ICU patients with structured information about their treatment plan benefit psychological recovery?",
+    "options": {
+      "A": "It reduces uncertainty, anxiety, and promotes trust in the care team",
+      "B": "It delays care delivery",
+      "C": "It replaces emotional support",
+      "D": "It confuses patients with unnecessary detail"
+    },
+    "answer": "A",
+    "explanation": "Clear explanations about procedures, expected timelines, and goals help ICU patients feel informed and involved. This reduces anxiety driven by uncertainty, promotes a sense of partnership with healthcare providers, and fosters compliance with treatment. Information delivery should be paced to the patient’s readiness and cognitive status.",
+    "additional": "NCK Possible Twist: They may test recall by using 'information overload' — the correct answer is structured, patient-appropriate explanation. Mnemonic: 'Knowledge calms the mind'."
+  },
+  {
+    "question": "What is the psychological impact of incorporating pet therapy in ICU patient care?",
+    "options": {
+      "A": "It reduces anxiety, improves mood, and fosters feelings of normalcy",
+      "B": "It replaces professional counseling",
+      "C": "It increases infection risk without benefits",
+      "D": "It distracts from medical treatment"
+    },
+    "answer": "A",
+    "explanation": "Pet therapy involves controlled visits by trained animals, usually dogs, to offer emotional comfort and companionship. Physical touch and interaction with animals can lower blood pressure, reduce cortisol levels, and release oxytocin, a bonding hormone. In ICU patients, it also breaks the monotony of the hospital environment, promoting emotional stability.",
+    "additional": "NCK Possible Twist: They may raise infection control concerns — note that pet therapy programs follow strict hygiene protocols. Mnemonic: 'Paws for healing'."
+  },
+  {
+    "question": "Why is integrating sleep hygiene interventions important for ICU patients’ psychological health?",
+    "options": {
+      "A": "It prevents sleep deprivation-related anxiety, depression, and delirium",
+      "B": "It replaces medication",
+      "C": "It prolongs recovery",
+      "D": "It increases stress levels"
+    },
+    "answer": "A",
+    "explanation": "Sleep deprivation in ICU is linked to delirium, mood disorders, and impaired immune function. Sleep hygiene interventions include noise reduction, dimming lights at night, clustering care activities, and managing pain effectively. Supporting circadian rhythm helps improve psychological resilience and reduces post-ICU mental health complications.",
+    "additional": "NCK Possible Twist: They may present 'sedatives' as a better option — but behavioral and environmental interventions are first-line. Mnemonic: 'Sleep heals the mind'."
+  },
+  {
+    "question": "What is the role of motivational interviewing in ICU patient recovery?",
+    "options": {
+      "A": "It helps patients explore and resolve ambivalence toward behavior changes",
+      "B": "It replaces all educational interventions",
+      "C": "It increases patient resistance to care",
+      "D": "It forces compliance"
+    },
+    "answer": "A",
+    "explanation": "Motivational interviewing is a counseling method that supports patient autonomy while guiding them toward healthier choices. It is collaborative, non-judgmental, and goal-oriented. In ICU recovery, it can improve adherence to rehab exercises, dietary changes, or medication plans by addressing patients’ personal motivations and concerns.",
+    "additional": "NCK Possible Twist: They may frame it as 'persuasion' — it’s actually patient-centered facilitation. Mnemonic: 'Motivate, don’t mandate'."
+  },
+  {
+    "question": "How does providing ICU patients with access to peer mentor programs impact psychological recovery?",
+    "options": {
+      "A": "It offers relatable role models who provide hope and practical guidance",
+      "B": "It replaces the need for professional therapy",
+      "C": "It delays recovery",
+      "D": "It increases patient dependency"
+    },
+    "answer": "A",
+    "explanation": "Peer mentors are individuals who have successfully recovered from similar ICU experiences. They can share strategies for coping, offer emotional encouragement, and model successful adjustment to post-ICU life. Seeing a real-life example of recovery can instill hope and reduce feelings of isolation.",
+    "additional": "NCK Possible Twist: They may confuse this with group therapy — mentoring is one-to-one and experience-based. Mnemonic: 'Hope through example'."
+  },
+  {
+    "question": "What is the main benefit of integrating psychoeducation sessions for ICU families?",
+    "options": {
+      "A": "It equips families with knowledge and coping strategies to support patient recovery",
+      "B": "It replaces staff updates",
+      "C": "It increases family stress",
+      "D": "It prolongs ICU stay"
+    },
+    "answer": "A",
+    "explanation": "Psychoeducation provides families with clear, structured information about the patient’s condition, expected recovery path, and coping tools for emotional strain. Educated families can better assist with patient care, support adherence, and manage their own stress more effectively.",
+    "additional": "NCK Possible Twist: They may present it as 'clinical training for families' — but it’s about understanding and coping, not replacing professionals. Mnemonic: 'Teach to reach'."
+  },
+  {
+    "question": "Why is early mobilization in ICU also considered a psychological intervention?",
+    "options": {
+      "A": "It fosters independence, boosts morale, and reduces depression",
+      "B": "It replaces medication",
+      "C": "It increases patient fear",
+      "D": "It prolongs ICU stay"
+    },
+    "answer": "A",
+    "explanation": "Beyond physical benefits, early mobilization helps ICU patients regain a sense of normalcy and control. Physical progress can be a visible sign of improvement, reinforcing hope and counteracting depressive symptoms. Even small steps, like sitting upright, can have a large psychological impact.",
+    "additional": "NCK Possible Twist: They may ask for the 'primary benefit' — remember the mental health component is as important as the physical. Mnemonic: 'Move body, lift spirit'."
+  },
+  {
+    "question": "How does integrating relaxation training into ICU care affect patient anxiety levels?",
+    "options": {
+      "A": "It reduces sympathetic activation and promotes emotional calm",
+      "B": "It increases stress levels",
+      "C": "It replaces all other interventions",
+      "D": "It delays recovery"
+    },
+    "answer": "A",
+    "explanation": "Relaxation training — including deep breathing, progressive muscle relaxation, and guided imagery — decreases the body’s stress response by activating the parasympathetic nervous system. In ICU patients, it can reduce procedure-related anxiety, lower heart rate, and improve patient cooperation.",
+    "additional": "NCK Possible Twist: They may confuse this with sedation — relaxation training is active self-regulation. Mnemonic: 'Relax to recover'."
+  },
+  {
+    "question": "What is the psychological benefit of integrating patient-controlled analgesia (PCA) in ICU care?",
+    "options": {
+      "A": "It increases patient autonomy and reduces anxiety about pain management",
+      "B": "It replaces nurse-administered medication",
+      "C": "It delays pain relief",
+      "D": "It increases patient confusion"
+    },
+    "answer": "A",
+    "explanation": "PCA allows patients to manage their own pain relief within safe dosage limits, giving them control over an important aspect of their care. This autonomy reduces anxiety, increases satisfaction, and may improve overall pain outcomes. The sense of empowerment is particularly valuable in the ICU environment where patients often feel powerless.",
+    "additional": "NCK Possible Twist: They may confuse PCA with unrestricted self-medication — PCA has strict safety protocols. Mnemonic: 'Control eases pain and mind'."
+  },
+  {
+    "question": "What is the main psychological benefit of implementing mindfulness-based stress reduction (MBSR) programs for ICU patients?",
+    "options": {
+      "A": "It improves emotional regulation, reduces anxiety, and enhances coping skills",
+      "B": "It replaces the need for all medical interventions",
+      "C": "It increases patient confusion",
+      "D": "It delays recovery"
+    },
+    "answer": "A",
+    "explanation": "Mindfulness-Based Stress Reduction (MBSR) uses meditation, body scanning, and mindful movement to help individuals focus on the present moment without judgment. In ICU patients, this approach can reduce symptoms of anxiety and depression, enhance emotional control, and improve sleep. Physiologically, mindfulness reduces activation of the sympathetic nervous system and promotes parasympathetic balance, aiding recovery and mental resilience.",
+    "additional": "NCK Possible Twist: They might frame mindfulness as 'religious practice' — it is secular and evidence-based. Mnemonic: 'Mind full of calm'. Cross-link: Psychiatric nursing stress management interventions."
+  },
+  {
+    "question": "How does providing ICU patients with access to structured peer support groups after discharge influence long-term recovery?",
+    "options": {
+      "A": "It reduces isolation, normalizes experiences, and provides ongoing coping strategies",
+      "B": "It replaces professional mental health care",
+      "C": "It delays return to daily activities",
+      "D": "It increases psychological distress"
+    },
+    "answer": "A",
+    "explanation": "Post-ICU peer support groups allow survivors to share experiences, validate feelings, and learn from each other’s recovery strategies. This ongoing social support is critical in preventing long-term psychological conditions such as depression or PTSD. It also reinforces treatment adherence through accountability and encouragement from peers who understand the challenges firsthand.",
+    "additional": "NCK Possible Twist: They may test with an answer suggesting 'peer support makes people dwell on trauma' — structured groups are moderated to prevent this. Mnemonic: 'Shared stories, shared strength'."
+  },
+  {
+    "question": "Why is early identification and management of ICU delirium important for psychological health?",
+    "options": {
+      "A": "It reduces the risk of long-term cognitive impairment and PTSD",
+      "B": "It replaces physical rehabilitation",
+      "C": "It increases patient confusion",
+      "D": "It delays discharge"
+    },
+    "answer": "A",
+    "explanation": "ICU delirium is an acute state of confusion linked to increased morbidity, mortality, and long-term mental health issues. If not addressed promptly, it can lead to chronic cognitive decline, depression, and PTSD. Early detection through validated screening tools (e.g., CAM-ICU) and interventions such as reorientation cues, sleep promotion, and mobilization can greatly improve recovery outcomes.",
+    "additional": "NCK Possible Twist: They may confuse delirium with dementia — remember delirium is acute and reversible if treated early. Mnemonic: 'Detect delirium, defend the brain'."
+  },
+  {
+    "question": "What is the psychological benefit of including family members in ICU care planning meetings?",
+    "options": {
+      "A": "It reduces family anxiety, improves communication, and aligns expectations",
+      "B": "It replaces patient consent",
+      "C": "It causes confusion",
+      "D": "It delays treatment"
+    },
+    "answer": "A",
+    "explanation": "Involving families in care planning fosters transparency, provides emotional reassurance, and ensures decisions align with the patient’s values. It also helps families feel included, reducing helplessness and uncertainty. For patients unable to participate, families can serve as advocates and provide valuable psychosocial insights.",
+    "additional": "NCK Possible Twist: They may try to imply family involvement overrides patient autonomy — correct approach is collaborative. Mnemonic: 'Family in the loop keeps minds in the loop'."
+  },
+  {
+    "question": "How does implementing structured coping skills training benefit ICU survivors?",
+    "options": {
+      "A": "It equips patients with practical strategies to manage stress and emotional triggers",
+      "B": "It replaces clinical therapy",
+      "C": "It increases anxiety",
+      "D": "It delays recovery"
+    },
+    "answer": "A",
+    "explanation": "Coping skills training teaches relaxation techniques, problem-solving, and cognitive reframing to help survivors handle ongoing stressors post-ICU. Patients who master these skills show better adherence to rehabilitation, improved mood, and reduced recurrence of psychological symptoms such as panic attacks.",
+    "additional": "NCK Possible Twist: They may confuse 'coping skills training' with general education — coping skills are active techniques patients can use immediately. Mnemonic: 'Cope to hope'."
+  },
+  {
+    "question": "Why is the use of validated psychological assessment tools important in ICU settings?",
+    "options": {
+      "A": "It ensures accurate detection of distress, enabling timely and targeted intervention",
+      "B": "It replaces clinical judgment",
+      "C": "It delays treatment",
+      "D": "It increases workload without benefit"
+    },
+    "answer": "A",
+    "explanation": "Validated tools such as the Hospital Anxiety and Depression Scale (HADS) or Impact of Event Scale-Revised (IES-R) provide reliable, standardized measures of patient psychological status. They help identify at-risk individuals early and guide referrals to appropriate mental health support, improving overall outcomes.",
+    "additional": "NCK Possible Twist: They may suggest clinical observation alone is enough — standardized tools improve consistency and detection rates. Mnemonic: 'Measure to manage'."
+  },
+  {
+    "question": "How can ICU staff debriefing sessions after critical incidents benefit patient care indirectly?",
+    "options": {
+      "A": "They help staff process emotions, preventing burnout and ensuring ongoing quality care",
+      "B": "They replace medical audits",
+      "C": "They delay patient treatment",
+      "D": "They reduce teamwork"
+    },
+    "answer": "A",
+    "explanation": "Staff exposed to repeated traumatic events may develop compassion fatigue, impairing performance and empathy. Structured debriefing sessions provide a safe space to share experiences, normalize reactions, and learn coping strategies. Healthier staff are more engaged, attentive, and better able to deliver high-quality patient care.",
+    "additional": "NCK Possible Twist: They may frame debriefing as 'venting sessions' — these are structured, therapeutic, and goal-directed. Mnemonic: 'Support staff to support patients'."
+  },
+  {
+    "question": "What is the psychological advantage of gradual exposure to ICU memories for patients with PTSD symptoms?",
+    "options": {
+      "A": "It helps desensitize trauma triggers and reduces avoidance behaviors",
+      "B": "It replaces therapy",
+      "C": "It increases distress permanently",
+      "D": "It delays recovery"
+    },
+    "answer": "A",
+    "explanation": "Gradual exposure is a core PTSD treatment technique that involves reintroducing the patient to memories or reminders of the ICU experience in a safe, controlled way. Over time, this reduces the power of triggers, diminishes fear responses, and allows for emotional processing without overwhelming the patient.",
+    "additional": "NCK Possible Twist: They may describe this as 'flooding' — gradual exposure is structured and paced. Mnemonic: 'Face it to erase it'."
+  },
+  {
+    "question": "Why is it important to address ICU-related nightmares in patient follow-up care?",
+    "options": {
+      "A": "They can contribute to ongoing anxiety, poor sleep, and PTSD",
+      "B": "They replace actual medical complications",
+      "C": "They have no long-term effect",
+      "D": "They are a sign of good imagination"
+    },
+    "answer": "A",
+    "explanation": "ICU-related nightmares often stem from delirium, sedation effects, or trauma. They can perpetuate anxiety, interfere with restorative sleep, and act as recurring trauma triggers. Discussing and processing these nightmares through therapy can reduce their emotional impact and improve psychological recovery.",
+    "additional": "NCK Possible Twist: They may downplay nightmares as harmless — in ICU survivors, they can signal deeper trauma. Mnemonic: 'Nightmares need care'."
+  },
+  {
+    "question": "What is the main benefit of integrating psycho-oncology services for ICU patients with cancer?",
+    "options": {
+      "A": "It addresses both the psychological and physical aspects of cancer care",
+      "B": "It replaces chemotherapy",
+      "C": "It increases patient stress",
+      "D": "It delays cancer treatment"
+    },
+    "answer": "A",
+    "explanation": "Psycho-oncology combines mental health support with cancer care, helping patients cope with diagnosis, treatment side effects, and fear of recurrence. In ICU cancer patients, this dual focus reduces distress, improves treatment adherence, and supports decision-making in complex care plans.",
+    "additional": "NCK Possible Twist: They may frame this as only for terminal patients — psycho-oncology benefits all stages. Mnemonic: 'Heal mind, fight cancer better'."
+  },
+  {
+    "question": "Why is involving occupational therapy early in ICU recovery important for psychological well-being?",
+    "options": {
+      "A": "It promotes independence, restores functional skills, and boosts self-esteem",
+      "B": "It replaces medical care",
+      "C": "It delays discharge",
+      "D": "It increases dependency"
+    },
+    "answer": "A",
+    "explanation": "Occupational therapy (OT) helps ICU patients relearn or adapt activities of daily living (ADLs) such as eating, dressing, and grooming. Early OT involvement not only speeds functional recovery but also gives patients a sense of progress and autonomy. Regaining control over basic tasks is psychologically uplifting, reducing depression and fostering self-worth. OT often includes adaptive equipment training and cognitive exercises to address post-ICU cognitive decline.",
+    "additional": "NCK Possible Twist: They may focus only on the physical aspect — remember the psychological boost from regaining independence. Mnemonic: 'Function fuels confidence'. Cross-link: Rehabilitation nursing."
+  },
+  {
+    "question": "What psychological benefit does ICU-based cognitive stimulation provide to patients at risk of delirium?",
+    "options": {
+      "A": "It maintains mental engagement, reducing cognitive decline and disorientation",
+      "B": "It replaces family visits",
+      "C": "It delays medical care",
+      "D": "It increases patient agitation"
+    },
+    "answer": "A",
+    "explanation": "Cognitive stimulation activities — such as conversation, puzzles, memory games, and orientation exercises — help maintain brain function in critically ill patients. In the ICU, where sensory deprivation or overload can lead to delirium, structured mental engagement supports attention, memory, and mood regulation. This reduces the likelihood of prolonged confusion post-discharge.",
+    "additional": "NCK Possible Twist: They may confuse this with 'overstimulation' — proper ICU cognitive stimulation is gentle, paced, and safe. Mnemonic: 'Engage the mind, protect the brain'."
+  },
+  {
+    "question": "How does structured physical rehabilitation in ICU contribute to mental health recovery?",
+    "options": {
+      "A": "It provides a sense of progress, reduces helplessness, and releases endorphins",
+      "B": "It replaces counseling",
+      "C": "It increases anxiety",
+      "D": "It delays discharge"
+    },
+    "answer": "A",
+    "explanation": "Physical rehabilitation in ICU, including gentle range-of-motion exercises, sitting, and walking, enhances both physical strength and emotional resilience. Movement stimulates endorphin release, improving mood and reducing stress. Visible progress, such as walking further each day, reinforces hope and combats feelings of stagnation or dependency.",
+    "additional": "NCK Possible Twist: They may frame early rehab as unsafe — but with proper supervision, it is safe and psychologically beneficial. Mnemonic: 'Move forward, feel forward'."
+  },
+  {
+    "question": "Why is offering patients opportunities for self-expression important in ICU care?",
+    "options": {
+      "A": "It allows emotional release, promotes identity preservation, and reduces isolation",
+      "B": "It replaces medical documentation",
+      "C": "It causes patient distress",
+      "D": "It delays procedures"
+    },
+    "answer": "A",
+    "explanation": "Critically ill patients often feel a loss of identity and control. Opportunities for self-expression — through art, writing, music, or conversation — provide an outlet for emotions, help maintain a sense of self, and reduce feelings of isolation. For non-verbal patients, alternative communication tools (e.g., picture boards) are essential to allow expression.",
+    "additional": "NCK Possible Twist: They may suggest self-expression is only for stable patients — in reality, it can be adapted for all levels of acuity. Mnemonic: 'Express to de-stress'."
+  },
+  {
+    "question": "How can integrating hope-focused therapy benefit ICU patients?",
+    "options": {
+      "A": "It strengthens positive future orientation, enhancing resilience and recovery motivation",
+      "B": "It replaces physical rehabilitation",
+      "C": "It delays treatment",
+      "D": "It increases denial of illness"
+    },
+    "answer": "A",
+    "explanation": "Hope-focused therapy emphasizes setting realistic goals, identifying pathways to achieve them, and reinforcing the belief that progress is possible. In ICU patients, maintaining hope is crucial for psychological resilience and adherence to treatment. It counters despair, improves problem-solving, and fosters optimism during long recoveries.",
+    "additional": "NCK Possible Twist: They may confuse hope with false reassurance — hope therapy is grounded in realistic, achievable outcomes. Mnemonic: 'Hope heals'."
+  },
+  {
+    "question": "What is the psychological advantage of early discharge planning for ICU patients?",
+    "options": {
+      "A": "It reduces uncertainty, provides structure, and helps patients mentally prepare for transition",
+      "B": "It replaces ongoing care",
+      "C": "It increases anxiety",
+      "D": "It delays recovery"
+    },
+    "answer": "A",
+    "explanation": "Early discharge planning includes discussing the expected timeline, care needs after ICU, and available support services. This preparation reduces anxiety about the unknown, helps patients and families adjust expectations, and ensures a smoother transition. Mentally, it promotes confidence in managing the next stage of recovery.",
+    "additional": "NCK Possible Twist: They may present discharge planning as purely logistical — it’s also a major psychological intervention. Mnemonic: 'Plan ahead, stress less'."
+  },
+  {
+    "question": "Why is patient storytelling encouraged as part of ICU recovery?",
+    "options": {
+      "A": "It helps patients process experiences, reframe events, and find meaning",
+      "B": "It replaces medical follow-up",
+      "C": "It prolongs trauma",
+      "D": "It delays treatment"
+    },
+    "answer": "A",
+    "explanation": "Storytelling allows ICU survivors to reflect on their experiences, make sense of difficult events, and integrate them into their life narrative. It can be therapeutic, reducing intrusive memories and aiding emotional closure. Sharing stories with peers or healthcare providers also enhances social connection and empathy.",
+    "additional": "NCK Possible Twist: They may describe storytelling as 'reliving trauma' — when guided, it is structured and healing. Mnemonic: 'Tell to heal'."
+  },
+  {
+    "question": "How does providing ICU patients with consistent staff assignments affect their psychological state?",
+    "options": {
+      "A": "It builds trust, reduces anxiety, and enhances communication",
+      "B": "It replaces treatment planning",
+      "C": "It increases isolation",
+      "D": "It delays care"
+    },
+    "answer": "A",
+    "explanation": "Seeing the same nurses or doctors regularly fosters familiarity, trust, and rapport. For ICU patients, this consistency reduces stress, facilitates better communication, and allows staff to better understand patient preferences and needs, improving both care and emotional well-being.",
+    "additional": "NCK Possible Twist: They may present this as 'staff favoritism' — it’s actually a patient-centered continuity strategy. Mnemonic: 'Same faces, safer spaces'."
+  },
+  {
+    "question": "Why is addressing body image concerns important for ICU patients recovering from surgery or injury?",
+    "options": {
+      "A": "It reduces self-consciousness, supports self-esteem, and aids social reintegration",
+      "B": "It replaces physical rehabilitation",
+      "C": "It causes more anxiety",
+      "D": "It delays discharge"
+    },
+    "answer": "A",
+    "explanation": "Surgical scars, amputations, tracheostomies, or weight changes can significantly impact self-image. Addressing these concerns through counseling, peer support, and gradual exposure helps patients adapt emotionally, maintain self-esteem, and re-engage socially. Neglecting this aspect may lead to withdrawal, depression, or relationship strain.",
+    "additional": "NCK Possible Twist: They may treat body image as a cosmetic issue — in ICU survivors, it is a major mental health determinant. Mnemonic: 'See self, heal self'."
+  },
+  {
+    "question": "What is the psychological benefit of humor and play in pediatric ICU patients?",
+    "options": {
+      "A": "It reduces fear, distracts from pain, and promotes normal development",
+      "B": "It replaces medical treatment",
+      "C": "It increases anxiety",
+      "D": "It delays healing"
+    },
+    "answer": "A",
+    "explanation": "For children in ICU, humor, games, and play therapy create moments of normalcy, reduce fear of procedures, and provide emotional comfort. Play also supports cognitive and social development, which can be disrupted by hospitalization. Incorporating parents in play sessions enhances bonding and reduces separation distress.",
+    "additional": "NCK Possible Twist: They may view play as 'just distraction' — in pediatric care, it is a therapeutic necessity. Mnemonic: 'Play heals pain'. Cross-link: Pediatric nursing."
+  },
+  {
+    "question": "Why is teaching ICU patients relaxation breathing techniques important for recovery?",
+    "options": {
+      "A": "It reduces anxiety, lowers heart rate, and improves oxygenation",
+      "B": "It replaces physical therapy",
+      "C": "It causes hyperventilation",
+      "D": "It delays healing"
+    },
+    "answer": "A",
+    "explanation": "Relaxation breathing techniques — such as diaphragmatic breathing or 4-7-8 breathing — activate the parasympathetic nervous system, decreasing stress hormone levels and lowering blood pressure. For ICU patients, these techniques not only promote calm but can also improve oxygenation and lung function by encouraging deeper, more efficient breaths. Regular practice can reduce anxiety before procedures and aid sleep quality.",
+    "additional": "NCK Possible Twist: They may confuse relaxation breathing with hyperventilation — correct technique is slow, deep, and controlled. Mnemonic: 'Breathe calm, heal calm'. Cross-link: Respiratory nursing."
+  },
+  {
+    "question": "What is the main psychological benefit of ICU staff using trauma-informed care principles?",
+    "options": {
+      "A": "It reduces re-traumatization, builds trust, and fosters emotional safety",
+      "B": "It replaces counseling",
+      "C": "It causes avoidance of care",
+      "D": "It delays interventions"
+    },
+    "answer": "A",
+    "explanation": "Trauma-informed care recognizes that ICU patients may have pre-existing trauma or may experience ICU events as traumatic. Staff trained in these principles prioritize emotional safety, avoid triggering past trauma, and maintain patient dignity. This approach reduces anxiety, enhances cooperation, and supports psychological recovery during and after ICU stay.",
+    "additional": "NCK Possible Twist: They may describe trauma-informed care as 'therapy sessions' — in reality, it is an approach embedded into everyday care. Mnemonic: 'Treat trauma with trust'."
+  },
+  {
+    "question": "Why is gradual reintroduction to normal daily routines important for ICU survivors?",
+    "options": {
+      "A": "It provides structure, supports adaptation, and reduces post-ICU anxiety",
+      "B": "It replaces medical treatment",
+      "C": "It increases confusion",
+      "D": "It delays recovery"
+    },
+    "answer": "A",
+    "explanation": "After prolonged ICU stays, patients may feel disoriented returning to daily life. Gradual reintroduction to normal routines — such as regular meal times, sleep schedules, and light household tasks — restores a sense of normalcy and control. Structured transition reduces anxiety and prevents overwhelm, aiding mental health recovery.",
+    "additional": "NCK Possible Twist: They may think returning to routines should be immediate — gradual adjustment prevents setbacks. Mnemonic: 'Step back into life, one day at a time'."
+  },
+  {
+    "question": "What is the psychological purpose of providing ICU patients with life review interventions?",
+    "options": {
+      "A": "It helps process life experiences, find meaning, and reduce end-of-life distress",
+      "B": "It replaces medical consent",
+      "C": "It increases confusion",
+      "D": "It delays palliative care"
+    },
+    "answer": "A",
+    "explanation": "Life review is a structured process where patients reflect on significant life events, achievements, and challenges. In ICU, especially for those with life-limiting illnesses, it promotes acceptance, emotional closure, and spiritual peace. For survivors, it can also reaffirm values and priorities, strengthening psychological resilience.",
+    "additional": "NCK Possible Twist: They may confuse life review with casual conversation — it is a guided, therapeutic intervention. Mnemonic: 'Look back to move forward'."
+  },
+  {
+    "question": "How does maintaining sensory stimulation in ICU benefit unconscious or sedated patients?",
+    "options": {
+      "A": "It may preserve neural pathways, promote awareness, and reduce sensory deprivation effects",
+      "B": "It replaces medical monitoring",
+      "C": "It causes overstimulation",
+      "D": "It delays recovery"
+    },
+    "answer": "A",
+    "explanation": "Even unconscious patients can benefit from controlled sensory input, such as playing familiar voices, soft music, or gentle touch. This stimulation may activate neural networks, maintain sensory integration, and potentially aid in recovery. It also provides comfort for families who can engage in meaningful interactions with the patient.",
+    "additional": "NCK Possible Twist: They may present sensory stimulation as harmful — overexposure is harmful, but gentle, targeted input is beneficial. Mnemonic: 'Stimulate to rehabilitate'."
+  },
+  {
+    "question": "Why is validating ICU patients’ emotions an important part of psychological care?",
+    "options": {
+      "A": "It fosters trust, reduces isolation, and normalizes emotional responses",
+      "B": "It replaces medication",
+      "C": "It increases dependency",
+      "D": "It delays discharge"
+    },
+    "answer": "A",
+    "explanation": "Validation acknowledges a patient’s feelings as real and understandable, even if the healthcare provider cannot change the situation. In ICU, where patients may feel fear, sadness, or frustration, validation enhances emotional safety, promotes openness, and strengthens the therapeutic relationship.",
+    "additional": "NCK Possible Twist: They may confuse validation with agreement — you can validate emotions without endorsing harmful beliefs. Mnemonic: 'Feelings are facts to the patient'."
+  },
+  {
+    "question": "What is the psychological effect of ICU staff introducing themselves and explaining their roles?",
+    "options": {
+      "A": "It reduces uncertainty, builds rapport, and fosters patient confidence",
+      "B": "It replaces informed consent",
+      "C": "It causes confusion",
+      "D": "It delays treatment"
+    },
+    "answer": "A",
+    "explanation": "Clear introductions help ICU patients orient themselves in an unfamiliar and intimidating environment. Knowing who is providing care and what their role is fosters trust, reduces anxiety, and improves communication. This small act has a significant cumulative effect on patient psychological comfort.",
+    "additional": "NCK Possible Twist: They may frame this as 'wasting time' — in reality, it is essential for patient-centered care. Mnemonic: 'Name and role, ease the soul'."
+  },
+  {
+    "question": "How does ICU music therapy contribute to psychological recovery?",
+    "options": {
+      "A": "It reduces stress hormones, improves mood, and promotes relaxation",
+      "B": "It replaces medication",
+      "C": "It causes overstimulation",
+      "D": "It delays healing"
+    },
+    "answer": "A",
+    "explanation": "Music therapy uses live or recorded music to create a calming environment, reduce cortisol levels, and improve patient mood. In ICU, it can be used before procedures, during recovery, or at bedtime to promote relaxation and better sleep. The choice of music should be patient-preferred for maximum benefit.",
+    "additional": "NCK Possible Twist: They may confuse therapeutic music with background noise — music therapy is intentional and patient-centered. Mnemonic: 'Music mends the mind'."
+  },
+  {
+    "question": "Why is goal reframing useful in ICU psychological care?",
+    "options": {
+      "A": "It adjusts expectations to focus on achievable steps, maintaining motivation",
+      "B": "It replaces discharge planning",
+      "C": "It increases hopelessness",
+      "D": "It delays recovery"
+    },
+    "answer": "A",
+    "explanation": "Goal reframing involves helping patients shift from unrealistic or long-term objectives to smaller, achievable milestones. For example, instead of 'I want to walk a mile,' reframing to 'I will sit up for 20 minutes today' maintains motivation and builds progress without overwhelming the patient.",
+    "additional": "NCK Possible Twist: They may portray reframing as giving up — it’s actually a motivational strategy. Mnemonic: 'Small wins fuel big wins'."
+  },
+  {
+    "question": "What is the psychological role of ICU gratitude practices?",
+    "options": {
+      "A": "They foster positive emotions, counteract negative focus, and build resilience",
+      "B": "They replace professional therapy",
+      "C": "They cause denial",
+      "D": "They delay recovery"
+    },
+    "answer": "A",
+    "explanation": "Gratitude practices — such as daily noting of positive events or thanking staff — have been shown to improve mood, reduce depressive symptoms, and increase resilience. In ICU, this shift in focus from fear to appreciation can enhance hope and strengthen coping mechanisms.",
+    "additional": "NCK Possible Twist: They may dismiss gratitude as 'soft' — evidence supports its role in mental health recovery. Mnemonic: 'Gratitude grows grit'."
+  },
+  {
+    "question": "Why is peer role-modeling effective in ICU psychological rehabilitation?",
+    "options": {
+      "A": "It demonstrates achievable recovery, builds hope, and increases motivation",
+      "B": "It replaces professional guidance",
+      "C": "It causes patient comparison anxiety",
+      "D": "It delays progress"
+    },
+    "answer": "A",
+    "explanation": "Peer role-modeling involves showing patients examples of others who have successfully recovered from similar ICU experiences. Seeing someone who overcame comparable challenges provides tangible proof that recovery is possible. It reinforces self-belief, helps patients visualize their own success, and reduces feelings of isolation.",
+    "additional": "NCK Possible Twist: They may confuse role-modeling with competition — it’s collaborative inspiration, not rivalry. Mnemonic: 'See it, believe it, achieve it'."
+  },
+  {
+    "question": "What is the psychological benefit of incorporating spiritual support in ICU care?",
+    "options": {
+      "A": "It provides comfort, meaning, and enhances coping during critical illness",
+      "B": "It replaces medical interventions",
+      "C": "It increases denial",
+      "D": "It delays treatment"
+    },
+    "answer": "A",
+    "explanation": "Spiritual support — whether through chaplaincy, prayer, or personal rituals — offers patients a source of hope, strength, and meaning during stressful ICU stays. It can improve emotional resilience, reduce anxiety, and help with acceptance of illness. This is provided in a patient-centered, non-judgmental manner.",
+    "additional": "NCK Possible Twist: They may frame spiritual support as religious conversion — in nursing, it’s about honoring patient beliefs, not imposing new ones. Mnemonic: 'Spirit strong, mind strong'."
+  },
+  {
+    "question": "Why should ICU nurses encourage realistic self-talk in patients?",
+    "options": {
+      "A": "It replaces negative internal dialogue with constructive, motivating thoughts",
+      "B": "It replaces medical care",
+      "C": "It causes denial of illness",
+      "D": "It delays recovery"
+    },
+    "answer": "A",
+    "explanation": "Realistic self-talk helps patients shift from hopeless statements ('I’ll never get better') to balanced, motivating ones ('I’m making progress every day'). This cognitive-behavioral strategy reduces anxiety, boosts motivation, and improves emotional stability during recovery.",
+    "additional": "NCK Possible Twist: They may confuse realistic self-talk with blind optimism — it’s about accuracy and encouragement, not fantasy. Mnemonic: 'Talk yourself into healing'."
+  },
+  {
+    "question": "How does the use of ICU diaries benefit psychological recovery?",
+    "options": {
+      "A": "They help patients reconstruct events, reduce confusion, and process ICU memories",
+      "B": "They replace medical records",
+      "C": "They increase distress",
+      "D": "They delay recovery"
+    },
+    "answer": "A",
+    "explanation": "ICU diaries, written by staff or family, document the patient’s ICU journey with daily events, photos, and supportive messages. Upon recovery, patients can read them to fill memory gaps, understand what happened, and make sense of their experience — reducing anxiety and PTSD risk.",
+    "additional": "NCK Possible Twist: They may frame diaries as unnecessary — evidence supports their role in post-ICU mental health. Mnemonic: 'Write to rewrite memories'."
+  },
+  {
+    "question": "Why is laughter therapy effective for ICU patients?",
+    "options": {
+      "A": "It reduces stress hormones, boosts immunity, and improves mood",
+      "B": "It replaces medical treatment",
+      "C": "It increases anxiety",
+      "D": "It delays recovery"
+    },
+    "answer": "A",
+    "explanation": "Laughter stimulates the release of endorphins, lowers cortisol, and promotes a sense of connection. In ICU, appropriate humor can break tension, distract from pain, and enhance patient-staff rapport. Laughter also has physiological benefits, including improved circulation and oxygenation.",
+    "additional": "NCK Possible Twist: They may confuse laughter therapy with unprofessional joking — in nursing, it’s intentional and patient-appropriate. Mnemonic: 'Laugh to last'."
+  },
+  {
+    "question": "What is the purpose of guided imagery for ICU patients?",
+    "options": {
+      "A": "It promotes relaxation, reduces anxiety, and aids pain control",
+      "B": "It replaces sleep",
+      "C": "It increases stress",
+      "D": "It delays recovery"
+    },
+    "answer": "A",
+    "explanation": "Guided imagery involves mentally visualizing calming, positive scenes or experiences with the help of a facilitator or recording. This engages the parasympathetic system, reduces muscle tension, and distracts from discomfort. In ICU, it is used before procedures, during rest, or as part of pain management.",
+    "additional": "NCK Possible Twist: They may confuse guided imagery with daydreaming — it’s structured, purposeful mental practice. Mnemonic: 'Picture peace, feel peace'."
+  },
+  {
+    "question": "Why is consistent communication about progress important for ICU patients?",
+    "options": {
+      "A": "It reinforces hope, clarifies expectations, and strengthens trust",
+      "B": "It replaces discharge planning",
+      "C": "It increases dependence",
+      "D": "It delays recovery"
+    },
+    "answer": "A",
+    "explanation": "Regular updates on progress — even small improvements — provide patients with a sense of direction and achievement. This helps them stay engaged in their recovery plan, manage expectations realistically, and maintain trust in their healthcare team.",
+    "additional": "NCK Possible Twist: They may see this as repetitive — consistency is key for orientation and hope. Mnemonic: 'Progress spoken is progress felt'."
+  },
+  {
+    "question": "How can art therapy help ICU patients cope psychologically?",
+    "options": {
+      "A": "It provides a creative outlet for expressing emotions and reduces stress",
+      "B": "It replaces verbal communication",
+      "C": "It increases anxiety",
+      "D": "It delays recovery"
+    },
+    "answer": "A",
+    "explanation": "Art therapy uses creative activities such as drawing, painting, or sculpture to allow patients to express emotions that may be difficult to verbalize. It reduces stress, promotes relaxation, and fosters a sense of accomplishment. It can be especially helpful for pediatric and long-term ICU patients.",
+    "additional": "NCK Possible Twist: They may see art therapy as only recreational — it is a validated therapeutic intervention. Mnemonic: 'Create to relate'."
+  },
+  {
+    "question": "Why is setting small, achievable goals important in ICU recovery?",
+    "options": {
+      "A": "It prevents overwhelm, builds confidence, and maintains motivation",
+      "B": "It replaces major treatment goals",
+      "C": "It causes complacency",
+      "D": "It delays recovery"
+    },
+    "answer": "A",
+    "explanation": "Breaking large recovery goals into smaller, manageable steps makes progress feel attainable and reduces feelings of hopelessness. Each achieved goal boosts self-efficacy and encourages continued effort. For ICU patients, this is vital in long recovery periods where setbacks may occur.",
+    "additional": "NCK Possible Twist: They may frame small goals as lowering standards — it’s actually a structured path to big achievements. Mnemonic: 'Small steps, big strides'."
+  },
+  {
+    "question": "What is the benefit of offering ICU patients choices whenever possible?",
+    "options": {
+      "A": "It restores a sense of control, reduces helplessness, and builds trust",
+      "B": "It replaces treatment planning",
+      "C": "It increases anxiety",
+      "D": "It delays care"
+    },
+    "answer": "A",
+    "explanation": "Even small choices — like selecting meal options, choosing music, or deciding when to rest — can give ICU patients a sense of agency in an environment where much is out of their control. This enhances psychological resilience and fosters a collaborative care relationship.",
+    "additional": "NCK Possible Twist: They may think choices slow care — empowering patients often improves cooperation. Mnemonic: 'Choice fuels voice'."
+  },
+  {
+    "question": "Why is involving ICU patients in setting their care priorities important for psychological health?",
+    "options": {
+      "A": "It promotes autonomy, increases engagement, and aligns care with patient values",
+      "B": "It replaces clinical assessments",
+      "C": "It increases conflict with staff",
+      "D": "It delays recovery"
+    },
+    "answer": "A",
+    "explanation": "When ICU patients participate in determining what matters most to them — such as comfort, mobility, or communication — they feel more respected and empowered. This shared decision-making improves satisfaction, encourages cooperation, and ensures that care plans are patient-centered, which enhances both mental and physical recovery.",
+    "additional": "NCK Possible Twist: They may present patient involvement as impractical — it is feasible with clear communication and adapted for each patient's condition. Mnemonic: 'Priorities with patients, progress with purpose'."
+  },
+  {
+    "question": "How does journaling benefit ICU survivors psychologically?",
+    "options": {
+      "A": "It helps process emotions, track progress, and improve mental clarity",
+      "B": "It replaces professional counseling",
+      "C": "It causes distress",
+      "D": "It delays healing"
+    },
+    "answer": "A",
+    "explanation": "Journaling allows patients to express thoughts and feelings, document recovery milestones, and reflect on challenges. Writing can help organize thoughts, reduce stress, and promote emotional release. Reviewing entries over time shows tangible progress, boosting motivation and self-esteem.",
+    "additional": "NCK Possible Twist: They may see journaling as time-wasting — it is a recognized therapeutic tool in psychological recovery. Mnemonic: 'Write to right the mind'."
+  },
+  {
+    "question": "Why is peer mentoring valuable for ICU patient recovery?",
+    "options": {
+      "A": "It provides guidance, emotional support, and shared experience from former patients",
+      "B": "It replaces clinical follow-up",
+      "C": "It increases patient anxiety",
+      "D": "It delays adaptation"
+    },
+    "answer": "A",
+    "explanation": "Peer mentors — former ICU patients who have recovered — can guide current patients through fears and uncertainties with credibility and empathy. This relationship fosters hope, normalizes recovery challenges, and provides practical coping strategies based on lived experience.",
+    "additional": "NCK Possible Twist: They may assume peer mentoring lacks structure — effective programs include training and supervision. Mnemonic: 'Been there, heal here'."
+  },
+  {
+    "question": "What is the psychological value of humor in staff-patient interactions in ICU?",
+    "options": {
+      "A": "It builds rapport, eases tension, and promotes a positive atmosphere",
+      "B": "It replaces serious communication",
+      "C": "It causes disrespect",
+      "D": "It delays treatment"
+    },
+    "answer": "A",
+    "explanation": "Appropriate, patient-sensitive humor can break emotional tension, foster a bond, and make the ICU feel less intimidating. Humor should always respect the patient’s mood and situation, reinforcing trust rather than trivializing illness.",
+    "additional": "NCK Possible Twist: They may confuse humor with unprofessional behavior — when tailored and empathetic, it is a therapeutic tool. Mnemonic: 'A smile is medicine too'."
+  },
+  {
+    "question": "Why is visual imagery of recovery milestones useful for ICU patients?",
+    "options": {
+      "A": "It reinforces goals, boosts motivation, and creates a sense of progress",
+      "B": "It replaces physical rehabilitation",
+      "C": "It increases pressure",
+      "D": "It delays healing"
+    },
+    "answer": "A",
+    "explanation": "Displaying charts, photos, or drawings showing progress — such as standing, walking, or breathing without assistance — helps patients visualize improvement. This reinforces motivation, reminds them of their capabilities, and strengthens hope.",
+    "additional": "NCK Possible Twist: They may view visual tracking as childish — it is evidence-based for motivation across all ages. Mnemonic: 'See success, be success'."
+  },
+  {
+    "question": "How can family involvement in physical therapy sessions support ICU recovery?",
+    "options": {
+      "A": "It provides emotional encouragement, boosts patient confidence, and reinforces effort",
+      "B": "It replaces professional therapy",
+      "C": "It causes interference",
+      "D": "It delays sessions"
+    },
+    "answer": "A",
+    "explanation": "When families participate in physical therapy — by cheering, assisting with safe tasks, or celebrating milestones — patients feel supported and more motivated. This involvement also educates families about safe mobility assistance after discharge.",
+    "additional": "NCK Possible Twist: They may portray family presence as distracting — when guided, it is beneficial. Mnemonic: 'Family fuels forward motion'."
+  },
+  {
+    "question": "Why is staff consistency in explaining procedures important for ICU patients?",
+    "options": {
+      "A": "It reduces confusion, builds trust, and eases anxiety",
+      "B": "It replaces informed consent",
+      "C": "It delays interventions",
+      "D": "It increases dependence"
+    },
+    "answer": "A",
+    "explanation": "Consistent explanations avoid mixed messages and help patients understand and anticipate what will happen. This predictability fosters psychological safety, lowers anxiety, and strengthens the therapeutic relationship between staff and patient.",
+    "additional": "NCK Possible Twist: They may assume repetition wastes time — in ICU, reinforcement is essential due to stress and possible delirium. Mnemonic: 'Same message, calmer mind'."
+  },
+  {
+    "question": "How does teaching self-compassion benefit ICU survivors?",
+    "options": {
+      "A": "It reduces self-criticism, supports emotional healing, and promotes resilience",
+      "B": "It replaces medical follow-up",
+      "C": "It encourages complacency",
+      "D": "It delays recovery"
+    },
+    "answer": "A",
+    "explanation": "Self-compassion involves treating oneself with kindness during setbacks instead of harsh self-criticism. ICU survivors often struggle with frustration over slow recovery. Practicing self-compassion reduces anxiety, fosters patience, and helps maintain long-term motivation.",
+    "additional": "NCK Possible Twist: They may confuse self-compassion with self-pity — it is active emotional care that supports recovery. Mnemonic: 'Kindness to self, strength to heal'."
+  },
+  {
+    "question": "Why is clear discharge education important for ICU patients?",
+    "options": {
+      "A": "It prepares them for self-care, reduces anxiety, and improves adherence",
+      "B": "It replaces home visits",
+      "C": "It increases confusion",
+      "D": "It delays discharge"
+    },
+    "answer": "A",
+    "explanation": "Comprehensive discharge teaching ensures patients and families understand medications, follow-up appointments, signs of complications, and lifestyle adjustments. This preparation boosts confidence, reduces post-discharge anxiety, and prevents readmissions.",
+    "additional": "NCK Possible Twist: They may assume discharge teaching is routine paperwork — it is an essential psychological and safety intervention. Mnemonic: 'Educate to liberate'."
+  },
+  {
+    "question": "What is the psychological benefit of acknowledging patient achievements in ICU?",
+    "options": {
+      "A": "It reinforces effort, builds confidence, and maintains motivation",
+      "B": "It replaces rehabilitation",
+      "C": "It causes dependence on praise",
+      "D": "It delays recovery"
+    },
+    "answer": "A",
+    "explanation": "Celebrating even small achievements — such as sitting up or completing a breathing exercise — validates patient effort and strengthens belief in their own recovery capacity. This recognition builds momentum and resilience during long ICU stays.",
+    "additional": "NCK Possible Twist: They may dismiss praise as unnecessary — in high-stress recovery, acknowledgment is a powerful motivator. Mnemonic: 'Recognize to energize'."
+  },
+  {
+    "question": "Why is creating a personalized ICU recovery plan important for patients?",
+    "options": {
+      "A": "It aligns rehabilitation with individual needs, abilities, and goals",
+      "B": "It replaces professional evaluation",
+      "C": "It increases complexity unnecessarily",
+      "D": "It delays discharge"
+    },
+    "answer": "A",
+    "explanation": "Personalized recovery plans address a patient’s physical, emotional, and cognitive needs based on their condition and goals. This increases patient engagement, ensures realistic pacing, and improves adherence to therapy. Customization also respects cultural and personal preferences, which is vital for psychological well-being.",
+    "additional": "NCK Possible Twist: They may present recovery planning as generic — patient-specific tailoring is essential for success. Mnemonic: 'Plan for the person, not the problem'."
+  },
+  {
+    "question": "How can group therapy sessions help ICU survivors?",
+    "options": {
+      "A": "They provide peer support, reduce isolation, and normalize recovery challenges",
+      "B": "They replace one-on-one therapy",
+      "C": "They increase anxiety",
+      "D": "They delay adaptation"
+    },
+    "answer": "A",
+    "explanation": "Group therapy allows survivors to share experiences, coping strategies, and encouragement. Hearing others’ stories reduces feelings of being alone and helps patients gain perspective on their recovery. The social interaction itself can improve mood and engagement.",
+    "additional": "NCK Possible Twist: They may confuse group therapy with social visits — it is a structured, facilitated intervention. Mnemonic: 'Heal together, grow together'."
+  },
+  {
+    "question": "Why is promoting patient independence crucial in ICU recovery?",
+    "options": {
+      "A": "It boosts confidence, reduces learned helplessness, and improves function",
+      "B": "It replaces nursing care",
+      "C": "It increases patient risk",
+      "D": "It delays treatment"
+    },
+    "answer": "A",
+    "explanation": "Encouraging patients to perform self-care tasks when safe prevents dependency and fosters self-efficacy. Regaining independence enhances psychological health and accelerates physical rehabilitation, making post-discharge adaptation smoother.",
+    "additional": "NCK Possible Twist: They may assume independence should wait until full recovery — gradual independence is therapeutic. Mnemonic: 'Independence inspires improvement'."
+  },
+  {
+    "question": "How does addressing ICU patients’ fears improve recovery outcomes?",
+    "options": {
+      "A": "It reduces anxiety, improves cooperation, and enhances mental clarity",
+      "B": "It replaces counseling",
+      "C": "It increases distress",
+      "D": "It delays healing"
+    },
+    "answer": "A",
+    "explanation": "Listening to and addressing fears — whether about pain, procedures, or prognosis — reassures patients, builds trust, and improves engagement with care plans. Unaddressed fears can cause stress responses that hinder recovery.",
+    "additional": "NCK Possible Twist: They may consider fear discussion as wasting time — addressing fears is integral to patient-centered care. Mnemonic: 'Face fears, free healing'."
+  },
+  {
+    "question": "Why is teaching stress management important for ICU patients?",
+    "options": {
+      "A": "It lowers cortisol levels, supports immune function, and improves mental resilience",
+      "B": "It replaces medication",
+      "C": "It increases anxiety",
+      "D": "It delays care"
+    },
+    "answer": "A",
+    "explanation": "Stress management techniques — such as mindfulness, deep breathing, or progressive muscle relaxation — reduce stress hormones, improve cardiovascular stability, and enhance coping. This supports both physical and psychological recovery.",
+    "additional": "NCK Possible Twist: They may confuse stress management with complete stress avoidance — goal is coping, not elimination. Mnemonic: 'Manage stress, manage success'."
+  },
+  {
+    "question": "What is the value of creating ICU patient progress boards?",
+    "options": {
+      "A": "They provide visual tracking, reinforce motivation, and engage patients in recovery",
+      "B": "They replace medical charts",
+      "C": "They cause pressure",
+      "D": "They delay healing"
+    },
+    "answer": "A",
+    "explanation": "Progress boards display milestones achieved, therapy sessions completed, and upcoming goals. Visual cues enhance motivation, improve orientation, and celebrate achievements, which positively impact psychological health.",
+    "additional": "NCK Possible Twist: They may think progress boards are for pediatric patients only — adults also benefit. Mnemonic: 'See progress, seek progress'."
+  },
+  {
+    "question": "How does patient education on post-ICU syndrome support recovery?",
+    "options": {
+      "A": "It prepares patients for possible cognitive, emotional, and physical effects after ICU",
+      "B": "It replaces ongoing monitoring",
+      "C": "It increases worry",
+      "D": "It delays discharge"
+    },
+    "answer": "A",
+    "explanation": "Post-ICU syndrome (PICS) includes memory problems, anxiety, depression, and physical weakness. Educating patients and families about this condition ensures early recognition, reduces anxiety by normalizing symptoms, and encourages follow-up care.",
+    "additional": "NCK Possible Twist: They may confuse education with prognosis — it's about preparation, not prediction. Mnemonic: 'Inform to transform outcomes'."
+  },
+  {
+    "question": "Why is involving patients in meal planning important in ICU recovery?",
+    "options": {
+      "A": "It promotes appetite, autonomy, and satisfaction with care",
+      "B": "It replaces nutrition assessment",
+      "C": "It increases workload",
+      "D": "It delays recovery"
+    },
+    "answer": "A",
+    "explanation": "Allowing patients to have input into meal choices within dietary guidelines increases food intake, provides a sense of control, and supports nutritional recovery. This small autonomy has a large psychological impact.",
+    "additional": "NCK Possible Twist: They may see meal choice as trivial — in ICU, control over simple things boosts morale. Mnemonic: 'Choice in food, choice in mood'."
+  },
+  {
+    "question": "What is the purpose of using familiar objects in ICU patient care?",
+    "options": {
+      "A": "They provide comfort, aid orientation, and reduce anxiety",
+      "B": "They replace medical interventions",
+      "C": "They cause overstimulation",
+      "D": "They delay care"
+    },
+    "answer": "A",
+    "explanation": "Familiar items such as photos, blankets, or personal music help patients feel connected to home, maintain identity, and reduce disorientation in an unfamiliar ICU environment.",
+    "additional": "NCK Possible Twist: They may assume personal items interfere with equipment — careful placement prevents issues. Mnemonic: 'Home touch heals'."
+  },
+  {
+    "question": "Why should ICU nurses encourage patient gratitude journaling?",
+    "options": {
+      "A": "It shifts focus to positives, reduces stress, and boosts resilience",
+      "B": "It replaces counseling",
+      "C": "It increases denial",
+      "D": "It delays recovery"
+    },
+    "answer": "A",
+    "explanation": "Gratitude journaling trains the mind to notice and appreciate positive aspects of life, which reduces depressive symptoms and improves coping capacity during recovery.",
+    "additional": "NCK Possible Twist: They may dismiss it as 'soft care' — evidence supports gratitude in health outcomes. Mnemonic: 'Gratitude grows grit'."
+  },
+  {
+    "question": "How does virtual reality (VR) therapy support ICU patient recovery?",
+    "options": {
+      "A": "It provides immersive distraction, reduces pain perception, and lowers anxiety",
+      "B": "It replaces rehabilitation",
+      "C": "It increases disorientation",
+      "D": "It delays care"
+    },
+    "answer": "A",
+    "explanation": "VR can transport patients to calming environments or guide them through virtual exercises. It reduces stress, helps manage pain, and promotes engagement in therapy sessions without leaving the bed.",
+    "additional": "NCK Possible Twist: They may confuse VR therapy with gaming — it is medically adapted for recovery. Mnemonic: 'Escape to engage'."
+  },
+  {
+    "question": "Why is staff emotional regulation important in ICU patient care?",
+    "options": {
+      "A": "It prevents projecting stress onto patients, maintains trust, and ensures calm communication",
+      "B": "It replaces clinical skills",
+      "C": "It increases detachment",
+      "D": "It delays treatment"
+    },
+    "answer": "A",
+    "explanation": "Patients are sensitive to non-verbal cues. Staff who manage their own stress and emotions model calmness, which reduces patient anxiety and promotes a healing environment.",
+    "additional": "NCK Possible Twist: They may see emotional regulation as 'hiding feelings' — it is about professional emotional control. Mnemonic: 'Calm breeds calm'."
+  },
+  {
+    "question": "What is the benefit of integrating humor therapy groups in ICU step-down units?",
+    "options": {
+      "A": "They improve mood, foster social bonds, and reduce stress hormones",
+      "B": "They replace physical therapy",
+      "C": "They increase confusion",
+      "D": "They delay adaptation"
+    },
+    "answer": "A",
+    "explanation": "Humor therapy in a group setting builds camaraderie among recovering patients, decreases stress, and provides a supportive peer environment. Shared laughter strengthens social connection, an important factor in recovery.",
+    "additional": "NCK Possible Twist: They may confuse group humor with unprofessional behavior — it is structured and therapeutic. Mnemonic: 'Laugh together, heal together'."
+  },
+  {
+    "question": "Why is teaching energy conservation strategies to ICU patients important?",
+    "options": {
+      "A": "It prevents fatigue, optimizes recovery pace, and reduces frustration",
+      "B": "It replaces rehabilitation",
+      "C": "It encourages inactivity",
+      "D": "It delays progress"
+    },
+    "answer": "A",
+    "explanation": "Energy conservation techniques — such as pacing activities, using assistive devices, and resting before exhaustion — help patients recover without overexertion. This prevents setbacks and promotes steady progress.",
+    "additional": "NCK Possible Twist: They may assume pushing limits is always better — overexertion can delay healing. Mnemonic: 'Save energy, gain recovery'."
+  },
+  {
+    "question": "How can ICU visualization exercises reduce anxiety before procedures?",
+    "options": {
+      "A": "They mentally prepare patients, improve coping, and lower stress response",
+      "B": "They replace consent",
+      "C": "They cause unrealistic expectations",
+      "D": "They delay treatment"
+    },
+    "answer": "A",
+    "explanation": "Visualization involves mentally rehearsing a procedure or imagining a calm scenario. This primes the brain for familiarity, reduces fear, and lowers physiological stress responses during the actual procedure.",
+    "additional": "NCK Possible Twist: They may confuse visualization with ignoring reality — it’s preparation, not avoidance. Mnemonic: 'See it calm, feel it calm'."
+  },
+  {
+    "question": "Why is early mobilization psychologically beneficial for ICU patients?",
+    "options": {
+      "A": "It boosts confidence, reduces depression, and restores independence",
+      "B": "It replaces bed rest entirely",
+      "C": "It increases injury risk",
+      "D": "It delays recovery"
+    },
+    "answer": "A",
+    "explanation": "Getting out of bed early, when safe, prevents physical deconditioning and fosters a sense of achievement. Movement stimulates endorphin release, improving mood and promoting optimism.",
+    "additional": "NCK Possible Twist: They may think mobilization is only physical — it has significant psychological impact. Mnemonic: 'Move body, lift mind'."
+  },
+  {
+    "question": "Why is teaching ICU patients the use of positive affirmations helpful in recovery?",
+    "options": {
+      "A": "It replaces negative self-talk with empowering statements, improving mental resilience",
+      "B": "It replaces therapy",
+      "C": "It encourages denial",
+      "D": "It delays realistic planning"
+    },
+    "answer": "A",
+    "explanation": "Positive affirmations are intentional, empowering statements (e.g., 'I am improving every day') that help patients counteract negative, fear-based thinking. In ICU recovery, where feelings of helplessness are common, affirmations can reframe mindset toward progress and self-worth. This shift enhances motivation, reduces stress hormone levels, and can indirectly improve physical recovery by improving adherence to care plans. Affirmations work best when specific, realistic, and repeated daily. Nurses can integrate this into routine care by prompting patients to recite affirmations during morning assessments or before therapy sessions.",
+    "additional": "NCK Possible Twist: They may confuse positive affirmations with unrealistic optimism — the exam may test whether you understand that statements must be achievable and grounded in reality. Mnemonic: 'Affirm progress, affirm power'. Related nursing concept: Cognitive Behavioral Therapy (CBT) techniques."
+  },
+  {
+    "question": "How does providing ICU patients with clear explanations of equipment reduce anxiety?",
+    "options": {
+      "A": "It demystifies surroundings, prevents misinterpretation, and fosters trust",
+      "B": "It replaces medical monitoring",
+      "C": "It increases dependency",
+      "D": "It delays urgent interventions"
+    },
+    "answer": "A",
+    "explanation": "ICU environments can be intimidating, with complex machines, alarms, and tubing. Patients unfamiliar with the purpose of equipment may assume the worst, leading to heightened anxiety. Providing clear, simple explanations — such as 'This monitor tracks your heart rhythm' — restores a sense of control, reduces fear, and strengthens nurse-patient trust. This also reduces the likelihood of patients tampering with equipment due to misunderstanding. Consistent explanations across staff members prevent confusion.",
+    "additional": "NCK Possible Twist: They might test whether you recognize that anxiety often comes from the unknown. Mnemonic: 'Explain to contain fear'. Link: Patient education and safety protocols."
+  },
+  {
+    "question": "Why is encouraging ICU patients to set recovery intentions each morning beneficial?",
+    "options": {
+      "A": "It provides structure, increases focus, and enhances daily motivation",
+      "B": "It replaces long-term goals",
+      "C": "It increases pressure",
+      "D": "It delays flexibility"
+    },
+    "answer": "A",
+    "explanation": "Recovery intentions are small, actionable objectives for the day (e.g., 'I will sit in the chair for lunch' or 'I will practice deep breathing twice'). Starting the day with a clear intention channels energy toward productive, achievable actions, which boosts morale and creates a sense of accomplishment. It also helps patients prioritize activities that support rehabilitation, reducing feelings of aimlessness common in ICU stays.",
+    "additional": "NCK Possible Twist: They may confuse intentions with rigid goals — intentions guide, but can be adjusted. Mnemonic: 'Intent drives content in recovery'. Nursing tie-in: Goal-setting theory."
+  },
+  {
+    "question": "What is the benefit of staff using therapeutic silence during ICU interactions?",
+    "options": {
+      "A": "It allows patients time to process thoughts, reduces pressure, and encourages expression",
+      "B": "It replaces active listening",
+      "C": "It increases awkwardness",
+      "D": "It delays patient care"
+    },
+    "answer": "A",
+    "explanation": "Therapeutic silence is an intentional pause that creates space for patients to gather their thoughts, reflect, and respond. In ICU, where patients may be physically weak or emotionally overwhelmed, silence communicates patience and respect. It also encourages deeper conversations, which can reveal important concerns or fears that might not surface during rapid questioning. Proper use involves non-verbal cues like nodding and open posture.",
+    "additional": "NCK Possible Twist: The exam may test if you know silence is active, not passive. Mnemonic: 'Silence speaks support'. Concept link: Therapeutic communication skills."
+  },
+  {
+    "question": "Why is offering ICU patients achievable physical challenges important?",
+    "options": {
+      "A": "It boosts self-confidence, demonstrates progress, and promotes functional gains",
+      "B": "It replaces medical treatment",
+      "C": "It increases frustration",
+      "D": "It delays independence"
+    },
+    "answer": "A",
+    "explanation": "Setting achievable physical challenges — like standing for 1 minute or walking 5 steps — creates tangible evidence of improvement. Success in these challenges increases patient confidence, reinforces the value of effort, and encourages continued participation in therapy. This approach prevents discouragement that can occur if goals are too difficult. Each challenge should be patient-specific and adjusted as progress is made.",
+    "additional": "NCK Possible Twist: They may test your understanding that difficulty must match ability — too hard can demotivate, too easy can bore. Mnemonic: 'Challenge to change'. Related: Progressive mobilization protocols."
+  },
+  {
+    "question": "How can ICU nurses use reminiscence therapy to improve patient morale?",
+    "options": {
+      "A": "It connects patients to meaningful past experiences, fostering identity and positivity",
+      "B": "It replaces present-moment focus",
+      "C": "It increases sadness",
+      "D": "It delays therapy"
+    },
+    "answer": "A",
+    "explanation": "Reminiscence therapy involves prompting patients to recall positive memories, such as vacations, family milestones, or personal achievements. This reactivates feelings of joy, pride, and belonging, which can counteract ICU-related depression. Familiar stories also strengthen cognitive function by engaging memory recall processes.",
+    "additional": "NCK Possible Twist: They may confuse reminiscence therapy with living in the past — in nursing, it is guided and purposeful. Mnemonic: 'Remember to recover'. Nursing link: Psychosocial interventions."
+  },
+  {
+    "question": "Why is it beneficial to normalize emotional fluctuations in ICU recovery?",
+    "options": {
+      "A": "It reassures patients that mood changes are common, reducing self-blame and anxiety",
+      "B": "It replaces emotional support",
+      "C": "It increases dependency",
+      "D": "It delays progress"
+    },
+    "answer": "A",
+    "explanation": "Recovery from critical illness often involves ups and downs in mood due to physical strain, medication effects, and situational stress. By explaining that emotional fluctuations are normal, nurses reduce patients’ tendency to interpret them as signs of failure. This fosters patience and perseverance during rehabilitation.",
+    "additional": "NCK Possible Twist: They may test whether you understand the importance of reassurance in mental health outcomes. Mnemonic: 'Mood moves — and that’s okay'."
+  },
+  {
+    "question": "What is the advantage of staff using patient-preferred terminology during ICU care?",
+    "options": {
+      "A": "It increases comfort, reduces stress, and respects cultural or personal identity",
+      "B": "It replaces medical terminology",
+      "C": "It causes confusion",
+      "D": "It delays explanations"
+    },
+    "answer": "A",
+    "explanation": "Using patient-preferred words for body parts, procedures, or personal experiences respects their comfort level and promotes trust. For example, using 'restroom' instead of 'toilet' if preferred. This is especially important in culturally sensitive care and when working with pediatric or vulnerable populations.",
+    "additional": "NCK Possible Twist: They may see this as casual speech — it’s actually strategic rapport-building. Mnemonic: 'Words matter to wellness'."
+  },
+  {
+    "question": "Why should ICU recovery programs integrate creative outlets like journaling or drawing?",
+    "options": {
+      "A": "They promote self-expression, reduce stress, and improve emotional regulation",
+      "B": "They replace talk therapy",
+      "C": "They increase rumination",
+      "D": "They delay recovery"
+    },
+    "answer": "A",
+    "explanation": "Creative outlets provide a safe, non-verbal way to process emotions that may be too difficult to articulate. This can help reduce anxiety, improve mood, and give a sense of accomplishment. Engaging in creativity can also distract from pain or boredom in the ICU.",
+    "additional": "NCK Possible Twist: They may think creativity is non-essential — it has clinically recognized therapeutic value. Mnemonic: 'Express to progress'."
+  },
+  {
+    "question": "How does teaching ICU patients to identify stress triggers improve coping?",
+    "options": {
+      "A": "It enables proactive management strategies, preventing escalation of anxiety",
+      "B": "It replaces medication",
+      "C": "It increases avoidance",
+      "D": "It delays adaptation"
+    },
+    "answer": "A",
+    "explanation": "Helping patients recognize early signs of stress — like rapid heartbeat or certain thoughts — allows them to use coping strategies before stress intensifies. This can include deep breathing, distraction, or asking for support. Early intervention minimizes the physiological impact of stress.",
+    "additional": "NCK Possible Twist: They may confuse trigger identification with dwelling on problems — it’s about control, not fixation. Mnemonic: 'Know the trigger, control the fire'."
+  },
+  {
+    "question": "Why is promoting a sense of routine important in ICU recovery?",
+    "options": {
+      "A": "It provides predictability, reduces anxiety, and helps restore normal sleep-wake cycles",
+      "B": "It replaces flexibility",
+      "C": "It increases monotony",
+      "D": "It delays care adjustments"
+    },
+    "answer": "A",
+    "explanation": "ICU stays often disrupt circadian rhythms due to constant monitoring, noise, and procedures at irregular hours. Establishing a consistent daily pattern — such as set meal times, therapy sessions, and quiet hours — reassures patients, reduces stress, and helps the body’s internal clock reset. This predictability makes patients feel more secure and in control, aiding both mental and physical recovery.",
+    "additional": "NCK Possible Twist: They may test whether you know that routine improves orientation and reduces ICU delirium. Mnemonic: 'Routine restores rhythm'. Related concept: Sleep hygiene in critical care."
+  },
+  {
+    "question": "How does early introduction of self-monitoring tools benefit ICU patients?",
+    "options": {
+      "A": "It fosters self-awareness, tracks progress, and increases engagement in recovery",
+      "B": "It replaces professional assessment",
+      "C": "It increases patient anxiety",
+      "D": "It delays treatment"
+    },
+    "answer": "A",
+    "explanation": "Self-monitoring tools like symptom diaries, pain scales, or activity trackers empower patients to participate in their own care. They can recognize patterns, note improvements, and communicate changes more accurately to healthcare providers. This active role strengthens self-efficacy and involvement in the healing process.",
+    "additional": "NCK Possible Twist: They might ask whether self-monitoring can replace professional evaluation — it cannot, it complements it. Mnemonic: 'Track to improve'."
+  },
+  {
+    "question": "Why is involving ICU patients in decision-making about visitation policies important?",
+    "options": {
+      "A": "It respects autonomy, supports emotional needs, and fosters trust in care",
+      "B": "It replaces infection control measures",
+      "C": "It increases family conflict",
+      "D": "It delays patient care"
+    },
+    "answer": "A",
+    "explanation": "Visitation can provide emotional comfort, but patient preferences vary. Some may want frequent visits for support; others may prefer fewer to rest. Allowing input ensures the balance between emotional comfort and medical needs, reducing feelings of powerlessness.",
+    "additional": "NCK Possible Twist: They may present visitation as entirely hospital-controlled — in patient-centered care, preferences are considered within safety limits. Mnemonic: 'Visitor voice matters'."
+  },
+  {
+    "question": "What is the value of incorporating relaxation breathing exercises into ICU care?",
+    "options": {
+      "A": "It reduces sympathetic nervous system activation, lowers stress, and improves oxygenation",
+      "B": "It replaces physical therapy",
+      "C": "It increases fatigue",
+      "D": "It delays urgent care"
+    },
+    "answer": "A",
+    "explanation": "Controlled breathing techniques such as diaphragmatic breathing slow the heart rate, lower blood pressure, and reduce anxiety. This helps patients manage procedural stress, promotes better lung function, and supports recovery from respiratory illnesses.",
+    "additional": "NCK Possible Twist: They may test if you know breathing exercises have both psychological and physiological benefits. Mnemonic: 'Breathe calm, heal strong'."
+  },
+  {
+    "question": "Why is it important to discuss potential post-ICU emotional challenges before discharge?",
+    "options": {
+      "A": "It prepares patients, reduces fear of unexpected symptoms, and encourages timely help-seeking",
+      "B": "It replaces counseling",
+      "C": "It increases anxiety",
+      "D": "It delays discharge"
+    },
+    "answer": "A",
+    "explanation": "Post-ICU syndrome can include depression, anxiety, PTSD, and cognitive impairment. By discussing these possibilities, patients are less likely to panic if symptoms occur and more likely to seek support early, preventing worsening of mental health conditions.",
+    "additional": "NCK Possible Twist: They may test whether preparation causes anxiety — evidence shows preparation reduces anxiety. Mnemonic: 'Forewarned is forearmed'."
+  },
+  {
+    "question": "How does recognizing small daily improvements benefit ICU patients psychologically?",
+    "options": {
+      "A": "It builds confidence, reinforces effort, and sustains motivation over long recoveries",
+      "B": "It replaces major milestones",
+      "C": "It encourages complacency",
+      "D": "It delays progress"
+    },
+    "answer": "A",
+    "explanation": "Celebrating small changes — such as sitting up longer or breathing more easily — shifts focus from what is still challenging to what is improving. This perspective motivates continued effort, especially during long recoveries where major changes are slow.",
+    "additional": "NCK Possible Twist: They may confuse small improvements with settling for less — it’s about acknowledging progress toward bigger goals. Mnemonic: 'Little wins lead to big victories'."
+  },
+  {
+    "question": "Why should ICU recovery plans include family coping strategies?",
+    "options": {
+      "A": "It reduces caregiver burnout, strengthens support networks, and improves patient outcomes",
+      "B": "It replaces medical interventions",
+      "C": "It increases dependency",
+      "D": "It delays treatment"
+    },
+    "answer": "A",
+    "explanation": "Family stress can negatively affect patient recovery. Teaching families coping skills — such as time management, emotional expression, and use of support services — improves their resilience, enabling them to provide better support to the patient.",
+    "additional": "NCK Possible Twist: They may forget that family well-being directly impacts patient recovery. Mnemonic: 'Strong family, strong recovery'."
+  },
+  {
+    "question": "What is the benefit of creating a calm sensory environment for ICU patients?",
+    "options": {
+      "A": "It reduces sensory overload, promotes rest, and decreases delirium risk",
+      "B": "It replaces clinical care",
+      "C": "It increases isolation",
+      "D": "It delays monitoring"
+    },
+    "answer": "A",
+    "explanation": "ICU environments can be overstimulating with bright lights, constant noise, and frequent interruptions. Reducing unnecessary noise, dimming lights at night, and minimizing alarms when possible creates a calmer space, improving sleep and mental health.",
+    "additional": "NCK Possible Twist: They may test awareness that sensory overload can trigger delirium. Mnemonic: 'Quiet heals'."
+  },
+  {
+    "question": "Why is offering patients choices in daily ICU activities beneficial?",
+    "options": {
+      "A": "It restores a sense of control, supports autonomy, and improves mood",
+      "B": "It replaces nursing decisions",
+      "C": "It increases conflict",
+      "D": "It delays care"
+    },
+    "answer": "A",
+    "explanation": "Allowing choices — such as bath time, meal timing, or music selection — helps patients feel they have a voice in their care, reducing feelings of helplessness common in ICU stays. This small autonomy can greatly improve psychological well-being.",
+    "additional": "NCK Possible Twist: They may assume choices slow care — in reality, empowered patients often cooperate more. Mnemonic: 'Choice gives voice'."
+  },
+  {
+    "question": "How can regular reassurance from staff help ICU patients with severe illness?",
+    "options": {
+      "A": "It reduces uncertainty, builds trust, and decreases anxiety",
+      "B": "It replaces actual treatment",
+      "C": "It increases dependency",
+      "D": "It delays recovery"
+    },
+    "answer": "A",
+    "explanation": "Regular verbal reassurance and updates help patients understand their progress and reduce fear. ICU patients often feel vulnerable and uncertain; knowing that staff are attentive and optimistic improves emotional stability and engagement in care.",
+    "additional": "NCK Possible Twist: They may test whether reassurance is superficial — effective reassurance is specific, honest, and evidence-based. Mnemonic: 'Reassure to ensure calm'."
+  },
+  {
+    "question": "Why is staff consistency in emotional tone important for ICU patients?",
+    "options": {
+      "A": "It fosters predictability, trust, and emotional safety",
+      "B": "It replaces medical treatment",
+      "C": "It increases detachment",
+      "D": "It delays interventions"
+    },
+    "answer": "A",
+    "explanation": "Consistent emotional tone from staff — calm, reassuring, and respectful — helps patients feel secure. ICU patients are often hyper-alert to changes in staff mood; sudden shifts can trigger anxiety. Predictable emotional tone communicates stability and professionalism, which is crucial in high-stress environments.",
+    "additional": "NCK Possible Twist: They may test if you know emotional tone impacts recovery. Mnemonic: 'Steady tone, steady mind'. Link: Therapeutic communication."
+  },
+  {
+    "question": "Why is gradual exposure to ICU stimuli beneficial for anxious patients?",
+    "options": {
+      "A": "It reduces sensory shock, allows adaptation, and builds tolerance",
+      "B": "It replaces counseling",
+      "C": "It increases stress",
+      "D": "It delays therapy"
+    },
+    "answer": "A",
+    "explanation": "Gradually introducing patients to ICU sounds, lights, and activity prevents overwhelming them. This stepwise exposure helps anxious patients adjust without triggering panic, improving cooperation during necessary interventions.",
+    "additional": "NCK Possible Twist: They may ask whether full exposure is better — gradual exposure is safer for anxious patients. Mnemonic: 'Slow steps calm the senses'."
+  },
+  {
+    "question": "How does validating patient emotions improve ICU psychological outcomes?",
+    "options": {
+      "A": "It makes patients feel heard, reduces isolation, and fosters trust",
+      "B": "It replaces treatment",
+      "C": "It increases dependency",
+      "D": "It delays progress"
+    },
+    "answer": "A",
+    "explanation": "Validation acknowledges that a patient's feelings are real and understandable. This builds rapport and helps patients feel respected, which is critical in the ICU where autonomy may be limited. Validation encourages open communication about needs and fears.",
+    "additional": "NCK Possible Twist: They may test if you confuse validation with agreement — you can validate without agreeing. Mnemonic: 'Feelings acknowledged, trust unlocked'."
+  },
+  {
+    "question": "Why is teaching ICU patients about pacing important during rehabilitation?",
+    "options": {
+      "A": "It prevents overexertion, supports steady progress, and reduces setbacks",
+      "B": "It replaces physical therapy",
+      "C": "It increases inactivity",
+      "D": "It delays goals"
+    },
+    "answer": "A",
+    "explanation": "Pacing means balancing activity with rest to avoid fatigue that can slow recovery. Patients often want to push themselves too hard, risking exhaustion or injury. Teaching pacing ensures sustainable improvement without discouragement from setbacks.",
+    "additional": "NCK Possible Twist: They may present pacing as laziness — in recovery, it’s strategic. Mnemonic: 'Pace to progress'."
+  },
+  {
+    "question": "What is the benefit of offering ICU patients peer support groups post-discharge?",
+    "options": {
+      "A": "It provides shared experiences, emotional comfort, and practical advice",
+      "B": "It replaces medical follow-up",
+      "C": "It increases dependence",
+      "D": "It delays independence"
+    },
+    "answer": "A",
+    "explanation": "Peer groups connect patients who have been through similar ICU experiences. Sharing recovery tips, challenges, and encouragement normalizes the healing process and reduces feelings of isolation.",
+    "additional": "NCK Possible Twist: They may confuse peer support with unstructured socializing — it’s organized and purposeful. Mnemonic: 'Shared journey, shared strength'."
+  },
+  {
+    "question": "Why is encouraging ICU patients to track their own progress helpful?",
+    "options": {
+      "A": "It promotes motivation, self-awareness, and accountability",
+      "B": "It replaces medical assessment",
+      "C": "It increases stress",
+      "D": "It delays care"
+    },
+    "answer": "A",
+    "explanation": "Tracking recovery through logs or apps helps patients visualize progress over time. Seeing improvements, even small ones, reinforces effort and builds confidence, making adherence to rehab plans more likely.",
+    "additional": "NCK Possible Twist: They may ask whether tracking replaces clinical evaluation — it does not. Mnemonic: 'Track to thrive'."
+  },
+  {
+    "question": "Why should ICU care plans incorporate psychological screening?",
+    "options": {
+      "A": "It identifies depression, anxiety, and PTSD early, allowing timely intervention",
+      "B": "It replaces medical monitoring",
+      "C": "It increases distress",
+      "D": "It delays recovery"
+    },
+    "answer": "A",
+    "explanation": "Psychological distress is common after critical illness. Screening during ICU stay and follow-up visits allows early identification and referral to mental health services, preventing worsening symptoms.",
+    "additional": "NCK Possible Twist: They may test whether screening is optional — it’s essential for holistic care. Mnemonic: 'Screen to intervene'."
+  },
+  {
+    "question": "What is the value of allowing ICU patients to personalize their space?",
+    "options": {
+      "A": "It enhances comfort, reduces stress, and fosters a sense of control",
+      "B": "It replaces clinical care",
+      "C": "It causes infection risk",
+      "D": "It delays care"
+    },
+    "answer": "A",
+    "explanation": "Small personal touches — photos, blankets, or calming scents — make the ICU environment less intimidating. Personalization reinforces identity and emotional stability in a clinical setting.",
+    "additional": "NCK Possible Twist: They may ask about infection control — items must be safe and clean. Mnemonic: 'Your space, your strength'."
+  },
+  {
+    "question": "How does explaining the recovery timeline benefit ICU patients?",
+    "options": {
+      "A": "It sets realistic expectations, reduces frustration, and improves adherence",
+      "B": "It replaces rehab",
+      "C": "It increases impatience",
+      "D": "It delays care"
+    },
+    "answer": "A",
+    "explanation": "Many ICU patients expect quick recovery. Providing a realistic timeline prevents disappointment, promotes patience, and helps plan for gradual progress. This supports long-term engagement in rehab.",
+    "additional": "NCK Possible Twist: They may test whether you know optimism must be realistic. Mnemonic: 'Plan time, save mind'."
+  },
+  {
+    "question": "Why is incorporating family education into ICU care important?",
+    "options": {
+      "A": "It equips families to provide effective support and reduces post-discharge complications",
+      "B": "It replaces nursing care",
+      "C": "It increases conflict",
+      "D": "It delays discharge"
+    },
+    "answer": "A",
+    "explanation": "Educating families about patient needs, recovery expectations, and warning signs prepares them to give safe, effective support at home. This reduces readmissions and promotes smoother recovery.",
+    "additional": "NCK Possible Twist: They may think family education is optional — it’s a safety priority. Mnemonic: 'Teach the team at home'."
+  },
+  {
+    "question": "How does integrating short-term goals help ICU patients?",
+    "options": {
+      "A": "It keeps motivation high, makes progress measurable, and prevents overwhelm",
+      "B": "It replaces long-term goals",
+      "C": "It causes distraction",
+      "D": "It delays final recovery"
+    },
+    "answer": "A",
+    "explanation": "Short-term goals break the recovery journey into manageable steps, making success visible and motivating. This approach prevents discouragement from long recovery timelines.",
+    "additional": "NCK Possible Twist: They may confuse short-term goals with lack of ambition — they are stepping stones. Mnemonic: 'Small steps, strong strides'."
+  },
+  {
+    "question": "Why is supporting patient-led coping strategies beneficial in ICU recovery?",
+    "options": {
+      "A": "It empowers patients, increases engagement, and improves emotional resilience",
+      "B": "It replaces medical care",
+      "C": "It increases non-compliance",
+      "D": "It delays rehab"
+    },
+    "answer": "A",
+    "explanation": "When patients are encouraged to use their own coping mechanisms — such as prayer, music, or humor — they feel more in control. This enhances psychological well-being and adherence to care plans.",
+    "additional": "NCK Possible Twist: They may test whether coping strategies must be nurse-led — patient-led methods are equally valuable. Mnemonic: 'Your way, your wellness'."
+  },
+  {
+    "question": "What is the benefit of debriefing ICU patients after critical events?",
+    "options": {
+      "A": "It helps process trauma, provides clarity, and reduces risk of PTSD",
+      "B": "It replaces therapy",
+      "C": "It increases distress",
+      "D": "It delays recovery"
+    },
+    "answer": "A",
+    "explanation": "Debriefing gives patients a chance to understand what happened, ask questions, and express feelings. This prevents misunderstandings and helps integrate the experience in a healthier way.",
+    "additional": "NCK Possible Twist: They may ask if debriefing is optional — it’s often vital for psychological recovery. Mnemonic: 'Talk it through to heal it through'."
+  },
+  {
+    "question": "Why is regular feedback on progress important for ICU patients?",
+    "options": {
+      "A": "It validates effort, builds motivation, and directs focus",
+      "B": "It replaces therapy",
+      "C": "It increases dependency",
+      "D": "It delays goals"
+    },
+    "answer": "A",
+    "explanation": "Feedback, whether verbal or visual, helps patients know what’s working and where to improve. This keeps morale high and ensures they stay engaged in recovery activities.",
+    "additional": "NCK Possible Twist: They may think feedback is only for staff — it’s equally critical for patients. Mnemonic: 'Feedback fuels focus'."
+  },
+  {
+    "question": "Why is maintaining continuity of care providers important in ICU recovery?",
+    "options": {
+      "A": "It builds trust, improves communication, and ensures consistent care",
+      "B": "It replaces medical documentation",
+      "C": "It increases dependence",
+      "D": "It delays interventions"
+    },
+    "answer": "A",
+    "explanation": "Seeing the same care providers regularly allows patients to form trusting relationships, which improves comfort and communication. Continuity means providers know the patient’s history, preferences, and subtle changes, reducing errors and enhancing personalized care. This stability is especially important for anxious or delirious ICU patients.",
+    "additional": "NCK Possible Twist: They may test if you understand continuity is not just convenience — it directly impacts outcomes. Mnemonic: 'Same team, safer care'."
+  },
+  {
+    "question": "How does providing ICU patients with realistic hope impact recovery?",
+    "options": {
+      "A": "It motivates engagement, sustains morale, and reduces hopelessness",
+      "B": "It replaces medical treatment",
+      "C": "It encourages denial",
+      "D": "It delays acceptance"
+    },
+    "answer": "A",
+    "explanation": "Realistic hope is the balance between optimism and honesty. It reassures patients that improvement is possible without giving false expectations. This promotes adherence to rehabilitation and helps manage the emotional challenges of recovery.",
+    "additional": "NCK Possible Twist: They may check if you know false reassurance is harmful — honesty and encouragement must go together. Mnemonic: 'Hope with truth heals'."
+  },
+  {
+    "question": "Why is providing structured daily activity beneficial for ICU patients?",
+    "options": {
+      "A": "It creates purpose, reduces boredom, and supports functional recovery",
+      "B": "It replaces rehab",
+      "C": "It causes fatigue",
+      "D": "It delays rest"
+    },
+    "answer": "A",
+    "explanation": "A structured schedule with therapy, rest, and leisure helps patients transition from passive recipients of care to active participants in recovery. Predictability reduces stress and promotes engagement.",
+    "additional": "NCK Possible Twist: They may test if you know structure should still allow flexibility. Mnemonic: 'Structure supports strength'."
+  },
+  {
+    "question": "Why should ICU nurses assess spiritual needs during care?",
+    "options": {
+      "A": "It supports holistic healing, reduces distress, and respects patient values",
+      "B": "It replaces counseling",
+      "C": "It causes conflict",
+      "D": "It delays treatment"
+    },
+    "answer": "A",
+    "explanation": "Spiritual beliefs can influence coping, decision-making, and recovery. Addressing these needs — through chaplain visits, prayer, or quiet space — respects the patient’s whole being and can reduce psychological suffering.",
+    "additional": "NCK Possible Twist: They may test if you confuse spiritual care with religious proselytizing — it’s about patient preference. Mnemonic: 'Heal body and spirit'."
+  },
+  {
+    "question": "What is the psychological benefit of music therapy for ICU patients?",
+    "options": {
+      "A": "It reduces anxiety, lowers stress hormones, and improves mood",
+      "B": "It replaces medical care",
+      "C": "It increases distraction from treatment",
+      "D": "It delays recovery"
+    },
+    "answer": "A",
+    "explanation": "Music therapy uses patient-preferred music to calm, distract from pain, and regulate mood. Studies show it can lower heart rate and blood pressure while improving emotional well-being.",
+    "additional": "NCK Possible Twist: They may test if music therapy is evidence-based — it is. Mnemonic: 'Music mends the mind'."
+  },
+  {
+    "question": "Why is gradual independence encouraged in ICU recovery?",
+    "options": {
+      "A": "It builds confidence, restores autonomy, and prevents learned helplessness",
+      "B": "It replaces nursing care",
+      "C": "It increases risk",
+      "D": "It delays safety"
+    },
+    "answer": "A",
+    "explanation": "Encouraging patients to do what they can safely — like self-feeding or mobility — fosters autonomy and reduces psychological dependence. Gradual progression ensures safety while promoting empowerment.",
+    "additional": "NCK Possible Twist: They may ask about rushing independence — it must be progressive. Mnemonic: 'Step by step to self'."
+  },
+  {
+    "question": "Why should ICU nurses discuss coping strategies with patients before discharge?",
+    "options": {
+      "A": "It prepares patients for emotional challenges and improves resilience",
+      "B": "It replaces therapy",
+      "C": "It increases anxiety",
+      "D": "It delays discharge"
+    },
+    "answer": "A",
+    "explanation": "Discussing healthy coping mechanisms — like breathing exercises, journaling, or calling a friend — gives patients tools to handle stress post-discharge. This reduces relapse into anxiety or depression.",
+    "additional": "NCK Possible Twist: They may confuse coping preparation with unnecessary worry — preparation reduces anxiety. Mnemonic: 'Plan to cope, cope to plan'."
+  },
+  {
+    "question": "What is the value of ICU staff maintaining eye contact during communication?",
+    "options": {
+      "A": "It shows respect, improves connection, and conveys attentiveness",
+      "B": "It replaces verbal reassurance",
+      "C": "It causes discomfort",
+      "D": "It delays care"
+    },
+    "answer": "A",
+    "explanation": "Eye contact helps build trust and indicates the nurse is fully engaged. For ICU patients who may feel invisible among machines, this simple act provides affirmation and connection.",
+    "additional": "NCK Possible Twist: They may test whether eye contact is always appropriate — culturally, some patients may prefer less direct gaze. Mnemonic: 'Look to link'."
+  },
+  {
+    "question": "Why is de-escalation training valuable for ICU staff?",
+    "options": {
+      "A": "It helps manage agitated patients safely, reducing harm and stress",
+      "B": "It replaces security staff",
+      "C": "It increases conflict",
+      "D": "It delays care"
+    },
+    "answer": "A",
+    "explanation": "De-escalation techniques — calm voice, non-threatening posture, validating statements — reduce patient agitation without physical restraint. This protects both patient and staff while preserving dignity.",
+    "additional": "NCK Possible Twist: They may ask if de-escalation is just verbal — it’s also about body language. Mnemonic: 'Calm talk, calm walk'."
+  },
+  {
+    "question": "Why is providing clear explanations before procedures essential in ICU care?",
+    "options": {
+      "A": "It reduces fear, increases cooperation, and builds trust",
+      "B": "It replaces consent",
+      "C": "It increases delays",
+      "D": "It causes confusion"
+    },
+    "answer": "A",
+    "explanation": "Patients facing procedures may feel anxious. Clear, step-by-step explanations demystify the process, reduce fear of the unknown, and increase willingness to cooperate.",
+    "additional": "NCK Possible Twist: They may check if explanation replaces consent — it complements it. Mnemonic: 'Explain to gain trust'."
+  },
+  {
+    "question": "How does encouraging ICU patients to verbalize fears help recovery?",
+    "options": {
+      "A": "It reduces emotional burden, fosters support, and clarifies concerns",
+      "B": "It replaces counseling",
+      "C": "It increases worry",
+      "D": "It delays rehab"
+    },
+    "answer": "A",
+    "explanation": "Keeping fears inside can intensify anxiety. Encouraging patients to speak openly allows nurses to address concerns and provide reassurance or solutions, reducing emotional strain.",
+    "additional": "NCK Possible Twist: They may test whether verbalizing fears worsens them — research shows it often reduces stress. Mnemonic: 'Voice fears to void fears'."
+  },
+  {
+    "question": "Why is reinforcing infection prevention measures with ICU patients important?",
+    "options": {
+      "A": "It promotes cooperation, protects health, and prevents complications",
+      "B": "It replaces medical protocols",
+      "C": "It causes paranoia",
+      "D": "It delays recovery"
+    },
+    "answer": "A",
+    "explanation": "Educating patients on hand hygiene, mask use, and device care makes them active partners in preventing infection. This reduces risk of complications like ventilator-associated pneumonia.",
+    "additional": "NCK Possible Twist: They may ask if ICU patients are too ill to participate — many can help in small ways. Mnemonic: 'Prevention is participation'."
+  },
+  {
+    "question": "Why is recognizing signs of ICU delirium early crucial?",
+    "options": {
+      "A": "It allows rapid intervention, preventing worsening confusion and complications",
+      "B": "It replaces neurological exams",
+      "C": "It increases patient distress",
+      "D": "It delays treatment"
+    },
+    "answer": "A",
+    "explanation": "ICU delirium can cause hallucinations, agitation, or withdrawal, leading to longer stays and poorer outcomes. Early recognition means early management with orientation, mobilization, and environment control.",
+    "additional": "NCK Possible Twist: They may test if delirium is normal — it is common but not harmless. Mnemonic: 'Detect delirium, defend recovery'."
+  },
+  {
+    "question": "How does involving ICU patients in discharge planning improve outcomes?",
+    "options": {
+      "A": "It ensures the plan matches patient needs, increases adherence, and reduces readmissions",
+      "B": "It replaces follow-up",
+      "C": "It increases confusion",
+      "D": "It delays discharge"
+    },
+    "answer": "A",
+    "explanation": "Patients involved in planning understand their medications, follow-up appointments, and home care requirements better, leading to safer transitions from hospital to home.",
+    "additional": "NCK Possible Twist: They may test if planning is staff-only — patient input is vital. Mnemonic: 'Plan together, heal better'."
+  },
+  {
+    "question": "Why is encouraging post-ICU follow-up appointments important?",
+    "options": {
+      "A": "It monitors recovery, detects complications early, and provides continued support",
+      "B": "It replaces self-monitoring",
+      "C": "It increases anxiety",
+      "D": "It delays independence"
+    },
+    "answer": "A",
+    "explanation": "Follow-up appointments allow healthcare providers to assess both physical and psychological recovery, adjust treatment plans, and refer patients to rehabilitation or counseling when needed. Post-ICU syndrome can develop weeks or months later; early detection prevents worsening.",
+    "additional": "NCK Possible Twist: They may test if follow-up is optional — it’s essential for preventing readmissions. Mnemonic: 'Follow-up to follow through'."
+  },
+  {
+    "question": "How does goal-setting with ICU patients after discharge improve recovery?",
+    "options": {
+      "A": "It gives direction, maintains motivation, and tracks progress",
+      "B": "It replaces rehab programs",
+      "C": "It causes stress",
+      "D": "It delays healing"
+    },
+    "answer": "A",
+    "explanation": "Setting achievable goals — like walking a certain distance or cooking independently — gives patients clear milestones. This structure helps maintain momentum and fosters a sense of accomplishment during long recoveries.",
+    "additional": "NCK Possible Twist: They may test if goals should be set only by professionals — patient involvement is key. Mnemonic: 'Goals guide growth'."
+  },
+  {
+    "question": "Why is emotional support for families crucial after ICU discharge?",
+    "options": {
+      "A": "It reduces caregiver burnout, improves patient care quality, and supports long-term recovery",
+      "B": "It replaces patient care",
+      "C": "It increases dependency",
+      "D": "It delays adjustment"
+    },
+    "answer": "A",
+    "explanation": "Family members often experience anxiety, depression, or PTSD after supporting a critically ill patient. Providing counseling or peer support improves their emotional health, enabling them to better assist the patient’s recovery.",
+    "additional": "NCK Possible Twist: They may check if family support is just for ICU stay — it’s needed post-discharge too. Mnemonic: 'Support the supporters'."
+  },
+  {
+    "question": "Why is early mobilization after ICU discharge important?",
+    "options": {
+      "A": "It prevents deconditioning, improves circulation, and enhances independence",
+      "B": "It replaces rehab",
+      "C": "It increases injury risk",
+      "D": "It delays healing"
+    },
+    "answer": "A",
+    "explanation": "Prolonged ICU stays can cause muscle weakness and reduced endurance. Early mobilization — guided by physiotherapists — helps restore function, prevents complications like DVT, and boosts confidence.",
+    "additional": "NCK Possible Twist: They may ask if early mobilization is unsafe — with proper supervision, it is beneficial. Mnemonic: 'Move to improve'."
+  },
+  {
+    "question": "What is the benefit of providing written recovery plans to ICU patients?",
+    "options": {
+      "A": "It serves as a reference, reinforces verbal teaching, and improves adherence",
+      "B": "It replaces follow-up",
+      "C": "It increases confusion",
+      "D": "It delays progress"
+    },
+    "answer": "A",
+    "explanation": "Patients often forget verbal instructions due to stress or fatigue. Written plans ensure they can review medications, appointments, and lifestyle changes at home, reducing mistakes and anxiety.",
+    "additional": "NCK Possible Twist: They may test if written plans are optional — they’re crucial for retention. Mnemonic: 'Write it right'."
+  },
+  {
+    "question": "Why is monitoring for depression after ICU discharge important?",
+    "options": {
+      "A": "It allows early treatment, prevents worsening, and improves overall recovery",
+      "B": "It replaces physical therapy",
+      "C": "It increases stigma",
+      "D": "It delays adaptation"
+    },
+    "answer": "A",
+    "explanation": "Depression can appear weeks after ICU discharge, affecting motivation and rehabilitation. Screening tools like PHQ-9 identify early symptoms so interventions — counseling or medication — can begin promptly.",
+    "additional": "NCK Possible Twist: They may check if depression is rare after ICU — it’s common and treatable. Mnemonic: 'Detect to protect'."
+  },
+  {
+    "question": "Why should ICU patients be encouraged to engage in social activities post-discharge?",
+    "options": {
+      "A": "It reduces isolation, improves mood, and supports cognitive recovery",
+      "B": "It replaces rehab",
+      "C": "It increases fatigue",
+      "D": "It delays healing"
+    },
+    "answer": "A",
+    "explanation": "Social engagement stimulates the brain, reduces loneliness, and provides emotional support. Activities should be chosen based on the patient’s energy level and recovery stage.",
+    "additional": "NCK Possible Twist: They may ask if isolation is protective — in most cases, social interaction benefits recovery. Mnemonic: 'Connect to correct'."
+  },
+  {
+    "question": "How does regular exercise benefit ICU survivors?",
+    "options": {
+      "A": "It rebuilds strength, improves endurance, and supports mental health",
+      "B": "It replaces medical care",
+      "C": "It increases exhaustion",
+      "D": "It delays healing"
+    },
+    "answer": "A",
+    "explanation": "Exercise stimulates muscle regeneration, cardiovascular health, and endorphin release, which improves mood. A gradual, structured program maximizes benefits while preventing injury.",
+    "additional": "NCK Possible Twist: They may ask if any exercise is safe immediately — it must be tailored to capacity. Mnemonic: 'Move for mood and muscle'."
+  },
+  {
+    "question": "Why is teaching energy conservation strategies important after ICU discharge?",
+    "options": {
+      "A": "It prevents fatigue, optimizes recovery, and allows participation in meaningful activities",
+      "B": "It replaces rehab",
+      "C": "It causes inactivity",
+      "D": "It delays healing"
+    },
+    "answer": "A",
+    "explanation": "Energy conservation helps patients prioritize tasks, rest between activities, and avoid overexertion, which can delay progress. This is vital for those with ongoing weakness or respiratory limitations.",
+    "additional": "NCK Possible Twist: They may check if conservation equals laziness — it’s strategic pacing. Mnemonic: 'Save energy to spend it well'."
+  },
+  {
+    "question": "Why is patient self-advocacy important after ICU discharge?",
+    "options": {
+      "A": "It ensures needs are communicated, improves care coordination, and increases satisfaction",
+      "B": "It replaces medical evaluation",
+      "C": "It increases conflict",
+      "D": "It delays cooperation"
+    },
+    "answer": "A",
+    "explanation": "Encouraging patients to ask questions, clarify instructions, and express preferences fosters active participation in their care. This prevents misunderstandings and promotes better outcomes.",
+    "additional": "NCK Possible Twist: They may test if advocacy is confrontational — it’s about collaboration. Mnemonic: 'Speak up to step up'."
+  },
+  {
+    "question": "Why is cognitive rehabilitation sometimes needed for ICU survivors?",
+    "options": {
+      "A": "It addresses memory, attention, and problem-solving deficits from critical illness",
+      "B": "It replaces physical therapy",
+      "C": "It causes frustration",
+      "D": "It delays independence"
+    },
+    "answer": "A",
+    "explanation": "ICU delirium or hypoxia can cause cognitive impairment. Rehabilitation exercises and strategies help restore function and confidence in daily life.",
+    "additional": "NCK Possible Twist: They may test if cognitive changes are always permanent — many improve with therapy. Mnemonic: 'Train the brain to regain'."
+  },
+  {
+    "question": "Why is clear communication between healthcare providers essential post-ICU?",
+    "options": {
+      "A": "It prevents errors, ensures continuity, and improves patient safety",
+      "B": "It replaces patient education",
+      "C": "It increases duplication",
+      "D": "It delays care"
+    },
+    "answer": "A",
+    "explanation": "Accurate handovers and shared documentation mean all providers know the patient’s current status, preventing conflicting instructions and missed care.",
+    "additional": "NCK Possible Twist: They may check if communication is optional — it’s a core safety requirement. Mnemonic: 'Talk for safety'."
+  },
+  {
+    "question": "Why is post-ICU nutrition counseling important?",
+    "options": {
+      "A": "It supports healing, rebuilds muscle mass, and addresses specific deficiencies",
+      "B": "It replaces medical treatment",
+      "C": "It increases cost",
+      "D": "It delays progress"
+    },
+    "answer": "A",
+    "explanation": "Critical illness can cause nutrient depletion and weight loss. A tailored nutrition plan ensures adequate protein, vitamins, and minerals to aid recovery.",
+    "additional": "NCK Possible Twist: They may test if nutrition advice is generic — it should be individualized. Mnemonic: 'Fuel to heal'."
+  },
+  {
+    "question": "Why is encouraging ICU survivors to join rehabilitation programs beneficial?",
+    "options": {
+      "A": "It offers structured recovery, multidisciplinary support, and peer interaction",
+      "B": "It replaces self-care",
+      "C": "It increases dependency",
+      "D": "It delays independence"
+    },
+    "answer": "A",
+    "explanation": "Rehab programs combine physical, occupational, and psychological therapy. This structured, holistic approach accelerates recovery and builds resilience.",
+    "additional": "NCK Possible Twist: They may ask if rehab is only for severe cases — even mild deficits benefit. Mnemonic: 'Rehab to rebound'."
+  },
+  {
+    "question": "What is the benefit of patient education on medication management post-ICU?",
+    "options": {
+      "A": "It improves adherence, prevents errors, and ensures safe use",
+      "B": "It replaces prescriptions",
+      "C": "It increases confusion",
+      "D": "It delays recovery"
+    },
+    "answer": "A",
+    "explanation": "Understanding what each medication does, how to take it, and possible side effects prevents mistakes and improves outcomes.",
+    "additional": "NCK Possible Twist: They may check if patients can rely on memory — written instructions are essential. Mnemonic: 'Know your meds, know your health'."
+  },
+  {
+    "question": "Why is addressing sleep disturbances important after ICU discharge?",
+    "options": {
+      "A": "It restores energy, supports immune function, and improves mood",
+      "B": "It replaces rehab",
+      "C": "It increases fatigue",
+      "D": "It delays healing"
+    },
+    "answer": "A",
+    "explanation": "Poor sleep can delay healing and worsen anxiety or depression. Teaching sleep hygiene — quiet environment, consistent bedtime, limiting caffeine — supports full recovery.",
+    "additional": "NCK Possible Twist: They may test if sleep issues resolve on their own — many require targeted strategies. Mnemonic: 'Rest to restore'."
   }
 ]
+ 
+  
+  
+  
+  
+  
+  
+  
+
+
+
 
 
 
