@@ -598,8 +598,226 @@
     "answer": "A",
     "explanation": "The combination of a history of diabetes and the fundoscopic findings of cotton-wool spots and microaneurysms is diagnostic of diabetic retinopathy. While the vision loss is described as \"acute,\" it could be due to a sudden vitreous hemorrhage from proliferative disease or the rapid onset of macular edema.",
     "additional": "This question combines features of both non-proliferative (microaneurysms) and potentially more advanced (cotton-wool spots, acute vision loss) diabetic eye disease.\nRetinal Vein Occlusion (Option B) can cause acute painless vision loss and cotton-wool spots, but microaneurysms are far more characteristic of diabetes. Also, the history of diabetes makes diabetic retinopathy the most likely culprit.\nThis concludes the Ophthalmology unit. We can now proceed to the next subject area."
+  },
+  {
+    "question": "What condition is characterized by increased intraocular pressure that can damage the optic nerve?",
+    "options": {
+      "A": "Cataract",
+      "B": "Glaucoma",
+      "C": "Myopia",
+      "D": "Macular Degeneration"
+    },
+    "answer": "B",
+    "explanation": "Glaucoma involves increased pressure in the eye, which can damage the optic nerve over time.",
+    "additional": "It's often asymptomatic in early stages, which makes regular screening important."
+  },
+  {
+    "question": "Which vitamin deficiency is associated with night blindness?",
+    "options": {
+      "A": "Vitamin A",
+      "B": "Vitamin C",
+      "C": "Vitamin D",
+      "D": "Vitamin B12"
+    },
+    "answer": "A",
+    "explanation": "Vitamin A is essential for the formation of rhodopsin, a pigment in the retina needed for low-light vision.",
+    "additional": "It’s commonly found in carrots, liver, and leafy greens."
+  },
+  {
+    "question": "Which layer of the eye is responsible for focusing light on the retina?",
+    "options": {
+      "A": "Iris",
+      "B": "Cornea",
+      "C": "Lens",
+      "D": "Sclera"
+    },
+    "answer": "C",
+    "explanation": "The lens adjusts its shape to focus light onto the retina for clear vision.",
+    "additional": "This ability to adjust is called 'accommodation.'"
+  },
+  {
+    "question": "Which part of the eye controls the amount of light entering?",
+    "options": {
+      "A": "Lens",
+      "B": "Retina",
+      "C": "Cornea",
+      "D": "Iris"
+    },
+    "answer": "D",
+    "explanation": "The iris adjusts the size of the pupil to regulate light entry.",
+    "additional": "In dim light, the pupil dilates; in bright light, it constricts."
+  },
+  {
+    "question": "What is the most common cause of blindness globally?",
+    "options": {
+      "A": "Glaucoma",
+      "B": "Cataract",
+      "C": "Diabetic Retinopathy",
+      "D": "Trachoma"
+    },
+    "answer": "B",
+    "explanation": "Cataracts cause clouding of the lens and are the leading global cause of blindness.",
+    "additional": "They are treatable via surgery."
+  },
+  {
+    "question": "Which instrument is used to examine the retina?",
+    "options": {
+      "A": "Otoscope",
+      "B": "Tonometer",
+      "C": "Ophthalmoscope",
+      "D": "Retinoscope"
+    },
+    "answer": "C",
+    "explanation": "An ophthalmoscope allows direct visualization of the retina.",
+    "additional": "Used in routine eye exams and in diagnosis of diabetic eye disease."
+  },
+  {
+    "question": "What condition causes central vision loss due to retinal damage?",
+    "options": {
+      "A": "Cataract",
+      "B": "Glaucoma",
+      "C": "Macular Degeneration",
+      "D": "Diabetic Retinopathy"
+    },
+    "answer": "C",
+    "explanation": "Macular degeneration affects the central portion of the retina (the macula), leading to loss of central vision.",
+    "additional": "It is common in elderly patients."
+  },
+  {
+    "question": "Which eye condition is common in diabetics and involves damage to retinal blood vessels?",
+    "options": {
+      "A": "Conjunctivitis",
+      "B": "Diabetic Retinopathy",
+      "C": "Glaucoma",
+      "D": "Keratitis"
+    },
+    "answer": "B",
+    "explanation": "Diabetic retinopathy is caused by long-term high blood sugar levels damaging the blood vessels in the retina.",
+    "additional": "Annual eye screening is recommended for diabetics."
+  },
+  {
+    "question": "What is the function of the sclera?",
+    "options": {
+      "A": "Controls light entry",
+      "B": "Provides structural support",
+      "C": "Focuses light",
+      "D": "Regulates intraocular pressure"
+    },
+    "answer": "B",
+    "explanation": "The sclera is the white, outer layer of the eye that provides protection and structure.",
+    "additional": "It is continuous with the cornea at the front of the eye."
+  },
+  {
+    "question": "Which part of the eye contains photoreceptor cells?",
+    "options": {
+      "A": "Cornea",
+      "B": "Retina",
+      "C": "Iris",
+      "D": "Sclera"
+    },
+    "answer": "B",
+    "explanation": "The retina contains rods and cones, which are photoreceptor cells that detect light and color.",
+    "additional": "It converts light into neural signals."
+  },
+  {
+    "question": "Which of the following conditions is treated using laser photocoagulation?",
+    "options": {
+      "A": "Cataract",
+      "B": "Glaucoma",
+      "C": "Diabetic Retinopathy",
+      "D": "Astigmatism"
+    },
+    "answer": "C",
+    "explanation": "Laser photocoagulation seals leaking blood vessels in diabetic retinopathy.",
+    "additional": "It's often used in proliferative stages."
+  },
+  {
+    "question": "What is the medical term for nearsightedness?",
+    "options": {
+      "A": "Hyperopia",
+      "B": "Myopia",
+      "C": "Astigmatism",
+      "D": "Presbyopia"
+    },
+    "answer": "B",
+    "explanation": "Myopia is when distant objects appear blurry due to light focusing in front of the retina.",
+    "additional": "It is correctable with concave lenses."
+  },
+  {
+    "question": "What is the function of aqueous humor in the eye?",
+    "options": {
+      "A": "Transmits sound vibrations",
+      "B": "Maintains intraocular pressure and nourishes cornea",
+      "C": "Transmits nerve impulses",
+      "D": "Focuses light on retina"
+    },
+    "answer": "B",
+    "explanation": "Aqueous humor provides nutrients and maintains eye shape and pressure.",
+    "additional": "It flows between the lens and cornea."
+  },
+  {
+    "question": "Which cranial nerve is primarily responsible for eye movement?",
+    "options": {
+      "A": "Optic nerve (II)",
+      "B": "Facial nerve (VII)",
+      "C": "Oculomotor nerve (III)",
+      "D": "Trigeminal nerve (V)"
+    },
+    "answer": "C",
+    "explanation": "The oculomotor nerve (III) controls most of the eye muscles involved in movement.",
+    "additional": "Damage can cause drooping eyelids and double vision."
+  },
+  {
+    "question": "Which condition causes a cone-shaped cornea and distorted vision?",
+    "options": {
+      "A": "Keratitis",
+      "B": "Strabismus",
+      "C": "Keratoconus",
+      "D": "Retinitis"
+    },
+    "answer": "C",
+    "explanation": "Keratoconus thins and reshapes the cornea into a cone, affecting focus.",
+    "additional": "May require corneal transplant in severe cases."
+  },
+  {
+    "question": "What is the medical term for drooping of the upper eyelid?",
+    "options": {
+      "A": "Diplopia",
+      "B": "Nystagmus",
+      "C": "Ptosis",
+      "D": "Strabismus"
+    },
+    "answer": "C",
+    "explanation": "Ptosis refers to the drooping of the upper eyelid, which can be congenital or acquired.",
+    "additional": "It may require surgical correction if it impairs vision."
+  },
+  {
+    "question": "Which test is used to measure visual field defects?",
+    "options": {
+      "A": "Snellen Chart",
+      "B": "Tonometry",
+      "C": "Perimetry",
+      "D": "Refraction"
+    },
+    "answer": "C",
+    "explanation": "Perimetry maps out the field of vision and helps diagnose conditions like glaucoma.",
+    "additional": "Automated perimetry is common in clinical settings."
+  },
+  {
+    "question": "Which part of the eye is transplanted in a corneal transplant?",
+    "options": {
+      "A": "Lens",
+      "B": "Sclera",
+      "C": "Cornea",
+      "D": "Retina"
+    },
+    "answer": "C",
+    "explanation": "A corneal transplant replaces damaged or diseased corneal tissue with donor cornea.",
+    "additional": "It restores vision in severe corneal disease or injury."
   }
 ]
+
+
 
 
 
