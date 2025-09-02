@@ -410,6 +410,30 @@
 <div id="rippleEffect" style="position: fixed; top: 0; left: 0; width: 100%; height: 4px; background: linear-gradient(to right, #004a99, #8000ff); opacity: 0; transition: opacity 0.4s; z-index: 999;"></div>
 
 <body style="margin: 0; padding: 0; font-family: Arial, sans-serif;">
+<!-- 🚨 App Closed Overlay -->
+<div id="appClosedOverlay" style="
+  position: fixed;
+  top: 0; left: 0; width: 100%; height: 100%;
+  background: rgba(0,0,0,0.9);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  z-index: 999999;
+">
+  <h1 style="font-size: 2rem; margin-bottom: 1rem;">🚨 This App Has Been Closed</h1>
+  <p style="font-size: 1.2rem; margin-bottom: 2rem;">
+    We’ve moved to our new platform.  
+    Please visit the updated site below 👇
+  </p>
+  <a href="https://heartique-platform.vercel.app/" 
+     style="background: #ff9800; color: black; padding: 12px 24px; border-radius: 8px; font-weight: bold; font-size: 1.2rem; text-decoration: none;">
+    👉 Go to New Platform
+  </a>
+</div>
 
   <!-- 👤 Top Bar with Profile -->
   <div id="topBar" style="position: relative; display: flex; justify-content: space-between; align-items: center; padding: 1rem 2rem; background: #f9f9f9;">
@@ -1244,5 +1268,6 @@ if (!error && userData?.full_name) {
 
 </body>
 </html>
+
 
 
