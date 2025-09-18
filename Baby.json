@@ -1,0 +1,282 @@
+[
+  {
+    "question_text": "The most common congenital anomaly of the central nervous system is",
+    "option_a": "Spina bifida",
+    "option_b": "Anencephaly",
+    "option_c": "Hydrocephalus",
+    "option_d": "Meningocele",
+    "correct_answer": "A",
+    "explanation": "Spina bifida is the most frequent CNS anomaly, caused by failure of neural tube closure. Anencephaly and hydrocephalus are also common but less frequent.",
+    "additional": "High-yield: Prevention with folic acid supplementation before conception reduces risk of neural tube defects."
+  },
+  {
+    "question_text": "The congenital anomaly associated with absence of cranial vault is",
+    "option_a": "Meningocele",
+    "option_b": "Hydrocephalus",
+    "option_c": "Anencephaly",
+    "option_d": "Spina bifida occulta",
+    "correct_answer": "C",
+    "explanation": "Anencephaly results from failure of closure of the cranial end of neural tube, leading to absent cranial vault and cerebral hemispheres.",
+    "additional": "High-yield: Incompatible with life; detectable on prenatal ultrasound."
+  },
+  {
+    "question_text": "The commonest congenital anomaly of the gastrointestinal tract is",
+    "option_a": "Tracheoesophageal fistula",
+    "option_b": "Duodenal atresia",
+    "option_c": "Imperforate anus",
+    "option_d": "Hirschsprung’s disease",
+    "correct_answer": "C",
+    "explanation": "Imperforate anus is the most frequent congenital GI anomaly. Duodenal atresia and TEF are less common.",
+    "additional": "High-yield: Present with absent anal opening and failure to pass meconium."
+  },
+  {
+    "question_text": "The congenital anomaly associated with 'double bubble sign' on X-ray is",
+    "option_a": "Duodenal atresia",
+    "option_b": "Tracheoesophageal fistula",
+    "option_c": "Pyloric stenosis",
+    "option_d": "Jejunal atresia",
+    "correct_answer": "A",
+    "explanation": "The 'double bubble sign' is seen in duodenal atresia due to distension of the stomach and proximal duodenum.",
+    "additional": "High-yield: Strongly associated with Down syndrome."
+  },
+  {
+    "question_text": "The congenital anomaly with failure of closure of anterior abdominal wall at umbilicus is",
+    "option_a": "Omphalocele",
+    "option_b": "Gastroschisis",
+    "option_c": "Exomphalos",
+    "option_d": "Patent urachus",
+    "correct_answer": "A",
+    "explanation": "Omphalocele (exomphalos) is herniation of abdominal contents into a sac at the umbilicus. Gastroschisis lacks a covering sac.",
+    "additional": "High-yield: Omphalocele is often associated with chromosomal anomalies."
+  },
+  {
+    "question_text": "The congenital anomaly with herniation of bowel through abdominal wall lateral to umbilicus without covering sac is",
+    "option_a": "Omphalocele",
+    "option_b": "Gastroschisis",
+    "option_c": "Exomphalos",
+    "option_d": "Patent vitellointestinal duct",
+    "correct_answer": "B",
+    "explanation": "Gastroschisis is a paraumbilical defect where bowel herniates without peritoneal sac covering. Omphalocele has a sac.",
+    "additional": "High-yield: Gastroschisis usually isolated, not syndromic."
+  },
+  {
+    "question_text": "The congenital anomaly associated with projectile non-bilious vomiting in a 3-week-old is",
+    "option_a": "Pyloric stenosis",
+    "option_b": "Duodenal atresia",
+    "option_c": "Tracheoesophageal fistula",
+    "option_d": "Intestinal malrotation",
+    "correct_answer": "A",
+    "explanation": "Hypertrophic pyloric stenosis presents with projectile, non-bilious vomiting and visible peristalsis. Duodenal atresia causes bilious vomiting.",
+    "additional": "High-yield: Classically first-born male, hypochloremic metabolic alkalosis."
+  },
+  {
+    "question_text": "The congenital anomaly with failure of separation between trachea and oesophagus is",
+    "option_a": "Pyloric stenosis",
+    "option_b": "Tracheoesophageal fistula",
+    "option_c": "Laryngomalacia",
+    "option_d": "Oesophageal atresia",
+    "correct_answer": "B",
+    "explanation": "Tracheoesophageal fistula (commonly with oesophageal atresia) results from incomplete separation of trachea and oesophagus.",
+    "additional": "High-yield: Present with frothing, choking, and aspiration pneumonia."
+  },
+  {
+    "question_text": "The congenital anomaly associated with absence of anal opening is",
+    "option_a": "Hirschsprung’s disease",
+    "option_b": "Imperforate anus",
+    "option_c": "Rectal prolapse",
+    "option_d": "Rectovaginal fistula",
+    "correct_answer": "B",
+    "explanation": "Imperforate anus is due to failure of development of anal canal opening. Hirschsprung’s is due to absent ganglion cells.",
+    "additional": "High-yield: Always check perineum at birth."
+  },
+  {
+    "question_text": "The congenital anomaly where newborn presents with delayed meconium passage and abdominal distension is",
+    "option_a": "Hirschsprung’s disease",
+    "option_b": "Imperforate anus",
+    "option_c": "Duodenal atresia",
+    "option_d": "Meconium ileus",
+    "correct_answer": "A",
+    "explanation": "Hirschsprung’s disease (congenital aganglionic megacolon) presents with delayed meconium and abdominal distension.",
+    "additional": "High-yield: Associated with Down syndrome."
+  },
+  {
+    "question_text": "The congenital anomaly associated with meconium ileus is",
+    "option_a": "Cystic fibrosis",
+    "option_b": "Duodenal atresia",
+    "option_c": "Pyloric stenosis",
+    "option_d": "Imperforate anus",
+    "correct_answer": "A",
+    "explanation": "Meconium ileus is pathognomonic of cystic fibrosis, presenting with intestinal obstruction at birth.",
+    "additional": "High-yield: Thick, viscid meconium obstructs ileum."
+  },
+  {
+    "question_text": "Congenital talipes equinovarus is a deformity of",
+    "option_a": "Foot",
+    "option_b": "Hip",
+    "option_c": "Hand",
+    "option_d": "Spine",
+    "correct_answer": "A",
+    "explanation": "Congenital talipes equinovarus (clubfoot) is a common congenital deformity of the foot.",
+    "additional": "High-yield: Managed with Ponseti method (serial casting)."
+  },
+  {
+    "question_text": "The congenital anomaly associated with 'lemon sign' on ultrasound is",
+    "option_a": "Hydrocephalus",
+    "option_b": "Spina bifida",
+    "option_c": "Anencephaly",
+    "option_d": "Omphalocele",
+    "correct_answer": "B",
+    "explanation": "The 'lemon sign' (flattened frontal bones) is associated with spina bifida.",
+    "additional": "High-yield: Often seen with Arnold–Chiari malformation."
+  },
+  {
+    "question_text": "The congenital anomaly that presents with continuous dribbling of urine in a girl child is",
+    "option_a": "Exstrophy of bladder",
+    "option_b": "Ureterocele",
+    "option_c": "Rectovaginal fistula",
+    "option_d": "Epispadias",
+    "correct_answer": "A",
+    "explanation": "Bladder exstrophy presents with exposed bladder mucosa and continuous urine leakage.",
+    "additional": "High-yield: Requires surgical repair."
+  },
+  {
+    "question_text": "The most common congenital anomaly of the genitourinary tract is",
+    "option_a": "Hydronephrosis",
+    "option_b": "Posterior urethral valves",
+    "option_c": "Polycystic kidney disease",
+    "option_d": "Ureterocele",
+    "correct_answer": "A",
+    "explanation": "Hydronephrosis, often due to obstruction, is the most frequent congenital anomaly of the urinary tract.",
+    "additional": "High-yield: Detected antenatally by ultrasound."
+  },
+  {
+    "question_text": "The congenital anomaly with failure of closure of vertebral arches without protrusion is",
+    "option_a": "Meningomyelocele",
+    "option_b": "Spina bifida occulta",
+    "option_c": "Encephalocele",
+    "option_d": "Arnold–Chiari malformation",
+    "correct_answer": "B",
+    "explanation": "Spina bifida occulta is the mildest form, with vertebral defect but no protrusion of meninges or spinal cord.",
+    "additional": "High-yield: May be seen as tuft of hair or dimple over spine."
+  },
+  {
+    "question_text": "The congenital anomaly associated with 'boot-shaped heart' on X-ray is",
+    "option_a": "Tetralogy of Fallot",
+    "option_b": "Transposition of great arteries",
+    "option_c": "Tricuspid atresia",
+    "option_d": "Patent ductus arteriosus",
+    "correct_answer": "A",
+    "explanation": "Tetralogy of Fallot produces a boot-shaped cardiac silhouette due to right ventricular hypertrophy.",
+    "additional": "High-yield: Classic cyanotic congenital heart disease."
+  },
+  {
+    "question_text": "The congenital anomaly with cyanosis that worsens on crying but improves on squatting is",
+    "option_a": "Ventricular septal defect",
+    "option_b": "Tetralogy of Fallot",
+    "option_c": "Patent ductus arteriosus",
+    "option_d": "Atrial septal defect",
+    "correct_answer": "B",
+    "explanation": "TOF presents with 'tet spells'—cyanosis worsens on exertion/crying and relieved by squatting due to increased systemic vascular resistance.",
+    "additional": "High-yield: Squatting increases afterload, reducing right-to-left shunt."
+  },
+  {
+    "question_text": "The congenital anomaly where umbilical cord has only one artery is associated with",
+    "option_a": "Renal anomalies",
+    "option_b": "Cardiac anomalies",
+    "option_c": "Cleft palate",
+    "option_d": "Hydrocephalus",
+    "correct_answer": "A",
+    "explanation": "A single umbilical artery is strongly associated with renal anomalies and other genitourinary malformations.",
+    "additional": "High-yield: Always evaluate kidneys by ultrasound if single umbilical artery is detected."
+  },
+  {
+    "question_text": "The congenital anomaly associated with 'machinery murmur' in neonates is",
+    "option_a": "Ventricular septal defect",
+    "option_b": "Patent ductus arteriosus",
+    "option_c": "Tetralogy of Fallot",
+    "option_d": "Transposition of great arteries",
+    "correct_answer": "B",
+    "explanation": "Patent ductus arteriosus produces a continuous 'machinery-like' murmur heard best at left infraclavicular area.",
+    "additional": "High-yield: Common in preterm infants; may close with indomethacin or require surgery."
+  },
+  {
+    "question_text": "The congenital anomaly associated with cyanosis relieved by oxygen therapy is",
+    "option_a": "Cyanotic congenital heart disease",
+    "option_b": "Respiratory anomalies",
+    "option_c": "Persistent pulmonary hypertension",
+    "option_d": "Esophageal atresia",
+    "correct_answer": "B",
+    "explanation": "Cyanosis that improves with oxygen indicates a pulmonary cause, not a cardiac one. Cardiac cyanotic defects do not improve with oxygen.",
+    "additional": "High-yield: Oxygen challenge test differentiates cardiac vs pulmonary cyanosis."
+  },
+  {
+    "question_text": "The congenital anomaly associated with trisomy 21 is",
+    "option_a": "Duodenal atresia",
+    "option_b": "Pyloric stenosis",
+    "option_c": "Congenital diaphragmatic hernia",
+    "option_d": "Gastroschisis",
+    "correct_answer": "A",
+    "explanation": "Duodenal atresia is strongly associated with Down syndrome (Trisomy 21).",
+    "additional": "High-yield: 'Double bubble sign' on X-ray is classic finding."
+  },
+  {
+    "question_text": "The congenital anomaly associated with maternal oligohydramnios is",
+    "option_a": "Renal agenesis",
+    "option_b": "Cardiac anomaly",
+    "option_c": "Hydrocephalus",
+    "option_d": "Cleft lip",
+    "correct_answer": "A",
+    "explanation": "Bilateral renal agenesis causes oligohydramnios due to absent fetal urine production.",
+    "additional": "High-yield: Leads to Potter sequence—facial anomalies, pulmonary hypoplasia, limb deformities."
+  },
+  {
+    "question_text": "The congenital anomaly associated with polyhydramnios is",
+    "option_a": "Oesophageal atresia",
+    "option_b": "Renal agenesis",
+    "option_c": "Spina bifida",
+    "option_d": "Talipes equinovarus",
+    "correct_answer": "A",
+    "explanation": "Polyhydramnios is commonly due to oesophageal atresia because fetus cannot swallow amniotic fluid.",
+    "additional": "High-yield: Other causes include anencephaly and maternal diabetes."
+  },
+  {
+    "question_text": "The congenital anomaly corrected by Ponseti method is",
+    "option_a": "Congenital hip dislocation",
+    "option_b": "Talipes equinovarus (clubfoot)",
+    "option_c": "Polydactyly",
+    "option_d": "Cleft palate",
+    "correct_answer": "B",
+    "explanation": "The Ponseti method uses gentle manipulation and serial casting to correct clubfoot.",
+    "additional": "High-yield: Early initiation gives best outcomes."
+  },
+  {
+    "question_text": "The congenital anomaly with failure of closure of cranial bones and meninges protruding is",
+    "option_a": "Encephalocele",
+    "option_b": "Anencephaly",
+    "option_c": "Spina bifida",
+    "option_d": "Hydrocephalus",
+    "correct_answer": "A",
+    "explanation": "Encephalocele is a defect with herniation of brain tissue and meninges through cranial bone defect.",
+    "additional": "High-yield: Often occipital in location."
+  },
+  {
+    "question_text": "The congenital anomaly associated with persistent ductus arteriosus is common in",
+    "option_a": "Preterm babies",
+    "option_b": "Post-term babies",
+    "option_c": "Infants of diabetic mothers",
+    "option_d": "Infants of hypertensive mothers",
+    "correct_answer": "A",
+    "explanation": "Patent ductus arteriosus is more common in preterm babies due to immaturity of closure mechanisms.",
+    "additional": "High-yield: Indomethacin/ibuprofen is used to induce closure."
+  },
+  {
+    "question_text": "The congenital anomaly where intestines herniate into umbilical cord covered by peritoneum is",
+    "option_a": "Gastroschisis",
+    "option_b": "Omphalocele",
+    "option_c": "Patent vitellointestinal duct",
+    "option_d": "Diaphragmatic hernia",
+    "correct_answer": "B",
+    "explanation": "Omphalocele (exomphalos) is herniation of abdominal contents into base of umbilical cord, covered by peritoneal sac.",
+    "additional": "High-yield: Frequently associated with chromosomal abnormalities."
+  }
+]
