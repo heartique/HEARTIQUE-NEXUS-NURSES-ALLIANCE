@@ -1,0 +1,1325 @@
+[
+  {
+    "question_text": "Disorder of thought content is:",
+    "option_a": "Word salad",
+    "option_b": "Thought echo",
+    "option_c": "Waxy flexibility",
+    "option_d": "Catatonic stupor",
+    "correct_answer": "B",
+    "explanation": "Disorders of thought content include delusions, obsessions, and thought echo. Thought echo (hearing one’s own thoughts spoken aloud) is a content disturbance. Word salad is a disorder of thought form, while waxy flexibility and catatonic stupor are motor/behavioral signs.",
+    "additional": "NCK Prediction: Distinguishing between disorders of thought FORM (flight of ideas, word salad, loosening of associations) and disorders of thought CONTENT (delusions, obsessions, thought echo) is a high-yield area. Nursing students must link patient presentation with the correct classification."
+  },
+  {
+    "question_text": "A fixed upward gaze of a client on Largactil is known as:",
+    "option_a": "Dystonia",
+    "option_b": "Oculogyric crisis",
+    "option_c": "Tardive dyskinesis",
+    "option_d": "Akinesia",
+    "correct_answer": "B",
+    "explanation": "Oculogyric crisis is an acute dystonic reaction characterized by involuntary upward deviation of the eyes. It is a side effect of antipsychotics like chlorpromazine (Largactil). Tardive dyskinesia occurs after long-term use, while akinesia refers to difficulty initiating movement.",
+    "additional": "NCK Prediction: EPS are tested frequently. Acute dystonia = hours–days, akathisia = days–weeks, Parkinsonism = weeks, tardive dyskinesia = months–years. Nurses should be able to quickly identify and manage acute dystonia with anticholinergics (e.g., benztropine, trihexyphenidyl)."
+  },
+  {
+    "question_text": "Sexual satisfaction is obtained through the mouth in the:",
+    "option_a": "Phallic stage",
+    "option_b": "Oral stage",
+    "option_c": "Biting stage",
+    "option_d": "Genital stage",
+    "correct_answer": "B",
+    "explanation": "Freud’s oral stage (birth to ~18 months) is characterized by pleasure from oral activities such as sucking and feeding. Fixation here may lead to smoking, overeating, or dependency later in life.",
+    "additional": "NCK Prediction: Freud’s stages are commonly examined: Oral (0–18 months), Anal (1–3 yrs), Phallic (3–6 yrs), Latency (6–12 yrs), Genital (12+). Nursing exams often link behaviors (e.g., dependency, overeating) to oral fixation."
+  },
+  {
+    "question_text": "Drugs that act by increasing epinephrine and serotonin are:",
+    "option_a": "Agonistics",
+    "option_b": "Antidepressants",
+    "option_c": "Antipsychotics",
+    "option_d": "Anxiolytics",
+    "correct_answer": "B",
+    "explanation": "Antidepressants (such as SSRIs, SNRIs, and tricyclics) enhance serotonin and/or norepinephrine transmission. Antipsychotics mainly act on dopamine, while anxiolytics primarily modulate GABA.",
+    "additional": "NCK Prediction: Know neurotransmitter targets: Depression = ↓ serotonin/norepinephrine; Schizophrenia = ↑ dopamine; Anxiety = GABA dysregulation. Matching drugs to neurotransmitters is often tested."
+  },
+  {
+    "question_text": "An impairment in the understanding or transmission of ideas by language is:",
+    "option_a": "Jargon",
+    "option_b": "Aphasia",
+    "option_c": "Echopraxia",
+    "option_d": "Shneider",
+    "correct_answer": "B",
+    "explanation": "Aphasia is a language disorder affecting comprehension or expression. Jargon refers to meaningless speech; echopraxia is imitation of movements; 'Shneider' refers to first-rank symptoms of schizophrenia.",
+    "additional": "NCK Prediction: Language disorders are often tested. Aphasia = acquired language disorder. Differentiate: Broca’s (expressive), Wernicke’s (receptive)."
+  },
+  {
+    "question_text": "The minimum age for a voluntary patient to be admitted into a mental hospital is:",
+    "option_a": "15 years",
+    "option_b": "16 years",
+    "option_c": "18 years",
+    "option_d": "21 years",
+    "correct_answer": "C",
+    "explanation": "Legally, voluntary admission requires the individual to be at least 18 years old, as this is the recognized age of consent for medical decisions in most jurisdictions.",
+    "additional": "NCK Prediction: Mental Health Act and legal aspects are core exam content. Nurses must know ages for voluntary admission, consent to treatment, and involuntary admission protocols."
+  },
+  {
+    "question_text": "Patients ability to modify behavior is determined by will power in:",
+    "option_a": "Suggestive individual therapy",
+    "option_b": "Supportive individual therapy",
+    "option_c": "Pervasive individual therapy",
+    "option_d": "Persuasive individual therapy",
+    "correct_answer": "D",
+    "explanation": "Persuasive individual therapy depends on the patient’s will power to accept and integrate change. Supportive therapy focuses on reassurance and guidance, while suggestive therapy uses encouragement.",
+    "additional": "NCK Prediction: Expect MCQs on psychotherapies. Know distinctions: Supportive = reassurance, Persuasive = willpower and reasoning, Suggestive = advice-based."
+  },
+  {
+    "question_text": "Utilitarianism is based on the belief that:",
+    "option_a": "Actions are bound by a sense of duty",
+    "option_b": "The end results justifies the means",
+    "option_c": "Do good and avoid evil",
+    "option_d": "An eye for an eye",
+    "correct_answer": "B",
+    "explanation": "Utilitarianism is an ethical theory where the morality of an action is judged by its outcomes. If the result maximizes happiness or reduces harm, the action is justified.",
+    "additional": "NCK Prediction: Ethics in nursing is often tested. Utilitarianism = outcome-based. Contrast with Deontology = duty-based. Nurses should apply ethical principles in care decisions."
+  },
+  {
+    "question_text": "Dr. Philippe Pinel unchained patients who had been in chains for 30 years during the:",
+    "option_a": "Humanitarian period",
+    "option_b": "Scientific period",
+    "option_c": "Political period",
+    "option_d": "Demonological period",
+    "correct_answer": "A",
+    "explanation": "Philippe Pinel is remembered for introducing humane treatment in psychiatry by unchaining patients during the humanitarian period of psychiatric history.",
+    "additional": "NCK Prediction: Historical contributions are key. Humanitarian reforms (Pinel, Tuke) are common MCQs. Demonological = spirits; Scientific = biological basis."
+  },
+  {
+    "question_text": "The document signed before admitting a psychiatric patient under the involuntary criteria is:",
+    "option_a": "MOH 613",
+    "option_b": "MOH 637",
+    "option_c": "MOH 614",
+    "option_d": "MOH 617",
+    "correct_answer": "B",
+    "explanation": "Form MOH 637 is used for involuntary admission under the Kenyan Mental Health Act. Other forms correspond to different types of admission (e.g., voluntary, emergency).",
+    "additional": "NCK Prediction: MOH forms are tested frequently. Students must memorize which form is for voluntary (MOH 614), involuntary (MOH 637), emergency (MOH 615)."
+  },
+  {
+    "question_text": "The following is true about schizophrenia:",
+    "option_a": "Disorganized schizophrenia is characterized by the waxy flexibility",
+    "option_b": "Catatonic schizophrenia is characterized by the regressive behavior",
+    "option_c": "Paranoid schizophrenia is characterized by delusions of grandeur",
+    "option_d": "Undifferentiated schizophrenia is characterized by stupor and excitement",
+    "correct_answer": "C",
+    "explanation": "Paranoid schizophrenia typically presents with persecutory or grandiose delusions and auditory hallucinations. Waxy flexibility is a catatonic feature, not disorganized schizophrenia.",
+    "additional": "NCK Prediction: Types of schizophrenia (paranoid, catatonic, disorganized, undifferentiated) are always tested. Know hallmark symptoms for each."
+  },
+  {
+    "question_text": "Diagnosed with bipolar, George Maina is currently experiencing mania. The following describes the current state:",
+    "option_a": "Extreme sadness",
+    "option_b": "Has apathy",
+    "option_c": "Self blame",
+    "option_d": "Grandiose notions",
+    "correct_answer": "D",
+    "explanation": "Mania is characterized by elevated mood, hyperactivity, decreased need for sleep, pressured speech, and grandiose ideas. Sadness, apathy, and self-blame are depressive features.",
+    "additional": "NCK Prediction: Bipolar disorder is tested by contrasting mania vs depression. Key nursing role: ensuring safety during manic episodes."
+  },
+  {
+    "question_text": "The following is a dissociative disorder:",
+    "option_a": "Somatization disorder",
+    "option_b": "Hypochondriac disorder",
+    "option_c": "Psychogenic amnesia",
+    "option_d": "Dysmorphic disorder",
+    "correct_answer": "C",
+    "explanation": "Dissociative disorders involve disruptions in memory, consciousness, or identity. Psychogenic amnesia is a classic dissociative disorder. Somatization and hypochondriasis are somatoform disorders.",
+    "additional": "NCK Prediction: Common dissociative disorders: Dissociative amnesia, fugue, depersonalization/derealization. Exams focus on differentiating from somatoform disorders."
+  },
+  {
+    "question_text": "Which of the following is true about trans-sexualism:",
+    "option_a": "Their anatomic sexual organ is abnormal, painful and very itchy",
+    "option_b": "They are comfortable with their secondary sexual characteristics",
+    "option_c": "Diagnosis of trans-sexualism is made during adulthood only",
+    "option_d": "There is preoccupation with the need to get rid of own genitals",
+    "correct_answer": "D",
+    "explanation": "Trans-sexualism is characterized by persistent discomfort with one’s assigned sex and a desire to remove sexual organs and live as the opposite sex.",
+    "additional": "NCK Prediction: Gender identity disorders are important in exams. Transsexualism vs Transvestism (sexual arousal from cross-dressing) is a common MCQ distinction."
+  },
+  {
+    "question_text": "The following is a priority nursing diagnosis in a child who has autism:",
+    "option_a": "Impaired social interaction related to inability to trust",
+    "option_b": "Knowledge deficit related to the etiology of the disease",
+    "option_c": "Risk for impaired skin integrity related to the disease",
+    "option_d": "Impaired skin integrity related to the disease process",
+    "correct_answer": "A",
+    "explanation": "Autism primarily impairs social interaction and communication, making 'Impaired social interaction' the priority nursing diagnosis.",
+    "additional": "NCK Prediction: Autism-related nursing care is often tested. Priority = safety and social interaction. Non-priority diagnoses (skin integrity, knowledge deficit) are distractors."
+  },
+  {
+    "question_text": "The risk factor for suicide is:",
+    "option_a": "One prior suicide attempt",
+    "option_b": "Always talking about death",
+    "option_c": "Person having a death wish",
+    "option_d": "Calling people to say goodbye",
+    "correct_answer": "A",
+    "explanation": "A previous suicide attempt is the strongest predictor of future suicide risk. Talking about death and saying goodbye are warning signs but not as predictive.",
+    "additional": "NCK Prediction: Suicide risk factors are a recurring exam area. Key risks: previous attempts, psychiatric illness, substance abuse, social isolation, male gender."
+  },
+  {
+    "question_text": "The characteristic of schizotypal type of personality is:",
+    "option_a": "Presence of close friends",
+    "option_b": "Lacks ideas of preference",
+    "option_c": "Presence of appropriate affect",
+    "option_d": "Presence of paranoid ideation",
+    "correct_answer": "D",
+    "explanation": "Schizotypal personality disorder involves odd beliefs, eccentric behavior, and paranoid ideation. They usually lack close friends due to social anxiety.",
+    "additional": "NCK Prediction: Personality disorders (Clusters A, B, C) are tested. Schizotypal = eccentric + paranoia. Differentiate from schizoid (detachment, no paranoia)."
+  },
+  {
+    "question_text": "The following is true about primordial level of disease prevention:",
+    "option_a": "Prevents emergence of risk factors",
+    "option_b": "Involves treatment of risk factors",
+    "option_c": "Involves the client’s rehabilitation",
+    "option_d": "Involves giving tetanus vaccinations",
+    "correct_answer": "A",
+    "explanation": "Primordial prevention aims to prevent the development of risk factors themselves (e.g., promoting healthy lifestyles in children). Primary prevention manages risk factors once they appear.",
+    "additional": "NCK Prediction: Public health prevention levels (primordial, primary, secondary, tertiary) are classic exam content. Nurses must distinguish each level."
+  },
+  {
+    "question_text": "Moderate intellectual disability has the IQ levels of:",
+    "option_a": "35-49",
+    "option_b": "50-70",
+    "option_c": "20-34",
+    "option_d": "Below 20",
+    "correct_answer": "A",
+    "explanation": "Moderate intellectual disability corresponds to IQ between 35–49. Mild = 50–70, Severe = 20–34, Profound = below 20.",
+    "additional": "NCK Prediction: IQ classification for intellectual disability is a frequent exam area. Nursing care emphasizes safety, simple instructions, and support for independence."
+  },
+  {
+    "question_text": "In response to stress, the nervous system:",
+    "option_a": "Reduce the heart rate",
+    "option_b": "Dilate blood vessels",
+    "option_c": "Increase digestive activity",
+    "option_d": "Raise blood pressure",
+    "correct_answer": "D",
+    "explanation": "The sympathetic nervous system activates the 'fight-or-flight' response, raising blood pressure, increasing heart rate, and reducing digestive activity.",
+    "additional": "NCK Prediction: Stress physiology is often tested. Remember: Sympathetic = ↑HR, ↑BP, dilated pupils, reduced GI activity. Parasympathetic = rest and digest."
+  },
+  {
+    "question_text": "Harmful alcohol use refers consumption over:",
+    "option_a": "29 units per week for men",
+    "option_b": "27 units per week for men",
+    "option_c": "20 units per week for women",
+    "option_d": "21 units per week for women",
+    "correct_answer": "A",
+    "explanation": "Harmful alcohol use is defined as drinking levels that damage physical or mental health. For men, this is generally more than 29 units per week, and for women, more than 21 units per week.",
+    "additional": "NCK Prediction: Alcohol-related disorders are common exam topics. Know: hazardous use (at risk), harmful use (with evidence of damage), dependence (compulsion + tolerance + withdrawal)."
+  },
+  {
+    "question_text": "Amnestic disorders can be prevented by:",
+    "option_a": "Refraining from abuse of alcohol",
+    "option_b": "Ensuring intake of a diet rich in fats",
+    "option_c": "Doing exercises three times a week",
+    "option_d": "Ensuring cognitive engagement",
+    "correct_answer": "A",
+    "explanation": "Amnestic disorders are strongly linked to chronic alcohol abuse (e.g., Korsakoff’s syndrome). Avoiding alcohol prevents nutritional deficiency (thiamine) and neuronal damage.",
+    "additional": "NCK Prediction: Always connect amnestic syndromes with alcohol and thiamine deficiency. Prevention = avoid alcohol, supplement thiamine. High-yield exam point."
+  },
+  {
+    "question_text": "Utilitarianism is based on the belief that:",
+    "option_a": "Actions are bound by a sense of duty",
+    "option_b": "The end results justifies the means",
+    "option_c": "Do good and avoid evil",
+    "option_d": "An eye for an eye",
+    "correct_answer": "B",
+    "explanation": "Utilitarianism states that actions are judged by their outcomes. If the end result benefits the greatest number, the action is justified.",
+    "additional": "NCK Prediction: Ethical theories are frequently tested. Utilitarianism = outcome-based, Deontology (Kantianism) = duty-based. Nurses must apply both in practice."
+  },
+  {
+    "question_text": "Sexual satisfaction is obtained through the mouth in the:",
+    "option_a": "Phallic stage",
+    "option_b": "Oral stage",
+    "option_c": "Biting stage",
+    "option_d": "Genital stage",
+    "correct_answer": "B",
+    "explanation": "According to Freud, the oral stage (0–18 months) focuses on pleasure from sucking, eating, and mouth-related activities. Fixation may cause oral habits in adulthood.",
+    "additional": "NCK Prediction: Freud’s stages of psychosexual development are exam staples. Oral (0–18m), Anal (1–3y), Phallic (3–6y), Latency (6–12y), Genital (12+)."
+  },
+  {
+    "question_text": "Spasms of muscles of face, neck, back, eye following antipsychotic therapy is:",
+    "option_a": "Dystonia",
+    "option_b": "Torticolis",
+    "option_c": "Akinesia",
+    "option_d": "Akathisia",
+    "correct_answer": "A",
+    "explanation": "Acute dystonia is a sudden sustained contraction of muscles, often affecting the face, neck, and eyes. It appears within hours to days after antipsychotic initiation.",
+    "additional": "NCK Prediction: EPS are a top NCK area. Dystonia = spasms, Akathisia = restlessness, Akinesia = Parkinsonism, Tardive dyskinesia = long-term movements."
+  },
+  {
+    "question_text": "A type of therapy where the patient is helped to overcome their symptoms is:",
+    "option_a": "Suggestive individual therapy",
+    "option_b": "Supportive individual therapy",
+    "option_c": "Pervasive individual therapy",
+    "option_d": "Persuasive individual therapy",
+    "correct_answer": "B",
+    "explanation": "Supportive therapy focuses on symptom relief, reassurance, and strengthening coping mechanisms. Suggestive therapy involves advice, while persuasive therapy relies on reasoning and willpower.",
+    "additional": "NCK Prediction: Therapies often appear in exams. Supportive = relieve symptoms, Persuasive = requires patient’s reasoning, Suggestive = advice-driven."
+  },
+  {
+    "question_text": "Loss of memory of events that occurred before the onset of the etiological condition is:",
+    "option_a": "Anterograde amnesia",
+    "option_b": "Retrograde amnesia",
+    "option_c": "Amnestic amnesia",
+    "option_d": "Complete amnesia",
+    "correct_answer": "B",
+    "explanation": "Retrograde amnesia is the loss of memory for events prior to the injury or illness. Anterograde amnesia is the inability to form new memories after the event.",
+    "additional": "NCK Prediction: Amnesia types are often tested. Retrograde = past memory loss, Anterograde = inability to make new memories (seen in head injury, Korsakoff’s)."
+  },
+  {
+    "question_text": "The document signed before admitting a psychiatric patient under the involuntary criteria is:",
+    "option_a": "MOH 613",
+    "option_b": "MOH 637",
+    "option_c": "MOH 614",
+    "option_d": "MOH 617",
+    "correct_answer": "B",
+    "explanation": "MOH 637 is the form used for involuntary admission under the Kenyan Mental Health Act.",
+    "additional": "NCK Prediction: Memorizing MOH admission forms is essential: MOH 614 = voluntary, MOH 615 = emergency, MOH 637 = involuntary."
+  },
+  {
+    "question_text": "Which hypothetical structure contains the moral as dictated by a particular society:",
+    "option_a": "Id",
+    "option_b": "Ego",
+    "option_c": "Superego",
+    "option_d": "Super id",
+    "correct_answer": "C",
+    "explanation": "According to Freud, the superego represents moral standards and societal rules. Id represents instincts, Ego mediates between Id and Superego.",
+    "additional": "NCK Prediction: Freud’s personality theory (Id, Ego, Superego) is a high-yield question area. Superego = conscience, Ego = reality, Id = instincts."
+  },
+  {
+    "question_text": "When doing a Mental Status Examination, insight is assessed by:",
+    "option_a": "Assessing patient’s awareness about his illness",
+    "option_b": "Determining the level of consciousness",
+    "option_c": "Determining the patient’s quality of association",
+    "option_d": "Looking for signs of logical thinking",
+    "correct_answer": "A",
+    "explanation": "Insight refers to the patient’s awareness and understanding of their illness. Lack of insight is common in psychotic disorders like schizophrenia.",
+    "additional": "NCK Prediction: MSE components are heavily tested: Insight = awareness of illness, Judgment = decision-making, Cognition = orientation, memory."
+  },
+  {
+    "question_text": "A 28-year-old man has a preoccupation with bowel movements, convinced irregularity represents cancer. Repeated exams show no abnormality. The most likely diagnosis is:",
+    "option_a": "Panic disorder",
+    "option_b": "Hypochondriasis",
+    "option_c": "Somatization disorder",
+    "option_d": "Conversion disorder",
+    "correct_answer": "B",
+    "explanation": "Hypochondriasis is characterized by excessive preoccupation with having a serious illness despite reassurance and normal investigations.",
+    "additional": "NCK Prediction: Somatoform disorders are high yield. Hypochondriasis = fear of disease, Somatization = multiple vague symptoms, Conversion = loss of function."
+  },
+  {
+    "question_text": "False sensory perceptions are referred to as:",
+    "option_a": "Illusion",
+    "option_b": "Flight of ideas",
+    "option_c": "Delusion",
+    "option_d": "Hallucinations",
+    "correct_answer": "D",
+    "explanation": "Hallucinations are false sensory perceptions without external stimuli (e.g., hearing voices when none are present). Illusions are misinterpretations of real stimuli.",
+    "additional": "NCK Prediction: Differentiate carefully: Illusion = misperception, Hallucination = no stimulus, Delusion = false fixed belief."
+  },
+  {
+    "question_text": "A child suffering from moderate mental retardation has an IQ of:",
+    "option_a": "20-25",
+    "option_b": "35-50",
+    "option_c": "50-70",
+    "option_d": "Below 20",
+    "correct_answer": "B",
+    "explanation": "Moderate mental retardation corresponds to IQ levels of 35–49/50. Mild = 50–70, Severe = 20–34, Profound = <20.",
+    "additional": "NCK Prediction: Expect repeated MCQs on IQ ranges. Nursing interventions focus on functional support, supervision, and simple training."
+  },
+  {
+    "question_text": "The diagnosis of cyclothymic disorder requires which DSM-IV criteria:",
+    "option_a": "Repeated episodes of hypomania and depression",
+    "option_b": "A minimum duration of six months",
+    "option_c": "At least one prior major depressive episode",
+    "option_d": "At least one prior manic episode",
+    "correct_answer": "A",
+    "explanation": "Cyclothymic disorder is defined by recurrent hypomanic and depressive symptoms over at least 2 years (not meeting criteria for full mania or depression).",
+    "additional": "NCK Prediction: Know distinctions: Cyclothymia (milder, ≥2y), Bipolar I (mania + depression), Bipolar II (hypomania + depression)."
+  },
+  {
+    "question_text": "A 30-year-old man presents with 15-year history of dressing in women’s clothing for arousal, comfortable with male gender. Diagnosis is:",
+    "option_a": "Gender identity disorder",
+    "option_b": "Transvestic fetishism",
+    "option_c": "Transsexualism",
+    "option_d": "Voyeurism",
+    "correct_answer": "B",
+    "explanation": "Transvestic fetishism involves cross-dressing for sexual arousal, while maintaining comfort with biological sex. Transsexualism involves desire to change sex.",
+    "additional": "NCK Prediction: Paraphilias (fetishism, voyeurism, exhibitionism, transvestism) are frequently tested. Always differentiate from gender identity disorders."
+  },
+  {
+    "question_text": "The following is true about Me-Peculiar type of personality:",
+    "option_a": "Have ideas of preference",
+    "option_b": "Their planning is insufficient",
+    "option_c": "Are underhanded people",
+    "option_d": "Are temperamental people",
+    "correct_answer": "B",
+    "explanation": "Me-peculiar personality is associated with eccentric behaviors and insufficient planning, often linked with Cluster A disorders.",
+    "additional": "NCK Prediction: Kenyan exams sometimes use older personality terms (like 'Me-peculiar'). Link it to schizotypal-type characteristics."
+  },
+  {
+    "question_text": "In acute phase of schizophrenia, the patient experiences:",
+    "option_a": "True autistic thinking",
+    "option_b": "Various body symptoms",
+    "option_c": "Abandoning of life goals",
+    "option_d": "Disregards social customs",
+    "correct_answer": "A",
+    "explanation": "Acute schizophrenia often presents with autistic thinking, hallucinations, and delusions. Social withdrawal and disregard of norms are seen later in chronic phases.",
+    "additional": "NCK Prediction: Schizophrenia phases: Acute = hallucinations/delusions, Residual = flat affect, Chronic = deterioration. Must differentiate in exams."
+  },
+  {
+    "question_text": "The following belongs to cluster C of personality disorders:",
+    "option_a": "Avoidant personality disorder",
+    "option_b": "Borderline personality disorder",
+    "option_c": "Schizoidal personality disorder",
+    "option_d": "Paranoid personality disorder",
+    "correct_answer": "A",
+    "explanation": "Cluster C includes anxious/fearful disorders (Avoidant, Dependent, Obsessive-Compulsive). Borderline = Cluster B, Schizoid = Cluster A, Paranoid = Cluster A.",
+    "additional": "NCK Prediction: Personality disorder clusters are classic MCQ content. Remember: A = odd/eccentric, B = dramatic/emotional, C = anxious/fearful."
+  },
+  {
+    "question_text": "Which of the following groups are most commonly used for drug management of the hyperactive child?",
+    "option_a": "CNS depressants (diazepam)",
+    "option_b": "CNS stimulants (methylphenidate)",
+    "option_c": "Anticonvulsants (phenytoin)",
+    "option_d": "Major tranquilizers (haloperidol)",
+    "correct_answer": "B",
+    "explanation": "CNS stimulants such as methylphenidate (Ritalin) are the mainstay of ADHD treatment. Depressants and anticonvulsants are not effective for hyperactivity.",
+    "additional": "NCK Prediction: ADHD management = stimulants first line. Exams often contrast with sedatives and antipsychotics (which are not first line)."
+  },
+  {
+    "question_text": "The following is true about psychogenic pain:",
+    "option_a": "It begins slowly and is disabling",
+    "option_b": "It’s affected by emotional factors",
+    "option_c": "It responds only to anxiolytics",
+    "option_d": "It responds to antidepressants",
+    "correct_answer": "B",
+    "explanation": "Psychogenic pain has no clear organic basis and is strongly influenced by psychological/emotional factors. It often fluctuates in severity.",
+    "additional": "NCK Prediction: Psychogenic pain is exam-tested to differentiate from somatic pain. Key: emotional factors, variable severity, response to psychotherapy."
+  },
+  {
+    "question_text": "A 15 year old girl sits in the corner weeping continually. This behavior could be:",
+    "option_a": "Hypochondria",
+    "option_b": "Regression",
+    "option_c": "Paranoia",
+    "option_d": "Fugue",
+    "correct_answer": "B",
+    "explanation": "Regression is reverting to an earlier developmental stage when under stress. Continuous weeping and childlike behavior in a teenager represent regression.",
+    "additional": "NCK Prediction: Defense mechanisms like regression, projection, denial, displacement are commonly tested. Regression = return to childish behaviors during stress."
+  },
+  {
+    "question_text": "Psychogenic pain:",
+    "option_a": "Responds to antidepressants",
+    "option_b": "Responds only to anxiolytics",
+    "option_c": "Begins slowly and is disabling",
+    "option_d": "Is affected by emotional factors",
+    "correct_answer": "D",
+    "explanation": "Psychogenic pain is pain without organic pathology, influenced by psychological and emotional factors. It varies in intensity and is often resistant to standard analgesics.",
+    "additional": "NCK Prediction: Differentiate psychogenic pain from somatic pain. Key clue = emotional triggers and inconsistency. Nursing care involves reassurance and psychological support."
+  },
+  {
+    "question_text": "Which of the following statement is true about delusion of control:",
+    "option_a": "I am the one who is responsible for the famine in Kenya",
+    "option_b": "I am wicked, full of sins and unfit to live with other people",
+    "option_c": "The filling put by the dentist in my tooth control what I think",
+    "option_d": "You keep calling Esther, you must be in a relationship with her",
+    "correct_answer": "C",
+    "explanation": "Delusion of control is the false belief that external forces are controlling one’s thoughts or actions. Example: believing a dental filling controls thoughts.",
+    "additional": "NCK Prediction: Delusion types are exam favorites. Control = external forces, Persecution = being targeted, Grandeur = exaggerated self-importance, Guilt = unworthiness."
+  },
+  {
+    "question_text": "A disorder where one feels like they are outside their body watching as an observer is known as:",
+    "option_a": "Neurosis",
+    "option_b": "Derealization",
+    "option_c": "Psychogenic fugue",
+    "option_d": "Psychogenic amnesia",
+    "correct_answer": "B",
+    "explanation": "Derealization/depersonalization is the dissociative state where one feels detached from self, like an outside observer. Fugue involves travel with amnesia, and neurosis is a broad non-psychotic disorder.",
+    "additional": "NCK Prediction: Dissociative disorders (amnesia, fugue, depersonalization) are frequently tested. Key clue: out-of-body or dreamlike experience."
+  },
+  {
+    "question_text": "Which of the following best describes post traumatic stress disorder (PTSD):",
+    "option_a": "Witnessing assault on a person would not qualify as sufficient trauma",
+    "option_b": "Previous traumatic events do not influence the development of PTSD",
+    "option_c": "The traumatic event must be outside the range of human experience",
+    "option_d": "The traumatic event involves threat of death/any physical injury",
+    "correct_answer": "D",
+    "explanation": "PTSD develops after exposure to actual or threatened death, serious injury, or sexual violence. Witnessing assault qualifies as trauma. Previous events increase vulnerability.",
+    "additional": "NCK Prediction: PTSD diagnostic criteria are highly testable. Core features: re-experiencing, avoidance, hyperarousal. Nurses must know management strategies (therapy + SSRIs)."
+  },
+  {
+    "question_text": "A dissociative disorder is:",
+    "option_a": "Fetishism",
+    "option_b": "Pedophilia",
+    "option_c": "Frotteurism",
+    "option_d": "Derealization",
+    "correct_answer": "D",
+    "explanation": "Derealization is a dissociative disorder characterized by feelings of detachment. Fetishism, pedophilia, and frotteurism are paraphilias.",
+    "additional": "NCK Prediction: Dissociative disorders vs Paraphilias appear in exams. Remember: Dissociation = memory/identity disturbances; Paraphilias = abnormal sexual urges."
+  },
+  {
+    "question_text": "Which of the following is true about moderate mental retardation:",
+    "option_a": "The level of IQ is between 51-70",
+    "option_b": "The level of IQ is between 35-49",
+    "option_c": "The level of IQ is between 21-34",
+    "option_d": "The level of IQ is between 70-84",
+    "correct_answer": "B",
+    "explanation": "Moderate intellectual disability corresponds to IQ 35–49. Mild = 50–70, Severe = 20–34, Profound = below 20.",
+    "additional": "NCK Prediction: Intellectual disability classification is tested often. Nursing interventions focus on supervision, basic education, and functional independence."
+  },
+  {
+    "question_text": "The priority nursing diagnosis for a child with autism is:",
+    "option_a": "Knowledge deficit related to etiology of the disease",
+    "option_b": "Risk for impaired skin integrity related to the disease",
+    "option_c": "Impaired social interaction related to inability to trust",
+    "option_d": "Impaired skin integrity related to the disease process",
+    "correct_answer": "C",
+    "explanation": "Autism spectrum disorder primarily impairs communication and social interaction. Thus, 'Impaired social interaction' is the priority diagnosis.",
+    "additional": "NCK Prediction: Autism MCQs focus on impaired socialization and safety risks. Nurses prioritize interaction and structured routines over physical care issues."
+  },
+  {
+    "question_text": "Mr. Oluoch keeps exposing his genitalia to unsuspecting strangers. He is suffering from:",
+    "option_a": "Fetishistic transvestism",
+    "option_b": "Sexual exhibitionism",
+    "option_c": "Sexual voyeurism",
+    "option_d": "Duotransvestism",
+    "correct_answer": "B",
+    "explanation": "Exhibitionism is characterized by exposing genitals to unsuspecting strangers for sexual arousal. Voyeurism involves watching others undress, fetishism involves objects, transvestism involves cross-dressing.",
+    "additional": "NCK Prediction: Paraphilias are a high-yield area. Exhibitionism vs Voyeurism is a frequent MCQ contrast. Nursing role = manage risk to self/others."
+  },
+  {
+    "question_text": "The priority management for a patient with bipolar disorder is:",
+    "option_a": "Pharmacotherapy using haloperidol",
+    "option_b": "Pharmacotherapy with carbamazepine",
+    "option_c": "Psychoanalysis to relieve the symptoms",
+    "option_d": "Group therapy to enhance socialization",
+    "correct_answer": "B",
+    "explanation": "Carbamazepine, a mood stabilizer, is used in managing bipolar disorder. Haloperidol may control acute agitation but is not first-line long-term therapy.",
+    "additional": "NCK Prediction: Bipolar disorder management = mood stabilizers (Lithium, Valproate, Carbamazepine). Exams often test the difference between acute vs maintenance therapy."
+  },
+  {
+    "question_text": "An appropriate diagnostic label for a patient presenting with senile dementia is:",
+    "option_a": "Risk of injury",
+    "option_b": "Chronic pain",
+    "option_c": "Altered conscious level",
+    "option_d": "Impaired skin integrity",
+    "correct_answer": "A",
+    "explanation": "The priority nursing diagnosis in dementia is 'Risk of injury' due to confusion, memory loss, and disorientation, which increase falls and accidents.",
+    "additional": "NCK Prediction: Dementia care questions emphasize safety and fall prevention. Risk of injury almost always appears as the correct nursing diagnosis."
+  },
+  {
+    "question_text": "In amnestic disorders:",
+    "option_a": "The aetiology is chemical transmission of impulses",
+    "option_b": "Ability to learn new information is not affected",
+    "option_c": "Symptoms vary depending on location of damage",
+    "option_d": "Patient has insight regarding their problem",
+    "correct_answer": "C",
+    "explanation": "Amnestic disorders vary in symptoms depending on which part of the brain is affected. Insight is usually impaired, and new learning ability is often reduced.",
+    "additional": "NCK Prediction: Amnesia, Korsakoff’s, and dementia are common exam areas. Always connect to brain regions and memory loss types."
+  },
+  {
+    "question_text": "Supportive therapy for the patient with delirium include:",
+    "option_a": "Medications such as haloperidol",
+    "option_b": "Reversal of suspected aetiologies",
+    "option_c": "Adequate lighting of patient’s room",
+    "option_d": "Treatment of other manifestations",
+    "correct_answer": "C",
+    "explanation": "Supportive therapy for delirium includes environmental modifications such as adequate lighting, reorientation, and minimizing overstimulation.",
+    "additional": "NCK Prediction: Delirium management MCQs stress non-pharmacological supportive measures: lighting, clocks, reassurance. Drugs like haloperidol are used cautiously."
+  },
+  {
+    "question_text": "Components of the therapeutic milieu include:",
+    "option_a": "Clear limits on behavioural expectations",
+    "option_b": "Patient’s freedom on what they can do",
+    "option_c": "Understanding and acceptance of patient’s behaviour",
+    "option_d": "Availability of family members near facility",
+    "correct_answer": "A",
+    "explanation": "A therapeutic milieu provides a structured environment with clear limits, safety, and therapeutic interactions. Freedom without boundaries is not therapeutic.",
+    "additional": "NCK Prediction: Therapeutic milieu = structure, safety, limit setting, support. Exams test differences from unstructured care environments."
+  },
+  {
+    "question_text": "A patient with an existing cardiac disease has just had ECT. The nurse should be on the lookout for:",
+    "option_a": "Cardiac arrest",
+    "option_b": "Myocardial ischemia",
+    "option_c": "Cessation of dysrhythmia",
+    "option_d": "Cardiovascular accident",
+    "correct_answer": "A",
+    "explanation": "ECT can cause cardiovascular stress, especially in patients with pre-existing heart disease. Cardiac arrest is a potential complication.",
+    "additional": "NCK Prediction: ECT exam questions often test contraindications and complications. High risk: cardiac disease, raised ICP, vascular aneurysm."
+  },
+  {
+    "question_text": "The nurse is careful to remind the patient on monoamine oxidase inhibitors not to consume:",
+    "option_a": "Whole grain",
+    "option_b": "Dried fish",
+    "option_c": "Fermented porridge",
+    "option_d": "Roasted pork",
+    "correct_answer": "B",
+    "explanation": "Foods like dried fish, cheese, and certain wines are rich in tyramine, which interacts with MAOIs to cause hypertensive crisis.",
+    "additional": "NCK Prediction: Dietary restrictions with MAOIs are frequently tested. Remember 'tyramine foods' = aged cheese, fish, wine, preserved meats."
+  },
+  {
+    "question_text": "Continuous motor restlessness witnessed after the patient is started on antipsychotic drugs is termed as:",
+    "option_a": "Opsthotonus",
+    "option_b": "Akathisia",
+    "option_c": "Akinesia",
+    "option_d": "Shuffling gait",
+    "correct_answer": "B",
+    "explanation": "Akathisia is an extrapyramidal side effect characterized by inner restlessness and constant movement. Akinesia refers to slowed movements, while shuffling gait is parkinsonism.",
+    "additional": "NCK Prediction: EPS classification is tested often. Akathisia vs Dystonia vs Parkinsonism vs Tardive dyskinesia must be distinguished."
+  },
+  {
+    "question_text": "The nurse notes that a patient psychotherapy is not making progress towards the goal. The appropriate action would be:",
+    "option_a": "Give self more time to catch up",
+    "option_b": "Re-look at the goals and make them more realistic",
+    "option_c": "Refer to another nurse for continuation of therapy",
+    "option_d": "Discharge patient as he has little potential to benefit",
+    "correct_answer": "B",
+    "explanation": "If progress is lacking, the nurse should re-examine therapy goals and adjust them to be realistic and achievable.",
+    "additional": "NCK Prediction: Nursing process in psychiatric care is commonly tested. Focus = reassess, revise, and individualize goals rather than discharge prematurely."
+  },
+  {
+    "question_text": "Persisting response to a prior stimulus is termed as:",
+    "option_a": "Echolalia",
+    "option_b": "Perseveration",
+    "option_c": "Circumstantialities",
+    "option_d": "Tangentiality",
+    "correct_answer": "B",
+    "explanation": "Perseveration is the inappropriate persistence of a response to a stimulus even after the stimulus has changed.",
+    "additional": "NCK Prediction: Speech/thought disorders are tested in MSE. Perseveration = stuck response; Echolalia = repeating words; Circumstantiality = unnecessary detail."
+  },
+  {
+    "question_text": "A patient with exaggerated conception of one’s importance or power is termed as:",
+    "option_a": "Delusion of grandeur",
+    "option_b": "Delusion of control",
+    "option_c": "Delusion of power",
+    "option_d": "Delusion of wealth",
+    "correct_answer": "A",
+    "explanation": "Delusion of grandeur involves false beliefs of exaggerated importance, power, or identity (e.g., believing one is a king or prophet).",
+    "additional": "NCK Prediction: Types of delusions are high-yield. Grandeur vs Control vs Persecution vs Guilt are frequently differentiated in exams."
+  },
+  {
+    "question_text": "The nurse notes that patient A is obsessed with cleanliness. She concludes that the patient has fixation in:",
+    "option_a": "Oral stage",
+    "option_b": "Anal stage",
+    "option_c": "Phallic stage",
+    "option_d": "Latent phase",
+    "correct_answer": "B",
+    "explanation": "According to Freud, anal stage fixation (1–3 years) leads to traits such as orderliness, perfectionism, and obsession with cleanliness.",
+    "additional": "NCK Prediction: Freud stages are high-yield. Anal fixation = cleanliness/rigidity, Oral = dependency, Phallic = Oedipal issues, Latency = social skills."
+  },
+  {
+    "question_text": "During history taking of a patient with a psychiatric disorder, the nurse notes that the patient lost his job three months ago. He concludes that this is a:",
+    "option_a": "Predisposing factor",
+    "option_b": "Precipitating factor",
+    "option_c": "Perpetuating factor",
+    "option_d": "Etiologic factor",
+    "correct_answer": "B",
+    "explanation": "A precipitating factor is an immediate event that triggers illness (e.g., job loss before depression). Predisposing = background risk, Perpetuating = maintaining factor.",
+    "additional": "NCK Prediction: Risk factor classification is exam-tested. Nurses must separate long-term risks (predisposing) vs triggers (precipitating) vs sustaining causes (perpetuating)."
+  },
+  {
+    "question_text": "The nurse forces a patient to take his medication against his will, out of the understanding that the medication will make the patient better. This is termed as:",
+    "option_a": "Beneficence",
+    "option_b": "Autonomy",
+    "option_c": "Paternalism",
+    "option_d": "Veracity",
+    "correct_answer": "C",
+    "explanation": "Paternalism occurs when a healthcare worker overrides a patient’s wishes for the patient’s own benefit, limiting autonomy.",
+    "additional": "NCK Prediction: Ethical principles are heavily tested. Beneficence = doing good, Nonmaleficence = avoiding harm, Autonomy = respecting choice, Veracity = truthfulness."
+  },
+  {
+    "question_text": "The individual seeking voluntary admission fills form MOH:",
+    "option_a": "613",
+    "option_b": "614",
+    "option_c": "612",
+    "option_d": "637",
+    "correct_answer": "B",
+    "explanation": "MOH 614 is the voluntary admission form under the Mental Health Act in Kenya.",
+    "additional": "NCK Prediction: MOH forms appear often. Voluntary = 614, Involuntary = 637, Emergency = 615."
+  },
+  {
+    "question_text": "Upon review of patient’s notes, the nurse observes that the patient had delirium on admission. She correctly interprets this to mean:",
+    "option_a": "Unclear mindedness or thinking",
+    "option_b": "Disturbance in the way he experiences himself",
+    "option_c": "Acute state of confusion",
+    "option_d": "Un-arousable state with deep unconsciousness",
+    "correct_answer": "C",
+    "explanation": "Delirium is an acute, fluctuating confusional state with disturbed consciousness and cognition.",
+    "additional": "NCK Prediction: MCQs on delirium vs dementia. Delirium = acute, fluctuating; Dementia = chronic, progressive."
+  },
+  {
+    "question_text": "During assessment, the nurse notes that the patient is talking as if he is being driven to do so, and it is difficult to interrupt him. She correctly documents this as:",
+    "option_a": "Disarrthria",
+    "option_b": "Aphasia",
+    "option_c": "Pressured speech",
+    "option_d": "Confabulation",
+    "correct_answer": "C",
+    "explanation": "Pressured speech is rapid, difficult to interrupt, and commonly seen in mania.",
+    "additional": "NCK Prediction: MSE features: Pressured speech = mania, Confabulation = memory gaps, Aphasia = language disorder."
+  },
+  {
+    "question_text": "The patient sees a rope and jumps around saying it is a snake. This is termed as:",
+    "option_a": "Delusion",
+    "option_b": "Illusion",
+    "option_c": "Hallucination",
+    "option_d": "Perception",
+    "correct_answer": "B",
+    "explanation": "Illusion is a misperception of a real external stimulus (rope mistaken for snake). Hallucination = no stimulus.",
+    "additional": "NCK Prediction: Exam must-knows: Illusion = real object misinterpreted, Hallucination = false perception, Delusion = false fixed belief."
+  },
+  {
+    "question_text": "The nurse observes that the patient’s thinking and speech shift rapidly from one subject to another. She concludes that most likely the patient has:",
+    "option_a": "Schizophrenia",
+    "option_b": "Depression",
+    "option_c": "Sleep deprivation",
+    "option_d": "Mood disorder",
+    "correct_answer": "A",
+    "explanation": "Flight of ideas and loosening of associations are characteristic of schizophrenia.",
+    "additional": "NCK Prediction: MSE and schizophrenia symptoms are high-yield. Schizophrenia = disorganized thinking, hallucinations, delusions."
+  },
+  {
+    "question_text": "Checking through patient’s records and talking with significant others to find information about the patient, is one of these phases of therapeutic nurse-client relationship:",
+    "option_a": "Pre-interactive phase",
+    "option_b": "Orientation phase",
+    "option_c": "Introductory phase",
+    "option_d": "Working phase",
+    "correct_answer": "A",
+    "explanation": "Pre-interactive phase involves preparation before meeting the patient, including reviewing records.",
+    "additional": "NCK Prediction: Nurse-patient relationship phases are repeatedly tested. Pre-interaction = preparation, Orientation = establishing trust, Working = therapeutic work."
+  },
+  {
+    "question_text": "An example of low potency antipsychotic is:",
+    "option_a": "Serenace",
+    "option_b": "Chlorpromazine",
+    "option_c": "Navane",
+    "option_d": "Loxitene",
+    "correct_answer": "B",
+    "explanation": "Chlorpromazine is a classic low-potency antipsychotic. Low potency = more sedation, high potency = more EPS.",
+    "additional": "NCK Prediction: Antipsychotics are exam staples. Low potency (Chlorpromazine, Thioridazine) vs High potency (Haloperidol, Fluphenazine)."
+  },
+  {
+    "question_text": "A schizophrenic patient with delusions and hallucinations is likely to be in the:",
+    "option_a": "Residual phase",
+    "option_b": "Chronic phase",
+    "option_c": "Relapse phase",
+    "option_d": "Acute phase",
+    "correct_answer": "D",
+    "explanation": "The acute phase is marked by florid symptoms like delusions and hallucinations.",
+    "additional": "NCK Prediction: Schizophrenia phases: Acute = active psychosis, Residual = flat affect, Chronic = deterioration."
+  },
+  {
+    "question_text": "Master X is always pre-occupied with the need to have a vagina rather than a penis. He is suffering from:",
+    "option_a": "Gender identity",
+    "option_b": "Trans-sexualism",
+    "option_c": "Duo transvestism",
+    "option_d": "Psychogenic fugue",
+    "correct_answer": "B",
+    "explanation": "Trans-sexualism is persistent discomfort with one’s assigned sex and desire to change it.",
+    "additional": "NCK Prediction: Gender disorders are common. Differentiate: Transvestism = cross-dressing, Transsexualism = desire to change sex."
+  },
+  {
+    "question_text": "The purpose of rationalization as a defense mechanism is to:",
+    "option_a": "Helps a person cope with inability to acknowledge inappropriate behavior",
+    "option_b": "Temporarily isolate a person from full impact of trauma",
+    "option_c": "Allow a person to trivialize responsibility for behavior",
+    "option_d": "Allow person to deny existence of shortcoming",
+    "correct_answer": "A",
+    "explanation": "Rationalization allows a person to justify unacceptable behavior with logical reasons instead of the true cause.",
+    "additional": "NCK Prediction: Defense mechanisms are highly examinable. Rationalization = excuses, Denial = refusal, Projection = blaming others."
+  },
+  {
+    "question_text": "Personality disorders are classified under:",
+    "option_a": "Axis I",
+    "option_b": "Axis II",
+    "option_c": "Axis III",
+    "option_d": "Axis IV",
+    "correct_answer": "B",
+    "explanation": "In DSM-IV, personality disorders and intellectual disability are Axis II conditions.",
+    "additional": "NCK Prediction: DSM axes still appear in exams despite DSM-5 changes. Axis I = clinical disorders, Axis II = personality/ID, Axis III = medical, Axis IV = psychosocial."
+  },
+  {
+    "question_text": "The following is true about schizoid personality:",
+    "option_a": "Sexual experiences of little interest",
+    "option_b": "They experience unusual perceptions",
+    "option_c": "They lack conformance to the law",
+    "option_d": "Have a tendencies of being dramatic",
+    "correct_answer": "A",
+    "explanation": "Schizoid personality disorder features detachment, little interest in relationships, and lack of desire for intimacy or sex.",
+    "additional": "NCK Prediction: Personality clusters: Schizoid = detached/loners, Schizotypal = odd beliefs, Borderline = emotional instability."
+  },
+  {
+    "question_text": "A characteristic of neurosis includes:",
+    "option_a": "Reality testing is usually grossly affected",
+    "option_b": "The individuals always violate social norms",
+    "option_c": "The individual’s functioning is significantly impaired",
+    "option_d": "Follows psychosis in severe conflict with coping mechanisms",
+    "correct_answer": "C",
+    "explanation": "Neurosis involves significant impairment but reality testing is intact (unlike psychosis).",
+    "additional": "NCK Prediction: Neurosis vs Psychosis is exam-favorite. Psychosis = lost reality testing, Neurosis = anxiety/depression with preserved reality."
+  },
+  {
+    "question_text": "Children with autism:",
+    "option_a": "Usually withdraw into a fantasy world of their own",
+    "option_b": "Have elevated levels of dopamine neurotransmitters",
+    "option_c": "Are highly distractible and unable to contain any stimuli",
+    "option_d": "Have excessive movements that are random and impulsive",
+    "correct_answer": "A",
+    "explanation": "Autistic children characteristically withdraw socially and into their own inner world.",
+    "additional": "NCK Prediction: Autism exam questions focus on social withdrawal, impaired communication, repetitive behaviors."
+  },
+  {
+    "question_text": "Psychogenic pain:",
+    "option_a": "Is usually affected by emotional factors",
+    "option_b": "Varies in intensity from time to time",
+    "option_c": "Responds to anxiolytics only",
+    "option_d": "Responds to antidepressants",
+    "correct_answer": "A",
+    "explanation": "Psychogenic pain is influenced by emotional/psychological states and lacks organic pathology.",
+    "additional": "NCK Prediction: Key clue = emotional influence. Nurses should think biopsychosocial approach to management."
+  },
+  {
+    "question_text": "Generalized anxiety disorder:",
+    "option_a": "An unpredicted acute attack of anxiety",
+    "option_b": "A mental illness characterized by apathy",
+    "option_c": "Uncontrolled worry persisting for 3 months",
+    "option_d": "Uncontrolled worry persisting for 6 months",
+    "correct_answer": "D",
+    "explanation": "GAD is defined as excessive, uncontrollable worry persisting for at least 6 months.",
+    "additional": "NCK Prediction: Key exam tip = GAD timeline. Panic disorder = sudden attacks, GAD = persistent ≥6 months."
+  },
+  {
+    "question_text": "Children with moderate mental retardation:",
+    "option_a": "May be associated with other physical disorders",
+    "option_b": "Are capable of academic skills up to sixth-grade level",
+    "option_c": "Are not able to benefit from academic/vocational training",
+    "option_d": "Perform some activities independently with minimal supervision",
+    "correct_answer": "D",
+    "explanation": "Children with moderate intellectual disability can perform basic self-care and some activities with supervision, but have limited academic achievement.",
+    "additional": "NCK Prediction: Expect exam MCQs on functional ability by level of ID. Moderate = limited academics but some independence."
+  },
+  {
+    "question_text": "The nurse identifies an appropriate nursing diagnosis for a patient with depression as:",
+    "option_a": "Risk for injury",
+    "option_b": "Hopelessness",
+    "option_c": "Altered thought process",
+    "option_d": "Impaired memory",
+    "correct_answer": "B",
+    "explanation": "Hopelessness is a key nursing diagnosis in depression, characterized by lack of motivation and belief in recovery.",
+    "additional": "NCK Prediction: Depression = priority nursing diagnoses include hopelessness, risk for suicide, self-care deficit."
+  },
+  {
+    "question_text": "The drug of choice in the management of bipolar affective disorder is:",
+    "option_a": "Lithium carbonate",
+    "option_b": "Diazepam",
+    "option_c": "Haloperidol",
+    "option_d": "Imipramine",
+    "correct_answer": "A",
+    "explanation": "Lithium is the gold standard mood stabilizer for bipolar disorder. It prevents both manic and depressive relapses.",
+    "additional": "NCK Prediction: Lithium appears in almost every exam cycle. Know therapeutic range (0.6–1.2 mmol/L) and toxicity signs (tremor, vomiting, confusion)."
+  },
+  {
+    "question_text": "A patient on lithium therapy presents with severe diarrhea, tremors, and confusion. The nurse interprets this as:",
+    "option_a": "Lithium toxicity",
+    "option_b": "Anticholinergic crisis",
+    "option_c": "Normal side effect",
+    "option_d": "Withdrawal syndrome",
+    "correct_answer": "A",
+    "explanation": "Diarrhea, tremors, and confusion are early signs of lithium toxicity. Immediate discontinuation and medical intervention are required.",
+    "additional": "NCK Prediction: Watch for lithium toxicity MCQs. Nursing priority = stop drug, check levels, ensure hydration, possible dialysis."
+  },
+  {
+    "question_text": "Which of the following drugs is contraindicated in patients with narrow angle glaucoma?",
+    "option_a": "Imipramine",
+    "option_b": "Haloperidol",
+    "option_c": "Lithium carbonate",
+    "option_d": "Carbamazepine",
+    "correct_answer": "A",
+    "explanation": "Tricyclic antidepressants like imipramine have strong anticholinergic effects that worsen narrow angle glaucoma.",
+    "additional": "NCK Prediction: Contraindications of antidepressants are frequently tested. TCAs = glaucoma, BPH; MAOIs = tyramine foods."
+  },
+  {
+    "question_text": "The nurse observes that the patient is laughing and talking to himself when alone. This is best interpreted as:",
+    "option_a": "Hallucination",
+    "option_b": "Illusion",
+    "option_c": "Delusion",
+    "option_d": "Confabulation",
+    "correct_answer": "A",
+    "explanation": "Auditory hallucination is most likely when a patient responds to voices unseen by others.",
+    "additional": "NCK Prediction: Hallucinations vs illusions vs delusions are standard MCQs. Nursing role = safety + reality orientation."
+  },
+  {
+    "question_text": "The nurse understands that tardive dyskinesia is characterized by:",
+    "option_a": "Rhythmic involuntary movements of tongue, face, and jaw",
+    "option_b": "Sudden upward rolling of eyeballs",
+    "option_c": "Continuous motor restlessness",
+    "option_d": "Mask-like facies with rigidity",
+    "correct_answer": "A",
+    "explanation": "Tardive dyskinesia involves repetitive, involuntary movements of mouth and face, seen after long-term antipsychotic use.",
+    "additional": "NCK Prediction: EPS classification is tested often. Tardive dyskinesia = late, irreversible; dystonia = acute; akathisia = restlessness."
+  },
+  {
+    "question_text": "A patient constantly washes his hands due to fear of contamination. This is an example of:",
+    "option_a": "Compulsion",
+    "option_b": "Obsession",
+    "option_c": "Delusion",
+    "option_d": "Phobia",
+    "correct_answer": "A",
+    "explanation": "Compulsions are repetitive behaviors driven by obsessive fears, such as handwashing to reduce anxiety about germs.",
+    "additional": "NCK Prediction: OCD MCQs require knowing the difference: Obsession = intrusive thought, Compulsion = repetitive act."
+  },
+  {
+    "question_text": "The nurse knows that the most serious adverse effect of Clozapine is:",
+    "option_a": "Agranulocytosis",
+    "option_b": "Akathisia",
+    "option_c": "Parkinsonism",
+    "option_d": "Dystonia",
+    "correct_answer": "A",
+    "explanation": "Clozapine can cause agranulocytosis, a potentially fatal drop in white blood cells, requiring regular monitoring.",
+    "additional": "NCK Prediction: Clozapine is an exam favorite. Nurses must know: monitor WBC weekly for 6 months, then monthly."
+  },
+  {
+    "question_text": "The nurse knows that a major side effect of electroconvulsive therapy (ECT) is:",
+    "option_a": "Memory loss",
+    "option_b": "Epilepsy",
+    "option_c": "Paralysis",
+    "option_d": "Blindness",
+    "correct_answer": "A",
+    "explanation": "Memory impairment, particularly short-term memory loss, is the most common adverse effect of ECT.",
+    "additional": "NCK Prediction: ECT = safe but exam MCQs stress side effects: memory loss, headache, confusion. Contraindications include raised ICP and cardiac disease."
+  },
+  {
+    "question_text": "The defense mechanism where a person attributes his own unacceptable thoughts to others is called:",
+    "option_a": "Projection",
+    "option_b": "Denial",
+    "option_c": "Regression",
+    "option_d": "Sublimation",
+    "correct_answer": "A",
+    "explanation": "Projection involves attributing one’s own unwanted feelings or thoughts onto someone else.",
+    "additional": "NCK Prediction: Defense mechanisms are high-yield. Projection = blame-shifting, Sublimation = channeling into acceptable activity."
+  },
+  {
+    "question_text": "A patient with schizophrenia believes that TV anchors are sending messages directly to him. This is:",
+    "option_a": "Delusion of grandeur",
+    "option_b": "Delusion of persecution",
+    "option_c": "Delusion of reference",
+    "option_d": "Delusion of control",
+    "correct_answer": "C",
+    "explanation": "Delusion of reference is the belief that neutral events (e.g., TV messages) are directed personally to oneself.",
+    "additional": "NCK Prediction: Delusion types appear repeatedly. Reference = media/people sending signals, Persecution = being harmed."
+  },
+  {
+    "question_text": "When the nurse allows the client to express feelings without judgment, this is an example of:",
+    "option_a": "Empathy",
+    "option_b": "Sympathy",
+    "option_c": "Paternalism",
+    "option_d": "Autonomy",
+    "correct_answer": "A",
+    "explanation": "Empathy is understanding and sharing another person’s feelings without judgment.",
+    "additional": "NCK Prediction: Empathy vs sympathy is a common exam trap. Empathy = professional understanding, Sympathy = personal pity."
+  },
+  {
+    "question_text": "The nurse recognizes that alcohol withdrawal delirium usually begins:",
+    "option_a": "Within 24 hours",
+    "option_b": "Within 48–72 hours",
+    "option_c": "After 1 week",
+    "option_d": "After 2 weeks",
+    "correct_answer": "B",
+    "explanation": "Delirium tremens (DTs) typically begin 48–72 hours after last alcohol intake.",
+    "additional": "NCK Prediction: Alcohol withdrawal timeline is tested often. Tremors = 6–8 hrs, Hallucinations = 12–24 hrs, Seizures = 24–48 hrs, DTs = 48–72 hrs."
+  },
+  {
+    "question_text": "Which of the following is the most appropriate nursing action when a patient expresses suicidal thoughts?",
+    "option_a": "Ignore and redirect",
+    "option_b": "Ask directly about suicide plan",
+    "option_c": "Leave patient alone briefly",
+    "option_d": "Advise patient to suppress feelings",
+    "correct_answer": "B",
+    "explanation": "The nurse must directly assess suicidal intent and plan to ensure safety.",
+    "additional": "NCK Prediction: Suicide assessment is heavily tested. Priority = ask directly, ensure safety, one-to-one observation if high risk."
+  },
+  {
+    "question_text": "Which of the following patients is most at risk for suicide?",
+    "option_a": "Adolescent with phobia",
+    "option_b": "Middle-aged man with depression",
+    "option_c": "Young woman with mild anxiety",
+    "option_d": "Elderly patient with dementia",
+    "correct_answer": "B",
+    "explanation": "Middle-aged men with depression and previous attempts are at highest suicide risk.",
+    "additional": "NCK Prediction: Risk groups = middle-aged men, elderly, substance users. NCK often asks 'who is at highest risk?'"
+  },
+  {
+    "question_text": "A patient complains of tremors, rigidity, and shuffling gait after starting antipsychotics. This is best managed with:",
+    "option_a": "Benzodiazepines",
+    "option_b": "Anticholinergics",
+    "option_c": "Beta-blockers",
+    "option_d": "SSRIs",
+    "correct_answer": "B",
+    "explanation": "Anticholinergic drugs (e.g., benztropine) relieve parkinsonism caused by antipsychotics.",
+    "additional": "NCK Prediction: EPS management is exam-high yield. Dystonia = anticholinergics IM, Parkinsonism = anticholinergics, Akathisia = beta-blockers."
+  },
+  {
+    "question_text": "A child repeatedly sets fires to see flames despite knowing the danger. This behavior is:",
+    "option_a": "Pyromania",
+    "option_b": "Kleptomania",
+    "option_c": "Conduct disorder",
+    "option_d": "Oppositional defiant disorder",
+    "correct_answer": "A",
+    "explanation": "Pyromania is an impulse-control disorder characterized by deliberate fire setting for gratification.",
+    "additional": "NCK Prediction: Impulse-control disorders: Pyromania = fire, Kleptomania = stealing, Trichotillomania = hair pulling."
+  },
+  {
+    "question_text": "The drug of choice for treating panic disorder is:",
+    "option_a": "Imipramine",
+    "option_b": "Diazepam",
+    "option_c": "Sertraline",
+    "option_d": "Haloperidol",
+    "correct_answer": "C",
+    "explanation": "SSRIs like sertraline are first-line in panic disorder. Benzodiazepines may be used short-term but not long-term.",
+    "additional": "NCK Prediction: Anxiety treatment is exam staple. SSRIs = first-line, Benzodiazepines = short-term crisis use only."
+  },
+  {
+    "question_text": "Which of the following is the first symptom of alcohol withdrawal?",
+    "option_a": "Hallucinations",
+    "option_b": "Seizures",
+    "option_c": "Tremors",
+    "option_d": "Delirium",
+    "correct_answer": "C",
+    "explanation": "Tremors (shakes) are the earliest sign of alcohol withdrawal, usually appearing 6–8 hours after last drink.",
+    "additional": "NCK Prediction: Alcohol withdrawal sequence is often asked: tremors → hallucinations → seizures → DTs."
+  },
+  {
+    "question_text": "Which of the following defense mechanisms is considered the most mature and adaptive?",
+    "option_a": "Denial",
+    "option_b": "Projection",
+    "option_c": "Sublimation",
+    "option_d": "Regression",
+    "correct_answer": "C",
+    "explanation": "Sublimation is redirecting unacceptable impulses into socially acceptable behaviors (e.g., aggressive impulses channeled into sports). It is the most mature defense mechanism because it allows energy release without harming self or others.",
+    "additional": "NCK Prediction: Defense mechanisms are heavily tested. Mature = Sublimation, Suppression. Immature = Denial, Regression, Projection. Expect exam items asking 'which defense is most adaptive?' Sublimation is the safe bet."
+  },
+  {
+    "question_text": "A patient with schizophrenia says, 'The government is monitoring my thoughts through the TV.' This is an example of:",
+    "option_a": "Delusion of control",
+    "option_b": "Delusion of reference",
+    "option_c": "Delusion of persecution",
+    "option_d": "Thought insertion",
+    "correct_answer": "A",
+    "explanation": "Delusion of control involves believing that external forces (TV, machines, people) are controlling or monitoring one's thoughts or actions. It differs from delusion of reference where neutral events are misinterpreted as personal messages.",
+    "additional": "NCK Prediction: Exams frequently test types of delusions. Control = external force, Reference = TV/radio messages, Persecution = being targeted, Grandeur = inflated self-importance. Nurses should always assess risk and ensure reality orientation."
+  },
+  {
+    "question_text": "Which of the following is a negative symptom of schizophrenia?",
+    "option_a": "Delusions",
+    "option_b": "Hallucinations",
+    "option_c": "Alogia",
+    "option_d": "Thought insertion",
+    "correct_answer": "C",
+    "explanation": "Negative symptoms reflect a reduction or loss of normal functions. Alogia (poverty of speech), anhedonia (loss of pleasure), and affective flattening are key negative symptoms. Delusions and hallucinations are positive symptoms.",
+    "additional": "NCK Prediction: Schizophrenia MCQs often ask positive vs negative symptoms. Positive = excesses (hallucinations, delusions). Negative = deficits (alogia, avolition, flat affect). High-yield exam area."
+  },
+  {
+    "question_text": "Which of the following would be the most appropriate nursing intervention during a panic attack?",
+    "option_a": "Encourage patient to discuss fears",
+    "option_b": "Provide reassurance and remain with the patient",
+    "option_c": "Administer long-term SSRI medication",
+    "option_d": "Encourage deep psychoanalysis",
+    "correct_answer": "B",
+    "explanation": "During a panic attack, the immediate nursing action is to stay with the patient and offer calm reassurance to reduce fear. Discussing fears or long-term therapy can be done later when anxiety has subsided.",
+    "additional": "NCK Prediction: Nursing management of panic disorder is highly examinable. Priority = stay with patient, calm environment, reassure safety. Long-term = SSRIs, CBT."
+  },
+  {
+    "question_text": "A patient presents with repetitive, involuntary hair-pulling resulting in bald patches. This condition is:",
+    "option_a": "Kleptomania",
+    "option_b": "Trichotillomania",
+    "option_c": "Dermatillomania",
+    "option_d": "Obsessive-compulsive disorder",
+    "correct_answer": "B",
+    "explanation": "Trichotillomania is an impulse-control disorder where patients cannot resist pulling out their own hair, leading to noticeable hair loss.",
+    "additional": "NCK Prediction: Impulse-control disorders appear frequently in exams. Pyromania = fire, Kleptomania = stealing, Trichotillomania = hair pulling. Nurses emphasize habit reversal training and support."
+  },
+  {
+    "question_text": "A patient with depression reports early morning awakening, loss of appetite, and anhedonia. These are features of:",
+    "option_a": "Endogenous depression",
+    "option_b": "Reactive depression",
+    "option_c": "Dysthymia",
+    "option_d": "Cyclothymia",
+    "correct_answer": "A",
+    "explanation": "Endogenous depression (biological/major depression) presents with early morning awakening, loss of appetite, weight loss, and anhedonia. Reactive depression follows stressful events and is usually milder.",
+    "additional": "NCK Prediction: Exams test the difference between endogenous (biological, severe, vegetative symptoms) vs reactive (psychological, linked to stress). Key clue = early morning awakening."
+  },
+  {
+    "question_text": "Which of the following patients is MOST at risk of developing Wernicke’s encephalopathy?",
+    "option_a": "Patient with chronic schizophrenia",
+    "option_b": "Alcoholic patient with thiamine deficiency",
+    "option_c": "Patient with major depression",
+    "option_d": "Bipolar patient on lithium",
+    "correct_answer": "B",
+    "explanation": "Wernicke’s encephalopathy occurs in alcoholics due to thiamine (vitamin B1) deficiency. Classic triad = ataxia, confusion, ophthalmoplegia.",
+    "additional": "NCK Prediction: Wernicke-Korsakoff syndrome is a key exam topic. Always think thiamine deficiency in alcoholics. Nursing role = give thiamine before glucose."
+  },
+  {
+    "question_text": "Which of the following antidepressants is safest in overdose?",
+    "option_a": "Amitriptyline",
+    "option_b": "Imipramine",
+    "option_c": "Fluoxetine",
+    "option_d": "Clomipramine",
+    "correct_answer": "C",
+    "explanation": "SSRIs like fluoxetine are safer in overdose compared to tricyclic antidepressants, which cause cardiac arrhythmias and seizures.",
+    "additional": "NCK Prediction: Antidepressant safety is commonly tested. SSRIs = safest, TCAs = most toxic in overdose. Nursing role = educate on safe storage."
+  },
+  {
+    "question_text": "Which of the following is the most appropriate nursing diagnosis for a suicidal patient?",
+    "option_a": "Ineffective coping",
+    "option_b": "Risk for suicide",
+    "option_c": "Impaired social interaction",
+    "option_d": "Hopelessness",
+    "correct_answer": "B",
+    "explanation": "The priority nursing diagnosis for a suicidal patient is 'Risk for suicide,' focusing on immediate safety.",
+    "additional": "NCK Prediction: Safety always comes first in exams. When suicide risk is present, the correct diagnosis = Risk for suicide. Hopelessness is important but secondary."
+  },
+  {
+    "question_text": "The most common psychiatric disorder in the elderly is:",
+    "option_a": "Schizophrenia",
+    "option_b": "Depression",
+    "option_c": "Dementia",
+    "option_d": "Delirium",
+    "correct_answer": "B",
+    "explanation": "Depression is the most common psychiatric disorder in the elderly. It is often underdiagnosed because symptoms mimic aging.",
+    "additional": "NCK Prediction: Depression vs dementia vs delirium is a frequent exam theme. Elderly: Depression is commonest, Dementia = progressive decline, Delirium = acute confusion."
+  },
+  {
+    "question_text": "Which of the following is considered a somatoform disorder?",
+    "option_a": "Conversion disorder",
+    "option_b": "Obsessive-compulsive disorder",
+    "option_c": "Generalized anxiety disorder",
+    "option_d": "Schizoid personality disorder",
+    "correct_answer": "A",
+    "explanation": "Conversion disorder is a somatoform disorder where psychological stress is expressed as neurological symptoms (e.g., paralysis, blindness).",
+    "additional": "NCK Prediction: Somatoform disorders include conversion, hypochondriasis, somatization. Exams often test conversion = stress → neurological symptom."
+  },
+  {
+    "question_text": "Which of the following is the most common hallucination in schizophrenia?",
+    "option_a": "Visual",
+    "option_b": "Auditory",
+    "option_c": "Tactile",
+    "option_d": "Olfactory",
+    "correct_answer": "B",
+    "explanation": "Auditory hallucinations (hearing voices) are the most common in schizophrenia, often commenting or giving commands.",
+    "additional": "NCK Prediction: MCQs on hallucinations are common. Schizophrenia = auditory, Alcohol withdrawal = visual, Epilepsy = olfactory/gustatory."
+  },
+  {
+    "question_text": "The nurse knows that which of the following side effects of antipsychotics is irreversible?",
+    "option_a": "Acute dystonia",
+    "option_b": "Tardive dyskinesia",
+    "option_c": "Parkinsonism",
+    "option_d": "Akathisia",
+    "correct_answer": "B",
+    "explanation": "Tardive dyskinesia, characterized by repetitive mouth and tongue movements, may become permanent even after stopping the drug.",
+    "additional": "NCK Prediction: EPS classification is tested heavily. Reversible = dystonia, akathisia, parkinsonism. Irreversible = tardive dyskinesia."
+  },
+  {
+    "question_text": "A patient presents with repeated theft of items not needed for personal use or value. This is:",
+    "option_a": "Antisocial behavior",
+    "option_b": "Kleptomania",
+    "option_c": "Conduct disorder",
+    "option_d": "Impulse dyscontrol",
+    "correct_answer": "B",
+    "explanation": "Kleptomania is an impulse-control disorder characterized by repeated stealing for gratification, not personal gain.",
+    "additional": "NCK Prediction: Distinguish kleptomania from antisocial disorder. Antisocial = stealing for gain, Kleptomania = impulsive gratification."
+  },
+  {
+    "question_text": "The nurse knows that serotonin syndrome is caused by:",
+    "option_a": "Combining SSRIs with MAOIs",
+    "option_b": "Stopping SSRIs suddenly",
+    "option_c": "Long-term benzodiazepine use",
+    "option_d": "Low levels of dopamine",
+    "correct_answer": "A",
+    "explanation": "Serotonin syndrome occurs when serotonergic drugs (SSRIs, MAOIs, TCAs, tramadol) are combined, causing hyperthermia, agitation, tremor, and hypertension.",
+    "additional": "NCK Prediction: High-yield safety question. Always remember SSRIs + MAOIs = serotonin syndrome. Nursing role = stop drug immediately and provide supportive care."
+  },
+  {
+    "question_text": "Which of the following is a symptom of mania?",
+    "option_a": "Psychomotor retardation",
+    "option_b": "Flight of ideas",
+    "option_c": "Flat affect",
+    "option_d": "Social withdrawal",
+    "correct_answer": "B",
+    "explanation": "Mania is characterized by elevated mood, decreased need for sleep, pressured speech, and flight of ideas (rapidly shifting thoughts).",
+    "additional": "NCK Prediction: Bipolar mania vs depression exam questions are common. Mania = hyperactivity, pressured speech, grandiosity. Depression = hopelessness, retardation."
+  },
+  {
+    "question_text": "Which of the following is the drug of choice in alcohol withdrawal?",
+    "option_a": "Lithium carbonate",
+    "option_b": "Haloperidol",
+    "option_c": "Diazepam",
+    "option_d": "Chlorpromazine",
+    "correct_answer": "C",
+    "explanation": "Benzodiazepines like diazepam are first-line in alcohol withdrawal because they prevent seizures and delirium tremens.",
+    "additional": "NCK Prediction: Alcohol withdrawal management is exam-favorite. Benzodiazepines = DOC, plus thiamine supplementation before glucose."
+  },
+  {
+    "question_text": "A child who consistently wets the bed at night after age 6 is most likely suffering from:",
+    "option_a": "Encopresis",
+    "option_b": "Primary enuresis",
+    "option_c": "Secondary enuresis",
+    "option_d": "Regression",
+    "correct_answer": "B",
+    "explanation": "Primary enuresis is persistent involuntary urination (bedwetting) at night in a child beyond the expected age of bladder control (usually >6 years). Secondary enuresis develops after a period of dryness.",
+    "additional": "NCK Prediction: Enuresis is a common pediatrics-psychiatry crossover topic. Primary = never dry, Secondary = relapse after control. Nursing role = reassure, bladder training, address family stressors."
+  },
+  {
+    "question_text": "Which of the following is most likely to be observed in a patient with anorexia nervosa?",
+    "option_a": "Normal body weight with fear of gaining",
+    "option_b": "Marked weight loss with body image distortion",
+    "option_c": "Binge eating followed by vomiting",
+    "option_d": "Normal appetite but food avoidance",
+    "correct_answer": "B",
+    "explanation": "Anorexia nervosa is characterized by severe weight loss, distorted body image, and intense fear of gaining weight despite being underweight.",
+    "additional": "NCK Prediction: Distinguish anorexia nervosa from bulimia nervosa. Anorexia = weight loss + body image distortion. Bulimia = binge + purge, often with normal weight."
+  },
+  {
+    "question_text": "The nurse knows that benzodiazepine withdrawal may present with:",
+    "option_a": "Bradycardia and sedation",
+    "option_b": "Tremors, anxiety, and seizures",
+    "option_c": "Excessive sleepiness and calmness",
+    "option_d": "Increased appetite and weight gain",
+    "correct_answer": "B",
+    "explanation": "Abrupt withdrawal from benzodiazepines can cause tremors, anxiety, insomnia, and life-threatening seizures due to CNS hyperexcitability.",
+    "additional": "NCK Prediction: Exam alert — benzodiazepine withdrawal resembles alcohol withdrawal. Nursing role = taper gradually, monitor for seizures."
+  },
+  {
+    "question_text": "Which of the following drugs is used in the management of opioid withdrawal?",
+    "option_a": "Disulfiram",
+    "option_b": "Naltrexone",
+    "option_c": "Methadone",
+    "option_d": "Acamprosate",
+    "correct_answer": "C",
+    "explanation": "Methadone is a long-acting opioid agonist used in substitution therapy to manage withdrawal symptoms in opioid dependence.",
+    "additional": "NCK Prediction: Addiction management is exam-heavy. Alcohol = benzodiazepines, opioids = methadone or buprenorphine, nicotine = replacement therapy."
+  },
+  {
+    "question_text": "Which of the following is an example of somatic delusion?",
+    "option_a": "I am rotting inside because my intestines are gone",
+    "option_b": "The CIA has planted a chip in my phone to monitor me",
+    "option_c": "I am destined to become the president",
+    "option_d": "My neighbors are trying to poison me",
+    "correct_answer": "A",
+    "explanation": "Somatic delusions involve false beliefs about the body (e.g., organs missing, rotting, or infested with insects).",
+    "additional": "NCK Prediction: Types of delusions are commonly tested. Somatic = body, Persecution = being targeted, Grandeur = importance, Reference = external messages."
+  },
+  {
+    "question_text": "The nurse knows that the drug Disulfiram acts by:",
+    "option_a": "Blocking dopamine receptors",
+    "option_b": "Inhibiting alcohol metabolism causing aversive reaction",
+    "option_c": "Reducing alcohol craving via serotonin pathways",
+    "option_d": "Preventing absorption of alcohol in stomach",
+    "correct_answer": "B",
+    "explanation": "Disulfiram inhibits aldehyde dehydrogenase, causing accumulation of acetaldehyde when alcohol is consumed, leading to unpleasant symptoms (flushing, vomiting, palpitations).",
+    "additional": "NCK Prediction: Alcohol management drugs — Disulfiram = aversion therapy, Naltrexone = reduces craving, Acamprosate = stabilizes neurotransmitters."
+  },
+  {
+    "question_text": "Which of the following patients is most likely to experience Korsakoff’s psychosis?",
+    "option_a": "Chronic alcoholic with thiamine deficiency",
+    "option_b": "Teenager abusing cannabis",
+    "option_c": "Patient with schizophrenia on clozapine",
+    "option_d": "Patient with bipolar disorder on lithium",
+    "correct_answer": "A",
+    "explanation": "Korsakoff’s psychosis is a chronic memory disorder caused by thiamine deficiency, commonly in alcoholics. It often follows untreated Wernicke’s encephalopathy.",
+    "additional": "NCK Prediction: Always link Korsakoff’s to alcoholism + thiamine deficiency. Features = confabulation, memory loss. Prevention = thiamine before glucose infusion."
+  },
+  {
+    "question_text": "Which of the following is the first-line drug for ADHD in children?",
+    "option_a": "Methylphenidate",
+    "option_b": "Haloperidol",
+    "option_c": "Imipramine",
+    "option_d": "Diazepam",
+    "correct_answer": "A",
+    "explanation": "Methylphenidate (a stimulant) is first-line for ADHD. It improves attention span and reduces hyperactivity.",
+    "additional": "NCK Prediction: ADHD treatment is tested often. First-line = stimulants (methylphenidate, amphetamines). Nursing = monitor growth, appetite, sleep."
+  },
+  {
+    "question_text": "The nurse knows that delirium tremens is characterized by:",
+    "option_a": "Acute psychosis, tremors, autonomic instability",
+    "option_b": "Gradual memory decline and personality change",
+    "option_c": "Visual hallucinations without tremors",
+    "option_d": "Involuntary movements after long-term drug use",
+    "correct_answer": "A",
+    "explanation": "Delirium tremens is a severe form of alcohol withdrawal marked by tremors, hallucinations, confusion, and autonomic hyperactivity (fever, tachycardia, hypertension).",
+    "additional": "NCK Prediction: Alcohol withdrawal stages: tremors (6–8 hrs), hallucinations (12–24 hrs), seizures (24–48 hrs), DTs (48–72 hrs). Benzodiazepines are life-saving."
+  },
+  {
+    "question_text": "Which of the following is an example of psychosexual disorder?",
+    "option_a": "Voyeurism",
+    "option_b": "Somatization disorder",
+    "option_c": "Generalized anxiety disorder",
+    "option_d": "Schizoaffective disorder",
+    "correct_answer": "A",
+    "explanation": "Voyeurism is a paraphilic disorder where sexual gratification is derived from watching unsuspecting people undress or engage in sexual activity.",
+    "additional": "NCK Prediction: Sexual disorders are frequent exam topics. Exhibitionism = exposing genitals, Voyeurism = watching, Fetishism = objects, Pedophilia = children."
+  },
+  {
+    "question_text": "The nurse knows that the first-line management of acute mania is:",
+    "option_a": "Lithium",
+    "option_b": "Carbamazepine",
+    "option_c": "Haloperidol",
+    "option_d": "ECT",
+    "correct_answer": "C",
+    "explanation": "Haloperidol is used for rapid control of acute manic agitation. Mood stabilizers like lithium are for long-term management, not acute crisis.",
+    "additional": "NCK Prediction: Exam tip — Acute mania = antipsychotics (haloperidol, olanzapine). Maintenance = lithium, carbamazepine, valproate."
+  },
+  {
+    "question_text": "Which of the following features best differentiates delirium from dementia?",
+    "option_a": "Memory loss",
+    "option_b": "Fluctuating level of consciousness",
+    "option_c": "Disorientation",
+    "option_d": "Impaired judgment",
+    "correct_answer": "B",
+    "explanation": "Delirium is acute and characterized by fluctuating consciousness and attention. Dementia is chronic with steady decline but clear consciousness.",
+    "additional": "NCK Prediction: Classic MCQ — Delirium vs dementia. Key word = fluctuating consciousness = delirium. Dementia = progressive, no fluctuation."
+  },
+  {
+    "question_text": "Which of the following is the safest ECT position to reduce aspiration risk?",
+    "option_a": "Supine",
+    "option_b": "Left lateral",
+    "option_c": "Right lateral",
+    "option_d": "Sitting upright",
+    "correct_answer": "B",
+    "explanation": "During ECT, the left lateral position helps reduce risk of aspiration, especially if vomiting occurs during recovery.",
+    "additional": "NCK Prediction: ECT exam questions cover safety (positioning, monitoring vitals, airway). Left lateral = airway protection."
+  },
+  {
+    "question_text": "Which of the following is a key feature of paranoid schizophrenia?",
+    "option_a": "Prominent hallucinations and delusions",
+    "option_b": "Catatonic immobility",
+    "option_c": "Disorganized speech and affect",
+    "option_d": "Flat affect without delusions",
+    "correct_answer": "A",
+    "explanation": "Paranoid schizophrenia is dominated by persecutory delusions and auditory hallucinations, with relatively preserved affect and cognition.",
+    "additional": "NCK Prediction: Subtypes of schizophrenia (though DSM-5 removed them) are still tested. Paranoid = delusions/hallucinations, Catatonic = motor symptoms, Disorganized = speech/affect."
+  },
+  {
+    "question_text": "Which of the following is the best nursing intervention for a violent patient?",
+    "option_a": "Confront him about behavior",
+    "option_b": "Maintain safe distance and clear exit",
+    "option_c": "Leave him alone to calm down",
+    "option_d": "Physically restrain immediately",
+    "correct_answer": "B",
+    "explanation": "The nurse should ensure safety by maintaining a safe distance, keeping an exit route, and using de-escalation techniques first. Restraints are last resort.",
+    "additional": "NCK Prediction: Violence management = safety first. Exams stress non-pharmacological de-escalation before seclusion/restraints."
+  },
+  {
+    "question_text": "Which of the following best describes tangentiality in thought process?",
+    "option_a": "Unnecessary detail but eventually answers question",
+    "option_b": "Wandering speech never returns to answer",
+    "option_c": "Sudden stop in thought mid-sentence",
+    "option_d": "Repetition of words/phrases",
+    "correct_answer": "B",
+    "explanation": "Tangentiality is a thought disorder where responses digress and never return to the original question. Circumstantiality eventually reaches the point but with unnecessary detail.",
+    "additional": "NCK Prediction: Common MSE thought process terms: Tangential = never answers, Circumstantial = delayed answer, Blocking = sudden stop, Perseveration = stuck response."
+  }
+]
+
+
+
