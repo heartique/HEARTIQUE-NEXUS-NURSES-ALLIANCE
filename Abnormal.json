@@ -1,0 +1,1157 @@
+[
+  {
+    "question_text": "Persistent nausea and vomiting related to pregnancy is indicative of",
+    "option_a": "Morning sickness",
+    "option_b": "Multiple gestation",
+    "option_c": "Hyperemesis gravidarum",
+    "option_d": "Hypertensive disorders",
+    "correct_answer": "C",
+    "explanation": "Hyperemesis gravidarum is characterized by severe, persistent nausea and vomiting during pregnancy leading to dehydration, electrolyte imbalance, and weight loss. Morning sickness is mild and self-limiting. Multiple gestation can worsen symptoms but does not directly cause persistent vomiting. Hypertensive disorders are unrelated to this presentation.",
+    "additional": "High-yield: Strongly linked with high hCG levels (e.g., molar pregnancy, multiple gestation). Complications include hypokalemia, dehydration, and Wernicke’s encephalopathy due to thiamine deficiency. Prediction: Distinguish hyperemesis gravidarum from normal morning sickness."
+  },
+  {
+    "question_text": "The complication that is associated with hyperemesis gravidarum is",
+    "option_a": "Wernickle’s encephalopathy",
+    "option_b": "Sheehan’s syndrome",
+    "option_c": "Maurice encephalitis",
+    "option_d": "Antepartum bleeding",
+    "correct_answer": "A",
+    "explanation": "Wernicke’s encephalopathy is a complication of prolonged hyperemesis gravidarum due to thiamine deficiency. It presents with confusion, ataxia, and ophthalmoplegia. Sheehan’s syndrome is due to postpartum hemorrhage, not vomiting. Maurice encephalitis is not clinically relevant. Antepartum bleeding is unrelated.",
+    "additional": "High-yield: Always give thiamine before glucose in hyperemesis management to prevent Wernicke’s encephalopathy. Prediction: Question often tests the triad of confusion, ataxia, and eye movement disorder."
+  },
+  {
+    "question_text": "Specific management of moderate pre-eclampsia involves",
+    "option_a": "Admission at first contact",
+    "option_b": "Managing as an outpatient case",
+    "option_c": "Admission in the intensive care unit",
+    "option_d": "Encouraging plenty of oral fluids",
+    "correct_answer": "A",
+    "explanation": "Moderate pre-eclampsia requires hospital admission for observation and treatment. Outpatient care is unsafe because of risk of rapid progression. ICU is for severe eclampsia with complications. Fluids alone are insufficient.",
+    "additional": "High-yield: Moderate pre-eclampsia requires antihypertensives, bed rest, and monitoring. Prediction: Differentiate management between mild, moderate, and severe preeclampsia."
+  },
+  {
+    "question_text": "Arched back and tightly clenched teeth are among the features of which stage of eclampsia",
+    "option_a": "Clonic",
+    "option_b": "Tonic",
+    "option_c": "Premonitory",
+    "option_d": "Coma",
+    "correct_answer": "B",
+    "explanation": "The tonic stage of eclampsia presents with rigidity, arched back, clenched jaw, and apnea. The clonic stage is characterized by jerking movements. Premonitory stage involves warning symptoms like headache and visual disturbances. Coma stage follows convulsions.",
+    "additional": "High-yield: Eclampsia stages are Premonitory → Tonic → Clonic → Coma. Prediction: Question may test features specific to tonic vs clonic stage."
+  },
+  {
+    "question_text": "Causes of polyhydramnios include",
+    "option_a": "Congenital abnormalities and chorioangioma",
+    "option_b": "Severe fetal hypoxia and multiple pregnancy",
+    "option_c": "Uncontrolled diabetes mellitus and anaemia",
+    "option_d": "Rhesus D isoimmunisation and post datism",
+    "correct_answer": "A",
+    "explanation": "Polyhydramnios is excess amniotic fluid and is commonly associated with congenital anomalies (e.g., anencephaly, esophageal atresia) and placental tumors such as chorioangioma. Diabetes mellitus is also a known cause but is not listed correctly in this combination.",
+    "additional": "High-yield: Causes remembered as 'DAMM' – Diabetes, Anomalies, Multiple gestation, Maternal infections. Prediction: Expect questions testing congenital causes like GI obstruction."
+  },
+  {
+    "question_text": "Some of the neonatal complications of eclampsia are",
+    "option_a": "Cerebral haemorrhage and pneumonia",
+    "option_b": "Severe asphyxia and prematurity",
+    "option_c": "Fractures and soft tissue trauma",
+    "option_d": "Respiratory distress and hypoglycaemia",
+    "correct_answer": "B",
+    "explanation": "Neonates of eclamptic mothers are at high risk of severe asphyxia and prematurity due to compromised placental perfusion. Cerebral hemorrhage and fractures are trauma-related, not eclampsia-specific. Respiratory distress and hypoglycemia are common in diabetic pregnancies.",
+    "additional": "High-yield: Key neonatal risks in eclampsia are IUGR, prematurity, and asphyxia. Prediction: Often paired with maternal complications in exams."
+  },
+  {
+    "question_text": "Prenatal tuberculosis always leads to neonatal tuberculosis.",
+    "option_a": "True",
+    "option_b": "False",
+    "option_c": "",
+    "option_d": "",
+    "correct_answer": "B",
+    "explanation": "Not all mothers with tuberculosis transmit the infection to the neonate. Transmission risk depends on disease severity, timing, and maternal treatment. Therefore, the statement is false.",
+    "additional": "High-yield: Congenital TB is rare. Prediction: Question may test risk factors for neonatal TB rather than inevitability."
+  },
+  {
+    "question_text": "Clinical features of tuberculosis prenatally include anaemia, intrauterine fetal death and glycosuria among others.",
+    "option_a": "True",
+    "option_b": "False",
+    "option_c": "",
+    "option_d": "",
+    "correct_answer": "A",
+    "explanation": "Maternal TB can lead to complications including anemia, IUGR, and even intrauterine death. The statement is true.",
+    "additional": "High-yield: TB complicates pregnancy through anemia, preterm birth, and growth restriction. Prediction: Likely to test clinical effects rather than diagnosis."
+  },
+  {
+    "question_text": "Congenital malformations are common in Monozygotic twinning.",
+    "option_a": "True",
+    "option_b": "False",
+    "option_c": "",
+    "option_d": "",
+    "correct_answer": "A",
+    "explanation": "Monozygotic twins share a single zygote division, which increases the risk of congenital malformations such as conjoined twins. The statement is true.",
+    "additional": "High-yield: Monozygotic twins carry higher risks of anomalies and twin-to-twin transfusion. Prediction: Question may link with timing of zygote splitting."
+  },
+  {
+    "question_text": "Dichorionicity only occurs in dizygotic twinning.",
+    "option_a": "True",
+    "option_b": "False",
+    "option_c": "",
+    "option_d": "",
+    "correct_answer": "B",
+    "explanation": "Dichorionicity can occur in both dizygotic and monozygotic twins (if splitting occurs early). Therefore, the statement is false.",
+    "additional": "High-yield: Timing of zygote division determines chorionicity. Prediction: Expect diagram or table questions on twin chorionicity."
+  },
+  {
+    "question_text": "Productive cough, dyspnoea at rest and generalized oedema are among the features of",
+    "option_a": "Folate deficiency",
+    "option_b": "Very severe anaemia",
+    "option_c": "Mild iron deficiency",
+    "option_d": "Severe anaemia",
+    "correct_answer": "D",
+    "explanation": "Severe anemia causes fatigue, dyspnea at rest, and generalized edema due to hypoxia and poor perfusion. Folate deficiency does not directly cause edema. Very severe anemia is life-threatening but the correct classification here is severe anemia.",
+    "additional": "High-yield: Severe anemia in pregnancy predisposes to heart failure, infections, and poor perinatal outcomes. Prediction: Question may test Hb levels defining severity."
+  },
+  {
+    "question_text": "Incidental antepartum haemorrhage is also referred to as",
+    "option_a": "Intraplacental haemorrhage",
+    "option_b": "Intrapartum haemorrhage",
+    "option_c": "Extraplacental haemorrhage",
+    "option_d": "Preterm haemorrhage",
+    "correct_answer": "C",
+    "explanation": "Incidental (accidental) antepartum hemorrhage occurs due to placental abruption where bleeding is external to placenta (extraplacental). Intraplacental hemorrhage refers to intervillous bleeding. Preterm haemorrhage is nonspecific.",
+    "additional": "High-yield: Placental abruption is the main cause of incidental haemorrhage. Prediction: Distinguish placenta praevia (unavoidable hemorrhage) from abruption (accidental)."
+  },
+  {
+    "question_text": "Chemical diabetes mellitus is a classification based on",
+    "option_a": "Symptom are absent and abnormal specific laboratory results",
+    "option_b": "Presence of symptoms and abnormal specific laboratory results",
+    "option_c": "Previous congenital abnormalities and unexplained stillbirth",
+    "option_d": "Previous birth of a baby weighing >4.3kg and spontaneous abortion",
+    "correct_answer": "A",
+    "explanation": "Chemical diabetes is detected only by abnormal glucose tolerance test without overt symptoms. Clinical diabetes presents with symptoms. The other options refer to risk factors.",
+    "additional": "High-yield: Categories: Potential, Chemical, Clinical, Gestational diabetes. Prediction: Expect classification-based questions."
+  },
+  {
+    "question_text": "Diamorphic anaemia results due to deficiency of",
+    "option_a": "Iron and thiamine",
+    "option_b": "Iron and folic acid",
+    "option_c": "Folic acid and thiamine",
+    "option_d": "Liver enzymes and iron",
+    "correct_answer": "B",
+    "explanation": "Dimorphic anemia is characterized by mixed deficiency of iron and folic acid, producing both microcytic and macrocytic cells. Thiamine deficiency causes beriberi, not anemia.",
+    "additional": "High-yield: In pregnancy, dimorphic anemia is common due to nutritional deficiencies. Prediction: Hb electrophoresis vs blood film features may be tested."
+  },
+  {
+    "question_text": "A major predisposing factor to cardiac disease in pregnancy includes",
+    "option_a": "Rheumatic heart disease",
+    "option_b": "Notable peripheral oedema",
+    "option_c": "Easy fatiguability",
+    "option_d": "Basal crepitation",
+    "correct_answer": "A",
+    "explanation": "Rheumatic heart disease is the leading predisposing factor for cardiac disease in pregnancy in low-resource settings. Edema, fatigue, and crepitations are features but not causes.",
+    "additional": "High-yield: Rheumatic valvular disease (especially mitral stenosis) is the commonest cardiac disease in pregnancy. Prediction: May be tested against congenital causes."
+  },
+  {
+    "question_text": "Which one of the following clinical features denotes cardiac disease grade III?",
+    "option_a": "Patient is comfortable even at rest",
+    "option_b": "Patient is asymptomatic initially",
+    "option_c": "Marked limitation of physical activity",
+    "option_d": "Absolute limitation of physical activity",
+    "correct_answer": "C",
+    "explanation": "Cardiac disease grade III indicates marked limitation of activity with symptoms during less than ordinary activity. Absolute limitation is grade IV. Comfort at rest is grade I. Asymptomatic initially is grade II.",
+    "additional": "High-yield: NYHA classification is often tested in exams. Prediction: Expect grade definitions (I–IV)."
+  },
+  {
+    "question_text": "The most common causative organism of acute pyelonephritis in pregnancy is",
+    "option_a": "Streptococcus faecalis",
+    "option_b": "Escherichia coli",
+    "option_c": "Proteus vulgaris",
+    "option_d": "Staphylococcus aureus",
+    "correct_answer": "B",
+    "explanation": "E. coli is the commonest cause of acute pyelonephritis in pregnancy due to ascending infection from the urinary tract. Proteus and Staphylococcus are less common. Streptococcus is not typical.",
+    "additional": "High-yield: E. coli is the leading urinary pathogen in pregnancy. Prediction: Expect management questions with antibiotics and hydration."
+  },
+  {
+    "question_text": "The priority management of uncomplicated malaria during the second trimester includes administration of",
+    "option_a": "Oral quinine",
+    "option_b": "Parenteral quinine",
+    "option_c": "Artemether lumefantrine",
+    "option_d": "Sulphadoxine pyrimethamine",
+    "correct_answer": "C",
+    "explanation": "Artemether-lumefantrine (AL) is the recommended first-line treatment for uncomplicated malaria in the second and third trimesters. Quinine is used in first trimester. SP is used for prophylaxis, not treatment.",
+    "additional": "High-yield: Drug safety varies by trimester. Prediction: AL in 2nd/3rd trimester, Quinine in 1st trimester are classic exam points."
+  },
+  {
+    "question_text": "The factor that is indicative of an abnormal labour pattern on vaginal examination is",
+    "option_a": "The vagina is warm and moist",
+    "option_b": "Cervical canal is long and thick",
+    "option_c": "Cervical canal is short and thin",
+    "option_d": "The vagina is hot and dry",
+    "correct_answer": "B",
+    "explanation": "A long and thick cervix on examination during labour indicates failure of effacement and abnormal labour. Short and thin cervix is normal in progression. Vaginal warmth/moistness is normal.",
+    "additional": "High-yield: Indicators of abnormal labour include thick, uneffaced cervix, Bandl’s ring, and failure to descend. Prediction: Often tested with partograph interpretation."
+  },
+  {
+    "question_text": "Which one of the following statements is correct about secondary post-partum haemorrhage?",
+    "option_a": "Mostly occurs between the 8th-14th day post-partum",
+    "option_b": "Results due to bleeding immediately after delivery",
+    "option_c": "Can extend up to the first 46 days following delivery",
+    "option_d": "Is diagnosed by presence of persistent lochia serosa",
+    "correct_answer": "C",
+    "explanation": "Secondary postpartum hemorrhage is defined as abnormal bleeding occurring from 24 hours up to 42 days after delivery. Thus, it can extend into the puerperium period. Immediate bleeding is primary PPH.",
+    "additional": "High-yield: Causes include retained products, subinvolution, and infection. Prediction: Likely tested on timing definitions of PPH."
+  },
+  {
+    "question_text": "A non-pharmacological measure of pain relief in labour includes",
+    "option_a": "Entonox",
+    "option_b": "Cyclothane",
+    "option_c": "Homeopathy",
+    "option_d": "Diamorphine",
+    "correct_answer": "C",
+    "explanation": "Homeopathy is a non-pharmacological method. Entonox and cyclothane are inhalational agents. Diamorphine is an opioid.",
+    "additional": "High-yield: Non-pharmacological measures include relaxation, breathing, massage, hydrotherapy. Prediction: Expect contrast between pharmacological vs non-pharmacological methods."
+  },
+  [
+  {
+    "question_text": "In monozygotic twinning, splitting after twelfth (12th) day of fertilization is highly associated with",
+    "option_a": "Fetal papyraceous",
+    "option_b": "Premature birth",
+    "option_c": "Siamese twin",
+    "option_d": "Diamniotic twin",
+    "correct_answer": "C",
+    "explanation": "When monozygotic twinning occurs after day 12, the division is incomplete, resulting in conjoined (Siamese) twins. Earlier splitting leads to dichorionic or monochorionic twins depending on the timing. Premature birth is common but not specific. Fetal papyraceous refers to mummified fetus in multiple pregnancy.",
+    "additional": "High-yield: Timing of division determines chorionicity/amnionicity. Prediction: Expect timing vs outcome question."
+  },
+  {
+    "question_text": "The drug of choice in the management of eclampsia is",
+    "option_a": "Phenobarbitone",
+    "option_b": "Magnesium sulphate",
+    "option_c": "Calcium gluconate",
+    "option_d": "Sodium bicarbonate",
+    "correct_answer": "B",
+    "explanation": "Magnesium sulphate is the gold standard drug for preventing and treating eclamptic seizures. Phenobarbitone is less effective and outdated. Calcium gluconate is the antidote to magnesium toxicity. Sodium bicarbonate is unrelated.",
+    "additional": "High-yield: Always monitor reflexes, respiratory rate, and urine output when administering MgSO₄. Prediction: NCK exams often ask both drug of choice and antidote."
+  },
+  {
+    "question_text": "The main clinical feature in Hyperemesis gravidarum is",
+    "option_a": "Persistent vomiting or nausea",
+    "option_b": "Persistent sight related problems",
+    "option_c": "Persistent diarrhea and vomiting",
+    "option_d": "Frequency or urgency of micturition",
+    "correct_answer": "A",
+    "explanation": "The hallmark of hyperemesis gravidarum is persistent nausea and vomiting leading to dehydration and weight loss. Sight problems are unrelated. Diarrhea is not a typical feature. Micturition frequency is due to pregnancy hormones, not hyperemesis.",
+    "additional": "High-yield: Main differentiator from morning sickness is severity and persistence. Prediction: Expect complication-based questions like dehydration, electrolyte imbalance."
+  },
+  {
+    "question_text": "Wernicke’s encephalopathy and Mallory-Weiss syndrome are among the complications of",
+    "option_a": "Placenta praevia",
+    "option_b": "Hypertensive disorders",
+    "option_c": "Vitamin B deficiency",
+    "option_d": "Hyperemesis gravidarum",
+    "correct_answer": "D",
+    "explanation": "Prolonged vomiting in hyperemesis leads to Wernicke’s encephalopathy (thiamine deficiency) and Mallory-Weiss tears due to repeated retching. Placenta praevia and hypertensive disorders do not cause these. Vitamin B deficiency is related but not the initiating factor.",
+    "additional": "High-yield: Always give thiamine before IV glucose. Prediction: Mallory-Weiss tear vs Boerhaave’s syndrome may be tested."
+  },
+  {
+    "question_text": "Uterine apoplexy is associated with",
+    "option_a": "Incidental haemorrhage",
+    "option_b": "Placental abruption",
+    "option_c": "Multiple pregnancy",
+    "option_d": "Placenta praevia",
+    "correct_answer": "B",
+    "explanation": "Placental abruption can cause uteroplacental bleeding into the uterine wall, producing Couvelaire uterus (uterine apoplexy). It is not caused by praevia or multiple pregnancy.",
+    "additional": "High-yield: Couvelaire uterus = bruised, blood-infiltrated uterine wall. Prediction: NCK often asks which hemorrhage leads to uterine apoplexy."
+  },
+  {
+    "question_text": "Positive fasting blood sugar and oral glucose tolerance test, as well as being symptomatic is diagnostic of",
+    "option_a": "Potential diabetes mellitus",
+    "option_b": "Gestational diabetes mellitus",
+    "option_c": "Clinical diabetes mellitus",
+    "option_d": "Chemical diabetes mellitus",
+    "correct_answer": "C",
+    "explanation": "Clinical diabetes is diagnosed when abnormal glucose tests are accompanied by symptoms such as polyuria, polydipsia, and weight loss. Potential and chemical diabetes are asymptomatic. Gestational diabetes is diagnosed during pregnancy without prior diabetes.",
+    "additional": "High-yield: Four classifications—potential, chemical, clinical, gestational. Prediction: Expect classification-based question with risk factors."
+  },
+  {
+    "question_text": "Neonate born of a diabetic mother, is fed within the first 15 minutes to prevent",
+    "option_a": "Hypocalcaemia",
+    "option_b": "Hypoglycaemia",
+    "option_c": "Hyponatraemia",
+    "option_d": "Hypokalaemia",
+    "correct_answer": "B",
+    "explanation": "Babies of diabetic mothers are prone to hypoglycemia due to rebound hyperinsulinism. Early feeding prevents hypoglycemia. Hypocalcemia and electrolyte imbalances are less immediate concerns.",
+    "additional": "High-yield: Hypoglycemia is the most common neonatal complication of diabetic mothers. Prediction: Expect feeding and monitoring questions."
+  },
+  {
+    "question_text": "Which of the following is associated with dizygotic twinning?",
+    "option_a": "Conjoined twins",
+    "option_b": "Polyhydramnios",
+    "option_c": "Superfecundation",
+    "option_d": "Fetus compressus",
+    "correct_answer": "C",
+    "explanation": "Dizygotic twins result from fertilization of two ova and may involve superfecundation (fertilization by different acts of coitus). Conjoined twins occur in monozygotic. Polyhydramnios can occur in either type. Fetus compressus occurs in monochorionic twins.",
+    "additional": "High-yield: Dizygotic = fraternal, may be different sex. Prediction: Chorionicity and zygosity are common exam topics."
+  },
+  {
+    "question_text": "The diagnostic factor of polyhydramnios based on percussion is",
+    "option_a": "Muffled fetal heart sounds",
+    "option_b": "Presence of a dull sound",
+    "option_c": "Excessive fetal movements",
+    "option_d": "Presence of a fluid thrill",
+    "correct_answer": "B",
+    "explanation": "A dull percussion note is typical of fluid accumulation in polyhydramnios. Fluid thrill is a sign in ascites. Excessive fetal movement and muffled FHS may be observed but dullness is diagnostic.",
+    "additional": "High-yield: Diagnosis confirmed by ultrasound (AFI >25 cm). Prediction: Question may contrast percussion vs USG findings."
+  },
+  {
+    "question_text": "Immediate management of a neonate whose mother is TB smear positive at birth is",
+    "option_a": "Isoniazid 5 mg/kg daily for 3 months",
+    "option_b": "Isoniazid 5 mg/kg daily for 3 weeks",
+    "option_c": "Isoniazid 5 mg/kg daily for 6 weeks",
+    "option_d": "Isoniazid 5 mg/kg daily for 6 months",
+    "correct_answer": "D",
+    "explanation": "The neonate is given isoniazid prophylaxis for 6 months to prevent transmission and then evaluated. Shorter courses are inadequate.",
+    "additional": "High-yield: BCG is given at end of INH prophylaxis if infant is TB-free. Prediction: Expect dosage + duration question."
+  },
+  {
+    "question_text": "Complete placenta praevia is also referred to as",
+    "option_a": "Type 4",
+    "option_b": "Type 1",
+    "option_c": "Type 2",
+    "option_d": "Type 3",
+    "correct_answer": "A",
+    "explanation": "Placenta praevia is classified into types. Complete coverage of the os is Type 4. Type 1 = low-lying, Type 2 = marginal, Type 3 = partial.",
+    "additional": "High-yield: Remember Type 4 = complete coverage. Prediction: Commonly tested classification system."
+  },
+  {
+    "question_text": "Haematinics, dietary advice and close surveillance are management plans for",
+    "option_a": "Moderate anaemia",
+    "option_b": "Mild anaemia",
+    "option_c": "Severe anaemia",
+    "option_d": "Anaemia prevention",
+    "correct_answer": "B",
+    "explanation": "Mild anemia is managed with oral iron, nutrition counseling, and follow-up. Severe anemia requires transfusion. Moderate may require admission. Prevention applies to general public health measures.",
+    "additional": "High-yield: WHO Hb cutoffs: Mild (10–10.9), Moderate (7–9.9), Severe (<7 g/dl). Prediction: Expect Hb value-based question."
+  },
+  {
+    "question_text": "A predisposing factor to cardiac disease in pregnancy includes",
+    "option_a": "Pulmonary oedema",
+    "option_b": "Easy fatiguability",
+    "option_c": "Basal crepitation",
+    "option_d": "Severe anaemia",
+    "correct_answer": "D",
+    "explanation": "Severe anemia stresses the heart and is a major predisposing factor for cardiac disease in pregnancy. Pulmonary edema, fatigue, and crepitation are signs of existing disease, not predisposing causes.",
+    "additional": "High-yield: Severe anemia leads to high-output heart failure in pregnancy. Prediction: Look for systemic conditions that strain the heart."
+  },
+  {
+    "question_text": "The clinical feature that is suggestive of acute pyelonephritis in pregnancy is",
+    "option_a": "Kinking of the ureters",
+    "option_b": "Vesico-ureteric reflux",
+    "option_c": "Fishy smell in urine",
+    "option_d": "Uncontrolled diabetes",
+    "correct_answer": "B",
+    "explanation": "Vesico-ureteric reflux is a common predisposing and suggestive feature of pyelonephritis in pregnancy. Kinking is anatomical, not diagnostic. Fishy smell suggests bacterial vaginosis, not pyelonephritis. Diabetes predisposes but is not diagnostic.",
+    "additional": "High-yield: Main presentation is fever, flank pain, dysuria, bacteriuria. Prediction: Expect E. coli as causative agent."
+  },
+  {
+    "question_text": "A pregnant woman with acute pyelonephritis is advised on a high fluid intake so as to",
+    "option_a": "Promote enough rest",
+    "option_b": "Correct dehydration",
+    "option_c": "Relief irritability",
+    "option_d": "Increase urine output",
+    "correct_answer": "D",
+    "explanation": "High fluid intake helps flush bacteria from urinary tract by increasing urine output. Correcting dehydration is supportive but main goal is diuresis.",
+    "additional": "High-yield: Antibiotics + hydration are cornerstone of management. Prediction: Exam question likely to test rationale for hydration."
+  },
+  {
+    "question_text": "The priority management of uncomplicated malaria during the second trimester includes the administration of",
+    "option_a": "Oral quinine",
+    "option_b": "Parenteral quinine",
+    "option_c": "Artemether lumefantrine",
+    "option_d": "Sulfadoxine pyrimethamine",
+    "correct_answer": "C",
+    "explanation": "As per WHO, Artemether-lumefantrine is safe and first-line in the second and third trimester. Quinine is preferred in the first trimester. SP is for intermittent prophylaxis, not treatment.",
+    "additional": "High-yield: Trimester-based drug safety is crucial. Prediction: Expect AL in 2nd/3rd, Quinine in 1st trimester."
+  },
+  {
+    "question_text": "The correct statement about malaria prophylaxis during pregnancy is that",
+    "option_a": "Sulfadoxine Pyrimethamine should be given to all pregnant women in malaria endemic zones",
+    "option_b": "All pregnant women in malaria endemic zones are assumed free of the parasite until tested",
+    "option_c": "Sulfadoxine Pyrimethamine should be administered with each alternate visit after quickening",
+    "option_d": "All antenatal clients in Kenya should receive intermittent presumptive treatment at least 6 doses",
+    "correct_answer": "A",
+    "explanation": "Intermittent preventive therapy with SP is recommended for all pregnant women in endemic zones. Assumption of freedom from infection is wrong. Dosing is at least 3, not 6 doses.",
+    "additional": "High-yield: Kenyan guidelines: ≥3 doses after quickening. Prediction: Expect dose and timing question."
+  },
+  {
+    "question_text": "The commonly used inhalational analgesia during labour is",
+    "option_a": "Entonox",
+    "option_b": "Trilene",
+    "option_c": "Oxygen",
+    "option_d": "Nitrous oxide",
+    "correct_answer": "A",
+    "explanation": "Entonox (50% nitrous oxide and 50% oxygen) is the commonly used inhalational analgesia in labour. Trilene is obsolete. Oxygen alone is not analgesic. Nitrous oxide alone is unsafe.",
+    "additional": "High-yield: Entonox provides rapid, safe, effective relief. Prediction: Exam often asks composition (50/50 mix)."
+  },
+  {
+    "question_text": "Which one of the following features is indicative of an abnormal labour pattern?",
+    "option_a": "Presence of the retraction ring",
+    "option_b": "Presence of the Bandl’s ring",
+    "option_c": "Cervical canal short and thin",
+    "option_d": "Vagina is warm and moist",
+    "correct_answer": "B",
+    "explanation": "Bandl’s ring is a pathological retraction ring seen in obstructed labour. A short and thin cervix indicates good progress. Warm moist vagina is normal.",
+    "additional": "High-yield: Bandl’s ring = obstructed labour emergency. Prediction: NCK frequently tests Bandl’s ring recognition."
+  },
+  {
+    "question_text": "Post-partum haemorrhage is likely to lead to acute renal failure due to",
+    "option_a": "Sheehan’s syndrome",
+    "option_b": "Disseminated intravascular coagulation",
+    "option_c": "Hypovolaemia leading to tubules necrosis",
+    "option_d": "Asherman’s syndrome",
+    "correct_answer": "C",
+    "explanation": "Severe hypovolemia in PPH can lead to acute tubular necrosis and renal failure. Sheehan’s is pituitary necrosis. Asherman’s is intrauterine adhesions. DIC causes bleeding disorders but not directly renal failure.",
+    "additional": "High-yield: ATN from hypoperfusion is classic in PPH shock. Prediction: Expect question linking hypovolemia to renal complications."
+  },
+  {
+    "question_text": "In monozygotic twinning, splitting after twelfth (12th) day of fertilization is highly associated with",
+    "option_a": "Fetal papyraceous",
+    "option_b": "Premature birth",
+    "option_c": "Siamese twin",
+    "option_d": "Diamniotic twin",
+    "correct_answer": "C",
+    "explanation": "When monozygotic twinning occurs after day 12, the division is incomplete, resulting in conjoined (Siamese) twins. Earlier splitting leads to dichorionic or monochorionic twins depending on the timing. Premature birth is common but not specific. Fetal papyraceous refers to mummified fetus in multiple pregnancy.",
+    "additional": "High-yield: Timing of division determines chorionicity/amnionicity. Prediction: Expect timing vs outcome question."
+  },
+  {
+    "question_text": "The drug of choice in the management of eclampsia is",
+    "option_a": "Phenobarbitone",
+    "option_b": "Magnesium sulphate",
+    "option_c": "Calcium gluconate",
+    "option_d": "Sodium bicarbonate",
+    "correct_answer": "B",
+    "explanation": "Magnesium sulphate is the gold standard drug for preventing and treating eclamptic seizures. Phenobarbitone is less effective and outdated. Calcium gluconate is the antidote to magnesium toxicity. Sodium bicarbonate is unrelated.",
+    "additional": "High-yield: Always monitor reflexes, respiratory rate, and urine output when administering MgSO₄. Prediction: NCK exams often ask both drug of choice and antidote."
+  },
+  {
+    "question_text": "The main clinical feature in Hyperemesis gravidarum is",
+    "option_a": "Persistent vomiting or nausea",
+    "option_b": "Persistent sight related problems",
+    "option_c": "Persistent diarrhea and vomiting",
+    "option_d": "Frequency or urgency of micturition",
+    "correct_answer": "A",
+    "explanation": "The hallmark of hyperemesis gravidarum is persistent nausea and vomiting leading to dehydration and weight loss. Sight problems are unrelated. Diarrhea is not a typical feature. Micturition frequency is due to pregnancy hormones, not hyperemesis.",
+    "additional": "High-yield: Main differentiator from morning sickness is severity and persistence. Prediction: Expect complication-based questions like dehydration, electrolyte imbalance."
+  },
+  {
+    "question_text": "Wernicke’s encephalopathy and Mallory-Weiss syndrome are among the complications of",
+    "option_a": "Placenta praevia",
+    "option_b": "Hypertensive disorders",
+    "option_c": "Vitamin B deficiency",
+    "option_d": "Hyperemesis gravidarum",
+    "correct_answer": "D",
+    "explanation": "Prolonged vomiting in hyperemesis leads to Wernicke’s encephalopathy (thiamine deficiency) and Mallory-Weiss tears due to repeated retching. Placenta praevia and hypertensive disorders do not cause these. Vitamin B deficiency is related but not the initiating factor.",
+    "additional": "High-yield: Always give thiamine before IV glucose. Prediction: Mallory-Weiss tear vs Boerhaave’s syndrome may be tested."
+  },
+  {
+    "question_text": "Uterine apoplexy is associated with",
+    "option_a": "Incidental haemorrhage",
+    "option_b": "Placental abruption",
+    "option_c": "Multiple pregnancy",
+    "option_d": "Placenta praevia",
+    "correct_answer": "B",
+    "explanation": "Placental abruption can cause uteroplacental bleeding into the uterine wall, producing Couvelaire uterus (uterine apoplexy). It is not caused by praevia or multiple pregnancy.",
+    "additional": "High-yield: Couvelaire uterus = bruised, blood-infiltrated uterine wall. Prediction: NCK often asks which hemorrhage leads to uterine apoplexy."
+  },
+  {
+    "question_text": "Positive fasting blood sugar and oral glucose tolerance test, as well as being symptomatic is diagnostic of",
+    "option_a": "Potential diabetes mellitus",
+    "option_b": "Gestational diabetes mellitus",
+    "option_c": "Clinical diabetes mellitus",
+    "option_d": "Chemical diabetes mellitus",
+    "correct_answer": "C",
+    "explanation": "Clinical diabetes is diagnosed when abnormal glucose tests are accompanied by symptoms such as polyuria, polydipsia, and weight loss. Potential and chemical diabetes are asymptomatic. Gestational diabetes is diagnosed during pregnancy without prior diabetes.",
+    "additional": "High-yield: Four classifications—potential, chemical, clinical, gestational. Prediction: Expect classification-based question with risk factors."
+  },
+  {
+    "question_text": "Neonate born of a diabetic mother, is fed within the first 15 minutes to prevent",
+    "option_a": "Hypocalcaemia",
+    "option_b": "Hypoglycaemia",
+    "option_c": "Hyponatraemia",
+    "option_d": "Hypokalaemia",
+    "correct_answer": "B",
+    "explanation": "Babies of diabetic mothers are prone to hypoglycemia due to rebound hyperinsulinism. Early feeding prevents hypoglycemia. Hypocalcemia and electrolyte imbalances are less immediate concerns.",
+    "additional": "High-yield: Hypoglycemia is the most common neonatal complication of diabetic mothers. Prediction: Expect feeding and monitoring questions."
+  },
+  {
+    "question_text": "Which of the following is associated with dizygotic twinning?",
+    "option_a": "Conjoined twins",
+    "option_b": "Polyhydramnios",
+    "option_c": "Superfecundation",
+    "option_d": "Fetus compressus",
+    "correct_answer": "C",
+    "explanation": "Dizygotic twins result from fertilization of two ova and may involve superfecundation (fertilization by different acts of coitus). Conjoined twins occur in monozygotic. Polyhydramnios can occur in either type. Fetus compressus occurs in monochorionic twins.",
+    "additional": "High-yield: Dizygotic = fraternal, may be different sex. Prediction: Chorionicity and zygosity are common exam topics."
+  },
+  {
+    "question_text": "The diagnostic factor of polyhydramnios based on percussion is",
+    "option_a": "Muffled fetal heart sounds",
+    "option_b": "Presence of a dull sound",
+    "option_c": "Excessive fetal movements",
+    "option_d": "Presence of a fluid thrill",
+    "correct_answer": "B",
+    "explanation": "A dull percussion note is typical of fluid accumulation in polyhydramnios. Fluid thrill is a sign in ascites. Excessive fetal movement and muffled FHS may be observed but dullness is diagnostic.",
+    "additional": "High-yield: Diagnosis confirmed by ultrasound (AFI >25 cm). Prediction: Question may contrast percussion vs USG findings."
+  },
+  {
+    "question_text": "Immediate management of a neonate whose mother is TB smear positive at birth is",
+    "option_a": "Isoniazid 5 mg/kg daily for 3 months",
+    "option_b": "Isoniazid 5 mg/kg daily for 3 weeks",
+    "option_c": "Isoniazid 5 mg/kg daily for 6 weeks",
+    "option_d": "Isoniazid 5 mg/kg daily for 6 months",
+    "correct_answer": "D",
+    "explanation": "The neonate is given isoniazid prophylaxis for 6 months to prevent transmission and then evaluated. Shorter courses are inadequate.",
+    "additional": "High-yield: BCG is given at end of INH prophylaxis if infant is TB-free. Prediction: Expect dosage + duration question."
+  },
+  {
+    "question_text": "Complete placenta praevia is also referred to as",
+    "option_a": "Type 4",
+    "option_b": "Type 1",
+    "option_c": "Type 2",
+    "option_d": "Type 3",
+    "correct_answer": "A",
+    "explanation": "Placenta praevia is classified into types. Complete coverage of the os is Type 4. Type 1 = low-lying, Type 2 = marginal, Type 3 = partial.",
+    "additional": "High-yield: Remember Type 4 = complete coverage. Prediction: Commonly tested classification system."
+  },
+  {
+    "question_text": "Haematinics, dietary advice and close surveillance are management plans for",
+    "option_a": "Moderate anaemia",
+    "option_b": "Mild anaemia",
+    "option_c": "Severe anaemia",
+    "option_d": "Anaemia prevention",
+    "correct_answer": "B",
+    "explanation": "Mild anemia is managed with oral iron, nutrition counseling, and follow-up. Severe anemia requires transfusion. Moderate may require admission. Prevention applies to general public health measures.",
+    "additional": "High-yield: WHO Hb cutoffs: Mild (10–10.9), Moderate (7–9.9), Severe (<7 g/dl). Prediction: Expect Hb value-based question."
+  },
+  {
+    "question_text": "A predisposing factor to cardiac disease in pregnancy includes",
+    "option_a": "Pulmonary oedema",
+    "option_b": "Easy fatiguability",
+    "option_c": "Basal crepitation",
+    "option_d": "Severe anaemia",
+    "correct_answer": "D",
+    "explanation": "Severe anemia stresses the heart and is a major predisposing factor for cardiac disease in pregnancy. Pulmonary edema, fatigue, and crepitation are signs of existing disease, not predisposing causes.",
+    "additional": "High-yield: Severe anemia leads to high-output heart failure in pregnancy. Prediction: Look for systemic conditions that strain the heart."
+  },
+  {
+    "question_text": "The clinical feature that is suggestive of acute pyelonephritis in pregnancy is",
+    "option_a": "Kinking of the ureters",
+    "option_b": "Vesico-ureteric reflux",
+    "option_c": "Fishy smell in urine",
+    "option_d": "Uncontrolled diabetes",
+    "correct_answer": "B",
+    "explanation": "Vesico-ureteric reflux is a common predisposing and suggestive feature of pyelonephritis in pregnancy. Kinking is anatomical, not diagnostic. Fishy smell suggests bacterial vaginosis, not pyelonephritis. Diabetes predisposes but is not diagnostic.",
+    "additional": "High-yield: Main presentation is fever, flank pain, dysuria, bacteriuria. Prediction: Expect E. coli as causative agent."
+  },
+  {
+    "question_text": "A pregnant woman with acute pyelonephritis is advised on a high fluid intake so as to",
+    "option_a": "Promote enough rest",
+    "option_b": "Correct dehydration",
+    "option_c": "Relief irritability",
+    "option_d": "Increase urine output",
+    "correct_answer": "D",
+    "explanation": "High fluid intake helps flush bacteria from urinary tract by increasing urine output. Correcting dehydration is supportive but main goal is diuresis.",
+    "additional": "High-yield: Antibiotics + hydration are cornerstone of management. Prediction: Exam question likely to test rationale for hydration."
+  },
+  {
+    "question_text": "The priority management of uncomplicated malaria during the second trimester includes the administration of",
+    "option_a": "Oral quinine",
+    "option_b": "Parenteral quinine",
+    "option_c": "Artemether lumefantrine",
+    "option_d": "Sulfadoxine pyrimethamine",
+    "correct_answer": "C",
+    "explanation": "As per WHO, Artemether-lumefantrine is safe and first-line in the second and third trimester. Quinine is preferred in the first trimester. SP is for intermittent prophylaxis, not treatment.",
+    "additional": "High-yield: Trimester-based drug safety is crucial. Prediction: Expect AL in 2nd/3rd, Quinine in 1st trimester."
+  },
+  {
+    "question_text": "The correct statement about malaria prophylaxis during pregnancy is that",
+    "option_a": "Sulfadoxine Pyrimethamine should be given to all pregnant women in malaria endemic zones",
+    "option_b": "All pregnant women in malaria endemic zones are assumed free of the parasite until tested",
+    "option_c": "Sulfadoxine Pyrimethamine should be administered with each alternate visit after quickening",
+    "option_d": "All antenatal clients in Kenya should receive intermittent presumptive treatment at least 6 doses",
+    "correct_answer": "A",
+    "explanation": "Intermittent preventive therapy with SP is recommended for all pregnant women in endemic zones. Assumption of freedom from infection is wrong. Dosing is at least 3, not 6 doses.",
+    "additional": "High-yield: Kenyan guidelines: ≥3 doses after quickening. Prediction: Expect dose and timing question."
+  },
+  {
+    "question_text": "The commonly used inhalational analgesia during labour is",
+    "option_a": "Entonox",
+    "option_b": "Trilene",
+    "option_c": "Oxygen",
+    "option_d": "Nitrous oxide",
+    "correct_answer": "A",
+    "explanation": "Entonox (50% nitrous oxide and 50% oxygen) is the commonly used inhalational analgesia in labour. Trilene is obsolete. Oxygen alone is not analgesic. Nitrous oxide alone is unsafe.",
+    "additional": "High-yield: Entonox provides rapid, safe, effective relief. Prediction: Exam often asks composition (50/50 mix)."
+  },
+  {
+    "question_text": "Which one of the following features is indicative of an abnormal labour pattern?",
+    "option_a": "Presence of the retraction ring",
+    "option_b": "Presence of the Bandl’s ring",
+    "option_c": "Cervical canal short and thin",
+    "option_d": "Vagina is warm and moist",
+    "correct_answer": "B",
+    "explanation": "Bandl’s ring is a pathological retraction ring seen in obstructed labour. A short and thin cervix indicates good progress. Warm moist vagina is normal.",
+    "additional": "High-yield: Bandl’s ring = obstructed labour emergency. Prediction: NCK frequently tests Bandl’s ring recognition."
+  },
+  {
+    "question_text": "Post-partum haemorrhage is likely to lead to acute renal failure due to",
+    "option_a": "Sheehan’s syndrome",
+    "option_b": "Disseminated intravascular coagulation",
+    "option_c": "Hypovolaemia leading to tubules necrosis",
+    "option_d": "Asherman’s syndrome",
+    "correct_answer": "C",
+    "explanation": "Severe hypovolemia in PPH can lead to acute tubular necrosis and renal failure. Sheehan’s is pituitary necrosis. Asherman’s is intrauterine adhesions. DIC causes bleeding disorders but not directly renal failure.",
+    "additional": "High-yield: ATN from hypoperfusion is classic in PPH shock. Prediction: Expect question linking hypovolemia to renal complications."
+  },
+  {
+    "question_text": "The purpose of giving diazepam in the management of eclampsia is to",
+    "option_a": "Prevent convulsions",
+    "option_b": "Reduce blood pressure",
+    "option_c": "Reverse magnesium toxicity",
+    "option_d": "Relieve headache",
+    "correct_answer": "A",
+    "explanation": "Diazepam is an anticonvulsant used to control or prevent seizures in eclampsia. It does not treat hypertension, does not reverse magnesium toxicity (calcium gluconate does), and does not relieve headache specifically.",
+    "additional": "High-yield: Diazepam is second-line; magnesium sulphate remains drug of choice. Prediction: Question may test drug hierarchy in eclampsia management."
+  },
+  {
+    "question_text": "Which of the following is NOT a complication of placenta praevia?",
+    "option_a": "Post-partum haemorrhage",
+    "option_b": "Vasa praevia",
+    "option_c": "Couvelaire uterus",
+    "option_d": "Malpresentation",
+    "correct_answer": "C",
+    "explanation": "Couvelaire uterus (uterine apoplexy) occurs in abruptio placentae, not placenta praevia. PPH, vasa praevia, and malpresentations are common complications of placenta praevia.",
+    "additional": "High-yield: Distinguish complications of praevia vs abruption. Prediction: NCK may give a list and ask 'which is NOT'."
+  },
+  {
+    "question_text": "The main symptom of placenta praevia is",
+    "option_a": "Painless vaginal bleeding",
+    "option_b": "Painful vaginal bleeding",
+    "option_c": "Abdominal tenderness",
+    "option_d": "Excessive vomiting",
+    "correct_answer": "A",
+    "explanation": "Placenta praevia typically presents with painless, bright red vaginal bleeding in the second half of pregnancy. Painful bleeding with tender uterus suggests abruption.",
+    "additional": "High-yield: 'Painless bleeding' = praevia, 'Painful bleeding' = abruption. Prediction: Classic contrasting exam question."
+  },
+  {
+    "question_text": "Placenta praevia is best diagnosed by",
+    "option_a": "Ultrasound scan",
+    "option_b": "Abdominal palpation",
+    "option_c": "Per vaginal examination",
+    "option_d": "Speculum examination",
+    "correct_answer": "A",
+    "explanation": "Ultrasound is the safest and most accurate way to diagnose placenta praevia. Digital vaginal exam can provoke massive bleeding and is contraindicated.",
+    "additional": "High-yield: Always confirm with US before any vaginal exam. Prediction: Safety of diagnostic procedures is commonly tested."
+  },
+  {
+    "question_text": "In abruptio placentae, the uterus is typically",
+    "option_a": "Soft and relaxed",
+    "option_b": "Hard and tender",
+    "option_c": "Enlarged but non-tender",
+    "option_d": "Small and contracted",
+    "correct_answer": "B",
+    "explanation": "In placental abruption, blood collects behind the placenta, leading to a hard, woody, tender uterus. A soft uterus is seen in praevia. Non-tender uterus is not typical.",
+    "additional": "High-yield: Uterine tone is a key differentiator: praevia = soft, abruption = hard. Prediction: Expect scenario questions."
+  },
+  {
+    "question_text": "A major maternal complication of abruptio placentae is",
+    "option_a": "Amniotic fluid embolism",
+    "option_b": "Disseminated intravascular coagulation",
+    "option_c": "Wernicke’s encephalopathy",
+    "option_d": "Uterine rupture",
+    "correct_answer": "B",
+    "explanation": "Severe abruption may trigger DIC due to release of thromboplastin from the retroplacental clot. Amniotic fluid embolism is a rare unrelated condition. Wernicke’s relates to hyperemesis. Uterine rupture has different causes.",
+    "additional": "High-yield: Abruptio placentae → DIC, shock, renal failure. Prediction: Coagulopathy link often tested."
+  },
+  {
+    "question_text": "Which of the following is NOT a risk factor for abruptio placentae?",
+    "option_a": "Trauma",
+    "option_b": "Polyhydramnios",
+    "option_c": "Preeclampsia",
+    "option_d": "Placenta praevia",
+    "correct_answer": "D",
+    "explanation": "Placenta praevia and abruption are different pathologies. Trauma, hypertension/preeclampsia, and polyhydramnios are all recognized risk factors for abruption.",
+    "additional": "High-yield: Important risk factors = hypertension, trauma, smoking, polyhydramnios. Prediction: Expect 'which is NOT' question."
+  },
+  {
+    "question_text": "The commonest cause of postpartum haemorrhage is",
+    "option_a": "Uterine atony",
+    "option_b": "Retained placenta",
+    "option_c": "Genital tract trauma",
+    "option_d": "Coagulopathy",
+    "correct_answer": "A",
+    "explanation": "Failure of the uterus to contract (uterine atony) is the leading cause of PPH. Other causes are retained products, trauma, and clotting defects.",
+    "additional": "High-yield: Remember 4 Ts: Tone (atony), Tissue (retained), Trauma, Thrombin (coagulopathy). Prediction: NCK exams often ask for commonest cause."
+  },
+  {
+    "question_text": "Secondary postpartum haemorrhage occurs",
+    "option_a": "Within 6 hours after delivery",
+    "option_b": "Between 24 hours and 42 days post-delivery",
+    "option_c": "During third stage of labour",
+    "option_d": "Immediately after placenta expulsion",
+    "correct_answer": "B",
+    "explanation": "Secondary PPH is defined as abnormal bleeding occurring from 24 hours up to 42 days after delivery. Bleeding within 24 hours is primary PPH.",
+    "additional": "High-yield: Common causes: retained products, infection, subinvolution. Prediction: Exam often asks for time frame definitions."
+  },
+  {
+    "question_text": "A major cause of puerperal sepsis is",
+    "option_a": "Poor personal hygiene",
+    "option_b": "Retained products of conception",
+    "option_c": "Antepartum haemorrhage",
+    "option_d": "Anaemia in pregnancy",
+    "correct_answer": "B",
+    "explanation": "Retained products provide a nidus for infection leading to puerperal sepsis. Poor hygiene and anemia predispose but are not direct causes.",
+    "additional": "High-yield: Puerperal sepsis = one of top five maternal killers. Prediction: Expect management + prevention question."
+  },
+  {
+    "question_text": "The drug of choice in the management of postpartum haemorrhage due to uterine atony is",
+    "option_a": "Ergometrine",
+    "option_b": "Carboprost",
+    "option_c": "Oxytocin",
+    "option_d": "Misoprostol",
+    "correct_answer": "C",
+    "explanation": "Oxytocin is the first-line drug for uterine atony. Ergometrine and carboprost are alternatives. Misoprostol is useful where oxytocin is unavailable.",
+    "additional": "High-yield: Stepwise management: Oxytocin → Ergometrine/Carboprost → Misoprostol. Prediction: Common exam drug hierarchy question."
+  },
+  {
+    "question_text": "The antidote for magnesium sulphate toxicity is",
+    "option_a": "Atropine",
+    "option_b": "Calcium gluconate",
+    "option_c": "Diazepam",
+    "option_d": "Naloxone",
+    "correct_answer": "B",
+    "explanation": "Calcium gluconate reverses respiratory depression and cardiac toxicity due to MgSO₄ overdose. Atropine, diazepam, and naloxone are unrelated.",
+    "additional": "High-yield: Always keep calcium gluconate bedside when administering MgSO₄. Prediction: Classic safety question."
+  },
+  {
+    "question_text": "Which of the following best describes HELLP syndrome?",
+    "option_a": "Haemolysis, Elevated Liver enzymes, Low Platelets",
+    "option_b": "Hypertension, Elevated Lactate, Low Proteins",
+    "option_c": "Haemorrhage, Edema, Low Protein",
+    "option_d": "Hypoxia, Encephalopathy, Liver Pain",
+    "correct_answer": "A",
+    "explanation": "HELLP syndrome is a severe form of preeclampsia characterized by Hemolysis, Elevated Liver enzymes, and Low Platelets. The other options are distractors.",
+    "additional": "High-yield: Associated with high maternal morbidity, needs prompt delivery. Prediction: Common acronym expansion question."
+  },
+  {
+    "question_text": "A maternal risk of polyhydramnios includes",
+    "option_a": "Premature rupture of membranes",
+    "option_b": "Pulmonary embolism",
+    "option_c": "Diabetic ketoacidosis",
+    "option_d": "Post-term pregnancy",
+    "correct_answer": "A",
+    "explanation": "Polyhydramnios overstretches the uterus, increasing the risk of PROM, malpresentation, and preterm labour. Pulmonary embolism and DKA are not directly linked. Post-term is unrelated.",
+    "additional": "High-yield: Maternal risks = PROM, PPH, malpresentation. Prediction: Expect exam on complications of excess amniotic fluid."
+  },
+  {
+    "question_text": "The most common cause of maternal mortality in eclampsia is",
+    "option_a": "Acute renal failure",
+    "option_b": "Cerebral haemorrhage",
+    "option_c": "Heart failure",
+    "option_d": "Severe anaemia",
+    "correct_answer": "B",
+    "explanation": "Cerebral hemorrhage due to severe hypertension is the leading cause of maternal death in eclampsia. Renal failure and heart failure are complications but less frequent.",
+    "additional": "High-yield: Maternal mortality in eclampsia is often neurological. Prediction: NCK exam commonly tests leading cause."
+  },
+  {
+    "question_text": "Which of the following is NOT a complication of multiple pregnancy?",
+    "option_a": "Polyhydramnios",
+    "option_b": "Twin-to-twin transfusion syndrome",
+    "option_c": "Fetal papyraceous",
+    "option_d": "Molar pregnancy",
+    "correct_answer": "D",
+    "explanation": "Molar pregnancy is unrelated to multiple gestation. Polyhydramnios, twin-to-twin transfusion, and fetal papyraceous are common complications.",
+    "additional": "High-yield: Complications include prematurity, anomalies, and malpresentation. Prediction: Expect list-based 'NOT a complication' question."
+  },
+  {
+    "question_text": "The safest anticonvulsant in pregnancy is",
+    "option_a": "Magnesium sulphate",
+    "option_b": "Diazepam",
+    "option_c": "Phenytoin",
+    "option_d": "Phenobarbitone",
+    "correct_answer": "A",
+    "explanation": "Magnesium sulphate is safe and effective in preventing and treating eclamptic seizures. Other anticonvulsants cross the placenta with more risks.",
+    "additional": "High-yield: MgSO₄ also reduces risk of cerebral palsy in preterm infants. Prediction: NCK often tests safety profiles of drugs."
+  },
+  {
+    "question_text": "In obstructed labour, the pathological retraction ring is called",
+    "option_a": "Bandl’s ring",
+    "option_b": "Schroeder’s ring",
+    "option_c": "Couvelaire ring",
+    "option_d": "Murphy’s ring",
+    "correct_answer": "A",
+    "explanation": "Bandl’s ring is a pathological retraction ring seen in obstructed labour. Schroeder’s describes uterine involution. Couvelaire refers to uterine apoplexy. Murphy’s ring is not obstetric.",
+    "additional": "High-yield: Bandl’s ring = emergency sign. Prediction: NCK often asks its significance in obstructed labour."
+  },
+  {
+    "question_text": "The most common site of uterine rupture is",
+    "option_a": "Fundus",
+    "option_b": "Lower uterine segment",
+    "option_c": "Cervix",
+    "option_d": "Upper uterine segment",
+    "correct_answer": "B",
+    "explanation": "The lower uterine segment is the most common site for rupture, especially in scarred uteri. The fundus and upper segment are stronger and less likely to rupture.",
+    "additional": "High-yield: Scar rupture usually occurs at lower segment in women with previous caesarean section. Prediction: NCK often tests site + risk factors."
+  },
+  {
+    "question_text": "A classical symptom of uterine rupture is",
+    "option_a": "Excessive fetal movements",
+    "option_b": "Cessation of uterine contractions",
+    "option_c": "Cessation of abdominal pain",
+    "option_d": "Excessive lochia",
+    "correct_answer": "B",
+    "explanation": "Cessation of uterine contractions with acute abdominal pain and maternal shock is characteristic of rupture. Excessive movements or lochia are not typical.",
+    "additional": "High-yield: Triad = sudden pain, cessation of contractions, shock. Prediction: Common exam vignette."
+  },
+  {
+    "question_text": "A common predisposing factor for uterine rupture is",
+    "option_a": "Previous caesarean section",
+    "option_b": "Twin pregnancy",
+    "option_c": "Polyhydramnios",
+    "option_d": "Preeclampsia",
+    "correct_answer": "A",
+    "explanation": "Previous caesarean section scar is the main risk factor for rupture. Twin pregnancy and polyhydramnios increase uterine distension but rupture is less common.",
+    "additional": "High-yield: Scarred uterus is the biggest risk factor. Prediction: NCK often tests risk factors of rupture."
+  },
+  {
+    "question_text": "In uterine rupture, the presenting part is",
+    "option_a": "Stationary",
+    "option_b": "Rapidly receding",
+    "option_c": "Ballotable",
+    "option_d": "Engaged",
+    "correct_answer": "B",
+    "explanation": "In rupture, the presenting part often recedes rapidly due to loss of uterine tone and escape of fetus into peritoneal cavity.",
+    "additional": "High-yield: Loss of station = key sign of rupture. Prediction: Clinical sign questions are common."
+  },
+  {
+    "question_text": "The definitive management of complete uterine rupture is",
+    "option_a": "Oxytocin infusion",
+    "option_b": "Repair of uterus or hysterectomy",
+    "option_c": "Ergometrine injection",
+    "option_d": "Manual removal of placenta",
+    "correct_answer": "B",
+    "explanation": "Definitive management involves surgical intervention—either uterine repair if possible or hysterectomy if damage is extensive. Oxytocin and ergometrine worsen bleeding.",
+    "additional": "High-yield: Choice depends on parity, fertility desire, and extent of rupture. Prediction: Surgical management focus."
+  },
+  {
+    "question_text": "The commonest cause of puerperal psychosis is",
+    "option_a": "Schizophrenia",
+    "option_b": "Affective disorders",
+    "option_c": "Puerperal sepsis",
+    "option_d": "Eclampsia",
+    "correct_answer": "B",
+    "explanation": "Puerperal psychosis is most often associated with affective disorders (depression, bipolar). Schizophrenia may manifest but is less common. Sepsis and eclampsia are organic causes.",
+    "additional": "High-yield: Occurs within 2 weeks postpartum. Prediction: Expect cause + timing question."
+  },
+  {
+    "question_text": "Which of the following is a risk factor for shoulder dystocia?",
+    "option_a": "Polyhydramnios",
+    "option_b": "Macrosomia",
+    "option_c": "Prematurity",
+    "option_d": "Multiple gestation",
+    "correct_answer": "B",
+    "explanation": "Macrosomia (large baby, usually >4.5 kg) is a major risk factor for shoulder dystocia. Prematurity reduces risk. Polyhydramnios and multiples are not typical risks.",
+    "additional": "High-yield: Shoulder dystocia = obstetric emergency. Prediction: Expect risk factors + maneuvers question."
+  },
+  {
+    "question_text": "McRoberts’ maneuver is used in the management of",
+    "option_a": "Cord prolapse",
+    "option_b": "Shoulder dystocia",
+    "option_c": "Breech delivery",
+    "option_d": "Placenta praevia",
+    "correct_answer": "B",
+    "explanation": "McRoberts’ maneuver (flexing maternal thighs to abdomen) relieves shoulder impaction in shoulder dystocia. It is not used in cord prolapse, breech, or praevia.",
+    "additional": "High-yield: First-line maneuver in shoulder dystocia. Prediction: Always paired with suprapubic pressure in exams."
+  },
+  {
+    "question_text": "The best management of cord prolapse with a live fetus is",
+    "option_a": "Immediate vaginal delivery",
+    "option_b": "Manual replacement of the cord",
+    "option_c": "Immediate caesarean section",
+    "option_d": "High forceps delivery",
+    "correct_answer": "C",
+    "explanation": "Emergency caesarean section is the safest management if the fetus is viable. Vaginal delivery is too slow. Manual cord replacement is risky.",
+    "additional": "High-yield: Relieve cord pressure while preparing for C/S. Prediction: Expect first aid measures + definitive management."
+  },
+  {
+    "question_text": "In cord prolapse, immediate nursing action is to",
+    "option_a": "Push the cord back into the uterus",
+    "option_b": "Elevate the presenting part off the cord",
+    "option_c": "Apply fundal pressure",
+    "option_d": "Give oxytocin",
+    "correct_answer": "B",
+    "explanation": "Relieving pressure on the cord by elevating presenting part is immediate life-saving action until definitive delivery. Pushing cord back worsens trauma. Fundal pressure is contraindicated.",
+    "additional": "High-yield: Knee-chest or Trendelenburg positions also used. Prediction: Often tested as a nursing intervention question."
+  },
+  {
+    "question_text": "The definitive management of cord prolapse is",
+    "option_a": "Artificial rupture of membranes",
+    "option_b": "Emergency caesarean section",
+    "option_c": "Induction of labour",
+    "option_d": "Vacuum extraction",
+    "correct_answer": "B",
+    "explanation": "Emergency caesarean is the definitive management in cord prolapse with viable fetus. Rupturing membranes or induction worsens situation.",
+    "additional": "High-yield: Delivery method depends on fetal viability and cervical dilation. Prediction: C/S is safest and frequently tested."
+  },
+  {
+    "question_text": "The major complication of cord prolapse is",
+    "option_a": "Maternal hemorrhage",
+    "option_b": "Fetal hypoxia",
+    "option_c": "Maternal sepsis",
+    "option_d": "Fetal sepsis",
+    "correct_answer": "B",
+    "explanation": "Cord prolapse leads to cord compression, causing acute fetal hypoxia. Maternal complications are minimal compared to fetal risk.",
+    "additional": "High-yield: Cord prolapse mortality depends on speed of delivery. Prediction: Expect pathophysiology-focused question."
+  },
+  {
+    "question_text": "A common complication of breech delivery is",
+    "option_a": "Cord prolapse",
+    "option_b": "Shoulder dystocia",
+    "option_c": "PPH",
+    "option_d": "Retained placenta",
+    "correct_answer": "A",
+    "explanation": "Cord prolapse is common in breech due to poor engagement of presenting part. Shoulder dystocia is linked with cephalic macrosomia.",
+    "additional": "High-yield: Breech deliveries carry higher perinatal risks. Prediction: Expect complications + maneuvers questions."
+  },
+  {
+    "question_text": "Pinard’s maneuver is performed during",
+    "option_a": "Management of breech delivery",
+    "option_b": "Management of shoulder dystocia",
+    "option_c": "Manual removal of placenta",
+    "option_d": "Management of uterine rupture",
+    "correct_answer": "A",
+    "explanation": "Pinard’s maneuver is used in breech delivery to deliver extended legs by flexing the knee. Not relevant in shoulder dystocia, placenta removal, or rupture.",
+    "additional": "High-yield: Other breech maneuvers include Lovset’s and Mauriceau-Smellie-Veit. Prediction: Expect maneuver identification questions."
+  },
+  {
+    "question_text": "Lovset’s maneuver is indicated for",
+    "option_a": "Delivery of extended arms in breech",
+    "option_b": "Delivery of head in breech",
+    "option_c": "Delivery of shoulders in dystocia",
+    "option_d": "Manual placenta removal",
+    "correct_answer": "A",
+    "explanation": "Lovset’s maneuver is used to deliver extended arms in breech presentation. The head is delivered by Mauriceau-Smellie-Veit maneuver.",
+    "additional": "High-yield: Maneuver identification is frequently tested. Prediction: Pair breech maneuvers with parts delivered."
+  },
+  {
+    "question_text": "Mauriceau-Smellie-Veit maneuver is used for",
+    "option_a": "Delivery of breech head",
+    "option_b": "Delivery of breech arms",
+    "option_c": "Shoulder dystocia",
+    "option_d": "Manual placenta removal",
+    "correct_answer": "A",
+    "explanation": "Mauriceau-Smellie-Veit maneuver is performed to deliver the aftercoming head in breech presentation by flexing and guiding it out.",
+    "additional": "High-yield: Sequence: Pinard (legs), Lovset (arms), MSV (head). Prediction: Exam often tests which maneuver matches which step."
+  },
+  {
+    "question_text": "Which of the following is the most dangerous complication of obstructed labour?",
+    "option_a": "Shoulder dystocia",
+    "option_b": "Uterine rupture",
+    "option_c": "Cord prolapse",
+    "option_d": "Prolonged labour",
+    "correct_answer": "B",
+    "explanation": "Uterine rupture is the most life-threatening complication of obstructed labour, leading to maternal shock and fetal death. Others are less catastrophic.",
+    "additional": "High-yield: Obstructed labour triad = Bandl’s ring, maternal exhaustion, risk of rupture. Prediction: Classic exam focus."
+  },
+  {
+    "question_text": "The main danger of vaginal delivery in placenta praevia is",
+    "option_a": "Retained placenta",
+    "option_b": "Massive haemorrhage",
+    "option_c": "Cervical laceration",
+    "option_d": "Prolonged labour",
+    "correct_answer": "B",
+    "explanation": "Placenta praevia covers the cervical os, and attempting vaginal delivery leads to torrential hemorrhage. Retained placenta and lacerations may occur but are not the main risk.",
+    "additional": "High-yield: Definitive management is caesarean section in complete praevia. Prediction: Expect 'danger of vaginal delivery' question."
+  },
+  {
+    "question_text": "The commonest cause of maternal mortality in placenta praevia is",
+    "option_a": "Sepsis",
+    "option_b": "Renal failure",
+    "option_c": "Haemorrhage",
+    "option_d": "Preeclampsia",
+    "correct_answer": "C",
+    "explanation": "Severe hemorrhage is the main cause of maternal death in placenta praevia. Sepsis and renal failure are possible but less common.",
+    "additional": "High-yield: Haemorrhage remains the biggest threat in antepartum bleeding. Prediction: May test both maternal and fetal mortality causes."
+  },
+  {
+    "question_text": "A common fetal complication of placenta praevia is",
+    "option_a": "Intrauterine growth restriction",
+    "option_b": "Congenital malformation",
+    "option_c": "Prematurity",
+    "option_d": "Macrosomia",
+    "correct_answer": "C",
+    "explanation": "Placenta praevia often necessitates preterm delivery, leading to prematurity. Growth restriction is more typical in abruption. Macrosomia occurs in diabetic mothers.",
+    "additional": "High-yield: Main fetal issues: prematurity, malpresentation, hypoxia. Prediction: Expect fetal vs maternal complications question."
+  },
+  {
+    "question_text": "A classical sign of concealed accidental haemorrhage is",
+    "option_a": "Revealed vaginal bleeding",
+    "option_b": "Uterus hard and tender",
+    "option_c": "Soft uterus",
+    "option_d": "Painless bleeding",
+    "correct_answer": "B",
+    "explanation": "In concealed abruption, blood collects behind placenta, causing a tense, hard, tender uterus with little external bleeding. Painless bleeding is praevia.",
+    "additional": "High-yield: Concealed abruption = high maternal/fetal mortality. Prediction: Differentiating concealed vs revealed bleeding is a key exam point."
+  },
+  {
+    "question_text": "A pathognomonic feature of eclampsia is",
+    "option_a": "Convulsions",
+    "option_b": "Severe hypertension",
+    "option_c": "Headache and blurred vision",
+    "option_d": "Proteinuria",
+    "correct_answer": "A",
+    "explanation": "Convulsions in a woman with preeclampsia is diagnostic of eclampsia. Hypertension and proteinuria define preeclampsia, not eclampsia.",
+    "additional": "High-yield: Definition = preeclampsia + seizures. Prediction: Pathognomonic feature question is common."
+  },
+  {
+    "question_text": "The definitive management of severe eclampsia is",
+    "option_a": "Antihypertensive therapy",
+    "option_b": "Magnesium sulphate therapy",
+    "option_c": "Immediate delivery",
+    "option_d": "Diuretics",
+    "correct_answer": "C",
+    "explanation": "Delivery is the only definitive management. Antihypertensives and MgSO₄ stabilize but do not cure. Diuretics are not routine.",
+    "additional": "High-yield: Stabilize mother → expedite delivery. Prediction: Management sequence is frequently tested."
+  },
+  {
+    "question_text": "Which of the following drugs is contraindicated in severe preeclampsia?",
+    "option_a": "Methyldopa",
+    "option_b": "Diazepam",
+    "option_c": "ACE inhibitors",
+    "option_d": "Hydralazine",
+    "correct_answer": "C",
+    "explanation": "ACE inhibitors are teratogenic and contraindicated. Methyldopa and hydralazine are safe. Diazepam is used for seizures.",
+    "additional": "High-yield: Antihypertensives safe in pregnancy = methyldopa, labetalol, hydralazine. Prediction: Drug safety question is likely."
+  },
+  {
+    "question_text": "In multiple pregnancy, fetus papyraceous results from",
+    "option_a": "Polyhydramnios",
+    "option_b": "Death of one fetus",
+    "option_c": "Twin-to-twin transfusion",
+    "option_d": "Cord prolapse",
+    "correct_answer": "B",
+    "explanation": "Fetus papyraceous is a mummified fetus compressed between membranes after death of one twin. It is not caused by polyhydramnios or cord prolapse.",
+    "additional": "High-yield: Seen in monochorionic twins. Prediction: Expect definition-based question."
+  },
+  {
+    "question_text": "The main risk of twin-to-twin transfusion syndrome is",
+    "option_a": "Congenital malformations",
+    "option_b": "Anemia in both twins",
+    "option_c": "Discordant growth",
+    "option_d": "Premature closure of sutures",
+    "correct_answer": "C",
+    "explanation": "TTTS leads to discordant growth, with donor twin anemic and small, recipient twin large and polycythemic. Malformations are not main risk.",
+    "additional": "High-yield: Occurs only in monochorionic twins. Prediction: Expect exam contrast with dizygotic twins."
+  },
+  {
+    "question_text": "The commonest cause of postpartum psychosis is",
+    "option_a": "Depression",
+    "option_b": "Affective disorders",
+    "option_c": "Schizophrenia",
+    "option_d": "Puerperal sepsis",
+    "correct_answer": "B",
+    "explanation": "Puerperal psychosis is most often linked to affective disorders (bipolar, depression with psychosis). Schizophrenia is less common.",
+    "additional": "High-yield: Onset usually within 2 weeks postpartum. Prediction: Likely exam question on psychiatric causes."
+  },
+  {
+    "question_text": "Which of the following is a clinical feature of severe anaemia in pregnancy?",
+    "option_a": "Dyspnoea at rest",
+    "option_b": "Mild fatigue",
+    "option_c": "Pallor of palms only",
+    "option_d": "Angular stomatitis",
+    "correct_answer": "A",
+    "explanation": "Severe anemia produces symptoms such as breathlessness at rest and generalized edema. Mild fatigue and pallor are mild/moderate features.",
+    "additional": "High-yield: Severe anaemia Hb <7 g/dl. Prediction: Expect cut-off values + symptoms in exams."
+  },
+  {
+    "question_text": "Which of the following is NOT a neonatal complication of maternal diabetes?",
+    "option_a": "Macrosomia",
+    "option_b": "Hypoglycemia",
+    "option_c": "Congenital anomalies",
+    "option_d": "Down syndrome",
+    "correct_answer": "D",
+    "explanation": "Down syndrome is unrelated. Infants of diabetic mothers are at risk of macrosomia, hypoglycemia, and anomalies (e.g., cardiac, neural tube).",
+    "additional": "High-yield: Hypoglycemia is the most common complication. Prediction: Expect 'NOT a complication' type question."
+  },
+  {
+    "question_text": "Which of the following is NOT a common cause of polyhydramnios?",
+    "option_a": "Esophageal atresia",
+    "option_b": "Anencephaly",
+    "option_c": "Diabetes mellitus",
+    "option_d": "Oligohydramnios",
+    "correct_answer": "D",
+    "explanation": "Oligohydramnios is the opposite condition. Polyhydramnios is commonly caused by congenital anomalies, anencephaly, and diabetes.",
+    "additional": "High-yield: Causes remembered as 'DAMM' – Diabetes, Anomalies, Multiple gestation, Maternal infections. Prediction: Direct cause-based exam question."
+  },
+  {
+    "question_text": "The most dangerous complication of abruptio placentae is",
+    "option_a": "Shock",
+    "option_b": "Couvelaire uterus",
+    "option_c": "DIC",
+    "option_d": "Renal failure",
+    "correct_answer": "C",
+    "explanation": "DIC is the most dangerous complication due to consumption of clotting factors. Shock and renal failure are common but secondary.",
+    "additional": "High-yield: Abruptio placentae often tested with coagulopathy link. Prediction: Expect DIC association."
+  },
+  {
+    "question_text": "A key difference between placenta praevia and abruptio placentae is",
+    "option_a": "Praevia causes painful bleeding, abruption painless",
+    "option_b": "Praevia uterus soft, abruption uterus hard",
+    "option_c": "Both cause painless bleeding",
+    "option_d": "Both cause uterine tenderness",
+    "correct_answer": "B",
+    "explanation": "Placenta praevia: painless bleeding, soft uterus. Abruption: painful bleeding, hard tender uterus. Option A is reversed.",
+    "additional": "High-yield: 'Painless praevia, Painful abruption'. Prediction: Contrast questions are frequent."
+  },
+  {
+    "question_text": "A common complication of polyhydramnios is",
+    "option_a": "Cord prolapse",
+    "option_b": "Macrosomia",
+    "option_c": "Congenital malformation",
+    "option_d": "Gestational hypertension",
+    "correct_answer": "A",
+    "explanation": "Excess fluid increases risk of cord prolapse and malpresentation. Macrosomia and anomalies are causes, not complications. Hypertension unrelated.",
+    "additional": "High-yield: Maternal risks: PROM, malpresentation. Prediction: Expect complication question."
+  },
+  {
+    "question_text": "The drug of choice in treating anaemia in pregnancy is",
+    "option_a": "Oral ferrous sulphate",
+    "option_b": "Parenteral iron dextran",
+    "option_c": "Folic acid only",
+    "option_d": "Vitamin B12",
+    "correct_answer": "A",
+    "explanation": "Oral ferrous sulphate is first-line treatment. Parenteral iron is for intolerance or severe anemia. Folic acid and B12 are adjuncts.",
+    "additional": "High-yield: Prevention by iron-folate supplementation. Prediction: Expect drug of choice question."
+  },
+  {
+    "question_text": "In eclampsia, the sequence of convulsion stages is",
+    "option_a": "Tonic – clonic – premonitory – coma",
+    "option_b": "Premonitory – tonic – clonic – coma",
+    "option_c": "Clonic – tonic – coma – premonitory",
+    "option_d": "Premonitory – clonic – tonic – coma",
+    "correct_answer": "B",
+    "explanation": "The stages of an eclamptic fit are premonitory (warning signs), tonic (rigidity), clonic (jerks), and coma. Option B is correct.",
+    "additional": "High-yield: Mnemonic = 'PTCC'. Prediction: Sequence question is a favorite in exams."
+  },
+  {
+    "question_text": "Which of the following is a cause of oligohydramnios?",
+    "option_a": "Renal agenesis",
+    "option_b": "Diabetes mellitus",
+    "option_c": "Esophageal atresia",
+    "option_d": "Anencephaly",
+    "correct_answer": "A",
+    "explanation": "Renal agenesis leads to oligohydramnios because the fetus cannot produce urine, the main component of amniotic fluid. Diabetes and esophageal atresia cause polyhydramnios.",
+    "additional": "High-yield: Oligohydramnios causes: renal agenesis, obstructive uropathy, post-term pregnancy. Prediction: Expect contrasting causes with polyhydramnios."
+  }
+]
+
+  
+  
+  
