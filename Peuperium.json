@@ -1,0 +1,363 @@
+[
+  {
+    "question_text": "Puerperal pyrexia is defined as",
+    "option_a": "Fever ≥38°C on two or more occasions within 10 days postpartum",
+    "option_b": "Fever ≥37.5°C for three consecutive days postpartum",
+    "option_c": "Fever ≥38°C persisting for six weeks postpartum",
+    "option_d": "Fever ≥39°C immediately after delivery",
+    "correct_answer": "A",
+    "explanation": "Puerperal pyrexia is defined as a temperature of 38°C or more on two occasions at least 24 hours apart within the first 10 days postpartum, excluding the first 24 hours.",
+    "additional": "High-yield: Common causes include genital tract infections, UTI, mastitis. Exclude malaria and other endemic causes in relevant regions."
+  },
+  {
+    "question_text": "The most common cause of puerperal sepsis is",
+    "option_a": "Anaerobic streptococci",
+    "option_b": "Staphylococcus aureus",
+    "option_c": "Escherichia coli",
+    "option_d": "Clostridium welchii",
+    "correct_answer": "C",
+    "explanation": "E. coli from the maternal genital tract is the most common pathogen in puerperal sepsis. S. aureus is more associated with mastitis. Clostridium welchii causes gas gangrene, rare in obstetrics.",
+    "additional": "High-yield: Risk factors include prolonged labour, PROM, frequent vaginal exams, and emergency caesarean section."
+  },
+  {
+    "question_text": "A common symptom of puerperal psychosis is",
+    "option_a": "Persistent mild headache",
+    "option_b": "Excessive sleepiness",
+    "option_c": "Severe depression or mania",
+    "option_d": "Slight forgetfulness",
+    "correct_answer": "C",
+    "explanation": "Puerperal psychosis usually presents with severe psychiatric manifestations such as depression, mania, hallucinations, or delusions, usually within 2 weeks postpartum.",
+    "additional": "High-yield: Differentiated from 'postpartum blues' which is mild and transient. Requires urgent psychiatric intervention."
+  },
+  {
+    "question_text": "The main preventive measure for puerperal sepsis is",
+    "option_a": "Administration of vitamin K",
+    "option_b": "Strict asepsis during labour and delivery",
+    "option_c": "Breastfeeding immediately after birth",
+    "option_d": "Postnatal iron supplementation",
+    "correct_answer": "B",
+    "explanation": "Strict asepsis during labour and delivery prevents introduction of pathogens. Other measures are beneficial but not specific for preventing puerperal sepsis.",
+    "additional": "High-yield: Hand hygiene, sterile instruments, and antibiotics for high-risk women are key."
+  },
+  {
+    "question_text": "A key complication of puerperal sepsis is",
+    "option_a": "Pulmonary embolism",
+    "option_b": "Uterine rupture",
+    "option_c": "Secondary postpartum hemorrhage",
+    "option_d": "Placenta accreta",
+    "correct_answer": "C",
+    "explanation": "Puerperal sepsis often leads to secondary postpartum hemorrhage due to infection and poor uterine involution. Pulmonary embolism is more linked to DVT.",
+    "additional": "High-yield: Always suspect sepsis if woman presents with fever and foul-smelling lochia."
+  },
+  {
+    "question_text": "The main symptom of mastitis is",
+    "option_a": "Breast lump with no pain",
+    "option_b": "Engorgement with systemic fever",
+    "option_c": "Severe breast pain with fever and erythema",
+    "option_d": "White nipple discharge",
+    "correct_answer": "C",
+    "explanation": "Mastitis presents with painful, red, swollen breast with fever. Engorgement is less severe and usually without systemic illness.",
+    "additional": "High-yield: Commonly caused by S. aureus; encourage continued breastfeeding unless abscess develops."
+  },
+  {
+    "question_text": "The immediate management of puerperal psychosis is",
+    "option_a": "Encouraging rest and reassurance",
+    "option_b": "Administration of antidepressants at home",
+    "option_c": "Admission for psychiatric care",
+    "option_d": "Herbal calming remedies",
+    "correct_answer": "C",
+    "explanation": "Puerperal psychosis is a psychiatric emergency requiring hospital admission and specialist management. Home management is unsafe.",
+    "additional": "High-yield: Associated with high risk of harm to mother and infant if untreated."
+  },
+  {
+    "question_text": "Predisposing factor for puerperal thrombophlebitis is",
+    "option_a": "Hypertension",
+    "option_b": "Prolonged immobility after delivery",
+    "option_c": "Hyperemesis gravidarum",
+    "option_d": "Polyhydramnios",
+    "correct_answer": "B",
+    "explanation": "Prolonged immobility predisposes to venous stasis and thrombus formation. Hypertension and hyperemesis are not major risk factors for puerperal thrombosis.",
+    "additional": "High-yield: Encourage early ambulation and hydration to reduce risk."
+  },
+  {
+    "question_text": "Which statement is TRUE about 'postpartum blues'?",
+    "option_a": "It is a severe depressive illness",
+    "option_b": "It resolves spontaneously within 2 weeks",
+    "option_c": "It requires urgent psychiatric admission",
+    "option_d": "It is a contraindication to breastfeeding",
+    "correct_answer": "B",
+    "explanation": "Postpartum blues is a mild, self-limiting mood disturbance occurring within the first week after birth, resolving spontaneously.",
+    "additional": "High-yield: Differentiate from puerperal psychosis which is severe and requires hospitalisation."
+  },
+  {
+    "question_text": "The most important nursing action to prevent mastitis is",
+    "option_a": "Administering prophylactic antibiotics",
+    "option_b": "Ensuring breasts are completely emptied during feeds",
+    "option_c": "Restricting fluid intake",
+    "option_d": "Delaying breastfeeding for 24 hours",
+    "correct_answer": "B",
+    "explanation": "Ensuring complete emptying of breasts prevents milk stasis, the major risk factor for mastitis. Prophylactic antibiotics are not recommended.",
+    "additional": "High-yield: Encourage proper latch and frequent breastfeeding."
+  },
+  {
+    "question_text": "Puerperal sepsis can cause which cardiovascular complication?",
+    "option_a": "Septic shock",
+    "option_b": "Congenital heart defect",
+    "option_c": "Mitral stenosis",
+    "option_d": "Pericardial effusion",
+    "correct_answer": "A",
+    "explanation": "Septic shock is a major complication of untreated puerperal sepsis. The others are unrelated to sepsis.",
+    "additional": "High-yield: Monitor vital signs and fluid balance in women with puerperal sepsis."
+  },
+  {
+    "question_text": "Puerperal thrombophlebitis is best prevented by",
+    "option_a": "Prophylactic diuretics",
+    "option_b": "Encouraging early ambulation",
+    "option_c": "Restricting mobility for 7 days",
+    "option_d": "Vitamin K supplementation",
+    "correct_answer": "B",
+    "explanation": "Early ambulation prevents venous stasis, the main risk factor for thrombophlebitis.",
+    "additional": "High-yield: In high-risk women, compression stockings and anticoagulants may be used."
+  },
+  {
+    "question_text": "A woman with puerperal psychosis is at high risk of",
+    "option_a": "Poor appetite",
+    "option_b": "Suicide and infanticide",
+    "option_c": "Breastfeeding problems only",
+    "option_d": "Anaemia",
+    "correct_answer": "B",
+    "explanation": "Puerperal psychosis carries a high risk of self-harm and harm to the baby if not managed. Breastfeeding problems and anaemia are secondary issues.",
+    "additional": "High-yield: Always prioritise safety of mother and infant."
+  },
+  {
+    "question_text": "The specific cause of secondary postpartum haemorrhage in puerperium is",
+    "option_a": "Genital tract laceration",
+    "option_b": "Retained products of conception with infection",
+    "option_c": "Placenta accreta",
+    "option_d": "Uterine rupture",
+    "correct_answer": "B",
+    "explanation": "Secondary PPH in puerperium is commonly due to retained placental fragments complicated by infection. Uterine rupture and accreta cause primary PPH.",
+    "additional": "High-yield: Look for fever, foul lochia, subinvolution of uterus."
+  },
+  {
+    "question_text": "The most important nursing intervention in puerperal sepsis is",
+    "option_a": "Giving iron supplements",
+    "option_b": "Maintaining strict asepsis in perineal care",
+    "option_c": "Applying ice packs to abdomen",
+    "option_d": "Restricting fluids",
+    "correct_answer": "B",
+    "explanation": "Aseptic perineal care prevents further contamination and spread of infection. Iron helps anemia but not sepsis directly.",
+    "additional": "High-yield: Broad spectrum antibiotics and fluid support are also key management."
+  },
+  {
+    "question_text": "Which one is a psychological change during puerperium?",
+    "option_a": "Postpartum blues",
+    "option_b": "Increased libido",
+    "option_c": "Hyperactivity",
+    "option_d": "Memory improvement",
+    "correct_answer": "A",
+    "explanation": "Postpartum blues are mild emotional disturbances that are common in puerperium. The other options are not typical changes.",
+    "additional": "High-yield: Up to 70% of mothers experience postpartum blues."
+  },
+  {
+    "question_text": "The commonest organism in mastitis is",
+    "option_a": "Streptococcus pyogenes",
+    "option_b": "Klebsiella pneumoniae",
+    "option_c": "Staphylococcus aureus",
+    "option_d": "E. coli",
+    "correct_answer": "C",
+    "explanation": "Staphylococcus aureus, often transmitted from the infant’s nose or throat, is the leading cause of mastitis.",
+    "additional": "High-yield: Encourage continued breastfeeding unless abscess forms."
+  },
+  {
+    "question_text": "The recommended treatment for puerperal thrombophlebitis is",
+    "option_a": "Bed rest with limb elevation and anticoagulants",
+    "option_b": "Immediate surgery",
+    "option_c": "Massage of affected leg",
+    "option_d": "Cold compresses only",
+    "correct_answer": "A",
+    "explanation": "Treatment includes rest, leg elevation, and anticoagulation to prevent clot propagation. Massage may dislodge clots and is contraindicated.",
+    "additional": "High-yield: Monitor closely for signs of pulmonary embolism."
+  },
+  {
+    "question_text": "The main symptom of puerperal sepsis is",
+    "option_a": "Persistent fever",
+    "option_b": "Epigastric pain",
+    "option_c": "Breast engorgement",
+    "option_d": "Headache",
+    "correct_answer": "A",
+    "explanation": "The hallmark of puerperal sepsis is persistent fever, usually accompanied by foul-smelling lochia, lower abdominal pain, and subinvolution of the uterus.",
+    "additional": "High-yield: Always suspect sepsis if temperature ≥38°C within 10 days postpartum."
+  },
+  {
+    "question_text": "The commonest cause of secondary postpartum haemorrhage is",
+    "option_a": "Uterine atony",
+    "option_b": "Retained placental fragments with infection",
+    "option_c": "Trauma to genital tract",
+    "option_d": "Coagulopathy",
+    "correct_answer": "B",
+    "explanation": "Secondary PPH occurs days to weeks postpartum, most often due to retained placental tissue complicated by infection.",
+    "additional": "High-yield: Presents with vaginal bleeding, foul lochia, and fever."
+  },
+  {
+    "question_text": "The preventive measure for puerperal thrombophlebitis includes",
+    "option_a": "Encouraging early ambulation",
+    "option_b": "Restricting fluids",
+    "option_c": "Bed rest for 7–10 days",
+    "option_d": "Administration of antibiotics",
+    "correct_answer": "A",
+    "explanation": "Early ambulation after delivery prevents venous stasis, reducing the risk of thrombophlebitis. Prolonged bed rest increases risk.",
+    "additional": "High-yield: Leg elevation and compression stockings also help."
+  },
+  {
+    "question_text": "Which complication is associated with untreated puerperal sepsis?",
+    "option_a": "Septic shock",
+    "option_b": "Anaemia",
+    "option_c": "Lactation failure",
+    "option_d": "Hypertension",
+    "correct_answer": "A",
+    "explanation": "Septic shock is a life-threatening complication of untreated puerperal sepsis. Anaemia and lactation failure may occur but are not the most dangerous.",
+    "additional": "High-yield: Rapid diagnosis and broad-spectrum antibiotics are lifesaving."
+  },
+  {
+    "question_text": "A distinguishing feature of puerperal psychosis compared to postpartum blues is",
+    "option_a": "Onset within 1–2 days postpartum",
+    "option_b": "Mild mood swings only",
+    "option_c": "Presence of delusions and hallucinations",
+    "option_d": "Spontaneous recovery in 1 week",
+    "correct_answer": "C",
+    "explanation": "Puerperal psychosis presents with severe psychiatric symptoms such as delusions and hallucinations, unlike postpartum blues which is mild and self-limiting.",
+    "additional": "High-yield: Puerperal psychosis requires urgent psychiatric admission."
+  },
+  {
+    "question_text": "The safest method of feeding a mother with puerperal psychosis is",
+    "option_a": "Allowing her to breastfeed independently",
+    "option_b": "Supervised breastfeeding",
+    "option_c": "Withholding breastfeeding completely",
+    "option_d": "Handing baby to relatives only",
+    "correct_answer": "B",
+    "explanation": "Mothers with puerperal psychosis may harm the infant unintentionally; supervised breastfeeding ensures safety while maintaining lactation.",
+    "additional": "High-yield: Safety of baby is priority; psychiatric care for mother is essential."
+  },
+  {
+    "question_text": "A sign of puerperal thrombophlebitis is",
+    "option_a": "Sudden chest pain",
+    "option_b": "Swollen, tender leg vein",
+    "option_c": "Profuse vaginal bleeding",
+    "option_d": "Fever with breast pain",
+    "correct_answer": "B",
+    "explanation": "Thrombophlebitis presents with localized pain, swelling, and tenderness along a vein in the leg. Chest pain suggests pulmonary embolism.",
+    "additional": "High-yield: Always monitor for embolism as a complication."
+  },
+  {
+    "question_text": "The commonest psychiatric disorder in puerperium is",
+    "option_a": "Puerperal psychosis",
+    "option_b": "Postpartum blues",
+    "option_c": "Major depression",
+    "option_d": "Schizophrenia",
+    "correct_answer": "B",
+    "explanation": "Postpartum blues is the most common psychiatric condition in puerperium, affecting up to 70% of mothers. It is self-limiting.",
+    "additional": "High-yield: Differentiate from psychosis which is rare but severe."
+  },
+  {
+    "question_text": "Which one is a systemic complication of puerperal sepsis?",
+    "option_a": "Endocarditis",
+    "option_b": "Subinvolution of uterus",
+    "option_c": "Secondary postpartum haemorrhage",
+    "option_d": "Breast abscess",
+    "correct_answer": "A",
+    "explanation": "Septicemia from puerperal sepsis may spread to cause systemic infections like endocarditis. The others are local complications.",
+    "additional": "High-yield: Always monitor for systemic spread in severe sepsis."
+  },
+  {
+    "question_text": "The main management of puerperal thrombophlebitis is",
+    "option_a": "Bed rest, limb elevation, and anticoagulants",
+    "option_b": "Prolonged immobilization",
+    "option_c": "Immediate surgical removal of clot",
+    "option_d": "Diuretics and massage",
+    "correct_answer": "A",
+    "explanation": "Bed rest with limb elevation and anticoagulant therapy is the mainstay of treatment. Surgery and massage are not appropriate.",
+    "additional": "High-yield: Heparin is commonly used in acute management."
+  },
+  {
+    "question_text": "The initial presentation of puerperal sepsis often includes",
+    "option_a": "Profuse bleeding",
+    "option_b": "Lower abdominal pain and fever",
+    "option_c": "Breast abscess",
+    "option_d": "Severe depression",
+    "correct_answer": "B",
+    "explanation": "Puerperal sepsis typically presents with fever, abdominal tenderness, and foul-smelling lochia. Bleeding is secondary.",
+    "additional": "High-yield: Always evaluate lochia and uterine involution."
+  },
+  {
+    "question_text": "The specific cause of puerperal mastitis is",
+    "option_a": "Blocked milk ducts",
+    "option_b": "Cracked nipples introducing bacteria",
+    "option_c": "Poor positioning during breastfeeding",
+    "option_d": "Overproduction of milk",
+    "correct_answer": "B",
+    "explanation": "Cracked nipples act as entry points for bacteria, particularly Staphylococcus aureus, leading to mastitis. Poor positioning leads to engorgement but not infection directly.",
+    "additional": "High-yield: Encourage proper latch and nipple care."
+  },
+  {
+    "question_text": "The difference between primary and secondary postpartum haemorrhage is",
+    "option_a": "Primary occurs after 24 hours, secondary within 24 hours",
+    "option_b": "Primary occurs within 24 hours, secondary after 24 hours",
+    "option_c": "Primary is always due to trauma, secondary due to infection",
+    "option_d": "Primary is physiological, secondary pathological",
+    "correct_answer": "B",
+    "explanation": "Primary PPH occurs within 24 hours of delivery, while secondary occurs from 24 hours up to 6 weeks postpartum.",
+    "additional": "High-yield: Retained products and infection are common causes of secondary PPH."
+  },
+  {
+    "question_text": "A woman with puerperal psychosis is best managed with",
+    "option_a": "Antidepressants only",
+    "option_b": "Admission and antipsychotic therapy",
+    "option_c": "Bed rest at home",
+    "option_d": "Electrolyte correction only",
+    "correct_answer": "B",
+    "explanation": "Management requires inpatient psychiatric care with antipsychotics. Home management is unsafe.",
+    "additional": "High-yield: Involve both psychiatric and obstetric teams."
+  },
+  {
+    "question_text": "The commonest cardiovascular complication of puerperium is",
+    "option_a": "Deep venous thrombosis",
+    "option_b": "Cardiac arrest",
+    "option_c": "Hypertension",
+    "option_d": "Congenital heart disease",
+    "correct_answer": "A",
+    "explanation": "DVT is the most common cardiovascular complication due to venous stasis and hypercoagulable state of puerperium.",
+    "additional": "High-yield: Monitor for calf pain, swelling, and warmth."
+  },
+  {
+    "question_text": "The preventive measure for mastitis is",
+    "option_a": "Proper breastfeeding technique",
+    "option_b": "Routine antibiotics",
+    "option_c": "Restricting breastfeeding",
+    "option_d": "Washing breasts with soap each time",
+    "correct_answer": "A",
+    "explanation": "Proper breastfeeding technique ensures effective emptying and prevents nipple trauma, the main cause of mastitis.",
+    "additional": "High-yield: Continue breastfeeding during mastitis unless abscess develops."
+  },
+  {
+    "question_text": "Secondary postpartum haemorrhage occurs",
+    "option_a": "Within the first 24 hours of delivery",
+    "option_b": "Between 24 hours and 6 weeks postpartum",
+    "option_c": "After 6 weeks postpartum",
+    "option_d": "Only in women with cesarean sections",
+    "correct_answer": "B",
+    "explanation": "Secondary PPH is defined as bleeding occurring from 24 hours up to 6 weeks postpartum. Primary is within the first 24 hours.",
+    "additional": "High-yield: Always investigate for retained tissue or infection."
+  },
+  {
+    "question_text": "The drug of choice in puerperal sepsis is",
+    "option_a": "Penicillin only",
+    "option_b": "Broad-spectrum antibiotics",
+    "option_c": "Paracetamol",
+    "option_d": "Diuretics",
+    "correct_answer": "B",
+    "explanation": "Broad-spectrum antibiotics covering gram-positive, gram-negative, and anaerobes are indicated in puerperal sepsis. Supportive therapy is added as needed.",
+    "additional": "High-yield: Common regimen = Ampicillin + Gentamicin + Metronidazole."
+  }
+]
+
