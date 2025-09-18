@@ -1,0 +1,552 @@
+[
+  {
+    "question_text": "A circumscribed swelling on the newborn’s scalp is indicative of",
+    "option_a": "Caput succedaneum",
+    "option_b": "Subgaleal haemorrhage",
+    "option_c": "Intracranial injury",
+    "option_d": "Neonatal cephalhaematoma",
+    "correct_answer": "D",
+    "explanation": "A cephalhaematoma is a circumscribed swelling caused by bleeding beneath the periosteum of the skull bone, limited by suture lines. Caput succedaneum crosses sutures and is due to edema. Subgaleal hemorrhage is diffuse and crosses sutures. Intracranial injury is not visible as a scalp swelling.",
+    "additional": "High-yield: Cephalhaematoma → does NOT cross sutures. Caput succedaneum → crosses sutures. Exam tip: 'Caput crosses, Cephal doesn't.'"
+  },
+  {
+    "question_text": "Neonatal injury to nerve roots C8 & T1 causes one of the following",
+    "option_a": "Klumpke’s palsy",
+    "option_b": "Erb’s palsy",
+    "option_c": "Phrenic injury",
+    "option_d": "Radial palsy",
+    "correct_answer": "A",
+    "explanation": "Klumpke’s palsy results from injury to C8 and T1 roots, leading to paralysis of hand muscles and a 'claw hand.' Erb’s palsy is C5–C6, causing 'waiter’s tip.' Phrenic injury affects the diaphragm. Radial palsy is not birth related.",
+    "additional": "Mnemonic: 'Klumpke = Claw' (C8–T1). 'Erb’s = Extended arm' (C5–C6)."
+  },
+  {
+    "question_text": "Which one of the following clinical features indicates neonatal intracranial injury?",
+    "option_a": "An oedematous swelling on the scalp that resolves in 48h",
+    "option_b": "Bleeding between epicranial aponeurosis and periosteum",
+    "option_c": "Excessive molding or stretching of the fetal head",
+    "option_d": "Peripheral cyanosis noted at extremities",
+    "correct_answer": "C",
+    "explanation": "Excessive molding and abnormal stretching of the head suggests intracranial injury. Option A describes caput. Option B describes subgaleal hemorrhage. Cyanosis is non-specific.",
+    "additional": "High-yield: Intracranial injury → irritability, seizures, abnormal tone, bulging fontanelle."
+  },
+  {
+    "question_text": "The PRIORITY action when nursing a neonate on phototherapy is to",
+    "option_a": "Turn the neonate every six hours",
+    "option_b": "Encourage mother to stop breastfeeding",
+    "option_c": "Notify physician if skin turns bronze",
+    "option_d": "Check vital signs every 2–4 hours",
+    "correct_answer": "D",
+    "explanation": "Monitoring vitals ensures safety and detects complications early. Turning is useful but not priority. Breastfeeding is continued. Bronze baby syndrome is rare and not the first action.",
+    "additional": "High-yield: Cover eyes & genitals, maintain hydration, encourage breastfeeding."
+  },
+  {
+    "question_text": "The most severe type of urinary tract trauma is that which presents with",
+    "option_a": "Retention of urine",
+    "option_b": "Stress incontinence",
+    "option_c": "Scalding sensation",
+    "option_d": "Fistula formation",
+    "correct_answer": "D",
+    "explanation": "Fistula formation is a severe outcome of urinary tract trauma, causing continuous leakage of urine. Other symptoms are less severe.",
+    "additional": "High-yield: Obstetric fistula often due to prolonged obstructed labour."
+  },
+  {
+    "question_text": "A clinical feature indicative of transient tachypnoea of the newborn is",
+    "option_a": "Rapid respirations up to 120/min",
+    "option_b": "Marked rib recession",
+    "option_c": "Common after normal vaginal delivery",
+    "option_d": "Respirations <40/min",
+    "correct_answer": "A",
+    "explanation": "TTN is due to delayed clearance of lung fluid, causing tachypnoea >60/min (sometimes up to 120). Rib recession suggests RDS. TTN is common after C-section, not normal delivery. Low RR is not TTN.",
+    "additional": "High-yield: TTN = 'wet lung syndrome,' resolves in 24–72h."
+  },
+  {
+    "question_text": "The most common complication of respiratory distress syndrome is",
+    "option_a": "Cerebral palsy",
+    "option_b": "Pneumothorax",
+    "option_c": "Epilepsy",
+    "option_d": "Fractured ribs",
+    "correct_answer": "B",
+    "explanation": "Pneumothorax occurs due to barotrauma and alveolar rupture during ventilation in RDS. Cerebral palsy and epilepsy are long-term sequelae but not the commonest acute complication.",
+    "additional": "High-yield: RDS due to surfactant deficiency in preterm babies."
+  },
+  {
+    "question_text": "Acute inflammatory mastitis can be prevented postnatally by",
+    "option_a": "Using prophylactic antibiotics",
+    "option_b": "Using proper fitting bra",
+    "option_c": "Washing breasts before feeds",
+    "option_d": "Emptying breasts completely",
+    "correct_answer": "D",
+    "explanation": "Incomplete emptying causes milk stasis, a major risk for mastitis. Antibiotics and breast washing are not preventive. Proper bras help but not key prevention.",
+    "additional": "High-yield: Encourage frequent feeding and alternate breasts."
+  },
+  {
+    "question_text": "Complications of deep venous thrombosis include",
+    "option_a": "Pulmonary embolism, varicosity",
+    "option_b": "Moist gangrene, secondary PPH",
+    "option_c": "Hydronephrosis, haematoma",
+    "option_d": "Prolonged labour, DIC",
+    "correct_answer": "A",
+    "explanation": "PE is the most dangerous complication of DVT. Varicosities may remain. Other options are incorrect associations.",
+    "additional": "High-yield: Always suspect PE in sudden postpartum collapse with chest pain/dyspnoea."
+  },
+  {
+    "question_text": "Icterus gravis and hydrops fetalis are highly associated with",
+    "option_a": "Rhesus D incompatibility",
+    "option_b": "ABO incompatibility",
+    "option_c": "Physiological jaundice",
+    "option_d": "Instant perinatal death",
+    "correct_answer": "A",
+    "explanation": "Severe hemolysis from Rh incompatibility causes hydrops and icterus gravis. ABO incompatibility usually milder. Physiological jaundice is benign.",
+    "additional": "High-yield: Prevention by Anti-D prophylaxis within 72h of delivery."
+  },
+  {
+    "question_text": "The aim of exchange transfusion includes",
+    "option_a": "Cure of haemolysis & restore Hb",
+    "option_b": "Cure hypoxia & remove toxins",
+    "option_c": "Stabilize immune & liver function",
+    "option_d": "Control haemolysis & restore Hb",
+    "correct_answer": "D",
+    "explanation": "Exchange transfusion removes sensitized RBCs, reduces bilirubin, and restores Hb. It does not cure hypoxia or immune dysfunction.",
+    "additional": "High-yield: Indicated in severe hemolytic disease of the newborn (bilirubin >20 mg/dl)."
+  },
+  {
+    "question_text": "The earliest onset of cephalohaematoma is",
+    "option_a": "6 hours postnatally",
+    "option_b": "12 hours postnatally",
+    "option_c": "18 hours postnatally",
+    "option_d": "Immediately after birth",
+    "correct_answer": "A",
+    "explanation": "Cephalhaematoma usually appears 6–12 hours after birth, not immediately. Caput succedaneum appears immediately.",
+    "additional": "High-yield: Cephalhaematoma resolves over weeks; may cause jaundice."
+  },
+  {
+    "question_text": "Use of bed cradle in leg thrombosis management is meant to",
+    "option_a": "Keep legs straight",
+    "option_b": "Prevent embolism",
+    "option_c": "Control temperature",
+    "option_d": "Promote venous drainage",
+    "correct_answer": "D",
+    "explanation": "A bed cradle prevents bedclothes pressing on legs and promotes venous return. It does not prevent embolism directly.",
+    "additional": "High-yield: Combine with leg elevation & anticoagulants."
+  },
+  {
+    "question_text": "Inadequate surfactant levels in neonates leads to",
+    "option_a": "Meconium aspiration syndrome",
+    "option_b": "Intranatal pneumonia",
+    "option_c": "Respiratory distress syndrome",
+    "option_d": "Congenital pneumothorax",
+    "correct_answer": "C",
+    "explanation": "RDS results from deficiency of surfactant, common in preterm infants. Other conditions are unrelated.",
+    "additional": "High-yield: Antenatal steroids reduce risk of RDS in preterm labour."
+  },
+  {
+    "question_text": "The major causative organism of UTI during puerperium is",
+    "option_a": "Staphylococcus pyogenes",
+    "option_b": "Anaerobic streptococci",
+    "option_c": "Clostridium welchii",
+    "option_d": "Escherichia coli",
+    "correct_answer": "D",
+    "explanation": "E. coli is the most common cause of puerperal UTI. Others are rare causes.",
+    "additional": "High-yield: Encourage hydration and voiding after delivery."
+  },
+  {
+    "question_text": "Which birth trauma results from C5–C6 root damage?",
+    "option_a": "Erb’s palsy",
+    "option_b": "Radial palsy",
+    "option_c": "Brachial palsy",
+    "option_d": "Facial palsy",
+    "correct_answer": "A",
+    "explanation": "Erb’s palsy involves C5–C6 injury, leading to 'waiter’s tip' position. Klumpke’s is C8–T1. Facial palsy is due to pressure on the face.",
+    "additional": "Mnemonic: 'Erb = Extended arm' (C5–C6)."
+  },
+  {
+    "question_text": "Puerperal pyrexia is defined as",
+    "option_a": "Fever ≥38°C for 3 occasions",
+    "option_b": "Fever ≥38°C for 3 consecutive days",
+    "option_c": "Fever ≥38°C for 3 weeks",
+    "option_d": "Fever ≥38°C for 6 days occasionally",
+    "correct_answer": "A",
+    "explanation": "Puerperal pyrexia is fever ≥38°C on two or more occasions at least 24h apart within first 10 days postpartum. Option A closest to definition.",
+    "additional": "High-yield: Common causes: sepsis, UTI, mastitis."
+  },
+  {
+    "question_text": "During neonatal resuscitation, dry wiping is aimed at",
+    "option_a": "Prevent hypothermia & tactile stimulation",
+    "option_b": "Prevent haemorrhage & clear airway",
+    "option_c": "Prevent infection & tactile stimulation",
+    "option_d": "Improve appearance & prevent infection",
+    "correct_answer": "A",
+    "explanation": "Drying prevents heat loss and stimulates breathing. It does not prevent hemorrhage or infection directly.",
+    "additional": "High-yield: First step of resuscitation = warm, dry, stimulate."
+  },
+  {
+    "question_text": "Respiratory distress syndrome is caused by",
+    "option_a": "Poor quality of surfactant",
+    "option_b": "Inadequate surfactant levels",
+    "option_c": "Rib cage underdevelopment",
+    "option_d": "Gradual alveolar rupture",
+    "correct_answer": "B",
+    "explanation": "RDS is due to surfactant deficiency, common in preterm babies. Other causes are incorrect.",
+    "additional": "High-yield: Seen in <34 weeks; risk reduced by antenatal steroids."
+  },
+  {
+    "question_text": "Clinical features of intracranial injury in neonates include",
+    "option_a": "Limpness, bruises and hypothermia",
+    "option_b": "Irritability, hypoxia and paralysis",
+    "option_c": "Hypothermia, limpness and irritability",
+    "option_d": "Hypocalcaemia, paralysis and hypoxia",
+    "correct_answer": "B",
+    "explanation": "Neonatal intracranial injury presents with neurological features such as irritability, hypoxia and paralysis. Limpness and bruises are non-specific. Hypocalcaemia presents differently.",
+    "additional": "High-yield: Look for seizures, bulging fontanelle, and abnormal tone in exams."
+  },
+  {
+    "question_text": "An inorganic risk factor for birth injuries includes",
+    "option_a": "Maternal short stature",
+    "option_b": "Prenatal oligohydramnios",
+    "option_c": "External cephalic version",
+    "option_d": "Fetal macrosomia",
+    "correct_answer": "A",
+    "explanation": "Maternal short stature is an inorganic (maternal) risk factor for difficult labour and injury. Oligohydramnios and macrosomia are fetal factors. External cephalic version is a procedure.",
+    "additional": "High-yield: Always think maternal pelvis vs. fetal size mismatch."
+  },
+  {
+    "question_text": "When resuscitating an asphyxiated baby, the purpose of ensuring adequate ventilation before sodium bicarbonate is",
+    "option_a": "The drug decreases CO2 tension",
+    "option_b": "The drug increases CO2 tension",
+    "option_c": "The drug corrects metabolic acidosis",
+    "option_d": "The drug corrects metabolic alkalosis",
+    "correct_answer": "C",
+    "explanation": "Sodium bicarbonate corrects metabolic acidosis, but ventilation must be adequate to prevent CO2 accumulation and paradoxical acidosis.",
+    "additional": "High-yield: ABC before drugs in neonatal resuscitation."
+  },
+  {
+    "question_text": "The recommended chest compressions for neonatal resuscitation are",
+    "option_a": "60 compressions with 30 breaths/min",
+    "option_b": "3 compressions coordinated with 1 breath",
+    "option_c": "1 compression coordinated with 3 breaths",
+    "option_d": "90 compressions with 30 breaths/min",
+    "correct_answer": "B",
+    "explanation": "The correct neonatal ratio is 3 compressions to 1 breath, giving 90 compressions and 30 breaths per minute.",
+    "additional": "High-yield: Mnemonic '3:1 rule' → neonates are ventilation-driven."
+  },
+  {
+    "question_text": "The main function of surfactant factor is to",
+    "option_a": "Prevent alveoli collapse",
+    "option_b": "Initiate breathing at birth",
+    "option_c": "Enhance brain respiratory centre",
+    "option_d": "Regulate breathing rate",
+    "correct_answer": "A",
+    "explanation": "Surfactant reduces alveolar surface tension, preventing collapse. It doesn’t initiate breathing or regulate the brain center.",
+    "additional": "High-yield: Produced by type II pneumocytes after 28 weeks."
+  },
+  {
+    "question_text": "A specific clinical feature of respiratory distress syndrome includes",
+    "option_a": "Grunting on inspiration",
+    "option_b": "Grunting on expiration",
+    "option_c": "Flaring of nostrils",
+    "option_d": "Neonatal tachycardia",
+    "correct_answer": "B",
+    "explanation": "RDS is classically associated with expiratory grunting, nasal flaring, and chest retractions. Inspiratory grunting is incorrect.",
+    "additional": "High-yield: Think of preterm with grunting, flaring, retractions (GFR)."
+  },
+  {
+    "question_text": "An endogenous cause of puerperal sepsis is",
+    "option_a": "Chlamydia trachomatis",
+    "option_b": "Escherichia coli",
+    "option_c": "Clostridium tetani",
+    "option_d": "Pseudomonas aeruginosa",
+    "correct_answer": "B",
+    "explanation": "Endogenous causes are from within the maternal tract, E. coli being most common. Chlamydia is STD, tetanus exogenous, Pseudomonas nosocomial.",
+    "additional": "High-yield: Common sources → vagina, bowel organisms."
+  },
+  {
+    "question_text": "The main clinical feature of puerperal psychosis is",
+    "option_a": "Episodic insomnia",
+    "option_b": "Neglect of hygiene",
+    "option_c": "Major depression",
+    "option_d": "Mild headache",
+    "correct_answer": "C",
+    "explanation": "Puerperal psychosis presents with severe psychiatric symptoms, commonly depression or mania. Headache is not diagnostic.",
+    "additional": "High-yield: Onset usually within 2 weeks postpartum."
+  },
+  {
+    "question_text": "The main aim of fluids for postnatal client with urinary tract trauma is",
+    "option_a": "Control organism growth",
+    "option_b": "Keep client hydrated",
+    "option_c": "Maintain fluid balance",
+    "option_d": "Facilitate healing",
+    "correct_answer": "B",
+    "explanation": "Hydration dilutes urine, flushes bacteria, and promotes recovery. Others are secondary outcomes.",
+    "additional": "High-yield: Encourage 2–3L fluids/day unless contraindicated."
+  },
+  {
+    "question_text": "The type of DVT with non-detachable clot in inflamed vein is",
+    "option_a": "Phlebothrombosis",
+    "option_b": "Coagulopathy",
+    "option_c": "Pelviopathy",
+    "option_d": "Thrombophlebitis",
+    "correct_answer": "D",
+    "explanation": "Thrombophlebitis involves inflamed vein with adherent clot. Phlebothrombosis is less adherent. Others are unrelated.",
+    "additional": "High-yield: Always check for swelling, pain, and redness postpartum."
+  },
+  {
+    "question_text": "The neonatal birth injury with bleeding between epicranial aponeurosis and periosteum is",
+    "option_a": "Caput succedaneum",
+    "option_b": "Intracranial haemorrhage",
+    "option_c": "Subgaleal haemorrhage",
+    "option_d": "Aponeurotic haemorrhage",
+    "correct_answer": "C",
+    "explanation": "Subgaleal hemorrhage occurs between aponeurosis and periosteum, dangerous due to large volume blood loss. Caput is edema, not bleeding.",
+    "additional": "High-yield: Subgaleal hemorrhage = fluctuating, crosses sutures."
+  },
+  {
+    "question_text": "Neonatal injury to C8 & T1 roots causes",
+    "option_a": "Erb’s palsy",
+    "option_b": "Klumpke’s palsy",
+    "option_c": "Phrenic injury",
+    "option_d": "Radial palsy",
+    "correct_answer": "B",
+    "explanation": "Klumpke’s palsy = C8–T1, leading to claw hand. Erb’s = C5–C6. Phrenic = diaphragm paralysis.",
+    "additional": "Mnemonic: Klumpke = claw."
+  },
+  {
+    "question_text": "Kleihauer acid solution test is recommended in",
+    "option_a": "Moderate physiological jaundice",
+    "option_b": "Hemolytic jaundice prenatally",
+    "option_c": "Severe hepatosplenomegaly",
+    "option_d": "Hemolytic jaundice postnatally",
+    "correct_answer": "D",
+    "explanation": "The Kleihauer test detects fetal RBCs in maternal circulation, used in hemolytic disease of the newborn (postnatally).",
+    "additional": "High-yield: Helps assess need for anti-D prophylaxis."
+  },
+  {
+    "question_text": "A maternal febrile condition within first 3 weeks postpartum suggests",
+    "option_a": "Puerperal sepsis",
+    "option_b": "Puerperal thrombosis",
+    "option_c": "Puerperal pyrexia",
+    "option_d": "Puerperal shock",
+    "correct_answer": "C",
+    "explanation": "Puerperal pyrexia is defined as maternal fever ≥38°C within the first 3 weeks postpartum. Sepsis is one cause but not the definition.",
+    "additional": "High-yield: Most common cause is genital tract infection."
+  },
+  {
+    "question_text": "A medical predisposing factor to puerperal sepsis is",
+    "option_a": "Delivery by unskilled attendant",
+    "option_b": "Emergency caesarean section",
+    "option_c": "Poor personal hygiene",
+    "option_d": "Delay in care seeking",
+    "correct_answer": "B",
+    "explanation": "Emergency cesarean is a major obstetric/medical risk factor due to prolonged labour, rupture of membranes, and surgical wound.",
+    "additional": "High-yield: Others include prolonged labour and anemia."
+  },
+  {
+    "question_text": "Which statement is correct regarding puerperal psychosis?",
+    "option_a": "Majority present with major depression",
+    "option_b": "Majority present with manic episodes",
+    "option_c": "History of mental disorder is a direct cause",
+    "option_d": "Post-partum blues is indicative of it",
+    "correct_answer": "B",
+    "explanation": "Most cases present with mania or mixed episodes. Postpartum blues are common and benign. History of mental illness is a risk but not direct cause.",
+    "additional": "High-yield: Onset within 2 weeks postpartum."
+  },
+  {
+    "question_text": "Complications of DVT include",
+    "option_a": "Moist gangrene, secondary PPH",
+    "option_b": "Pulmonary embolism, varicosity",
+    "option_c": "Hydronephrosis, haematoma",
+    "option_d": "Prolonged labour, DIC",
+    "correct_answer": "B",
+    "explanation": "PE and varicosities are complications of DVT. Others are not associated.",
+    "additional": "High-yield: Always rule out PE in sudden postpartum dyspnoea."
+  },
+  {
+    "question_text": "The main aim of fluids for a postnatal client with urinary tract trauma is",
+    "option_a": "Hydration",
+    "option_b": "Maintain fluid balance",
+    "option_c": "Facilitate healing",
+    "option_d": "Control growth of organisms",
+    "correct_answer": "A",
+    "explanation": "Hydration is priority to flush bacteria and prevent stasis. Balance and healing follow.",
+    "additional": "High-yield: Encourage >2L/day if no contraindications."
+  },
+  {
+    "question_text": "The main complication of subgaleal haemorrhage in neonates is",
+    "option_a": "Hypoglycaemia",
+    "option_b": "Severe shock",
+    "option_c": "Cyanosis",
+    "option_d": "Hypothermia",
+    "correct_answer": "B",
+    "explanation": "Subgaleal haemorrhage involves bleeding into a large potential space, leading to massive blood loss and hypovolemic shock. Hypoglycemia, cyanosis, and hypothermia may occur but are not the main life-threatening complication.",
+    "additional": "High-yield: Subgaleal haemorrhage can hold up to 50–70% of neonate’s blood volume."
+  },
+  {
+    "question_text": "The neonatal condition that occurs due to delayed absorption of lung fluid is",
+    "option_a": "Meconium aspiration",
+    "option_b": "Transient tachypnoea",
+    "option_c": "Respiratory distress syndrome",
+    "option_d": "Pulmonary haemorrhage",
+    "correct_answer": "B",
+    "explanation": "Transient tachypnoea of the newborn (TTN) results from delayed clearance of fetal lung fluid, common after caesarean delivery. Meconium aspiration and RDS have different causes.",
+    "additional": "High-yield: TTN usually resolves within 24–72 hours with supportive care."
+  },
+  {
+    "question_text": "A baby presents with jaundice within 24 hours of life. The most likely cause is",
+    "option_a": "Physiological jaundice",
+    "option_b": "Breastfeeding jaundice",
+    "option_c": "Haemolytic disease of the newborn",
+    "option_d": "Biliary atresia",
+    "correct_answer": "C",
+    "explanation": "Jaundice appearing within 24h is pathological, most often due to hemolysis from Rh or ABO incompatibility. Physiological jaundice appears after 48h.",
+    "additional": "High-yield: Always investigate jaundice <24h; risk of kernicterus."
+  },
+  {
+    "question_text": "The commonest organism causing neonatal sepsis is",
+    "option_a": "Group B Streptococcus",
+    "option_b": "Staphylococcus aureus",
+    "option_c": "Klebsiella pneumoniae",
+    "option_d": "E. coli",
+    "correct_answer": "A",
+    "explanation": "Group B Streptococcus is the leading cause of neonatal sepsis, followed by E. coli. Staphylococcus is less common.",
+    "additional": "High-yield: Maternal GBS colonization is a major risk factor."
+  },
+  {
+    "question_text": "A baby born at 28 weeks gestation is at greatest risk of",
+    "option_a": "Hypothermia",
+    "option_b": "Polycythaemia",
+    "option_c": "Hyperbilirubinaemia",
+    "option_d": "Neonatal sepsis",
+    "correct_answer": "A",
+    "explanation": "Preterm babies, especially <30 weeks, have immature thermoregulation and are highly prone to hypothermia. Hyperbilirubinaemia and sepsis are also risks but not as immediate.",
+    "additional": "High-yield: Prevent hypothermia with warmers, skin-to-skin, and plastic wraps."
+  },
+  {
+    "question_text": "Which is the definitive management of severe Rhesus isoimmunisation?",
+    "option_a": "Phototherapy",
+    "option_b": "Exchange transfusion",
+    "option_c": "Blood transfusion",
+    "option_d": "Intravenous immunoglobulin",
+    "correct_answer": "B",
+    "explanation": "Exchange transfusion removes sensitized RBCs and reduces bilirubin rapidly. Phototherapy helps but is insufficient in severe cases.",
+    "additional": "High-yield: Exchange transfusion also corrects anemia."
+  },
+  {
+    "question_text": "The specific clinical feature of meconium aspiration syndrome is",
+    "option_a": "Greenish discolouration of nails and skin",
+    "option_b": "Tachypnoea with nasal flaring",
+    "option_c": "Expiratory grunting",
+    "option_d": "Cyanosis",
+    "correct_answer": "A",
+    "explanation": "Meconium staining causes green discoloration of skin, nails, and umbilical cord, a hallmark of meconium aspiration. Other features overlap with general RDS.",
+    "additional": "High-yield: MAS can cause chemical pneumonitis and pulmonary hypertension."
+  },
+  {
+    "question_text": "The most common cause of neonatal convulsions is",
+    "option_a": "Hypocalcaemia",
+    "option_b": "Hypoglycaemia",
+    "option_c": "Kernicterus",
+    "option_d": "Intraventricular haemorrhage",
+    "correct_answer": "B",
+    "explanation": "Hypoglycemia is the most frequent cause of neonatal seizures. Hypocalcemia and intracranial hemorrhage are also causes but less common.",
+    "additional": "High-yield: Always check blood glucose in neonatal convulsions."
+  },
+  {
+    "question_text": "Which one of the following is a sign of congenital syphilis in neonates?",
+    "option_a": "Snuffles",
+    "option_b": "Bronze baby syndrome",
+    "option_c": "Bilharziasis",
+    "option_d": "Facial palsy",
+    "correct_answer": "A",
+    "explanation": "Syphilitic 'snuffles' (profuse nasal discharge) is a classic sign of congenital syphilis. Bronze baby is due to phototherapy. Bilharziasis is unrelated.",
+    "additional": "High-yield: Other features include Hutchinson teeth, saddle nose."
+  },
+  {
+    "question_text": "The main complication of untreated neonatal jaundice is",
+    "option_a": "Sepsis",
+    "option_b": "Kernicterus",
+    "option_c": "Hypoglycaemia",
+    "option_d": "Dehydration",
+    "correct_answer": "B",
+    "explanation": "Excess unconjugated bilirubin can cross the BBB and deposit in basal ganglia causing kernicterus, leading to cerebral palsy and hearing loss.",
+    "additional": "High-yield: Kernicterus is preventable with early phototherapy/exchange transfusion."
+  },
+  {
+    "question_text": "A baby with poor Moro reflex, arm adduction, and internal rotation has",
+    "option_a": "Klumpke’s palsy",
+    "option_b": "Erb’s palsy",
+    "option_c": "Radial palsy",
+    "option_d": "Phrenic palsy",
+    "correct_answer": "B",
+    "explanation": "Erb’s palsy (C5–C6 injury) causes the 'waiter’s tip' posture with absent Moro reflex on affected side.",
+    "additional": "High-yield: Common after shoulder dystocia."
+  },
+  {
+    "question_text": "The earliest complication of prematurity is",
+    "option_a": "Respiratory distress syndrome",
+    "option_b": "Necrotising enterocolitis",
+    "option_c": "Retinopathy of prematurity",
+    "option_d": "Cerebral palsy",
+    "correct_answer": "A",
+    "explanation": "RDS is the earliest complication, presenting immediately after birth in preterm babies. NEC, ROP, and CP occur later.",
+    "additional": "High-yield: Surfactant deficiency is the cause."
+  },
+  {
+    "question_text": "A major cause of neonatal death in developing countries is",
+    "option_a": "Neonatal tetanus",
+    "option_b": "Neonatal sepsis",
+    "option_c": "Congenital anomalies",
+    "option_d": "Respiratory distress syndrome",
+    "correct_answer": "B",
+    "explanation": "Sepsis is a leading cause of neonatal mortality in low-resource settings. Tetanus is now less common due to immunisation.",
+    "additional": "High-yield: Prevention through clean delivery and infection control."
+  },
+  {
+    "question_text": "The purpose of giving vitamin K to neonates at birth is to prevent",
+    "option_a": "Haemolytic disease",
+    "option_b": "Hemorrhagic disease",
+    "option_c": "Scurvy",
+    "option_d": "Sepsis",
+    "correct_answer": "B",
+    "explanation": "Vitamin K prevents hemorrhagic disease of the newborn by activating clotting factors. It does not prevent hemolysis, scurvy, or sepsis.",
+    "additional": "High-yield: Given IM at birth."
+  },
+  {
+    "question_text": "A neonate presents with bluish discoloration of the hands and feet with normal oxygen saturation. This is most likely",
+    "option_a": "Cyanotic heart disease",
+    "option_b": "Acrocyanosis",
+    "option_c": "Shock",
+    "option_d": "Hypothermia",
+    "correct_answer": "B",
+    "explanation": "Acrocyanosis is normal in neonates, due to immature peripheral circulation. Oxygen saturation is normal.",
+    "additional": "High-yield: Differentiate from central cyanosis."
+  },
+  {
+    "question_text": "The primary cause of neonatal tetanus is",
+    "option_a": "Use of unsterile instruments",
+    "option_b": "Maternal malnutrition",
+    "option_c": "Lack of vitamin K",
+    "option_d": "Birth asphyxia",
+    "correct_answer": "A",
+    "explanation": "Neonatal tetanus arises from infection of the umbilical stump with Clostridium tetani due to unclean delivery practices.",
+    "additional": "High-yield: Prevented by maternal tetanus immunisation and clean cord care."
+  },
+  {
+    "question_text": "The Apgar score is assessed at",
+    "option_a": "1 and 3 minutes",
+    "option_b": "1 and 5 minutes",
+    "option_c": "5 and 10 minutes",
+    "option_d": "Immediately and at 10 minutes",
+    "correct_answer": "B",
+    "explanation": "Apgar is recorded at 1 and 5 minutes, and at 10 if abnormal. It assesses Appearance, Pulse, Grimace, Activity, Respiration.",
+    "additional": "High-yield: Score <7 at 5 min indicates resuscitation required."
+  },
+  {
+    "question_text": "The main complication of prematurity leading to blindness is",
+    "option_a": "Congenital cataract",
+    "option_b": "Retinopathy of prematurity",
+    "option_c": "Kernicterus",
+    "option_d": "Congenital glaucoma",
+    "correct_answer": "B",
+    "explanation": "ROP is abnormal proliferation of retinal vessels due to oxygen therapy in preterms, leading to retinal detachment and blindness.",
+    "additional": "High-yield: Prevention—judicious oxygen therapy."
+  }
+]
